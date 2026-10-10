@@ -1,0 +1,876 @@
+{
+  "status": "PASS",
+  "pins": {
+    "pr32": "338bec6395f89c9a8f2e14bf98d025c9c2f4c7a9",
+    "pr33": "a0d02c2986d15d784bef8a226865cefac966bc3f",
+    "pr36": "d7efdbeb2def45af2fcfe2253f7d1eb61ab5bf1c",
+    "pr37": "67910d41054e5237f4dbe77fb32c3d3ad5ca6897",
+    "pr39": "5147e097ed9721eb4ad55f8f5cd20cd6427acb8c",
+    "pr40": "dc60a859a0157b1d2d1b57b37324509abc22c600",
+    "pr41": "08b73637d4136f91606aad332c46cafd064417f8",
+    "pr44": "650fc2a2b653a8d74854dd8c4bbfbb4871b7e371"
+  },
+  "arithmetic": {
+    "stride": {
+      "pairs": 23853456,
+      "aliases": 0
+    },
+    "randomProducts": 48,
+    "randomSeed": 20261010,
+    "denseCases": [
+      {
+        "bits": 1,
+        "alternating": true,
+        "mismatches": 0,
+        "slots": 4884
+      },
+      {
+        "bits": 64,
+        "alternating": true,
+        "mismatches": 0,
+        "slots": 4884
+      },
+      {
+        "bits": 423,
+        "alternating": false,
+        "mismatches": 0,
+        "slots": 4884
+      }
+    ],
+    "ordinaryPowers": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      71,
+      72,
+      142
+    ],
+    "characteristicZeroCrossTerm": "71",
+    "widthGuardRejected4096BitDigit": true
+  },
+  "kernel": {
+    "nilpotencyIndex": 27,
+    "nonzero": 132,
+    "positive": 66,
+    "negative": 66,
+    "content": "1",
+    "constantTerm": "1"
+  },
+  "exact": {
+    "finalResultSHA256": "0ae5a9176b5d47afe85ae3a144fed2df55079396ae5e789461ef9358ea98f791",
+    "commonDenominator": "64",
+    "denominatorFiles": 24,
+    "positiveNumerators": 256,
+    "negativeNumerators": 320,
+    "maxNumeratorBits": 35,
+    "retained": 576,
+    "outsideInterpretedWindowNonzeros": 256,
+    "positiveContributions": 372,
+    "negativeContributions": 372,
+    "maxAbsRunningNumerator": "48912",
+    "maxAbsEdgeNumerator": "48912",
+    "identityPermutationSign": "1",
+    "permutationSigns": {
+      "1023": "-1",
+      "1032": "1",
+      "1203": "1",
+      "1230": "-1",
+      "1302": "-1",
+      "1320": "1",
+      "2013": "1",
+      "2031": "-1",
+      "2103": "-1",
+      "2130": "1",
+      "2301": "1",
+      "2310": "-1",
+      "3012": "-1",
+      "3021": "1",
+      "3102": "1",
+      "3120": "-1",
+      "3201": "-1",
+      "3210": "1",
+      "0123": "1",
+      "0132": "-1",
+      "0213": "-1",
+      "0231": "1",
+      "0312": "1",
+      "0321": "-1"
+    },
+    "stats": {
+      "acceptedFullQuotients": 24,
+      "requests": 432,
+      "sourceRows": 44280,
+      "distinctSourceExponents": 12144,
+      "nonzeroSourceRows": 656,
+      "nonzeroDistinctSourceCoefficients": 320,
+      "nonzeroSignedEdgeSelections": 152
+    },
+    "numericalCoordinates": 46,
+    "structuralCoordinates": 35,
+    "nonzeroNumerical": 0,
+    "relationRows": 47,
+    "crossRelations": 12,
+    "minorIsIdentity": true,
+    "coordinatesReduced": true,
+    "structuralOnlyExponents": 0,
+    "structuralRecipe": [
+      {
+        "index": 80,
+        "m": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "S": 0,
+        "activeAnchors": 0,
+        "slot": 30,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 79,
+        "m": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "S": 1,
+        "activeAnchors": 0,
+        "slot": 31,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 78,
+        "m": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "S": 2,
+        "activeAnchors": 1,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 77,
+        "m": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "S": 1,
+        "activeAnchors": 0,
+        "slot": 31,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 76,
+        "m": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 74,
+        "m": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 1,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 71,
+        "m": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "S": 1,
+        "activeAnchors": 0,
+        "slot": 31,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 70,
+        "m": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 68,
+        "m": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 67,
+        "m": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "S": 3,
+        "activeAnchors": 0,
+        "slot": 33,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 62,
+        "m": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 1,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 53,
+        "m": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "S": 1,
+        "activeAnchors": 0,
+        "slot": 31,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 52,
+        "m": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 50,
+        "m": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 49,
+        "m": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "S": 3,
+        "activeAnchors": 0,
+        "slot": 33,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 44,
+        "m": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 0,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 43,
+        "m": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "S": 3,
+        "activeAnchors": 0,
+        "slot": 33,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 41,
+        "m": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "S": 3,
+        "activeAnchors": 0,
+        "slot": 33,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 40,
+        "m": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "S": 4,
+        "activeAnchors": 0,
+        "slot": 34,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 39,
+        "m": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "S": 5,
+        "activeAnchors": 1,
+        "slot": 35,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 6,
+        "nonzeroEdges": 6,
+        "sourceRows": 630,
+        "nonzeroRows": 18
+      },
+      {
+        "index": 37,
+        "m": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "S": 5,
+        "activeAnchors": 1,
+        "slot": 35,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 6,
+        "nonzeroEdges": 6,
+        "sourceRows": 630,
+        "nonzeroRows": 18
+      },
+      {
+        "index": 36,
+        "m": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 0,
+        "sourceRows": 1324,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 31,
+        "m": [
+          1,
+          2,
+          1,
+          1
+        ],
+        "S": 5,
+        "activeAnchors": 1,
+        "slot": 35,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 6,
+        "nonzeroEdges": 6,
+        "sourceRows": 630,
+        "nonzeroRows": 18
+      },
+      {
+        "index": 30,
+        "m": [
+          1,
+          2,
+          1,
+          2
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 4,
+        "sourceRows": 1324,
+        "nonzeroRows": 4
+      },
+      {
+        "index": 28,
+        "m": [
+          1,
+          2,
+          2,
+          1
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 4,
+        "sourceRows": 1324,
+        "nonzeroRows": 4
+      },
+      {
+        "index": 27,
+        "m": [
+          1,
+          2,
+          2,
+          2
+        ],
+        "S": 7,
+        "activeAnchors": 3,
+        "slot": 37,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 26,
+        "m": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "S": 2,
+        "activeAnchors": 1,
+        "slot": 32,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 13,
+        "m": [
+          2,
+          1,
+          1,
+          1
+        ],
+        "S": 5,
+        "activeAnchors": 1,
+        "slot": 35,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 6,
+        "nonzeroEdges": 6,
+        "sourceRows": 630,
+        "nonzeroRows": 18
+      },
+      {
+        "index": 12,
+        "m": [
+          2,
+          1,
+          1,
+          2
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 4,
+        "sourceRows": 1324,
+        "nonzeroRows": 4
+      },
+      {
+        "index": 10,
+        "m": [
+          2,
+          1,
+          2,
+          1
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 4,
+        "sourceRows": 1324,
+        "nonzeroRows": 4
+      },
+      {
+        "index": 9,
+        "m": [
+          2,
+          1,
+          2,
+          2
+        ],
+        "S": 7,
+        "activeAnchors": 3,
+        "slot": 37,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 4,
+        "m": [
+          2,
+          2,
+          1,
+          1
+        ],
+        "S": 6,
+        "activeAnchors": 2,
+        "slot": 36,
+        "inInterpretedWindow": true,
+        "recipeNumerator": "0",
+        "recipeReduced": "0/1",
+        "requests": 12,
+        "nonzeroEdges": 0,
+        "sourceRows": 1324,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 3,
+        "m": [
+          2,
+          2,
+          1,
+          2
+        ],
+        "S": 7,
+        "activeAnchors": 3,
+        "slot": 37,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 1,
+        "m": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "S": 7,
+        "activeAnchors": 3,
+        "slot": 37,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      },
+      {
+        "index": 0,
+        "m": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "S": 8,
+        "activeAnchors": 4,
+        "slot": 38,
+        "inInterpretedWindow": false,
+        "recipeNumerator": null,
+        "recipeReduced": null,
+        "requests": 0,
+        "nonzeroEdges": 0,
+        "sourceRows": 0,
+        "nonzeroRows": 0
+      }
+    ]
+  },
+  "consistency": {
+    "numeratorSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "resultNumeratorSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "jetRootDenominators": [
+      {
+        "pair": "10",
+        "denominator": "64",
+        "integerWeight": "-1"
+      },
+      {
+        "pair": "12",
+        "denominator": "64",
+        "integerWeight": "-1"
+      },
+      {
+        "pair": "13",
+        "denominator": "64",
+        "integerWeight": "-1"
+      },
+      {
+        "pair": "20",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "21",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "23",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "30",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "31",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "32",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "01",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "02",
+        "denominator": "64",
+        "integerWeight": "1"
+      },
+      {
+        "pair": "03",
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    ],
+    "reviewedClearingSigns": {
+      "10": "-1",
+      "30": "1",
+      "01": "1"
+    },
+    "frameExponent": -4,
+    "clearingExponentSum": 55,
+    "regularSectionDegree": 272,
+    "degree273Coefficient": 0,
+    "degreeFormula": 272,
+    "factor48": {
+      "exposed": 48,
+      "coordinateCap": 212,
+      "totalCap": 449,
+      "strippedCoordinate": 164,
+      "strippedTotal": 305
+    },
+    "oracleSHA256": "86641924ff12a5feb99cdcf1355a8a012a0a9f8ba25c18273ff2a54a1c9dde37",
+    "oraclesByteIdentical": true,
+    "integerRingSHA256": "3d190d4a61df31873cfd007541a997f6aae05a91ff4e1373f8fbdb846bf06848",
+    "scalarFormulaPinnedBy41": true,
+    "slotArithmetic": "449-(691-S-272)=30+S"
+  },
+  "defects": [],
+  "elapsedSeconds": 95.688
+}
