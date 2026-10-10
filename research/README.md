@@ -49,3 +49,15 @@ Tracking PRs belong to this fork. An upstream solution submission requires a com
 - [#9: route register and provenance](https://github.com/Akilleez-QA/read-em-and-weep/pull/9)
 
 [Coordination between null and mr. slop](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6093415611).
+
+## Further focused results
+
+- [#10: exact local contractions and SL₂ frames](https://github.com/Akilleez-QA/read-em-and-weep/pull/10)
+- [#11: surface-ideal character obstructions](https://github.com/Akilleez-QA/read-em-and-weep/pull/11)
+- [#12: local normalized-crossing obstruction](https://github.com/Akilleez-QA/read-em-and-weep/pull/12)
+- [#13: three-term line-power exclusion](https://github.com/Akilleez-QA/read-em-and-weep/pull/13)
+- [#14: six-chart transitions and 216 exact cocycles](https://github.com/Akilleez-QA/read-em-and-weep/pull/14)
+- [#15: exact line-calibration target](https://github.com/Akilleez-QA/read-em-and-weep/pull/15)
+- [#16: calibrated algebroid derivation and unfinished comparison](https://github.com/Akilleez-QA/read-em-and-weep/pull/16)
+
+The complete global comparison, actual first-order cochain primitive, and projected ambient second-order obstruction remain unfinished. The whole-obstruction reduction also requires its stated additional hypotheses; the full-sign independence is the narrower checked statement.
