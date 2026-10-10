@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "field": "Z",
+  "arithmeticSHA256": "3d190d4a61df31873cfd007541a997f6aae05a91ff4e1373f8fbdb846bf06848",
+  "independentOracleSHA256": "86641924ff12a5feb99cdcf1355a8a012a0a9f8ba25c18273ff2a54a1c9dde37",
+  "counts": {
+    "product": 103,
+    "denseAnalytic": 3,
+    "power": 8,
+    "shift": 90,
+    "guard": 4
+  },
+  "operations": {
+    "mul": 154,
+    "sparse": 54,
+    "packed": 16,
+    "monomial": 43,
+    "maxNonzeros": 4884,
+    "maxCoefficientBits": 4097,
+    "maxPackedDigitBits": 1560,
+    "nonnegativePackedProducts": 231
+  },
+  "fullDenseSlots": 4884,
+  "largestDenseInputBits": 423,
+  "largestSparseInputBits": 777,
+  "ordinaryPower71CrossTermChecked": true,
+  "signedPackingProof": "At every encoded exponent, positive and negative pair subsets are disjoint; each total has at most min(nnzA,nnzB) summands. Both packed totals are bounded by min(nnzA,nnzB)*maxAbsA*maxAbsB, strictly below byte-rounded base. Strides11 and73 exceed product r and w degrees10 and72.",
+  "actualSourceNodesEvaluated": 0,
+  "elapsedSeconds": 33.57436500299809
+}
