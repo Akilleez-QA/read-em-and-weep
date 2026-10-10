@@ -189,6 +189,8 @@ Such a splitting gives a holomorphic connection on the principal \(\operatorname
 \]
 This contradiction excludes \(W=V\). Thus \(W=0\), and the absence of vertical sections proves \(H^0(\mathcal A(-1))=0\). \(\square\)
 
+The projective-bundle and vector-bundle base stabilizers agree here. An isomorphism of projectivizations implies \(g^*H\simeq H\otimes M\) for a line bundle \(M\) on \(\mathbb P^4\). Taking determinants gives \(M^2\simeq\mathcal O\), because base automorphisms preserve \(\mathcal O(-1)\). Since \(\operatorname{Pic}(\mathbb P^4)\simeq\mathbb Z\) has no two-torsion, \(M\simeq\mathcal O\). Thus the vector-bundle stabilizer input used above also excludes nonzero projective-bundle base symbols.
+
 The degree \(-1\) argument is essential: finiteness of the ordinary projective stabilizer alone would not control the additional section-deformation directions after a finite pullback.
 
 ## 3. The 79 section directions
