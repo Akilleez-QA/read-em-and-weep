@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "axes": [
+    {
+      "normalizedSHA256": "c40f29d6fa245bc12ba1582608ed64ed5c3f613b287ab5d552ebb1e27462b383",
+      "leadingSHA256": "0d0fdeaf8df1ae21a27261749424be6f3224c99c96ed72ed92bc1eb167223a3b",
+      "axis": 0,
+      "normalizedSumSymbols": 37734,
+      "outputs": [
+        {
+          "coordinateMinimum": [
+            0,
+            52,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            0,
+            209,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            0,
+            48,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            0,
+            212,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ],
+      "exposedCoordinatePowers": {
+        "1": 48,
+        "2": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305
+    },
+    {
+      "normalizedSHA256": "4f5625c6341c995a35e6581af2fb96ef3ec7e024ab31d8e0716957420abd773a",
+      "leadingSHA256": "7965e7c24c8b15fdba88c98059613ba103ce1e81213918fe578aba7d6dad9c1d",
+      "axis": 1,
+      "normalizedSumSymbols": 37633,
+      "outputs": [
+        {
+          "coordinateMinimum": [
+            52,
+            0,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            0,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            0,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            0,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "2": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305
+    },
+    {
+      "normalizedSHA256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+      "leadingSHA256": "338a7c862d9cf597dd625610064116538492be2abc8612c250e2647c274d5453",
+      "axis": 2,
+      "normalizedSumSymbols": 37701,
+      "outputs": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            0,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            0,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            0,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            0,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "1": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305
+    },
+    {
+      "normalizedSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+      "leadingSHA256": "ea5abd12a796b405b779ec8159c9067f9e1b0d554e033316c8eec4954d4e9e69",
+      "axis": 3,
+      "normalizedSumSymbols": 37604,
+      "outputs": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            52,
+            0
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            209,
+            0
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            48,
+            0
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            212,
+            0
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "1": 48,
+        "2": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305
+    }
+  ]
+}
