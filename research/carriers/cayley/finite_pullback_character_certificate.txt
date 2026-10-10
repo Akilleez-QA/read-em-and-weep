@@ -1,0 +1,5 @@
+PASS: degrees (2,3,5,7), theta=(sum lambda_i)/2, centered c2=3 theta^2
+Chern-character action rank 12; annihilator dimension 16
+6 compensated Poisson +4 diagonal directions: independent dimension 10
+6 half-normalized, degree-weighted mixed directions complete the annihilator
+No actual Ext evaluation or source Delta vanishing computed by this script.
