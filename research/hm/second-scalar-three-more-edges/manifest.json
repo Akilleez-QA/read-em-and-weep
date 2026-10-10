@@ -1,0 +1,21 @@
+{
+  "schema": "second-scalar-three-more-edges-manifest-v1",
+  "files": {
+    "README.md": {
+      "sha256": "c4783a3c3b3c351c787060e7535af8e9bc202f97245d17fffb958308f884f1ef",
+      "bytes": 4568
+    },
+    "contributions.json": {
+      "sha256": "107f745e1668bf457870053f1ed766519cb558152e4fa22ee71f333199650d03",
+      "bytes": 304476
+    },
+    "replay.py": {
+      "sha256": "da5215b01f173d3fca7d6e5889dd9b869b0f86d80da3ebcf6093651479946822",
+      "bytes": 8739
+    },
+    "test_replay.py": {
+      "sha256": "66ba9b90ed0d2b9474eb035babdbc4eee8c5d50d6533fd45362f0c1db0fdd93f",
+      "bytes": 4438
+    }
+  }
+}
