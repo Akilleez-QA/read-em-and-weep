@@ -1,0 +1,231 @@
+{
+  "pin": "dc60a859a0157b1d2d1b57b37324509abc22c600",
+  "gate1_tail_prefix": {
+    "abstractNodes": 270794,
+    "tailPrimaryJ0": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "q2ScalarMax": [
+      2,
+      1,
+      2,
+      2,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "q2BlockMax": [
+      2,
+      2,
+      2,
+      2,
+      0,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "q3BlockMax": [
+      2,
+      2,
+      2,
+      2,
+      0,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "matchesPinnedCertificate": true,
+    "declaredCompletedFieldUsed": false
+  },
+  "gate1_qzero_bounds_identical": true,
+  "gate1_qzero_nodes": 270767,
+  "gate1_fulljet": {
+    "mode": "fulljet",
+    "status": "uncertified-inverse",
+    "abstractNodes": 240,
+    "reason": "Classical product of line jets has a nonconstant value, so its reciprocal is rejected. The published encoding keeps that value equal to 1."
+  },
+  "gate2_homogeneous": {
+    "modelSha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+    "nonzeroHomogeneousEntries": 451,
+    "zeroEntriesChecked": 1259,
+    "exactScalarChecks": 3090,
+    "byIdentity": {
+      "E_identity": 1350,
+      "P_I": 24,
+      "H0_I": 60,
+      "P_H1": 120,
+      "H0_H1": 300,
+      "H1_eta": 180,
+      "H0_gamma": 150,
+      "delta_H1_eta_ev": 600,
+      "ev_eta": 24,
+      "delta_I": 120,
+      "P_gamma": 60,
+      "merged_H0_row": 30,
+      "merged_I_row": 4,
+      "merged_E_row": 30,
+      "gamma_row10": 5,
+      "ev_column0": 2,
+      "L_d_End": 10,
+      "scalar_formula": 2,
+      "double_merged_vanish": 15,
+      "cover_v0_zero": 4
+    }
+  },
+  "gates_3_and_4": {
+    "exactIdentities": 107,
+    "lineSeedPoleOrdersDerivative012": {
+      "rf": [
+        1,
+        2,
+        3
+      ],
+      "gamma": [
+        1,
+        2,
+        3
+      ],
+      "overlap": [
+        1,
+        2,
+        3
+      ]
+    },
+    "mixedDerivativePairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "gaugeRatioWeightsChecked": 20,
+    "sameCoordinateSecondDerivativeUsed": false,
+    "physicalBlockWeights": [
+      {
+        "block": "U0 gamma",
+        "degree": 1,
+        "nuPower": -2,
+        "copies": 5
+      },
+      {
+        "block": "U0 I column 0",
+        "degree": 0,
+        "nuPower": 0,
+        "copies": 1
+      },
+      {
+        "block": "U0 I column 1",
+        "degree": 1,
+        "nuPower": -2,
+        "copies": 1
+      },
+      {
+        "block": "U0 H1 W",
+        "degree": -1,
+        "nuPower": 2,
+        "copies": 8
+      },
+      {
+        "block": "Q0 H0",
+        "degree": -1,
+        "nuPower": 2,
+        "copies": 5
+      },
+      {
+        "block": "Q0 P row 0",
+        "degree": 0,
+        "nuPower": 0,
+        "copies": 1
+      },
+      {
+        "block": "Q0 P row 1",
+        "degree": -1,
+        "nuPower": 2,
+        "copies": 1
+      },
+      {
+        "block": "Q0 L delta",
+        "degree": 1,
+        "nuPower": -2,
+        "copies": 8
+      },
+      {
+        "block": "U1 W",
+        "degree": 0,
+        "nuPower": 0,
+        "copies": 8
+      },
+      {
+        "block": "U1 eta",
+        "degree": -1,
+        "nuPower": 2,
+        "copies": 2
+      },
+      {
+        "block": "Q1 L",
+        "degree": 0,
+        "nuPower": 0,
+        "copies": 8
+      },
+      {
+        "block": "Q1 ev",
+        "degree": 1,
+        "nuPower": -2,
+        "copies": 2
+      }
+    ],
+    "frameExponent": -4,
+    "allMaskRequiredPowers_h1_to_h4": [
+      1,
+      14,
+      14,
+      14
+    ],
+    "suppliedClearingPowers": [
+      13,
+      14,
+      14,
+      14
+    ],
+    "clearingExponentSum": 55,
+    "regularSectionDegree": 272,
+    "bundle": "O(272,272,272,272)",
+    "degree273Coefficient": 0
+  }
+}
