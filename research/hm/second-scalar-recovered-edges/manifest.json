@@ -1,0 +1,21 @@
+{
+  "schema": "second-scalar-recovered-edges-manifest-v1",
+  "files": {
+    "README.md": {
+      "sha256": "31caed89e4913bfd9f8be70c0ff6e396ca4980cfb3182f6db0d86edd297fa55a",
+      "bytes": 5699
+    },
+    "contributions.json": {
+      "sha256": "cb351a0b581f6e97ec3bb9ab0e3b888407d490dfa313aaff7de9222d1b7137d8",
+      "bytes": 270315
+    },
+    "replay.py": {
+      "sha256": "9de7d04e16f9065b980b23d77172eb58c1791d09cb66c55285bdc1f211990722",
+      "bytes": 9466
+    },
+    "test_replay.py": {
+      "sha256": "f970ec911768850c31676d9cbac17f70a8dda558d8e088709c242b624cecdd23",
+      "bytes": 5398
+    }
+  }
+}
