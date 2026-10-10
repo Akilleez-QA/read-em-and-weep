@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/google-deepmind/alphaproof-nexus-results",
+  "commit": "0647711a71183c1ea492ad60860776617ce1ea88",
+  "lean_toolchain": "leanprover/lean4:v4.27.0",
+  "dependencies": {
+    "formal_conjectures": "7862bf6a6976c26acb086b6b2cec12ad1d92ce5d",
+    "mathlib": "a3a10db0e9d66acbebf76c5e6a135066525ac900",
+    "plausible": "009dc1e6f2feb2c96c081537d80a0905b2c6498f",
+    "LeanSearchClient": "5ce7f0a355f522a952a3d678d696bd563bb4fd28",
+    "importGraph": "8f497d55985a189cea8020d9dc51260af1e41ad2",
+    "proofwidgets": "c04225ee7c0585effbd933662b3151f01b600e40",
+    "aesop": "cb837cc26236ada03c81837bebe0acd9c70ced7d",
+    "Qq": "bd58c9efe2086d56ca361807014141a860ddbf8c",
+    "batteries": "b25b36a7caf8e237e7d1e6121543078a06777c8a",
+    "Cli": "55c37290ff6186e2e965d68cf853a57c0702db82"
+  },
+  "files": {
+    "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_5.lean": "d654c3dbdb006712418b30e8c43d1de45d32ba1a5c7d514033e47066f7b2ef26",
+    "lean-toolchain": "d55ca0039a5479db5b38919d005b2c427b89b3be4f0184a20f2f4eae931f5bdb",
+    "lake-manifest.json": "d5f3544a12eb2b6ae6913524e16b0e62cad4ca279d0cfa89e4d4bd5c467bffd5"
+  }
+}

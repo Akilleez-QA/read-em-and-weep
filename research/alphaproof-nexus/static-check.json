@@ -1,0 +1,24 @@
+{
+  "schema": "alphaproof-nexus-static-check-v1",
+  "example_sha256": "05bbf726dd5eac8aac02279cf08af82a64476c492786665ba87f00be0918ded8",
+  "example": {
+    "imports": [
+      "Mathlib"
+    ],
+    "forbidden_tokens_found": [],
+    "target_statement_text_checked": false,
+    "lean_kernel_validation_performed": false
+  },
+  "upstream_source_inspected": true,
+  "lean_kernel_validation_performed": false,
+  "upstream_source_sha256": "d654c3dbdb006712418b30e8c43d1de45d32ba1a5c7d514033e47066f7b2ef26",
+  "upstream": {
+    "imports": [
+      "Mathlib"
+    ],
+    "forbidden_tokens_found": [],
+    "target_statement_text_checked": true,
+    "lean_kernel_validation_performed": false
+  },
+  "original_proof_body_byte_identical": true
+}
