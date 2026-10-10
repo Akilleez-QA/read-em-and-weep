@@ -65,7 +65,7 @@ Then α=KA, RA=0, and R e_U=I₂. Thus S is a frame of ker β/im α; its coordin
 
 On overlaps let T^Q_ij be the quotient-basis change from chart j to chart i, with the cyclic orders above. Choose a further cover trivializing N, with local frames n_j=ν_ij n_i. The E transition is
 G_ij=R_i pr_{Jc,i} [ν_ij(v_i/v_j) diag(Λ²T^Q_ij,Λ²T^Q_ij)] S_j.
-This is an explicit rational formula after the line bundle is trivialized. The two inverse-x charts on C trivialize N², but should not be assumed to trivialize N itself.
+This is an explicit rational formula after the line bundle is trivialized. The inverse-x charts alone trivialize N², not N. For an explicit N cover on C, take U₀=C\\{∞} and U₁=C\\{(0,0),(1,0),(−1,0)}, with respective frames 1 and q=y/x of O_C(∞). The divisor of q is (1,0)+(−1,0)−(0,0)−∞, so q is a nonvanishing frame of O_C(∞) on U₁. These two opens cover C. Their sixteen product opens, intersected with the six projective chart types, give at most 96 affine opens trivializing the required data.
 
 ## Verification scope
 
