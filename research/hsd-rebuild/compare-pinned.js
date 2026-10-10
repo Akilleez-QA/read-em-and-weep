@@ -3,6 +3,9 @@
 // Entrywise comparison of the rebuilt finite model with PR #5 at
 // add03476d9055aa00e1e00778eea6332cf8e01cc. The pinned program is executed
 // only as a black-box oracle. Ranks below are recomputed by hm-model.js.
+//
+// From this directory:
+//   node compare-pinned.js > comparison.json
 
 const crypto = require('crypto');
 const {execFileSync} = require('child_process');
@@ -267,7 +270,7 @@ function main() {
     remaining: entry.remaining,
     boundaryRank: entry.boundaryRank
   }));
-  const total = h1.reduce((sum, value, weight) => sum + model.MULTIPLICITIES[weight] * value, 0);
+  const total = summary.h1Total;
   const mismatches = matrixReports.reduce((sum, item) => sum + item.mismatches, 0) + line.gammaMismatches + (line.differentialEdgesMatch ? 0 : 1);
   const report = {
     pinnedHead: PINNED_HEAD,

@@ -24,6 +24,8 @@
 //   h(x^e) = (−x^e, 0) if e≥0; (0, x^e) if e<0 and e≤n; 0 otherwise.
 // The four-factor homotopy is the Koszul tensor contraction
 //   H = Σ_j (ip)_1⊗···⊗(ip)_{j−1}⊗h_j⊗id_{j+1}⊗···⊗id_4.
+// applyHomotopy below is projection-equivalent: it does not restore the
+// prefix expansion ip(B)=A+B.
 // For internal degree r and Čech degree p, Δ=(−1)^p[d,−], with the graded
 // commutator [d,f]=df−(−1)^r fd. The transferred differential is
 //   D_fin = p Δ Σ_{j=0}^{4} (−HΔ)^j i.
@@ -308,6 +310,13 @@ function applyDelta(states, internal, forward, incoming, families, remainingAfte
   return out;
 }
 
+// Projection-equivalent. The Koszul prefix (ip) on chart B is the H^0
+// inclusion x^e ↦ (x^e, x^e), the expansion ip(B)=A+B. This routine does
+// not restore that expansion: a preceding B factor stays on B when it is
+// already harmonic, and an A prefix is dropped. A-chart terms are invisible
+// to the H^1 projection, so the projected blocks agree with the expanded
+// operator. Restoring ip(B)=A+B would be required before this is the
+// unprojected homotopy.
 function applyHomotopy(states, internal, weight) {
   const degree = bundleDegrees(internal, weight);
   const out = new Map();
@@ -962,7 +971,7 @@ function publicSummary(result) {
     }
   }));
   const h1 = byWeight.map((entry) => entry.h1);
-  const total = h1.reduce((sum, value, weight) => sum + MULTIPLICITIES[weight] * value, 0);
+  const total = byWeight.reduce((sum, entry) => sum + MULTIPLICITIES[entry.weight] * entry.h1, 0);
   return {
     finiteSpace: result.space,
     h1ByWeight: h1,
