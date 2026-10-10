@@ -1,0 +1,55 @@
+{
+  "schema": "current-L-jet-implementation-provenance-v1",
+  "files": [
+    {
+      "file": "leading_two_jet.js",
+      "origin": "scalar-local-residue-rational/leading_two_jet.js",
+      "originalSHA256": "c77f0487815592ff8c57633af10306694bc22a5d8d8d4acea8a13f62f5c7c002",
+      "adaptation": "Unchanged arithmetic; injected exact tagged-ring constructor; axis validation."
+    },
+    {
+      "file": "normalize_free_tags.py",
+      "origin": "coefficient-extraction-research/normalize_free_tags.py",
+      "originalSHA256": "2448854c6da47b683f86ea03bb3be3c804c7351209e1d0e1c594ce284e213747",
+      "adaptation": "Unchanged normal-form arithmetic/serialization; explicit source path; separate relative input label; reject existing destination."
+    },
+    {
+      "file": "build_compact_secondary_jet.py",
+      "origin": "scalar-local-residue-rational/build_compact_secondary_jet.py",
+      "originalSHA256": "7535fa37e03842480669265d944c47558f6a27d9c53d8b27328c079e15acbf13",
+      "adaptation": "Unchanged compact build function; historical top-level fixed-path main removed."
+    },
+    {
+      "file": "build_clearing.py",
+      "origin": "scalar-local-residue-rational/build_integer_clearing.py",
+      "originalSHA256": "a5609fa4f066e51d81654db13b4ca9d02cd78f5b4cd0cff0d5827267e313ee59",
+      "adaptation": "Exact denominator algorithm parameterized as a function; all original normalized terms retained for denominators."
+    },
+    {
+      "file": "verify_support.py",
+      "origin": "scalar-local-residue-rational/verify_leading_support.py",
+      "originalSHA256": "84d1231294e058467e1aab5eabf8caa16b622eaac4383106375c1f6c86945994",
+      "adaptation": "Exact max/add enclosure generalized to all four axes; source proof remains external."
+    }
+  ],
+  "taggedRing": {
+    "dependency": "../current-scalar-numerator/tagged_ring.js",
+    "sha256": "6e1c284cb3ba081c1b6447ec53b63ab115a82f2ee3ef34d01211f963fff2eba1"
+  },
+  "historicalLeadingBuilders": [
+    "build_leading_sources.js",
+    "build_additional_leading_sources.js",
+    "build_fourth_leading_source.js"
+  ],
+  "historicalCompactWrappers": [
+    "build_compact_secondary_jet.py",
+    "build_additional_pair.py",
+    "build_all46_pair.py"
+  ],
+  "historicalClearingWrappers": [
+    "build_integer_clearing.py",
+    "build_additional_clearing.py",
+    "build_all46_clearing.py"
+  ],
+  "assurance": "Provenance and output pin equality are regeneration checks, not mathematical source identity proofs."
+}

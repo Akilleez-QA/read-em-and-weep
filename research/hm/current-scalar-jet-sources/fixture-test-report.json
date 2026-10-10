@@ -1,0 +1,22 @@
+{
+  "schema": "current-L-source-fixtures-v1",
+  "status": "PASS",
+  "pythonTests": 5,
+  "javascript": {
+    "status": "PASS",
+    "exactCoefficientChecks": 160,
+    "axes": 4,
+    "cancellationBoundPreserved": true,
+    "negativeExponentRejected": true
+  },
+  "relocatedSiblingDefaults": true,
+  "finalLeadingBuilderSmoke": {
+    "axis": 0,
+    "sha256": "0d0fdeaf8df1ae21a27261749424be6f3224c99c96ed72ed92bc1eb167223a3b",
+    "nodes": 486067,
+    "bytes": 9878279
+  },
+  "leadingSmokeElapsedSeconds": 2.872,
+  "fixturesAreGeometricSourceProof": false,
+  "fullRegenerationReceipt": "regeneration-test-report.json"
+}

@@ -1,0 +1,409 @@
+{
+  "schema": "current-L-rational-jet-source-pins-v1",
+  "scope": "Original completed current-L exact-Q scalar source; not second-map scalar-lminus-rational",
+  "numeratorSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+  "normalization": {
+    "cap": 64,
+    "concreteTags": true
+  },
+  "axes": {
+    "0": {
+      "leadingSHA256": "0d0fdeaf8df1ae21a27261749424be6f3224c99c96ed72ed92bc1eb167223a3b",
+      "normalizedSHA256": "c40f29d6fa245bc12ba1582608ed64ed5c3f613b287ab5d552ebb1e27462b383",
+      "normalizedInputLabel": "math-repair-only/scalar-local-residue-rational/leading-jets/axis-0.dag.json",
+      "leadingBytes": 9878279,
+      "normalizedBytes": 5774896,
+      "normalizedSumSymbols": 37734,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            0,
+            52,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            0,
+            209,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            0,
+            48,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            0,
+            212,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "1": {
+      "leadingSHA256": "7965e7c24c8b15fdba88c98059613ba103ce1e81213918fe578aba7d6dad9c1d",
+      "normalizedSHA256": "4f5625c6341c995a35e6581af2fb96ef3ec7e024ab31d8e0716957420abd773a",
+      "normalizedInputLabel": "math-repair-only/scalar-local-residue-rational/leading-jets/axis-1.dag.json",
+      "leadingBytes": 9867465,
+      "normalizedBytes": 5761090,
+      "normalizedSumSymbols": 37633,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            0,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            0,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            0,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            0,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "2": {
+      "leadingSHA256": "338a7c862d9cf597dd625610064116538492be2abc8612c250e2647c274d5453",
+      "normalizedSHA256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+      "normalizedInputLabel": "math-repair-only/scalar-local-residue-rational/leading-jets/axis-2.dag.json",
+      "leadingBytes": 9879699,
+      "normalizedBytes": 5774763,
+      "normalizedSumSymbols": 37701,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            0,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            0,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            0,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            0,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "3": {
+      "leadingSHA256": "ea5abd12a796b405b779ec8159c9067f9e1b0d554e033316c8eec4954d4e9e69",
+      "normalizedSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+      "normalizedInputLabel": "math-repair-only/scalar-local-residue-rational/all46-leading/axis-3.dag.json",
+      "leadingBytes": 9869987,
+      "normalizedBytes": 5762235,
+      "normalizedSumSymbols": 37604,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            52,
+            0
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            209,
+            0
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            48,
+            0
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            212,
+            0
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    }
+  },
+  "pairs": {
+    "01": {
+      "firstAxis": 0,
+      "secondAxis": 1,
+      "compactSHA256": "c4aec8ed71a940cf30dfb5d12b04cb1db25e5e4e9cc74f4eafa452b2bb1aef5a",
+      "clearingSHA256": "c49aaace6483558e6afcbdb2085d5bfd03d50fff3502fb683509552dbd78dc3a",
+      "compactBytes": 12671919,
+      "clearingBytes": 2890716,
+      "representationCounts": {
+        "sumSymbols": 37734,
+        "weightedProductTerms": 141389,
+        "factorSlots": 474784,
+        "termsDiscardedByCertifiedReverseShift": 42
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "02": {
+      "firstAxis": 0,
+      "secondAxis": 2,
+      "compactSHA256": "80d21d173f6452710a348a9450da77c7f69eed38cfba4539f6725a631c14c0d4",
+      "clearingSHA256": "e40981f82c07b71e7522f5007debdd1ff236a56bcf5fbffa2f947b101b640b22",
+      "compactBytes": 12671298,
+      "clearingBytes": 2890717,
+      "representationCounts": {
+        "sumSymbols": 37734,
+        "weightedProductTerms": 141388,
+        "factorSlots": 474775,
+        "termsDiscardedByCertifiedReverseShift": 43
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "03": {
+      "firstAxis": 0,
+      "secondAxis": 3,
+      "compactSHA256": "678379d445530ca1a25a2e7143911f4bd047e6e89f9fc6db938b39201070118c",
+      "clearingSHA256": "b9671975d6ebc2f7956048abae93b61eb3972682b22b6ae793fc9d319b87dd6f",
+      "compactBytes": 12669347,
+      "clearingBytes": 2890574,
+      "representationCounts": {
+        "sumSymbols": 37734,
+        "weightedProductTerms": 141356,
+        "factorSlots": 474587,
+        "termsDiscardedByCertifiedReverseShift": 75
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "10": {
+      "firstAxis": 1,
+      "secondAxis": 0,
+      "compactSHA256": "45d250f4df97187e055c58750e1aa5384104741a9c4d8001effa55ae195fe69a",
+      "clearingSHA256": "2134d741da3adee7dc129fa8bc004598f4715ef32230a4c2b5010ba243fc4bfc",
+      "compactBytes": 12638161,
+      "clearingBytes": 2883085,
+      "representationCounts": {
+        "sumSymbols": 37633,
+        "weightedProductTerms": 141104,
+        "factorSlots": 473618,
+        "termsDiscardedByCertifiedReverseShift": 42
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "-1"
+      }
+    },
+    "12": {
+      "firstAxis": 1,
+      "secondAxis": 2,
+      "compactSHA256": "833a1e7394518364c3ccb379fda9d1688e156e7e6b411caf5e32a3887426d37d",
+      "clearingSHA256": "204c4554e7296bb67b507b650e91a2b27aae1aa7292776327609c4facfd02ca6",
+      "compactBytes": 12637691,
+      "clearingBytes": 2883081,
+      "representationCounts": {
+        "sumSymbols": 37633,
+        "weightedProductTerms": 141103,
+        "factorSlots": 473617,
+        "termsDiscardedByCertifiedReverseShift": 43
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "-1"
+      }
+    },
+    "13": {
+      "firstAxis": 1,
+      "secondAxis": 3,
+      "compactSHA256": "ee0273faaece45510ebeb7f73166d9b96a7c9df04c6ef427787388633c0dec03",
+      "clearingSHA256": "bceac7706a31e436afe3b9d04b4275be4dab7ba026996ef8488b92bb4ffa3f27",
+      "compactBytes": 12635705,
+      "clearingBytes": 2882938,
+      "representationCounts": {
+        "sumSymbols": 37633,
+        "weightedProductTerms": 141071,
+        "factorSlots": 473425,
+        "termsDiscardedByCertifiedReverseShift": 75
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "-1"
+      }
+    },
+    "20": {
+      "firstAxis": 2,
+      "secondAxis": 0,
+      "compactSHA256": "d5be03be534150b9a58b5fea7e62737787fa0d98c02d797a3ba7b4074f064eca",
+      "clearingSHA256": "427c15b02ecc2c3763dc544f6a5967601eeb38f48d4d3e943596dc4f1502465f",
+      "compactBytes": 12667339,
+      "clearingBytes": 2888500,
+      "representationCounts": {
+        "sumSymbols": 37701,
+        "weightedProductTerms": 141410,
+        "factorSlots": 475048,
+        "termsDiscardedByCertifiedReverseShift": 44
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "21": {
+      "firstAxis": 2,
+      "secondAxis": 1,
+      "compactSHA256": "826c1cf060dd72cb49c3b92b02acddbeed3e1dc54944e0487d4f963e8001aa07",
+      "clearingSHA256": "35a0452e993dcb2ae8311012f81c85b5145570fd45741514d31e11b7091e3b56",
+      "compactBytes": 12667815,
+      "clearingBytes": 2888505,
+      "representationCounts": {
+        "sumSymbols": 37701,
+        "weightedProductTerms": 141411,
+        "factorSlots": 475060,
+        "termsDiscardedByCertifiedReverseShift": 43
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "23": {
+      "firstAxis": 2,
+      "secondAxis": 3,
+      "compactSHA256": "dafba29ef00d9a95e256e72cde33336a5b50f5e0b6e8107d1b03e02cf9c948b5",
+      "clearingSHA256": "fcf1792db35da09e4a68e88cfb51624a969842ce21393e2c9e7102777ebe7c69",
+      "compactBytes": 12664776,
+      "clearingBytes": 2888364,
+      "representationCounts": {
+        "sumSymbols": 37701,
+        "weightedProductTerms": 141380,
+        "factorSlots": 474867,
+        "termsDiscardedByCertifiedReverseShift": 74
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "30": {
+      "firstAxis": 3,
+      "secondAxis": 0,
+      "compactSHA256": "57f6143f15bd8a56c229e74edb58c876e13d5176d78b110589b85da2c09ea4f2",
+      "clearingSHA256": "1367270448993f95b05975e6d65d171426d087cf049ac913904b6c483579279c",
+      "compactBytes": 12633704,
+      "clearingBytes": 2880977,
+      "representationCounts": {
+        "sumSymbols": 37604,
+        "weightedProductTerms": 141105,
+        "factorSlots": 473971,
+        "termsDiscardedByCertifiedReverseShift": 60
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "31": {
+      "firstAxis": 3,
+      "secondAxis": 1,
+      "compactSHA256": "350ea6c20f56ac3865a670d602670216660febdd3cd9e86c49096d9d9f6d9c30",
+      "clearingSHA256": "fcbc3529f5fc5c9eec01591c61534f267506d57af206c406205fc60d260fdf8e",
+      "compactBytes": 12634151,
+      "clearingBytes": 2880978,
+      "representationCounts": {
+        "sumSymbols": 37604,
+        "weightedProductTerms": 141106,
+        "factorSlots": 473981,
+        "termsDiscardedByCertifiedReverseShift": 59
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    },
+    "32": {
+      "firstAxis": 3,
+      "secondAxis": 2,
+      "compactSHA256": "0de1748c2dee6a8af6e00e6b1e7f8b423d66762910a45b5d2334d70e49e6e903",
+      "clearingSHA256": "222a660d43ca34b87a30c8f841716e4bf85e44084837bd20747014c728f290a4",
+      "compactBytes": 12633160,
+      "clearingBytes": 2880995,
+      "representationCounts": {
+        "sumSymbols": 37604,
+        "weightedProductTerms": 141109,
+        "factorSlots": 473982,
+        "termsDiscardedByCertifiedReverseShift": 56
+      },
+      "maximumNodeDenominatorBits": 14,
+      "root": {
+        "denominator": "64",
+        "integerWeight": "1"
+      }
+    }
+  }
+}
