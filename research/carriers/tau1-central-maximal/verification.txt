@@ -1,0 +1,24 @@
+=== verify_central.py ===
+PASS full 6-by-6 symplectic convention, group law, inverse, and isotropy signs
+PASS corrected obstruction is unchanged in N under arbitrary first-stage lift gauges
+PASS central changes preserve the regular cubic residue modulo the intrinsic quadrics on Y
+PASS quotient relations, doubled-line image, torsion relation, and torsion rank invariance
+PASS localized rank-minor ideal equals (ell, q1, q2, rho)
+PASS direct rational Cech matrix 164-by-138 has rank 137 for h = (0, 1, 0, 0)
+PASS direct rational Cech matrix 164-by-138 has rank 137 for h = (2, 3, 5, 7)
+PASS symmetric-power cohomology and doubled-line length: radicalizing would lose 3 conditions
+VERDICT: invariant central criterion and its 1/27 dimensions pass; no existence claim
+
+=== verify_maximal.py ===
+PASS full corrected matrix overlap projects to -rho0-q1*A12+q2*A11.
+PASS arbitrary ambient ell*k0, both torsion scalars, and ell^2 shift terms are retained.
+PASS regular r=0 isotropy choice includes the necessary -k0*W term in R_D1.
+PASS all 13 allowed intrinsic quadrics have q|Sigma=t*b and dXq|Sigma=g+t*l+t^2*m.
+PASS connecting H0(U(-1))->H1(O(-5)) has precisely columns (d1..d4),(d2..d5),y,z.
+PASS dense nonmonomial sample has connecting determinant 1282
+PASS projected ideal (t,h^2)|Sigma=(t) gives exact Laurent window [-3,-2,-1,0].
+PASS all four projected rows from the complete matrix equal -M*(B1,B2,WY,WZ) modulo primary.
+PASS lift/torsion/local-solution terms have no forbidden coefficients after primary vanishes.
+PASS Delta=0 is exactly the three 2-by-2 coefficient minors in characteristic zero.
+PASS every constant minimal section has residue degree -4 and no nonzero global residue.
+VERDICT: invariant maximal-O(2)-direction exclusion passes; complementary orbit is not tested or excluded.
