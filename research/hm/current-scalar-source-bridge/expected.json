@@ -1,0 +1,23 @@
+{
+  "schema": "hm-reduced-mask-generator-bridge-v1",
+  "files": {
+    "public_generate_hm_mask_coefficients_reduced.js": "731fa3f8e3d9ae49f57f595c34220ef9b6a2bedc9cc6f3875c643978f5f01ab4",
+    "public_reduce_hm_primitive_factors.js": "bb34ab38a291a5a5c71ea06ab780d5fca7b948846f072fc1e62e955b1c8db255",
+    "generate-hm-mask-coefficients-original.js": "7341103bd5e3eeca13ed5e75205d71de7797af8e8c8a489c60b3bb6805267b89"
+  },
+  "originalPublicCommit": "5d9ddb2a1e85b3bd6b43111e25e97cfe59d8cc86",
+  "originalPublicFile": "research/hm/generate-hm-second-order-dag.js",
+  "primitiveIdentities": 1710,
+  "reducedModelSHA256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+  "carriers": [
+    2,
+    3,
+    4
+  ],
+  "coefficientDAG": {
+    "sha256": "31cd62eb3062801ca19073464c276fbe016fa4024fbcdcf48d3893358e3fcc18",
+    "bytes": 3533626,
+    "nodes": 178251
+  },
+  "scope": "Primitive model reduction and unsigned all-mask row residual source. Does not construct the scalar numerator or evaluate scalar coordinates."
+}
