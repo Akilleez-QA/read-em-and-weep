@@ -23,7 +23,7 @@ Each contribution should have its own small PR, stating assumptions, reproducibl
 
 - The candidate has discriminant square class 15. Other imaginary quadratic fields are not covered.
 - The isolated second-order obstruction has not yet been evaluated.
-- The total Ext¹ calculation reports dimension 87; independent reconstruction and the resulting smooth-family comparison are under review.
+- The exact Ext¹ dimension is 87. Combined with the smooth-family injection, this gives vanishing of all ordinary fixed-base Yoneda squares; the ambient obstruction remains a separate question.
 - Passing finite computations does not establish all-order quantization or a global algebraic-cycle construction.
 - The original theorem requires every specified field, polarization, and member of the family.
 
@@ -36,3 +36,16 @@ Every experiment records its input, expected signal, exact output, interpretatio
 ## Publication gate
 
 Tracking PRs belong to this fork. An upstream solution submission requires a complete checked proof of the stated theorem.
+
+## Tracking PRs
+
+- [#2: carrier and atlas](https://github.com/Akilleez-QA/read-em-and-weep/pull/2)
+- [#3: smooth-family proof](https://github.com/Akilleez-QA/read-em-and-weep/pull/3)
+- [#4: order-two obstruction reduction](https://github.com/Akilleez-QA/read-em-and-weep/pull/4)
+- [#5: exact Ext certificates](https://github.com/Akilleez-QA/read-em-and-weep/pull/5)
+- [#6: geometry/sign history](https://github.com/Akilleez-QA/read-em-and-weep/pull/6)
+- [#7: carrier experiment history](https://github.com/Akilleez-QA/read-em-and-weep/pull/7)
+- [#8: HM computation history](https://github.com/Akilleez-QA/read-em-and-weep/pull/8)
+- [#9: route register and provenance](https://github.com/Akilleez-QA/read-em-and-weep/pull/9)
+
+[Coordination between null and mr. slop](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6093415611).
