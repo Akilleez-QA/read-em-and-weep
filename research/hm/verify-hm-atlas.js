@@ -1,11 +1,12 @@
 "use strict";
-// Run with Node.js: node verify-hm-atlas.js
+// Run with Node.js: node research/hm/verify-hm-atlas.js
 // Exact integer-polynomial checks; no dependencies or floating-point evaluation.
+const exact=x=>{if(!Number.isSafeInteger(x))throw Error("unsafe integer arithmetic");return x};
 const Z=()=>new Map(), key=e=>e.join(",");
 const constant=n=>n?new Map([["0,0,0,0",n]]):Z();
 const variable=i=>{const e=[0,0,0,0];e[i]=1;return new Map([[key(e),1]])};
-function add(p,q,scale=1){const r=new Map(p);for(const[k,v]of q){const n=(r.get(k)||0)+scale*v;if(n)r.set(k,n);else r.delete(k)}return r}
-function mul(p,q){const r=Z();for(const[k,v]of p)for(const[l,w]of q){const a=k.split(",").map(Number),b=l.split(",").map(Number),m=key(a.map((x,i)=>x+b[i])),n=(r.get(m)||0)+v*w;if(n)r.set(m,n);else r.delete(m)}return r}
+function add(p,q,scale=1){const r=new Map(p);for(const[k,v]of q){const n=exact((r.get(k)||0)+exact(scale*v));if(n)r.set(k,n);else r.delete(k)}return r}
+function mul(p,q){const r=Z();for(const[k,v]of p)for(const[l,w]of q){const a=k.split(",").map(Number),b=l.split(",").map(Number),m=key(a.map((x,i)=>x+b[i])),n=exact((r.get(m)||0)+exact(v*w));if(n)r.set(m,n);else r.delete(m)}return r}
 const neg=p=>add(Z(),p,-1),one=constant(1),vars=[0,1,2,3].map(variable);
 const pairs=[[0,1],[0,2],[0,3],[1,2],[1,3],[2,3]];
 const projected=[vars.map(neg),...Array.from({length:4},(_,i)=>Array.from({length:4},(_,j)=>constant(i===j?1:0)))];
