@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "tests": 11,
+  "cases": [
+    "declared completed field is not evidence",
+    "changed computed tail",
+    "missing prefix profile",
+    "scalar auxiliary bound too large",
+    "changed model",
+    "negative divisor exponent",
+    "nonzero seed on zero primitive",
+    "exact support and exposed-factor fixture",
+    "coordinate factor missing one power",
+    "self-referential support node",
+    "zero rational denominator"
+  ]
+}

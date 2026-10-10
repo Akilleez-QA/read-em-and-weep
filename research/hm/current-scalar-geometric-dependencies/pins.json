@@ -1,0 +1,198 @@
+{
+  "schema": "current-scalar-geometric-dependencies-v1",
+  "repository": "https://github.com/Akilleez-QA/read-em-and-weep",
+  "publicDependencies": {
+    "proof": {
+      "commit": "a100f4e0be453d6e182320b792359f8a04e32b4d",
+      "path": "research/hm/current-scalar-proof/"
+    },
+    "bridge": {
+      "commit": "6032b64d3f748c7ac37cb283db4a527e49d06ac8",
+      "path": "research/hm/current-scalar-source-bridge/"
+    },
+    "numerator": {
+      "commit": "d7efdbeb2def45af2fcfe2253f7d1eb61ab5bf1c",
+      "path": "research/hm/current-scalar-numerator/"
+    },
+    "jets": {
+      "commit": "67910d41054e5237f4dbe77fb32c3d3ad5ca6897",
+      "path": "research/hm/current-scalar-jet-sources/"
+    }
+  },
+  "publicGeneratorSHA256": "731fa3f8e3d9ae49f57f595c34220ef9b6a2bedc9cc6f3875c643978f5f01ab4",
+  "sourceExcerptFunctions": [
+    "build2",
+    "crossResidual",
+    "mtraceProduct",
+    "globalBuild2",
+    "globalCross"
+  ],
+  "canonicalModelSHA256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "numeratorSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+  "axes": {
+    "0": {
+      "leadingSHA256": "0d0fdeaf8df1ae21a27261749424be6f3224c99c96ed72ed92bc1eb167223a3b",
+      "normalizedSHA256": "c40f29d6fa245bc12ba1582608ed64ed5c3f613b287ab5d552ebb1e27462b383",
+      "leadingBytes": 9878279,
+      "normalizedBytes": 5774896,
+      "normalizedSumSymbols": 37734,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            0,
+            52,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            0,
+            209,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            0,
+            48,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            0,
+            212,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "1": {
+      "leadingSHA256": "7965e7c24c8b15fdba88c98059613ba103ce1e81213918fe578aba7d6dad9c1d",
+      "normalizedSHA256": "4f5625c6341c995a35e6581af2fb96ef3ec7e024ab31d8e0716957420abd773a",
+      "leadingBytes": 9867465,
+      "normalizedBytes": 5761090,
+      "normalizedSumSymbols": 37633,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            0,
+            52,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            0,
+            209,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            0,
+            48,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            0,
+            212,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "2": {
+      "leadingSHA256": "338a7c862d9cf597dd625610064116538492be2abc8612c250e2647c274d5453",
+      "normalizedSHA256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+      "leadingBytes": 9879699,
+      "normalizedBytes": 5774763,
+      "normalizedSumSymbols": 37701,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            0,
+            52
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            0,
+            209
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            0,
+            48
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            0,
+            212
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    },
+    "3": {
+      "leadingSHA256": "ea5abd12a796b405b779ec8159c9067f9e1b0d554e033316c8eec4954d4e9e69",
+      "normalizedSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+      "leadingBytes": 9869987,
+      "normalizedBytes": 5762235,
+      "normalizedSumSymbols": 37604,
+      "rootSupports": [
+        {
+          "coordinateMinimum": [
+            52,
+            52,
+            52,
+            0
+          ],
+          "coordinateMaximum": [
+            209,
+            209,
+            209,
+            0
+          ],
+          "totalMinimum": 362,
+          "totalMaximum": 443
+        },
+        {
+          "coordinateMinimum": [
+            48,
+            48,
+            48,
+            0
+          ],
+          "coordinateMaximum": [
+            212,
+            212,
+            212,
+            0
+          ],
+          "totalMinimum": 353,
+          "totalMaximum": 449
+        }
+      ]
+    }
+  }
+}

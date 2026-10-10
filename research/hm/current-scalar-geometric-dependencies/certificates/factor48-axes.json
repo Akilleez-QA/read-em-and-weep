@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "axes": [
+    {
+      "status": "PASS",
+      "normalizedSHA256": "c40f29d6fa245bc12ba1582608ed64ed5c3f613b287ab5d552ebb1e27462b383",
+      "axis": 0,
+      "field": "Q",
+      "normalizedSumSymbols": 37734,
+      "coordinateLowerBounds": [
+        0,
+        48,
+        48,
+        48
+      ],
+      "coordinateUpperBounds": [
+        0,
+        212,
+        212,
+        212
+      ],
+      "totalDegreeBounds": [
+        353,
+        449
+      ],
+      "exposedCoordinatePowers": {
+        "1": 48,
+        "2": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305,
+      "minimalFactorMultiplicityClaimed": false,
+      "degree273VanishingChecked": false
+    },
+    {
+      "status": "PASS",
+      "normalizedSHA256": "4f5625c6341c995a35e6581af2fb96ef3ec7e024ab31d8e0716957420abd773a",
+      "axis": 1,
+      "field": "Q",
+      "normalizedSumSymbols": 37633,
+      "coordinateLowerBounds": [
+        48,
+        0,
+        48,
+        48
+      ],
+      "coordinateUpperBounds": [
+        212,
+        0,
+        212,
+        212
+      ],
+      "totalDegreeBounds": [
+        353,
+        449
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "2": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305,
+      "minimalFactorMultiplicityClaimed": false,
+      "degree273VanishingChecked": false
+    },
+    {
+      "status": "PASS",
+      "normalizedSHA256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+      "axis": 2,
+      "field": "Q",
+      "normalizedSumSymbols": 37701,
+      "coordinateLowerBounds": [
+        48,
+        48,
+        0,
+        48
+      ],
+      "coordinateUpperBounds": [
+        212,
+        212,
+        0,
+        212
+      ],
+      "totalDegreeBounds": [
+        353,
+        449
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "1": 48,
+        "3": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305,
+      "minimalFactorMultiplicityClaimed": false,
+      "degree273VanishingChecked": false
+    },
+    {
+      "status": "PASS",
+      "normalizedSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+      "axis": 3,
+      "field": "Q",
+      "normalizedSumSymbols": 37604,
+      "coordinateLowerBounds": [
+        48,
+        48,
+        48,
+        0
+      ],
+      "coordinateUpperBounds": [
+        212,
+        212,
+        212,
+        0
+      ],
+      "totalDegreeBounds": [
+        353,
+        449
+      ],
+      "exposedCoordinatePowers": {
+        "0": 48,
+        "1": 48,
+        "2": 48
+      },
+      "strippedCoordinateUpperBound": 164,
+      "strippedTotalUpperBound": 305,
+      "minimalFactorMultiplicityClaimed": false,
+      "degree273VanishingChecked": false
+    }
+  ],
+  "sourceGenerationPerformed": false,
+  "readOnlyNormalizedSourceTraversal": true
+}

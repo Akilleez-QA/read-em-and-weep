@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "modelCanonicalSHA256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "nonzeroHomogeneousEntries": 451,
+  "zeroEntriesChecked": 1259,
+  "carrierFactorMaxima": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      1,
+      1
+    ]
+  ],
+  "factorOwnership": "primary j: (v_j,F_j); auxiliary: (v_0,v_1,v_3,v_4)",
+  "minimalityClaimed": false
+}
