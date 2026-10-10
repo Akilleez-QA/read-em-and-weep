@@ -7,6 +7,11 @@ ints. Multiplication is ordinary sparse convolution with the truncation
 above. Nothing in this file imports or calls the published evaluator,
 its packed product, or its Fraction oracle.
 
+The published coefficient digest hashes numerators written over that
+common denominator. leastDenominatorRows is a separate reporting field:
+each coefficient is reduced by its own gcd. Those least denominators
+divide the common denominator and need not equal it.
+
 Leaf assignment for an ordered role tuple (i, j, a, b), taken from the
 published recurrence rather than from its code:
 
@@ -173,8 +178,41 @@ def add(left, right):
 
 
 def polynomial_to_fractions(poly) -> dict[tuple[int, int, int], tuple[int, int]]:
+    """Pair each numerator with the polynomial's common denominator.
+
+    This is the stored representation. It is not lowest terms for each
+    coefficient. least_denominator_rows performs that reduction.
+    """
     den = poly[1]
     return {decode(key): (coeff, den) for key, coeff in poly[0].items()}
+
+
+def reduce_fraction(numer: int, den: int) -> tuple[int, int]:
+    """Return numer/den in lowest terms, with a positive denominator."""
+    if den <= 0:
+        raise ValueError('denominator must be positive')
+    gap = math.gcd(abs(numer), den)
+    return numer // gap, den // gap
+
+
+def least_denominator_rows(rows) -> list[list]:
+    """Reduce each coefficient. The common denominator stays a separate fact."""
+    reduced = []
+    for r, w, z, numer, den in rows:
+        numer_r, den_r = reduce_fraction(int(numer), int(den))
+        reduced.append([r, w, z, str(numer_r), str(den_r)])
+    return reduced
+
+
+def lifts_to_common_denominator(least_rows, encoded, common: int) -> bool:
+    """True when reduced rows, cleared over `common`, are the digest rows."""
+    lifted = []
+    for r, w, z, numer_s, den_s in least_rows:
+        den_r = int(den_s)
+        if den_r <= 0 or common % den_r != 0:
+            return False
+        lifted.append([r, w, z, str(int(numer_s) * (common // den_r))])
+    return lifted == encoded
 
 
 def self_test() -> None:
@@ -213,6 +251,33 @@ def self_test() -> None:
     # Root b^2, coefficient 5, reverse shift 0, is 5 z^2.
     root = scale_shift(power(Z_MONOMIAL, 2), 5, 1, 0, 0)
     assert root == ({encode(0, 0, 2): 5}, 1)
+    # 64 is a common representation denominator, not each least denominator.
+    # 600/64 = 75/8 because gcd(600, 64) = 8; 15432000/64 is an integer.
+    assert reduce_fraction(600, 64) == (75, 8)
+    assert reduce_fraction(15432000, 64) == (241125, 1)
+    assert reduce_fraction(-2198, 64) == (-1099, 32)
+    recorded_over_64 = [
+        600, 6000, 433500, 15432000, 360823200, 42380, -2198, -30,
+        -12410, -896331, 4830, 348855, 400900, 29794978, 1090640024,
+        26212400278,
+    ]
+    least_dens = {reduce_fraction(numer, 64)[1] for numer in recorded_over_64}
+    assert least_dens == {1, 2, 4, 8, 16, 32, 64}
+    assert math.lcm(*least_dens) == 64
+    sample = [
+        [4, 27, 21, 600, 64],
+        [4, 35, 20, 15432000, 64],
+        [5, 29, 21, -2198, 64],
+    ]
+    sample_least = least_denominator_rows(sample)
+    assert sample_least == [
+        [4, 27, 21, '75', '8'],
+        [4, 35, 20, '241125', '1'],
+        [5, 29, 21, '-1099', '32'],
+    ]
+    assert lifts_to_common_denominator(
+        sample_least, rows_over_common_denominator(sample, 64), 64,
+    )
 
 
 def factor(values, cache, symbol: int, exponent: int):
@@ -355,6 +420,11 @@ def main() -> None:
     evaluated = evaluate_edge(compact, roles)
     encoded = rows_over_common_denominator(evaluated['rows'], common)
     digest = hashlib.sha256(json.dumps(encoded, separators=(',', ':')).encode()).hexdigest()
+    least_rows = least_denominator_rows(evaluated['rows'])
+    if not lifts_to_common_denominator(least_rows, encoded, common):
+        raise SystemExit(
+            'reduced coefficients do not lift to the common-denominator rows used for the digest'
+        )
     receipt = {
         'schema': 'hsd-independent-quotient-edge-v1',
         'evidenceClass': 'source-regenerated input, independent rational arithmetic, compared with the published coefficient digest',
@@ -372,9 +442,7 @@ def main() -> None:
         'coefficientHashMatched': digest == expected['integerCoefficientSHA256'],
         'nonzeroCountMatched': len(encoded) == expected['retainedNonzeros'],
         'integerRows': encoded,
-        'leastDenominatorRows': [
-            [r, w, z, str(numer), str(den)] for r, w, z, numer, den in evaluated['rows']
-        ],
+        'leastDenominatorRows': least_rows,
         'elapsedSeconds': evaluated['elapsedSeconds'],
         'selfTest': 'PASS',
     }

@@ -15,9 +15,9 @@ That is source regeneration only. It is not a quotient result.
 
 ## Independent quotient arithmetic
 
-`independent_quotient.py` (`23cca42052862cdaf56071c2882b8cc1678d7aae6ec9c359f9b80f8e87580b78`) evaluates roles 0123 in `Q[v,w,z]/(v^6,w^37,z^22)` with its own sparse integer arithmetic. It does not import the published evaluator, packed product, or Fraction oracle. The comparison target is the published coefficient digest in `expected.json`, not a replay of a `quotient.json` artifact.
+`independent_quotient.py` (`8306039649cb560ffbba38178173fc992f3abcd789fad1d0c7d583457895323f`) evaluates roles 0123 in `Q[v,w,z]/(v^6,w^37,z^22)` with its own sparse integer arithmetic. It does not import the published evaluator, packed product, or Fraction oracle. The comparison target is the published coefficient digest in `expected.json`, not a replay of a `quotient.json` artifact.
 
-Result, recorded in `edge-0123-receipt.json`: the integer coefficient SHA-256 is `8e91a22e9aa6de274f606dfa3fc27d332edc95fc68b8cf5f702392de37cf904d`, the common denominator is 64, and there are 16 nonzero coefficients. Each coefficient already has least denominator 64. This gate is reproduced. The other 23 role permutations were not evaluated.
+Result, recorded in `edge-0123-receipt.json`: the integer coefficient SHA-256 is `8e91a22e9aa6de274f606dfa3fc27d332edc95fc68b8cf5f702392de37cf904d`. The common representation denominator, recorded separately as `commonDenominator`, is 64, and there are 16 nonzero coefficients. `leastDenominatorRows` stores each of those coefficients in lowest terms. Those least denominators divide 64 and are not all 64; the set is {1, 2, 4, 8, 16, 32, 64}, and the least common multiple of that set is still 64. For example, 600/64 reduces to 75/8 because gcd(600, 64) = 8, and 15432000/64 reduces to 241125/1. The coefficient digest hashes the numerators over the common denominator 64, not the reduced denominators. This gate is reproduced. The other 23 role permutations were not evaluated.
 
 ## JSON resume guards
 
@@ -29,7 +29,7 @@ Reproduced rejections, before any quotient product:
 - truncated JSON and truncated UTF-8
 - mismatched compact byte pin, mismatched clearing byte pin, and a checkpoint whose input or arithmetic pin does not match the live contract
 
-Missing hypothesis, not a contradicted claim: a schema-valid checkpoint with the live contract, the recomputed frontier, and a tampered leaf coefficient is not rejected. The resume guard binds the checkpoint to the configuration, program, and input hashes. It does not bind the intermediate numerator table. The separate historical-hash validator is outside that guard.
+Missing hypothesis, not a contradicted claim: a schema-valid checkpoint with the live contract, the recomputed frontier, and a tampered leaf coefficient is not rejected. The resume guard binds the checkpoint to the configuration, program, and input hashes. It does not bind the intermediate numerator table. Frontier and contract pins alone do not certify checkpoint coefficient contents. The separate historical-hash validator is outside that guard.
 
 ## Not claimed
 
