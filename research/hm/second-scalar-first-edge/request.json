@@ -1,0 +1,4578 @@
+{
+  "schema": "second-scalar-first-edge-request-v1",
+  "scalar_map": "X02[0,5]-X13[10,1]",
+  "field": "Q",
+  "roles": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "target_index": 2,
+  "pairing_monomial": [
+    2,
+    2,
+    2,
+    0
+  ],
+  "permutation_sign": 1,
+  "d": 8,
+  "L": 22,
+  "w": 41,
+  "rows": [
+    {
+      "slot": [
+        0,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        215,
+        151,
+        47
+      ],
+      "kernel_weight": "-1669236644923148332934708400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        215,
+        150,
+        48
+      ],
+      "kernel_weight": "-290785835697317113226333400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        215,
+        149,
+        49
+      ],
+      "kernel_weight": "386573079352952980561162950",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        215,
+        148,
+        50
+      ],
+      "kernel_weight": "-211715673185721047904928500",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        215,
+        147,
+        51
+      ],
+      "kernel_weight": "89442252503678801952134700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        215,
+        146,
+        52
+      ],
+      "kernel_weight": "-32487043379422649107311900",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        215,
+        145,
+        53
+      ],
+      "kernel_weight": "10543056126446728449150600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        215,
+        144,
+        54
+      ],
+      "kernel_weight": "-3109787174653301219429100",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        215,
+        143,
+        55
+      ],
+      "kernel_weight": "840366432282272506981650",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        215,
+        142,
+        56
+      ],
+      "kernel_weight": "-208718976631933787808600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        215,
+        141,
+        57
+      ],
+      "kernel_weight": "47651842919061726483600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        215,
+        140,
+        58
+      ],
+      "kernel_weight": "-9979692445579899659400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        215,
+        139,
+        59
+      ],
+      "kernel_weight": "1909515230637658644735",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        215,
+        138,
+        60
+      ],
+      "kernel_weight": "-331818397713468206730",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        215,
+        137,
+        61
+      ],
+      "kernel_weight": "51940112825979325395",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        215,
+        136,
+        62
+      ],
+      "kernel_weight": "-7244647761939955920",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        215,
+        135,
+        63
+      ],
+      "kernel_weight": "887532824811979080",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        215,
+        134,
+        64
+      ],
+      "kernel_weight": "-93659629608805680",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        215,
+        133,
+        65
+      ],
+      "kernel_weight": "8285715289350870",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        215,
+        132,
+        66
+      ],
+      "kernel_weight": "-590452004900940",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        215,
+        131,
+        67
+      ],
+      "kernel_weight": "31801418489925",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        215,
+        130,
+        68
+      ],
+      "kernel_weight": "-1151575266450",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        0,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        215,
+        129,
+        69
+      ],
+      "kernel_weight": "21042072975",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        214,
+        152,
+        47
+      ],
+      "kernel_weight": "-665919477929169873317046600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        214,
+        151,
+        48
+      ],
+      "kernel_weight": "414617825595719068505852400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        214,
+        150,
+        49
+      ],
+      "kernel_weight": "-189560118101718195380436300",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        214,
+        149,
+        50
+      ],
+      "kernel_weight": "73785717736708152087738000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        214,
+        148,
+        51
+      ],
+      "kernel_weight": "-25654849758934955700897000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        214,
+        147,
+        52
+      ],
+      "kernel_weight": "8136025092884270004101700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        214,
+        146,
+        53
+      ],
+      "kernel_weight": "-2377437953935603358564100",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        214,
+        145,
+        54
+      ],
+      "kernel_weight": "643217256369830417087400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        214,
+        144,
+        55
+      ],
+      "kernel_weight": "-161399085704605568852400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        214,
+        143,
+        56
+      ],
+      "kernel_weight": "37545860162815755389100",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        214,
+        142,
+        57
+      ],
+      "kernel_weight": "-8080575573183445533600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        214,
+        141,
+        58
+      ],
+      "kernel_weight": "1603237676051493203400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        214,
+        140,
+        59
+      ],
+      "kernel_weight": "-291765988703839436640",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        214,
+        139,
+        60
+      ],
+      "kernel_weight": "48376661527142497080",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        214,
+        138,
+        61
+      ],
+      "kernel_weight": "-7244647761939955920",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        214,
+        137,
+        62
+      ],
+      "kernel_weight": "968909893374334320",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        214,
+        136,
+        63
+      ],
+      "kernel_weight": "-114033422563726680",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        214,
+        135,
+        64
+      ],
+      "kernel_weight": "11579701936776120",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        214,
+        134,
+        65
+      ],
+      "kernel_weight": "-987176202256020",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        214,
+        133,
+        66
+      ],
+      "kernel_weight": "67875731256480",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        214,
+        132,
+        67
+      ],
+      "kernel_weight": "-3531202156440",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        214,
+        131,
+        68
+      ],
+      "kernel_weight": "123634763700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        1,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        214,
+        130,
+        69
+      ],
+      "kernel_weight": "-2186189400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        213,
+        153,
+        47
+      ],
+      "kernel_weight": "378132040979353742522949900",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        213,
+        152,
+        48
+      ],
+      "kernel_weight": "-153079867149216562529641800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        213,
+        151,
+        49
+      ],
+      "kernel_weight": "55651038565182316188152850",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        213,
+        150,
+        50
+      ],
+      "kernel_weight": "-18561884485354095582018000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        213,
+        149,
+        51
+      ],
+      "kernel_weight": "5741285024757205443287250",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        213,
+        148,
+        52
+      ],
+      "kernel_weight": "-1655781861115450419603000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        213,
+        147,
+        53
+      ],
+      "kernel_weight": "446348192901186405030600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        213,
+        146,
+        54
+      ],
+      "kernel_weight": "-112523504611008263509800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        213,
+        145,
+        55
+      ],
+      "kernel_weight": "26503738970719518483150",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        213,
+        144,
+        56
+      ],
+      "kernel_weight": "-5820213191826636128400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        213,
+        143,
+        57
+      ],
+      "kernel_weight": "1187751380707491330150",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        213,
+        142,
+        58
+      ],
+      "kernel_weight": "-224261699093968951800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        213,
+        141,
+        59
+      ],
+      "kernel_weight": "38954803954047021180",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        213,
+        140,
+        60
+      ],
+      "kernel_weight": "-6180440141924493480",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        213,
+        139,
+        61
+      ],
+      "kernel_weight": "887532824811979080",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        213,
+        138,
+        62
+      ],
+      "kernel_weight": "-114033422563726680",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        213,
+        137,
+        63
+      ],
+      "kernel_weight": "12913869995215560",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        213,
+        136,
+        64
+      ],
+      "kernel_weight": "-1263587322002040",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        213,
+        135,
+        65
+      ],
+      "kernel_weight": "103925650495170",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        213,
+        134,
+        66
+      ],
+      "kernel_weight": "-6901425575520",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        213,
+        133,
+        67
+      ],
+      "kernel_weight": "347110122870",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        213,
+        132,
+        68
+      ],
+      "kernel_weight": "-11759397720",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        2,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        213,
+        131,
+        69
+      ],
+      "kernel_weight": "201359550",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        212,
+        154,
+        47
+      ],
+      "kernel_weight": "-109287869750620266344751000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        212,
+        153,
+        48
+      ],
+      "kernel_weight": "37509944570856410602068000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        212,
+        152,
+        49
+      ],
+      "kernel_weight": "-12035411943471642130392960",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        212,
+        151,
+        50
+      ],
+      "kernel_weight": "3628049039387475328388700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        212,
+        150,
+        51
+      ],
+      "kernel_weight": "-1030022333315748074874600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        212,
+        149,
+        52
+      ],
+      "kernel_weight": "275633235678715525535400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        212,
+        148,
+        53
+      ],
+      "kernel_weight": "-69495908405338180191300",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        212,
+        147,
+        54
+      ],
+      "kernel_weight": "16487010757749856403940",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        212,
+        146,
+        55
+      ],
+      "kernel_weight": "-3672134123229549621000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        212,
+        145,
+        56
+      ],
+      "kernel_weight": "765533247607675281000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        212,
+        144,
+        57
+      ],
+      "kernel_weight": "-148788972983199517500",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        212,
+        143,
+        58
+      ],
+      "kernel_weight": "26828868026177406000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        212,
+        142,
+        59
+      ],
+      "kernel_weight": "-4460849825683112064",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        212,
+        141,
+        60
+      ],
+      "kernel_weight": "678818577211419960",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        212,
+        140,
+        61
+      ],
+      "kernel_weight": "-93659629608805680",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        212,
+        139,
+        62
+      ],
+      "kernel_weight": "11579701936776120",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        212,
+        138,
+        63
+      ],
+      "kernel_weight": "-1263587322002040",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        212,
+        137,
+        64
+      ],
+      "kernel_weight": "119277644291568",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        212,
+        136,
+        65
+      ],
+      "kernel_weight": "-9474301318440",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        212,
+        135,
+        66
+      ],
+      "kernel_weight": "608207258820",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        212,
+        134,
+        67
+      ],
+      "kernel_weight": "-29596767480",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        212,
+        133,
+        68
+      ],
+      "kernel_weight": "970879560",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        3,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        212,
+        132,
+        69
+      ],
+      "kernel_weight": "-16108764",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        211,
+        155,
+        47
+      ],
+      "kernel_weight": "21945762557292700498903650",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        211,
+        154,
+        48
+      ],
+      "kernel_weight": "-6792864933317751279986400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        211,
+        153,
+        49
+      ],
+      "kernel_weight": "1995611847438429545338125",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        211,
+        152,
+        50
+      ],
+      "kernel_weight": "-556784500097919041149950",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        211,
+        151,
+        51
+      ],
+      "kernel_weight": "147490141888912047197175",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        211,
+        150,
+        52
+      ],
+      "kernel_weight": "-37056453488492994177300",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        211,
+        149,
+        53
+      ],
+      "kernel_weight": "8815975151825950721550",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        211,
+        148,
+        54
+      ],
+      "kernel_weight": "-1981510445216429992200",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        211,
+        147,
+        55
+      ],
+      "kernel_weight": "419549607770549408250",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        211,
+        146,
+        56
+      ],
+      "kernel_weight": "-83383141336061501900",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        211,
+        145,
+        57
+      ],
+      "kernel_weight": "15487980439338953525",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        211,
+        144,
+        58
+      ],
+      "kernel_weight": "-2674569915756948650",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        211,
+        143,
+        59
+      ],
+      "kernel_weight": "426676270584355575",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        211,
+        142,
+        60
+      ],
+      "kernel_weight": "-62397893056092720",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        211,
+        141,
+        61
+      ],
+      "kernel_weight": "8285715289350870",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        211,
+        140,
+        62
+      ],
+      "kernel_weight": "-987176202256020",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        211,
+        139,
+        63
+      ],
+      "kernel_weight": "103925650495170",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        211,
+        138,
+        64
+      ],
+      "kernel_weight": "-9474301318440",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        211,
+        137,
+        65
+      ],
+      "kernel_weight": "727466208385",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        211,
+        136,
+        66
+      ],
+      "kernel_weight": "-45181768030",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        211,
+        135,
+        67
+      ],
+      "kernel_weight": "2128807555",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        211,
+        134,
+        68
+      ],
+      "kernel_weight": "-67661580",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        4,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        211,
+        133,
+        69
+      ],
+      "kernel_weight": "1088430",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        210,
+        156,
+        47
+      ],
+      "kernel_weight": "-3202757879538180893277600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        210,
+        155,
+        48
+      ],
+      "kernel_weight": "917260974073837552149900",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        210,
+        154,
+        49
+      ],
+      "kernel_weight": "-251219469561554757768750",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        210,
+        153,
+        50
+      ],
+      "kernel_weight": "65733908753893235675400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        210,
+        152,
+        51
+      ],
+      "kernel_weight": "-16409249090008037789400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        210,
+        151,
+        52
+      ],
+      "kernel_weight": "3900756332647057851450",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        210,
+        150,
+        53
+      ],
+      "kernel_weight": "-880997580087648004800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        210,
+        149,
+        54
+      ],
+      "kernel_weight": "188523531292190673600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        210,
+        148,
+        55
+      ],
+      "kernel_weight": "-38097133628917473600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        210,
+        147,
+        56
+      ],
+      "kernel_weight": "7242093819273194000",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        210,
+        146,
+        57
+      ],
+      "kernel_weight": "-1289085237571890850",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        210,
+        145,
+        58
+      ],
+      "kernel_weight": "213683852809225400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        210,
+        144,
+        59
+      ],
+      "kernel_weight": "-32771618202034600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        210,
+        143,
+        60
+      ],
+      "kernel_weight": "4613539740262950",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        210,
+        142,
+        61
+      ],
+      "kernel_weight": "-590452004900940",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        210,
+        141,
+        62
+      ],
+      "kernel_weight": "67875731256480",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        210,
+        140,
+        63
+      ],
+      "kernel_weight": "-6901425575520",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        210,
+        139,
+        64
+      ],
+      "kernel_weight": "608207258820",
+      "coefficient": [
+        "-15",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-2280777220575",
+        "8"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        210,
+        138,
+        65
+      ],
+      "kernel_weight": "-45181768030",
+      "coefficient": [
+        "-1023",
+        "32"
+      ],
+      "weighted_contribution": [
+        "23110474347345",
+        "16"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        210,
+        137,
+        66
+      ],
+      "kernel_weight": "2716979720",
+      "coefficient": [
+        "-33899",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-11512861941035",
+        "4"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        210,
+        136,
+        67
+      ],
+      "kernel_weight": "-124031320",
+      "coefficient": [
+        "-725449",
+        "32"
+      ],
+      "weighted_contribution": [
+        "11247299632835",
+        "4"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        210,
+        135,
+        68
+      ],
+      "kernel_weight": "3821930",
+      "coefficient": [
+        "-2806787",
+        "8"
+      ],
+      "weighted_contribution": [
+        "-5363671719455",
+        "4"
+      ]
+    },
+    {
+      "slot": [
+        5,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        210,
+        134,
+        69
+      ],
+      "kernel_weight": "-59640",
+      "coefficient": [
+        "-66532215",
+        "16"
+      ],
+      "weighted_contribution": [
+        "495997662825",
+        "2"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        209,
+        157,
+        47
+      ],
+      "kernel_weight": "330388669202714718658650",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        209,
+        156,
+        48
+      ],
+      "kernel_weight": "-88757405177109947447400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        209,
+        155,
+        49
+      ],
+      "kernel_weight": "22902494375775311742375",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        209,
+        154,
+        50
+      ],
+      "kernel_weight": "-5666932889342696399400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        209,
+        153,
+        51
+      ],
+      "kernel_weight": "1342010742155537568975",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        209,
+        152,
+        52
+      ],
+      "kernel_weight": "-303472487012250074400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        209,
+        151,
+        53
+      ],
+      "kernel_weight": "65357110009455577425",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        209,
+        150,
+        54
+      ],
+      "kernel_weight": "-13364481007357376400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        209,
+        149,
+        55
+      ],
+      "kernel_weight": "2585621302297091100",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        209,
+        148,
+        56
+      ],
+      "kernel_weight": "-471360870046480400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        209,
+        147,
+        57
+      ],
+      "kernel_weight": "80583159447483875",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        209,
+        146,
+        58
+      ],
+      "kernel_weight": "-12846958369190400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        209,
+        145,
+        59
+      ],
+      "kernel_weight": "1897272537839525",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        209,
+        144,
+        60
+      ],
+      "kernel_weight": "-257488658802200",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        209,
+        143,
+        61
+      ],
+      "kernel_weight": "31801418489925",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        209,
+        142,
+        62
+      ],
+      "kernel_weight": "-3531202156440",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        209,
+        141,
+        63
+      ],
+      "kernel_weight": "347110122870",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        209,
+        140,
+        64
+      ],
+      "kernel_weight": "-29596767480",
+      "coefficient": [
+        "-495",
+        "16"
+      ],
+      "weighted_contribution": [
+        "1831299987825",
+        "2"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        209,
+        139,
+        65
+      ],
+      "kernel_weight": "2128807555",
+      "coefficient": [
+        "-69241",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-147400763915755",
+        "32"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        209,
+        138,
+        66
+      ],
+      "kernel_weight": "-124031320",
+      "coefficient": [
+        "-73424",
+        "1"
+      ],
+      "weighted_contribution": [
+        "9106875639680",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        209,
+        137,
+        67
+      ],
+      "kernel_weight": "5489295",
+      "coefficient": [
+        "-51394459",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-282119346816405",
+        "32"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        209,
+        136,
+        68
+      ],
+      "kernel_weight": "-164080",
+      "coefficient": [
+        "-202730277",
+        "8"
+      ],
+      "weighted_contribution": [
+        "4157997981270",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        6,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        209,
+        135,
+        69
+      ],
+      "kernel_weight": "2485",
+      "coefficient": [
+        "-305035463",
+        "1"
+      ],
+      "weighted_contribution": [
+        "-758013125555",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        208,
+        158,
+        47
+      ],
+      "kernel_weight": "-21844474773536099449800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        208,
+        157,
+        48
+      ],
+      "kernel_weight": "5551236163571880058200",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        208,
+        156,
+        49
+      ],
+      "kernel_weight": "-1358849943731479468500",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        208,
+        155,
+        50
+      ],
+      "kernel_weight": "319765135790164840650",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        208,
+        154,
+        51
+      ],
+      "kernel_weight": "-72177773875371662400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        208,
+        153,
+        52
+      ],
+      "kernel_weight": "15588325650580439400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        208,
+        152,
+        53
+      ],
+      "kernel_weight": "-3212083729662358950",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        208,
+        151,
+        54
+      ],
+      "kernel_weight": "629457330308473800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        208,
+        150,
+        55
+      ],
+      "kernel_weight": "-116880099603699600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        208,
+        149,
+        56
+      ],
+      "kernel_weight": "20477410859631600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        208,
+        148,
+        57
+      ],
+      "kernel_weight": "-3368573176204600",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        208,
+        147,
+        58
+      ],
+      "kernel_weight": "517335305054750",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        208,
+        146,
+        59
+      ],
+      "kernel_weight": "-73675311509800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        208,
+        145,
+        60
+      ],
+      "kernel_weight": "9651297471200",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        208,
+        144,
+        61
+      ],
+      "kernel_weight": "-1151575266450",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        208,
+        143,
+        62
+      ],
+      "kernel_weight": "123634763700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        208,
+        142,
+        63
+      ],
+      "kernel_weight": "-11759397720",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        208,
+        141,
+        64
+      ],
+      "kernel_weight": "970879560",
+      "coefficient": [
+        "-32175",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-3904756230375",
+        "4"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        208,
+        140,
+        65
+      ],
+      "kernel_weight": "-67661580",
+      "coefficient": [
+        "-144143",
+        "2"
+      ],
+      "weighted_contribution": [
+        "4876471562970",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        208,
+        139,
+        66
+      ],
+      "kernel_weight": "3821930",
+      "coefficient": [
+        "-80082703",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-153035242538395",
+        "16"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        208,
+        138,
+        67
+      ],
+      "kernel_weight": "-164080",
+      "coefficient": [
+        "-1788930113",
+        "32"
+      ],
+      "weighted_contribution": [
+        "18345478308815",
+        "2"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        208,
+        137,
+        68
+      ],
+      "kernel_weight": "4760",
+      "coefficient": [
+        "-3592947059",
+        "4"
+      ],
+      "weighted_contribution": [
+        "-4275607000210",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        7,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        208,
+        136,
+        69
+      ],
+      "kernel_weight": "-70",
+      "coefficient": [
+        "-350756786259",
+        "32"
+      ],
+      "weighted_contribution": [
+        "12276487519065",
+        "16"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        0
+      ],
+      "source_exponents": [
+        272,
+        207,
+        159,
+        47
+      ],
+      "kernel_weight": "702916267465270526850",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        1
+      ],
+      "source_exponents": [
+        272,
+        207,
+        158,
+        48
+      ],
+      "kernel_weight": "-169935800925669797700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        2
+      ],
+      "source_exponents": [
+        272,
+        207,
+        157,
+        49
+      ],
+      "kernel_weight": "39651686882656286130",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        3
+      ],
+      "source_exponents": [
+        272,
+        207,
+        156,
+        50
+      ],
+      "kernel_weight": "-8910491434304783400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        4
+      ],
+      "source_exponents": [
+        272,
+        207,
+        155,
+        51
+      ],
+      "kernel_weight": "1923856105133987325",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        5
+      ],
+      "source_exponents": [
+        272,
+        207,
+        154,
+        52
+      ],
+      "kernel_weight": "-398039194165652550",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        6
+      ],
+      "source_exponents": [
+        272,
+        207,
+        153,
+        53
+      ],
+      "kernel_weight": "78682166288559225",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        7
+      ],
+      "source_exponents": [
+        272,
+        207,
+        152,
+        54
+      ],
+      "kernel_weight": "-14810760713140560",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        8
+      ],
+      "source_exponents": [
+        272,
+        207,
+        151,
+        55
+      ],
+      "kernel_weight": "2644778698775100",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        9
+      ],
+      "source_exponents": [
+        272,
+        207,
+        150,
+        56
+      ],
+      "kernel_weight": "-446107250395800",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        10
+      ],
+      "source_exponents": [
+        272,
+        207,
+        149,
+        57
+      ],
+      "kernel_weight": "70724320184700",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        11
+      ],
+      "source_exponents": [
+        272,
+        207,
+        148,
+        58
+      ],
+      "kernel_weight": "-10477677064400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        12
+      ],
+      "source_exponents": [
+        272,
+        207,
+        147,
+        59
+      ],
+      "kernel_weight": "1440680596355",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        13
+      ],
+      "source_exponents": [
+        272,
+        207,
+        146,
+        60
+      ],
+      "kernel_weight": "-182364632450",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        14
+      ],
+      "source_exponents": [
+        272,
+        207,
+        145,
+        61
+      ],
+      "kernel_weight": "21042072975",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        15
+      ],
+      "source_exponents": [
+        272,
+        207,
+        144,
+        62
+      ],
+      "kernel_weight": "-2186189400",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        16
+      ],
+      "source_exponents": [
+        272,
+        207,
+        143,
+        63
+      ],
+      "kernel_weight": "201359550",
+      "coefficient": [
+        "0",
+        "1"
+      ],
+      "weighted_contribution": [
+        "0",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        17
+      ],
+      "source_exponents": [
+        272,
+        207,
+        142,
+        64
+      ],
+      "kernel_weight": "-16108764",
+      "coefficient": [
+        "-21450",
+        "1"
+      ],
+      "weighted_contribution": [
+        "345532987800",
+        "1"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        18
+      ],
+      "source_exponents": [
+        272,
+        207,
+        141,
+        65
+      ],
+      "kernel_weight": "1088430",
+      "coefficient": [
+        "-50392195",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-27424188401925",
+        "16"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        19
+      ],
+      "source_exponents": [
+        272,
+        207,
+        140,
+        66
+      ],
+      "kernel_weight": "-59640",
+      "coefficient": [
+        "-1789236789",
+        "32"
+      ],
+      "weighted_contribution": [
+        "13338760261995",
+        "4"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        20
+      ],
+      "source_exponents": [
+        272,
+        207,
+        139,
+        67
+      ],
+      "kernel_weight": "2485",
+      "coefficient": [
+        "-40779576189",
+        "32"
+      ],
+      "weighted_contribution": [
+        "-101337246829665",
+        "32"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        21
+      ],
+      "source_exponents": [
+        272,
+        207,
+        138,
+        68
+      ],
+      "kernel_weight": "-70",
+      "coefficient": [
+        "-1332705943239",
+        "64"
+      ],
+      "weighted_contribution": [
+        "46644708013365",
+        "32"
+      ]
+    },
+    {
+      "slot": [
+        8,
+        41,
+        22
+      ],
+      "source_exponents": [
+        272,
+        207,
+        137,
+        69
+      ],
+      "kernel_weight": "1",
+      "coefficient": [
+        "-4113068128915",
+        "16"
+      ],
+      "weighted_contribution": [
+        "-4113068128915",
+        "16"
+      ]
+    }
+  ]
+}

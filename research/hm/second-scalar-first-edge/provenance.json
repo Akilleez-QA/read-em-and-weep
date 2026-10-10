@@ -1,0 +1,119 @@
+{
+  "schema": "second-scalar-first-edge-provenance-v1",
+  "scope": "Original artifact digests identify the separately recorded calculation. They do not identify the sanitized exports and do not prove source attribution. Public package hashes are in manifest.json.",
+  "original_artifacts": {
+    "recorded_final_result": {
+      "sha256": "5fd33df0573a5470ceb3e526f87f56d7b5bd5625a2c91e7965631fc2abd3ec10",
+      "bytes": 90296,
+      "publication": "Selected fields exported in expected.json; original not included."
+    },
+    "recorded_final_manifest": {
+      "sha256": "ed12a1722c262c85d63e6e000ecca0ba165606aa5600c0b3212a19a54fabbbca",
+      "bytes": 67615,
+      "publication": "Not included; 265 artifact pins and 20 historical mappings."
+    },
+    "independent_terminal_receipt": {
+      "sha256": "a81444ef57514b21c3420cd9c3a6cb701f6307e165393e4588b1a14a70240a75",
+      "bytes": 71975,
+      "publication": "Selected rows exported in request.json; terminal reconstruction not reproduced here."
+    },
+    "recorded_edge_result": {
+      "sha256": "2b9b2b45d50f05afd507bb35ca20ddd01f18f47013f51bc5dc327e869e82fb5d",
+      "bytes": 73591,
+      "publication": "Selected rows exported in request.json; original not included."
+    },
+    "recorded_quotient": {
+      "sha256": "06062e1d67244fb7a757661e4f4a69800bdfe55c0dfa7b0231a7f46d418cff0e",
+      "bytes": 14276,
+      "publication": "Mathematical data exported in quotient.json; metadata omitted."
+    },
+    "recorded_all81_interface": {
+      "sha256": "4417461a08716efb967ebeb9189115ff23feab9eb5b7407fa8798a7950bd5c0e",
+      "bytes": 12935099,
+      "publication": "Only target 2, roles 0123 exported in request.json."
+    },
+    "recorded_integer_kernels": {
+      "sha256": "824b1d5b623915de182ebe4bb5f2ae360ffd6072361fd37b7a48ba861c1e5997",
+      "bytes": 5811,
+      "publication": "Rows exported as decimal strings in kernels.json."
+    },
+    "right_prefactor": {
+      "sha256": "f2af8647bae6d1d9c8fec59434c48b7efd8f37e7f743d78e672cdee95d7d2060",
+      "bytes": 3094,
+      "publication": "Included byte-identically as right-prefactor.json."
+    },
+    "map_proof_receipt": {
+      "sha256": "66a1d9b428249527835a5de08a5a79375cfa980a9c9385440660badd46370936",
+      "bytes": 7933,
+      "publication": "Not included; mathematical scope described in MATHEMATICS.md."
+    },
+    "all_axis_support_receipt": {
+      "sha256": "fc238295c26a0b4c0eaa6875ebe0bc2a720323d5134dcb73719e50971f138280",
+      "bytes": 4081,
+      "publication": "Not included; external source obligation."
+    },
+    "pair01_source_receipt": {
+      "sha256": "a8c556a36504040df8561ec5adc38528592e74ba5a16b1aa06464b321b9dadab",
+      "bytes": 3622,
+      "publication": "Not included; external source obligation."
+    },
+    "axis0_support_revised": {
+      "sha256": "eb9abda37477fb358ce0f1cb2edaacab0d23e2a69eb25182dbdfd5800b65f9e3",
+      "bytes": 1676,
+      "publication": "Not included; corrected source-support gate."
+    },
+    "fresh_numerator": {
+      "sha256": "52271016d9dcfe9eb87ea13fc61b3de3e1b2997f8e9a44e2b43a14439c9887d5",
+      "bytes": 4185369,
+      "publication": "Not included; no source regeneration in this package."
+    },
+    "normalized_axis0": {
+      "sha256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "bytes": 5770222,
+      "publication": "Not included; no source regeneration in this package."
+    },
+    "compact_pair01": {
+      "sha256": "eae46f79c8b8d94a6c81e32e8babc58938e411bd69e1588ab8f014dd9875a1ea",
+      "bytes": 14256502,
+      "publication": "Not included; no source regeneration in this package."
+    },
+    "integer_clearing": {
+      "sha256": "69a8dc566f1fb1ee89f371534b2a3ba9e8b9fd9305e199182b2df2908cd1d6a0",
+      "bytes": 2890887,
+      "publication": "Not included; no source regeneration in this package."
+    },
+    "reduced_model": {
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "bytes": 16803,
+      "publication": "Included byte-identically as model.json; finite map identities and embedded prefactor ties are checked."
+    }
+  },
+  "canonical_model_sha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "recorded_support": {
+    "coordinate_factor": 47,
+    "coordinate_upper": 215,
+    "total_upper": 454,
+    "stripped_coordinate_upper": 168,
+    "stripped_total_upper": 313,
+    "root_denominator": 64
+  },
+  "included_original_bytes": [
+    "right-prefactor.json",
+    "model.json"
+  ],
+  "sanitized_exports": [
+    "quotient.json",
+    "request.json",
+    "expected.json",
+    "kernels.json"
+  ],
+  "checks_performed_during_export": [
+    "Three final seal digests matched supplied frozen digests.",
+    "All 17 origin artifacts matched the sealed manifest or the supplied manifest digest.",
+    "Every one of 207 rows matched the issued interface, recorded selector, and independent terminal receipt."
+  ],
+  "limitations": [
+    "No unavailable source artifact is certified by the public checker.",
+    "No checkpoint, raw source DAG, source evaluator, or full scalar computation is included."
+  ]
+}

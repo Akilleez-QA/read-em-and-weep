@@ -1,0 +1,30 @@
+{
+  "schema": "second-scalar-first-edge-expected-v1",
+  "scalar_map": "X02[0,5]-X13[10,1]",
+  "field": "Q",
+  "roles": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "pairing_monomial": [
+    2,
+    2,
+    2,
+    0
+  ],
+  "signed_partial_edge_contribution": [
+    "8655",
+    "16"
+  ],
+  "quotient_nonzeros": 203,
+  "selector_rows": 207,
+  "nonzero_selected_coefficients": 24,
+  "active_target_orientations": 18,
+  "computed_target_orientations": 1,
+  "remaining_target_orientations": 17,
+  "complete_scalar_pairing_computed": false,
+  "full_obstruction_computed": false,
+  "source_attribution_reproduced": false
+}
