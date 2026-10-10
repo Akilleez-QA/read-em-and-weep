@@ -1,0 +1,20 @@
+// Exact polynomial checks over Z[a,b,c,d]. Node.js 18+; no dependencies.
+const exact=x=>{if(!Number.isSafeInteger(x))throw Error('Unsafe integer arithmetic');return x;};
+const zero=()=>({});
+const C=n=>n?{"0,0,0,0":n}:{};
+const V=i=>({[Array.from({length:4},(_,j)=>Number(i===j)).join(",")]:1});
+const add=(p,q)=>{const r={...p};for(const [k,v] of Object.entries(q)){r[k]=exact((r[k]||0)+v);if(!r[k])delete r[k];}return r;};
+const scale=(p,n)=>Object.fromEntries(Object.entries(p).map(([k,v])=>[k,exact(n*v)]).filter(([,v])=>v));
+const sub=(p,q)=>add(p,scale(q,-1));
+const mul=(p,q)=>{let r={};for(const [k,v] of Object.entries(p))for(const [l,w] of Object.entries(q)){const m=k.split(",").map((x,i)=>+x+(+l.split(",")[i])).join(",");r[m]=exact((r[m]||0)+exact(v*w));}return Object.fromEntries(Object.entries(r).filter(([,v])=>v));};
+const pow=(p,n)=>{let r=C(1);for(let i=0;i<n;i++)r=mul(r,p);return r;};
+const [x1,x2,y1,y2]=[0,1,2,3].map(V);
+const diff=(p,i)=>{let r={};for(const[k,v]of Object.entries(p)){const e=k.split(",").map(Number);if(e[i]){const w=exact(v*e[i]);e[i]--;r=add(r,{[e.join(",")]:w});}}return r;};
+const bracket=(p,q)=>sub(mul(diff(p,0),diff(q,1)),mul(diff(p,1),diff(q,0)));
+const row=[x1,x2,y1,y2];
+const mat=[[scale(x2,-1),C(0)],[x1,C(0)],[C(0),scale(y2,-1)],[C(0),y1]];
+const ordinary=[0,1].map(j=>row.reduce((s,p,i)=>add(s,mul(p,mat[i][j])),C(0)));
+const twiceMu1=[0,1].map(j=>row.reduce((s,p,i)=>add(s,bracket(p,mat[i][j])),C(0)));
+if(ordinary.some(p=>Object.keys(p).length))throw new Error("Not a complex");
+if(JSON.stringify(twiceMu1)!==JSON.stringify([C(-2),C(0)]))throw new Error("Unexpected bracket");
+console.log(JSON.stringify({ordinary,twiceMu1,pi:"d/dx1 wedge d/dx2",obstructionRow:[-1,0]}));
