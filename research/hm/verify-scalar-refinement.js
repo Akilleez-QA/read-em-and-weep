@@ -1,6 +1,6 @@
 "use strict";
 // Exact scalar refinement comparison for y^2=x^3-x.
-// Run: node research/hm/verify-scalar-refinement.js
+// Run: node verify-scalar-refinement.js
 // This covers the legal line atlas only, not the HM carrier refinements.
 function assert(b,m){if(!b)throw Error(m);}
 let checks=0;
@@ -44,6 +44,11 @@ for(const u of [q,c,r2]){
   const diff=hB(u).map((v,i)=>fa(v,fn(hA(u)[i])));
   ok(fe(diff[0],fn(fm(S,u)))&&fe(diff[0],diff[1]),"horizontal delta h");
   ok(fe(fn(pA(diff)),fm(S,u)),"P'=p(1+delta h)^-1 yields s u");
+}
+for(const [h,p]of [[hA,pA],[hB,pB]])for(const v of [[O,O],[F(zero),c]]){
+ const hd=h(d(v)),ip=p(v);
+ ok(hd.every((x,i)=>fe(fa(x,ip),v[i])),"vertical h d+i p=1");
+ ok(fe(d([ip,ip]),F(zero)),"vertical d i=0");
 }
 // Basis matrices, column convention.
 // Input degree 0: (1, k=(0,c)); degree 1: (q,c).
