@@ -1,0 +1,286 @@
+{
+  "pinnedHead": "add03476d9055aa00e1e00778eea6332cf8e01cc",
+  "pinnedModelSha256": "1fe4608ed77f3767691e7ef4de375fc55b052ccf26159a4aae3ec6d35fe96414",
+  "pinnedModelBytes": 11565,
+  "finiteSpace": {
+    "byTotal": [
+      354,
+      18296,
+      43084,
+      18296,
+      354
+    ],
+    "all": 80384
+  },
+  "lineComplex": {
+    "gammaEntries": 375,
+    "gammaMismatches": 0,
+    "gammaSamples": [],
+    "differentialEdgesMatch": true,
+    "firstEdgeDifference": null
+  },
+  "matrices": [
+    {
+      "name": "weight 0 length-one",
+      "rows": 80,
+      "columns": 160,
+      "mismatches": 0,
+      "rebuiltHash": "c56216cb43fe35e86480ade0bced0314e5c8302f4bc86ca1ddc05d573d39f65d",
+      "pinnedHash": "c56216cb43fe35e86480ade0bced0314e5c8302f4bc86ca1ddc05d573d39f65d",
+      "samples": []
+    },
+    {
+      "name": "weight 0 length-five",
+      "rows": 6480,
+      "columns": 160,
+      "mismatches": 0,
+      "rebuiltHash": "a9758b7d1a8155a960708df02baf70a9c5983b6effc4942ef66960dfd1d4d2c4",
+      "pinnedHash": "a9758b7d1a8155a960708df02baf70a9c5983b6effc4942ef66960dfd1d4d2c4",
+      "samples": []
+    },
+    {
+      "name": "weight 0 internal degree one",
+      "rows": 6480,
+      "columns": 3920,
+      "mismatches": 0,
+      "rebuiltHash": "a76318e4a5503ae2d8955d2a0f0709a4e589892f5bdeee9b2a6a232f78ddeb12",
+      "pinnedHash": "a76318e4a5503ae2d8955d2a0f0709a4e589892f5bdeee9b2a6a232f78ddeb12",
+      "samples": []
+    },
+    {
+      "name": "weight 0 boundaries",
+      "rows": 3920,
+      "columns": 354,
+      "mismatches": 0,
+      "rebuiltHash": "a0ce60e16b994a439f764b6c23e1339dd52ba70b8efab436fd6d739212ccefef",
+      "pinnedHash": "a0ce60e16b994a439f764b6c23e1339dd52ba70b8efab436fd6d739212ccefef",
+      "samples": []
+    },
+    {
+      "name": "weight 1 length-one",
+      "rows": 240,
+      "columns": 320,
+      "mismatches": 0,
+      "rebuiltHash": "1b8ebddc75d83869512204ebaa646d9cac09c8981f1b47c3b52de62136d7f5a3",
+      "pinnedHash": "1b8ebddc75d83869512204ebaa646d9cac09c8981f1b47c3b52de62136d7f5a3",
+      "samples": []
+    },
+    {
+      "name": "weight 1 length-five",
+      "rows": 2160,
+      "columns": 320,
+      "mismatches": 0,
+      "rebuiltHash": "cd4fcc1362787b13cc89aa9b53bc9547b1f265b5d6acd26619e388b767336a1b",
+      "pinnedHash": "cd4fcc1362787b13cc89aa9b53bc9547b1f265b5d6acd26619e388b767336a1b",
+      "samples": []
+    },
+    {
+      "name": "weight 1 diagonal",
+      "rows": 2160,
+      "columns": 354,
+      "mismatches": 0,
+      "rebuiltHash": "ce7336ba7087851ce6b63f4fad4c07dd2a3bcd66a665eb993c2584af46c19b84",
+      "pinnedHash": "ce7336ba7087851ce6b63f4fad4c07dd2a3bcd66a665eb993c2584af46c19b84",
+      "samples": []
+    },
+    {
+      "name": "weight 2 length-one",
+      "rows": 720,
+      "columns": 640,
+      "mismatches": 0,
+      "rebuiltHash": "f9080c589158d508c301ab4d7ca068f162b81f99a1a5af9ae9f804f5a641c861",
+      "pinnedHash": "f9080c589158d508c301ab4d7ca068f162b81f99a1a5af9ae9f804f5a641c861",
+      "samples": []
+    },
+    {
+      "name": "weight 2 length-five",
+      "rows": 720,
+      "columns": 640,
+      "mismatches": 0,
+      "rebuiltHash": "935ced65c9db84b4bd50f9720268f68206f914ceeb80ff7a33afea82cd2877ed",
+      "pinnedHash": "935ced65c9db84b4bd50f9720268f68206f914ceeb80ff7a33afea82cd2877ed",
+      "samples": []
+    },
+    {
+      "name": "weight 2 length-three",
+      "rows": 354,
+      "columns": 640,
+      "mismatches": 0,
+      "rebuiltHash": "dc7a4169c61bc6aff0a2530dee52208b0fbe8e2d9eced8cde053c842cc683bd3",
+      "pinnedHash": "dc7a4169c61bc6aff0a2530dee52208b0fbe8e2d9eced8cde053c842cc683bd3",
+      "samples": []
+    },
+    {
+      "name": "weight 3 length-one",
+      "rows": 2160,
+      "columns": 1280,
+      "mismatches": 0,
+      "rebuiltHash": "24bfa3775f0e7f966645ae08a50efa99a7bc0c7c78dd67b803a13b456b8e25a0",
+      "pinnedHash": "24bfa3775f0e7f966645ae08a50efa99a7bc0c7c78dd67b803a13b456b8e25a0",
+      "samples": []
+    },
+    {
+      "name": "weight 3 length-five",
+      "rows": 240,
+      "columns": 1280,
+      "mismatches": 0,
+      "rebuiltHash": "6b20f7e86e4dd7e28473e133a85b853e8763859724b8391e00c750d445cd0076",
+      "pinnedHash": "6b20f7e86e4dd7e28473e133a85b853e8763859724b8391e00c750d445cd0076",
+      "samples": []
+    },
+    {
+      "name": "weight 4 length-one",
+      "rows": 6480,
+      "columns": 2560,
+      "mismatches": 0,
+      "rebuiltHash": "a829d202619ae3112438345e52266e5ff8dadbd268c5f58a3911fcde16ed480d",
+      "pinnedHash": "a829d202619ae3112438345e52266e5ff8dadbd268c5f58a3911fcde16ed480d",
+      "samples": []
+    },
+    {
+      "name": "weight 4 length-five",
+      "rows": 80,
+      "columns": 2560,
+      "mismatches": 0,
+      "rebuiltHash": "e9d80d043ab16b51f4b360a203a34043e26c8d19be6a81e6ae2282feb4b8d8b3",
+      "pinnedHash": "e9d80d043ab16b51f4b360a203a34043e26c8d19be6a81e6ae2282feb4b8d8b3",
+      "samples": []
+    }
+  ],
+  "ranks": [
+    {
+      "weight": 0,
+      "h1": 79,
+      "d1": {
+        "rows": 80,
+        "columns": 160,
+        "rank": 50,
+        "nonzeros": 320,
+        "maxAbs": "1"
+      },
+      "d3": null,
+      "remaining": {
+        "rows": 6480,
+        "columns": 4030,
+        "rank": 3598,
+        "nonzeros": 35866,
+        "maxAbs": "1",
+        "unitRank": 3598,
+        "usedRationalTail": false
+      },
+      "boundaryRank": 353
+    },
+    {
+      "weight": 1,
+      "h1": 2,
+      "d1": {
+        "rows": 240,
+        "columns": 320,
+        "rank": 150,
+        "nonzeros": 960,
+        "maxAbs": "1"
+      },
+      "d3": null,
+      "remaining": {
+        "rows": 2160,
+        "columns": 524,
+        "rank": 522,
+        "nonzeros": 8144,
+        "maxAbs": "2",
+        "unitRank": 497,
+        "usedRationalTail": true
+      },
+      "boundaryRank": 0
+    },
+    {
+      "weight": 2,
+      "h1": 0,
+      "d1": {
+        "rows": 720,
+        "columns": 640,
+        "rank": 450,
+        "nonzeros": 2880,
+        "maxAbs": "1"
+      },
+      "d3": {
+        "rows": 354,
+        "columns": 190,
+        "rank": 100,
+        "nonzeros": 1100,
+        "maxAbs": "1"
+      },
+      "remaining": {
+        "rows": 720,
+        "columns": 90,
+        "rank": 90,
+        "nonzeros": 700,
+        "maxAbs": "1",
+        "unitRank": 90,
+        "usedRationalTail": false
+      },
+      "boundaryRank": 0
+    },
+    {
+      "weight": 3,
+      "h1": 0,
+      "d1": {
+        "rows": 2160,
+        "columns": 1280,
+        "rank": 1250,
+        "nonzeros": 8640,
+        "maxAbs": "1"
+      },
+      "d3": null,
+      "remaining": {
+        "rows": 240,
+        "columns": 30,
+        "rank": 30,
+        "nonzeros": 150,
+        "maxAbs": "1",
+        "unitRank": 30,
+        "usedRationalTail": false
+      },
+      "boundaryRank": 0
+    },
+    {
+      "weight": 4,
+      "h1": 0,
+      "d1": {
+        "rows": 6480,
+        "columns": 2560,
+        "rank": 2550,
+        "nonzeros": 25920,
+        "maxAbs": "1"
+      },
+      "d3": null,
+      "remaining": {
+        "rows": 80,
+        "columns": 10,
+        "rank": 10,
+        "nonzeros": 50,
+        "maxAbs": "1",
+        "unitRank": 10,
+        "usedRationalTail": false
+      },
+      "boundaryRank": 0
+    }
+  ],
+  "h1ByWeight": [
+    79,
+    2,
+    0,
+    0,
+    0
+  ],
+  "h1WithMultiplicities": 87,
+  "expectedH1": [
+    79,
+    2,
+    0,
+    0,
+    0
+  ],
+  "expectedTotal": 87,
+  "rankAgreesWithExpected": true,
+  "entrywiseMismatches": 0
+}
