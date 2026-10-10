@@ -40,7 +40,7 @@ The literal Orlov self-pair is not a shifted coherent sheaf: its top relative Fo
 
 Explicit seed: C:y²=x³−x, X=C⁴, N=O(Σ∞ᵢ). The map f is given by coefficients of ∏(uᵢT+vᵢS), has degree 384 and f*O(1)=N².
 
-A twelve-by-five HM matrix α and β=αᵗJ were reconstructed from the original wedge formulas. Six projective chart types cover P⁴; after sixteen elliptic product charts this gives at most 96 algebraic charts. Quotient-frame formulas supply rational transition matrices.
+A twelve-by-five HM matrix α and β=αᵗJ were reconstructed from the original wedge formulas. Six projective chart types cover P⁴. The initial inverse-x product cover alone only trivializes N², so it did not justify an N-trivialized 96-chart assertion. A later explicit correction uses C\\{∞} and C\\{(0,0),(1,0),(−1,0)}, with N frames 1 and y/x; its sixteen product opens restore the bound of at most 96 after intersection with the six projective opens. The corrected cover is specified in PR #2. Quotient-frame formulas supply rational transition matrices.
 
 Recorded exact sparse-integer-polynomial executions:
 - βα=0 in all 25 entries;
