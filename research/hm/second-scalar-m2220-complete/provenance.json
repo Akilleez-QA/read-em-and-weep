@@ -1,0 +1,14 @@
+{
+  "schema": "second-scalar-m2220-historical-provenance-v1",
+  "historical_final_result_sha256": "eb0b339e79d821b3fc40bfa047188a0d7442bdb7c3516c06e0c6e33cf8f5ea36",
+  "historical_final_manifest_sha256": "3c548b72900abfa125234017b97ab8067531c43c5ed340211168eab629a5d2f8",
+  "historical_primary_comparison_sha256": "3d4e2c7277b6c8752502f90ba2972905da82187fa02894376a2928003b4a0925",
+  "historical_final_seal_comparison_sha256": "2009dc3590b450a87b5219ed372e2fdbf38b6fd47984dcb48466a43965e75011",
+  "historical_audit_manifest_sha256": "ac4715bbdbfc04448bc3e22a80998cb6620e20f561790d1fe3e8ae5f7dcfba81",
+  "historical_final_manifest_pins": 904,
+  "historical_frozen_audit_pins": 609,
+  "historical_source_nodes_reevaluated_by_comparison": 0,
+  "terminal_checkpoints_distributed": false,
+  "new_map_source_regeneration_distributed": false,
+  "historical_hashes_are_not_public_reproduction": true
+}
