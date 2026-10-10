@@ -13,7 +13,7 @@ Reference source: [openai/math at adc7f1241b42e322a6451854ab7e4b4c146bf78a](http
 ## Focused contributions
 
 1. Explicit normalized Horrocks–Mumford pullback on a fixed abelian fourfold, with an algebraic atlas and exact matrix checks.
-2. A finite line-complex model for derived endomorphisms, with executable integer certificates for selected deck-character sectors.
+2. A finite line-complex model for derived endomorphisms, with executable integer certificates for all deck-character sectors.
 3. A smooth 87-parameter family and an injective Kodaira–Spencer map.
 4. Reduction of a second-order quantization test to an obstruction class, including a lift-independent full-sign component.
 
@@ -60,4 +60,8 @@ Tracking PRs belong to this fork. An upstream solution submission requires a com
 - [#15: exact line-calibration target](https://github.com/Akilleez-QA/read-em-and-weep/pull/15)
 - [#16: calibrated algebroid derivation and unfinished comparison](https://github.com/Akilleez-QA/read-em-and-weep/pull/16)
 
-The complete global comparison, actual first-order cochain primitive, and projected ambient second-order obstruction remain unfinished. The whole-obstruction reduction also requires its stated additional hypotheses; the full-sign independence is the narrower checked statement.
+An explicit first-order cochain primitive is now derived coefficientwise in #19, with 6,864 exact point-regression equations including mixed line charts. The complete global comparison and projected ambient second-order obstruction remain unfinished. The whole-obstruction reduction also requires its stated additional hypotheses; the full-sign independence is the narrower checked statement.
+
+- [#17: ordinary formal deformation bases](https://github.com/Akilleez-QA/read-em-and-weep/pull/17)
+- [#18: executed scalar refinement comparison](https://github.com/Akilleez-QA/read-em-and-weep/pull/18)
+- [#19: explicit first-order lift and exact regressions](https://github.com/Akilleez-QA/read-em-and-weep/pull/19)
