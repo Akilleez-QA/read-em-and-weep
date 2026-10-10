@@ -1,0 +1,542 @@
+{
+  "pinned": "a100f4e0be453d6e182320b792359f8a04e32b4d",
+  "findings": [
+    {
+      "name": "gamma[10,:]=(v0,0,0,0,0) and ev[:,0]=(v0,0)^t",
+      "status": "reproduced",
+      "detail": {
+        "gamma_row": [
+          [
+            [
+              "0,0,0,0",
+              1
+            ]
+          ],
+          [],
+          [],
+          [],
+          []
+        ],
+        "ev_column": [
+          [
+            [
+              "0,0,0,0",
+              1
+            ]
+          ],
+          []
+        ]
+      }
+    },
+    {
+      "name": "ten bottom-differential matrix units ev[b,5b+k]=v_k",
+      "status": "reproduced",
+      "detail": {
+        "failures": []
+      }
+    },
+    {
+      "name": "first-carrier rows I[10]=0 and H0[0,:]=e_10^t/v0 after dividing by the chart denominator",
+      "status": "reproduced",
+      "detail": {
+        "charts": [
+          {
+            "chart": 0,
+            "pivot": 0,
+            "stored_numerator": [
+              [
+                "1,1,1,1",
+                1
+              ],
+              [
+                "0,0,0,0",
+                -1
+              ]
+            ],
+            "denominator": [
+              [
+                "1,1,1,1",
+                1
+              ],
+              [
+                "0,0,0,0",
+                -1
+              ]
+            ],
+            "normalized_entry_is_1": true,
+            "I10_zero": true
+          },
+          {
+            "chart": 5,
+            "pivot": 0,
+            "stored_numerator": [
+              [
+                "2,0,1,1",
+                -1
+              ]
+            ],
+            "denominator": [
+              [
+                "2,0,1,1",
+                -1
+              ]
+            ],
+            "normalized_entry_is_1": true,
+            "I10_zero": true
+          }
+        ],
+        "stored_numerators_differ": true
+      }
+    },
+    {
+      "name": "constant scalar maps are 30-dimensional over every field",
+      "status": "reproduced",
+      "detail": {
+        "equation_count": 50,
+        "first_50_columns_permutation": true,
+        "thirty_kernel_vectors": true
+      }
+    },
+    {
+      "name": "current scalar is -L_(10,0)",
+      "status": "reproduced",
+      "detail": {
+        "gamma10": [
+          [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "D(v0) union D(h_1)..D(h_4) covers P^4 by the polynomial identities h_j - v_j^5 = -v0 v1 v2 v3 v4",
+      "status": "reproduced",
+      "detail": {
+        "identity": "h_j = v_j^5 - v0 v1 v2 v3 v4"
+      }
+    },
+    {
+      "name": "prism, chain, and left-inverse identities on increasing tuples",
+      "status": "reproduced",
+      "detail": {
+        "stated_weight_prism_checks": 251,
+        "stated_weight_chain_checks": 25,
+        "stated_weight_left_inverse_checks": 19,
+        "second_weight_system_failures": 0
+      }
+    },
+    {
+      "name": "projection of an alternating cochain remains alternating on repeated coarse labels",
+      "status": "reproduced",
+      "detail": {
+        "samples": 27
+      }
+    },
+    {
+      "name": "one legal-line partition of each h_j: weights sum to h_j and have the stated divisibility",
+      "status": "reproduced",
+      "detail": {
+        "divisor_checks": 256,
+        "nonzero_mask_counts": [
+          5,
+          11,
+          15,
+          16
+        ]
+      }
+    },
+    {
+      "name": "P1 refinement example: all-mask value x^{-1}-x^{-3} has residue 1 and the zero-mask value is 0",
+      "status": "reproduced",
+      "detail": {
+        "coarse": {
+          "-1": "1",
+          "-3": "-1"
+        },
+        "residue": "1"
+      }
+    },
+    {
+      "name": "125 nonzero fifth-root points are simple of Jacobian determinant 125; no partial-zero solution",
+      "status": "reproduced",
+      "detail": {
+        "points": 125,
+        "determinant_failures": 0,
+        "partial_zero_excluded": true,
+        "ok": true
+      }
+    },
+    {
+      "name": "coprime leading terms a_j^5 give quotient length 625 and origin length 500",
+      "status": "reproduced",
+      "detail": {
+        "buchberger": "pairwise coprime leading monomials",
+        "quotient_length": 625,
+        "reduced_points": 125,
+        "origin_length": 500
+      }
+    },
+    {
+      "name": "monic normal form equals the coefficient of a1^4 a2^4 a3^4 a4^4 exactly on the stated exponent cone",
+      "status": "reproduced",
+      "detail": {
+        "monomials": 10000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "Res(z1^2 z2 dz/(e1 e2 e3))=1 and the degree-3 residue is the signed (2,1,0) sum, with no factor 6",
+      "status": "reproduced",
+      "detail": {
+        "ok": true,
+        "residue_210": 1,
+        "signed_matches": true
+      }
+    },
+    {
+      "name": "two constructions of G^{-70} agree, invert G^{70}, and reduce to the stated prime-field kernels",
+      "status": "reproduced",
+      "detail": {
+        "series_inverts": true,
+        "formula_matches_series": true,
+        "displayed_rows_match": true,
+        "primes": [
+          7,
+          13,
+          29,
+          71
+        ],
+        "mod_71_equals_G": true,
+        "coefficient_slots": 132,
+        "nonzero_coefficients": 132
+      }
+    },
+    {
+      "name": "q=e1 e2 e3 factors through G, and every bounded source slot matches [T^{d-r}]G^N for N=1,2,3",
+      "status": "reproduced",
+      "detail": {
+        "factorization": true,
+        "slot_checks": 8505,
+        "failures": 0
+      }
+    },
+    {
+      "name": "648 edge signs, 68040 source slots, total degree 691-S, and the reversal map",
+      "status": "reproduced",
+      "detail": {
+        "requests": 648,
+        "slots": 68040,
+        "sign_failures": 0,
+        "exponent_failures": 0
+      }
+    },
+    {
+      "name": "infinity poles are simple and occur only for active coordinates m_i=2",
+      "status": "reproduced",
+      "detail": {
+        "orders": {
+          "0": 1,
+          "1": 0,
+          "2": -1
+        },
+        "denominator_degree": 275,
+        "numerator_shift": "272+m_i - 275 - 2"
+      }
+    },
+    {
+      "name": "Cartier output has coordinate degree at most 2 for every prime power P>=71",
+      "status": "reproduced",
+      "detail": {
+        "samples": [
+          {
+            "P": 71,
+            "output_degree": 2
+          },
+          {
+            "P": 121,
+            "output_degree": 2
+          },
+          {
+            "P": 125,
+            "output_degree": 2
+          },
+          {
+            "P": 128,
+            "output_degree": 2
+          },
+          {
+            "P": 169,
+            "output_degree": 2
+          },
+          {
+            "P": 243,
+            "output_degree": 2
+          },
+          {
+            "P": 343,
+            "output_degree": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "finite numerator degree bound is 1+5*55-4=272",
+      "status": "reproduced",
+      "detail": {
+        "pole_sum": 55,
+        "degree": 272
+      }
+    },
+    {
+      "name": "ordered four-form sign (-1)^{4*3/2} equals +1",
+      "status": "reproduced",
+      "detail": {
+        "exponent": 6
+      }
+    },
+    {
+      "name": "elementary-symmetric fibers at 0, e1=1, and e4=1 have length 24 through degree 8",
+      "status": "reproduced",
+      "detail": {
+        "origin": 24,
+        "e1_equals_1": 24,
+        "e4_equals_1": 24,
+        "pullback_length": 15000,
+        "origin_pullback_length": 12000
+      }
+    },
+    {
+      "name": "sixteen first-open zeros are among the thirty-five single-coordinate relations",
+      "status": "reproduced",
+      "detail": {
+        "geometric_zero_indices": [
+          40,
+          41,
+          43,
+          44,
+          49,
+          50,
+          52,
+          53,
+          67,
+          68,
+          70,
+          71,
+          76,
+          77,
+          79,
+          80
+        ],
+        "extra_single_coordinate_zeros": [
+          0,
+          1,
+          3,
+          4,
+          9,
+          10,
+          12,
+          13,
+          26,
+          27,
+          28,
+          30,
+          31,
+          36,
+          37,
+          39,
+          62,
+          74,
+          78
+        ],
+        "geometric_not_forced": []
+      }
+    },
+    {
+      "name": "rebuilt incoming and outgoing matrices match the published integer fingerprints",
+      "status": "reproduced",
+      "detail": {
+        "incoming": "b3b74b9b39b8c6c034028d79f37af352d0b94d50941dbc24e41a9cdea2b9ecc3",
+        "outgoing": "c22c0750a701d8172f3e2a0e4d0515b86ea13ac98f164ced241c12fc5ce7784e",
+        "published_incoming": "b3b74b9b39b8c6c034028d79f37af352d0b94d50941dbc24e41a9cdea2b9ecc3",
+        "published_outgoing": "c22c0750a701d8172f3e2a0e4d0515b86ea13ac98f164ced241c12fc5ce7784e"
+      }
+    },
+    {
+      "name": "forty-seven integer witnesses, identity minor, and prose relation list",
+      "status": "reproduced",
+      "detail": {
+        "status": "reproduced",
+        "witness_terms": 221,
+        "mismatch_relations": [],
+        "identity_minor": true,
+        "prose_matches_certificate": true,
+        "all_coefficients_plus_one": true,
+        "positive_block_witness_rows": []
+      }
+    },
+    {
+      "name": "current scalar and all thirty constant scalar maps kill incoming boundaries",
+      "status": "reproduced",
+      "detail": {
+        "current_failures": 0,
+        "combined_failures": 0,
+        "combined_rows": 2430
+      }
+    },
+    {
+      "name": "published positive basis keys of the integer control cycle",
+      "status": "reproduced",
+      "detail": {
+        "keys": [
+          [
+            0,
+            2,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            2,
+            4,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "outgoing differential annihilates all 2560 incoming source columns",
+      "status": "reproduced",
+      "detail": {
+        "columns": 2560,
+        "failures": 0
+      }
+    },
+    {
+      "name": "rational outgoing rank 3648, current scalar rank 34, combined rank 332, H2 dimension 352",
+      "status": "reproduced",
+      "detail": {
+        "outgoing": {
+          "rank": 3648,
+          "unit_rank": 2006,
+          "tail_rank": 1642,
+          "unit_max_entry": 11,
+          "tail_max_bits": 5
+        },
+        "current_augmented": {
+          "rank": 3682,
+          "unit_rank": 2017,
+          "tail_rank": 1665,
+          "unit_max_entry": 11,
+          "tail_max_bits": 5
+        },
+        "combined_augmented": {
+          "rank": 3980,
+          "unit_rank": 3980,
+          "tail_rank": 0,
+          "unit_max_entry": 66,
+          "tail_max_bits": 0
+        },
+        "incoming_rank": 2550,
+        "transferred_kernel_rank": 10,
+        "positive_kernel_vectors_closed": true,
+        "h2": 352,
+        "current_kernel_dimension": 318,
+        "all_constant_kernel_dimension": 20
+      }
+    },
+    {
+      "name": "positive differential has rank 50, so its kernel has dimension 30",
+      "status": "reproduced",
+      "detail": {
+        "rank": 50,
+        "unit_rank": 50,
+        "tail_rank": 0,
+        "unit_max_entry": 1,
+        "tail_max_bits": 0
+      }
+    },
+    {
+      "name": "integer control n=0, p[7]=p[23]=p[50]=1 is closed, scalar-invisible, and not a boundary",
+      "status": "reproduced",
+      "detail": {
+        "closed": true,
+        "pairing": -1,
+        "annihilator_on_transferred_image": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "scalar_outputs": 0
+      }
+    },
+    {
+      "name": "characteristic 13 current rank 34 and characteristic 29 combined rank 332",
+      "status": "reproduced",
+      "detail": {
+        "F13_outgoing": 3648,
+        "F13_current_on_outgoing": 34,
+        "F13_pure_negative_outgoing": 3488,
+        "F13_current_on_pure_negative": 34,
+        "F29_outgoing": 3648,
+        "F29_combined": 332
+      }
+    }
+  ]
+}
