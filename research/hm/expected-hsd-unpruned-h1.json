@@ -1,0 +1,274 @@
+{
+  "pinnedHead": "add03476d9055aa00e1e00778eea6332cf8e01cc",
+  "pinnedModelSha256": "1fe4608ed77f3767691e7ef4de375fc55b052ccf26159a4aae3ec6d35fe96414",
+  "contraction": "full A/B/C, no chart omission, no exponent filter",
+  "columns": {
+    "total": 9234,
+    "nonzero": 9234,
+    "mismatches": [],
+    "byWeight": [
+      {
+        "weight": 0,
+        "negativeColumns": 160,
+        "negativeNonzero": 160,
+        "negativeHigherTransferNonzero": 110,
+        "lengthNonzero": [
+          160,
+          0,
+          0,
+          0,
+          110
+        ],
+        "extraColumns": 3920,
+        "extraNonzero": 3920,
+        "mismatches": 0
+      },
+      {
+        "weight": 1,
+        "negativeColumns": 320,
+        "negativeNonzero": 320,
+        "negativeHigherTransferNonzero": 190,
+        "lengthNonzero": [
+          320,
+          0,
+          0,
+          0,
+          190
+        ],
+        "extraColumns": 354,
+        "extraNonzero": 354,
+        "mismatches": 0
+      },
+      {
+        "weight": 2,
+        "negativeColumns": 640,
+        "negativeNonzero": 640,
+        "negativeHigherTransferNonzero": 240,
+        "lengthNonzero": [
+          640,
+          0,
+          160,
+          0,
+          170
+        ],
+        "extraColumns": 0,
+        "extraNonzero": 0,
+        "mismatches": 0
+      },
+      {
+        "weight": 3,
+        "negativeColumns": 1280,
+        "negativeNonzero": 1280,
+        "negativeHigherTransferNonzero": 70,
+        "lengthNonzero": [
+          1280,
+          0,
+          0,
+          0,
+          70
+        ],
+        "extraColumns": 0,
+        "extraNonzero": 0,
+        "mismatches": 0
+      },
+      {
+        "weight": 4,
+        "negativeColumns": 2560,
+        "negativeNonzero": 2560,
+        "negativeHigherTransferNonzero": 10,
+        "lengthNonzero": [
+          2560,
+          0,
+          0,
+          0,
+          10
+        ],
+        "extraColumns": 0,
+        "extraNonzero": 0,
+        "mismatches": 0
+      }
+    ],
+    "weightFour": {
+      "columns": 2560,
+      "nonzero": 2560,
+      "mismatches": [],
+      "higherTransferNonzero": 10,
+      "higherTransferColumns": [
+        228,
+        484,
+        740,
+        996,
+        1252,
+        1508,
+        1764,
+        2020,
+        2276,
+        2532
+      ],
+      "lengthNonzero": [
+        2560,
+        0,
+        0,
+        0,
+        10
+      ]
+    }
+  },
+  "ext1ByWeight": [
+    79,
+    2,
+    0,
+    0,
+    0
+  ],
+  "multiplicities": [
+    1,
+    4,
+    6,
+    4,
+    1
+  ],
+  "ext1": 87,
+  "ranks": [
+    {
+      "weight": 0,
+      "d1": {
+        "rows": 80,
+        "columns": 160,
+        "rank": 50,
+        "minorDeterminant": "1",
+        "kernelDimension": 110,
+        "kernelVectorsChecked": 110
+      },
+      "d1Nonzeros": 320,
+      "lengthThree": null,
+      "remaining": {
+        "rows": 6480,
+        "columns": 4030,
+        "rank": 3598,
+        "minorDeterminant": "1",
+        "kernelDimension": 432,
+        "kernelVectorsChecked": 432
+      },
+      "boundaryRank": 353,
+      "h1": 79
+    },
+    {
+      "weight": 1,
+      "d1": {
+        "rows": 240,
+        "columns": 320,
+        "rank": 150,
+        "minorDeterminant": "1",
+        "kernelDimension": 170,
+        "kernelVectorsChecked": 170
+      },
+      "d1Nonzeros": 960,
+      "lengthThree": null,
+      "remaining": {
+        "rows": 2160,
+        "columns": 524,
+        "rank": 522,
+        "minorDeterminant": "25",
+        "kernelDimension": 2,
+        "kernelVectorsChecked": 2
+      },
+      "boundaryRank": 0,
+      "h1": 2
+    },
+    {
+      "weight": 2,
+      "d1": {
+        "rows": 720,
+        "columns": 640,
+        "rank": 450,
+        "minorDeterminant": "1",
+        "kernelDimension": 190,
+        "kernelVectorsChecked": 190
+      },
+      "d1Nonzeros": 2880,
+      "lengthThree": {
+        "rows": 354,
+        "columns": 190,
+        "rank": 100,
+        "minorDeterminant": "-1",
+        "kernelDimension": 90,
+        "kernelVectorsChecked": 90
+      },
+      "remaining": {
+        "rows": 720,
+        "columns": 90,
+        "rank": 90,
+        "minorDeterminant": "1",
+        "kernelDimension": 0,
+        "kernelVectorsChecked": 0
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    },
+    {
+      "weight": 3,
+      "d1": {
+        "rows": 2160,
+        "columns": 1280,
+        "rank": 1250,
+        "minorDeterminant": "1",
+        "kernelDimension": 30,
+        "kernelVectorsChecked": 30
+      },
+      "d1Nonzeros": 8640,
+      "lengthThree": null,
+      "remaining": {
+        "rows": 240,
+        "columns": 30,
+        "rank": 30,
+        "minorDeterminant": "1",
+        "kernelDimension": 0,
+        "kernelVectorsChecked": 0
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    },
+    {
+      "weight": 4,
+      "d1": {
+        "rows": 6480,
+        "columns": 2560,
+        "rank": 2550,
+        "minorDeterminant": "-1",
+        "kernelDimension": 10,
+        "kernelVectorsChecked": 10
+      },
+      "d1Nonzeros": 25920,
+      "lengthThree": null,
+      "remaining": {
+        "rows": 80,
+        "columns": 10,
+        "rank": 10,
+        "minorDeterminant": "1",
+        "kernelDimension": 0,
+        "kernelVectorsChecked": 0
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    }
+  ],
+  "namedRanks": {
+    "weightTwoIntermediate": {
+      "rows": 354,
+      "columns": 190,
+      "rank": 100,
+      "minorDeterminant": "-1",
+      "kernelDimension": 90,
+      "kernelVectorsChecked": 90
+    },
+    "trivialCharacterBoundary": {
+      "rows": 3920,
+      "columns": 354,
+      "rank": 353,
+      "minorDeterminant": "1",
+      "kernelDimension": 1,
+      "kernelVectorsChecked": 1
+    }
+  }
+}
