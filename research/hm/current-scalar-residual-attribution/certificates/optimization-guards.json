@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "rejections": [
+    {
+      "flag": "-O",
+      "script": "verify.py",
+      "rejected": true
+    },
+    {
+      "flag": "-O",
+      "script": "checks/verify_algebra.py",
+      "rejected": true
+    },
+    {
+      "flag": "-OO",
+      "script": "verify.py",
+      "rejected": true
+    },
+    {
+      "flag": "-OO",
+      "script": "checks/verify_algebra.py",
+      "rejected": true
+    }
+  ]
+}

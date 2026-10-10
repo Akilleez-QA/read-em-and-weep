@@ -1,0 +1,21 @@
+{
+  "schema": "current-scalar-residual-package-files-v1",
+  "sha256": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "README.md": "093ebc5cf07c9e39660ee3bfd41eaa5d9d6237e9aca5e1cd00a894710ebaef55",
+    "ambient-second-jet.md": "395e18b7f00a1ca7f29cd0cb84f5fbe2fc2a250d68effe60cd35aa61162dfc46",
+    "certificates/optimization-guards.json": "cdd34af58c8ef307a156ca8a7878bed89c1cdd50543fb709e1e44dd59d20050d",
+    "certificates/verification.json": "e608a0652bbce571e345489125d71c7dd35c0da77de8712b6d9265bf86da7bd0",
+    "checks/test_certificates.py": "7ab95da5168f4d74de1a2b42a0e7148687f2946bcfd7b330f79e32d0ae6e530c",
+    "checks/verify_algebra.py": "beeb81345b22c1ace9cf71bc6ce5a5abe3af1e2e677adf0f7d1ffd5631abf73d",
+    "checks/verify_character_ranks.js": "986b537919de35d4d07fae4fe26101fd16e326119c981dae0c2c78ac81b4e094",
+    "checks/verify_character_report.py": "879e0f36d8c1961eeade8cadacc2fd6e674c50bca22a8299bcec5afcbb8a2f9d",
+    "checks/verify_determinants.py": "c5b3c96bfbe5ad0c896e87a15b406195f667b37d129800f9d9195916ad374cd6",
+    "checks/verify_source.py": "8e580818a9612901b774714fbe929696bab6f02c4b2afe32226d2cc66a136d6f",
+    "closure-and-characters.md": "434aa106d0780f6eeef956335cc207a8b436d35db52f515f52bb5d49204292a2",
+    "data/final-normalization.js": "01e9887d34061b523124bfb8ce1ae67fbfe80dcd3eab16d0f2b596f7bdf9d44a",
+    "first-order-source.md": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6",
+    "pins.json": "9305cd1f70518d06f710901da86817c86101d241ae212d8867c962dde625da72",
+    "verify.py": "1f5e67bdda7934198374e8a9d4188edab37ef0f92cbee04f7ebace218a225a14"
+  }
+}

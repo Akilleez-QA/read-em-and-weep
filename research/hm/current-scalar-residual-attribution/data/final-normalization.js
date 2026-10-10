@@ -1,0 +1,1 @@
+const bits=Array.from({length:3},(_,v)=>Array.from({length:4},(_,a)=>R("x"+(5+v*4+a)))),D=globalBuild2(["x1","x2","x3","x4"],carriers.map((c,i)=>[c,bits[i]])),G=mv(D.g[0][2]),GI=[[G[1][1],neg(G[0][1])],[neg(G[1][0]),G[0][0]]],C=mm(GI,globalCross(D,0,1,2));
