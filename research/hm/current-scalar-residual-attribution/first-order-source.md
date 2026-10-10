@@ -67,34 +67,55 @@ B_i=-(dU_i)U_i^{-1}-\operatorname{diag}(k\gamma_i),
 \qquad k=(-1,1,3,5).
 \]
 Transport to a common frame for products. Let `Aij=nabla_j-nabla_i`, so
-`A'=A+δB` and `δA=0`. With the total Čech–forms product define
+`A'=A+δB` and `δA=0`. Distinguish two products: `wedge` below means
+ordinary wedge of form coefficients with Alexander–Whitney composition,
+without an extra Čech–forms sign; `star_tot` is the total product, with
+sign `(-1)^(form_degree * next_Cech_degree)`. Thus, for the bidegree
+`(1,1)` cochains `A`, `A'`, `A^E`, and `theta0`,
 \[
-\mathcal T=\operatorname{str}(BA+AB+B\delta B).
+A\star_{\rm tot}A=-A\wedge A,\qquad
+\theta_0\star_{\rm tot}\theta_0=-\theta_0\wedge\theta_0.
 \]
-The graded derivation rule gives the exact identity
+Define the transgression using the total product:
 \[
-\delta\mathcal T=\operatorname{str}((A+\delta B)^2-A^2).
+\mathcal T=\operatorname{str}
+(B\star_{\rm tot}A+A\star_{\rm tot}B+B\star_{\rm tot}\delta B).
+\]
+The graded derivation rule gives
+`δT=str(A' star_tot A' - A star_tot A)`. In the ordinary-wedge
+notation used in every displayed square below, this is exactly
+\[
+\delta\mathcal T=\operatorname{str}
+\bigl(A\wedge A-(A+\delta B)\wedge(A+\delta B)\bigr).
 \tag{3}
 \]
-For clarity, `δ(BA)=δB A`, `δ(AB)=A δB`, and
-`δ(B δB)=(δB)^2` in this totalization. The two terms `BA` and `AB`
-are retained separately. Ordinary Alexander–Whitney products do not justify
-replacing their sum by `2BA` using a putative cyclic cochain trace.
+For clarity, in the total product `δ(B star_tot A)=δB star_tot A`,
+`δ(A star_tot B)=A star_tot δB`, and
+`δ(B star_tot δB)=δB star_tot δB`. The two first terms are retained
+separately. Ordinary Alexander–Whitney products do not justify replacing
+their sum by twice the first term using a putative cyclic cochain trace.
 
 Each `nabla'` commutes with the split differential. A product of its
 difference endomorphisms is a chain endomorphism, so its supertrace equals
 the trace of the induced endomorphism on `E`: the paired contractible
 diagonal blocks cancel. In particular
-`str((A')²)=tr((A^E)²)` as cochains.
+`str(A' wedge A')=tr(A^E wedge A^E)` as cochains.
 
 Write `theta0=(1/2)sum_r dlog(x_r)` in Čech degree one. The old difference
 on `N^k` is `-k theta0`, whence
 \[
-\operatorname{str}(A^2)=(-5+15-90+50)\theta_0^2=-30\theta_0^2.
+\operatorname{str}(A\wedge A)
+=(-5+15-90+50)\theta_0\wedge\theta_0
+=-30\theta_0\wedge\theta_0.
 \]
-Put `Qrs=q_r cup q_s` and
+Equivalently, the totalized identity is
+`str(A star_tot A)=-30(theta0 star_tot theta0)`; both square factors
+must be totalized together. Let `iOrd_π` denote ordinary contraction of
+form coefficients, with `i_(Vr wedge Vs)=i_Vs i_Vr`. Put
+`Qrs=q_r cup q_s`. Then
 \[
-\Pi_{AW}=-\tfrac18(Q_{12}-Q_{21}+Q_{34}-Q_{43}),\quad
+\Pi_{AW}=-\tfrac12\iota^{\rm ord}_\pi(\theta_0\wedge\theta_0)
+=-\tfrac18(Q_{12}-Q_{21}+Q_{34}-Q_{43}),\quad
 r_{ij}=q_{1,ij}q_{2,ij}+q_{3,ij}q_{4,ij}.
 \]
 Since `δr=-(Q12+Q21+Q34+Q43)`, the exact representative conversion is
@@ -103,25 +124,39 @@ Since `δr=-(Q12+Q21+Q34+Q43)`, the exact representative conversion is
 \]
 Consequently the explicit scalar cochain
 \[
-s=-\tfrac14\iota_\pi\mathcal T-\tfrac{15}{8}r
+s=-\tfrac14\iota^{\rm ord}_\pi\mathcal T-\tfrac{15}{8}r
 \tag{4}
 \]
-satisfies `δs=b-(1/4)i_π tr((A^E)²)`.
+satisfies, directly from (3),
+\[
+\begin{aligned}
+\delta s
+&=\tfrac{30}{4}\iota^{\rm ord}_\pi(\theta_0\wedge\theta_0)
+ +\tfrac14\iota^{\rm ord}_\pi\operatorname{tr}(A^E\wedge A^E)
+ -\tfrac{15}{8}\delta r\\
+&=b+\tfrac14\iota^{\rm ord}_\pi\operatorname{tr}(A^E\wedge A^E).
+\end{aligned}
+\]
 
 ## 3. The rank-two trace-free solution
 
 Use column transitions `Gij=gij^t`, so `Gik=Gij Gjk` and
-`A^E_ij=-dGij Gij^-1`. With the total-product minus sign and reversal
-of order on transposition,
+`A^E_ij=-dGij Gij^-1`. Reversal of order on transposition gives,
+in the same ordinary-wedge convention,
 \[
 C_{ijk}=g_{ik}^{-1}\mu_1(g_{jk},g_{ij}),\qquad
-\operatorname{tr}C=\tfrac12\iota_\pi\operatorname{tr}((A^E)^2).
+\operatorname{tr}C=-\tfrac12\iota^{\rm ord}_\pi
+\operatorname{tr}(A^E\wedge A^E).
 \]
-Thus `δs=b-(1/2)tr C`.
+Thus `δs=b-(1/2)tr C`, unchanged. To see the sign directly, write
+`P_r=gij^-1 V_r(gij)` and `Q_r=gij^-1 gjk^-1 V_r(gjk) gij`.
+The two column difference forms, in a common frame, have coefficients
+`-P_r^t` and `-Q_r^t`. For a bivector pair `(a,b)`, their ordinary wedge
+has contracted trace `tr(Q_b P_a-Q_a P_b)`, which is minus twice
+the corresponding trace of `C`.
 
-For a determinant-one transition define `K(g)=μ1(g^-1,g)`. Set
-`P_r=gij^-1 V_r(gij)` and
-`Q_r=gij^-1 gjk^-1 V_r(gjk) gij`. Both are traceless, and
+For a determinant-one transition define `K(g)=μ1(g^-1,g)`.
+The logarithmic derivatives `P_r,Q_r` above are traceless, and
 \[
 C=\tfrac12\pi^{rs}Q_rP_s,\qquad
 \delta K=\tfrac12\pi^{rs}[Q_r,P_s].
@@ -138,6 +173,13 @@ x_{ij}=s_{ij}I-\tfrac12K(g_{ij}),\qquad u_{ij}=g_{ij}x_{ij}
 \]
 solves `δx=bI-C`, exactly the first-order module equation (1).
 The scalar projection's factor `1/2` is specific to rank two.
+The integrated regression in `checks/verify_algebra.py` follows (3), the
+`-30` ordinary-wedge coefficient, the exact gerbe correction, this row/column
+trace calculation, and the rank-two identity all the way to `δx=bI-C`.
+It explicitly rejects either an isolated reversal of the ordinary
+transgression sign or an isolated reversal of the row/column trace sign.
+This clarifies the square notation; the cochains (4)–(5), the source
+generator, and the first-order equation are not changed.
 
 ## 4. Equality with the pinned generator
 

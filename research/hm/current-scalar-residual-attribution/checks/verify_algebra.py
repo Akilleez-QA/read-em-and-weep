@@ -72,6 +72,63 @@ def transgression(bi, bj, a):
                      scale(wedge(bi, fsub(bj, bi)), -1)))
 
 
+def first_order_sign_calibration(transgression_sign=1, row_trace_sign=-1):
+    """Propagate one ordinary-wedge bivector pair through the complete lift.
+
+    The two disjoint pairs add linearly at first order. All logarithmic
+    derivatives below are independent generic traceless matrices, not point
+    samples. The signs are parameters only for the rejection regressions.
+    """
+    half, quarter = S.Rational(1, 2), S.Rational(1, 4)
+
+    def traceless(name):
+        a, b, c = S.symbols(name + '0:3')
+        return S.Matrix([[a, b], [c, -a]])
+
+    pa, pb, qa, qb = map(traceless, ['pa', 'pb', 'qa', 'qb'])
+    C = half * (qa*pb-qb*pa)
+    # A^E_ij and transported A^E_jk have column coefficients -P^t,-Q^t.
+    ordinary_E = S.trace((-pa.T)*(-qb.T)-(-pb.T)*(-qa.T))
+    def K(a, b):
+        return -half * (a*b-b*a)
+
+    delta_K = K(pa,pb)+K(qa,qb)-K(pa+qa,pb+qb)
+    ra, rb, sa, sb = S.symbols('q_ij_a q_ij_b q_jk_a q_jk_b')
+    ordinary_theta = quarter * (ra*sb-rb*sa)
+    total_theta = -ordinary_theta
+    # Recompute the supertrace coefficient from degrees, ranks, and weights.
+    weighted_rank = sum(sign*rank*weight**2 for sign, rank, weight in
+                        [(-1,5,-1),(1,15,1),(-1,10,3),(1,2,5)])
+    ordinary_old = weighted_rank * ordinary_theta
+    total_old = weighted_rank * total_theta
+    pi_aw = -half * ordinary_theta
+    delta_r = sa*sb-(ra+sa)*(rb+sb)+ra*rb
+    gerbe = S.Rational(15,4)*ra*sb
+    # This is the ordinary coefficient identity checked by the universal
+    # free-trace expansion below: delta T = old square - new square.
+    delta_T = transgression_sign * (ordinary_old-ordinary_E)
+    delta_s = -quarter*delta_T-S.Rational(15,8)*delta_r
+    delta_x = delta_s*S.eye(2)-half*delta_K
+    stages = []
+
+    def zero(value, name):
+        entries = list(value) if isinstance(value, S.MatrixBase) else [value]
+        if any(S.expand(entry) != 0 for entry in entries):
+            raise ValueError('First-order sign calibration failed: '+name)
+        stages.append(name)
+
+    zero(weighted_rank+30, 'supertrace coefficient')
+    zero(total_old+ordinary_old, 'total-to-ordinary old square')
+    zero(half*total_theta-pi_aw, 'total theta to Pi_AW')
+    zero(-15*pi_aw-gerbe-S.Rational(15,8)*delta_r, 'theta and gerbe correction')
+    zero(S.trace(C)-row_trace_sign*half*ordinary_E, 'row-column ordinary trace')
+    zero(delta_s-gerbe-quarter*ordinary_E, 'ordinary transgression to scalar')
+    zero(delta_s-gerbe+half*S.trace(C), 'unchanged scalar equation')
+    zero(delta_K-2*C+S.trace(C)*S.eye(2), 'rank-two delta K')
+    zero(delta_x-gerbe*S.eye(2)+C, 'unchanged full first-order equation')
+    return stages
+
+
 def verify():
     b0, b1, b2, a01, a12 = map(form, ['B0', 'B1', 'B2', 'A01', 'A12'])
     a02 = fadd(a01, a12)
@@ -82,6 +139,16 @@ def verify():
                     wedge(fadd(a01, fsub(b1, b0)), fadd(a12, fsub(b2, b1)))))
     if dt != rhs:
         raise ValueError('Unsymmetrized AW transgression identity failed')
+    calibration = first_order_sign_calibration()
+    rejected_signs = []
+    for name, signs in [('reversed ordinary transgression', (-1,-1)),
+                        ('reversed ordinary row-column trace', (1,1))]:
+        try:
+            first_order_sign_calibration(*signs)
+        except ValueError:
+            rejected_signs.append(name)
+        else:
+            raise ValueError('Wrong first-order sign was accepted: '+name)
     theta, k = form('$theta'), atom('$k')
     old = tuple(scale(mul(k, t), -1) for t in theta)
     implemented = trace(scale(add(wedge(b0, b1),
@@ -156,6 +223,8 @@ def verify():
     if any(a ^ b == full for a in low for b in [3,12]):
         raise ValueError('Unexpected mixed full-sign support')
     return {'status': 'PASS', 'universalFreeTraceIdentities': 2,
+            'firstOrderSignCalibration': calibration,
+            'wrongSignVariantsRejected': rejected_signs,
             'commutativeScalarOrMatrixEntryIdentities': len(checks),
             'mixedMoyalTerms': 4, 'completeModuleExpansion': True,
             'characterSupportEnumerated': True,

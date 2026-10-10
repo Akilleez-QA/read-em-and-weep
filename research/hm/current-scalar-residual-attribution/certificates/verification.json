@@ -5,6 +5,21 @@
     "algebra": {
       "status": "PASS",
       "universalFreeTraceIdentities": 2,
+      "firstOrderSignCalibration": [
+        "supertrace coefficient",
+        "total-to-ordinary old square",
+        "total theta to Pi_AW",
+        "theta and gerbe correction",
+        "row-column ordinary trace",
+        "ordinary transgression to scalar",
+        "unchanged scalar equation",
+        "rank-two delta K",
+        "unchanged full first-order equation"
+      ],
+      "wrongSignVariantsRejected": [
+        "reversed ordinary transgression",
+        "reversed ordinary row-column trace"
+      ],
       "commutativeScalarOrMatrixEntryIdentities": 13,
       "mixedMoyalTerms": 4,
       "completeModuleExpansion": true,
