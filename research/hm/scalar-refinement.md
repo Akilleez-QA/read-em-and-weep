@@ -2,7 +2,7 @@
 
 ## Result and boundary of the certificate
 
-The dependency-free executable verify-scalar-refinement.js was executed with 544 exact assertions. It constructs an actual scalar cochain map from a specified finite domain on the legal line refinement to an original-cover Laurent domain. It checks the double-Čech correction producing that map, its chain identity, the scalar Laurent contraction, and tensor-complex identities. The resulting compensated first-order coordinates for both N and N^-1 are
+The dependency-free executable verify-scalar-refinement.js was executed with 552 exact assertions. It constructs an actual scalar cochain map from a specified finite domain on the legal line refinement to an original-cover Laurent domain. It checks the double-Čech correction producing that map, its chain identity, the scalar Laurent contraction, and tensor-complex identities. The resulting compensated first-order coordinates for both N and N^-1 are
 
 -4(q₁q₂+q₃q₄)=16Π.
 
