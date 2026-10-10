@@ -30,3 +30,10 @@ The semiregularity comparison used for ker(ev) contained in ann(ch) is stated in
 
 ## Reproduction
 Run `python verify_lange_kernel.py` with Python3 and SymPy installed. The exact rational exterior algebra is computed on eight generators, with theta=sum e_i wedge e_{i+4}, i=0,...,3, and d=8. Output: character-action rank12; annihilator dimension16; thirteen independent known directions and three complementary mixed directions. This verifier does not construct Lange transition matrices, compute Ext groups, or evaluate the three mixed Atiyah classes. The stable seed and the thirteen actual vanishing directions use the arguments and primary-source hypotheses above.
+
+## Symmetry reduces the explicit seed to one representative mixed test
+For the m=2 seed on C^4 using the same elliptic curve and degree-two map on each factor, the group G=(Z/2)^4 semidirect S3 acts by independent elliptic involutions and permutations of the last three factors. The map f is invariant, so E=f*F carries the canonical G-linearization. Atiyah evaluation is G-equivariant.
+
+Let chi_i denote the sign character of the involution on factor i. This involution acts by -1 on both H0(T_C) and H1(O_C). The symmetric mixed polarized tangent kappa_1j therefore has character chi_1 chi_j. These three characters, j=2,3,4, are distinct. S3 permutes the three classes and their evaluated images. Thus either all three evaluations vanish, or they are all nonzero and lie in distinct character spaces, hence are linearly independent.
+
+Consequently, for this explicit symmetric seed the mixed map has rank either0 or3, never1 or2. The entire HH² evaluation has rank either12 or15, and its kernel dimension is respectively16 or13. Proving vanishing of the single representative kappa_12 contraction At(E) proves the three mixed vanishings; proving it nonzero disproves weak kernel equality for this seed. Neither alternative has been calculated. This representation-theoretic reduction is special to the symmetric seed and is not asserted for arbitrary product maps.
