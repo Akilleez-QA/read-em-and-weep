@@ -1,0 +1,29 @@
+{
+  "schema": "second-scalar-m2220-complete-manifest-v1",
+  "files": {
+    "README.md": {
+      "sha256": "3d24ed83633f04fe614cde82f0b573c3175c99d06084ead8a83ca10a40fd7161",
+      "bytes": 6201
+    },
+    "SOURCES.md": {
+      "sha256": "00a11af2ca28869aed1b61b51e8d97cbb5693564c57284b8760b229106b30adc",
+      "bytes": 5890
+    },
+    "contributions.json": {
+      "sha256": "72b08646afaf3a493243698583ee1f434a9dd78707d775d4fd0206593a5b87f0",
+      "bytes": 597903
+    },
+    "provenance.json": {
+      "sha256": "f9c5324f3b80f1e163d8459afe7a9ef4ff10a87425f43b680c4a6b174b01d570",
+      "bytes": 894
+    },
+    "replay.py": {
+      "sha256": "829f5dba9c7d45c2316aa5485ef56caf1489b0317f562fcd4b491422c7fef800",
+      "bytes": 11900
+    },
+    "test_replay.py": {
+      "sha256": "b7826963b76205912a9862013fe98646717257fb456f1b3bc18902778d2391b0",
+      "bytes": 6349
+    }
+  }
+}
