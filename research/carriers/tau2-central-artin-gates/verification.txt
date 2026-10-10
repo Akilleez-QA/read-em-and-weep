@@ -1,0 +1,13 @@
+== verify_central.py ==
+PASS: full symplectic identity, half correction, and change-of-lift invariance
+PASS: exact presentation relations, a-torsion generator, and torsion rank invariance
+PASS: on a invertible, rank-minor ideal is (ell,q1,q2,rho)
+PASS: sharp exceptional-gate isotropy formula and invertible restriction transform
+== verify_artin_weighted.py ==
+PASS: symbolic weighted W covariance (z=t^c), including quadratic correction
+PASS: actual weighted Q/V bidegrees and ordinary quadratic-column weights
+PASS: reduced pair: full Sylvester Q-rank 8, determinant unit; reduced-only negative control detected
+PASS: double point: full Sylvester Q-rank 8, determinant unit; reduced-only negative control detected
+PASS: four independent primary first-jet target coordinates retained
+ALL FULL-ARTIN AND WEIGHTED CHECKS PASSED
+ALL CHECKS PASSED
