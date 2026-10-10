@@ -1,0 +1,491 @@
+{
+  "schema": "alphaproof-nexus-release-inventory-v1",
+  "repository": "https://github.com/google-deepmind/alphaproof-nexus-results",
+  "commit": "0647711a71183c1ea492ad60860776617ce1ea88",
+  "tree_listing_complete": true,
+  "kind": "Published proof outputs and supporting text; no agent/model execution interface is integrated.",
+  "lean_proof_file_count": 71,
+  "lean_files_by_directory": {
+    "APNOutputs/AICollaborator/AdditiveCombinatorics": 1,
+    "APNOutputs/AICollaborator/AlgebraicGeometry": 7,
+    "APNOutputs/AICollaborator/Graphs": 2,
+    "APNOutputs/AICollaborator/Optimization": 1,
+    "APNOutputs/AICollaborator/QuantumOptics": 2,
+    "APNOutputs/ErdosProblems": 9,
+    "APNOutputs/OEIS": 38,
+    "APNOutputs/StacksProject": 11
+  },
+  "files": [
+    {
+      "path": ".github/workflows/lean_action_ci.yml",
+      "git_blob_sha1": "db09247d95896bc768f71e39b47b2e2f192c5cdd",
+      "bytes": 487
+    },
+    {
+      "path": ".gitignore",
+      "git_blob_sha1": "87df5a1cb638f2cbb0227da5e199ae74016f2423",
+      "bytes": 263
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AdditiveCombinatorics/57.lean",
+      "git_blob_sha1": "599179d6303afd30fd0e08a3e8a5193b693ffd4a",
+      "bytes": 64249
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_1.lean",
+      "git_blob_sha1": "b877fef7aabdb5796b0f8c359648fa65cca72ac2",
+      "bytes": 11817
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_2.lean",
+      "git_blob_sha1": "e983a9f9944d27cb304d4357f25bbf8482d9eb1e",
+      "bytes": 27023
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_3.lean",
+      "git_blob_sha1": "197f37facbe31bdbaf97e9e426c6e2701817b1de",
+      "bytes": 75753
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_4.lean",
+      "git_blob_sha1": "9d60c06ad0fbb2f95e12907b2601865b283f0880",
+      "bytes": 50626
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_5.lean",
+      "git_blob_sha1": "6072dcc9231b98875fb98a0370242eebb9c4cac1",
+      "bytes": 125326
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_7.lean",
+      "git_blob_sha1": "63957779e4f97e7e87da0e0d1fe766a8f3088787",
+      "bytes": 36615
+    },
+    {
+      "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_8.lean",
+      "git_blob_sha1": "2aea1de6ddbb1ea5de4c9401e01d4e565229c676",
+      "bytes": 36432
+    },
+    {
+      "path": "APNOutputs/AICollaborator/Graphs/GraphConjecture2.lean",
+      "git_blob_sha1": "b9e4bb33528ee29f8ccf1dec77df4346be839271",
+      "bytes": 39394
+    },
+    {
+      "path": "APNOutputs/AICollaborator/Graphs/bipartite_graph_reconstruction_conjecture_2.lean",
+      "git_blob_sha1": "3351552da7f5b4b972bf8e19c183a7a3cabf87f6",
+      "bytes": 61516
+    },
+    {
+      "path": "APNOutputs/AICollaborator/Optimization/LastIterateConvergence.lean",
+      "git_blob_sha1": "40c66b391e15ff560584c31f85e4e17f2a076740",
+      "bytes": 32994
+    },
+    {
+      "path": "APNOutputs/AICollaborator/QuantumOptics/35.lean",
+      "git_blob_sha1": "f373d3e70c0d1d6be0a81554c81503ec07cf8f65",
+      "bytes": 106151
+    },
+    {
+      "path": "APNOutputs/AICollaborator/QuantumOptics/MonochromaticQuantumGraph.lean",
+      "git_blob_sha1": "d4b9dffce3babce570f7abd02ebccc20f65f9372",
+      "bytes": 31767
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_12.parts.i.lean",
+      "git_blob_sha1": "a8b86904c2833e434450db6859e452a5718d428f",
+      "bytes": 48859
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_12.parts.ii.lean",
+      "git_blob_sha1": "889784d2df64400fe917c4a7766db004f6a42277",
+      "bytes": 36449
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_125.variants.positive_lower_density.lean",
+      "git_blob_sha1": "dd6f9a90a4699f4e8508c04d0c7202525bddf16d",
+      "bytes": 22480
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_138.variants.difference.lean",
+      "git_blob_sha1": "1e688a506be413d719ce96b2742d58d5af536353",
+      "bytes": 33637
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_152.lean",
+      "git_blob_sha1": "e09219a2220f579656757682839069d30572d28b",
+      "bytes": 32896
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_26.variants.tenenbaum.lean",
+      "git_blob_sha1": "c9a2fcd592ca2051303e99f70cd66e942541a7c5",
+      "bytes": 45108
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_741.parts.i.lean",
+      "git_blob_sha1": "f443df2a10cf49e00b933ff89551696b8ffabd04",
+      "bytes": 87669
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_741.parts.ii.lean",
+      "git_blob_sha1": "ce265785bee364bf843d8ae215e4c2d6ac2cc0ad",
+      "bytes": 23385
+    },
+    {
+      "path": "APNOutputs/ErdosProblems/erdos_846.lean",
+      "git_blob_sha1": "2533cd0e1fbe453980aab9519211686c9eb567e3",
+      "bytes": 45873
+    },
+    {
+      "path": "APNOutputs/OEIS/A224515_conjecture_existence.lean",
+      "git_blob_sha1": "fd96bd10760007fe0c18f51186cee3b736b616f7",
+      "bytes": 11899
+    },
+    {
+      "path": "APNOutputs/OEIS/A309132_conjecture_carmichael.lean",
+      "git_blob_sha1": "3c283139190af23dc3824500c32c600da1fa1621",
+      "bytes": 29307
+    },
+    {
+      "path": "APNOutputs/OEIS/A382590_conjecture_kth_prime_factor_is_eventually_periodic.lean",
+      "git_blob_sha1": "42bf84066aae7ed874627cb0a529a6a8a1f80149",
+      "bytes": 10853
+    },
+    {
+      "path": "APNOutputs/OEIS/a091669_conjecture_primitive_root.lean",
+      "git_blob_sha1": "fb82a4f1f9a19925555195f44387b73e752fb88e",
+      "bytes": 20338
+    },
+    {
+      "path": "APNOutputs/OEIS/a325046_odd_terms_at_k_times_k_plus_1.lean",
+      "git_blob_sha1": "b0433afc98b6feb391bcf2f9f208bde449d3544e",
+      "bytes": 10537
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_103311_conjecture_0.lean",
+      "git_blob_sha1": "c7273541cfeb42ed3245c5c1dd183030286c5a95",
+      "bytes": 9519
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_108_conjecture_2.lean",
+      "git_blob_sha1": "ad22dd09294ce28e4203eb5862b5fe6151663822",
+      "bytes": 16499
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_113254_conjecture_0.lean",
+      "git_blob_sha1": "5da2d89954366e7be57220b6b9ea06b12ff841ef",
+      "bytes": 4174
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_175386_conjecture_0.lean",
+      "git_blob_sha1": "81fdb0eb69e486f59a2ca74f202865520aaa96eb",
+      "bytes": 17155
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_194806_conjecture_0.lean",
+      "git_blob_sha1": "bca9d5579290b9ea88ff7164bf66bc545dd101b5",
+      "bytes": 21018
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_227582_conjecture_0.lean",
+      "git_blob_sha1": "f3f7ec28a76ceb329e04b23502b6a92230947438",
+      "bytes": 26965
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_228143_conjecture_1.lean",
+      "git_blob_sha1": "b88257383f8faeac508c84baf1f3015e8ccd1854",
+      "bytes": 31635
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_243106_conjecture_0.lean",
+      "git_blob_sha1": "43d242990576825e5897e2bf7de927c8b6c9d7b2",
+      "bytes": 7113
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_248802_conjecture_0.lean",
+      "git_blob_sha1": "389802ecf4971d2595178635887b4642c9e753d6",
+      "bytes": 7791
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_248802_conjecture_4.lean",
+      "git_blob_sha1": "6f2449b83e52d56a5acabfc745253e8fd70c5f7b",
+      "bytes": 33002
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_256012_conjecture_0.lean",
+      "git_blob_sha1": "ee0f5fa99d8927d9685c4ff8dd2269a0b64a9daf",
+      "bytes": 5913
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_267581_conjecture_0.lean",
+      "git_blob_sha1": "104166ab188ce01b42125d4dd0ef8555feed7999",
+      "bytes": 8894
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_271591_conjecture_0.lean",
+      "git_blob_sha1": "28953bd3f2dc73a8b9fed132481cc674008ad0de",
+      "bytes": 22698
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_278070_conjecture_0.lean",
+      "git_blob_sha1": "90d6c6518cfa42262d353025ef23b65c84e34d7e",
+      "bytes": 3406
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_282779_conjecture_0.lean",
+      "git_blob_sha1": "6aaa6d28f10ed855f0f79a0c4d4b94b2ee9ef526",
+      "bytes": 7276
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_289411_conjecture_0.lean",
+      "git_blob_sha1": "5196752f0b508555e39d7a60410256720217ffd7",
+      "bytes": 8644
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_2897_conjecture_0.lean",
+      "git_blob_sha1": "1817297e5d6f5c9643150b4c2eadd241b69db6b5",
+      "bytes": 28876
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_306424_conjecture_0.lean",
+      "git_blob_sha1": "4d89a0db9f9ab0181fa9fcb72651cda9093c80aa",
+      "bytes": 14954
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_307865_conjecture_0.lean",
+      "git_blob_sha1": "9b3509bea7b23a005328b039849129ee2f2dbcef",
+      "bytes": 8727
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_323557_conjecture_0.lean",
+      "git_blob_sha1": "43b2b9bb02fa136c9b25e0ac5e788a25ac3e7f63",
+      "bytes": 10998
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_340737_conjecture_0.lean",
+      "git_blob_sha1": "50f8a9b0152abea191141e21475fecb9d0a04371",
+      "bytes": 23411
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_341254_conjecture_0.lean",
+      "git_blob_sha1": "cba118e5572a6b6fc211b6c8e1e7243e4454be45",
+      "bytes": 6758
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_363347_conjecture_2.lean",
+      "git_blob_sha1": "c9534f963bb086beeaa84aa230b79fc273b7749c",
+      "bytes": 38821
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_372761_conjecture_2.lean",
+      "git_blob_sha1": "16752a30667a9d54918a7835863e6957ed5e1a8d",
+      "bytes": 37580
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_51293_conjecture_0.lean",
+      "git_blob_sha1": "7337a1af3a878f3462a127a4fef0443070534596",
+      "bytes": 41881
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_62567_conjecture_0.lean",
+      "git_blob_sha1": "13adba67ae966b5983f1c6206dfe2c192588e799",
+      "bytes": 15635
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_A028859_conjecture_1.lean",
+      "git_blob_sha1": "328275e1c4f42fd81e399956a8f0330a5abf48b1",
+      "bytes": 28747
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_A258667_conjecture_0.lean",
+      "git_blob_sha1": "4d8c31abe0f8452bc75371313df996fc01eb3537",
+      "bytes": 28220
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_a211417_conjecture_specific.lean",
+      "git_blob_sha1": "9c3046f90c554c4964436241e275071c7e28f518",
+      "bytes": 12940
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_a237271_conjecture_2.lean",
+      "git_blob_sha1": "3506e9a582dc514ccc841a03ba554d9d359f4712",
+      "bytes": 4405
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_a300997_finite_difference_is_one_or_two.lean",
+      "git_blob_sha1": "b418896865f701c22131b8cdacec9813de5a666c",
+      "bytes": 42505
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_a363102_conjecture_1.lean",
+      "git_blob_sha1": "dc6b32e3d931a0a06757c3152a41070c5d14c11f",
+      "bytes": 16131
+    },
+    {
+      "path": "APNOutputs/OEIS/oeis_a368692_conjecture_integrality.lean",
+      "git_blob_sha1": "bbc0470b80b29b4dc86d9ada56c3123479b9ea38",
+      "bytes": 9060
+    },
+    {
+      "path": "APNOutputs/StacksProject/AlgebrasOverFields_GeometricallyIrreducibleAlgebra_of_directed_colimit.lean",
+      "git_blob_sha1": "a245f30293eef5f14368777fc1708bb2c2a614ad",
+      "bytes": 40553
+    },
+    {
+      "path": "APNOutputs/StacksProject/AlgebrasOverFields_GeometricallyIrreducibleAlgebra_transitive.lean",
+      "git_blob_sha1": "b8f0cf98de858a492ccb73e133d2555b887836bd",
+      "bytes": 21093
+    },
+    {
+      "path": "APNOutputs/StacksProject/AlgebrasOverFields_geometrically_irreducible_tfae.lean",
+      "git_blob_sha1": "b7c70364550c4f608a2cfd94eb69aa7a229a6b16",
+      "bytes": 64454
+    },
+    {
+      "path": "APNOutputs/StacksProject/AlgebrasOverFields_minimalPrimes_bijection_of_geometrically_IrreducibleAlgebra.lean",
+      "git_blob_sha1": "98fa40074239e2cf1f6b2b094440901b6f0b8fc8",
+      "bytes": 27413
+    },
+    {
+      "path": "APNOutputs/StacksProject/AlgebrasOverFields_unique_minimal_prime_of_tensor_product_of_separably_closed.lean",
+      "git_blob_sha1": "7183d579c7ac245e0224cb409f4db11e65422c98",
+      "bytes": 41095
+    },
+    {
+      "path": "APNOutputs/StacksProject/GeometricallyReduced_isGeometricallyReduced_iff_of_separable_algebraic.lean",
+      "git_blob_sha1": "22926abae89e109830f53c506e6c3ff705c68e73",
+      "bytes": 51354
+    },
+    {
+      "path": "APNOutputs/StacksProject/GeometricallyReduced_isReduced_tensorProduct_of_separable.lean",
+      "git_blob_sha1": "e3a1bb834c6e22837cc579225d4fe49582308f69",
+      "bytes": 22820
+    },
+    {
+      "path": "APNOutputs/StacksProject/GeometricallyReduced_isReduced_tensorProduct_of_separablyGenerated.lean",
+      "git_blob_sha1": "cf6fa0f6791225972655d5bc5bed068b518ade4c",
+      "bytes": 48185
+    },
+    {
+      "path": "APNOutputs/StacksProject/NormalRings_NormalDomain_powerSeries.lean",
+      "git_blob_sha1": "69ef962f980589073d3a178ef43bea7f66e85cd1",
+      "bytes": 25444
+    },
+    {
+      "path": "APNOutputs/StacksProject/NormalRings_normalRing_characterization.lean",
+      "git_blob_sha1": "0f6cdd84840e75835cbbc2a2b35019a5ae092f88",
+      "bytes": 51267
+    },
+    {
+      "path": "APNOutputs/StacksProject/Separability_exists_isPurelyInseparable_isSeparablyGenerated_of_essFiniteType.lean",
+      "git_blob_sha1": "b7432b768c0f05ffb39fb7e48c373c7868951857",
+      "bytes": 96588
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "git_blob_sha1": "e85d9451a8b06aef26eecd751141c6737e1ae2f9",
+      "bytes": 970
+    },
+    {
+      "path": "LICENSE",
+      "git_blob_sha1": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "bytes": 11358
+    },
+    {
+      "path": "NaturalLanguageProofs/AICollaborator/graph_reconstruction.pdf",
+      "git_blob_sha1": "2a42499dbc09c42f88a2c91323c3dcadfe069137",
+      "bytes": 155211
+    },
+    {
+      "path": "NaturalLanguageProofs/AICollaborator/hilbert.pdf",
+      "git_blob_sha1": "682fbc5c6e2603c6cfd1e9d3d5c3b2c7e75b58d6",
+      "bytes": 166114
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos125.pdf",
+      "git_blob_sha1": "e71f6be570f6d674406f3e993de9f8f9f84a5070",
+      "bytes": 94328
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos12i.pdf",
+      "git_blob_sha1": "3a1a20a371eb33686b47d900b8ef2d0bf4e41392",
+      "bytes": 135167
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos12ii.pdf",
+      "git_blob_sha1": "d024d05985f1d9dc6d27dd0627361be1416df1b0",
+      "bytes": 131062
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos138.pdf",
+      "git_blob_sha1": "7b12b1a3af95f0af7c45c0a38a1832fcecdfa45a",
+      "bytes": 71009
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos152.pdf",
+      "git_blob_sha1": "10cf3a8b982d128816dc66aff4bfc8cb9d260147",
+      "bytes": 110988
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos26.pdf",
+      "git_blob_sha1": "4e2b5ed579ef2cb13b9878912d139366e83eab01",
+      "bytes": 129441
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos741i.pdf",
+      "git_blob_sha1": "d2bc1af9b16f169b2eb578f71e0d2782afadcf7f",
+      "bytes": 97016
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos741ii.pdf",
+      "git_blob_sha1": "1add1e47d86b85a677835785d1259daf04ca572c",
+      "bytes": 92877
+    },
+    {
+      "path": "NaturalLanguageProofs/ErdosProblems/erdos846.pdf",
+      "git_blob_sha1": "a86b3d925eb489ca589f484a865c7be10ac3ec2c",
+      "bytes": 115400
+    },
+    {
+      "path": "NaturalLanguageProofs/OEIS/oeis_51293.pdf",
+      "git_blob_sha1": "5b26c4633e833a64a5495fdc12be5ec7a21a0d32",
+      "bytes": 148653
+    },
+    {
+      "path": "README.md",
+      "git_blob_sha1": "a9e64e4fab4cd3988ca1633262042dc5d42e2d85",
+      "bytes": 4112
+    },
+    {
+      "path": "erdos_problems_attempted.txt",
+      "git_blob_sha1": "d01a75de0185696f21a30145fa1a308f6cda81c2",
+      "bytes": 6929
+    },
+    {
+      "path": "lake-manifest.json",
+      "git_blob_sha1": "8b7e2a4236bacc34931ea0276349a677a1c479ce",
+      "bytes": 3468
+    },
+    {
+      "path": "lakefile.toml",
+      "git_blob_sha1": "38e88d78737f25c47fe49f24e07600980ac83178",
+      "bytes": 434
+    },
+    {
+      "path": "lean-toolchain",
+      "git_blob_sha1": "5249182c0dd885dfd2c6fb87ed4b4113a2449a6c",
+      "bytes": 25
+    }
+  ],
+  "upstream_ci": {
+    "url": "https://github.com/google-deepmind/alphaproof-nexus-results/actions/runs/29846710371",
+    "classification": "upstream evidence; not a local build result"
+  },
+  "selected_target": {
+    "path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_5.lean",
+    "theorem": "P5",
+    "definition": "ProblemP5",
+    "statement": "Every pure order ideal in 3 variables of type 2 has its pure O-sequence log-concave through the socle degree.",
+    "scope_note": "This concerns pure O-sequences, not all level Hilbert functions or the Horrocks\u2013Mumford obstruction."
+  }
+}

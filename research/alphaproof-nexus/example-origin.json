@@ -1,0 +1,19 @@
+{
+  "schema": "alphaproof-nexus-excerpt-v1",
+  "upstream_commit": "0647711a71183c1ea492ad60860776617ce1ea88",
+  "source_path": "APNOutputs/AICollaborator/AlgebraicGeometry/hilbert_functions_5.lean",
+  "source_git_blob_sha1": "6072dcc9231b98875fb98a0370242eebb9c4cac1",
+  "source_sha256": "d654c3dbdb006712418b30e8c43d1de45d32ba1a5c7d514033e47066f7b2ef26",
+  "source_lines": [
+    504,
+    516
+  ],
+  "excerpt_sha256": "98ad3933011aef9f0c72ac830827e56ad9bd79a1a17f6775c02842f38a990fb4",
+  "local_path": "examples/LogConcaveCore.lean",
+  "local_sha256": "05bbf726dd5eac8aac02279cf08af82a64476c492786665ba87f00be0918ded8",
+  "changes": [
+    "Kept original copyright/license header and lemma body.",
+    "Added import Mathlib and a local namespace; did not copy source-wide options or other declarations."
+  ],
+  "fresh_lean_compilation_performed": false
+}

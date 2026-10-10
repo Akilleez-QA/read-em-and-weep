@@ -1,0 +1,14 @@
+{
+  "schema": "alphaproof-nexus-integration-tests-v1",
+  "python_unittest_cases": 48,
+  "ordinary_mode": "passed",
+  "optimized_mode": "passed",
+  "inventory_entries_checked_against_pinned_github_tree": 92,
+  "lean_source_files": 71,
+  "selected_upstream_source_sha256": "d654c3dbdb006712418b30e8c43d1de45d32ba1a5c7d514033e47066f7b2ef26",
+  "upstream_excerpt_byte_identity": "passed",
+  "pinned_target_text_guard": "passed",
+  "local_lean_compilation": "not_run",
+  "real_compiler_orchestration": "not_exercised; fixture/mock coverage only",
+  "downloads_or_installations_by_validator": "none"
+}
