@@ -1,0 +1,206 @@
+{
+  "schema": "current-L-rational-jet-regeneration-receipt-v1",
+  "status": "ALL_32_EXACT_SOURCE_PINS_MATCH",
+  "numeratorSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+  "pinsSHA256": "e0db70510b5fc2721ee30ac246f71023ba5e0047f1d36f19e8d55d1799e2c82a",
+  "pythonVersion": "3.12.14",
+  "nodeVersion": "v24.19.0",
+  "jobs": 2,
+  "axes": [
+    {
+      "axis": 0,
+      "leading": {
+        "sha256": "0d0fdeaf8df1ae21a27261749424be6f3224c99c96ed72ed92bc1eb167223a3b",
+        "bytes": 9878279
+      },
+      "normalized": {
+        "sha256": "c40f29d6fa245bc12ba1582608ed64ed5c3f613b287ab5d552ebb1e27462b383",
+        "bytes": 5774896
+      },
+      "supportVerified": true,
+      "pairs": {
+        "01": {
+          "compact": {
+            "sha256": "c4aec8ed71a940cf30dfb5d12b04cb1db25e5e4e9cc74f4eafa452b2bb1aef5a",
+            "bytes": 12671919
+          },
+          "clearing": {
+            "sha256": "c49aaace6483558e6afcbdb2085d5bfd03d50fff3502fb683509552dbd78dc3a",
+            "bytes": 2890716
+          },
+          "elapsedSeconds": 16.128
+        },
+        "02": {
+          "compact": {
+            "sha256": "80d21d173f6452710a348a9450da77c7f69eed38cfba4539f6725a631c14c0d4",
+            "bytes": 12671298
+          },
+          "clearing": {
+            "sha256": "e40981f82c07b71e7522f5007debdd1ff236a56bcf5fbffa2f947b101b640b22",
+            "bytes": 2890717
+          },
+          "elapsedSeconds": 30.548
+        },
+        "03": {
+          "compact": {
+            "sha256": "678379d445530ca1a25a2e7143911f4bd047e6e89f9fc6db938b39201070118c",
+            "bytes": 12669347
+          },
+          "clearing": {
+            "sha256": "b9671975d6ebc2f7956048abae93b61eb3972682b22b6ae793fc9d319b87dd6f",
+            "bytes": 2890574
+          },
+          "elapsedSeconds": 17.763
+        }
+      },
+      "elapsedSeconds": 89.415
+    },
+    {
+      "axis": 1,
+      "leading": {
+        "sha256": "7965e7c24c8b15fdba88c98059613ba103ce1e81213918fe578aba7d6dad9c1d",
+        "bytes": 9867465
+      },
+      "normalized": {
+        "sha256": "4f5625c6341c995a35e6581af2fb96ef3ec7e024ab31d8e0716957420abd773a",
+        "bytes": 5761090
+      },
+      "supportVerified": true,
+      "pairs": {
+        "10": {
+          "compact": {
+            "sha256": "45d250f4df97187e055c58750e1aa5384104741a9c4d8001effa55ae195fe69a",
+            "bytes": 12638161
+          },
+          "clearing": {
+            "sha256": "2134d741da3adee7dc129fa8bc004598f4715ef32230a4c2b5010ba243fc4bfc",
+            "bytes": 2883085
+          },
+          "elapsedSeconds": 15.686
+        },
+        "12": {
+          "compact": {
+            "sha256": "833a1e7394518364c3ccb379fda9d1688e156e7e6b411caf5e32a3887426d37d",
+            "bytes": 12637691
+          },
+          "clearing": {
+            "sha256": "204c4554e7296bb67b507b650e91a2b27aae1aa7292776327609c4facfd02ca6",
+            "bytes": 2883081
+          },
+          "elapsedSeconds": 18.375
+        },
+        "13": {
+          "compact": {
+            "sha256": "ee0273faaece45510ebeb7f73166d9b96a7c9df04c6ef427787388633c0dec03",
+            "bytes": 12635705
+          },
+          "clearing": {
+            "sha256": "bceac7706a31e436afe3b9d04b4275be4dab7ba026996ef8488b92bb4ffa3f27",
+            "bytes": 2882938
+          },
+          "elapsedSeconds": 17.975
+        }
+      },
+      "elapsedSeconds": 70.586
+    },
+    {
+      "axis": 2,
+      "leading": {
+        "sha256": "338a7c862d9cf597dd625610064116538492be2abc8612c250e2647c274d5453",
+        "bytes": 9879699
+      },
+      "normalized": {
+        "sha256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+        "bytes": 5774763
+      },
+      "supportVerified": true,
+      "pairs": {
+        "20": {
+          "compact": {
+            "sha256": "d5be03be534150b9a58b5fea7e62737787fa0d98c02d797a3ba7b4074f064eca",
+            "bytes": 12667339
+          },
+          "clearing": {
+            "sha256": "427c15b02ecc2c3763dc544f6a5967601eeb38f48d4d3e943596dc4f1502465f",
+            "bytes": 2888500
+          },
+          "elapsedSeconds": 14.855
+        },
+        "21": {
+          "compact": {
+            "sha256": "826c1cf060dd72cb49c3b92b02acddbeed3e1dc54944e0487d4f963e8001aa07",
+            "bytes": 12667815
+          },
+          "clearing": {
+            "sha256": "35a0452e993dcb2ae8311012f81c85b5145570fd45741514d31e11b7091e3b56",
+            "bytes": 2888505
+          },
+          "elapsedSeconds": 16.319
+        },
+        "23": {
+          "compact": {
+            "sha256": "dafba29ef00d9a95e256e72cde33336a5b50f5e0b6e8107d1b03e02cf9c948b5",
+            "bytes": 12664776
+          },
+          "clearing": {
+            "sha256": "fcf1792db35da09e4a68e88cfb51624a969842ce21393e2c9e7102777ebe7c69",
+            "bytes": 2888364
+          },
+          "elapsedSeconds": 22.069
+        }
+      },
+      "elapsedSeconds": 77.542
+    },
+    {
+      "axis": 3,
+      "leading": {
+        "sha256": "ea5abd12a796b405b779ec8159c9067f9e1b0d554e033316c8eec4954d4e9e69",
+        "bytes": 9869987
+      },
+      "normalized": {
+        "sha256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+        "bytes": 5762235
+      },
+      "supportVerified": true,
+      "pairs": {
+        "30": {
+          "compact": {
+            "sha256": "57f6143f15bd8a56c229e74edb58c876e13d5176d78b110589b85da2c09ea4f2",
+            "bytes": 12633704
+          },
+          "clearing": {
+            "sha256": "1367270448993f95b05975e6d65d171426d087cf049ac913904b6c483579279c",
+            "bytes": 2880977
+          },
+          "elapsedSeconds": 14.889
+        },
+        "31": {
+          "compact": {
+            "sha256": "350ea6c20f56ac3865a670d602670216660febdd3cd9e86c49096d9d9f6d9c30",
+            "bytes": 12634151
+          },
+          "clearing": {
+            "sha256": "fcbc3529f5fc5c9eec01591c61534f267506d57af206c406205fc60d260fdf8e",
+            "bytes": 2880978
+          },
+          "elapsedSeconds": 17.203
+        },
+        "32": {
+          "compact": {
+            "sha256": "0de1748c2dee6a8af6e00e6b1e7f8b423d66762910a45b5d2334d70e49e6e903",
+            "bytes": 12633160
+          },
+          "clearing": {
+            "sha256": "222a660d43ca34b87a30c8f841716e4bf85e44084837bd20747014c728f290a4",
+            "bytes": 2880995
+          },
+          "elapsedSeconds": 22.608
+        }
+      },
+      "elapsedSeconds": 70.388
+    }
+  ],
+  "elapsedSeconds": 161.314,
+  "polynomialQuotientEvaluationPerformed": false,
+  "geometricSourceProofPerformed": false
+}
