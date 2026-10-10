@@ -7,6 +7,7 @@
 
 
 function verifyHMExt() {
+  const exact=x=>{if(!Number.isSafeInteger(x))throw Error("Unsafe integer arithmetic");return x;};
   const ranks=[5,15,10,2];
   const wp=i=>[(i+2)%5,(i+3)%5], wm=i=>[(i+1)%5,(i+4)%5];
   function eps(a){if(new Set(a).size<5)return 0;let n=0;for(let i=0;i<5;i++)for(let j=i+1;j<5;j++)if(a[i]>a[j])n++;return(-1)**n;}
@@ -20,7 +21,7 @@ function verifyHMExt() {
   for(let l=0;l<2;l++)for(let a=0;a<ranks[l];a++){let c=new Map();for(let[b,k,z]of d[l][a])for(let[r,j,w]of d[l+1][b])add(c,[r,Math.min(k,j),Math.max(k,j)].join(","),z*w);if(c.size)throw Error("Line differential does not square to zero");}
   const subsets=Array.from({length:5},()=>[]);
   for(let s=0;s<16;s++){let x=Array.from({length:4},(_,j)=>(s>>j)&1);subsets[x.reduce((a,b)=>a+b,0)].push(x);}
-  function add(M,k,v){let z=(M.get(k)||0)+v;if(z)M.set(k,z);else M.delete(k);}
+  function add(M,k,v){let z=exact((M.get(k)||0)+v);if(z)M.set(k,z);else M.delete(k);}
   function mons(lo,hi){let out=[];for(let a=lo[0];a<=hi[0];a++)for(let b=lo[1];b<=hi[1];b++)for(let c=lo[2];c<=hi[2];c++)for(let e=lo[3];e<=hi[3];e++)out.push([a,b,c,e]);return out;}
   function echelon(input,ncols){
     let A=input.map(r=>new Map(r)),rank=0,pivots=[],max=1;
@@ -32,8 +33,8 @@ function verifyHMExt() {
     }
     if(A.slice(rank).some(r=>r.size))throw Error("Nonzero residual rows");
     let P=new Set(pivots),kernel=[];
-    for(let f=0;f<ncols;f++)if(!P.has(f)){let v=Array(ncols).fill(0);v[f]=1;for(let i=rank-1;i>=0;i--){let z=0;for(let[j,a]of A[i])if(j!==pivots[i])z+=a*v[j];v[pivots[i]]=-z;}
-      for(let row of input){let z=0;for(let[j,a]of row)z+=a*v[j];if(z)throw Error("Kernel certificate failed");}kernel.push(v);
+    for(let f=0;f<ncols;f++)if(!P.has(f)){let v=Array(ncols).fill(0);v[f]=1;for(let i=rank-1;i>=0;i--){let z=0;for(let[j,a]of A[i])if(j!==pivots[i])z=exact(z+exact(a*v[j]));v[pivots[i]]=-z;}
+      for(let row of input){let z=0;for(let[j,a]of row)z=exact(z+exact(a*v[j]));if(z)throw Error("Kernel certificate failed");}kernel.push(v);
     }
     return {rank,max,kernel,nonzeros:input.reduce((s,r)=>s+r.size,0)};
   }
@@ -101,7 +102,7 @@ function verifyHMExt() {
     if(weight===2){
       let B=Array.from({length:354},()=>new Map()),offset=[0,25,250,350];
       for(let j=0;j<K.length;j++)for(let[key,z]of run(K[j],src,weight,3,12,[[-1,-1],[-1,-1],[0,0],[0,0]])){let[u,v,a,b,mask]=key.split(",").map(Number);if(u!==v||mask!==12)throw Error("Bad d3");add(B[offset[u]+a*ranks[u]+b],j,z);}
-      r3=echelon(B,K.length);K=r3.kernel.map(v=>{let out=Array(10*src.length).fill(0);for(let i=0;i<v.length;i++)if(v[i])for(let j=0;j<out.length;j++)out[j]+=v[i]*r1.kernel[i][j];return out;});
+      r3=echelon(B,K.length);K=r3.kernel.map(v=>{let out=Array(10*src.length).fill(0);for(let i=0;i<v.length;i++)if(v[i])for(let j=0;j<out.length;j++)out[j]=exact(out[j]+exact(v[i]*r1.kernel[i][j]));return out;});
     }
     let ranges=Array.from({length:4},(_,i)=>[0,i<weight?0:2]),nm=3**(4-weight),extra=weight===0?3920:weight===1?354:0,B=Array.from({length:80*nm},()=>new Map()),cols=K.length+extra;
     for(let j=0;j<K.length;j++)projectR2(run(K[j],src,weight,5,15,ranges),B,j,weight);
