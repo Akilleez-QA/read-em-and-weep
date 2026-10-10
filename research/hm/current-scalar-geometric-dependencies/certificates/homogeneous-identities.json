@@ -1,0 +1,36 @@
+{
+  "schema": "hm-negative-coset-identities-v1",
+  "modelSha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "exactScalarChecks": 3090,
+  "byIdentity": {
+    "E_identity": 1350,
+    "P_I": 24,
+    "H0_I": 60,
+    "P_H1": 120,
+    "H0_H1": 300,
+    "H1_eta": 180,
+    "H0_gamma": 150,
+    "delta_H1_eta_ev": 600,
+    "ev_eta": 24,
+    "delta_I": 120,
+    "P_gamma": 60,
+    "merged_H0_row": 30,
+    "merged_I_row": 4,
+    "merged_E_row": 30,
+    "gamma_row10": 5,
+    "ev_column0": 2,
+    "L_d_End": 10,
+    "scalar_formula": 2,
+    "double_merged_vanish": 15,
+    "cover_v0_zero": 4
+  },
+  "originalChartFrameWeightChecks": 64,
+  "scalarFrameWeight": -4,
+  "quotientColumns": [
+    -3,
+    -2
+  ],
+  "quotientDifferential": "d_End: -3 -> -2; outgoing -2 -> -1 is zero in quotient",
+  "scalarChainMap": "L(X)=X02[0,0]-X13[10,0]; L d_End = 0",
+  "transportedFrameIdentityChecks": 901
+}

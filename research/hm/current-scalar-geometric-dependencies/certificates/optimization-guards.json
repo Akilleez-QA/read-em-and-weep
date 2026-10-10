@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "script": "verify.py",
+      "mode": "-O",
+      "rejected": true
+    },
+    {
+      "script": "verify.py",
+      "mode": "-OO",
+      "rejected": true
+    },
+    {
+      "script": "checks/verify_homogeneous_identities.py",
+      "mode": "-O",
+      "rejected": true
+    },
+    {
+      "script": "checks/verify_homogeneous_identities.py",
+      "mode": "-OO",
+      "rejected": true
+    }
+  ]
+}

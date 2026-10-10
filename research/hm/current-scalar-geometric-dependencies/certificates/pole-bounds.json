@@ -1,0 +1,660 @@
+{
+  "schema": "hm-negative-coset-pole-v1",
+  "order": [
+    5,
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "tailPrimaryJ0": [
+    13,
+    13,
+    13,
+    13,
+    13,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "q2": [
+    {
+      "a": 5,
+      "b": 0,
+      "tailCarriers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "blocks": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "tailCarriers": [
+        2,
+        3,
+        4
+      ],
+      "blocks": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "blocks": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 3,
+      "tailCarriers": [
+        4
+      ],
+      "blocks": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        3,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "tailCarriers": [
+        2,
+        3,
+        4
+      ],
+      "blocks": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "blocks": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "tailCarriers": [
+        4
+      ],
+      "blocks": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "blocks": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        1,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "tailCarriers": [
+        4
+      ],
+      "blocks": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "tailCarriers": [
+        4
+      ],
+      "blocks": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "q3": [
+    {
+      "a": 5,
+      "b": 0,
+      "c": 1,
+      "tailCarriers": [
+        2,
+        3,
+        4
+      ],
+      "block": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 0,
+      "c": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "block": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 0,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "c": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "block": [
+        0,
+        2,
+        2,
+        0,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        0,
+        2,
+        0,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 5,
+      "b": 2,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "c": 2,
+      "tailCarriers": [
+        3,
+        4
+      ],
+      "block": [
+        1,
+        2,
+        2,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 1,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "c": 3,
+      "tailCarriers": [
+        4
+      ],
+      "block": [
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "q2PrefixBounds": [
+    2,
+    2,
+    2,
+    2,
+    0,
+    3,
+    1,
+    1,
+    1,
+    1
+  ],
+  "q2ScalarPrefixBounds": [
+    2,
+    1,
+    2,
+    2,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "q3PrefixBounds": [
+    2,
+    2,
+    2,
+    2,
+    0,
+    2,
+    1,
+    1,
+    1,
+    1
+  ],
+  "completed": {
+    "twoColumnJ2": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      3,
+      1,
+      1,
+      1,
+      1
+    ],
+    "twoColumnJ3": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    "scalar": [
+      13,
+      13,
+      13,
+      13,
+      13,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "modelSha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "abstractScalars": 270794,
+  "allocation": "Primary tail and strictly earlier prefix carriers are disjoint; take max, not sum, after carrier specialization. Each tail pole is allocated only to an occurring tail carrier. Repeated refined vertices of one prefix carrier vanish.",
+  "mergedScalar": {
+    "carrierOrder": [
+      "v0",
+      1,
+      2,
+      3,
+      4
+    ],
+    "carrierPowers": [
+      1,
+      13,
+      13,
+      13,
+      13
+    ],
+    "legalLinePowers": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "firstOpenNeedsLineRefinement": false,
+    "nonzeroTailCarriers": [
+      2,
+      3,
+      4
+    ],
+    "formulaForFirstMergedAnchor": "c=-Z[10,0]/v0; Z=E_B (I_C M^t P_C) H1_B",
+    "sign": "J2=-h_A h_B j_C(M)"
+  },
+  "scope": "Completed new auxiliary-first quotient/scalar cochains, their restrictions and Cech boundaries. No denominator claim for old-order lifts or an order-change homotopy."
+}

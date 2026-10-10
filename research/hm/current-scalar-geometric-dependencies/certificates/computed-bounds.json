@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "computedPrimaryTailPower": 13,
+  "computedScalarPrefixPrimaryPowerAtMost": 2,
+  "computedScalarAuxiliaryPowerAtMost": 1,
+  "computedLegalLinePowersAtMost": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "scalarMergedCarrierPowers": [
+    1,
+    13,
+    13,
+    13,
+    13
+  ],
+  "allMaskNumeratorClearingPowers": [
+    13,
+    14,
+    14,
+    14
+  ],
+  "declaredCompletedFieldUsedAsEvidence": false,
+  "geometricMergerUsesSeparateHomogeneousIdentities": true
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "identicalResidualFunctions": [
+    "crossResidual",
+    "globalCross"
+  ],
+  "explicitGlobalBuildReplacements": 8,
+  "physicalBlockConstructionMatched": true,
+  "publicGeneratorSHA256": "731fa3f8e3d9ae49f57f595c34220ef9b6a2bedc9cc6f3875c643978f5f01ab4",
+  "publicFileCompared": false,
+  "scope": "Formula alignment; primitive and line upper bounds are checked separately."
+}
