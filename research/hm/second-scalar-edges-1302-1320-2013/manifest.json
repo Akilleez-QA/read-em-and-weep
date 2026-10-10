@@ -1,0 +1,21 @@
+{
+  "schema": "second-scalar-edges-1302-1320-2013-manifest-v1",
+  "files": {
+    "README.md": {
+      "sha256": "fbb0b64474ca2e3013a1e01ecaa1ec929eeb9bf03344e90116cbcbbf39f30ccc",
+      "bytes": 5782
+    },
+    "contributions.json": {
+      "sha256": "3af84208f2c0d0bcc0a119eb02efc245e4fef832a85ca641618d63d2776ed234",
+      "bytes": 271666
+    },
+    "replay.py": {
+      "sha256": "cf1243f3370b9e7a462136b4ccbc7b32500906337a95915adf12630b8c95786a",
+      "bytes": 9323
+    },
+    "test_replay.py": {
+      "sha256": "4a93be57ec37c5d749a5a7aaf365c65213204f8d298057431b016ffc97b57af7",
+      "bytes": 5246
+    }
+  }
+}
