@@ -1,0 +1,1539 @@
+{
+  "schema": "current-scalar-integer-relations-v1",
+  "basis": "hm-pr5-full-sign-harmonic-v1",
+  "source_commit": "add03476d9055aa00e1e00778eea6332cf8e01cc",
+  "checker_source_sha256": "29bbe778ed43ce91b52390d27fd78678879bb39c877982afb8063676b3fe1558",
+  "outgoing_matrix_sha256": "c22c0750a701d8172f3e2a0e4d0515b86ea13ac98f164ced241c12fc5ce7784e",
+  "negative_incoming_matrix_sha256": "b3b74b9b39b8c6c034028d79f37af352d0b94d50941dbc24e41a9cdea2b9ecc3",
+  "scalar_definition": "c[m]=n[m]-n[5670+m], m=27*(e1+3)+9*(e2+3)+3*(e3+3)+(e4+3), each e in {-3,-2,-1}",
+  "zero_indices": [
+    0,
+    1,
+    3,
+    4,
+    9,
+    10,
+    12,
+    13,
+    26,
+    27,
+    28,
+    30,
+    31,
+    36,
+    37,
+    39,
+    40,
+    41,
+    43,
+    44,
+    49,
+    50,
+    52,
+    53,
+    62,
+    67,
+    68,
+    70,
+    71,
+    74,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "relation_identity_minor_columns": [
+    0,
+    1,
+    3,
+    4,
+    9,
+    10,
+    12,
+    13,
+    26,
+    27,
+    28,
+    30,
+    31,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    62,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+  ],
+  "relations": [
+    {
+      "terms": [
+        {
+          "index": 0,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 32,
+          "coefficient": -1
+        },
+        {
+          "row": 2864,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 1,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 33,
+          "coefficient": -1
+        },
+        {
+          "row": 2865,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 3,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 34,
+          "coefficient": -1
+        },
+        {
+          "row": 2866,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 4,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 35,
+          "coefficient": -1
+        },
+        {
+          "row": 2867,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 9,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 36,
+          "coefficient": -1
+        },
+        {
+          "row": 2868,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 10,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 37,
+          "coefficient": -1
+        },
+        {
+          "row": 2869,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 12,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 38,
+          "coefficient": -1
+        },
+        {
+          "row": 2870,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 13,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 39,
+          "coefficient": -1
+        },
+        {
+          "row": 2871,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 26,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 55,
+          "coefficient": 1
+        },
+        {
+          "row": 2803,
+          "coefficient": -1
+        },
+        {
+          "row": 2805,
+          "coefficient": -1
+        },
+        {
+          "row": 2806,
+          "coefficient": -1
+        },
+        {
+          "row": 2823,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 27,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 31,
+          "coefficient": -1
+        },
+        {
+          "row": 40,
+          "coefficient": -1
+        },
+        {
+          "row": 2848,
+          "coefficient": 1
+        },
+        {
+          "row": 2865,
+          "coefficient": -1
+        },
+        {
+          "row": 2866,
+          "coefficient": -1
+        },
+        {
+          "row": 2868,
+          "coefficient": -1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 28,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 41,
+          "coefficient": -1
+        },
+        {
+          "row": 2873,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 30,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 42,
+          "coefficient": -1
+        },
+        {
+          "row": 2874,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 31,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 43,
+          "coefficient": -1
+        },
+        {
+          "row": 2875,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 17,
+          "coefficient": 1
+        },
+        {
+          "index": 35,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 51,
+          "coefficient": 1
+        },
+        {
+          "row": 2801,
+          "coefficient": -1
+        },
+        {
+          "row": 2802,
+          "coefficient": -1
+        },
+        {
+          "row": 2819,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 36,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 35,
+          "coefficient": 1
+        },
+        {
+          "row": 37,
+          "coefficient": 1
+        },
+        {
+          "row": 38,
+          "coefficient": 1
+        },
+        {
+          "row": 41,
+          "coefficient": 1
+        },
+        {
+          "row": 42,
+          "coefficient": 1
+        },
+        {
+          "row": 369,
+          "coefficient": 1
+        },
+        {
+          "row": 370,
+          "coefficient": 1
+        },
+        {
+          "row": 372,
+          "coefficient": 1
+        },
+        {
+          "row": 376,
+          "coefficient": 1
+        },
+        {
+          "row": 400,
+          "coefficient": 1
+        },
+        {
+          "row": 419,
+          "coefficient": 1
+        },
+        {
+          "row": 421,
+          "coefficient": 1
+        },
+        {
+          "row": 422,
+          "coefficient": 1
+        },
+        {
+          "row": 425,
+          "coefficient": 1
+        },
+        {
+          "row": 426,
+          "coefficient": 1
+        },
+        {
+          "row": 428,
+          "coefficient": 1
+        },
+        {
+          "row": 759,
+          "coefficient": -1
+        },
+        {
+          "row": 763,
+          "coefficient": -1
+        },
+        {
+          "row": 765,
+          "coefficient": -1
+        },
+        {
+          "row": 766,
+          "coefficient": -1
+        },
+        {
+          "row": 768,
+          "coefficient": -1
+        },
+        {
+          "row": 1683,
+          "coefficient": 1
+        },
+        {
+          "row": 1685,
+          "coefficient": 1
+        },
+        {
+          "row": 1686,
+          "coefficient": 1
+        },
+        {
+          "row": 1689,
+          "coefficient": 1
+        },
+        {
+          "row": 1690,
+          "coefficient": 1
+        },
+        {
+          "row": 1692,
+          "coefficient": 1
+        },
+        {
+          "row": 1727,
+          "coefficient": -1
+        },
+        {
+          "row": 2336,
+          "coefficient": 1
+        },
+        {
+          "row": 2391,
+          "coefficient": -1
+        },
+        {
+          "row": 2395,
+          "coefficient": -1
+        },
+        {
+          "row": 2397,
+          "coefficient": -1
+        },
+        {
+          "row": 2398,
+          "coefficient": -1
+        },
+        {
+          "row": 2832,
+          "coefficient": 1
+        },
+        {
+          "row": 2867,
+          "coefficient": -1
+        },
+        {
+          "row": 2869,
+          "coefficient": -1
+        },
+        {
+          "row": 2870,
+          "coefficient": -1
+        },
+        {
+          "row": 2873,
+          "coefficient": -1
+        },
+        {
+          "row": 2874,
+          "coefficient": -1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 37,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 45,
+          "coefficient": -1
+        },
+        {
+          "row": 2877,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 14,
+          "coefficient": 1
+        },
+        {
+          "index": 32,
+          "coefficient": 1
+        },
+        {
+          "index": 38,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 49,
+          "coefficient": 1
+        },
+        {
+          "row": 2800,
+          "coefficient": -1
+        },
+        {
+          "row": 2817,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 39,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 39,
+          "coefficient": 1
+        },
+        {
+          "row": 43,
+          "coefficient": 1
+        },
+        {
+          "row": 45,
+          "coefficient": 1
+        },
+        {
+          "row": 48,
+          "coefficient": 1
+        },
+        {
+          "row": 2816,
+          "coefficient": 1
+        },
+        {
+          "row": 2871,
+          "coefficient": -1
+        },
+        {
+          "row": 2875,
+          "coefficient": -1
+        },
+        {
+          "row": 2877,
+          "coefficient": -1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 40,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2800,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 41,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2801,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 16,
+          "coefficient": 1
+        },
+        {
+          "index": 34,
+          "coefficient": 1
+        },
+        {
+          "index": 42,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 50,
+          "coefficient": 1
+        },
+        {
+          "row": 2800,
+          "coefficient": -1
+        },
+        {
+          "row": 2818,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 43,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2802,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 44,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2803,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 23,
+          "coefficient": 1
+        },
+        {
+          "index": 47,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 53,
+          "coefficient": 1
+        },
+        {
+          "row": 2801,
+          "coefficient": -1
+        },
+        {
+          "row": 2804,
+          "coefficient": -1
+        },
+        {
+          "row": 2821,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 22,
+          "coefficient": 1
+        },
+        {
+          "index": 46,
+          "coefficient": 1
+        },
+        {
+          "index": 48,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 52,
+          "coefficient": 1
+        },
+        {
+          "row": 2800,
+          "coefficient": -1
+        },
+        {
+          "row": 2820,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 49,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2804,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 50,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2805,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 25,
+          "coefficient": 1
+        },
+        {
+          "index": 51,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 54,
+          "coefficient": 1
+        },
+        {
+          "row": 2802,
+          "coefficient": -1
+        },
+        {
+          "row": 2804,
+          "coefficient": -1
+        },
+        {
+          "row": 2822,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 52,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2806,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 53,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2807,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 2,
+          "coefficient": 1
+        },
+        {
+          "index": 6,
+          "coefficient": 1
+        },
+        {
+          "index": 18,
+          "coefficient": 1
+        },
+        {
+          "index": 54,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 369,
+          "coefficient": -2
+        },
+        {
+          "row": 370,
+          "coefficient": -2
+        },
+        {
+          "row": 372,
+          "coefficient": -2
+        },
+        {
+          "row": 376,
+          "coefficient": -2
+        },
+        {
+          "row": 400,
+          "coefficient": -2
+        },
+        {
+          "row": 419,
+          "coefficient": -2
+        },
+        {
+          "row": 421,
+          "coefficient": -2
+        },
+        {
+          "row": 422,
+          "coefficient": -2
+        },
+        {
+          "row": 425,
+          "coefficient": -2
+        },
+        {
+          "row": 426,
+          "coefficient": -2
+        },
+        {
+          "row": 428,
+          "coefficient": -2
+        },
+        {
+          "row": 511,
+          "coefficient": 1
+        },
+        {
+          "row": 513,
+          "coefficient": 1
+        },
+        {
+          "row": 514,
+          "coefficient": 1
+        },
+        {
+          "row": 516,
+          "coefficient": 1
+        },
+        {
+          "row": 520,
+          "coefficient": 1
+        },
+        {
+          "row": 759,
+          "coefficient": 2
+        },
+        {
+          "row": 763,
+          "coefficient": 2
+        },
+        {
+          "row": 765,
+          "coefficient": 2
+        },
+        {
+          "row": 766,
+          "coefficient": 2
+        },
+        {
+          "row": 768,
+          "coefficient": 2
+        },
+        {
+          "row": 1683,
+          "coefficient": -2
+        },
+        {
+          "row": 1685,
+          "coefficient": -2
+        },
+        {
+          "row": 1686,
+          "coefficient": -2
+        },
+        {
+          "row": 1689,
+          "coefficient": -2
+        },
+        {
+          "row": 1690,
+          "coefficient": -2
+        },
+        {
+          "row": 1692,
+          "coefficient": -2
+        },
+        {
+          "row": 1727,
+          "coefficient": 2
+        },
+        {
+          "row": 2161,
+          "coefficient": -1
+        },
+        {
+          "row": 2162,
+          "coefficient": -1
+        },
+        {
+          "row": 2164,
+          "coefficient": -1
+        },
+        {
+          "row": 2168,
+          "coefficient": -1
+        },
+        {
+          "row": 2223,
+          "coefficient": 1
+        },
+        {
+          "row": 2336,
+          "coefficient": -2
+        },
+        {
+          "row": 2391,
+          "coefficient": 2
+        },
+        {
+          "row": 2395,
+          "coefficient": 2
+        },
+        {
+          "row": 2397,
+          "coefficient": 2
+        },
+        {
+          "row": 2398,
+          "coefficient": 2
+        },
+        {
+          "row": 2832,
+          "coefficient": -2
+        },
+        {
+          "row": 2849,
+          "coefficient": 1
+        },
+        {
+          "row": 2850,
+          "coefficient": 1
+        },
+        {
+          "row": 2852,
+          "coefficient": 1
+        },
+        {
+          "row": 2856,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 62,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 59,
+          "coefficient": 1
+        },
+        {
+          "row": 2803,
+          "coefficient": -1
+        },
+        {
+          "row": 2809,
+          "coefficient": -1
+        },
+        {
+          "row": 2810,
+          "coefficient": -1
+        },
+        {
+          "row": 2827,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 59,
+          "coefficient": 1
+        },
+        {
+          "index": 65,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 57,
+          "coefficient": 1
+        },
+        {
+          "row": 2801,
+          "coefficient": -1
+        },
+        {
+          "row": 2808,
+          "coefficient": -1
+        },
+        {
+          "row": 2825,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 58,
+          "coefficient": 1
+        },
+        {
+          "index": 64,
+          "coefficient": 1
+        },
+        {
+          "index": 66,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 56,
+          "coefficient": 1
+        },
+        {
+          "row": 2800,
+          "coefficient": -1
+        },
+        {
+          "row": 2824,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 67,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2808,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 68,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2809,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 61,
+          "coefficient": 1
+        },
+        {
+          "index": 69,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 58,
+          "coefficient": 1
+        },
+        {
+          "row": 2802,
+          "coefficient": -1
+        },
+        {
+          "row": 2808,
+          "coefficient": -1
+        },
+        {
+          "row": 2826,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 70,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2810,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 71,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2811,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 8,
+          "coefficient": 1
+        },
+        {
+          "index": 20,
+          "coefficient": 1
+        },
+        {
+          "index": 24,
+          "coefficient": 1
+        },
+        {
+          "index": 56,
+          "coefficient": 1
+        },
+        {
+          "index": 60,
+          "coefficient": 1
+        },
+        {
+          "index": 72,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 49,
+          "coefficient": -2
+        },
+        {
+          "row": 50,
+          "coefficient": -2
+        },
+        {
+          "row": 52,
+          "coefficient": -2
+        },
+        {
+          "row": 56,
+          "coefficient": -2
+        },
+        {
+          "row": 771,
+          "coefficient": -1
+        },
+        {
+          "row": 773,
+          "coefficient": -1
+        },
+        {
+          "row": 774,
+          "coefficient": -1
+        },
+        {
+          "row": 777,
+          "coefficient": -1
+        },
+        {
+          "row": 778,
+          "coefficient": -1
+        },
+        {
+          "row": 780,
+          "coefficient": -1
+        },
+        {
+          "row": 799,
+          "coefficient": -1
+        },
+        {
+          "row": 2643,
+          "coefficient": -1
+        },
+        {
+          "row": 2645,
+          "coefficient": -1
+        },
+        {
+          "row": 2646,
+          "coefficient": -1
+        },
+        {
+          "row": 2649,
+          "coefficient": -1
+        },
+        {
+          "row": 2650,
+          "coefficient": -1
+        },
+        {
+          "row": 2652,
+          "coefficient": -1
+        },
+        {
+          "row": 2687,
+          "coefficient": 1
+        },
+        {
+          "row": 2800,
+          "coefficient": 2
+        },
+        {
+          "row": 2817,
+          "coefficient": -2
+        },
+        {
+          "row": 2818,
+          "coefficient": -2
+        },
+        {
+          "row": 2820,
+          "coefficient": -2
+        },
+        {
+          "row": 2824,
+          "coefficient": -2
+        },
+        {
+          "row": 2835,
+          "coefficient": 1
+        },
+        {
+          "row": 2837,
+          "coefficient": 1
+        },
+        {
+          "row": 2838,
+          "coefficient": 1
+        },
+        {
+          "row": 2841,
+          "coefficient": 1
+        },
+        {
+          "row": 2842,
+          "coefficient": 1
+        },
+        {
+          "row": 2844,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 74,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 61,
+          "coefficient": 1
+        },
+        {
+          "row": 2805,
+          "coefficient": -1
+        },
+        {
+          "row": 2809,
+          "coefficient": -1
+        },
+        {
+          "row": 2812,
+          "coefficient": -1
+        },
+        {
+          "row": 2829,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 73,
+          "coefficient": 1
+        },
+        {
+          "index": 75,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 60,
+          "coefficient": 1
+        },
+        {
+          "row": 2804,
+          "coefficient": -1
+        },
+        {
+          "row": 2808,
+          "coefficient": -1
+        },
+        {
+          "row": 2828,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 76,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2812,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 77,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2813,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 78,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 62,
+          "coefficient": 1
+        },
+        {
+          "row": 2806,
+          "coefficient": -1
+        },
+        {
+          "row": 2810,
+          "coefficient": -1
+        },
+        {
+          "row": 2812,
+          "coefficient": -1
+        },
+        {
+          "row": 2830,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 79,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2814,
+          "coefficient": 1
+        }
+      ]
+    },
+    {
+      "terms": [
+        {
+          "index": 80,
+          "coefficient": 1
+        }
+      ],
+      "integer_outgoing_row_certificate": [
+        {
+          "row": 2815,
+          "coefficient": 1
+        }
+      ]
+    }
+  ]
+}
