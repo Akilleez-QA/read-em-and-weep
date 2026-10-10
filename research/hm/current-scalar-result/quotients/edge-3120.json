@@ -1,0 +1,233 @@
+{
+  "schema": "hm-exact-Q-full-quotient-v1",
+  "status": "EXACT_FULL_QUOTIENT_EXPORTED",
+  "field": "Q",
+  "roles": [
+    3,
+    1,
+    2,
+    0
+  ],
+  "quotientShape": [
+    6,
+    37,
+    22
+  ],
+  "contract": {
+    "field": "Q",
+    "mode": "FRESH_EXACT_Q_ALL46_AXIS3",
+    "roles": [
+      3,
+      1,
+      2,
+      0
+    ],
+    "targetFamily": "nonvacuous46_scalar_coordinates",
+    "quotientShape": [
+      6,
+      37,
+      22
+    ],
+    "all46InterfaceSHA256": "5fe0fbae30fb62864ab06804c9bc31dcb4a47a122c23b62548701b5c6c9ace40",
+    "inputSHA256": "350ea6c20f56ac3865a670d602670216660febdd3cd9e86c49096d9d9f6d9c30",
+    "numeratorSourceSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "normalizedSourceSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+    "clearingMetadataSHA256": "fcbc3529f5fc5c9eec01591c61534f267506d57af206c406205fc60d260fdf8e",
+    "integerKernelsSHA256": "19c38bff4214b2d9a8f3f35b339035e782b96e223541057c809abdcb1443d436",
+    "interfaceSHA256": "04fb9db23ba473551253a4929beb58792f6311f4a6d5da15e15e708f9aa32249",
+    "sourceReceiptSHA256": "2467f13f6d926a811296949b3110d458dc2e2dc85cf94206c451aa697ec337f0",
+    "pairReceiptSHA256": "ba2a26d48e2d6bf17dfa69601e0b483914ee29ee5cc6b85f28b70d8dc8554053",
+    "clearingReceiptSHA256": "4777d27630d74943797be63316fb3ab3446da86c901a8f22e575e3173cc35748",
+    "axisReceiptSHA256": "fef75ae1625b7a6343b6cd13a5c75fe6c71abb72f6f0d14976f7d2cceb2b422d",
+    "evaluatorSHA256": "6de3e04b7de1527c133bf778ab4cb92e11a79230aa2c7a07d904cf46e632d178",
+    "arithmeticSHA256": "3d190d4a61df31873cfd007541a997f6aae05a91ff4e1373f8fbdb846bf06848",
+    "configurationSHA256": "2716fb2023405d20d9eb88c0879af678013946d384df7be91f16365da2981064"
+  },
+  "commonDenominator": "64",
+  "integerQuotientCoefficients": [
+    [
+      4,
+      27,
+      21,
+      "264"
+    ],
+    [
+      4,
+      29,
+      21,
+      "-120"
+    ],
+    [
+      4,
+      30,
+      21,
+      "32"
+    ],
+    [
+      4,
+      32,
+      19,
+      "16"
+    ],
+    [
+      4,
+      32,
+      20,
+      "1064"
+    ],
+    [
+      4,
+      32,
+      21,
+      "34640"
+    ],
+    [
+      4,
+      34,
+      20,
+      "24"
+    ],
+    [
+      4,
+      34,
+      21,
+      "1704"
+    ],
+    [
+      4,
+      35,
+      18,
+      "-664"
+    ],
+    [
+      4,
+      35,
+      19,
+      "-47416"
+    ],
+    [
+      4,
+      35,
+      20,
+      "-1666444"
+    ],
+    [
+      4,
+      35,
+      21,
+      "-38430484"
+    ],
+    [
+      5,
+      27,
+      21,
+      "16036"
+    ],
+    [
+      5,
+      29,
+      21,
+      "-6818"
+    ],
+    [
+      5,
+      30,
+      21,
+      "3024"
+    ],
+    [
+      5,
+      31,
+      21,
+      "-138"
+    ],
+    [
+      5,
+      32,
+      19,
+      "944"
+    ],
+    [
+      5,
+      32,
+      20,
+      "64702"
+    ],
+    [
+      5,
+      32,
+      21,
+      "2169157"
+    ],
+    [
+      5,
+      34,
+      19,
+      "-80"
+    ],
+    [
+      5,
+      34,
+      20,
+      "-4486"
+    ],
+    [
+      5,
+      34,
+      21,
+      "-111341"
+    ],
+    [
+      5,
+      35,
+      18,
+      "-46476"
+    ],
+    [
+      5,
+      35,
+      19,
+      "-3413430"
+    ],
+    [
+      5,
+      35,
+      20,
+      "-123348704"
+    ],
+    [
+      5,
+      35,
+      21,
+      "-2923983590"
+    ],
+    [
+      5,
+      36,
+      20,
+      "28"
+    ],
+    [
+      5,
+      36,
+      21,
+      "1960"
+    ]
+  ],
+  "integerCoefficientSHA256": "0bc15ba2e54de5a47182664a70f1d11896104d5df3801ffe33e4a753fccdeb38",
+  "retainedNonzeros": 28,
+  "operations": {
+    "mul": 474610,
+    "sparse": 144449,
+    "packed": 34095,
+    "monomial": 46110,
+    "maxNonzeros": 1709,
+    "maxCoefficientBits": 61,
+    "maxPackedDigitBits": 88,
+    "nonnegativePackedProducts": 102080
+  },
+  "elapsedSeconds": 1314.1545956139962,
+  "peakRSSKiB": 436132,
+  "homogeneousDegreesRemainSeparated": true,
+  "pairingAggregated": false
+}

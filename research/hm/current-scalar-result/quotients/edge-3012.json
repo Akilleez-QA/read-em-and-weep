@@ -1,0 +1,233 @@
+{
+  "schema": "hm-exact-Q-full-quotient-v1",
+  "status": "EXACT_FULL_QUOTIENT_EXPORTED",
+  "field": "Q",
+  "roles": [
+    3,
+    0,
+    1,
+    2
+  ],
+  "quotientShape": [
+    6,
+    37,
+    22
+  ],
+  "contract": {
+    "field": "Q",
+    "mode": "FRESH_EXACT_Q_ALL46_AXIS3",
+    "roles": [
+      3,
+      0,
+      1,
+      2
+    ],
+    "targetFamily": "nonvacuous46_scalar_coordinates",
+    "quotientShape": [
+      6,
+      37,
+      22
+    ],
+    "all46InterfaceSHA256": "5fe0fbae30fb62864ab06804c9bc31dcb4a47a122c23b62548701b5c6c9ace40",
+    "inputSHA256": "57f6143f15bd8a56c229e74edb58c876e13d5176d78b110589b85da2c09ea4f2",
+    "numeratorSourceSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "normalizedSourceSHA256": "137d378b065a1a37ed11e5be84cb279c761f23b7ca218f73c984bb2d4addef59",
+    "clearingMetadataSHA256": "1367270448993f95b05975e6d65d171426d087cf049ac913904b6c483579279c",
+    "integerKernelsSHA256": "19c38bff4214b2d9a8f3f35b339035e782b96e223541057c809abdcb1443d436",
+    "interfaceSHA256": "04fb9db23ba473551253a4929beb58792f6311f4a6d5da15e15e708f9aa32249",
+    "sourceReceiptSHA256": "2467f13f6d926a811296949b3110d458dc2e2dc85cf94206c451aa697ec337f0",
+    "pairReceiptSHA256": "ada8647d3a65d5b4ba4df4a5d4a2821bb09ac01221ea4f06d721e131f8bd412d",
+    "clearingReceiptSHA256": "83af9558daec638a639dde7dad802ff7cc988e45de35df10baac00210ed77eb3",
+    "axisReceiptSHA256": "fef75ae1625b7a6343b6cd13a5c75fe6c71abb72f6f0d14976f7d2cceb2b422d",
+    "evaluatorSHA256": "6de3e04b7de1527c133bf778ab4cb92e11a79230aa2c7a07d904cf46e632d178",
+    "arithmeticSHA256": "3d190d4a61df31873cfd007541a997f6aae05a91ff4e1373f8fbdb846bf06848",
+    "configurationSHA256": "a2adc39ac21e9221b8582676412af42d4875ec45cdd90d8995705357094b98c3"
+  },
+  "commonDenominator": "64",
+  "integerQuotientCoefficients": [
+    [
+      4,
+      27,
+      21,
+      "-1464"
+    ],
+    [
+      4,
+      29,
+      21,
+      "1320"
+    ],
+    [
+      4,
+      30,
+      21,
+      "-32"
+    ],
+    [
+      4,
+      32,
+      19,
+      "-16"
+    ],
+    [
+      4,
+      32,
+      20,
+      "-764"
+    ],
+    [
+      4,
+      32,
+      21,
+      "-13340"
+    ],
+    [
+      4,
+      34,
+      20,
+      "-324"
+    ],
+    [
+      4,
+      34,
+      21,
+      "-23004"
+    ],
+    [
+      4,
+      35,
+      18,
+      "-1436"
+    ],
+    [
+      4,
+      35,
+      19,
+      "-103484"
+    ],
+    [
+      4,
+      35,
+      20,
+      "-3675056"
+    ],
+    [
+      4,
+      35,
+      21,
+      "-85745516"
+    ],
+    [
+      5,
+      27,
+      21,
+      "-89756"
+    ],
+    [
+      5,
+      29,
+      21,
+      "82294"
+    ],
+    [
+      5,
+      30,
+      21,
+      "-1824"
+    ],
+    [
+      5,
+      31,
+      21,
+      "138"
+    ],
+    [
+      5,
+      32,
+      19,
+      "-944"
+    ],
+    [
+      5,
+      32,
+      20,
+      "-45222"
+    ],
+    [
+      5,
+      32,
+      21,
+      "-747123"
+    ],
+    [
+      5,
+      34,
+      19,
+      "80"
+    ],
+    [
+      5,
+      34,
+      20,
+      "-15094"
+    ],
+    [
+      5,
+      34,
+      21,
+      "-1318809"
+    ],
+    [
+      5,
+      35,
+      18,
+      "-95024"
+    ],
+    [
+      5,
+      35,
+      19,
+      "-7044362"
+    ],
+    [
+      5,
+      35,
+      20,
+      "-257237672"
+    ],
+    [
+      5,
+      35,
+      21,
+      "-6168898542"
+    ],
+    [
+      5,
+      36,
+      20,
+      "-28"
+    ],
+    [
+      5,
+      36,
+      21,
+      "-1960"
+    ]
+  ],
+  "integerCoefficientSHA256": "abe7ed8ef76e5ad9812eef9ee60665acf50f838d0795cfb667681ad4afe6d906",
+  "retainedNonzeros": 28,
+  "operations": {
+    "mul": 474600,
+    "sparse": 144436,
+    "packed": 34100,
+    "monomial": 45294,
+    "maxNonzeros": 1709,
+    "maxCoefficientBits": 61,
+    "maxPackedDigitBits": 96,
+    "nonnegativePackedProducts": 102224
+  },
+  "elapsedSeconds": 1453.9013582709958,
+  "peakRSSKiB": 426116,
+  "homogeneousDegreesRemainSeparated": true,
+  "pairingAggregated": false
+}

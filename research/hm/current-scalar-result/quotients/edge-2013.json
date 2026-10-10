@@ -1,0 +1,237 @@
+{
+  "schema": "hm-exact-Q-full-quotient-v1",
+  "status": "EXACT_FULL_QUOTIENT_EXPORTED",
+  "field": "Q",
+  "roles": [
+    2,
+    0,
+    1,
+    3
+  ],
+  "quotientShape": [
+    6,
+    37,
+    22
+  ],
+  "contract": {
+    "field": "Q",
+    "mode": "FRESH_EXACT_Q_M2220_REMAINING",
+    "roles": [
+      2,
+      0,
+      1,
+      3
+    ],
+    "pairingMonomial": [
+      2,
+      2,
+      2,
+      0
+    ],
+    "quotientShape": [
+      6,
+      37,
+      22
+    ],
+    "inputSHA256": "d5be03be534150b9a58b5fea7e62737787fa0d98c02d797a3ba7b4074f064eca",
+    "numeratorSourceSHA256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "normalizedSourceSHA256": "eae73ec6f1df8528cfb33dfcac3cb9c054a996c3930dad7cfd9961b506f451f3",
+    "clearingMetadataSHA256": "427c15b02ecc2c3763dc544f6a5967601eeb38f48d4d3e943596dc4f1502465f",
+    "integerKernelsSHA256": "19c38bff4214b2d9a8f3f35b339035e782b96e223541057c809abdcb1443d436",
+    "interfaceSHA256": "04fb9db23ba473551253a4929beb58792f6311f4a6d5da15e15e708f9aa32249",
+    "sourceReceiptSHA256": "2467f13f6d926a811296949b3110d458dc2e2dc85cf94206c451aa697ec337f0",
+    "pairReceiptSHA256": "81a2abedf93ec3f1e2edd90620393ae66fa4cc4af624207ae3a7a9b7fe1b3013",
+    "clearingReceiptSHA256": "a7ba938bebdc9d947ed1a9db7113f08dc7508c3ea818b7e8a40ceb6ed5ead82f",
+    "axisReceiptSHA256": "67d1202f767eec8e346153fb6dc073e93424b13f8099fd32f883ae60852988e1",
+    "evaluatorSHA256": "7a7a2517f6b0f31af63914544ca09c1f59b28a30ee30247b71bf71de9ea69b85",
+    "arithmeticSHA256": "3d190d4a61df31873cfd007541a997f6aae05a91ff4e1373f8fbdb846bf06848",
+    "configurationSHA256": "3d06c91c61749e37c05b68a3e56c2d8f036c44a675c9817ddbedd0aae67ba408"
+  },
+  "commonDenominator": "64",
+  "integerQuotientCoefficients": [
+    [
+      4,
+      27,
+      21,
+      "6864"
+    ],
+    [
+      4,
+      29,
+      21,
+      "-2520"
+    ],
+    [
+      4,
+      30,
+      21,
+      "32"
+    ],
+    [
+      4,
+      32,
+      19,
+      "16"
+    ],
+    [
+      4,
+      32,
+      20,
+      "-736"
+    ],
+    [
+      4,
+      32,
+      21,
+      "-93160"
+    ],
+    [
+      4,
+      34,
+      20,
+      "624"
+    ],
+    [
+      4,
+      34,
+      21,
+      "44304"
+    ],
+    [
+      4,
+      35,
+      18,
+      "2336"
+    ],
+    [
+      4,
+      35,
+      19,
+      "168584"
+    ],
+    [
+      4,
+      35,
+      20,
+      "5998556"
+    ],
+    [
+      4,
+      35,
+      21,
+      "140296316"
+    ],
+    [
+      5,
+      27,
+      21,
+      "417356"
+    ],
+    [
+      5,
+      29,
+      21,
+      "-158794"
+    ],
+    [
+      5,
+      30,
+      21,
+      "3024"
+    ],
+    [
+      5,
+      31,
+      21,
+      "162"
+    ],
+    [
+      5,
+      32,
+      19,
+      "-256"
+    ],
+    [
+      5,
+      32,
+      20,
+      "-149178"
+    ],
+    [
+      5,
+      32,
+      21,
+      "-10206027"
+    ],
+    [
+      5,
+      34,
+      19,
+      "-80"
+    ],
+    [
+      5,
+      34,
+      20,
+      "52894"
+    ],
+    [
+      5,
+      34,
+      21,
+      "4065759"
+    ],
+    [
+      5,
+      35,
+      18,
+      "154124"
+    ],
+    [
+      5,
+      35,
+      19,
+      "11443202"
+    ],
+    [
+      5,
+      35,
+      20,
+      "418719812"
+    ],
+    [
+      5,
+      35,
+      21,
+      "10066816602"
+    ],
+    [
+      5,
+      36,
+      20,
+      "28"
+    ],
+    [
+      5,
+      36,
+      21,
+      "1960"
+    ]
+  ],
+  "integerCoefficientSHA256": "6269c8416b96314b3fe346ce6a9e8425fdd0c3f69643888cdb88116858b29dfa",
+  "retainedNonzeros": 28,
+  "operations": {
+    "mul": 475666,
+    "sparse": 144832,
+    "packed": 34296,
+    "monomial": 45129,
+    "maxNonzeros": 1709,
+    "maxCoefficientBits": 61,
+    "maxPackedDigitBits": 96,
+    "nonnegativePackedProducts": 103113
+  },
+  "elapsedSeconds": 1379.6324977749973,
+  "peakRSSKiB": 424520,
+  "homogeneousDegreesRemainSeparated": true,
+  "pairingAggregated": false
+}
