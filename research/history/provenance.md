@@ -65,7 +65,7 @@ The finite certificate has been rerun with exact arithmetic, and all character s
 
 Combined with the smooth 87-dimensional fixed-X family and its injective Kodaira–Spencer map, the exact Ext¹ count makes that tangent map an isomorphism. Every ordinary first-order class extends in the smooth family. Hence all ordinary fixed-base Yoneda squares vanish.
 
-The actual ambient second-order obstruction O₂⁰ remains uncomputed. For the fixed Moyal/gerbe two-jet, the previous criterion u²=−O₂⁰ now reduces to O₂⁰=0. Neither its vanishing nor nonvanishing is asserted. Ordinary fixed-X unobstructedness is not ambient all-order unobstructedness and does not prove any original theorem.
+The actual ambient second-order obstruction O₂⁰ remains uncomputed. For the fixed Moyal/gerbe two-jet, reducing the entire lift criterion to O₂⁰=0 additionally requires the separately recorded L=0 argument. That stronger reduction remains conditional here until its complete proof is supplied and checked; square-vanishing alone does not establish it. The narrower full-sign independence in PR #4 does not require L=0. Neither its vanishing nor nonvanishing is asserted. Ordinary fixed-X unobstructedness is not ambient all-order unobstructedness and does not prove any original theorem.
 
 Public supporting work:
 - [Carrier and finite setup, PR #2](https://github.com/Akilleez-QA/read-em-and-weep/pull/2)
