@@ -1,0 +1,13 @@
+PASS raw quadratic Taylor identity, exact first transition, both local isotropy equations, corrected central cocycle, symmetric elimination, and eta=A(Dq+2h lambda)/a
+PASS full arbitrary-minus calculation: every lower-Z C/D term, both first-transition entries, all local lower-Z central terms, and the full half correction leave the Z^2 projection unchanged
+PASS all raw c=2 bundle weights: E=(-5,1)+(-3,1), T=(-2,2)+(-1,1), W=(2,0)+(-2,0); eta lies in Uprime(-7)
+PASS multiplication by a gives exactly M*(g_1,0, g_1,1, 2b); the Z^2 quotient has H1 dimension 4+5=9
+PASS full 5x2 torsion-boundary matrix: its first two row determinant is -4 Res(a,H_Y)/a2^4, with no discriminant assumption
+PASS universal 5x5 Y-obstruction determinant = -8 det(M) Res(a,H_Y)/a2^7, by exact block-triangular row transformation
+PASS all two torsion coordinates detected: reduced-0-1
+PASS all two torsion coordinates detected: reduced-nonzero
+PASS all two torsion coordinates detected: double-0
+PASS all two torsion coordinates detected: double-nonzero
+PASS pure first-jet kappa/lambda cannot escape unit multiplication in the double-point algebra
+PASS fresh cohomology matrices for cusp/node and four reduced/double markings: decisive Y projection has rank five on (g10,g11,b,lambda0,lambda1)
+VERDICT PASS under the stated hypotheses: actual-presentation isomorphism forces g1=b=0; full boundary forces lambda=0; full-Artin square gate forces kappa=0; exceptional D-row rank fails.
