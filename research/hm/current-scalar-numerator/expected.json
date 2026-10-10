@@ -1,0 +1,71 @@
+{
+  "schema": "hm-current-scalar-numerator-regeneration-v1",
+  "bridgePR": 35,
+  "bridgeCommit": "6032b64d3f748c7ac37cb283db4a527e49d06ac8",
+  "reducedModelSHA256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+  "carrierDAG": {
+    "sha256": "31cd62eb3062801ca19073464c276fbe016fa4024fbcdcf48d3893358e3fcc18",
+    "bytes": 3533626,
+    "nodes": 178251
+  },
+  "numerator": {
+    "sha256": "0254c93650e6ca6c1e9cbbb01810704eede98d10d0b75229fcff5d8fa2123e66",
+    "bytes": 4186496,
+    "nodes": 207925,
+    "allNodes": 208871,
+    "outputs": [
+      {
+        "numerator": 207924,
+        "powers": [
+          11,
+          11,
+          11,
+          11,
+          0,
+          0,
+          0,
+          0,
+          12,
+          8,
+          7,
+          0,
+          12,
+          5,
+          4,
+          7
+        ]
+      }
+    ]
+  },
+  "files": {
+    "README.md": "25662f524f622c5644cc98598572d1c114f81be75e8608cf6a8740fa45936274",
+    "build_local_representative.js": "e76401d0760bd373f665477328c420f13171a63d6a5083027297ea32ea8f0587",
+    "check_source_inputs.py": "6fdad78787cef94bd4b2eb6445027a28a8daab6659634755162ac55a1eb315c1",
+    "feature-moments.json": "b89ca9c70a296018665ebb58a86e54ffadd2fe4251c9c637597764e2711a6221",
+    "inverse_seeds.json": "1fa33f15d1aa9303d06bf03d1197e78cf1fade06d586dbcf996541cf7a77c153",
+    "model_denominators.json": "7cf91d4596b8fa72b0598c12d3f1d0b2e8b2e680372aa9b5967be31ec3da4fcb",
+    "print_mask_basis.js": "2db43cfeff2878bfe52e94043c7dc26fd6124078267c32006ffd4054905db5b1",
+    "public_hm_scalar_prefactors.json": "1e4091b056d40c00c6ff9a2ce7b871dbae2aed40471af28caab2086e4ed637a6",
+    "tagged_ring.js": "6e1c284cb3ba081c1b6447ec53b63ab115a82f2ee3ef34d01211f963fff2eba1",
+    "test_constructor.js": "6d2707d49eef04a873daf8b303f8b57c298d175d0d076bd3c80fc85199355fb9",
+    "test_source_checks.py": "a3f1530525efc75c7db5d203d8388c170f41675b0aa81069ae692b4815939125",
+    "verify_numerator.py": "193b7be57ab6bb99bd464b024208c889094935fe47ec226d2f6109b3f1c2501a",
+    "weighted_mask_moments.js": "4548c64b7ff7e892e43e8a1ecab5c42fd9a181d65ed6d0ceab4ecc1e11a1bf0b"
+  },
+  "bridgeFiles": {
+    "README.md": "35a20fcbfaad3335d6e421ff899e4cb21b8cf8fb3d8bf8631549589648fa7f4e",
+    "expected.json": "e87b6c79b63207eba91f62cf88e994b6c74ad9bd1bcf63c3e039022bc0caf397",
+    "generate-hm-mask-coefficients-original.js": "7341103bd5e3eeca13ed5e75205d71de7797af8e8c8a489c60b3bb6805267b89",
+    "public_generate_hm_mask_coefficients_reduced.js": "731fa3f8e3d9ae49f57f595c34220ef9b6a2bedc9cc6f3875c643978f5f01ab4",
+    "public_reduce_hm_primitive_factors.js": "bb34ab38a291a5a5c71ea06ab780d5fca7b948846f072fc1e62e955b1c8db255",
+    "verify_bridge.py": "62e5a480580c5cd3eb76f697e488a2c51d9458d18f2b03299a535666a785109f"
+  },
+  "historicalInputSHA256": {
+    "build_local_representative.js": "5e5e5f80d99d5d63863f7d57d9491661c65e31b6d68ef100718ea10b195d1e5a",
+    "tagged_ring.js": "6e1c284cb3ba081c1b6447ec53b63ab115a82f2ee3ef34d01211f963fff2eba1",
+    "inverse_seeds.json": "e7319d2305f143ce5b94ca4c5807fb638f7755a3c95f54334b4085ddc05d6a42",
+    "model_denominators.json": "7cf91d4596b8fa72b0598c12d3f1d0b2e8b2e680372aa9b5967be31ec3da4fcb",
+    "public_hm_scalar_prefactors.json": "1e4091b056d40c00c6ff9a2ce7b871dbae2aed40471af28caab2086e4ed637a6",
+    "feature-moments.json": "b89ca9c70a296018665ebb58a86e54ffadd2fe4251c9c637597764e2711a6221"
+  }
+}
