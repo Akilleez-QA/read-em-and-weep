@@ -1,0 +1,54 @@
+{
+  "schema": "second-scalar-first-edge-package-v1",
+  "scope": "All distributed files except manifest.json itself",
+  "files": {
+    "MATHEMATICS.md": {
+      "sha256": "0837cbb95c1d15acaa32d1d711d918e960456aa7cdfb9b0d13b245f3c2ba58c8",
+      "bytes": 8507
+    },
+    "README.md": {
+      "sha256": "ea3fd6c8ac65797d35ac526e11e1d61c117a0fd653481e3d7c254dbdfc891b94",
+      "bytes": 3961
+    },
+    "SOURCE-DEPENDENCIES.md": {
+      "sha256": "74aab2673d2fece4c0069c4c3c048270e7fbf8eb8c8125c38a2e8d9b8f106cab",
+      "bytes": 3838
+    },
+    "expected.json": {
+      "sha256": "2436a242d663efebb0436b5172b0ac4dacfbb69c3b3a8eba1a70525472155507",
+      "bytes": 604
+    },
+    "kernels.json": {
+      "sha256": "fe3daa33dc54fdf0491c1834c43562ae14a65a01bbaa0bbdc29196a968c89a86",
+      "bytes": 6116
+    },
+    "model.json": {
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "bytes": 16803
+    },
+    "provenance.json": {
+      "sha256": "c9e7e4e0434ff6b88cfdf6f15c9a9e83a32a238e98ad2d599eaf04322648d406",
+      "bytes": 5116
+    },
+    "quotient.json": {
+      "sha256": "1be369e0cbbc5379a29d104a459e1f442194a2375b1bf602dcaf809d76460dfa",
+      "bytes": 12689
+    },
+    "replay.py": {
+      "sha256": "2b707ccf7281b6e98f2eac6ad40535d45140628be359375ad1060d8464488a5b",
+      "bytes": 18064
+    },
+    "request.json": {
+      "sha256": "fe81e03e9c6ffb02c555e5740e0cd30fc44259c70912c99b6a61bf6e304141ff",
+      "bytes": 68452
+    },
+    "right-prefactor.json": {
+      "sha256": "f2af8647bae6d1d9c8fec59434c48b7efd8f37e7f743d78e672cdee95d7d2060",
+      "bytes": 3094
+    },
+    "test_replay.py": {
+      "sha256": "dc74f795391b88d8e2ca206ea96294b1696536eea498a7b027a45d9fa3f9a9ae",
+      "bytes": 9106
+    }
+  }
+}
