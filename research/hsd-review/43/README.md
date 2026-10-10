@@ -14,4 +14,6 @@ scalar-class value.
 python3 research/hsd-review/43/recompute_edge.py
 ```
 
-Python 3.10+ standard library only.
+Python 3.10+ standard library only. The recorded outcome of that run is in
+`VERDICT.md`: the partial term reproduces as 8655/16, with no arithmetic
+defect found, and with source regeneration left as a missing hypothesis.
