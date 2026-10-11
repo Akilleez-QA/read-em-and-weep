@@ -201,7 +201,7 @@ Effect means effect on the residue-41 coefficient, the coefficient of the class 
 
 ## Questions for null
 
-These are the points on which the seven files do not determine the gate. Everything else above is a reading of the contract as written, except the sentences sourced to comment 6110289167, which record that comment's clarifications and evaluate no coefficient.
+These are the points on which the seven files do not determine the gate. Everything else above is a reading of the contract as written, except the sentences sourced to comment 6110289167, which record that comment's clarifications and evaluate no coefficient. The next section records the handle null's eight answers to these points. Those answers are attributed audit results. They do not turn the questions into determinations from the seven files.
 
 1. Denominators beyond the four rows. Does any pair \((n,d)\) in the normalized source `all-assignments.normalized.json`, for a sum-node other than \(s_{22954}\), \(s_{23283}\), \(s_{23543}\), and \(s_{23615}\), have \(3\mid d\)? The displayed pairs all have \(d=1\). This question is about the omitted pairs only.
 2. Which expression is ordinary. Please confirm that the pinned ordinary expression is the §1 recurrence (integer tag coefficients, displayed numerators \(1\) and \(2\), denominator \(1\), remaining nodes in the normalized digest), and that \(s_{23615}=A+H^3 K\) is asserted only after reduction to \(\mathbb{F}_3\). If the ordinary expression is the rearranged form over \(\mathbb{Z}\), then (a) pins a different polynomial than the one read here. Comment 6110289167 clarifies that the simplified equality \(A+H^3 K\) uses \(2\cdot 2=1\) in \(\mathbb{F}_3\) and implies no cross-prime identification.
@@ -211,6 +211,25 @@ These are the points on which the seven files do not determine the gate. Everyth
 6. The output schema. Is `hm-large-connected-cone-component-v1` fixed by a document outside this package, and does that document add constraints beyond `C0.md` §4? The schema body is not among the seven files.
 7. The word "quotient" in "quotient/cube-weight module construction". The product formula supports the carry reading \((a+b-d)/3\). Comment 6110289167 clarifies that quotient means the Euclidean exponent quotient/carry: the rank-\(81\) free decomposition over the cube-coordinate subring, not a quotient by \(x_i^3-x_i\). The word "module" is also the receiving module 133174.
 8. Negative exponents on the actual input. The displayed tags are polynomials of nonnegative degree. Do any omitted intermediate sources, or the accepted full-source seeds, contain a negative exponent, so that the Euclidean rule is part of the residue-41 input rather than only part of the §6 fixtures?
+
+## Attributed pinned-artifact audit results
+
+The eight answers below are reported by the handle null in PR #68 comment 6110289167. That comment states that they were checked against the gate text at `da1cf0ab4bcd2baf4c62e97227c995dfa5545116` and the dependency bytes pinned by draft #64 at `232cf11c2ca2a8cbaf315040aa0e4ae72c703d8e`. They are recorded here as attributed pinned-artifact audit results. The omitted dependency artifacts are not distributed in the seven files of this gate and are not independently verified here, so these are reported audit results, not independent checks. No coefficient was computed for this section, and no digest below was recomputed.
+
+Where G2, the FMEA, or the questions above leave a point open because the omitted bytes are absent, that opening stands. A reported scan does not close it.
+
+The eight paragraphs follow the order and claims of that comment, in the notation of this note. No count, digest, or filename is changed.
+
+1. Exhaustive normalized-source scan: all 123,263 sum-row coefficient denominators are exactly 1, none divisible by 3. `all-assignments.normalized.json` SHA256 `8067c59cd141b44741156bd5ac5d0ac2d7055177b6aee43ea9a09f1b600176fc`. This audits this normalized source, not every earlier rational construction.
+2. "Ordinary source" means the source-coordinate recurrence interpreted in \(\mathbb{F}_3\). Its integer syntax admits a literal integral lift, but no cross-prime identification with the earlier construction follows. In particular the simplified \(A+H^3 K\) equality uses \(2\cdot 2=1\) in \(\mathbb{F}_3\); \(T=H^3 U\) is a formal monomial identity.
+3. An independent oracle may use a separately proved exact dependency identity; it need not redundantly expand every polynomial. Its application to operands, coordinates, masks and complete support must be independently checked. Reusing the producer's implementation or candidate coefficients is insufficient. No completed source23615 oracle is claimed.
+4. Different nodes: source 22866 → module 128045, source 22874 → 128874, source 22954 → 129656, source 23615 → 133174. The frontier named for 129656 stores the complete 22866 dependency as a keyed cache entry; its filename does not identify that seed with the 129656 output. The 22866 receipt compares all 67,722 terms. The 2816-term section of 22954 is not a full-source seed. Graph SHA256 `58203463187374dd0e1259712f6b0ead0c24983022b33f8740de579c3a2703a6`.
+5. `check_large_cone_completion.py` evaluates and compares the entire 26,162-term 22874 map, separately from its 292-term section. Receipt `large-cone-completion-receipt.json` SHA256 `01ec5e2b45b32aadc95f18b7390057215ba5ad6d671dc340b7e529b4d181e509`; checker `9b8926599ca4f96adc19fbe6fdeeea8aa8d0ab9e02f78cfaf3b0286fc989fbb5`.
+6. The schema name identifies the existing output format, not an omitted standalone JSON Schema. C0 §4 specifies canonical arrays/provenance; concrete serialization belongs in the eventual pinned implementation manifest.
+7. "Quotient" means Euclidean exponent quotient/carry. This is the exact rank-\(81\) free decomposition over the cube-coordinate subring, not quotienting by \(x_i^3-x_i\). "Module 133174" is an operator-node identifier.
+8. All normalized ordinary-source powers are positive integers and references acyclic; tag exponents are nonnegative. Induction proves every ordinary source polynomial has nonnegative exponents. Direct scans confirm both complete seeds. General Laurent negative-exponent fixtures remain valid, but this source does not use them.
+
+Comment 6110289167 states that these checks use omitted artifacts, that those artifacts have not thereby been distributed in C0, and that the source/output/transport separation and the no-cross-prime conclusion remain. This section records that statement. It does not distribute the artifacts, and it does not repeat the scans.
 
 ## Boundary
 
