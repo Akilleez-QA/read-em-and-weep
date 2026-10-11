@@ -2,6 +2,8 @@
 
 Status: an audit of published theorems against two deformation problems. No value of the ambient second-order class is computed here, and no length computation for the carrier module is repeated. Nothing in this note promotes either route.
 
+Semiregularity, a torsion twist, and an eightfold transform are sufficient strategies, not gates every continuation must pass. The carrier weight, frame covariance, homogeneous homotopies, and confinement argument are supplied, pending artifact review. The depth gate is a verification on the constructed stalk, and the depth relation is Stacks Project, Lemma 0BUW. The comparison that remains open is model-specific: this varying star-algebroid and its actual obstruction.
+
 The two routes stay distinct. The Horrocks–Mumford route is a module over a star-algebroid on an abelian fourfold. The carrier-continuation route is a rank-four construction on \(\mathbf{P}^1\times\mathbf{P}^3\).
 
 ## 1. The ambient object
@@ -76,11 +78,9 @@ and a lift retaining maps \(\alpha:P\to E\), \(v:\mathcal{O}\to E\), \(\beta:E\t
 
 ## 3. Map audit
 
-The comparison that would be needed, and that is not in the sources below, is the following statement.
+Semiregularity, a torsion twist, and an eightfold transform are sufficient strategies. A continuation proof may use one of them. A direct construction of the pinned object need not. Failure of a strategy, or a category or sign error inside a write-up of that strategy, withdraws or corrects that argument. It does not exclude the geometric setup. The only exclusion is a certified obstruction under the pinned hypotheses of the setup.
 
-> Comparison statement, not a theorem. Let \(\mathcal{A}\) be a star-algebroid on \(X\) extending \(\xi\), and let \(o\in\operatorname{Ext}^2(E,E)_\chi\) be the obstruction to lifting \(E\) to an \(\mathcal{A}\)-module. There is a published semiregularity map, or another named all-order map, defined on this obstruction, whose restriction to the \(352\)-dimensional sector is not the zero map, and whose kernel does not contain that sector.
-
-Every source checked either addresses a different category, or lands in a kernel that already contains the sector.
+For a strategy that does use a semiregularity-type map, the missing step is a model-specific comparison for this star-algebroid, not the ordinary vanishing recorded in Section 1.
 
 ### 3.1. Buchweitz–Flenner, arXiv:math/9912245
 
@@ -102,7 +102,9 @@ Markman, arXiv:2509.23403, Theorem 2.1, attributes the extension form of this pa
 
 - Corollaries 2.24 and 2.25 realize \(\sigma\) as the tangent of a map from the derived moduli stack of perfect complexes to a cyclic-homology analogue of Deligne cohomology. Obstructions to deforming a perfect complex map to the obstruction of its Chern character remaining of Hodge type. If the base is constant, the image is zero.
 - Remark 2.26 records the same conclusion for \(\mu\)-twisted sheaves, by applying the theorem to a gerbe banded by \(\mu\). The band is torsion. It is not the infinitesimal class \(15\Pi\in H^2(X,\mathcal{O}_X)\), and the base deformation is a deformation of a commutative (or derived-commutative) scheme.
-- Corollary 1.20 extends the vanishing \(\mathsf{I}\mathcal{L}(o)=0\) to perfect complexes over an admissible dg subcategory of the perfect complexes on a smooth proper scheme. The remark following it allows a quasi-coherent presheaf of simplicial associative algebras. This is the closest public noncommutative statement. Its conclusion is that a cyclic-homology image of the obstruction vanishes. It does not prove injectivity on \(\operatorname{Ext}^2(E,E)_\chi\). The ordinary specialization of that image is already zero on the sector, so the conclusion is the one already recorded in Section 1.
+- Corollary 1.20 extends a cyclic-homology constraint to perfect complexes over an admissible dg subcategory of the perfect complexes on a smooth proper scheme. The remark following it allows a quasi-coherent presheaf of simplicial associative algebras. That constraint is a relative cyclic map. Vanishing of the ordinary Buchweitz–Flenner map \(\sigma\) on the full-sign sector does not identify this relative cyclic map, and it does not evaluate the map on the obstruction of a varying star-algebroid.
+
+Status of this source for the ambient problem: no model-specific comparison, and no detection or injectivity theorem, has been verified for this varying star-algebroid and its actual obstruction.
 
 ### 3.3. Markman, arXiv:2502.03415 and arXiv:2509.23403
 
@@ -120,7 +122,7 @@ Bandiera–Lepri–Manetti, arXiv:2208.00694:
 - Theorem 4.4: for a locally free module over a Lie algebroid \(\mathcal{A}\), the Thom–Whitney totalization of \(\Omega^*(\mathcal{A},\mathcal{E}nd(E))\) controls deformations as an \(\mathcal{A}\)-module. The obstruction space is Lie-algebroid hypercohomology \(\mathbb{H}^2(\mathcal{A};\mathcal{E}nd(E))\).
 - Theorem 8.2: for a Lie pair \(\mathcal{A}\subset\mathcal{L}\) and a locally free \(\mathcal{A}\)-module, the composite of the semiregularity map with the map into the truncated quotient of \(\Omega^*(\mathcal{L})\) annihilates those obstructions. If the Leray spectral sequence of the pair degenerates at \(E_1\), each semiregularity component itself annihilates obstructions.
 
-The ambient residual is the failure of an associative module equation over a star product, after the D'Agnolo–Schapira descent. A Lie-algebroid module structure sees a flat connection along an anchor, not the order-\(h^2\) associative terms \(\mu_2\), \(T(g)\), and \(b^2\). No theorem identifies \(C_2\) with a class in \(\mathbb{H}^2(\mathcal{A};\mathcal{E}nd(E))\). Even under such an identification, annihilation by a map that factors through the ordinary \(\sigma\) would again be automatic on the full-sign sector.
+The ambient residual is the failure of an associative module equation over a star product, after the D'Agnolo–Schapira descent. A Lie-algebroid module structure sees a flat connection along an anchor, not the order-\(h^2\) associative terms \(\mu_2\), \(T(g)\), and \(b^2\). Using Theorem 8.2 as the mechanism for \(C_2\) is a sufficient strategy. It requires a comparison of the two obstruction classes. That comparison has not been verified. Ordinary vanishing of \(\sigma\) does not supply it.
 
 Bandiera–Manetti–Meazzini, *Deformations of polystable sheaves on surfaces: quadraticity implies formality*, Moscow Mathematical Journal 22 (2022), no. 2, 239–263: for a polystable coherent sheaf on a smooth complex projective surface, the differential graded Lie algebra of derived endomorphisms is formal if and only if the Kuranishi family is quadratic. The base here is a fourfold, the category is the star-algebroid category rather than the ordinary sheaf category, and the ordinary hull is already a power-series ring. The surface theorem does not apply.
 
@@ -133,30 +135,71 @@ These are the sources that match the category actually in use. None of them asse
 - Bressler–Gorokhovsky–Nest–Tsygan, arXiv:0810.0030: the Deligne groupoid of an algebroid stack. It identifies the deformation problem; it does not solve this instance.
 - Lowen, arXiv:0707.2602: the characteristic morphism from Hochschild cohomology to the obstruction of deforming an object. This is the evaluation \(\operatorname{ev}_E\) used to compare two ambient lifts. It computes neither lift.
 
-## 4. Unproved hypotheses
+### 3.6. Detector rank and the evaluated obstruction
 
-Listed here, before any retire or promote rule. An open item blocks promotion. A proved-false item retires the route that needs it.
+The exact rank \(333\) and the kernel dimension \(19\) are the rank and the kernel of one joint family: all \(30\) scalar maps, together with the map \(\ell\). They are not a rank of \(O_2\), and they do not locate \(O_2\).
 
-### Horrocks–Mumford route
+Only two of those scalar maps have been evaluated on \(O_2\). The value \(\ell(O_2)\) is pending. The other \(28\) maps have not been evaluated on \(O_2\). A result \(\ell(O_2)=0\), taken alone, does not place \(O_2\) in the \(19\)-dimensional joint kernel.
 
-- **H1.** The ambient residual \(C_2\) equals the obstruction class of \(E\) in one of the categories of Section 3.1–3.4. Open. This is the comparison statement. No cited theorem proves it.
-- **H2.** After any such comparison, the image of the \(352\)-dimensional sector is not forced into the kernel of the target map. Open, and in conflict with every ordinary specialization: those maps vanish on the sector.
-- **H3.** Some named theorem then kills every higher-order obstruction of the star-algebroid module, rather than only placing the second-order class in a kernel that contains the sector. Open. No such theorem was found.
-- **H4.** The infinitesimal gerbe class \(15\Pi\) may be replaced by a \(\mu_r\)-twist to which Markman, Section 7.4, or Pridham, Remark 2.26, applies. Open, and not implied by those statements. Their cocycle is torsion.
-- **H5.** An Orlov transform of \(E\), or of a deformation of \(E\), is one of the semiregular secant sheaves of Markman, arXiv:2502.03415, Section 9, or satisfies the semiregularity hypothesis left open in arXiv:2509.23403. Open. The constructions differ, and the discriminants are not matched by any cited comparison.
+The exact-\(Q\) elimination already verifies the zero residual tail of that elimination. A named JSON field would record the same report. It is a reporting nicety, not an additional mathematical certificate.
 
-H1 and H3 are the two obligations that sit above the kill test. Both lack a theorem. H2 is the reason an ordinary semiregularity theorem cannot be substituted for them.
+This note does not recompute the rank, the kernel, \(\ell(O_2)\), or the unevaluated maps.
 
-### Carrier-continuation route
+## 4. Hypotheses, strategies, and supplied arguments
 
-The proposed all-order mechanism has three layers: a weight vanishing for the normal jet, algebraization by effective Lefschetz, and an isolated-defect criterion for the reflexive hull. The weight-slot arithmetic is not recomputed in this note.
+Three kinds of item are kept apart, before the retire and promote rule.
 
-- **C1. Equivariance.** The \(\mathbf{G}_m\)-action of weights \((2,1,1,0,-1)\) on \((z,X,Y,W,h)\) preserves \(L\), the ideal sheaf of \(D\), the cover, and the structured lift \((\alpha,v,\beta)\). In particular \(\beta(v)=+t_0 h\) is homogeneous, so the weight of \(t_0\) plus the weight \(-1\) of \(h\) equals the weight required by the section equation. Open. No cited source fixes \(\operatorname{wt}(t_0)\).
-- **C2. Input to Lefschetz.** The homogeneous jet continuation defines a locally free coherent sheaf on the formal completion of \(\mathbf{P}^1\times\mathbf{P}^3\) along \(D\), which is the input category of the theorem in Section 5. Open. Vanishing of graded pieces \(H^2(\operatorname{Sym}^2 B\otimes L^{-1}I^k)\) for \(k\ge 7\) is not that sheaf.
-- **C3. Confinement.** The non-free locus of the reflexive hull \(R^{**}\), not merely of \(R\), is closed and \(\mathbf{G}_m\)-stable, and the flat-limit argument places it at the single point \(o=[0:0:0:1]\). Open. Abe–Yoshinaga, Theorem 0.2, is a splitting criterion for reflexive sheaves on \(\mathbf{P}^n\), \(n\ge 3\), and does not address this locus. Stacks Project, Lemma 0EBJ, extends reflexive sheaves across a closed set whose local rings have depth at least \(2\); it does not confine the locus.
-- **C4. Depth upgrade.** At the stalk at \(o\), reflexivity of \(R_0\) is taken to give \(\operatorname{depth}(R)\ge 3\). Open, and not the published bound. Abe–Yoshinaga, Proposition 1.2, gives depth at least \(2\) at points of dimension at least \(2\), and Corollary 1.3 gives codimension at least \(3\) for the non-free locus. Stacks Project, Proposition 00O7, gives a free resolution of length \(d-e\) for a finite module of depth \(e\) over a regular local ring of dimension \(d\). A second syzygy of a nonzero finite-length module over a \(4\)-dimensional regular local ring therefore has depth \(2\). A contradiction with alternating self-duality needs an input of depth at least \(3\), which reflexivity does not supply.
+- A sufficient-strategy gate is required only when that proof strategy is the one in use. Semiregularity, a torsion twist, and an eightfold transform are of this kind. A direct construction need not pass them. Failure withdraws or corrects that argument and does not exclude the setup.
+- A supplied argument is text already given for the carrier construction. Its status in this note is supplied-pending-artifact-review: the immutable proof or check artifact has not been reviewed here. The item blocks promotion until that review, and it does not retire the route.
+- An open construction or comparison question is still unanswered. It blocks promotion of any continuation that needs it, and it does not retire the setup.
 
-C1 and C2 are independent of the length of \(Q=R_0^{**}/R_0\). C3 and C4 are the reason that length, once computed, is not yet a local-freeness theorem.
+Exclusion of a geometric setup requires a certified obstruction under the pinned hypotheses. A category or sign error in a write-up is corrected, or that argument is withdrawn.
+
+### 4.1. Horrocks–Mumford: the open comparison
+
+- **Comparison.** No model-specific comparison, and no detection or injectivity theorem, has been verified for this varying star-algebroid and its actual obstruction. Vanishing of the ordinary Buchweitz–Flenner map \(\sigma\) on the full-sign sector does not identify the relative cyclic map of Pridham, Corollary 1.20, and does not evaluate that map on the obstruction. This comparison blocks promotion of a continuation that uses a semiregularity-type map. It is not necessary for a direct construction of the pinned object.
+
+### 4.2. Sufficient-strategy gates
+
+These gates are conditional on the chosen proof strategy. They are not necessary for every continuation.
+
+- **Semiregularity.** A strategy may try to kill the residual by a semiregularity map: Buchweitz–Flenner, Theorems 7.2 and 7.3, Pridham, Corollaries 2.24 and 2.25, or Bandiera–Lepri–Manetti, Theorem 8.2. Ordinary \(\sigma\) is the zero map on the \(352\)-dimensional sector, so those ordinary theorems do not force \(O_{\mathrm{full}}=0\). Using any of them on the star-algebroid residual requires the comparison in Section 4.1. That comparison is not verified. Declining this strategy does not exclude the setup.
+- **Torsion twist.** Replacing the infinitesimal class \(15\Pi\in H^2(X,\mathcal{O}_X)\) by a \(\mu_r\)-cocycle, so that Markman, Section 7.4, or Pridham, Remark 2.26, applies, is a sufficient strategy. Those statements use a torsion band. Declining the replacement does not exclude the setup.
+- **Eightfold transform.** Identifying an Orlov transform of \(E\), or of a deformation of \(E\), with a semiregular secant sheaf of Markman, arXiv:2502.03415, Section 9, or with an object satisfying the semiregularity hypothesis left open in arXiv:2509.23403, is a sufficient strategy. The constructions differ. Declining the identification does not exclude the setup.
+
+An all-order vanishing theorem of semiregularity type is this same strategy. It is not a gate every continuation must pass.
+
+### 4.3. Carrier continuation: supplied arguments
+
+The proposed all-order mechanism has three layers: a weight vanishing for the normal jet, algebraization by effective Lefschetz, and an isolated-defect criterion for the reflexive hull. The weight-slot arithmetic is not recomputed in this note. The arguments in C1 and C3, and the weight part of the construction in C2, are the ones supplied in PR #1 comments 6104475229 and 6104506387. Status: supplied-pending-artifact-review.
+
+- **C1. Weight, frame covariance, and homogeneous homotopies.** Set \(z=t_0/t_1\), with \(\operatorname{wt}(t_0)=2\), \(\operatorname{wt}(t_1)=0\), and \(\operatorname{wt}(h)=-1\). The two local coefficients of the prescribed section of \(T=\mathcal{O}(1,1)\) are \(hz\) and \(h\), of weights \(1\) and \(-1\). These are the two raw \(T\)-frame characters, so \(\beta(v)=+t_0 h\) is homogeneous. The coordinate \(t_0\) is not assigned weight zero.
+
+  For the five presentation coordinates \((P,E_0,E_1,E_2,\tau)\), the finite raw characters are \((3,0,2,2,1)\) and the infinity characters are \((-3,0,-6,-4,-1)\). Their difference is twice the base-degree vector \((3,0,4,3,1)\). Plane degrees are \((-3,0,-4,-4,1)\). On the \(U\)-chart, subtract the plane degree times \(\operatorname{wt}(U)\) from the raw character, and use \(\operatorname{wt}(h/U)=-1-\operatorname{wt}(U)\). The transitions, including completion columns, satisfy \(M(g_\lambda x)\,D_{\mathrm{source}}=D_{\mathrm{target}}\,M(x)\). Each \(k\)-th correction restores the same covariance after multiplication by \(h^k\). The relation line has raw characters \(0,-6\). The bundles \(P\), \(L\), and \(T\) have characters \((3,-3)\), \((4,-4)\), and \((1,-1)\).
+
+  The chosen homotopies are homogeneous. The ordered Laurent Čech contraction retains or discards monomials and changes only the Čech index and the sign. The base splitting is made in each weight by the actual triangular transition. Frozen coefficients are not averaged. Algebraic \(\mathbf{G}_m\)-representations remain \(\mathbf{Z}\)-graded in every characteristic: distinct Laurent monomials remain distinct characters (Milne, Theorem 14.12 and Remark 14.13). Weights alias if one tests only the finite group \(\mathbf{F}_p^\times\), or only the differentiated Lie action. A replay retains integer exponent weights.
+
+  The weight is this supplied argument. Review of the immutable artifact is still open.
+
+- **C2. Lefschetz input.** Corollaire 3.4 takes as input an actual formal locally free sheaf on the completion along \(D\). The weights of C1 enter the construction of that sheaf. They are not a separate hypothesis of the Lefschetz theorem. Vanishing of the graded pieces \(H^2(\operatorname{Sym}^2 B\otimes L^{-1}I^k)\) for \(k\ge 7\) is a step in that construction. It is not, by itself, the formal sheaf. The open construction question is whether that formal locally free sheaf has been exhibited as a reviewed artifact. It is not an unchecked-weight hypothesis, and it is not a gap inside Corollaire 3.4.
+
+- **C3. Confinement of the hull.** The sheaf \(R\) is reflexive on the regular fourfold and flat over \(\mathbf{P}^1\). At a point of a potentially bad fibre, \(\operatorname{depth}(R)\ge 2\) and the base uniformizer is regular on \(R\), so \(\operatorname{depth}(R_t)\ge 1\). The only possible torsion in the fibre is of finite length, hence zero. For \(t\ne 0\), the reflexive hull has split restriction to a plane and therefore splits on \(\mathbf{P}^3\) by Abe–Yoshinaga, Theorem 0.2. The Hilbert polynomial is constant and equals the generic split polynomial, so the finite-length quotient \(R_t^{**}/R_t\) has length zero. This removes noncentral singularities without a flatness hypothesis on the family of hulls.
+
+  For the support, a full algebraic group-scheme linearization is not required. For each \(\lambda\), homogeneity gives a formal isomorphism with \(g_\lambda^*R\). Relative full faithfulness lifts it on the intersection of the two bundle neighborhoods, and reflexive uniqueness extends it over \(X\). The closed singular support is therefore invariant. Its projection is finite and disjoint from \(h=0\), so the support is the unique off-plane fixed point \(o=[0:0:0:1]\). Together with the fibre argument, the only remaining point is \((t_0=0,\,o)\). The defect of \(\beta\) is carried by the same structured isomorphisms and by \(\beta(v)=t_0 h\).
+
+  Abe–Yoshinaga, Theorem 0.2, remains a splitting criterion on \(\mathbf{P}^n\). Stacks Project, Lemma 0EBJ, remains the extension lemma across depth at least \(2\). The confinement statement is this supplied argument. Those two results are steps inside it, not confinement theorems by themselves. Review of the immutable artifact is still open.
+
+### 4.4. Depth at the stalk
+
+- **C4. Distinguish \(R\) from \(R_0=R/zR\).** Reflexivity of \(R\) alone gives \(\operatorname{depth}(R)\ge 2\) at points whose local rings have dimension at least \(2\) (Abe–Yoshinaga, Proposition 1.2). That bound is not \(3\).
+
+  Suppose \(z\) is a nonzerodivisor on \(R\), and suppose the quotient \(R_0=R/zR\) is reflexive, so \(\operatorname{depth}(R_0)\ge 2\). Stacks Project, Lemma [0BUW](https://stacks.math.columbia.edu/tag/0BUW) (Lemma 47.11.3): let \(A\) be Noetherian, let \(I\subset A\) be an ideal, and let \(M\) be a finite \(A\)-module with \(IM\ne M\). If \(x\in I\) is a nonzerodivisor on \(M\), then \(\operatorname{depth}_I(M/xM)=\operatorname{depth}_I(M)-1\). At the stalk this is \(\operatorname{depth}(R)=\operatorname{depth}(R_0)+1\ge 3\).
+
+  The gate is verification, on the constructed stalk, of \(z\)-regularity of \(R\) and of the central reflexivity hypothesis for \(R_0\). Once both hold, Lemma 0BUW is the depth statement. No further depth-upgrade theorem is required.
+
+  Stacks Project, Proposition 00O7, still gives a free resolution of length \(d-e\) for a finite module of depth \(e\) over a regular local ring of dimension \(d\). A second syzygy of a nonzero finite-length module over a \(4\)-dimensional regular local ring has depth \(2\). That comparison is available after the depth of \(R\) is obtained from Lemma 0BUW. It does not replace the two stalk hypotheses, and it is not a demand for another theorem.
+
+C1 and C3, and the weight part of C2, do not depend on the length of \(Q=R_0^{**}/R_0\). That length is not evaluated in this note. The stalk verification in C4 is what stands between a computed length and a local-freeness statement at \(o\).
 
 ## 5. The Lefschetz input that does exist
 
@@ -169,17 +212,21 @@ Corollaire 3.4 assumes a projective flat morphism \(f:X\to S\) to a locally Noet
 
 For \(X=\mathbf{P}^1\times\mathbf{P}^3\), \(S=\mathbf{P}^1\), and \(\mathcal{O}_X(1)=\mathcal{O}(0,1)\), relative ampleness holds, and \(D=\mathbf{P}^1\times\mathbf{P}^2\) is the zero scheme of a relative hyperplane section. The depth bounds hold because the fibres are \(\mathbf{P}^3\) and \(\mathbf{P}^2\). The base \(\mathbf{P}^1\) is Noetherian and carries an ample line bundle, which is the gluing hypothesis used in the proof of the corollary. So Corollaire 3.4 applies to the pair \((X,D)\) inside its stated category: locally free sheaves on the formal completion.
 
-It does not apply to a finite normal jet, to a complex that is only reflexive, or to a lift whose \(\mathbf{G}_m\)-weights have not been checked. Granting Corollaire 3.4 does not discharge C1, C2, C3, or C4.
+The input of the corollary is that formal sheaf. The weights of Section 4.3 enter the construction of the sheaf. They are not a separate hypothesis of the corollary. The corollary does not verify \(z\)-regularity or the central reflexivity of \(R_0\), and it does not compute the length of \(Q\). Corollaire 3.5, the absolute ample statement, does not apply to \(\mathcal{O}(0,1)\).
 
-Abe–Yoshinaga, RIMS preprint 1496, Theorem 0.2: a reflexive sheaf on \(\mathbf{P}^n\), \(n\ge 3\), splits as a sum of line bundles if and only if its restriction to some hyperplane does. The carrier lives on a product of projective spaces and is not claimed to split. The theorem is not a confinement statement.
+Abe–Yoshinaga, RIMS preprint 1496, Theorem 0.2: a reflexive sheaf on \(\mathbf{P}^n\), \(n\ge 3\), splits as a sum of line bundles if and only if its restriction to some hyperplane does. Inside the supplied confinement argument of C3, this criterion is applied to the plane restriction of the hull for \(t\ne 0\). The theorem is that splitting step. It is not, by itself, the confinement statement.
 
 ## 6. Retire / promote rule
 
-This rule is applied only after the hypotheses of Section 4.
+This rule is applied after the separation in Section 4.
 
-A route is promoted only when L0, L1, L2, and L3 have passed for that route and every L4 gate of that route has passed. A pass of L2 is never a promotion. In particular, neither route is promoted by \(O_{\mathrm{full}}=0\), by \(\sigma(O_{\mathrm{full}})=0\), or by \(Q=0\).
+A route is promoted only when its pinned construction gates have passed and every sufficient-strategy gate that the chosen proof actually uses has passed. A pass of L2 is never a promotion. Neither route is promoted by \(O_{\mathrm{full}}=0\), by \(\sigma(O_{\mathrm{full}})=0\), or by \(Q=0\).
 
-A route is retired when any one of its gates records the retire observable of that gate. Retirement is not reversed by a later vanishing. An open hypothesis, or an L4 gate with no theorem, blocks promotion and does not retire.
+Semiregularity, a torsion twist, and an eightfold transform are sufficient-strategy gates. They are not necessary for every continuation. A direct construction may bypass them. Failure of a strategy that is not in use neither blocks promotion nor retires the route.
+
+A category or sign error in a write-up is corrected, or that argument is withdrawn. The error does not exclude the geometric setup.
+
+A route is retired, and a geometric setup is excluded, only by a certified obstruction under the pinned hypotheses. An open construction or comparison question blocks promotion and does not retire. A supplied argument whose artifact has not been reviewed blocks promotion and does not retire. Retirement by a certified obstruction is not reversed by a later vanishing of a different class.
 
 ## 7. Gate ladder
 
@@ -187,8 +234,8 @@ A route is retired when any one of its gates records the retire observable of th
 
 | Route | Pass observable | Retire observable | Promotion |
 |---|---|---|---|
-| Horrocks–Mumford | The object is the star-algebroid module residual \(O_{\mathrm{full}}\in\operatorname{Ext}^2(E,E)_\chi\). | The writeup treats \(O_{\mathrm{full}}\) as an ordinary Yoneda class, as a \(\mu_r\)-twisted class, or as the obstruction of a Markman secant sheaf, without proving H1 or H5. | None at L0. |
-| Carrier continuation | The object is the structured rank-four data on \(\mathbf{P}^1\times\mathbf{P}^3\), kept distinct from \(E\). | The writeup identifies this construction with the Horrocks–Mumford pullback or with the eightfold secant sheaf. | None at L0. |
+| Horrocks–Mumford | The object is the star-algebroid module residual \(O_{\mathrm{full}}\in\operatorname{Ext}^2(E,E)_\chi\). | A certified obstruction under the pinned hypotheses, showing that this residual is not the object of the setup. A write-up that treats \(O_{\mathrm{full}}\) as an ordinary Yoneda class, a \(\mu_r\)-twisted class, or the obstruction of a Markman secant sheaf, without the comparison of Section 4.1, is corrected or withdrawn. That write-up does not exclude the setup. | None at L0. |
+| Carrier continuation | The object is the structured rank-four data on \(\mathbf{P}^1\times\mathbf{P}^3\), kept distinct from \(E\). | A certified obstruction under the pinned hypotheses of this carrier. A write-up that identifies the construction with the Horrocks–Mumford pullback, or with the eightfold secant sheaf, is corrected or withdrawn. That write-up does not exclude the setup. | None at L0. |
 
 L0 passes for both routes on the descriptions fixed above.
 
@@ -197,7 +244,7 @@ L0 passes for both routes on the descriptions fixed above.
 | Route | Pass observable | Retire observable | Promotion |
 |---|---|---|---|
 | Horrocks–Mumford | \(\operatorname{ev}_E(\xi)=0\), with gerbe sign \(b=-15\Pi\). | A certified nonzero value of \(\operatorname{ev}_E(\xi)\). | None. |
-| Carrier continuation | The sixth normal jet satisfies the cocycle, symplectic, and section equations, in a pinned certificate. | A published counterexample to one of those three equations. | None. |
+| Carrier continuation | The sixth normal jet satisfies the cocycle, symplectic, and section equations, in a pinned certificate. | A certified counterexample to one of those three equations, under the pinned hypotheses. | None. |
 
 The Horrocks–Mumford pass is the first-order cancellation already recorded. This note does not recompute it. The carrier pass is not claimed here; that gate stays open, which blocks promotion and does not retire.
 
@@ -205,55 +252,62 @@ The Horrocks–Mumford pass is the first-order cancellation already recorded. Th
 
 | Route | Pass observable | Retire observable | Promotion |
 |---|---|---|---|
-| Horrocks–Mumford | \(O_{\mathrm{full}}=0\) in the \(352\)-dimensional space. | \(O_{\mathrm{full}}\ne 0\). | Forbidden. A zero is one necessary test. |
-| Carrier continuation | \(Q=R_0^{**}/R_0=0\), after C3 and C4 have passed. | \(Q\ne 0\) at the stalk at \(o\), after C3 has passed. | Forbidden. |
+| Horrocks–Mumford | \(O_{\mathrm{full}}=0\) in the \(352\)-dimensional space. | A certified nonzero value of the pinned residual \(O_{\mathrm{full}}\). That retires the vanishing claim for this residual. It does not exclude a continuation whose pinned object is a different class. The vanishing \(\ell(O_2)=0\), alone, is not a pass and does not place \(O_2\) in the joint kernel. See Section 3.6. | Forbidden. A zero is one necessary test. |
+| Carrier continuation | \(Q=R_0^{**}/R_0=0\), after the C3 artifact has been reviewed and the two C4 stalk hypotheses have been verified. | A certified \(Q\ne 0\) at the stalk at \(o\), under those pinned hypotheses. | Forbidden. |
 
 Neither class is evaluated in this note. Both L2 gates stay open.
 
 ### L3 — Hypothesis sheet
 
-L3 passes for a route only when every hypothesis that route uses is marked proved. L3 retires the route when any such hypothesis is proved false.
+L3 passes for a chosen continuation only when every construction gate that continuation uses is verified, every supplied argument it uses has passed artifact review, and every sufficient-strategy gate it actually uses has passed. L3 does not retire a route because a sufficient strategy was not chosen. L3 retires a route only when a pinned hypothesis that the route uses is a certified obstruction.
 
-| Hypothesis | Mark | Effect on L3 |
+| Item | Mark | Effect on L3 |
 |---|---|---|
-| H1–H5 | Open | Horrocks–Mumford L3 does not pass. |
-| C1–C4 | Open | Carrier L3 does not pass. |
-| SGA 2, XII, Corollaire 3.4, for locally free formal sheaves on \((\mathbf{P}^1\times\mathbf{P}^3,D)\) | Proved external input | Available to the carrier route, and not a substitute for C1–C4. |
+| Comparison, Section 4.1 | Open | Blocks a semiregularity-type continuation. Does not block a direct construction. Does not retire. |
+| Semiregularity, torsion twist, eightfold transform | Sufficient strategies | Required only if chosen. Failure withdraws that argument. |
+| C1 weight, frame covariance, homogeneous homotopies | Supplied, pending artifact review | Blocks promotion until review. Does not retire. |
+| C2, the formal locally free sheaf as a reviewed artifact | Open construction | Blocks promotion. Not a separate weight hypothesis, and not a gap in Corollaire 3.4. |
+| C3 confinement | Supplied, pending artifact review | Blocks promotion until review. Does not retire. |
+| C4, \(z\)-regularity and central reflexivity of \(R_0\) | Open verification on the constructed stalk | Once verified, Lemma 0BUW gives depth at least \(3\). No further depth theorem is demanded. |
+| SGA 2, XII, Corollaire 3.4, for an actual formal locally free sheaf on \((\mathbf{P}^1\times\mathbf{P}^3,D)\) | Proved external input | Not a substitute for exhibiting that sheaf. |
 
-### L4 — Gates above L3
+### L4 — What sits above L3
 
-These are the theorem obligations that remain after L0–L3. A gate passes only by a cited theorem whose hypotheses are satisfied by the object of that route.
+A sufficient-strategy gate passes only when that strategy is chosen and a cited theorem applies to its object. A construction gate passes by verification or by artifact review, as marked.
 
-| Gate | Obligation | Theorem available? |
+| Gate | Obligation | Status |
 |---|---|---|
-| L4.H1 | Prove H1: identify the star-algebroid residual with the input of some theorem in Section 3. | No. |
-| L4.H2 | Prove H3: an all-order vanishing theorem whose map is not identically zero on the \(352\)-space. | No. Ordinary \(\sigma\) is identically zero there, so Buchweitz–Flenner Theorems 7.2 and 7.3, Pridham Corollaries 2.24 and 2.25, and Markman Section 7.4 do not fill this gate. |
-| L4.C1 | Prove C1 and C2: \(\mathbf{G}_m\)-homogeneous \(\beta(v)=+t_0 h\), and a locally free formal sheaf to which Corollaire 3.4 applies. | No. Corollaire 3.4 is the target statement, not this identification. |
-| L4.C2 | Prove C3 and C4: confinement of the non-free locus of the reflexive hull to \(o\), and depth at least \(3\) at that stalk. | No. Proposition 00O7 and Lemma 0EBJ supply the homological algebra around the stalk, not these two inputs. |
+| L4 comparison | A model-specific comparison, or a detection or injectivity theorem, for this varying star-algebroid and its actual obstruction. | No such theorem has been verified. Sufficient for a semiregularity strategy. Not necessary for every continuation. Ordinary \(\sigma\) does not identify the relative cyclic map. |
+| L4 strategies | Semiregularity, torsion twist, or eightfold transform, when one of them is the chosen proof. | Conditional on that choice. Ordinary \(\sigma=0\) on the \(352\)-space does not fill the comparison. |
+| L4.C1 | Artifact review of the supplied weight \(\operatorname{wt}(t_0)=2\), the frame covariance, and the homogeneous homotopies. | Supplied-pending-artifact-review. |
+| L4.C2 | Exhibit the formal locally free sheaf as a reviewed artifact, then apply Corollaire 3.4 to that sheaf. | Open construction. The corollary is the theorem for that input. Weights enter the construction. |
+| L4.C3 | Artifact review of the supplied confinement argument. | Supplied-pending-artifact-review. |
+| L4.C4 | Verify \(z\)-regularity and the central reflexivity hypothesis for \(R_0\) at the constructed stalk. | Open verification. The depth relation is then Lemma 0BUW. Not a missing depth-upgrade theorem. |
 
-Four gates above L3 have no theorem. The comparison gate is L4.H1.
+The comparison is the item above L3 that still has no verified theorem, and it is a sufficient-strategy gate. The carrier items above L3 are an artifact review, an open construction, and a stalk verification.
 
 ## 8. Fault tree
 
-Top event: a route is reported as promoted, or as all-order unobstructed, without a pass of its L4 gates.
+Top event: a route is reported as promoted, or as all-order unobstructed, without a pass of the gates its chosen continuation uses; or a write-up error is reported as exclusion of the setup.
 
 Horrocks–Mumford branch.
 
 - \(O_{\mathrm{full}}=0\) is read as promotion. Blocked by the rule in Section 6 and by L2.
-- Or ordinary \(\sigma\) is read as an all-order mechanism. The map is zero on the sector, so every class lies in the kernel. Blocked by Section 1 and by L4.H2.
-- Or a \(\mu_r\) theorem is applied to \(15\Pi\). The cocycle orders differ. This is H4, still open, and it is not a pass of L4.H1.
-- Or the Orlov transform of \(E\) is treated as Markman's semiregular secant sheaf. This is H5, still open.
-- Or a Lie-algebroid semiregularity theorem is applied to the associative residual. Theorem 8.2 of arXiv:2208.00694 controls a different DGLA. This is part of H1.
+- Or ordinary \(\sigma\) is read as the relative cyclic map, or as an all-order mechanism. Ordinary vanishing does not identify that map. The comparison in Section 4.1 is unverified. This blocks a semiregularity strategy. It does not exclude a direct construction.
+- Or a \(\mu_r\) theorem is applied to \(15\Pi\). The cocycle orders differ. That argument is corrected or withdrawn. It is a sufficient strategy, Section 4.2, and it does not exclude the setup.
+- Or the Orlov transform of \(E\) is treated as Markman's semiregular secant sheaf. Same disposition: correct or withdraw the argument. The setup stays.
+- Or a Lie-algebroid semiregularity theorem is applied to the associative residual. Theorem 8.2 of arXiv:2208.00694 controls a different differential graded Lie algebra. Using it is a sufficient strategy and needs the comparison. Ordinary vanishing of \(\sigma\) does not supply that comparison.
+- Or the rank \(333\), or the kernel dimension \(19\), is read as an evaluation of \(O_2\). Those numbers are the joint family of the \(30\) scalar maps plus \(\ell\). Only two maps have been evaluated on \(O_2\), and \(\ell(O_2)\) is pending. Blocked by Section 3.6.
 
 Carrier branch.
 
 - \(Q=0\) is read as promotion. Blocked by L2.
-- Or the sixth jet is fed to Corollaire 3.4 as if it were a locally free sheaf on the formal completion. That identification is C2, still open. The corollary itself is not the failure; the input mismatch is.
-- Or the section equation is treated as homogeneous while \(\operatorname{wt}(t_0 h)\) is unchecked. This is C1.
-- Or the depth contradiction is run with the reflexive bound. Reflexivity gives depth at least \(2\), and the second syzygy also has depth \(2\), so there is no contradiction until C4 is proved.
-- Or the non-free locus of \(R\), rather than of \(R^{**}\), is the locus that is shown to be \(\mathbf{G}_m\)-stable. This is C3.
+- Or a finite normal jet is fed to Corollaire 3.4 in place of the formal locally free sheaf. The input of the corollary is that sheaf. Weights enter its construction and are not a separate Lefschetz hypothesis. The open item is the reviewed artifact, L4.C2.
+- Or the weight of \(t_0\) is reported as unset. The supplied argument fixes \(\operatorname{wt}(t_0)=2\), with frame covariance and homogeneous homotopies, pending artifact review.
+- Or depth at least \(3\) is inferred from reflexivity of \(R\) alone, or is demanded as a further theorem after the stalk hypotheses. Reflexivity of \(R\) gives depth at least \(2\). If \(z\) is \(R\)-regular and \(R_0=R/zR\) is reflexive, Lemma 0BUW gives \(\operatorname{depth}(R)=\operatorname{depth}(R_0)+1\ge 3\). The remaining gate is those two hypotheses on the constructed stalk.
+- Or confinement is treated as an absent theorem. The hull argument is supplied, pending artifact review.
 
-The ordinary smooth hull, the automatic vanishing of \(\sigma\) on the full-sign sector, and Corollaire 3.4 for an already locally free formal sheaf are not branches of this tree. They are settled statements about different objects.
+The ordinary smooth hull, the automatic vanishing of ordinary \(\sigma\) on the full-sign sector, Corollaire 3.4 for an already locally free formal sheaf, and the depth relation of Lemma 0BUW once its two hypotheses hold, are not branches of this tree. They are settled statements.
 
 ## 9. FMEA
 
@@ -261,27 +315,33 @@ Severity is an integer from \(1\) to \(5\). Severity \(5\) is a false promotion,
 
 | Failure mode | Effect | Cause | Detection | Severity |
 |---|---|---|---|---|
-| \(O_{\mathrm{full}}=0\) reported as all-order unobstructedness | Horrocks–Mumford route promoted with no mechanism | L2 pass read as an L4 pass | Section 6; L2 column forbids promotion | 5 |
-| Ordinary \(\sigma\) declared injective on the \(352\)-space | A vacuous kernel is treated as a smoothness theorem | Serre duality with the \(\chi\)-volume pairs the sector with invariant vector fields that extend \(E\) | L0 and L4.H2; rank of \(\sigma\) on the sector is \(0\) | 5 |
-| Star-algebroid residual identified with an ordinary or \(\mu_r\) obstruction | A theorem from the wrong category is quoted as H1 | H1 assumed instead of proved | L4.H1; comparison statement unmatched | 5 |
-| Markman Theorem 1.5.1 cited as a theorem about this \(E\) | The eightfold secant sheaf is confused with the fourfold pullback | H5 assumed | L0 retire observable; Section 3.3 | 4 |
-| Bandiera–Lepri–Manetti Theorem 8.2 cited as killing \(C_2\) | Lie-algebroid hypercohomology substituted for the associative residual | No comparison of the two DGLAs | L4.H1 | 4 |
+| \(O_{\mathrm{full}}=0\) reported as all-order unobstructedness | Horrocks–Mumford route promoted with no mechanism | L2 pass read as promotion | Section 6; L2 forbids promotion | 5 |
+| Ordinary \(\sigma\) declared to be the relative cyclic map, or declared injective on the \(352\)-space | A strategy is treated as already compared, or a vacuous kernel is treated as a smoothness theorem | Ordinary \(\sigma\) vanishes on the sector and does not identify the relative cyclic map | Sections 3.2 and 4.1; rank of ordinary \(\sigma\) on the sector is \(0\) | 5 |
+| A category or sign error in a write-up treated as exclusion of the setup | A sufficient strategy is confused with a necessary gate, and the setup is retired | Semiregularity, a torsion twist, or a transform used without the comparison | Section 6. Correct or withdraw the argument. Exclusion requires a certified obstruction under the pinned hypotheses | 4 |
+| Markman Theorem 1.5.1 cited as a theorem about this \(E\) | The eightfold secant sheaf is confused with the fourfold pullback | Transform strategy assumed | Section 4.2. Withdraw that argument. The setup stays | 3 |
+| Bandiera–Lepri–Manetti Theorem 8.2 cited as killing the associative residual | Lie-algebroid hypercohomology substituted for the star-algebroid residual | Comparison of the two obstruction classes not verified | Section 3.4. Sufficient strategy only | 3 |
+| Rank \(333\) or kernel dimension \(19\) read as the position of \(O_2\) | Joint-family linear algebra reported as an evaluation of the obstruction | The rank is for \(30\) scalar maps plus \(\ell\). Only two maps are evaluated on \(O_2\); \(\ell(O_2)\) is pending; \(28\) maps are unevaluated. \(\ell(O_2)=0\) alone is not membership in the \(19\)-dimensional joint kernel | Section 3.6 | 4 |
+| A named JSON field treated as a new certificate for the exact-\(Q\) tail | A reporting field promoted to a mathematical hypothesis | The exact-\(Q\) elimination already verifies the zero residual tail | Section 3.6 | 2 |
 | Coarse \(j\)-line used for the four invariant directions | The extension of \(E\) is not a deformation at the CM point | The coarse moduli space is not fine, and it is ramified at \(j=0\) and \(j=1728\) | L1, versal pointed families | 3 |
 | Sign \(b=+15\Pi\) instead of \(b=-15\Pi\) | A nonzero first-order residual, or a cancelled residual reported as nonzero | Gerbe sign opposite the Atiyah contraction | L1 retire observable; first-order calibration | 4 |
-| \(Q=0\) reported as an algebraic vector bundle | Carrier route promoted | L2 pass read as L4 | Section 6 | 5 |
-| Weight of \(\beta(v)=t_0 h\) off by the weight of \(h\) | The section obstruction is placed in the wrong weight, and the \(k\ge 7\) vanishing moves | C1 unchecked; \(h\) has weight \(-1\) | L4.C1 | 4 |
-| Corollaire 3.4 applied to the sixth jet | Algebraization claimed for an object outside the input category | C2 unchecked. The corollary wants a locally free formal sheaf | L4.C1. Corollaire 3.5, the absolute ample case, is the wrong citation and does not apply to \(\mathcal{O}(0,1)\) | 4 |
-| Non-free locus of \(R\) confined, locus of \(R^{**}\) not checked | A singularity of the hull survives outside \(o\) | Flat limit used on \(R\) only; C3 | L4.C2 | 4 |
-| Depth at least \(3\) inferred from reflexivity | The syzygy contradiction does not fire; a non-free stalk of depth \(2\) survives | C4. The published bound is depth at least \(2\) | L4.C2, against Abe–Yoshinaga Proposition 1.2 and Proposition 00O7 | 5 |
+| \(Q=0\) reported as an algebraic vector bundle | Carrier route promoted | L2 pass read as promotion | Section 6 | 5 |
+| Weight of \(t_0\) reported as unset | A supplied weight reported as missing | The C1 argument not recorded. The supplied value is \(\operatorname{wt}(t_0)=2\), with frame covariance and homogeneous homotopies | L4.C1, status supplied-pending-artifact-review | 3 |
+| Corollaire 3.4 applied to a jet, or weights treated as a separate Lefschetz hypothesis | Algebraization claimed for an object that is not the formal sheaf, or a construction step filed as a gap in the theorem | The input is the actual formal locally free sheaf. Weights enter that construction | L4.C2. Corollaire 3.5 does not apply to \(\mathcal{O}(0,1)\) | 4 |
+| Hull confinement treated as an absent theorem, or reviewed before its artifact | A supplied argument reported as missing, or used as a pass | C3 is supplied-pending-artifact-review | L4.C3 | 3 |
+| Depth at least \(3\) inferred from reflexivity of \(R\), or demanded as a further theorem after the stalk hypotheses | A depth-\(2\) stalk treated as depth \(3\), or Lemma 0BUW replaced by a phantom theorem | \(R\) not distinguished from \(R_0=R/zR\) | L4.C4. Reflexivity of \(R\) gives depth at least \(2\). If \(z\) is \(R\)-regular and \(R_0\) is reflexive, \(\operatorname{depth}(R)=\operatorname{depth}(R_0)+1\ge 3\) by Lemma 0BUW | 4 |
 | \(\sigma(O_{\mathrm{full}})=0\) used as a numerical gate | Computation spent on an identity | The identity holds for every full-sign class | L0; convention check only | 2 |
 
 ## 10. Prediction
 
-The prediction was that at least two gates above L3 have no available theorem, and that no public source settles the needed comparison.
+The prediction under test was that at least two gates above L3 have no available theorem, and that no public source settles the needed comparison.
 
-It holds. The gates above L3 are L4.H1, L4.H2, L4.C1, and L4.C2. All four lack a theorem. The comparison is L4.H1. Buchweitz–Flenner, Pridham, both Markman papers, Bandiera–Lepri–Manetti, and Bandiera–Manetti–Meazzini were read against that gate. Each either addresses a different category or produces a map that vanishes on the \(352\)-dimensional sector.
+The comparison is still unsettled, and the count of four necessary gates without theorems does not survive this amendment.
 
-One nearby theorem does exist and was easy to mis-file. SGA 2, Exposé XII, Corollaire 3.4 is relative effective Lefschetz for a relatively ample divisor, and the pair \((\mathbf{P}^1\times\mathbf{P}^3,\mathcal{O}(0,1))\) meets its geometric hypotheses. It sits at L3 as an external input. It is not one of the four gates above L3, because those gates ask for the jet, the weight of \(\beta(v)\), and the reflexive hull, which the corollary does not provide.
+- No model-specific comparison, and no detection or injectivity theorem, has been verified for this varying star-algebroid and its actual obstruction. Ordinary \(\sigma\) does not identify the relative cyclic map. Buchweitz–Flenner, Pridham, both Markman papers, Bandiera–Lepri–Manetti, and Bandiera–Manetti–Meazzini were read against that comparison. Each either addresses a different category or, in the ordinary case, produces a map that vanishes on the \(352\)-dimensional sector. This comparison is a sufficient-strategy gate. It is not necessary for every continuation.
+- Semiregularity, the torsion twist, and the eightfold transform are the same kind of strategy gate.
+- The weight \(\operatorname{wt}(t_0)=2\), the frame covariance, the homogeneous homotopies, and the confinement argument are supplied, pending artifact review.
+- The depth step is Lemma 0BUW once \(z\)-regularity and the central reflexivity of \(R_0\) are verified on the constructed stalk. Those two verifications are open. A further depth-upgrade theorem is not required.
+- Corollaire 3.4 is relative effective Lefschetz, and the pair \((\mathbf{P}^1\times\mathbf{P}^3,\mathcal{O}(0,1))\) meets its geometric hypotheses for an actual formal locally free sheaf. The open carrier construction question is the reviewed artifact of that sheaf. Weights enter the construction. They are not a separate Lefschetz hypothesis. The absolute statement, Corollaire 3.5, does not apply to \(\mathcal{O}(0,1)\).
 
 ## 11. Sources read
 
@@ -297,5 +357,7 @@ One nearby theorem does exist and was easy to mis-file. SGA 2, Exposé XII, Coro
 - Lowen, arXiv:0707.2602.
 - Grothendieck, SGA 2, Exposé XII, Corollaire 3.4 and Corollaire 3.5, arXiv:math/0511279, pages 127–128.
 - Abe–Yoshinaga, RIMS preprint 1496, Theorem 0.2, Proposition 1.2, Corollary 1.3.
-- Stacks Project, Proposition [00O7](https://stacks.math.columbia.edu/tag/00O7) and Lemma [0EBJ](https://stacks.math.columbia.edu/tag/0EBJ).
+- Stacks Project, Proposition [00O7](https://stacks.math.columbia.edu/tag/00O7), Lemma [0EBJ](https://stacks.math.columbia.edu/tag/0EBJ), and Lemma [0BUW](https://stacks.math.columbia.edu/tag/0BUW) (Lemma 47.11.3).
+- Milne, *Algebraic Groups*, Theorem 14.12 and Remark 14.13, for the statement that algebraic \(\mathbf{G}_m\)-representations remain \(\mathbf{Z}\)-graded, as used in the supplied homotopy argument.
 - Talpo–Vistoli, arXiv:1006.0497, Proposition 6.36, for the ordinary hull only.
+- Supplied carrier arguments: PR #1, comments 6104475229 and 6104506387.
