@@ -23,6 +23,16 @@ class HigherComparisonTests(unittest.TestCase):
         cls.document = json.loads(compare.FROZEN.read_text(encoding="utf-8"))
         cls.report = compare.summarize(cls.document)
 
+    def test_receipt_text_matches_renderer(self):
+        rendered = compare.render_markdown(self.report)
+        stored = (ROOT / "comparison_higher_receipt.md").read_text(encoding="utf-8")
+        self.assertEqual(stored, rendered)
+        self.assertIn("identity of raw coordinates", stored)
+        self.assertIn("restores the dependent pivot coordinates", stored)
+        self.assertIn("not pure raw cohomology classes", stored)
+        self.assertNotIn("surviving classes", stored)
+        self.assertIn("not extrapolated beyond k = 6", stored)
+
     def test_freeze_commit_is_unchanged(self):
         self.assertEqual(self.report["freeze_commit"], FREEZE)
         shown = subprocess.check_output(

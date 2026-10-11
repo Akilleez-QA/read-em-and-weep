@@ -66,6 +66,8 @@ It is not the zero map. Its nonzero blocks, graded by the finite character, are
 
 Every nonzero entry preserves character. Characters −7 and −5 at order 5 have source classes and a zero target, so they survive. No block meets character 0, 1 or 2.
 
+These ranks, including surjectivity at k = 5 and k = 6, are computations on the matrices of those two orders. Surjectivity of δ_inner is not extrapolated beyond k = 6.
+
 ## 3. Weights of the H³(E0²) monomials
 
 The finite weight is χ = 2s + x + y. The coordinate W has weight 0, and the finite frame weight of E0² is 0, so the character equals the weight. The basis monomials are zˢ X⁻ᵘ⁻¹ Y⁻ᵛ⁻¹ W⁻ʷ⁻¹ with s ∈ {−1, −2, −3} and u + v + w = k − 5.
@@ -90,7 +92,7 @@ On 0 → span{E0², E0E1} → F → E1² → 0 the target of δ is H³(span) ≅
 dim H²(F) = dim H²(span) + dim H²(E1²).
 ```
 
-A direct cocycle check agrees. Transport of an E1² monomial produces an E0² component through C² and an E0E1 component through 2z C. The E0E1 component is a coboundary on the line of base degree 0. After that cochain homotopy, the remaining gap in H³(E0²) lies in the image of δ_inner: 0 of the 180 classes at k = 4, 33 of the 225 classes at k = 5, and 99 of the 275 classes at k = 6 have a nonzero gap, and none of those gaps falls outside the image. In the required characters the gap is the zero vector in the whole of H³(E0²), not merely in an empty character slice. Those classes are z³ X⁻¹ Y⁻¹ W⁻⁷ and the three z⁴ monomials of character 0 at order 4, the two z⁴ monomials of character 1 at order 5, and z⁴ X⁻¹ Y⁻¹ W⁻¹⁰ of character 2 at order 6.
+A direct cocycle check agrees. Transport of an E1² monomial produces an E0² component through C² and an E0E1 component through 2z C. The E0E1 component is a coboundary on the line of base degree 0. After that cochain homotopy, the remaining gap in H³(E0²) lies in the image of δ_inner: 0 of the 180 classes at k = 4, 33 of the 225 classes at k = 5, and 99 of the 275 classes at k = 6 have a nonzero gap, and none of those gaps falls outside the image. In the required characters the gap is the zero vector in the whole of H³(E0²), not merely in an empty character slice. Those classes are z³ X⁻¹ Y⁻¹ W⁻⁸ and the three z⁴ monomials of character 0 at order 4, the two z⁴ monomials of character 1 at order 5, and z⁴ X⁻¹ Y⁻¹ W⁻¹⁰ of character 2 at order 6. The order-4 class is the frozen E1² representative of character 0 with actual exponents (−1, −1, −8) and dual indices (0, 0, 7). The W exponent is that actual exponent.
 
 The three extensions with base degree −1 have δ = 0 for the stronger reason that H³(S) = 0 in every character. Their required-character quotient spaces are the AE1 classes, and at order 4 the E1E2 class. Each has an explicit finite/infinity representative, so the lift is a cocycle and not only a dimension count.
 
@@ -106,7 +108,7 @@ The required slices are therefore the split-line monomials of character k − 4.
 | 5 | 1 | AE1 (2) | E1² (2) |
 | 6 | 2 | AE1 (1) | E1² (1) |
 
-Every other filtration line contributes the empty set. The finite representative of each listed monomial is the triangular transport, keeping lower terms with z ≥ max(β_lower + 1, 0). At order 6 the E1² representative contains the all-negative E0² term z² X⁻¹ Y⁻¹ W⁻², through C². That term is part of the lift. It is not an H² class. Coordinate reduction subtracts the full transport, including this term. The coordinate matrix on the required set is the identity.
+Every other filtration line contributes the empty set. The finite representative of each listed monomial is the triangular transport, keeping lower terms with z ≥ max(β_lower + 1, 0). At order 6 the E1² representative contains the all-negative E0² term z² X⁻¹ Y⁻¹ W⁻², through C². That term is part of the lift. It is not an H² class. Coordinate reduction subtracts the full transport, including this term. The coordinate matrix on the required set is the identity. That identity reduces each required-character representative to a unit coordinate. Those characters lie outside the inner kernel. It is separate from the raw-coordinate identity of the full target, and it is not a kernel-coordinate presentation.
 
 Full corrected dimensions, after removing the kernel complement of δ_inner and keeping every E1² class, are
 
@@ -133,9 +135,41 @@ k = 6:  [1]    det 1
 
 No required-character connecting map is nonzero, and the dimension identity holds on every extension in the required character and in total. The inner map is nonzero in characters ≤ −4. That changes the full group at orders 5 and 6 and does not change characters 0, 1 or 2.
 
-## 6. The cutoff k ≥ 7
+## 6. Raw coordinates and kernel coordinates
 
-On every generated H² monomial the character is at most 2, and 2 is attained on AE1 and on E1² at each of k = 4, 5, 6. For k ≥ 7 the required character k − 4 is at least 3, hence strictly larger than this generated maximum. The comparison uses that generated maximum, not a stored weight. Orders 4, 5 and 6 remain inside the range where the character slices above are nonempty.
+The ordered identity on the full target, at orders 5 and 6, compares the split basis before δ_inner with the shipped raw labels. The lists have lengths 891 and 1104, and the change of basis is the identity. This is an identity of raw coordinates.
+
+The corrected group removes a complement of ker(δ_inner). Elimination on δ_inner chooses pivot coordinates and free coordinates inside the E0E1 summand. A kernel basis vector has coefficient 1 on one free coordinate and restores each dependent pivot coordinate from the elimination row. The frozen kernel basis at order 5 contains the vector with value 1 on z⁰ X⁻³ Y⁻¹ W⁻³ and value −1 on z⁰ X⁻¹ Y⁻³ W⁻³, both of character −6, and the vector with value 1 on z⁰ X⁻³ Y⁻³ W⁻¹ and value −2 on z⁰ X⁻¹ Y⁻⁵ W⁻¹, both of character −8.
+
+The shipped rows are the ordered complement of those pivot positions in the full raw list: 888 rows at order 5 and 1095 rows at order 6. A surviving row labels one free coordinate. It does not carry the restored pivot entries, so it is not a pure raw cohomology class. Entrywise agreement of the rebuilt maps with the shipped maps is agreement of these coordinate presentations.
+
+At order 4, δ_inner has rank 0. There are no pivot coordinates, and the raw list is already the corrected list.
+
+## 7. The cutoff k ≥ 7
+
+On a free line the character is 2e − u − v − 2 − d, with 0 ≤ e ≤ β and u, v ≥ 0, so
+
+```
+χ ≤ 2β − 2 − d.
+```
+
+The base degree β and the finite frame weight d belong to the line. They do not depend on k. The plane degree does depend on k, and it changes which monomials occur, but the inequality uses only e ≤ β and u, v ≥ 0. The bound is uniform in k.
+
+The quantity 2β − 2 − d equals 2 on AE1 (β = 3, d = 2) and on E1² (β = 4, d = 4), equals 0 on AE2 and on E1E2, and is at most −1 on every other free line that has H². A line with β < 0, or with plane degree greater than −3, contributes no H² class. Every free-line character therefore satisfies χ ≤ 2 at every order.
+
+Each step of the filtration is an equivariant extension 0 → S → E → Q → 0. Equivariance makes the long exact sequence exact in each character:
+
+```
+H¹(Q)_χ → H²(S)_χ → H²(E)_χ → H²(Q)_χ → H³(S)_χ.
+```
+
+If χ is absent from H²(S) and from H²(Q), then H²(E)_χ injects into the zero group H²(Q)_χ. An extension cannot acquire a character absent from both adjacent H² pieces. By induction along the filtration, every character of H²(U_k) and of H²(W_k) already occurs on some free line. Characters χ > 2 are absent for every k.
+
+The required character of order k is χ = k − 4. For every k ≥ 7 that character is at least 3, so the required slice is empty. Orders 4, 5 and 6 ask for characters 0, 1 and 2. The bound does not remove those slices; they are the computation of the preceding sections.
+
+The certificate also records, for k = 7, …, 12, that the required character exceeds the maximum attained by the monomials generated at k = 4, 5, 6. That record is a finite check against a computed maximum. It is not the argument above.
+
+The vanishing for k ≥ 7 does not use surjectivity of δ_inner. Surjectivity is known at k = 5 and k = 6, where the cokernel in H³(E0²) is zero, and it is not extrapolated beyond k = 6. For k ≥ 7 the required character is already absent from both adjacent pieces, whether or not δ_inner stays surjective at those larger orders.
 
 ## Reproduce
 

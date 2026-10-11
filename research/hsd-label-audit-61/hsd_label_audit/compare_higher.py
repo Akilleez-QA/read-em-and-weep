@@ -322,13 +322,18 @@ def render_markdown(report):
         "",
         "The change of basis on each ordered source list, and on each raw target list, is the identity.",
         "Its determinant over Q is 1. No integrality claim is made beyond that explicit matrix.",
-        "At orders 5 and 6 the shipped row order is the kernel-free subsequence of that raw list.",
-        "Deleting the pivot rows leaves the identity on the surviving classes.",
+        "That identity is an identity of raw coordinates. Kernel coordinates are a different presentation.",
+        "At orders 5 and 6 the shipped row order is the kernel-free subsequence of the raw list.",
+        "A kernel basis vector restores the dependent pivot coordinates.",
+        "Surviving rows label those free coordinates. They are not pure raw cohomology classes.",
         "",
         f"Generated maximum character: U {report['generated_max_character']['U']}, "
         f"W {report['generated_max_character']['W']}.",
         f"Weight-only vanishing from k ≥ {report['weight_cutoff_from_k']} uses this generated maximum: "
         f"{report['weight_cutoff_uses_generated_maximum']}.",
+        "That recorded flag compares orders 7 through 12 with the maximum attained at orders 4, 5 and 6.",
+        "It is a finite check. The uniform vanishing for every k ≥ 7 is the character bound in the completeness argument.",
+        "Surjectivity of the inner connecting map is not extrapolated beyond k = 6.",
         "",
     ]
     for item in report["orders"]:
@@ -373,8 +378,8 @@ def render_markdown(report):
         lines.append("A mismatch is recorded above.")
     else:
         lines.append(
-            "No mismatch. Ordered labels agree, both full maps agree over Q, and the "
-            "connecting-map change of basis is invertible."
+            "No mismatch. Ordered raw labels agree, both full maps agree over Q as coordinate "
+            "presentations, and the connecting-map change of basis is invertible."
         )
     lines.append("")
     return "\n".join(lines)

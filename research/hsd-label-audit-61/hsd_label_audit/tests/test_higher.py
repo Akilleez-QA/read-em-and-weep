@@ -193,7 +193,54 @@ class HigherTests(unittest.TestCase):
         digest = higher.verify_certificate(FROZEN)
         stored = json.loads(FROZEN.read_text(encoding="utf-8"))
         self.assertEqual(digest, stored["content_sha256"])
+        self.assertEqual(
+            stored["content_sha256"],
+            "203311373309eded58fa5e30ee8a9ba1aeb8ff5050f3556abe0a2370685bf7cc",
+        )
         self.assertEqual(higher.body_of(stored), self.payload)
+
+    def test_k4_worked_exponent_and_cutoff_writeup_match_frozen_data(self):
+        stored = json.loads(FROZEN.read_text(encoding="utf-8"))
+        self.assertEqual(
+            stored["content_sha256"],
+            "203311373309eded58fa5e30ee8a9ba1aeb8ff5050f3556abe0a2370685bf7cc",
+        )
+        lead = [
+            row
+            for row in stored["orders"]["4"]["required_W"]
+            if row["slot"] == [2, 2] and row["e"] == 3 and row["dual"] == [0, 0, 7]
+        ]
+        self.assertEqual(len(lead), 1)
+        self.assertEqual(lead[0]["actual"], [-1, -1, -8])
+        self.assertEqual(lead[0]["character"], 0)
+        text = (ROOT / "HIGHER_COMPLETENESS.md").read_text(encoding="utf-8")
+        self.assertIn("z\u00b3 X\u207b\u00b9 Y\u207b\u00b9 W\u207b\u2078", text)
+        self.assertNotIn("W\u207b\u2077", text)
+        self.assertIn("They do not depend on k.", text)
+        self.assertIn("absent from both adjacent", text)
+        self.assertIn("not extrapolated beyond k = 6", text)
+        self.assertIn("restores each dependent pivot coordinate", text)
+        self.assertIn("not a pure raw cohomology class", text)
+        inner = next(
+            item
+            for item in stored["orders"]["5"]["extensions"]
+            if item["name"].startswith("E0^2")
+        )
+        delta = inner["all_characters"]["delta_H2_Q_to_H3_S"]
+        labels = delta["column_labels"]
+
+        def monomial(index):
+            label = labels[index]
+            dual = label["dual"]
+            return (label["e"], [-dual[0] - 1, -dual[1] - 1, -dual[2] - 1], label["character"])
+
+        vectors = [{int(index): value for index, value in vector.items()} for vector in delta["kernel_basis"]]
+        self.assertIn({9: "1", 2: "-1"}, vectors)
+        self.assertEqual(monomial(9), (0, [-3, -1, -3], -6))
+        self.assertEqual(monomial(2), (0, [-1, -3, -3], -6))
+        self.assertIn({11: "1", 4: "-2"}, vectors)
+        self.assertEqual(monomial(11), (0, [-3, -3, -1], -8))
+        self.assertEqual(monomial(4), (0, [-1, -5, -1], -8))
 
 
 if __name__ == "__main__":
