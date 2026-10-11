@@ -1,0 +1,22 @@
+1    mixed BCH 995; relation 232; projected relation 39; obstruction nonzeros 10; scalar 0
+a    mixed BCH 906; relation 194; projected relation 26; obstruction nonzeros 12; scalar 0
+b    mixed BCH 898; relation 185; projected relation 26; obstruction nonzeros  7; scalar 0
+c    mixed BCH  84; relation  10; projected relation  2; obstruction nonzeros  0; scalar 0
+d    mixed BCH  84; relation  10; projected relation  2; obstruction nonzeros  0; scalar 0
+a*a  mixed BCH 425; relation  73; projected relation  7; obstruction nonzeros  4; scalar 0
+a*b  mixed BCH 535; relation 107; projected relation 12; obstruction nonzeros  0; scalar 0
+a*c  mixed BCH  43; relation   3; projected relation  0; obstruction nonzeros  0; scalar 0
+a*d  mixed BCH  43; relation   3; projected relation  0; obstruction nonzeros  0; scalar 0
+b*b  mixed BCH 389; relation  71; projected relation  6; obstruction nonzeros  4; scalar 0
+b*c  mixed BCH  41; relation   3; projected relation  0; obstruction nonzeros  0; scalar 0
+b*d  mixed BCH  41; relation   3; projected relation  0; obstruction nonzeros  0; scalar 0
+c*c  mixed BCH   0; relation   0; projected relation  0; obstruction nonzeros  0; scalar 0
+c*d  mixed BCH   0; relation   0; projected relation  0; obstruction nonzeros  0; scalar 0
+d*d  mixed BCH   0; relation   0; projected relation  0; obstruction nonzeros  0; scalar 0
+lambda*1: original-cover bracket checked; 248 termwise grades; D3 preimage [0, 0, 0, 0, 0, 0, 0, 0, 0]
+lambda*a: original-cover bracket checked; 100 termwise grades; D3 preimage [0, 0, 0, 0, 0, 0, 0, 0, 0]
+lambda*b: original-cover bracket checked; 94 termwise grades; D3 preimage [0, 0, 0, 0, 0, 0, 0, 0, 0]
+lambda*c: original-cover bracket checked; 0 termwise grades; D3 preimage [0, 0, 0, 0, 0, 0, 0, 0, 0]
+lambda*d: original-cover bracket checked; 0 termwise grades; D3 preimage [0, 0, 0, 0, 0, 0, 0, 0, 0]
+PASS: regenerated certificate equals frozen audit certificate.
+PASS: full four-parameter original-cover brackets; 15 coefficients; regenerated D2; shipped vector and preimage agree.

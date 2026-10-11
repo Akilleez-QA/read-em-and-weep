@@ -1,0 +1,149 @@
+{
+  "W_filtration": [
+    {
+      "slot": [
+        "P",
+        "P"
+      ],
+      "base_degree": 2,
+      "plane_degree_before_minus_k": -4,
+      "H2_weight_cutoff": 0
+    },
+    {
+      "slot": [
+        "P",
+        "E0"
+      ],
+      "base_degree": -1,
+      "plane_degree_before_minus_k": -1,
+      "H2_weight_cutoff": null
+    },
+    {
+      "slot": [
+        "P",
+        "E1"
+      ],
+      "base_degree": 3,
+      "plane_degree_before_minus_k": -5,
+      "H2_weight_cutoff": 3
+    },
+    {
+      "slot": [
+        "P",
+        "E2"
+      ],
+      "base_degree": 2,
+      "plane_degree_before_minus_k": -5,
+      "H2_weight_cutoff": 1
+    },
+    {
+      "slot": [
+        "E0",
+        "E0"
+      ],
+      "base_degree": -4,
+      "plane_degree_before_minus_k": 2,
+      "H2_weight_cutoff": null
+    },
+    {
+      "slot": [
+        "E0",
+        "E1"
+      ],
+      "base_degree": 0,
+      "plane_degree_before_minus_k": -2,
+      "H2_weight_cutoff": 0
+    },
+    {
+      "slot": [
+        "E0",
+        "E2"
+      ],
+      "base_degree": -1,
+      "plane_degree_before_minus_k": -2,
+      "H2_weight_cutoff": null
+    },
+    {
+      "slot": [
+        "E1",
+        "E1"
+      ],
+      "base_degree": 4,
+      "plane_degree_before_minus_k": -6,
+      "H2_weight_cutoff": 6
+    },
+    {
+      "slot": [
+        "E1",
+        "E2"
+      ],
+      "base_degree": 3,
+      "plane_degree_before_minus_k": -6,
+      "H2_weight_cutoff": 4
+    },
+    {
+      "slot": [
+        "E2",
+        "E2"
+      ],
+      "base_degree": 2,
+      "plane_degree_before_minus_k": -6,
+      "H2_weight_cutoff": 2
+    }
+  ],
+  "U_filtration": [
+    {
+      "slot": "AP",
+      "base_degree": 2,
+      "plane_degree_before_minus_k": -7,
+      "H2_weight_cutoff": 3
+    },
+    {
+      "slot": "AE0",
+      "base_degree": -1,
+      "plane_degree_before_minus_k": -4,
+      "H2_weight_cutoff": null
+    },
+    {
+      "slot": "AE1",
+      "base_degree": 3,
+      "plane_degree_before_minus_k": -8,
+      "H2_weight_cutoff": 6
+    },
+    {
+      "slot": "AE2",
+      "base_degree": 2,
+      "plane_degree_before_minus_k": -8,
+      "H2_weight_cutoff": 4
+    }
+  ],
+  "H2_W_and_H2_U_prescribed_zero_from_order": 7,
+  "section_prescribed_zero_from_order": 5,
+  "H1_W_prescribed_monomials": {
+    "1": [
+      [
+        -2,
+        0,
+        1,
+        0
+      ],
+      [
+        -2,
+        1,
+        0,
+        0
+      ]
+    ],
+    "2": [
+      [
+        -1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "plane_homotopy_basis_checks": 20,
+  "actual_relation_transition_identity": true,
+  "parameter_dependence": "none"
+}
