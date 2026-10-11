@@ -1,0 +1,34 @@
+{
+  "pin": "22b800836385cf4c869c200bfc6715e07613aad6",
+  "source": "6b69eefd57098d9a0c1d9f43ed993d36e1e54bcb",
+  "shared_source_inputs": [
+    {
+      "name": "first_jet.json",
+      "rev": "6b69eefd57098d9a0c1d9f43ed993d36e1e54bcb",
+      "sha256": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+      "scope_A": "the cochain \u03b7 inside A\u03b7(\u03be) and \u00bd A\u03b7\u00b2(v)",
+      "scope_B": "the cochain \u03b7 inside the Poisson bracket that builds the BCH right-hand side"
+    },
+    {
+      "name": "certificate.json",
+      "rev": "6b69eefd57098d9a0c1d9f43ed993d36e1e54bcb",
+      "sha256": "c03a36fca19b7a73b8c483c7dc9e2a17f4a1ea422e9a61972966b734cd5597e4",
+      "scope_A": "the fifteen W primitives, used only through their action on v=E0",
+      "scope_B": "the same fifteen W primitives, as the cochain \u03ba under test; not an input of the right-hand side"
+    }
+  ],
+  "shared_derived_geometry": "\u03a9, the relation r, and T_B, recomputed in common.py from the displayed chart formulas",
+  "scope_A_only": [
+    "FIRST_NORMAL_SECTION_CORRECTIONS.json at the pin, the first-order section \u03be",
+    "SECOND_NORMAL_SECTION_CORRECTIONS.json at the pin, the 405 second-section terms under test"
+  ],
+  "scope_B_only": [
+    "the Poisson bracket of \u03b7 on two different opens",
+    "z^{-4} Sym^2(T_B) applied to quadratic Hamiltonians",
+    "the \u010cech coboundary of \u03ba"
+  ],
+  "scope_B_rhs_sha256": "4f07c4346fa1a2a4dae6bae4242060c57a08ee8b8b2392d6d674ff18abcfe112",
+  "scope_B_rhs_inputs": [
+    "first_jet.json"
+  ]
+}
