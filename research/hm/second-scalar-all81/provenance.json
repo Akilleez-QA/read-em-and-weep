@@ -1,0 +1,16 @@
+{
+  "schema": "Lminus-all81-provenance-v1",
+  "historical_artifacts": {
+    "final_result": "be960f33c421e1e291ba74ecfcd76d7af5e2bff00ff065db67f7f5404b9aec3b",
+    "final_manifest": "3cf3ca7858348b23535ec96af40c6c10f4fef225aba9f309ab569d267a852fdb",
+    "primary_result": "6bc1e26d1c0a66354bb60b4ca7ad07c590268cef343f857dfe773657a1964cd6",
+    "independent_comparison": "cb395dcc3a55c5ccdfb7120be4ffa87ff839c40ba1390d6c543acb63b440f574",
+    "final_seal": "c826c5e1e9eb011e70a700ed0027f91df37bc2214105448cc8674871ae8e5714",
+    "duplicate_binding": "08c16deec98059a597301700bedc986a452038bb87ba04eef451453cc968b68b"
+  },
+  "final_pins": 1143,
+  "frozen_audit_pins": 1140,
+  "source_DAG_nodes_reevaluated_by_seal": 0,
+  "historical_archives_distributed": false,
+  "symbolic_source_symmetry_proved": false
+}
