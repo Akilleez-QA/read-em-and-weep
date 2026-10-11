@@ -1,7 +1,8 @@
-"""Rebuild the second-normal section right-hand side and freeze its hash.
+"""Scope A: rebuild the second-normal section right-hand side and freeze its hash.
 
-Reads the source first jet and the fifteen W primitives. Does not read the
-second-normal checker, its check receipt, or the exported section corrections.
+Reads the source first jet, the fifteen W primitives, and the first-order
+section. Does not read the second-normal checker, its check receipt, or the
+exported second-section corrections. The action on v = E0 does not certify κ.
 """
 
 import hashlib

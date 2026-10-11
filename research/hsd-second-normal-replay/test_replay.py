@@ -141,6 +141,13 @@ class HandPins(unittest.TestCase):
         common_source = (HERE / "common.py").read_text(encoding="utf-8")
         for token in FORBIDDEN:
             self.assertNotIn(token, common_source)
+        bch_source = (HERE / "build_kappa_rhs.py").read_text(encoding="utf-8")
+        kappa_source = (HERE / "kappa.py").read_text(encoding="utf-8")
+        ast.parse(bch_source)
+        ast.parse(kappa_source)
+        for token in FORBIDDEN + ("certificate", "W_primitive", "SECTION_CORRECTIONS"):
+            self.assertNotIn(token, bch_source)
+            self.assertNotIn(token, kappa_source)
 
     def test_displayed_forms_match_chart(self):
         # Finite Ω entries used by the bracket are F, g, W^6.
@@ -171,6 +178,78 @@ class FrozenSolution(unittest.TestCase):
         )
         self.assertEqual(frozen["rhs_sha256"], report["rhs_sha256"])
         self.assertEqual(frozen["pin"], "22b800836385cf4c869c200bfc6715e07613aad6")
+
+
+class MiddleCocycle(unittest.TestCase):
+    def test_diagonal_bracket_carries_both_factors_of_two(self):
+        from kappa import quadratic_bracket
+
+        # {E0², E1²} = Ω(E0,E1) · (2 E0) · (2 E1) = 4 XY E0 E1.
+        got = quadratic_bracket(
+            {(1, 1): {(0, 0, 0, 0): Fraction(1)}},
+            {(2, 2): {(0, 0, 0, 0): Fraction(1)}},
+            "finite",
+        )
+        self.assertEqual(got, {(1, 2): {(0, 1, 1, 0): Fraction(4)}})
+
+    def test_transport_weight_on_a_pure_square(self):
+        from kappa import transport_sym2
+
+        # E2 maps by z³, so z^{-4} Sym²(T_B) sends E2² to z² E2².
+        got = transport_sym2({(3, 3): {(0, 0, 0, 0): Fraction(1)}})
+        self.assertEqual(got, {(3, 3): {(2, 0, 0, 0): Fraction(1)}})
+
+    def test_coboundary_sign_on_the_01_face(self):
+        from kappa import coboundary_1
+
+        term = {(1, 1): {(0, -1, -1, 2): Fraction(1)}}
+        self.assertEqual(coboundary_1({(0, 1): term}), term)
+        self.assertEqual(coboundary_1({(0, 2): term}), {(1, 1): {(0, -1, -1, 2): Fraction(-1)}})
+
+    def test_kappa_equations_and_predicted_mutations(self):
+        import build_kappa_rhs
+        import check_kappa
+
+        build_kappa_rhs.main()
+        check_kappa.main()
+        report = json.loads((HERE / "kappa_report.json").read_text(encoding="utf-8"))
+        self.assertEqual(report["monomials"], 15)
+        self.assertEqual(report["equations"], 75)
+        self.assertEqual(report["failures"], 0)
+        self.assertEqual(len(report["mutations"]), 2)
+        frozen = json.loads((HERE / "frozen_kappa_rhs.json").read_text(encoding="utf-8"))
+        self.assertEqual(frozen["inputs"], ["first_jet.json"])
+        self.assertEqual(frozen["rhs_sha256"], report["rhs_sha256"])
+        self.assertEqual(
+            frozen["first_jet_sha256"],
+            "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+        )
+        kernel, outside = report["mutations"]
+        self.assertEqual(kernel["name"], "kernel_E0_square")
+        self.assertTrue(kernel["action_on_E0_is_zero"])
+        self.assertEqual(kernel["action_on_E0"], [[], [], [], []])
+        self.assertTrue(kernel["rejected"])
+        self.assertEqual(kernel["residuals"][0]["kind"], "finite")
+        self.assertEqual(kernel["residuals"][0]["mismatch"][0]["slot"], [1, 1])
+        self.assertEqual(kernel["residuals"][0]["mismatch"][0]["terms"], [[[0, -1, -1, 2], "1"]])
+        self.assertEqual(kernel["residuals"][1]["kind"], "mixed")
+        self.assertEqual(kernel["residuals"][1]["mismatch"][0]["terms"], [[[0, -1, -1, 2], "-1"]])
+        self.assertEqual(outside["name"], "outside_E0_E1")
+        self.assertFalse(outside["action_on_E0_is_zero"])
+        self.assertEqual(outside["action_on_E0"][0], [])
+        self.assertEqual(outside["action_on_E0"][1], [[[0, 0, 1, 0], "-1"]])
+        self.assertEqual(outside["action_on_E0"][2], [])
+        self.assertEqual(outside["action_on_E0"][3], [])
+        self.assertTrue(outside["rejected"])
+        self.assertEqual(outside["residuals"][0]["mismatch"][0]["slot"], [1, 2])
+        self.assertEqual(outside["residuals"][0]["mismatch"][0]["terms"], [[[0, -1, 0, 0], "1"]])
+        self.assertEqual(outside["residuals"][1]["mismatch"][0]["terms"], [[[0, -1, 0, 0], "-1"]])
+        record = json.loads((HERE / "independence.json").read_text(encoding="utf-8"))
+        shared = {item["name"]: item["sha256"] for item in record["shared_source_inputs"]}
+        self.assertEqual(set(shared), {"first_jet.json", "certificate.json"})
+        self.assertEqual(shared["first_jet.json"], frozen["first_jet_sha256"])
+        self.assertEqual(record["scope_B_rhs_inputs"], ["first_jet.json"])
+        self.assertEqual(record["scope_B_rhs_sha256"], report["rhs_sha256"])
 
 
 if __name__ == "__main__":

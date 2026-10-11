@@ -1,6 +1,7 @@
-"""Compare the frozen right-hand side with the 405 exported corrections.
+"""Scope A: compare the frozen section right-hand side with the 405 corrections.
 
-The frozen hash is checked before the correction file is opened.
+The frozen hash is checked before the correction file is opened. These 135
+equations do not certify the middle cocycle κ.
 """
 
 import json
