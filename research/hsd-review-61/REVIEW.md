@@ -1,6 +1,6 @@
 # Review of the five-parameter formal chart
 
-Reviewed package commit `ca9226569ddb5ed29d2809f1f4e4e1ae7c646ea8` (draft PR #61), directory `research/carrier/formal-five-parameter-chart/`. This branch only adds `review.py` and this note. The package tree is unchanged.
+Reviewed package commit `ca9226569ddb5ed29d2809f1f4e4e1ae7c646ea8` (draft PR #61), directory `research/carrier/formal-five-parameter-chart/`. This branch adds `review.py`, `tests/test_replay_status.py`, and this note. The package tree is unchanged.
 
 `review.py` uses exact rational arithmetic (`fractions.Fraction`, a Hadamard bound plus the Chinese remainder theorem for determinants, and SymPy polynomials). It does not import the package checkers. Matrix inputs are the JSON files in `data/`. Certificate files are used only as the supplied witness.
 
@@ -19,6 +19,8 @@ Reviewed package commit `ca9226569ddb5ed29d2809f1f4e4e1ae7c646ea8` (draft PR #61
 - `test_uniform_all_order_bounds`
 
 This step executes the package. It is not an independent derivation.
+
+`review.py --replay` records `replay_exit` and `tests_exit`. A nonzero status on either stage makes the command exit nonzero and prints `replay stage failed` or `tests stage failed`.
 
 ## 2. Inverses of D3..D6 — PASS
 
@@ -57,11 +59,13 @@ The only prime is 2. N2's file stores the value only modulo 65521, and that resi
 
 the same as `left_cokernel_detector`. It annihilates every column.
 
-The supplied obstruction, as a polynomial in `a,b,c,d,lambda`, uses only `a` and `b` (total degree at most 2; the last component is 0). The scalar pairing is the zero polynomial: its coefficient dictionary on all monomials in the five parameters, including every `lambda` cross term, is empty. The same holds for the certificate detector.
+The supplied obstruction uses only `a` and `b` (total degree at most 2; the last component is 0). The scalar pairing of that witness is the zero polynomial in `a` and `b`. The same holds for the certificate detector.
 
-The supplied preimage was recomputed from a rank-15 minor of this constant matrix and matches the certificate entrywise. Both satisfy `D2 y = obstruction` with residual the zero vector in `Q[a,b,c,d,lambda]`. No discrepancy.
+`lambda` is the order-2 lift choice (`delta kappa_2 = 0`), first enters at order 3 (`lambda^2` at order 4), so order-two `lambda` cross terms are absent by normal degree. Viewing the shipped quadratic in `Q[a,b,c,d,lambda]` is scalar extension, not a test.
 
-The obstruction polynomial itself is the shipped witness. This check does not rebuild the bracket, relation division, or Čech cochain, and it does not insert `lambda` into that cochain. Coefficients of `c`, `d`, and `lambda` are zero because those symbols are absent from the witness, while the remaining `a,b` scalar cancels.
+The supplied preimage was recomputed from a rank-15 minor of this constant matrix and matches the certificate entrywise. Both satisfy `D2 y = obstruction` with residual the zero vector. No discrepancy.
+
+The obstruction polynomial itself is the shipped witness. This check does not rebuild the bracket, relation division, or Čech cochain. Coefficients of `c` and `d` are zero in that witness; the review does not reconstruct them. The `a,b` scalar cancels.
 
 ## 5. Order ≥ 7 weight bound — PASS
 

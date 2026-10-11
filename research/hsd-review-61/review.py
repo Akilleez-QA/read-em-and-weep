@@ -722,6 +722,23 @@ def run_replay():
     return {"replay_exit": replay.returncode, "tests_exit": tests.returncode}
 
 
+def stage_failures(replay_exit: int | None, tests_exit: int | None) -> list[tuple[str, int]]:
+    """Return (stage, exit status) for each nonzero replay or unit-test exit."""
+    failed = []
+    if replay_exit not in (None, 0):
+        failed.append(("replay", replay_exit))
+    if tests_exit not in (None, 0):
+        failed.append(("tests", tests_exit))
+    return failed
+
+
+def command_status(independent_checks_pass: bool, failed_stages: list[tuple[str, int]]) -> int:
+    """Exit 0 only when the independent checks pass and no replay stage failed."""
+    if independent_checks_pass and not failed_stages:
+        return 0
+    return 1
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--replay", action="store_true", help="also run the package replay and its unit tests")
@@ -735,8 +752,14 @@ def main():
         "quadratic": check_quadratic(),
         "weights": check_weights(),
     }
+    replay_exit = None
+    tests_exit = None
     if args.replay:
         report["replay"] = run_replay()
+        replay_exit = report["replay"]["replay_exit"]
+        tests_exit = report["replay"]["tests_exit"]
+    failed_stages = stage_failures(replay_exit, tests_exit)
+    failed_names = [stage for stage, _code in failed_stages]
     checks = {
         "2_inverses": report["inverses"]["pass"],
         "3_minors": report["minors"]["pass"],
@@ -744,16 +767,27 @@ def main():
         "5_weights": report["weights"]["pass"],
     }
     report["independent_checks_pass"] = all(checks.values())
+    report["failed_stages"] = failed_names
     print(
         "scope: checks 2–5 recompute linear algebra from data/*.json. "
         "The order-2 cocycle, the omitted ancestor plane model, and replay.py "
         "are not reconstructed here; the quadratic witness is the shipped certificate.",
         flush=True,
     )
-    print(json.dumps({"checks": checks, "independent_checks_pass": report["independent_checks_pass"]}, indent=2))
+    summary = {
+        "checks": checks,
+        "independent_checks_pass": report["independent_checks_pass"],
+        "failed_stages": failed_names,
+    }
+    if args.replay:
+        summary["replay_exit"] = replay_exit
+        summary["tests_exit"] = tests_exit
+    print(json.dumps(summary, indent=2))
+    for stage, code in failed_stages:
+        print(f"{stage} stage failed: exit {code}", flush=True)
     if args.json_out:
         args.json_out.write_text(json.dumps(report, indent=2) + "\n")
-    return 0 if report["independent_checks_pass"] else 1
+    return command_status(report["independent_checks_pass"], failed_stages)
 
 
 if __name__ == "__main__":
