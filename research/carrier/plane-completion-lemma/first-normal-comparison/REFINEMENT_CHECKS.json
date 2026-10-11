@@ -1,0 +1,620 @@
+{
+  "scope": "Exact common-refinement maps to the earlier completed plane quotient, no ancestor identification.",
+  "count": 153,
+  "entries": 1080,
+  "checks": [
+    {
+      "check": "finite:refinement_form:(0, 0)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(0, 1)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(0, 2)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(0, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(1, 0)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(1, 1)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(1, 2)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(1, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(2, 0)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(2, 1)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_form:(2, 2)",
+      "entries": 25
+    },
+    {
+      "check": "finite:refinement_relation:(2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_fixes_B:(2, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "finite:refinement_new_overlap:(0, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(0, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(0, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(1, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(1, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(1, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(2, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(2, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_new_overlap:(2, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 1, 0)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 2, 0)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(1, 2, 0)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 1, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 2, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(1, 2, 1)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(0, 2, 2)",
+      "entries": 4
+    },
+    {
+      "check": "finite:refinement_old_overlap:(1, 2, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_form:(0, 0)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(0, 1)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(0, 2)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(0, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(1, 0)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(1, 1)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(1, 2)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(1, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(2, 0)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 0, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 0, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 0, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 0, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(2, 1)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 1, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 1, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 1, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 1, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_form:(2, 2)",
+      "entries": 25
+    },
+    {
+      "check": "infinity:refinement_relation:(2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 2, 0)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 2, 1)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 2, 2)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_fixes_B:(2, 2, 3)",
+      "entries": 5
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(0, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(0, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(0, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(1, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(1, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(1, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(2, 0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(2, 0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_new_overlap:(2, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 1, 0)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 2, 0)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(1, 2, 0)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 1, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 2, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(1, 2, 1)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(0, 2, 2)",
+      "entries": 4
+    },
+    {
+      "check": "infinity:refinement_old_overlap:(1, 2, 2)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(0, 0)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(0, 1)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(0, 2)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(1, 0)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(1, 1)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(1, 2)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(2, 0)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(2, 1)",
+      "entries": 4
+    },
+    {
+      "check": "refinement_base_overlap:(2, 2)",
+      "entries": 4
+    }
+  ],
+  "all_passed": true
+}
