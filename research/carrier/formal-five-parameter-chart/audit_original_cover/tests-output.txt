@@ -1,0 +1,12 @@
+test_c_d_raw_terms_not_silently_discarded (test_original_cover.WitnessTests.test_c_d_raw_terms_not_silently_discarded) ... ok
+test_corrupted_preimage_detected (test_original_cover.WitnessTests.test_corrupted_preimage_detected) ... ok
+test_exact_all_fifteen_matrix_witnesses (test_original_cover.WitnessTests.test_exact_all_fifteen_matrix_witnesses) ... ok
+test_lambda_inverse_and_each_matrix_witness (test_original_cover.WitnessTests.test_lambda_inverse_and_each_matrix_witness) ... ok
+test_nonregular_primitive_rejected (test_original_cover.WitnessTests.test_nonregular_primitive_rejected) ... ok
+test_wrong_character_rejected (test_original_cover.WitnessTests.test_wrong_character_rejected) ... ok
+test_wrong_relation_rejected (test_original_cover.WitnessTests.test_wrong_relation_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.497s
+
+OK
