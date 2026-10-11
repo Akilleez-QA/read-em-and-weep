@@ -1,10 +1,13 @@
 """Tests for the exact-arithmetic review of the plane-completion lemma."""
 
 import json
+import sys
 import unittest
+from pathlib import Path
 
 import sympy as sp
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 import check_plane_completion as chk
 
 
