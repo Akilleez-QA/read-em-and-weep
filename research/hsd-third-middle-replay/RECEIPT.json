@@ -1,0 +1,6576 @@
+{
+  "scope": "Forty third-middle raw equations at order h^3, exact over Q. No new gauge, no order-four equation, no carrier or formal-existence claim.",
+  "source_commit": "fa685b9dd33e1c8a4336f6a8086c56f3ceb3bc3b",
+  "arithmetic": "fractions.Fraction; floating-point coefficients are rejected",
+  "primitive_gauge_regenerated": false,
+  "primitive_equality_required": false,
+  "hashes": {
+    "eta": {
+      "path": "research/carrier/plane-completion-lemma/third-middle-construction/first_jet.json",
+      "sha256": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+      "bytes": 12297
+    },
+    "kappa": {
+      "path": "research/carrier/plane-completion-lemma/third-middle-construction/certificate.json",
+      "sha256": "c03a36fca19b7a73b8c483c7dc9e2a17f4a1ea422e9a61972966b734cd5597e4",
+      "bytes": 152410,
+      "carried_at": "22b800836385cf4c869c200bfc6715e07613aad6",
+      "carried_path": "research/carrier/plane-completion-lemma/second-normal-comparison/certificate.json",
+      "carried_bytes_match": true
+    },
+    "eta_carried_at_same_commit": true,
+    "third_cochain": {
+      "path": "research/carrier/plane-completion-lemma/third-order-distribution/THIRD_MIDDLE_COCHAINS.json.gz",
+      "uncompressed_sha256": "011ba80d06f7b47a077845f377e9b22a5a9e51d808804e88e2ba4bf66c2306cd",
+      "uncompressed_bytes": 23833465,
+      "gzip_sha256": "5033872e143d1e93d650698659a13853af0d7332c405b5454aacab96cfa7196c",
+      "gzip_bytes": 875342
+    }
+  },
+  "rhs_built_before_cochain": true,
+  "rhs_monomials": {
+    "finite_monomials": 4081,
+    "infinity_monomials": 2985,
+    "mixed_monomials": 25966
+  },
+  "equations": [
+    {
+      "parameter": "1",
+      "exponents": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a",
+      "exponents": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b",
+      "exponents": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c",
+      "exponents": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "d",
+      "exponents": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*a",
+      "exponents": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*b",
+      "exponents": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*c",
+      "exponents": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*d",
+      "exponents": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*b",
+      "exponents": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*c",
+      "exponents": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*d",
+      "exponents": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*c",
+      "exponents": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*d",
+      "exponents": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "d*d",
+      "exponents": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*a*a",
+      "exponents": [
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*a*b",
+      "exponents": [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*a*c",
+      "exponents": [
+        2,
+        0,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*a*d",
+      "exponents": [
+        2,
+        0,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*b*b",
+      "exponents": [
+        1,
+        2,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*b*c",
+      "exponents": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*b*d",
+      "exponents": [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*c*c",
+      "exponents": [
+        1,
+        0,
+        2,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*c*d",
+      "exponents": [
+        1,
+        0,
+        1,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*d*d",
+      "exponents": [
+        1,
+        0,
+        0,
+        2,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*b*b",
+      "exponents": [
+        0,
+        3,
+        0,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*b*c",
+      "exponents": [
+        0,
+        2,
+        1,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*b*d",
+      "exponents": [
+        0,
+        2,
+        0,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*c*c",
+      "exponents": [
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*c*d",
+      "exponents": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*d*d",
+      "exponents": [
+        0,
+        1,
+        0,
+        2,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*c*c",
+      "exponents": [
+        0,
+        0,
+        3,
+        0,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*c*d",
+      "exponents": [
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*d*d",
+      "exponents": [
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "d*d*d",
+      "exponents": [
+        0,
+        0,
+        0,
+        3,
+        0
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "lambda",
+      "exponents": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*lambda",
+      "exponents": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*lambda",
+      "exponents": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*lambda",
+      "exponents": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    },
+    {
+      "parameter": "d*lambda",
+      "exponents": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "finite": "pass",
+      "infinity": "pass",
+      "mixed_01": "pass",
+      "mixed_02": "pass",
+      "mixed_12": "pass",
+      "grading_regularity": "pass",
+      "result": "pass"
+    }
+  ],
+  "equation_count": 40,
+  "equations_passed": 40,
+  "equations_failed": 0,
+  "component_checks_per_equation": [
+    "finite",
+    "infinity",
+    "mixed_01",
+    "mixed_02",
+    "mixed_12",
+    "grading_regularity"
+  ],
+  "graded_w_terms": 13547,
+  "lambda_slice": [
+    {
+      "parameter": "lambda",
+      "supplied_key": "1",
+      "result": "pass"
+    },
+    {
+      "parameter": "a*lambda",
+      "supplied_key": "a",
+      "result": "pass"
+    },
+    {
+      "parameter": "b*lambda",
+      "supplied_key": "b",
+      "result": "pass"
+    },
+    {
+      "parameter": "c*lambda",
+      "supplied_key": "c",
+      "result": "pass"
+    },
+    {
+      "parameter": "d*lambda",
+      "supplied_key": "d",
+      "result": "pass"
+    }
+  ],
+  "lambda_slice_passed": 5,
+  "w_support": {
+    "nonzero_count": 28,
+    "zero_count": 12,
+    "nonzero": [
+      "1",
+      "a",
+      "a*a",
+      "a*a*a",
+      "a*a*b",
+      "a*a*c",
+      "a*a*d",
+      "a*b",
+      "a*b*b",
+      "a*b*c",
+      "a*b*d",
+      "a*c",
+      "a*d",
+      "a*lambda",
+      "b",
+      "b*b",
+      "b*b*b",
+      "b*b*c",
+      "b*b*d",
+      "b*c",
+      "b*d",
+      "b*lambda",
+      "c",
+      "c*c",
+      "c*d",
+      "d",
+      "d*d",
+      "lambda"
+    ],
+    "zero": [
+      "a*c*c",
+      "a*c*d",
+      "a*d*d",
+      "b*c*c",
+      "b*c*d",
+      "b*d*d",
+      "c*c*c",
+      "c*c*d",
+      "c*d*d",
+      "c*lambda",
+      "d*d*d",
+      "d*lambda"
+    ],
+    "matches_stated_nonzero": true,
+    "matches_stated_zero": true,
+    "result": "pass"
+  },
+  "controls": {
+    "known_sensitive_origin_finite01": {
+      "parameter": "1",
+      "chart": "finite",
+      "overlap": [
+        0,
+        1,
+        2
+      ],
+      "planted_edge": [
+        0,
+        1
+      ],
+      "planted_slot": [
+        1,
+        1
+      ],
+      "planted_monomial": "X^-1 Y^-1 W E0^2",
+      "unmutated_equation": "pass",
+      "quotient_remainder": [
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            0,
+            -1,
+            -1,
+            1
+          ],
+          "coefficient": "1"
+        }
+      ],
+      "remainder_equals_planted_monomial": true,
+      "result": "pass"
+    },
+    "wrong_sign_bch": {
+      "identified_before_cochain_was_read": true,
+      "summand": "finite nested contribution with published coefficient -1/12",
+      "parameter": "1",
+      "chart": "finite",
+      "overlap": [
+        0,
+        1,
+        2
+      ],
+      "replacement": "replace the finite coefficient -1/12 of N by +1/12",
+      "published_equation": "pass",
+      "identified_remainder_term_count": 406,
+      "identified_remainder_nonzero": true,
+      "nonzero_parameters_for_this_summand": 10,
+      "identified_remainder": [
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            -4,
+            5,
+            -8
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            -3,
+            4,
+            -8
+          ],
+          "coefficient": "-5/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            -2,
+            3,
+            -8
+          ],
+          "coefficient": "-1/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            -1,
+            2,
+            -8
+          ],
+          "coefficient": "-7/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            0,
+            1,
+            -8
+          ],
+          "coefficient": "17/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            1,
+            0,
+            -8
+          ],
+          "coefficient": "-17/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            2,
+            -1,
+            -8
+          ],
+          "coefficient": "7/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            3,
+            -2,
+            -8
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            4,
+            -3,
+            -8
+          ],
+          "coefficient": "5/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            2,
+            5,
+            -4,
+            -8
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -6,
+            5,
+            -6
+          ],
+          "coefficient": "-7/12"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -5,
+            4,
+            -6
+          ],
+          "coefficient": "-19/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -4,
+            3,
+            -6
+          ],
+          "coefficient": "23/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -3,
+            2,
+            -6
+          ],
+          "coefficient": "-7/32"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -2,
+            1,
+            -6
+          ],
+          "coefficient": "-1/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            -1,
+            0,
+            -6
+          ],
+          "coefficient": "11/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            0,
+            -1,
+            -6
+          ],
+          "coefficient": "3/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            1,
+            -2,
+            -6
+          ],
+          "coefficient": "37/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            2,
+            -3,
+            -6
+          ],
+          "coefficient": "-21/32"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            3,
+            -4,
+            -6
+          ],
+          "coefficient": "49/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            4,
+            -5,
+            -6
+          ],
+          "coefficient": "7/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            3,
+            5,
+            -6,
+            -6
+          ],
+          "coefficient": "-5/12"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -8,
+            5,
+            -4
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -7,
+            4,
+            -4
+          ],
+          "coefficient": "-5/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -6,
+            3,
+            -4
+          ],
+          "coefficient": "19/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -5,
+            2,
+            -4
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -4,
+            1,
+            -4
+          ],
+          "coefficient": "25/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -3,
+            0,
+            -4
+          ],
+          "coefficient": "29/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -1,
+            -4
+          ],
+          "coefficient": "-9/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -2,
+            -4
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            0,
+            -3,
+            -4
+          ],
+          "coefficient": "25/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            1,
+            -4,
+            -4
+          ],
+          "coefficient": "-49/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            2,
+            -5,
+            -4
+          ],
+          "coefficient": "-17/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            3,
+            -6,
+            -4
+          ],
+          "coefficient": "11/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            4,
+            -7,
+            -4
+          ],
+          "coefficient": "-5/12"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            4,
+            5,
+            -8,
+            -4
+          ],
+          "coefficient": "-2/3"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -10,
+            5,
+            -2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -9,
+            4,
+            -2
+          ],
+          "coefficient": "-3/32"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -8,
+            3,
+            -2
+          ],
+          "coefficient": "23/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -7,
+            2,
+            -2
+          ],
+          "coefficient": "-19/32"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -6,
+            1,
+            -2
+          ],
+          "coefficient": "3/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -5,
+            0,
+            -2
+          ],
+          "coefficient": "-1/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -4,
+            -1,
+            -2
+          ],
+          "coefficient": "-7/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -2,
+            -2
+          ],
+          "coefficient": "1/32"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -3,
+            -2
+          ],
+          "coefficient": "-9/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -4,
+            -2
+          ],
+          "coefficient": "7/96"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            0,
+            -5,
+            -2
+          ],
+          "coefficient": "41/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            1,
+            -6,
+            -2
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            2,
+            -7,
+            -2
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            3,
+            -8,
+            -2
+          ],
+          "coefficient": "23/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            4,
+            -9,
+            -2
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            5,
+            5,
+            -10,
+            -2
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -10,
+            3,
+            0
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -9,
+            2,
+            0
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -8,
+            1,
+            0
+          ],
+          "coefficient": "11/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -7,
+            0,
+            0
+          ],
+          "coefficient": "-11/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -1,
+            0
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -2,
+            0
+          ],
+          "coefficient": "7/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -4,
+            -3,
+            0
+          ],
+          "coefficient": "-25/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -4,
+            0
+          ],
+          "coefficient": "-25/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -2,
+            -5,
+            0
+          ],
+          "coefficient": "37/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            -1,
+            -6,
+            0
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            0,
+            -7,
+            0
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            1,
+            -8,
+            0
+          ],
+          "coefficient": "11/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            2,
+            -9,
+            0
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            6,
+            3,
+            -10,
+            0
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -10,
+            1,
+            2
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -1,
+            2
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -2,
+            2
+          ],
+          "coefficient": "1/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -4,
+            2
+          ],
+          "coefficient": "-1/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -4,
+            -5,
+            2
+          ],
+          "coefficient": "-7/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -2,
+            -7,
+            2
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            -1,
+            -8,
+            2
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            7,
+            1,
+            -10,
+            2
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            8,
+            -10,
+            -1,
+            4
+          ],
+          "coefficient": "-1/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            8,
+            -7,
+            -4,
+            4
+          ],
+          "coefficient": "1/48"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            8,
+            -4,
+            -7,
+            4
+          ],
+          "coefficient": "1/24"
+        },
+        {
+          "slot": [
+            0,
+            0
+          ],
+          "frame": "f0*f0",
+          "exponent_zXYW": [
+            8,
+            -1,
+            -10,
+            4
+          ],
+          "coefficient": "-1/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            -3,
+            3,
+            -4
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            -2,
+            2,
+            -4
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            -1,
+            1,
+            -4
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            1,
+            -1,
+            -4
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            2,
+            -2,
+            -4
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            1,
+            3,
+            -3,
+            -4
+          ],
+          "coefficient": "-3/2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            -5,
+            3,
+            -2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            -4,
+            2,
+            -2
+          ],
+          "coefficient": "-17/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            -3,
+            1,
+            -2
+          ],
+          "coefficient": "-7/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            -2,
+            0,
+            -2
+          ],
+          "coefficient": "45/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            -1,
+            -1,
+            -2
+          ],
+          "coefficient": "9/4"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            0,
+            -2,
+            -2
+          ],
+          "coefficient": "-81/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            1,
+            -3,
+            -2
+          ],
+          "coefficient": "19/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            2,
+            -4,
+            -2
+          ],
+          "coefficient": "53/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            2,
+            3,
+            -5,
+            -2
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -7,
+            3,
+            0
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -6,
+            2,
+            0
+          ],
+          "coefficient": "11/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -5,
+            1,
+            0
+          ],
+          "coefficient": "19/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -4,
+            0,
+            0
+          ],
+          "coefficient": "-103/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -3,
+            -1,
+            0
+          ],
+          "coefficient": "-23/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -2,
+            -2,
+            0
+          ],
+          "coefficient": "45/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            -1,
+            -3,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            0,
+            -4,
+            0
+          ],
+          "coefficient": "-23/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            1,
+            -5,
+            0
+          ],
+          "coefficient": "11/4"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            2,
+            -6,
+            0
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            3,
+            3,
+            -7,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -8,
+            2,
+            2
+          ],
+          "coefficient": "67/96"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -7,
+            1,
+            2
+          ],
+          "coefficient": "37/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -6,
+            0,
+            2
+          ],
+          "coefficient": "-31/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -5,
+            -1,
+            2
+          ],
+          "coefficient": "13/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -4,
+            -2,
+            2
+          ],
+          "coefficient": "-13/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -3,
+            -3,
+            2
+          ],
+          "coefficient": "-111/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -4,
+            2
+          ],
+          "coefficient": "21/32"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -5,
+            2
+          ],
+          "coefficient": "47/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            0,
+            -6,
+            2
+          ],
+          "coefficient": "-17/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            1,
+            -7,
+            2
+          ],
+          "coefficient": "37/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            4,
+            2,
+            -8,
+            2
+          ],
+          "coefficient": "67/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -10,
+            2,
+            4
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -9,
+            1,
+            4
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -8,
+            0,
+            4
+          ],
+          "coefficient": "-43/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -7,
+            -1,
+            4
+          ],
+          "coefficient": "77/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -6,
+            -2,
+            4
+          ],
+          "coefficient": "-55/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -5,
+            -3,
+            4
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -4,
+            -4,
+            4
+          ],
+          "coefficient": "5/4"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -5,
+            4
+          ],
+          "coefficient": "-3/2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -6,
+            4
+          ],
+          "coefficient": "-1/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -7,
+            4
+          ],
+          "coefficient": "29/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            0,
+            -8,
+            4
+          ],
+          "coefficient": "-43/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            1,
+            -9,
+            4
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            5,
+            2,
+            -10,
+            4
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -10,
+            0,
+            6
+          ],
+          "coefficient": "-7/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -8,
+            -2,
+            6
+          ],
+          "coefficient": "-49/96"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -7,
+            -3,
+            6
+          ],
+          "coefficient": "109/96"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -4,
+            6
+          ],
+          "coefficient": "25/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -5,
+            6
+          ],
+          "coefficient": "-9/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -4,
+            -6,
+            6
+          ],
+          "coefficient": "25/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -7,
+            6
+          ],
+          "coefficient": "13/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            -2,
+            -8,
+            6
+          ],
+          "coefficient": "-49/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            6,
+            0,
+            -10,
+            6
+          ],
+          "coefficient": "-7/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -10,
+            -2,
+            8
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -4,
+            8
+          ],
+          "coefficient": "7/48"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -5,
+            8
+          ],
+          "coefficient": "5/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -7,
+            8
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -4,
+            -8,
+            8
+          ],
+          "coefficient": "7/24"
+        },
+        {
+          "slot": [
+            0,
+            1
+          ],
+          "frame": "f0*f1",
+          "exponent_zXYW": [
+            7,
+            -2,
+            -10,
+            8
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            -4,
+            4,
+            -8
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            -3,
+            3,
+            -8
+          ],
+          "coefficient": "-1/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            -2,
+            2,
+            -8
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            -1,
+            1,
+            -8
+          ],
+          "coefficient": "-9/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            1,
+            -1,
+            -8
+          ],
+          "coefficient": "9/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            2,
+            -2,
+            -8
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            3,
+            -3,
+            -8
+          ],
+          "coefficient": "1/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            2,
+            4,
+            -4,
+            -8
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -6,
+            4,
+            -6
+          ],
+          "coefficient": "-7/6"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -5,
+            3,
+            -6
+          ],
+          "coefficient": "-191/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -4,
+            2,
+            -6
+          ],
+          "coefficient": "-95/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -3,
+            1,
+            -6
+          ],
+          "coefficient": "187/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -2,
+            0,
+            -6
+          ],
+          "coefficient": "221/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            -1,
+            -1,
+            -6
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            0,
+            -2,
+            -6
+          ],
+          "coefficient": "-29/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            1,
+            -3,
+            -6
+          ],
+          "coefficient": "53/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            2,
+            -4,
+            -6
+          ],
+          "coefficient": "95/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            3,
+            -5,
+            -6
+          ],
+          "coefficient": "-157/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            3,
+            4,
+            -6,
+            -6
+          ],
+          "coefficient": "-5/6"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -8,
+            4,
+            -4
+          ],
+          "coefficient": "-2/3"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -7,
+            3,
+            -4
+          ],
+          "coefficient": "-25/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -6,
+            2,
+            -4
+          ],
+          "coefficient": "55/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -5,
+            1,
+            -4
+          ],
+          "coefficient": "23/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -4,
+            0,
+            -4
+          ],
+          "coefficient": "-31/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -3,
+            -1,
+            -4
+          ],
+          "coefficient": "17/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -2,
+            -4
+          ],
+          "coefficient": "13/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -3,
+            -4
+          ],
+          "coefficient": "-5/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            0,
+            -4,
+            -4
+          ],
+          "coefficient": "-39/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            1,
+            -5,
+            -4
+          ],
+          "coefficient": "15/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            2,
+            -6,
+            -4
+          ],
+          "coefficient": "5/6"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            3,
+            -7,
+            -4
+          ],
+          "coefficient": "-25/12"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            4,
+            4,
+            -8,
+            -4
+          ],
+          "coefficient": "-4/3"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -10,
+            4,
+            -2
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -9,
+            3,
+            -2
+          ],
+          "coefficient": "-7/32"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -8,
+            2,
+            -2
+          ],
+          "coefficient": "89/48"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -7,
+            1,
+            -2
+          ],
+          "coefficient": "5/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -6,
+            0,
+            -2
+          ],
+          "coefficient": "-7/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -5,
+            -1,
+            -2
+          ],
+          "coefficient": "5/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -4,
+            -2,
+            -2
+          ],
+          "coefficient": "-127/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -3,
+            -2
+          ],
+          "coefficient": "-79/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -4,
+            -2
+          ],
+          "coefficient": "127/96"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -5,
+            -2
+          ],
+          "coefficient": "17/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            0,
+            -6,
+            -2
+          ],
+          "coefficient": "-5/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            1,
+            -7,
+            -2
+          ],
+          "coefficient": "101/48"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            2,
+            -8,
+            -2
+          ],
+          "coefficient": "89/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            3,
+            -9,
+            -2
+          ],
+          "coefficient": "-7/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            5,
+            4,
+            -10,
+            -2
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -10,
+            2,
+            0
+          ],
+          "coefficient": "5/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -9,
+            1,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -8,
+            0,
+            0
+          ],
+          "coefficient": "-5/12"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -7,
+            -1,
+            0
+          ],
+          "coefficient": "11/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -2,
+            0
+          ],
+          "coefficient": "-49/48"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -3,
+            0
+          ],
+          "coefficient": "-15/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -4,
+            -4,
+            0
+          ],
+          "coefficient": "-7/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -5,
+            0
+          ],
+          "coefficient": "-21/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -2,
+            -6,
+            0
+          ],
+          "coefficient": "5/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            -1,
+            -7,
+            0
+          ],
+          "coefficient": "11/12"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            0,
+            -8,
+            0
+          ],
+          "coefficient": "-5/6"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            1,
+            -9,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            6,
+            2,
+            -10,
+            0
+          ],
+          "coefficient": "5/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -10,
+            0,
+            2
+          ],
+          "coefficient": "-3/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -2,
+            2
+          ],
+          "coefficient": "-17/24"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -3,
+            2
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -6,
+            -4,
+            2
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -5,
+            2
+          ],
+          "coefficient": "-11/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -4,
+            -6,
+            2
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -3,
+            -7,
+            2
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            -2,
+            -8,
+            2
+          ],
+          "coefficient": "-17/12"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            7,
+            0,
+            -10,
+            2
+          ],
+          "coefficient": "-3/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            8,
+            -10,
+            -2,
+            4
+          ],
+          "coefficient": "-13/48"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            8,
+            -8,
+            -4,
+            4
+          ],
+          "coefficient": "3/16"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            8,
+            -7,
+            -5,
+            4
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            8,
+            -4,
+            -8,
+            4
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "slot": [
+            0,
+            2
+          ],
+          "frame": "f0*f2",
+          "exponent_zXYW": [
+            8,
+            -2,
+            -10,
+            4
+          ],
+          "coefficient": "-13/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            0,
+            -2,
+            1,
+            0
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "coefficient": "9/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            0,
+            0,
+            -1,
+            0
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            0,
+            1,
+            -2,
+            0
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            1,
+            -4,
+            1,
+            2
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            1,
+            -2,
+            -1,
+            2
+          ],
+          "coefficient": "-15/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            1,
+            -1,
+            -2,
+            2
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            1,
+            0,
+            -3,
+            2
+          ],
+          "coefficient": "9/2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            1,
+            1,
+            -4,
+            2
+          ],
+          "coefficient": "-3/2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -6,
+            1,
+            4
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -5,
+            0,
+            4
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -4,
+            -1,
+            4
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -3,
+            -2,
+            4
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -2,
+            -3,
+            4
+          ],
+          "coefficient": "-13/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            -1,
+            -4,
+            4
+          ],
+          "coefficient": "-15/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            0,
+            -5,
+            4
+          ],
+          "coefficient": "2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            2,
+            1,
+            -6,
+            4
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -7,
+            0,
+            6
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -6,
+            -1,
+            6
+          ],
+          "coefficient": "-13/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -5,
+            -2,
+            6
+          ],
+          "coefficient": "-13/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -4,
+            -3,
+            6
+          ],
+          "coefficient": "9/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -3,
+            -4,
+            6
+          ],
+          "coefficient": "2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -2,
+            -5,
+            6
+          ],
+          "coefficient": "-13/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            -1,
+            -6,
+            6
+          ],
+          "coefficient": "-17/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            3,
+            0,
+            -7,
+            6
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -8,
+            -1,
+            8
+          ],
+          "coefficient": "-11/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -7,
+            -2,
+            8
+          ],
+          "coefficient": "-2/3"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -6,
+            -3,
+            8
+          ],
+          "coefficient": "7/3"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -5,
+            -4,
+            8
+          ],
+          "coefficient": "-11/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -4,
+            -5,
+            8
+          ],
+          "coefficient": "-13/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -3,
+            -6,
+            8
+          ],
+          "coefficient": "49/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -7,
+            8
+          ],
+          "coefficient": "-4/3"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -8,
+            8
+          ],
+          "coefficient": "-11/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -10,
+            -1,
+            10
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -9,
+            -2,
+            10
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -8,
+            -3,
+            10
+          ],
+          "coefficient": "7/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -7,
+            -4,
+            10
+          ],
+          "coefficient": "-11/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -6,
+            -5,
+            10
+          ],
+          "coefficient": "5/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -5,
+            -6,
+            10
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -4,
+            -7,
+            10
+          ],
+          "coefficient": "-5/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -8,
+            10
+          ],
+          "coefficient": "7/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -9,
+            10
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -10,
+            10
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -10,
+            -3,
+            12
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -8,
+            -5,
+            12
+          ],
+          "coefficient": "5/24"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -7,
+            -6,
+            12
+          ],
+          "coefficient": "-2/3"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -7,
+            12
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -8,
+            12
+          ],
+          "coefficient": "5/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -10,
+            12
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            7,
+            -10,
+            -5,
+            14
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -7,
+            14
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -8,
+            14
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            1,
+            1
+          ],
+          "frame": "E0^2",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -10,
+            14
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            -3,
+            2,
+            -4
+          ],
+          "coefficient": "3/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            -2,
+            1,
+            -4
+          ],
+          "coefficient": "9/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            -1,
+            0,
+            -4
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            0,
+            -1,
+            -4
+          ],
+          "coefficient": "-3/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            1,
+            -2,
+            -4
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            1,
+            2,
+            -3,
+            -4
+          ],
+          "coefficient": "-3/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            -5,
+            2,
+            -2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            -4,
+            1,
+            -2
+          ],
+          "coefficient": "-5/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            -3,
+            0,
+            -2
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            -2,
+            -1,
+            -2
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            -1,
+            -2,
+            -2
+          ],
+          "coefficient": "21/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            0,
+            -3,
+            -2
+          ],
+          "coefficient": "15/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            1,
+            -4,
+            -2
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            2,
+            2,
+            -5,
+            -2
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -7,
+            2,
+            0
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -6,
+            1,
+            0
+          ],
+          "coefficient": "11/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -5,
+            0,
+            0
+          ],
+          "coefficient": "15/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -4,
+            -1,
+            0
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -3,
+            -2,
+            0
+          ],
+          "coefficient": "-67/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -2,
+            -3,
+            0
+          ],
+          "coefficient": "-89/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            -1,
+            -4,
+            0
+          ],
+          "coefficient": "2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            0,
+            -5,
+            0
+          ],
+          "coefficient": "27/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            1,
+            -6,
+            0
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            3,
+            2,
+            -7,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -8,
+            1,
+            2
+          ],
+          "coefficient": "2/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -7,
+            0,
+            2
+          ],
+          "coefficient": "11/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -6,
+            -1,
+            2
+          ],
+          "coefficient": "-15/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -5,
+            -2,
+            2
+          ],
+          "coefficient": "-23/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -4,
+            -3,
+            2
+          ],
+          "coefficient": "4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -3,
+            -4,
+            2
+          ],
+          "coefficient": "2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -5,
+            2
+          ],
+          "coefficient": "-77/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -6,
+            2
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            0,
+            -7,
+            2
+          ],
+          "coefficient": "11/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            4,
+            1,
+            -8,
+            2
+          ],
+          "coefficient": "4/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -10,
+            1,
+            4
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -9,
+            0,
+            4
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -8,
+            -1,
+            4
+          ],
+          "coefficient": "-7/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -7,
+            -2,
+            4
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -6,
+            -3,
+            4
+          ],
+          "coefficient": "11/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -5,
+            -4,
+            4
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -6,
+            4
+          ],
+          "coefficient": "5/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -7,
+            4
+          ],
+          "coefficient": "-5/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -8,
+            4
+          ],
+          "coefficient": "-7/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            0,
+            -9,
+            4
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            5,
+            1,
+            -10,
+            4
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -10,
+            -1,
+            6
+          ],
+          "coefficient": "-7/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -9,
+            -2,
+            6
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -8,
+            -3,
+            6
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -7,
+            -4,
+            6
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -5,
+            6
+          ],
+          "coefficient": "25/12"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -6,
+            6
+          ],
+          "coefficient": "7/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -4,
+            -7,
+            6
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -8,
+            6
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -2,
+            -9,
+            6
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            6,
+            -1,
+            -10,
+            6
+          ],
+          "coefficient": "-7/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -5,
+            8
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -6,
+            8
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            7,
+            -6,
+            -7,
+            8
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -8,
+            8
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            8,
+            -10,
+            -5,
+            10
+          ],
+          "coefficient": "1/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            8,
+            -8,
+            -7,
+            10
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            8,
+            -7,
+            -8,
+            10
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            1,
+            2
+          ],
+          "frame": "f1*f2",
+          "exponent_zXYW": [
+            8,
+            -5,
+            -10,
+            10
+          ],
+          "coefficient": "1/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            -4,
+            3,
+            -8
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            -3,
+            2,
+            -8
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            -1,
+            0,
+            -8
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            0,
+            -1,
+            -8
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            2,
+            -3,
+            -8
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            2,
+            3,
+            -4,
+            -8
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -6,
+            3,
+            -6
+          ],
+          "coefficient": "-7/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -5,
+            2,
+            -6
+          ],
+          "coefficient": "-43/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -4,
+            1,
+            -6
+          ],
+          "coefficient": "-7/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -3,
+            0,
+            -6
+          ],
+          "coefficient": "25/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -2,
+            -1,
+            -6
+          ],
+          "coefficient": "25/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            -1,
+            -2,
+            -6
+          ],
+          "coefficient": "7/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            0,
+            -3,
+            -6
+          ],
+          "coefficient": "11/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            1,
+            -4,
+            -6
+          ],
+          "coefficient": "-7/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            2,
+            -5,
+            -6
+          ],
+          "coefficient": "-41/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            3,
+            3,
+            -6,
+            -6
+          ],
+          "coefficient": "-5/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -8,
+            3,
+            -4
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -7,
+            2,
+            -4
+          ],
+          "coefficient": "-5/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -6,
+            1,
+            -4
+          ],
+          "coefficient": "11/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -5,
+            0,
+            -4
+          ],
+          "coefficient": "91/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -4,
+            -1,
+            -4
+          ],
+          "coefficient": "7/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -3,
+            -2,
+            -4
+          ],
+          "coefficient": "-37/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -2,
+            -3,
+            -4
+          ],
+          "coefficient": "-27/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            -1,
+            -4,
+            -4
+          ],
+          "coefficient": "53/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            0,
+            -5,
+            -4
+          ],
+          "coefficient": "89/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            1,
+            -6,
+            -4
+          ],
+          "coefficient": "1/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            2,
+            -7,
+            -4
+          ],
+          "coefficient": "-5/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            4,
+            3,
+            -8,
+            -4
+          ],
+          "coefficient": "-2/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -10,
+            3,
+            -2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -9,
+            2,
+            -2
+          ],
+          "coefficient": "-1/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -8,
+            1,
+            -2
+          ],
+          "coefficient": "11/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -7,
+            0,
+            -2
+          ],
+          "coefficient": "5/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -6,
+            -1,
+            -2
+          ],
+          "coefficient": "-2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -5,
+            -2,
+            -2
+          ],
+          "coefficient": "-13/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -4,
+            -3,
+            -2
+          ],
+          "coefficient": "7/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -3,
+            -4,
+            -2
+          ],
+          "coefficient": "-5/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -2,
+            -5,
+            -2
+          ],
+          "coefficient": "-17/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            -1,
+            -6,
+            -2
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            0,
+            -7,
+            -2
+          ],
+          "coefficient": "13/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            1,
+            -8,
+            -2
+          ],
+          "coefficient": "11/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            2,
+            -9,
+            -2
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            5,
+            3,
+            -10,
+            -2
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -10,
+            1,
+            0
+          ],
+          "coefficient": "11/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -9,
+            0,
+            0
+          ],
+          "coefficient": "1/2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -8,
+            -1,
+            0
+          ],
+          "coefficient": "-9/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -6,
+            -3,
+            0
+          ],
+          "coefficient": "11/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -5,
+            -4,
+            0
+          ],
+          "coefficient": "-5/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -4,
+            -5,
+            0
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -3,
+            -6,
+            0
+          ],
+          "coefficient": "35/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -2,
+            -7,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            -1,
+            -8,
+            0
+          ],
+          "coefficient": "-9/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            0,
+            -9,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            6,
+            1,
+            -10,
+            0
+          ],
+          "coefficient": "11/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -10,
+            -1,
+            2
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -9,
+            -2,
+            2
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -8,
+            -3,
+            2
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -7,
+            -4,
+            2
+          ],
+          "coefficient": "1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -6,
+            -5,
+            2
+          ],
+          "coefficient": "4/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -5,
+            -6,
+            2
+          ],
+          "coefficient": "7/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -4,
+            -7,
+            2
+          ],
+          "coefficient": "-1/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -3,
+            -8,
+            2
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -2,
+            -9,
+            2
+          ],
+          "coefficient": "-1/2"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            7,
+            -1,
+            -10,
+            2
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -10,
+            -3,
+            4
+          ],
+          "coefficient": "-5/24"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -8,
+            -5,
+            4
+          ],
+          "coefficient": "3/8"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -7,
+            -6,
+            4
+          ],
+          "coefficient": "-1/3"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -6,
+            -7,
+            4
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -5,
+            -8,
+            4
+          ],
+          "coefficient": "3/4"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            8,
+            -3,
+            -10,
+            4
+          ],
+          "coefficient": "-5/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            9,
+            -10,
+            -5,
+            6
+          ],
+          "coefficient": "1/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            9,
+            -8,
+            -7,
+            6
+          ],
+          "coefficient": "-1/12"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            9,
+            -7,
+            -8,
+            6
+          ],
+          "coefficient": "-1/6"
+        },
+        {
+          "slot": [
+            2,
+            2
+          ],
+          "frame": "f2*f2",
+          "exponent_zXYW": [
+            9,
+            -5,
+            -10,
+            6
+          ],
+          "coefficient": "1/6"
+        }
+      ],
+      "wrong_sign_remainder_equals_twice_identified": true,
+      "wrong_sign_equation": "fail",
+      "blanket_input_flip_used": false,
+      "result": "pass"
+    }
+  },
+  "dependencies": {
+    "shared_with_published_verifiers": [
+      "literal first jet eta",
+      "literal second-middle primitives kappa, including mixed lambda z^{-1} E0^2",
+      "plane geometry: coordinates, frame, bivector, line relation, transport and Cech cover"
+    ],
+    "independent_in_this_replay": [
+      "polynomial and symmetric-tensor arithmetic",
+      "cubic BCH assembly",
+      "relation quotient",
+      "grading and regularity",
+      "the two controls"
+    ],
+    "not_imported": [
+      "construct_third_middle.py",
+      "pinned_contraction.py",
+      "verify_third_middle.py",
+      "tensor_slot_support.py"
+    ],
+    "lambda_slice_comparison": "The five supplied lambda-order-three primitives inside the kappa certificate are compared with the exported primitives. They are not recomputed."
+  },
+  "all_passed": true
+}
