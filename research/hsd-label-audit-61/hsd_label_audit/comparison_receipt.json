@@ -1,0 +1,91 @@
+{
+  "frozen_certificate": "research/hsd-label-audit-61/hsd_label_audit/frozen/basis_certificate.json",
+  "content_sha256": "8044d1e26a3b0419570cec48a388afabec58a7e0b89d5d3ca20318854b6836a6",
+  "freeze_commit": "a628b449f9c48bb08a227d55cc65c729fb890d7b",
+  "arithmetic": "exact rational",
+  "bijection_rule": {
+    "source": "frozen U (slot, z exponent, dual indices) equals shipped [slot, exponent, dual]",
+    "target": "frozen W (slot, z exponent, actual exponents) equals shipped [slot, exponent, actual]"
+  },
+  "orders": [
+    {
+      "k": 2,
+      "map": "D2",
+      "frozen_dimension_U": 336,
+      "frozen_dimension_W": 390,
+      "shipped_shape": [
+        390,
+        336
+      ],
+      "source_set_equal": true,
+      "target_set_equal": true,
+      "source_only_frozen": [],
+      "source_only_shipped": [],
+      "target_only_frozen": [],
+      "target_only_shipped": [],
+      "ordered_source_identity": true,
+      "ordered_target_identity": true,
+      "bijection": "identity on the ordered labels",
+      "alpha_coordinates_outside_target": [],
+      "full_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "full_nonzero_rebuilt": 1068,
+      "full_nonzero_shipped": 1068,
+      "character": -2,
+      "slice_source_columns": 15,
+      "slice_target_rows": 16,
+      "slice_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "slice_rank_over_Q": 15,
+      "slice_determinant_over_Q": null
+    },
+    {
+      "k": 3,
+      "map": "D3",
+      "frozen_dimension_U": 423,
+      "frozen_dimension_W": 534,
+      "shipped_shape": [
+        534,
+        423
+      ],
+      "source_set_equal": true,
+      "target_set_equal": true,
+      "source_only_frozen": [],
+      "source_only_shipped": [],
+      "target_only_frozen": [],
+      "target_only_shipped": [],
+      "ordered_source_identity": true,
+      "ordered_target_identity": true,
+      "bijection": "identity on the ordered labels",
+      "alpha_coordinates_outside_target": [],
+      "full_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "full_nonzero_rebuilt": 1480,
+      "full_nonzero_shipped": 1480,
+      "character": -1,
+      "slice_source_columns": 9,
+      "slice_target_rows": 9,
+      "slice_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "slice_rank_over_Q": 9,
+      "slice_determinant_over_Q": "1"
+    }
+  ],
+  "mismatch": false
+}
