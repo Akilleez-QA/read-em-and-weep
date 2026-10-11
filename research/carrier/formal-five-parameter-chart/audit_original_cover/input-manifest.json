@@ -1,0 +1,10 @@
+{
+  "public_commit": "ca9226569ddb5ed29d2809f1f4e4e1ae7c646ea8",
+  "input_sha256": {
+    "data/first_jet.json": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+    "data/order_2.json": "180ac6ddbec151e966b9a57a38bdd3696b8bf02dd6d6faf96fc739f98e17f045",
+    "data/order_3.json": "e9aec49580b90c90c3acfb09683d5a5df3a101969e755373c221e20ff47efcf0",
+    "certificates/quadratic_certificate.json": "af2592f58865f3bb47f2f751f677baa1bc0c9615108b9ef4d368cc07870e3af3"
+  },
+  "boundary": "Fixed plane datum and completeness of source/target basis labels; all selected D2/D3 entries and obstruction brackets regenerated."
+}
