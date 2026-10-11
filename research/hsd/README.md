@@ -12,7 +12,9 @@ The central defect of the fixed chosen carrier has independently certified lengt
 As of the earlier checkpoint, before 6104798062, that length was uncomputed.
 
 - G2, the global vector-bundle extension, is **EXCLUDED** for this carrier only.
-- G1, the formal continuation of this carrier, stays passed and retained.
+- G1, the formal continuation of this carrier, stays open.
 - Other formal-lift and carrier choices stay **OPEN**.
+
+A parameter-family continuation by upper semicontinuity needs a finite or proper relative-support certificate for \(Q\) over the base. The module \(\mathbf{Q}[t,x]/(tx-1)\) has fibre length \(1\) for \(t\neq 0\) and length \(0\) at \(t=0\). The target is a non-empty zero-defect locus. A smaller positive length remains a defect.
 
 This result does not settle the original theorem, the central conditions for other carriers, or the Horrocks–Mumford second-order obstruction computation.
