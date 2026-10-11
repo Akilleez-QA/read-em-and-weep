@@ -1,0 +1,36 @@
+{
+  "scope": "Universal identities and normalized degree-two correction equations only; no higher coefficient or ancestor certification.",
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "Hessian_of_Poisson_bracket",
+      "entries": 16
+    },
+    {
+      "check": "A_is_Lie_homomorphism",
+      "entries": 16
+    },
+    {
+      "check": "minus_A_is_Lie_antihomomorphism",
+      "entries": 16
+    },
+    {
+      "check": "symplectic_infinitesimal_A",
+      "entries": 16
+    },
+    {
+      "check": "triangle_positive_correction_RHS",
+      "entries": 16
+    },
+    {
+      "check": "mixed_positive_correction_RHS",
+      "entries": 16
+    },
+    {
+      "check": "opposite_BCH_degree_two",
+      "entries": 16
+    }
+  ],
+  "count": 7,
+  "entries": 112
+}
