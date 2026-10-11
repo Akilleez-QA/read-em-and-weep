@@ -1,0 +1,54 @@
+{
+  "schema": "hm-c0-structural-integration-check-v1",
+  "status": "PASS_DEFINITION_ONLY",
+  "sourceCoefficientsEvaluated": false,
+  "targetOutputRead": false,
+  "targetOutputVerdict": null,
+  "c0DocumentSHA256": "c2951e365fb44809c132e606af11d854c74e2f3554b942da85e1873ebc9efa1d",
+  "c0DependencyManifestSHA256": "4ce8c55f5029a932b60048ebb911a7a094c05efa02324e4949d307425171e955",
+  "graphSHA256": "58203463187374dd0e1259712f6b0ead0c24983022b33f8740de579c3a2703a6",
+  "sourceMapping": {
+    "128045": 22866,
+    "128874": 22874,
+    "133174": 23615
+  },
+  "rootTerms": [
+    {
+      "coefficient": 1,
+      "residualNode": 133169,
+      "sourceFactors": [
+        0,
+        1,
+        15,
+        37,
+        23117
+      ],
+      "outsideFactors": []
+    },
+    {
+      "coefficient": 2,
+      "residualNode": 133173,
+      "sourceFactors": [
+        10,
+        10,
+        14,
+        14,
+        23543
+      ],
+      "outsideFactors": [
+        [
+          9,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    }
+  ],
+  "supplement": {
+    "artifact": "INTEGRATION_CHECK.md",
+    "sha256": "4c8e458c81f1c19131df4e158dd823971ea70d66aca49771d83892951efc2a72"
+  }
+}

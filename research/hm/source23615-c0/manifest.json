@@ -1,0 +1,246 @@
+{
+  "schema": "hm-c0-dependency-manifest-v1",
+  "status": "PRE_OUTPUT_CONTRACT_FOR_ROOT_REVIEW",
+  "field": "F3",
+  "sourceSymbol": 23615,
+  "moduleNode": 133174,
+  "residueCode": 41,
+  "residueDigits": [
+    2,
+    1,
+    1,
+    1
+  ],
+  "outputSHA256": null,
+  "outputValuesIncluded": false,
+  "dependencyHashIsOutputHash": false,
+  "initialPlan": {
+    "artifact": "higher-cone-133174-plan.json",
+    "sha256": "5c5bf0bdb31b43c501869bbaf449bc2462902eadd30cc6443d0be87d1a3f9d48"
+  },
+  "dependencies": [
+    {
+      "role": "graph",
+      "artifact": "first-lazy-module.graph.json",
+      "sha256": "58203463187374dd0e1259712f6b0ead0c24983022b33f8740de579c3a2703a6",
+      "bytes": 9879591,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "resources",
+      "artifact": "first-lazy-module.node-resources.json",
+      "sha256": "5cdd37f027338437730c38a9e773096361a9ae6666739ac1649ed2eb06aeb25d",
+      "bytes": 7775045,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "normalized",
+      "artifact": "all-assignments.normalized.json",
+      "sha256": "8067c59cd141b44741156bd5ac5d0ac2d7055177b6aee43ea9a09f1b600176fc",
+      "bytes": 6220398,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "downstreamWindows",
+      "artifact": "true-downstream-node-windows.json",
+      "sha256": "324794bf8d4ae715015c122db44b914e8d75778531efb66e84fb1046b5ee24cb",
+      "bytes": 7615034,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "driver",
+      "artifact": "run_higher_source_cone.py",
+      "sha256": "daf0bcad490310fa69184add591a7a85aeb4677e140dfc91d28ae9c4dbb302cf",
+      "bytes": 8697,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "oracle",
+      "artifact": "check_higher_source_cone.py",
+      "sha256": "f4c539e71ed1496378f9e6c62e94e5cbb32a05b22b28788169ed836aeb898714",
+      "bytes": 6028,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "evaluator",
+      "artifact": "checkpointed_module_fragment_v2.py",
+      "sha256": "965312fccd12054e80f35c72bf75e3bb19a7b78cbc5f3c0680368ca335bb54a1",
+      "bytes": 6552,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "codec",
+      "artifact": "cone_checkpoint_codec.py",
+      "sha256": "eaaf5150e3da03c070545f959ad7a75623f0309d21a87b6f49c2346db5dc94dd",
+      "bytes": 2263,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "fragmentHelper",
+      "artifact": "connected_module_fragment_v2.py",
+      "sha256": "62d470cce06e486966ced035caa95f3f71178d067ebed246d6890740594fc977",
+      "bytes": 4345,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "kernel",
+      "artifact": "f3_targeted_convolution_v2.py",
+      "sha256": "e278ba735e76cb85f9777a367ec44931284a8070aa79699da086c345c84d7367",
+      "bytes": 6092,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "baseKernel",
+      "artifact": "f3_blocked_convolution.py",
+      "sha256": "c6a3a94a4d4e44716005234ab063cfbd49352b433d7ab87fe4ae8b39f965bf0f",
+      "bytes": 4986,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "module",
+      "artifact": "lazy_cartier_module.py",
+      "sha256": "2be05f1c803ee00aa125a1096bed013d21f587a1917699412d5705a9168ad6bc",
+      "bytes": 7290,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "proof",
+      "artifact": "HIGHER_SOURCE_BRANCH.md",
+      "sha256": "b991bff8056dcdcdf7d86737f77db71e43a2452635ae169dce6075df027e0381",
+      "bytes": 1805,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "fixtures",
+      "artifact": "dual-seed-cone-checkpoint-fixtures.json",
+      "sha256": "4098967890063a2223383e057f53c7e77670ad70911f5217dfa63469a5d35575",
+      "bytes": 865,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "fixtureProgram",
+      "artifact": "test_dual_seed_cone_checkpoints.py",
+      "sha256": "fbbb5630204beef9217f92b2ff3a717296e26ffce79cdeeaaccb64ae9e75fd21",
+      "bytes": 5086,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seedFrontier",
+      "artifact": "large-cone-128874-oracle-frontier.json",
+      "sha256": "aa832affde996f1d3ca7caf4f6029882af3a9a91fe90e69b0a37acd5f3f06297",
+      "bytes": 440398,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seedPlan",
+      "artifact": "large-connected-cone-plan.json",
+      "sha256": "b19df9d6217facfec5080bf5e57466c5be3688658a8ff138c1afa324cc8705de",
+      "bytes": 14458,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seedOracleReport",
+      "artifact": "large-cone-128874-oracle-report.json",
+      "sha256": "4c5b8750e478f8a576c8b0c1ea858230b844d35b2a62ac9ee72b1a6049a02478",
+      "bytes": 992,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "trueDemandAudit",
+      "artifact": "true-downstream-completion-receipt.json",
+      "sha256": "493b39a57b03616e1f837de923b6b7457401edc041ebb9d5e4de12fc57580c92",
+      "bytes": 921,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "kernelAudit",
+      "artifact": "blocked-convolution-kernel-receipt.json",
+      "sha256": "290e120d9b9f775ae93bb262cc9b526baa94b745b035426a97e6daa5fad17898",
+      "bytes": 2191,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seedAudit",
+      "artifact": "large-cone-completion-receipt.json",
+      "sha256": "01ec5e2b45b32aadc95f18b7390057215ba5ad6d671dc340b7e529b4d181e509",
+      "bytes": 1850,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seed22866Frontier",
+      "artifact": "ancestor-cone-129656-oracle-frontier-residue-continuation.json",
+      "sha256": "7064942cff57a518363118da5c09cec27bc005b04969646c92b0080f3b295fc6",
+      "bytes": 2223257,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "ordinaryOracleHelper",
+      "artifact": "sparse_residue_oracle.py",
+      "sha256": "73a82d45e0e2063ecfd41e1404f3a78785645c588204e77fe240065c0f2a8edb",
+      "bytes": 1762,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "atomicHelper",
+      "artifact": "atomic_sparse_accumulation.py",
+      "sha256": "9a4b0ba91875354faa65451e536336ca82b6d5a35b28d87c5ad3e3c10d8f3185",
+      "bytes": 656,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "oracleFixtures",
+      "artifact": "sparse-residue-oracle-fixtures-v2.json",
+      "sha256": "b4431336cb73b33e6500e6b2cd2178c58e718e6510c7b9c06e50c6b7fe1b5a76",
+      "bytes": 540,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "atomicFixtures",
+      "artifact": "atomic-sparse-accumulation-fixtures.json",
+      "sha256": "0d779de10ae710373fe4f0c78f94ef09e5a65b65950fb55dabba5f865307da1e",
+      "bytes": 398,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "priorAncestorManifest",
+      "artifact": "ancestor-component-boundary-manifest.json",
+      "sha256": "1d6c9efe9929efc79f37420fa4c6bfccb958924b0244721e9174dfb6081571e3",
+      "bytes": 28799,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "preparationProgram",
+      "artifact": "prepare_higher_source_plan.py",
+      "sha256": "859f78b12dc7c575bfff3f33882b8e5870d2e0eb12a2fb9e65421f71ddb01a95",
+      "bytes": 3796,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "seed22866Audit",
+      "artifact": "full-source-22866-seed-receipt.json",
+      "sha256": "d1dead80e83a86b7e7f331247014e607088d54abe05fbdd0631ee5d85a6084bf",
+      "bytes": 1122,
+      "verifiedAgainstAcceptedInitialPlan": true
+    },
+    {
+      "role": "priorAncestorSeal",
+      "artifact": "ancestor-seal-receipt.json",
+      "sha256": "4667b345ae07007161c6d43983ba1e48841d1dfd35664d61b3a6d6825c988572",
+      "bytes": 441,
+      "verifiedAgainstAcceptedInitialPlan": true
+    }
+  ],
+  "contractArtifacts": [
+    {
+      "artifact": "C0.md",
+      "sha256": "c2951e365fb44809c132e606af11d854c74e2f3554b942da85e1873ebc9efa1d",
+      "bytes": 10484
+    },
+    {
+      "artifact": "source-definition.json",
+      "sha256": "6f187fd11a684143d578438bdca4f0dc64849ace68be0e6b36adf95521bf870f",
+      "bytes": 33033
+    }
+  ],
+  "scope": "Mathematical target and accepted initial dependencies. Later implementation/continuation files require additive separately reviewed manifests; no execution or output verdict."
+}
