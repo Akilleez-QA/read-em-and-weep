@@ -1,0 +1,14 @@
+{
+  "schema": "hm-plane-completion-lemma-manifest-v1",
+  "scope": "Global rank-four L-symplectic completion of the displayed fixed presymplectic G; uniqueness fixing G and canonical P-D pairing; conditional torus linearization; nonexistence only for the precisely stated retained-B rank-five presentation. No ancestor identification, prescribed first-jet comparison, carrier construction, defect calculation, or full target theorem is asserted.",
+  "files": {
+    "PLANE_COMPLETION_LEMMA.md": {
+      "sha256": "fcb28b552115339c62c4e751caebf6876ca33885db061e267ddde028c6c0cde0",
+      "bytes": 12807
+    },
+    "INDEPENDENT_REVIEW.md": {
+      "sha256": "f1e7807f73437acb88615ef0412c15fc105c5cef4841f23f09d54e8f0c48ff4f",
+      "bytes": 5344
+    }
+  }
+}

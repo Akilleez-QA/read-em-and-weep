@@ -1,0 +1,137 @@
+{
+  "schema": "hm-third-order-compressed-distribution-v1",
+  "scope": "Byte-preserving distribution of the frozen middle and section packages; structured lift modulo h^4 only.",
+  "compressed_file": "third-order-distribution/THIRD_MIDDLE_COCHAINS.json.gz",
+  "compression": {
+    "raw_sha256": "011ba80d06f7b47a077845f377e9b22a5a9e51d808804e88e2ba4bf66c2306cd",
+    "raw_bytes": 23833465,
+    "gzip_sha256": "5033872e143d1e93d650698659a13853af0d7332c405b5454aacab96cfa7196c",
+    "gzip_bytes": 875342
+  },
+  "reconstructed_files": [
+    "third-middle-construction/THIRD_MIDDLE_COCHAINS.json",
+    "third-normal-comparison/THIRD_MIDDLE_COCHAINS.json"
+  ],
+  "distributed_files": {
+    "third-middle-construction/RUN_VERIFICATION.json": {
+      "sha256": "19e358e5dfd5bcc4a4e065f0c11ed4474a651ffe2611a8d351b0d1f0e8767624",
+      "bytes": 413
+    },
+    "third-middle-construction/SHA256SUMS": {
+      "sha256": "cb9af568ea53aa11e621e5beb348662377df249fa21c7cb1658866cd029981f9",
+      "bytes": 1071
+    },
+    "third-middle-construction/THIRD_MIDDLE_CHECKS.json": {
+      "sha256": "373bb043b37469dd5d5827bb41a81d7db6b80bffa2391f58a48b8c4e74e498ae",
+      "bytes": 15227
+    },
+    "third-middle-construction/THIRD_MIDDLE_CONSTRUCTION.md": {
+      "sha256": "dfba15420e0480ff04b7f82070d4ae857275de63e506a46a487180b61c468fba",
+      "bytes": 6129
+    },
+    "third-middle-construction/THIRD_MIDDLE_INDEPENDENT_CHECKS.json": {
+      "sha256": "87715d047f86c4faf9c01caa8bbffc7c5fe867f09994f75be4c9955562d23323",
+      "bytes": 81934
+    },
+    "third-middle-construction/certificate.json": {
+      "sha256": "c03a36fca19b7a73b8c483c7dc9e2a17f4a1ea422e9a61972966b734cd5597e4",
+      "bytes": 152410
+    },
+    "third-middle-construction/construct_third_middle.py": {
+      "sha256": "f309d951d3004ce7e2a398800b162af8ba99961b36b223b65b3e3117f72717a4",
+      "bytes": 6088
+    },
+    "third-middle-construction/first_jet.json": {
+      "sha256": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+      "bytes": 12297
+    },
+    "third-middle-construction/order_3.json": {
+      "sha256": "e9aec49580b90c90c3acfb09683d5a5df3a101969e755373c221e20ff47efcf0",
+      "bytes": 46955
+    },
+    "third-middle-construction/pinned_contraction.py": {
+      "sha256": "5e8b20bc7f11dd9061336d9ff6be5efcb2b8fd86555d65dfb5f14e7eeac11168",
+      "bytes": 23670
+    },
+    "third-middle-construction/tensor_slot_support.py": {
+      "sha256": "72967e6ece998ffbf73e4ca95ddbd8f4171044f360d38db850ee0606495e8ffc",
+      "bytes": 4472
+    },
+    "third-middle-construction/verify_third_middle.py": {
+      "sha256": "fc5d88c96cd75071fcd98df8e1e53ce7af8ce68fa4336ee355817748c8f59b95",
+      "bytes": 6399
+    },
+    "third-normal-comparison/FIRST_NORMAL_COMPARISON_CHECKS.json": {
+      "sha256": "d33766f8972063f546796d23118900a33817d4b1a01e61e5653420e1a101c4de",
+      "bytes": 27599
+    },
+    "third-normal-comparison/FIRST_NORMAL_SECTION_CORRECTIONS.json": {
+      "sha256": "7330a7748c654493580e73915c9f2cee71bceff57ce859abcc18affc6910cc83",
+      "bytes": 14615
+    },
+    "third-normal-comparison/RUN_VERIFICATION.json": {
+      "sha256": "8d7ab0917a847b891ae78808ec492de50b444ed069674421c0a978eaa636c0f0",
+      "bytes": 766
+    },
+    "third-normal-comparison/SECOND_NORMAL_SECTION_CORRECTIONS.json": {
+      "sha256": "c6f2120accbc6d8900a4ceef9fb2ba1258fcc790dd323657b47c48c7630e905f",
+      "bytes": 69750
+    },
+    "third-normal-comparison/SHA256SUMS": {
+      "sha256": "39878c254147061cf310c2a4164f50b589f41696eafb9a3697a4e44d89b90a17",
+      "bytes": 1430
+    },
+    "third-normal-comparison/THIRD_NORMAL_DIRECT_EQUATION_CHECKS.json": {
+      "sha256": "f5fb91fbb185580249e312cee79b7fa015e219bdc6b09305e1febc69fe1b89ed",
+      "bytes": 79161
+    },
+    "third-normal-comparison/THIRD_NORMAL_SECTION.md": {
+      "sha256": "c5431eeccc1e36cc8a7a1c09c34d7289fecda20bc99cc38e8573c7f1b677d4ee",
+      "bytes": 6372
+    },
+    "third-normal-comparison/THIRD_NORMAL_SECTION_CHECKS.json": {
+      "sha256": "3b7cc140e566226730966e845aee63d600a26a87caaad41e8a1da136bd3f730b",
+      "bytes": 85158
+    },
+    "third-normal-comparison/THIRD_NORMAL_SECTION_CORRECTIONS.json": {
+      "sha256": "99d7330c0b95708c94e027e7f5bf54859e04c13deae59f98f76656a056002da8",
+      "bytes": 312904
+    },
+    "third-normal-comparison/certificate.json": {
+      "sha256": "c03a36fca19b7a73b8c483c7dc9e2a17f4a1ea422e9a61972966b734cd5597e4",
+      "bytes": 152410
+    },
+    "third-normal-comparison/construct_third_section.py": {
+      "sha256": "995c90b5304f737be814a6ee536b500ac7fd61bdeb5a68e99169d4b601f93e15",
+      "bytes": 5575
+    },
+    "third-normal-comparison/first_jet.json": {
+      "sha256": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+      "bytes": 12297
+    },
+    "third-normal-comparison/first_order_support.py": {
+      "sha256": "4225ddccd6b8bd9427beee2644fe5acac80d0d35932ea81ca4409647cf762681",
+      "bytes": 11168
+    },
+    "third-normal-comparison/section_action_support.py": {
+      "sha256": "50ae8c4fbd784b8ba3c5517a37307477452826698d11eb8f5656dcf514a13125",
+      "bytes": 2270
+    },
+    "third-normal-comparison/verify_third_section_equations.py": {
+      "sha256": "0653d8a07648615e2cb3495565aad699a883ea84ceeba168189053ab938efc9f",
+      "bytes": 5457
+    },
+    "third-order-distribution/README.md": {
+      "sha256": "e0efae292a71ce4bf64d2448a3634f2f816f6ed5b5c650eb563ea1f5230a0429",
+      "bytes": 3150
+    },
+    "third-order-distribution/THIRD_MIDDLE_COCHAINS.json.gz": {
+      "sha256": "5033872e143d1e93d650698659a13853af0d7332c405b5454aacab96cfa7196c",
+      "bytes": 875342
+    },
+    "third-order-distribution/unpack_cochains.py": {
+      "sha256": "d74f66db751f09ebbae628506dc8144bc60fa56c47649e10c2174a72bff9cf59",
+      "bytes": 3247
+    }
+  }
+}
