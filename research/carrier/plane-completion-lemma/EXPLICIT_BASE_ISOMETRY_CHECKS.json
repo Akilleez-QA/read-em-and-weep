@@ -1,0 +1,828 @@
+{
+  "scope": "Exact identities for our constructed plane completion; no ancestor, normal-jet, carrier or defect identification.",
+  "coefficient_ring": "Q(z,X,Y,W), with regularity restricted to the stated homogeneous overlap localizations",
+  "checks": [
+    {
+      "check": "numerator_identity_finite",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "numerator_identity_infinity",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_projection_0",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_relation_0",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_radical_0",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_pfaffian_determinant_0",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_00",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_00",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_000",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_001",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_002",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_01",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_01",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_010",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_011",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_012",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_02",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_02",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_020",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_021",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_022",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_projection_1",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_relation_1",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_radical_1",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_pfaffian_determinant_1",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_10",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_10",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_100",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_101",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_102",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_11",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_11",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_110",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_111",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_112",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_12",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_12",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_120",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_121",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_122",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_projection_2",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_relation_2",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_radical_2",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_pfaffian_determinant_2",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_20",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_20",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_200",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_201",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_202",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_21",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_21",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_210",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_211",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_212",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_form_22",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_inverse_22",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_220",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_221",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "finite_cocycle_222",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_projection_0",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_relation_0",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_radical_0",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_pfaffian_determinant_0",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_00",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_00",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_000",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_001",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_002",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_01",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_01",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_010",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_011",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_012",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_02",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_02",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_020",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_021",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_022",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_projection_1",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_relation_1",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_radical_1",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_pfaffian_determinant_1",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_10",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_10",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_100",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_101",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_102",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_11",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_11",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_110",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_111",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_112",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_12",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_12",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_120",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_121",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_122",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_projection_2",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_relation_2",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_radical_2",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_pfaffian_determinant_2",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_20",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_20",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_200",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_201",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_202",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_21",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_21",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_210",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_211",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_212",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_form_22",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_inverse_22",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_220",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_221",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "infinity_cocycle_222",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_relation_0",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_full_form_0",
+      "entries": 25,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_explicit_matrix_0",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_quotient_form_0",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_determinant_0",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_00",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_01",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_02",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_P_0",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_E0_0",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_relation_1",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_full_form_1",
+      "entries": 25,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_explicit_matrix_1",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_quotient_form_1",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_determinant_1",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_10",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_11",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_12",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_P_1",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_E0_1",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_relation_2",
+      "entries": 5,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_full_form_2",
+      "entries": 25,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_explicit_matrix_2",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_quotient_form_2",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_determinant_2",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_20",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_21",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_mixed_cocycle_22",
+      "entries": 16,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_P_2",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_E0_2",
+      "entries": 4,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_00",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_01",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_03",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_11",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_21",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_22",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_23",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_0_33",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_1_00",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_1_11",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_1_22",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_1_33",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_2_00",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_2_11",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_2_12",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_2_22",
+      "entries": 1,
+      "result": "exact_zero"
+    },
+    {
+      "check": "cross_character_2_33",
+      "entries": 1,
+      "result": "exact_zero"
+    }
+  ],
+  "count": 163,
+  "all_passed": true,
+  "cross_determinants": [
+    "z^8 S^3/W^6",
+    "z^7",
+    "z^8"
+  ]
+}
