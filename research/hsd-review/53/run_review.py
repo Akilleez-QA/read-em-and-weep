@@ -654,6 +654,23 @@ def rank_mod(table, modulus):
     return len(pivot_sets(table, modulus))
 
 
+def factor_integer(value):
+    n = abs(value)
+    factors = []
+    p = 2
+    while p * p <= n:
+        count = 0
+        while n % p == 0:
+            n //= p
+            count += 1
+        if count:
+            factors.append((p, count))
+        p += 1 if p == 2 else 2
+    if n > 1:
+        factors.append((n, 1))
+    return factors
+
+
 def cohomology_counts():
     # central-criterion.md §5, recomputed from the splitting U = O(2)+O(1)+O(1).
     degrees = []
@@ -702,6 +719,12 @@ def certify_one(h_coeff, lines):
     other = rank_mod(table, 1_000_000_009)
     if other != 137:
         raise SystemExit(f"FAIL rank mod 1000000009 is {other}")
+    small = []
+    for prime in (2, 3, 5, 7, 11):
+        got = rank_mod(table, prime)
+        if got != 137:
+            raise SystemExit(f"FAIL rank mod {prime} is {got}")
+        small.append(f"{prime}:{got}")
     support = [(i, kernel[i]) for i in range(len(kernel)) if kernel[i]]
     lines.append(f"h = {h_coeff}")
     lines.append(f"shape = {nrows} x {len(columns)}")
@@ -714,6 +737,8 @@ def certify_one(h_coeff, lines):
     lines.append(f"minor_rows = {rows}")
     lines.append(f"minor_cols = {cols}")
     lines.append(f"minor_det = {det}")
+    lines.append(f"minor_det_factorization = {factor_integer(det)}")
+    lines.append(f"rank_mod_2_3_5_7_11 = {', '.join(small)}")
     lines.append("PASS rank 137: nonzero 137 minor and checked torsion kernel vector")
     print(lines[-1] + f" for h = {h_coeff}; det = {det}")
     return det

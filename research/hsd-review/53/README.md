@@ -38,6 +38,17 @@ with \(h=x_1\) and, separately, \(h=2x_0+3x_1+5x_2+7x_3\). In the finite chart, 
 
 The torsion kernel vector is the class of \((-h^2/a,\ell/a)\) reduced to negative Laurent degree. For this \(\ell\), that class is \((-u^{-1}h^2,\,u^{-1}x_0)\). It is the image of the relation \(a(0,\ell)=P(-h^2,\ell)\) from §3.
 
+## Certificate
+
+Both matrices have shape \(164\times 138\). The torsion vector is nonzero and multiplies to zero. Columns \(0\) through \(136\) contain a \(137\times 137\) minor:
+
+| \(h\) | nonzero entries | minor determinant | factorization |
+| --- | ---: | ---: | --- |
+| \(x_1\) | 332 | 48 | \(2^4\cdot 3\) |
+| \(2x_0+3x_1+5x_2+7x_3\) | 584 | 2193404734080 | \(2^7\cdot 3^2\cdot 5\cdot 7^2\cdot 2389\cdot 3253\) |
+
+Rank over \(\mathbb{Q}\) is exactly 137 in both cases. The same rank was also obtained modulo \(2,3,5,7,11\) and modulo \(1000000007\) and \(1000000009\). Row sets and SHA-256 fingerprints are in `transcript.txt`.
+
 ## Reproduced
 
 - Both matrices are \(164\times 138\). For each stated \(h\), the torsion vector is nonzero and lies in the kernel, and a \(137\times 137\) minor is a nonzero integer. Rank over \(\mathbb{Q}\) is exactly 137.
