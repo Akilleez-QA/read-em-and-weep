@@ -4,7 +4,7 @@ Scope: published results that could give an all-order continuation, or a compari
 
 Each hypothesis below is marked **holds**, **fails**, or **unverified**, with the reason taken from that pin or from a dimension the pin’s geometry determines. A reading is inapplicable when a hypothesis it requires is marked **fails**. An unverified comparison remains a candidate. No reading is the only surviving strategy. Vanishing of ordinary \(\sigma\) on the full-sign sector rules out injectivity of \(\sigma\) on that whole sector. It does not rule out injectivity of \(\sigma\) on \(\operatorname{im}(\operatorname{ev}_E)\).
 
-This repair follows review 6110240962. Every arXiv citation is version-pinned to a file that was fetched. The official HTML of arXiv:2502.03415v2 does contain Lemma 8.3.4 and Remark 8.3.5. The same two statements are Lemma 8.2.4 and Remark 8.2.5 in arXiv:2502.03415v1. Bloch’s paper was not accessed. No value of \(O_2\) is computed, and no character multiplicity is recomputed.
+This repair follows review 6110240962. Comment 6110370477 reclassifies the marks in Sections 1.2, 2.1, and 5.1, and replaces the closing inventory in Section 9. Every arXiv citation is version-pinned to a file that was fetched. The official HTML of arXiv:2502.03415v2 does contain Lemma 8.3.4 and Remark 8.3.5. The same two statements are Lemma 8.2.4 and Remark 8.2.5 in arXiv:2502.03415v1. Bloch’s paper was not accessed. No value of \(O_2\) is computed, and no character multiplicity is recomputed.
 
 The carrier route on \(\mathbf{P}^1\times\mathbf{P}^3\) is outside this survey.
 
@@ -66,7 +66,8 @@ Statement read: if \(\ker(ob_E)=\ker(\lfloor ch(E))\) inside \(HT^2(M)\) and \(o
 
 | Hypothesis | Mark | Reason |
 |---|---|---|
-| Input is a coherent sheaf on a smooth projective variety, with \(ob_E:HT^2\to\operatorname{Ext}^2\) | fails | The residual lives in the star-algebroid module category of the pin, Section 2. The ordinary sheaf \(E\) is a different deformation problem. |
+| \(E\) is a coherent sheaf on the smooth projective variety \(X\) | holds | Checked against the pin: \(E=f^*H\otimes N\) is a coherent sheaf on the smooth projective fourfold \(X=C^4\). Section 1.3 records the same fact for Remark 8.3.5. |
+| The obstruction comparison of \(O_{\mathrm{full}}\) with \(ob_E:HT^2\to\operatorname{Ext}^2\) | unverified | The comparison of the star-algebroid residual with the ordinary obstruction map of this coherent sheaf is unchecked. |
 | \(ob_E\) surjective | fails | Source dimension \(28\), target dimension \(7372\), and the full-sign sector already has dimension \(352\). |
 | \(\ker(ob_E)=\ker(\lfloor ch(E))\) | unverified | No computation in this survey evaluates either kernel on \((X,E)\). |
 | Injectivity of \(\sigma\) on all of \(\operatorname{Ext}^2(E,E)\), the lemma’s conclusion | fails | The pin records that ordinary \(\sigma\) vanishes on the nonzero \(352\)-dimensional full-sign sector, so \(\sigma\) is not injective on that whole sector, nor on all of \(\operatorname{Ext}^2(E,E)\). This mark is not a mark about \(\operatorname{im}(\operatorname{ev}_E)\). |
@@ -131,8 +132,9 @@ Statement read: if \(\ker(\operatorname{ev}_E:HH^2(Y)\to\operatorname{Hom}(E,E[2
 |---|---|---|
 | \(\operatorname{ev}_E\) surjective onto \(\operatorname{Ext}^2(E,E)\) | fails | Source dimension \(28\), target dimension \(7372\). |
 | Kernel equals the annihilator of \(ch(E)\) | unverified | Not computed for the pinned \(E\). |
-| The sheaf is the secant sheaf of Proposition 11.1 | fails | Lemma 11.3 is stated generally, and the application in this section is the secant sheaf on a Jacobian, which is not \(f^*H\otimes N\). |
 | Injectivity of \(\sigma\) on all of \(\operatorname{Ext}^2\), the conclusion under surjectivity | fails | Same whole-space vanishing as in Section 1.2. Not a mark about the image. |
+
+The hypotheses in the statement of Lemma 11.3, as read from the fetched HTML, are the kernel equality and the surjectivity of \(\operatorname{ev}_E\). The third row is the conclusion under those hypotheses. Secant-sheaf status is not a hypothesis of that statement. The secant sheaf of Proposition 11.1 is the object of the application in Proposition 11.5, marked in Section 2.3.
 
 ### 2.2. Question 11.4
 
@@ -275,7 +277,7 @@ Theorem 6.1: \(\mathcal{C}\) a smooth proper \(S\)-linear category of geometric 
 | Hypothesis | Mark | Reason |
 |---|---|---|
 | Semiregularity in the sense of Definition 2.4, injectivity of \(\sigma\) on all of \(\operatorname{Ext}^2\) | fails | Ordinary \(\sigma\) vanishes on the \(352\)-dimensional sector, so it is not injective on all of \(\operatorname{Ext}^2\). This is not a mark about \(\operatorname{im}(\operatorname{ev}_E)\). |
-| Geometric origin of the star-algebroid module category | fails | The definition requires a semiorthogonal component of a smooth proper scheme. The pinned category is modules over a star product. |
+| Geometric origin of the star-algebroid module category | unverified | Theorem 6.1 defines geometric origin as a semiorthogonal component of a smooth proper scheme. The comparison of the pinned module category with that definition is unchecked. |
 | Algebraic class \(B_0\in H^2(X,\mathbf{Q}(1))\) and a Brauer class on a family of varieties | fails | \(15\Pi\) is infinitesimal in \(H^2(\mathcal{O}_X)\). The deformation in Theorem 1.1 is a twisted perfect complex on a family of varieties. |
 
 ### 5.2. Bandiera–Lepri–Manetti, arXiv:2208.00694v2
@@ -410,7 +412,7 @@ The same statement is arXiv:2502.03415v1, Remark 8.2.5. Lemma 8.3.4 is not in th
 Still unverified for the pinned residual:
 
 - Kernel equality \(\ker(ob_E)=\ker(\lfloor ch(E))\) in \(HT^2(X)\) for this \(E\). The remark keeps this hypothesis and drops surjectivity.
-- The comparison of deformation problems that identifies \(O_{\mathrm{full}}\) with a class in the ordinary \(\operatorname{Ext}^2(E,E)\) to which \(ob_E\) applies. The pin’s residual is a star-algebroid class.
+- The comparison of deformation problems that identifies \(O_{\mathrm{full}}\) with a class in the ordinary \(\operatorname{Ext}^2(E,E)\) to which \(ob_E\) applies. Section 1.2 marks the coherent-sheaf hypothesis holds and leaves this comparison unverified.
 - Membership of that class in \(\operatorname{im}(\operatorname{ev}_E)\). The reviewer’s lemma in Section 0.1, unverified here, asserts that the full-sign intersection is zero. If that assertion is proved, membership forces the full-sign component to vanish, and with image-injectivity and \(\sigma(O)=0\) forces the class to vanish. That package is not checked here.
 
 The conclusion, once those hold, is injectivity of \(\sigma\) on the image, not injectivity on the full-sign sector.
@@ -434,4 +436,26 @@ Page 4 of the v3 PDF. Still unverified for the pinned residual:
 
 Theorem 8.2 of arXiv:2208.00694v2 is not one of these hypotheses. Its Lie-algebroid module hypothesis fails for the pinned residual, and that failure leaves Theorem 2.8 untouched.
 
-No other source in this file is left as an unverified comparison. Question 11.4 of arXiv:2509.23403v2 is a question. The remaining sources are inapplicable for a hypothesis marked **fails** above, or were not accessed.
+### 9.4. Checked hypotheses and unresolved comparisons
+
+Hypotheses checked in this file, for the pinned \((X,E)\):
+
+- \(E\) is a coherent sheaf on the smooth projective fourfold \(X\). The mark is holds, in Sections 1.2 and 1.3.
+- Surjectivity of \(ob_E\) and of \(\operatorname{ev}_E\) onto \(\operatorname{Ext}^2(E,E)\). The mark is fails: the source has dimension \(28\) and the target has dimension \(7372\), Sections 1.2 and 2.1.
+- Injectivity of ordinary \(\sigma\) on the full-sign sector and on all of \(\operatorname{Ext}^2(E,E)\). The mark is fails: the pin records vanishing on the nonzero \(352\)-dimensional sector. Sections 1.2, 1.3, 1.5, and 2.1.
+- The secant box product, the Orlov transform, and the quotient sheaf \(\overline{\mathcal{E}}\) of Sections 1.4 and 2.3. The mark is fails for the pinned \(E=f^*H\otimes N\).
+- A \(\mu_r\)-valued Čech class for \(15\Pi\). The mark is fails: the pin records an infinitesimal class in \(H^2(\mathcal{O}_X)\). Sections 1.5 and 3.3.
+
+Comparisons this file leaves unresolved:
+
+- The obstruction comparison of \(O_{\mathrm{full}}\) with the ordinary map \(ob_E\) of the coherent sheaf \(E\). Sections 1.2 and 9.1.
+- Kernel equality \(\ker(ob_E)=\ker(\lfloor ch(E))\), and the same equality for \(\operatorname{ev}_E\). Sections 1.2, 1.3, and 2.1.
+- Membership of \(O_{\mathrm{full}}\) in \(\operatorname{im}(\operatorname{ev}_E)\), and injectivity of \(\sigma\) on that image. Section 1.3.
+- The character statement in Section 0.1.
+- Identification of \(E\), or of \(O_{\mathrm{full}}\), with an object of \(D^b(X\times\widehat{X})\). Section 1.3.
+- The fixed-algebra presentation and the identification of \(O_{\mathrm{full}}\) with \(o_e(\mathscr{F})\) for arXiv:1208.3111v4, Remark 1.21. Section 9.2.
+- A curved DG-pair whose obstruction class is \(O_{\mathrm{full}}\), for arXiv:2111.12985v3, Theorem 2.8. Section 9.3.
+- Geometric origin of the star-algebroid module category, for arXiv:2604.00511v2, Theorem 6.1. Section 5.1.
+- Equality of the Lie-algebroid obstruction class of arXiv:2208.00694v2, Theorem 8.2, with \(O_{\mathrm{full}}\). Section 5.2.
+
+Question 11.4 of arXiv:2509.23403v2 is a question. Section 6 records that Bloch’s paper was not accessed. Section 7 records three sources whose continuation theorems were not extracted.
