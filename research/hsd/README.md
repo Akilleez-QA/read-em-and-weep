@@ -20,3 +20,7 @@ A correctly identified fibre with \(Q_t=0\) is a valid pointwise test. It is not
 A Horrocks–Mumford Frobenius or Cartier fixture test runs in characteristic \(3\), or in an extension of \(\mathbf{F}_3\) in which the coefficient Frobenius is handled. A large prime of another characteristic cannot validate those identities. A large prime remains available for characteristic-free linear algebra, such as the ranks of matrices defined over \(\mathbf{Q}\). The current fixtures are formal over \(\mathbf{F}_3\), and no carry defect is reported.
 
 This result does not settle the original theorem, the central conditions for other carriers, or the Horrocks–Mumford second-order obstruction computation.
+
+## Citation correction
+
+The accessed source of arXiv:2502.03415 has no Lemma 8.3.4 and no Remark 8.3.5. The first-order criteria are Lemma 8.2.4 and Remark 8.2.5. Equations (8.3.4) and (8.3.5) are a secant Orlov transform and a subspace of \(HT^2\). [PR #67](https://github.com/Akilleez-QA/read-em-and-weep/pull/67) records that the only surviving strategy is Pridham, arXiv:1208.3111, Remark 1.21 together with Corollary 1.20, as an unverified comparison. The audit is in [gate-ladder.md](gate-ladder.md).
