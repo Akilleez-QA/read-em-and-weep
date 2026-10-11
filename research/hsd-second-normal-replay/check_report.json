@@ -1,0 +1,73 @@
+{
+  "rhs_sha256": "b9125f86d68b0eeb0fcca82dfad8c72a05aad0aed76ad6fd6411c59f324e02bf",
+  "exported_terms": 405,
+  "good_failures": 0,
+  "good_equations": 135,
+  "bad_failures": 42,
+  "bad_algebra_failures": 42,
+  "bad_equations": 135,
+  "good_sample": [],
+  "bad_sample": [
+    {
+      "monomial": "1",
+      "chart": "finite",
+      "open": [
+        0,
+        1
+      ],
+      "reason": "not a relation multiple",
+      "mismatch": {
+        "slot": 0,
+        "exp": [
+          5,
+          -6,
+          1,
+          0
+        ],
+        "produced": "-3/2",
+        "residual": "-1/2"
+      }
+    },
+    {
+      "monomial": "1",
+      "chart": "finite",
+      "open": [
+        0,
+        2
+      ],
+      "reason": "not a relation multiple",
+      "mismatch": {
+        "slot": 0,
+        "exp": [
+          1,
+          0,
+          3,
+          -8
+        ],
+        "produced": "-3/4",
+        "residual": "0"
+      }
+    },
+    {
+      "monomial": "1",
+      "chart": "finite",
+      "open": [
+        1,
+        2
+      ],
+      "reason": "not a relation multiple",
+      "mismatch": {
+        "slot": 0,
+        "exp": [
+          1,
+          0,
+          3,
+          -8
+        ],
+        "produced": "-3/4",
+        "residual": "0"
+      }
+    }
+  ],
+  "opposite_sign_nontrivial": true
+}
