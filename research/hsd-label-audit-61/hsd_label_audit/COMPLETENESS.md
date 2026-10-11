@@ -1,6 +1,6 @@
 # Completeness of the bases of H²(U_k) and H²(W_k) for k = 2, 3
 
-The bases below are derived from the fixed bidegrees, the finite and infinity frame weights, the original plane cover, and the triangular transport. They are not read off a stored label list. Arithmetic is exact over Q. The argument is restricted to normal orders k = 2 and k = 3.
+The bases below are derived from the fixed bidegrees, the finite and infinity frame weights, the original plane cover, and the triangular transport. They are not read off a stored label list. Arithmetic is exact over Q. The enumeration certifies normal orders k = 2 and k = 3. Orders 4, 5 and 6 keep their own separate gates, the complete prescribed blocks and their rational inverses at those orders. Weight-only disappearance begins at k ≥ 7, not at k ≥ 4: in the character grading the maximal weight is 2 and the required character is k - 4.
 
 ## 1. Fixed input
 
@@ -46,7 +46,7 @@ H³(O(b, p)) = H¹(P¹, O(b)) ⊗ H²(P², O(p)).
 
 H⁰(P¹, O(b)) is zero for b < 0 and has basis 1, z, …, z^b for b ≥ 0. H¹(P¹, O(b)) is zero for b ≥ -1. H²(P², O(p)) is zero for p > -3. For p ≤ -3 its Čech basis on the triple overlap, modulo the ordered homotopy below, is the set of negative monomials with u + v + w = -p - 3. The count of those monomials is dim H⁰(P², O(-p - 3)).
 
-The ordered plane homotopy contracts the first nonnegative plane exponent. On every support pattern it satisfies δK + Kδ = 1 - Π, where Π retains a cochain only when every inverted coordinate is negative. The generator checks this identity on every support pattern in degrees 1 and 2. Consequently the all-negative projection loses nothing in H², and it does not change z exponents, so it preserves finite and infinity regularity.
+The ordered plane homotopy contracts the first nonnegative plane exponent. On every support pattern it satisfies δK + Kδ = 1 - Π, where Π retains a cochain only when every inverted coordinate is negative. On a closed cochain the identity reduces to δ(Kc) = c - Π(c), so the plane homotopy supplies the mixed Čech primitive, a cochain on the pairwise overlaps, for the unprojected gluing discrepancy c - Π(c). The generator checks this identity on every support pattern in degrees 1 and 2. Consequently the all-negative projection loses nothing in H², and it does not change z exponents, so it preserves finite and infinity regularity.
 
 A split line with b ≥ 0 and p ≤ -3 therefore has the monomial basis
 
@@ -58,28 +58,42 @@ Every other bidegree has H² = 0. In particular, at orders 2 and 3 the W lines P
 
 ## 3. Invariant subbundles
 
-TB is upper triangular in the ordered frame, with the single off-diagonal entry in column E1 and row E0. The following subbundles are invariant, and the indicated quotients are split lines:
+TB is upper triangular in the ordered frame, with the single off-diagonal entry in column E1 and row E0. Sym² of that column produces invariant symmetric-slot extensions. Each subobject below sits inside the named extension, and the indicated quotient is a split line:
 
-| subbundle | quotient | diagonal transition of the quotient |
-| --- | --- | --- |
-| span{E0} | span{E0, E1}/span{E0} ≅ E1 | z⁴ |
-| span{P, E0} | the PE1 direction | z³ on PE1 |
-| span{E0, E2} | the E1E2 direction | z³ on E1E2 |
-| span{E0², E0E1} | the E1² direction | z⁴ on E1² |
+| subobject | inside | quotient | diagonal transition of the quotient |
+| --- | --- | --- | --- |
+| span{E0} | span{E0, E1} | E1 | z⁴ |
+| PE0 | span{PE0, PE1} | PE1 | z³ |
+| E0E2 | span{E0E2, E1E2} | E1E2 | z³ |
+| span{E0², E0E1} | the E1² extension | E1² | z⁴ |
 
-P², PE2 and E2² are already split. Sym²(B), and likewise the scalar twists U_k and W_k, decompose as a direct sum of these invariant pieces. Cohomology is the sum of the cohomologies of the pieces.
+PE0 is the subobject inside span{PE0, PE1}, and E0E2 is the subobject inside span{E0E2, E1E2}. P², PE2 and E2² are already split. Sym²(B), and likewise the scalar twists U_k and W_k, decompose as a direct sum of these invariant pieces. Cohomology is the sum of the cohomologies of the pieces.
 
 ## 4. Connecting maps vanish
 
-Each extension 0 → S → E → Q → 0 gives
+Each extension 0 → S → E → Q → 0 has long exact sequence
 
 ```
-H²(S) → H²(E) → H²(Q) → H³(S).
+H¹(Q) → H²(S) → H²(E) → H²(Q) → H³(S).
 ```
 
-For every subbundle S that appears at k = 2 or k = 3, H³(S) = 0. Indeed H³ of a split line is the product of H¹(P¹) and H²(P²), and each relevant line has either base degree ≥ -1 or plane degree > -3. The same vanishing holds for the rank-two piece span{E0², E0E1}, because both of its graded lines have H³ = 0 and the connecting map of that smaller extension lands in zero. The generator records the five bidegrees and the resulting zero products.
+Every quotient Q that appears, as a summand of U_k or W_k, is a split line of negative plane degree. AE1, PE1, E1E2 and E1² have plane degrees -8 - k, -5 - k, -6 - k and -6 - k, and the intermediate quotient E0E1 of span{E0², E0E1} has plane degree -2 - k. For k = 2 and k = 3 each of these is at most -4. Line bundles on P² have vanishing H¹, so the Künneth formula gives
 
-Therefore H² of each extension surjects onto H² of its split quotient. The kernel is H²(S). That kernel is zero except for the E1² extension, where
+```
+H¹(O(b, p)) = H¹(P¹, O(b)) ⊗ H⁰(P², O(p)).
+```
+
+The second factor is zero for p < 0. Thus H¹(Q) = 0.
+
+For every subbundle S that appears at k = 2 or k = 3, H³(S) = 0. Indeed H³ of a split line is the product of H¹(P¹) and H²(P²), and each relevant line has either base degree ≥ -1 or plane degree > -3. The same vanishing holds for the rank-two piece span{E0², E0E1}, because both of its graded lines have H³ = 0 and the connecting map of that smaller extension lands in zero; its quotient E0E1 has negative plane degree, so H¹ of that quotient vanishes by the same Künneth formula. The generator records the five bidegrees and the resulting zero products.
+
+H¹(Q) = 0 and H³(S) = 0 together cut the long exact sequence down to the short exact sequence
+
+```
+0 → H²(S) → H²(E) → H²(Q) → 0.
+```
+
+In particular H² of each extension surjects onto H² of its split quotient, and the kernel is H²(S). That kernel is zero except for the E1² extension, where
 
 ```
 H²(span{E0², E0E1}) ≅ H²(E0E1),
@@ -127,12 +141,12 @@ together with the sign conditions on z. Because the set of monomials is finite, 
 
 Worked monomials, both of character -2 at order 2:
 
-- E1², z² X^{-1} Y^{-1} W^{-6}. Every term of C except W⁴ meets a nonnegative X or Y exponent. The surviving term is 2 z W⁴ · z² X^{-1} Y^{-1} W^{-6}, that is coefficient 2 at z¹ X^{-1} Y^{-1} W^{-2} on E0E1. The cutoff z ≥ 1 keeps it.
+- E1², z² X^{-1} Y^{-1} W^{-6}. Every term of C except W⁴ meets a nonnegative X or Y exponent. The W⁴ term of C is z² W⁴, and z^{-3} times that term is z^{-1} W⁴. The surviving factor is 2 z^{-1} W⁴ · z² X^{-1} Y^{-1} W^{-6}, that is coefficient 2 at z¹ X^{-1} Y^{-1} W^{-2} on E0E1. The cutoff z ≥ 1 keeps it.
 - AE1, z¹ X^{-1} Y^{-1} W^{-8}. The same cancellation leaves coefficient 1 at z⁰ X^{-1} Y^{-1} W^{-4} on AE0. The cutoff z ≥ 0 keeps it.
 
 ## 7. Spanning and independence
 
-Order the filtration so that each step quotients by an invariant subbundle onto one free line. At each step the symbol map H²(E) → H²(Q) is surjective because the connecting map into H³(S) is zero. The kernel is spanned by the basis already chosen on S: that basis is empty, or it is the split basis of E0E1.
+Order the filtration so that each step quotients by an invariant subbundle onto one free line. At each step H¹(Q) = 0 and H³(S) = 0, so the symbol sequence is the short exact sequence of section 4. The kernel is spanned by the basis already chosen on S: that basis is empty, or it is the split basis of E0E1.
 
 The explicit lift of section 5 is a section of the symbol map. Its leading symbol is the chosen monomial with coefficient 1, and the normalization makes its coordinate on every earlier summand zero. The generator checks this on every vector: after the forced terms with z ≥ β + 1 are removed, the coordinate vector is the corresponding unit vector. The coordinate matrix on the enumerated set is therefore the identity. The classes are linearly independent. By induction along the filtration they span H².
 
@@ -153,7 +167,7 @@ The finite character of a monomial is its weight minus the finite frame weight o
 
 On each free line the base degree β and the two frame weights are related by 2β = d_finite - d_infinity + 4. The infinity representative, including every diagonal preimage of a cancelled term, therefore has infinity character equal to the finite character minus 4. The generator checks that shift on every infinity monomial it builds.
 
-The character histograms are recorded in the certificate as outputs. The order-k slice is the character k - 4, because a finite W coefficient of slot (i, j) is required to have weight k - 4 + d_i + d_j, and the analogous rule for U uses one frame weight.
+The character histograms are recorded in the certificate as outputs. The order-k slice is the character k - 4, because a finite W coefficient of slot (i, j) is required to have weight k - 4 + d_i + d_j, and the analogous rule for U uses one frame weight. On a free line of base degree β and finite frame weight d, a basis monomial has 0 ≤ e ≤ β and u, v ≥ 0, so its character 2e - u - v - 2 - d is at most 2β - 2 - d. That quantity equals 2 on E1² and on AE1, and it is at most 0 on every other free line, so the maximal weight in this grading is 2. Both enumerated orders attain the value 2. The required character k - 4 exceeds this maximum exactly for k ≥ 7. The same comparison does not cover k ≥ 4: the required characters at orders 4, 5 and 6 are 0, 1 and 2, and those orders keep the separate gates named above.
 
 ## 9. The relation lands in the W basis
 
@@ -161,7 +175,7 @@ Multiplication by r0 sends U channel i to the symmetric W slots (i, j). The plan
 
 ## 10. Boundary
 
-The argument uses the fixed frame, the displayed transport, and the original cover. It does not reconstruct the rank-four plane object, produce the quadratic obstruction, replay orders above 3, or compute a carrier hull. Equality of these bases with any stored label list is a separate comparison and is not an input to the enumeration.
+The argument uses the fixed frame, the displayed transport, and the original cover. It certifies the bases at k = 2 and k = 3 only. Orders 4, 5 and 6 are not covered by the weight bound; each keeps its own gate. Weight-only disappearance begins at k ≥ 7, where the required character k - 4 is strictly larger than the maximal weight 2. The argument does not reconstruct the rank-four plane object, produce the quadratic obstruction, or compute a carrier hull. Equality of these bases with any stored label list is a separate comparison and is not an input to the enumeration.
 
 ## Reproduce
 
