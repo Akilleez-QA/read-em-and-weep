@@ -18,6 +18,7 @@ The current catalogue contains 719 manuscripts organized into 372 families. A fa
 - The [`preprints/`](preprints/) directory contains PDFs, source files, and manuscript-specific citation and build instructions.
 - The [Lean library](lean/README.md) and [formalization catalogue](lean/formalization.yaml) describe the available formal proofs, their associated papers, and verification configurations. See the [Comparator instructions](lean/ComparatorChallenges/README.md) for additional checking instructions. The repository has ~42% top-line results formalized.
 - Updates to the repo are described in the [history](history.md).
+- The Horrocks–Mumford and carrier gate ladder is in [`research/hsd/README.md`](research/hsd/README.md). For the fixed chosen carrier, \(\operatorname{length}_B(Q)=12\) (PR #1, comments [6104798062](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6104798062) and [6104803214](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6104803214), the latter an independent SymPy Groebner-basis reproduction) marks the global vector-bundle extension (G2) **EXCLUDED** for this carrier only. The formal continuation (G1) stays passed and retained. Other formal-lift and carrier choices stay **OPEN**. As of the earlier checkpoint, before 6104798062, that length was uncomputed. The original theorem, the central conditions for other carriers, and the Horrocks–Mumford second-order obstruction computation are not settled by this result.
 
 ### Reasoning summaries
 
