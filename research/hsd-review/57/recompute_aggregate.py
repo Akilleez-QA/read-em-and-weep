@@ -55,6 +55,18 @@ PUBLISHED = {
     "2013": {"pr": 55, "sha": "60daad77179e93b2eb4adf7c2c77cfe298053fc5", "signed": (-41517, 16), "digest": "862a4435777b4e5ab98b8dd5000bcccab4d8b83dcd0203af14531fda9b47eaf6"},
 }
 
+# Iota orbits of i -> i+2 (mod 4). Equal lists on these pairs are informational.
+# Any other equal-list partition is a defect.
+EXPECTED_EQUAL_PAIRS = (
+    ("0123", "2301"),
+    ("0132", "2310"),
+    ("0213", "2031"),
+    ("0231", "2013"),
+    ("0312", "2130"),
+    ("0321", "2103"),
+)
+EXPECTED_SINGLETONS = ("1023", "1032", "1203", "1230", "1302", "1320")
+
 
 class Fraction:
     """Reduced rational whose entries are arbitrary-precision integers."""
@@ -356,6 +368,60 @@ def duplicate_groups(digests: dict[str, str]) -> list[list[str]]:
     return [sorted(group) for group in grouped.values() if len(group) > 1]
 
 
+def list_partition(digests: dict[str, str]) -> list[tuple[str, ...]]:
+    grouped: dict[str, list[str]] = {}
+    for orientation, digest in digests.items():
+        grouped.setdefault(digest, []).append(orientation)
+    return sorted(tuple(sorted(group)) for group in grouped.values())
+
+
+def structural_defects(digests: dict[str, str], signs: dict[str, int]) -> list[str]:
+    """Reject every equal-list partition except the six iota orbits.
+
+    Those six equalities are not defects. A different grouping, a count other
+    than 12 distinct lists, or a collision among the six active singletons is.
+    """
+    defects: list[str] = []
+    observed = list_partition(digests)
+    expected_pairs = tuple(sorted(tuple(sorted(pair)) for pair in EXPECTED_EQUAL_PAIRS))
+    observed_pairs = tuple(group for group in observed if len(group) == 2)
+    if observed_pairs != expected_pairs or any(len(group) > 2 for group in observed):
+        rendered = ", ".join("=".join(group) for group in observed if len(group) != 1)
+        defects.append("unexpected equal-list partition: " + rendered)
+    for left, right in EXPECTED_EQUAL_PAIRS:
+        if left in signs and right in signs and signs[left] != signs[right]:
+            defects.append(f"{left}/{right} paired signs do not match")
+    distinct = len(set(digests.values()))
+    if distinct != 12:
+        defects.append(f"distinct lists {distinct} != 12")
+    present = [name for name in EXPECTED_SINGLETONS if name in digests]
+    present_digests = [digests[name] for name in present]
+    if len(present_digests) != len(set(present_digests)):
+        defects.append("within-singleton collision")
+    if set(present) != set(EXPECTED_SINGLETONS):
+        defects.append("active singletons are not the six expected")
+    return defects
+
+
+def acceptance_failures(report: dict) -> list[str]:
+    failures = []
+    failures.extend(report["arithmetic_defects"])
+    failures.extend(report["data_defects"])
+    if report["orientation_count"] != 18:
+        failures.append(f"orientation count {report['orientation_count']} != 18")
+    if not report["sum_is_zero"]:
+        failures.append(f"total {report['sum'][0]}/{report['sum'][1]} is not 0")
+    return failures
+
+
+def exit_status(report: dict) -> int:
+    if report["arithmetic_defects"]:
+        return 2
+    if report["data_defects"] or report["orientation_count"] != 18 or not report["sum_is_zero"]:
+        return 1
+    return 0
+
+
 def audit(document: dict, provenance: dict, contributions_sha256: str) -> dict:
     arithmetic_defects: list[str] = []
     if document.get("schema") != "second-scalar-m2220-complete-v1":
@@ -503,12 +569,9 @@ def audit(document: dict, provenance: dict, contributions_sha256: str) -> dict:
 
     distinct_exponents = len({tuple(row["source_exponents"]) for row in all_rows})
     nonzero_rows = sum(row["coefficient"] != ["0", "1"] for row in all_rows)
-    data_defects = []
-    if copies:
-        rendered = ", ".join("=".join(group["orientations"]) for group in copies)
-        data_defects.append(
-            "supplied coefficient arrays are not distinct across orientations: " + rendered
-        )
+    signs = {item["orientation"]: item["sign"] for item in derived_edges}
+    data_defects = structural_defects(digests, signs)
+    partition_rejected = any(item.startswith("unexpected equal-list partition") for item in data_defects)
     fresh = [item for item in derived_edges if not item["previously_published"]]
     report = {
         "evidence_class": "supplied-quotient replay",
@@ -519,12 +582,16 @@ def audit(document: dict, provenance: dict, contributions_sha256: str) -> dict:
         "kernel_identity": "G^70 * G^{-70} = 1 modulo (T^9, z^23)",
         "orientations": derived_edges,
         "orientation_count": len(derived_edges),
-        "signs": {item["orientation"]: item["sign"] for item in derived_edges},
+        "signs": signs,
         "sum": total.pair(),
         "sum_is_zero": total == ZERO,
         "published_agreement": published_agreement,
         "fresh_recomputations": fresh,
         "duplicate_quotient_groups": copies,
+        "orbit_equalities": {
+            "role": "rejected" if partition_rejected else "informational",
+            "pairs": [list(pair) for pair in EXPECTED_EQUAL_PAIRS],
+        },
         "quotient_terms_in_file": sum(item["quotient_terms"] for item in derived_edges),
         "distinct_coefficient_arrays": len(set(digests.values())),
         "selector_rows": len(all_rows),
@@ -543,6 +610,7 @@ def audit(document: dict, provenance: dict, contributions_sha256: str) -> dict:
             ),
         },
     }
+    report["acceptance_failures"] = acceptance_failures(report)
     return report
 
 
@@ -553,11 +621,7 @@ def main() -> int:
     report = audit(load_json(contributions_path), load_json(provenance_path), digest)
     json.dump(report, sys.stdout, indent=2)
     sys.stdout.write("\n")
-    if report["arithmetic_defects"]:
-        return 2
-    if report["data_defects"] or not report["sum_is_zero"]:
-        return 1
-    return 0
+    return exit_status(report)
 
 
 if __name__ == "__main__":

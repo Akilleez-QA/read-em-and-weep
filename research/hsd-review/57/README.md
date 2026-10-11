@@ -13,14 +13,20 @@ previously published coefficient arrays with the pinned partial-edge packages.
 
 ```sh
 python3 research/hsd-review/57/recompute_aggregate.py
-python3 -m unittest discover -s research/hsd-review/57 -p 'test_recompute.py' -v
+python3 research/hsd-review/57/symmetry/check_involution.py
+python3 -m unittest discover -s research/hsd-review/57 -p 'test_*.py' -v
+python3 -m unittest discover -s research/hsd-review/57/symmetry -p 'test_*.py' -v
 ```
 
-Python 3.10+ standard library only. Exit status `1` means the signed sum of the
-supplied arrays is `0/1` and six coefficient arrays are shared by an orientation
-and its image under `i -> i+2 (mod 4)`. Exit status `2` means the selector
-arithmetic itself failed. `symmetry/README.md` identifies that sharing as the
-carrier involution, not a packaging defect.
+Python 3.10+ standard library only. Exit status `0` means the acceptance gate
+holds: every pinned arithmetic check passes, there are exactly 18 orientations,
+the only equal lists are the six iota orbits, paired signs match, there are
+12 distinct lists, there are six active singletons, and the signed total is
+`0/1`. Those six equalities are informational. Exit status `1` means an
+unexpected equal-list partition, a singleton collision, a wrong distinct count,
+or a total other than zero. Exit status `2` means a pinned arithmetic or
+selector check failed. `symmetry/README.md` identifies the six equal lists as
+the carrier involution. The tests do not regenerate the source DAG.
 
 The recorded outcome is in `VERDICT.md`. The finite contraction of the supplied
 arrays sums to zero. That zero uses twelve quotient polynomials, six of them

@@ -110,3 +110,9 @@ one coordinate of one scalar map. It is not the vanishing of the whole
 ```sh
 python3 research/hsd-review/57/symmetry/check_involution.py
 ```
+
+Exit status `0` requires the same gate as the aggregate checker: pinned
+arithmetic, 18 orientations, precisely those six equal-list pairs, matching
+paired signs, 12 distinct lists, six active singletons, and total `0/1`.
+A surviving pair symmetry is not enough. The tests do not regenerate the
+source DAG.

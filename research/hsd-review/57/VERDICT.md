@@ -10,6 +10,7 @@ readings do not cancel. See `symmetry/README.md`.
 `72b08646afaf3a493243698583ee1f434a9dd78707d775d4fd0206593a5b87f0`.
 
 Evidence class: **supplied-quotient replay**. This is not source regeneration.
+The tests do not regenerate the source DAG.
 The package sets `whole_scalar_map_computed`, `full_obstruction_computed` and
 `source_attribution_reproduced` to false, and its provenance records
 `historical_source_nodes_reevaluated_by_comparison = 0` with neither terminal
@@ -67,23 +68,25 @@ the signed rational and the SHA-256 of the compact coefficient list:
 
 The five edges first supplied here were recomputed from the coefficient lists
 in this package, not taken from an earlier review. Those recomputations equal
-the recorded rationals above. They are selector readings of copied lists, as
-recorded in the defect.
+the recorded rationals above. Each is a second selector reading of its iota
+partner's list: the permutation signs match, and the rectangles `(d, L)` differ.
 
-## Defect
+## Iota-orbit equalities
 
-Reclassified by `symmetry/README.md`: this pattern is the involution
-`iota(i)=i+2 (mod 4)`. It is not a copied-file defect. The description below
-is the array identity that the involution predicts.
+Reclassified by `symmetry/README.md`: the six equal lists are the orbits of
+`iota(i)=i+2 (mod 4)`.
 
-The eighteen edges carry **12** distinct coefficient arrays, not 18. The pairs
-related by adding 2 (mod 4) to every role index have identical integer lists,
-including order and sparse slots. A witness: 0123 and 2301 both open with the
-term `[4, 27, 22, "-600"]` and share
+The eighteen edges carry **12** distinct coefficient arrays, not 18. Distinct
+means the arrays differ as lists. Distinct does not mean linearly independent.
+
+The pairs related by adding 2 (mod 4) to every role index have identical
+integer lists, including order and sparse slots, and they have the same
+permutation sign. A witness: 0123 and 2301 both open with the term
+`[4, 27, 22, "-600"]` and share
 
 `dfc8ee5bbabef051a9c18708f0b93b758ed34943ace9ee7ee448a0b33640da71`.
 
-| Copied pair | Shared coefficient SHA-256 |
+| Iota orbit | Shared coefficient SHA-256 |
 | --- | --- |
 | 0123 = 2301 | `dfc8ee5bbabef051a9c18708f0b93b758ed34943ace9ee7ee448a0b33640da71` |
 | 0132 = 2310 | `40cf406681bbeedad3681da604300dd99ff9975b6a6fd3b403dcee5a3d92d9af` |
@@ -92,21 +95,19 @@ term `[4, 27, 22, "-600"]` and share
 | 0312 = 2130 | `5691e1144b4eab9fbddcd249f4d8675faf50cac382864c0c1b9f4d116ae7fd05` |
 | 0321 = 2103 | `3277c1d8a6ca67a8b69f2d0a29007e47f6d7287679e75339fae0fa99fd3dd7cc` |
 
-The 0231 = 2013 copy is already present in the pinned #46 and #55 packages.
-This package preserves it and adds the other five copies. Those five are the
-orientations that #57 presents as newly supplied quotients. Their signed
-values differ from their partners only because the selector `(d, L)` and the
-permutation sign differ. For example, 0123 uses `(d, L) = (8, 22)` and sign
-`+1`, while 2301 uses `(6, 20)` and sign `+1` on the same polynomial.
+The 0231 = 2013 equality is already present in the pinned #46 and #55 packages.
+This package preserves it and records the other five orbits. Those five are the
+orientations that #57 presents as newly supplied readings of an existing list.
+Their signed values differ from their partners because the selector `(d, L)`
+differs. The permutation signs match. For example, 0123 uses `(d, L) = (8, 22)`
+and sign `+1`, while 2301 uses `(6, 20)` and sign `+1` on the same polynomial.
 
 Inside each pair the recorded `original_quotient_sha256` values differ. Those
 hashes name artifacts that are not in the package. #43's provenance says the
 exported quotient omits metadata, so a hash difference does not prove the
-historical coefficient lists differed. The defect that this review can see is
-in the distributed lists: six orientations do not have their own quotient
-polynomial here.
+historical coefficient lists differed.
 
-No contribution was zero-filled. The replacement is a nonzero copy.
+No signed contribution was zero-filled. Each of the eighteen readings is nonzero.
 
 ## Missing hypothesis
 
@@ -128,8 +129,9 @@ the supplied arrays.
 ## What the total establishes
 
 The total establishes one arithmetic statement: under the displayed selector,
-the eighteen supplied arrays — twelve distinct polynomials, six of them
-inserted again under the shifted orientation — have signed sum `0/1` in `Q`.
+the eighteen supplied arrays — twelve distinct lists, six of them read a
+second time under the shifted orientation — have signed sum `0/1` in `Q`.
+Distinct does not mean linearly independent.
 Each of those eighteen signed readings is nonzero, and the thirteen published
 partial edges match their earlier packages.
 

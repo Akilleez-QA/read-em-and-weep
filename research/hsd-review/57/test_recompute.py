@@ -82,7 +82,7 @@ class AggregateTests(unittest.TestCase):
         self.assertEqual(by_pr[51], ["1032", "1203", "1230"])
         self.assertEqual(by_pr[55], ["1302", "1320", "2013"])
 
-    def test_fresh_edges_are_selector_readings_of_copied_quotients(self):
+    def test_fresh_edges_are_second_readings_of_iota_partners(self):
         fresh = {item["orientation"]: item["signed"] for item in self.report["fresh_recomputations"]}
         self.assertEqual(
             fresh,
@@ -108,10 +108,20 @@ class AggregateTests(unittest.TestCase):
         )
         self.assertTrue(all(group["lists_identical"] and group["relation"] == "add 2 mod 4" for group in self.report["duplicate_quotient_groups"]))
         self.assertEqual(self.report["distinct_coefficient_arrays"], 12)
-        self.assertEqual(self.report["data_defects"], [
-            "supplied coefficient arrays are not distinct across orientations: "
-            "0123=2301, 0132=2310, 0213=2031, 0231=2013, 0312=2130, 0321=2103"
-        ])
+        self.assertEqual(self.report["data_defects"], [])
+        self.assertEqual(self.report["acceptance_failures"], [])
+        self.assertEqual(self.report["orbit_equalities"]["role"], "informational")
+        self.assertEqual(
+            self.report["orbit_equalities"]["pairs"],
+            [
+                ["0123", "2301"],
+                ["0132", "2310"],
+                ["0213", "2031"],
+                ["0231", "2013"],
+                ["0312", "2130"],
+                ["0321", "2103"],
+            ],
+        )
         raw = {
             review.orientation_key(tuple(edge["roles"])): edge["integer_coefficients"]
             for edge in self.document["edges"]
@@ -135,18 +145,21 @@ class AggregateTests(unittest.TestCase):
         report = review.audit(document, self.provenance, self.digest)
         self.assertTrue(any("0123 recorded" in item for item in report["arithmetic_defects"]))
 
-    def test_command_exits_one_on_the_duplicate_defect(self):
+    def test_command_exits_zero_on_the_expected_orbits(self):
         completed = subprocess.run(
             [sys.executable, str(HERE / "recompute_aggregate.py")],
             check=False,
             capture_output=True,
             text=True,
         )
-        self.assertEqual(completed.returncode, 1, completed.stderr)
+        self.assertEqual(completed.returncode, 0, completed.stderr)
         payload = json.loads(completed.stdout)
         self.assertEqual(payload["sum"], ["0", "1"])
+        self.assertEqual(payload["orientation_count"], 18)
+        self.assertEqual(payload["distinct_coefficient_arrays"], 12)
         self.assertEqual(payload["arithmetic_defects"], [])
-        self.assertTrue(payload["data_defects"])
+        self.assertEqual(payload["data_defects"], [])
+        self.assertEqual(payload["orbit_equalities"]["role"], "informational")
 
 
 if __name__ == "__main__":

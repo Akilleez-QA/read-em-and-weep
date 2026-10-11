@@ -69,7 +69,7 @@ def selector(roles: tuple[int, int, int, int]) -> dict:
     }
 
 
-def main() -> int:
+def decide(document: dict, provenance: dict, contributions_sha256: str) -> tuple[dict, int]:
     roles = active()
     active_keys = {key(item) for item in roles}
     sign_iota = review.permutation_sign((2, 3, 0, 1))
@@ -90,17 +90,12 @@ def main() -> int:
         else:
             orbits.append([name, partner])
 
-    document = review.load_json(review.PACKAGE / "contributions.json")
     by_orientation = {key(tuple(edge["roles"])): edge for edge in document["edges"]}
     digest = {
         name: review.coefficient_digest(edge["integer_coefficients"])
         for name, edge in by_orientation.items()
     }
-    report_audit = review.audit(
-        document,
-        review.load_json(review.PACKAGE / "provenance.json"),
-        review.sha256(review.PACKAGE / "contributions.json"),
-    )
+    report_audit = review.audit(document, provenance, contributions_sha256)
     signed = {
         item["orientation"]: review.Fraction(int(item["signed"][0]), int(item["signed"][1]))
         for item in report_audit["orientations"]
@@ -111,6 +106,12 @@ def main() -> int:
     mismatches = []
     for orbit in orbits:
         left, right = orbit
+        if left not in by_orientation:
+            mismatches.append(f"missing orientation {left}")
+            continue
+        if right in active_keys and right not in by_orientation:
+            mismatches.append(f"missing orientation {right}")
+            continue
         if right in active_keys:
             same_list = by_orientation[left]["integer_coefficients"] == by_orientation[right]["integer_coefficients"]
             same_digest = digest[left] == digest[right]
@@ -118,6 +119,9 @@ def main() -> int:
             right_sign = review.permutation_sign(tuple(int(character) for character in right))
             if not same_list or not same_digest or left_sign != right_sign:
                 mismatches.append(f"{left}/{right} breaks the even involution identification")
+            if left not in signed or right not in signed:
+                mismatches.append(f"missing orientation {left if left not in signed else right}")
+                continue
             total = signed[left] + signed[right]
             paired.append(
                 {
@@ -138,6 +142,9 @@ def main() -> int:
             partner_roles = tuple(int(character) for character in right)
             if MONOMIAL[partner_roles[0]] == 2:
                 mismatches.append(f"{right} was classified inactive but m starts at 2")
+            if left not in signed:
+                mismatches.append(f"missing orientation {left}")
+                continue
             unpaired.append(
                 {
                     "orientation": left,
@@ -149,14 +156,7 @@ def main() -> int:
                 }
             )
 
-    distinct = set(digest.values())
-    paired_digests = {item["coefficient_sha256"] for item in paired}
-    unpaired_digests = {item["coefficient_sha256"] for item in unpaired}
-    if paired_digests & unpaired_digests:
-        mismatches.append("an unpaired orientation shares a quotient with an iota pair")
-    if len(distinct) != len(paired_digests) + len(unpaired_digests):
-        mismatches.append("quotient collisions exist outside the iota orbits")
-
+    distinct_lists = len(set(digest.values()))
     pair_total = review.ZERO
     for item in paired:
         pair_total += review.Fraction(int(item["pair_sum"][0]), int(item["pair_sum"][1]))
@@ -164,6 +164,11 @@ def main() -> int:
     for item in unpaired:
         single_total += review.Fraction(int(item["signed"][0]), int(item["signed"][1]))
 
+    failures = list(mismatches)
+    failures.extend(review.acceptance_failures(report_audit))
+    code = review.exit_status(report_audit)
+    if mismatches and code == 0:
+        code = 1
     report = {
         "symmetry": "iota(i)=i+2 mod 4",
         "cycle_type": "(0 2)(1 3)",
@@ -175,16 +180,31 @@ def main() -> int:
         "paired_readings": paired,
         "unpaired_readings": unpaired,
         "paired_reading_count": 2 * len(paired),
-        "independent_quotients": len(paired) + len(unpaired),
+        "distinct_lists": distinct_lists,
+        "independent_quotients": distinct_lists,
+        "active_singleton_count": len(unpaired),
+        "distinct_singleton_lists": len({item["coefficient_sha256"] for item in unpaired}),
         "sum_of_pair_sums": pair_total.pair(),
         "sum_of_unpaired": single_total.pair(),
-        "every_pair_sum_nonzero": all(not item["pair_sum_is_zero"] for item in paired),
+        "audit_orientation_count": report_audit["orientation_count"],
+        "audit_sum": report_audit["sum"],
+        "audit_sum_is_zero": report_audit["sum_is_zero"],
+        "every_pair_sum_nonzero": all(not item["pair_sum_is_zero"] for item in paired) if paired else False,
         "mismatches": mismatches,
-        "classification": "expected symmetry" if not mismatches else "defect",
+        "failures": failures,
+        "classification": "expected symmetry" if code == 0 else "defect",
     }
+    return report, code
+
+
+def main() -> int:
+    document = review.load_json(review.PACKAGE / "contributions.json")
+    provenance = review.load_json(review.PACKAGE / "provenance.json")
+    digest = review.sha256(review.PACKAGE / "contributions.json")
+    report, code = decide(document, provenance, digest)
     json.dump(report, sys.stdout, indent=2)
     sys.stdout.write("\n")
-    return 0 if report["classification"] == "expected symmetry" else 1
+    return code
 
 
 if __name__ == "__main__":
