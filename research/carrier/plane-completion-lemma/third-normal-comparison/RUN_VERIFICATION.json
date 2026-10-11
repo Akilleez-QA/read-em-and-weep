@@ -1,0 +1,15 @@
+{
+  "constructor_checks": 2320,
+  "direct_negative_exponential_checks": 1442,
+  "coefficient_count": 40,
+  "nonzero_coefficients": 17,
+  "exported_terms": 1874,
+  "constructor_normal_optimized_stdout_equal": true,
+  "direct_checker_normal_optimized_stdout_equal": true,
+  "all_three_third_section_json_byte_identical": true,
+  "recomputed_first_order_receipts_match_frozen_hashes": true,
+  "actual_section_mutation_rejected": true,
+  "previous_four_package_manifests_checked_unchanged": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "negative_control_path": "Mutate parsed origin finite X-patch E0 coefficient by +z^3/X^3; recompute edge01 through the same edge_residual function as positive checks; reject exact -z^3/X^3 residual."
+}

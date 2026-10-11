@@ -1,0 +1,12 @@
+{
+  "generator_normal_optimized_stdout_equal": true,
+  "verifier_normal_optimized_stdout_equal": true,
+  "all_three_generated_json_byte_identical": true,
+  "generator_named_checks": 163,
+  "independent_verifier_checks": 2253,
+  "coefficient_count": 40,
+  "W_terms": 13547,
+  "W_and_relation_terms": 19375,
+  "negative_control_rejected": true,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

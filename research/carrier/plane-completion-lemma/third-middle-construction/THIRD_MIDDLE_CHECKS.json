@@ -1,0 +1,620 @@
+{
+  "scope": "Full third-middle tensor realization only; no third-order section or carrier assertion.",
+  "checks": [
+    "regenerated D3 determinant one",
+    "exact inverse",
+    "all 40 cubic coefficients enumerated",
+    "1: relation homotopy",
+    "1: closed corrected cocycle",
+    "1: exact D3 preimage",
+    "1: raw equations and regularity",
+    "lambda: relation homotopy",
+    "lambda: closed corrected cocycle",
+    "lambda: exact D3 preimage",
+    "lambda: raw equations and regularity",
+    "d: relation homotopy",
+    "d: closed corrected cocycle",
+    "d: exact D3 preimage",
+    "d: raw equations and regularity",
+    "d*lambda: relation homotopy",
+    "d*lambda: closed corrected cocycle",
+    "d*lambda: exact D3 preimage",
+    "d*lambda: raw equations and regularity",
+    "d*d: relation homotopy",
+    "d*d: closed corrected cocycle",
+    "d*d: exact D3 preimage",
+    "d*d: raw equations and regularity",
+    "d*d*d: relation homotopy",
+    "d*d*d: closed corrected cocycle",
+    "d*d*d: exact D3 preimage",
+    "d*d*d: raw equations and regularity",
+    "c: relation homotopy",
+    "c: closed corrected cocycle",
+    "c: exact D3 preimage",
+    "c: raw equations and regularity",
+    "c*lambda: relation homotopy",
+    "c*lambda: closed corrected cocycle",
+    "c*lambda: exact D3 preimage",
+    "c*lambda: raw equations and regularity",
+    "c*d: relation homotopy",
+    "c*d: closed corrected cocycle",
+    "c*d: exact D3 preimage",
+    "c*d: raw equations and regularity",
+    "c*d*d: relation homotopy",
+    "c*d*d: closed corrected cocycle",
+    "c*d*d: exact D3 preimage",
+    "c*d*d: raw equations and regularity",
+    "c*c: relation homotopy",
+    "c*c: closed corrected cocycle",
+    "c*c: exact D3 preimage",
+    "c*c: raw equations and regularity",
+    "c*c*d: relation homotopy",
+    "c*c*d: closed corrected cocycle",
+    "c*c*d: exact D3 preimage",
+    "c*c*d: raw equations and regularity",
+    "c*c*c: relation homotopy",
+    "c*c*c: closed corrected cocycle",
+    "c*c*c: exact D3 preimage",
+    "c*c*c: raw equations and regularity",
+    "b: relation homotopy",
+    "b: closed corrected cocycle",
+    "b: exact D3 preimage",
+    "b: raw equations and regularity",
+    "b*lambda: relation homotopy",
+    "b*lambda: closed corrected cocycle",
+    "b*lambda: exact D3 preimage",
+    "b*lambda: raw equations and regularity",
+    "b*d: relation homotopy",
+    "b*d: closed corrected cocycle",
+    "b*d: exact D3 preimage",
+    "b*d: raw equations and regularity",
+    "b*d*d: relation homotopy",
+    "b*d*d: closed corrected cocycle",
+    "b*d*d: exact D3 preimage",
+    "b*d*d: raw equations and regularity",
+    "b*c: relation homotopy",
+    "b*c: closed corrected cocycle",
+    "b*c: exact D3 preimage",
+    "b*c: raw equations and regularity",
+    "b*c*d: relation homotopy",
+    "b*c*d: closed corrected cocycle",
+    "b*c*d: exact D3 preimage",
+    "b*c*d: raw equations and regularity",
+    "b*c*c: relation homotopy",
+    "b*c*c: closed corrected cocycle",
+    "b*c*c: exact D3 preimage",
+    "b*c*c: raw equations and regularity",
+    "b*b: relation homotopy",
+    "b*b: closed corrected cocycle",
+    "b*b: exact D3 preimage",
+    "b*b: raw equations and regularity",
+    "b*b*d: relation homotopy",
+    "b*b*d: closed corrected cocycle",
+    "b*b*d: exact D3 preimage",
+    "b*b*d: raw equations and regularity",
+    "b*b*c: relation homotopy",
+    "b*b*c: closed corrected cocycle",
+    "b*b*c: exact D3 preimage",
+    "b*b*c: raw equations and regularity",
+    "b*b*b: relation homotopy",
+    "b*b*b: closed corrected cocycle",
+    "b*b*b: exact D3 preimage",
+    "b*b*b: raw equations and regularity",
+    "a: relation homotopy",
+    "a: closed corrected cocycle",
+    "a: exact D3 preimage",
+    "a: raw equations and regularity",
+    "a*lambda: relation homotopy",
+    "a*lambda: closed corrected cocycle",
+    "a*lambda: exact D3 preimage",
+    "a*lambda: raw equations and regularity",
+    "a*d: relation homotopy",
+    "a*d: closed corrected cocycle",
+    "a*d: exact D3 preimage",
+    "a*d: raw equations and regularity",
+    "a*d*d: relation homotopy",
+    "a*d*d: closed corrected cocycle",
+    "a*d*d: exact D3 preimage",
+    "a*d*d: raw equations and regularity",
+    "a*c: relation homotopy",
+    "a*c: closed corrected cocycle",
+    "a*c: exact D3 preimage",
+    "a*c: raw equations and regularity",
+    "a*c*d: relation homotopy",
+    "a*c*d: closed corrected cocycle",
+    "a*c*d: exact D3 preimage",
+    "a*c*d: raw equations and regularity",
+    "a*c*c: relation homotopy",
+    "a*c*c: closed corrected cocycle",
+    "a*c*c: exact D3 preimage",
+    "a*c*c: raw equations and regularity",
+    "a*b: relation homotopy",
+    "a*b: closed corrected cocycle",
+    "a*b: exact D3 preimage",
+    "a*b: raw equations and regularity",
+    "a*b*d: relation homotopy",
+    "a*b*d: closed corrected cocycle",
+    "a*b*d: exact D3 preimage",
+    "a*b*d: raw equations and regularity",
+    "a*b*c: relation homotopy",
+    "a*b*c: closed corrected cocycle",
+    "a*b*c: exact D3 preimage",
+    "a*b*c: raw equations and regularity",
+    "a*b*b: relation homotopy",
+    "a*b*b: closed corrected cocycle",
+    "a*b*b: exact D3 preimage",
+    "a*b*b: raw equations and regularity",
+    "a*a: relation homotopy",
+    "a*a: closed corrected cocycle",
+    "a*a: exact D3 preimage",
+    "a*a: raw equations and regularity",
+    "a*a*d: relation homotopy",
+    "a*a*d: closed corrected cocycle",
+    "a*a*d: exact D3 preimage",
+    "a*a*d: raw equations and regularity",
+    "a*a*c: relation homotopy",
+    "a*a*c: closed corrected cocycle",
+    "a*a*c: exact D3 preimage",
+    "a*a*c: raw equations and regularity",
+    "a*a*b: relation homotopy",
+    "a*a*b: closed corrected cocycle",
+    "a*a*b: exact D3 preimage",
+    "a*a*b: raw equations and regularity",
+    "a*a*a: relation homotopy",
+    "a*a*a: closed corrected cocycle",
+    "a*a*a: exact D3 preimage",
+    "a*a*a: raw equations and regularity"
+  ],
+  "count": 163,
+  "coefficients": {
+    "1": {
+      "primitive_terms": {
+        "finite_W_primitive": 579,
+        "infinity_W_primitive": 636,
+        "mixed_W_primitive": 727
+      },
+      "graded_stage_terms": 11577
+    },
+    "lambda": {
+      "primitive_terms": {
+        "finite_W_primitive": 22,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 25
+      },
+      "graded_stage_terms": 248
+    },
+    "d": {
+      "primitive_terms": {
+        "finite_W_primitive": 110,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 171
+      },
+      "graded_stage_terms": 2061
+    },
+    "d*lambda": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "d*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 2
+      },
+      "graded_stage_terms": 8
+    },
+    "d*d*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "c": {
+      "primitive_terms": {
+        "finite_W_primitive": 105,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 186
+      },
+      "graded_stage_terms": 2134
+    },
+    "c*lambda": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "c*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 5
+      },
+      "graded_stage_terms": 20
+    },
+    "c*d*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "c*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 3
+      },
+      "graded_stage_terms": 12
+    },
+    "c*c*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "c*c*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "b": {
+      "primitive_terms": {
+        "finite_W_primitive": 551,
+        "infinity_W_primitive": 625,
+        "mixed_W_primitive": 670
+      },
+      "graded_stage_terms": 10690
+    },
+    "b*lambda": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 15
+      },
+      "graded_stage_terms": 94
+    },
+    "b*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 39,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 131
+      },
+      "graded_stage_terms": 1455
+    },
+    "b*d*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "b*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 37,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 157
+      },
+      "graded_stage_terms": 1611
+    },
+    "b*c*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "b*c*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "b*b": {
+      "primitive_terms": {
+        "finite_W_primitive": 374,
+        "infinity_W_primitive": 296,
+        "mixed_W_primitive": 623
+      },
+      "graded_stage_terms": 8157
+    },
+    "b*b*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 63
+      },
+      "graded_stage_terms": 566
+    },
+    "b*b*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 63
+      },
+      "graded_stage_terms": 566
+    },
+    "b*b*b": {
+      "primitive_terms": {
+        "finite_W_primitive": 107,
+        "infinity_W_primitive": 30,
+        "mixed_W_primitive": 348
+      },
+      "graded_stage_terms": 3647
+    },
+    "a": {
+      "primitive_terms": {
+        "finite_W_primitive": 480,
+        "infinity_W_primitive": 527,
+        "mixed_W_primitive": 671
+      },
+      "graded_stage_terms": 10309
+    },
+    "a*lambda": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 17
+      },
+      "graded_stage_terms": 100
+    },
+    "a*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 37,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 159
+      },
+      "graded_stage_terms": 1625
+    },
+    "a*d*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "a*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 50,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 159
+      },
+      "graded_stage_terms": 1681
+    },
+    "a*c*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "a*c*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 0
+      },
+      "graded_stage_terms": 0
+    },
+    "a*b": {
+      "primitive_terms": {
+        "finite_W_primitive": 475,
+        "infinity_W_primitive": 403,
+        "mixed_W_primitive": 562
+      },
+      "graded_stage_terms": 9005
+    },
+    "a*b*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 49
+      },
+      "graded_stage_terms": 614
+    },
+    "a*b*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 72
+      },
+      "graded_stage_terms": 712
+    },
+    "a*b*b": {
+      "primitive_terms": {
+        "finite_W_primitive": 251,
+        "infinity_W_primitive": 48,
+        "mixed_W_primitive": 332
+      },
+      "graded_stage_terms": 4641
+    },
+    "a*a": {
+      "primitive_terms": {
+        "finite_W_primitive": 277,
+        "infinity_W_primitive": 289,
+        "mixed_W_primitive": 657
+      },
+      "graded_stage_terms": 7998
+    },
+    "a*a*d": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 91
+      },
+      "graded_stage_terms": 674
+    },
+    "a*a*c": {
+      "primitive_terms": {
+        "finite_W_primitive": 0,
+        "infinity_W_primitive": 0,
+        "mixed_W_primitive": 100
+      },
+      "graded_stage_terms": 753
+    },
+    "a*a*b": {
+      "primitive_terms": {
+        "finite_W_primitive": 204,
+        "infinity_W_primitive": 72,
+        "mixed_W_primitive": 352
+      },
+      "graded_stage_terms": 4634
+    },
+    "a*a*a": {
+      "primitive_terms": {
+        "finite_W_primitive": 61,
+        "infinity_W_primitive": 52,
+        "mixed_W_primitive": 400
+      },
+      "graded_stage_terms": 3774
+    }
+  },
+  "D3": [
+    [
+      "1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "-1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "1",
+      "0",
+      "-1",
+      "0",
+      "-1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "1"
+    ]
+  ],
+  "source_columns": [
+    72,
+    199,
+    207,
+    246,
+    254,
+    261,
+    267,
+    379,
+    387
+  ],
+  "target_rows": [
+    108,
+    283,
+    289,
+    313,
+    319,
+    324,
+    328,
+    423,
+    429
+  ],
+  "input_hashes": {
+    "first_jet.json": "2be28aebeb2ff40754f17ca94f76b68eb40043f6492a1794bd91436bc27e1f10",
+    "certificate.json": "c03a36fca19b7a73b8c483c7dc9e2a17f4a1ea422e9a61972966b734cd5597e4",
+    "order_3.json": "e9aec49580b90c90c3acfb09683d5a5df3a101969e755373c221e20ff47efcf0",
+    "pinned_contraction.py": "5e8b20bc7f11dd9061336d9ff6be5efcb2b8fd86555d65dfb5f14e7eeac11168"
+  }
+}
