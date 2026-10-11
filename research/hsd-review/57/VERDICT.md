@@ -2,6 +2,10 @@
 
 Reviewed head: `b1fdcdd666ed188250d6def3616733f1417fca81` (#57).
 
+Revision: the six identical coefficient arrays are the orbits of the carrier
+involution `iota(i)=i+2 (mod 4)`, not a packaging defect. The paired signed
+readings do not cancel. See `symmetry/README.md`.
+
 `contributions.json` SHA-256
 `72b08646afaf3a493243698583ee1f434a9dd78707d775d4fd0206593a5b87f0`.
 
@@ -67,6 +71,10 @@ the recorded rationals above. They are selector readings of copied lists, as
 recorded in the defect.
 
 ## Defect
+
+Reclassified by `symmetry/README.md`: this pattern is the involution
+`iota(i)=i+2 (mod 4)`. It is not a copied-file defect. The description below
+is the array identity that the involution predicts.
 
 The eighteen edges carry **12** distinct coefficient arrays, not 18. The pairs
 related by adding 2 (mod 4) to every role index have identical integer lists,
