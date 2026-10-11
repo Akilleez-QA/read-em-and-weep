@@ -1,0 +1,890 @@
+{
+  "status": "PASS_BINDING_AND_TERMINAL_RECONSTRUCTION",
+  "scope": "The six duplicate supplied arrays are separately bound to distinct role/source/checkpoint artifacts and reconstruct from their own terminal factors. Equality is compatible with the physical permutation(02)(13) and verified selector covariance. This audit does not prove the underlying symbolic source symmetry or reevaluate any source DAG node.",
+  "uniqueArraysAmong18": 12,
+  "duplicatePairs": [
+    {
+      "roles": [
+        "0123",
+        "2301"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "8655",
+        "16"
+      ],
+      "permutedTargetSignedValue": [
+        "8655",
+        "16"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "131",
+        "2"
+      ],
+      "mappedRowCount": 207
+    },
+    {
+      "roles": [
+        "0132",
+        "2310"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "-2817",
+        "16"
+      ],
+      "permutedTargetSignedValue": [
+        "-2817",
+        "16"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "-169",
+        "2"
+      ],
+      "mappedRowCount": 189
+    },
+    {
+      "roles": [
+        "0213",
+        "2031"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "18831",
+        "8"
+      ],
+      "permutedTargetSignedValue": [
+        "18831",
+        "8"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "42869",
+        "16"
+      ],
+      "mappedRowCount": 207
+    },
+    {
+      "roles": [
+        "0231",
+        "2013"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "-21601",
+        "8"
+      ],
+      "permutedTargetSignedValue": [
+        "-21601",
+        "8"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "-41517",
+        "16"
+      ],
+      "mappedRowCount": 189
+    },
+    {
+      "roles": [
+        "0312",
+        "2130"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "1457",
+        "8"
+      ],
+      "permutedTargetSignedValue": [
+        "1457",
+        "8"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "21869",
+        "16"
+      ],
+      "mappedRowCount": 147
+    },
+    {
+      "roles": [
+        "0321",
+        "2103"
+      ],
+      "physicalPermutation": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "equalRoleCoordinateArrays": true,
+      "distinctSourceAndCheckpointBindings": true,
+      "allSelectorRowsMatchAfterPermutingTargetMonomial": true,
+      "originalTarget": [
+        2,
+        2,
+        2,
+        0
+      ],
+      "permutedTarget": [
+        2,
+        0,
+        2,
+        2
+      ],
+      "originalSignedValue": [
+        "-803",
+        "4"
+      ],
+      "permutedTargetSignedValue": [
+        "-803",
+        "4"
+      ],
+      "sameFixedM2220TargetOnSecondRole": [
+        "-22917",
+        "16"
+      ],
+      "mappedRowCount": 147
+    }
+  ],
+  "roles": {
+    "0123": {
+      "roles": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "configurationSHA256": "097051317c397e2e572be99b4ad9b357f45596ab46bdb4c1b47323b3fb1ac7c4",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "eae46f79c8b8d94a6c81e32e8babc58938e411bd69e1588ab8f014dd9875a1ea",
+      "sourcePairGateSHA256": "a8c556a36504040df8561ec5adc38528592e74ba5a16b1aa06464b321b9dadab",
+      "checkpointSHA256": "fb79c4d3799bc72a6cabfdefb29823239be96c3718ce62eb8b70c4cda9c04980",
+      "quotientSHA256": "06062e1d67244fb7a757661e4f4a69800bdfe55c0dfa7b0231a7f46d418cff0e",
+      "coefficientArraySHA256": "dfc8ee5bbabef051a9c18708f0b93b758ed34943ace9ee7ee448a0b33640da71",
+      "independentCompletionReceiptSHA256": "a81444ef57514b21c3420cd9c3a6cb701f6307e165393e4588b1a14a70240a75",
+      "sourcePair": [
+        0,
+        1
+      ],
+      "remainingPhysicalAxes": [
+        2,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 1,
+        "homogeneousReferenceAxis": 2,
+        "lowBAxis": 3
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "0f4c9c9eb23b294f08e8479aa11bd2cfea6e1f527e8de6ce1f2af060dbebffa6"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "0132": {
+      "roles": [
+        0,
+        1,
+        3,
+        2
+      ],
+      "configurationSHA256": "d00557a5d1fa918d75bb5f396a6343d090758463f8aa45377ca3a2f3b98f9f29",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "eae46f79c8b8d94a6c81e32e8babc58938e411bd69e1588ab8f014dd9875a1ea",
+      "sourcePairGateSHA256": "a8c556a36504040df8561ec5adc38528592e74ba5a16b1aa06464b321b9dadab",
+      "checkpointSHA256": "8764e3691970a502581f4ead29d29eb382cd50393b9f3213c88a9af1d68656bc",
+      "quotientSHA256": "8ed7b16d3e23807638c622a9e4680db9da41c5cb9b8c5b87398bb02569790e91",
+      "coefficientArraySHA256": "40cf406681bbeedad3681da604300dd99ff9975b6a6fd3b403dcee5a3d92d9af",
+      "independentCompletionReceiptSHA256": "b9553b2b6fb7fe59d3eaea4a6aeac785f19864a308f241cbbf7d4dbdb30da7d9",
+      "sourcePair": [
+        0,
+        1
+      ],
+      "remainingPhysicalAxes": [
+        2,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 1,
+        "homogeneousReferenceAxis": 3,
+        "lowBAxis": 2
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "85b659e318cddc376568260e5c2065b0deb837d03506b91efbdb71f18610574f"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "0213": {
+      "roles": [
+        0,
+        2,
+        1,
+        3
+      ],
+      "configurationSHA256": "e69aeae780a13c0d7819103942cc61f92fedb253148016e1138460ddf8464e0c",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "828fd8ca9e5eb693dd74fec3bff72349d0cd02a01bc7244a45b8ea727420a05b",
+      "sourcePairGateSHA256": "c1e546f55516ee147433513c90995105faeed7d5d985f8dda2b0ba70f4e4072e",
+      "checkpointSHA256": "d89f81cb676db4dfa6284dee1528025cae575f46e26a6a74dde4b48b6bb60386",
+      "quotientSHA256": "f16c773b247893c8fb4d7de50607e43e595502cb5cb3227e3f8134382e99b1b8",
+      "coefficientArraySHA256": "cae19babdc6803c0c161f93ff2ff61221c108e23ecdb1808df0c701d3bf5bf4f",
+      "independentCompletionReceiptSHA256": "01f829386c4b8695744487af0e24b842821af05b14363586d5e946a259b535b7",
+      "sourcePair": [
+        0,
+        2
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 2,
+        "homogeneousReferenceAxis": 1,
+        "lowBAxis": 3
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "69315efc852940a8043f953e66469649226627c8aa86a46f0da905a47237a81f"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "0231": {
+      "roles": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "configurationSHA256": "cfa789003fef3c8322f256db767cf6b7ded44430b942a81225fb5e7f4aa46ff0",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "828fd8ca9e5eb693dd74fec3bff72349d0cd02a01bc7244a45b8ea727420a05b",
+      "sourcePairGateSHA256": "c1e546f55516ee147433513c90995105faeed7d5d985f8dda2b0ba70f4e4072e",
+      "checkpointSHA256": "94bdf21700c6ed4dd87dec6ee0624d5d9609f74b8193d517c5b3bd11ed13a744",
+      "quotientSHA256": "564b37ca9873d72a765ad8fcc168406823cddb38083c500d08a2c4db06bed516",
+      "coefficientArraySHA256": "862a4435777b4e5ab98b8dd5000bcccab4d8b83dcd0203af14531fda9b47eaf6",
+      "independentCompletionReceiptSHA256": "9f7c7ad0a15b918dc49ee36c6f2018d22ba7c9aa383b9105e816b074a759e7f4",
+      "sourcePair": [
+        0,
+        2
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 2,
+        "homogeneousReferenceAxis": 3,
+        "lowBAxis": 1
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "a11f1ed696eeff4d8384d1cc49af96e3e4244d005923462bb1143762965ad93e"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "0312": {
+      "roles": [
+        0,
+        3,
+        1,
+        2
+      ],
+      "configurationSHA256": "649195593a356ee9fe44a16405aa04d683b35b1649872cc08ddce4e10e0d64f1",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "3b00c6fb0ad377385aa4e06a31707c6a9f7682903ca631ca4f187cba6b9d354d",
+      "sourcePairGateSHA256": "2e878eb296bbc1ad46ab89cdbcfeefd2e0a6a6ddc9ea9032bee720c227e42212",
+      "checkpointSHA256": "0657b14377f719dd61ca18153a7cc46259c7a95743d001b36d6e2512f9a97884",
+      "quotientSHA256": "0161e7aa0fc775285d53e9f13af3d1f262823f39a0552922bbb6152b21f15182",
+      "coefficientArraySHA256": "5691e1144b4eab9fbddcd249f4d8675faf50cac382864c0c1b9f4d116ae7fd05",
+      "independentCompletionReceiptSHA256": "4111675173dff0157a16aa7871710685a06c8c5ae9be0807d371251148bc1dd1",
+      "sourcePair": [
+        0,
+        3
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        2
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 3,
+        "homogeneousReferenceAxis": 1,
+        "lowBAxis": 2
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "68a1efc5770b77d973316cdb0f06dc8f3f045e44c51aa7fa720ec270b128750b"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "0321": {
+      "roles": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "configurationSHA256": "9054686384f60b5733df43be5f8e0e403308a021162c6b77b5113328fd0bba9e",
+      "normalizedSourceSHA256": "36a7173952104d762ac782145c81504cc3bbb1a2c04491fc19fe722bf591096c",
+      "compactSourceSHA256": "3b00c6fb0ad377385aa4e06a31707c6a9f7682903ca631ca4f187cba6b9d354d",
+      "sourcePairGateSHA256": "2e878eb296bbc1ad46ab89cdbcfeefd2e0a6a6ddc9ea9032bee720c227e42212",
+      "checkpointSHA256": "33afd0b677b17cc43c24dc8cdbcb6ccf49e7d233ecc92eff3b789e075cb09534",
+      "quotientSHA256": "6cb0d24d91eae5583192194bb8b166add49d2252fa8cd7c7db4e6a1b1bd05136",
+      "coefficientArraySHA256": "3277c1d8a6ca67a8b69f2d0a29007e47f6d7287679e75339fae0fa99fd3dd7cc",
+      "independentCompletionReceiptSHA256": "b08064c624ab78d48105e868d865a80ef1e65effe2698e9197656eebe27f9a3b",
+      "sourcePair": [
+        0,
+        3
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        2
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 0,
+        "reverseUAxis": 3,
+        "homogeneousReferenceAxis": 2,
+        "lowBAxis": 1
+      },
+      "sourceNodeCount": 37741,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37756,
+          "power": 1,
+          "denominator": "40",
+          "coefficientArraySHA256": "f3a5b8620732416cf7e86ad1f4dc5ecc46f8df245b05f6fcd0d2b9097d1c075d"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2013": {
+      "roles": [
+        2,
+        0,
+        1,
+        3
+      ],
+      "configurationSHA256": "9d63006a3973c511e5d25e38e5eafce3de21151d4f94f2c52f2c760bc8309120",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "3362ffb887db207f3c6268f38e05338d1729f39c2d601d718ebb3e8232413d9b",
+      "sourcePairGateSHA256": "f81cc2f353b9cf0817e9b1ea40d07bc1ed8fae3580bf6bcd90a8bb8b68946a69",
+      "checkpointSHA256": "77c7412517466d5d529e54cbd203427379afbaec293d6c2db8af1dddd33aeea9",
+      "quotientSHA256": "35164e1ff4ab348a73cc024003c7ae7a0f6e607743f749454dde093b08e6cbf6",
+      "coefficientArraySHA256": "862a4435777b4e5ab98b8dd5000bcccab4d8b83dcd0203af14531fda9b47eaf6",
+      "independentCompletionReceiptSHA256": "fcf3335a2d2bb67f938759b06321310aac36169b3e336c6a9284b3983f5660d8",
+      "sourcePair": [
+        2,
+        0
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 0,
+        "homogeneousReferenceAxis": 1,
+        "lowBAxis": 3
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "a11f1ed696eeff4d8384d1cc49af96e3e4244d005923462bb1143762965ad93e"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2031": {
+      "roles": [
+        2,
+        0,
+        3,
+        1
+      ],
+      "configurationSHA256": "e186538ec052d98957f1eff23ad98544f4cd506a3c903a6b4cf86f20d2b35b2e",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "3362ffb887db207f3c6268f38e05338d1729f39c2d601d718ebb3e8232413d9b",
+      "sourcePairGateSHA256": "f81cc2f353b9cf0817e9b1ea40d07bc1ed8fae3580bf6bcd90a8bb8b68946a69",
+      "checkpointSHA256": "32e22d95c3fb749fb6c2bfadf57242135d7ff915183c53e28d77de6976576c36",
+      "quotientSHA256": "b80834232ece0bb0e5a6017217776b6075bc4261b1c17954aff33eb6c5c114c2",
+      "coefficientArraySHA256": "cae19babdc6803c0c161f93ff2ff61221c108e23ecdb1808df0c701d3bf5bf4f",
+      "independentCompletionReceiptSHA256": "248cf5d5d5ac6301120f754ca2789cd70c01c72eb707713ccba8675aa3b5eb69",
+      "sourcePair": [
+        2,
+        0
+      ],
+      "remainingPhysicalAxes": [
+        1,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 0,
+        "homogeneousReferenceAxis": 3,
+        "lowBAxis": 1
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "69315efc852940a8043f953e66469649226627c8aa86a46f0da905a47237a81f"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2103": {
+      "roles": [
+        2,
+        1,
+        0,
+        3
+      ],
+      "configurationSHA256": "e7768e4c53a2452457a022cf8790b57ebdf2dab403e26cf195cd58c50558a937",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "d68440d63e481f7e0bfa91f0bb1036a912599819749ede0bce18e73b53ae2b0b",
+      "sourcePairGateSHA256": "4a30d2510e9c18c47ed7c41f7058afdef6775d758781362253ccf287de7bfe26",
+      "checkpointSHA256": "f67463cf1eb2abb869f937574ae7a71a8aece9d8db1c02c4a91691c17e213502",
+      "quotientSHA256": "58a08c6d9149bfe1e48840ebf6fb82033f6de09b534ad4ec447045bc7b81a441",
+      "coefficientArraySHA256": "3277c1d8a6ca67a8b69f2d0a29007e47f6d7287679e75339fae0fa99fd3dd7cc",
+      "independentCompletionReceiptSHA256": "99728646532de694afb7270346b3b704d410c3724bf7a9157527794585cb48b9",
+      "sourcePair": [
+        2,
+        1
+      ],
+      "remainingPhysicalAxes": [
+        0,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 1,
+        "homogeneousReferenceAxis": 0,
+        "lowBAxis": 3
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "f3a5b8620732416cf7e86ad1f4dc5ecc46f8df245b05f6fcd0d2b9097d1c075d"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2130": {
+      "roles": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "configurationSHA256": "0d816066ab49007ab1f1e304863b2cb49d1042899216d526eafc0d17148de0d4",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "d68440d63e481f7e0bfa91f0bb1036a912599819749ede0bce18e73b53ae2b0b",
+      "sourcePairGateSHA256": "4a30d2510e9c18c47ed7c41f7058afdef6775d758781362253ccf287de7bfe26",
+      "checkpointSHA256": "258dd209926c05a1149264ea3b4b0ca9e3d8c4f849b4207c2ae1d312f603c37d",
+      "quotientSHA256": "e4f242cc3535759d1b12f2395c23e56944b6c14032bcc9814a249d4fb1d7ac5c",
+      "coefficientArraySHA256": "5691e1144b4eab9fbddcd249f4d8675faf50cac382864c0c1b9f4d116ae7fd05",
+      "independentCompletionReceiptSHA256": "fa8b463916e0fa89e206c5fa27c5fab3fbe24ef3e829e9b30bd5b87c4621a4ea",
+      "sourcePair": [
+        2,
+        1
+      ],
+      "remainingPhysicalAxes": [
+        0,
+        3
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 1,
+        "homogeneousReferenceAxis": 3,
+        "lowBAxis": 0
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "68a1efc5770b77d973316cdb0f06dc8f3f045e44c51aa7fa720ec270b128750b"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2301": {
+      "roles": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "configurationSHA256": "a1d85d41a1a335a0ad93c28ceba9e63a17db2ce4250983860a259d3fc19f3de7",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "040cb20c6128e196b28e08e8fb7f8d85f49ae050bcef82132584c5d6a364301d",
+      "sourcePairGateSHA256": "4cb28ab33b95e0c9250aec401f2bef7806da9962dde489d0d2d20fd36aca07b7",
+      "checkpointSHA256": "708e2247b03c3fc153987bfd1ac732ccf47b2b460f743680c6ba30c697436c8e",
+      "quotientSHA256": "ca5b54b8506c1f73da20273dfd73bc2b19e3393564e83e2559c67dc05dfe8bbd",
+      "coefficientArraySHA256": "dfc8ee5bbabef051a9c18708f0b93b758ed34943ace9ee7ee448a0b33640da71",
+      "independentCompletionReceiptSHA256": "645351de7a0388e63d2f2c4ce9f84baf18b2073f3a4ec67984a54c653cd17cd9",
+      "sourcePair": [
+        2,
+        3
+      ],
+      "remainingPhysicalAxes": [
+        0,
+        1
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 3,
+        "homogeneousReferenceAxis": 0,
+        "lowBAxis": 1
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "0f4c9c9eb23b294f08e8479aa11bd2cfea6e1f527e8de6ce1f2af060dbebffa6"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    },
+    "2310": {
+      "roles": [
+        2,
+        3,
+        1,
+        0
+      ],
+      "configurationSHA256": "2f9f9572df55154fb3f41ca3a9a187cfe66a46876356bf2483d9b49b3f876366",
+      "normalizedSourceSHA256": "27e8fb32df2df462ef96e1b17393e6069face838814219c03a13b550cd7a0932",
+      "compactSourceSHA256": "040cb20c6128e196b28e08e8fb7f8d85f49ae050bcef82132584c5d6a364301d",
+      "sourcePairGateSHA256": "4cb28ab33b95e0c9250aec401f2bef7806da9962dde489d0d2d20fd36aca07b7",
+      "checkpointSHA256": "e12881deec49c47c1aab8bbbc3a45454c334645613c08162fd2db7d1ed179f21",
+      "quotientSHA256": "1a81420718ad7487109bc46bfe84952be7566920c200dc321d8a921638d61529",
+      "coefficientArraySHA256": "40cf406681bbeedad3681da604300dd99ff9975b6a6fd3b403dcee5a3d92d9af",
+      "independentCompletionReceiptSHA256": "8d31bf1d0f52281f2342d92eed33bb1b751f488ef5229a494dbaa3a69d838665",
+      "sourcePair": [
+        2,
+        3
+      ],
+      "remainingPhysicalAxes": [
+        0,
+        1
+      ],
+      "variableMap": {
+        "firstLeadingAxis": 2,
+        "reverseUAxis": 3,
+        "homogeneousReferenceAxis": 1,
+        "lowBAxis": 0
+      },
+      "sourceNodeCount": 37708,
+      "rootIntegerWeight": 1,
+      "terminalFactors": [
+        {
+          "symbol": 20,
+          "power": 40,
+          "denominator": "1",
+          "coefficientArraySHA256": "52e5497f7e0dd262edfbb3206fe5d0d178983d33bf7df645c556604a9b466ba2"
+        },
+        {
+          "symbol": 22,
+          "power": 38,
+          "denominator": "1",
+          "coefficientArraySHA256": "80405b50448b27b65b35b6df14a96e3c815c72308d889bf058d81498d4f7300f"
+        },
+        {
+          "symbol": 37723,
+          "power": 1,
+          "denominator": "800",
+          "coefficientArraySHA256": "85b659e318cddc376568260e5c2065b0deb837d03506b91efbdb71f18610574f"
+        }
+      ],
+      "fullTerminalIntegerAndRationalReconstructionMatched": true
+    }
+  },
+  "exactMappedSelectorRowsCompared": 1086,
+  "actualSourceNodesReevaluated": 0,
+  "sourceSymmetryProved": false,
+  "mistakenSourceOrCheckpointReuseDetected": false,
+  "sealedArtifactsModified": false
+}

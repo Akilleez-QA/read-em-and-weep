@@ -1,0 +1,41 @@
+{
+  "schema": "Lminus-all81-manifest-v1",
+  "files": {
+    "DUPLICATE-ARRAYS.md": {
+      "sha256": "6b4b6f35edc158dd3949d026200cb85ea5d591f50311c97158e39dffd54a5c57",
+      "bytes": 2661
+    },
+    "README.md": {
+      "sha256": "160d66b21cf7a08f9a92f39041b72504d699e7a483b0328ea84e9ed0287a1e5a",
+      "bytes": 4127
+    },
+    "SOURCES.md": {
+      "sha256": "f28153137bb854208009f60e9bb50eae7d731102fe7e3e60d5d9749f5a363cc8",
+      "bytes": 6019
+    },
+    "duplicate-binding.json": {
+      "sha256": "08c16deec98059a597301700bedc986a452038bb87ba04eef451453cc968b68b",
+      "bytes": 27994
+    },
+    "expected.json": {
+      "sha256": "3f29cbe22d57164df71d401b4bfa62fae89088188c8cac6f7bc3432ec55e9acf",
+      "bytes": 114040
+    },
+    "provenance.json": {
+      "sha256": "146fdce9cc50985e1fa8d1b50ba56e0fef5aa114a26776fdc13cac77b55b0d36",
+      "bytes": 806
+    },
+    "quotients.json": {
+      "sha256": "39a6e48bd24087c00f8b24977decaf9ba55c34ab27ab3ee5af7eea83ef29d2a9",
+      "bytes": 137927
+    },
+    "replay.py": {
+      "sha256": "c0e3471cbba7119b8bbd6e444d5a205cd285195467bb3d82972118825f1ddb22",
+      "bytes": 12325
+    },
+    "test_replay.py": {
+      "sha256": "7d24090c4e6555bf10d996297a9f817bf53cd49e5ef3ac0781dfad5c31e02ccb",
+      "bytes": 4409
+    }
+  }
+}
