@@ -143,7 +143,10 @@ From `research/hsd-label-audit-61/hsd_label_audit`:
 
 ```sh
 python3 generate_higher.py --output frozen/higher_certificate.json
+python3 compare_higher.py --json-output comparison_higher_receipt.json --markdown-output comparison_higher_receipt.md
 python3 -m unittest discover -s tests -v
 ```
+
+`compare_higher.py` reads the shipped blocks only after the certificate exists. It is not part of the enumeration.
 
 The certificate records `content_sha256`, the SHA-256 of the canonical JSON of the certificate with that field removed. Python 3.10 or newer is enough; the arithmetic uses `fractions.Fraction` only.

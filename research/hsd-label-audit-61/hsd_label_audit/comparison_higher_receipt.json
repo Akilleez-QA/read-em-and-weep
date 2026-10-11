@@ -1,0 +1,310 @@
+{
+  "frozen_certificate": "research/hsd-label-audit-61/hsd_label_audit/frozen/higher_certificate.json",
+  "content_sha256": "203311373309eded58fa5e30ee8a9ba1aeb8ff5050f3556abe0a2370685bf7cc",
+  "freeze_commit": "d154dabe2d6e00dfd0932ecfdc3e980fe9346886",
+  "arithmetic": "exact rational",
+  "generated_max_character": {
+    "U": 2,
+    "W": 2
+  },
+  "weight_cutoff_from_k": 7,
+  "weight_cutoff_uses_generated_maximum": true,
+  "orders": [
+    {
+      "k": 4,
+      "map": "D4",
+      "shipped_shape": [
+        701,
+        520
+      ],
+      "frozen_dimension_U": 520,
+      "frozen_dimension_W": 701,
+      "source_change_of_basis": {
+        "size": 520,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "target_change_of_basis": {
+        "size": 701,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "kernel_free_rows": 701,
+      "kernel_free_is_ordered_complement_of_pivots": true,
+      "full_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "full_nonzero_rebuilt": 1962,
+      "full_nonzero_shipped": 1962,
+      "pivot_coordinates_in_raw_image": 0,
+      "alpha_columns_outside_C_kernel": 0,
+      "required_character": 0,
+      "required_block_matches_frozen_alpha": true,
+      "required_block_determinant_over_Q": "1",
+      "connecting_change_of_basis": {
+        "compared": false,
+        "reason": "order 4 has H^3(E0^2)=0, so there is no C block"
+      }
+    },
+    {
+      "k": 5,
+      "map": "D5",
+      "shipped_shape": [
+        888,
+        627
+      ],
+      "frozen_dimension_U": 627,
+      "frozen_dimension_W": 888,
+      "source_change_of_basis": {
+        "size": 627,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "target_change_of_basis": {
+        "size": 891,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "kernel_free_rows": 888,
+      "kernel_free_is_ordered_complement_of_pivots": true,
+      "full_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "full_nonzero_rebuilt": 2484,
+      "full_nonzero_shipped": 2484,
+      "pivot_coordinates_in_raw_image": 30,
+      "alpha_columns_outside_C_kernel": 0,
+      "required_character": 1,
+      "required_block_matches_frozen_alpha": true,
+      "required_block_determinant_over_Q": "1",
+      "connecting_change_of_basis": {
+        "compared": true,
+        "E0E1_columns": 15,
+        "H3_rows": 3,
+        "change_of_basis": [
+          [
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "determinant_over_Q": "-1",
+        "matches_C_on_E0E1": true,
+        "mismatches": [],
+        "duals_head": [
+          [
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            2,
+            2
+          ]
+        ]
+      }
+    },
+    {
+      "k": 6,
+      "map": "D6",
+      "shipped_shape": [
+        1095,
+        744
+      ],
+      "frozen_dimension_U": 744,
+      "frozen_dimension_W": 1095,
+      "source_change_of_basis": {
+        "size": 744,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "target_change_of_basis": {
+        "size": 1104,
+        "ordered_equal": true,
+        "matrix": "identity",
+        "determinant_over_Q": "1",
+        "frozen_not_shipped": 0,
+        "shipped_not_frozen": 0
+      },
+      "kernel_free_rows": 1095,
+      "kernel_free_is_ordered_complement_of_pivots": true,
+      "full_matrix": {
+        "only_rebuilt": [],
+        "only_shipped": [],
+        "value_disagreements": [],
+        "equal": true
+      },
+      "full_nonzero_rebuilt": 3046,
+      "full_nonzero_shipped": 3046,
+      "pivot_coordinates_in_raw_image": 90,
+      "alpha_columns_outside_C_kernel": 0,
+      "required_character": 2,
+      "required_block_matches_frozen_alpha": true,
+      "required_block_determinant_over_Q": "1",
+      "connecting_change_of_basis": {
+        "compared": true,
+        "E0E1_columns": 21,
+        "H3_rows": 9,
+        "change_of_basis": [
+          [
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1"
+          ]
+        ],
+        "determinant_over_Q": "-1",
+        "matches_C_on_E0E1": true,
+        "mismatches": [],
+        "duals_head": [
+          [
+            0,
+            0,
+            5
+          ],
+          [
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            2,
+            3
+          ]
+        ]
+      }
+    }
+  ],
+  "mismatch": false
+}
