@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import itertools
 import sys
 import unittest
 from pathlib import Path
@@ -83,6 +84,39 @@ class CechTests(unittest.TestCase):
         self.assertEqual(report["leading_pure_powers"], {"X": 2, "Y": 3, "W": 6})
         self.assertTrue(report["colon_equals_ideal"])
         self.assertTrue(report["regular_at_z1"])
+
+    def test_power_colon_identity_for_n_1_through_4(self):
+        # Stacks 07DV lifts every checked order to all positive exponents.
+        # These four equalities are the transitions themselves, over Q.
+        signed, variables = cf.chart_signed_sequence()
+        for order in itertools.permutations(range(3)):
+            sequence = [signed[index] for index in order]
+            ok, step, extras = cf.is_regular_sequence(sequence, variables)
+            self.assertTrue(ok, (order, step, extras))
+        report = cf.check_cech_and_chart()
+        for n in range(1, 5):
+            self.assertTrue(cf.power_colon_equal(signed, n, variables), n)
+            self.assertTrue(cf.stage_image_survives(signed, cf.a, n, variables), n)
+            self.assertTrue(report["colon_identity_by_n"][str(n)])
+            self.assertTrue(report["numerator_survives_by_n"][str(n)])
+        self.assertTrue(report["permutations_regular"])
+        self.assertFalse(cf.verdicts()["check2"]["kernel_risk"])
+
+    def test_individual_nonextension_is_not_the_sum(self):
+        # N = f1 + f2 lies in no single (f_i) and in the sum, so
+        # N/(f1 f2 f3) = 1/(f2 f3) + 1/(f1 f3) is a coboundary.
+        signed, variables = cf.chart_signed_sequence()
+        control = cf.sum_boundary_control(signed, variables)
+        self.assertEqual(control["outside_each"], [True, True, True])
+        self.assertTrue(control["inside_sum"])
+        self.assertTrue(control["cleared_coboundary"])
+        self.assertTrue(control["false_implication_fails"])
+        numerator = sp.expand(signed[0] + signed[1])
+        self.assertEqual(sp.expand(numerator - (signed[0] + signed[1])), 0)
+        for factor in signed:
+            self.assertNotEqual(cf._membership_remainder(cf.a, [factor], variables), 0)
+        self.assertNotEqual(cf._membership_remainder(cf.a, signed, variables), 0)
+        self.assertTrue(cf.check_cech_and_chart()["sum_control_fails"])
 
 
 class InjectivityTests(unittest.TestCase):

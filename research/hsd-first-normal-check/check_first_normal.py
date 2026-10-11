@@ -15,6 +15,7 @@ Pinned object:
 from __future__ import annotations
 
 import functools
+import itertools
 import json
 import sys
 
@@ -117,6 +118,69 @@ def is_regular_sequence(elements, variables):
             return False, index, extras
         running = running + [element]
     return True, None, []
+
+
+def chart_signed_sequence():
+    """Ordered cover sequence (W^6, -g, F) at z=1, in Q[X, Y, W]."""
+    g1 = S - W**2
+    return [w, sp.expand(-g1), F], [X, Y, W]
+
+
+def _product(elements):
+    value = sp.Integer(1)
+    for element in elements:
+        value *= element
+    return sp.expand(value)
+
+
+def power_colon_equal(elements, n, variables):
+    """Exact ideal equality (f_i^{n+1}) : (f1 f2 f3) = (f_i^n) in Q[variables]."""
+    if n < 1:
+        raise ValueError(n)
+    powered = [sp.expand(element ** (n + 1)) for element in elements]
+    source = [sp.expand(element ** n) for element in elements]
+    colon = colon_generators(powered, _product(elements), variables)
+    return contained(colon, source, variables) and contained(source, colon, variables)
+
+
+def stage_image_survives(elements, numerator, n, variables):
+    """(f1 f2 f3)^{n-1} * numerator lies outside (f1^n, f2^n, f3^n)."""
+    if n < 1:
+        raise ValueError(n)
+    target = [sp.expand(element ** n) for element in elements]
+    witness = sp.expand(numerator * _product(elements) ** (n - 1))
+    return _membership_remainder(witness, target, variables) != 0
+
+
+def permutations_are_regular(elements, variables):
+    """Every order is a regular sequence. The all-n colon step uses three of them."""
+    for order in itertools.permutations(range(len(elements))):
+        sequence = [elements[index] for index in order]
+        ok, _step, _extras = is_regular_sequence(sequence, variables)
+        if not ok:
+            return False
+    return True
+
+
+def sum_boundary_control(elements, variables):
+    """Numerator outside each (f_i) and inside (f1, f2, f3).
+
+    N = f1 + f2 gives the cleared coboundary
+    N / (f1 f2 f3) = 1/(f2 f3) + 1/(f1 f3).
+    Each individual double overlap fails to provide N, and the sum succeeds.
+    """
+    numerator = sp.expand(elements[0] + elements[1])
+    outside_each = [
+        _membership_remainder(numerator, [factor], variables) != 0 for factor in elements
+    ]
+    inside_sum = _membership_remainder(numerator, list(elements), variables) == 0
+    cleared = sp.expand(numerator - (elements[0] + elements[1]))
+    return {
+        "outside_each": outside_each,
+        "inside_sum": inside_sum,
+        "cleared_coboundary": cleared == 0,
+        "false_implication_fails": all(outside_each) and inside_sum and cleared == 0,
+    }
 
 
 def plane_degrees(expr):
@@ -427,6 +491,15 @@ def check_cech_and_chart():
     colon_inside = contained(colon, signed, variables)
     ideal_inside_colon = contained(signed, colon, variables)
     killed = _membership_remainder(sp.expand(a * product), squared, variables) == 0
+    # n=1 is only the first transition. The identity is checked for n=1..4.
+    colon_by_n = {
+        str(n): power_colon_equal(signed, n, variables) for n in range(1, 5)
+    }
+    survives_by_n = {
+        str(n): stage_image_survives(signed, a, n, variables) for n in range(1, 5)
+    }
+    orders_regular = permutations_are_regular(signed, variables)
+    sum_control = sum_boundary_control(signed, variables)
     basis = _gb(signed, variables)
     pure_powers = {}
     for var in variables:
@@ -451,6 +524,10 @@ def check_cech_and_chart():
         "z_extras": extras_z,
         "colon_equals_ideal": colon_inside and ideal_inside_colon,
         "a_killed_in_first_limit_step": killed,
+        "colon_identity_by_n": colon_by_n,
+        "numerator_survives_by_n": survives_by_n,
+        "permutations_regular": orders_regular,
+        "sum_control_fails": sum_control["false_implication_fails"],
         "leading_pure_powers": pure_powers,
         "groebner": [sp.factor(poly) for poly in basis],
     }
@@ -574,7 +651,15 @@ def verdicts():
     tau = check_tau()
     v1 = "pass" if first["outside"] and first["regular"] and first["rank"] == 6 and first["rank_with_a"] == 7 else "fail"
     coprime_ok = all(cech["coprime"].values())
-    limit_ok = cech["colon_equals_ideal"] and not cech["a_killed_in_first_limit_step"]
+    transitions_ok = all(cech["colon_identity_by_n"].values()) and cech["permutations_regular"]
+    survives_ok = all(cech["numerator_survives_by_n"].values())
+    limit_ok = (
+        cech["colon_equals_ideal"]
+        and not cech["a_killed_in_first_limit_step"]
+        and transitions_ok
+        and survives_ok
+        and cech["sum_control_fails"]
+    )
     support_ok = cech["denominator_plane_degrees"] == [10] and cech["numerator_plane_degrees"] == [3]
     v2 = (
         "pass"
@@ -624,8 +709,14 @@ def verdicts():
             "regular_with_z": cech["regular_with_z"],
             "colon_equals_ideal": cech["colon_equals_ideal"],
             "a_killed_in_first_limit_step": cech["a_killed_in_first_limit_step"],
+            "colon_identity_by_n": cech["colon_identity_by_n"],
+            "numerator_survives_by_n": cech["numerator_survives_by_n"],
+            "permutations_regular": cech["permutations_regular"],
+            "sum_control_fails": cech["sum_control_fails"],
             "leading_pure_powers": cech["leading_pure_powers"],
-            "kernel_risk": not (cech["regular_at_z1"] and cech["colon_equals_ideal"]),
+            "kernel_risk": not (
+                cech["regular_at_z1"] and cech["permutations_regular"] and transitions_ok
+            ),
         },
         "check3": {
             "proved": v3 == "pass",
