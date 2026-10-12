@@ -16,8 +16,11 @@ degrees 1, 2, 3 are
     H^0(O)^80              (r = 2,  total degree 2),
     H^0(O(1))^10 = Z^50    (r = 3,  total degree 3).
 
-The differential d_5 lands in K = ker(H^0(O)^80 -> H^0(O(1))^50).
-This program builds that map by a Cech zigzag and prints a JSON certificate.
+The differential d_5 lands in K = ker(H^0(O)^80 -> H^0(O(1))^10).
+The target H^0(O(1))^10 is 50-dimensional. This program builds that map
+by a Cech zigzag and prints a JSON certificate. Over Z, and hence over Q
+and F_3, the certificate is hypercohomology of End(C)(-2) for this pinned
+perfect complex. It does not identify the resulting ranks with End(H).
 
 Conventions (pinned):
 
@@ -35,12 +38,14 @@ Conventions (pinned):
   delta and d_Hom commute and each squares to zero.
 * Cone contraction. On a monomial strand whose exponent vector is not entirely
   negative, choose the contraction vertex v among indices with exponent >= 0.
-  The pinned choice is the least such index; the choice-independence control
+  The pinned choice is the least such index; the greatest-vertex comparison
   uses the greatest. If I = (i_0 < ... < i_p) and v = i_m, the homotopy is
       h(e_I) = (-1)^m e_{I \\ v}  if v in I, else 0.
-  On every strand of O(d) for d >= -4 and every cochain of Cech degree >= 1,
-  delta h + h delta = id. Strands are signed simplex cochain complexes; the
-  homotopy is the integral cone contraction onto the chosen vertex.
+  On each contractible used term of Cech degree at least 1, both cone
+  identities hold: delta h + h delta = id for the least-vertex homotopy and
+  for the greatest-vertex homotopy. Strands are signed simplex cochain
+  complexes; the homotopy is the integral cone contraction onto the chosen
+  vertex.
 * Zigzag stage signs, forced by D = delta + (-1)^p d_Hom. Starting from a
   Cech 4-cocycle y at r = -3, four times:
       w = d_Hom(y),  z = (-1)^{p+1} h(w),  y <- z,  p <- p-1,
@@ -63,6 +68,8 @@ from pathlib import Path
 RANKS = [5, 15, 10, 2]
 PINNED_BLOB = "fa5231de92b61143e3406111d4af028284db6d55"
 SOURCE_RELATIVE = "research/hm/verify-hm-ext.js"
+# Distinct y and w keys checked for each contraction policy.
+TERMS_CHECKED_PER_POLICY = 5340
 
 # Degree-1 monomials in the order produced by the recursive graded basis
 # used with the pinned Hom builder: outermost exponent runs slowest.
@@ -510,8 +517,9 @@ def read_constant_matrix(cochain: dict) -> tuple[list[list[int]], dict]:
 
 
 # ---------------------------------------------------------------------------
-# Global-section map H^0(O)^80 -> H^0(O(1))^50, re-derived independently of
-# the Cech zigzag (polynomial representative of the same Hom differential).
+# Global-section map H^0(O)^80 -> H^0(O(1))^10. The target is 50-dimensional.
+# Re-derived independently of the Cech zigzag (polynomial representative of
+# the same Hom differential).
 # ---------------------------------------------------------------------------
 
 def polynomial_block(d_out, incoming) -> list[list[int]]:
@@ -841,72 +849,106 @@ def prime_power_divisors(factors: list[int]) -> list[int]:
 # Checks.
 # ---------------------------------------------------------------------------
 
-def check_square_on_used(used, d_out, incoming) -> dict:
-    """Verify delta^2 = 0, d_Hom^2 = 0 and delta d_Hom = d_Hom delta on every used cochain.
+def check_used_terms(used, d_out, incoming) -> dict:
+    """Check every distinct y key and every distinct w key of one zigzag.
 
-    'Every piece' means every cochain that enters a Hom differential or a homotopy
-    in the zigzag, together with every output of those operators. Basis-term
-    commutation is checked on each distinct key of those cochains.
+    A key of y is tested at the internal degree of that stage. A key of
+    w = d_Hom(y) is tested one degree higher. On each term the checks are
+    delta^2 = 0, d_Hom^2 = 0, delta d_Hom = d_Hom delta, and section support.
+    On each contractible term of Cech degree at least 1, both cone identities
+    are delta h + h delta = id, for the least-vertex homotopy and for the
+    greatest-vertex homotopy.
     """
     delta_square_failures = 0
     d_square_failures = 0
     commute_failures = 0
     homotopy_failures = 0
-    keys_checked = 0
+    support_failures = 0
     strands_without_contraction = 0
+    contractible_positive = 0
     witness = None
+    seen_pairs: set[tuple] = set()
+    distinct_keys: set = set()
     for internal, y, w in used:
-        if not cochain_equal(apply_delta(apply_delta(y)), {}):
-            delta_square_failures += 1
-        if not cochain_equal(apply_delta(apply_delta(w)), {}):
-            delta_square_failures += 1
-        dd = apply_d(apply_d(y, internal, d_out, incoming), internal + 1, d_out, incoming)
-        if dd:
-            d_square_failures += 1
-        # Commutation and the cone identity, key by key, at this internal degree.
-        # Group keys so each check builds a one-term cochain.
-        for key, coefficient in y.items():
-            keys_checked += 1
-            term = {key: 1}
-            d_term = apply_d(term, internal, d_out, incoming)
-            delta_term = apply_delta(term)
-            left = apply_delta(d_term)
-            right = apply_d(delta_term, internal, d_out, incoming)
-            if not cochain_equal(left, right):
-                commute_failures += 1
-                if witness is None:
-                    witness = {"where": "commutation", "key": serialize_key(key)}
-            if apply_d(d_term, internal + 1, d_out, incoming):
-                d_square_failures += 1
-            if apply_delta(delta_term):
-                delta_square_failures += 1
-            # The cone identity needs a vertex of nonnegative exponent. The ten
-            # source strands are x0^{-1}...x4^{-1} on the full simplex: they are
-            # the H^4 generators, delta vanishes, and no contraction exists.
-            mask = key[3]
-            mono = key[4]
-            if contraction_vertex(mono, "min") is None:
-                strands_without_contraction += 1
-                if mono != FULL_POLE or mask != 31 or apply_delta(term):
-                    homotopy_failures += 1
+        for degree, cochain in ((internal, y), (internal + 1, w)):
+            for key in cochain:
+                pair = (degree, key)
+                if pair in seen_pairs:
+                    continue
+                seen_pairs.add(pair)
+                distinct_keys.add(key)
+                _u, _a, _b, mask, mono = key
+                if not section_ok(mask, mono):
+                    support_failures += 1
                     if witness is None:
-                        witness = {"where": "unexpected_noncontractible_strand", "key": serialize_key(key)}
-                continue
-            if mask.bit_count() >= 2:
-                for policy in ("min", "max"):
-                    h_term = apply_h(term, policy)
-                    recovered = apply_delta(h_term)
-                    recovered_2 = apply_h(delta_term, policy)
-                    for key2, value2 in recovered_2.items():
-                        cochain_add(recovered, key2, value2)
-                    if not cochain_equal(recovered, term):
+                        witness = {
+                            "where": "section_support",
+                            "internal": degree,
+                            "key": serialize_key(key),
+                        }
+                term = {key: 1}
+                d_term = apply_d(term, degree, d_out, incoming)
+                delta_term = apply_delta(term)
+                if not cochain_equal(apply_delta(d_term), apply_d(delta_term, degree, d_out, incoming)):
+                    commute_failures += 1
+                    if witness is None:
+                        witness = {
+                            "where": "commutation",
+                            "internal": degree,
+                            "key": serialize_key(key),
+                        }
+                if apply_d(d_term, degree + 1, d_out, incoming):
+                    d_square_failures += 1
+                    if witness is None:
+                        witness = {
+                            "where": "d_hom_square",
+                            "internal": degree,
+                            "key": serialize_key(key),
+                        }
+                if apply_delta(delta_term):
+                    delta_square_failures += 1
+                    if witness is None:
+                        witness = {
+                            "where": "delta_square",
+                            "internal": degree,
+                            "key": serialize_key(key),
+                        }
+                # The cone identity needs a vertex of nonnegative exponent. The ten
+                # source strands are x0^{-1}...x4^{-1} on the full simplex: they are
+                # the H^4 generators, delta vanishes, and no contraction exists.
+                if contraction_vertex(mono, "min") is None:
+                    strands_without_contraction += 1
+                    if mono != FULL_POLE or mask != 31 or delta_term:
                         homotopy_failures += 1
                         if witness is None:
-                            witness = {"where": "homotopy", "policy": policy, "key": serialize_key(key)}
-                        break
+                            witness = {
+                                "where": "unexpected_noncontractible_strand",
+                                "internal": degree,
+                                "key": serialize_key(key),
+                            }
+                    continue
+                if mask.bit_count() >= 2:
+                    contractible_positive += 1
+                    for policy in ("min", "max"):
+                        h_term = apply_h(term, policy)
+                        recovered = apply_delta(h_term)
+                        for key2, value2 in apply_h(delta_term, policy).items():
+                            cochain_add(recovered, key2, value2)
+                        if not cochain_equal(recovered, term):
+                            homotopy_failures += 1
+                            if witness is None:
+                                witness = {
+                                    "where": "homotopy",
+                                    "policy": policy,
+                                    "internal": degree,
+                                    "key": serialize_key(key),
+                                }
     return {
-        "keys_checked": keys_checked,
+        "distinct_terms": len(distinct_keys),
+        "distinct_degree_key_pairs": len(seen_pairs),
+        "contractible_cech_degree_at_least_1": contractible_positive,
         "strands_without_contraction": strands_without_contraction,
+        "section_support_failures": support_failures,
         "delta_square_failures": delta_square_failures,
         "d_hom_square_failures": d_square_failures,
         "commutation_failures": commute_failures,
@@ -914,6 +956,8 @@ def check_square_on_used(used, d_out, incoming) -> dict:
         "D_squared_zero": (
             delta_square_failures == 0 and d_square_failures == 0 and commute_failures == 0
         ),
+        "section_support": support_failures == 0,
+        "cone_identities": homotopy_failures == 0,
         "witness": witness,
     }
 
@@ -1071,15 +1115,24 @@ def main() -> None:
     eprint("running the Cech zigzag, minimal contraction vertex")
     output_min, stages_min, used = zigzag(d_out, incoming, policy="min", verify_steps=True)
     image_min, read_min = read_constant_matrix(output_min)
-    square = check_square_on_used(used, d_out, incoming)
+    square_min = check_used_terms(used, d_out, incoming)
     eprint(
-        "square check keys "
-        f"{square['keys_checked']} failures d2={square['d_hom_square_failures']} "
-        f"delta2={square['delta_square_failures']} commute={square['commutation_failures']} "
-        f"homotopy={square['homotopy_identity_failures']}"
+        "least-vertex terms "
+        f"{square_min['distinct_terms']} failures d2={square_min['d_hom_square_failures']} "
+        f"delta2={square_min['delta_square_failures']} commute={square_min['commutation_failures']} "
+        f"support={square_min['section_support_failures']} "
+        f"homotopy={square_min['homotopy_identity_failures']}"
     )
     eprint("running the Cech zigzag, maximal contraction vertex")
-    output_max, stages_max, _used_max = zigzag(d_out, incoming, policy="max")
+    output_max, stages_max, used_max = zigzag(d_out, incoming, policy="max")
+    square_max = check_used_terms(used_max, d_out, incoming)
+    eprint(
+        "greatest-vertex terms "
+        f"{square_max['distinct_terms']} failures d2={square_max['d_hom_square_failures']} "
+        f"delta2={square_max['delta_square_failures']} commute={square_max['commutation_failures']} "
+        f"support={square_max['section_support_failures']} "
+        f"homotopy={square_max['homotopy_identity_failures']}"
+    )
     image_max, read_max = read_constant_matrix(output_max)
     image_difference = difference_max(image_min, image_max) if read_min["problems"] == [] and read_max["problems"] == [] else None
     # Cocycle check is the successful read plus an explicit delta computation.
@@ -1157,6 +1210,68 @@ def main() -> None:
             vertex_record["reason"] = "output is not a Cech 0-cocycle, so it is not in H^0 and not in ker"
         sign_controls.append(vertex_record)
     rank_d5 = rank_q_30
+    rank_f3_block = rank_mod(block, 3)
+    rank_q_block = rank_over_q(block)
+    uniform_runs = [run for run in sign_controls if run["kind"] == "uniform_multiplier_flip"]
+    last_vertex_flip = next(
+        run
+        for run in sign_controls
+        if run["kind"] == "vertex_0_multiplier_flip" and run["stage"] == 3
+    )
+    saturated_kernel = all(
+        vector[column] == (1 if j == index else 0)
+        for index, vector in enumerate(kernel_columns)
+        for j, column in enumerate(free)
+    )
+    # Exit 0 is the regression contract. These are the main-path results.
+    assert rank_q_block == 50, "80->50 rank over Q"
+    assert elimination["rank"] == 50, "80->50 unit-pivot rank over Q"
+    assert rank_f3_block == 50, "80->50 rank over F3"
+    assert elimination["unit_pivots"], "80->50 unit pivots"
+    assert elimination["pivot_values"] == [1] * 50, "80->50 pivot values"
+    assert len(kernel_columns) == 30, "saturated kernel rank"
+    assert saturated_kernel, "kernel basis is the identity on its free columns"
+    assert is_cocycle, "80x10 image is a Cech cocycle"
+    assert bad_columns == [], "every 80x10 column lies in K"
+    assert rank_q_80 == 10, "80x10 image rank over Q"
+    assert rank_f3_80 == 10, "80x10 image rank over F3"
+    assert reconstruction_ok, "30x10 coordinates reconstruct the image"
+    assert len(coordinates) == 30 and len(coordinates[0]) == 10, "30x10 coordinate shape"
+    assert rank_q_30 == 10, "30x10 coordinate rank over Q"
+    assert rank_f3_30 == 10, "30x10 coordinate rank over F3"
+    assert factors == [1] * 10, "Smith factors"
+    assert image_min == image_max, "least-vertex and greatest-vertex images agree entrywise"
+    assert len(uniform_runs) == 4, "four uniform stage-sign flips"
+    assert all(run.get("is_negative_of_correct_image") for run in uniform_runs), (
+        "uniform stage-sign flip negates the image"
+    )
+    assert neg_tot.get("available"), "local Tot-sign witness"
+    assert neg_tot["commutation_matches"], "local Tot-sign witness commutes"
+    assert neg_tot["internal_degree"] == -2, "local Tot-sign witness degree"
+    assert neg_tot["cech_degree"] == 3, "local Tot-sign witness Cech degree"
+    assert neg_tot["flipped_cross_term_nonzero"], "local Tot-sign mutation gives D^2 != 0"
+    assert neg_tot["flipped_cross_term_max_abs"] == 2, "local Tot-sign mutation gives D^2 != 0"
+    assert last_vertex_flip["is_global_section"] is False, (
+        "vertex-0 flip at the last homotopy is not a Cech cocycle"
+    )
+    assert last_vertex_flip["delta_nonzero_terms"] == 200, (
+        "vertex-0 flip at the last homotopy is not a Cech cocycle"
+    )
+    assert last_vertex_flip["image_leaves_kernel"], (
+        "vertex-0 flip at the last homotopy is not in K"
+    )
+    for policy_name, square in (("least", square_min), ("greatest", square_max)):
+        assert square["distinct_terms"] == TERMS_CHECKED_PER_POLICY, policy_name
+        assert square["distinct_degree_key_pairs"] == TERMS_CHECKED_PER_POLICY, policy_name
+        assert square["D_squared_zero"], policy_name
+        assert square["delta_square_failures"] == 0, policy_name
+        assert square["d_hom_square_failures"] == 0, policy_name
+        assert square["commutation_failures"] == 0, policy_name
+        assert square["section_support"], policy_name
+        assert square["section_support_failures"] == 0, policy_name
+        assert square["cone_identities"], policy_name
+        assert square["homotopy_identity_failures"] == 0, policy_name
+        assert square["strands_without_contraction"] == 10, policy_name
     certificate = {
         "certificate": "P4-cech-d5-of-End-at-twist-minus-2",
         "pinned_source": {
@@ -1187,14 +1302,14 @@ def main() -> None:
         },
         "map_80_to_50": {
             "rank_Q": elimination["rank"],
-            "rank_F3": rank_mod(block, 3),
+            "rank_F3": rank_f3_block,
             "unit_pivots": elimination["unit_pivots"],
             "pivot_columns": elimination["pivots"],
             "free_columns": free,
             "max_abs_entry": max_abs_matrix(block),
             "max_intermediate": elimination["max_intermediate"],
             "kernel_rank": len(kernel_columns),
-            "kernel_saturated": True,
+            "kernel_saturated": saturated_kernel,
             "polynomial_matches_cech": True,
             "kernel_basis_columns": kernel_columns,
         },
@@ -1219,9 +1334,12 @@ def main() -> None:
             "a2": None if rank_d5 is None else 10 - rank_d5,
             "h2": None if rank_d5 is None else 30 - rank_d5,
             "bookkeeping": (
-                "a2 = 10 - rank(d5) and h2 = 30 - rank(d5) use the stated E1 reduction: "
-                "the only differential into or out of K is d5. This program computes rank(d5); "
-                "it does not re-derive the vanishing of the other E1 terms."
+                "Over Z, and hence over Q and F3, a2 = 10 - rank(d5) and h2 = 30 - rank(d5) "
+                "are hypercohomology ranks of End(C)(-2) for the pinned perfect complex C. "
+                "The E1 reduction uses only line-bundle cohomology on P^4, which is free over Z. "
+                "Identifying a2 and h2 with End(H) groups requires the separate assertion that C "
+                "resolves the intended HM bundle over the field concerned. This program does not "
+                "certify that assertion, the D8 projector, choice independence, or any obstruction value."
             ),
         },
         "prediction": {
@@ -1229,10 +1347,28 @@ def main() -> None:
             "matches_Q": rank_d5 == 10,
             "matches_F3": rank_f3_30 == 10,
         },
+        "scope": {
+            "computes": (
+                "hypercohomology of End(C)(-2) for the pinned perfect complex C, "
+                "over Z and hence over Q and F3"
+            ),
+            "e1_reduction": "line-bundle cohomology on P^4, free over Z",
+            "does_not_certify": [
+                "that C resolves the intended HM bundle",
+                "identification of a2 and h2 with End(H) groups",
+                "the D8 projector",
+                "choice independence",
+                "any obstruction value",
+            ],
+        },
         "checks": {
-            "D_squared_zero_on_used_pieces": square,
-            "choice_independence": {
-                "policies": ["min vertex", "max vertex"],
+            "used_terms_per_policy": TERMS_CHECKED_PER_POLICY,
+            "D_squared_zero_on_used_terms": {
+                "least_vertex": square_min,
+                "greatest_vertex": square_max,
+            },
+            "contraction_vertices": {
+                "policies": ["least vertex", "greatest vertex"],
                 "both_are_global_constants": read_min["problems"] == [] and read_max["problems"] == [],
                 "matrices_identical": image_difference == 0,
                 "max_abs_difference": image_difference,
@@ -1261,7 +1397,8 @@ def main() -> None:
                     "formulas as a polynomial map on global sections, then repeated "
                     "on Cech representatives. Elimination is separate from the zigzag."
                 ),
-                "rank_Q": elimination["rank"],
+                "rank_Q": rank_q_block,
+                "rank_F3": rank_f3_block,
                 "unit_pivots": elimination["unit_pivots"],
                 "kernel_dimension": len(kernel_columns),
             },
@@ -1272,12 +1409,6 @@ def main() -> None:
     }
     json.dump(certificate, sys.stdout, indent=2)
     sys.stdout.write("\n")
-    if not square["D_squared_zero"] or square["homotopy_identity_failures"]:
-        raise SystemExit("D^2 or homotopy identity failed on a used piece")
-    if square["strands_without_contraction"] != 10:
-        raise SystemExit("expected exactly the ten full-pole source strands to be noncontractible")
-    if not is_cocycle or bad_columns or not reconstruction_ok:
-        raise SystemExit("image is not a kernel cocycle in the reported basis")
 
 
 if __name__ == "__main__":

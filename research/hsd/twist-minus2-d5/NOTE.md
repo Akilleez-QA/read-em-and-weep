@@ -11,10 +11,12 @@ with \(C^u=\mathrm{ranks}[u]\,\mathcal{O}(u-1)\) and \(\mathrm{ranks}=[5,15,10,2
 \(\mathrm{End}(C)(t)\) has terms \(\mathrm{Hom}(C^u,C^{u+r})(t)=(\mathrm{ranks}[u]\mathrm{ranks}[u+r])\,\mathcal{O}(r+t)\). At twist \(t=-2\) the stated \(E_1\) reduction leaves one connecting map
 
 \[
-d_5:H^4(\mathcal{O}(-5))^{10}\longrightarrow K,\qquad K=\ker\bigl(H^0(\mathcal{O})^{80}\to H^0(\mathcal{O}(1))^{50}\bigr).
+d_5:H^4(\mathcal{O}(-5))^{10}\longrightarrow K,\qquad K=\ker\bigl(H^0(\mathcal{O})^{80}\to H^0(\mathcal{O}(1))^{10}\bigr).
 \]
 
-Then \(a_2=h^1(\mathbb{P}^4,\mathrm{End}\,H(-2))=10-\mathrm{rank}(d_5)\) and \(h^2=30-\mathrm{rank}(d_5)\), using that reduction as an input. This note computes \(d_5\). It does not re-prove the vanishing of the other \(E_1\) lines, and it does not rerun the large Ext model.
+The target \(H^0(\mathcal{O}(1))^{10}\) is 50-dimensional, because \(h^0(\mathbb{P}^4,\mathcal{O}(1))=5\).
+
+Over \(\mathbb{Z}\), and hence over \(\mathbb{Q}\) and \(\mathbb{F}_3\), this note computes the hypercohomology of \(\mathrm{End}(C)(-2)\) for the pinned perfect complex \(C\). The \(E_1\) reduction uses only line-bundle cohomology on \(\mathbb{P}^4\), which is free over \(\mathbb{Z}\). The integers \(a_2=10-\mathrm{rank}(d_5)\) and \(h^2=30-\mathrm{rank}(d_5)\) are the hypercohomology ranks of \(\mathrm{End}(C)(-2)\) under that reduction. Identifying \(a_2\) and \(h^2\) with \(\mathrm{End}(H)\) groups requires the separate assertion that \(C\) resolves the intended HM bundle over the field concerned. This note does not certify that assertion. It does not certify the \(D_8\) projector, choice independence, or any obstruction value. It does not re-prove the vanishing of the other \(E_1\) lines, and it does not rerun the large Ext model.
 
 ## Conventions
 
@@ -24,9 +26,9 @@ Cover \(U_i=\{x_i\neq 0\}\). A Laurent monomial \(x^a\) is a section of \(\mathc
 
 Hom differential in internal degree \(r\): \(f\mapsto d\circ f-(-1)^r f\circ d\). The precomposition sign is \(-1\) for \(r\) even and \(+1\) for \(r\) odd.
 
-Total differential: \(D=\delta+(-1)^p d_{\mathrm{Hom}}\), with \(p\) the Čech degree. On every cochain used below, \(\delta^2=0\), \(d_{\mathrm{Hom}}^2=0\) and \(\delta d_{\mathrm{Hom}}=d_{\mathrm{Hom}}\delta\), so \(D^2=0\).
+Total differential: \(D=\delta+(-1)^p d_{\mathrm{Hom}}\), with \(p\) the Čech degree. On each of the \(5340\) distinct terms checked for each contraction policy, \(\delta^2=0\), \(d_{\mathrm{Hom}}^2=0\) and \(\delta d_{\mathrm{Hom}}=d_{\mathrm{Hom}}\delta\), so \(D^2=0\).
 
-Cone contraction. On a monomial strand that is not strictly negative, the pinned vertex \(v\) is the least index with exponent \(\ge 0\). The choice-independence control uses the greatest index. If \(v\) is the \(m\)-th vertex of an ordered simplex \(I\), then \(h(e_I)=(-1)^m e_{I\setminus v}\) when \(v\in I\), and \(0\) otherwise. For every strand of \(\mathcal{O}(d)\) with \(d\ge -4\) and every cochain of Čech degree at least \(1\), \(\delta h+h\delta=\mathrm{id}\). The ten source strands \(x_0^{-1}\cdots x_4^{-1}\) have no legal vertex; they are the \(H^4\) generators.
+Cone contraction. On a monomial strand that is not strictly negative, the pinned vertex \(v\) is the least index with exponent \(\ge 0\). The greatest-vertex comparison uses the greatest index. If \(v\) is the \(m\)-th vertex of an ordered simplex \(I\), then \(h(e_I)=(-1)^m e_{I\setminus v}\) when \(v\in I\), and \(0\) otherwise. For every strand of \(\mathcal{O}(d)\) with \(d\ge -4\) and every cochain of Čech degree at least \(1\), \(\delta h+h\delta=\mathrm{id}\). The ten source strands \(x_0^{-1}\cdots x_4^{-1}\) have no legal vertex; they are the \(H^4\) generators.
 
 The zigzag multipliers of \(h\circ d_{\mathrm{Hom}}\) are \(-1,+1,-1,+1\) at Čech degrees \(4,3,2,1\), followed by one unsigned \(d_{\mathrm{Hom}}\) at degree \(0\). These are the signs forced by \(D=\delta+(-1)^p d_{\mathrm{Hom}}\). Each intermediate equation \(\delta(h(w))=w\) is checked on the cocycle being contracted.
 
@@ -60,15 +62,15 @@ Ranks of both the \(80\times 10\) matrix and the \(30\times 10\) matrix:
 
 Smith normal form over \(\mathbb{Z}\): invariant factors \(1,1,1,1,1,1,1,1,1,1\). There are no nontrivial elementary divisors. The map \(\mathbb{Z}^{10}\to K\cong\mathbb{Z}^{30}\) is split injective, and its cokernel is free of rank \(20\).
 
-Therefore \(\mathrm{rank}(d_5)=10\), so \(a_2=0\) and, under the stated \(E_1\) reduction, \(h^2(\mathbb{P}^4,\mathrm{End}\,H(-2))=20\). The precommitted prediction was \(\mathrm{rank}(d_5)=10\) over \(\mathbb{Q}\) and \(\mathbb{F}_3\). That prediction matches.
+Therefore \(\mathrm{rank}(d_5)=10\). For the hypercohomology of \(\mathrm{End}(C)(-2)\), the \(E_1\) reduction gives \(a_2=0\) and \(h^2=20\). Identifying \(a_2\) and \(h^2\) with \(\mathrm{End}(H)\) groups requires the separate assertion that \(C\) resolves the intended HM bundle over the field concerned. This note does not certify that assertion, the \(D_8\) projector, choice independence, or any obstruction value. The precommitted prediction was \(\mathrm{rank}(d_5)=10\) over \(\mathbb{Q}\) and \(\mathbb{F}_3\). That prediction matches.
 
 The full matrices, the kernel basis, pivot columns and the check record are the JSON printed by the program.
 
 ## Controls
 
-Choice independence. Repeating the zigzag with the greatest legal contraction vertex reproduces the same \(80\times 10\) matrix. The maximum absolute difference is \(0\).
+Contraction vertices. Repeating the zigzag with the greatest legal contraction vertex reproduces the same \(80\times 10\) matrix. The maximum absolute difference is \(0\).
 
-Square zero. On all \(1340\) basis terms that occur, \(\delta^2\), \(d_{\mathrm{Hom}}^2\) and the commutation \(\delta d_{\mathrm{Hom}}=d_{\mathrm{Hom}}\delta\) hold. The cone identity holds for both vertex policies on every contractible strand of Čech degree at least \(1\). Exactly ten strands have no contraction vertex: the source generators.
+Square zero. For each contraction policy, least vertex and greatest vertex, the program checks every used input key \(y\) and every used Hom-image key \(w\): \(5340\) distinct terms per policy. On each of those terms, \(\delta^2=0\), \(d_{\mathrm{Hom}}^2=0\), \(\delta d_{\mathrm{Hom}}=d_{\mathrm{Hom}}\delta\), and the monomial is a section on its simplex. On every contractible term of Čech degree at least \(1\), both cone identities hold: \(\delta h+h\delta=\mathrm{id}\) for the least-vertex homotopy and for the greatest-vertex homotopy. Exactly ten strands have no contraction vertex: the source generators.
 
 Negative controls.
 
@@ -80,6 +82,10 @@ Independent \(80\to 50\) rank. The block was rebuilt from the exterior-sign, con
 
 No Macaulay2 binary is present, so there is no independent sheaf-cohomology oracle. Nothing was installed to supply one.
 
+## External review report
+
+An entrywise comparison with the separate JavaScript zigzag at commit `f968b53943ba2312f09fbc3e8f9d462e86bcaa34` matched all 800 \(d_5\) entries and all 4,000 ordinary-map entries, as reported in review comment 6130971886 on pull request 76. That comparison is an external review report. This program does not perform it.
+
 ## Run
 
 From the repository root:
@@ -88,4 +94,4 @@ From the repository root:
 python3 research/hsd/twist-minus2-d5/certificate.py
 ```
 
-The program uses only the Python standard library and exact integers. It prints one JSON object and exits \(0\) only if the square-zero, cone, cocycle and kernel checks pass.
+The program uses only the Python standard library and exact integers. It prints one JSON object and exits \(0\) only if the asserted ranks, Smith factors, \(5340\)-term checks for each contraction policy, vertex-policy agreement, cocycle membership, and negative controls all hold.
