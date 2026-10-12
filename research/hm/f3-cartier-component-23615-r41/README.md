@@ -9,6 +9,11 @@ original exponent e=3q+(2,1,1,1); treating q as e is incorrect.
 The canonical nonzero logical-row SHA256 is:
 ab8a327f73a88c781f377925b54ad6496cc20825ef9b83808f50bc0af916b426
 
+Rows: compact ASCII `[[e0,e1,e2,e3],c]` + LF, lexicographic order.
+Two-bit pairs: least-significant first per byte. `keepBounds`: 4 minima,
+4 maxima, 2 total-degree bounds, inclusive. Mask bit: sum((x[k]%3)*3**k),
+k=0..3; residue, not degree.
+
 ## Two distinct verification claims
 
 1. The supplied-value checker validates these published bytes: exact file set
