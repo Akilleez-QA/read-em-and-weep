@@ -322,18 +322,35 @@ b'(U_3)_0&=1,\qquad U_3=(\mathrm{dual}(e_0\wedge e_1),0).
 \end{aligned}
 \]
 
-The claim \(b'(U_0)_0=1\) is false and is withdrawn. The two evaluations \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\) are the counterexamples. The conclusion is unchanged: build \(\gamma'\) in \((\Lambda^2 V^*)^2\), and build a basis of \(\ker b'\) by elimination on the \(5\times 20\) matrix of \(b'\).
+The claim \(b'(U_0)_0=1\) is false and is withdrawn. The two evaluations \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\) are the counterexamples. The authentic list is not reused. Build \(\gamma'\) in \((\Lambda^2 V^*)^2\).
 
 Sources for the withdrawn claim and the two counterexamples: pull request 78, comments 6131776264 and 6131777532.
 
-A later runner performs all four of the following steps over \(\mathbb{F}_3\), and does not skip any of them by quoting §4.
+Unit minor. On the authentic basis of \(W\), \(b'\) sends the five vectors \(U_3\), \(V_1\), \(-V_4\), \(-U_2\), \(U_1\) to \(e_0,e_1,e_2,e_3,e_4\) in that order. The matrix of those images is \(I_5\), so the determinant is \(1\). The minor is a unit in \(\mathbb{Z}\). Therefore \(b'\) restricted to \(W\) is surjective after every base change, including reduction to \(\mathbb{F}_3\), and
+
+\[
+\dim(W\cap\ker b')=10
+\]
+
+over every field, including \(\mathbb{F}_3\). This unit minor is the certificate for that dimension. A rank table computed over one field is not a substitute for it. The nonzero entries of the images \(e_0\) and \(e_4\) are the counterexamples \(b'(U_3)_0=1\) and \(b'(U_1)_4=1\).
+
+Sensor at the control point. At \(p_*=[1:0:0:0:0]\), on the representative \(e_0\), the mutated column is
+
+\[
+\gamma'_4=(\mathrm{dual}(e_3\wedge e_4),\mathrm{dual}(e_1\wedge e_2)).
+\]
+
+Direct contraction gives \(b'\gamma'_4=0\) and \(b\gamma'_4=-e_4\). The second value places \(\gamma'_4\) outside \(W=\ker b\). Adjoining it to a basis of \(W\) raises the rank from \(15\) to \(16\), so the matrix \([W\mid\gamma'_4]\) has rank \(16\).
+
+A later runner performs all five of the following steps over \(\mathbb{F}_3\), and does not skip any of them by quoting §4. The unit-minor identity is integral and remains \(I_5\) after reduction to \(\mathbb{F}_3\).
 
 1. Build the five columns \(\gamma'(v)=(\varphi_v(w_i^{+' }),\varphi_v(w_i^{-'}))\) in the ambient \(20\)-dimensional space \((\Lambda^2 V^*)^2\). Do not expand them in the authentic \(U,V,Z\) basis.
-2. Independently compute a basis of \(\ker b'\) by elimination on the \(5\times 20\) matrix of \(b'\). The kernel dimension must be \(15\).
-3. Check that the evaluated matrix \(\gamma'(p_*)\) lies in that kernel, meaning each of its five columns is a linear combination of the kernel basis just computed.
-4. Compute the rank of the contraction \(\iota_{p_*}\oplus\iota_{p_*}\) restricted to that same kernel.
+2. Verify the unit minor: \(b'\) on \((U_3,V_1,-V_4,-U_2,U_1)\) equals \(I_5\), with determinant \(1\). Record \(\dim(W\cap\ker b')=10\) from that minor, over every field, including \(\mathbb{F}_3\).
+3. Independently construct a basis matrix \(E'\) of \(\ker b'\) by elimination on the \(5\times 20\) matrix of \(b'\). Require \(b'E'=0\) and \(\mathrm{rank}(E')=15\). Do not take the columns of \(E'\) from the authentic basis of \(W\).
+4. Exact ambient reconstruction. Produce coefficients \(g'\) with \(E'g'=\gamma'(p_*)\) in the ambient coordinates of \((\Lambda^2 V^*)^2\). A ker-membership flag that does not exhibit this equality is not a pass. The column \(\gamma'_4\) lies in the column space of \(E'\) and does not lie in \(W\).
+5. Compute the rank of the contraction \(\iota_{p_*}\oplus\iota_{p_*}\) restricted to the column space of \(E'\).
 
-Expected values, and the only passing triple: \(\mathrm{rank}\,\gamma'(p_*)=1\), the restricted contraction has rank \(4\), and \(4=3+1<8\). The two ranks are computed separately. The relation \(4=3+1\) is the numerical check at \(p_*\), not the claim that §4 supplies a polynomial identity for \(b'\). A pass is evidence about this point. It is not evidence about a second complex.
+Expected values, and the only passing report: the unit minor is \(I_5\) with determinant \(1\), \(\mathrm{rank}(E')=15\), the reconstruction \(E'g'=\gamma'(p_*)\) holds, \(\mathrm{rank}\,\gamma'(p_*)=1\), the restricted contraction has rank \(4\), and \(4=3+1<8\). The two ranks are computed separately. The relation \(4=3+1\) is the numerical check at \(p_*\), not the claim that §4 supplies a polynomial identity for \(b'\). A pass is evidence about this point. It is not evidence about a second complex.
 
 Required report:
 
@@ -341,13 +358,22 @@ Required report:
 control: paired-sparse-b-prime
 point: [1:0:0:0:0]
 ambient: (Lambda^2 V*)^2
-ker_b_prime_dim: 15
+unit_minor: I_5
+unit_minor_det: 1
+dim_W_intersect_ker_b_prime: 10
+ker_basis: E'
+b_prime_E_prime: 0
+rank_E_prime: 15
+reconstruction: E' g' = gamma'(p*)
+gamma4_outside_W: rank [W | gamma'4] = 16
 rank_gamma: 1
 rank_contraction_on_ker: 4
 identity: 4 = 3 + 1 < 8
 ```
 
-Any other triple fails the run. An oracle that cannot return a drop below \(8\) fails this control.
+Any other report fails the run. A ker-membership check without the reconstruction fails the run. An oracle that cannot return a drop below \(8\) fails this control.
+
+Sources for the unit minor and the reconstruction sensor: pull request 78, comments 6131895075 and 6131921721.
 
 ### 5.4 Synthetic checker control
 
@@ -471,9 +497,25 @@ G(v)^{\mathsf T} B_i(v)=C^{i}\bigl(G(w)^{\mathsf T} B_0(w)\bigr)C^{-i}=w_0^{N} I
 
 because the zeroth coordinate of \(\sigma^{-i}v\) is \(v_i\).
 
-The four matrices \(B_1,\ldots,B_4\) are this cyclic index shift. They are not searched. Covariance is replayed as a precondition on the authenticated \(G\). Each of the five products, including the product for \(B_0\), is then replayed by exact multiplication against that \(G\) and against its own named right-hand side \(v_i^{N} I_5\). A match to some other \(v_j^{N} I_5\), or a match only as a set of five right-hand sides, fails. Transport does not replace those five multiplications.
+The four matrices \(B_1,\ldots,B_4\) are this cyclic index shift. They are not searched. Covariance is replayed as a precondition on the authenticated \(G\). Each of the five products, including the product for \(B_0\), is then replayed by exact multiplication against that \(G\) and against its own named right-hand side \(v_i^{N} I_5\). A match to some other \(v_j^{N} I_5\), or a match only as a set of five right-hand sides, fails the named-transport contract. Transport does not replace those five multiplications.
 
 Sources for the shift: pull request 78, comments 6131776264 and 6131777532.
+
+Named-chart check and geometric coverage are different oracles. Since \(v_k=x_k\), the monomials \(v_i^{N}\) and \(x_i^{N}\) name the same chart.
+
+The transport contract uses the named check. Chart \(i\) passes that contract only when the replay equals the named right-hand side \(v_i^{N} I_5\). A permutation of \(\{v_0^{N} I_5,\ldots,v_4^{N} I_5\}\) fails the contract. Covariance remains a precondition of the contract.
+
+The coverage oracle is the geometric conclusion. Five authenticated identities whose right-hand sides are a permutation of
+
+\[
+\{x_0^{N} I_5,\ldots,x_4^{N} I_5\}
+\]
+
+still prove that every standard chart carries a unit multiple of \(I_5\), after the charts are relabeled by that permutation. The oracle is this set equality. It does not repair a failed named-transport check, and a failed named-transport check does not by itself refute the geometric conclusion.
+
+Accepting “some \(x_j^{N} I_5\)” on each chart, without the five indices exhausting \(\{0,1,2,3,4\}\), fails both oracles. A repeated index and a missing index are neither coverage nor the named contract.
+
+Sources for the split: pull request 78, comments 6131895075 and 6131921721.
 
 The search count is five columns of \(B_0\). Without the transport there would be \(25\) chart-column problems, five charts times five columns. The count is not \(15\). This job does not budget the \(25\)-problem search, and it does not budget a separate \(8\times 15\) chart reduction for \(\varphi_1\).
 
@@ -627,7 +669,9 @@ The synthetic replay of §5.4 is inside the wall-clock and resident-set proposal
 
 Success is a future run, not this document. It means all of the following, and nothing further.
 
-A degree-cap negative, including a completed exact dual at the proposed cap \(N=7\), supplies no geometric bad point. A timeout or any other cap hit supplies none either. Only an exact positive witness closes the fiber-rank gate: the five multiplied identities \(G^{\mathsf T} B_i=x_i^{N_i} I_5\), or a minor-membership certificate that has actually been multiplied, including the adjugate matrix of §2.1. A minor-membership negative does not close the gate and does not refute the matrix witness. A pass of the synthetic fixture `synthetic-ab-x0` in §5.4 does not close the gate.
+A degree-cap negative, including a completed exact dual at the proposed cap \(N=7\), supplies no geometric bad point. A timeout or any other cap hit supplies none either. Only an exact positive witness closes the fiber-rank gate: the five multiplied identities \(G^{\mathsf T} B_i=x_i^{N_i} I_5\), or a minor-membership certificate that has actually been multiplied, including the adjugate matrix of §2.1. Those named identities are the transport contract of the search-policy section. A minor-membership negative does not close the gate and does not refute the matrix witness. A pass of the synthetic fixture `synthetic-ab-x0` in §5.4 does not close the gate.
+
+Geometric coverage is the separate oracle in that same section. Five authenticated identities whose right-hand sides are a permutation of \(\{x_0^{N} I_5,\ldots,x_4^{N} I_5\}\) prove that every standard chart splits, after relabeling. That coverage does not satisfy the named-transport contract. Accepting an unspecified \(x_j^{N} I_5\) on each chart, without the indices exhausting \(\{0,1,2,3,4\}\), proves neither the contract nor the coverage.
 
 Over an algebraic closure of \(\mathbb{F}_3\), the authentic pinned maps have fiber ranks \((5,8,2)\) at every \(v\neq 0\), read from a multiplied rank-\(5\) certificate for \(\varphi_0\), the identity of §4, and the evaluation matrix of \(\varphi_2\).
 
@@ -643,9 +687,10 @@ Success does not transfer a characteristic-\(0\) ambient obstruction. It does no
 |---|---|---|---|
 | Pinned-map drift | A witness for a different complex is reported as a certificate for \(C\). | Rebuild \(\varphi_0,\varphi_1,\varphi_2\) from §1.2 and compare the sparse term list with blob `fa5231de92b61143e3406111d4af028284db6d55` before any search. | Abort on the first differing term. Do not search. |
 | Basis drift against `fa5231de` | A correct multiplier for a permuted \(U,V,Z\) order or a flipped \(\varepsilon\) is accepted. | Entrywise match to the sign formula and the row order in §1.2, not merely vanishing of the two compositions. | Compositions are necessary and not sufficient. Fail closed on any basis mismatch with the blob. |
-| Vacuous identity oracle | A checker that never sees a rank drop prints \(\mathrm{rank}\,\varphi_1=8\) for the authentic maps without testing the identity. | The pointwise control of §5.3 returns \(\mathrm{rank}\,\gamma'(p_*)=1\) and restricted-contraction rank \(4\), with \(4=3+1<8\), from an independently built \(\ker b'\). | The control is mandatory, ambient, and pointwise at \(p_*\). It is not a second complex. An oracle that only accepts \((5,8)\) fails. |
-| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | \(U_0=(\mathrm{dual}(e_2\wedge e_3),0)\) and \(U_4=(\mathrm{dual}(e_1\wedge e_2),0)\) lie in \(\ker b'\), while \(b'(U_1)_4=1\) for \(U_1=(\mathrm{dual}(e_3\wedge e_4),0)\) and \(b'(U_3)_0=1\) for \(U_3=(\mathrm{dual}(e_0\wedge e_1),0)\). | Build \(\gamma'\) in \((\Lambda^2 V^*)^2\) and build the kernel by elimination on the \(5\times 20\) matrix of \(b'\). The authentic list is not reused. |
-| Mislabelled cyclic transport | A left shift is accepted because the five chart identities are a permutation of each other. | Covariance \(G(v)=R^{i} G(\sigma^{-i}v)\,C^{-i}\) fails for some \(i\), or a replay matches a right-hand side other than the named \(v_i^{N} I_5\). | Use \(\sigma(e_j)=e_{j+1}\). Replay covariance, then each of the five products against its own \(v_i^{N} I_5\). Transport does not replace the multiplications. |
+| Vacuous identity oracle | A checker that never sees a rank drop prints \(\mathrm{rank}\,\varphi_1=8\) for the authentic maps without testing the identity. | The pointwise control of §5.3 returns \(\mathrm{rank}\,\gamma'(p_*)=1\) and restricted-contraction rank \(4\), with \(4=3+1<8\), from an independent \(E'\) and the reconstruction \(E'g'=\gamma'(p_*)\). | The control is mandatory, ambient, and pointwise at \(p_*\). It is not a second complex. An oracle that only accepts \((5,8)\) fails. |
+| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | The unit minor on \(U_3,V_1,-V_4,-U_2,U_1\) is \(I_5\), so \(\dim(W\cap\ker b')=10\) over every field, including \(\mathbb{F}_3\). Also \(U_0\) and \(U_4\) lie in \(\ker b'\), while \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\). At \(p_*\), \(b'\gamma'_4=0\) and \(b\gamma'_4=-e_4\), and \([W\mid\gamma'_4]\) has rank \(16\). | Require \(b'E'=0\), \(\mathrm{rank}(E')=15\), and the ambient equality \(E'g'=\gamma'(p_*)\). A ker-membership flag alone fails. The authentic list is not reused. |
+| Named-transport contract | A product is accepted under the wrong chart name, or a permutation of correct right-hand sides is accepted as the transport. | Covariance \(G(v)=R^{i} G(\sigma^{-i}v)\,C^{-i}\) fails for some \(i\), or the replay for index \(i\) is not the named \(v_i^{N} I_5\). | Keep the named-chart check. Chart \(i\) passes only against \(v_i^{N} I_5\). Use \(\sigma(e_j)=e_{j+1}\). A permutation fails this row even when the coverage oracle passes. Transport does not replace the multiplications. |
+| Geometric chart coverage | A missing chart is reported as projective coverage, or a named-transport failure is reported as a geometric failure. | The set of authenticated right-hand sides is not \(\{x_0^{N} I_5,\ldots,x_4^{N} I_5\}\), or a complete permutation is logged as a geometric negative. | The coverage oracle is that set equality. A permutation proves coverage after relabeling and does not prove the named-transport contract. Accepting “some \(x_j^{N} I_5\)” on each chart, without the indices exhausting \(\{0,1,2,3,4\}\), fails this oracle and fails the named contract. |
 | Nonzero free variable in a recorded column | A later lift differs from the column the elimination selected. | A stored unknown that was not a pivot is nonzero. | Set every free variable to \(0\) before back-substitution. Emit only that particular solution. |
 | Cross-grade coefficient dropped | A block is solved after a term from another \(\tau\)-label has been discarded. | A nonzero coefficient whose label is not the block label is absent from the failure log. | Exit \(1\). Do not drop the coefficient. |
 | Degree-capped minor-membership negative read as a matrix-witness negative | A false fiber-rank kill. | The only negative on record has certificate type `minor-membership`. | Tag every receipt `matrix-column`, `minor-membership`, or `dual`. Only the primary graded test and its exact dual may emit a bounded-degree negative. A minor positive at exponent \(e\), once the adjugate matrix is multiplied, is a matrix positive at \(N=e\). |
