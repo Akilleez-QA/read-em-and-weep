@@ -1,0 +1,193 @@
+{
+  "summaries": [
+    {
+      "weight": 0,
+      "d1": {
+        "shape": [
+          80,
+          160
+        ],
+        "rank": 50,
+        "nonzeros": 320,
+        "max": 1
+      },
+      "d3": null,
+      "remaining": {
+        "shape": [
+          6480,
+          4030
+        ],
+        "rank": 3598,
+        "unitRank": 3598,
+        "max": 98,
+        "tailMaxBits": 0,
+        "nonzeros": 35866
+      },
+      "boundaryRank": 353,
+      "h1": 79
+    },
+    {
+      "weight": 1,
+      "d1": {
+        "shape": [
+          240,
+          320
+        ],
+        "rank": 150,
+        "nonzeros": 960,
+        "max": 1
+      },
+      "d3": null,
+      "remaining": {
+        "shape": [
+          2160,
+          524
+        ],
+        "rank": 522,
+        "unitRank": 497,
+        "max": 13,
+        "tailMaxBits": 3,
+        "nonzeros": 8144
+      },
+      "boundaryRank": 0,
+      "h1": 2
+    },
+    {
+      "weight": 2,
+      "d1": {
+        "shape": [
+          720,
+          640
+        ],
+        "rank": 450,
+        "nonzeros": 2880,
+        "max": 1
+      },
+      "d3": {
+        "shape": [
+          354,
+          190
+        ],
+        "rank": 100,
+        "nonzeros": 1100,
+        "max": 2
+      },
+      "remaining": {
+        "shape": [
+          720,
+          90
+        ],
+        "rank": 90,
+        "unitRank": 90,
+        "max": 1,
+        "tailMaxBits": 0,
+        "nonzeros": 700
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    },
+    {
+      "weight": 3,
+      "d1": {
+        "shape": [
+          2160,
+          1280
+        ],
+        "rank": 1250,
+        "nonzeros": 8640,
+        "max": 2
+      },
+      "d3": null,
+      "remaining": {
+        "shape": [
+          240,
+          30
+        ],
+        "rank": 30,
+        "unitRank": 30,
+        "max": 1,
+        "tailMaxBits": 0,
+        "nonzeros": 150
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    },
+    {
+      "weight": 4,
+      "d1": {
+        "shape": [
+          6480,
+          2560
+        ],
+        "rank": 2550,
+        "nonzeros": 25920,
+        "max": 4
+      },
+      "d3": null,
+      "remaining": {
+        "shape": [
+          80,
+          10
+        ],
+        "rank": 10,
+        "unitRank": 10,
+        "max": 1,
+        "tailMaxBits": 0,
+        "nonzeros": 50
+      },
+      "boundaryRank": 0,
+      "h1": 0
+    }
+  ],
+  "byWeight": [
+    [
+      1,
+      79,
+      352,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      448,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      514,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      448,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      352,
+      79,
+      1
+    ]
+  ],
+  "dimensions": [
+    1,
+    87,
+    7372,
+    87,
+    1
+  ],
+  "traceFreeDimensions": [
+    0,
+    83,
+    7366,
+    83,
+    0
+  ]
+}
