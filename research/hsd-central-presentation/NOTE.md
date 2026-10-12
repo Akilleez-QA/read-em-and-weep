@@ -1,6 +1,6 @@
 # Candidate presentation and identification audit
 
-This note exports one cokernel and audits it against the rank-four plane-completion extension. The cokernel is called C. Both gates below fail to pass, so C is not identified with that extension. No length is computed. This is not a proof of the Weil-class theorem, and it is not a full solution.
+This note exports one cokernel and audits it against the rank-four plane-completion extension. The cokernel is called C. Local Gate 1 passed on `W≠0`, and global identification (Gate 2 (ii)) is open, so C is not identified with that extension. No length is computed. This is not a proof of the Weil-class theorem, and it is not a full solution.
 
 Public sources are commits in `Akilleez-QA/read-em-and-weep` and the Stacks Project tags cited below. Reproduce the identities with `python3 -m unittest discover -s tests -t .` from this directory (`sympy==1.14.0`, Python 3.12). A skipped pinned-blob check is not verified provenance. `REQUIRE_PINNED_BLOBS=1` turns those skips into failures. The run reports `provenance_skip_count`.
 
@@ -87,7 +87,7 @@ The order-0 frame shape exported by the plane-completion refinement is the ident
 
 ## Missing map
 
-The missing comparison on `D₂={h³=0}` is a chartwise matrix `φ_i` with entries in `Q[z,X,Y,W,h]/(h³)`, valued in the stabilizer of `α`. No such matrix is pinned, so the following checks are not evaluated and no entry is reported as a failed polynomial. They would be required modulo `h³` on every chart and overlap:
+The missing comparison on `D₂={h³=0}` is a chartwise matrix `φ_i` with entries in `Q[z,X,Y,W,h]/(h³)`, valued in the stabilizer of `α`. No such matrix is pinned. That absence is an inspected-source / reporting conclusion, not a computed polynomial input, so the following checks are not evaluated and no entry is reported as a failed polynomial. They would be required modulo `h³` on every chart and overlap:
 
 - (a) `g'_ij = φ_i g_ij φ_j^{-1}`,
 - (b) `φ^T Ω φ = Ω`, strict,
@@ -96,11 +96,11 @@ The missing comparison on `D₂={h³=0}` is a chartwise matrix `φ_i` with entri
 - (e) the torus weight of every entry of `φ`,
 - (f) `φ(s)=s'`, only after (d), using `H⁰(G⊗I^k/I^{k+1})=0` from the exact pairing and the plane value.
 
-The overlap formula `I - h A_η + h²(½ A_η² - A_κ)` is an operator on Hamiltonian cochains, not `φ_i`. Square-zero uniqueness does not supply the matrix. Automorphisms of a square-zero deformation of a smooth separated scheme are `H⁰` of the tangent sheaf twisted by the kernel (J. Alper, *Notes on Deformation Theory*, UW Math 581J, Fall 2021, Proposition 2.5(1); the notes cite Hartshorne, *Deformation Theory*, Corollary 10.3). That `H⁰` is not an input to (d).
+The overlap formula `I - h A_η + h²(½ A_η² - A_κ)` is an operator on Hamiltonian cochains, not `φ_i`. `A_η` and `A_κ` from `Sym²(G)⊗L⁻¹` annihilate `α(p)` because `Ω(u,α(p))=0` for `u∈P⊥`, so their exponential gauge fixes `α` pointwise; they are target transition operators and do not supply candidate-to-target `φ_i`. Square-zero uniqueness does not supply the matrix. Automorphisms of a square-zero deformation of a smooth separated scheme are `H⁰` of the tangent sheaf twisted by the kernel (J. Alper, *Notes on Deformation Theory*, UW Math 581J, Fall 2021, Proposition 2.5(1); the notes cite Hartshorne, *Deformation Theory*, Corollary 10.3). That `H⁰` is not an input to (d).
 
 ## Reporting decisions
 
-These statuses are reporting decisions, not computed certificates. The computed input is the splitting on `W≠0`, the pairing values, and the absence of `φ_i`.
+These statuses are reporting decisions, not computed certificates. The computed input is the splitting on `W≠0` and the pairing values. The absence of `φ_i` is an inspected-source / reporting conclusion, not a computed polynomial input, and no entry is reported as a failed polynomial.
 
 Gate 1 on `W≠0`: passed. `C` is free of rank 4 there, hence reflexive, and `Ext^e(C,A)=0` for `e≥1` (Stacks [31.13.13](https://stacks.math.columbia.edu/tag/0AVT)). This does not identify `C` with the rank-four extension and does not evaluate a defect of that extension.
 
@@ -108,7 +108,7 @@ Gate 2 (i), the chosen structured section: computed. The unchanged pullback of `
 
 Gate 2 (ii), an underlying sheaf comparison `C|U → E|U` on a neighbourhood of all of `D`, with any structure data: open, not failed. `C` is exported only on `W≠0`, and no global gluing is pinned. Neither (i) nor the cited obstruction of the unchanged pullback rules out every comparison with different structure data. Reflexive extension (Stacks [31.13.12](https://stacks.math.columbia.edu/tag/0EBJ)) is not applied. The `D₂` checks stay unevaluated because `φ_i` is missing.
 
-One-column cokernels have projective dimension at most 1, so `Ext^2` vanishes. They can only confirm a zero defect. Any defect statement is conditional on `φ`.
+One-column cokernels have projective dimension at most 1, so `Ext^2` vanishes. An exact length-one resolution proves zero defect only for the actual identified reflexive sheaf, with no inference through a later hull. Any defect statement is conditional on `φ`.
 
 `C` stays `C`. No length is reported. The audit does not proceed to a defect number; that stop does not certify that every comparison fails.
 
