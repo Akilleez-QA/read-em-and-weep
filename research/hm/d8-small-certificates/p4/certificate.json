@@ -1,0 +1,191 @@
+{
+  "scope": "Pinned perfect line complex, every odd characteristic; not obstruction naturality or HM-bundle exactness",
+  "p4Twists": [
+    {
+      "twist": 0,
+      "dimensions": [
+        354,
+        1225,
+        1200,
+        350
+      ],
+      "matrices": [
+        {
+          "shape": [
+            1225,
+            354
+          ],
+          "nonzeros": 1620,
+          "rank": 353,
+          "unitRank": 353,
+          "max": 1,
+          "tailMaxBits": 0
+        },
+        {
+          "shape": [
+            1200,
+            1225
+          ],
+          "nonzeros": 3400,
+          "rank": 848,
+          "unitRank": 848,
+          "max": 5,
+          "tailMaxBits": 0
+        },
+        {
+          "shape": [
+            350,
+            1200
+          ],
+          "nonzeros": 1500,
+          "rank": 350,
+          "unitRank": 350,
+          "max": 1,
+          "tailMaxBits": 0
+        }
+      ],
+      "cohomology": [
+        1,
+        24,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "twist": -1,
+      "dimensions": [
+        0,
+        245,
+        400,
+        150
+      ],
+      "matrices": [
+        {
+          "shape": [
+            245,
+            0
+          ],
+          "nonzeros": 0,
+          "rank": 0,
+          "unitRank": 0,
+          "max": 1,
+          "tailMaxBits": 0
+        },
+        {
+          "shape": [
+            400,
+            245
+          ],
+          "nonzeros": 680,
+          "rank": 240,
+          "unitRank": 240,
+          "max": 2,
+          "tailMaxBits": 0
+        },
+        {
+          "shape": [
+            150,
+            400
+          ],
+          "nonzeros": 500,
+          "rank": 150,
+          "unitRank": 150,
+          "max": 1,
+          "tailMaxBits": 0
+        }
+      ],
+      "cohomology": [
+        0,
+        5,
+        10,
+        0,
+        0
+      ]
+    },
+    {
+      "twist": -2,
+      "matrices": {
+        "d5": {
+          "shape": [
+            80,
+            10
+          ],
+          "nonzeros": 50,
+          "rank": 10,
+          "unitRank": 10,
+          "max": 1,
+          "tailMaxBits": 0
+        },
+        "ordinary": {
+          "shape": [
+            50,
+            80
+          ],
+          "nonzeros": 100,
+          "rank": 50,
+          "unitRank": 50,
+          "max": 1,
+          "tailMaxBits": 0
+        }
+      },
+      "cohomology": [
+        0,
+        0,
+        20,
+        0,
+        0
+      ]
+    },
+    {
+      "twist": -3,
+      "method": "Serre duality from twist -2",
+      "cohomology": [
+        0,
+        0,
+        20,
+        0,
+        0
+      ]
+    }
+  ],
+  "cech": {
+    "statesMax": 165,
+    "contractionChecks": 40,
+    "d5IdentityMinorRowsZeroBased": [
+      50,
+      60,
+      51,
+      61,
+      52,
+      62,
+      53,
+      63,
+      54,
+      64
+    ]
+  },
+  "D8": {
+    "invariantGeneratorDimensions": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "trivialDeckCohomology": [
+      1,
+      79,
+      352,
+      0,
+      0
+    ],
+    "fullSignCohomology": [
+      0,
+      0,
+      352,
+      79,
+      1
+    ],
+    "epsilonExt2Dimension": 32
+  }
+}

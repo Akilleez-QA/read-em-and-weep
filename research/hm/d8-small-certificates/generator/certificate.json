@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "source_pins": {
+    "pinned-verify-hm-ext.js": "1fe4608ed77f3767691e7ef4de375fc55b052ccf26159a4aae3ec6d35fe96414",
+    "full-sign-boundary-oracle.js": "29bbe778ed43ce91b52390d27fd78678879bb39c877982afb8063676b3fe1558"
+  },
+  "oracle_repository_commit": "a100f4e0be453d6e182320b792359f8a04e32b4d",
+  "oracle_git_blob": "8f534fd7a074e333fa031a6d8c51b864faf76d42",
+  "coefficient_ring": "Z",
+  "coefficient_field": "Q",
+  "generator": "a=(12)",
+  "basis": "hm-pr5-full-sign-harmonic-v1",
+  "fullSignDimensions": [
+    0,
+    2560,
+    6560,
+    4080,
+    354
+  ],
+  "degree2Correction": {
+    "rows": 80,
+    "columns": 6480,
+    "nonzeroColumns": 272,
+    "nonzeros": 568,
+    "maxCoefficient": 1
+  },
+  "degree3Correction": {
+    "rows": 160,
+    "columns": 3920,
+    "nonzeroColumns": 1128,
+    "nonzeros": 1664,
+    "maxCoefficient": 1
+  },
+  "termNonzerosInOrder_v1_v2_v3": {
+    "degree2": [
+      0,
+      0,
+      568
+    ],
+    "degree3": [
+      0,
+      1664,
+      0
+    ]
+  },
+  "chainIdentity": {
+    "exhaustive": true,
+    "degree1Columns": 2560,
+    "degree2Columns": 6560,
+    "degree3Columns": 4080,
+    "degree0And4": "zero outgoing differential"
+  },
+  "differentialSquare": {
+    "exhaustive": true,
+    "degree1Columns": 2560,
+    "degree2Columns": 6560
+  },
+  "involution": {
+    "exhaustive": true,
+    "allFiniteDegrees": true,
+    "qualification": "Observed for a=(12); do not infer strict relations for other generators."
+  },
+  "matrices_sha256": "b8a43d22da0b0e14a66c88b6e3d3653e94dfa31f7a1c739487a4cbe7267d1bf3",
+  "milliseconds": 9406
+}

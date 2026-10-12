@@ -1,0 +1,32 @@
+{
+  "basis": "hm-pr5-full-sign-harmonic-v1",
+  "source_commit": "add03476d9055aa00e1e00778eea6332cf8e01cc",
+  "entries": [
+    {
+      "key": [
+        2,
+        0,
+        0,
+        0,
+        -2,
+        -3,
+        -2,
+        -3
+      ],
+      "coefficient": "-1/7"
+    },
+    {
+      "key": [
+        0,
+        2,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient": "-1/7"
+    }
+  ]
+}
