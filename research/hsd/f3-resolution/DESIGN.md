@@ -311,20 +311,21 @@ For these bivectors, \(b'\gamma'\) is not the zero matrix. On column \(4\),
 
 The signs are exactly the ones in the table: \(-x_2,+x_1,+x_4,-x_3\), and the last entry \(0\). Those are the column-\(4\) entries \(\pm x_1,\pm x_3,\pm x_4\) together with the \((i=0)\) entry \(-x_2\). The four linear forms vanish together only on the line through \(p_*\). Off that line, column \(4\) of \(\gamma'(v)\) is not in \(\ker b'\), so \(\gamma'(v)\) is not contained in \(\ker b'\). On the line, membership is the pointwise check at \(p_*\) in the procedure below; the columns are homogeneous, so the check covers the line. Sources for the column-\(4\) entries: pull request 78, comments 6131521254 and 6131574903.
 
-The basis \(U_i,V_i,Z_i\) of §1.2 is a basis of \(\ker b\) for the authentic bivectors only. It is not a basis of \(\ker b'\). The authentic list is not reused. For this mutated \(b'\) and the authentic vectors \(U_i=(\mathrm{dual}(w_i^+),0)\), with \(w_i^+=e_{i+2}\wedge e_{i+3}\), the component \(b'(U_i)_j\) is the pairing of \(w_i^+\) with \(w_j^{-'}\). That pairing is \(0\) for every \(j\) when \(i\in\{0,4\}\), and it equals \(1\) at the two positions below.
+The basis \(U_i,V_i,Z_i\) of §1.2 is a basis of \(\ker b\) for the authentic bivectors only. It is not a basis of \(\ker b'\). The authentic list is not reused. For this mutated \(b'\) and the authentic vectors \(U_i=(\mathrm{dual}(w_i^+),0)\), with \(w_i^+=e_{i+2}\wedge e_{i+3}\), the component \(b'(U_i)_j\) is the pairing of \(w_i^+\) with \(w_j^{-'}\). Evaluating all five gives \(b'(U_0)=b'(U_4)=0\), \(b'(U_1)=e_4\), \(b'(U_2)=-e_3\), and \(b'(U_3)=e_0\). Each nonzero image has a single component. Here \(w_2^+=e_4\wedge e_0=-e_0\wedge e_4=-w_3^{-'}\), so that component is \(b'(U_2)_3=-1\). The image \(b'(U_2)=-e_3\) matches the unit-minor column \(-U_2\mapsto e_3\).
 
 \[
 \begin{aligned}
-U_0&=(\mathrm{dual}(e_2\wedge e_3),0)\in\ker b',\\
-U_4&=(\mathrm{dual}(e_1\wedge e_2),0)\in\ker b',\\
-b'(U_1)_4&=1,\qquad U_1=(\mathrm{dual}(e_3\wedge e_4),0),\\
-b'(U_3)_0&=1,\qquad U_3=(\mathrm{dual}(e_0\wedge e_1),0).
+b'(U_0)&=0,\qquad U_0=(\mathrm{dual}(e_2\wedge e_3),0)\in\ker b',\\
+b'(U_1)&=e_4,\qquad U_1=(\mathrm{dual}(e_3\wedge e_4),0),\\
+b'(U_2)&=-e_3,\qquad U_2=(\mathrm{dual}(e_4\wedge e_0),0),\\
+b'(U_3)&=e_0,\qquad U_3=(\mathrm{dual}(e_0\wedge e_1),0),\\
+b'(U_4)&=0,\qquad U_4=(\mathrm{dual}(e_1\wedge e_2),0)\in\ker b'.
 \end{aligned}
 \]
 
 The claim \(b'(U_0)_0=1\) is false and is withdrawn. The two evaluations \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\) are the counterexamples. The authentic list is not reused. Build \(\gamma'\) in \((\Lambda^2 V^*)^2\).
 
-Sources for the withdrawn claim and the two counterexamples: pull request 78, comments 6131776264 and 6131777532.
+Sources for the five images \(b'(U_i)\): pull request 78, comments 6131988539 and 6131895075. Sources for the withdrawn claim and the two counterexamples: pull request 78, comments 6131776264 and 6131777532.
 
 Unit minor. On the authentic basis of \(W\), \(b'\) sends the five vectors \(U_3\), \(V_1\), \(-V_4\), \(-U_2\), \(U_1\) to \(e_0,e_1,e_2,e_3,e_4\) in that order. The matrix of those images is \(I_5\), so the determinant is \(1\). The minor is a unit in \(\mathbb{Z}\). Therefore \(b'\) restricted to \(W\) is surjective after every base change, including reduction to \(\mathbb{F}_3\), and
 
@@ -412,20 +413,20 @@ x_0 & \text{if }0\le q\le 4\text{ and }p\equiv -q\pmod{5},\\
 \end{cases}
 \qquad
 B_{r,c}=\begin{cases}
-1 & \text{if }0\le c\le 4\text{ and }r\equiv -c\pmod{5},\\
+1 & \text{if }0\le r\le 4,\ 0\le c\le 4,\text{ and }r\equiv -c\pmod{5},\\
 0 & \text{otherwise.}
 \end{cases}
 \]
 
-The rows occupied by columns \(0,1,2,3,4\) are \(0,4,3,2,1\). The product is again \(x_0 I_5\). For \(a\not\equiv 0\pmod{5}\), a builder that leaves column \(a\)'s \(x_0\) on the diagonal is not this encoding. The label remains `synthetic-ab-x0`. A pass of this encoding is not an authentic \(\mathbb{Q}\) certificate.
+The rows occupied by columns \(0,1,2,3,4\) of \(A\) are \(0,4,3,2,1\). The bound \(0\le r\le 4\) selects the \(U\) block (block \(b=0\)), so \(B\) has exactly five ones, at those same rows for columns \(0,1,2,3,4\), and \(\mathrm{nnz}(B)=5\). Rows \(5\) through \(14\) of \(B\) are zero. The product is again \(x_0 I_5\). For \(a\not\equiv 0\pmod{5}\), a builder that leaves column \(a\)'s \(x_0\) on the diagonal is not this encoding. The label remains `synthetic-ab-x0`. A pass of this encoding is not an authentic \(\mathbb{Q}\) certificate.
 
 Tests of the direct encoding. All three are mandatory.
 
-1. Over \(\mathbb{Q}\), multiply \(A\) by \(B\) and require entrywise equality with \(x_0 I_5\). The arithmetic is exact on the integer coefficients.
+1. Over \(\mathbb{Q}\), multiply \(A\) by \(B\) and require entrywise equality with \(x_0 I_5\). The arithmetic is exact on the integer coefficients. Beside that product, require \(\mathrm{nnz}(B)=5\).
 2. Over \(\mathbb{F}_3\), reduce those same integer coefficients modulo \(3\) and require the same entrywise equality in \(\mathbb{F}_3[x_0]\).
 3. Rejection. Replace the nonzero coefficient \(A_{0,0}=x_0\) by \(2x_0\). Leave every other entry of \(A\) and every entry of \(B\) as in the positive fixture. The \((0,0)\) entry of the product is \(2x_0\). Over \(\mathbb{Q}\), \(2x_0\neq x_0\). Over \(\mathbb{F}_3\), \(2\not\equiv 1\). The checker must reject the mutated pair on both fields. A checker that accepts it fails the control.
 
-Column \(0\) sits at row \(0\) in both encodings, because \(-0\equiv 0\pmod{5}\). When the grading-builder path runs, it repeats the same three tests on its own matrices, with the same mutated coefficient \(A_{0,0}=2x_0\).
+Column \(0\) sits at row \(0\) in both encodings, because \(-0\equiv 0\pmod{5}\). When the grading-builder path runs, it repeats the same three tests on its own matrices, including \(\mathrm{nnz}(B)=5\), with the same mutated coefficient \(A_{0,0}=2x_0\).
 
 Required report for the direct encoding:
 
@@ -434,14 +435,15 @@ control: synthetic-ab-x0
 encoding: direct
 field_QQ: pass
 field_F3: pass
+nnz_B: 5
 mutant_coefficient: A[0,0] = 2 x0
 mutant_rejected: yes
 authentic_QQ_certificate: no
 ```
 
-When the grading-builder path runs, the same report is emitted with `encoding: grading-builder`. Any other product, any accepted mutant, or a report that sets `authentic_QQ_certificate` to yes, fails the run.
+When the grading-builder path runs, the same report is emitted with `encoding: grading-builder`. Any other product, any other \(\mathrm{nnz}(B)\), any accepted mutant, or a report that sets `authentic_QQ_certificate` to yes, fails the run.
 
-Source: pull request 78, comment 6131776264. The exact encoding and the three tests are part of this bounded contract.
+Source: pull request 78, comments 6131776264 and 6131988539. The exact encoding, the three tests, and the count \(\mathrm{nnz}(B)=5\) are part of this bounded contract.
 
 ## Search policy and algebraic reuse
 
@@ -688,7 +690,7 @@ Success does not transfer a characteristic-\(0\) ambient obstruction. It does no
 | Pinned-map drift | A witness for a different complex is reported as a certificate for \(C\). | Rebuild \(\varphi_0,\varphi_1,\varphi_2\) from §1.2 and compare the sparse term list with blob `fa5231de92b61143e3406111d4af028284db6d55` before any search. | Abort on the first differing term. Do not search. |
 | Basis drift against `fa5231de` | A correct multiplier for a permuted \(U,V,Z\) order or a flipped \(\varepsilon\) is accepted. | Entrywise match to the sign formula and the row order in §1.2, not merely vanishing of the two compositions. | Compositions are necessary and not sufficient. Fail closed on any basis mismatch with the blob. |
 | Vacuous identity oracle | A checker that never sees a rank drop prints \(\mathrm{rank}\,\varphi_1=8\) for the authentic maps without testing the identity. | The pointwise control of §5.3 returns \(\mathrm{rank}\,\gamma'(p_*)=1\) and restricted-contraction rank \(4\), with \(4=3+1<8\), from an independent \(E'\) and the reconstruction \(E'g'=\gamma'(p_*)\). | The control is mandatory, ambient, and pointwise at \(p_*\). It is not a second complex. An oracle that only accepts \((5,8)\) fails. |
-| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | The unit minor on \(U_3,V_1,-V_4,-U_2,U_1\) is \(I_5\), so \(\dim(W\cap\ker b')=10\) over every field, including \(\mathbb{F}_3\). Also \(U_0\) and \(U_4\) lie in \(\ker b'\), while \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\). At \(p_*\), \(b'\gamma'_4=0\) and \(b\gamma'_4=-e_4\), and \([W\mid\gamma'_4]\) has rank \(16\). | Require \(b'E'=0\), \(\mathrm{rank}(E')=15\), and the ambient equality \(E'g'=\gamma'(p_*)\). A ker-membership flag alone fails. The authentic list is not reused. |
+| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | The unit minor on \(U_3,V_1,-V_4,-U_2,U_1\) is \(I_5\), so \(\dim(W\cap\ker b')=10\) over every field, including \(\mathbb{F}_3\). Also \(b'(U_0)=b'(U_4)=0\), while \(b'(U_1)=e_4\), \(b'(U_2)=-e_3\), and \(b'(U_3)=e_0\). Each nonzero image has a single component, and \(b'(U_2)=-e_3\) matches the unit-minor column \(-U_2\mapsto e_3\). At \(p_*\), \(b'\gamma'_4=0\) and \(b\gamma'_4=-e_4\), and \([W\mid\gamma'_4]\) has rank \(16\). | Require \(b'E'=0\), \(\mathrm{rank}(E')=15\), and the ambient equality \(E'g'=\gamma'(p_*)\). A ker-membership flag alone fails. The authentic list is not reused. |
 | Named-transport contract | A product is accepted under the wrong chart name, or a permutation of correct right-hand sides is accepted as the transport. | Covariance \(G(v)=R^{i} G(\sigma^{-i}v)\,C^{-i}\) fails for some \(i\), or the replay for index \(i\) is not the named \(v_i^{N} I_5\). | Keep the named-chart check. Chart \(i\) passes only against \(v_i^{N} I_5\). Use \(\sigma(e_j)=e_{j+1}\). A permutation fails this row even when the coverage oracle passes. Transport does not replace the multiplications. |
 | Geometric chart coverage | A missing chart is reported as projective coverage, or a named-transport failure is reported as a geometric failure. | The set of authenticated right-hand sides is not \(\{x_0^{N} I_5,\ldots,x_4^{N} I_5\}\), or a complete permutation is logged as a geometric negative. | The coverage oracle is that set equality. A permutation proves coverage after relabeling and does not prove the named-transport contract. Accepting “some \(x_j^{N} I_5\)” on each chart, without the indices exhausting \(\{0,1,2,3,4\}\), fails this oracle and fails the named contract. |
 | Nonzero free variable in a recorded column | A later lift differs from the column the elimination selected. | A stored unknown that was not a pivot is nonzero. | Set every free variable to \(0\) before back-substitution. Emit only that particular solution. |
