@@ -292,6 +292,28 @@ identity: 4 = 3 + 1 < 8
 
 Any other triple fails the run. An oracle that cannot return a drop below \(8\) fails this control.
 
+## Search policy and algebraic reuse
+
+Source: null, pull request 76, comment 6131466767. These are reuse rules for a future graded search. They are not a witness, and they do not authorize a search from this document.
+
+### Naming
+
+\(G=\varphi_0\), the pinned \(15\times 5\) matrix. On the pull request 76 thread the Heisenberg generator and the \(5\)-cycle already reduce five chart searches to one chart matrix \(B_0\), followed by four deterministic transports and five independent multiplications. In this section \(G^{\mathsf T}\) means that graded chart matrix in the one-chart \(B_0\) coordinates after that transport. It is not a new map, and it does not replace the pinned \(\varphi_0\).
+
+The chart coordinate \(v_0\) is the weight-\(0\) variable in the \(\tau\)-grading of that same thread: \(\mathrm{wt}(v_0)=0\). The symbols \(x_i\) of §2 are the homogeneous coordinates on the same \(\mathbb{P}^4\); \(v_0\) is the chart variable of weight \(0\).
+
+For exponent \(N\), write \(s=\binom{N+3}{4}\) and \(t=\binom{N+4}{4}\). One graded column splits into blocks of shape \(t\times 3s\). Those shapes are the blocks named below. The numeric launch caps of §6 are unchanged.
+
+### Reuse rules
+
+1. Write \(M=\mathrm{coker}(G^{\mathsf T})\) over \(\mathbb{F}_3[v_0,\ldots,v_4]\), with standard quotient generators \(\bar e_j\). A chart witness at exponent \(N\) is equivalent to \(v_0^N M=0\). For each column define \(N_j=\min\{N:v_0^N\bar e_j=0\}\), allowing \(\infty\). The common threshold is \(\max_j N_j\). There is no finite witness if any \(N_j=\infty\).
+
+2. Once an individual column \(b_j\) is certified by \(G^{\mathsf T} b_j=v_0^n e_j\), every later exponent \(N\ge n\) uses \(v_0^{N-n} b_j\). That column needs no new solve. Because \(\mathrm{wt}(v_0)=0\) in the \(\tau\)-grading already in the design thread, this lift stays in its required graded \(t\times 3s\) block. Keep certified columns. Solve only unresolved right-hand side blocks. Assemble at the maximum successful exponent before all five chart multiplications.
+
+3. A completed inconsistent dual for one column at \(N\) excludes the common witness for every exponent \(\le N\) for that column. It does not invalidate already certified other columns.
+
+4. Finding any witness needs no binary search for the minimum exponent. Binary refinement is useful only if minimum degree is itself required. Degree doubling has no constant cost advantage when linear-system costs grow rapidly with \(N\) (\(s=\binom{N+3}{4}\), \(t=\binom{N+4}{4}\), blocks \(t\times 3s\)). A degree schedule should be compared in measured or justified cost units under the existing launch caps. A timeout or a cap remains inconclusive, not empty.
+
 ## 6. Resource caps
 
 These caps are mandatory launch gates. They are not a Nullstellensatz degree theorem. Review may tighten them. No later launch proceeds without all four gates in force.
@@ -328,9 +350,13 @@ Success does not transfer a characteristic-\(0\) ambient obstruction. It does no
 | Vacuous identity oracle | A checker that never sees a rank drop prints \(\mathrm{rank}\,\varphi_1=8\) for the authentic maps without testing the identity. | The paired control of §5.3 returns ranks \(1\) and \(4\) with \(4=3+1<8\). | The control is mandatory and uses \(b'\), not the authentic \(b\). An oracle that only accepts \((5,8)\) fails the launch. |
 | `assert` stripped by `PYTHONOPTIMIZE` | A later Python runner loses its predicates under `python -O` or `PYTHONOPTIMIZE` set, and exits \(0\). | Launch refuses to start unless `sys.flags.optimize==0` and `PYTHONOPTIMIZE` is unset. | Certificate predicates raise. Bare `assert` is not on the proof path. This document has no runner; the row binds any later one. |
 | Claim inflation to \(\mathrm{End}(H)/O_2\) | Fiber ranks are reported as an \(\mathrm{End}(H)\) calculation, as \(\mathrm{Ext}\) groups before the resolution hypothesis, or as an obstruction value \(O_2\). | The result banner is restricted to the sentences in §7. A file that states an obstruction value, a characteristic-\(0\) transfer, or choice independence is a failed run. | The conditional identification with \(\mathrm{Ext}^*(H,H(-2))\) is allowed only after the resolution statement, and it is not an obstruction computation. |
+| Assemble before every column is at the same \(N\) | A partial maximum is published as a common chart witness. | The assembly log lists a column that is not certified or lifted to that \(N\). | Assemble only after all five columns, or all fifteen before transport, are certified or lifted to the same \(N\). |
+| Re-solve of a certified column | Wasted cost, and a risk of basis drift against the stored column. | A column index that already has a stored \((b_j,n)\) is submitted to a new solve. | Refuse the re-solve. Store \((b_j,n)\) and lift by \(v_0^{N-n}\). |
+| Dual kill read across columns | An inconsistent dual for one right-hand side aborts certified columns of other indices. | The dual log does not name a single column index. | Dual kill is per right-hand side. The log names the column index. |
+| Degree doubling without a cost model | A timeout or a cap is read as emptiness. | The degree schedule has no measured or justified cost comparison. | Compare schedules in cost units under the caps of §6. A cap remains `inconclusive`. |
 
 ## 9. Stop
 
 This pull request is the design. Witness construction does not start here. The \(B_i\) are not built. No Gröbner basis, Macaulay2 session, or other computer-algebra search is part of the deliverable.
 
-Review is requested on the corrected \(T_2\) reading, the retirement of a separate \(T_1\), the three controls, and the launch caps. Stop after that review request.
+Review is requested on the corrected \(T_2\) reading, the retirement of a separate \(T_1\), the three controls, the launch caps, and the search-policy reuse rules from comment 6131466767. Stop after that review request. Witness construction remains unstarted.
