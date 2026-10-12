@@ -14,6 +14,8 @@ establishes \(a_2=0\) for the hypercohomology of \(\mathrm{End}(C)(-2)\). That a
 
 `excluded` means the stated construction or inference fails. It does not mean that a Weil class is non-algebraic. `unresolved` means the sources used here do not supply that cell.
 
+Status of this file: amend applied; awaiting re-review.
+
 ## Caveats
 
 **D1.** A Lefschetz projector is not the Chern character of a derived summand. Beauville eigen-components, isotypic projectors for finite groups of homomorphisms, and the Fourier transform on cycle classes stay inside the divisor-generated closure when they are induced by Lefschetz correspondences. Applying such a projector to a total Chern character does not compute the Chern character of an arbitrary derived summand.
@@ -42,7 +44,7 @@ Each entry is one audited route or operation.
 
 ### Output-certificate row
 
-The smallest nonzero-Weil certificate is the Mr. Slop discriminator **C**, and nothing weaker.
+Any independently justified nonzero Weil projection of the actual output class qualifies as a nonzero-Weil certificate. The positive scalar below, the Mr. Slop test **C**, is a useful sufficient test under its stated hypotheses. It is not an exclusive oracle.
 
 At a very-general polarized split-Weil period with \(\mathrm{Hdg}^8(A,\mathbb{Q})=\mathbb{Q}\theta^4\oplus W\) and \(\theta W=0\), let \(V=\int\theta^8\) and let \(\alpha\) be the class of the actual selected algebraic output. Its Weil component \(w\) satisfies
 
@@ -50,7 +52,7 @@ At a very-general polarized split-Weil period with \(\mathrm{Hdg}^8(A,\mathbb{Q}
 \Delta=V\int\alpha^2-\Bigl(\int\alpha\,\theta^4\Bigr)^2=V\int w^2.
 \]
 
-Hodge–Riemann positivity on primitive rational \((4,4)\) classes gives \(\Delta>0\) exactly when \(w\neq 0\). For an actual perfect complex \(E\) on this \(A\) with \(\mathrm{ch}(E)=P(\theta)+w\), nine distinct values of \(\chi(E\otimes L^m)\) determine \(P\) and are blind to \(w\). The class-sensitive scalar is
+Hodge–Riemann positivity on primitive rational \((4,4)\) classes gives \(\Delta>0\) exactly when \(w\neq 0\). For an actual perfect complex \(E\) on this \(A\) with \(\mathrm{ch}(E)=P(\theta)+w\), take a line bundle \(L\) with \(c_1(L)=\theta\), or with \(c_1(L)\) a known nonzero multiple of \(\theta\), in this normalization. Nine distinct values of \(\chi(E\otimes L^m)\) then determine \(P\) and are blind to \(w\). The class-sensitive scalar is
 
 \[
 \chi(E,E)-\int P(-\theta)P(\theta)=\int w^2,
@@ -58,13 +60,13 @@ Hodge–Riemann positivity on primitive rational \((4,4)\) classes gives \(\Delt
 
 with positive dual sign in degree eight. At a special period with extra primitive Hodge classes, \(\Delta\) needs a separate Weil projection before it is read as \(w\). A formal polynomial or a synthetic test vector is not this certificate.
 
-The other accepted horn is an explicitly algebraic transport of a known special seed, together with a nonzero final Weil projection of the transported class. Neither horn is supplied by a row below unless that row says so. Otherwise the certificate cell is `unresolved`.
+An explicitly algebraic transport of a known special seed, together with a nonzero final Weil projection of the transported class, is another sufficient certificate. A row below supplies a certificate only when that row says so. Otherwise the certificate cell is `unresolved`.
 
 ### Mr. Slop audit labels
 
 - **A.** Extraction universality. On a projective variety with an ample line bundle \(L\), every coherent sheaf admits a two-term presentation by finite sums of negative powers of \(L\) (Stacks tag `01QB`). On a smooth projective eightfold the same ampleness continues through nine terms in degrees \(-8,\ldots,0\). For \(K=H^{-8}(C)\) the truncation triangle is \(K[8]\to C\to F\to K[9]\), and the connecting class lies in \(\mathrm{Ext}^9(F,K)\). That group vanishes by amplitude: coherent Ext on a smooth projective eightfold vanishes in degrees above 8, so \(C\simeq F\oplus K[8]\). The vanishing is the dimension bound. It is not Stacks tag `0FY7`, which is a Serre-functor example. Unrestricted extraction starts from an arbitrary \(F\) and manufactures no exceptional object. A proposal has to constrain the differential or the idempotent by a geometric condition independent of the desired class, and then compute the selected output's class.
 - **B.** Split-Weil seeds on \(J\times J\). See the row with that label. A special-fiber divisor class is not a family class.
-- **C.** The \(\Delta\) / \(\chi(E,E)\) test above. It is the output-certificate row, not a construction.
+- **C.** The \(\Delta\) / \(\chi(E,E)\) scalar above. It is a sufficient test under the stated hypotheses, not a construction and not an exclusive oracle.
 
 ## Index
 
@@ -73,7 +75,7 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 | Lefschetz closure | excluded | n/a inside the closure |
 | A extraction | n/a | unresolved |
 | B seeds on \(J\times J\) | conditional | unresolved for escape off \(A_0\) |
-| C certificate template | n/a | the \(\Delta\) / \(\chi(E,E)\) test |
+| C certificate template | n/a | sufficient \(\Delta\) / \(\chi(E,E)\) test |
 | G1 net-count repair | excluded | unresolved |
 | G2 ordered index 2 | excluded | unresolved |
 | G3 essential-circle surgery | open | unresolved |
@@ -105,8 +107,8 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **input variety.** A very-general polarized split-Weil eightfold \(A\) with Hodge group \(\mathrm{SU}(4,4)\), and powers of \(A\) and of its dual.
 - **output variety.** The same powers.
 - **object.** Classes generated from divisor classes by rational sums, cup products, exterior products, and pullback or Gysin pushforward along correspondences invariant under the Lefschetz group.
-- **first uncontrolled operation.** None while the output stays in this closure. An extraction that is not induced by an invariant correspondence, or a divisor that exists only on a special fiber and is then deformed, leaves the closure. No such step is part of this row.
-- **smallest nonzero-Weil certificate.** n/a inside the closure. The Weil projection of every class that stays in the closure is zero. A nonzero certificate for a step that leaves the closure is unresolved.
+- **first uncontrolled operation.** None while the output stays in this closure. An uncontrolled extraction or a special-fiber deformation is not guaranteed to remain in the divisor-generated closure, and it does not necessarily leave it. No such step is carried out in this row.
+- **smallest nonzero-Weil certificate.** n/a inside the closure. The Weil projection of every class that stays in the closure is zero. A nonzero certificate for an uncontrolled extraction or a special-fiber deformation is unresolved.
 - **status.** excluded
 - **notes.** Complexified Hodge group \(\mathrm{SL}_8\). Divisor classes have weight 0 for the central circle acting by \(z\) on an 8-plane and by \(z^{-1}\) on its dual; the Weil lines have weights \(\pm 8\). The public thread records this as a special case of Milne, Duke Mathematical Journal 100 (1999), Theorem 3.2, including the dual abelian variety, the Poincaré bundle, Beauville eigen-components, isotypic projectors, and Fourier–Mukai, because those operations preserve Lefschetz classes. The Todd class of an abelian variety is 1, so Grothendieck–Riemann–Roch stays in the closure when the Chern characters and the correspondence kernels do. **D1.** The row leaves a non-tautological producer untouched.
 
@@ -118,7 +120,7 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **first uncontrolled operation.** Selecting one cohomology sheaf, a stable summand, or a projector without a geometric constraint on the differential or the idempotent that is independent of the desired class.
 - **smallest nonzero-Weil certificate.** unresolved. The presentation manufactures no exceptional \(F\).
 - **status.** n/a
-- **notes.** Audit label **A**. If the terms contribute no exceptional Chern character, the exceptional parts of \(F\) and of its syzygy agree, because only the alternating sum is forced. On the eightfold, \(\mathrm{Ext}^9(F,K)=0\) by amplitude (\(\mathrm{Ext}^{>8}=0\)), so the nine-term complex is a derived retract of \(F\). Do not cite Stacks tag `0FY7` for that vanishing. Two-term presentations are Stacks tag `01QB`.
+- **notes.** Audit label **A**. Stacks tag `0ESY` gives Chern-character additivity on a distinguished triangle, \(\mathrm{ch}(E_2)=\mathrm{ch}(E_1)+\mathrm{ch}(E_3)\), and the termwise formula \(\mathrm{ch}(E^\bullet)=\sum_n(-1)^n\mathrm{ch}(E^n)\), so a shift contributes \(\mathrm{ch}(K[n])=(-1)^n\mathrm{ch}(K)\). For a two-term presentation, \(C\simeq F\oplus K[1]\). The shift is odd, and zero exceptional part on the terms gives \(\mathrm{ch}_{\mathrm{exc}}(F)=\mathrm{ch}_{\mathrm{exc}}(K)\). For the nine-term complex in degrees \(-8,\ldots,0\), \(C\simeq F\oplus K[8]\). The shift is even, and zero exceptional part on the terms gives \(\mathrm{ch}_{\mathrm{exc}}(F)=-\mathrm{ch}_{\mathrm{exc}}(K)\). The isomorphism makes \(F\) a derived retract of \(C\). The vanishing \(\mathrm{Ext}^9(F,K)=0\) is amplitude (\(\mathrm{Ext}^{>8}=0\)), not Stacks tag `0FY7`. Two-term presentations are Stacks tag `01QB`.
 
 ### B — split-Weil seeds on \(J\times J\)
 
@@ -136,9 +138,9 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **output variety.** The same eightfold.
 - **object.** The actual selected algebraic output, or an actual perfect complex on that eightfold.
 - **first uncontrolled operation.** n/a. This row is the certificate. Treating \(\Delta>0\) at a special period, or substituting a synthetic vector, is a misuse of the test.
-- **smallest nonzero-Weil certificate.** \(\Delta=V\int w^2\), equivalently \(\chi(E,E)-\int P(-\theta)P(\theta)=\int w^2\), for an actual object with independently justified Euler or intersection data. The transport horn is the other accepted form.
+- **smallest nonzero-Weil certificate.** Any independently justified nonzero Weil projection. Under the hypotheses in the schema, including \(c_1(L)=\theta\) or a known nonzero multiple of \(\theta\), the positive scalar \(\Delta=V\int w^2\), equivalently \(\chi(E,E)-\int P(-\theta)P(\theta)=\int w^2\), is a sufficient test. An algebraic transport of a known special seed with nonzero final Weil projection is another sufficient certificate.
 - **status.** n/a
-- **notes.** Audit label **C**, and the discriminator for every other row. No row below supplies a computed value of this scalar.
+- **notes.** Audit label **C**. The displayed scalar is not an exclusive oracle. No row below supplies a computed value of this scalar.
 
 ### G1 — net-count repair
 
@@ -308,7 +310,7 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **first uncontrolled operation.** Extension off the 7-dimensional product polarized locus in the three transverse polarized directions. Existence of the finite product maps and \(\theta\)-stability on that locus are the cited theorems. The transverse mixed Atiyah evaluation is the research calculation.
 - **smallest nonzero-Weil certificate.** unresolved
 - **status.** excluded
-- **notes.** Public thread of pull request 1. The later recorded exclusion covers every finite abelian-fourfold pullback of an original Lange bundle: evaluation rank 15, kernel dimension 13, against a 16-dimensional character annihilator. Isogeny pullback and descent preserve that obstruction. The product seed changes the discriminant square class from 15 to 2 and still lies under the full-semiregularity exclusion. Sources: Lange, Proposition 3.1; Biswas–Das–Parameswaran, Theorem 2.5. This row does not evaluate the Horrocks–Mumford ambient obstruction. **C2.**
+- **notes.** [Pull request 21](https://github.com/Akilleez-QA/read-em-and-weep/pull/21) records the field-two seed. [Pull request 26](https://github.com/Akilleez-QA/read-em-and-weep/pull/26) excludes every finite abelian-fourfold pullback of an original Lange bundle: evaluation rank 15, kernel dimension 13, against a 16-dimensional character annihilator. [Pull request 28](https://github.com/Akilleez-QA/read-em-and-weep/pull/28) is the independent exact re-verification of that rank. Isogeny pullback and descent preserve that obstruction, as stated with the exclusion. The product seed changes the discriminant square class from 15 to 2 and still lies under the full-semiregularity exclusion. Sources: Lange, Proposition 3.1; Biswas–Das–Parameswaran, Theorem 2.5. This row does not evaluate the Horrocks–Mumford ambient obstruction. **C2.**
 
 ### Lange ribbon boundary
 
@@ -318,17 +320,17 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **first uncontrolled operation.** unresolved
 - **smallest nonzero-Weil certificate.** unresolved
 - **status.** open
-- **notes.** Public thread of pull request 1. No full component classification was claimed. This row is the leftover case of the Lange lane, not a new construction.
+- **notes.** Leftover case in Mr. Slop's carrier note on pull request 1: a constant double-line ruling together with a generically curvilinear vertical plane of multiplicity four ([comment 6094109126](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6094109126)). No full component classification was claimed. This row is that leftover case, not a new construction.
 
 ### Finite abelian covers of \(Q^4\)
 
-- **input variety.** An abelian fourfold, as the proposed domain of a finite abelian cover.
-- **output variety.** A smooth quadric fourfold.
-- **object.** A spinor or Cayley bundle pulled back along that cover.
-- **first uncontrolled operation.** n/a. The route stops at existence of the morphism.
-- **smallest nonzero-Weil certificate.** unresolved. No object is produced.
+- **input variety.** The smooth quadric fourfold \(Q^4\), where the spinor or Cayley bundle lives.
+- **output variety.** An abelian fourfold \(A\), where that bundle would be pulled back.
+- **object.** The spinor or Cayley bundle on \(Q^4\). Pullback along a finite map \(A\to Q^4\) would place it on \(A\).
+- **first uncontrolled operation.** n/a. The route stops at existence of the finite morphism.
+- **smallest nonzero-Weil certificate.** unresolved. No object on \(A\) is produced.
 - **status.** excluded
-- **notes.** Public thread of pull request 1. The smooth-target classification of Demailly–Hwang–Peternell, Theorem 1.1, rules out finite abelian covers of \(Q^4\). This row is not the Horrocks–Mumford deck cover of projective space.
+- **notes.** Two directions. The bundle starts on \(Q^4\) and would be pulled back to \(A\) along \(A\to Q^4\). The finite morphism in the other direction, from the abelian fourfold onto \(Q^4\), is excluded by Demailly–Hwang–Peternell, Theorem 1.1 ([arXiv:0707.0581](https://arxiv.org/abs/0707.0581)). The exclusion at morphism existence is the statement in Mr. Slop's carrier update on pull request 1 ([comment 6094109126](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6094109126)). This row is not the Horrocks–Mumford deck cover of projective space.
 
 ### Primitive triple
 
@@ -338,7 +340,7 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **first uncontrolled operation.** Extension of that ribbon to an embedded primitive triple. The abstract triple-extension obstruction group vanishes, so the vanishing is not the embedded obstruction. The recorded obstruction is a nonzero binary quintic read from the ambient coordinate transition.
 - **smallest nonzero-Weil certificate.** unresolved
 - **status.** excluded
-- **notes.** Public thread of pull request 1 and the statement of pull request 24, for this fixed support. Other supports, and other rank-two bundles with those Chern classes, stay outside. The row does not evaluate the Horrocks–Mumford ambient obstruction.
+- **notes.** [Pull request 24](https://github.com/Akilleez-QA/read-em-and-weep/pull/24), for this fixed graph Segre support. Other supports, and other rank-two bundles with those Chern classes, stay outside. The row does not evaluate the Horrocks–Mumford ambient obstruction.
 
 ### \(\tau=1\), maximal direction
 
@@ -348,17 +350,17 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 - **first uncontrolled operation.** Nonsplit central gluing and isotropy, including the quadratic symplectic transition correction and the doubled exceptional ideal. A genuine local \(\tau=1\) smoothing is recorded, and a globally split rank-six middle cannot compactify it with these twists. Solving only the linear column-gluing stage is not the full gate.
 - **smallest nonzero-Weil certificate.** unresolved
 - **status.** excluded
-- **notes.** Public thread of pull request 1, for every actual primitive presentation in this maximal direction. The recorded central matrices are \(164\times 138\) of rank 137. Restriction to \(\mathbb{P}(\mathcal{O}(1)^2)\) forces a constant common factor of the two intrinsic quadrics, and ordinary surjectivity fails. Replacing the doubled ideal by its radical loses conditions. The quotient-image direction is the next row.
+- **notes.** [Pull request 53](https://github.com/Akilleez-QA/read-em-and-weep/pull/53) records the corrected central criterion and this maximal-direction exclusion. [Pull request 59](https://github.com/Akilleez-QA/read-em-and-weep/pull/59) reviews the \(164\times 138\) matrices of rank 137. The exclusion is for every actual primitive presentation in this maximal direction. Restriction to \(\mathbb{P}(\mathcal{O}(1)^2)\) forces a constant common factor of the two intrinsic quadrics, and ordinary surjectivity fails. Replacing the doubled ideal by its radical loses conditions. The quotient-image direction is the next row.
 
 ### \(\tau=1\), quotient image
 
 - **input variety.** \(\mathbb{P}^1\times\mathbb{P}^3\).
 - **output variety.** unresolved
 - **object.** The same charge-three family with exceptional section of nonzero image in \(U_0/\mathcal{O}(2)_0\).
-- **first uncontrolled operation.** unresolved. Full central compatibility, ordinary rank, and exceptional-fiber rank were left as gates. The direction is recorded as not yet a construction.
+- **first uncontrolled operation.** unresolved as a global monad. Full central compatibility, ordinary rank, and exceptional-fiber rank were left as gates for this quotient-image direction.
 - **smallest nonzero-Weil certificate.** unresolved
 - **status.** open
-- **notes.** Public thread of pull request 1. The maximal-direction rank is not a classification of this direction. No Weil projection is supplied.
+- **notes.** The maximal-direction rank is not a classification of this direction. No Weil projection is supplied. Boundary, omitted from this column rather than promoted: formal construction and algebraization near \(D\) have been recorded, while the actual global \(R\) presentation, identification, and defect remain unresolved ([comment 6117584496](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6117584496)). That partial result is not a global certificate.
 
 ### Direct algebraic-cycle families
 
@@ -372,6 +374,6 @@ The other accepted horn is an explicitly algebraic transport of a known special 
 
 ## What stays out
 
-Longer line complexes, non-line middle bundles, nonexternal Fourier–Mukai kernels, several clean Lagrangian loci, tropical or generating-family geometry, filtered Maurer–Cartan proposals, and a \(\tau=2\) quotient are named in the sources as outside the exclusions above or as separate unfinished work. They are not given rows, because no construction to audit was supplied.
+Longer line complexes, non-line middle bundles, nonexternal Fourier–Mukai kernels, several clean Lagrangian loci, tropical or generating-family geometry, filtered Maurer–Cartan proposals, and a \(\tau=2\) quotient are named in the sources as outside the exclusions above or as separate unfinished work. They are not given rows in this column. That omission does not cover the recorded boundary near \(D\): formal construction and algebraization near \(D\) have been recorded, and the actual global \(R\) presentation, identification, and defect remain unresolved ([comment 6117584496](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6117584496)). That partial result stays omitted from this column and is not a global certificate.
 
 The ordinary fixed-base Yoneda-square vanishing for the Horrocks–Mumford seed is a fourfold statement from the checked register update. It is not a value of \(\int w^2\) on an eightfold.
