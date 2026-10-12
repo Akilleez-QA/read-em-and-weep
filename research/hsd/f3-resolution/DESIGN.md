@@ -311,7 +311,20 @@ For these bivectors, \(b'\gamma'\) is not the zero matrix. On column \(4\),
 
 The signs are exactly the ones in the table: \(-x_2,+x_1,+x_4,-x_3\), and the last entry \(0\). Those are the column-\(4\) entries \(\pm x_1,\pm x_3,\pm x_4\) together with the \((i=0)\) entry \(-x_2\). The four linear forms vanish together only on the line through \(p_*\). Off that line, column \(4\) of \(\gamma'(v)\) is not in \(\ker b'\), so \(\gamma'(v)\) is not contained in \(\ker b'\). On the line, membership is the pointwise check at \(p_*\) in the procedure below; the columns are homogeneous, so the check covers the line. Sources for the column-\(4\) entries: pull request 78, comments 6131521254 and 6131574903.
 
-The basis \(U_i,V_i,Z_i\) of §1.2 is a basis of \(\ker b\) for the authentic bivectors only. It is not a basis of \(\ker b'\). In particular \(b'(U_0)_0=1\), so \(U_0\notin\ker b'\).
+The basis \(U_i,V_i,Z_i\) of §1.2 is a basis of \(\ker b\) for the authentic bivectors only. It is not a basis of \(\ker b'\). The authentic list is not reused. For this mutated \(b'\) and the authentic vectors \(U_i=(\mathrm{dual}(w_i^+),0)\), with \(w_i^+=e_{i+2}\wedge e_{i+3}\), the component \(b'(U_i)_j\) is the pairing of \(w_i^+\) with \(w_j^{-'}\). That pairing is \(0\) for every \(j\) when \(i\in\{0,4\}\), and it equals \(1\) at the two positions below.
+
+\[
+\begin{aligned}
+U_0&=(\mathrm{dual}(e_2\wedge e_3),0)\in\ker b',\\
+U_4&=(\mathrm{dual}(e_1\wedge e_2),0)\in\ker b',\\
+b'(U_1)_4&=1,\qquad U_1=(\mathrm{dual}(e_3\wedge e_4),0),\\
+b'(U_3)_0&=1,\qquad U_3=(\mathrm{dual}(e_0\wedge e_1),0).
+\end{aligned}
+\]
+
+The claim \(b'(U_0)_0=1\) is false and is withdrawn. The two evaluations \(b'(U_1)_4=1\) and \(b'(U_3)_0=1\) are the counterexamples. The conclusion is unchanged: build \(\gamma'\) in \((\Lambda^2 V^*)^2\), and build a basis of \(\ker b'\) by elimination on the \(5\times 20\) matrix of \(b'\).
+
+Sources for the withdrawn claim and the two counterexamples: pull request 78, comments 6131776264 and 6131777532.
 
 A later runner performs all four of the following steps over \(\mathbb{F}_3\), and does not skip any of them by quoting §4.
 
@@ -336,24 +349,73 @@ identity: 4 = 3 + 1 < 8
 
 Any other triple fails the run. An oracle that cannot return a drop below \(8\) fails this control.
 
-### 5.4 OPEN: rational positive control
+### 5.4 Synthetic checker control
 
-The review threads of pull requests 76, 78, and 1 were searched for a previously agreed rational positive-control specification.
+This control tests the polynomial certificate checker. It does not test the rank identity of §4. It requires no rational search and no rational reconstruction. A pass is not an authentic certificate for the pinned maps over \(\mathbb{Q}\), and it does not close the fiber-rank gate of §7. The fixture label is `synthetic-ab-x0`. A receipt that uses any other label for these matrices, or that calls them an authentic \(\mathbb{Q}\) certificate, a Horrocks–Mumford witness, or a rank certificate, fails the run. The square sharpness example \(A=x_0 I_5\) in §2.1 is a different matrix and is not this fixture.
 
-Comment 6131056066 on pull request 76 contains this sentence, quoted verbatim:
+The sentence “QQ should pass by HM” is not a specification and is not this control.
 
-> Controls. QQ is the positive control and should pass by HM.
+Shapes match the primary certificate: \(A\) is \(5\times 15\) and \(B\) is \(15\times 5\). Entries lie in \(\mathbb{Z}[x_0]\). Rows and columns are indexed from \(0\).
 
-No comment on those three pull requests states a fixture, an identity, a point, or a report format that would make the sentence a reproducible control. Later comments require the design to name rational controls (pull request 1, comments 6131093028, 6131123879, 6131172540; pull request 76, comment 6131159311; pull request 1, comment 6131221289) and ask that the agreed specification be restored (pull request 78, comment 6131521254). This document does not invent the missing text, and it does not adopt a Gröbner saturation over \(\mathbb{Q}\) in its place.
+Direct encoding, used by the polynomial certificate checker:
 
-**OPEN.** Reviewers are asked to restate the rational positive-control specification. Until that restatement, this job contains no rational positive control.
+\[
+A_{p,q}=\begin{cases}
+x_0 & \text{if }0\le q\le 4\text{ and }p=q,\\
+0 & \text{otherwise,}
+\end{cases}
+\qquad
+B_{r,c}=\begin{cases}
+1 & \text{if }0\le r\le 4\text{ and }r=c,\\
+0 & \text{otherwise.}
+\end{cases}
+\]
 
-Two activities are distinct, and neither is counted inside the \(\mathbb{F}_3\) time budget of §6.
+In blocks, \(A=[x_0 I_5\mid 0]\) with the zero block of shape \(5\times 10\), and \(B\) is \(I_5\) in rows \(0\) through \(4\) with zeros in rows \(5\) through \(14\). The identity is
 
-- (a) Replay of a fixed known positive fixture. This list does not forbid it. It is not authorized until the OPEN item is restated, because no fixture is on record.
-- (b) Launching a fresh rational search. This is not part of this job unless a later review releases it separately.
+\[
+AB=x_0 I_5.
+\]
 
-The out-of-scope list in §6 must be read with this distinction. It does not silently forbid (a), and it does not authorize (b).
+Grading-builder encoding. This placement is required when the same fixture is exercised through the authentic \(\tau\)-grading builder of the search-policy section. Column \(a\)'s factor \(x_0\) is placed at row \(t\equiv -a\pmod{5}\), instead of on the diagonal, and \(B\) receives the matching embedding:
+
+\[
+A_{p,q}=\begin{cases}
+x_0 & \text{if }0\le q\le 4\text{ and }p\equiv -q\pmod{5},\\
+0 & \text{otherwise,}
+\end{cases}
+\qquad
+B_{r,c}=\begin{cases}
+1 & \text{if }0\le c\le 4\text{ and }r\equiv -c\pmod{5},\\
+0 & \text{otherwise.}
+\end{cases}
+\]
+
+The rows occupied by columns \(0,1,2,3,4\) are \(0,4,3,2,1\). The product is again \(x_0 I_5\). For \(a\not\equiv 0\pmod{5}\), a builder that leaves column \(a\)'s \(x_0\) on the diagonal is not this encoding. The label remains `synthetic-ab-x0`. A pass of this encoding is not an authentic \(\mathbb{Q}\) certificate.
+
+Tests of the direct encoding. All three are mandatory.
+
+1. Over \(\mathbb{Q}\), multiply \(A\) by \(B\) and require entrywise equality with \(x_0 I_5\). The arithmetic is exact on the integer coefficients.
+2. Over \(\mathbb{F}_3\), reduce those same integer coefficients modulo \(3\) and require the same entrywise equality in \(\mathbb{F}_3[x_0]\).
+3. Rejection. Replace the nonzero coefficient \(A_{0,0}=x_0\) by \(2x_0\). Leave every other entry of \(A\) and every entry of \(B\) as in the positive fixture. The \((0,0)\) entry of the product is \(2x_0\). Over \(\mathbb{Q}\), \(2x_0\neq x_0\). Over \(\mathbb{F}_3\), \(2\not\equiv 1\). The checker must reject the mutated pair on both fields. A checker that accepts it fails the control.
+
+Column \(0\) sits at row \(0\) in both encodings, because \(-0\equiv 0\pmod{5}\). When the grading-builder path runs, it repeats the same three tests on its own matrices, with the same mutated coefficient \(A_{0,0}=2x_0\).
+
+Required report for the direct encoding:
+
+```
+control: synthetic-ab-x0
+encoding: direct
+field_QQ: pass
+field_F3: pass
+mutant_coefficient: A[0,0] = 2 x0
+mutant_rejected: yes
+authentic_QQ_certificate: no
+```
+
+When the grading-builder path runs, the same report is emitted with `encoding: grading-builder`. Any other product, any accepted mutant, or a report that sets `authentic_QQ_certificate` to yes, fails the run.
+
+Source: pull request 78, comment 6131776264. The exact encoding and the three tests are part of this bounded contract.
 
 ## Search policy and algebraic reuse
 
@@ -369,19 +431,49 @@ Only \(B_0\) is searched. It is a \(15\times 5\) matrix of homogeneous forms of 
 G(v)^{\mathsf T} B_0(v)=v_0^{N} I_5.
 \]
 
-Let \(\sigma\) cycle the five coordinates by \(\sigma(v_0,\ldots,v_4)=(v_1,\ldots,v_4,v_0)\), let \(C\) be the same cycle on the five source columns, and let \(R\) cycle rows separately inside each of the three blocks of five. Set
+Define \(\sigma\) on the basis by \(\sigma(e_j)=e_{j+1}\), indices modulo \(5\). On coordinate tuples that action is the right cyclic shift
+
+\[
+\sigma(v_0,\ldots,v_4)=(v_4,v_0,v_1,v_2,v_3).
+\]
+
+The tuple \((v_1,\ldots,v_4,v_0)\) is \(\sigma^{-1}\) and is not the definition of \(\sigma\). Define \(C\) and \(R\) by the same \(+1\) shift of basis labels. \(C\) sends source basis vector \(j\) to source basis vector \(j+1\). \(R\) acts separately inside each of the three blocks of five and sends the basis vector of index \(j\) in that block to the basis vector of index \(j+1\). Consequently
+
+\[
+\sigma^{-i}v=(v_i,v_{i+1},v_{i+2},v_{i+3},v_{i+4}).
+\]
+
+Set
 
 \[
 B_i(v)=R^{i} B_0(\sigma^{-i}v)\,C^{-i}.
 \]
 
-Entrywise, indices modulo \(5\),
+The entrywise formula is unchanged. Indices are modulo \(5\):
 
 \[
 B_i[5b+t,\,a](v)=B_0[5b+(t-i),\,a-i](v_i,v_{i+1},v_{i+2},v_{i+3},v_{i+4}).
 \]
 
-Then \(G(v)^{\mathsf T} B_i(v)=v_i^{N} I_5\). The four matrices \(B_1,\ldots,B_4\) are this cyclic index shift. They are not searched. Each of the five identities, including the identity for \(B_0\), is replayed by exact multiplication against the authenticated \(G\). Transport does not replace those five multiplications.
+The two displays agree. The argument of \(B_0\) is \(\sigma^{-i}v\), and \(R^{i}(\,\cdot\,)C^{-i}\) carries the entry at row \(t-i\), column \(a-i\) to row \(t\), column \(a\).
+
+Covariance, and every transported product, must be checked. For each \(i=0,\ldots,4\),
+
+\[
+G(v)=R^{i} G(\sigma^{-i}v)\,C^{-i}.
+\]
+
+\(R\) and \(C\) are permutation matrices, so \(C^{-1}=C^{\mathsf T}\) and \((C^{-i})^{\mathsf T}=C^{i}\). A pass of the covariance identity, together with \(G(w)^{\mathsf T} B_0(w)=w_0^{N} I_5\) at \(w=\sigma^{-i}v\), yields
+
+\[
+G(v)^{\mathsf T} B_i(v)=C^{i}\bigl(G(w)^{\mathsf T} B_0(w)\bigr)C^{-i}=w_0^{N} I_5=v_i^{N} I_5,
+\]
+
+because the zeroth coordinate of \(\sigma^{-i}v\) is \(v_i\).
+
+The four matrices \(B_1,\ldots,B_4\) are this cyclic index shift. They are not searched. Covariance is replayed as a precondition on the authenticated \(G\). Each of the five products, including the product for \(B_0\), is then replayed by exact multiplication against that \(G\) and against its own named right-hand side \(v_i^{N} I_5\). A match to some other \(v_j^{N} I_5\), or a match only as a set of five right-hand sides, fails. Transport does not replace those five multiplications.
+
+Sources for the shift: pull request 78, comments 6131776264 and 6131777532.
 
 The search count is five columns of \(B_0\). Without the transport there would be \(25\) chart-column problems, five charts times five columns. The count is not \(15\). This job does not budget the \(25\)-problem search, and it does not budget a separate \(8\times 15\) chart reduction for \(\varphi_1\).
 
@@ -411,14 +503,26 @@ x_0>x_1>x_2>x_3>x_4
 
 Pivot rule, fixed: at each step, among columns that still contain a nonzero in the remaining rows, take the least column index; among nonzero entries in that column, take the least row index. Scale that pivot to \(1\) in \(\mathrm{GF}(3)\) (the inverse of \(2\) is \(2\)). Eliminate. The rule does not use a Markowitz score.
 
+Free variables are set to \(0\). After the pivots above, every unknown that was not selected as a pivot is assigned \(0\) in \(\mathrm{GF}(3)\), and back-substitution determines the pivot unknowns. The recorded column is that particular solution. No other particular solution is emitted.
+
+The exact dual is recovered from the same elimination. The process stores the accumulated left multiplier \(E\in\mathrm{GL}_t(\mathrm{GF}(3))\), initially \(I_t\), and updates \(E\) by each row operation applied to the augmented block. On inconsistency, some row of \(E[A\mid b]\) equals \((0\mid c)\) with \(c\neq 0\). That row of \(E\), scaled by \(c^{-1}\) in \(\mathrm{GF}(3)\), is the dual column \(y\), and the scaling enforces \(y^{\mathsf T} b=1\). The certificate check is exact multiplication: \(y^{\mathsf T} A=0\) and \(y^{\mathsf T} b\neq 0\).
+
+A nonzero coefficient whose \(\tau\)-label is not the label of the block being solved is a failed assertion. The process exits \(1\). The coefficient is not dropped, and the solve does not continue on the block with that coefficient removed.
+
 Failure:
 
-- If the block is inconsistent, emit a dual column \(y\) produced by the same elimination, scaled so that \(y^{\mathsf T} b=1\). The certificate check is exact multiplication: \(y^{\mathsf T} A=0\) and \(y^{\mathsf T} b\neq 0\). That dual excludes the column at the exponent where it was found and, by multiplication by a power of \(v_0\), at every smaller exponent. It does not exclude a larger exponent, it does not exclude another column, and it does not supply a geometric bad point. On the ladder the process records the dual and continues at the next exponent for that column. Exit \(3\) is used only when a dual at the cap \(N=7\) leaves no common witness at any exponent \(\le 7\).
+- If the block is inconsistent, emit the dual column \(y\) recovered above. That dual excludes the column at the exponent where it was found and, by multiplication by a power of \(v_0\), at every smaller exponent. It does not exclude a larger exponent, it does not exclude another column, and it does not supply a geometric bad point. On the ladder the process records the dual and continues at the next exponent for that column. Exit \(3\) is used only when a dual at the cap \(N=7\) leaves no common witness at any exponent \(\le 7\).
 - If a proposed cap in §6 is hit before the elimination finishes, the status is `inconclusive` and the process exits \(2\). No dual is emitted on a cap, and a cap is not a bounded-degree negative.
 
 ### Fill-in
 
-Cancellation over a finite field defeats a pattern-only prediction of fill-in. The contract therefore uses the dense ceiling of the augmented block: \(t\times(3s+1)\) entries. At \(N=7\) that ceiling is \(330\times 631=208230\) entries of \(\mathrm{GF}(3)\) per block, for any pivot order, including the order fixed above. The working set of the solve is one augmented block at a time. Public context for why a sparsity pattern is not the bound: Bouillaguet–Zimmermann, parallel structured Gaussian elimination, and Dumas–Villard, sparse rank over \(\mathrm{GF}(p)\). The ceiling above is the bound this contract uses.
+Cancellation over a finite field defeats a pattern-only prediction of fill-in. The contract therefore uses the dense ceiling of the augmented block: \(t\times(3s+1)\) entries. At \(N=7\) that ceiling is \(330\times 631=208230\) entries of \(\mathrm{GF}(3)\) per block, for any pivot order, including the order fixed above. The solve holds one augmented block at a time. Public context for why a sparsity pattern is not the bound: Bouillaguet–Zimmermann, parallel structured Gaussian elimination, and Dumas–Villard, sparse rank over \(\mathrm{GF}(p)\). The \(208230\)-entry figure is the ceiling of that one augmented block. It is not the whole working set.
+
+The ceiling excludes dual row-operation tracking, monomial indexes, and runtime overhead. Representation is fixed as follows. A coefficient of \(\mathrm{GF}(3)\) is one byte in \(\{0,1,2\}\), the encoding of §6.2. The augmented block is one dense row-major array of \(t(3s+1)\) such bytes: \(208230\) entries at \(N=7\). Dual row-operation tracking is the left multiplier \(E\) of the solver section, a second dense array of shape \(t\times t\) in the same one-byte encoding. At \(N=7\), \(t=330\) and \(t^2=108900\), so \(E\) holds up to \(108900\) coefficients. \(E\) is a working array of the solve. It is not a retained artifact and it is not added to the byte ledger of §6.2. Monomials are addressed by the grevlex rank fixed in the solver section. Exponent vectors are not stored beside the block. An explicit monomial index, if a later runner builds one, lies outside the \(208230\) count. Runtime overhead, including allocator state and the one replay product in hand, likewise lies outside that count.
+
+The enforceable bounds on the augmented block, on \(E\), on any monomial index, and on runtime overhead are the whole-process controls of §6.3: wall-clock time \(600\) seconds and resident set \(1\) GiB, measured on the process. Crossing either limit is exit \(2\).
+
+Source for the exclusion and the representation: pull request 78, comment 6131776264.
 
 ### Certified columns and the degree schedule
 
@@ -430,7 +534,9 @@ Cancellation over a finite field defeats a pattern-only prediction of fill-in. T
 
 4. The degree schedule is the increasing ladder \(N=1,2,3,4,5,6,7\), inside the degree proposal of §6. Finding any witness does not use a binary search for the minimal exponent. Binary refinement is used only if a minimum-degree claim is itself required, which this job does not require.
 
-Dense Gaussian elimination on one augmented block costs on the order of \(\min(t,3s)^2\cdot\max(t,3s)/2\) field operations. Five blocks, summed over the ladder, come to about \(2.23\times 10^8\) field operations if every block is factored at every degree. The doubling schedule \(N=1,2,4\) and then the cap \(N=7\), which is the doubling schedule that stays inside the cap, comes to about \(1.73\times 10^8\) field operations on the same model. Those two totals are the same order of magnitude: doubling has no constant-factor advantage. The ladder is the schedule because a column that certifies at a small \(n\) is lifted rather than refactored, and a dual at \(N\) is available before the next degree is built. A timeout or a cap remains `inconclusive`, not empty, and not a geometric bad point.
+Dense Gaussian elimination on one augmented block costs on the order of \(\min(t,3s)^2\cdot\max(t,3s)/2\) field operations. Five blocks, summed over the ladder, come to about \(2.23\times 10^8\) field operations if every block is factored at every degree. The doubling schedule \(N=1,2,4\) and then the cap \(N=7\), which is the doubling schedule that stays inside the cap, comes to about \(1.73\times 10^8\) field operations on the same model. This estimate is about \(1.29\times\) smaller for the displayed doubling schedule, while certified-column reuse means it need not be better in an actual run. No new cost experiment is part of this contract. The ladder is the schedule because a column that certifies at a small \(n\) is lifted rather than refactored, and a dual at \(N\) is available before the next degree is built. A timeout or a cap remains `inconclusive`, not empty, and not a geometric bad point.
+
+Source for the wording of the comparison: pull request 78, comment 6131776264.
 
 The primary graded test and its exact dual are the only oracles that may emit a bounded-degree negative. A minor-membership computation is not this schedule.
 
@@ -446,7 +552,7 @@ Each searched entry of \(B_0\) is homogeneous of degree \(N-1\), and the schedul
 
 ### 6.2 Byte proposal, drawn from the unallocated \(294117\) bytes
 
-Pull request 78, comment 6131521254, records the ledger figure used here: \(294117\) bytes were unallocated, and the protected failure reserve stays untouched. Every line below is drawn from those \(294117\) bytes. Nothing is drawn from the reserve. Bytes not listed stay unallocated. A line that would overflow is a cap hit: exit \(2\), with no transfer from the reserve.
+Pull request 78, comment 6131521254, records the ledger figure used here: \(294117\) bytes were unallocated, and the protected failure reserve stays untouched. Every line of the checked table is drawn from those \(294117\) bytes. Nothing is drawn from the reserve. A line that would overflow that pool is a cap hit: exit \(2\), with no transfer from the reserve. The remainder after the checked table is the only pool for the source, header, manifest, and zero-write account that follows it.
 
 The reference encoding of a \(\mathrm{GF}(3)\) coefficient is one byte in \(\{0,1,2\}\). Monomials are implicit in the grevlex order of the search-policy section and are not stored. Artifact caps below are byte caps on that encoding.
 
@@ -465,45 +571,63 @@ The reference encoding of a \(\mathrm{GF}(3)\) coefficient is one byte in \(\{0,
 
 The products of the five replays are \(25\cdot t\) coefficients each (\(8250\) coefficients at \(N=7\)). Readers recompute them by multiplication. They are not stored. The transported matrices \(B_1,\ldots,B_4\) are the cyclic index shift of \(B_0\). They are not stored. A column certified at exponent \(n<7\) is stored at degree \(n-1\); the byte line above is the cap, which is the \(N=7\) size.
 
+The checked figures in the table stay as written: the pinned inputs are \(11565\) and \(9115\) bytes, the listed total is \(81600\), and the remainder from the \(294117\) unallocated pool is \(212517\). Those lines are not recomputed here.
+
+The \(212517\) bytes are the only pool for the categories omitted from the table. They are not drawn from the protected failure reserve, and they do not increase the checked total \(81600\).
+
+| Item | Treatment | Bytes |
+|---|---|---|
+| Runner source | measured file size, drawn from the \(212517\) | measured |
+| Verifier source | measured file size, drawn from the \(212517\) | measured |
+| Test source | measured file size, drawn from the \(212517\) | measured |
+| Headers and manifests | measured file size, drawn from the \(212517\) | measured |
+| Temporary files | zero-write: not retained in the artifact store | \(0\) |
+| Cache files | zero-write: not retained in the artifact store | \(0\) |
+
+Zero-write means the process does not keep temporary or cache files. Each of those two lines is present, at charge \(0\), so the category is not omitted. A temporary or cache file that is retained fails the zero-write rule and the run exits \(1\). Its measured size is still drawn from the \(212517\), so a retained file is not an uncounted write. The sum of the measured source, header, and manifest sizes, together with any such retained bytes, must be at most \(212517\). A larger sum is a cap hit: exit \(2\), with no transfer from the reserve. Bytes of the \(212517\) that these lines do not consume stay unallocated.
+
+Source for the checked figures and for this remainder account: pull request 78, comment 6131776264.
+
 ### 6.3 Memory and wall-clock proposals
 
-Both limits cover construction of the pinned matrices, the controls in §5.1–§5.3, the graded solves, and all five replay multiplications. They do not cover §5.4 (a) or §5.4 (b). Those two activities are outside this clock and outside this resident-set account.
+Both limits cover construction of the pinned matrices, the controls in §5.1–§5.4, the graded solves, and all five replay multiplications. The synthetic checker control of §5.4 is inside this clock and inside this resident-set account. A fresh rational search is outside both.
 
 | Proposal | Limit |
 |---|---|
 | Whole-job wall-clock time | \(600\) seconds |
 | Resident set | \(1\) GiB |
 
-The solve holds one augmented block. Its dense ceiling at \(N=7\) is \(208230\) entries (search-policy section). That working set, and the five replay products computed one at a time, sit inside the \(1\) GiB proposal. There is no separate per-chart clock.
+The solve holds one augmented block at a time. Its dense ceiling at \(N=7\) is \(208230\) entries, which excludes the dual tracker of up to \(108900\) coefficients, monomial indexes, and runtime overhead (search-policy section). Those arrays, that overhead, and the five replay products computed one at a time sit inside the \(1\) GiB proposal. The \(600\)-second limit and the \(1\) GiB limit are whole-process controls: both are measured on the process, and crossing either one is exit \(2\). There is no separate per-chart clock.
 
 Hitting either limit, including a timeout, yields status `inconclusive`. That status is not a zero, not a non-membership, and not a nonempty locus. The process must not exit \(0\) on a cap.
 
 Exits, still proposals:
 
-- \(0\) only when the compositions of §1.3, the controls of §5.1–§5.3, and a multiplied positive certificate all hold;
+- \(0\) only when the compositions of §1.3, the controls of §5.1–§5.4, and a multiplied positive certificate all hold;
 - \(1\) on a failed assertion, including a failed control;
 - \(2\) on inconclusive (cap, timeout, or an elimination that did not finish);
 - \(3\) when a completed exact dual at the degree cap is recorded. That exit is a bounded-degree negative. It is not exit \(0\) and it is not exit \(2\). It makes no geometric claim. See §7.
 
 ### 6.4 Out of scope
 
-In scope for a later launch, if one is separately released, is only: the composition identities of §1.3, the controls of §5.1–§5.3, the graded solve in the search-policy section, and the five replay multiplications.
+In scope for a later launch, if one is separately released, is only: the composition identities of §1.3, the controls of §5.1–§5.4, the graded solve in the search-policy section, and the five replay multiplications. The control in §5.4 is the synthetic checker fixture `synthetic-ab-x0`.
 
 Out of scope for this job:
 
 - a \(\mathbb{Z}\)-saturation;
 - an integral bad-prime diagnostic;
 - a reduction modulo any prime other than the coefficient prime \(3\);
-- a fresh rational search, which is §5.4 (b);
-- a rational reconstruction used as a search, which is the same activity as §5.4 (b).
+- a fresh rational search;
+- a rational reconstruction used as a search;
+- reading a pass of `synthetic-ab-x0` as an authentic certificate over \(\mathbb{Q}\).
 
-§5.4 (a), replay of a fixed known positive fixture, is not on this out-of-scope list. It is also not counted in the wall-clock proposal above. It stays unauthorized until reviewers restate the OPEN item, because no fixture is specified. Silence in this list does not forbid that replay and does not release a fresh rational search.
+The synthetic replay of §5.4 is inside the wall-clock and resident-set proposals above. A fresh rational search is not, and the fixture does not release one.
 
 ## 7. What success means
 
 Success is a future run, not this document. It means all of the following, and nothing further.
 
-A degree-cap negative, including a completed exact dual at the proposed cap \(N=7\), supplies no geometric bad point. A timeout or any other cap hit supplies none either. Only an exact positive witness closes the fiber-rank gate: the five multiplied identities \(G^{\mathsf T} B_i=x_i^{N_i} I_5\), or a minor-membership certificate that has actually been multiplied, including the adjugate matrix of §2.1. A minor-membership negative does not close the gate and does not refute the matrix witness.
+A degree-cap negative, including a completed exact dual at the proposed cap \(N=7\), supplies no geometric bad point. A timeout or any other cap hit supplies none either. Only an exact positive witness closes the fiber-rank gate: the five multiplied identities \(G^{\mathsf T} B_i=x_i^{N_i} I_5\), or a minor-membership certificate that has actually been multiplied, including the adjugate matrix of §2.1. A minor-membership negative does not close the gate and does not refute the matrix witness. A pass of the synthetic fixture `synthetic-ab-x0` in §5.4 does not close the gate.
 
 Over an algebraic closure of \(\mathbb{F}_3\), the authentic pinned maps have fiber ranks \((5,8,2)\) at every \(v\neq 0\), read from a multiplied rank-\(5\) certificate for \(\varphi_0\), the identity of §4, and the evaluation matrix of \(\varphi_2\).
 
@@ -520,18 +644,21 @@ Success does not transfer a characteristic-\(0\) ambient obstruction. It does no
 | Pinned-map drift | A witness for a different complex is reported as a certificate for \(C\). | Rebuild \(\varphi_0,\varphi_1,\varphi_2\) from §1.2 and compare the sparse term list with blob `fa5231de92b61143e3406111d4af028284db6d55` before any search. | Abort on the first differing term. Do not search. |
 | Basis drift against `fa5231de` | A correct multiplier for a permuted \(U,V,Z\) order or a flipped \(\varepsilon\) is accepted. | Entrywise match to the sign formula and the row order in §1.2, not merely vanishing of the two compositions. | Compositions are necessary and not sufficient. Fail closed on any basis mismatch with the blob. |
 | Vacuous identity oracle | A checker that never sees a rank drop prints \(\mathrm{rank}\,\varphi_1=8\) for the authentic maps without testing the identity. | The pointwise control of §5.3 returns \(\mathrm{rank}\,\gamma'(p_*)=1\) and restricted-contraction rank \(4\), with \(4=3+1<8\), from an independently built \(\ker b'\). | The control is mandatory, ambient, and pointwise at \(p_*\). It is not a second complex. An oracle that only accepts \((5,8)\) fails. |
-| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | \(b'(U_0)_0=1\), so \(U_0\notin\ker b'\). | Build \(\gamma'\) in \((\Lambda^2 V^*)^2\) and build the kernel by elimination on the \(5\times 20\) matrix of \(b'\). |
+| Authentic \(U,V,Z\) basis used for \(\ker b'\) | The paired control is evaluated in the wrong \(15\)-plane. | \(U_0=(\mathrm{dual}(e_2\wedge e_3),0)\) and \(U_4=(\mathrm{dual}(e_1\wedge e_2),0)\) lie in \(\ker b'\), while \(b'(U_1)_4=1\) for \(U_1=(\mathrm{dual}(e_3\wedge e_4),0)\) and \(b'(U_3)_0=1\) for \(U_3=(\mathrm{dual}(e_0\wedge e_1),0)\). | Build \(\gamma'\) in \((\Lambda^2 V^*)^2\) and build the kernel by elimination on the \(5\times 20\) matrix of \(b'\). The authentic list is not reused. |
+| Mislabelled cyclic transport | A left shift is accepted because the five chart identities are a permutation of each other. | Covariance \(G(v)=R^{i} G(\sigma^{-i}v)\,C^{-i}\) fails for some \(i\), or a replay matches a right-hand side other than the named \(v_i^{N} I_5\). | Use \(\sigma(e_j)=e_{j+1}\). Replay covariance, then each of the five products against its own \(v_i^{N} I_5\). Transport does not replace the multiplications. |
+| Nonzero free variable in a recorded column | A later lift differs from the column the elimination selected. | A stored unknown that was not a pivot is nonzero. | Set every free variable to \(0\) before back-substitution. Emit only that particular solution. |
+| Cross-grade coefficient dropped | A block is solved after a term from another \(\tau\)-label has been discarded. | A nonzero coefficient whose label is not the block label is absent from the failure log. | Exit \(1\). Do not drop the coefficient. |
 | Degree-capped minor-membership negative read as a matrix-witness negative | A false fiber-rank kill. | The only negative on record has certificate type `minor-membership`. | Tag every receipt `matrix-column`, `minor-membership`, or `dual`. Only the primary graded test and its exact dual may emit a bounded-degree negative. A minor positive at exponent \(e\), once the adjugate matrix is multiplied, is a matrix positive at \(N=e\). |
 | `assert` stripped by `PYTHONOPTIMIZE` | A later Python runner loses its predicates under `python -O` or `PYTHONOPTIMIZE` set, and exits \(0\). | Launch refuses to start unless `sys.flags.optimize==0` and `PYTHONOPTIMIZE` is unset. | Certificate predicates raise. Bare `assert` is not on the proof path. This document has no runner; the row binds any later one. |
 | Claim inflation to \(\mathrm{End}(H)/O_2\) | Fiber ranks are reported as an \(\mathrm{End}(H)\) calculation, as \(\mathrm{Ext}\) groups before the resolution hypothesis, or as an obstruction value \(O_2\). | The result banner is restricted to the sentences in §7. A file that states an obstruction value, a characteristic-\(0\) transfer, or choice independence is a failed run. | The conditional identification with \(\mathrm{Ext}^*(H,H(-2))\) is allowed only after the resolution statement, and it is not an obstruction computation. |
 | Assemble before every column is at the same \(N\) | A partial maximum is published as a common chart witness. | The assembly log lists a column that is not certified or lifted to that \(N\). | Assemble only after all five columns of \(B_0\) are certified or lifted to the same \(N\). Without transport the count would be \(25\) chart-column problems; that search is not this job, and the count is not \(15\). |
 | Re-solve of a certified column | Wasted cost, and a risk of basis drift against the stored column. | A column index that already has a stored \((b_j,n)\) is submitted to a new solve. | Refuse the re-solve. Store \((b_j,n)\) and lift by \(v_0^{N-n}\). |
 | Dual kill read across columns | An inconsistent dual for one right-hand side aborts certified columns of other indices. | The dual log does not name a single column index. | Dual kill is per right-hand side. The log names the column index. |
-| Degree doubling without a cost model | A timeout or a cap is read as emptiness. | The degree schedule has no operation-count comparison. | The search-policy section fixes the ladder \(N=1,\ldots,7\) and compares it with doubling in dense-elimination field operations. A cap remains `inconclusive`. |
+| Degree doubling without a cost model | A timeout or a cap is read as emptiness. | The degree schedule has no operation-count comparison. | The search-policy section fixes the ladder \(N=1,\ldots,7\). The displayed doubling estimate is about \(1.29\times\) smaller and need not be better once certified columns are reused. A cap remains `inconclusive`. No new cost experiment. |
 | Independent-chart search, or a separate \(\varphi_1\) chart reduction, run inside this job | A second search path spends the proposals of §6. | The log lists more than the five columns of \(B_0\), or an \(8\times 15\) reduction. | Refuse. This job searches five blocks of \(B_0\), transports, and replays five multiplications. |
 
 ## 9. Stop
 
 This pull request is the design. Witness construction does not start here. The \(B_i\) are not built. No Gröbner basis, Macaulay2 session, or other computer-algebra search is part of the deliverable.
 
-Review is requested on the pointwise paired control, the module \(M\) without a slash quotient, the exponent comparison of the two certificate forms, the amended search policy, the resource proposals, and the OPEN rational-control item in §5.4. Stop after that review request. Witness construction remains unstarted. The proposals in §6 do not release a launch.
+Review is requested on the pointwise paired control, the module \(M\) without a slash quotient, the exponent comparison of the two certificate forms, the amended search policy, the resource proposals, and the synthetic checker control in §5.4. Stop after that review request. Witness construction remains unstarted. The proposals in §6 do not release a launch.
