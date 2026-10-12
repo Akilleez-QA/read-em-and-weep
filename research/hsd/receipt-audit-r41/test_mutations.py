@@ -10,6 +10,7 @@ package verifier.
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 import shutil
 import subprocess
@@ -17,16 +18,26 @@ import sys
 import tempfile
 from pathlib import Path
 
-from decode_component import (
-    EXPECTED_ROW_HASH,
-    DecodeError,
-    canonical_json,
-    coords_last_fastest,
-    iter_trits,
-    logical_exponent,
-    residue_code,
-    row_line,
-)
+
+def load_decoder():
+    path = Path(__file__).resolve().parent / "decode_component.py"
+    spec = importlib.util.spec_from_file_location("hsd_decode_component", path)
+    if spec is None or spec.loader is None:
+        raise RuntimeError("cannot load decode_component.py")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+decoder_mod = load_decoder()
+EXPECTED_ROW_HASH = decoder_mod.EXPECTED_ROW_HASH
+DecodeError = decoder_mod.DecodeError
+canonical_json = decoder_mod.canonical_json
+coords_last_fastest = decoder_mod.coords_last_fastest
+iter_trits = decoder_mod.iter_trits
+logical_exponent = decoder_mod.logical_exponent
+residue_code = decoder_mod.residue_code
+row_line = decoder_mod.row_line
 
 
 HERE = Path(__file__).resolve().parent
