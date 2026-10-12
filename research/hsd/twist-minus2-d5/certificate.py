@@ -1085,6 +1085,11 @@ def find_source() -> Path:
 
 
 def main() -> None:
+    if not __debug__:
+        raise SystemExit(
+            "certificate refuses to run under -O / PYTHONOPTIMIZE "
+            "because its proof checks are asserts"
+        )
     self_tests()
     source = find_source()
     blob = git_blob_sha1(source)

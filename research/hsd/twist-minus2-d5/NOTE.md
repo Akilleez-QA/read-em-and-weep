@@ -95,3 +95,5 @@ python3 research/hsd/twist-minus2-d5/certificate.py
 ```
 
 The program uses only the Python standard library and exact integers. It prints one JSON object and exits \(0\) only if the asserted ranks, Smith factors, \(5340\)-term checks for each contraction policy, vertex-policy agreement, cocycle membership, and negative controls all hold.
+
+Python optimized mode (`-O`, `-OO`, or `PYTHONOPTIMIZE`) strips `assert` statements. The proof checks of this certificate are asserts, so `main` refuses to run unless `__debug__` is true: the guard raises `SystemExit` before any computation or output. A refusal at entry tests that guard only. It does not exercise the downstream mutation and negative-control oracle. Paired degenerate controls must still pass the rank identity, and unpaired mutations must still fail their full-rank checks, in non-optimized runs.
