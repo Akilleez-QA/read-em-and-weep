@@ -17,20 +17,27 @@ EMPTY_DEFECT_BRANCH = "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
 REPO = "Akilleez-QA/read-em-and-weep"
 
 MISSING_MAP = (
-    "A homomorphism of presented modules phi: C|U -> E|U, "
-    "or a structured finite-jet certificate of that same homomorphism, "
-    "on a common affine chart of an open U in P^1 x P^3 with D contained in U "
-    "and with every irreducible component of the complement of codimension at least 2. "
-    "No such matrix is in the pinned commits. "
-    "The zero-section pullback is presented below on Spec Q[z,x,y,h], "
-    "and its section v=E0 pairs to 0 rather than +t0 h. "
-    "The local correction v+q(t0 h) matches the pairing on each trivializing open "
-    "and is not exported as one glued map. "
-    "The finite-jet packages on the plane-completion commit realize jets through h^3 "
-    "on the completed plane object and state that they do not identify a carrier. "
-    "order_1.json through order_6.json are deformation-complex maps "
-    "(keys D, Ev, N), not phi. "
-    "The Horrocks-Mumford pullback on C^4 is a different object and is not used."
+    "Chartwise matrices phi_i with entries in Q[z,X,Y,W,h]/(h^3), one on each "
+    "chart of the common cover, valued in the stabilizer of the marked inclusion "
+    "alpha: P -> V. Pointwise means phi_i(v_i)=v'_i for a local generator of P, "
+    "which is stronger than phi(P) contained in P. "
+    "The Lie sheaf of that stabilizer is Sym^2(G) tensor L^{-1}, of rank 6, "
+    "not sp(G). The identities required mod h^3 on every chart and overlap are "
+    "(a) g'_ij = phi_i g_ij phi_j^{-1}, "
+    "(b) phi^T Omega phi = Omega with the line bundles identified exactly, "
+    "(c') phi_i(v_i)=v'_i, "
+    "(d) beta' composed with phi equals beta, "
+    "(e) the torus weight of every entry. "
+    "No such phi_i is in the pinned commits. "
+    "The order-0 frame maps of the plane completion are the identity on the B "
+    "basis, so they fix a generator of P, and they contain no positive power of h. "
+    "The overlap formula I - h A_eta + h^2 (1/2 A_eta^2 - A_kappa) is an operator "
+    "on Hamiltonian cochains. The second-normal note infers its cocycle and form "
+    "preservation from a Lie homomorphism and says that it fixes the isotropic "
+    "line. That inference is not the matrix identity (a) or (b), and fixing the "
+    "line is not (c'). first_jet.json and the certificate primitives are those "
+    "cochains. order_1.json through order_6.json are deformation-complex maps, "
+    "not phi_i. The Horrocks-Mumford pullback on C^4 is not used."
 )
 
 
@@ -118,18 +125,36 @@ def assemble_pins():
             "finite_representative": "z*h",
             "source_commit": FORMAL_CHART,
         },
+        "torus_weights": {
+            "source_commit": FORMAL_CHART,
+            "wt_z_X_Y_W_h": [2, 1, 1, 0, -1],
+            "d_finite_P_E0_E1_E2": [3, 0, 2, 2],
+            "d_infinity_P_E0_E1_E2": [3, 6, 0, 2],
+            "t0_finite": "z",
+            "t0_infinity": "1",
+        },
+        "structure_group": {
+            "V": "symplectic rank-four completion",
+            "G": "P-perpendicular, rank three, radical P",
+            "P": "isotropic line, not a Lagrangian",
+            "lifting_group": "subgroup of Sp(V, Omega) fixing alpha: P -> V pointwise",
+            "lie_sheaf": "Sym^2(G) tensor L^{-1}",
+            "lie_sheaf_rank": 6,
+            "not_the_lie_sheaf": "sp(G)",
+            "form": "strict L-valued equality with fixed line-bundle identifications",
+            "source": "PR #1 comment 6120632461",
+        },
         "proposed_comparison": {
-            "name": "zero-section pullback along Tot(O(0,1)) -> Y",
-            "section": "v = E0 with D-component 0",
-            "formula": (
-                "Omega((p,e,d),(p',e',d')) = Omega_E(e,e') + p d' - d p' "
-                "+ psi(e) d' - d psi(e')"
+            "full_neighborhood": (
+                "not exported; the zero-section pullback pairs to 0 rather than +t0 h"
             ),
-            "finite_jet_alternative": (
-                "order-one through order-three realizations on the completed "
-                "plane object, same commit as the plane-completion lemma; "
-                "each states that it does not identify a carrier"
+            "route": "finite jet over D2 = {h^3 = 0}",
+            "target": "checked plane-completion model",
+            "required_map": (
+                "phi_i in the stabilizer of alpha, entries in Q[...]/(h^3), "
+                "built from transition equations and gauge"
             ),
+            "phi_mod_h3_exported": False,
             "hm_pullback_on_C4": "excluded",
         },
     }
@@ -204,6 +229,51 @@ def omega(p, e, d, p2, e2, d2, psi, F, g, w):
     )
 
 
+def structure_group_counts():
+    """Linear algebra of Stab(alpha) on a 4-dimensional symplectic space.
+
+    This is the corrected structure group. It is not a jet matrix phi_i.
+    """
+    omega = sp.Matrix(
+        [
+            [0, 0, 1, 0],
+            [0, 0, 0, 1],
+            [-1, 0, 0, 0],
+            [0, -1, 0, 0],
+        ]
+    )
+    generator = sp.Matrix([1, 0, 0, 0])
+    isotropic = (generator.T * omega * generator)[0] == 0
+    perpendicular = (generator.T * omega).nullspace()
+    restricted = sp.Matrix(
+        [
+            [(u.T * omega * w)[0] for w in perpendicular]
+            for u in perpendicular
+        ]
+    )
+    radical = restricted.nullspace()
+    entries = sp.Matrix(4, 4, lambda i, j: sp.symbols(f"x{i}{j}"))
+    pointwise = list(entries * generator)
+    infinitesimal = list(entries.T * omega + omega * entries)
+    solved = sp.solve(pointwise + infinitesimal, list(entries))
+    free = [symbol for symbol in list(entries) if symbol not in solved]
+    b = sp.Matrix(4, 1, sp.symbols("b0 b1 b2 b3"))
+    frame = sp.eye(5)
+    frame[:4, 4] = b
+    generator_p = sp.eye(5)[:, 0]
+    return {
+        "line_is_isotropic": bool(isotropic),
+        "perpendicular_rank": len(perpendicular),
+        "radical_of_perpendicular_rank": len(radical),
+        "lagrangian_would_have_rank": 2,
+        "P_is_lagrangian": len(perpendicular) == 2 and len(radical) == 0,
+        "stabilizer_lie_rank": len(free),
+        "sym2_of_rank3_bundle_rank": 6,
+        "order0_frame_fixes_P_generator": frame * generator_p == generator_p,
+        "order0_frame_depends_on_h": "h" in {str(s) for s in frame.free_symbols},
+    }
+
+
 def evaluate_identities():
     """Polynomial checks. Call this only after assemble_pins() has been reported."""
     data = plane_data()
@@ -243,6 +313,7 @@ def evaluate_identities():
             data["psi"], data["F"], data["g"], data["W"] ** 6,
         )
     )
+    structure = structure_group_counts()
     return {
         "tb_ri_equals_z3_r0": difference == sp.Matrix.zeros(4, 1),
         "g_C_plus_z3_W6_equals_S3": gc == 0,
@@ -255,6 +326,7 @@ def evaluate_identities():
         "zero_section_matches_required": sp.expand(zero - z * h) == 0,
         "corrected_local_matches_required": sp.expand(corrected - z * h) == 0,
         "psi_E0_coefficient_in_zero_section": str(zero.coeff(data["psi"][0])),
+        "structure_group": structure,
     }
 
 
@@ -276,10 +348,27 @@ def build_report(pins, identities):
         },
         "gate_2_identification": {
             "status": "failed",
+            "route": "D2 = {h^3 = 0}",
             "actual_isomorphism_exported": False,
-            "finite_jet_certificate_of_that_isomorphism": False,
+            "phi_mod_h3_in_stabilizer_of_alpha": False,
+            "checks": {
+                "a_transition": "not_run",
+                "b_strict_form": "not_run",
+                "c_prime_pointwise_alpha": "not_run",
+                "d_beta": "not_run",
+                "e_weights": "not_run",
+            },
+            "failed_entry": None,
             "zero_section_pairing_equals_required": pairing_matches,
             "missing_map": MISSING_MAP,
+            "deformation_citation": (
+                "Uniqueness of a square-zero lift of an isomorphism is H^0 of the "
+                "tangent sheaf twisted by the kernel (J. Alper, Notes on "
+                "Deformation Theory, UW Math 581J, Fall 2021, Prop. 2.5(1); "
+                "the notes cite Hartshorne, Deformation Theory, Cor. 10.3). "
+                "Applied to the stabilizer sheaf, that uniqueness does not write "
+                "the entries of phi_i."
+            ),
         },
         "stopped": True,
         "scope": (

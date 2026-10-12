@@ -30,7 +30,11 @@ A = Q[z, x, y, h]
 
 of the finite base chart times `W ≠ 0`, with `x=X/W`, `y=Y/W`, and normal coordinate `h=H/W`.
 
-The proposed comparison is the zero-section pullback of the plane completion along `Tot(O(0,1)) → Y`, with section `v=E0` of D-component 0, tested against the required pairing `+t0 h`. The finite-jet packages on the same plane-completion commit are the alternative route. The Horrocks–Mumford pullback on C^4 is a different object and is not a presentation of this extension.
+Torus weights from the formal chart, pinned before the checks: `wt(z,X,Y,W,h)=(2,1,1,0,-1)`, finite frame weights `(P,E0,E1,E2)=(3,0,2,2)`, infinity frame weights `(3,6,0,2)`.
+
+Structure group, from PR #1 comment 6120632461. `V` is the symplectic rank-four completion. `G=P⊥` has rank three and radical `P`. `P` is an isotropic line, not a Lagrangian. The lifting group is the subgroup of `Sp(V,Ω)` that fixes the marked inclusion `α: P→V` pointwise. Its Lie sheaf is `Sym²(G)⊗L⁻¹`, of rank six, not `sp(G)`. Form preservation is strict, with the line bundles identified exactly.
+
+The full-neighborhood comparison is not exported. The route in use is a homogeneous isomorphism over `D₂={h³=0}` to the checked plane-completion model, built from transition equations and gauge. The Horrocks–Mumford pullback on C^4 is a different object and is not a presentation of this extension.
 
 ## Exported cokernel
 
@@ -65,21 +69,31 @@ The zero-section section is `v=E0` with D-component 0, so the pairing is 0. The 
 
 The first-normal, second-normal, and third-normal packages on `fa685b9dd33e1c8a4336f6a8086c56f3ceb3bc3b` realize jets through `h^3` on the completed plane object. Each states that it does not identify a carrier. The formal chart states that a relative carrier presentation, total-space reflexive hull, central reduction, and central hull are not computed. `order_1.json` has keys `D`, `Ev`, and `N` (plus bases and one preimage), which are maps in that deformation complex.
 
+## Structure group, checked as linear algebra
+
+On a 4-dimensional symplectic space the standard line is isotropic, its perpendicular has rank 3, and the radical of the restricted form is that line. A Lagrangian would have rank 2. The Lie algebra of endomorphisms that are infinitesimally symplectic and kill a generator of the line has rank 6, the same rank as `Sym²` of a rank-three bundle. These counts are the corrected stabilizer. They are not a matrix `φ_i`.
+
+The order-0 frame shape exported by the plane-completion refinement is the identity on the `B` basis, with the extra column a shift of `q`. That matrix fixes the generator of `P` and does not depend on `h`. It is not a series modulo `h³`.
+
 ## Missing map
 
-The missing comparison is a homomorphism of presented modules
+The missing comparison on `D₂` is a chartwise matrix `φ_i` with entries in `Q[z,X,Y,W,h]/(h³)`, valued in the stabilizer of `α`. Pointwise fixing means `φ_i(v_i)=v'_i` for a local generator of `P`. The identities that would be checked, each modulo `h³` on every chart and overlap, are:
 
-```
-phi: C|U -> E|U
-```
+- (a) `g'_ij = φ_i g_ij φ_j^{-1}`,
+- (b) `φ^T Ω φ = Ω`, strict,
+- (c′) `φ_i(v_i)=v'_i`,
+- (d) `β'∘φ=β`,
+- (e) the torus weight of every entry.
 
-or a structured finite-jet certificate of that same homomorphism, on a common affine chart of an open `U ⊂ P^1×P^3` such that `D ⊂ U` and every irreducible component of the complement has codimension at least 2. No such matrix is in the pinned commits.
+No such `φ_i` is in the pinned commits, so (a)–(e) are not run and no entry is reported as a failed polynomial. The overlap formula `I - h A_η + h²(½ A_η² - A_κ)` is an operator on Hamiltonian cochains. The second-normal note infers a cocycle and form preservation from a Lie homomorphism, and it says the operators fix `P`. That sentence is line preservation, which is not (c′), and the inference is not the matrix identity (a) or (b).
+
+Square-zero uniqueness does not supply the matrix. Automorphisms of a square-zero deformation of a smooth separated scheme are `H⁰` of the tangent sheaf twisted by the kernel (J. Alper, *Notes on Deformation Theory*, UW Math 581J, Fall 2021, Proposition 2.5(1); the notes cite Hartshorne, *Deformation Theory*, Corollary 10.3). Applied to the stabilizer sheaf, that uniqueness statement still does not write `φ_i`.
 
 ## Gates
 
-Gate 1, reflexivity over a regular ring A: torsion-free and `codim Supp Ext^e(C,A) ≥ e+2` for every `e ≥ 1` (Stacks [31.13.13](https://stacks.math.columbia.edu/tag/0AVT)). Status: not run. The stop rule fires on the missing comparison, so no Ext module was computed and no inequality is reported as failed. Vanishing of `Ext^1(C,A)` and `Ext^2(C,A)` was not used.
+Gate 1, reflexivity over a regular ring A: torsion-free and `codim Supp Ext^e(C,A) ≥ e+2` for every `e ≥ 1` (Stacks [31.13.13](https://stacks.math.columbia.edu/tag/0AVT)). Status: not run. The stop rule fires on the missing `φ_i`, so no Ext module was computed and no inequality is reported as failed. Vanishing of `Ext^1(C,A)` and `Ext^2(C,A)` was not used.
 
-Gate 2, identification: an actual isomorphism `C|U ≅ E` on a common open containing D whose complement has codimension at least 2, together with reflexivity of C, identifies the underlying sheaf with the reflexive extension by Stacks [31.13.12](https://stacks.math.columbia.edu/tag/0EBJ). Status: failed. Naming such a U does not supply `phi`. The zero-section pairing is 0 rather than `+t0 h`.
+Gate 2. The full neighborhood isomorphism is not exported: the zero-section pairing is 0 rather than `+t0 h`, and naming an open does not construct a map. The `D₂` substitute is also not exported. Status: failed, missing `φ_i` in the stabilizer of `α`. Reflexive extension (Stacks [31.13.12](https://stacks.math.columbia.edu/tag/0EBJ)) is not applied.
 
 C stays C. No length is reported.
 

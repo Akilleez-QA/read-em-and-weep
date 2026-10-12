@@ -40,6 +40,11 @@ class TranscriptOrderTest(unittest.TestCase):
         self.assertEqual(pins["central_equation"]["equation"], "t0 = 0")
         self.assertEqual(pins["central_equation"]["finite_representative"], "z")
         self.assertEqual(pins["proposed_comparison"]["hm_pullback_on_C4"], "excluded")
+        self.assertFalse(pins["proposed_comparison"]["phi_mod_h3_exported"])
+        self.assertEqual(pins["structure_group"]["lie_sheaf_rank"], 6)
+        self.assertEqual(pins["structure_group"]["not_the_lie_sheaf"], "sp(G)")
+        self.assertEqual(pins["torus_weights"]["wt_z_X_Y_W_h"], [2, 1, 1, 0, -1])
+        self.assertEqual(pins["proposed_comparison"]["route"], "finite jet over D2 = {h^3 = 0}")
 
 
 class IdentityTest(unittest.TestCase):
@@ -61,6 +66,17 @@ class IdentityTest(unittest.TestCase):
         z, h = sp.symbols("z h")
         self.assertNotEqual(sp.expand(z * h), 0)
 
+    def test_stabilizer_is_rank_six_and_order0_frame_has_no_h(self):
+        structure = audit.structure_group_counts()
+        self.assertTrue(structure["line_is_isotropic"])
+        self.assertEqual(structure["perpendicular_rank"], 3)
+        self.assertEqual(structure["radical_of_perpendicular_rank"], 1)
+        self.assertFalse(structure["P_is_lagrangian"])
+        self.assertEqual(structure["stabilizer_lie_rank"], 6)
+        self.assertEqual(structure["sym2_of_rank3_bundle_rank"], 6)
+        self.assertTrue(structure["order0_frame_fixes_P_generator"])
+        self.assertFalse(structure["order0_frame_depends_on_h"])
+
 
 class StopRuleTest(unittest.TestCase):
     def test_report_stops_without_a_length(self):
@@ -73,7 +89,13 @@ class StopRuleTest(unittest.TestCase):
         self.assertIsNone(report["gate_1_reflexivity"]["failed_inequality"])
         self.assertEqual(report["gate_2_identification"]["status"], "failed")
         self.assertFalse(report["gate_2_identification"]["actual_isomorphism_exported"])
-        self.assertIn("phi: C|U -> E|U", report["gate_2_identification"]["missing_map"])
+        self.assertFalse(report["gate_2_identification"]["phi_mod_h3_in_stabilizer_of_alpha"])
+        self.assertIsNone(report["gate_2_identification"]["failed_entry"])
+        for status in report["gate_2_identification"]["checks"].values():
+            self.assertEqual(status, "not_run")
+        self.assertIn("phi_i(v_i)=v'_i", report["gate_2_identification"]["missing_map"])
+        self.assertIn("Alper", report["gate_2_identification"]["deformation_citation"])
+        self.assertNotIn("Koll", report["gate_2_identification"]["deformation_citation"])
         self.assertIn("Weil-class", report["scope"])
         for key in _walk_keys(report):
             self.assertNotIn("length", key.lower())
@@ -115,6 +137,11 @@ class PinnedBlobTest(unittest.TestCase):
             audit.PLANE_COMPLETION,
             "research/carrier/plane-completion-lemma/first-normal-comparison/FIRST_NORMAL_COMPARISON.md",
             "It does not identify an ancestor, carrier or defect",
+        ),
+        (
+            audit.PLANE_COMPLETION,
+            "research/carrier/plane-completion-lemma/second-normal-comparison/SECOND_NORMAL_COMPARISON.md",
+            "fixes P",
         ),
         (
             audit.PLANE_COMPLETION,
