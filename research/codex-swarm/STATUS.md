@@ -2,6 +2,8 @@
 
 The obstruction is **undecided**. All 36 first-wave identities have returned a bounded report. A returned report is not an accepted mathematical result. Initial reports are preserved under `reports/`, including rejected or superseded proposals.
 
+Focused review units: [PR81: minimal complete scalar family](https://github.com/Akilleez-QA/read-em-and-weep/pull/81), [PR82: selector pruning](https://github.com/Akilleez-QA/read-em-and-weep/pull/82). [PR80](https://github.com/Akilleez-QA/read-em-and-weep/pull/80) retains the shared registry, complete report history and source-demand tools. These extracted proof subsets share the same proof bytes; they are not additional independent implementations.
+
 ## Accepted progress
 
 | Artifact | Evidence and exact scope | Next owner |
