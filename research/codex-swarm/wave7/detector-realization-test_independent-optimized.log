@@ -1,0 +1,20 @@
+test_both_E_endpoints_sign_controls (__main__.Tests.test_both_E_endpoints_sign_controls) ... ok
+test_cardinality_only (__main__.Tests.test_cardinality_only) ... ok
+test_first_hit_not_last_hit (__main__.Tests.test_first_hit_not_last_hit) ... ok
+test_frame_and_whole_laurent_division (__main__.Tests.test_frame_and_whole_laurent_division) ... ok
+test_hard_guards_constructor_poison (__main__.Tests.test_hard_guards_constructor_poison) ... ok
+test_logical_criterion_only (__main__.Tests.test_logical_criterion_only) ... ok
+test_new_e2e_partial_sign (__main__.Tests.test_new_e2e_partial_sign) ... ok
+test_order_before_faces (__main__.Tests.test_order_before_faces) ... ok
+test_original_inclusion_frame_and_carrier_H (__main__.Tests.test_original_inclusion_frame_and_carrier_H) ... ok
+test_partition_formula_small_artificial (__main__.Tests.test_partition_formula_small_artificial) ... ok
+test_pin_poison (__main__.Tests.test_pin_poison) ... ok
+test_pins (__main__.Tests.test_pins) ... ok
+test_raw_four_blocks_endpoint_signs (__main__.Tests.test_raw_four_blocks_endpoint_signs) ... ok
+test_reciprocal_types_and_moving_frame (__main__.Tests.test_reciprocal_types_and_moving_frame) ... ok
+test_source_correction_controls (__main__.Tests.test_source_correction_controls) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 4.376s
+
+OK

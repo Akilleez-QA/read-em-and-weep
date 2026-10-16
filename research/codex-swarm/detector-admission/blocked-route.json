@@ -1,0 +1,561 @@
+{
+  "schema": "detector-route-prospective-status-v1",
+  "status": "BLOCKED_ROUTE",
+  "candidate": {
+    "schema": "specified-detector-route-v1",
+    "route_id": "request30-complete-signed-outer-J2-v1",
+    "weighted_request": {
+      "base_monomial": [
+        0,
+        0
+      ],
+      "block": "v_k v_l",
+      "id": 30,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "output_index": 80
+        }
+      ]
+    },
+    "selection_criterion": "unique one coefficient root only; not physical cost optimality",
+    "required_frame": "original frame, deck product removed, internal degree -2 factor tau^-4",
+    "scalar_selector": "X13[5,0]+X02[1,3]+X02[4,2]",
+    "signed_staircases": 24,
+    "full_owner_fibers": 5,
+    "fiber_cardinality": 96,
+    "unpruned_indexed_projection_summands": 195689447424,
+    "J2_face_words_per_tuple": 20,
+    "J2_formula": "-H_-1 delta H_0 delta j Rsharp",
+    "whole_source_terms": [
+      "M0tf",
+      "Fq kp",
+      "Fp kq",
+      "Ep(Tq Fq)",
+      "Eq(Tp Fp)"
+    ],
+    "outer_weight": "product of all five owned rho(carrier54,legal29)",
+    "coefficient_equation": "e_J=kappa-sum_j alpha_j; complete finite convolution with source parity and original ordered row-End frame",
+    "inner_solver": "Hrho+R(K Pi+A h S Pi); differentiate complete combined numerator only",
+    "fallback": {
+      "weighted_tests": 32,
+      "terms": 127,
+      "distinct_map_exponent_roots": 121
+    },
+    "index_count_is_physical_cost": false,
+    "source_coefficients_executed": false,
+    "structural_weight_zero_reductions": {
+      "full_index_domain_retained": 96,
+      "legal_only_per_staircase": 7962624,
+      "legal_only_all_staircases": 191102976,
+      "legal_and_generic_carrier_alphabet_per_staircase": 245760,
+      "legal_and_generic_carrier_alphabet_all_staircases": 5898240,
+      "scope": "syntactic necessary carrier/mask predicates from fixed partition definitions; no occupied support/nonzero/physical operation count",
+      "carrier_alphabet_sizes_by_popcount": [
+        2,
+        3,
+        4,
+        5,
+        2
+      ]
+    },
+    "algorithm_variants": [
+      {
+        "id": "complete-TN14-source",
+        "status": "mathematical definitions available; actual coefficient primitive/cost unknown",
+        "inner_solver": "Hrho+R(K Pi+A h S Pi); differentiate complete combined numerator only"
+      },
+      {
+        "id": "raw-transgression-primitive",
+        "status": "BI same-global-class/domain theorem independently accepted ba646df96; literal SR program/control envelope under independent review",
+        "possible_saving": "remove all inner N14 partition sums; outer weighted detector unchanged",
+        "not_claimed": [
+          "generic zero",
+          "historical source equality",
+          "automatic54-domain",
+          "physical cost optimality"
+        ],
+        "inner_solver": "explicit fresh raw transgression scalar; no inner N14 sums",
+        "raw_scalar_domain": {
+          "carrier": 14,
+          "legal": 1,
+          "extra_standard_5250": false
+        },
+        "raw_current_domain": {
+          "carrier": 15,
+          "legal": 2
+        },
+        "raw_source_domain": {
+          "carrier": 32,
+          "legal": 18
+        },
+        "common_J3_domain": {
+          "carrier": 54,
+          "legal": 29
+        },
+        "comparison_scope": "same32 global cohomology outputs, not pointwise source identity; individually admitted representatives suffice without comparison primitive54-cutoff"
+      }
+    ],
+    "preferred_variant": "raw-transgression-primitive",
+    "preferred_variant_acceptance": "BI class/domain theorem independently accepted ba646df96; literal SR raw realization and AC control envelope require separate independent acceptance; no physical release"
+  },
+  "input_pins": {
+    "schema": "detector-admission-input-pins-v1",
+    "workspace_inputs": [
+      {
+        "path": "arithmetic/ledger/schedule_validator.py",
+        "sha256": "264d67358d74c2e3427376171340b37eac58331f9ef68f37903f363dd8311e2f"
+      },
+      {
+        "path": "arithmetic/ledger/test_schedule_validator.py",
+        "sha256": "810b374342bc5696ae79d33caea06bcffedb286ccf9717ac2c1e44b9bad22157"
+      },
+      {
+        "path": "arithmetic/ledger/candidate_preflight.py",
+        "sha256": "69c48040a72faeb12ef5da89e3a00c579bbd9ec23b33ad6b5d782a1b4b4937ec"
+      },
+      {
+        "path": "detector-selection/weighted-requests.json",
+        "sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+      },
+      {
+        "path": "detector-selection/selection.json",
+        "sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d"
+      },
+      {
+        "path": "total-gated-provider/provider.py",
+        "sha256": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af"
+      },
+      {
+        "path": "full-lift-domain/lift.py",
+        "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a"
+      },
+      {
+        "path": "exact-curve-field/field.py",
+        "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01"
+      },
+      {
+        "path": "exact-curve-field/producer-ready.json",
+        "sha256": "0d73ba3649961454a0795d408938abf9e857bd4e44feb47b99b666f2fd6e3340"
+      },
+      {
+        "path": "detector-realization/producer-ready.json",
+        "sha256": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a"
+      },
+      {
+        "path": "detector-realization/algorithm.json",
+        "sha256": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285"
+      },
+      {
+        "path": "detector-realization/raw_engine.py",
+        "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9"
+      },
+      {
+        "path": "detector-realization/program.py",
+        "sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b"
+      },
+      {
+        "path": "detector-realization/bindings.py",
+        "sha256": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba"
+      },
+      {
+        "path": "scalar-compiler/compiler.py",
+        "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
+      },
+      {
+        "path": "transport-binding/lift_schema.py",
+        "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+      },
+      {
+        "path": "source-boundary-analysis/PROOF.md",
+        "sha256": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7"
+      },
+      {
+        "path": "source-boundary-analysis/review-independent.md",
+        "sha256": "a065a491dd4ff7d27e0262fc1b2edc7f04833261bd6389ee43c821767c071c24"
+      }
+    ],
+    "A06_review_read": {
+      "read_path": "/tmp/read-em-and-weep-swarm/reports/Codex-V01-review-schedule.py",
+      "sha256": "45d73b358c31d3976ba7ceae77118ca4eb66603f75fda7078f3fbcb8d3d9cf13",
+      "accepted_scope": "pure replay of a caller-supplied fictional snapshot; historical state and cross-owner authorization are not authenticated; actual admission remains false",
+      "private_artifact_required_for_replay": false
+    },
+    "actual_ledger_authenticated": false,
+    "immutable_outer_formula_source": {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/outer_partition_source_binding.py",
+      "git_blob": "f5a33e325e1eee6b801c94613093d1cd4686ca54",
+      "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a",
+      "parameters": {
+        "carrier_power": 54,
+        "legal_power": 29
+      },
+      "scope": "N54 outer weight structural zeros, not N14 source inference"
+    }
+  },
+  "evidence_scope": {
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "issue_or_pr": 1,
+    "comments_returned": 326,
+    "readback_payload_sha256": "11d7d65c946dee5ef1613bcdc624f4a311c3865648181421546ccda5ae4521c3",
+    "search_terms": [
+      "149",
+      "294117",
+      "2097152",
+      "ledger_id",
+      "spent",
+      "remaining reservations",
+      "live allocations",
+      "authoritative"
+    ],
+    "not_claimed": "universal absence outside this returned PR1 scope",
+    "issue_body_searched": true,
+    "issue_body_sha256": "fe6505f7791358d62feb7465ca1ead404ee3df68e973eb064fa4a5dbffdeb5ac",
+    "first_returned_comment": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6093415611",
+    "last_returned_comment": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6213072026"
+  },
+  "authoritative_reconciled_ledger": null,
+  "missing_global_evidence": [
+    "current authoritative ledger identity/revision and applicability to all workers",
+    "current operation cap definitions and protected-vs-scratch byte metric",
+    "measured spent counters including prerequisites and prior work",
+    "all outstanding reservation IDs/owners/remaining counters/time intervals",
+    "all live allocation IDs/aliases/bytes/layouts/owners/last uses",
+    "current arithmetic hold and explicit physical release authority"
+  ],
+  "missing_actual_algorithm_proofs": [
+    "independent denotation/control-envelope acceptance for the pinned literal SR01 raw source program",
+    "authoritative mapping of RF Fraction-operation and native-integer units to the actual shared cap metric",
+    "review of the instantiated symbolic whole-root/weighted-degree exact-division height envelope under the named source/model premises",
+    "machine representation linking those bit bounds to buffer/workspace bytes",
+    "serial begin/end/output-before-free events joined with every other active worker and retained final outputs"
+  ],
+  "whole_route_upper_envelope": {
+    "schema": "SR01-RF01-complete-symbolic-upper-envelope-v1",
+    "route_id": "raw-fullsource-J2-request30-v1",
+    "request_id": 30,
+    "SR_marker_sha256": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a",
+    "caller_AST_nodes": {
+      "detector-realization/raw_engine.py": 3206,
+      "detector-realization/program.py": 1952,
+      "detector-realization/bindings.py": 242,
+      "scalar-compiler/compiler.py": 6355,
+      "transport-binding/lift_schema.py": 269,
+      "inserted-coefficients/interfaces.py": 780
+    },
+    "caller_AST_node_upper": 65536,
+    "source_control_premises": {
+      "caller_AST_nodes": {
+        "raw_engine.py": 3206,
+        "artificial.py": 1832,
+        "program.py": 1952,
+        "test_realization.py": 813,
+        "bindings.py": 242
+      },
+      "caller_AST_node_upper": 65536,
+      "non_RF_call_depth_upper": 128,
+      "simultaneously_active_non_RF_loop_depth_upper": 32,
+      "per_iterator_length_upper": "C=2672^5",
+      "why_C": "compositions length<=5 with total<=2671; outer product<=96^5, sparse primitive terms<=56, matrix dimensions<=15, scalar loops<=107, binary power iterations<=12",
+      "binomial_integer_algorithm": "for j=1..min(k,n-k): out=out*(n-j+1)//j; each division exact",
+      "binomial_call_products_and_exact_divisions_upper": 2671,
+      "combinatorial_work_separate_from_RF": true,
+      "maximum_recursion_sources": [
+        "compositions at most5 slots",
+        "binary power negative case at most1 extra call",
+        "Lift stage2 -> stage1 -> stage0"
+      ]
+    },
+    "source_control_proof_scope": "literal raw call graph/loop audit; producer claims are not execution capabilities; independent SR denotation review remains external",
+    "definitions": {
+      "C": {
+        "op": "pow",
+        "args": [
+          2672,
+          5
+        ]
+      },
+      "local_activation_bound": {
+        "op": "add",
+        "args": [
+          1,
+          {
+            "op": "mul",
+            "args": [
+              65536,
+              {
+                "op": "pow",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      "C",
+                      1
+                    ]
+                  },
+                  32
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "M": {
+        "op": "pow",
+        "args": [
+          "local_activation_bound",
+          130
+        ]
+      },
+      "per_RF_exponent": {
+        "op": "pow",
+        "args": [
+          2,
+          8388608
+        ]
+      },
+      "B": {
+        "op": "iterate",
+        "variable": "b",
+        "initial": 1048576,
+        "times": "M",
+        "body": {
+          "op": "pow",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                "b",
+                2
+              ]
+            },
+            "per_RF_exponent"
+          ]
+        }
+      },
+      "weighted_degree_K": {
+        "op": "mul",
+        "args": [
+          4,
+          "B",
+          {
+            "op": "pow",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  "B",
+                  1
+                ]
+              },
+              3
+            ]
+          }
+        ]
+      },
+      "division_iterations_T": {
+        "op": "pow",
+        "args": [
+          {
+            "op": "add",
+            "args": [
+              "weighted_degree_K",
+              1
+            ]
+          },
+          4
+        ]
+      },
+      "terminal_height_H": {
+        "op": "mul",
+        "args": [
+          {
+            "op": "pow",
+            "args": [
+              2,
+              "division_iterations_T"
+            ]
+          },
+          {
+            "op": "add",
+            "args": [
+              {
+                "op": "mul",
+                "args": [
+                  3,
+                  "B"
+                ]
+              },
+              5
+            ]
+          }
+        ]
+      },
+      "RF_before_terminal": {
+        "op": "mul",
+        "args": [
+          {
+            "op": "add",
+            "args": [
+              "M",
+              1
+            ]
+          },
+          {
+            "op": "pow",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  "B",
+                  2
+                ]
+              },
+              16
+            ]
+          }
+        ]
+      },
+      "RF_terminal": {
+        "op": "mul",
+        "args": [
+          100,
+          {
+            "op": "pow",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  "division_iterations_T",
+                  1
+                ]
+              },
+              2
+            ]
+          }
+        ]
+      },
+      "RF_total": {
+        "op": "add",
+        "args": [
+          "RF_before_terminal",
+          "RF_terminal"
+        ]
+      },
+      "integer_binomial_products": {
+        "op": "mul",
+        "args": [
+          2671,
+          "M"
+        ]
+      },
+      "integer_binomial_exact_divisions": {
+        "op": "mul",
+        "args": [
+          2671,
+          "M"
+        ]
+      },
+      "integer_binomial_height_bits": 8014,
+      "retain_all_abstract_cells": {
+        "op": "mul",
+        "args": [
+          {
+            "op": "add",
+            "args": [
+              "M",
+              "RF_terminal",
+              1
+            ]
+          },
+          {
+            "op": "pow",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  "division_iterations_T",
+                  "terminal_height_H",
+                  "weighted_degree_K",
+                  "B",
+                  2
+                ]
+              },
+              16
+            ]
+          }
+        ]
+      },
+      "conditional_route_bytes": {
+        "op": "mul",
+        "args": [
+          {
+            "op": "add",
+            "args": [
+              "layout_beta",
+              1
+            ]
+          },
+          "retain_all_abstract_cells"
+        ]
+      }
+    },
+    "bound_units": {
+      "RF_total": "upper for EACH RF Fraction-products/steps/storage_events counter; not old nonconstant polynomial products",
+      "B": "preterminal polynomial coordinate degrees, term counts and Fraction numerator/denominator bit heights",
+      "terminal_height_H": "terminal intermediate Fraction bit height upper",
+      "retain_all_abstract_cells": "conservative logical payload/reference cells with all objects retained",
+      "conditional_route_bytes": "requires authoritative layout_beta header/allocator/representation byte envelope"
+    },
+    "event_schedule": "Allocate outputs and every workspace before any release; conservatively retain all route objects until terminal extraction/output exists. No route frees are needed for this upper bound.",
+    "actual_integer_values_materialized": false,
+    "source_coefficients_evaluated": false,
+    "layout_beta": null,
+    "current_global_ledger": null,
+    "native_machine_bitcost_metric": null,
+    "physical_admission": false,
+    "not_a_lower_bound": true,
+    "remaining_dependencies": [
+      "independent source denotation/control-envelope acceptance",
+      "authoritative RF/native-integer versus cap metric reconciliation",
+      "layout_beta and current all-worker spent/reservation/live-allocation ledger",
+      "physical execution release"
+    ]
+  },
+  "operation_upper_bound": {
+    "expression_ref": "whole-route-envelope.json:RF_total",
+    "scope": "each RF Fraction-products/steps/storage_events counter; integer binomials separately bounded"
+  },
+  "coefficient_height_upper_bound": {
+    "expression_ref": "whole-route-envelope.json:B,terminal_height_H"
+  },
+  "aggregate_peak_bytes": null,
+  "layout_byte_factor": null,
+  "unresolved_actual_root": {
+    "name": "authoritative_metric_layout_beta_and_all_worker_ledger",
+    "known": "complete literal source/control graph has a finite symbolic prospective upper envelope; no large bound integers evaluated",
+    "dependency_proof": "RF counters are Fraction-level rather than historical polynomial-product units, storage_events are not occupancy bytes, and all-worker spent/live/commitments plus layout_beta are absent. Symbolic upper bounds cannot authenticate those external quantities."
+  },
+  "historical_allowances_are_current_caps": false,
+  "dense_upper_bound_is_lower_bound": false,
+  "algorithm_independent_impossibility_claimed": false,
+  "physical_release": false,
+  "reduction": "Accepted BI raw replacement preserves all32 global cohomology outputs via independently admitted representatives; it needs no comparison primitive54-cutoff, removes inner N14 work and implies neither pointwise source equality nor physical admission."
+}

@@ -1,0 +1,18 @@
+test_basis_products_unreduced_power_oracle (__main__.IndependentTests.test_basis_products_unreduced_power_oracle) ... ok
+test_cross_context_arithmetic_and_other_constructors_reject (__main__.IndependentTests.test_cross_context_arithmetic_and_other_constructors_reject) ... ok
+test_foreign_polynomial_pair_constructor_must_reject (__main__.IndependentTests.test_foreign_polynomial_pair_constructor_must_reject) ... ok
+test_frozen_and_shared_meter_poison (__main__.IndependentTests.test_frozen_and_shared_meter_poison) ... ok
+test_full_lex_remainder_oracle (__main__.IndependentTests.test_full_lex_remainder_oracle) ... ok
+test_limits_on_arithmetic_not_just_input (__main__.IndependentTests.test_limits_on_arithmetic_not_just_input) ... ok
+test_moving_nu_and_mixed_derivatives_external_oracle (__main__.IndependentTests.test_moving_nu_and_mixed_derivatives_external_oracle) ... ok
+test_nonmonomial_rational_partial_closed_formula (__main__.IndependentTests.test_nonmonomial_rational_partial_closed_formula) ... ok
+test_rational_normalization_and_nonstructural_equality (__main__.IndependentTests.test_rational_normalization_and_nonstructural_equality) ... ok
+test_repeated_moving_frame_derivative_oracle (__main__.IndependentTests.test_repeated_moving_frame_derivative_oracle) ... ok
+test_single_basis_inverse_denominator_shapes (__main__.IndependentTests.test_single_basis_inverse_denominator_shapes) ... ok
+test_sparse_fraction_convolution_oracle (__main__.IndependentTests.test_sparse_fraction_convolution_oracle) ... ok
+test_weighted_cancellation_one_final_division (__main__.IndependentTests.test_weighted_cancellation_one_final_division) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.125s
+
+OK

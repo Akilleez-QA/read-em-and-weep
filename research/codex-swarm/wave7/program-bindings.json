@@ -1,0 +1,186 @@
+{
+  "dependency_snapshot": {
+    "research/codex-swarm/arithmetic/ledger/candidate_preflight.py": "69c48040a72faeb12ef5da89e3a00c579bbd9ec23b33ad6b5d782a1b4b4937ec",
+    "research/codex-swarm/arithmetic/ledger/schedule_validator.py": "264d67358d74c2e3427376171340b37eac58331f9ef68f37903f363dd8311e2f",
+    "research/codex-swarm/arithmetic/ledger/test_schedule_validator.py": "810b374342bc5696ae79d33caea06bcffedb286ccf9717ac2c1e44b9bad22157",
+    "research/codex-swarm/detector-realization/algorithm.json": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285",
+    "research/codex-swarm/detector-realization/bindings.py": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba",
+    "research/codex-swarm/detector-realization/producer-ready.json": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a",
+    "research/codex-swarm/detector-realization/program.py": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "research/codex-swarm/detector-realization/raw_engine.py": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "research/codex-swarm/detector-selection/selection.json": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+    "research/codex-swarm/detector-selection/weighted-requests.json": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0",
+    "research/codex-swarm/exact-curve-field/field.py": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+    "research/codex-swarm/exact-curve-field/producer-ready.json": "0d73ba3649961454a0795d408938abf9e857bd4e44feb47b99b666f2fd6e3340",
+    "research/codex-swarm/full-lift-domain/lift.py": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a",
+    "research/codex-swarm/full-source-application/PROOF.md": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed",
+    "research/codex-swarm/inserted-coefficients/interfaces.py": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+    "research/codex-swarm/physical-homogenization/PROOF.md": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab",
+    "research/codex-swarm/scalar-compiler/compiler.py": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "research/codex-swarm/source-boundary-analysis/PROOF.md": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7",
+    "research/codex-swarm/source-boundary-analysis/review-independent.md": "a065a491dd4ff7d27e0262fc1b2edc7f04833261bd6389ee43c821767c071c24",
+    "research/codex-swarm/total-gated-provider/provider.py": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af",
+    "research/codex-swarm/transport-binding/lift_schema.py": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+  },
+  "external_reviews_sha256": "cdaa2484f4e17b85a44bce2407fa6d5be4b3cc529322e77a388ba192177c49b8",
+  "historical_draft_metadata_labels": {
+    "distinct_physical_labels": 96,
+    "object_instances": 192,
+    "physical_field_source_coefficients_evaluated": false,
+    "scope": "Prior disclosed metadata-only owner construction; no claim of zero-ever label construction."
+  },
+  "immutable_input_pins": [
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/outer_partition_source_binding.py",
+      "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a"
+    }
+  ],
+  "integration_inputs": {
+    "verify_github.py": "b6ee9d17579374bc54bbcb2aa3ed9040b57feeb9bb8366c37e7bc143d762ae9f"
+  },
+  "lanes": [
+    {
+      "expected_tests_per_file": {
+        "test_context_followup.py": 4,
+        "test_field.py": 13,
+        "test_independent.py": 13
+      },
+      "external_tests": [
+        {
+          "commit": "23bffa822566ff98b0e7ff4c6c63b266827b7aaa",
+          "expected_tests": 2,
+          "name": "test_null_public_factory_regression.py",
+          "path": "research/hm/null-source-integration/exact-field-review/test_factory_regression.py",
+          "sha256": "74c729f8eff58ecfcbb93221acc27e391c85fe62320c07d7470b94fa64a1f4c7"
+        }
+      ],
+      "lane": "exact-curve-field",
+      "producer_snapshot": {
+        "README.md": "27e377280daffc39656bba3a3c6aaf2b2667e2d325947a813f9237b7ca4f6fd4",
+        "field.py": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+        "producer-ready.json": "0d73ba3649961454a0795d408938abf9e857bd4e44feb47b99b666f2fd6e3340",
+        "proof.md": "9aaf3ae3db640cd82959ff800ed8023f124ce93c276043959f470866c5fa23f0",
+        "run_tests.py": "1954cef036157f5ae35378b2f4499784aa6527bd9d7357e0676e0696b7d06906",
+        "test_field.py": "18b8d46be3ec614a9e70276f317eb58b54f4b08a14c67084e01ffb83d1e97537"
+      },
+      "review_state": "accepted-current-snapshot",
+      "test_files": {
+        "test_context_followup.py": "7e052e29473dd60260dc13cf950313aaa4ff2ef7e75126e3af281d591c4663f2",
+        "test_field.py": "18b8d46be3ec614a9e70276f317eb58b54f4b08a14c67084e01ffb83d1e97537",
+        "test_independent.py": "947a44243cba9847d5ca94d85fe2f054bd03b5b2fa3a6856a6aac052adcf88ab"
+      }
+    },
+    {
+      "expected_tests_per_file": {
+        "test_boundary.py": 8,
+        "test_independent.py": 13
+      },
+      "lane": "source-boundary-analysis",
+      "producer_snapshot": {
+        "PROOF.md": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7",
+        "README.md": "5e9f720d3af8903587e7a362e973c9ff86943a12932a48cca3f43761bfdf0c65",
+        "actual-raw-s-denotation.json": "9e8108dade2291fed3c58ef6dd39025bf059fbb1af3592922f1925ea42d99989",
+        "analytic-reduction.json": "8fe4e49ce2ecc178138fe13d69579ace92e7581e4679078368ecdbdc23746d96",
+        "boundary.py": "d57b156b07efaa68acc847d7ff59e4271470e34f986da74c179c9fc3d8efaa78",
+        "build_handoff.py": "b98f9ebdc16aca1210322a78a83282c356cb2fadd01092aeaf3f4324275b581a",
+        "controls-normal.log": "1e5194a5b4e79d924c98fc17c66c2593f291718576685a9586c1a69696e78de8",
+        "controls-optimized.log": "b0c818508fb2c7ceb3ba7b4100ca085fe68a70851dda8a6cae831a367bdc05bf",
+        "controls-receipt.json": "ac20d84d343ac97444acb39e4568b8b29f78cb6b9e4703f6d1a5a99824f7fd9b",
+        "producer-ready.json": "aa0e81b32699e15c3c95fc6792b3cdcec763fd5b12f074b169f8da908ebc6a65",
+        "resolution_boundary.py": "b6347379ef4dfd978eb027ed2eb18a0cbc64c1438532644fcdf47b5eb27fd3f6",
+        "run_controls.py": "28ff9c165572900cfbab6c02b08f791eb5a59cf25e81fb16857a7907d31d5e6f",
+        "source-pins.json": "b1ec29bc10cc893658b17983d1c1fc8738d921bf6d3ed1afdcdb6800572521d6",
+        "test_boundary.py": "a8cc81b2220b1dc6563949ca10b7a278275b222aaa134a7e543feeff15d2d7a3"
+      },
+      "review_state": "accepted-current-snapshot",
+      "test_files": {
+        "test_boundary.py": "a8cc81b2220b1dc6563949ca10b7a278275b222aaa134a7e543feeff15d2d7a3",
+        "test_independent.py": "79022d959c443bb751f212971aed33c6e1f833a0a8c870a9f80c5670db4947d3"
+      }
+    },
+    {
+      "expected_tests_per_file": {
+        "test_independent.py": 15,
+        "test_realization.py": 10
+      },
+      "lane": "detector-realization",
+      "producer_snapshot": {
+        "PROOF.md": "76b34de44044631b767f40c30fa6ab43fcc1f70ce44b1770232da51e5784aec4",
+        "README.md": "626e5ec82c5a521647c02298af6565d0366b5060dacebcab6ac382b0aceeaef6",
+        "algorithm.json": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285",
+        "artificial.py": "ce77154ca9b479aff523a958108382673e7bef029fe3bcfcd365e68a1df7757f",
+        "bindings.py": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba",
+        "controls-normal.log": "68c55304b98030864d46300f9897b7a40cf7d2e34daec9533e6787f6dc68edbb",
+        "controls-optimized.log": "82602cf42d4496240f84e3465c3696363dddb7de7e3805ef229cd5fb67b528ab",
+        "controls-receipt.json": "37908993fadd6b6fc97644cf975e576d274e69dc5439ba58de696918f99a2231",
+        "draft-label-check.md": "3f2fc2474fcf662a6bfc783c9558a62a0f0361cfa17a42cdc432f49a99724f67",
+        "producer-ready.json": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a",
+        "program.py": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+        "raw_engine.py": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+        "source-pins.json": "51dc5659a5ab5b04b9b567be8d7c2686d1c9e66dc1b816f96d8558e1eab983e5",
+        "test_realization.py": "40a77b25c5a91a2b75127d21db9549e08ec0d882b5f43af076e4f1613f223bab"
+      },
+      "review_state": "accepted-current-snapshot",
+      "test_files": {
+        "test_independent.py": "69a292625a5790bedc19eda74a353e3a5963ca1845a9273e7472fd1f91568e76",
+        "test_realization.py": "40a77b25c5a91a2b75127d21db9549e08ec0d882b5f43af076e4f1613f223bab"
+      }
+    },
+    {
+      "expected_tests_per_file": {
+        "test_binding_followup.py": 12,
+        "test_certifier.py": 12,
+        "test_height_followup.py": 6,
+        "test_independent.py": 13
+      },
+      "lane": "detector-admission",
+      "producer_snapshot": {
+        "PROOF.md": "21ca1a8a72fa5cbc6367bf666f33f9787ede01761b14284c479f353e9759012e",
+        "README.md": "8f27e9b6c84d07bfdcc5d38154a93154fd914fec31eb4f14562e6e2512bc9c6d",
+        "actual-PI-dot-envelope.json": "066b79faa2bfee91e3dcf352e1f91290a7c7c16996e0b902210142a22d8f3453",
+        "actual-input-bounds.json": "d1da8cdbf4818e585a33b0115e0db334f88f647d3ba06827e26da29070d40955",
+        "actual-seed-envelope.json": "9ba920ba94452b71cfd550c3aa59cf948ee9257ff4c20f671d504a665d571ce4",
+        "blocked-route.json": "03b71ee602615eb4aa104e736d0637362ffd874b7d0757b6fcdadf58c978c712",
+        "candidate-route.json": "268b815b975861af02e31336202b94338b81d747a897384fa58c875d7c9d89e9",
+        "certifier.py": "816f86504b0f517a8ba35aa77d8a6aec5adfb1eb7505803d3a31cd394910eb62",
+        "ledger-evidence.json": "0e5ef4dd03917bdccfcb1da91156b8e29ca02947bc067a90dcba38738e7c67a2",
+        "producer-ready.json": "b4ab5a47e4b3a64d11e674ce7a163ff959b16f0c3ad22216541e43a23a8e9b6b",
+        "rf-recurrences.json": "79b701989e16678ad2cae092d90723e3f64921ff2a1a204b45a593b871b5f14a",
+        "rf_bounds.py": "46f735013590ac3af675a32e7462bc482fcabe0ec0be43aef96837afb069a455",
+        "source-pins.json": "e0872ef5cfe3ac9d6d55fabcf6e74aec8b3e7126f946b69f14e9a5a529615931",
+        "test_certifier.py": "1a4db019ee140a3d7d10a3197cc3b735e1d040da097c823f713a40b81320187b",
+        "whole-route-envelope.json": "627fbd2234c57d75ec9ef286cf93e4c7ca6c0593eae81a4a8180838e6c4ebd0d",
+        "whole_envelope.py": "bbe9ffd7154bcb1017e56834a1ffe24326b288d289299bc0bdcd67f4ba6f3e1c"
+      },
+      "review_state": "accepted-current-snapshot",
+      "test_files": {
+        "test_binding_followup.py": "6440c2a8c69b1539fbfd10c1184790416ff1794c493df32525cbcde808a2654c",
+        "test_certifier.py": "1a4db019ee140a3d7d10a3197cc3b735e1d040da097c823f713a40b81320187b",
+        "test_height_followup.py": "3caaaa87095235e3d11b44363ee5a8348eea6ebabba35a21604145079f59c107",
+        "test_independent.py": "2f8d8e9485420879bf080d62744b19b39025ca5363a1e6c0ece8ca7a5f1331ce"
+      }
+    },
+    {
+      "expected_tests_per_file": {},
+      "lane": "wave7",
+      "producer_snapshot": {},
+      "review_state": "verification-only-no-duplicate-integration-test",
+      "test_files": {}
+    }
+  ],
+  "runner_sha256": "8f73ec1682aa997acbc78f92451811d3684c97c7b2e1ad024b32cbeebbf21309",
+  "schema": "wave7-program-bindings-v1",
+  "scope": "Artificial controls and byte authentication only; no physical source evaluation/fiber execution or admission.",
+  "state": "frozen-for-final-replay"
+}

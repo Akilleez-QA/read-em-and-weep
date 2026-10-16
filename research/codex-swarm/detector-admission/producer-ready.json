@@ -1,0 +1,48 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "AC01",
+  "status": "BLOCKED_ROUTE",
+  "files": {
+    "PROOF.md": "21ca1a8a72fa5cbc6367bf666f33f9787ede01761b14284c479f353e9759012e",
+    "README.md": "8f27e9b6c84d07bfdcc5d38154a93154fd914fec31eb4f14562e6e2512bc9c6d",
+    "actual-PI-dot-envelope.json": "066b79faa2bfee91e3dcf352e1f91290a7c7c16996e0b902210142a22d8f3453",
+    "actual-input-bounds.json": "d1da8cdbf4818e585a33b0115e0db334f88f647d3ba06827e26da29070d40955",
+    "actual-seed-envelope.json": "9ba920ba94452b71cfd550c3aa59cf948ee9257ff4c20f671d504a665d571ce4",
+    "blocked-route.json": "03b71ee602615eb4aa104e736d0637362ffd874b7d0757b6fcdadf58c978c712",
+    "candidate-route.json": "268b815b975861af02e31336202b94338b81d747a897384fa58c875d7c9d89e9",
+    "certifier.py": "816f86504b0f517a8ba35aa77d8a6aec5adfb1eb7505803d3a31cd394910eb62",
+    "ledger-evidence.json": "0e5ef4dd03917bdccfcb1da91156b8e29ca02947bc067a90dcba38738e7c67a2",
+    "rf-recurrences.json": "79b701989e16678ad2cae092d90723e3f64921ff2a1a204b45a593b871b5f14a",
+    "rf_bounds.py": "46f735013590ac3af675a32e7462bc482fcabe0ec0be43aef96837afb069a455",
+    "source-pins.json": "e0872ef5cfe3ac9d6d55fabcf6e74aec8b3e7126f946b69f14e9a5a529615931",
+    "test_certifier.py": "1a4db019ee140a3d7d10a3197cc3b735e1d040da097c823f713a40b81320187b",
+    "whole-route-envelope.json": "627fbd2234c57d75ec9ef286cf93e4c7ca6c0593eae81a4a8180838e6c4ebd0d",
+    "whole_envelope.py": "bbe9ffd7154bcb1017e56834a1ffe24326b288d289299bc0bdcd67f4ba6f3e1c"
+  },
+  "tests": {
+    "synthetic_and_metadata_controls": 12,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "physical_source_evaluated": false,
+  "actual_fibers_enumerated": false,
+  "current_ledger_authenticated": false,
+  "physical_execution_release": false,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "scope": "specified raw request30; complete symbolic literal-route work/height/logical-retain-all storage upper envelope, conditional on independent source/control review; byte-layout/cap-unit/all-worker ledger binding absent; not a lower bound or impossibility claim",
+  "repair": {
+    "original_producer_commit": "d37436ee7",
+    "original_review_commit": "b3c61eba2",
+    "scope": "auxiliary RF hook height includes input/output exponent bit lengths and coefficient heights; common whole-route envelope unchanged",
+    "independent_followup": "height repair reviewed separately at44e1f06e3; original report unchanged and original reproduction test preserved in Git at b3c61eba2"
+  },
+  "transitive_binding_repair": {
+    "finding": "external Null same-AST imported-interfaces parity mutation bypassed local byte authentication",
+    "scope": "verify all10 already-pinned SR local_dependencies before AST parsing; no imported module execution",
+    "independent_followup": "pending; prior independent reports unchanged",
+    "symbolic_envelope_values_changed": false
+  }
+}

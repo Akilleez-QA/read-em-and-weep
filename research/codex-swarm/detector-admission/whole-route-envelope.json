@@ -1,0 +1,292 @@
+{
+  "schema": "SR01-RF01-complete-symbolic-upper-envelope-v1",
+  "route_id": "raw-fullsource-J2-request30-v1",
+  "request_id": 30,
+  "SR_marker_sha256": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a",
+  "caller_AST_nodes": {
+    "detector-realization/raw_engine.py": 3206,
+    "detector-realization/program.py": 1952,
+    "detector-realization/bindings.py": 242,
+    "scalar-compiler/compiler.py": 6355,
+    "transport-binding/lift_schema.py": 269,
+    "inserted-coefficients/interfaces.py": 780
+  },
+  "caller_AST_node_upper": 65536,
+  "source_control_premises": {
+    "caller_AST_nodes": {
+      "raw_engine.py": 3206,
+      "artificial.py": 1832,
+      "program.py": 1952,
+      "test_realization.py": 813,
+      "bindings.py": 242
+    },
+    "caller_AST_node_upper": 65536,
+    "non_RF_call_depth_upper": 128,
+    "simultaneously_active_non_RF_loop_depth_upper": 32,
+    "per_iterator_length_upper": "C=2672^5",
+    "why_C": "compositions length<=5 with total<=2671; outer product<=96^5, sparse primitive terms<=56, matrix dimensions<=15, scalar loops<=107, binary power iterations<=12",
+    "binomial_integer_algorithm": "for j=1..min(k,n-k): out=out*(n-j+1)//j; each division exact",
+    "binomial_call_products_and_exact_divisions_upper": 2671,
+    "combinatorial_work_separate_from_RF": true,
+    "maximum_recursion_sources": [
+      "compositions at most5 slots",
+      "binary power negative case at most1 extra call",
+      "Lift stage2 -> stage1 -> stage0"
+    ]
+  },
+  "source_control_proof_scope": "literal raw call graph/loop audit; producer claims are not execution capabilities; independent SR denotation review remains external",
+  "definitions": {
+    "C": {
+      "op": "pow",
+      "args": [
+        2672,
+        5
+      ]
+    },
+    "local_activation_bound": {
+      "op": "add",
+      "args": [
+        1,
+        {
+          "op": "mul",
+          "args": [
+            65536,
+            {
+              "op": "pow",
+              "args": [
+                {
+                  "op": "add",
+                  "args": [
+                    "C",
+                    1
+                  ]
+                },
+                32
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "M": {
+      "op": "pow",
+      "args": [
+        "local_activation_bound",
+        130
+      ]
+    },
+    "per_RF_exponent": {
+      "op": "pow",
+      "args": [
+        2,
+        8388608
+      ]
+    },
+    "B": {
+      "op": "iterate",
+      "variable": "b",
+      "initial": 1048576,
+      "times": "M",
+      "body": {
+        "op": "pow",
+        "args": [
+          {
+            "op": "add",
+            "args": [
+              "b",
+              2
+            ]
+          },
+          "per_RF_exponent"
+        ]
+      }
+    },
+    "weighted_degree_K": {
+      "op": "mul",
+      "args": [
+        4,
+        "B",
+        {
+          "op": "pow",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                "B",
+                1
+              ]
+            },
+            3
+          ]
+        }
+      ]
+    },
+    "division_iterations_T": {
+      "op": "pow",
+      "args": [
+        {
+          "op": "add",
+          "args": [
+            "weighted_degree_K",
+            1
+          ]
+        },
+        4
+      ]
+    },
+    "terminal_height_H": {
+      "op": "mul",
+      "args": [
+        {
+          "op": "pow",
+          "args": [
+            2,
+            "division_iterations_T"
+          ]
+        },
+        {
+          "op": "add",
+          "args": [
+            {
+              "op": "mul",
+              "args": [
+                3,
+                "B"
+              ]
+            },
+            5
+          ]
+        }
+      ]
+    },
+    "RF_before_terminal": {
+      "op": "mul",
+      "args": [
+        {
+          "op": "add",
+          "args": [
+            "M",
+            1
+          ]
+        },
+        {
+          "op": "pow",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                "B",
+                2
+              ]
+            },
+            16
+          ]
+        }
+      ]
+    },
+    "RF_terminal": {
+      "op": "mul",
+      "args": [
+        100,
+        {
+          "op": "pow",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                "division_iterations_T",
+                1
+              ]
+            },
+            2
+          ]
+        }
+      ]
+    },
+    "RF_total": {
+      "op": "add",
+      "args": [
+        "RF_before_terminal",
+        "RF_terminal"
+      ]
+    },
+    "integer_binomial_products": {
+      "op": "mul",
+      "args": [
+        2671,
+        "M"
+      ]
+    },
+    "integer_binomial_exact_divisions": {
+      "op": "mul",
+      "args": [
+        2671,
+        "M"
+      ]
+    },
+    "integer_binomial_height_bits": 8014,
+    "retain_all_abstract_cells": {
+      "op": "mul",
+      "args": [
+        {
+          "op": "add",
+          "args": [
+            "M",
+            "RF_terminal",
+            1
+          ]
+        },
+        {
+          "op": "pow",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                "division_iterations_T",
+                "terminal_height_H",
+                "weighted_degree_K",
+                "B",
+                2
+              ]
+            },
+            16
+          ]
+        }
+      ]
+    },
+    "conditional_route_bytes": {
+      "op": "mul",
+      "args": [
+        {
+          "op": "add",
+          "args": [
+            "layout_beta",
+            1
+          ]
+        },
+        "retain_all_abstract_cells"
+      ]
+    }
+  },
+  "bound_units": {
+    "RF_total": "upper for EACH RF Fraction-products/steps/storage_events counter; not old nonconstant polynomial products",
+    "B": "preterminal polynomial coordinate degrees, term counts and Fraction numerator/denominator bit heights",
+    "terminal_height_H": "terminal intermediate Fraction bit height upper",
+    "retain_all_abstract_cells": "conservative logical payload/reference cells with all objects retained",
+    "conditional_route_bytes": "requires authoritative layout_beta header/allocator/representation byte envelope"
+  },
+  "event_schedule": "Allocate outputs and every workspace before any release; conservatively retain all route objects until terminal extraction/output exists. No route frees are needed for this upper bound.",
+  "actual_integer_values_materialized": false,
+  "source_coefficients_evaluated": false,
+  "layout_beta": null,
+  "current_global_ledger": null,
+  "native_machine_bitcost_metric": null,
+  "physical_admission": false,
+  "not_a_lower_bound": true,
+  "remaining_dependencies": [
+    "independent source denotation/control-envelope acceptance",
+    "authoritative RF/native-integer versus cap metric reconciliation",
+    "layout_beta and current all-worker spent/reservation/live-allocation ledger",
+    "physical execution release"
+  ]
+}

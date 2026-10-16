@@ -1,0 +1,19 @@
+{"success": true, "tests": 13, "optimized": true, "seconds": 1.4863103390016477, "peak_rss_kib": 33432, "producer_marker_before": "aa0e81b32699e15c3c95fc6792b3cdcec763fd5b12f074b169f8da908ebc6a65", "producer_marker_after": "aa0e81b32699e15c3c95fc6792b3cdcec763fd5b12f074b169f8da908ebc6a65", "all13_producer_files_unchanged": true, "physical_execution": false}
+test_01_all_producer_and_dependency_pins (__main__.Independent.test_01_all_producer_and_dependency_pins) ... ok
+test_02_malformed_pins_rejected_without_assert (__main__.Independent.test_02_malformed_pins_rejected_without_assert) ... ok
+test_03_noncommuting_endpoint_identity_and_sign_mutants (__main__.Independent.test_03_noncommuting_endpoint_identity_and_sign_mutants) ... ok
+test_04_unsymmetrized_four_block_transgression_and_edge_correction (__main__.Independent.test_04_unsymmetrized_four_block_transgression_and_edge_correction) ... ok
+test_05_positive_RS_boundary_and_complete_variation (__main__.Independent.test_05_positive_RS_boundary_and_complete_variation) ... ok
+test_06_pair_H1_zero_is_not_pair_H2_zero (__main__.Independent.test_06_pair_H1_zero_is_not_pair_H2_zero) ... ok
+test_07_explicit_C_ladder_all_components_and_wrong_sign (__main__.Independent.test_07_explicit_C_ladder_all_components_and_wrong_sign) ... ok
+test_08_global_cover_iso_without_out_of_domain_primitive (__main__.Independent.test_08_global_cover_iso_without_out_of_domain_primitive) ... ok
+test_09_hypercohomology_not_isolated_Cech_component (__main__.Independent.test_09_hypercohomology_not_isolated_Cech_component) ... ok
+test_10_frames_owned_poles_and_analytic_boxes_only (__main__.Independent.test_10_frames_owned_poles_and_analytic_boxes_only) ... ok
+test_11_physical_gate_without_constructor_or_request_inspection (__main__.Independent.test_11_physical_gate_without_constructor_or_request_inspection) ... ok
+test_12_generic_first_order_exactness_does_not_kill_second_class (__main__.Independent.test_12_generic_first_order_exactness_does_not_kill_second_class) ... ok
+test_13_moving_nu_at_value_one_and_transpose_order (__main__.Independent.test_13_moving_nu_at_value_one_and_transpose_order) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.486s
+
+OK

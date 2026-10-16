@@ -1,0 +1,92 @@
+{
+  "schema": "BI01-fresh-raw-s-source-recipe-v1",
+  "source_pin": {
+    "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+    "path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+    "sections": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "cover_order": "auxiliary5-first; primary0..4; numeric legal mask; standard tag; evaluate new increasing tuples THEN alternate",
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "block_ranks": [
+    5,
+    15,
+    10,
+    2
+  ],
+  "supertrace_signs": [
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "line_weights": [
+    -1,
+    1,
+    3,
+    5
+  ],
+  "raw_split_bases": {
+    "K0": "identity5",
+    "K1": "U0=(gamma,I,H1 W)",
+    "K2": "U1=(W,eta)",
+    "K3": "identity2",
+    "inverses": "Q0=(H0;P;L delta_K), Q1=(L;ev)",
+    "W": "8 nonpivot columns of ker(ev); e_k-(v_k/v_j)e_j in each five-coordinate block",
+    "L": "selector of the eight nonpivot coordinates",
+    "eta": "pivot entries1/v_j",
+    "pivots_by_carrier0_to5": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      0
+    ]
+  },
+  "physical_refined_line_frames": {
+    "nu": "product_i (y_i/x_i)^mask_i; coherent common base line frame",
+    "U0_column_scalings": "(nu^-2 I5,1,nu^-2,nu^2 I8)",
+    "U1_column_scalings": "(I8,nu^2 I2)",
+    "inverse_rows": "reciprocal scalings",
+    "gamma_mask0": "0",
+    "gamma_mask1": "dx/[x(x^2-1)]",
+    "gamma_mask1_infinity": "-t dt/(1-t^2)",
+    "moving_frames_differentiated": true,
+    "nu_is_not_differentiated_as_constant1": true
+  },
+  "connection_blocks": "B_i=-(d U_i)U_i^-1-diag(k gamma_i); every physical derivative and frame term retained",
+  "theta_pair": "theta_a=q_a,ij/2, theta_b=q_b,ij/2",
+  "wedge": "tr(B_i,a B_j,b-B_i,b B_j,a)",
+  "linear": "k*(theta_a tr(B_i,b+B_j,b)-theta_b tr(B_i,a+B_j,a))",
+  "scalar": "sum_blocks(supertrace_sign*(wedge+linear))/4-15*q_a,ij*q_b,ij/8",
+  "identity": "delta s_raw=(15/4)q_a cup q_b-tr(C_p)/2=F_p",
+  "whole_Rraw_components": [
+    "complete M0 tracefree",
+    "F_q k_p,ik",
+    "F_p k_q,ik",
+    "E_p(s_raw,q)",
+    "E_q(s_raw,p)"
+  ],
+  "M0_kinetic_term_count": 7,
+  "M0_negative_gerbe_term_count": 3,
+  "raw_source_owner_scope": "each scalar edge uses its two actual owners; full Rraw uses the same three source owners, no inner inserted labels",
+  "source_specific_JTSH_symmetry_proved": false,
+  "historical_source_value_identified": false,
+  "future_required_implementation": "source-faithful complete cleared raw-s / complementary-derivative coefficient program in physical homogeneous frame",
+  "physical_source_evaluated": false,
+  "physical_execution_authorized": false
+}

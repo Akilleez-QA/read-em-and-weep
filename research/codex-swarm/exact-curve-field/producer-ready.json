@@ -1,0 +1,42 @@
+{
+  "worker": "RF01",
+  "status": "producer-ready-artificial-only",
+  "owned_scope": "research/codex-swarm/exact-curve-field/",
+  "scope": "Generic exact four-axis elliptic field arithmetic, moving-frame invariant derivations, single-basis inverse, certified rational-x Laurent coefficient extraction, shared fail-closed execution accounting.",
+  "physical_use": "Must be gated by source caller; no model/catalog route, source-specific objects, admission, physical execution, or source JSON evaluation.",
+  "hash_algorithm": "sha256",
+  "bundle_hash_definition": "SHA256 of sorted lines: <file_sha256>  <relative_name>\\n; excludes producer-ready.json to avoid self reference",
+  "bundle_sha256": "dfd6e32864e5739c65600f58da6b91261c3cd3c60dd0f43d8ec63d81f413c7a7",
+  "files_sha256": {
+    "README.md": "27e377280daffc39656bba3a3c6aaf2b2667e2d325947a813f9237b7ca4f6fd4",
+    "field.py": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+    "proof.md": "9aaf3ae3db640cd82959ff800ed8023f124ce93c276043959f470866c5fa23f0",
+    "run_tests.py": "1954cef036157f5ae35378b2f4499784aa6527bd9d7357e0676e0696b7d06906",
+    "test_field.py": "18b8d46be3ec614a9e70276f317eb58b54f4b08a14c67084e01ffb83d1e97537"
+  },
+  "payload_file_count": 5,
+  "total_producer_file_count": 6,
+  "tests": {
+    "kind": "artificial only",
+    "command": "python -B research/codex-swarm/exact-curve-field/run_tests.py",
+    "passed": 13,
+    "failed": 0,
+    "basis_product_cases": 256,
+    "basis_inverse_cases": 16,
+    "limits": {
+      "address_space_bytes": 805306368,
+      "cpu_seconds": 59,
+      "wall_seconds": 60
+    }
+  },
+  "unsupported": [
+    "general nonmonomial y inverse",
+    "matrix operations"
+  ],
+  "reserved_files_untouched": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "git_used": false,
+  "writes_outside_owned_scope": false
+}

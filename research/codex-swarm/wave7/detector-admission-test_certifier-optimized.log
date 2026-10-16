@@ -1,0 +1,17 @@
+test_complete_actual_symbolic_envelope_without_unrolling (__main__.Controls.test_complete_actual_symbolic_envelope_without_unrolling) ... ok
+test_complete_fictional_height_operations_and_lifetime (__main__.Controls.test_complete_fictional_height_operations_and_lifetime) ... ok
+test_exact_candidate_is_blocked_not_nofit (__main__.Controls.test_exact_candidate_is_blocked_not_nofit) ... ok
+test_global_cap_and_output_before_free (__main__.Controls.test_global_cap_and_output_before_free) ... ok
+test_outer_structural_reductions_are_cardinalities_only (__main__.Controls.test_outer_structural_reductions_are_cardinalities_only) ... ok
+test_retained_output_and_duplicate_ids (__main__.Controls.test_retained_output_and_duplicate_ids) ... ok
+test_rf_actual_input_metadata_and_lex_degree_control (__main__.Controls.test_rf_actual_input_metadata_and_lex_degree_control) ... ok
+test_rf_executable_recurrence_bounds_artificial_kernel (__main__.Controls.test_rf_executable_recurrence_bounds_artificial_kernel) ... ok
+test_rf_observed_height_includes_high_degree_exponents (__main__.Controls.test_rf_observed_height_includes_high_degree_exponents) ... ok
+test_transitive_dependencies_refuse_same_AST_mutations_without_execution (__main__.Controls.test_transitive_dependencies_refuse_same_AST_mutations_without_execution) ... ok
+test_unknown_height_or_dropped_cost_refuses (__main__.Controls.test_unknown_height_or_dropped_cost_refuses) ... ok
+test_unknown_state_or_physical_status_never_admits (__main__.Controls.test_unknown_state_or_physical_status_never_admits) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.150s
+
+OK

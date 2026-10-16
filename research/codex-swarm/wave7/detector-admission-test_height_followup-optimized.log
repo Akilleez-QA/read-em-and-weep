@@ -1,0 +1,11 @@
+test_01_poly_empty_cancellation_and_large_degree (__main__.HeightFollowup.test_01_poly_empty_cancellation_and_large_degree) ... ok
+test_02_exponent_carry_and_partial_integer_observation (__main__.HeightFollowup.test_02_exponent_carry_and_partial_integer_observation) ... ok
+test_03_rational_zero_equal_and_unequal_denominators (__main__.HeightFollowup.test_03_rational_zero_equal_and_unequal_denominators) ... ok
+test_04_rational_composition_propagates_bounds (__main__.HeightFollowup.test_04_rational_composition_propagates_bounds) ... ok
+test_05_unrelated_historical_peak_requires_inherited_maximum (__main__.HeightFollowup.test_05_unrelated_historical_peak_requires_inherited_maximum) ... ok
+test_06_frozen_metadata_regenerates_and_route_is_separate (__main__.HeightFollowup.test_06_frozen_metadata_regenerates_and_route_is_separate) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.045s
+
+OK

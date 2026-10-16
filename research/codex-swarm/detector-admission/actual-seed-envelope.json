@@ -1,0 +1,28 @@
+{
+  "schema": "actual-seed-envelope-v1",
+  "model_constant_leaf_envelope": {
+    "terms": 2401,
+    "degree": 6,
+    "bits": 16
+  },
+  "outer_N54_legal29": {
+    "carrier_M": 107,
+    "carrier_T": 535,
+    "max_L": 2671,
+    "max_first_hit_slots": 5,
+    "max_multinomial_bits_upper": 8014,
+    "proof": "multinomial(L;n)<=5^L<=2^(3L); bit length<=3L+1; L<=2671",
+    "carrier_binomial_bits_upper": 108,
+    "legal_M": 57,
+    "legal_binomial_bits_upper": 58,
+    "power_exponent_upper": 2671
+  },
+  "common_seed_envelope": {
+    "terms": 2401,
+    "degree": 6,
+    "bits": 8014
+  },
+  "scope": "bounds on literal inputs/constants only, before any actual RF arithmetic; multiplying/restricting requires rf_bounds recurrences over the complete source graph",
+  "complete_root_bound_instantiated": false,
+  "physical_coefficients_evaluated": false
+}

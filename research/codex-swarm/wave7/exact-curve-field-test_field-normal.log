@@ -1,0 +1,18 @@
+test_all_basis_products_and_inverses (__main__.ArtificialFieldTests.test_all_basis_products_and_inverses) ... ok
+test_artificial_nu_inverse (__main__.ArtificialFieldTests.test_artificial_nu_inverse) ... ok
+test_bad_quotient_never_support_zero (__main__.ArtificialFieldTests.test_bad_quotient_never_support_zero) ... ok
+test_curve_and_derivation (__main__.ArtificialFieldTests.test_curve_and_derivation) ... ok
+test_distinct_derivations_commute (__main__.ArtificialFieldTests.test_distinct_derivations_commute) ... ok
+test_exact_multivariate_cancel (__main__.ArtificialFieldTests.test_exact_multivariate_cancel) ... ok
+test_immutable_and_cross_execution (__main__.ArtificialFieldTests.test_immutable_and_cross_execution) ... ok
+test_leibniz_moving_frame (__main__.ArtificialFieldTests.test_leibniz_moving_frame) ... ok
+test_mixed_jets (__main__.ArtificialFieldTests.test_mixed_jets) ... ok
+test_quotient_derivative (__main__.ArtificialFieldTests.test_quotient_derivative) ... ok
+test_shared_counter (__main__.ArtificialFieldTests.test_shared_counter) ... ok
+test_tiny_storage_step_and_bit_caps (__main__.ArtificialFieldTests.test_tiny_storage_step_and_bit_caps) ... ok
+test_zero_and_validation (__main__.ArtificialFieldTests.test_zero_and_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.106s
+
+OK

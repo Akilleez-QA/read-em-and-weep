@@ -1,0 +1,70 @@
+{
+  "schema": "wave7-external-byte-readback-v1",
+  "files": [
+    {
+      "bytes": 9120,
+      "commit": "b0b64de24a5545c94c9520ba0fcb1099dad908e7",
+      "git_blob": "a9893a70ba1172aba50f8fca646ac3c98a4cb681",
+      "path": "research/hm/null-source-integration/exact-field-review/review-independent.md",
+      "sha256": "12aa6aa83a2c716e4772440b12120208128586b96611d7ca900f938bfa7416cd",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 6140,
+      "commit": "b0b64de24a5545c94c9520ba0fcb1099dad908e7",
+      "git_blob": "e114853800feb02ec709f63aa75712b4e4fa7551",
+      "path": "research/hm/null-source-integration/exact-field-review/test_independent.py",
+      "sha256": "848340d982b6ecdb4ef165085919b91cb887257084b38e05e4b03d47996a94bc",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 1053,
+      "commit": "b0b64de24a5545c94c9520ba0fcb1099dad908e7",
+      "git_blob": "0079c1242208c26d21b07f7cdb1640ad20926876",
+      "path": "research/hm/null-source-integration/exact-field-review/test_factory_regression.py",
+      "sha256": "74c729f8eff58ecfcbb93221acc27e391c85fe62320c07d7470b94fa64a1f4c7",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 18091,
+      "commit": "f6f09d6167d8397dfe456d4144d70523090a1384",
+      "git_blob": "c36f0ed0ad7fbb077b2d7c48451c245f42168ae1",
+      "path": "research/hm/null-source-integration/raw-primitive-replacement-review/REVIEW.md",
+      "sha256": "ae6156df3f7788bc84cd9e202c18a303500a39e6f3efb9347a0c4018165bb378",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 17602,
+      "commit": "f6f09d6167d8397dfe456d4144d70523090a1384",
+      "git_blob": "18cd491f96ceb3c8426f4d36ee3eb0530e983739",
+      "path": "research/hm/null-source-integration/raw-primitive-replacement-review/test_bi01_independent.py",
+      "sha256": "e73abdfcb6564f243763f8b149207160e852f6126ccabfd9dd59950e93547fe5",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 1053,
+      "commit": "23bffa822566ff98b0e7ff4c6c63b266827b7aaa",
+      "path": "research/hm/null-source-integration/exact-field-review/test_factory_regression.py",
+      "sha256": "74c729f8eff58ecfcbb93221acc27e391c85fe62320c07d7470b94fa64a1f4c7",
+      "github_bytes_match": true,
+      "git_blob": "0079c1242208c26d21b07f7cdb1640ad20926876"
+    },
+    {
+      "bytes": 9879,
+      "commit": "4c717fac2fd13bcc92940d400604640fd267cabc",
+      "git_blob": "756385e0bcb7d71c35ef4e9b2aaba36816b4cdcd",
+      "path": "research/hm/null-source-integration/detector-realization-review/review-independent.md",
+      "sha256": "e30810573bed496a3fcee4327c8a14d1a7005fbe960dfc74bb82396404a9e4b1",
+      "github_bytes_match": true
+    },
+    {
+      "bytes": 5629,
+      "commit": "4c717fac2fd13bcc92940d400604640fd267cabc",
+      "git_blob": "12fdcf6c8499e389014956b2ae4d4c00d36431ec",
+      "path": "research/hm/null-source-integration/detector-realization-review/test_literal_independent.py",
+      "sha256": "6574f4b720a26572a729c056fac24ac12d5181ca4abf8dd6e1fc8a376526d42b",
+      "github_bytes_match": true
+    }
+  ],
+  "physical_source_evaluated": false
+}

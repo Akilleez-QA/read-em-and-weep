@@ -4,6 +4,8 @@ The obstruction is **undecided**. All 36 first-wave identities have returned a b
 
 Current published dependencies and portable reproduction boundaries: [SOURCE_INVENTORY.md](SOURCE_INVENTORY.md).
 
+Latest wave: [PR89](https://github.com/Akilleez-QA/read-em-and-weep/pull/89) supplies the reviewed raw/N14 GLOBAL class reduction, concrete dormant request30 arithmetic and prospective logical resource envelope. See the Seventh-wave section below. Physical byte/unit/current-ledger admission and actual values remain held.
+
 Focused review units: [PR85: reviewed source compilation wave](https://github.com/Akilleez-QA/read-em-and-weep/pull/85), [PR84: seed12/30 v5 binding](https://github.com/Akilleez-QA/read-em-and-weep/pull/84), [PR83: explicit32 weighted tests](https://github.com/Akilleez-QA/read-em-and-weep/pull/83), [PR81: minimal complete scalar family](https://github.com/Akilleez-QA/read-em-and-weep/pull/81), [PR82: selector pruning](https://github.com/Akilleez-QA/read-em-and-weep/pull/82). [PR80](https://github.com/Akilleez-QA/read-em-and-weep/pull/80) retains the shared registry, complete report history and source-demand tools. These extracted proof subsets share the same proof bytes; they are not additional independent implementations.
 
 ## Sixth-wave full-source application
@@ -112,3 +114,24 @@ These bindings do not enumerate the full carrier/mask/standard/source-permutatio
 5. Produce an authenticated nonzero **assembled** detector value, or evaluate a separating scalar family on the complete class, or provide an explicit boundary witness.
 
 GitHub is the shared delivery record. Working files and CLI transcripts are staging, not external evidence; pertinent reusable artifacts are published here with their source, review state, and limits.
+
+
+## Seventh wave: raw class reduction and concrete held detector
+
+[PR89](https://github.com/Akilleez-QA/read-em-and-weep/pull/89) adds an independently reviewed exact rational curve-field kernel, source-boundary reduction and literal request30 implementation. The RF receiving-context defect was found independently and repaired before acceptance; the original failure/report remains published. AC's independent auxiliary exponent-height finding and its disposition are retained in its review history.
+
+For actual additive currents L, the explicit B_p satisfies E_p(delta f)=delta B_p(f). The scalar raw and N14 primitives differ by delta f on the same acyclic common cover. The completed source changes by an explicit boundary, and the resolution comparison gives the SAME global class and all32 weighted detector values. This is a source-specific simplification: the future raw implementation omits the entire inner N14 solver. Each representative must separately satisfy its admitted outer domain; the proof does not run finite Pi on an uncontrolled comparison primitive.
+
+The literal raw request30 implementation retains all seven kinetic and three gerbe terms, both Fk terms, both E terms, original-row inclusion/transposition, original J2 order, all24 outer staircases and complete weighted sum before exact Laurent division. It selects X13[5,0]+X02[1,3]+X02[4,2], exponent(-1)^4, output80. One authenticated nonzero decides nonvanishing; one zero does not decide vanishing. The public actual_route30 always refuses. There is no admitted dispatcher and no implementation of the remaining31 requests.
+
+Structural partition identities reduce potential syntactic assignments from195689447424 to5898240, without asserting occupied support, nonzero terms or actual cost. The complete prospective symbolic envelope tracks RF operation counts, coefficient/exponent heights and logical retain-all storage. Physical byte layout/scratch, accounting-unit reconciliation and current shared spending/reservations/allocation authority remain unresolved; the route stays BLOCKED. Historical held allowances are not current free budgets.
+
+Historical protocol deviation: two draft tests instantiated the same96 physical metadata labels (192 objects total) before the owner helper was guarded. This crossed the owner-iteration hold. The exact receipt and repair are published; no actual field, source coefficient, jet or fiber value was computed on those labels. Current cardinality controls use formulas under a poisoned owner constructor.
+
+Next ownership: AC/resource authority must reconcile the actual byte metric and current all-worker ledger; source/runtime must implement a genuinely admitted dispatcher only after that reconciliation. Null retains source-specific symmetry and historical-source comparison. The raw-only physical value-sharing note is a future optimization proposal, unused by the current literal program or cost envelope. Actual detector values and the obstruction verdict remain **undecided**.
+
+Null additionally found a replay-binding defect: AST-size checks did not authenticate all transitive SR local dependencies. The frozen mathematical inputs were correct, but a same-size ordering-sign mutation could pass envelope regeneration. The repaired standalone certificate authenticates all10 declared SR local dependencies before AST processing. Final replay authenticates the exact21-file SR/AC union and three immutable source objects before and after controls; separate independent mutation controls accept this repair. The finding, original snapshots and acceptance remain preserved. This does not turn logical storage into a physical byte certificate.
+
+Seventh-wave final replay:121 controls/mode (normal and -O),242 total in24 bounded children; frozen source/test/review/dependency hashes match before and after. All controls are artificial or byte/metadata authentication. The final exact GitHub receipt is linked from PR89 wave7/README.
+
+Published source snapshot `e93cf712f9da4926a8450cc870ed45a7bfc379ab` was read back from PR89 exactly: **100 changed artifacts,1113482 bytes match**. `wave7/github-readback.json` records every path/blob/SHA256; `wave7/replay-receipt.json` records the frozen121-per-mode replay. Later receipt/registry edits carry no source changes.

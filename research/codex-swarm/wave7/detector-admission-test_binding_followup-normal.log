@@ -1,0 +1,17 @@
+test_01_clean_byte_only_rebuild (__main__.BindingFollowup.test_01_clean_byte_only_rebuild) ... ok
+test_02_same_AST_parity_change_rejected (__main__.BindingFollowup.test_02_same_AST_parity_change_rejected) ... ok
+test_03_each_declared_dependency_corruption_before_AST (__main__.BindingFollowup.test_03_each_declared_dependency_corruption_before_AST) ... ok
+test_04_each_declared_dependency_missing_before_AST (__main__.BindingFollowup.test_04_each_declared_dependency_missing_before_AST) ... ok
+test_05_SR_marker_and_own_byte_drift_rejected (__main__.BindingFollowup.test_05_SR_marker_and_own_byte_drift_rejected) ... ok
+test_06_runner_exact_snapshot_and_drift (__main__.BindingFollowup.test_06_runner_exact_snapshot_and_drift) ... ok
+test_07_runner_omission_extra_path_digest_rejection (__main__.BindingFollowup.test_07_runner_omission_extra_path_digest_rejection) ... ok
+test_08_runner_symlink_escape_rejected (__main__.BindingFollowup.test_08_runner_symlink_escape_rejected) ... ok
+test_09_authenticated_manifest_malformed_records_refused (__main__.BindingFollowup.test_09_authenticated_manifest_malformed_records_refused) ... ok
+test_10_actual_route_certificate_reaches_same_transitive_guard (__main__.BindingFollowup.test_10_actual_route_certificate_reaches_same_transitive_guard) ... ok
+test_11_runner_declared_union_and_immutable_records (__main__.BindingFollowup.test_11_runner_declared_union_and_immutable_records) ... ok
+test_12_runner_actual_local_union_bytes_only (__main__.BindingFollowup.test_12_runner_actual_local_union_bytes_only) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.092s
+
+OK

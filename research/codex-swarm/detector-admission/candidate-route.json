@@ -1,0 +1,114 @@
+{
+  "schema": "specified-detector-route-v1",
+  "route_id": "request30-complete-signed-outer-J2-v1",
+  "weighted_request": {
+    "base_monomial": [
+      0,
+      0
+    ],
+    "block": "v_k v_l",
+    "id": 30,
+    "scalar_map": {
+      "b": 0,
+      "i": 5
+    },
+    "terms": [
+      {
+        "coefficient": 1,
+        "dual_monomial": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "laurent_exponents": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "output_index": 80
+      }
+    ]
+  },
+  "selection_criterion": "unique one coefficient root only; not physical cost optimality",
+  "required_frame": "original frame, deck product removed, internal degree -2 factor tau^-4",
+  "scalar_selector": "X13[5,0]+X02[1,3]+X02[4,2]",
+  "signed_staircases": 24,
+  "full_owner_fibers": 5,
+  "fiber_cardinality": 96,
+  "unpruned_indexed_projection_summands": 195689447424,
+  "J2_face_words_per_tuple": 20,
+  "J2_formula": "-H_-1 delta H_0 delta j Rsharp",
+  "whole_source_terms": [
+    "M0tf",
+    "Fq kp",
+    "Fp kq",
+    "Ep(Tq Fq)",
+    "Eq(Tp Fp)"
+  ],
+  "outer_weight": "product of all five owned rho(carrier54,legal29)",
+  "coefficient_equation": "e_J=kappa-sum_j alpha_j; complete finite convolution with source parity and original ordered row-End frame",
+  "inner_solver": "Hrho+R(K Pi+A h S Pi); differentiate complete combined numerator only",
+  "fallback": {
+    "weighted_tests": 32,
+    "terms": 127,
+    "distinct_map_exponent_roots": 121
+  },
+  "index_count_is_physical_cost": false,
+  "source_coefficients_executed": false,
+  "structural_weight_zero_reductions": {
+    "full_index_domain_retained": 96,
+    "legal_only_per_staircase": 7962624,
+    "legal_only_all_staircases": 191102976,
+    "legal_and_generic_carrier_alphabet_per_staircase": 245760,
+    "legal_and_generic_carrier_alphabet_all_staircases": 5898240,
+    "scope": "syntactic necessary carrier/mask predicates from fixed partition definitions; no occupied support/nonzero/physical operation count",
+    "carrier_alphabet_sizes_by_popcount": [
+      2,
+      3,
+      4,
+      5,
+      2
+    ]
+  },
+  "algorithm_variants": [
+    {
+      "id": "complete-TN14-source",
+      "status": "mathematical definitions available; actual coefficient primitive/cost unknown",
+      "inner_solver": "Hrho+R(K Pi+A h S Pi); differentiate complete combined numerator only"
+    },
+    {
+      "id": "raw-transgression-primitive",
+      "status": "BI same-global-class/domain theorem independently accepted ba646df96; literal SR program/control envelope under independent review",
+      "possible_saving": "remove all inner N14 partition sums; outer weighted detector unchanged",
+      "not_claimed": [
+        "generic zero",
+        "historical source equality",
+        "automatic54-domain",
+        "physical cost optimality"
+      ],
+      "inner_solver": "explicit fresh raw transgression scalar; no inner N14 sums",
+      "raw_scalar_domain": {
+        "carrier": 14,
+        "legal": 1,
+        "extra_standard_5250": false
+      },
+      "raw_current_domain": {
+        "carrier": 15,
+        "legal": 2
+      },
+      "raw_source_domain": {
+        "carrier": 32,
+        "legal": 18
+      },
+      "common_J3_domain": {
+        "carrier": 54,
+        "legal": 29
+      },
+      "comparison_scope": "same32 global cohomology outputs, not pointwise source identity; individually admitted representatives suffice without comparison primitive54-cutoff"
+    }
+  ],
+  "preferred_variant": "raw-transgression-primitive",
+  "preferred_variant_acceptance": "BI class/domain theorem independently accepted ba646df96; literal SR raw realization and AC control envelope require separate independent acceptance; no physical release"
+}

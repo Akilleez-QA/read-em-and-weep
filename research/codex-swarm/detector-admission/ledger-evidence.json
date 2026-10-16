@@ -1,0 +1,105 @@
+{
+  "schema": "published-resource-evidence-v1",
+  "command": "gh issue view 1 --repo Akilleez-QA/read-em-and-weep --json number,title,body,comments",
+  "searched_scope": {
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "issue_or_pr": 1,
+    "comments_returned": 326,
+    "readback_payload_sha256": "11d7d65c946dee5ef1613bcdc624f4a311c3865648181421546ccda5ae4521c3",
+    "search_terms": [
+      "149",
+      "294117",
+      "2097152",
+      "ledger_id",
+      "spent",
+      "remaining reservations",
+      "live allocations",
+      "authoritative"
+    ],
+    "not_claimed": "universal absence outside this returned PR1 scope",
+    "issue_body_searched": true,
+    "issue_body_sha256": "fe6505f7791358d62feb7465ca1ead404ee3df68e973eb064fa4a5dbffdeb5ac",
+    "first_returned_comment": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6093415611",
+    "last_returned_comment": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6213072026"
+  },
+  "historical_held_allowances": {
+    "nonconstant_products": 149,
+    "unallocated_bytes": 294117,
+    "protected_reserve_bytes": 2097152,
+    "current_authority": false,
+    "reserve_addable_to_scratch": false,
+    "current_spent_or_live_measurements": false
+  },
+  "published_evidence": [
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6141973934",
+      "body_sha256": "46b7de44c3dcdf4c9da3f77dac59a673e84fefd0b7f5e676c3b8fe34c0af89fa",
+      "lines": [
+        "The source-specific joint moments and exact sparse selectors below replace a full End-matrix construction target. I retain static end-to-end circuit/resource assessment; please review the four-tail reduction and owned-denominator argument. No numerical coefficient, obstruction value, witness run, or budget release is claimed. The109-product schedule covers only43 moment numerators; total feasibility within149 products remains unresolved. The legal-line proof follows the source plan.",
+        "Across primary carriers1..4 there are47 permitted moments including the four empty ones, hence43 nonempty numerator formulas. Fifteen have |S|=j and elementary factor1. The other28 involve elementary factors, with14 genuinely nonmonomial distinct bases on proper complements. These formulas provide a concrete reuse target, not yet a complete operation ledger.",
+        "The held execution limits remain149 nonconstant products and294117 unallocated bytes; the2097152-byte protected reserve is untouched. No held polynomial arithmetic or alternate scalar/jet sampling was executed for this note.",
+        "There is an explicit algebraic circuit design, but no complete certified operation/memory ledger for it yet. Its layers are:",
+        "These numbers are **not lower bounds**, and an upper bound above149 does not prove that a better circuit is impossible. They also are not an end-to-end upper bound: source-feature generation, common-denominator conversion, carrier weights, selector products, coefficient extraction, and peak storage remain to be costed.",
+        "This is a checkable upper bound of109 nonconstant products for **only the43 nonempty moment numerators**. It does not construct H_j, the empty-moment numerators, normalized residual features, source selectors, outer transport weights, or any final coefficient. It assumes no preexisting polynomial values and was derived without executing the schedule. Further reuse may improve it. It is not a complete149-product contract, and its unimplemented data layout is not a certified294117-byte transient bound.",
+        "The precise next bounded task is a static circuit/support/degree interpreter for these four tails and three dual contractions. It should record each prospective nonconstant product, reuse and denominator normalization; propagate only supports and degree bounds; and output a proposed operation ledger and transient byte certificate before any source polynomial values are generated. If that proposed contract cannot certify both held limits, it must return the exceeded resource and the certified bound rather than execute. Renaming the work as scalar sampling or jet arithmetic does not change this requirement."
+      ]
+    },
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6142342077",
+      "body_sha256": "5932c557d5e655118be1b70c7351b89c6799908895911fcfe9ec265cc98cb472",
+      "lines": [
+        "Mr. slop / high school diploma: the specific review target is the homogeneous numerator envelope, owned-factor quotient, and finite-frame exponent equation. I retain the selected-source circuit and complete execution ledger. The source/support bounds are upper envelopes, never required storage or lower bounds. No obstruction coefficient was evaluated and the149-product/294117-byte gate remains held. Full derivations follow.",
+        "These are a proposed algorithm's arithmetic and layout bounds, not a supervisor-certified runtime allocation or permission to execute. The preparation consumes70 products if executed as written, leaving at most79 of the held149 for all other stages. That observation is not a lower bound for any alternative algorithm.",
+        "A concrete unoptimized contraction of already supplied four-entry features has the frozen note's4686-product upper bound before the stages above. That particular bound fails the held149-product preflight; it does not prove universal infeasibility. The static70-product preparation is a real reduction but does not repair this missing end-to-end contract.",
+        "These are mathematical support bounds and a prospective exact algorithm, not an executable cost certificate. No source polynomial, coefficient value, residual, sample, jet, partition expansion, or geometric oracle was computed. Integer calculations below count support boxes and formal index sets only. The held 149 products, 294117 unallocated bytes, and untouched 2097152-byte reserve are not released by this note.",
+        "- q=4: active `[-6434,622]`, `[-5122,2497]`, `[-3186,6869]`, `[-626,14986]`.",
+        "The huge safe boxes do not show that all those coefficients are required. They do not establish an algorithm-independent lower bound or impossibility under149 products/294117 bytes. Conversely, the fact that only nine scalar outputs are sought does not establish a small intermediate cost. Obligation3 now has a finite, source-based exponent-demand construction and exact outer-division witnesses; approval of an end-to-end execution still depends on the source DAG and the measured schedule and memory obligations."
+      ]
+    },
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6142890819",
+      "body_sha256": "e8836dc4dbc8537172841358ac156db35143f0d8ef1c37af41eaf393b4af0326",
+      "lines": [
+        "This is a formula-level alternative, not an executable improvement: it requires a new resource preflight. No polynomial values, partition expansions, jets, residual evaluations, or new second-order source were generated. The held 149-product / 294117-byte execution allocation and reserve are untouched.",
+        "Before execution, a fresh static contract must price the rank-two F circuit, the scalar regularization and Laurent splitting, any derivative-compatible representation of the resulting scalar, and the downstream comparison. It must certify at most 149 products and 294117 unallocated bytes with the reserve untouched, or stop and report its certified prospective bounds. Nothing in this note authorizes an expansion or a residual/jet/sample calculation.",
+        "The transition-only first-lift alternative removes the four-block splitting trace at the formula level. Its raw scalar input on carrier triple123 and coordinate pair12 was tested by two explicit metadata-only rational circuits. Both refuse the fresh prospective multiplication150 under the held149-product cap. Neither completes F123,12.",
+        "- a non-adjustable149 prospective nonconstant-product gate, refusing the next fresh multiplication before insertion;",
+        "It reserves149 prospective products and refuses operation150 at the first `L00 R00` trace product for coordinates1,2. The receipt contains328 metadata nodes. Completed metadata outputs are the gerbe term, `L_1[0,0]` on edge23, and `R_2[0,0]` on edge12. F itself is incomplete.",
+        "It also reserves149 prospective products and refuses operation150, now in the numerator product for `R_2[1,0]` on edge12, contraction index1. The receipt contains335 metadata nodes. It completes the gerbe, `L_1[0,0]`, `R_2[0,0]`, and `L_1[0,1]` metadata, progressing past the first diagonal trace contribution. F remains incomplete.",
+        "The raw-F mathematical formula and its determinant normalization are explicit. The tested conservative polynomial-numerator circuits still cannot be approved under the149-product contract. A different arithmetic representation, further proved current/trace identities, or a bounded coefficient-demand scheme would need a fresh complete prospective operation and memory certificate. These receipts do not identify a minimal larger budget or rule out a cheaper algorithm.",
+        "No further variant, larger metadata cap, source evaluation or numerical release is part of this handoff. The held294117-byte unallocated cap and2097152-byte protected reserve remain unchanged.",
+        "Only closed-form support, degree, and integer cardinality metadata were derived. No source numerator, residual, partition expansion, coefficient value, jet, or sample was generated. The 149-product / 294117-byte gate and reserve remain unchanged.",
+        "1. An exact source numerator circuit and denominator-normalization ledger. A bound on P does not construct it; the raw rank-two F metadata probe is only an initial subproblem.",
+        "A dense full-support implementation would be unjustified under the present byte cap; the envelope alone does not prove that every sparse, streamed, or differently represented implementation fails. Nor does a finite formula provide a product count. Stop at metadata until the complete149-product /294117-byte contract passes.",
+        "PRODUCT_CAP=149"
+      ]
+    },
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6209479069",
+      "body_sha256": "6401c9866e373d2072cc3695a85caad5c2c0e889cb99d438074de501680cac90",
+      "lines": [
+        "**Open dependency / next owners:** Codex retains integration of the remaining demand compilation and minimal scalar route; null retains seed4 coverage/source integration and its fresh-consistent ordering audit. Before any physical run, resource integration needs the authoritative current global ledger/cap identity, actual spending, outstanding commitments and live allocations; historical allowances are not measurements or per-worker resets. No private machine configuration is requested for publication\u2014an agreed shared arithmetic contract and receipts are sufficient. Source workers still need the combined regularized derivative/pole certificate. Current obstruction verdict: **undecided**."
+      ]
+    },
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6211331726",
+      "body_sha256": "f7b9f78a9367f53670f3cff1668e69fc03a3016bfddcc7ce8f2d0045bdef7c71",
+      "lines": [
+        "**Accepted CLR01 / CLR-R2 + separate V01 degree audit:** actual finite F12 source is represented as b12\u22121/4 tr(K_ca(T_bc,0 T_ab,1\u2212T_bc,1 T_ab,0)), with physical Q=mask*rf*sigma and distinct gerbe q=(maskdiff)/x, preserving both endpoint Q terms and b\u2019s15/4 coefficient. Uniform H\u00b2 primitive clearing covers all six carriers; the factored numerator has carrier ledger(5,6,5) and pair-legal1 and clears by C_u C_v C_w (H14). The coefficient-free217/210 degree proof accounts for exceptional finite-degree slack and critical covariant leading cancellation; no physical leading coefficient was evaluated. Eight seed12/30 E34 branches bind four combined N_ab edges retaining complete B, first-prism Z and second-prism \u2212C_a Z padding, then one derivative.17 tests pass normally and under-O, with wrongQ/order/trace/endpoint negative controls. **Physical homogeneous/infinity-frame identification and executable complete B/inner quotient coefficient circuits remain unproved.** This is not global Laurent admission or an F34/full-baseline certificate.",
+        "**Accepted CO01 / CO-R:**32 tests,127 terms,121 distinct(map,exponent) demands and six identical-coordinate reuses. Twelve tests pass in each mode, including independent synthetic weighted-value reconstruction. Formal DAG sharing is scoped by full occurrence owners/map/exponent/branch/frame; actual costs/occupied support remain UNKNOWN. No current ledger authority, spending/live-allocation/commitment reconciliation or physical schedule is fabricated. No new pool is granted.",
+        "**Next exact obligations:** CLR/source owners must prove equality of the finite homogenization with the intended physical homogeneous source and realize the COMPLETE standard B and inner quotient coefficient circuits; extend actual clearing to both required scalar pairs/full baseline. SC/TR must attach complete corrected-source/scalar-equation/J0\u2013J3 closure and whole-standard-extension witnesses to the already compiled family operator. CO must then consume the actual coefficient-demand grammar, prove operation/live-storage upper bounds and reconcile the authoritative current shared ledger before any physical run. Null retains its support contracts and carrier-block comparison; no duplicate theorem or full historical-source identification is asserted."
+      ]
+    },
+    {
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6213072026",
+      "body_sha256": "a12b2ed0b152f5d316eaafee8dfea7807328802adbc1f87299cec5c04745075d",
+      "lines": [
+        "**75 focused controls pass normally and under-O**; each replay child has768MiB address-space,59CPU/60wall limits. Exact log/test/producer hashes are in wave6/controls-receipt.json. Canonical metadata integration uses one explicit RS triple and one six-owner J3 tuple:3471stored AST nodes/209,608serialized bytes and2584/412,115 respectively;120facewords/20tailbindings. Descriptor bytes/AST counts and per-Ring caps are not physical occupancy/work/peak-memory or aggregate-supervisor certificates. No finished support scan, old generic checker, actual coefficient/jet/fiber arithmetic, new pool or execution release occurred.",
+        "2. CO/resources: total work/height/bit/storage/lifetime certificate, aggregate supervisor and authoritative ledger reconciliation before physical work; no new arithmetic budget.",
+        "prediction: the same-fresh full-source closure/class and conditional full-lift/domain application are now linked; physical realization and aggregate admission remain the next operational gap"
+      ]
+    }
+  ],
+  "current_reconciled_state": null,
+  "release": false
+}

@@ -1,0 +1,15 @@
+test_corrupt_dependency_rejected (__main__.Tests.test_corrupt_dependency_rejected) ... ok
+test_exact_source_pins (__main__.Tests.test_exact_source_pins) ... ok
+test_first_hit_exact_multiplicity (__main__.Tests.test_first_hit_exact_multiplicity) ... ok
+test_full_cancellation (__main__.Tests.test_full_cancellation) ... ok
+test_incomplete_zero (__main__.Tests.test_incomplete_zero) ... ok
+test_partial_not_complete (__main__.Tests.test_partial_not_complete) ... ok
+test_physical_refuses_before_arithmetic (__main__.Tests.test_physical_refuses_before_arithmetic) ... ok
+test_raw_scalar_endpoint_terms (__main__.Tests.test_raw_scalar_endpoint_terms) ... ok
+test_source_corrections_material (__main__.Tests.test_source_corrections_material) ... ok
+test_structural_outer_alphabet (__main__.Tests.test_structural_outer_alphabet) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.606s
+
+OK

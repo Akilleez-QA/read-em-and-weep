@@ -1,0 +1,18 @@
+test_01_frozen_inventory_and_all_dependency_bytes (__main__.Independent.test_01_frozen_inventory_and_all_dependency_bytes) ... ok
+test_02_exact_historical_payload_scope (__main__.Independent.test_02_exact_historical_payload_scope) ... ok
+test_03_independent_catalog_metadata_only (__main__.Independent.test_03_independent_catalog_metadata_only) ... ok
+test_04_symbolic_DAG_and_activation_majorant (__main__.Independent.test_04_symbolic_DAG_and_activation_majorant) ... ok
+test_05_guard_and_canonical_control_AST (__main__.Independent.test_05_guard_and_canonical_control_AST) ... ok
+test_06_two_stage_global_storage_certificate (__main__.Independent.test_06_two_stage_global_storage_certificate) ... ok
+test_07_negative_global_lifetimes_counts_unknowns (__main__.Independent.test_07_negative_global_lifetimes_counts_unknowns) ... ok
+test_08_fraction_normalization_and_rational_bounds (__main__.Independent.test_08_fraction_normalization_and_rational_bounds) ... ok
+test_09_repaired_observed_exponent_height (__main__.Independent.test_09_repaired_observed_exponent_height) ... ok
+test_10_all_sixteen_basis_pairs_and_moving_terms (__main__.Independent.test_10_all_sixteen_basis_pairs_and_moving_terms) ... ok
+test_11_weighted_lex_division_height_and_degree_growth (__main__.Independent.test_11_weighted_lex_division_height_and_degree_growth) ... ok
+test_12_whole_sum_before_division_and_negative_remainder (__main__.Independent.test_12_whole_sum_before_division_and_negative_remainder) ... ok
+test_13_scoped_structural_alphabets_and_blocked_status (__main__.Independent.test_13_scoped_structural_alphabets_and_blocked_status) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 2.286s
+
+OK
