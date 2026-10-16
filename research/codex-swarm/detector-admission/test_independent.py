@@ -113,7 +113,7 @@ class Independent(unittest.TestCase):
         for row in ac['workspace_inputs']+sr['local_dependencies']:
             self.assertEqual(sha((BASE/row['path']).read_bytes()),row['sha256'])
         for row in bi['workspace_dependencies']: pinned_bytes(row)
-        immutable=sr['git_objects']+[ac['immutable_outer_formula_source']]+bi['immutable_dependencies']
+        immutable=sr['git_objects']+[ac['immutable_outer_formula_source']]+bi['immutable_dependencies']+read_json(BASE/'scalar-compiler/source-pins.json')['sources']
         # Deduplicate byte identities, preserving every record's identity check.
         cache={}
         for row in immutable:
@@ -283,6 +283,12 @@ class Independent(unittest.TestCase):
             for e in support:self.assertLessEqual(sum(a*b for a,b in zip(e,w)),K)
             if i:self.assertGreater(trace[i-1][0],lead)
         self.assertTrue(any(e[1]>2 for _,_,_,support in trace for e in support))
+        # Growth beyond BOTH input coordinate degrees, with nonzero remainder.
+        small={(2,0,0,0):Q(3,7)}
+        q2,r2,t2=reference_divide(small,d)
+        got2,rem2=poly(ex,small.items()).divide(poly(ex,d.items()))
+        self.assertEqual(dict(got2.terms),q2);self.assertEqual(dict(rem2.terms),r2)
+        self.assertIn((0,4,0,0),r2)
         # Every lex tail in a divisor box has smaller weighted degree.
         for D in (1,2,3):
             w=((D+1)**3,(D+1)**2,D+1,1);box=list(itertools.product(range(D+1),repeat=4))
@@ -311,15 +317,26 @@ def limits():
     resource.setrlimit(resource.RLIMIT_AS,(LIMIT,LIMIT));resource.setrlimit(resource.RLIMIT_CPU,(59,59))
 
 def main():
-    if '--child' in sys.argv:
-        limits();before=snapshot();suite=unittest.defaultTestLoader.loadTestsFromTestCase(Independent)
+    if '--child' in sys.argv or '--producer-child' in sys.argv:
+        limits();before=snapshot()
+        if '--producer-child' in sys.argv:
+            # Producer metadata helper asks git show for ONE pinned constant
+            # catalog. Supply authenticated read-only bytes without a Git process.
+            row=next(r for r in read_json(BASE/'detector-realization/source-pins.json')['git_objects'] if r['path'].endswith('hm-pinned-model.json'))
+            modelraw=pinned_bytes(row)
+            def byte_only(argv,**kwargs):
+                require(argv==['git','show',row['commit']+':'+row['path']], 'unexpected producer subprocess')
+                return modelraw
+            subprocess.check_output=byte_only
+            suite=unittest.defaultTestLoader.discover(str(HERE),pattern='test_certifier.py')
+        else:suite=unittest.defaultTestLoader.loadTestsFromTestCase(Independent)
         result=unittest.TextTestRunner(verbosity=2).run(suite)
         require(snapshot()==before,'producer changed during child')
         raise SystemExit(0 if result.wasSuccessful() else 1)
     before=snapshot()
     for label,optimized,producer in [('independent-normal',False,False),('independent-O',True,False),('producer-normal',False,True),('producer-O',True,True)]:
         command=[sys.executable,'-B']+(['-O'] if optimized else [])
-        command+=['-m','unittest','discover','-s',str(HERE),'-p','test_certifier.py','-v'] if producer else [str(Path(__file__).resolve()),'--child']
+        command+=[str(Path(__file__).resolve()),'--producer-child' if producer else '--child']
         start=time.monotonic();done=subprocess.run(command,timeout=60,preexec_fn=limits,env=dict(os.environ,PYTHONDONTWRITEBYTECODE='1'))
         require(snapshot()==before,'producer changed during '+label)
         print(json.dumps(dict(suite=label,returncode=done.returncode,wall_seconds=round(time.monotonic()-start,3),address_space_bytes=LIMIT,cpu_seconds=59,wall_limit_seconds=60,marker=MARKER)),flush=True)
