@@ -1,0 +1,44 @@
+{
+  "schema": "source-boundary-analysis-controls-v1",
+  "hard_address_space_bytes": 536870912,
+  "hard_cpu_seconds": 59,
+  "parent_wall_timeout_seconds": 60,
+  "physical_source_evaluated": false,
+  "runs": [
+    {
+      "success": true,
+      "tests": 8,
+      "seconds": 0.40275281600042945,
+      "peak_rss_kib": 18672,
+      "optimized": false,
+      "actual_source_descriptions_constructed": false,
+      "actual_fibers_enumerated": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.4376730430012685,
+      "command": [
+        "python",
+        "-B",
+        "run_controls.py",
+        "--child"
+      ]
+    },
+    {
+      "success": true,
+      "tests": 8,
+      "seconds": 0.40712567000082345,
+      "peak_rss_kib": 18712,
+      "optimized": true,
+      "actual_source_descriptions_constructed": false,
+      "actual_fibers_enumerated": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.4427114600002824,
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "run_controls.py",
+        "--child"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "BI01-producer-review-handoff-v1",
+  "producer": "BI01",
+  "scope": "analytic full-source representative replacement by fresh raw transgression; explicit boundary, not a zero verdict",
+  "tests": {
+    "normal": 8,
+    "optimized": 8,
+    "command": "python -B run_controls.py"
+  },
+  "physical_source_evaluated": false,
+  "actual_fibers_enumerated": false,
+  "physical_execution_authorized": false,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "files": {
+    "boundary.py": "d57b156b07efaa68acc847d7ff59e4271470e34f986da74c179c9fc3d8efaa78",
+    "resolution_boundary.py": "b6347379ef4dfd978eb027ed2eb18a0cbc64c1438532644fcdf47b5eb27fd3f6",
+    "test_boundary.py": "a8cc81b2220b1dc6563949ca10b7a278275b222aaa134a7e543feeff15d2d7a3",
+    "PROOF.md": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7",
+    "README.md": "5e9f720d3af8903587e7a362e973c9ff86943a12932a48cca3f43761bfdf0c65",
+    "run_controls.py": "28ff9c165572900cfbab6c02b08f791eb5a59cf25e81fb16857a7907d31d5e6f",
+    "build_handoff.py": "b98f9ebdc16aca1210322a78a83282c356cb2fadd01092aeaf3f4324275b581a",
+    "source-pins.json": "b1ec29bc10cc893658b17983d1c1fc8738d921bf6d3ed1afdcdb6800572521d6",
+    "actual-raw-s-denotation.json": "9e8108dade2291fed3c58ef6dd39025bf059fbb1af3592922f1925ea42d99989",
+    "analytic-reduction.json": "8fe4e49ce2ecc178138fe13d69579ace92e7581e4679078368ecdbdc23746d96",
+    "controls-receipt.json": "ac20d84d343ac97444acb39e4568b8b29f78cb6b9e4703f6d1a5a99824f7fd9b",
+    "controls-normal.log": "1e5194a5b4e79d924c98fc17c66c2593f291718576685a9586c1a69696e78de8",
+    "controls-optimized.log": "b0c818508fb2c7ceb3ba7b4100ca085fe68a70851dda8a6cae831a367bdc05bf"
+  }
+}

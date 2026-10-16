@@ -1,0 +1,50 @@
+{
+  "schema": "BI01-global-representative-replacement-v1",
+  "explicit_boundary": "E_p(delta f)=delta B_p(f); B_p(f)_ij=((V_b f_i+V_b f_j)L_a-(V_a f_i+V_a f_j)L_b)/2",
+  "full_source_comparison": "R_T-R_raw=delta(B_p(f_q)+B_q(f_p)); s_T-s_raw=delta f by pair H1=0",
+  "global_comparison": "both admitted lifts separately represent their global class; acyclic standard/common cover pullback is quasiisomorphism; no cutoff bound asserted for comparison primitive",
+  "all32_weighted_tests_equal": true,
+  "common_values_computed": false,
+  "additional_standard_boundary_power_for_raw_route": 0,
+  "std0_premise": "actual homogeneous raw-s carrier14/legal1 and derivative15/2 source theorem, with moving physical frames and all restrictions; not an affine-only bound",
+  "raw_source_orders": {
+    "carrier": 32,
+    "legal": 18
+  },
+  "raw_full_lift_orders": {
+    "carrier": 54,
+    "legal": 29
+  },
+  "imported_outer_quotient_local_degree_bounds": {
+    "finite": 6677,
+    "infinity": 2006,
+    "proof_commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+    "proof_path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+    "section": 6
+  },
+  "J2": {
+    "owners": 5,
+    "internal_degree": -2,
+    "whole_numerator_degree_upper": 1781,
+    "finite_exponent_rectangle": [
+      -11815,
+      35166
+    ]
+  },
+  "full_lift_max6_owners": {
+    "owners": 6,
+    "internal_degree": -3,
+    "whole_numerator_degree_upper": 2137,
+    "finite_exponent_rectangle": [
+      -14178,
+      42199
+    ]
+  },
+  "rectangles_are_occupied_support": false,
+  "six_owner_box_applies_to_seven_owner_deltaJ3": false,
+  "nonconstant_product_or_memory_bound_proved": false,
+  "new_execution_budget_issued": false,
+  "physical_source_evaluated": false,
+  "physical_execution_authorized": false,
+  "obstruction_decided": false
+}
