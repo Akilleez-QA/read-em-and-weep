@@ -37,6 +37,23 @@ Focused review units: [PR85: reviewed source compilation wave](https://github.co
 
 Total84 local unittest cases per normal/optimized mode, plus46 separately replayed abstract support controls. All51 published package blobs match reviewed local bytes. Full details, historical reviews, fixed-defect follow-up and next owners are in PR85’s `wave3/` registry. No finished selection or seed4 scan was repeated; no physical source arithmetic or execution release occurred.
 
+## Fourth-wave reviewed physical and coefficient programs
+
+[PR86](https://github.com/Akilleez-QA/read-em-and-weep/pull/86), source artifact commit `9cd60c44f1cc3a732b58dcf1575be5c2539f8f17`, is stacked on PR85 and publishes six producer/reviewer lanes. The prior wave's pending annotations are historical at their reviewed snapshots; the following narrow acceptance supersedes them without issuing physical API capabilities.
+
+| Lane | Accepted scope | Remaining source/application obligation |
+|---|---|---|
+| PH01 / independent CLI PH-R | Actual physical homogeneous F12/F34 identification on all16 charts, using authenticated contraction/model premises; exceptional auxiliary v0 padding, both endpoint connections and inversion/deck signs retained.20 controls per mode. | Bind exact emitted source/oracle and fresh order to that theorem; no physical coefficient evaluated. |
+| STD01 / independent CLI STD-R | Executable complete standard B=R(K Pi+A h S Pi), finite convolution, full owners, derivatives before h predicates, harmonic remainder retained.23 controls per mode. | Actual Pi/Qhat/fiber and source-specific primitive identities; arbitrary closed F is not universally exact. |
+| INS01 / INS-R + CLI fix review + independent edge review | Actual153-node source topology lowered to exact bounded coefficients, complete standard padding, both prisms and derivative of whole N.32 controls per mode. | Source-faithful actual inputs, complete support enclosures and fibers. Provider seed/occurrence/duplicate defect and raw reversed-edge domain defect repaired; original findings preserved. |
+| QH01 / independent QH-R | Bounded first-hit compositions, Cbar/Dbar and owner-specific Qhat frame reversal; actual N14 metadata authenticated.14 controls per mode. | Actual polynomial inputs/fiber application and aggregate multi-owner accounting. Query/split counters share; node/cache/index limits are per ring. |
+| SW01 / independent SW-R | Exact per-owner-degree whole-standard extension implication and non-self-authenticating witness schema; existing source-specific primitive/harmonic-zero theorem traced.13 controls per mode. | Identify the emitted P/Qhat programs and fresh source/order/gerbe/frame/admissible old primitive with the theorem inputs. No harmonic scalar recomputation required. |
+| CO02 / root CO-R | Actual153/4270-node source dependencies,121 demands, scoped syntax sharing and conditional finite-P rational-operation/container bound.13 controls per mode. | Full physical cost/height/bit/bytes/lifetime certificate and authoritative reconciled ledger remain unknown. Conditional finite-P cost is not total family cost. |
+
+Root's isolated bounded replay passes **115 controls per normal/optimized mode**. Null's exact public artificial edge regression at PR79 `93120cfab74e448e7df07268abe6c54031d630db` additionally passes both modes against the fixed code. The prior13 complementary-pair controls replay separately. No detector selection, seed4 scan or physical polynomial/source evaluation was repeated. The original cloud-origin704/5632 scan,512-mask gap certificates and nine-test symmetry derivation are already publicly serialized at PR79 `41de3864f058b645af9987fb3462cc6b8384e6cd`, with full seed4 theorem at `6e28c6b59f8245779f6c03a20798e4de6842ae19`; private staging byte identity is neither claimed nor needed. The temporary contrary availability statement was corrected on PR1 in comment6211773187.
+
+Next owners remain Codex source/interface lanes for source-faithful oracle and standard-extension/primitive binding, SC/TR for complete Rsharp/J0–J3/source-domain closure, null for its independently owned historical-order support, and CO for total resource/ledger certification. Source-specific second-jet symmetry and all assembled complete detector values remain open. Rsharp is undecided; all physical gates stay held. PR86's `wave4/` contains exact pins, reviews, repair history, controls and publication read-back.
+
 ## Corrections and proposal states
 
 - **C09 initial report rejected.** It confused E12 with a matrix entry and reversed standard bits. `Codex-C09-corrected.md` retracts this and binds seeds30–53 to the correction operator and effective positive staircase sign. Formula review remains distinct from a source calculation.

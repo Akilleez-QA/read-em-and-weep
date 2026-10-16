@@ -37,3 +37,5 @@ INS's original review found that custom providers could lose seed/occurrence own
 5. Authenticate an assembled nonzero boundary-annihilating detector, all values in a complete separating family, or an explicit global boundary witness. None is supplied by this wave.
 
 `program-bindings.json` connects six producer markers and47 files to their exact scopes and reviews. Historical review reports describe their own snapshots; later acceptance in this registry supersedes pending annotations only at that narrow scope. All physical execution and global verdict gates remain held.
+
+GitHub read-back at source commit9cd60c44f1cc3a732b58dcf1575be5c2539f8f17 matches **104 changed source/review/control files,5,395,913 bytes** exactly. `github-readback.json` records remote PR86 head, each Git blob, SHA256 and byte count; later registry/read-back-receipt commits preserve those reviewed package bytes.

@@ -1,0 +1,740 @@
+{
+  "execution_release": false,
+  "file_count": 104,
+  "files": [
+    {
+      "bytes": 19,
+      "git_blob": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "bytes": 5909,
+      "git_blob": "058c03d523a365a9490076b28137cd43c1faddc4",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/README.md",
+      "sha256": "0ed34c36c87d437f12f7605f00555c873b351c2a30c4c7bdbde7252c169b18f5"
+    },
+    {
+      "bytes": 1086,
+      "git_blob": "0ddd73567a7f1de05afdb1464b90b3bf499b1540",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/producer-ready.json",
+      "sha256": "8da1b311ea9de9515c6b95a1fd89c5dd4f31430c18b8c130a387f45d4d069a34"
+    },
+    {
+      "bytes": 7228,
+      "git_blob": "bef0397362887467115e5bd78aef534329a19865",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/quotient.py",
+      "sha256": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91"
+    },
+    {
+      "bytes": 6456,
+      "git_blob": "7450edc0fa79fdb657626c8c84d459ce8b9f1553",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/review-independent.md",
+      "sha256": "179815fe82d9a57599a58e25eafbd0fc22b754b58f0859318b1a952b13e45c6a"
+    },
+    {
+      "bytes": 661,
+      "git_blob": "a0dfa9ebf731cab645518ad253ecf2809617b1f5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/source-pins.json",
+      "sha256": "bda2226ce1c4154b3c304da3ce13a98e35985bd9d66f343c45c85973ac6aecce"
+    },
+    {
+      "bytes": 7139,
+      "git_blob": "7b3e120cd2072ec903aa18df234301f95bcfb8f2",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/test_independent.py",
+      "sha256": "7cf0ef1fc45cea2e48c92684c7f0ec9eca42406dd45817f216940ccf8f481d4c"
+    },
+    {
+      "bytes": 3614,
+      "git_blob": "9d17f4113c9448833fec9b82c7a70914c64df0ac",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inner-quotient/test_quotient.py",
+      "sha256": "97e5f68f3508969a672242449c289c42a552f18664b9866f948d8c2fc8be0ae3"
+    },
+    {
+      "bytes": 5992,
+      "git_blob": "ef2e1b14e7d07e17d0b88ba188975ace0028017a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/README.md",
+      "sha256": "61167c4a09918301ae11ef87a3fed9a774455d46b653f49ea4c5c1b388d81b91"
+    },
+    {
+      "bytes": 10431,
+      "git_blob": "b2a518eb93534143cdede11d8e6f3d98d272e8cf",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/inserted_program.py",
+      "sha256": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452"
+    },
+    {
+      "bytes": 3422,
+      "git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "bytes": 10348,
+      "git_blob": "3951c3a8d9f0b20222f6dd5d5229bf1143164155",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/polynomial_coefficients.py",
+      "sha256": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee"
+    },
+    {
+      "bytes": 1604,
+      "git_blob": "32f528c54a0ea501276ce992c47561976e4f0d13",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/producer-ready.json",
+      "sha256": "8da67bd5d175969669cf66737575fe0188ec6871e94c1180d19452ae9298c413"
+    },
+    {
+      "bytes": 1512,
+      "git_blob": "ce0ea69d851db88d64fdd6a67ee9f8baf872639c",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/program-contract.json",
+      "sha256": "d245f0291f1e05d7354b8e9e26fc0469ce2a7aa6e85c0510285a66061daa8808"
+    },
+    {
+      "bytes": 4252,
+      "git_blob": "fa60aaf175d7eb4a257a7746c7878f5a6f76c06b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/review-edge-domain.md",
+      "sha256": "612c48a5b5e7d3f54c48f4d4a2486714ce0665d348ca97352bec99157c57a56a"
+    },
+    {
+      "bytes": 5098,
+      "git_blob": "8d04efd246553779a32008fcecf7f82f5f0cf4f4",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/review-fix-followup.md",
+      "sha256": "46d1417fb1b08f65ec3224ccddb91e0cc3b86284da59e9b9035eba04dd041ac0"
+    },
+    {
+      "bytes": 6024,
+      "git_blob": "a6308439bb08b498fc9b552708a6f0c06b82f93b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/review-independent.md",
+      "sha256": "2ffff767aaf8d5e23bca4e30aef448e9b2fe3193023934138b8ef52d319a2162"
+    },
+    {
+      "bytes": 3836,
+      "git_blob": "7f4d918855a7bf2329ae461d77758b2ea03e0478",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/source_program.py",
+      "sha256": "1f6241ddc12c41ea2f8476cef53bc0b148562c2ade56c0c4f8aede68de8ced1c"
+    },
+    {
+      "bytes": 3917,
+      "git_blob": "3d22de98cf21f7f85025457ca88d8e4504ee540a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/test_edge_domain.py",
+      "sha256": "07acb1f506d1f70488b7d22ae212097a7e88c49b864cc8681dd400bd2ac9536c"
+    },
+    {
+      "bytes": 25168,
+      "git_blob": "74b8cc656fcc981871957f3cdb884763af98b8d2",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/test_independent.py",
+      "sha256": "2c9578ec9718d65dc287b2795cce3e85bdda1b38b7228173951971176a54c805"
+    },
+    {
+      "bytes": 6760,
+      "git_blob": "a32f4b8b75f85d7c967a7eed5aaf5ac4f8e6782e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/inserted-coefficients/test_inserted.py",
+      "sha256": "4207c21a53be11da2e0744838311d36ce2ec3b50f39c1ffe2002ed5cbe7c187a"
+    },
+    {
+      "bytes": 14679,
+      "git_blob": "68d3f0e3e6b60a4a99b7cbb54d8589bf69d7e747",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/PROOF.md",
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab"
+    },
+    {
+      "bytes": 2410,
+      "git_blob": "cb261c233714fa0895db307a2db3e292815e2867",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/README.md",
+      "sha256": "883ad5dbb103d425a054d60bef639b3568fe3b9121f0a7e4f880d697d5559beb"
+    },
+    {
+      "bytes": 16044,
+      "git_blob": "b75c6722c004aea607db4509fd3b8e343ece1e61",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/frames.py",
+      "sha256": "841b8ebd342ae0c45d92499fc712d94051729d27e8137279fb14e09710246c6e"
+    },
+    {
+      "bytes": 1500794,
+      "git_blob": "1011602e9a6f1f199a9c629c2d6b3bdc57099a78",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/physical-source-certificate.json",
+      "sha256": "945551c886bd399bfa6cab8f1bc6bd144059dc2656ada5dfb546ce6b71a2a3c5"
+    },
+    {
+      "bytes": 979,
+      "git_blob": "0eed92593b7d900cefb6c0eb3ee9064121c4b06b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/producer-ready.json",
+      "sha256": "9ee2bab91d9623048e445007152d543f4e264ce979cb0256833863170255c569"
+    },
+    {
+      "bytes": 10257,
+      "git_blob": "2dbb9a62bae03f8d728fddd375276e5737538085",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/review-independent.md",
+      "sha256": "f256c475a1a2ee88f8f68f32c228141513854cc300ef3f015ff7aa733b4c3a53"
+    },
+    {
+      "bytes": 7710,
+      "git_blob": "9685af038ca036a3cc705d7c36c3cc004fa5514c",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/test_frames.py",
+      "sha256": "1cad972ca549e7df43bc0dc096249fd87361014bad3126b10caf54c31a78b58e"
+    },
+    {
+      "bytes": 15577,
+      "git_blob": "6480a478d74e323dcc2a4edc0893cef7165786b6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/physical-homogenization/test_independent.py",
+      "sha256": "2bfb8cd4d2a6b73a46fb83363c57dd5f98c5e8b4084c94abff6f718c4c0d86e0"
+    },
+    {
+      "bytes": 9612,
+      "git_blob": "8c26eaf5df091e038aba891c696fd4feb99d9238",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/PROOF.md",
+      "sha256": "c564f4a1f2e817dd57336f78de33c774cc56bd5ac0e0341d971a4ac5cc15b96b"
+    },
+    {
+      "bytes": 3608,
+      "git_blob": "40e90f5abc282a150e5ab88875c94c33e301eb36",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/README.md",
+      "sha256": "7634625580bdf9f8ed1a5bed652b08a4e962d3091ad0091d8e58ee0aa083a7c1"
+    },
+    {
+      "bytes": 3213014,
+      "git_blob": "238b16fb4d12e6b7c69129ab5d3bbf6694d43660",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/adapter-grammar.json",
+      "sha256": "31de38df6ff9ea93599c98af81090fc54801cd8886702b4d09aea004357fa243"
+    },
+    {
+      "bytes": 22733,
+      "git_blob": "7102ca1e29e9dd330833bf6108768c40dbd764c7",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/adapter.py",
+      "sha256": "9b49ae8b811b0460d951fdfa404fa7bab505b668d7d83c004d8b19e33dad6488"
+    },
+    {
+      "bytes": 663,
+      "git_blob": "dcc6c480305be26a31ebb505ff240963bd4b471e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/checks-receipt.json",
+      "sha256": "bd192fb20c115773fcef06bbdc2279cfde79734252ef76e20ad9f2d0cf7db298"
+    },
+    {
+      "bytes": 203031,
+      "git_blob": "5d49dde40636f6f56904ac66699058d16841bec4",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/cost-report.json",
+      "sha256": "3a46d2acd0c9a8a09fff1d4c21c3f8f234a478aada0a8e53dd238310a33c4157"
+    },
+    {
+      "bytes": 1008,
+      "git_blob": "456452482546e27166f0921c366dd6191da8b418",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/producer-ready.json",
+      "sha256": "485de9b90da726ca890cae56c1b4eb754a8b173d700483d999b5cb98072ce5b6"
+    },
+    {
+      "bytes": 2254,
+      "git_blob": "b51eabfe1d1dd0d4ae64029c062180068f35364b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/review-independent.md",
+      "sha256": "62533f1c4c91553a641a1c22f90f6b517bcda671c2318c15885c909a187cd4f8"
+    },
+    {
+      "bytes": 16909,
+      "git_blob": "6491ecd4c5821858ada0e901115dd44a7aa0a0fe",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/source-pins.json",
+      "sha256": "abcc7027eb3102a16ba047be95c856015a96fc7a9185a62f4639d0056421740e"
+    },
+    {
+      "bytes": 3898,
+      "git_blob": "71c742fbc5345594cec9b5a3fc1097e8d82ac05b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/test_independent.py",
+      "sha256": "464ce363ef52e76866773f8c593e74642681fef267baf710bd5ce0e03a74a19a"
+    },
+    {
+      "bytes": 5373,
+      "git_blob": "8bd4d608a37b2c8d0a6c155ac0f9785319f5e7d8",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/scoped-cost/test_producer.py",
+      "sha256": "8f9f7f4f35b29e4528b3f0b3a074868f462ca086dcc4d05c252746ea48abff49"
+    },
+    {
+      "bytes": 4545,
+      "git_blob": "6ed164413b8e23beb9c01fd2339e63fdb3f8d610",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/README.md",
+      "sha256": "cc2a5ba9b70049017374caabb10f3a0b16e55c8d6bbba66283b4dbbc2403f7d3"
+    },
+    {
+      "bytes": 1394,
+      "git_blob": "4b88cfc58cc9fb6092a398d4676b2a4610d8722c",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/contract.json",
+      "sha256": "0508543ef38646e18b956e115c39d2ae84489ceaf0bbd40122c084ca49e4f013"
+    },
+    {
+      "bytes": 1697,
+      "git_blob": "7f9cf5f25650481fdc76e6441f958e6086a8aa0d",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/controls-normal.log",
+      "sha256": "b022ebefa9e9ea5c5d49f4742925e6e6c4b77150507ac5571c63ca4a1ff94898"
+    },
+    {
+      "bytes": 1697,
+      "git_blob": "fca3cbe3058800d717bc611261635eee8248b883",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/controls-optimized.log",
+      "sha256": "d5005710a936d968c0bed6bc8825cffbc4a305382c694149d452ee4763bf7c92"
+    },
+    {
+      "bytes": 986,
+      "git_blob": "38eaa1b4c82c6ef2fed299cd732a631f24059734",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/controls-receipt.json",
+      "sha256": "b97ee8914851124f624d188310f53182fe71a0ce772e902b366e93415a3d5008"
+    },
+    {
+      "bytes": 1299,
+      "git_blob": "182ed0af7eb5c9a98df6def317668a230a417dd0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/producer-ready.json",
+      "sha256": "087f208b95b3118255362cf1f28482bddff81d61daada2c1fa20095dc1f952c6"
+    },
+    {
+      "bytes": 7432,
+      "git_blob": "186eb570b9bc183322ec078ddd647611baf0937f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/proof.md",
+      "sha256": "6e12f4541e15fe7c1ee7d67669d76b950a246aceb8f6cd9e5a18e5eb8b226b89"
+    },
+    {
+      "bytes": 9817,
+      "git_blob": "e1b3cf473a2d0f7c56355ffeb2f4ef0c57c0f585",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/review-independent.md",
+      "sha256": "5c4a9c32a8e34e7ced96fe6b6a9584077abc66ca049080f37b503e0afb5dba01"
+    },
+    {
+      "bytes": 2133,
+      "git_blob": "6c903943199f297977ed6ad02595b8d0101205f5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/run_controls.py",
+      "sha256": "7e828c438c960607cfe15ba914828552630a4b8d1ff10690637411075bc0d9bd"
+    },
+    {
+      "bytes": 2361,
+      "git_blob": "c7abdc2ab4ceba1d77fedfda2a07d34ed229f378",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/source-pins.json",
+      "sha256": "fc6b0d964dd6e6f0fe3bb7b794e5484ecf0c10c0efc417b250676d2976c9f08e"
+    },
+    {
+      "bytes": 17092,
+      "git_blob": "2b201b61c690fde851b90995b1b42b5ecfd13c87",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/standard.py",
+      "sha256": "bd9c9a77d2e366a92e265406727bd26ba05c4b15680df384d16f6b1c074ad2fd"
+    },
+    {
+      "bytes": 10956,
+      "git_blob": "e0af3b94e69a06dd694c02752e9c4f67fb7c0bb0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/test_independent.py",
+      "sha256": "b3ed13631146c9e53a8cabb6b236c5752804eb5ceaec8e76829833df2914dd77"
+    },
+    {
+      "bytes": 10182,
+      "git_blob": "185153d449ff3226370a7c99bf41a648cb7d64cc",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-coefficients/test_standard.py",
+      "sha256": "7c9ea5edc7b85a8377b377a1f580604ee01ad050a1d4721597575dd4f42b897e"
+    },
+    {
+      "bytes": 8966,
+      "git_blob": "60694ec02d27d36c0733057c9e97891a4e8dcbdf",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/PROOF.md",
+      "sha256": "7c4a865dda47ff7a91c64969f0b101c4c737d46645e8b34bc3064d65848ee7c9"
+    },
+    {
+      "bytes": 1966,
+      "git_blob": "ab0b70fb44e1362d2da01a3c3873a84b64e41d9b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/README.md",
+      "sha256": "69414fd8744c7f1ffa8bc0ba50f0e3ad661ba87f46429a235c096158e881bb9e"
+    },
+    {
+      "bytes": 5939,
+      "git_blob": "6f058eebf6f82919ae49dd06121721635542a57a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/build_handoff.py",
+      "sha256": "03c90b5b51eb6d6ddb359f434ef34b94804cff0b8b3c02f057b256cf372fb803"
+    },
+    {
+      "bytes": 1110,
+      "git_blob": "d9d5645bd52a641bef85b35d15258a65c51b2e69",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/controls-normal.log",
+      "sha256": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf"
+    },
+    {
+      "bytes": 1110,
+      "git_blob": "d9d5645bd52a641bef85b35d15258a65c51b2e69",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/controls-optimized.log",
+      "sha256": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf"
+    },
+    {
+      "bytes": 921,
+      "git_blob": "2805979cbde82c7d9d3f6267da674c6bed78ea1f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/controls-receipt.json",
+      "sha256": "2567f11318c2f12163291381434304006b1816f10232894cd1d4a207def7ebe3"
+    },
+    {
+      "bytes": 1268,
+      "git_blob": "5cea2fc3b4449069b9c803b06d7ef9d9bdf05014",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/gap-registry.json",
+      "sha256": "fdb67f35755fe15d22086242a4591835e13ea125f0ab9faa4835faf8db17755d"
+    },
+    {
+      "bytes": 1576,
+      "git_blob": "57350bd6f618caa08f7b82dfdc9160105cb2e2c1",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/producer-ready.json",
+      "sha256": "96fb1e457fb7edea1db7a8981f83d0ce8f090e3c6ade448f31f0bdd12edc9978"
+    },
+    {
+      "bytes": 5320,
+      "git_blob": "c85e0aea497d4c92663198b9c3f3fff5caa50d86",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/review-independent.md",
+      "sha256": "51e7856c58e8d30097ea3ddf7452df472a82e65551083b3faeb1cca031dbb649"
+    },
+    {
+      "bytes": 1941,
+      "git_blob": "31009a5edd445285942b2121db67f46d5d510a51",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/run_controls.py",
+      "sha256": "4b98158a3f4ab68561d1270de1126fd9517be125b18eba7e0c382010831ab314"
+    },
+    {
+      "bytes": 2991,
+      "git_blob": "c501b927895148e4def37f27854ee3e07eb5363d",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/source-pins.json",
+      "sha256": "e8f32e2bbc0076bc977132bcd4e7b61223229239499165719feb76c2674ff402"
+    },
+    {
+      "bytes": 3819,
+      "git_blob": "a091231aed6d8e74725543b9753f6d26926ce7ce",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/test_independent.py",
+      "sha256": "93155d2f3ca37c3ea7f76a6230101425c53a27809365c7d428284172d7f28cb7"
+    },
+    {
+      "bytes": 4421,
+      "git_blob": "64c041d41324240a8acde98ba684a5af91a6e02f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/test_witnesses.py",
+      "sha256": "422fcf20bfae1031796b9fa8a060d80410303dc4b0ff42d6b7b75f8e6ee057ea"
+    },
+    {
+      "bytes": 8372,
+      "git_blob": "5ca705eb98c649695d8891b71419cca82363e5a2",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/witness-schema.json",
+      "sha256": "8043c0ebe51444a3c411a7b0437dad3943be0e30112b14165ed045315ef618d4"
+    },
+    {
+      "bytes": 1955,
+      "git_blob": "ed922e9d5af2fa49e4ca9f2e3e502a24d69734df",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/witness-template.json",
+      "sha256": "9c4ee3f3954f08e28949e0798fd3492139b6131d8074672953c3b8891e6ecde8"
+    },
+    {
+      "bytes": 6980,
+      "git_blob": "fdfcb542107848a7aa3e23f91f6a8e4a98ca06cd",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/standard-source-witnesses/witnesses.py",
+      "sha256": "1ffbfed5d8d1876ef4d1daac2b5eee9cf033ee2f38de2f549979d990d1325cde"
+    },
+    {
+      "bytes": 19,
+      "git_blob": "7a60b85e148f80966a550e5ab6a762a907c69ca6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/.gitignore",
+      "sha256": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793"
+    },
+    {
+      "bytes": 7890,
+      "git_blob": "3b522a1ae6eba47e3bdddd7576fda3bc3c9741b0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/README.md",
+      "sha256": "932a8511f5968bc03cd608857a549096172aebb14b845550ccdca0a6425f85ed"
+    },
+    {
+      "bytes": 8283,
+      "git_blob": "ac9a62446cb5313b8e5d6ce56f183eeef6416ae7",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/controls-receipt.json",
+      "sha256": "ca2ff3eb29c26e82acb42fcb3ebccd4f866a00f42dfe7bdb56ee14b9771c6409"
+    },
+    {
+      "bytes": 1089,
+      "git_blob": "d9abf42708853afaf05403aee0a5b78441b14a1d",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/edge-regression-replay.json",
+      "sha256": "5ae13b7898a5309f691ed8ca648aed53ae26d6a3e27dfa6bbc6e5d63783d5e33"
+    },
+    {
+      "bytes": 1096,
+      "git_blob": "710688f13054b9324c11a1d20db32782ef71a032",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inner-quotient-test_independent-normal.log",
+      "sha256": "7e57227e7dd464aeec5b168100b61be12775f7e38b8e84d95d428dbfe3aef40d"
+    },
+    {
+      "bytes": 1096,
+      "git_blob": "4512fd35bd9fd78c37568f2bc280fdf63d128bb1",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inner-quotient-test_independent-optimized.log",
+      "sha256": "6239c9dbcb7144dfb0392cfc5539eb21faeeac02a46a689594749aca9469d5a7"
+    },
+    {
+      "bytes": 871,
+      "git_blob": "da97ef9fde47a0948f330dcbf7324545da8b5ab6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inner-quotient-test_quotient-normal.log",
+      "sha256": "2b9f4a17e9da4aa9f6f4af4e2ad9edd2e85fd92591183dad4a50a086789395d8"
+    },
+    {
+      "bytes": 871,
+      "git_blob": "da97ef9fde47a0948f330dcbf7324545da8b5ab6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inner-quotient-test_quotient-optimized.log",
+      "sha256": "2b9f4a17e9da4aa9f6f4af4e2ad9edd2e85fd92591183dad4a50a086789395d8"
+    },
+    {
+      "bytes": 815,
+      "git_blob": "6977bf439e04bbabb59dae30c9e0cd61d04c21a8",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_edge_domain-normal.log",
+      "sha256": "bfc500f728977d92797f3e2de8d890190a3ef802e012446457f9d0dc78933589"
+    },
+    {
+      "bytes": 815,
+      "git_blob": "6977bf439e04bbabb59dae30c9e0cd61d04c21a8",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_edge_domain-optimized.log",
+      "sha256": "bfc500f728977d92797f3e2de8d890190a3ef802e012446457f9d0dc78933589"
+    },
+    {
+      "bytes": 2359,
+      "git_blob": "2e6f7a7f8722365988b5302eb402feeb6827b9fb",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_independent-normal.log",
+      "sha256": "fd18141e9c13a519ed812c08dbba89726e7631be1929a8c72ffddbb08ba69a47"
+    },
+    {
+      "bytes": 2359,
+      "git_blob": "41d4d9405b0617c414d119227807f06941188d70",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_independent-optimized.log",
+      "sha256": "af37738e1289e26e114062567502f21884d9e85909082a7d4ab3b28ffb556e64"
+    },
+    {
+      "bytes": 1243,
+      "git_blob": "3118ed0aba85af91a91cc71678d2323ec55b5d68",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_inserted-normal.log",
+      "sha256": "b7eaf7a7ce00b641fc43978f860ceea3adbfe74f91374d43ae668dae2b17a81c"
+    },
+    {
+      "bytes": 1243,
+      "git_blob": "ad5624726bdb7dc558fc79708c820ca00ce83c28",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/inserted-coefficients-test_inserted-optimized.log",
+      "sha256": "29f11b1ba68eeefe369c4d37f1855ffea796458513696ebbe34bdab89704d61d"
+    },
+    {
+      "bytes": 1225,
+      "git_blob": "fb8aa396207c169b30d0b50bac0e68f5328ae60a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/physical-homogenization-test_frames-normal.log",
+      "sha256": "6a6bc5e0e36b871563fc60a2f1741f46687a647b82cd0e7844083bf2b3433159"
+    },
+    {
+      "bytes": 1225,
+      "git_blob": "91b76a037c0a1daf58604058909584ca5d0e186e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/physical-homogenization-test_frames-optimized.log",
+      "sha256": "d36cbb87b4586c4be44f10e0ae7f54bb953872c685e725b9f4669571c3dc5ec2"
+    },
+    {
+      "bytes": 1343,
+      "git_blob": "14b3b10f91ca8dafc386de8d2859967a5edf5bd7",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/physical-homogenization-test_independent-normal.log",
+      "sha256": "35174e83384f7059aa63be70f944ec46b03a79456c016aac7c0fa7c7d5054b0a"
+    },
+    {
+      "bytes": 1343,
+      "git_blob": "7bc32ae28b7928e30401d141c8b9806793610912",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/physical-homogenization-test_independent-optimized.log",
+      "sha256": "2c3ee1df46b12e777d306fada08aa2002478dc6443122dd97ece7a39bdde65c4"
+    },
+    {
+      "bytes": 36585,
+      "git_blob": "20d9f15848795b652ff1eb04d14ba36a0809c765",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/program-bindings.json",
+      "sha256": "be7f4295593055a3ac91082d8cf5aa17c6abc7eb7c5d68ecff2a62e6caf149c0"
+    },
+    {
+      "bytes": 1877,
+      "git_blob": "9ded958d5c69c45aa9084e0de0e9effb121661e2",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/replay_edge_regression.py",
+      "sha256": "613d26a8e2a0b20df20ea3f4f9b202d62dc7702793ad8e40fb8742b8bdbf47de"
+    },
+    {
+      "bytes": 2638,
+      "git_blob": "dbfa6e64db743885e176b3094da52c7eb66eac52",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/replay_support.py",
+      "sha256": "f4643a49e78525668cf2724e51e93b3535863df840e39d610dbb4d4954de6166"
+    },
+    {
+      "bytes": 2119,
+      "git_blob": "cbad4c62679a911f8d45a3d21e35cc8ecd75eaf0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/run_controls.py",
+      "sha256": "640e2da229e4028be4120092f9f4535f2285d85653c93ba97a5d6f8249f5740c"
+    },
+    {
+      "bytes": 716,
+      "git_blob": "01bd20e6d64f57ba4a546d37fa3f77995e817355",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/scoped-cost-test_independent-normal.log",
+      "sha256": "4e03aad61e051847e7075cca133593be76b650ffc395dfa1a0a3074c4c36bd17"
+    },
+    {
+      "bytes": 716,
+      "git_blob": "11b71802feba4bd4802badfdac681cfaba65292f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/scoped-cost-test_independent-optimized.log",
+      "sha256": "3181234c60a3661d6345830375d983443282290c81c3ce13c01c8746fefaaab1"
+    },
+    {
+      "bytes": 1102,
+      "git_blob": "53922bf31c873338f13740f25b98aceda8ce724b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/scoped-cost-test_producer-normal.log",
+      "sha256": "32f2a719346862ecebe67b3d1975bdccb4a252f78d9311f245ad8d01b7d18b50"
+    },
+    {
+      "bytes": 1102,
+      "git_blob": "e4d71c22045f149f05f71e0664171fca9e4c9642",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/scoped-cost-test_producer-optimized.log",
+      "sha256": "3d9e3d917f81a93c993554a7768fd4e534a8106fb050d12a6f8296b91fe259e3"
+    },
+    {
+      "bytes": 1469,
+      "git_blob": "c4d3a4f721404e696e7f8df1d307db268b4ddaf9",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-coefficients-test_independent-normal.log",
+      "sha256": "04733b8573faeb0f4f4fbdbbd54bcdb1e74ce379c5a2c394054d5f2e7d3894fe"
+    },
+    {
+      "bytes": 1469,
+      "git_blob": "0a7bb65d7ee41824a25c597d5afa851ee3afd195",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-coefficients-test_independent-optimized.log",
+      "sha256": "5bff508c2ab9c6716d876440a1c300fd7cc4dfd715510fc9f7a7c747e679b086"
+    },
+    {
+      "bytes": 1637,
+      "git_blob": "3cca389347646c2b51101396dac38e1237840253",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-coefficients-test_standard-normal.log",
+      "sha256": "7da87f8c0f7e1e50e812ea3c45f15309b1dea347d915620a5ce08b4d1ab94079"
+    },
+    {
+      "bytes": 1637,
+      "git_blob": "e8cacbf6546c786ebd6a847c3040198083ec04ba",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-coefficients-test_standard-optimized.log",
+      "sha256": "6e9a747efd54c6a6c9924decf52f309cec20cb9c7c899156374a7a6ab621237e"
+    },
+    {
+      "bytes": 724,
+      "git_blob": "477111b5f41d7e065d4ebbe4ef319c52e95bf7c4",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-source-witnesses-test_independent-normal.log",
+      "sha256": "786f050db8448f83dd46875d1bfcb56881d8b0856c900b28e7e2b32b48c7da65"
+    },
+    {
+      "bytes": 724,
+      "git_blob": "a552ecfb35890792c5d01c422a0d0d16b678609f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-source-witnesses-test_independent-optimized.log",
+      "sha256": "f0eb6f45e756da44e7ac7141cf2956857a2a179db2afac4987cfea62c63cc1de"
+    },
+    {
+      "bytes": 1062,
+      "git_blob": "878d22542aa6936f7953fc39c9149648d9315482",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-source-witnesses-test_witnesses-normal.log",
+      "sha256": "f6e3be147a4f308e1364c17d919d8569f7aa8644cb764bfdcc6033fc99069ed9"
+    },
+    {
+      "bytes": 1062,
+      "git_blob": "2d526c456f5e884f5d5048dddd0082985bd26b5c",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/standard-source-witnesses-test_witnesses-optimized.log",
+      "sha256": "09f38770baf9c57ede4dbd60f89a0c1b215968e0d7246bab21ded398fa1d65a3"
+    },
+    {
+      "bytes": 2814,
+      "git_blob": "36e1ff91f61463f7cff0dea364ed3f70b3a68af0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave4/support-replay.json",
+      "sha256": "e82568eaaf4aa97bf6c33e4f93bbe9536ca7a2ef60ad0dacb59d1b0ac491d409"
+    }
+  ],
+  "physical_source_evaluated": false,
+  "pull_request": 86,
+  "remote_head": "9cd60c44f1cc3a732b58dcf1575be5c2539f8f17",
+  "schema": "github-wave4-exact-readback-v1",
+  "source_base": "c44072e1dd0ab973298c1a83699bb94e74438c6b",
+  "total_bytes": 5395913
+}
