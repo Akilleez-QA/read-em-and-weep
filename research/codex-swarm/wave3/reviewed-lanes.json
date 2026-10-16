@@ -1,0 +1,64 @@
+{
+  "abstract_source_replay_cases": 46,
+  "aggregate_unittest_cases_per_mode": 84,
+  "execution_release": false,
+  "focused_pr": "https://github.com/Akilleez-QA/read-em-and-weep/pull/85",
+  "lanes": [
+    {
+      "accepted_scope": "complete executable symbolic operator; physical leaves/coefficients remain unresolved",
+      "directory": "scalar-compiler",
+      "independent_reviewer": "SC-R/SC-R2 plus root narrow-fix follow-up",
+      "normal_and_optimized_unittest_cases": 31,
+      "producer": "SC01",
+      "reviewed_sha256": {
+        "compiled-template.json": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565",
+        "compiler.py": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+        "review-fix-followup.md": "86d5b0767de2e74a25e9922f1e87df332877a26923db61508c4238c98add42c3",
+        "review-independent.md": "5de7f6a29f3ac95804ce92536b66ece9d924e3dfac77b67ff485ce9e97de4094",
+        "test_independent.py": "040b047195aa4ab34077ca011cebf352866943e92717749ae73621656602ce3f"
+      }
+    },
+    {
+      "accepted_scope": "conditional source/frame/top-lift binding; actual standard-target witnesses remain unresolved",
+      "directory": "transport-binding",
+      "independent_reviewer": "TR-R",
+      "normal_and_optimized_unittest_cases": 24,
+      "producer": "TR01",
+      "reviewed_sha256": {
+        "review-independent.md": "be7b91043f2e5a97dea1cff969df7f8ab29110d01240732071bcd6054a823b69",
+        "test_independent.py": "01ed875f2ef1efe6f48fc09ca36e46af024deb8c3c8be223705e31db1fff2f43",
+        "transport_binding.py": "31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237"
+      }
+    },
+    {
+      "accepted_scope": "actual finite whole-F clearing and217/210 degree bound; homogeneous physical-frame identification remains unresolved",
+      "directory": "whole-source-clearing",
+      "independent_reviewer": "CLR-R/CLR-R2 plus V01 degree review",
+      "normal_and_optimized_unittest_cases": 17,
+      "producer": "CLR01",
+      "reviewed_sha256": {
+        "clearing.py": "2cc26945328dba5069d0b79888416b4d9d48b4031336fe266b2ffc103db3abef",
+        "review-degree.md": "24de3cf66a2815f7cc81dfed8538648eb80c84f5b1bbf0596893ff1c04d30662",
+        "review-independent.md": "e1fc22e0352c91212df870a8591299986efa6f372909177e9174ac8cc1982226",
+        "source-integration.json": "a7070e531edd2d034c7ddac8899cf4fcc7e880d4bb3adf5d0d37c8abb7b86a4c",
+        "test_independent.py": "2dc7bbae85c064d6736b755200a202922fcf78e34cd3fedc0846a750e8734c03"
+      }
+    },
+    {
+      "accepted_scope": "exact127-to121 demand join and conservative closed preflight; actual physical costs/ledger remain unknown",
+      "directory": "demand-cost",
+      "independent_reviewer": "CO-R root",
+      "normal_and_optimized_unittest_cases": 12,
+      "producer": "CO01",
+      "reviewed_sha256": {
+        "preflight.py": "2d658b04062e76809f1797f8c92992ce70d0ea4aa55f577a2c73e43317393ecc",
+        "review-independent.md": "5fd65bde15cf3a2a73c7e2349b5e520cbeef93566e3395bdb7be3e20e38daa56",
+        "test_independent.py": "1cbf32905abdfea135352519ffc91358864181fa38f75a925946bef980ed0108"
+      }
+    }
+  ],
+  "obstruction": "undecided",
+  "physical_source_evaluated": false,
+  "schema": "codex-wave3-reviewed-lanes-v1",
+  "source_claim": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6210893948"
+}

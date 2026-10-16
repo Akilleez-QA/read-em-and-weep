@@ -1,0 +1,42 @@
+{
+  "accepted_null_operator_contracts": 2,
+  "actual_source_admitted": false,
+  "execution_release": false,
+  "files": {
+    "README.md": {
+      "bytes": 6456,
+      "sha256": "85821df17304afd097cb164a8a98caae413f1de79fa4ad801b85da20d3de8709"
+    },
+    "lift_schema.py": {
+      "bytes": 2281,
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+    },
+    "source-pins.json": {
+      "bytes": 5000,
+      "sha256": "c64b506220ca636632e6d74f04c08050eff7c3c549a8191e5121ef2d32fd7d94"
+    },
+    "test_transport_binding.py": {
+      "bytes": 5994,
+      "sha256": "96da4ba2c52f80c9585a99a2eef1d34b9ff81715d63715b6c3fe3c4492a68779"
+    },
+    "transport-template.json": {
+      "bytes": 89714,
+      "sha256": "a551f79e1dbed2dbb21d195ecdc5bd98871b8e12d9bd241d918572fadb085839"
+    },
+    "transport_binding.py": {
+      "bytes": 14743,
+      "sha256": "31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237"
+    }
+  },
+  "meaning": "exact review handoff hashes only; no admission gate",
+  "pending_actual_source_contracts": 2,
+  "producer": "Codex-TR01",
+  "producer_tests": {
+    "LdEnd_coefficient_checks": 1000,
+    "normal": 11,
+    "optimized": 11,
+    "physical_source_evaluated": false
+  },
+  "reviewer": "CLI independent reviewer; owns test_independent.py/review-independent.md",
+  "schema": "tr01-producer-ready-v1"
+}

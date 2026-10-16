@@ -1,0 +1,24 @@
+{
+  "arithmetic_execution": false,
+  "files_sha256": {
+    "PROOF.md": "3ea2b68a04168f76ba217b2b43470c41657124b550111c72a3eb10b60dd89361",
+    "README.md": "89877380e925c6166f7805ddcb4cbc165e6938c09f46783920c6793c5823f0eb",
+    "clearing.py": "2cc26945328dba5069d0b79888416b4d9d48b4031336fe266b2ffc103db3abef",
+    "source-integration.json": "a7070e531edd2d034c7ddac8899cf4fcc7e880d4bb3adf5d0d37c8abb7b86a4c",
+    "test_clearing.py": "ca54ca6cb20a1b9e87df9e33bc8d8af2cc3111a850b1db82ac1b4ad92dcd001e"
+  },
+  "geometric_source_admission": false,
+  "producer": "CLR01",
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "schema": "producer-review-handoff-v1",
+  "source_commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+  "status": "ready-for-independent-review-not-admission",
+  "tests": {
+    "normal": 6,
+    "optimized": 6,
+    "physical_source_evaluated": false
+  }
+}

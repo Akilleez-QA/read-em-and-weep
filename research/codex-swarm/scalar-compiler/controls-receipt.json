@@ -1,0 +1,30 @@
+{
+  "address_space_cap_bytes": 536870912,
+  "code_sha256": {
+    "compiler.py": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "run_controls.py": "58d773a48e052ecdec53ca6664fe6ed799fc21ac3219eeebb998aed9e22b2637",
+    "test_compiler.py": "1331008255e0a5816cdabde2ab8b88013214986abf9851d91d877b78438a3dea"
+  },
+  "commands": [
+    {
+      "elapsed_seconds": 0.270621,
+      "exit_code": 0,
+      "optimized": false,
+      "physical_source_evaluated": false,
+      "stderr": "test_all_constant_chain_rows_and_wrong_sign (test_compiler.Controls.test_all_constant_chain_rows_and_wrong_sign) ... ok\ntest_boolean_standard_tags_and_selectors_rejected (test_compiler.Controls.test_boolean_standard_tags_and_selectors_rejected) ... ok\ntest_common_repetition_not_carrier_repetition (test_compiler.Controls.test_common_repetition_not_carrier_repetition) ... ok\ntest_compiled_weighted_tests_not_old_selectors (test_compiler.Controls.test_compiled_weighted_tests_not_old_selectors) ... ok\ntest_complete_solver_derivative_rejects_pair_direction (test_compiler.Controls.test_complete_solver_derivative_rejects_pair_direction) ... ok\ntest_exact_abstract_split_lift_closure_and_J2_sign (test_compiler.Controls.test_exact_abstract_split_lift_closure_and_J2_sign) ... ok\ntest_full_source_terms_gerbe_and_top (test_compiler.Controls.test_full_source_terms_gerbe_and_top) ... ok\ntest_no_realization_gate_can_be_forged (test_compiler.Controls.test_no_realization_gate_can_be_forged) ... ok\ntest_noncommutative_product_derivative (test_compiler.Controls.test_noncommutative_product_derivative) ... ok\ntest_owner_sort_keeps_all_occurrences (test_compiler.Controls.test_owner_sort_keeps_all_occurrences) ... ok\ntest_shape_and_internal_degree_controls (test_compiler.Controls.test_shape_and_internal_degree_controls) ... ok\ntest_source_derivatives_keep_moving_frames (test_compiler.Controls.test_source_derivatives_keep_moving_frames) ... ok\ntest_staircases_all24_with_correct_bits (test_compiler.Controls.test_staircases_all24_with_correct_bits) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.223s\n\nOK\n",
+      "stdout": ""
+    },
+    {
+      "elapsed_seconds": 0.264723,
+      "exit_code": 0,
+      "optimized": true,
+      "physical_source_evaluated": false,
+      "stderr": "test_all_constant_chain_rows_and_wrong_sign (test_compiler.Controls.test_all_constant_chain_rows_and_wrong_sign) ... ok\ntest_boolean_standard_tags_and_selectors_rejected (test_compiler.Controls.test_boolean_standard_tags_and_selectors_rejected) ... ok\ntest_common_repetition_not_carrier_repetition (test_compiler.Controls.test_common_repetition_not_carrier_repetition) ... ok\ntest_compiled_weighted_tests_not_old_selectors (test_compiler.Controls.test_compiled_weighted_tests_not_old_selectors) ... ok\ntest_complete_solver_derivative_rejects_pair_direction (test_compiler.Controls.test_complete_solver_derivative_rejects_pair_direction) ... ok\ntest_exact_abstract_split_lift_closure_and_J2_sign (test_compiler.Controls.test_exact_abstract_split_lift_closure_and_J2_sign) ... ok\ntest_full_source_terms_gerbe_and_top (test_compiler.Controls.test_full_source_terms_gerbe_and_top) ... ok\ntest_no_realization_gate_can_be_forged (test_compiler.Controls.test_no_realization_gate_can_be_forged) ... ok\ntest_noncommutative_product_derivative (test_compiler.Controls.test_noncommutative_product_derivative) ... ok\ntest_owner_sort_keeps_all_occurrences (test_compiler.Controls.test_owner_sort_keeps_all_occurrences) ... ok\ntest_shape_and_internal_degree_controls (test_compiler.Controls.test_shape_and_internal_degree_controls) ... ok\ntest_source_derivatives_keep_moving_frames (test_compiler.Controls.test_source_derivatives_keep_moving_frames) ... ok\ntest_staircases_all24_with_correct_bits (test_compiler.Controls.test_staircases_all24_with_correct_bits) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.216s\n\nOK\n",
+      "stdout": ""
+    }
+  ],
+  "execution_release": false,
+  "physical_source_evaluated": false,
+  "schema": "sc01-producer-controls-v1",
+  "wall_timeout_seconds_per_command": 60
+}

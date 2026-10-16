@@ -1,0 +1,15 @@
+test_cycles_and_missing_coverage_rejected (test_producer.ProducerTests.test_cycles_and_missing_coverage_rejected) ... ok
+test_distinct_maps_do_not_share (test_producer.ProducerTests.test_distinct_maps_do_not_share) ... ok
+test_distinct_source_branches_do_not_share (test_producer.ProducerTests.test_distinct_source_branches_do_not_share) ... ok
+test_equal_equations_distinct_owners_do_not_share (test_producer.ProducerTests.test_equal_equations_distinct_owners_do_not_share) ... ok
+test_exact_counts (test_producer.ProducerTests.test_exact_counts) ... ok
+test_fake_admission_cannot_release (test_producer.ProducerTests.test_fake_admission_cannot_release) ... ok
+test_full_sum_padding_and_complete_B (test_producer.ProducerTests.test_full_sum_padding_and_complete_B) ... ok
+test_saved_report (test_producer.ProducerTests.test_saved_report) ... ok
+test_small_dag (test_producer.ProducerTests.test_small_dag) ... ok
+test_weighted_reconstruction (test_producer.ProducerTests.test_weighted_reconstruction) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.024s
+
+OK
