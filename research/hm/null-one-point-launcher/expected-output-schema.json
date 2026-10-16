@@ -1,0 +1,28 @@
+{
+  "schema": "one-point-omega-expected-output-v1",
+  "example_values_are_not_source_evaluations": true,
+  "physical_entry_currently": {"status": "PHYSICAL_HELD", "physical_source_evaluated": false, "execution_release": false, "zero_value_claimed": false},
+  "success_after_separate_reviewed_release": {
+    "status": "PHYSICAL_FIXED_EXACT_GERM_COMPLETE",
+    "spec_sha256": "must equal pinned selection",
+    "source_pins_sha256": "must equal pinned public-source manifest",
+    "physical_vertices": [{"carrier": 0, "legal_mask": 0}, {"carrier": 1, "legal_mask": 5}, {"carrier": 2, "legal_mask": 10}],
+    "x_rationals": ["2", "13/6", "7/3", "5/2"],
+    "cross_slots_zero_based": [[0,2], [0,3], [1,2], [1,3]],
+    "H": "four 2x2 matrices of canonical exact integer or numerator/positive-denominator strings",
+    "J": "four 2x2 matrices in same common normalized frame",
+    "gram_basis": ["h", "e", "f"],
+    "gram": "exact 3x3 cross-Gram matrix",
+    "skew": ["Cef-Cfe", "Che-Ceh", "Cfh-Chf"],
+    "omega_stripped": "exact 2x2 rational matrix equal to the four commutators/8",
+    "omega_stripped_nonzero": "boolean determined only after complete one-point checks",
+    "denominator_checks": "18 labelled exact x/x2-1/curve/di/dp values, all nonzero; transition determinants required to be units",
+    "independent_chain_rule_and_direct_frame_checks": true,
+    "PI_determinant_and_cocycle_germ_checks": true,
+    "counts": "rational_ops, integer_ops, max_integer_bits; no native/old-ledger unit equivalence",
+    "interpretation": "nonzero rejects ONLY pointwise symmetry shortcut; zero at one point remains globally undecided",
+    "supervision": "parent/child limits, zero exit, wall duration, bounded retained output; required for any accepted run"
+  },
+  "any_failure": {"status": "REFUSED_INCONCLUSIVE", "zero_value_claimed": false, "no_partial_value_is_evidence": true},
+  "current_execution_release": false
+}

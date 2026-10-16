@@ -1,0 +1,9 @@
+test_column_cubic_and_scalar_shift (__main__.IndependentChecks.test_column_cubic_and_scalar_shift) ... ok
+test_full_remainder_on_invented_flat_germs (__main__.IndependentChecks.test_full_remainder_on_invented_flat_germs) ... ok
+test_quartic_identity_all_1296_basis_tensors (__main__.IndependentChecks.test_quartic_identity_all_1296_basis_tensors) ... ok
+test_raw_symmetric_edge_correction_cancels (__main__.IndependentChecks.test_raw_symmetric_edge_correction_cancels) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 9.559s
+
+OK

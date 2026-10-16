@@ -1,0 +1,18 @@
+test_arbitrary_ordered_triple_map (test_transfer.Controls.test_arbitrary_ordered_triple_map) ... ok
+test_critical_cancellation_metadata (test_transfer.Controls.test_critical_cancellation_metadata) ... ok
+test_degrees_all_carriers_and_mask_patterns (test_transfer.Controls.test_degrees_all_carriers_and_mask_patterns) ... ok
+test_derivative_naturality_on_abstract_laurent_monomials (test_transfer.Controls.test_derivative_naturality_on_abstract_laurent_monomials) ... ok
+test_elementary_symmetric_subset_invariance (test_transfer.Controls.test_elementary_symmetric_subset_invariance) ... ok
+test_finite_legal_equation_and_frame_transport (test_transfer.Controls.test_finite_legal_equation_and_frame_transport) ... ok
+test_full_owner_occurrence_retention (test_transfer.Controls.test_full_owner_occurrence_retention) ... ok
+test_gerbe_q_and_endpoint_Q_are_distinct (test_transfer.Controls.test_gerbe_q_and_endpoint_Q_are_distinct) ... ok
+test_ledger_and_padding (test_transfer.Controls.test_ledger_and_padding) ... ok
+test_mask_tag_bijections_exhaustive (test_transfer.Controls.test_mask_tag_bijections_exhaustive) ... ok
+test_noncommutative_product_negative_control (test_transfer.Controls.test_noncommutative_product_negative_control) ... ok
+test_ordered_mu_gerbe_exact_tree (test_transfer.Controls.test_ordered_mu_gerbe_exact_tree) ... ok
+test_source_order_not_preserved (test_transfer.Controls.test_source_order_not_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.056s
+
+OK

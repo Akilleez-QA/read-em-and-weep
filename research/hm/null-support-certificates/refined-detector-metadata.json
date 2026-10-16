@@ -1,0 +1,1383 @@
+{
+  "complete_arithmetic_contract": false,
+  "derivative_domain_control": {
+    "carrier_cap": 54,
+    "computational_cancellation": "uninstantiated_leaf_circuits",
+    "domain": "symbolically_certified",
+    "legal_cap": 29,
+    "standard_factors": "actual_target_units"
+  },
+  "execution_release": false,
+  "forbidden_shortcuts": [
+    "old_four_tail",
+    "old_781_features",
+    "derivative_before_cancellation",
+    "drop_deleted_prefix_owner",
+    "replace_standard_projection",
+    "physical_source_evaluation",
+    "dense_support_enumeration"
+  ],
+  "held_limits": {
+    "private_resource_configuration_omitted": true
+  },
+  "inner_branches": [
+    {
+      "name": "prism",
+      "nodes": [
+        "cancel_inserted",
+        "differentiate_regularized",
+        "Hrho_symbolic_labels"
+      ]
+    },
+    {
+      "adjoint_nodes": [
+        "R",
+        "K",
+        "Pi_inner"
+      ],
+      "name": "K",
+      "regularization_order": "cancel inserted before differentiated coefficient"
+    },
+    {
+      "adjoint_nodes": [
+        "R",
+        "A",
+        "h",
+        "S",
+        "Pi_inner"
+      ],
+      "name": "AHS",
+      "regularization_order": "cancel inserted before differentiated coefficient"
+    }
+  ],
+  "lift_templates": [
+    {
+      "adjoint_nodes": [
+        "include"
+      ],
+      "q": 2,
+      "sign": 1
+    },
+    {
+      "adjoint_nodes": [
+        "H(input_degree=0)",
+        "face(0..3)",
+        "include"
+      ],
+      "q": 3,
+      "sign": 1
+    },
+    {
+      "adjoint_nodes": [
+        "H(input_degree=-1)",
+        "face(0..4)",
+        "H(input_degree=0)",
+        "face(0..3)",
+        "include"
+      ],
+      "q": 4,
+      "sign": -1
+    }
+  ],
+  "metadata_policy": {
+    "huge_support_enumeration": false,
+    "max_output_bytes": 24576,
+    "max_seeds": 78
+  },
+  "node_equations": {
+    "A_edge": "one pivot in coordinates1..4; edge orientation sign",
+    "E_adjoint": [
+      [
+        "jk",
+        "a",
+        "L_b",
+        1,
+        2
+      ],
+      [
+        "jk",
+        "b",
+        "L_a",
+        -1,
+        2
+      ],
+      [
+        "ij",
+        "b",
+        "U_a",
+        1,
+        2
+      ],
+      [
+        "ij",
+        "a",
+        "U_b",
+        -1,
+        2
+      ]
+    ],
+    "H_adjoint": "W H + (-1)^r H W(IP); owner=current_tuple_first",
+    "Hrho": [
+      [
+        "b0,a0,a1",
+        "rho0",
+        1
+      ],
+      [
+        "b0,b1,a1",
+        "rho0*rho1",
+        -1
+      ]
+    ],
+    "K_edge": "[b,e0,e1]-sum reverse_coordinate_path [b,vprev,vnext]",
+    "Pi": "symbolic bounded label sum; sort source-first with sign",
+    "S_degree2": "path(d,e)-path(e,d)",
+    "U": "L_ik-L_ij",
+    "derivative": "kappa->kappa+unit_i, multiplier=kappa_i+1",
+    "face": "(-1)^index; retain all prior kernel and weight owners",
+    "h_adjoint": "exact executable chart/exponent filters in tensor_h_adjoint",
+    "include_adjoint": "(P W I)^t; owner=residual_triple_first",
+    "weighted_derivative": "kappa-nu+unit_i, multiplier=kappa_i-nu_i+1"
+  },
+  "owner_control": {
+    "active": [
+      "o2",
+      "o3",
+      "o4"
+    ],
+    "kernel": [
+      "o0",
+      "o1",
+      "o2"
+    ],
+    "required_prefix": [
+      "o0",
+      "o1"
+    ],
+    "weighted": [
+      "o0",
+      "o1",
+      "o2",
+      "o3",
+      "o4"
+    ]
+  },
+  "partitions": {
+    "inner": [
+      "inner",
+      14,
+      1
+    ],
+    "outer": [
+      "outer",
+      54,
+      29
+    ],
+    "projection": "same_r_standard_tag"
+  },
+  "physical_source_evaluated": false,
+  "raw_kernel_path_bound_before_outer_labels": 4038,
+  "raw_kernel_path_bound_formula": "6+24*2*4+48*2*5*2*4",
+  "raw_kernel_paths_enumerated": false,
+  "residual_branches": [
+    {
+      "name": "baseline",
+      "scalar_primitive": false,
+      "target": "M0_tracefree"
+    },
+    {
+      "kernel": "B34*Phi",
+      "name": "F12_direct",
+      "target": "F12"
+    },
+    {
+      "kernel": "B12*Phi",
+      "name": "F34_direct",
+      "target": "F34"
+    },
+    {
+      "kernel": "T12*E34*Phi",
+      "name": "F12_derivative",
+      "target": "F12"
+    },
+    {
+      "kernel": "T34*E12*Phi",
+      "name": "F34_derivative",
+      "target": "F34"
+    }
+  ],
+  "schema": "hm-refined-detector-metadata-v1",
+  "seed_count": 78,
+  "seeds": [
+    {
+      "coefficient": 1,
+      "lift_depth": 0,
+      "orientation": 1,
+      "row": 0,
+      "standard": [
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 0,
+      "orientation": -1,
+      "row": 0,
+      "standard": [
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 0,
+      "orientation": 1,
+      "row": 1,
+      "standard": [
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 0,
+      "orientation": -1,
+      "row": 1,
+      "standard": [
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 0,
+      "orientation": 1,
+      "row": 2,
+      "standard": [
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 0,
+      "orientation": -1,
+      "row": 2,
+      "standard": [
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 3,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 3,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 3,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 3,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 3,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 3,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 4,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 4,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 4,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 4,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 4,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 4,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 5,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 5,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 5,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 5,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 5,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 5,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 6,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 6,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 6,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 6,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 2,
+      "lift_depth": 1,
+      "orientation": 1,
+      "row": 6,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -2,
+      "lift_depth": 1,
+      "orientation": -1,
+      "row": 6,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        10,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        8,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        6,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        6,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        4,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        10,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        6,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        6,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        2,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 7,
+      "standard": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        10,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        8,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        12,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        12,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        6,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        6,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        4,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        10,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        10,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        6,
+        14,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        6,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        2,
+        3,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        9,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        5,
+        13,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        5,
+        7,
+        15
+      ]
+    },
+    {
+      "coefficient": -1,
+      "lift_depth": 2,
+      "orientation": -1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        3,
+        11,
+        15
+      ]
+    },
+    {
+      "coefficient": 1,
+      "lift_depth": 2,
+      "orientation": 1,
+      "row": 8,
+      "standard": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ]
+    }
+  ],
+  "source_order": "original_source_vertex_then_standard_vertex",
+  "status": "finite_metadata_specification_only",
+  "support_envelopes": {
+    "inner_Pi": [
+      -1668,
+      5248
+    ],
+    "outer_Pi_all_J": [
+      -45684,
+      73705
+    ]
+  },
+  "terminal_rows": [
+    {
+      "cell": "CCBB",
+      "coefficient": 1,
+      "entry": [
+        "M11",
+        9,
+        3
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "q": 2
+    },
+    {
+      "cell": "CCBB",
+      "coefficient": 1,
+      "entry": [
+        "M11",
+        10,
+        4
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "q": 2
+    },
+    {
+      "cell": "CCBB",
+      "coefficient": -2,
+      "entry": [
+        "M11",
+        12,
+        6
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "q": 2
+    },
+    {
+      "cell": "CCCB",
+      "coefficient": 1,
+      "entry": [
+        "M10",
+        0,
+        3
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "q": 3
+    },
+    {
+      "cell": "CCCB",
+      "coefficient": 2,
+      "entry": [
+        "M10",
+        2,
+        6
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "q": 3
+    },
+    {
+      "cell": "CCCB",
+      "coefficient": 1,
+      "entry": [
+        "M21",
+        10,
+        1
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "q": 3
+    },
+    {
+      "cell": "CCCB",
+      "coefficient": 2,
+      "entry": [
+        "M21",
+        12,
+        5
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "q": 3
+    },
+    {
+      "cell": "CCCC",
+      "coefficient": -1,
+      "entry": [
+        "M20",
+        0,
+        0
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "q": 4
+    },
+    {
+      "cell": "CCCC",
+      "coefficient": 1,
+      "entry": [
+        "M31",
+        10,
+        0
+      ],
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "q": 4
+    }
+  ],
+  "unresolved_leaves": [
+    {
+      "id": "M0",
+      "reason": "exact baseline numerator DAG and reuse not instantiated"
+    },
+    {
+      "id": "F12_F34",
+      "reason": "physical scalar numerator DAGs and reuse not instantiated"
+    },
+    {
+      "id": "currents_k_IPH",
+      "reason": "factored source kernels not compiled to arithmetic DAG"
+    },
+    {
+      "id": "weight_coefficients",
+      "reason": "finite quotient formulas not priced/extracted"
+    },
+    {
+      "id": "coefficient_demands",
+      "reason": "symbolic exponent predicates not reduced to priced DAG"
+    },
+    {
+      "id": "exact_cancellation",
+      "reason": "proof-backed rewrites need concrete numerator ledger"
+    },
+    {
+      "id": "product_ledger",
+      "reason": "complete count unknown; no arithmetic admission"
+    },
+    {
+      "id": "live_byte_schedule",
+      "reason": "coefficient widths/runtime/scratch not certified"
+    }
+  ]
+}

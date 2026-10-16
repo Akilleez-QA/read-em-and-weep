@@ -1,0 +1,26 @@
+{
+  "certificates": [
+    {
+      "bytes": 4000058,
+      "file": "legal-mask-sector-support.json",
+      "gzip": "legal-mask-sector-support.json.gz",
+      "gzip_sha256": "439481e8fb2e14f931198801223e99b2c01209a9217580148f1bce281441dea4",
+      "sha256": "1d420ed8368424cfa61d48dcf3b5b46e6f855b4dffe58fe33f9446f8a8aad740"
+    },
+    {
+      "bytes": 5546534,
+      "file": "permuted-standard-sector-support.json",
+      "gzip": "permuted-standard-sector-support.json.gz",
+      "gzip_sha256": "9547a7d36a1e717c86322d80b50b5b1991086eaf954cb99ac3517cf351c92a20",
+      "sha256": "c11c17bd62ede6f6a02b7cdefdbc840aec528a24c5eac83ad3959dbec32452a8"
+    },
+    {
+      "bytes": 6553710,
+      "file": "primary-carrier-sector-support.json",
+      "gzip": "primary-carrier-sector-support.json.gz",
+      "gzip_sha256": "2b6775e3cdd5361d8ccbf8aedfb424138c2f4e00eda2ecdf1c3d72a5e0f2dd84",
+      "sha256": "c6c6795aab6f9ad5cc6037cae0ef6eb472413b837eaa365dd76792a9b95dab35"
+    }
+  ],
+  "schema": "public-certificate-archives-v1"
+}

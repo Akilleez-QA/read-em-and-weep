@@ -1,0 +1,11 @@
+{
+  "verdict": "accepted_with_explicit_split_frame_normalization",
+  "reviewed_proof_sha256": "0f380a52c52cf482d9c160e9f386a41520d625b7ac3eddccfa60e05ebfd8c18b",
+  "normal_exit_code": 0,
+  "optimized_exit_code": 0,
+  "test_methods": 4,
+  "quartic_basis_tensors": 1296,
+  "invented_flat_germ_triples": 16,
+  "physical_source_evaluations": 0,
+  "scope": "Full S4 sign projection only; no finite-cutoff or complementary-30-dimensional claim."
+}

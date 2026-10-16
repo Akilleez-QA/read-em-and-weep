@@ -1,0 +1,14 @@
+test_blocked_unknowns_remain_explicit (__main__.CostReview.test_blocked_unknowns_remain_explicit) ... ok
+test_complete_symbolic_DAG_replay (__main__.CostReview.test_complete_symbolic_DAG_replay) ... ok
+test_input_constant_metadata (__main__.CostReview.test_input_constant_metadata) ... ok
+test_known_exponent_observation_gap (__main__.CostReview.test_known_exponent_observation_gap) ... ok
+test_known_standalone_transitive_pin_gap (__main__.CostReview.test_known_standalone_transitive_pin_gap) ... ok
+test_relevant_pinned_source_bytes (__main__.CostReview.test_relevant_pinned_source_bytes) ... ok
+test_tiny_artificial_rational_bounds (__main__.CostReview.test_tiny_artificial_rational_bounds) ... ok
+test_uniform_compound_majorant (__main__.CostReview.test_uniform_compound_majorant) ... ok
+test_weighted_lex_bound (__main__.CostReview.test_weighted_lex_bound) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.326s
+
+OK

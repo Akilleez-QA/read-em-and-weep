@@ -1,0 +1,40 @@
+[
+  {
+    "result_id": "r1",
+    "worker_identity": "worker-a",
+    "claim_id": "claim-1",
+    "parent_claim": null,
+    "source_commit_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "input_artifact_hashes": {
+      "matrix.json": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+    },
+    "scope": {
+      "domain": "integer matrices of size 2 by 2",
+      "quantifiers": "for every matrix in the supplied family",
+      "restrictions": "entries in {0, 1}",
+      "family": "F1"
+    },
+    "scope_relation": "same",
+    "conclusion_kind": "candidate_overlap",
+    "hypotheses": [
+      "matrix is in F1"
+    ],
+    "proof_artifacts": [],
+    "test_commands": [
+      "python verify.py matrix.json"
+    ],
+    "receipts": [],
+    "evidence_kind": "support_overlap_only",
+    "execution_status": "completed",
+    "eliminates_family": false,
+    "review": {
+      "status": "pending",
+      "reviewer_identity": null,
+      "reviewer_independence": false,
+      "review_receipt": null
+    },
+    "changed_claim": "Candidate supports intersect.",
+    "unresolved_obligation": "Prove noncancellation.",
+    "next_discriminating_test": "Compute the signed coefficient exactly."
+  }
+]

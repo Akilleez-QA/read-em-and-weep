@@ -1,0 +1,81 @@
+{
+  "bounds": {
+    "derivative_orders": {
+      "carrier": 15,
+      "legal": 2,
+      "standard": 5251
+    },
+    "execution_admitted": false,
+    "global_regularization_groups_discharged": 0,
+    "physical_source_verified": false,
+    "raw_weight_degree": 1747,
+    "scalar_orders": {
+      "carrier": 14,
+      "legal": 1,
+      "standard": 5250
+    },
+    "standard_branch_finite_box": [
+      -1668,
+      5248
+    ],
+    "standard_pole": 5250
+  },
+  "recipe": {
+    "branches": [
+      {
+        "kind": "standard",
+        "required": "B_ab complete sum; per-coordinate standard_exponent_admissible; support [-1668,5248]^4"
+      },
+      {
+        "inserted_tags": [
+          "r(a)"
+        ],
+        "kind": "prism1",
+        "numerator_padding": "Z_ab",
+        "sign": 1,
+        "suffix": [
+          "a",
+          "b"
+        ]
+      },
+      {
+        "inserted_tags": [
+          "r(a)",
+          "r(b)"
+        ],
+        "kind": "prism2",
+        "numerator_padding": "C_a Z_ab",
+        "sign": -1,
+        "suffix": [
+          "b"
+        ]
+      }
+    ],
+    "definitions": {
+      "B_ab": "[R(K_cov Pi + A h S Pi)F]_ab; complete standard branch sum",
+      "C_v": "H_v^14 * product_(i in pair) ell_vi",
+      "D_ab": "C_a C_b Z_ab",
+      "Delta_ab": "product of each positive owned factor f in D_ab once; distinct owners are not merged",
+      "N_ab": "C_a C_b Z_ab B_ab + Z_ab sum_u Qhat_u P_[u,a,b] - C_a Z_ab sum_(u,v) Qhat_u Qhat_v P_[u,v,b]",
+      "Qhat_v": "Qcarrier_v(local) * product_pair Qline_vi(local) * product_complement L_vi(local) * product_(e_vi=1) x_i^(-14*d_v-deg(ell_vi)*[i in pair])",
+      "Z_ab": "product_i Z_(a,i)^5250 Z_(b,i)^5250",
+      "common_alternation": "general common cochains vanish only on repeated (carrier,legal_mask,standard_tag); full five-field denominator owners never merge",
+      "derivative": "partial_i T(F)_ab=(Delta_ab partial_i N_ab - N_ab sum_f a_f(partial_i f) Delta_ab/f)/(D_ab Delta_ab)",
+      "identity": "T(F)_ab=N_ab/D_ab",
+      "source_identity": "P_[r,s,t] = C_r C_s C_t (s*F)_[r,s,t]; source-first sign; repeated (carrier,legal_mask) zero even across standard tags"
+    },
+    "execution_admitted": false,
+    "generic_full_sum_identity_proved": true,
+    "inserted_negative_bounds": {
+      "complement": 553,
+      "pair": 554
+    },
+    "output_edge": "increasing source-first common edge; extend the complete result alternatingly to reversed edges; repeated common edge zero",
+    "pair": [
+      0,
+      1
+    ],
+    "schema": "combined-inner-regularization-identity-v1",
+    "source_clearing_verified_by_this_artifact": false
+  }
+}

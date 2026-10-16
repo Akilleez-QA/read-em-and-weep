@@ -1,0 +1,31 @@
+{
+  "schema": "tracefree-current-selector-equivalence-v1",
+  "status": "proved_using_explicit_pinned_determinant_dependency",
+  "request_commit": "fc7563595b8fd0aeed1675d886b178d43c385bdf",
+  "v5_commit": "ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18",
+  "determinant_proof_commit": "08b73637d4136f91606aad332c46cafd064417f8",
+  "seed_scope": [
+    12,
+    30
+  ],
+  "channel": "E34(T12F12) request; numerator realization not asserted",
+  "branch_count": 8,
+  "raw_projected_first_current_equivalence_proved": true,
+  "baseline_equivalence_proved": false,
+  "existing_compiler_flags_modified": false,
+  "physical_polynomial_expansion": false,
+  "physical_polynomial_evaluation": false,
+  "determinant_checker_rerun": false,
+  "abstract_test_methods_passed": 7,
+  "unchanged_gates": [
+    "T12F12_realized",
+    "combined_inner_poles_discharged",
+    "Laurent_admitted",
+    "actual_detector_admitted",
+    "execution_release",
+    "physical_source_evaluated",
+    "historical_order_audit_accepted"
+  ],
+  "proof": "PROOF.md",
+  "source_pins": "source-pins.json"
+}

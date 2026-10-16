@@ -1,0 +1,41 @@
+{
+  "schema": "current-scalar-residual-attribution-pins-v1",
+  "repository": "https://github.com/Akilleez-QA/read-em-and-weep",
+  "publicDependencies": {
+    "geometric": {
+      "commit": "dc60a859a0157b1d2d1b57b37324509abc22c600",
+      "path": "research/hm/current-scalar-geometric-dependencies/"
+    },
+    "proof": {
+      "commit": "a100f4e0be453d6e182320b792359f8a04e32b4d",
+      "path": "research/hm/current-scalar-proof/"
+    }
+  },
+  "dependencies": {
+    "model": {
+      "relativePath": "data/model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    "sourceExcerpts": {
+      "relativePath": "data/source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    "finiteModel": {
+      "relativePath": "finite-model/pinned-verify-hm-ext.js",
+      "sha256": "1fe4608ed77f3767691e7ef4de375fc55b052ccf26159a4aae3ec6d35fe96414"
+    }
+  },
+  "publicGenerator": {
+    "commit": "6032b64d3f748c7ac37cb283db4a527e49d06ac8",
+    "path": "research/hm/current-scalar-source-bridge/public_generate_hm_mask_coefficients_reduced.js",
+    "sha256": "731fa3f8e3d9ae49f57f595c34220ef9b6a2bedc9cc6f3875c643978f5f01ab4"
+  },
+  "sourceFunctions": {
+    "build2": "496eb4b316067f2f00947e3c768f9cc5f656719502a229028b54a875667b287c",
+    "crossResidual": "3af7a043e60508ebd6a59285b0a39ee8650d37f315132c31eb696663de9077e9",
+    "mtraceProduct": "748d420476e7137d5e05cdd299aa0e99b95cd58a91168e907c9eaf478f9c1bce",
+    "globalBuild2": "6be66828317599654c9efcc3a666178561f4f18c995f9725547d1fd82599f6ce",
+    "globalCross": "14a460634423be84a21a227c5569829c8117a6e6bcf8336b8e5755d3895d1126"
+  },
+  "normalizationSHA256": "01e9887d34061b523124bfb8ce1ae67fbfe80dcd3eab16d0f2b596f7bdf9d44a"
+}
