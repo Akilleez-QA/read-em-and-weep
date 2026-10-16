@@ -1,0 +1,38 @@
+{
+  "channel": "E34(T12F12)",
+  "frame": "global-finite-product-frame",
+  "orientation": 1,
+  "owners": [
+    [
+      12,
+      0,
+      5,
+      8,
+      1
+    ],
+    [
+      12,
+      1,
+      1,
+      9,
+      9
+    ],
+    [
+      12,
+      2,
+      2,
+      11,
+      13
+    ],
+    [
+      12,
+      3,
+      4,
+      15,
+      15
+    ]
+  ],
+  "prefix_mask_scope": "fixed-mask-term",
+  "schema": "codex-v5-e34-request-v1",
+  "seed": 12
+}
