@@ -1,0 +1,41 @@
+{
+  "schema": "one-fixed-attempt-decision-v1",
+  "status": "REVIEWED_ONE_ATTEMPT_ONLY",
+  "reviewed_launcher_sha256": "eae6da74f21f5581c2fdcd35c8bebb8d42854ce564b197bde11a166cbcb8a915",
+  "attempt_launcher_sha256": "0f68a68aaeb2461dcc197ffb167ecf8fd956e0b195840c506bfb6053a552c453",
+  "change": "PHYSICAL_RELEASED False to True in a separate executable; original held launcher unchanged",
+  "source_commit": "779c1f7604db6fd48ce6e389b30a96f7aebef9f7",
+  "physical_vertices": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      10
+    ]
+  ],
+  "x_rationals": [
+    "2",
+    "13/6",
+    "7/3",
+    "5/2"
+  ],
+  "maximum_invocations": 1,
+  "adaptive_retry": false,
+  "per_process_address_space": 268435456,
+  "per_process_cpu_seconds": 15,
+  "child_wall_seconds": 20,
+  "combined_child_output_bytes": 65536,
+  "rational_ops": 2000000,
+  "integer_ops": 20000000,
+  "integer_bits": 4096,
+  "result_scope": "one pointwise Omega specialization only; no detector or global obstruction conclusion",
+  "peer_review_of_latest_wrapper": "requested, not yet received",
+  "decision_basis": "Prior independent mathematical review plus root static launcher review and 22 artificial launcher controls; no claim of peer acceptance of wrapper",
+  "historical_replay": "unchanged and unreleased"
+}
