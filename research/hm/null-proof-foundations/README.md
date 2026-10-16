@@ -59,6 +59,17 @@ independent jet test resolves its sibling control by `__file__` rather than
 assuming a local directory name. Proof notes may cite pinned public source
 formulas for their hypotheses; those sources are not evaluated by this suite.
 
+## Included geometric prerequisite addendum
+
+The full earlier notes `hm-transition-only-first-lift-alternative.md`,
+`hm-full-sign-legal-line-bound.md`, and `hm-regular-cover-transport.md` are now
+included. They supply the scalar-solver/gauge formulas, original-source legal
+pole proof, and explicit signed regular-cover comparison cited by the later
+foundations. Their pinned upstream references remain prerequisites for applying
+the formulas to the geometric source. This adds written proofs, not a new
+physical computation or a claim that every historical audit is bundled. See
+`proof-notes-index.md` for the original-source versus refined-source distinction.
+
 ## Open obligations
 
 - Actual detector/source binding and all required frame, owner and partition

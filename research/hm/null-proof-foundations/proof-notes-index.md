@@ -1,6 +1,6 @@
 # Proof-note index and dependency scope
 
-This collection contains twenty-one mathematical proof and audit notes. It preserves the distinctions between a formal identity, a full-domain existence theorem, a conditional compression, an abstract counterexample, and an evaluated geometric obstruction. None of these notes supplies the complete actual obstruction value.
+This collection contains twenty-four mathematical proof and audit notes. It preserves the distinctions between a formal identity, a full-domain existence theorem, a conditional compression, an abstract counterexample, and an evaluated geometric obstruction. None of these notes supplies the complete actual obstruction value.
 
 ## Reading order and selected inventory
 
@@ -57,17 +57,17 @@ These are formal identities and universal counterexamples. They do not prove non
 
 Its combined historical regression refers to tests outside this focused collection. Use this collection's README and `run_checks.py` for the exact local replay scope; do not treat the historical command as an additional completed replay of absent tests.
 
-## External proof dependencies
+## Included geometric prerequisites and external context
 
-The notes cite companion files by basename. A basename is a bibliographic dependency, not a claim that the file is included or that a relative link has been verified. In particular, the following proof prerequisites are not reproduced among these twenty-one notes:
+The following three earlier geometric prerequisites are now included in full:
 
-- `hm-transition-only-first-lift-alternative.md`
-- `hm-full-sign-legal-line-bound.md`
-- `hm-regular-cover-transport.md`
-- `selected-new-m0-circuit.md`
-- `selected-support-separation-independent-audit.md`
+- [Transition-only first lift](hm-transition-only-first-lift-alternative.md): source-first common ordering, the exact scalar solver, and gauge comparison with the pinned first lift, including induced second-order terms.
+- [Legal-line bound](hm-full-sign-legal-line-bound.md): the complete original full-sign lift has legal order one per coordinate after physical endpoint cancellation, with actual mask ownership.
+- [Regular cover transport](hm-regular-cover-transport.md): fixed polynomial partitions, signed Alexander–Whitney/staircase maps, rectangle-cone homotopy, weighted projection/prism and the conservative original-source domain.
 
-Essential application prerequisites among those external titles are the transition-only scalar solver, homogeneous primitive/line-bound certificate, and regular-cover transport proof. The selected-circuit and selected-support audit titles provide historical or implementation context; the complete baseline formula needed for the second-jet argument is included here. Applications must check the cited source conventions and domain hypotheses. This collection does not silently reconstruct omitted prerequisites from a filename.
+Read these earlier original-source statements with the later refined trace-free domain analysis. The original-source legal-line bound is not automatically a bound for a differentiated partition-dependent replacement source; the transition-only note explicitly preserves that distinction. Their formula-level proofs do not provide a physical coefficient evaluation or an executable cost certificate.
+
+The notes also cite companion files by basename. A basename is a bibliographic dependency, not a claim that every cited document is included. `selected-new-m0-circuit.md` and `selected-support-separation-independent-audit.md` remain historical or implementation context outside this focused collection. The transition-only note also cites separate cover-transport and first-order-rank audits; its explicit pinned first-order source and closure references supply the source identities used in its argument. This addendum does not claim every historical audit or every upstream source is bundled. Applications must check the pinned source conventions and domain hypotheses; the complete baseline formula needed for the second-jet argument is included here.
 
 The accompanying public support-certificate package supplies these directly referenced notes:
 
