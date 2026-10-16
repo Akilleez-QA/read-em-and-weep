@@ -1,0 +1,16 @@
+test_all_eightyone_indices (test_contract.Contract.test_all_eightyone_indices) ... ok
+test_all_thirty_bottom_chain_identities_formal (test_contract.Contract.test_all_thirty_bottom_chain_identities_formal) ... ok
+test_homotopy_trace_adjoint_both_signs (test_contract.Contract.test_homotopy_trace_adjoint_both_signs) ... ok
+test_inclusion_adjoint_transpose (test_contract.Contract.test_inclusion_adjoint_transpose) ... ok
+test_negative_projection_has_no_perturbation_paths (test_contract.Contract.test_negative_projection_has_no_perturbation_paths) ... ok
+test_owner_bound_ledger (test_contract.Contract.test_owner_bound_ledger) ... ok
+test_owner_retention_after_face_deletion (test_contract.Contract.test_owner_retention_after_face_deletion) ... ok
+test_scalar_harmonic_window_kills_regular_faces (test_contract.Contract.test_scalar_harmonic_window_kills_regular_faces) ... ok
+test_top_closure_is_required (test_contract.Contract.test_top_closure_is_required) ... ok
+test_twenty_maps_thirtytwo_requests (test_contract.Contract.test_twenty_maps_thirtytwo_requests) ... ok
+test_twentyfour_oriented_staircases (test_contract.Contract.test_twentyfour_oriented_staircases) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.004s
+
+OK
