@@ -1,0 +1,270 @@
+{
+  "actual_fibers_enumerated": false,
+  "execution_release": false,
+  "historical_snapshot_routes": [
+    {
+      "current_replay_route": "test_frame_followup.py transparently overrides only historical MARKER_SHA in memory and runs the historical cases plus independent frame controls.",
+      "exact_old_current_byte_identity_claimed": false,
+      "historical_file": "test_independent.py",
+      "historical_file_sha256": "5797d6a113fc63676e3373873ffb3dd15a177b4480a6db6b17b8e74bf95ec835",
+      "lane": "total-gated-provider",
+      "reason": "Preserved independent test authenticates its original pre-frame producer marker. Direct stale replay would intentionally reject current producer bytes.",
+      "wrapper_present": true
+    }
+  ],
+  "lanes": [
+    {
+      "captured_output_sha256": "726a9916a11c176f67d4c218a319af8043c5215b460707fdb9eec1e30ea7e338",
+      "lane": "full-source-application",
+      "log": "full-source-application-test_application-normal.log",
+      "log_sha256": "726a9916a11c176f67d4c218a319af8043c5215b460707fdb9eec1e30ea7e338",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.279,
+      "suite_test_counts": [
+        7
+      ],
+      "testfile": "test_application.py",
+      "testfile_sha256": "b9a38a74dccd25fa7a4cb9bf86f6e214759b06d18bbc57f1e4c54d67f2340197",
+      "tests": 7
+    },
+    {
+      "captured_output_sha256": "4d144ce8669431fc8e98ad5198228d16d8f894676937b8bce2d2fd3835a443de",
+      "lane": "full-source-application",
+      "log": "full-source-application-test_application-optimized.log",
+      "log_sha256": "4d144ce8669431fc8e98ad5198228d16d8f894676937b8bce2d2fd3835a443de",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.281,
+      "suite_test_counts": [
+        7
+      ],
+      "testfile": "test_application.py",
+      "testfile_sha256": "b9a38a74dccd25fa7a4cb9bf86f6e214759b06d18bbc57f1e4c54d67f2340197",
+      "tests": 7
+    },
+    {
+      "captured_output_sha256": "8c4022ab945546ccdaf70434609a68f0efe77e3c6681e9a353915584d1a4b6af",
+      "lane": "full-source-application",
+      "log": "full-source-application-test_independent-normal.log",
+      "log_sha256": "8c4022ab945546ccdaf70434609a68f0efe77e3c6681e9a353915584d1a4b6af",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 4.335,
+      "suite_test_counts": [
+        11
+      ],
+      "testfile": "test_independent.py",
+      "testfile_sha256": "bca452fcf390055f08274bbead7d404f03155c6cf1b47020ced29fe8f64cb4f7",
+      "tests": 11
+    },
+    {
+      "captured_output_sha256": "c7e7b967fa24918cbc3ddcc8920d34ef6854780a968b3f70563c54fc6100a66a",
+      "lane": "full-source-application",
+      "log": "full-source-application-test_independent-optimized.log",
+      "log_sha256": "c7e7b967fa24918cbc3ddcc8920d34ef6854780a968b3f70563c54fc6100a66a",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 4.297,
+      "suite_test_counts": [
+        11
+      ],
+      "testfile": "test_independent.py",
+      "testfile_sha256": "bca452fcf390055f08274bbead7d404f03155c6cf1b47020ced29fe8f64cb4f7",
+      "tests": 11
+    },
+    {
+      "captured_output_sha256": "9876ba02a598d223479b0beadfcbe53ced50dff56d3446a39f55140c14ab7105",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_domain_followup-normal.log",
+      "log_sha256": "9876ba02a598d223479b0beadfcbe53ced50dff56d3446a39f55140c14ab7105",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.109,
+      "suite_test_counts": [
+        4
+      ],
+      "testfile": "test_domain_followup.py",
+      "testfile_sha256": "7f9435978fbf03c0ec948878a8c3c1667b39f6c1ce0ff393e66414594bac5ab0",
+      "tests": 4
+    },
+    {
+      "captured_output_sha256": "77a916b1d84f73e48638048ad1c6ec84b1bf302d4f359b6ca497f55ad2a38e30",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_domain_followup-optimized.log",
+      "log_sha256": "77a916b1d84f73e48638048ad1c6ec84b1bf302d4f359b6ca497f55ad2a38e30",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.106,
+      "suite_test_counts": [
+        4
+      ],
+      "testfile": "test_domain_followup.py",
+      "testfile_sha256": "7f9435978fbf03c0ec948878a8c3c1667b39f6c1ce0ff393e66414594bac5ab0",
+      "tests": 4
+    },
+    {
+      "captured_output_sha256": "d2e4c57100088f1441afe331fb9d3a0dbfd4f573eaf9ab6368251f1385cb7f80",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_independent-normal.log",
+      "log_sha256": "d2e4c57100088f1441afe331fb9d3a0dbfd4f573eaf9ab6368251f1385cb7f80",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 1.05,
+      "suite_test_counts": [
+        13
+      ],
+      "testfile": "test_independent.py",
+      "testfile_sha256": "835e3727894dd8f1257aad77248881d9c758d1aadab1465899f94212dc4f52c5",
+      "tests": 13
+    },
+    {
+      "captured_output_sha256": "18e890a323b6b3021132797421d6cb8cdf1fbc58e75aa8057023c0d687b407bc",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_independent-optimized.log",
+      "log_sha256": "18e890a323b6b3021132797421d6cb8cdf1fbc58e75aa8057023c0d687b407bc",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 1.057,
+      "suite_test_counts": [
+        13
+      ],
+      "testfile": "test_independent.py",
+      "testfile_sha256": "835e3727894dd8f1257aad77248881d9c758d1aadab1465899f94212dc4f52c5",
+      "tests": 13
+    },
+    {
+      "captured_output_sha256": "a22e3797ba2ac251ee0dd2c44da3e170ec3c5d7381d9a25817bf536c1bf43683",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_lift-normal.log",
+      "log_sha256": "a22e3797ba2ac251ee0dd2c44da3e170ec3c5d7381d9a25817bf536c1bf43683",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.518,
+      "suite_test_counts": [
+        11
+      ],
+      "testfile": "test_lift.py",
+      "testfile_sha256": "288bac12433c90d8e3a6f5eca5d096e8c0c1ed7856a357f0e1687b558e7cd981",
+      "tests": 11
+    },
+    {
+      "captured_output_sha256": "e12fa4fd24a67a848c53b4bc1ab86aecb226172c9c5f3fff2bd6219fbce22e3f",
+      "lane": "full-lift-domain",
+      "log": "full-lift-domain-test_lift-optimized.log",
+      "log_sha256": "e12fa4fd24a67a848c53b4bc1ab86aecb226172c9c5f3fff2bd6219fbce22e3f",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.523,
+      "suite_test_counts": [
+        11
+      ],
+      "testfile": "test_lift.py",
+      "testfile_sha256": "288bac12433c90d8e3a6f5eca5d096e8c0c1ed7856a357f0e1687b558e7cd981",
+      "tests": 11
+    },
+    {
+      "captured_output_sha256": "61596f5b8e67665b8c03b0909281f638c07b157476a15259874d47b0d034d2af",
+      "lane": "total-gated-provider",
+      "log": "total-gated-provider-test_frame_followup-normal.log",
+      "log_sha256": "61596f5b8e67665b8c03b0909281f638c07b157476a15259874d47b0d034d2af",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.24,
+      "suite_test_counts": [
+        18
+      ],
+      "testfile": "test_frame_followup.py",
+      "testfile_sha256": "01aa1a8ac6ee352d71a2de78e17b87e2ee17280063a3c7d3150c2fa46525ce08",
+      "tests": 18
+    },
+    {
+      "captured_output_sha256": "cddb1840b0501d7ee347bd7c00d0bf2986e3cdff8f0b2e40a5700aaabc5247c6",
+      "lane": "total-gated-provider",
+      "log": "total-gated-provider-test_frame_followup-optimized.log",
+      "log_sha256": "cddb1840b0501d7ee347bd7c00d0bf2986e3cdff8f0b2e40a5700aaabc5247c6",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.244,
+      "suite_test_counts": [
+        18
+      ],
+      "testfile": "test_frame_followup.py",
+      "testfile_sha256": "01aa1a8ac6ee352d71a2de78e17b87e2ee17280063a3c7d3150c2fa46525ce08",
+      "tests": 18
+    },
+    {
+      "captured_output_sha256": "62fd9f359d92bdea9095508c95eac66d83bb9f40c90be74ba7d573d6d8580446",
+      "lane": "total-gated-provider",
+      "log": "total-gated-provider-test_provider-normal.log",
+      "log_sha256": "62fd9f359d92bdea9095508c95eac66d83bb9f40c90be74ba7d573d6d8580446",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.127,
+      "suite_test_counts": [
+        9
+      ],
+      "testfile": "test_provider.py",
+      "testfile_sha256": "2519a2ac1e83202bf51c27f1b234dc5df0ca5f77288556ca82a999637b965783",
+      "tests": 9
+    },
+    {
+      "captured_output_sha256": "a840c7e4ebf7dfed7587e33fde0c1c0c641a6dd0d5db79754133a5c481f2ff66",
+      "lane": "total-gated-provider",
+      "log": "total-gated-provider-test_provider-optimized.log",
+      "log_sha256": "a840c7e4ebf7dfed7587e33fde0c1c0c641a6dd0d5db79754133a5c481f2ff66",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.129,
+      "suite_test_counts": [
+        9
+      ],
+      "testfile": "test_provider.py",
+      "testfile_sha256": "2519a2ac1e83202bf51c27f1b234dc5df0ca5f77288556ca82a999637b965783",
+      "tests": 9
+    },
+    {
+      "captured_output_sha256": "b31b44b474a75ecef3abfcda9310bd56bcef4d4ceaeb48e2a5b6700316ce868b",
+      "lane": "wave6",
+      "log": "wave6-test_bundle_metadata-normal.log",
+      "log_sha256": "b31b44b474a75ecef3abfcda9310bd56bcef4d4ceaeb48e2a5b6700316ce868b",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.412,
+      "suite_test_counts": [
+        2
+      ],
+      "testfile": "test_bundle_metadata.py",
+      "testfile_sha256": "4f6954b11f86ffd84a28050307dc9690ab15e9f7ff0b493f929ed35dbd0e87f1",
+      "tests": 2
+    },
+    {
+      "captured_output_sha256": "98c34d301e634184e3f794e5d01aabc3ae610e7750804b5c27dd9d022eac2eb1",
+      "lane": "wave6",
+      "log": "wave6-test_bundle_metadata-optimized.log",
+      "log_sha256": "98c34d301e634184e3f794e5d01aabc3ae610e7750804b5c27dd9d022eac2eb1",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.408,
+      "suite_test_counts": [
+        2
+      ],
+      "testfile": "test_bundle_metadata.py",
+      "testfile_sha256": "4f6954b11f86ffd84a28050307dc9690ab15e9f7ff0b493f929ed35dbd0e87f1",
+      "tests": 2
+    }
+  ],
+  "limits_per_subprocess": {
+    "CPU_seconds": 59,
+    "address_space_MiB": 768,
+    "wall_seconds": 60
+  },
+  "pending": [],
+  "physical_source_evaluated": false,
+  "schema": "bounded-wave6-replay-v1",
+  "status": "available controls pass",
+  "total_tests_per_mode": {
+    "False": 75,
+    "True": 75
+  }
+}

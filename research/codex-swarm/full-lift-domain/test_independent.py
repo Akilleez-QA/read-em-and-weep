@@ -22,7 +22,7 @@ ROOT = HERE.parents[2]
 sys.path.insert(0, str(HERE))
 import lift as L
 
-MARKER = 'f08c891d7639d6487efcb65cc9d582e31428bbe48fdd775266d9f4179cf9178e'
+MARKER = '88cd12c2a2a90e5300966adc6b01999d6f65559e2b7a8c8d5c36b0946f323ae9'
 PINS = '515c3d1a21645741aab58cf404228263ebc12128c9636c0df1fe0f9afd74d82a'
 
 def digest(b): return hashlib.sha256(b).hexdigest()
