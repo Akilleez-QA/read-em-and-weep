@@ -1,0 +1,36 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "AC01",
+  "status": "BLOCKED_ROUTE",
+  "files": {
+    "PROOF.md": "d8edd618201afd38fb1248e964f4895c2c2690c7346ae5b54ce808e4eea5ebfd",
+    "README.md": "b8a4dcdd6dac537c0704740d6c555ca72fc1eedd133c0fb4b2facd9054426f31",
+    "actual-PI-dot-envelope.json": "066b79faa2bfee91e3dcf352e1f91290a7c7c16996e0b902210142a22d8f3453",
+    "actual-input-bounds.json": "d1da8cdbf4818e585a33b0115e0db334f88f647d3ba06827e26da29070d40955",
+    "actual-seed-envelope.json": "9ba920ba94452b71cfd550c3aa59cf948ee9257ff4c20f671d504a665d571ce4",
+    "blocked-route.json": "03b71ee602615eb4aa104e736d0637362ffd874b7d0757b6fcdadf58c978c712",
+    "candidate-route.json": "268b815b975861af02e31336202b94338b81d747a897384fa58c875d7c9d89e9",
+    "certifier.py": "816f86504b0f517a8ba35aa77d8a6aec5adfb1eb7505803d3a31cd394910eb62",
+    "ledger-evidence.json": "0e5ef4dd03917bdccfcb1da91156b8e29ca02947bc067a90dcba38738e7c67a2",
+    "rf-recurrences.json": "79b701989e16678ad2cae092d90723e3f64921ff2a1a204b45a593b871b5f14a",
+    "rf_bounds.py": "ab17608845241801e3383981cdc8ed1dd6011952ce60930bde2fc7550d67f5ce",
+    "source-pins.json": "e0872ef5cfe3ac9d6d55fabcf6e74aec8b3e7126f946b69f14e9a5a529615931",
+    "test_certifier.py": "a1309603e1dece9be630a757c359a390245e4cc68136fb200ca5d351ff291583",
+    "whole-route-envelope.json": "627fbd2234c57d75ec9ef286cf93e4c7ca6c0593eae81a4a8180838e6c4ebd0d",
+    "whole_envelope.py": "93408c2aa015385990894458a453b9d00b43385ccdf71d7f24d681123e15079d"
+  },
+  "tests": {
+    "synthetic_and_metadata_controls": 10,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "physical_source_evaluated": false,
+  "actual_fibers_enumerated": false,
+  "current_ledger_authenticated": false,
+  "physical_execution_release": false,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "scope": "specified raw request30; complete symbolic literal-route work/height/logical-retain-all storage upper envelope, conditional on independent source/control review; byte-layout/cap-unit/all-worker ledger binding absent; not a lower bound or impossibility claim"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "actual-source-primitive-dot-envelope-v1",
+  "denotation": "one15-term dot product inside(P_a I_b)^t for arbitrary pinned carriers a,b",
+  "input": "normalized scalar-basis0 rational I/P entries; source model leaf bits<=16 so normalization bits<=32",
+  "matrix_contraction_length": 15,
+  "counter_upper": {
+    "products": 233477189379764,
+    "steps": 1167401138309705,
+    "storage_events": 233507575740178
+  },
+  "output_bound": {
+    "numerator": {
+      "terms": 1073283121,
+      "degree": 180,
+      "bits": 7261543664068409881328520285950201828711656450612125778726773449355928500
+    },
+    "denominator": {
+      "terms": 1073283121,
+      "degree": 180,
+      "bits": 3630882638185063562319756754710849594660533522715817793383526712833758188
+    }
+  },
+  "observed_bit_height_upper": 7261543664068409881328520285950201828711656450612125778726773449355928500,
+  "complete_g_physical_frame_included": false,
+  "moving_frame_products_and_full_source_root_bound": null,
+  "physical_coefficients_evaluated": false,
+  "not_a_lower_bound": true
+}

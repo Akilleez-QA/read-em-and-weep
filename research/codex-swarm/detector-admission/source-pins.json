@@ -1,0 +1,95 @@
+{
+  "schema": "detector-admission-input-pins-v1",
+  "workspace_inputs": [
+    {
+      "path": "arithmetic/ledger/schedule_validator.py",
+      "sha256": "264d67358d74c2e3427376171340b37eac58331f9ef68f37903f363dd8311e2f"
+    },
+    {
+      "path": "arithmetic/ledger/test_schedule_validator.py",
+      "sha256": "810b374342bc5696ae79d33caea06bcffedb286ccf9717ac2c1e44b9bad22157"
+    },
+    {
+      "path": "arithmetic/ledger/candidate_preflight.py",
+      "sha256": "69c48040a72faeb12ef5da89e3a00c579bbd9ec23b33ad6b5d782a1b4b4937ec"
+    },
+    {
+      "path": "detector-selection/weighted-requests.json",
+      "sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+    },
+    {
+      "path": "detector-selection/selection.json",
+      "sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d"
+    },
+    {
+      "path": "total-gated-provider/provider.py",
+      "sha256": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af"
+    },
+    {
+      "path": "full-lift-domain/lift.py",
+      "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a"
+    },
+    {
+      "path": "exact-curve-field/field.py",
+      "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01"
+    },
+    {
+      "path": "exact-curve-field/producer-ready.json",
+      "sha256": "0d73ba3649961454a0795d408938abf9e857bd4e44feb47b99b666f2fd6e3340"
+    },
+    {
+      "path": "detector-realization/producer-ready.json",
+      "sha256": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a"
+    },
+    {
+      "path": "detector-realization/algorithm.json",
+      "sha256": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285"
+    },
+    {
+      "path": "detector-realization/raw_engine.py",
+      "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9"
+    },
+    {
+      "path": "detector-realization/program.py",
+      "sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b"
+    },
+    {
+      "path": "detector-realization/bindings.py",
+      "sha256": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba"
+    },
+    {
+      "path": "scalar-compiler/compiler.py",
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
+    },
+    {
+      "path": "transport-binding/lift_schema.py",
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+    },
+    {
+      "path": "source-boundary-analysis/PROOF.md",
+      "sha256": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7"
+    },
+    {
+      "path": "source-boundary-analysis/review-independent.md",
+      "sha256": "a065a491dd4ff7d27e0262fc1b2edc7f04833261bd6389ee43c821767c071c24"
+    }
+  ],
+  "A06_review_read": {
+    "read_path": "/tmp/read-em-and-weep-swarm/reports/Codex-V01-review-schedule.py",
+    "sha256": "45d73b358c31d3976ba7ceae77118ca4eb66603f75fda7078f3fbcb8d3d9cf13",
+    "accepted_scope": "pure replay of a caller-supplied fictional snapshot; historical state and cross-owner authorization are not authenticated; actual admission remains false",
+    "private_artifact_required_for_replay": false
+  },
+  "actual_ledger_authenticated": false,
+  "immutable_outer_formula_source": {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "path": "research/hm/null-operator-compiler/outer_partition_source_binding.py",
+    "git_blob": "f5a33e325e1eee6b801c94613093d1cd4686ca54",
+    "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a",
+    "parameters": {
+      "carrier_power": 54,
+      "legal_power": 29
+    },
+    "scope": "N54 outer weight structural zeros, not N14 source inference"
+  }
+}
