@@ -1,0 +1,32 @@
+{
+  "schema": "FD01-producer-review-handoff-v1",
+  "scope": "full symbolic fiber domain and coefficient-free actual-source domain application",
+  "producer": "FD01",
+  "tests": {
+    "normal": 10,
+    "optimized": 10,
+    "command": "python -B run_controls.py"
+  },
+  "physical_source_evaluated": false,
+  "actual_fibers_enumerated": false,
+  "physical_execution_authorized": false,
+  "independent_P_Q_review_external": true,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "files": {
+    "domain.py": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d",
+    "test_domain.py": "48a45456f16ebb4ac8e117f20126e93d2c526b09a6bd8b47955bf7677b696f70",
+    "run_controls.py": "1b79da81c9720c1eccd1bfecb76417f6f157a70be02e3a32f56f8d39be1ad12b",
+    "build_handoff.py": "47a4232823894fc29661964174f7aac76ad55e9d6dfc544336cc9b4832c763c7",
+    "PROOF.md": "63bd8548057b5e4de81609b15817335d145685dc9867d91cbdebc8242a9af631",
+    "README.md": "0b6c08ce667eefee3a25bcb6c608c3090350bcd24a8c28d66e322f466174a898",
+    "source-pins.json": "09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc",
+    "fiber-descriptor.json": "6688c0ac6daf8133fd1edc78e35485626bd5b2a9b5e269ba60eca63fe029ffa1",
+    "application-contract.json": "49831bf1cb6d928af073ad9994530404ab71182a24b935c25c71119ff9282016",
+    "controls-receipt.json": "7f211e1e6ef97233269333cb2570087f1bdce3e1803e2f9ae5f2da855af94cd8",
+    "controls-normal.log": "a666fca1c9517f869549f984368811e9ae3bf7eb0ede799be0e3c375c92fdd88",
+    "controls-optimized.log": "a666fca1c9517f869549f984368811e9ae3bf7eb0ede799be0e3c375c92fdd88"
+  }
+}

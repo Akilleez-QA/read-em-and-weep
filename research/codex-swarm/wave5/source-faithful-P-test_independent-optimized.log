@@ -1,0 +1,14 @@
+test_153_lowering_artificial_rational_jets (__main__.IndependentControls.test_153_lowering_artificial_rational_jets) ... ok
+test_binding_never_constructs_catalog_or_ring (__main__.IndependentControls.test_binding_never_constructs_catalog_or_ring) ... ok
+test_byte_mutations_fail_closed (__main__.IndependentControls.test_byte_mutations_fail_closed) ... ok
+test_catalog_opcode_recording_on_fabricated_entries (__main__.IndependentControls.test_catalog_opcode_recording_on_fabricated_entries) ... ok
+test_degrees_order_axes_and_fixed_tags (__main__.IndependentControls.test_degrees_order_axes_and_fixed_tags) ... ok
+test_exact_primitive_metadata_and_hidden_v0 (__main__.IndependentControls.test_exact_primitive_metadata_and_hidden_v0) ... ok
+test_free_word_matrix_contraction_order (__main__.IndependentControls.test_free_word_matrix_contraction_order) ... ok
+test_guards_copies_and_unconditional_refusal (__main__.IndependentControls.test_guards_copies_and_unconditional_refusal) ... ok
+test_substitution_chain_derivative_coefficients (__main__.IndependentControls.test_substitution_chain_derivative_coefficients) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.168s
+
+OK

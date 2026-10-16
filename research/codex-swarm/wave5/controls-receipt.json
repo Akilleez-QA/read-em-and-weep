@@ -1,0 +1,151 @@
+{
+  "execution_release": false,
+  "lanes": [
+    {
+      "lane": "source-faithful-P",
+      "log": "source-faithful-P-test_binding-normal.log",
+      "log_sha256": "ccb6b405788c8a50ef47e5cbb30c8791e7e36706ca003e4f53ffb03519298cf8",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.105,
+      "testfile": "test_binding.py"
+    },
+    {
+      "lane": "source-faithful-P",
+      "log": "source-faithful-P-test_binding-optimized.log",
+      "log_sha256": "ccb6b405788c8a50ef47e5cbb30c8791e7e36706ca003e4f53ffb03519298cf8",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.108,
+      "testfile": "test_binding.py"
+    },
+    {
+      "lane": "source-faithful-P",
+      "log": "source-faithful-P-test_independent-normal.log",
+      "log_sha256": "b0040cba1adbbf2e3c1b8c93c0c3cac203f64d198aebd962e72cd1630ce9470f",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.257,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-faithful-P",
+      "log": "source-faithful-P-test_independent-optimized.log",
+      "log_sha256": "0079fdd626ff3b391f473adc4b71c025e3efe8fb44655b3540bce756b6f7b89f",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.258,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-faithful-Q",
+      "log": "source-faithful-Q-test_binding-normal.log",
+      "log_sha256": "4d4055cd433b301d1eda76e6e8f76f5bf6a03e473cf1c9582084a057ca9a5212",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.136,
+      "testfile": "test_binding.py"
+    },
+    {
+      "lane": "source-faithful-Q",
+      "log": "source-faithful-Q-test_binding-optimized.log",
+      "log_sha256": "6dfc66a3909a60b7fbadcc746ddb750672534d7315d4572fde447f37708af8f2",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.135,
+      "testfile": "test_binding.py"
+    },
+    {
+      "lane": "source-faithful-Q",
+      "log": "source-faithful-Q-test_independent-normal.log",
+      "log_sha256": "1f2dbc16dfe3bb73a52484088db8d94448122915581abdea3660818f8663dd13",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.618,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-faithful-Q",
+      "log": "source-faithful-Q-test_independent-optimized.log",
+      "log_sha256": "74bd6efc9a1dc6fa519e14271f787842992a1715c69d92dc504391a2532bea50",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.616,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_domain-normal.log",
+      "log_sha256": "549610e74b26b778da1b8ef1987e39014b8a2ea9878ca16405cf26d03a4c8ff2",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.042,
+      "testfile": "test_domain.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_domain-optimized.log",
+      "log_sha256": "549610e74b26b778da1b8ef1987e39014b8a2ea9878ca16405cf26d03a4c8ff2",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.041,
+      "testfile": "test_domain.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_independent-normal.log",
+      "log_sha256": "6494ec707719841e0f645d02a3308cb4acd919a1f60ce638234cf943e4ead7f8",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.148,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_independent-optimized.log",
+      "log_sha256": "4437f87d764ed7335d36cb33d2a5b15bc295b994444911b136bfbf43b39cf983",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.147,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_pin_followup-normal.log",
+      "log_sha256": "5ca9482fc6c5b3dce932f6ed6751d3aa996f2471d3d7ae1f35ba171c57e8143d",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.119,
+      "testfile": "test_pin_followup.py"
+    },
+    {
+      "lane": "source-domain-application",
+      "log": "source-domain-application-test_pin_followup-optimized.log",
+      "log_sha256": "39abcef9cde919c2b4ead147e8b662833f317cfa571ac657e51126346894245c",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.119,
+      "testfile": "test_pin_followup.py"
+    },
+    {
+      "lane": "wave5",
+      "log": "wave5-test_bundle_metadata-normal.log",
+      "log_sha256": "9631b67fb46b0365ae0d7b24eed48fe65d6609b8e53b9901028cdcb4576bacd3",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.171,
+      "testfile": "test_bundle_metadata.py"
+    },
+    {
+      "lane": "wave5",
+      "log": "wave5-test_bundle_metadata-optimized.log",
+      "log_sha256": "9631b67fb46b0365ae0d7b24eed48fe65d6609b8e53b9901028cdcb4576bacd3",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.171,
+      "testfile": "test_bundle_metadata.py"
+    }
+  ],
+  "physical_source_evaluated": false,
+  "schema": "bounded-wave5-replay-v1"
+}

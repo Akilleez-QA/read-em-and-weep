@@ -1,0 +1,33 @@
+{
+  "baseline_PR86": "7d73d540981a3a152d807c39844ec63bc9913b89",
+  "files": {
+    "PROOF.md": "b87047c5dbc82d2b4816aa9efbfbadf332de859e3e0a0f4c534d67a560bc53ca",
+    "README.md": "553e8f43bb122bb48fb525195e4807bb98439d2803f575109cc17d19f3d011dd",
+    "contract.json": "07a284e7fb19925ec8f41ecd9c58d6b3cc120a475ae58dbd42179fcb733e8f3b",
+    "p_binding.py": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37",
+    "source-pins.json": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab",
+    "test_binding.py": "9e727d4a1e329e5b615c5dc99a978bb0816764a8afc76074a137cc218af9d1ae"
+  },
+  "physical_execution_admitted": false,
+  "physical_source_evaluated": false,
+  "producer": "PB01",
+  "ready_for_independent_review": true,
+  "remaining_obligations": [
+    "independent PB review",
+    "source-domain integrator composes this exact constructor with Qhat/fibers and fresh primitive witness",
+    "complete physical resource accounting and execution admission",
+    "outer full-source/closure/detector/obstruction obligations remain separate"
+  ],
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "schema": "producer-review-handoff-v1",
+  "scope": "Repo-only source-faithful denotation binding for pinned INS153-node P constructor/Catalog to actual CLR/PH finite and homogeneous P, both pairs and fixed target source order; no physical coefficient execution.",
+  "validation": {
+    "normal": 7,
+    "optimized": 7,
+    "physical_source_evaluated": false,
+    "result": "PASS"
+  }
+}

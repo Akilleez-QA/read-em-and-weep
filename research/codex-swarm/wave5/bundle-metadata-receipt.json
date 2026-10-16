@@ -1,0 +1,169 @@
+{
+  "actual_fibers_enumerated": false,
+  "explicit_owners": [
+    [
+      12,
+      [
+        "slot",
+        1
+      ],
+      1,
+      5,
+      8
+    ],
+    [
+      12,
+      [
+        "slot",
+        0
+      ],
+      5,
+      1,
+      0
+    ],
+    [
+      12,
+      [
+        "slot",
+        2
+      ],
+      4,
+      10,
+      15
+    ]
+  ],
+  "implementation_sha256": {
+    "source-domain-application/domain.py": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d",
+    "source-faithful-P/p_binding.py": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37",
+    "source-faithful-Q/q_binding.py": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+  },
+  "physical_memory_or_cost_admitted": false,
+  "physical_source_evaluated": false,
+  "rows": [
+    {
+      "exact_P_degree": [
+        201,
+        199,
+        196,
+        196
+      ],
+      "metadata_profile": {
+        "aggregate_resource_supervisor_present": false,
+        "aggregate_stored_AST_nodes": 1685,
+        "physical_coefficient_memory_or_cost_admission": false,
+        "scope": "stored descriptor AST arrays and JSON payload before adding this profile",
+        "serialized_payload_bytes": 95787,
+        "stored_AST_arrays": [
+          {
+            "path": "/P_definition/program/dag",
+            "stored_nodes": 153
+          },
+          {
+            "path": "/Q_definitions/0/local_Q_AST/nodes",
+            "stored_nodes": 191
+          },
+          {
+            "path": "/Q_definitions/0/finite_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/0/local_C_AST/nodes",
+            "stored_nodes": 116
+          },
+          {
+            "path": "/Q_definitions/1/local_Q_AST/nodes",
+            "stored_nodes": 292
+          },
+          {
+            "path": "/Q_definitions/1/finite_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/1/local_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/2/local_Q_AST/nodes",
+            "stored_nodes": 126
+          },
+          {
+            "path": "/Q_definitions/2/finite_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/2/local_C_AST/nodes",
+            "stored_nodes": 47
+          }
+        ]
+      },
+      "pair": [
+        0,
+        1
+      ],
+      "sorting_sign": -1
+    },
+    {
+      "exact_P_degree": [
+        196,
+        196,
+        199,
+        199
+      ],
+      "metadata_profile": {
+        "aggregate_resource_supervisor_present": false,
+        "aggregate_stored_AST_nodes": 1683,
+        "physical_coefficient_memory_or_cost_admission": false,
+        "scope": "stored descriptor AST arrays and JSON payload before adding this profile",
+        "serialized_payload_bytes": 95747,
+        "stored_AST_arrays": [
+          {
+            "path": "/P_definition/program/dag",
+            "stored_nodes": 153
+          },
+          {
+            "path": "/Q_definitions/0/local_Q_AST/nodes",
+            "stored_nodes": 194
+          },
+          {
+            "path": "/Q_definitions/0/finite_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/0/local_C_AST/nodes",
+            "stored_nodes": 115
+          },
+          {
+            "path": "/Q_definitions/1/local_Q_AST/nodes",
+            "stored_nodes": 292
+          },
+          {
+            "path": "/Q_definitions/1/finite_C_AST/nodes",
+            "stored_nodes": 188
+          },
+          {
+            "path": "/Q_definitions/1/local_C_AST/nodes",
+            "stored_nodes": 188
+          },
+          {
+            "path": "/Q_definitions/2/local_Q_AST/nodes",
+            "stored_nodes": 126
+          },
+          {
+            "path": "/Q_definitions/2/finite_C_AST/nodes",
+            "stored_nodes": 190
+          },
+          {
+            "path": "/Q_definitions/2/local_C_AST/nodes",
+            "stored_nodes": 47
+          }
+        ]
+      },
+      "pair": [
+        2,
+        3
+      ],
+      "sorting_sign": -1
+    }
+  ],
+  "schema": "canonical-bundle-AST-metadata-only-v1"
+}

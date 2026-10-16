@@ -1,0 +1,39 @@
+{
+  "arbitrary_callback_identity_accepted": false,
+  "constructor": "ActualPBinding(repo=None)",
+  "constructor_inputs": [
+    "repository path only"
+  ],
+  "exports": {
+    "alternating_coefficient": "always raises PhysicalAdmissionMissing",
+    "coefficient": "always raises PhysicalAdmissionMissing",
+    "degree_upper": "four exact owner-dependent homogeneous degree bounds",
+    "describe": "source-faithful-P-binding-v1 fresh serializable metadata",
+    "source_pins": "authenticated immutable source references",
+    "symbolic_program_definition": "source-faithful-P-symbolic-program-v1 exact153-node DAG"
+  },
+  "module": "p_binding",
+  "owner_contract": [
+    "strict increasing source_key",
+    "same seed",
+    "distinct occurrence",
+    "five owner fields retained"
+  ],
+  "owner_type": "p_binding.FullOwner (same INS class)",
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "physical_execution_admitted": false,
+  "physical_source_executed": false,
+  "proof_scope": "Exact pinned constructor/Catalog denotation equals actual whole-source finite/homogeneous P under explicit imported CLR/PH/source premises; both pairs, fixed target source order.",
+  "resource_admission": false,
+  "review_state": "producer-ready; independent PB review required",
+  "schema": "source-faithful-P-consumer-contract-v1"
+}

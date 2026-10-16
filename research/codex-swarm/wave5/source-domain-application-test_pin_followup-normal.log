@@ -1,0 +1,11 @@
+test_all_producer_markers (__main__.PinFollowup.test_all_producer_markers) ... ok
+test_fd_pin_only_snapshot_delta (__main__.PinFollowup.test_fd_pin_only_snapshot_delta) ... ok
+test_historical_files_and_other_producer_bytes_unchanged (__main__.PinFollowup.test_historical_files_and_other_producer_bytes_unchanged) ... ok
+test_noncanonical_rejected_before_any_authentication (__main__.PinFollowup.test_noncanonical_rejected_before_any_authentication) ... ok
+test_none_and_resolved_canonical_acceptance (__main__.PinFollowup.test_none_and_resolved_canonical_acceptance) ... ok
+test_qb_constructor_is_the_only_implementation_delta (__main__.PinFollowup.test_qb_constructor_is_the_only_implementation_delta) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.059s
+
+OK

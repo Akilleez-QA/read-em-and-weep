@@ -1,0 +1,23 @@
+{
+  "schema": "source-faithful-Q-pins-v1",
+  "workspace_inputs": [
+    {
+      "path": "inner-quotient/quotient.py",
+      "sha256": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91"
+    },
+    {
+      "path": "inner-quotient/source-pins.json",
+      "sha256": "bda2226ce1c4154b3c304da3ce13a98e35985bd9d66f343c45c85973ac6aecce"
+    },
+    {
+      "path": "inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "path": "inserted-coefficients/polynomial_coefficients.py",
+      "sha256": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee"
+    }
+  ],
+  "immutable_formula_sources": "inner-quotient/source-pins.json (authenticated Git SHA256 at construction)",
+  "physical_execution": false
+}

@@ -1,0 +1,426 @@
+{
+  "FD_canonical_implementation_inputs": [
+    {
+      "matches_FD01_pinned_input": true,
+      "path": "research/codex-swarm/source-faithful-P/p_binding.py",
+      "scope": "Current exact canonical implementation dependency bytes; metadata pin identity confers no physical release.",
+      "sha256": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37"
+    },
+    {
+      "matches_FD01_pinned_input": true,
+      "path": "research/codex-swarm/source-faithful-P/source-pins.json",
+      "scope": "Current exact canonical implementation dependency bytes; metadata pin identity confers no physical release.",
+      "sha256": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab"
+    },
+    {
+      "matches_FD01_pinned_input": true,
+      "path": "research/codex-swarm/source-faithful-Q/q_binding.py",
+      "scope": "Current exact canonical implementation dependency bytes; metadata pin identity confers no physical release.",
+      "sha256": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+    },
+    {
+      "matches_FD01_pinned_input": true,
+      "path": "research/codex-swarm/source-faithful-Q/source-pins.json",
+      "scope": "Current exact canonical implementation dependency bytes; metadata pin identity confers no physical release.",
+      "sha256": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d"
+    },
+    {
+      "matches_FD01_pinned_input": true,
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "scope": "Current exact canonical implementation dependency bytes; metadata pin identity confers no physical release.",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    }
+  ],
+  "baseline": {
+    "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+    "coordination_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6211928516",
+    "pull_request": 86
+  },
+  "components": {
+    "FD01": {
+      "classification": "Independently accepted coefficient-free actual-definition standard-target extension and fresh primitive application; physical execution held.",
+      "files": [
+        {
+          "bytes": 12755,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/PROOF.md",
+          "sha256": "63bd8548057b5e4de81609b15817335d145685dc9867d91cbdebc8242a9af631"
+        },
+        {
+          "bytes": 2527,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/README.md",
+          "sha256": "0b6c08ce667eefee3a25bcb6c608c3090350bcd24a8c28d66e322f466174a898"
+        },
+        {
+          "bytes": 2744,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/application-contract.json",
+          "sha256": "49831bf1cb6d928af073ad9994530404ab71182a24b935c25c71119ff9282016"
+        },
+        {
+          "bytes": 4301,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/build_handoff.py",
+          "sha256": "47a4232823894fc29661964174f7aac76ad55e9d6dfc544336cc9b4832c763c7"
+        },
+        {
+          "bytes": 1393,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/controls-normal.log",
+          "sha256": "a666fca1c9517f869549f984368811e9ae3bf7eb0ede799be0e3c375c92fdd88"
+        },
+        {
+          "bytes": 1393,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/controls-optimized.log",
+          "sha256": "a666fca1c9517f869549f984368811e9ae3bf7eb0ede799be0e3c375c92fdd88"
+        },
+        {
+          "bytes": 1109,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/controls-receipt.json",
+          "sha256": "7f211e1e6ef97233269333cb2570087f1bdce3e1803e2f9ae5f2da855af94cd8"
+        },
+        {
+          "bytes": 11404,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/domain.py",
+          "sha256": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d"
+        },
+        {
+          "bytes": 623,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/fiber-descriptor.json",
+          "sha256": "6688c0ac6daf8133fd1edc78e35485626bd5b2a9b5e269ba60eca63fe029ffa1"
+        },
+        {
+          "bytes": 2014,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/run_controls.py",
+          "sha256": "1b79da81c9720c1eccd1bfecb76417f6f157a70be02e3a32f56f8d39be1ad12b"
+        },
+        {
+          "bytes": 5804,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/source-pins.json",
+          "sha256": "09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc"
+        },
+        {
+          "bytes": 4999,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-domain-application/test_domain.py",
+          "sha256": "48a45456f16ebb4ac8e117f20126e93d2c526b09a6bd8b47955bf7677b696f70"
+        }
+      ],
+      "independent_review_status": "accepted at the narrow mathematical/constructor/application scope; repository and pin follow-up accepted separately",
+      "physical_execution_released": false,
+      "physical_source_evaluated": false,
+      "post_review_follow_up": {
+        "reference": "research/codex-swarm/wave5/review-repo-pin-followup.md",
+        "scope": "minimal repository constraint; FD pin-only refresh and two reviewer snapshot anchors; no mathematical/physical admission change",
+        "status": "accepted"
+      },
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1642,
+        "path": "research/codex-swarm/source-domain-application/producer-ready.json",
+        "sha256": "31135b2e17f41b67580b1639afafd654ef8e1b5dc4ab87a968a4363d0d3f2c47"
+      },
+      "proof_scope": [
+        "Full standard fiber is the symbolic Cartesian carrier0..5 times legal-mask0..15 domain, cardinality96, with fixed original standard tag and request occurrence. No actual owner list is generated.",
+        "Composes exact canonical P/Q constructors with owner-dependent degree/frame checks and SW whole-standard extension theorem, rather than accepting arbitrary oracle/proof dictionaries.",
+        "Producer proves the same fresh raw scalar primitive identity from unsymmetrized transgression, coefficient30, row/column trace sign and exact -15/8 gerbe representative correction.",
+        "The raw derivation applies on any chosen increasing tuples and is then alternated; it does not compare nonlinear cochains recomputed in historical and fresh orders.",
+        "Same-source formula-local carrier14/legal1 admissible primitive domain yields harmonic projection zero and delta(TF_fresh)=F_fresh; no harmonic scalar arithmetic is needed."
+      ],
+      "public_API": "domain.ActualDomainApplication(repo=None); supplied-triple describe only; FullFiberDomain symbolic96-domain; actual coefficient/stream/fiber methods refuse.",
+      "recorded_producer_validation": {
+        "command": "python -B run_controls.py",
+        "normal": 10,
+        "optimized": 10
+      },
+      "remaining_obligations": [
+        "Full symbolic domain completeness is not an actual enumerating fiber provider or physical coefficient realization.",
+        "Outer full Rsharp/J0..J3 source identity/closure and complete54/29/5251 domains for every outer prism/restriction remain separate.",
+        "Detector values, obstruction decision and complete physical resource/execution release remain held."
+      ],
+      "reported_review_validation": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "replayed_for_manifest": false,
+        "total_per_mode": 23
+      },
+      "review_reference": {
+        "path": "research/codex-swarm/source-domain-application/review-independent.md",
+        "reason": "Reviewer files excluded until root final review-status/publication snapshot.",
+        "sha256": null
+      },
+      "review_status": "ACCEPTED narrow mathematical/constructor/application scope; canonical-repository and dependent-pin follow-up accepted"
+    },
+    "PB01": {
+      "classification": "Independently accepted actual P semantic-definition binding; physical execution held.",
+      "files": [
+        {
+          "bytes": 9870,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/PROOF.md",
+          "sha256": "b87047c5dbc82d2b4816aa9efbfbadf332de859e3e0a0f4c534d67a560bc53ca"
+        },
+        {
+          "bytes": 2764,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/README.md",
+          "sha256": "553e8f43bb122bb48fb525195e4807bb98439d2803f575109cc17d19f3d011dd"
+        },
+        {
+          "bytes": 1346,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/contract.json",
+          "sha256": "07a284e7fb19925ec8f41ecd9c58d6b3cc120a475ae58dbd42179fcb733e8f3b"
+        },
+        {
+          "bytes": 15147,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/p_binding.py",
+          "sha256": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37"
+        },
+        {
+          "bytes": 4704,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/source-pins.json",
+          "sha256": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab"
+        },
+        {
+          "bytes": 6981,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-P/test_binding.py",
+          "sha256": "9e727d4a1e329e5b615c5dc99a978bb0816764a8afc76074a137cc218af9d1ae"
+        }
+      ],
+      "independent_review_status": "accepted at the narrow mathematical/constructor/application scope; repository and pin follow-up accepted separately",
+      "physical_execution_released": false,
+      "physical_source_evaluated": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1552,
+        "path": "research/codex-swarm/source-faithful-P/producer-ready.json",
+        "sha256": "8150a3a02b529be8398ba857b7e9f3fcd993900be2f14cc6f3a5fe2722169c62"
+      },
+      "proof_scope": [
+        "Binds exact pinned INS153-node source lowering/Catalog denotation to actual finite CLR and homogeneous PH whole P for both pairs.",
+        "Ordered matrix-operation induction, elementary substitution before polynomial differentiation, primitive H^2 clearing including auxiliary v0, both physical endpoint Q terms and separate gerbe q.",
+        "Exact owner-dependent homogeneous degree, source-first target sorting once and raw F34 coordinate rename with slots preserved."
+      ],
+      "public_API": "p_binding.ActualPBinding(repo=None); describe(ordered_owners,pair), degree_upper, symbolic_program_definition, source_pins; physical coefficient methods always refuse.",
+      "recorded_producer_validation": {
+        "normal": 7,
+        "optimized": 7,
+        "physical_source_evaluated": false,
+        "result": "PASS"
+      },
+      "remaining_obligations": [
+        "FD application must use this exact constructor, owners/order/frames and inherited source/contraction premises, not an unrelated P callback.",
+        "No actual coefficient payload, complete executable physical fiber, physical cost/memory admission, outer closure or obstruction value supplied."
+      ],
+      "reported_review_validation": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "replayed_for_manifest": false,
+        "total_per_mode": 16
+      },
+      "review_reference": {
+        "path": "research/codex-swarm/source-faithful-P/review-independent.md",
+        "reason": "Reviewer files excluded until root final review-status/publication snapshot.",
+        "sha256": null
+      },
+      "review_status": "ACCEPTED narrow mathematical/constructor/application scope; canonical-repository and dependent-pin follow-up accepted"
+    },
+    "QB01": {
+      "classification": "Narrowly accepted fixed actual Qhat/C semantic definitions, physical inputs/execution held.",
+      "files": [
+        {
+          "bytes": 7282,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-Q/PROOF.md",
+          "sha256": "79017fb0af0f32473d5a17c14ff80f6b0d22de62ca3868f9c6a76ea2c0bc4c06"
+        },
+        {
+          "bytes": 2065,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-Q/README.md",
+          "sha256": "d14b4a6565833254f894964640b08632185b4ef66e0f0634f451535f2fbc6ff8"
+        },
+        {
+          "bytes": 6483,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-Q/q_binding.py",
+          "sha256": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+        },
+        {
+          "bytes": 808,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-Q/source-pins.json",
+          "sha256": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d"
+        },
+        {
+          "bytes": 3991,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/source-faithful-Q/test_binding.py",
+          "sha256": "d6bd2608d1ca84e5c221b151f27e1af806f8e8951a719768cf1d1b431968c55b"
+        }
+      ],
+      "independent_review_status": "accepted at the narrow mathematical/constructor/application scope; repository and pin follow-up accepted separately",
+      "physical_execution_released": false,
+      "physical_source_evaluated": false,
+      "post_review_follow_up": {
+        "reference": "research/codex-swarm/wave5/review-repo-pin-followup.md",
+        "scope": "minimal repository constraint; FD pin-only refresh and two reviewer snapshot anchors; no mathematical/physical admission change",
+        "status": "accepted"
+      },
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1175,
+        "path": "research/codex-swarm/source-faithful-Q/producer-ready.json",
+        "sha256": "5b9eec260415123bf2f42cc05ec8d569df0fb21d952c06bff23e2a9ba2546b6d"
+      },
+      "proof_scope": [
+        "Binds QH01 fixed N14 constructor to actual local catalog, first-hit partition formula and polynomial Qline/raw legal weights.",
+        "Owned C, homogeneous auxiliary v0, full-owner degrees and exactly one finite/local divisor frame reversal; no extra pair/section twist.",
+        "Definition metadata and artificial controls are not actual physical coefficient streams."
+      ],
+      "public_API": "q_binding.ActualQBinding(repo=None).describe(full_owner,pair); ClearingDefinition(owner,pair,local=False); physical coefficient/factor_terms always refuse.",
+      "recorded_producer_validation": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "synthetic_controls": 7
+      },
+      "remaining_obligations": [
+        "Bind exact Qhat/C definitions into the reviewed FD source-domain application; arbitrary caller callbacks do not inherit identity.",
+        "Actual coefficient/stream and full fiber execution remains uninstantiated/refused.",
+        "Provide aggregate resource accounting; QH nodes/cache limits are per Ring, index limits per FiniteRing, and are not aggregate physical memory bounds."
+      ],
+      "reported_review_validation": {
+        "current_producer_per_mode": 7,
+        "current_total_per_mode": 14,
+        "independent_per_mode": 7,
+        "normal": "PASS as reported by root",
+        "optimized": "PASS as reported by root",
+        "original_producer_per_mode": 6,
+        "original_total_per_mode": 13,
+        "replayed_for_manifest": false
+      },
+      "review_reference": {
+        "path": "research/codex-swarm/source-faithful-Q/review-independent.md",
+        "reason": "Reviewer files excluded until root final review-status/publication snapshot.",
+        "sha256": null
+      },
+      "review_status": "ACCEPTED narrow mathematical/constructor/application scope; canonical-repository and dependent-pin follow-up accepted"
+    }
+  },
+  "fiber_scope": {
+    "actual_domain_enumerated": false,
+    "actual_fibers_instantiated": false,
+    "bounded_toy_provider": "Separate explicitly artificial finite labels; does not instantiate the96-domain.",
+    "cardinality_per_tag": 96,
+    "descriptor": "carrier in0..5 \u00d7 legal_mask in0..15 over each fixed original standard tag",
+    "empty_or_zero_weight_labels_removed": false,
+    "full_domain_described": true,
+    "full_owner_occurrence_and_seed_preserved": true
+  },
+  "final_root_acceptance": {
+    "FD01": "same-source fresh primitive/whole-standard application accepted; dependent pin-only refresh independently accepted",
+    "PB01": "exact constructor denotation accepted under named imported premises",
+    "QB01": "exact quotient/C denotation accepted; canonical repository fix independently accepted",
+    "actual_coefficient_execution": false,
+    "controls_per_mode": 60,
+    "external_reviews": "wave5/external-reviews.json",
+    "followup": "wave5/review-repo-pin-followup.md",
+    "null_repository_fix_review": "e491a84e25e9d3a861816e8279c21c82bdc1555f:research/hm/null-source-integration/q-binding-review/",
+    "repeated_common_zero_cases": "future total provider obligation; distinct-key descriptor only",
+    "total_physical_memory_admission": false,
+    "total_provider_instantiated": false
+  },
+  "global_limits": {
+    "actual_fibers_enumerated": false,
+    "complete_outer54_29_5251_domains_discharged": false,
+    "detector_values_computed": false,
+    "execution_release": false,
+    "historical_order_comparison_discharged": false,
+    "obstruction_decided": false,
+    "outer_Rsharp_full_source_identity_or_closure_discharged": false,
+    "physical_coefficient_release": false,
+    "physical_memory_admission": false,
+    "physical_source_evaluated": false
+  },
+  "interpretation": "All three original narrow semantic/application scopes are independently accepted as reported by root. Current producer byte identity and repo/pin follow-up status are recorded separately. No actual coefficient payload, fiber enumeration, global obstruction decision or physical resource/execution release follows.",
+  "null_independent_SW_review": {
+    "authentication_scope": "Exact source pin carried by FD01; no Git/source replay performed while writing this manifest.",
+    "bytes": 12842,
+    "commit": "5ac24746a9f27356b0ca148e0531e1588e1390a2",
+    "git_blob": "bfac95fd1051cc6380908651aa7bf3136405f6ff",
+    "path": "research/hm/null-source-integration/standard-source-review/REVIEW.md",
+    "scope": "Immutable external review of the universal ordered fresh primitive application and exact source/domain/order hypotheses. It does not independently accept the new PB/QB/FD implementations.",
+    "sha256": "bf40d0c2d1f7c5943ffcc8908f7ff06f1076681ec739aea3d6fabc4671bea62d"
+  },
+  "pending_root_refresh": {
+    "pending": false,
+    "reason": "Root reviewed completed independent mathematical reports and repository/pin-only follow-up; final control receipt records60 tests per mode."
+  },
+  "public_original_artifacts": {
+    "PR79_public_release": "41de3864f058b645af9987fb3462cc6b8384e6cd",
+    "full_seed4_theorem": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+    "scope": "Existing reusable scan/fingerprint/mask-gap/JTSH mathematical artifacts remain public and are not recreated by wave5.",
+    "serialization": "Public configuration-only cleanup with regenerated public hashes; original private staging byte identity not asserted."
+  },
+  "publication_context": {
+    "pull_request": 87,
+    "root_reported_PB_QB_checkpoint_abbrev": "b429d19f6",
+    "scope": "Root reports PR87 based on PR86, containing earlier PB/Q producer snapshot. This working manifest also binds the now-ready FD producer; it does not claim FD or this manifest is already published.",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/87"
+  },
+  "purpose": "Authenticate three source-semantic producer packages and distinguish reviewed mathematical definitions/application from held physical coefficient execution.",
+  "resource_scope": {
+    "QH_Ring_caveat": "Query/split counters may aggregate via a shared Budget; node/cache limits are per Ring, index limits per FiniteRing. No complete aggregate arithmetic resource supervisor is supplied.",
+    "aggregate_metadata_profile": "FD counts all stored P/Q/C dag/nodes arrays and canonical serialized descriptor bytes, with duplicated arrays counted as stored occurrences.",
+    "complete_execution_schedule_accepted": false,
+    "new_physical_budget_created": false,
+    "physical_coefficient_heights_known": false,
+    "physical_peak_allocation_known": false,
+    "profile_is_physical_cost_or_memory_admission": false,
+    "root_explicit_triple_descriptor_receipt": {
+      "actual_physical_coefficients_evaluated": false,
+      "basis": "Root metadata-only supplied-triple descriptor receipt; not rerun for this manifest.",
+      "pair01": {
+        "canonical_description_bytes": 95787,
+        "stored_AST_nodes": 1685
+      },
+      "pair23": {
+        "canonical_description_bytes": 95747,
+        "stored_AST_nodes": 1683
+      },
+      "physical_memory_or_execution_admission": false,
+      "scope": "Stored descriptor AST occurrences and serialized metadata bytes only, not physical coefficient arrays, heights or peak arithmetic allocations."
+    }
+  },
+  "review_snapshot": {
+    "all_three_original_narrow_semantic_reviews_accepted": true,
+    "final_producer_bytes_hashed": true,
+    "original_reviews_preserved_commit_abbrev": "f65b2d680",
+    "post_review_repo_pin_follow_up": "pending dedicated CLI review; canonical repo guard and pin regression only",
+    "reviewer_files_hashed": false,
+    "root_final_control_total": "pending new pin regression(s); no total inferred here"
+  },
+  "reviewer_files_hashed": false,
+  "same_source_application": {
+    "F34_order_caveat": "Raw axis involution preserves owner slots and matrix order. No sorting of a raw inverse image and no equality between differently sorted nonlinear source cochains.",
+    "P": "Exact canonical INS153-node constructor/Catalog denotation with independently accepted PB-R actual finite/homogeneous P binding; both pairs under explicit inherited premises.",
+    "Qhat_C": "Exact fixed N14 local polynomial quotient and owned C definitions; QB-R narrow semantic acceptance reported.",
+    "fresh_primitive": "FD-R accepted fresh raw scalar primitive application: delta s_fresh=F_fresh from universal RAW transgression with both unsymmetrized terms, coefficient30 and representative correction, with same-source admissible primitive domain. Historical nonlinear cochain comparison remains separate/open.",
+    "harmonic_remainder": "Generic homotopy retains harmonic remainder. The independently accepted FD same-source primitive/domain application proves its zero for this fresh actual source without a new harmonic scalar computation, yielding delta(TF_fresh)=F_fresh. This does not prove full Rsharp exactness or decide the global obstruction.",
+    "historical_comparison": "Historical nonlinear-cochain/order/value comparison remains open and is not implied by this fresh theorem.",
+    "standard_extension": "SW theorem applied to exact D_i=sum owned C degrees+n_pair,i and regular local quotient sections; uniform217/210 alone is insufficient."
+  },
+  "schema": "wave5-producer-program-bindings-v1",
+  "verification_method": "Read JSON/proof metadata and hash producer/dependency bytes only. No modules imported, tests run, physical source arithmetic, actual fiber enumeration, Git mutations or publication performed for this manifest."
+}

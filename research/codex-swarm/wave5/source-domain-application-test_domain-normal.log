@@ -1,0 +1,15 @@
+test_actual_factory_all_value_and_enumeration_entries_refuse (__main__.Controls.test_actual_factory_all_value_and_enumeration_entries_refuse) ... ok
+test_aggregate_metadata_profile_is_only_a_descriptor_count (__main__.Controls.test_aggregate_metadata_profile_is_only_a_descriptor_count) ... ok
+test_exact_degrees_both_pairs_and_all_infinity_target (__main__.Controls.test_exact_degrees_both_pairs_and_all_infinity_target) ... ok
+test_frame_bounds_and_shift_has_no_extra_pair_twist (__main__.Controls.test_frame_bounds_and_shift_has_no_extra_pair_twist) ... ok
+test_full_owner_membership_not_weight_survival (__main__.Controls.test_full_owner_membership_not_weight_survival) ... ok
+test_lazy_toy_only_yields_requested_owners (__main__.Controls.test_lazy_toy_only_yields_requested_owners) ... ok
+test_mixed_and_finite_target_extension_bounds (__main__.Controls.test_mixed_and_finite_target_extension_bounds) ... ok
+test_reject_bool_and_lost_owner_provenance (__main__.Controls.test_reject_bool_and_lost_owner_provenance) ... ok
+test_same_physical_is_not_same_common_vertex (__main__.Controls.test_same_physical_is_not_same_common_vertex) ... ok
+test_symbolic_full96_descriptor_no_enumeration (__main__.Controls.test_symbolic_full96_descriptor_no_enumeration) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK

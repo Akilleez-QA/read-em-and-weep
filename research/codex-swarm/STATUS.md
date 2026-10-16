@@ -54,6 +54,25 @@ Root's isolated bounded replay passes **115 controls per normal/optimized mode**
 
 Next owners remain Codex source/interface lanes for source-faithful oracle and standard-extension/primitive binding, SC/TR for complete Rsharp/J0–J3/source-domain closure, null for its independently owned historical-order support, and CO for total resource/ledger certification. Source-specific second-jet symmetry and all assembled complete detector values remain open. Rsharp is undecided; all physical gates stay held. PR86's `wave4/` contains exact pins, reviews, repair history, controls and publication read-back.
 
+## Fifth-wave reviewed source-faithful application
+
+[PR87](https://github.com/Akilleez-QA/read-em-and-weep/pull/87), reviewed source artifact `1e564ad782eb10f1c61ccf77407398524360368e`, is stacked on PR86. It discharges the scoped mathematical source-constructor and same-fresh-source application gaps above, under the named source/CLR/PH/partition premises. Actual coefficient execution and total-provider integration are separate and remain held.
+
+| Lane | Accepted scope | Validation per normal/-O mode |
+|---|---|---:|
+| PB01 / independent CLI PB-R | Exact INS P-constructor/Catalog denotation, both pairs: primitive H² normalization, auxiliary hidden v0, ordered153-node induction, after-substitution derivatives, actual homogeneous section at exact per-owner degree. |16|
+| QB01 / independent CLI QB-R + provenance follow-up | Fixed N14 first-hit/binomial/legal quotient equals the intended Qhat and owned C, original owner standard open, one divisor frame conversion. Canonical-repository constraint resolves the supplied-repo/default-repo mismatch before authentication. |14|
+| FD01 / independent CLI FD-R + dependent-pin follow-up | Complete symbolic6×16 index domain, exact degree/frame composition, whole-standard extension and source-specific fresh primitive/harmonic application. Mathematical code/proof unchanged by the Q pin refresh; original reviews preserved. |29|
+| Root metadata integration | Both pairs on one explicitly supplied owner triple; parity/tags/degrees/domain and aggregate stored AST/JSON counts checked without source coefficients. |1|
+
+**60 controls pass per mode.** Null independently accepts PB/QB/FD at PR79 `92cb34a66cca43484060ca233faf1821d35457a9`, and the canonical-repository fix at `e491a84e25e9d3a861816e8279c21c82bdc1555f`. These public reviews are consumed/pinned without duplicate replay. The prior SW review `5ac24746a9f27356b0ca148e0531e1588e1390a2` is an explicit application dependency.
+
+The fresh raw transgression uses all unsymmetrized terms, coefficient-30 square, row trace sign and-15/8 edge correction. Its universal ordered identity is restricted to the NEW increasing edges/triples, then alternated: **delta s_fresh=F_fresh**. The carrier14/legal1 domain covers both F and s_fresh, so **P_H S Pi F_fresh=0** and **delta(T F_fresh)=F_fresh**, without computing any harmonic scalar. This is a source-specific first-order application, not a historical nonlinear cochain reordering identity and not a global second-order result. Exact P degree D=sum degree(C)+pair twist plus actual Q full-standard divisibility gives whole-standard extension; uniform217/210 alone is insufficient.
+
+The96-label object is a complete indexed-domain descriptor, not an executed physical fiber provider. Its supplied-tuple adapter requires distinct common keys; a future total provider still must implement repeated-common alternating zeros and complete traversal or a proved equivalent lazy traversal. Repeated physical-source zero remains local to the F pullback. All actual coefficient/stream/fiber entry points refuse. Stored descriptor counts (1685/1683 AST nodes for the two explicit pair examples) do not bound coefficient arrays, peak physical memory or an aggregate supervisor; per-ring node/cache/index caps remain distinct from global resource admission.
+
+Next owners: source-interface lanes must provide the total gated physical coefficient/fiber provider with complete support and exact owned signs/clearings; SC/TR must compose the accepted inner theorem through COMPLETE Rsharp, actual source/jet leaves, original-frame conversion, J0–J3 closure and every54/29/5251 outer prism/restriction domain; CO must certify total operation/height/bit/storage/lifetime bounds and reconcile the authoritative ledger. Null retains historical-order support. Source-specific second-jet symmetry, assembled detector values and the global obstruction remain open. No physical source evaluation, finished scan rerun, new budget or arithmetic admission occurred.
+
 ## Corrections and proposal states
 
 - **C09 initial report rejected.** It confused E12 with a matrix entry and reversed standard bits. `Codex-C09-corrected.md` retracts this and binds seeds30–53 to the correction operator and effective positive staircase sign. Formula review remains distinct from a source calculation.
