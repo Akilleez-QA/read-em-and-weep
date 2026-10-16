@@ -4,6 +4,9 @@ This focused, reproducible research release contains finite-label support proofs
 
 ## Results and exact scope
 
+The joint theorem in `combined-seed4-e12-coverage-audit.md` certifies **the complete seed-4 E12 directional component is zero**, over all 884736 carrier/legal assignments and six sorted-standard permutations, under the declared **fresh-consistent source ordering**. The joint test binds all 2048 support-certified tuples and 16384 A/B roots to the actual public lowerings. This closes only that component: seed-4 M0/E34, other source components, and the other 77 seeds remain outside this theorem. No historical-order value comparison or global O2 conclusion follows.
+
+
 - `permuted-standard-support-audit.md`: seed 4, terminal row 2, pre-sort staircase (3,11,15), source-sorted tags (11,3,15). All **704** active tuples in carrier sectors (1,1,4) and (1,2,4) have eight separated A/B multipliers, **5632** separators total. The source-sorting sign is retained. This is not a coordinate-symmetry assumption.
 - `legal-mask-sector-support.md` and `legal-mask-gap-patterns.json`: the fixed (1,2,4) carrier sector with tags (3,11,15), all **512** active masks and the exact closed gap formulas. Inactive labels remain accounted for in the full domain.
 - `selected-full-owner-kernel-lowering.md`: the actual full-owner, selector-preserving factored lowering used by these certificates. Bounded multinomial sums remain symbolic; support bounds are cancellation-blind envelopes. Separation proves zero; overlap would be unresolved, never nonzero.
@@ -19,7 +22,7 @@ Run from this directory:
 
 ```sh
 python prepare_certificates.py
-python -m unittest test_source_second_jet_degeneracy test_selected_kernel_denominator_lowering test_selected_support_separation_independent test_legal_mask_sector test_permuted_standard_sector test_primary_carrier_sector test_exceptional_carrier_sector test_exceptional_carrier_independent -v
+python -m unittest test_source_second_jet_degeneracy test_selected_kernel_denominator_lowering test_selected_support_separation_independent test_legal_mask_sector test_permuted_standard_sector test_primary_carrier_sector test_exceptional_carrier_sector test_exceptional_carrier_independent test_combined_seed4_e12_closure -v
 ```
 
 The three large generated certificate JSON files are distributed as deterministic gzip archives. `prepare_certificates.py` verifies both compressed and decompressed SHA256 hashes and restores the exact tested bytes using only the standard library. It does not run any mathematical checker. Generated JSON paths are explicitly gitignored.

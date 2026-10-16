@@ -1,0 +1,68 @@
+{
+  "actual_factorization_accepted": false,
+  "combined_tests_passed": 2,
+  "disjoint_counts": {
+    "exceptional_column_zero": 622592,
+    "primary_carrier2_zero": 1024,
+    "primary_outer_zero": 259072,
+    "primary_support_zero": 2048
+  },
+  "execution_release": false,
+  "full_assignment_count": 884736,
+  "global_obstruction_computed": false,
+  "physical_polynomial_evaluation": false,
+  "physical_polynomial_expansion": false,
+  "physical_products_spent": 0,
+  "public_serialization": "Public metadata-redacted lowerings and regenerated certificate bytes; historical public model unchanged; all mathematical scope and counts unchanged.",
+  "schema": "combined-seed4-e12-closure-v1",
+  "scope": {
+    "presort_staircase": [
+      3,
+      11,
+      15
+    ],
+    "row": 2,
+    "scalar_input_character": [
+      0,
+      0,
+      -2,
+      -2
+    ],
+    "seed": 4,
+    "selector_coefficient": -2,
+    "selector_entry": [
+      12,
+      6
+    ],
+    "source_order": "fresh-consistent-source-definition; auxiliary first, numeric low-bit mask, standard tag",
+    "source_sorted_standard_permutations": 6,
+    "target_kappa": [
+      -1,
+      -2,
+      -2,
+      -2
+    ]
+  },
+  "sha256": {
+    "certificate-archives.json": "55ddfef0e736f5b92eec6d43d79b5b5b4f740249c9476cd713e1d05de338acaf",
+    "combined-seed4-e12-coverage-audit.md": "45420d5a5695f3c2d670b6b982a7f0710d283084a277746012ee27eeb02666ad",
+    "combined-seed4-e12-test.log": "d4515f9d8f60e54d82615ce0e598861c2a02dc2cf927c5dc874a1923d4bcf0c9",
+    "exceptional-independent-test.log": "c0e6429593aad39963c240bdbf02ab6e1ba399793381a620c45f9987e613ff1c",
+    "hm-pinned-model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "legal-mask-sector-support.json": "1d420ed8368424cfa61d48dcf3b5b46e6f855b4dffe58fe33f9446f8a8aad740",
+    "lower_exceptional_carrier_sector.py": "fb5c0b41e3b028b1564fbc78e0bced4b021664e0552137253158cb2a2a348a37",
+    "lower_legal_mask_sector.py": "b560d58627027f0b03e15538e9bb5f76c7dce011a702cff020f47b12762ea214",
+    "lower_permuted_standard_sector.py": "684a038dbf01d695e2592caaa06c55ee4b51806125959054ee6bc8d7d4212a1d",
+    "lower_primary_carrier_sector.py": "f33fe0e76017fde8556507958157659e6c04ba046ee00ea9ce9bd1fd8bc40f34",
+    "lower_selected_kernel_denominators.py": "8c3bb290df33a2d17da477cd30a36cc581aeddc4cdb3e276fdfbf35973ced89d",
+    "permuted-standard-domain-inventory.json": "663abd66caf19de8d153a34b2d905fc56e91088b550957cdc55c265cea34c083",
+    "permuted-standard-sector-support.json": "c11c17bd62ede6f6a02b7cdefdbc840aec528a24c5eac83ad3959dbec32452a8",
+    "primary-carrier-sector-support.json": "c6c6795aab6f9ad5cc6037cae0ef6eb472413b837eaa365dd76792a9b95dab35",
+    "test_combined_seed4_e12_closure.py": "01c311b2bf7f33b2374cb1119286c2d277767a8905bea1952208833e79507829",
+    "verification-results.txt": "a1364689ca6aa4cc2dd245761b9bd926e575f75f6397eedbea1bc54828bb6292"
+  },
+  "support_certificates_bound_to_actual_terms": 16384,
+  "theorem": "Seed4 E12 directional component vanishes over the full fresh ordered-cover carrier/legal assignment domain",
+  "whole_seed_E12_component_exhausted": true,
+  "whole_seed_residual_exhausted": false
+}
