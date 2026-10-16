@@ -35,3 +35,5 @@ All actual coefficient, stream and fiber entry points refuse unconditionally. Th
 4. An authenticated nonzero assembled boundary-annihilating detector, an evaluated complete separating family, or an explicit global boundary witness remains necessary to decide the obstruction. This wave supplies none of those values.
 
 The public cloud-origin support artifacts remain available at PR79's authenticated serialization; no private staging bytes or duplicate reconstruction is required. Rsharp remains undecided. Physical execution and global resource admission stay held.
+
+Exact GitHub read-back of source snapshot1e564ad782eb10f1c61ccf77407398524360368e matches59 changed artifact files/272,389 bytes. `github-readback.json` records each published blob, SHA256 and byte count. Later registry/read-back-receipt commits preserve the reviewed package implementations.
