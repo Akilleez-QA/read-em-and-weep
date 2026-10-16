@@ -1,0 +1,17 @@
+{
+  "schema": "inner-N14-formula-pins-v1",
+  "sources": [
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/outer_partition_source_binding.py",
+      "git_blob": "f5a33e325e1eee6b801c94613093d1cd4686ca54",
+      "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/PROOF.md",
+      "git_blob": "9d7a5a400b48d9b8b46008fbd9fb3d79be601920",
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25"
+    }
+  ]
+}

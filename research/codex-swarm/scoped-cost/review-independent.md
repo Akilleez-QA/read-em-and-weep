@@ -1,0 +1,11 @@
+# CO-R independent review
+
+Root independently reviewed CO02's scoped syntax and conditional integer cost claims. Eight producer controls and five independent controls pass normally and under Python `-O` (13 per mode). Producer-only hashes authenticate the reviewed files; no physical polynomial arrays, coefficients, or owner fibers were evaluated.
+
+The independent parser decodes operation references separately from the producer and propagates root multiplicities backwards through the topological graph. It confirms the actual finite source DAG has 153 reachable nodes, 333 expanded visits and 227 references. The 121 actual family coefficient roots reach 2464 nodes, with 24,971,995 expanded visits and 4424 distinct syntax edges. Closure J3 remains explicitly retained. These are syntax counts, not physical arithmetic costs or permission to merge owner scopes.
+
+Independent integer checks confirm four fixed complete-N edges, eight fixed branches, 37,248 unpruned inserted P occurrences, and the distinct all-family multiplicities. A direct matrix-convolution check independently verifies the first 2x15 times 15x2 cost; the final proved degree container has 2,115,816,004 scalar slots. Neither container occupancy nor coefficient heights follow. The report correctly leaves physical total cost, rational heights, bit operations, allocation bytes and oracle cost unknown. Mutation controls reject pretending the complete-B placeholder is admitted and reject execution release.
+
+**Accepted narrowly:** source dependency binding, exact syntax counts, scoped unresolved program boundaries, and the stated conditional dense rational-operation bound after leaf arrays are provided. This is not a complete execution cost certificate. The later PH01/STD01/INS01 programs require their own reviewed binding; their existence does not discharge coefficient heights, actual standard extension, source primitive, quotient/fiber inputs, allocation schedule or global ledger obligations. CO02 preserves the unresolved state of its immutable source snapshot honestly.
+
+Producer's remote reads failed. Root separately refreshed PR1 via the GitHub API; no claim of live remote access is attributed to the producer. No arithmetic or physical admission gate changes.

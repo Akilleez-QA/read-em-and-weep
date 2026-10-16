@@ -1,0 +1,666 @@
+{
+  "all_six_narrow_review_scopes_accepted": true,
+  "components": {
+    "CO02": {
+      "classification": "Source-authenticated dependency syntax, scoped sharing, integer shape/degree bounds; physical operation/storage cost unknown.",
+      "files": [
+        {
+          "bytes": 9612,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/PROOF.md",
+          "sha256": "c564f4a1f2e817dd57336f78de33c774cc56bd5ac0e0341d971a4ac5cc15b96b"
+        },
+        {
+          "bytes": 3608,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/README.md",
+          "sha256": "7634625580bdf9f8ed1a5bed652b08a4e962d3091ad0091d8e58ee0aa083a7c1"
+        },
+        {
+          "bytes": 3213014,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/adapter-grammar.json",
+          "sha256": "31de38df6ff9ea93599c98af81090fc54801cd8886702b4d09aea004357fa243"
+        },
+        {
+          "bytes": 22733,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/adapter.py",
+          "sha256": "9b49ae8b811b0460d951fdfa404fa7bab505b668d7d83c004d8b19e33dad6488"
+        },
+        {
+          "bytes": 663,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/checks-receipt.json",
+          "sha256": "bd192fb20c115773fcef06bbdc2279cfde79734252ef76e20ad9f2d0cf7db298"
+        },
+        {
+          "bytes": 203031,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/cost-report.json",
+          "sha256": "3a46d2acd0c9a8a09fff1d4c21c3f8f234a478aada0a8e53dd238310a33c4157"
+        },
+        {
+          "bytes": 16909,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/source-pins.json",
+          "sha256": "abcc7027eb3102a16ba047be95c856015a96fc7a9185a62f4639d0056421740e"
+        },
+        {
+          "bytes": 5373,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/scoped-cost/test_producer.py",
+          "sha256": "8f9f7f4f35b29e4528b3f0b3a074868f462ca086dcc4d05c252746ea48abff49"
+        }
+      ],
+      "implementation_scope": "Metadata adapter does not import or execute the new STD01/INS01 coefficient programs.",
+      "independent_review_status": "accepted narrowly by root CO-R",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1008,
+        "path": "research/codex-swarm/scoped-cost/producer-ready.json",
+        "sha256": "485de9b90da726ca890cae56c1b4eb754a8b173d700483d999b5cb98072ce5b6"
+      },
+      "proof_scope": [
+        "Records eight seed12/30 E34 branches, four complete N edge shells, 121 scalar-family demands and 4270 dependency nodes.",
+        "Reports 477 unresolved cost-program boundaries; syntax cardinalities and dense-operation upper-bound metadata do not establish feasible physical execution."
+      ],
+      "recorded_validation": {
+        "receipt": "See producer receipt, not rerun here."
+      },
+      "review_reference": {
+        "accepted_scope": "Source dependency syntax and conditional cost bounds; total physical cost unknown.",
+        "basis": "Root review coordination instruction and available review text; no reviewer bytes authenticated by this manifest.",
+        "path": "research/codex-swarm/scoped-cost/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Wire the reviewed generic STD01/INS01/QH01 machinery and conditional SW01 witness to exact unresolved boundary IDs; generic implementations now exist.",
+        "Supply actual coefficient domains, heights, full fibers, source-faithful oracle identity/application, sharing legality and storage/traversal schedules.",
+        "Supply and independently admit complete physical resource certificate before execution."
+      ]
+    },
+    "INS01": {
+      "classification": "Executable sparse source-circuit/prism/whole-numerator quotient machinery on synthetic inputs.",
+      "files": [
+        {
+          "bytes": 5992,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/README.md",
+          "sha256": "61167c4a09918301ae11ef87a3fed9a774455d46b653f49ea4c5c1b388d81b91"
+        },
+        {
+          "bytes": 10431,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/inserted_program.py",
+          "sha256": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452"
+        },
+        {
+          "bytes": 3422,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+          "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+        },
+        {
+          "bytes": 10348,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/polynomial_coefficients.py",
+          "sha256": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee"
+        },
+        {
+          "bytes": 1512,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/program-contract.json",
+          "sha256": "d245f0291f1e05d7354b8e9e26fc0469ce2a7aa6e85c0510285a66061daa8808"
+        },
+        {
+          "bytes": 3836,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/source_program.py",
+          "sha256": "1f6241ddc12c41ea2f8476cef53bc0b148562c2ade56c0c4f8aede68de8ced1c"
+        },
+        {
+          "bytes": 6760,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inserted-coefficients/test_inserted.py",
+          "sha256": "4207c21a53be11da2e0744838311d36ce2ec3b50f39c1ffe2002ed5cbe7c187a"
+        }
+      ],
+      "hash_snapshot_status": "Final producer marker includes independently accepted provider binding fixes and increasing output-edge guard.",
+      "implementation_scope": "Only artificial catalogs and artificial finite quotient/fiber oracles execute; physical coefficient requests are refused, including apparent out-of-support requests.",
+      "independent_review_status": "Accepted narrowly, including provider binding and increasing-edge follow-ups, as reported by root.",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1604,
+        "path": "research/codex-swarm/inserted-coefficients/producer-ready.json",
+        "sha256": "8da67bd5d175969669cf66737575fe0188ec6871e94c1180d19452ae9298c413"
+      },
+      "proof_scope": [
+        "Lowers the authenticated 153-node finite source topology using artificial catalogs; forms both prisms and Ca Cb Z B inside WholeNumerator.",
+        "Differentiates the combined numerator with all denominator multiplicities; preserves distinct equal-polynomial owners and request context."
+      ],
+      "recorded_validation": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "synthetic_tests": 9
+      },
+      "reported_independent_validation": {
+        "basis": "Root reports final post-fix lane controls; not rerun for this manifest.",
+        "normal": "PASS",
+        "optimized": "PASS",
+        "total_per_mode": 32
+      },
+      "review_reference": {
+        "accepted_scope": "Bounded synthetic source/prism/combined-numerator machinery with provider seed/occurrence/duplicate checks and strict increasing output edge guard; no physical inputs or execution accepted.",
+        "basis": "Root reports INS provider and final EDGE follow-up acceptance, 32 controls per mode; reviewed producer marker and code hashes explicitly checked here. Reviewer files intentionally unhashed.",
+        "path": "research/codex-swarm/inserted-coefficients/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Bind actual Qhat complete factor streams and full fibers, actual Ca/Cb inputs and independently authenticated support/domain data.",
+        "Integrate already accepted PH01 homogeneous frame theorem and the source-faithful whole STANDARD-target witness; these are interface integration duties, not a request to reprove PH01.",
+        "Bind the existing primitive source/order/domain theorem where required; retain outer weights/detector composition separately.",
+        "Physical execution/resource admission remains held."
+      ]
+    },
+    "PH01": {
+      "classification": "Narrow physical homogeneous/infinity-frame source identification accepted by PH-R under explicit pinned premises.",
+      "files": [
+        {
+          "bytes": 14679,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/physical-homogenization/PROOF.md",
+          "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab"
+        },
+        {
+          "bytes": 2410,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/physical-homogenization/README.md",
+          "sha256": "883ad5dbb103d425a054d60bef639b3568fe3b9121f0a7e4f880d697d5559beb"
+        },
+        {
+          "bytes": 16044,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/physical-homogenization/frames.py",
+          "sha256": "841b8ebd342ae0c45d92499fc712d94051729d27e8137279fb14e09710246c6e"
+        },
+        {
+          "bytes": 1500794,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/physical-homogenization/physical-source-certificate.json",
+          "sha256": "945551c886bd399bfa6cab8f1bc6bd144059dc2656ada5dfb546ce6b71a2a3c5"
+        },
+        {
+          "bytes": 7710,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/physical-homogenization/test_frames.py",
+          "sha256": "1cad972ca549e7df43bc0dc096249fd87361014bad3126b10caf54c31a78b58e"
+        }
+      ],
+      "implementation_scope": "Formal frame metadata and abstract controls; no physical polynomial coefficient evaluation.",
+      "independent_review_status": "accepted narrowly by PH-R",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 979,
+        "path": "research/codex-swarm/physical-homogenization/producer-ready.json",
+        "sha256": "9ee2bab91d9623048e445007152d543f4e264ce979cb0256833863170255c569"
+      },
+      "proof_scope": [
+        "Derives actual F12 and F34 chart transformation from normalized carrier weights, both physical endpoint Q terms, physical D frame cancellation, and transported gerbe q; all 16 representation charts retain unchanged owner tags.",
+        "Consumes accepted finite clearing 217/210 and complementary-pair finite property; supplies actual source-to-homogeneous bridge including auxiliary v0 factor."
+      ],
+      "recorded_validation": {
+        "normal": 10,
+        "optimized": 10,
+        "physical_source_evaluated": false
+      },
+      "review_reference": {
+        "accepted_scope": "Actual physical homogeneous/frame identification for F12/F34 conditional on explicit immutable source premises; no execution or global admission.",
+        "basis": "Root review coordination instruction and available review text; no reviewer bytes authenticated by this manifest.",
+        "path": "research/codex-swarm/physical-homogenization/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Bind emitted physical P/Qhat coefficient interfaces to the reviewed source/frame theorem and actual owned degrees.",
+        "No detector values, actual coefficient execution, resource admission, historical order equality, outer full-lift domain or global obstruction follows."
+      ]
+    },
+    "QH01": {
+      "classification": "Implemented and independently accepted generic bounded first-hit quotient coefficient algorithm; actual N14 metadata only.",
+      "files": [
+        {
+          "bytes": 5909,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inner-quotient/README.md",
+          "sha256": "0ed34c36c87d437f12f7605f00555c873b351c2a30c4c7bdbde7252c169b18f5"
+        },
+        {
+          "bytes": 7228,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inner-quotient/quotient.py",
+          "sha256": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91"
+        },
+        {
+          "bytes": 661,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inner-quotient/source-pins.json",
+          "sha256": "bda2226ce1c4154b3c304da3ce13a98e35985bd9d66f343c45c85973ac6aecce"
+        },
+        {
+          "bytes": 3614,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/inner-quotient/test_quotient.py",
+          "sha256": "97e5f68f3508969a672242449c289c42a552f18664b9866f948d8c2fc8be0ae3"
+        }
+      ],
+      "implementation_scope": "Executes complete bounded coefficient streams on tiny artificial catalogs; actual physical coefficients and streams refuse before support checks.",
+      "independent_review_status": "accepted narrowly by QH-R",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1086,
+        "path": "research/codex-swarm/inner-quotient/producer-ready.json",
+        "sha256": "8da1b311ea9de9515c6b95a1fd89c5dd4f31430c18b8c130a387f45d4d069a34"
+      },
+      "proof_scope": [
+        "First-hit compositions uniquely cover the earliest threshold crossing with exact multinomial multiplicities.",
+        "Cbar/Dbar endpoint ranges, Qline/raw weights, full owners and once-only divisor frame reversal match the pinned parameterized formulas."
+      ],
+      "recorded_validation": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "synthetic_controls": 7
+      },
+      "resource_scope": "Shared query/split counters aggregate; node and cache caps are per Ring, and index visits per FiniteRing. Existing development guards do not establish aggregate memory or physical costs.",
+      "review_reference": {
+        "accepted_scope": "Generic bounded synthetic first-hit quotient algorithm and unexecuted actual N14 formula metadata; physical inputs held.",
+        "basis": "Root review coordination instruction and available review text; no reviewer bytes authenticated by this manifest.",
+        "path": "research/codex-swarm/inner-quotient/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Supply source-faithful actual Qhat inputs and complete finite owner fibers and bind the coefficient oracle to the fixed N14 quotient circuit.",
+        "Integrate the accepted PH01 frame theorem rather than call that theorem missing.",
+        "Provide aggregate multi-owner node/cache/index accounting and actual physical resource/execution admission."
+      ]
+    },
+    "STD01": {
+      "classification": "Executable complete standard B machinery on bounded synthetic inputs; source theorem dependencies pinned.",
+      "files": [
+        {
+          "bytes": 4545,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/README.md",
+          "sha256": "cc2a5ba9b70049017374caabb10f3a0b16e55c8d6bbba66283b4dbbc2403f7d3"
+        },
+        {
+          "bytes": 1394,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/contract.json",
+          "sha256": "0508543ef38646e18b956e115c39d2ae84489ceaf0bbd40122c084ca49e4f013"
+        },
+        {
+          "bytes": 1697,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/controls-normal.log",
+          "sha256": "b022ebefa9e9ea5c5d49f4742925e6e6c4b77150507ac5571c63ca4a1ff94898"
+        },
+        {
+          "bytes": 1697,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/controls-optimized.log",
+          "sha256": "d5005710a936d968c0bed6bc8825cffbc4a305382c694149d452ee4763bf7c92"
+        },
+        {
+          "bytes": 986,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/controls-receipt.json",
+          "sha256": "b97ee8914851124f624d188310f53182fe71a0ce772e902b366e93415a3d5008"
+        },
+        {
+          "bytes": 7432,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/proof.md",
+          "sha256": "6e12f4541e15fe7c1ee7d67669d76b950a246aceb8f6cd9e5a18e5eb8b226b89"
+        },
+        {
+          "bytes": 2133,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/run_controls.py",
+          "sha256": "7e828c438c960607cfe15ba914828552630a4b8d1ff10690637411075bc0d9bd"
+        },
+        {
+          "bytes": 2361,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/source-pins.json",
+          "sha256": "fc6b0d964dd6e6f0fe3bb7b794e5484ecf0c10c0efc417b250676d2976c9f08e"
+        },
+        {
+          "bytes": 17092,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/standard.py",
+          "sha256": "bd9c9a77d2e366a92e265406727bd26ba05c4b15680df384d16f6b1c074ad2fd"
+        },
+        {
+          "bytes": 10182,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-coefficients/test_standard.py",
+          "sha256": "7c9ea5edc7b85a8377b377a1f580604ee01ad050a1d4721597575dd4f42b897e"
+        }
+      ],
+      "implementation_scope": "Finite artificial quotient/fiber/source coefficient oracles only; current producer records 12 normal and 12 optimized controls.",
+      "independent_review_status": "accepted narrowly by STD-R",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1299,
+        "path": "research/codex-swarm/standard-coefficients/producer-ready.json",
+        "sha256": "087f208b95b3118255362cf1f28482bddff81d61daada2c1fa20095dc1f952c6"
+      },
+      "proof_scope": [
+        "Implements both terms B=R(K_cov Pi+A h S Pi)F, standard-tag alternation, derivative shift before h predicates, and full owner identity.",
+        "Retains the harmonic remainder in delta B+B delta=1-A I P S. Closedness alone does not establish delta B=F."
+      ],
+      "recorded_validation": {
+        "command": "python -B run_controls.py",
+        "normal": 12,
+        "optimized": 12
+      },
+      "review_reference": {
+        "accepted_scope": "Complete executable bounded synthetic B with harmonic remainder retained; physical oracle identity/application unaccepted.",
+        "basis": "Root review coordination instruction and available review text; no reviewer bytes authenticated by this manifest.",
+        "path": "research/codex-swarm/standard-coefficients/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Bind actual P and complete Qhat/fiber coefficient interfaces to the already available source/frame and quotient theorems.",
+        "Instantiate whole STANDARD-target regular-extension witness from exact owner degrees and source-faithful oracle identities.",
+        "Bind the existing source-specific primitive/harmonic-zero theorem to the same emitted fresh source, gerbe, frames and admissible old scalar domain; closedness alone remains insufficient. No new harmonic scalar evaluation is required by that theorem.",
+        "Physical resource accounting and execution admission remain held."
+      ]
+    },
+    "SW01": {
+      "classification": "Independently accepted conditional whole-standard extension theorem and strict witness schema; physical source/oracle/order binding pending.",
+      "files": [
+        {
+          "bytes": 8966,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/PROOF.md",
+          "sha256": "7c4a865dda47ff7a91c64969f0b101c4c737d46645e8b34bc3064d65848ee7c9"
+        },
+        {
+          "bytes": 1966,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/README.md",
+          "sha256": "69414fd8744c7f1ffa8bc0ba50f0e3ad661ba87f46429a235c096158e881bb9e"
+        },
+        {
+          "bytes": 5939,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/build_handoff.py",
+          "sha256": "03c90b5b51eb6d6ddb359f434ef34b94804cff0b8b3c02f057b256cf372fb803"
+        },
+        {
+          "bytes": 1110,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/controls-normal.log",
+          "sha256": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf"
+        },
+        {
+          "bytes": 1110,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/controls-optimized.log",
+          "sha256": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf"
+        },
+        {
+          "bytes": 921,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/controls-receipt.json",
+          "sha256": "2567f11318c2f12163291381434304006b1816f10232894cd1d4a207def7ebe3"
+        },
+        {
+          "bytes": 1268,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/gap-registry.json",
+          "sha256": "fdb67f35755fe15d22086242a4591835e13ea125f0ab9faa4835faf8db17755d"
+        },
+        {
+          "bytes": 1941,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/run_controls.py",
+          "sha256": "4b98158a3f4ab68561d1270de1126fd9517be125b18eba7e0c382010831ab314"
+        },
+        {
+          "bytes": 2991,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/source-pins.json",
+          "sha256": "e8f32e2bbc0076bc977132bcd4e7b61223229239499165719feb76c2674ff402"
+        },
+        {
+          "bytes": 4421,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/test_witnesses.py",
+          "sha256": "422fcf20bfae1031796b9fa8a060d80410303dc4b0ff42d6b7b75f8e6ee057ea"
+        },
+        {
+          "bytes": 8372,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/witness-schema.json",
+          "sha256": "8043c0ebe51444a3c411a7b0437dad3943be0e30112b14165ed045315ef618d4"
+        },
+        {
+          "bytes": 1955,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/witness-template.json",
+          "sha256": "9c4ee3f3954f08e28949e0798fd3492139b6131d8074672953c3b8891e6ecde8"
+        },
+        {
+          "bytes": 6980,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/standard-source-witnesses/witnesses.py",
+          "sha256": "1ffbfed5d8d1876ef4d1daac2b5eee9cf033ee2f38de2f549979d990d1325cde"
+        }
+      ],
+      "implementation_scope": "Strict proposal/schema and bounded artificial extension controls only; proof hashes and status strings confer no physical identity or admission.",
+      "independent_review_status": "Accepted narrowly by SW-R, as reported by root/coverage lead.",
+      "physical_execution_admitted": false,
+      "physical_source_executed": false,
+      "producer_hashes_verified": true,
+      "producer_marker": {
+        "bytes": 1576,
+        "path": "research/codex-swarm/standard-source-witnesses/producer-ready.json",
+        "sha256": "96fb1e457fb7edea1db7a8981f83d0ce8f090e3c6ade448f31f0bdd12edc9978"
+      },
+      "proof_scope": [
+        "Actual homogeneous whole-source P with exact owner degrees, multiplied by regular local polynomial quotients Qhat, extends to the whole standard target intersection.",
+        "Locates existing source-specific primitive/harmonic-zero and delta T F=F proof; no new harmonic arithmetic required."
+      ],
+      "recorded_validation": {
+        "command": "python -B run_controls.py",
+        "normal": 8,
+        "optimized": 8
+      },
+      "reported_independent_validation": {
+        "basis": "Root coordination report; not rerun for this manifest.",
+        "independent": 5,
+        "normal": "PASS",
+        "optimized": "PASS",
+        "producer": 8,
+        "total_per_mode": 13
+      },
+      "review_reference": {
+        "accepted_scope": "Conditional whole-standard extension theorem and strict witness schema accepted; exact emitted source/oracle/order/domain bindings still pending.",
+        "basis": "Root reports coverage lead SW-R acceptance: five independent and eight producer controls normal/-O; reviewer bytes intentionally unhashed.",
+        "path": "research/codex-swarm/standard-source-witnesses/review-independent.md",
+        "reason_unhashed": "Reviewer files intentionally not bound until root declares stable.",
+        "sha256": null
+      },
+      "unresolved_obligations": [
+        "Bind emitted complete P oracle to the reviewed actual b-tr(C)/2 source and exact owned homogeneous degrees.",
+        "Bind Qhat oracle to the fixed N14 polynomial quotient circuit, one divisor-frame conversion and original full owner tags.",
+        "Bind the existing primitive theorem to the same fresh source, source order, gerbe, physical frame and admissible s_old domain.",
+        "Outer Rsharp/J0..J3 closure/domain, complete54/29/5251 scope, detector values and physical resource/execution admission remain separate."
+      ]
+    }
+  },
+  "existing_primitive_theorem": {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "git_blob": "c8bd02bc22d0da5bdcba6bb50d9c82548b92f990",
+    "locator": "SW01 PROOF.md section3 cites hm-transition-only-first-lift-alternative.md sections2,4,5 and underlying first-order-source.md at 08b73637d4136f91606aad332c46cafd064417f8.",
+    "mathematical_scope": "Existing source-specific delta s_old=F, P S Pi s*F=0 and delta T F=F under same-source/order/frame/domain and chain-map hypotheses.",
+    "new_harmonic_scalar_recomputation_required": false,
+    "path": "research/hm/null-proof-foundations/hm-transition-only-first-lift-alternative.md",
+    "remaining_obligation": "Bind the emitted source oracle to the precise identities, fresh source order, gerbe, frames and admissible domains; SW-R conditional theorem/schema now accepted."
+  },
+  "global_limits": {
+    "actual_detector_values_computed": false,
+    "budget_admission": false,
+    "global_obstruction_decided": false,
+    "historical_source_order_identity_established": false,
+    "original_private_staging_byte_identity_claimed": false,
+    "physical_execution_release": false,
+    "physical_source_executed": false,
+    "tests_run_for_this_manifest": false
+  },
+  "immutable_prior_sources": [
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "pull_request": 85,
+      "scope": "Actual 153-node factored whole F12, carrier ledger 5/6/5, degree bounds 217/210; no physical coefficient execution.",
+      "status": "Reviewed finite whole-source F12 clearing theorem completed at finite scope."
+    },
+    {
+      "commit": "ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18",
+      "pull_request": 79,
+      "scope": "v5 authenticated source dependency graph and formal compiler; formal input numerators do not instantiate actual coefficients."
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "pull_request": 79,
+      "scope": "Requires actual homogeneous whole-source and complete B coefficient data for source-specific execution.",
+      "status": "Generic combined-pole and complete B algebra completed at stated hypotheses."
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "pull_request": 79,
+      "scope": "Both endpoint physical Q terms retained; does not prove actual second-jet cross-Gram symmetry.",
+      "status": "Actual correctly bound normalized FIRST L/U tracefree theorem completed."
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "pull_request": 79,
+      "scope": "All five Rsharp branches; executable physical coefficient witnesses still require instantiation.",
+      "status": "Scalar-family transport to regular STANDARD target completed at its theorem scope."
+    },
+    {
+      "commit": "02d0e727ffb95dfd9281906cc284c56e8bffd018",
+      "pull_request": 79,
+      "scope": "Positive ordered RAW F12 to RAW F34 involution (0 2)(1 3); fixed owner positions and matrix order. Fresh sorted target F34 finite clearing follows via possibly unsorted inverse image. This is not equality after sorting alternating cochains or a historical source-order identity.",
+      "status": "Complementary-pair finite property transfer completed."
+    },
+    {
+      "commit": "5df68750f766b18a746e50bff662b09829225ab1",
+      "pull_request": 79,
+      "scope": "Omega=0 iff J^T S H symmetric gives three scalar equations; actual distinct-carrier source identities remain unestablished.",
+      "status": "Abstract second-jet degeneracy criterion publicly available."
+    },
+    {
+      "commit": "41de3864f058b645af9987fb3462cc6b8384e6cd",
+      "pull_request": 79,
+      "scope": "704/5632 scan, 512 mask gaps, seed fingerprint, and nine-test JTSH criterion; public configuration-only serialization cleanup with regenerated hashes.",
+      "status": "Reusable original mathematical artifacts publicly available, first-wave manifest authenticated."
+    },
+    {
+      "commit": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+      "pull_request": 79,
+      "scope": "Separate exact theorem scope retained; availability does not establish global obstruction or actual distinct-carrier second-jet symmetry.",
+      "status": "Full seed4 theorem publicly available."
+    }
+  ],
+  "integration_contracts": [
+    "STD01 shared interfaces.py bytes must equal INS01 interfaces.py; source-pins.json binds that interface.",
+    "STD01 StandardEdgeOracle supplies B coefficients without Ca Cb Z; INS01 WholeNumerator owns that padding and both prism terms.",
+    "Complete B retains harmonic H^2 remainder; neither closedness nor local coefficient zeros remove it.",
+    "F34 finite-property transfer must not be promoted to a sorted-cochain or historical-order identity.",
+    "PH01 physical frame proof and QH01 generic quotient algorithm are independently accepted narrowly. Missing physical coefficient inputs, source-faithful oracle identity/application and cost admission must not be recast as missing versions of those completed proofs.",
+    "The harmonic remainder is retained in generic homotopy. An existing source-specific primitive theorem can kill it after exact fresh-source/order/gerbe/frame/domain binding; this application is not established by generic synthetic checks."
+  ],
+  "interpretation": "Producer hashes authenticate bytes only. Recorded producer test results are receipts, not rerun validation or independent acceptance. Completed scoped theorems stay completed; remaining data/program integration and source-specific hypotheses are stated separately.",
+  "original_cloud_evidence": [
+    {
+      "availability": "Reusable mathematical artifacts publicly released in PR79. Includes 704 active tuples / 5632 scan and seed fingerprint.",
+      "full_seed4_theorem_commit": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+      "item": "Seed4 E12 scan and seed fingerprint",
+      "new_wave4_work_is_recreation": false,
+      "path": "research/hm/null-support-certificates/",
+      "provenance": "Public serialization uses configuration-only cleanup and regenerated hashes; equivalent mathematical release. Original private staging byte identity is not claimed.",
+      "public_release_commit": "41de3864f058b645af9987fb3462cc6b8384e6cd"
+    },
+    {
+      "availability": "Reusable 512-mask gap artifacts publicly released in PR79; includes gaps 29,101,100 and exact mask increments 57/58 at their stated family scope.",
+      "full_seed4_theorem_commit": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+      "item": "Exceptional-mask and fixed (1,2,4) mask-gap evidence",
+      "new_wave4_work_is_recreation": false,
+      "path": "research/hm/null-support-certificates/",
+      "provenance": "Public serialized mathematical artifacts have their own regenerated hashes; no claim of original private staging byte identity.",
+      "public_release_commit": "41de3864f058b645af9987fb3462cc6b8384e6cd"
+    },
+    {
+      "abstract_definitions_commit": "5df68750f766b18a746e50bff662b09829225ab1",
+      "availability": "Reusable abstract criterion and nine-test JTSH package publicly released in PR79.",
+      "item": "J^T S H / Omega criterion",
+      "new_wave4_work_is_recreation": false,
+      "path": "research/hm/null-support-certificates/",
+      "provenance": "Public equivalent mathematical release; original private staging byte provenance is not asserted.",
+      "public_release_commit": "41de3864f058b645af9987fb3462cc6b8384e6cd",
+      "remaining_source_question": "Actual distinct-carrier second jets satisfying all three symmetry equations have not been established."
+    }
+  ],
+  "pending_refreshes": [
+    "Reviewer byte hashes remain excluded for all lanes; root manages a separate stable review/publication snapshot."
+  ],
+  "public_cloud_release_authentication": {
+    "authenticated_manifest_entries": 65,
+    "authentication_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6209479069",
+    "evidence_basis": "Root directly verified the release README and reports prior first-wave authentication of 65 manifest entries. This manifest correction did not rerun the release.",
+    "full_seed4_theorem_commit": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+    "public_release_commit": "41de3864f058b645af9987fb3462cc6b8384e6cd",
+    "serialization_scope": "Configuration-only cleanup and regenerated public hashes; equivalent reusable mathematics, not a claim of private staging byte identity."
+  },
+  "purpose": "Six-producer review coordination snapshot; producer-byte authentication, scoped review acceptance and exact integration obligations; no arithmetic release.",
+  "reported_root_validation": {
+    "method": "Root reports direct test-file runs isolated to avoid the STD test module collision.",
+    "normal": "PASS",
+    "optimized": "PASS",
+    "physical_source_executed": false,
+    "replayed_for_this_manifest": false,
+    "total_per_mode": 115
+  },
+  "reviewer_files_hashed": false,
+  "schema": "wave4-producer-program-bindings-v2",
+  "shared_interface_verified": {
+    "matches_STD01_pin": true,
+    "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+    "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+  },
+  "source_bytes": {
+    "authentication_scope": "Previously authenticated immutable source pins; this manifest hashes producer files, not a fresh replay of GitHub source.",
+    "model_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "revision": "08b73637d4136f91606aad332c46cafd064417f8",
+    "source_formulas_sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+  },
+  "verification_method": "Read producer markers and hash raw producer file bytes; read review scope and SW proof text only. No imports, tests, source arithmetic, Git mutations or publication performed for this refresh."
+}

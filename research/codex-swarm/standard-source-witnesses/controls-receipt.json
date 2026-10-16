@@ -1,0 +1,40 @@
+{
+  "schema": "standard-source-witnesses-controls-v1",
+  "hard_address_space_bytes": 536870912,
+  "hard_cpu_seconds": 59,
+  "parent_wall_timeout_seconds": 60,
+  "physical_source_evaluated": false,
+  "runs": [
+    {
+      "success": true,
+      "tests": 8,
+      "seconds": 0.009479552998527652,
+      "peak_rss_kib": 17196,
+      "optimized": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.042192962999251904,
+      "command": [
+        "python",
+        "-B",
+        "run_controls.py",
+        "--child"
+      ]
+    },
+    {
+      "success": true,
+      "tests": 8,
+      "seconds": 0.00931415499871946,
+      "peak_rss_kib": 17468,
+      "optimized": true,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.04201646500223433,
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "run_controls.py",
+        "--child"
+      ]
+    }
+  ]
+}

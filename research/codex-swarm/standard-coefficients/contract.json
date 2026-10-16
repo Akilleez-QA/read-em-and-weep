@@ -1,0 +1,48 @@
+{
+  "schema": "standard-coefficients-contract-v1",
+  "program": "R(K_cov Pi + A h S Pi)F",
+  "pairs": [
+    [
+      0,
+      1
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "accepted_execution_domain": "bounded artificial cochains and polynomial coefficient oracles",
+  "operations": [
+    "AW",
+    "signed staircases",
+    "rectangle-cone K",
+    "tensor h with harmonic projection",
+    "finite quotient convolution",
+    "whole-standard extension binding",
+    "full-owner R",
+    "pre-h derivative shift",
+    "metadata-only support enclosure"
+  ],
+  "identity": "delta B+B delta=1-A I P S",
+  "harmonic_dimension_per_pair": 1,
+  "actual_source_numerator_identity": false,
+  "actual_partition_quotient_identity": false,
+  "actual_standard_target_extension": false,
+  "actual_source_closure": false,
+  "actual_source_harmonic_vanishing": false,
+  "actual_first_order_primitive_identity": false,
+  "physical_homogeneous_frame_binding": false,
+  "historical_source_order_equality": false,
+  "physical_execution_authorized": false,
+  "physical_source_evaluated": false,
+  "obstruction_value_computed": false,
+  "caps": {
+    "fiber_per_standard_slot": 4,
+    "quotient_terms_per_owner": 16,
+    "coefficient_source_queries_per_demand": 20000,
+    "aggregate_source_queries": 100000,
+    "support_owner_assignments": 10000,
+    "standard_queries": 100000,
+    "direct_fixture_support": 4096
+  }
+}

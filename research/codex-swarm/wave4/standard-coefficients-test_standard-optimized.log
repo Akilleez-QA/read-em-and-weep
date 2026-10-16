@@ -1,0 +1,17 @@
+test_AW_staircase_left_inverse_all81_cells (__main__.Controls.test_AW_staircase_left_inverse_all81_cells) ... ok
+test_F34_harmonic_structure_without_source_order_claim (__main__.Controls.test_F34_harmonic_structure_without_source_order_claim) ... ok
+test_actual_both_branches_and_exact_input (__main__.Controls.test_actual_both_branches_and_exact_input) ... ok
+test_derivative_shift_before_h_and_zero_factor (__main__.Controls.test_derivative_shift_before_h_and_zero_factor) ... ok
+test_factored_Pi_convolution_cleared_numerator_owners_parity (__main__.Controls.test_factored_Pi_convolution_cleared_numerator_owners_parity) ... ok
+test_h_exact_zero_boundary_and_prefix_rules (__main__.Controls.test_h_exact_zero_boundary_and_prefix_rules) ... ok
+test_nonzero_harmonic_remainder_prevents_false_exactness (__main__.Controls.test_nonzero_harmonic_remainder_prevents_false_exactness) ... ok
+test_output_restriction_reversed_equal_tags_and_support_adapter (__main__.Controls.test_output_restriction_reversed_equal_tags_and_support_adapter) ... ok
+test_physical_mode_and_boolean_inputs_rejected (__main__.Controls.test_physical_mode_and_boolean_inputs_rejected) ... ok
+test_rectangle_cone_sign_and_chain_identity (__main__.Controls.test_rectangle_cone_sign_and_chain_identity) ... ok
+test_source_repeat_zero_not_generic_common_cochain_rule (__main__.Controls.test_source_repeat_zero_not_generic_common_cochain_rule) ... ok
+test_standard_extension_not_common_local_claim (__main__.Controls.test_standard_extension_not_common_local_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.330s
+
+OK

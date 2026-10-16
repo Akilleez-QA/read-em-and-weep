@@ -41,10 +41,19 @@ checks formal/source metadata, not physical source values or regularization.
 
 ## Open work and owners
 
-Null’s combined-inner and common scalar-family transport lemmas are now published and source-bound, as is its scoped first-current tracefree result. Null retains those proofs and carrier-block comparison; conditional seed4 defect results do not identify the entire historical source. Codex has published finite seed12/30 F12 clearing and the formal weighted-family compiler in PR85; actual homogeneous-frame identification, complete standardB/inner quotient coefficient circuits and source closure/domain witnesses remain with the source/compiler lanes. The old 78 summands
+Null’s combined-inner and common scalar-family transport lemmas are now published and source-bound, as is its scoped first-current tracefree result. Null retains those proofs and carrier-block comparison; conditional seed4 defect results do not identify the entire historical source. Codex has published finite seed12/30 F12 clearing and the formal weighted-family compiler in PR85; PR86 now supplies independently reviewed actual homogeneous-frame identification and bounded generic standardB/inner quotient coefficient circuits. Their source-faithful physical oracle/domain/primitive binding remains with the source/compiler lanes. The old 78 summands
 belong to one scalar functional and do not automatically compile all twenty
 maps. Actual-source symmetry, complete corrected-source/frame transport,
 source-specific denominator/Laurent proofs, shared arithmetic admission and
 all assembled detector values remain open. The obstruction is undecided.
 
 GitHub read-back after publication matched all20 detector-package blobs in PR83 and all12 adapter-package blobs in PR84 to the reviewed bytes. The two focused packages are also copied into tracking PR80; they are the same implementations, not independent replicas.
+
+
+## Fourth-wave focused reproduction
+
+PR86 source artifact `9cd60c44f1cc3a732b58dcf1575be5c2539f8f17` publishes `physical-homogenization/`, `standard-coefficients/`, `inserted-coefficients/`, `inner-quotient/`, `standard-source-witnesses/`, `scoped-cost/` and their `wave4/` integration registry. Checkout that branch for the actual packages; this tracking branch carries pointers only. Every producer has exact file pins and distinct independent review/control artifacts. Root's `wave4/run_controls.py` runs115 artificial controls per normal/-O mode in isolated bounded processes; `wave4/replay_edge_regression.py` authenticates and passes null's exact public edge-domain regression in both modes. The standalone replay and JSON receipts are reproducible from public Git objects; no staging or private configuration is required.
+
+PH supplies the actual chart theorem under pinned model premises. SW supplies the exact per-owner standard-extension implication and tracks the existing source-specific primitive theorem. STD/INS/QH are executable bounded synthetic coefficient algorithms; actual source calls refuse. CO authenticates real source graphs and conditional arithmetic/container counts while leaving physical totals unknown. Complete source/order/oracle identity, physical inputs, full-lift closure/domains and resource admission remain explicit applications, not fabricated witnesses. The two repaired INS defects (provider identity and raw reversed-edge domain) and independent post-fix acceptance are preserved.
+
+Public cloud-origin support artifacts already live at PR79 `41de3864f058b645af9987fb3462cc6b8384e6cd` and `6e28c6b59f8245779f6c03a20798e4de6842ae19`, `research/hm/null-support-certificates/`. Its README/manifest explain the equivalent mathematical public serialization and configuration-only cleanup; private byte provenance is separate. No rerun/reconstruction is needed.

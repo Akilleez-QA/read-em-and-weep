@@ -1,0 +1,41 @@
+# Fourth bounded source-program wave
+
+This wave publishes code, proofs and completed independent reviews for collaboration. It is stacked on PR85; producer files, tests, exact pins and review outcomes live in this branch. No physical source coefficient, source scan or obstruction decision is supplied.
+
+| Lane | Concrete artifact | Review state / remaining boundary |
+|---|---|---|
+| PH01 | `../physical-homogenization/`: actual physical source frame derivation, all 16 charts, both pairs, exceptional auxiliary primitive padding | Independent CLI PH-R accepts the narrow theorem;20 controls per mode. Consumes pinned source identities and null's raw F34 property; no sorted-cochain identity. |
+| STD01 | `../standard-coefficients/`: executable standard B with both K and AhS branches, exact finite tensor predicates, full owners and coefficient interfaces | Independent CLI STD-R accepts the synthetic program;23 controls per mode. Harmonic remainder is retained; actual source primitive and whole-standard extension witnesses remain required. |
+| INS01 | `../inserted-coefficients/`: actual 153-node source topology lowered to coefficient queries, both padded prisms, whole-N differentiation and standard-B integration | INS-R accepts the conditional synthetic scope. CLI follow-up accepts the full-owner provider repair; independent INS-EDGE-R accepts the increasing-edge guard.32 controls per mode; historical findings are preserved. Synthetic inputs execute; actual Qhat streams, fibers, owned clearings and target-extension witnesses remain external. |
+| QH01 | `../inner-quotient/`: bounded first-hit composition sums, Cbar/Dbar and owner-specific quotient frame conversion | Independent native QH-R accepts the generic algorithm and metadata scope;14 controls per mode. Actual N14 catalog is authenticated metadata; physical coefficient calls refuse. |
+| SW01 | `../standard-source-witnesses/`: actual homogeneous clearing to whole-standard extension bridge and primitive theorem binding | Independent native SW-R accepts the conditional theorem/schema scope;13 controls per mode. Exact source/order/oracle bindings remain explicit. |
+| CO02 | `../scoped-cost/`: authenticated actual finite/family graphs and conditional dense integer cost bounds | Root CO-R accepts the narrow counts/conditional bound; 13 tests per mode. Physical total cost, heights, bytes, allocation schedule and current global ledger remain unknown. |
+
+Producers and reviewers own disjoint files. Producer-only markers authenticate the implementation under review. Independent review files preserve defects, acceptance limits and controls. Reviews record the state at their reviewed snapshot; cross-lane theorem acceptance does not silently populate physical API capabilities. All physical execution gates remain held.
+
+`replay_support.py` authenticates null's complementary-pair support at commit `02d0e727ffb95dfd9281906cc284c56e8bffd018` and replays only its 13 artificial controls. The coordinate permutation transfers the finite raw source's clearing property on a fixed ordered triple. A fresh F34 cochain sorts its own triple; no inverse-image re-sort is treated as an F12 cochain identity. `support-replay.json` records the successful bounded replay. No completed detector selection or seed4 scan is repeated.
+
+The reusable cloud-origin mathematical artifacts are already published in [PR79 at41de3864](https://github.com/Akilleez-QA/read-em-and-weep/tree/41de3864f058b645af9987fb3462cc6b8384e6cd/research/hm/null-support-certificates): the704-tuple/5632-separator scan,512-mask gap certificates, seed fingerprint and nine-test J-transpose-S-H symmetry derivation. The [full seed4 theorem at6e28c6b5](https://github.com/Akilleez-QA/read-em-and-weep/tree/6e28c6b59f8245779f6c03a20798e4de6842ae19/research/hm/null-support-certificates) extends the scoped coverage. The first-wave handoff authenticated65 manifest entries (PR1 comment6209479069). This is a public serialization with configuration-only cleanup and regenerated hashes, preserving the mathematical content; it does not claim the original private staging byte hash. Those private bytes are unnecessary for collaboration. No rerun or reconstruction is needed. An earlier wave4 availability statement was incorrect and is superseded here.
+
+The complete corrected Rsharp remains undecided. A finite clearing theorem, an executable symbolic program, or a zero in an incomplete test family cannot settle its cohomology class.
+
+
+## Reproducible validation and defects
+
+`python -B research/codex-swarm/wave4/run_controls.py --output controls-receipt.json` authenticates all six producer markers and runs each test file in an isolated bounded process, avoiding the identically named reviewer-module collision. **115 controls pass normally and under `-O`**: PH20, STD23, INS32, CO13, QH14, SW13. Logs and their hashes are published with the receipt. Process ceilings are768 MiB address space,59 CPU seconds and60 seconds wall time per test file; these are artificial replay limits, not physical cost admission.
+
+INS's original review found that custom providers could lose seed/occurrence ownership; root repaired exact binding, duplicate labels and bounded collection. A separate coordinated review exposed raw output-edge reversal as outside the formula's domain; root now rejects reversed/repeated common keys. Same physical labels with distinct standard tags remain distinct common vertices. The independent tests preserve both pre-fix counterexamples and post-fix acceptance. Mathematical fiber completeness and support enclosures remain premises.
+
+`replay_edge_regression.py` consumes null's exact public regression at PR79 commit93120cfab74e448e7df07268abe6c54031d630db. It passes normally and under `-O` against the repaired implementation: forward value-1 and explicit reversal rejection. The receipt authenticates both source files and the tested implementation. This additional artificial regression is separate from the115 internal controls. The earlier13 complementary-pair controls remain recorded separately.
+
+## Exact next obligations
+
+1. Bind the implemented finite P and N14 Qhat coefficient programs to the same actual source, owned clearings, fixed partition, complete owner fibers and physical frames used by the accepted theorems. Their actual coefficient calls currently refuse; synthetic success does not issue that identity capability.
+2. Instantiate the whole-standard extension witness using the exact per-owner degree D, not only uniform217/210. Apply the already published source-specific primitive/harmonic-zero theorem only after the fresh source order, gerbe, frame and admissible old primitive domain are identified. No new harmonic scalar evaluation is required by that binding task.
+3. Carry these source witnesses through the complete five-term Rsharp, original-frame scalar transport and J0–J3 closure, preserving all prefix/weight owners. Source-specific second-jet symmetry and historical-order comparison remain separately unproved.
+4. Replace scoped program/cost boundaries with full physical operation, coefficient-height and storage-lifetime bounds, and reconcile the authoritative shared ledger before any physical run. QH query/split budgets aggregate, but node/cache/index limits are per ring; a multi-owner adapter needs aggregate accounting. CO02's conditional finite-P count is not a total family bound.
+5. Authenticate an assembled nonzero boundary-annihilating detector, all values in a complete separating family, or an explicit global boundary witness. None is supplied by this wave.
+
+`program-bindings.json` connects six producer markers and47 files to their exact scopes and reviews. Historical review reports describe their own snapshots; later acceptance in this registry supersedes pending annotations only at that narrow scope. All physical execution and global verdict gates remain held.
+
+GitHub read-back at source commit9cd60c44f1cc3a732b58dcf1575be5c2539f8f17 matches **104 changed source/review/control files,5,395,913 bytes** exactly. `github-readback.json` records remote PR86 head, each Git blob, SHA256 and byte count; later registry/read-back-receipt commits preserve those reviewed package bytes.

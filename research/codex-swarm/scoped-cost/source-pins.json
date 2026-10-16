@@ -1,0 +1,383 @@
+{
+  "schema": "co02-source-pins-v1",
+  "sources": [
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/compiled-template.json",
+      "same_at_head": true,
+      "sha256": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/compiler.py",
+      "same_at_head": true,
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/review-fix-followup.md",
+      "same_at_head": true,
+      "sha256": "86d5b0767de2e74a25e9922f1e87df332877a26923db61508c4238c98add42c3"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/review-independent.md",
+      "same_at_head": true,
+      "sha256": "5de7f6a29f3ac95804ce92536b66ece9d924e3dfac77b67ff485ce9e97de4094"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/test_independent.py",
+      "same_at_head": true,
+      "sha256": "040b047195aa4ab34077ca011cebf352866943e92717749ae73621656602ce3f"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/transport-binding/review-independent.md",
+      "same_at_head": true,
+      "sha256": "be7b91043f2e5a97dea1cff969df7f8ab29110d01240732071bcd6054a823b69"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/transport-binding/test_independent.py",
+      "same_at_head": true,
+      "sha256": "01ed875f2ef1efe6f48fc09ca36e46af024deb8c3c8be223705e31db1fff2f43"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/transport-binding/transport_binding.py",
+      "same_at_head": true,
+      "sha256": "31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/clearing.py",
+      "same_at_head": true,
+      "sha256": "2cc26945328dba5069d0b79888416b4d9d48b4031336fe266b2ffc103db3abef"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/review-degree.md",
+      "same_at_head": true,
+      "sha256": "24de3cf66a2815f7cc81dfed8538648eb80c84f5b1bbf0596893ff1c04d30662"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/review-independent.md",
+      "same_at_head": true,
+      "sha256": "e1fc22e0352c91212df870a8591299986efa6f372909177e9174ac8cc1982226"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/source-integration.json",
+      "same_at_head": true,
+      "sha256": "a7070e531edd2d034c7ddac8899cf4fcc7e880d4bb3adf5d0d37c8abb7b86a4c"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/test_independent.py",
+      "same_at_head": true,
+      "sha256": "2dc7bbae85c064d6736b755200a202922fcf78e34cd3fedc0846a750e8734c03"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/demand-cost/preflight.py",
+      "same_at_head": true,
+      "sha256": "2d658b04062e76809f1797f8c92992ce70d0ea4aa55f577a2c73e43317393ecc"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/demand-cost/review-independent.md",
+      "same_at_head": true,
+      "sha256": "5fd65bde15cf3a2a73c7e2349b5e520cbeef93566e3395bdb7be3e20e38daa56"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/demand-cost/test_independent.py",
+      "same_at_head": true,
+      "sha256": "1cbf32905abdfea135352519ffc91358864181fa38f75a925946bef980ed0108"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/wave3/reviewed-lanes.json",
+      "same_at_head": true,
+      "sha256": "19a00119a6ef0ce0cdecc5ddc366140bab1ebfdcdcbdea3f031992a17b853a24"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/wave3/source-replay.json",
+      "same_at_head": true,
+      "sha256": "d3c0d546c7c13fb793893060574a936e152a11bbd0d2e4a40c1d85d8c0f781ea"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/scalar-compiler/source-pins.json",
+      "same_at_head": true,
+      "sha256": "dc3fccb706a5747f82fdca152785dd756c366273dadf01d3b15021f9ae082ef0"
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/demand-cost/source-pins.json",
+      "same_at_head": true,
+      "sha256": "0999b764a168047eddb599e0e14039d1c3ef7a1faaa8cd2d1cb756329781d262"
+    },
+    {
+      "commit": "c44072e1d",
+      "path": "research/codex-swarm/STATUS.md",
+      "same_at_head": true,
+      "sha256": "7f284134512de858aecdb86ecd52def215a97fe0de879d37278d2db7322560ac"
+    },
+    {
+      "commit": "c44072e1d",
+      "path": "research/codex-swarm/README.md",
+      "same_at_head": true,
+      "sha256": "1645ff058887b51b11c128e716eb021e878f944051ee2f729fb70cc15ed7b672"
+    },
+    {
+      "commit": "c44072e1d",
+      "path": "research/codex-swarm/whole-source-clearing/PROOF.md",
+      "same_at_head": true,
+      "sha256": "3ea2b68a04168f76ba217b2b43470c41657124b550111c72a3eb10b60dd89361"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/PROOF.md",
+      "same_at_head": false,
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/README.md",
+      "same_at_head": false,
+      "sha256": "82b8c3a2f49cd96fc3a8d1c5ef2f422434817d431dba10e40a2a85daab2cd059"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/SHA256SUMS",
+      "same_at_head": false,
+      "sha256": "e2bed78e6f6ebcb70db8c3e5f97d04eb81ccb2a9e2cd07b772886b3b54b80358"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/certificate.json",
+      "same_at_head": false,
+      "sha256": "cd97c643c479d25dcdbc11297a0989ed4e83511e9784ff908fbe7b2acb21e218"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/certificate.py",
+      "same_at_head": false,
+      "sha256": "57fc3b13f0853a1364d2a5911884fe0d89bd3b287c9913bf2f377f24da0eff26"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/independent-review.md",
+      "same_at_head": false,
+      "sha256": "5ab8623e02e1d15e0e70472e7b4f0dfa9b11c5c5bf6c4e32c6419fe6e213bb81"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/requirements.txt",
+      "same_at_head": false,
+      "sha256": "25f9f1fb1988b230147a1d3092d34e09c069eb7a6c6d6df46b3973b9f2d36efc"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/test-results.log",
+      "same_at_head": false,
+      "sha256": "8ae8e6bd4eea78b9204f5d6f9ba288dbf3eadedd6d9e66d30267f25f709f9f19"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/test_certificate.py",
+      "same_at_head": false,
+      "sha256": "2ae73e6b16b3a234d47c0b7120c0f5ec1935a1ad01e4ff63154f82e770135fa7"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/order-comparison/SHA256SUMS",
+      "same_at_head": false,
+      "sha256": "e76f3f4c8f10eb9dce5d8762a90d464494cda8b022499ad7a6327154aed83b26"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/order-comparison/independent-review.md",
+      "same_at_head": false,
+      "sha256": "dce2e1a3a9ecf4b78c9329d691cab9b725874d9683b773702fef4d1582899d8c"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md",
+      "same_at_head": false,
+      "sha256": "c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/order-comparison/test-results.txt",
+      "same_at_head": false,
+      "sha256": "a30124f33fd8bfedea1f07199e21b56c65e71708346225fe86f7e70d61bac6f1"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/order-comparison/test_order_defect.py",
+      "same_at_head": false,
+      "sha256": "b033421bcd172b3397056f95e5afb98184690a059be4eef80475f715c26a1d10"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "same_at_head": false,
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/README.md",
+      "same_at_head": false,
+      "sha256": "ff65b86f39ecc91c12321a55906f6d9b266048bdc1f03573a209b18863f1248a"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/SHA256SUMS",
+      "same_at_head": false,
+      "sha256": "98508ef5097febec39e1d4cf08e23375cb785f8658f265ee4c5a1272fd90d40c"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/independent-review.md",
+      "same_at_head": false,
+      "sha256": "a90786c603a623b7a3a6ac956bf1196862f77eb67d2fd15916dfae652542a317"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/test-results.log",
+      "same_at_head": false,
+      "sha256": "a837784fd5e55343a9383cdcc6517955284abc03def7035dbf5d4c4bdc2d4385"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/test_contract.py",
+      "same_at_head": false,
+      "sha256": "69eb3e119c70e65abd5276bba5d99ff123744736f6910a0d26890af4bcb7f03a"
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/weighted-requests.json",
+      "same_at_head": false,
+      "sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/PROOF.md",
+      "same_at_head": false,
+      "sha256": "e77328364f7d738430d5ef4ebcde16ae1aa827ce59cd48f9300c1ad5319407b3"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/README.md",
+      "same_at_head": false,
+      "sha256": "70f77ff04c11116f5dfacde21026f365e193e811f15a1d6ea717bad9508de015"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/SHA256SUMS",
+      "same_at_head": false,
+      "sha256": "ddd47af28697ef5cad03d7e1b2d4d9d1e0ea1aee7ec00025f9e21202a8b7bdaf"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/certificate.json",
+      "same_at_head": false,
+      "sha256": "24b17fae822929bbac7b621154235ad02af7b325b1052a5db6cd395ba7defd17"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/independent-review.md",
+      "same_at_head": false,
+      "sha256": "a15e3115a48afc726564d125c28976449f11ea1cd3d451f539b0eaaabadbbc10"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/source-pins.json",
+      "same_at_head": false,
+      "sha256": "dfba29eb6cc4c8edb3d33afa8b4bf6afd327d7f01604c80cbf8955c0d3de1f70"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/attribution-pins.json",
+      "same_at_head": false,
+      "sha256": "9305cd1f70518d06f710901da86817c86101d241ae212d8867c962dde625da72"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/bind_requests.py",
+      "same_at_head": false,
+      "sha256": "5b09d7d478608c74c495c59239bf6e96935408cb4ab9bc1956731395cf56a36b"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/compile_actual_scalar_differential_kernel.py",
+      "same_at_head": false,
+      "sha256": "d12dbdfe90a42dc97b6ecf31b239ce74e278ef549a6828447f454852315bbaa6"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/determinant-verification.json",
+      "same_at_head": false,
+      "sha256": "e608a0652bbce571e345489125d71c7dd35c0da77de8712b6d9265bf86da7bd0"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/first-order-source.md",
+      "same_at_head": false,
+      "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/outer-pinned-frames-and-poles.md",
+      "same_at_head": false,
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/physical_current_source_binding.py",
+      "same_at_head": false,
+      "sha256": "8cc3f3be47c6944e983a8b1922470a27c1a413b3fe9059f97c75b7a2cd967d3d"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/resolution_selector_source_binding.py",
+      "same_at_head": false,
+      "sha256": "3f57b8408ca6fd54a6fb243c57121dfbb7f0c4c10976e0c044c7e5ffe3f63e60"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/test-results.txt",
+      "same_at_head": false,
+      "sha256": "e5b7eb0b355d6be3a707a1aca18f116dd848dbb392cc3ae012ce5f4b52b76037"
+    },
+    {
+      "commit": "398bb5ea34893a2cac80092eb78d4c73dabebb85",
+      "path": "research/hm/null-source-integration/tracefree-currents/test_tracefree_equivalence.py",
+      "same_at_head": false,
+      "sha256": "7022fa34776de07b6f62a21882585f6f0d5fda52ef4513942d35243a66c3bdcc"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "same_at_head": false,
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "same_at_head": false,
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-support-certificates/pinned-homogeneous-identities.json",
+      "same_at_head": false,
+      "sha256": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018"
+    }
+  ]
+}

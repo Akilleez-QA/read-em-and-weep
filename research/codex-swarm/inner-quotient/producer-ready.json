@@ -1,0 +1,28 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "QH01",
+  "ready_for_independent_review": true,
+  "physical_execution_admitted": false,
+  "files": {
+    "README.md": "0ed34c36c87d437f12f7605f00555c873b351c2a30c4c7bdbde7252c169b18f5",
+    "quotient.py": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91",
+    "source-pins.json": "bda2226ce1c4154b3c304da3ce13a98e35985bd9d66f343c45c85973ac6aecce",
+    "test_quotient.py": "97e5f68f3508969a672242449c289c42a552f18664b9866f948d8c2fc8be0ae3"
+  },
+  "validation": {
+    "synthetic_controls": 7,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "scope": "generic bounded partition coefficient lowering plus unexecuted actual N14 metadata; no physical catalog coefficients",
+  "open_obligations": [
+    "actual physical source/frame identification",
+    "actual complete owner fibers",
+    "physical execution admission and cost certificate"
+  ],
+  "note": "Hashes identify review inputs only; no admission capability."
+}

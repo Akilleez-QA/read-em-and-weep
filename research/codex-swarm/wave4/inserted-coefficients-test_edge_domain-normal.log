@@ -1,0 +1,10 @@
+test_raw_reevaluation_counterexample (__main__.EdgeDomainControls.test_raw_reevaluation_counterexample) ... ok
+test_repeated_common_edge_must_be_rejected_even_distinct_occurrences (__main__.EdgeDomainControls.test_repeated_common_edge_must_be_rejected_even_distinct_occurrences) ... ok
+test_reversed_common_edge_must_be_rejected (__main__.EdgeDomainControls.test_reversed_common_edge_must_be_rejected) ... ok
+test_same_physical_vertex_different_standard_tags_is_valid_common_edge (__main__.EdgeDomainControls.test_same_physical_vertex_different_standard_tags_is_valid_common_edge) ... ok
+test_valid_increasing_edge_complete_numerator (__main__.EdgeDomainControls.test_valid_increasing_edge_complete_numerator) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

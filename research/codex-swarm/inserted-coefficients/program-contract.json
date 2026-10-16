@@ -1,0 +1,58 @@
+{
+  "schema": "inserted-source-coefficient-program-v1",
+  "source": {
+    "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+    "path": "research/codex-swarm/whole-source-clearing/source-integration.json",
+    "sha256": "a7070e531edd2d034c7ddac8899cf4fcc7e880d4bb3adf5d0d37c8abb7b86a4c",
+    "nodes": 153,
+    "root": 152
+  },
+  "F34_raw_transfer": {
+    "commit": "02d0e727ffb95dfd9281906cc284c56e8bffd018",
+    "path": "research/hm/null-source-integration/complementary-pair/PROOF.md",
+    "sha256": "edf2efafdb0f1891af0c9adf02a133e683633466686813e0f8aba48f85abe6bc",
+    "input_slot_permutation": false,
+    "F12_sorted_cochain_identity": false
+  },
+  "finite_degree_uniform": {
+    "F12": [
+      217,
+      217,
+      210,
+      210
+    ],
+    "F34": [
+      210,
+      210,
+      217,
+      217
+    ]
+  },
+  "source_carrier_orders": [
+    5,
+    6,
+    5
+  ],
+  "clearing_carrier_orders": [
+    14,
+    14,
+    14
+  ],
+  "padding_orders": [
+    9,
+    8,
+    9
+  ],
+  "physical_coefficients_executed": false,
+  "physical_admission": false,
+  "homogeneous_frame_proved_here": false,
+  "historical_source_order_equivalence": false,
+  "external_capabilities": [
+    "complete finite owner fibers",
+    "finite Qhat coefficient streams with complete support enclosure",
+    "whole-coefficient extension to entire standard target",
+    "owned Ca/Cb finite polynomials",
+    "complete standard B endpoint from STD01"
+  ],
+  "source_gate": "only synthetic mode is executable; no physical capability issued"
+}

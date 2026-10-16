@@ -1,0 +1,24 @@
+{
+  "schema": "standard-coefficients-producer-handoff-v1",
+  "role": "producer only; independent reviewer files excluded",
+  "scope": "STD01 complete executable standard B on bounded synthetic inputs",
+  "physical_source_evaluated": false,
+  "physical_admission": false,
+  "tests": {
+    "command": "python -B run_controls.py",
+    "normal": 12,
+    "optimized": 12
+  },
+  "files": {
+    "standard.py": "bd9c9a77d2e366a92e265406727bd26ba05c4b15680df384d16f6b1c074ad2fd",
+    "test_standard.py": "7c9ea5edc7b85a8377b377a1f580604ee01ad050a1d4721597575dd4f42b897e",
+    "run_controls.py": "7e828c438c960607cfe15ba914828552630a4b8d1ff10690637411075bc0d9bd",
+    "README.md": "cc2a5ba9b70049017374caabb10f3a0b16e55c8d6bbba66283b4dbbc2403f7d3",
+    "proof.md": "6e12f4541e15fe7c1ee7d67669d76b950a246aceb8f6cd9e5a18e5eb8b226b89",
+    "source-pins.json": "fc6b0d964dd6e6f0fe3bb7b794e5484ecf0c10c0efc417b250676d2976c9f08e",
+    "contract.json": "0508543ef38646e18b956e115c39d2ae84489ceaf0bbd40122c084ca49e4f013",
+    "controls-receipt.json": "b97ee8914851124f624d188310f53182fe71a0ce772e902b366e93415a3d5008",
+    "controls-normal.log": "b022ebefa9e9ea5c5d49f4742925e6e6c4b77150507ac5571c63ca4a1ff94898",
+    "controls-optimized.log": "d5005710a936d968c0bed6bc8825cffbc4a305382c694149d452ee4763bf7c92"
+  }
+}

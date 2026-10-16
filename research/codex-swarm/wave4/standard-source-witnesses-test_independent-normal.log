@@ -1,0 +1,10 @@
+test_all_candidate_hashes_never_prove_truth (__main__.Independent.test_all_candidate_hashes_never_prove_truth) ... ok
+test_all_standard_triples_extension_arithmetic (__main__.Independent.test_all_standard_triples_extension_arithmetic) ... ok
+test_immutable_proof_pin_authentication_only (__main__.Independent.test_immutable_proof_pin_authentication_only) ... ok
+test_source_scope_sign_and_full_owner_mutations (__main__.Independent.test_source_scope_sign_and_full_owner_mutations) ... ok
+test_uniform_degree_and_common_local_substitutes_fail (__main__.Independent.test_uniform_degree_and_common_local_substitutes_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.306s
+
+OK

@@ -1,0 +1,12 @@
+test_all_finite_mask_zero_and_missing_primary (__main__.IndependentControls.test_all_finite_mask_zero_and_missing_primary) ... ok
+test_first_hit_rational_polynomial_all_coefficients (__main__.IndependentControls.test_first_hit_rational_polynomial_all_coefficients) ... ok
+test_full_owner_two_infinity_axes_and_complete_stream (__main__.IndependentControls.test_full_owner_two_infinity_axes_and_complete_stream) ... ok
+test_immutable_source_bytes_and_actual_metadata_refusals (__main__.IndependentControls.test_immutable_source_bytes_and_actual_metadata_refusals) ... ok
+test_primary_and_auxiliary_N2_inclusive_endpoints (__main__.IndependentControls.test_primary_and_auxiliary_N2_inclusive_endpoints) ... ok
+test_shared_aggregate_budget_never_yields_partial_value (__main__.IndependentControls.test_shared_aggregate_budget_never_yields_partial_value) ... ok
+test_stream_oversize_raises_before_any_coefficient (__main__.IndependentControls.test_stream_oversize_raises_before_any_coefficient) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.028s
+
+OK

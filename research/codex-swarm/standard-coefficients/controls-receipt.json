@@ -1,0 +1,41 @@
+{
+  "schema": "standard-coefficients-controls-v1",
+  "hard_address_space_bytes": 536870912,
+  "hard_cpu_seconds": 59,
+  "parent_wall_timeout_seconds": 60,
+  "scope": "bounded artificial cochains, polynomials, and owners only",
+  "physical_source_evaluated": false,
+  "runs": [
+    {
+      "success": true,
+      "tests": 12,
+      "seconds": 0.34796191200075555,
+      "peak_rss_kib": 33516,
+      "optimized": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.3842505370012077,
+      "command": [
+        "python",
+        "-B",
+        "run_controls.py",
+        "--child"
+      ]
+    },
+    {
+      "success": true,
+      "tests": 12,
+      "seconds": 0.3606622100014647,
+      "peak_rss_kib": 33316,
+      "optimized": true,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.3970250130005297,
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "run_controls.py",
+        "--child"
+      ]
+    }
+  ]
+}

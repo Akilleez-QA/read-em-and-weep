@@ -1,0 +1,128 @@
+{
+  "schema": "whole-standard-source-witness-proposal-v1",
+  "owners": [
+    [
+      12,
+      [
+        "artificial-template",
+        0
+      ],
+      5,
+      0,
+      0
+    ],
+    [
+      12,
+      [
+        "artificial-template",
+        1
+      ],
+      0,
+      3,
+      8
+    ],
+    [
+      12,
+      [
+        "artificial-template",
+        2
+      ],
+      4,
+      15,
+      12
+    ]
+  ],
+  "pair": [
+    0,
+    1
+  ],
+  "target_standard_tags": [
+    0,
+    8,
+    12
+  ],
+  "source_sorted_owners": [
+    [
+      12,
+      [
+        "artificial-template",
+        0
+      ],
+      5,
+      0,
+      0
+    ],
+    [
+      12,
+      [
+        "artificial-template",
+        1
+      ],
+      0,
+      3,
+      8
+    ],
+    [
+      12,
+      [
+        "artificial-template",
+        2
+      ],
+      4,
+      15,
+      12
+    ]
+  ],
+  "source_sorting_sign": 1,
+  "source_order": "auxiliary5-first, primary0..4, numeric-low-bit-mask, high-bit-standard-tag",
+  "numerator_scope": "whole_actual_F=b-tr(C)/2",
+  "numerator_degree": [
+    201,
+    201,
+    196,
+    196
+  ],
+  "divisor_degrees": [
+    [
+      57,
+      57,
+      56,
+      56
+    ],
+    [
+      73,
+      73,
+      70,
+      70
+    ],
+    [
+      73,
+      73,
+      70,
+      70
+    ]
+  ],
+  "extension_scope": "whole_coefficient_on_standard_target",
+  "obligations": {
+    "actual_homogeneous_P_identity": {
+      "status": "unbound",
+      "candidate_proof_sha256": null
+    },
+    "fixed_partition_Qhat_identity": {
+      "status": "unbound",
+      "candidate_proof_sha256": null
+    },
+    "fresh_source_order_and_frame_identity": {
+      "status": "unbound",
+      "candidate_proof_sha256": null
+    },
+    "old_scalar_exactness_and_domain_identity": {
+      "status": "unbound",
+      "candidate_proof_sha256": null
+    }
+  },
+  "source_faithful_oracle_identity_accepted": false,
+  "physical_execution_authorized": false,
+  "actual_source_evaluated": false,
+  "admitted": false
+}

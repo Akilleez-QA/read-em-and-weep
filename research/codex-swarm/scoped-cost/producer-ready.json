@@ -1,0 +1,21 @@
+{
+  "execution_release": false,
+  "files_sha256": {
+    "PROOF.md": "c564f4a1f2e817dd57336f78de33c774cc56bd5ac0e0341d971a4ac5cc15b96b",
+    "README.md": "7634625580bdf9f8ed1a5bed652b08a4e962d3091ad0091d8e58ee0aa083a7c1",
+    "adapter-grammar.json": "31de38df6ff9ea93599c98af81090fc54801cd8886702b4d09aea004357fa243",
+    "adapter.py": "9b49ae8b811b0460d951fdfa404fa7bab505b668d7d83c004d8b19e33dad6488",
+    "checks-receipt.json": "bd192fb20c115773fcef06bbdc2279cfde79734252ef76e20ad9f2d0cf7db298",
+    "cost-report.json": "3a46d2acd0c9a8a09fff1d4c21c3f8f234a478aada0a8e53dd238310a33c4157",
+    "source-pins.json": "abcc7027eb3102a16ba047be95c856015a96fc7a9185a62f4639d0056421740e",
+    "test_producer.py": "8f9f7f4f35b29e4528b3f0b3a074868f462ca086dcc4d05c252746ea48abff49"
+  },
+  "independent_review": "pending root",
+  "physical_source_evaluated": false,
+  "producer": "CO02",
+  "reviewer_files_reserved": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "schema": "co02-producer-ready-v1"
+}

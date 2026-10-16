@@ -1,0 +1,27 @@
+{
+  "schema": "standard-source-witnesses-producer-handoff-v1",
+  "role": "SW01 producer only; reserved independent reviewer files excluded",
+  "physical_source_evaluated": false,
+  "physical_identity_accepted": false,
+  "physical_execution_authorized": false,
+  "tests": {
+    "command": "python -B run_controls.py",
+    "normal": 8,
+    "optimized": 8
+  },
+  "files": {
+    "witnesses.py": "1ffbfed5d8d1876ef4d1daac2b5eee9cf033ee2f38de2f549979d990d1325cde",
+    "test_witnesses.py": "422fcf20bfae1031796b9fa8a060d80410303dc4b0ff42d6b7b75f8e6ee057ea",
+    "run_controls.py": "4b98158a3f4ab68561d1270de1126fd9517be125b18eba7e0c382010831ab314",
+    "build_handoff.py": "03c90b5b51eb6d6ddb359f434ef34b94804cff0b8b3c02f057b256cf372fb803",
+    "PROOF.md": "7c4a865dda47ff7a91c64969f0b101c4c737d46645e8b34bc3064d65848ee7c9",
+    "README.md": "69414fd8744c7f1ffa8bc0ba50f0e3ad661ba87f46429a235c096158e881bb9e",
+    "witness-schema.json": "8043c0ebe51444a3c411a7b0437dad3943be0e30112b14165ed045315ef618d4",
+    "witness-template.json": "9c4ee3f3954f08e28949e0798fd3492139b6131d8074672953c3b8891e6ecde8",
+    "source-pins.json": "e8f32e2bbc0076bc977132bcd4e7b61223229239499165719feb76c2674ff402",
+    "gap-registry.json": "fdb67f35755fe15d22086242a4591835e13ea125f0ab9faa4835faf8db17755d",
+    "controls-receipt.json": "2567f11318c2f12163291381434304006b1816f10232894cd1d4a207def7ebe3",
+    "controls-normal.log": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf",
+    "controls-optimized.log": "e22026028f10eeb01ea9b9164c3a60e8a0d5ac77267cd1dc31b01ecbb1b6eabf"
+  }
+}

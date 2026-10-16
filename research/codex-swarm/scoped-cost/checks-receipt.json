@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": {
+    "adapter-grammar.json": "31de38df6ff9ea93599c98af81090fc54801cd8886702b4d09aea004357fa243",
+    "cost-report.json": "3a46d2acd0c9a8a09fff1d4c21c3f8f234a478aada0a8e53dd238310a33c4157"
+  },
+  "execution_release": false,
+  "native_producer_ready_markers_observed": {
+    "inserted-coefficients": false,
+    "physical-homogenization": false,
+    "standard-coefficients": false
+  },
+  "normal_optimized_artifacts_identical": true,
+  "physical_source_evaluated": false,
+  "saved_artifact_exact_rebuild_validation": "pass",
+  "schema": "co02-producer-checks-v1",
+  "stdlib_unittest_cases_normal": 8,
+  "stdlib_unittest_cases_optimized": 8
+}

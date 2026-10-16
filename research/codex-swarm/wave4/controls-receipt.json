@@ -1,0 +1,241 @@
+{
+  "execution_release": false,
+  "lanes": [
+    {
+      "lane": "physical-homogenization",
+      "log": "physical-homogenization-test_frames-normal.log",
+      "log_sha256": "6a6bc5e0e36b871563fc60a2f1741f46687a647b82cd0e7844083bf2b3433159",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.102,
+      "testfile": "test_frames.py"
+    },
+    {
+      "lane": "physical-homogenization",
+      "log": "physical-homogenization-test_frames-optimized.log",
+      "log_sha256": "d36cbb87b4586c4be44f10e0ae7f54bb953872c685e725b9f4669571c3dc5ec2",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.102,
+      "testfile": "test_frames.py"
+    },
+    {
+      "lane": "physical-homogenization",
+      "log": "physical-homogenization-test_independent-normal.log",
+      "log_sha256": "35174e83384f7059aa63be70f944ec46b03a79456c016aac7c0fa7c7d5054b0a",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.223,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "physical-homogenization",
+      "log": "physical-homogenization-test_independent-optimized.log",
+      "log_sha256": "2c3ee1df46b12e777d306fada08aa2002478dc6443122dd97ece7a39bdde65c4",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.221,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "standard-coefficients",
+      "log": "standard-coefficients-test_independent-normal.log",
+      "log_sha256": "04733b8573faeb0f4f4fbdbbd54bcdb1e74ce379c5a2c394054d5f2e7d3894fe",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.258,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "standard-coefficients",
+      "log": "standard-coefficients-test_independent-optimized.log",
+      "log_sha256": "5bff508c2ab9c6716d876440a1c300fd7cc4dfd715510fc9f7a7c747e679b086",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.253,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "standard-coefficients",
+      "log": "standard-coefficients-test_standard-normal.log",
+      "log_sha256": "7da87f8c0f7e1e50e812ea3c45f15309b1dea347d915620a5ce08b4d1ab94079",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.391,
+      "testfile": "test_standard.py"
+    },
+    {
+      "lane": "standard-coefficients",
+      "log": "standard-coefficients-test_standard-optimized.log",
+      "log_sha256": "6e9a747efd54c6a6c9924decf52f309cec20cb9c7c899156374a7a6ab621237e",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.392,
+      "testfile": "test_standard.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_edge_domain-normal.log",
+      "log_sha256": "bfc500f728977d92797f3e2de8d890190a3ef802e012446457f9d0dc78933589",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.041,
+      "testfile": "test_edge_domain.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_edge_domain-optimized.log",
+      "log_sha256": "bfc500f728977d92797f3e2de8d890190a3ef802e012446457f9d0dc78933589",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.039,
+      "testfile": "test_edge_domain.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_independent-normal.log",
+      "log_sha256": "fd18141e9c13a519ed812c08dbba89726e7631be1929a8c72ffddbb08ba69a47",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.567,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_independent-optimized.log",
+      "log_sha256": "af37738e1289e26e114062567502f21884d9e85909082a7d4ab3b28ffb556e64",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.556,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_inserted-normal.log",
+      "log_sha256": "b7eaf7a7ce00b641fc43978f860ceea3adbfe74f91374d43ae668dae2b17a81c",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.066,
+      "testfile": "test_inserted.py"
+    },
+    {
+      "lane": "inserted-coefficients",
+      "log": "inserted-coefficients-test_inserted-optimized.log",
+      "log_sha256": "29f11b1ba68eeefe369c4d37f1855ffea796458513696ebbe34bdab89704d61d",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.067,
+      "testfile": "test_inserted.py"
+    },
+    {
+      "lane": "scoped-cost",
+      "log": "scoped-cost-test_independent-normal.log",
+      "log_sha256": "4e03aad61e051847e7075cca133593be76b650ffc395dfa1a0a3074c4c36bd17",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 1.474,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "scoped-cost",
+      "log": "scoped-cost-test_independent-optimized.log",
+      "log_sha256": "3181234c60a3661d6345830375d983443282290c81c3ce13c01c8746fefaaab1",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 1.491,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "scoped-cost",
+      "log": "scoped-cost-test_producer-normal.log",
+      "log_sha256": "32f2a719346862ecebe67b3d1975bdccb4a252f78d9311f245ad8d01b7d18b50",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.734,
+      "testfile": "test_producer.py"
+    },
+    {
+      "lane": "scoped-cost",
+      "log": "scoped-cost-test_producer-optimized.log",
+      "log_sha256": "3d9e3d917f81a93c993554a7768fd4e534a8106fb050d12a6f8296b91fe259e3",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.731,
+      "testfile": "test_producer.py"
+    },
+    {
+      "lane": "inner-quotient",
+      "log": "inner-quotient-test_independent-normal.log",
+      "log_sha256": "7e57227e7dd464aeec5b168100b61be12775f7e38b8e84d95d428dbfe3aef40d",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.071,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "inner-quotient",
+      "log": "inner-quotient-test_independent-optimized.log",
+      "log_sha256": "6239c9dbcb7144dfb0392cfc5539eb21faeeac02a46a689594749aca9469d5a7",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.071,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "inner-quotient",
+      "log": "inner-quotient-test_quotient-normal.log",
+      "log_sha256": "2b9f4a17e9da4aa9f6f4af4e2ad9edd2e85fd92591183dad4a50a086789395d8",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.051,
+      "testfile": "test_quotient.py"
+    },
+    {
+      "lane": "inner-quotient",
+      "log": "inner-quotient-test_quotient-optimized.log",
+      "log_sha256": "2b9f4a17e9da4aa9f6f4af4e2ad9edd2e85fd92591183dad4a50a086789395d8",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.052,
+      "testfile": "test_quotient.py"
+    },
+    {
+      "lane": "standard-source-witnesses",
+      "log": "standard-source-witnesses-test_independent-normal.log",
+      "log_sha256": "786f050db8448f83dd46875d1bfcb56881d8b0856c900b28e7e2b32b48c7da65",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.351,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "standard-source-witnesses",
+      "log": "standard-source-witnesses-test_independent-optimized.log",
+      "log_sha256": "f0eb6f45e756da44e7ac7141cf2956857a2a179db2afac4987cfea62c63cc1de",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.355,
+      "testfile": "test_independent.py"
+    },
+    {
+      "lane": "standard-source-witnesses",
+      "log": "standard-source-witnesses-test_witnesses-normal.log",
+      "log_sha256": "f6e3be147a4f308e1364c17d919d8569f7aa8644cb764bfdcc6033fc99069ed9",
+      "optimized": false,
+      "returncode": 0,
+      "seconds": 0.043,
+      "testfile": "test_witnesses.py"
+    },
+    {
+      "lane": "standard-source-witnesses",
+      "log": "standard-source-witnesses-test_witnesses-optimized.log",
+      "log_sha256": "09f38770baf9c57ede4dbd60f89a0c1b215968e0d7246bab21ded398fa1d65a3",
+      "optimized": true,
+      "returncode": 0,
+      "seconds": 0.042,
+      "testfile": "test_witnesses.py"
+    }
+  ],
+  "physical_source_evaluated": false,
+  "schema": "bounded-wave4-replay-v1"
+}
