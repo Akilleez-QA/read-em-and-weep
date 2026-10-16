@@ -20,7 +20,7 @@ import urllib.request
 HERE = Path(__file__).resolve().parent
 BASE = HERE.parent
 ROOT = BASE.parents[1]
-MARKER = '1e3bbefde892b3131986dc579ac592dfcbd6c2dab2253668e69396d199bc76be'
+MARKER = '3bb840e094487e88f9a8aae0f6e12aa1be103ac871ca9d21e588bc2763727b47'
 LIMIT = 768 * 1024 * 1024
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(HERE))
@@ -252,15 +252,17 @@ class Independent(unittest.TestCase):
             self.assertLessEqual(ex.counts['bit_height'],prediction['observed_bit_height_upper'])
         self.assertEqual(a.denominator.terms[-1][1],1)
 
-    def test_09_observed_exponent_height_counterexample(self):
-        # Known producer auxiliary defect, positively demonstrated in both modes.
+    def test_09_repaired_observed_exponent_height(self):
+        # Original 11 > 3 reproduction is immutable at b3c61eba2 and in the
+        # original report; this current regression checks the repaired contract.
         ex=RF.Execution();p=poly(ex,[((1024,0,0,0),1)])
         predicted=RB.rf_poly_bound('add',dict(terms=1,degree=1024,bits=1),dict(terms=0,degree=0,bits=1))
         result=p+ex.poly()
         self.assertEqual(result.terms,p.terms)
-        self.assertEqual(predicted['observed_bit_height_upper'],3)
+        self.assertEqual(predicted['bound']['bits'],3)
+        self.assertEqual(predicted['observed_bit_height_upper'],11)
         self.assertEqual(ex.counts['bit_height'],11)
-        self.assertGreater(ex.counts['bit_height'],predicted['observed_bit_height_upper'])
+        self.assertLessEqual(ex.counts['bit_height'],predicted['observed_bit_height_upper'])
         # This does not refute the common B envelope, which bounds degree too.
         self.assertLess(11,2**20)
 
@@ -341,6 +343,6 @@ def main():
         require(snapshot()==before,'producer changed during '+label)
         print(json.dumps(dict(suite=label,returncode=done.returncode,wall_seconds=round(time.monotonic()-start,3),address_space_bytes=LIMIT,cpu_seconds=59,wall_limit_seconds=60,marker=MARKER)),flush=True)
         require(done.returncode==0,'failed '+label)
-    print('AC-R: independent 13 + separate producer 10 cases per mode; frozen producer unchanged.',flush=True)
+    print('AC-R: independent 13 + separate producer 11 cases per mode; frozen producer unchanged.',flush=True)
 
 if __name__=='__main__':main()
