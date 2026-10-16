@@ -1,0 +1,22 @@
+{
+  "baseline_commit": "d37436ee72fcb8bc93ce9b1ef7ff4febeed0c789",
+  "height_repair_commit": "e844d047045847f1406003883cc943ce48768d8a",
+  "binding_repair_reviewed_snapshot": "a807e98532a0b4a7bfeef0e086ce414328bdeaeb",
+  "followup_date_utc": "2026-10-16T11:05:00Z",
+  "scope": "source metadata and tiny artificial RF arithmetic only",
+  "physical_source_or_fiber_execution": false,
+  "files_sha256": {
+    "cost-review.md": "e28db3dad1110c092c31be5227e0781f31cd530ef68bc77683f366501f029a74",
+    "test_cost_review.py": "118f28fae5d075c7fc667d49c85f9252e82c5d6dc9363f9b0f21a00348f98d3c",
+    "check_transitive_binding.py": "f1cb49185a16a883ffea33c5471f0104c9bab35571ab87c075976de37e4a07bc",
+    "test_height_repair.py": "ef374ee5e866e6097e1737964cca6c46e91c97b8e6de68f8b3bcbc892afedd2d",
+    "cost-controls-normal.log": "6e7c701061ffc8054dc2668c8f2882968950b7018c97ddaabd5a6a24ec75c23d",
+    "cost-controls-optimized.log": "f10ca8e8bf9e49e9870cae5248c8da14bbfab9ba707233384028b65e77bbadbd",
+    "transitive-binding-control.log": "6c5685259d45e6d8c71e147a80da86608d8bb94165c37693e09afa54a804ad4d",
+    "height-repair-normal.log": "ab78d8f8cdfe31dd59e9d90f772ba15ec21b105cc9e1d22b78c60ea73dafdf11",
+    "height-repair-optimized.log": "e50186721e3b54bf2f2ebb787a61dec963a4697f2b6f7d96f7cfabfaad1f083c",
+    "cost-binding-followup-2026-10-16.md": "0868e39cf3a4f21a34fff98565c74794f4c46800eed4d05b6410dae35f144d1a",
+    "binding-repair-normal.log": "749b0146f4be90420d83fef84a40c4af809f18caa1fb21a0a47b33461cf9b4c0",
+    "binding-repair-optimized.log": "749b0146f4be90420d83fef84a40c4af809f18caa1fb21a0a47b33461cf9b4c0"
+  }
+}
