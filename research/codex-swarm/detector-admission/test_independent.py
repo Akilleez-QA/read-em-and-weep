@@ -20,7 +20,7 @@ import urllib.request
 HERE = Path(__file__).resolve().parent
 BASE = HERE.parent
 ROOT = BASE.parents[1]
-MARKER = '3bb840e094487e88f9a8aae0f6e12aa1be103ac871ca9d21e588bc2763727b47'
+MARKER = 'b4ab5a47e4b3a64d11e674ce7a163ff959b16f0c3ad22216541e43a23a8e9b6b'
 LIMIT = 768 * 1024 * 1024
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(HERE))
@@ -343,6 +343,6 @@ def main():
         require(snapshot()==before,'producer changed during '+label)
         print(json.dumps(dict(suite=label,returncode=done.returncode,wall_seconds=round(time.monotonic()-start,3),address_space_bytes=LIMIT,cpu_seconds=59,wall_limit_seconds=60,marker=MARKER)),flush=True)
         require(done.returncode==0,'failed '+label)
-    print('AC-R: independent 13 + separate producer 11 cases per mode; frozen producer unchanged.',flush=True)
+    print('AC-R: independent 13 + separate producer 12 cases per mode; frozen producer unchanged.',flush=True)
 
 if __name__=='__main__':main()
