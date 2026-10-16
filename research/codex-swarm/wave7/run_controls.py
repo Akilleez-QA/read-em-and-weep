@@ -150,7 +150,7 @@ def main():
                 for optimized in(False,True):
                     command=[sys.executable,'-B']+(['-O']if optimized else[])
                     if external is None:
-                        command += [name]+(['--child']if lane in('exact-curve-field','source-boundary-analysis','detector-realization','detector-admission')and name=='test_independent.py'else[])+['-v']
+                        command += [name]+(['--child']if (lane in('exact-curve-field','source-boundary-analysis','detector-realization','detector-admission')and name=='test_independent.py')or(lane=='detector-admission'and name=='test_height_followup.py')else[])+['-v']
                     else:
                         ref=external['commit']+':'+external['path']
                         raw=subprocess.check_output(['git','show',ref],cwd=ROOT,timeout=10)

@@ -1,0 +1,7 @@
+test_poisoned_receiver_stays_closed (__main__.FactoryOwnershipRegression.test_poisoned_receiver_stays_closed) ... ok
+test_reject_foreign_polynomial_pair (__main__.FactoryOwnershipRegression.test_reject_foreign_polynomial_pair) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK

@@ -1,0 +1,13 @@
+test_B_is_an_alternating_row_End_edge_cochain (__main__.Controls.test_B_is_an_alternating_row_End_edge_cochain) ... ok
+test_E_delta_f_equals_delta_explicit_B_all24_ordered_triples (__main__.Controls.test_E_delta_f_equals_delta_explicit_B_all24_ordered_triples) ... ok
+test_actual_current_cocycle_and_noncommuting_transport_on_toy_data (__main__.Controls.test_actual_current_cocycle_and_noncommuting_transport_on_toy_data) ... ok
+test_first_order_exactness_does_not_force_global_second_class_zero (__main__.Controls.test_first_order_exactness_does_not_force_global_second_class_zero) ... ok
+test_full_five_term_variation_retains_ten_baseline_and_Fk_terms (__main__.Controls.test_full_five_term_variation_retains_ten_baseline_and_Fk_terms) ... ok
+test_inexact_or_non_SL2_artificial_input_rejected (__main__.Controls.test_inexact_or_non_SL2_artificial_input_rejected) ... ok
+test_missing_endpoint_or_wrong_transport_fails (__main__.Controls.test_missing_endpoint_or_wrong_transport_fails) ... ok
+test_row_boundary_has_explicit_total_lift_primitive (__main__.Controls.test_row_boundary_has_explicit_total_lift_primitive) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.398s
+
+OK

@@ -80,3 +80,17 @@ only changes to existing test_independent.py are its frozen MARKER anchor and
 footer producer-count11→12. Its13 mathematical controls were not rewritten or
 rerun by this narrow follow-up; the final bounded Wave7 runner owns aggregate
 replay timing. New evidence lives in this report and test_binding_followup.py.
+
+## Dispatch-only runner addendum
+
+Accepted the root/cohomology runner's single-line dispatch correction. New runner
+SHA256: `8f73ec1682aa997acbc78f92451811d3684c97c7b2e1ad024b32cbeebbf21309`. The earlier reviewed `b9dff82e5255dc2e614755657f85a88c9b208af59c000da5558c11759739cde0` hash above remains historical. Exact byte comparison
+finds only line153 changed, with line count unchanged: the existing
+independent-test --child predicate is parenthesized and ORed with the exact
+`detector-admission/test_height_followup.py` lane/file pair. All authentication,
+dependency, limits and execution-body logic is unchanged. The height follow-up's
+--child branch runs its six tests once rather than recursively supervising both
+Python modes. The top-level runner still supplies normal/-O independently.
+No controls were rerun for this dispatch-only review; root's final bounded
+replay must confirm six height cases per mode. This does not change the AC
+mathematical acceptance or physical BLOCKED_ROUTE status.

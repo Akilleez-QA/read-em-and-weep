@@ -1,0 +1,9 @@
+test_current_producer_bytes (__main__.ContextFollowup.test_current_producer_bytes) ... ok
+test_foreign_arguments_reject_before_any_meter_charge (__main__.ContextFollowup.test_foreign_arguments_reject_before_any_meter_charge) ... ok
+test_poisoned_receiver_rejects_first_without_charges (__main__.ContextFollowup.test_poisoned_receiver_rejects_first_without_charges) ... ok
+test_same_context_constructor_remains_valid (__main__.ContextFollowup.test_same_context_constructor_remains_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
