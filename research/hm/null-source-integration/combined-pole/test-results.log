@@ -1,0 +1,25 @@
+test_coupled_reversal_bounds (test_certificate.Predicates.test_coupled_reversal_bounds) ... ok
+test_full_geometric_duplicate_vanishes (test_certificate.Predicates.test_full_geometric_duplicate_vanishes) ... ok
+test_h_boundary_and_shift (test_certificate.Predicates.test_h_boundary_and_shift) ... ok
+test_no_absent_derivative_pole (test_certificate.Predicates.test_no_absent_derivative_pole) ... ok
+test_no_absent_standard_denominator (test_certificate.Predicates.test_no_absent_standard_denominator) ... ok
+test_prism_repeated_source_is_zero (test_certificate.Predicates.test_prism_repeated_source_is_zero) ... ok
+test_prism_tag_and_sign (test_certificate.Predicates.test_prism_tag_and_sign) ... ok
+test_raw_reversed_output_edge_rejected (test_certificate.Predicates.test_raw_reversed_output_edge_rejected) ... ok
+test_recipe_keeps_full_sum_and_suffix_padding (test_certificate.Predicates.test_recipe_keeps_full_sum_and_suffix_padding) ... ok
+test_reject_bool_labels (test_certificate.Predicates.test_reject_bool_labels) ... ok
+test_source_pullback_zero_across_standard_tags (test_certificate.Predicates.test_source_pullback_zero_across_standard_tags) ... ok
+test_standard_repetition_does_not_kill_common_edge (test_certificate.Predicates.test_standard_repetition_does_not_kill_common_edge) ... ok
+test_structural_filters_not_nonzero_claim (test_certificate.Predicates.test_structural_filters_not_nonzero_claim) ... ok
+test_support_numbers (test_certificate.Predicates.test_support_numbers) ... ok
+test_wrong_owner_rejected (test_certificate.Predicates.test_wrong_owner_rejected) ... ok
+test_combined_cancellation_then_derivative (test_certificate.UniversalAlgebra.test_combined_cancellation_then_derivative) ... ok
+test_exact_two_prism_plus_standard_numerator (test_certificate.UniversalAlgebra.test_exact_two_prism_plus_standard_numerator) ... ok
+test_frame_identity (test_certificate.UniversalAlgebra.test_frame_identity) ... ok
+test_radical_denominator_general_orders (test_certificate.UniversalAlgebra.test_radical_denominator_general_orders) ... ok
+test_raw_leibniz_terms_need_cancellation (test_certificate.UniversalAlgebra.test_raw_leibniz_terms_need_cancellation) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.938s
+
+OK
