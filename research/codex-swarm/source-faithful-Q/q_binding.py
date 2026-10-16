@@ -101,7 +101,8 @@ class ActualQBinding:
  """Descriptor factory; returned data are definitions, never admission tokens."""
  mode='physical'
  def __init__(self,repo=None):
-  if repo is not None:QH.authenticate_sources(repo)
+  canonical=Path(__file__).resolve().parents[3]
+  need(repo is None or Path(repo).resolve()==canonical,'only canonical workspace repository is supported')
   self.pins=authenticate()
  def describe(self,owner,pair=(0,1)):
   b=ActualQuotientBinding(owner,globals()['pair'](pair));out=dict(b.definition)

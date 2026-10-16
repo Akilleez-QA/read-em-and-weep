@@ -1,5 +1,6 @@
 """Coefficient-free actual metadata and explicit artificial coefficient controls."""
 import unittest,json
+from unittest.mock import patch
 from fractions import Fraction
 import q_binding as B
 
@@ -9,6 +10,14 @@ def toy():
  return B.QH.ArtificialCatalog([C(1)]*5,[C(3)]*5,C(5),[C(1),C(2),C(0),C(0),C(0)])
 
 class Controls(unittest.TestCase):
+ def test_canonical_repository_constraint_before_authentication(self):
+  canonical=B.Path(B.__file__).resolve().parents[3]
+  with patch.object(B,'authenticate',return_value={'synthetic_spy':True})as auth:
+   with self.assertRaises(ValueError):B.ActualQBinding(canonical.parent/'not-this-repository')
+   auth.assert_not_called()
+   self.assertEqual(B.ActualQBinding().pins,{'synthetic_spy':True})
+   self.assertEqual(B.ActualQBinding(canonical).pins,{'synthetic_spy':True})
+   self.assertEqual(auth.call_count,2)
  def test_actual_fixed_definition_and_owned_clearings(self):
   api=B.ActualQBinding();o=owner(5,5,9);d=api.describe(o,(2,3))
   self.assertEqual(d['owner'],o.data());self.assertEqual(d['parameters']['N'],14)

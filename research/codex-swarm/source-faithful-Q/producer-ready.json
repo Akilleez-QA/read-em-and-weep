@@ -3,14 +3,14 @@
   "producer": "QB01",
   "ready_for_independent_review": true,
   "files": {
-    "PROOF.md": "0ef7a3dc232e0933cca22b8c5b2e9be481cf2970d176fe0bb6a1d50b13c896a0",
-    "README.md": "b384c9d633b48c5336a8be6e9600758ff16a7a4637847c0eefcafbcc3d550612",
-    "q_binding.py": "b835d9b55985fd4ea3f77d10ac29c4db6ef63075074d58473001535f8e6579ce",
+    "PROOF.md": "79017fb0af0f32473d5a17c14ff80f6b0d22de62ca3868f9c6a76ea2c0bc4c06",
+    "README.md": "d14b4a6565833254f894964640b08632185b4ef66e0f0634f451535f2fbc6ff8",
+    "q_binding.py": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107",
     "source-pins.json": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d",
-    "test_binding.py": "083dd090a7c27bbbe3ede778dab83b22db3dc57f45052a77b0c1bf025ece5dca"
+    "test_binding.py": "d6bd2608d1ca84e5c221b151f27e1af806f8e8951a719768cf1d1b431968c55b"
   },
   "tests": {
-    "synthetic_controls": 6,
+    "synthetic_controls": 7,
     "normal": "PASS",
     "optimized": "PASS"
   },
@@ -21,5 +21,6 @@
     "review-independent.md"
   ],
   "scope": "coefficient-free constructor semantic binding for actual fixed N14 Qhat and owned C; descriptors never grant admission",
-  "aggregate_resource_certificate": false
+  "aggregate_resource_certificate": false,
+  "post_review_delta": "Canonical repository constraint: None or resolved module repository only; rejected before authentication. Historical independent review files unchanged."
 }

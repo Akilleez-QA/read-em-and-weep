@@ -53,3 +53,5 @@ ActualQBinding(repo=None).describe(owner,pair) returns definition metadata: fixe
 ArtificialBinding accepts only the explicit ArtificialCatalog and QH's small N1/N2 path. Its coefficient and finite-stream methods are artificial controls, with exact owner/pair matching. It cannot authenticate actual HM data. Actual source fibers are neither constructed nor traversed.
 
 QH budgets are per Ring: a descriptor constructs a quotient Ring and separate finite/local C Rings. Passing its local caps does not establish an aggregate cost or peak-memory certificate across descriptors, fibers or workers. Descriptor consumers must account for every construction and retained AST in a shared prospective schedule before physical execution. No such release is supplied here.
+
+Repository constraint: `repo` is either None or a path resolving to the canonical workspace repository containing this module. Other paths are rejected before any authentication. All construction and description therefore consume the same canonical source repository; alternate repository loading is unsupported.

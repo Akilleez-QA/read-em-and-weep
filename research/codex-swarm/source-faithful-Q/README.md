@@ -9,4 +9,6 @@ Replay from the repository root:
     python -B -m unittest discover -s research/codex-swarm/source-faithful-Q -p test_binding.py -v
     python -B -O -m unittest discover -s research/codex-swarm/source-faithful-Q -p test_binding.py
 
-Six controls pass in each mode. They compare all16 actual chart expression constructors without coefficient arithmetic, check full-owner/mask/pair/C/frame metadata, reject physical calls including structural zeros, exercise an artificial coefficient18, reject owner/pair/catalog changes, and check formal homogeneous monomial frame laws. Independent reviewer files `test_independent.py` and `review-independent.md` are reserved.
+Seven controls pass in each mode. They compare all16 actual chart expression constructors without coefficient arithmetic, check full-owner/mask/pair/C/frame metadata, reject physical calls including structural zeros, exercise an artificial coefficient18, reject owner/pair/catalog changes, and check formal homogeneous monomial frame laws. Independent reviewer files `test_independent.py` and `review-independent.md` are reserved.
+
+Repository constraint: `repo` is either None or a path resolving to the canonical workspace repository containing this module. Other paths are rejected before any authentication. All construction and description therefore consume the same canonical source repository; alternate repository loading is unsupported.
