@@ -1,0 +1,28 @@
+{
+  "centered_dual_weight_identities_checked": true,
+  "full_S4_symmetry_of_omitted_weights_checked": true,
+  "input_sha256": {
+    "selection.json": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+    "weighted-requests.json": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+  },
+  "model_reconstructed": false,
+  "omitted_ids": [
+    30,
+    31
+  ],
+  "output_sha256": "707663b97c3a8289d6531172a1c509e54ceccb3185a6e07f4f28153fbc119375",
+  "physical_source_evaluated": false,
+  "previous_source_experiment_repeated": false,
+  "rank_recomputed": false,
+  "retained_counts": {
+    "distinct_map_exponent_pairs": 116,
+    "listed_weighted_terms": 122,
+    "requests": 30
+  },
+  "retained_ids": [
+    0,
+    29
+  ],
+  "source_commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+  "status": "static_request_and_dual_weight_controls_pass"
+}
