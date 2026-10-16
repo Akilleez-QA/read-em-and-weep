@@ -1,5 +1,20 @@
 # INS01 output-edge order API regression
 
+## Fix verification
+
+Accepted at immutable commit 9cd60c44f1cc3a732b58dcf1575be5c2539f8f17. The unchanged test_edge_order.py passes in both normal and optimized Python: the reversed edge now raises the intended ValueError. Three additional constructor-only synthetic controls in test_guard_scope.py pass in both modes. They confirm that equal physical labels with different increasing standard tags remain accepted, repeated common labels with different occurrences are rejected, and auxiliary-first ordering is used. No physical source or coefficient evaluation is involved.
+
+With both test files copied to the repository root, reproduce against the fixed commit:
+
+    PYTHONPATH=research/codex-swarm/inserted-coefficients python test_edge_order.py -v
+    PYTHONPATH=research/codex-swarm/inserted-coefficients python -O test_edge_order.py -v
+    PYTHONPATH=research/codex-swarm/inserted-coefficients python test_guard_scope.py -v
+    PYTHONPATH=research/codex-swarm/inserted-coefficients python -O test_guard_scope.py -v
+
+The subsequent commit 7d73d540981a3a152d807c39844ec63bc9913b89 changes overview/status/readback documentation only; its INS implementation is unchanged. The constructor still intentionally accepts only increasing nonrepeated common edges: callers must implement alternating extension of the complete result outside this raw API. Other physical-input, extension, support and admission obligations remain separate.
+
+## Original finding
+
 Reviewed repository: https://github.com/Akilleez-QA/read-em-and-weep
 Initial immutable commit: bc34cfc960095326ba6eb87de215810136c2d954
 Rechecked against immutable commit: 691c9b1d5b268186c490995c52a886cdc9eebf0b (same failure).
