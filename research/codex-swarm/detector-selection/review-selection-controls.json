@@ -1,0 +1,12 @@
+{
+  "status": "focused_controls_pass",
+  "rejected": [
+    "trace-orientation",
+    "duplicate-selected-label",
+    "out-of-domain-monomial",
+    "augmented-rank-tamper",
+    "matrix-binding-tamper"
+  ],
+  "noncycle_integer_control": true,
+  "physical_source_evaluated": false
+}
