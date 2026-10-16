@@ -67,7 +67,8 @@ def ceil_log2(n):return max(0,(max(1,n)-1).bit_length())
 
 def rf_poly_bound(kind,left,right=None):
  """Executable RF01 Poly bound/counter recurrence, metadata only.
- Bounds are terms, uniform per-coordinate degree and Fraction bit height.
+ Bounds are terms, uniform per-coordinate degree and coefficient Fraction bit height.
+ The aggregate observed height also includes input/output exponent integers.
  Counts include constructor coefficient adds and denominator normalizations
  when composed below. No cost is compared to an unrelated physical metric.
  """
@@ -85,7 +86,7 @@ def rf_poly_bound(kind,left,right=None):
  elif kind=='neg':
   degree=d;t=m;height=h+1;products=m;steps=4*m+1;storage=2*m+1
  else:raise ValueError('RF polynomial operation')
- return {'bound':{'terms':t,'degree':degree,'bits':height},'counter_upper':{'products':products,'steps':steps,'storage_events':storage},'observed_bit_height_upper':height}
+ return {'bound':{'terms':t,'degree':degree,'bits':height},'counter_upper':{'products':products,'steps':steps,'storage_events':storage},'observed_bit_height_upper':max(1,height,h,g,d.bit_length(),e.bit_length(),degree.bit_length())}
 
 
 def rf_rational_bound(kind,left,right=None):

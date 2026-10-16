@@ -83,6 +83,25 @@ class Controls(unittest.TestCase):
    for key,limit in predicted['counter_upper'].items():self.assertLessEqual(ex.counts[key]-before[key],limit,key)
    self.assertLessEqual(ex.counts['bit_height'],predicted['observed_bit_height_upper'])
    self.assertIsNone(predicted['live_byte_bound'])
+ def test_rf_observed_height_includes_high_degree_exponents(self):
+  import rf_bounds as R,importlib.util,sys
+  from pathlib import Path
+  path=Path(__file__).resolve().parents[1]/'exact-curve-field/field.py'
+  spec=importlib.util.spec_from_file_location('ac_rf_high_degree',path);F=importlib.util.module_from_spec(spec);sys.modules[spec.name]=F;spec.loader.exec_module(F)
+  left={'terms':1,'degree':1024,'bits':1};zero={'terms':0,'degree':0,'bits':1}
+  for kind in('add','mul','neg','partial'):
+   ex=F.Execution();a=ex.poly((((1024,0,0,0),1),));b=ex.constant(0)
+   predicted=R.rf_poly_bound(kind,left,zero if kind in('add','mul')else None)
+   value=a+b if kind=='add'else a*b if kind=='mul'else -a if kind=='neg'else a.partial(0)
+   self.assertGreaterEqual(ex.counts['bit_height'],11)
+   self.assertLessEqual(ex.counts['bit_height'],predicted['observed_bit_height_upper'])
+  # Composition preserves exponent observations, including zero outputs.
+  one={'terms':1,'degree':0,'bits':1};bound={'numerator':left,'denominator':one}
+  for kind in('add','mul','partial'):
+   ex=F.Execution();a=ex.rational(ex.poly((((1024,0,0,0),1),)))
+   predicted=R.rf_rational_bound(kind,bound,bound if kind!='partial'else None)
+   value=a+a if kind=='add'else a*a if kind=='mul'else a.partial(0)
+   self.assertLessEqual(ex.counts['bit_height'],predicted['observed_bit_height_upper'])
  def test_complete_actual_symbolic_envelope_without_unrolling(self):
   import whole_envelope as W
   e=W.build();d=e['definitions']
