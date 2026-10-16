@@ -2,7 +2,7 @@
 import argparse,hashlib,json,os,pathlib,resource,subprocess,sys,time
 HERE=pathlib.Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
-LANES=('source-faithful-P','source-faithful-Q','source-domain-application')
+LANES=('source-faithful-P','source-faithful-Q','source-domain-application','wave5')
 def limits():
  resource.setrlimit(resource.RLIMIT_AS,(768*1024**2,768*1024**2))
  resource.setrlimit(resource.RLIMIT_CPU,(59,59))
@@ -11,10 +11,13 @@ def main():
  out={'schema':'bounded-wave5-replay-v1','physical_source_evaluated':False,'execution_release':False,'lanes':[]}
  for lane in LANES:
   p=HERE.parent/lane
-  if not(p/'producer-ready.json').is_file():raise ValueError('producer not ready: '+lane)
-  marker=json.loads((p/'producer-ready.json').read_text())
-  hashes=marker.get('files_sha256',marker.get('producer_files_sha256',marker.get('files')))
-  if hashes is None:raise ValueError('unknown producer marker: '+lane)
+  if lane=='wave5':
+   hashes={'test_bundle_metadata.py':hashlib.sha256((p/'test_bundle_metadata.py').read_bytes()).hexdigest()}
+  else:
+   if not(p/'producer-ready.json').is_file():raise ValueError('producer not ready: '+lane)
+   marker=json.loads((p/'producer-ready.json').read_text())
+   hashes=marker.get('files_sha256',marker.get('producer_files_sha256',marker.get('files')))
+   if hashes is None:raise ValueError('unknown producer marker: '+lane)
   for name,digest in hashes.items():
    if hashlib.sha256((p/name).read_bytes()).hexdigest()!=digest:raise ValueError('producer hash mismatch: '+lane+'/'+name)
   for testfile in sorted(p.glob('test*.py')):

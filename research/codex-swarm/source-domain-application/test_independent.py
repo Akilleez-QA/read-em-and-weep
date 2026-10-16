@@ -20,8 +20,8 @@ import domain as D
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
 I = D.I
-MARKER_SHA = '85ce3c680d9def1203aeaac071b0b86868b0ee860cd934a4d94e94d1364886aa'
-PINS_SHA = 'af8e2dbdb8b4b307f79d6d8e08617422b199319942464e9373e47bde7c084d86'
+MARKER_SHA = '31135b2e17f41b67580b1639afafd654ef8e1b5dc4ab87a968a4363d0d3f2c47'
+PINS_SHA = '09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc'
 
 
 def digest(raw):

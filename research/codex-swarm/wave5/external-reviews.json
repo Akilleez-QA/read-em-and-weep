@@ -1,0 +1,76 @@
+{
+  "schema": "wave5-external-independent-review-pins-v1",
+  "files": [
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/p-binding-review/review-independent.md",
+      "git_blob": "88cead8dd332c831777d143501dfc22a6db15d50",
+      "sha256": "1d24554c904a87afe8ac5c853af4a6c5e81c7d6fa751b86475ff84a8a1554483",
+      "bytes": 7051,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/p-binding-review/test_independent.py",
+      "git_blob": "81ac35e4d667cdb2e2d1b000405a9603a36dd5e3",
+      "sha256": "9fab75b1fd2b5c15b1d26031da74fca54376076c3e927eb12f368c13213ed1a5",
+      "bytes": 5975,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/q-binding-review/review-independent.md",
+      "git_blob": "af8f8a436ea365cbcc76cc3bd4b39a07d71c1006",
+      "sha256": "1a3d3ef4bc58665e7d6f21a7b5eb5111a32572875303326daa256b2521727e20",
+      "bytes": 5655,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/q-binding-review/test_independent.py",
+      "git_blob": "990083d08f8f1248dd2d1da127ad7f8694ad158b",
+      "sha256": "499cb8b34a0a58e11228265753b87d314f1eaf26e3ce35d2152d7f9e05beafa1",
+      "bytes": 4244,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/domain-application-review/REVIEW.md",
+      "git_blob": "443a4cfdcae0be7b96a364f2c682ea4c3e76ff4a",
+      "sha256": "830fd8fa8f963ce4453b59defcf5ad83302baf3c9553c990f4bdb9b7b99e6e76",
+      "bytes": 10470,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "92cb34a66cca43484060ca233faf1821d35457a9",
+      "path": "research/hm/null-source-integration/domain-application-review/test_review_controls.py",
+      "git_blob": "86d8f810093688427217d790db822e2ae592648b",
+      "sha256": "d3a2960d373f19bbf6f629bb2dee819f9efe335af5f67add64fadbcf68ad88e9",
+      "bytes": 2745,
+      "scope": "independent public support review/control; consumed without duplicate test replay"
+    },
+    {
+      "commit": "e491a84e25e9d3a861816e8279c21c82bdc1555f",
+      "path": "research/hm/null-source-integration/q-binding-review/review-independent.md",
+      "git_blob": "4904cb3042b0dc025ae0f4cb2eb42b9f058064cf",
+      "sha256": "043c8855f1630f683d68dcd8ebc20949bfbb480f83ea2a3da3135ed7a9c0afa9",
+      "bytes": 6949,
+      "scope": "independent acceptance of canonical repository provenance fix; no mathematical or arithmetic-admission scope change"
+    },
+    {
+      "commit": "e491a84e25e9d3a861816e8279c21c82bdc1555f",
+      "path": "research/hm/null-source-integration/q-binding-review/test_independent.py",
+      "git_blob": "4bbbfde0ec535816b66176647bd85500dfc081f7",
+      "sha256": "0f0df79938cd85d0da7e52fec07bf6d5ac427f1b12528e6da7479bc3966e00f5",
+      "bytes": 4910,
+      "scope": "independent acceptance of canonical repository provenance fix; no mathematical or arithmetic-admission scope change"
+    }
+  ],
+  "physical_source_evaluated": false,
+  "external_tests_rerun_here": false,
+  "boundaries": [
+    "Review snapshots precede minimal canonical-repo fix; dedicated local independent follow-up records that resolution.",
+    "FD descriptive adapter covers distinct common keys; future total provider must implement repeated-common alternating zeros explicitly.",
+    "Historical nonlinear source-order identity and aggregate physical resource admission remain separate."
+  ]
+}

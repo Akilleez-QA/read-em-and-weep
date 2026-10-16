@@ -1,0 +1,18 @@
+test_descriptor_membership_and_provenance_without_iteration (__main__.Independent.test_descriptor_membership_and_provenance_without_iteration) ... ok
+test_exact_degree_and_whole_target_endpoint_inequalities (__main__.Independent.test_exact_degree_and_whole_target_endpoint_inequalities) ... ok
+test_exact_source_pins (__main__.Independent.test_exact_source_pins) ... ok
+test_formal_unsymmetrized_transgression_requires_both_mixed_terms (__main__.Independent.test_formal_unsymmetrized_transgression_requires_both_mixed_terms) ... ok
+test_fresh_increasing_edge_cup_correction_all_artificial_orders (__main__.Independent.test_fresh_increasing_edge_cup_correction_all_artificial_orders) ... ok
+test_metadata_counts_stored_occurrences_and_utf8_bytes (__main__.Independent.test_metadata_counts_stored_occurrences_and_utf8_bytes) ... ok
+test_one_explicit_canonical_description_ast_only (__main__.Independent.test_one_explicit_canonical_description_ast_only) ... ok
+test_row_column_trace_sign_with_noncommuting_artificial_matrices (__main__.Independent.test_row_column_trace_sign_with_noncommuting_artificial_matrices) ... ok
+test_sharp_imported_reversal_bounds_not_support (__main__.Independent.test_sharp_imported_reversal_bounds_not_support) ... ok
+test_source_order_sign_on_only_tiny_artificial_permutations (__main__.Independent.test_source_order_sign_on_only_tiny_artificial_permutations) ... ok
+test_three_distinct_equal_equation_occurrences_survive (__main__.Independent.test_three_distinct_equal_equation_occurrences_survive) ... ok
+test_tiny_lazy_provider_is_explicit_and_not_full_descriptor (__main__.Independent.test_tiny_lazy_provider_is_explicit_and_not_full_descriptor) ... ok
+test_unconditional_refusal_with_poison_requests_and_mode_changes (__main__.Independent.test_unconditional_refusal_with_poison_requests_and_mode_changes) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.084s
+
+OK
