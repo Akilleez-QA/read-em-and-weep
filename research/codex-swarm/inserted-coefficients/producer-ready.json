@@ -1,0 +1,33 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "INS01",
+  "ready_for_independent_review": true,
+  "physical_admission": false,
+  "execution_release": false,
+  "files": {
+    "README.md": "73a0e378388cae87f576b02a7ead5dbfb0e7d2c8fa4c1d118b45ec59baeeba43",
+    "inserted_program.py": "aac77cef25974ed0d3fcdfded48ee037ff86ec7e88215c841b6e59c5f32dd4bf",
+    "interfaces.py": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+    "polynomial_coefficients.py": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee",
+    "program-contract.json": "d245f0291f1e05d7354b8e9e26fc0469ce2a7aa6e85c0510285a66061daa8808",
+    "source_program.py": "1f6241ddc12c41ea2f8476cef53bc0b148562c2ade56c0c4f8aede68de8ced1c",
+    "test_inserted.py": "4207c21a53be11da2e0744838311d36ce2ec3b50f39c1ffe2002ed5cbe7c187a"
+  },
+  "validation": {
+    "synthetic_tests": 9,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "open_external_obligations": [
+    "actual Qhat complete factor streams and actual fibers",
+    "actual Ca/Cb inputs",
+    "whole standard-target regular-extension witness",
+    "physical homogeneous-frame identification",
+    "physical execution admission/budget"
+  ],
+  "note": "Producer file hashes are review handoff metadata; no admission capability."
+}

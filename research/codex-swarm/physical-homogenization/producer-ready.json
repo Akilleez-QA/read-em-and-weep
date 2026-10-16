@@ -1,0 +1,24 @@
+{
+  "complementary_source_revision": "02d0e727ffb95dfd9281906cc284c56e8bffd018",
+  "files_sha256": {
+    "PROOF.md": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab",
+    "README.md": "883ad5dbb103d425a054d60bef639b3568fe3b9121f0a7e4f880d697d5559beb",
+    "frames.py": "841b8ebd342ae0c45d92499fc712d94051729d27e8137279fb14e09710246c6e",
+    "physical-source-certificate.json": "945551c886bd399bfa6cab8f1bc6bd144059dc2656ada5dfb546ce6b71a2a3c5",
+    "test_frames.py": "1cad972ca549e7df43bc0dc096249fd87361014bad3126b10caf54c31a78b58e"
+  },
+  "global_arithmetic_admission": false,
+  "producer": "PH01",
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "schema": "producer-review-handoff-v1",
+  "source_revision": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+  "status": "ready-for-independent-review-not-global-admission",
+  "tests": {
+    "normal": 10,
+    "optimized": 10,
+    "physical_source_evaluated": false
+  }
+}
