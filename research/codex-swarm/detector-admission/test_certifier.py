@@ -116,6 +116,30 @@ class Controls(unittest.TestCase):
   # local RF calls<=S. The closed M=(S+1)^(d+2) dominates the full tree.
   for S in range(1,5):
    for depth in range(4):self.assertLessEqual(S*sum(S**j for j in range(depth+1)),(S+1)**(depth+2))
+ def test_transitive_dependencies_refuse_same_AST_mutations_without_execution(self):
+  import ast,hashlib,json,tempfile,shutil
+  from pathlib import Path
+  from unittest.mock import patch
+  import whole_envelope as W
+  original=W.build();base=W.BASE;sr=base/'detector-realization'
+  marker=json.loads((sr/'producer-ready.json').read_text())
+  deps=json.loads((sr/'source-pins.json').read_text())['local_dependencies']
+  with tempfile.TemporaryDirectory(prefix='ac-binding-metadata-')as directory:
+   target=Path(directory)
+   files=['detector-realization/producer-ready.json']+['detector-realization/'+n for n in marker['files']]+[r['path']for r in deps]
+   for name in set(files):
+    destination=target/name;destination.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(base/name,destination)
+   with patch.object(W,'BASE',target):
+    self.assertEqual(W.build(),original)
+    for name in('inserted-coefficients/interfaces.py','scalar-compiler/compiler.py'):
+     f=target/name;raw=f.read_text()
+     altered=raw.replace('sign=(-1)**','sign=(+1)**',1)if name.endswith('interfaces.py')else raw+'\n'
+     self.assertNotEqual(altered,raw)
+     self.assertEqual(sum(1 for _ in ast.walk(ast.parse(raw))),sum(1 for _ in ast.walk(ast.parse(altered))))
+     f.write_text(altered)
+     with self.assertRaisesRegex(ValueError,'SR local dependency drift: '+name):W.build()
+     f.write_text(raw)
+    self.assertEqual(W.build(),original)
  def test_exact_candidate_is_blocked_not_nofit(self):
   c=C.actual_route_certificate();self.assertEqual(c['status'],'BLOCKED_ROUTE')
   self.assertEqual(c['candidate']['weighted_request']['id'],30)

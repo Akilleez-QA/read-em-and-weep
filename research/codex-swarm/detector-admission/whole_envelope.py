@@ -11,6 +11,12 @@ def build():
  need(hashlib.sha256(raw).hexdigest()==SR_MARKER,'frozen SR marker drift')
  marker=json.loads(raw);files=marker.get('files',marker.get('files_sha256',{}));need(bool(files),'missing SR producer hashes')
  for name,h in files.items():need(hashlib.sha256((path/name).read_bytes()).hexdigest()==h,'SR producer input drift')
+ # The frozen manifest authenticates declarations; authenticate their local bytes
+ # as well, before even AST metadata is consumed. No module is imported/executed.
+ dependencies=json.loads((path/'source-pins.json').read_text())['local_dependencies']
+ need(len(dependencies)==10,'SR dependency closure changed')
+ for row in dependencies:
+  need(hashlib.sha256((BASE/row['path']).read_bytes()).hexdigest()==row['sha256'],'SR local dependency drift: '+row['path'])
  algorithm=json.loads((path/'algorithm.json').read_text());s=algorithm['static_execution_envelope']
  need(algorithm['request']['id']==30 and algorithm['literal_recurrence']['inner_N14_calls']==0,'raw route identity')
  need((s['non_RF_call_depth_upper'],s['simultaneously_active_non_RF_loop_depth_upper'])==(128,32),'source control envelope changed')

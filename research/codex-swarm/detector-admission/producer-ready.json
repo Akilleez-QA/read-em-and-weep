@@ -3,8 +3,8 @@
   "producer": "AC01",
   "status": "BLOCKED_ROUTE",
   "files": {
-    "PROOF.md": "dc5669266fb64829a0f4dac971fb948572ea01b594ac3e24ce64b5b2b7ff976b",
-    "README.md": "53ae1ee97bb9426e4826f5d8aa5e7ce266185de94689b03f3302c3d2f1a5eb56",
+    "PROOF.md": "21ca1a8a72fa5cbc6367bf666f33f9787ede01761b14284c479f353e9759012e",
+    "README.md": "8f27e9b6c84d07bfdcc5d38154a93154fd914fec31eb4f14562e6e2512bc9c6d",
     "actual-PI-dot-envelope.json": "066b79faa2bfee91e3dcf352e1f91290a7c7c16996e0b902210142a22d8f3453",
     "actual-input-bounds.json": "d1da8cdbf4818e585a33b0115e0db334f88f647d3ba06827e26da29070d40955",
     "actual-seed-envelope.json": "9ba920ba94452b71cfd550c3aa59cf948ee9257ff4c20f671d504a665d571ce4",
@@ -15,12 +15,12 @@
     "rf-recurrences.json": "79b701989e16678ad2cae092d90723e3f64921ff2a1a204b45a593b871b5f14a",
     "rf_bounds.py": "46f735013590ac3af675a32e7462bc482fcabe0ec0be43aef96837afb069a455",
     "source-pins.json": "e0872ef5cfe3ac9d6d55fabcf6e74aec8b3e7126f946b69f14e9a5a529615931",
-    "test_certifier.py": "52bd9451c2323777cf7c710d2a4e32f370599078b3ac1c380b0f5e24192266a5",
+    "test_certifier.py": "1a4db019ee140a3d7d10a3197cc3b735e1d040da097c823f713a40b81320187b",
     "whole-route-envelope.json": "627fbd2234c57d75ec9ef286cf93e4c7ca6c0593eae81a4a8180838e6c4ebd0d",
-    "whole_envelope.py": "93408c2aa015385990894458a453b9d00b43385ccdf71d7f24d681123e15079d"
+    "whole_envelope.py": "bbe9ffd7154bcb1017e56834a1ffe24326b288d289299bc0bdcd67f4ba6f3e1c"
   },
   "tests": {
-    "synthetic_and_metadata_controls": 11,
+    "synthetic_and_metadata_controls": 12,
     "normal": "PASS",
     "optimized": "PASS"
   },
@@ -37,6 +37,12 @@
     "original_producer_commit": "d37436ee7",
     "original_review_commit": "b3c61eba2",
     "scope": "auxiliary RF hook height includes input/output exponent bit lengths and coefficient heights; common whole-route envelope unchanged",
-    "independent_followup": "pending; original report unchanged, reproduction test preserved in Git at b3c61eba2, current regression reviewed separately"
+    "independent_followup": "height repair reviewed separately at44e1f06e3; original report unchanged and original reproduction test preserved in Git at b3c61eba2"
+  },
+  "transitive_binding_repair": {
+    "finding": "external Null same-AST imported-interfaces parity mutation bypassed local byte authentication",
+    "scope": "verify all10 already-pinned SR local_dependencies before AST parsing; no imported module execution",
+    "independent_followup": "pending; prior independent reports unchanged",
+    "symbolic_envelope_values_changed": false
   }
 }
