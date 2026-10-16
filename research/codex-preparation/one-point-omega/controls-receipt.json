@@ -1,0 +1,65 @@
+{
+  "schema": "one-point-omega-artificial-controls-v1",
+  "status": "13 artificial/static controls PASS per mode",
+  "limits_per_child": {
+    "address_space_bytes": 268435456,
+    "CPU_seconds": 15,
+    "wall_seconds": 20
+  },
+  "parent_limits": {
+    "address_space_bytes": 268435456,
+    "CPU_seconds": 15
+  },
+  "max_simultaneous_processes": 2,
+  "workers_launched": 0,
+  "actual_source_evaluated": false,
+  "actual_point_or_denominator_values_evaluated": false,
+  "source_metadata_and_hashes_only": true,
+  "execution_release": false,
+  "before": {
+    "bounded_exact.py": "d57ed120979fc8818ab402da6a684819235cfe93dd743902bde665a5fde95b81",
+    "prepare_omega.py": "1fc6bda205ab84513a7d3ef151f7d78a8477944c536e9b4ba6064703e9217a5f",
+    "test_artificial.py": "0e25f939fefeb78a83bccacf685ec454a8877e0de0d42f88e060b354f2593bfa",
+    "run_artificial_checks.py": "80859a836d690d598d9a78f79bf95691b6965cee8b27a183288a4115f4ac1bbd",
+    "spec.json": "55082c8ddb7182230ec1b7d5f0013a4edc8d8bf2bbfbe8337a67847b0975fd06",
+    "source-pins.json": "efffbacd3866e293bd3da3e1b52e8bf6eabca812d9e342e7569e00f8185462ef",
+    "sources/model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "sources/physical-frames.md": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+    "sources/second-jet-survivor.md": "4b816d816637c4670197309565168e341958f8498a9fb007f75966970074deaa",
+    "sources/source-formulas.js": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+    "sources/symmetry-criterion.md": "9a792c260c483fc80c3df1a57ebe5d7a9e6c3c1be87e58c3334c62d8036879ff"
+  },
+  "runs": [
+    {
+      "optimized": false,
+      "returncode": 0,
+      "tests": 13,
+      "pass_": true,
+      "seconds": 1.1169,
+      "log": "controls-normal.log",
+      "log_sha256": "8bb5a23b9dcd9db1dfe06b86c001e4d09cc1157acda75d05fff45a94ef0629fe"
+    },
+    {
+      "optimized": true,
+      "returncode": 0,
+      "tests": 13,
+      "pass_": true,
+      "seconds": 1.1487,
+      "log": "controls-optimized.log",
+      "log_sha256": "2a57d0aa6099b099ccf3eb8f836519f1108db92a33670e77a3868d177ace43cf"
+    }
+  ],
+  "after": {
+    "bounded_exact.py": "d57ed120979fc8818ab402da6a684819235cfe93dd743902bde665a5fde95b81",
+    "prepare_omega.py": "1fc6bda205ab84513a7d3ef151f7d78a8477944c536e9b4ba6064703e9217a5f",
+    "test_artificial.py": "0e25f939fefeb78a83bccacf685ec454a8877e0de0d42f88e060b354f2593bfa",
+    "run_artificial_checks.py": "80859a836d690d598d9a78f79bf95691b6965cee8b27a183288a4115f4ac1bbd",
+    "spec.json": "55082c8ddb7182230ec1b7d5f0013a4edc8d8bf2bbfbe8337a67847b0975fd06",
+    "source-pins.json": "efffbacd3866e293bd3da3e1b52e8bf6eabca812d9e342e7569e00f8185462ef",
+    "sources/model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "sources/physical-frames.md": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+    "sources/second-jet-survivor.md": "4b816d816637c4670197309565168e341958f8498a9fb007f75966970074deaa",
+    "sources/source-formulas.js": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+    "sources/symmetry-criterion.md": "9a792c260c483fc80c3df1a57ebe5d7a9e6c3c1be87e58c3334c62d8036879ff"
+  }
+}
