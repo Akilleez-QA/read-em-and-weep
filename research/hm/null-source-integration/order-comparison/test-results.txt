@@ -1,0 +1,13 @@
+test_all_six_permutations_universal_bilinear_basis (__main__.OrderDefect.test_all_six_permutations_universal_bilinear_basis) ... ok
+test_closed_scalar_edges_remove_all_local_order_defects (__main__.OrderDefect.test_closed_scalar_edges_remove_all_local_order_defects) ... ok
+test_closedness_defect_on_tetrahedron (__main__.OrderDefect.test_closedness_defect_on_tetrahedron) ... ok
+test_nonclosed_example (__main__.OrderDefect.test_nonclosed_example) ... ok
+test_nonzero_defect_and_wrong_sign_control (__main__.OrderDefect.test_nonzero_defect_and_wrong_sign_control) ... ok
+test_reindex_chain_map_on_edge_basis (__main__.OrderDefect.test_reindex_chain_map_on_edge_basis) ... ok
+test_same_carrier_q2_inclusion_naturality (__main__.OrderDefect.test_same_carrier_q2_inclusion_naturality) ... ok
+test_single_component_does_not_kill_boundaries (__main__.OrderDefect.test_single_component_does_not_kill_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK
