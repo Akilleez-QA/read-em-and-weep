@@ -1,0 +1,97 @@
+{
+  "baseline_PR86": "7d73d540981a3a152d807c39844ec63bc9913b89",
+  "coordination_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6211928516",
+  "schema": "source-faithful-P-pins-v1",
+  "sources": [
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "7f4d918855a7bf2329ae461d77758b2ea03e0478",
+      "path": "research/codex-swarm/inserted-coefficients/source_program.py",
+      "sha256": "1f6241ddc12c41ea2f8476cef53bc0b148562c2ade56c0c4f8aede68de8ced1c"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "3951c3a8d9f0b20222f6dd5d5229bf1143164155",
+      "path": "research/codex-swarm/inserted-coefficients/polynomial_coefficients.py",
+      "sha256": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "b75c6722c004aea607db4509fd3b8e343ece1e61",
+      "path": "research/codex-swarm/physical-homogenization/frames.py",
+      "sha256": "841b8ebd342ae0c45d92499fc712d94051729d27e8137279fb14e09710246c6e"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "68d3f0e3e6b60a4a99b7cbb54d8589bf69d7e747",
+      "path": "research/codex-swarm/physical-homogenization/PROOF.md",
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "2dbb9a62bae03f8d728fddd375276e5737538085",
+      "path": "research/codex-swarm/physical-homogenization/review-independent.md",
+      "sha256": "f256c475a1a2ee88f8f68f32c228141513854cc300ef3f015ff7aa733b4c3a53"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "1011602e9a6f1f199a9c629c2d6b3bdc57099a78",
+      "path": "research/codex-swarm/physical-homogenization/physical-source-certificate.json",
+      "sha256": "945551c886bd399bfa6cab8f1bc6bd144059dc2656ada5dfb546ce6b71a2a3c5"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "806fa33f3492aac3f89431b46c9b493c0945751b",
+      "path": "research/codex-swarm/whole-source-clearing/PROOF.md",
+      "sha256": "3ea2b68a04168f76ba217b2b43470c41657124b550111c72a3eb10b60dd89361"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "d21bef0675234baca973dfdf8423e104e8267202",
+      "path": "research/codex-swarm/whole-source-clearing/clearing.py",
+      "sha256": "2cc26945328dba5069d0b79888416b4d9d48b4031336fe266b2ffc103db3abef"
+    },
+    {
+      "commit": "7d73d540981a3a152d807c39844ec63bc9913b89",
+      "git_blob": "bc47a6386328eea6cb50fe4935a9f48141d01593",
+      "path": "research/codex-swarm/whole-source-clearing/source-integration.json",
+      "sha256": "a7070e531edd2d034c7ddac8899cf4fcc7e880d4bb3adf5d0d37c8abb7b86a4c"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "commit": "02d0e727ffb95dfd9281906cc284c56e8bffd018",
+      "git_blob": "720b6b6c680729ee4745e41d8dc6635e37708cd1",
+      "path": "research/hm/null-source-integration/complementary-pair/PROOF.md",
+      "sha256": "edf2efafdb0f1891af0c9adf02a133e683633466686813e0f8aba48f85abe6bc"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "e55dae1fccef9b66bd5735b04fc09bd5590180fc",
+      "path": "research/hm/null-support-certificates/pinned-homogeneous-identities.json",
+      "sha256": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+      "path": "research/hm/current-scalar-geometric-dependencies/frames-and-poles.md",
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916"
+    }
+  ]
+}

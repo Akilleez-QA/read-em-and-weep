@@ -1,0 +1,25 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "QB01",
+  "ready_for_independent_review": true,
+  "files": {
+    "PROOF.md": "0ef7a3dc232e0933cca22b8c5b2e9be481cf2970d176fe0bb6a1d50b13c896a0",
+    "README.md": "b384c9d633b48c5336a8be6e9600758ff16a7a4637847c0eefcafbcc3d550612",
+    "q_binding.py": "b835d9b55985fd4ea3f77d10ac29c4db6ef63075074d58473001535f8e6579ce",
+    "source-pins.json": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d",
+    "test_binding.py": "083dd090a7c27bbbe3ede778dab83b22db3dc57f45052a77b0c1bf025ece5dca"
+  },
+  "tests": {
+    "synthetic_controls": 6,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "actual_coefficient_evaluated": false,
+  "physical_admission": false,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "scope": "coefficient-free constructor semantic binding for actual fixed N14 Qhat and owned C; descriptors never grant admission",
+  "aggregate_resource_certificate": false
+}
