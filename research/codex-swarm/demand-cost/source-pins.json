@@ -1,0 +1,33 @@
+{
+  "git": {
+    "research/hm/null-source-integration/combined-pole/PROOF.md": {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25"
+    },
+    "research/hm/null-source-integration/combined-pole/certificate.py": {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "sha256": "57fc3b13f0853a1364d2a5911884fe0d89bd3b287c9913bf2f377f24da0eff26"
+    },
+    "research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md": {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "sha256": "c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451"
+    },
+    "research/hm/null-source-integration/order-comparison/test_order_defect.py": {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "sha256": "b033421bcd172b3397056f95e5afb98184690a059be4eef80475f715c26a1d10"
+    }
+  },
+  "local": {
+    "STATUS.md": "fbc06d1aec5dc2a9868493263646c99820ed726d196d0cd9e82497a1319e58f9",
+    "arithmetic/compiler_v5/README.md": "7ca5fbf16452fbcdecc0d1a341557a6bb1733cf8229aadced667e7db9ac41023",
+    "arithmetic/compiler_v5/bind_requests.py": "5b09d7d478608c74c495c59239bf6e96935408cb4ab9bc1956731395cf56a36b",
+    "arithmetic/compiler_v5/seed12-binding.json": "5d7812384c3ff0fbc671113bb86243c6535cdc9a54da19026a2a3c74ccdf21c2",
+    "arithmetic/compiler_v5/seed30-binding.json": "8cc07a8e1f77db91e71976ea3fa8de16a830a8a5c183db07a831462d154aa93b",
+    "arithmetic/ledger/candidate_preflight.py": "69c48040a72faeb12ef5da89e3a00c579bbd9ec23b33ad6b5d782a1b4b4937ec",
+    "detector-selection/README.md": "cce59b00e0e0c72d86e106bb755264e4c1f18a9adb80718d4b2be8ba879fe0b4",
+    "detector-selection/selection.json": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+    "detector-selection/weighted-requests.json": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0",
+    "detector-selection/weighted_requests.py": "9e172fd013a23426dc6b67f5fe40f3587a8195fd06a25f34cbc820e3970ad918"
+  },
+  "schema": "co01-source-pins-v1"
+}

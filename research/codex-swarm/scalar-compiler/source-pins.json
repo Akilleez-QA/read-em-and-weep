@@ -1,0 +1,42 @@
+{
+  "schema": "sc01-source-pins-v1",
+  "shared_lift_schema_sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31",
+  "sources": [
+    {
+      "bytes": 16803,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "bytes": 4580,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    {
+      "bytes": 16497,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "9d7a5a400b48d9b8b46008fbd9fb3d79be601920",
+      "path": "research/hm/null-source-integration/combined-pole/PROOF.md",
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25"
+    },
+    {
+      "bytes": 14410,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "2be2660f33f791af9ce6ceda87be7693a41b7dfb",
+      "path": "research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md",
+      "sha256": "c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451"
+    },
+    {
+      "bytes": 13965,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3"
+    }
+  ],
+  "weighted_requests_sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+}

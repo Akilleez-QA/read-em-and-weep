@@ -1,0 +1,13 @@
+{
+  "address_space_cap_bytes": 536870912,
+  "cpu_cap_seconds": 59,
+  "elapsed_seconds": 0.07694,
+  "execution_release": false,
+  "exit_code": 0,
+  "output_bytes": 1026584,
+  "output_sha256": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565",
+  "peak_child_rss_bytes": 24899584,
+  "physical_source_evaluated": false,
+  "stderr": "",
+  "wall_timeout_seconds": 60
+}

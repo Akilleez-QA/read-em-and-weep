@@ -1,0 +1,4865 @@
+{
+  "by_map": [
+    {
+      "map": {
+        "b": 1,
+        "i": 0
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 1
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 2
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 3
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 4
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "requests": 6,
+      "unique_coordinates": 20,
+      "weighted_term_occurrences": 20
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "requests": 4,
+      "unique_coordinates": 21,
+      "weighted_term_occurrences": 24
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 6
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "requests": 3,
+      "unique_coordinates": 19,
+      "weighted_term_occurrences": 22
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 7
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "requests": 2,
+      "unique_coordinates": 11,
+      "weighted_term_occurrences": 11
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 8
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "requests": 2,
+      "unique_coordinates": 5,
+      "weighted_term_occurrences": 5
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 9
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 0,
+        "i": 10
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 10
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 11
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 12
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 13
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    },
+    {
+      "map": {
+        "b": 1,
+        "i": 14
+      },
+      "requests": 1,
+      "unique_coordinates": 3,
+      "weighted_term_occurrences": 3
+    }
+  ],
+  "coefficient_demands": [
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 0
+      },
+      "uses": [
+        {
+          "request_id": 6,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 0
+      },
+      "uses": [
+        {
+          "request_id": 6,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 0
+      },
+      "uses": [
+        {
+          "request_id": 6,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 1
+      },
+      "uses": [
+        {
+          "request_id": 7,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 1
+      },
+      "uses": [
+        {
+          "request_id": 7,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 1
+      },
+      "uses": [
+        {
+          "request_id": 7,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 2
+      },
+      "uses": [
+        {
+          "request_id": 8,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 2
+      },
+      "uses": [
+        {
+          "request_id": 8,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 2
+      },
+      "uses": [
+        {
+          "request_id": 8,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 3
+      },
+      "uses": [
+        {
+          "request_id": 9,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 3
+      },
+      "uses": [
+        {
+          "request_id": 9,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 3
+      },
+      "uses": [
+        {
+          "request_id": 9,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 4
+      },
+      "uses": [
+        {
+          "request_id": 10,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 4
+      },
+      "uses": [
+        {
+          "request_id": 10,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 4
+      },
+      "uses": [
+        {
+          "request_id": 10,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 22,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 0,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 31,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 31,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 22,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 31,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 31,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 0,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 20,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 0,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 21,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 20,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 5
+      },
+      "uses": [
+        {
+          "request_id": 30,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 1,
+          "weight": 1
+        },
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 1,
+          "weight": 2
+        },
+        {
+          "request_id": 25,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 23,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 1,
+          "weight": 1
+        },
+        {
+          "request_id": 25,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 24,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 23,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 11,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 11,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 6
+      },
+      "uses": [
+        {
+          "request_id": 11,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 2,
+          "weight": 1
+        },
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 2,
+          "weight": 2
+        },
+        {
+          "request_id": 27,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 2,
+          "weight": 1
+        },
+        {
+          "request_id": 27,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 26,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 12,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 12,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 7
+      },
+      "uses": [
+        {
+          "request_id": 12,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -2,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 3,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -3,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -3,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 3,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 28,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 3,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 13,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 13,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 8
+      },
+      "uses": [
+        {
+          "request_id": 13,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 29,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 4,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 29,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 4,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 4,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 14,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 14,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 9
+      },
+      "uses": [
+        {
+          "request_id": 14,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 0,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 5,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 0,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 5,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 0,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 5,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 15,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 15,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 10
+      },
+      "uses": [
+        {
+          "request_id": 15,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 11
+      },
+      "uses": [
+        {
+          "request_id": 16,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 11
+      },
+      "uses": [
+        {
+          "request_id": 16,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 11
+      },
+      "uses": [
+        {
+          "request_id": 16,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 12
+      },
+      "uses": [
+        {
+          "request_id": 17,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 12
+      },
+      "uses": [
+        {
+          "request_id": 17,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 12
+      },
+      "uses": [
+        {
+          "request_id": 17,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 13
+      },
+      "uses": [
+        {
+          "request_id": 18,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 13
+      },
+      "uses": [
+        {
+          "request_id": 18,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 13
+      },
+      "uses": [
+        {
+          "request_id": 18,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -3,
+        -3,
+        -1,
+        -1
+      ],
+      "map": {
+        "b": 1,
+        "i": 14
+      },
+      "uses": [
+        {
+          "request_id": 19,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      "map": {
+        "b": 1,
+        "i": 14
+      },
+      "uses": [
+        {
+          "request_id": 19,
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "coordinate": [
+        -1,
+        -1,
+        -3,
+        -3
+      ],
+      "map": {
+        "b": 1,
+        "i": 14
+      },
+      "uses": [
+        {
+          "request_id": 19,
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "formal_circuit": {
+    "owner_source_groups": null,
+    "reachable_unique_nodes": null,
+    "required_input": "co01-demand-grammar-v1 with each exact map/coordinate, ordered full owners, source branch IDs and explicit DAG roots",
+    "reuse_visits_avoided": null,
+    "status": "UNKNOWN: complete actual-map coefficient-demand grammar not supplied",
+    "tree_node_visits": null
+  },
+  "null_lemma": {
+    "branches": [
+      {
+        "complete_B_required": true,
+        "id": "standard",
+        "term": "C_a C_b Z_ab B_ab"
+      },
+      {
+        "id": "prism1",
+        "padding": "Z_ab",
+        "term": "Z_ab sum_u Qhat_u P_[u,a,b]"
+      },
+      {
+        "id": "prism2",
+        "padding": "C_a Z_ab",
+        "term": "-C_a Z_ab sum_uv Qhat_u Qhat_v P_[u,v,b]"
+      }
+    ],
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "conditional_full_sum_only": true,
+    "max_derivatives": 1,
+    "order_comparison": "reindexing does not identify ordered E prescriptions; retain curvature defects and full-source comparison",
+    "source_clearing_proved_here": false
+  },
+  "obstruction": "undecided",
+  "physical_source_evaluated": false,
+  "preflight": {
+    "arithmetic_admission": false,
+    "cancellation_savings_charged": 0,
+    "cost_upper": "UNKNOWN",
+    "evidence_status": "absent",
+    "execution_release": false,
+    "fresh_budget_granted": 0,
+    "occupied_support": "UNKNOWN",
+    "old_allowances_are_spent": false,
+    "physical_peak_bytes": "UNKNOWN",
+    "required_inputs": [
+      "authoritative CURRENT global ledger identity, revision, freshness and reconciliation",
+      "global caps, measured spent, globally identified live allocations and all commitments",
+      "actual whole-F source-clearing proof and full-sum numerator realization",
+      "actual transport/frame/domain and complete corrected scalar compiler binding for all maps",
+      "actual coefficient bounds, representation, operation upper bounds and allocation last-use schedule",
+      "independent root review of certificates and schedule; existing allowances are not fresh budget"
+    ]
+  },
+  "requests": [
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 0,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 1,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 2,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 3,
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 4,
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 5,
+      "scalar_map": {
+        "b": 0,
+        "i": 10
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 6,
+      "scalar_map": {
+        "b": 1,
+        "i": 0
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 7,
+      "scalar_map": {
+        "b": 1,
+        "i": 1
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 8,
+      "scalar_map": {
+        "b": 1,
+        "i": 2
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 9,
+      "scalar_map": {
+        "b": 1,
+        "i": 3
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 10,
+      "scalar_map": {
+        "b": 1,
+        "i": 4
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 11,
+      "scalar_map": {
+        "b": 1,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 12,
+      "scalar_map": {
+        "b": 1,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 13,
+      "scalar_map": {
+        "b": 1,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 14,
+      "scalar_map": {
+        "b": 1,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 15,
+      "scalar_map": {
+        "b": 1,
+        "i": 10
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 16,
+      "scalar_map": {
+        "b": 1,
+        "i": 11
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 17,
+      "scalar_map": {
+        "b": 1,
+        "i": 12
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 18,
+      "scalar_map": {
+        "b": 1,
+        "i": 13
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 19,
+      "scalar_map": {
+        "b": 1,
+        "i": 14
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0
+      ],
+      "block": "v_k Q",
+      "id": 20,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 21,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        4
+      ],
+      "block": "v_k Q",
+      "id": 22,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0
+      ],
+      "block": "v_k Q",
+      "id": 23,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 24,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        2
+      ],
+      "block": "v_k Q",
+      "id": 25,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 26,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        2
+      ],
+      "block": "v_k Q",
+      "id": 27,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        3
+      ],
+      "block": "v_k Q",
+      "id": 28,
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 5
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 7
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 45
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 63
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        4
+      ],
+      "block": "v_k Q",
+      "id": 29,
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0,
+        0
+      ],
+      "block": "v_k v_l",
+      "id": 30,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "output_index": 80
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1,
+        4
+      ],
+      "block": "v_k v_l",
+      "id": 31,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        }
+      ]
+    }
+  ],
+  "schema": "co01-demand-cost-report-v1",
+  "source_pins_sha256": "0999b764a168047eddb599e0e14039d1c3ef7a1faaa8cd2d1cb756329781d262",
+  "totals": {
+    "actual_maps": 20,
+    "coordinate_reuses": 6,
+    "distinct_coordinates_ignoring_map": 32,
+    "sum_absolute_weights": 149,
+    "unique_map_coordinates": 121,
+    "weighted_requests": 32,
+    "weighted_term_occurrences": 127
+  },
+  "v5_scope": "seed12/30 fixed-owner E34 metadata only; no all-map reuse authorized"
+}

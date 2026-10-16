@@ -1,0 +1,38 @@
+{
+  "actual_source_evaluated": false,
+  "arithmetic_admission": false,
+  "commits_or_pushes": false,
+  "execution_release": false,
+  "files_sha256": {
+    "PROOF.md": "bf97299553e43e3e4e3c3dc2d9f991cef7333a6eb4eefcb553e4f8275a89cb25",
+    "README.md": "8a0eb7a84dbdab971588c305c890be52e588e037b5e2c83a9fde81c828723f08",
+    "preflight.py": "2d658b04062e76809f1797f8c92992ce70d0ea4aa55f577a2c73e43317393ecc",
+    "request-report.json": "7f374fa61bdb6d034902516edeec75a10ba2123f612223a7efd0b037fd5cd4fd",
+    "run-receipt.json": "bbf3b8d91ed6cb021e9e0284b295c18b677bf54171b9d7d2853cf37f013fc1a4",
+    "run_bounded.py": "8d869105e242db483e21e6bf31a2def4e8d8e4c0bd969f0e40ac59900afa182e",
+    "source-pins.json": "0999b764a168047eddb599e0e14039d1c3ef7a1faaa8cd2d1cb756329781d262",
+    "test_producer.py": "39bb61b7476e5a59170e6a6b1bdb57356d390d6cb9100e03edf04ed2f77f7d3e",
+    "tests-normal.log": "5f7ed543859568b1727bb84d229a9fa32608bfa7fedae29794e03bc74a185f66",
+    "tests-optimized.log": "96a4d02353b09466f738edf1b0aa2394fb63e00582cd38dca737891d1dc81cbe"
+  },
+  "github_writes": false,
+  "producer": "Codex-CO01",
+  "remaining_gaps": [
+    "complete actual-map coefficient-demand grammar with full owners and source branch IDs",
+    "authoritative CURRENT global ledger/spent/live allocations/commitments",
+    "reviewed actual whole-source homogeneous clearing, complete B circuit, transport and coefficient bounds",
+    "physical operation and allocation lifetime schedule upper bounds"
+  ],
+  "report_sha256": "7f374fa61bdb6d034902516edeec75a10ba2123f612223a7efd0b037fd5cd4fd",
+  "reserved_independent_review_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "schema": "co01-producer-ready-v1",
+  "status": "ready_for_independent_root_review",
+  "tests": {
+    "normal": 10,
+    "optimized": 10,
+    "passed": true
+  }
+}

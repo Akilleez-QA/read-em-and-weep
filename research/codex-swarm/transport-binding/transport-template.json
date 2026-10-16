@@ -1,0 +1,4188 @@
+{
+  "actual_source_admitted": false,
+  "adapter_slots": {
+    "all_twenty_row_regular_transport_domain": {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "scope": "conditional whole-source standard-target regular extension; all20 scalar rows; full J0..J3",
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3"
+    },
+    "complete_source_and_closed_lift": null,
+    "first_current_tracefree_wrapper_equivalence": {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "405a46728161bce487ef6d5b147ee6b7a73c7e17",
+      "path": "research/hm/null-source-integration/tracefree-currents/PROOF.md",
+      "scope": "first L/U currents only; branchwise tf wrapper identity for eight seed12/30 E34 requests; no M0/second-jet assertion",
+      "sha256": "e77328364f7d738430d5ef4ebcde16ae1aa827ce59cd48f9300c1ad5319407b3"
+    },
+    "source_order_identification_or_full_comparison": null
+  },
+  "adjoint_formula": "-j^* delta^* H_0^* delta^* H_-1^* (S Pi_out)^* lambda_(L,f)",
+  "closed_lift": {
+    "EK": {
+      "formula": "Iphys Pphys",
+      "nonzero_block": [
+        1,
+        1
+      ],
+      "shape": [
+        15,
+        15
+      ]
+    },
+    "HK_blocks": [
+      {
+        "name": "H0",
+        "shape": [
+          5,
+          15
+        ],
+        "source": 1,
+        "target": 0
+      },
+      {
+        "name": "H1",
+        "shape": [
+          15,
+          10
+        ],
+        "source": 2,
+        "target": 1
+      },
+      {
+        "name": "eta",
+        "shape": [
+          10,
+          2
+        ],
+        "source": 3,
+        "target": 2
+      }
+    ],
+    "cech_frame": "original fixed resolution frames; restrictions only; no extra row-End conjugation",
+    "closure_equations": [
+      "d_End J0=0",
+      "delta J0-d_End J1=0",
+      "delta J1+d_End J2=0",
+      "delta J2-d_End J3=0",
+      "delta J3=0"
+    ],
+    "homotopy": "H_r(F)=H_K F+(-1)^r E_K F H_K",
+    "nodes": [
+      {
+        "block": [
+          1,
+          1
+        ],
+        "cech_degree": 2,
+        "coefficient": 1,
+        "id": "J0",
+        "input": "Rsharp",
+        "internal_degree": 0,
+        "leading_owner": "o0",
+        "left": "Iphys_o0",
+        "op": "row_residual_inclusion",
+        "right": "Pphys_o0",
+        "transpose_input": true
+      },
+      {
+        "cech_degree": 3,
+        "coefficient": 1,
+        "homotopy_input_degree": 0,
+        "id": "J1",
+        "input": {
+          "input": "J0",
+          "op": "cech"
+        },
+        "internal_degree": -1,
+        "leading_owner_rule": "first vertex before any subsequent face deletion",
+        "op": "end_homotopy"
+      },
+      {
+        "cech_degree": 4,
+        "coefficient": -1,
+        "homotopy_input_degree": -1,
+        "id": "J2",
+        "input": {
+          "input": "J1",
+          "op": "cech"
+        },
+        "internal_degree": -2,
+        "leading_owner_rule": "first vertex before any subsequent face deletion",
+        "op": "end_homotopy"
+      },
+      {
+        "cech_degree": 5,
+        "coefficient": 1,
+        "homotopy_input_degree": -2,
+        "id": "J3",
+        "input": {
+          "input": "J2",
+          "op": "cech"
+        },
+        "internal_degree": -3,
+        "leading_owner_rule": "first vertex before any subsequent face deletion",
+        "op": "end_homotopy"
+      }
+    ],
+    "scalar_test_component": "J2",
+    "schema": "closed-resolution-lift-v1",
+    "top_component_required": "J3",
+    "total_differential": "D=delta_Cech+(-1)^cech_degree*d_End"
+  },
+  "combined_pole_contract": {
+    "derivative": "partial_i T(F)_ab=(Delta_ab partial_i N_ab - N_ab sum_f a_f(partial_i f) Delta_ab/f)/(D_ab Delta_ab)",
+    "generic_identity_is_not_source_clearing": true,
+    "identity": "T(F)_ab=N_ab/D_ab",
+    "pair": [
+      0,
+      1
+    ],
+    "source_clearing_verified": false
+  },
+  "distinct_map_exponent_pairs": 121,
+  "execution_release": false,
+  "finite_domain": {
+    "J2_Laurent_envelope": [
+      -38070,
+      61421
+    ],
+    "J2_numerator_coordinate_degree_upper": 28036,
+    "convolution_predicate": "p_i+sum_finite a_vi-sum_infinity a_vi-shift_i=-m_i-1",
+    "full_lift_Laurent_envelope": [
+      -45684,
+      73705
+    ],
+    "occupied_support": false,
+    "shift_i": "sum_infinity(54*d_b+29*deg(ell_vi)+5251)"
+  },
+  "obstruction": "undecided",
+  "order_comparison": {
+    "cross_order_equivalence": "unresolved; require full source/detector comparison, not seedwise E zero",
+    "fresh_definition": "carrier (aux5 rank-1), numeric low-bit mask, standard",
+    "historical_definition": "not authenticated by current source package",
+    "reindexing_is_not_rebuilding_cup_source": true
+  },
+  "outer_domain": {
+    "carrier": 54,
+    "legal": 29,
+    "lift_bounds": [
+      [
+        36,
+        20
+      ],
+      [
+        42,
+        23
+      ],
+      [
+        48,
+        26
+      ],
+      [
+        54,
+        29
+      ]
+    ],
+    "standard_per_owner": 5251,
+    "standard_units": "only identical retained owner standard tag on target intersection"
+  },
+  "physical_source_evaluated": false,
+  "regular_extension_requirement": "WHOLE cleared coefficient must extend onto designated standard target intersection, not only common localization",
+  "requests": [
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 0,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 1,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 2,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 3,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 4,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 10
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 5,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 0
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 6,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 1
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 7,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 2
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 8,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 3
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 9,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 4
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 10,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 6
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 11,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 7
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 12,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 8
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 13,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 9
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 14,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 10
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 15,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 11
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 16,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 12
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 17,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 13
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 18,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 1,
+        "i": 14
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 19,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "Q^2",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 20,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 21,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 22,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 23,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 24,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 25,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 26,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 27,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 28,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 5
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 7
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 45
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 63
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 29,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k Q",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 30,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k v_l",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "output_index": 80
+        }
+      ]
+    },
+    {
+      "J2_global_minus_applied_by_lift": true,
+      "null_row_domain_adapter": "all_twenty_row_regular_transport_domain",
+      "operator_order": [
+        "complete_Rsharp",
+        "closed_resolution_lift_J0_through_J3",
+        "original_frame_full_sign_deck_conversion_once",
+        "scalar_L_on_J2",
+        "fixed_outer_Pi54_29_preserving_standard_owners",
+        "signed_staircase_S",
+        "weighted_Serre_Laurent_pairing"
+      ],
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "signed_staircases_per_Laurent_coefficient": 24,
+      "test_id": 31,
+      "top_J3_required_for_closure": true,
+      "top_J3_terminal_contribution": 0,
+      "weight_block": "v_k v_l",
+      "weighted_terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        }
+      ]
+    }
+  ],
+  "required_frame": {
+    "deck_character": "full-sign",
+    "deck_product_removed_count": 1,
+    "frozen_endpoint_rule": "constant endpoint jets only; never drop moving frame derivatives",
+    "legal_mask_bits": "low bit i",
+    "matrix_frame": "original-resolution",
+    "row_End_transpose_count_in_j": 1,
+    "scalar_internal_degree": -2,
+    "scalar_tau_exponent": -4,
+    "standard_bits": "high bit 3-i"
+  },
+  "scalar_maps": [
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 5
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            5,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            1,
+            3
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 6
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            6,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            0,
+            3
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 7
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            7,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            1,
+            4
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 8
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            8,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            2,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            4,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 9
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            9,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            0,
+            2
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            3,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 0,
+        "i": 10
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            10,
+            0
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 0
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            0,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            2,
+            6
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            3,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 1
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            1,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            3,
+            7
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 2
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            2,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            0,
+            6
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            4,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 3
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            3,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            0,
+            9
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            1,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 4
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            4,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            1,
+            5
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 6
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            6,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            0,
+            8
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            2,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 7
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            7,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            1,
+            9
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 8
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            8,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            2,
+            5
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 9
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            9,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            0,
+            7
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": 1,
+          "entry": [
+            3,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 10
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            10,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            0,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 11
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            11,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            1,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 12
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            12,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            2,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 13
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            13,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            3,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "directions": [
+        {
+          "block": "X02",
+          "shape": [
+            5,
+            10
+          ],
+          "source": 2,
+          "target": 0
+        },
+        {
+          "block": "X13",
+          "shape": [
+            15,
+            2
+          ],
+          "source": 3,
+          "target": 1
+        }
+      ],
+      "input_internal_degree": -2,
+      "label": {
+        "b": 1,
+        "i": 14
+      },
+      "linear_terms": [
+        {
+          "block": "X13",
+          "coefficient": 1,
+          "entry": [
+            14,
+            1
+          ]
+        },
+        {
+          "block": "X02",
+          "coefficient": -1,
+          "entry": [
+            4,
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "tr01-weighted-transport-template-v1",
+  "selection_sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+  "source_HPL_formula": "-lambda_(L,f) S Pi_out H_-1 delta H_0 delta j(Rsharp)",
+  "source_components": [
+    {
+      "gerbe": "complete",
+      "id": "baseline",
+      "input": "M0_0",
+      "legacy_scalar_correction": false,
+      "op": "tracefree"
+    },
+    {
+      "id": "Fk12",
+      "matrix": "k12_ik",
+      "op": "scalar_times_row_end",
+      "scalar": "F34"
+    },
+    {
+      "id": "Fk34",
+      "matrix": "k34_ik",
+      "op": "scalar_times_row_end",
+      "scalar": "F12"
+    },
+    {
+      "id": "E12",
+      "input": {
+        "input": "F34",
+        "op": "scalar_solver",
+        "pair": [
+          2,
+          3
+        ]
+      },
+      "op": "directional",
+      "pair": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "E34",
+      "input": {
+        "input": "F12",
+        "op": "scalar_solver",
+        "pair": [
+          0,
+          1
+        ]
+      },
+      "op": "directional",
+      "pair": [
+        2,
+        3
+      ]
+    }
+  ],
+  "source_pins": {
+    "schema": "tr01-source-pins-v1",
+    "sources": [
+      {
+        "bytes": 2630,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "6ab606c5f9df44e81b7f3c4c89d5ffe84118aaa1",
+        "path": "research/hm/null-source-integration/combined-pole/certificate.json",
+        "sha256": "cd97c643c479d25dcdbc11297a0989ed4e83511e9784ff908fbe7b2acb21e218"
+      },
+      {
+        "bytes": 14410,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "2be2660f33f791af9ce6ceda87be7693a41b7dfb",
+        "path": "research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md",
+        "sha256": "c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451"
+      },
+      {
+        "bytes": 13290,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "b6e9933ffafcd7018b1b2876ad3685f22e3b5292",
+        "path": "research/hm/null-proof-foundations/refined-tracefree-pole-domain.md",
+        "sha256": "209d8c8a35edabadabd57d4608c4b49a508700cc00e983d50045b7a722de5ab2"
+      },
+      {
+        "bytes": 11090,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "b63c3486cdf15a3bca6d673d3918fcab3f30b104",
+        "path": "research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+        "sha256": "246b7265f4f8936bf5cc2bfd9f0f7505f119d4b3515acdd82822f7d45c0c4d00"
+      },
+      {
+        "bytes": 23469,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+        "path": "research/hm/null-proof-foundations/hm-regular-cover-transport.md",
+        "sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d"
+      },
+      {
+        "bytes": 11621,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "45c3fb7508aebda7090c38e5c12d06ec1e6bb72b",
+        "path": "research/hm/null-support-certificates/authenticated-refined-detector-composition.md",
+        "sha256": "7169f63931d7ae94a28db6d493208af9c46f743ad6d56f68cca55a146ca063f0"
+      },
+      {
+        "bytes": 11959,
+        "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+        "git_blob": "1dcb9d5e0def4fba2268f4c54de6409b137ed05e",
+        "path": "research/hm/null-support-certificates/outer_partition_source_binding.py",
+        "sha256": "e99e4a8c8a3736a7ef583d66f8de21680fae7dca5fe253bff7483426c513fa00"
+      },
+      {
+        "bytes": 6710,
+        "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+        "git_blob": "c3434677588f8214edfa930ecb7a90c1aa50ac24",
+        "path": "research/hm/current-scalar-proof/map-and-comparison.md",
+        "sha256": "777a11e0e82ca5de557d1b756e9ce7535836a0ff4cc34ee6e50712e23f788e72"
+      },
+      {
+        "bytes": 13965,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+        "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+        "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3"
+      },
+      {
+        "bytes": 6856,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "fa3cc80d7746f97efc790cd90d45db21ec2bb795",
+        "path": "research/hm/null-source-integration/scalar-family-transport/independent-review.md",
+        "sha256": "a90786c603a623b7a3a6ac956bf1196862f77eb67d2fd15916dfae652542a317"
+      },
+      {
+        "bytes": 42956,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "f8a9ca5ee5ae95eaffbe4c9a3fabaa937622950e",
+        "path": "research/hm/null-source-integration/scalar-family-transport/weighted-requests.json",
+        "sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+      },
+      {
+        "bytes": 9090,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "405a46728161bce487ef6d5b147ee6b7a73c7e17",
+        "path": "research/hm/null-source-integration/tracefree-currents/PROOF.md",
+        "sha256": "e77328364f7d738430d5ef4ebcde16ae1aa827ce59cd48f9300c1ad5319407b3"
+      },
+      {
+        "bytes": 1060,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "f7c3900fb1dd1af2c0437c040f97ac1f190efc41",
+        "path": "research/hm/null-source-integration/tracefree-currents/certificate.json",
+        "sha256": "24b17fae822929bbac7b621154235ad02af7b325b1052a5db6cd395ba7defd17"
+      },
+      {
+        "bytes": 2332,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "1dc5bc477f2389f3d8fd212d6e209b20bfdbb87b",
+        "path": "research/hm/null-source-integration/tracefree-currents/source-pins.json",
+        "sha256": "dfba29eb6cc4c8edb3d33afa8b4bf6afd327d7f01604c80cbf8955c0d3de1f70"
+      },
+      {
+        "bytes": 8319,
+        "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+        "git_blob": "7a51b9c0c298a5c8141871f6b357d7cfd9adf9a8",
+        "path": "research/hm/null-source-integration/tracefree-currents/independent-review.md",
+        "sha256": "a15e3115a48afc726564d125c28976449f11ea1cd3d451f539b0eaaabadbbc10"
+      }
+    ]
+  },
+  "status": "template_bound_to_conditional_null_theorem_actual_source_still_rejected",
+  "weighted_requests_sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+}

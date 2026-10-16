@@ -1,0 +1,110 @@
+{
+  "schema": "tr01-source-pins-v1",
+  "sources": [
+    {
+      "bytes": 2630,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "6ab606c5f9df44e81b7f3c4c89d5ffe84118aaa1",
+      "path": "research/hm/null-source-integration/combined-pole/certificate.json",
+      "sha256": "cd97c643c479d25dcdbc11297a0989ed4e83511e9784ff908fbe7b2acb21e218"
+    },
+    {
+      "bytes": 14410,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "2be2660f33f791af9ce6ceda87be7693a41b7dfb",
+      "path": "research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md",
+      "sha256": "c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451"
+    },
+    {
+      "bytes": 13290,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "b6e9933ffafcd7018b1b2876ad3685f22e3b5292",
+      "path": "research/hm/null-proof-foundations/refined-tracefree-pole-domain.md",
+      "sha256": "209d8c8a35edabadabd57d4608c4b49a508700cc00e983d50045b7a722de5ab2"
+    },
+    {
+      "bytes": 11090,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "b63c3486cdf15a3bca6d673d3918fcab3f30b104",
+      "path": "research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+      "sha256": "246b7265f4f8936bf5cc2bfd9f0f7505f119d4b3515acdd82822f7d45c0c4d00"
+    },
+    {
+      "bytes": 23469,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+      "path": "research/hm/null-proof-foundations/hm-regular-cover-transport.md",
+      "sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d"
+    },
+    {
+      "bytes": 11621,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "45c3fb7508aebda7090c38e5c12d06ec1e6bb72b",
+      "path": "research/hm/null-support-certificates/authenticated-refined-detector-composition.md",
+      "sha256": "7169f63931d7ae94a28db6d493208af9c46f743ad6d56f68cca55a146ca063f0"
+    },
+    {
+      "bytes": 11959,
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "1dcb9d5e0def4fba2268f4c54de6409b137ed05e",
+      "path": "research/hm/null-support-certificates/outer_partition_source_binding.py",
+      "sha256": "e99e4a8c8a3736a7ef583d66f8de21680fae7dca5fe253bff7483426c513fa00"
+    },
+    {
+      "bytes": 6710,
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "git_blob": "c3434677588f8214edfa930ecb7a90c1aa50ac24",
+      "path": "research/hm/current-scalar-proof/map-and-comparison.md",
+      "sha256": "777a11e0e82ca5de557d1b756e9ce7535836a0ff4cc34ee6e50712e23f788e72"
+    },
+    {
+      "bytes": 13965,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3"
+    },
+    {
+      "bytes": 6856,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "fa3cc80d7746f97efc790cd90d45db21ec2bb795",
+      "path": "research/hm/null-source-integration/scalar-family-transport/independent-review.md",
+      "sha256": "a90786c603a623b7a3a6ac956bf1196862f77eb67d2fd15916dfae652542a317"
+    },
+    {
+      "bytes": 42956,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "f8a9ca5ee5ae95eaffbe4c9a3fabaa937622950e",
+      "path": "research/hm/null-source-integration/scalar-family-transport/weighted-requests.json",
+      "sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0"
+    },
+    {
+      "bytes": 9090,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "405a46728161bce487ef6d5b147ee6b7a73c7e17",
+      "path": "research/hm/null-source-integration/tracefree-currents/PROOF.md",
+      "sha256": "e77328364f7d738430d5ef4ebcde16ae1aa827ce59cd48f9300c1ad5319407b3"
+    },
+    {
+      "bytes": 1060,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "f7c3900fb1dd1af2c0437c040f97ac1f190efc41",
+      "path": "research/hm/null-source-integration/tracefree-currents/certificate.json",
+      "sha256": "24b17fae822929bbac7b621154235ad02af7b325b1052a5db6cd395ba7defd17"
+    },
+    {
+      "bytes": 2332,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "1dc5bc477f2389f3d8fd212d6e209b20bfdbb87b",
+      "path": "research/hm/null-source-integration/tracefree-currents/source-pins.json",
+      "sha256": "dfba29eb6cc4c8edb3d33afa8b4bf6afd327d7f01604c80cbf8955c0d3de1f70"
+    },
+    {
+      "bytes": 8319,
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "git_blob": "7a51b9c0c298a5c8141871f6b357d7cfd9adf9a8",
+      "path": "research/hm/null-source-integration/tracefree-currents/independent-review.md",
+      "sha256": "a15e3115a48afc726564d125c28976449f11ea1cd3d451f539b0eaaabadbbc10"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "execution_release": false,
+  "files": {
+    "README.md": {
+      "bytes": 5901,
+      "sha256": "114c92617435eccc75efbd12fe51ad1ddc263cf27aa18c8edbc48b062849c612"
+    },
+    "compiled-template.json": {
+      "bytes": 1026584,
+      "sha256": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565"
+    },
+    "compiler.py": {
+      "bytes": 21901,
+      "sha256": "42dc34d123c5aa69834f003034a66ca13b6a031b84504eefd12c20d30aa4b9f2"
+    },
+    "controls-receipt.json": {
+      "bytes": 3936,
+      "sha256": "40187f9858c9549396dfd312d36453e554e23314deb34f20d92a1ec75ebb948d"
+    },
+    "formal-run-receipt.json": {
+      "bytes": 380,
+      "sha256": "b58ddde2b75314c7404276b173c057f0a9c3e94d4541c3123e451d836b041cd3"
+    },
+    "operator-contract.md": {
+      "bytes": 4816,
+      "sha256": "d3b5df917bd5643ad5f9ecc8f35d439c1e24ea57ef246a647a9bb4ce009e911f"
+    },
+    "run_controls.py": {
+      "bytes": 1495,
+      "sha256": "45a2439f8e8954fcdd07018f75773134db51a2bd6ef1e9b161ae81c53689f8d8"
+    },
+    "run_formal.py": {
+      "bytes": 1336,
+      "sha256": "f1a2aed056f40894d649801a011f8ae073772b39c878dd17af78f89a00ef1f42"
+    },
+    "source-pins.json": {
+      "bytes": 1876,
+      "sha256": "dc3fccb706a5747f82fdca152785dd756c366273dadf01d3b15021f9ae082ef0"
+    },
+    "test_compiler.py": {
+      "bytes": 8719,
+      "sha256": "7281fc6127ed2fd8c2e571fea06d8dde91b4a817044f32d9c27b110274a8e8fc"
+    }
+  },
+  "formal_circuit_nodes": 4270,
+  "independent_review": "pending SC-R",
+  "ownership_scope": "Explicit producer-owned file whitelist; reviewer-owned tests, reviews and receipts excluded.",
+  "physical_source_evaluated": false,
+  "producer_controls_normal_and_optimized": 12,
+  "purpose": "reviewer handoff marker only, NOT admission",
+  "schema": "sc01-review-handoff-v1"
+}
