@@ -2,6 +2,8 @@
 
 `lift.py` supplies exact signed HPL face programs and a canonical RS-source factory. It retains J3, all source components, deleted prefix owners, original-frame conversion and the common54/29/5251 whole-standard domain. `PROOF.md` applies the actual homogeneous-source and combined-pole/current identities; a bound table alone cannot certify extension.
 
+Pi_out weights every sampled owner and its whole weighted value extends to the full standard target. H_rho weights only inserted owners: suffix carrier/legal denominators remain in the common-cover domain, and its full-standard extension assertion concerns the appropriately cleared WHOLE coefficient.
+
 The actual constructor accepts only the canonical repository and fixed RS/transport producers. It accepts no residual callback, model, proof string or closure flag. `describe(s, full_owners)` expands at most120 face words and records the SAME source constructor's other tail-triple bindings. It constructs one concrete RS definition instance, avoiding duplication of its large source certificate. It enumerates no common fibers and evaluates no physical coefficients. Physical coefficient/stream/fiber entry points always refuse.
 
 Run the11 artificial controls normally and with optimization:

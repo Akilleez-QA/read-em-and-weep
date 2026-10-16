@@ -288,7 +288,10 @@
       "legal": 29
     },
     "standard_factors_are_target_units_not_partition_divisors": true,
-    "regularity_theorem": "actual homogeneous source; only these owned poles; clear them, extend on smooth normal Y; then cancel matching weight divisors and retain standard units",
+    "regularity_theorem": "clear whole actual homogeneous coefficient on smooth normal Y; Pi_out weights every sampled owner; H_rho weights inserted owners only and retains suffix carrier/legal divisors in the common-cover domain",
+    "fully_weighted_Pi_out_value_extends_full_standard_target": true,
+    "prism_full_standard_extension_scope": "appropriately cleared WHOLE coefficient with retained owned suffix divisors",
+    "uncleared_prism_full_standard_extension_claimed": false,
     "index_checks_are_not_source_clearing_proof": true,
     "physical_execution_authorized": false
   },
@@ -546,11 +549,14 @@
       "legal": 29
     },
     "standard_factors_are_target_units_not_partition_divisors": true,
-    "regularity_theorem": "actual homogeneous source; only these owned poles; clear them, extend on smooth normal Y; then cancel matching weight divisors and retain standard units",
+    "regularity_theorem": "clear whole actual homogeneous coefficient on smooth normal Y; Pi_out weights every sampled owner; H_rho weights inserted owners only and retains suffix carrier/legal divisors in the common-cover domain",
+    "fully_weighted_Pi_out_value_extends_full_standard_target": true,
+    "prism_full_standard_extension_scope": "appropriately cleared WHOLE coefficient with retained owned suffix divisors",
+    "uncleared_prism_full_standard_extension_claimed": false,
     "index_checks_are_not_source_clearing_proof": true,
     "physical_execution_authorized": false
   },
-  "whole_standard_extension": "actual homogeneous whole source/combined derivative identity + owned pole theorem -> clear all codimension1 poles on normal smoothY; multiply exact matching outer quotient, leave original-tag standard equations as units",
+  "whole_standard_extension": "actual homogeneous whole source/combined derivative identity + owned pole theorem -> clear all codimension1 poles on normal smoothY; Pi_out weights all sampled owners so its whole value extends; H_rho weights inserted owners only, so full-standard extension is of its appropriately CLEARED WHOLE coefficient with retained suffix divisors; original-tag standard equations stay units",
   "all20_maps_same_domain": true,
   "all32_tests_same_domain": true,
   "J3_is_mandatory_closure_witness": true,

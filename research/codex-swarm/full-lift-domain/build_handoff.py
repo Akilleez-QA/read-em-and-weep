@@ -50,7 +50,7 @@ def main():
         'frames':[L.original_frame(s)for s in range(4)],'ledger':L.domain_ledger(),
         'outer_J2_indices_example':L.outer_owner_contract(owners[:5],2,[o.standard_tag for o in owners[:5]]),
         'outer_delta_J3_seven_owner_indices_example':L.outer_boundary_contract(seventh,3,[o.standard_tag for o in seventh]),
-        'whole_standard_extension':'actual homogeneous whole source/combined derivative identity + owned pole theorem -> clear all codimension1 poles on normal smoothY; multiply exact matching outer quotient, leave original-tag standard equations as units',
+        'whole_standard_extension':'actual homogeneous whole source/combined derivative identity + owned pole theorem -> clear all codimension1 poles on normal smoothY; Pi_out weights all sampled owners so its whole value extends; H_rho weights inserted owners only, so full-standard extension is of its appropriately CLEARED WHOLE coefficient with retained suffix divisors; original-tag standard equations stay units',
         'all20_maps_same_domain':True,'all32_tests_same_domain':True,'J3_is_mandatory_closure_witness':True,
         'generic_ledger_or_string_is_not_actual_clearing_evidence':True,
         'historical_order_identity':False,'actual_fibers_enumerated':False,'physical_coefficients_evaluated':False,

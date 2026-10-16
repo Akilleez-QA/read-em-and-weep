@@ -161,7 +161,10 @@ def _outer_contract(owners,s,target_tags,is_boundary):
         'whole_numerator_homogeneous_degree':degree,'target_standard_tags':list(target_tags),
         'source_bundle_degree':[-s-2]*4,'outer_weight_divisibility':{'carrier':54,'legal':29},
         'standard_factors_are_target_units_not_partition_divisors':True,
-        'regularity_theorem':'actual homogeneous source; only these owned poles; clear them, extend on smooth normal Y; then cancel matching weight divisors and retain standard units',
+        'regularity_theorem':'clear whole actual homogeneous coefficient on smooth normal Y; Pi_out weights every sampled owner; H_rho weights inserted owners only and retains suffix carrier/legal divisors in the common-cover domain',
+        'fully_weighted_Pi_out_value_extends_full_standard_target':True,
+        'prism_full_standard_extension_scope':'appropriately cleared WHOLE coefficient with retained owned suffix divisors',
+        'uncleared_prism_full_standard_extension_claimed':False,
         'index_checks_are_not_source_clearing_proof':True,'physical_execution_authorized':False}
 
 def outer_owner_contract(owners,s,target_tags):return _outer_contract(owners,s,target_tags,False)
