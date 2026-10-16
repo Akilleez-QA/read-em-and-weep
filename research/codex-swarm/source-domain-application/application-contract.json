@@ -1,0 +1,118 @@
+{
+  "schema": "conditional-actual-standard-domain-v1",
+  "owners": [
+    [
+      12,
+      [
+        "toy-contract-slot",
+        0
+      ],
+      5,
+      0,
+      0
+    ],
+    [
+      12,
+      [
+        "toy-contract-slot",
+        1
+      ],
+      0,
+      3,
+      8
+    ],
+    [
+      12,
+      [
+        "toy-contract-slot",
+        2
+      ],
+      4,
+      15,
+      12
+    ]
+  ],
+  "pair": [
+    0,
+    1
+  ],
+  "target_standard_tags": [
+    0,
+    8,
+    12
+  ],
+  "C_degrees": [
+    [
+      57,
+      57,
+      56,
+      56
+    ],
+    [
+      73,
+      73,
+      70,
+      70
+    ],
+    [
+      73,
+      73,
+      70,
+      70
+    ]
+  ],
+  "whole_P_exact_homogeneous_degree": [
+    201,
+    201,
+    196,
+    196
+  ],
+  "Pi_summand_finite_enclosure": [
+    [
+      -706,
+      -420,
+      0,
+      0
+    ],
+    [
+      121,
+      529,
+      1469,
+      1469
+    ]
+  ],
+  "standard_target_conditions": [
+    "mixed intersection: coordinate invertible",
+    "mixed intersection: coordinate invertible",
+    "exponent>=0",
+    "exponent>=0"
+  ],
+  "source_order": "auxiliary5-first; primary0..4; numeric low-bit mask; high-bit standard tag",
+  "source_identity": "complete freshly evaluated fixed-order b-tr(C)/2, then alternating extension",
+  "required_definition_producers": [
+    "source-faithful-P",
+    "source-faithful-Q"
+  ],
+  "proof_dependency": "standard-source-witnesses/PROOF.md section1",
+  "actual_source_oracle_identity_accepted": false,
+  "actual_fibers_enumerated": false,
+  "physical_execution_authorized": false,
+  "instance_scope": "illustrative supplied owner metadata; not an actual fiber expansion",
+  "actual_definition_interface": {
+    "P": "source-faithful-P/p_binding.py:ActualPBinding(repo).describe(ordered_owners,pair)",
+    "Q": "source-faithful-Q/q_binding.py:ActualQBinding(repo).describe(owner,pair)"
+  },
+  "fresh_raw_primitive_theorem": "delta s_fresh=b-tr(C)/2, by universal raw transgression restricted to new increasing tuples, then alternating extension",
+  "primitive_domain": "same formula-local carrier14/legal1 source theorem covers s_fresh, F_fresh, restrictions and delta",
+  "harmonic_conclusion": "P_H S Pi F_fresh=0; no coefficient recomputation required",
+  "historical_nonlinear_source_order_identity": false,
+  "implementation_review_status": "P/Q acceptance is external and pending until independently recorded; no self-certification here",
+  "physical_coefficients_always_refuse": true,
+  "separate_outer_obligations": [
+    "complete Rsharp/J0..J3 identity and closure",
+    "whole54/29/5251 prism/restriction domain",
+    "complete actual source coefficient provider integration",
+    "global cost/memory schedule",
+    "detector values and global obstruction decision"
+  ]
+}
