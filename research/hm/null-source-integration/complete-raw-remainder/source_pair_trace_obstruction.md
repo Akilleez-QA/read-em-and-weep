@@ -92,3 +92,25 @@ Independent review should particularly check the link from the finite common amb
 For the repeated carrier1 edge with masks 0 and 2^a, its rational carrier core is P_1^0 I_1^0=I. Hence B=g_jk=D_k D_j^-1 is diagonal and depends on only coordinate x_a (and its curve coordinate y_a). Every cross slot used in Omega differentiates two distinct coordinates, so V_c V_d B=0 for those slots. Thus every transported J_cd=0, and Omega=0 identically on this family.
 
 This sharpens the scope: the failure of the closed-K criterion occurs on an actual-source family where the second-jet Omega shortcut itself holds. It demonstrates that proving Omega=0 would still not justify deleting K by the proposed closed-scalar/H1 argument. It does not demonstrate a nonzero complete remainder or failure of a different boundary cancellation.
+
+## 6. Direct common-frame audit of the coefficient 19
+
+There is a second way to check the weighted trace coefficient without subtracting connection coefficients written in different prescribed frames. The source complex has line powers k=(-1,1,3,5), ranks (5,15,10,2) and supertrace signs (-,+,-,+). Passing from a prescribed line frame to the common finite reference multiplies the ambient block by nu^k.
+
+In the prescribed split bases the two interior determinant nu exponents are both 4: for U0 they are -2*5+0-2+2*8=4; for U1 they are 2*2=4. The extreme split bases are identities. After the ambient transport, the four common-frame determinant exponents are therefore
+
+    e=(-5,19,34,10).
+
+The weighted supertrace of the split connection is minus the signed k-weighted determinant logarithmic derivative. Its nu coefficient is
+
+    -sum_r sign_r*k_r*e_r
+      =-[-5+19-102+50]=38.
+
+Both interior determinant pivot factors are v_pivot^-2. Their weighted contribution is -[1*(-2)+(-3)*(-2)]p=-4p. Thus directly in one common ambient frame,
+
+    str(k nabla'_i)=38 ell_i-4p_i,
+    str(k Z_jk)=38(ell_k-ell_j)-4(p_k-p_j).
+
+This independently recovers the scalar term used in Lambda. The common pivot connection coefficient is -p_i/2, so eta_ij=p_j-p_i. Finally, the middle cohomology columns in the prescribed U0 have factors (1,nu^-2); multiplying by the ambient nu gives (nu,nu^-1). This is precisely I_i=I_i^ref C_i, with reciprocal P, used in the reference Gamma calculation and the affine-mask reduction. These checks tie the coefficient 19 and the cohomology frame normalization directly to the published source block weights. They do not replace independent review of the full argument.
+
+For the repeated-last-carrier counterargument, even the global determinant-ratio premise can be avoided in this audit. The rational carrier base of each split determinant is identical at j and k and cancels in their logarithmic difference. Only the four nu exponents e above survive, giving str(k Z_jk)=38(ell_k-ell_j) directly. Also p_j=p_k, and eta_ij=dlog(v1) follows directly from the pivot sections. Thus the factor 19 in this particular counterargument needs no assertion about gluing det(S)/det(T) to a global unit. This narrows the review dependency to the common ambient transport, sparse reference connections, and exact delta K identity.
