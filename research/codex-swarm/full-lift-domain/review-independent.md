@@ -1,0 +1,116 @@
+# JC01 independent review — 2026-10-16
+
+Accept the coefficient-free full-lift/domain application **conditional on the named actual model, contraction/frame and RS/FD/PBQ source premises**. No blocking defect found at that scope. This accepts the signed owner-parametrized J0–J3 construction, the universal seven-owner top closure argument, and the whole-source common54/29/5251 regularity implication. It does not accept physical arithmetic, arbitrary source callbacks, historical-order equality, or an obstruction decision.
+
+## Reviewed definitions and immutable evidence
+
+Read the applicable `/home/akilleez/AGENTS.md`, repository README and swarm source/ownership/execution instructions. Inspected JC producer marker, pins, proof, implementation, controls, contract and face example; actual RS01 `r_binding.py`, `formal_identities.py`, proof and pins; SC source constructor and existing 4270-node template; FD `domain.py` and proof; PB/QB bindings and proofs; PH actual homogeneous/frame dictionary and proof; transport binding/schema; original source excerpts, first-order transgression, source identity, closure/characters, frames/poles and map/comparison. The actual source excerpt retains the seven kinetic terms, mixed second-jet coefficient 1/4, and three negative `globalCross` gerbe terms. No source function or physical checker was executed.
+
+All 13 JC immutable dependencies matched byte count, SHA256 and recorded blob digest. All 9 canonical workspace snapshots matched byte count and SHA256. Four immutable proof paths are absent from this checkout: scalar-family-transport, refined-tracefree-pole-domain, hm-regular-cover-transport and combined-pole. Read those exact commit-pinned bytes over read-only `raw.githubusercontent.com` HTTPS and verified the same digests; used no git command or object-store operation. Also read the pinned direct scalar reduction and transition-only first-lift proof, checking their SHA256 against RS pins. This authenticates definitions, not the truth of their imported model identities.
+
+Important immutable proof anchors (paths below `research/hm/`):
+
+| Input | Commit | Blob |
+| --- | --- | --- |
+| scalar-family-transport/PROOF.md | 43193bc8badf3f29a1363132135d956cc12d46ad | fc8befcc863efd073d4a66dc6eec12c722504447 |
+| null-proof-foundations/refined-tracefree-pole-domain.md | 10810ee877fdaf291399198ad60d7dd0c316a42d | b6e9933ffafcd7018b1b2876ad3685f22e3b5292 |
+| null-proof-foundations/hm-regular-cover-transport.md | same | 1131532f944cf23319329d0904a8c8a4afc8b10e |
+| null-source-integration/combined-pole/PROOF.md | same | 9d7a5a400b48d9b8b46008fbd9fb3d79be601920 |
+| current-scalar-geometric-dependencies/frames-and-poles.md | 08b73637d4136f91606aad332c46cafd064417f8 | 46470b5a7198be2f8c39f9cb5f5a904ae355ec97 |
+| current-scalar-proof/map-and-comparison.md | same | c3434677588f8214edfa930ecb7a90c1aa50ac24 |
+
+The first table path is `null-source-integration/scalar-family-transport/PROOF.md`. The complete SHA256/size records remain in the unchanged JC source pins.
+
+## Same row source, then one transpose
+
+RS defines the fresh first lift, separately for p=(0,1), q=(2,3), by `s=T_N14 F`, `k=-mu(g^-1,g)/2`, `u=g(s I+k)`. FD's fresh raw transgression and admitted primitive domain give `delta s=F`; the rank-two model gives `delta k=-C^0`. Both inner prisms and the complete `R(Kcov Pi+A h S Pi)` branch remain present. Historical nonlinear re-evaluation in another order is not invoked.
+
+The actual row formula is
+
+    Rsharp=M0^0+F_q k_p,ik+F_p k_q,ik+E_p(s_q)+E_q(s_p),
+    E_p(t)=1/2[(Va t_jk)Lb-(Vb t_jk)La+(Vb t_ij)Ua-(Va t_ij)Ub].
+
+`M0` is the whole left-normalized `globalCross` at `u0=gk`, including all three gerbe subtractions before trace-free projection. RS proves `Rsharp=M^0+delta W`, `W=s_q k_p+s_p k_q`, with positive boundary sign. Its exact ambient defect syzygy, both coherence identities and vanished first defect imply closure of M. Scalar full-sign H2 vanishes for O(-2)^4, giving class identification without asserting pointwise M=Rsharp or closing individual branches.
+
+Only after forming and normalizing this row expression does inclusion apply `I Rsharp^t P`. The fixed canonical RS factory is the meaning of every leaf; one stored definition instance plus its owner bindings is a universal constructor reference, not 120 independent source certificates. Every recursive face is still increasing in the original source order. Inspection and artificial wiring controls check every face tail and original prefix owner; deletion never erases an H owner already used. General common-cochain alternation is not strengthened to F's special repeated-physical-label zero rule.
+
+## Signs, actual H, and seven-owner closure
+
+With `dF=d_K F-(-1)^r F d_K`, `E=IP`, the actual contraction gives
+
+    H_r F=h_K F+(-1)^r E F h_K,
+    dH+Hd=1-j pi.
+
+Both terms matter. The projection compatibility between row transport and resolution inclusion is an imported actual frame/contraction identity. Source closure kills the projected obstruction at the first correction. For negative internal degrees pi=0. With `D=delta+(-1)^q d_End`, the recurrence is `J0=jR`, `J1=+H0 delta J0`, `J2=-H_-1 delta J1`, `J3=+H_-2 delta J2`, in degrees `(2+s,-s)`. It yields `dJ0=0`, `delta J0-dJ1=0`, `delta J1+dJ2=0`, `delta J2-dJ3=0`.
+
+Finally `d delta J3=delta dJ3=delta^2 J2=0`. For an actual bottom W, `dW=(W ev,gamma W)`. If it vanishes, `H0 gamma=1` gives W=0. Thus `delta J3=0` universally on **seven** owners. The old 4270-node DAG has only six owners and cannot supply that seventh-owner equation by enumeration. JC uses the injectivity proof, with a separate seven-owner domain contract. There is no claim that the six-owner Laurent rectangle also encloses the seven-owner boundary.
+
+The actual homogeneous primitives have h_K degree -1, I/P opposite common half-line weights, and physical splitting balances `2d+p=0`. PH retains hidden v0 factors (auxiliary H degree4), both moving endpoint Q terms, invariant-vector inversion signs, coherent line frames and original owner constants. Each full-sign axis occurs once; no same-axis second derivative is suppressed. Removing the deck product once contributes tau^-2; each H contributes tau^-1. Hence the original-frame conversion is `tau^(r-2)`: J0/J1/J2/J3 use -2/-3/-4/-5. J2 is converted before any constant L. A scalar target twist is not assigned backwards to the row source.
+
+## Derivation of the common domain from whole rational sources
+
+PB supplies `P=(product C)F`, `C=H^14 product_pair ell`, with exact degree `sum degree(C)+n_pair`, and PH identifies this homogeneous numerator with the actual physical source in every chart. QB supplies the same owned polynomial quotient `rho/C=Qhat`, with one divisor-frame reversal and no extra pair twist. FD supplies complete regular B on the full standard target and the same fresh scalar equation. These are essential inputs, not status flags.
+
+The standard support arithmetic is `lower=-3(481+2)-3(70+3)=-1668`, `upper=217+3*1677=5248`; pair twist gives boundary order5250. Raw rho has degree at most `max(1677+70,481+70+2)=1747`. The combined-pole identity forms ONE numerator
+
+    N=C_a C_b Z_ab B_ab
+      +Z_ab sum_u Qhat_u P_[u,a,b]
+      -C_a Z_ab sum_(u,v) Qhat_u Qhat_v P_[u,v,b],
+    s=N/(C_a C_b Z_ab),
+
+where Z_ab retains two owned standard factors of order5250. The second prism's C_a padding is required. Inserted carrier/legal denominators cancel before differentiation. Product/quotient differentiation raises each existing owned divisor order at most once, yielding15/2/5251 for V(s). It does not clear raw `(V rho)F` and `rho V(F)` separately. The complementary O-to-O(-2) derivative includes its physical infinity-frame rule.
+
+The actual current cancellation is universal, not a guessed smaller cost. Differentiate `G=BA`:
+
+    G^-1 V(G)=A^-1 B^-1 V(B) A+A^-1 V(A),
+    U=G^-1 V(G)-A^-1 V(A).
+
+Therefore L and U both have carrier/legal9/5, rather than the unsimplified17 carrier cost for U. Actual g/adjugate have4/2; k has10/6; u0=gk has14/8. The largest normalized baseline `g^-1 u0 u0` has32/18. Its derivative kinetic terms have24/14, mixed mu2 has16/10, and gerbe terms are smaller. Fk and E(Vs) have24/7 each. All source terms are included, so Rsharp has32/18/5251. Inclusion adds4/2; each undifferentiated End H adds at most6/3 (the IP F h term). This derives:
+
+| Component | Carrier | Legal | Standard |
+| --- | ---: | ---: | ---: |
+| J0 | 36 | 20 | 5251 |
+| J1 | 42 | 23 | 5251 |
+| J2 | 48 | 26 | 5251 |
+| J3 | 54 | 29 | 5251 |
+
+This is whole-coefficient rational pole accounting in actual homogeneous frames, not a separately regular intermediate-pieces assertion. Every inverse/derivative pole comes from a primitive at an actual occurrence. Equal polynomial equations do not merge owners; absent owners cannot donate factors.
+
+For each occurrence v, let `a_vi=54 d_v+29(1+2 mask_vi)+5251`. Multiplying a whole internal-r coefficient by `product_v H_v^54 product_i ell_vi^29 Z_(r(v),i)^5251` gives a rational homogeneous section of **exact assigned degree** `sum_v a_vi+r-2` in coordinate i. Its polynomial may have lower degree in a dehomogenized chart. Original owner tags, rather than a representation chart chosen for the proof, define each Z.
+
+The preceding actual homogeneous source and pole classification remove every codimension-one pole, including infinity. On smooth normal Y=(P1)^4, the cleared rational section of a locally free sheaf extends componentwise across codimension >=2. This is the missing implication a bound table alone cannot supply. Matching outer54/29 quotient divisibility then cancels only the owned H/ell factors. Every retained Z is already a unit on the designated standard target. Inserted prism vertices have their designated row tags; unchanged suffix and deleted-prefix owners keep their original tags. Restriction preserves this argument. The seventh boundary owner can be padded harmlessly, with exact degree computed using all seven factors, without claiming a six-owner support box.
+
+For every selected constant row, `L(X)=X13[i,b]-sum gamma[i,a,k] X02[a,5b+k]`; gamma here is constant, not polynomial. The two contributions to L(dW) cancel termwise for all30 rows, hence all20 selected rows. L adds no poles. Thus `delta L(J2)=L(dJ3)=0`. The regular comparison `r*A S Pi J-J=DW`, with `W=-Hrho J-r*K Pi J`, proves equality modulo scalar coboundary. The terminal formula has precisely the J2 minus, `-lambda S Pi H_-1 delta H0 delta jR`. The32 requests contain127 weighted terms and121 distinct map/exponent pairs. J3 is mandatory for this reasoning though its terminal scalar contribution is zero.
+
+## Independent bounded controls and receipts
+
+Only reviewer files `test_independent.py` and this note were written. The test file uses a separately constructed exact eight-dimensional artificial complex, seven varying local contractions and a nonsymmetric closed artificial row source. It uses independent matrix multiplication and graded operators to check all64 matrix units, both H terms, all correction signs, nonzero J0/J1/J2/J3 and every closure equation, including the seven-owner top boundary. Reversing each correction sign has a nonzero differential witness; a nonclosed artificial source fails the first correction equation. A separate arbitrary noncommuting 2x2 example checks the U identity and rejects wrong sign/order. Free-word RS controls check positive boundary and all four ambient-syzygy signs.
+
+Other controls reconstruct every face sign and owner word, exact degree/tags including the seventh owner, frame shifts, all30 selector cancellations, weighted request scope, real source-graph metadata and corrupted branch/gerbe/physical-frame flags, malformed immutable pins and owner/frame/gate inputs. Actual constructor composition is tested with explicitly artificial descriptors only. The real nested RS/P/Q/transport `describe` path was inspected, not launched: its authentication invokes git, excluded by this task. Tests patch subprocess creation to fail, and use no network. Missing immutable proof bytes are verified separately as recorded above; offline tests do not pretend to authenticate absent files.
+
+Direct-file runs, each via an external `subprocess.run(...,timeout=60)` supervisor, with internal hard RLIMIT_AS=805306368 bytes (768 MiB) and RLIMIT_CPU=59 seconds:
+
+| Command from repository root | Tests | Result | Child elapsed | Parent wall | Peak RSS KiB |
+| --- | ---: | --- | ---: | ---: | ---: |
+| `python -B research/codex-swarm/full-lift-domain/test_independent.py` | 13 | PASS | 0.973837 s | 1.034364 s | 38124 |
+| `python -B -O research/codex-swarm/full-lift-domain/test_independent.py` | 13 | PASS | 1.020937 s | 1.082073 s | 37552 |
+
+No assert-dependent gates, actual coefficients, physical jets, actual fibers, partition expansions, physical evaluations, witness search or mathematical scan occurred. Artificial derivative placeholders are arbitrary matrices. Reading the existing source DAG is metadata inspection. These resource bounds cover these controls alone and confer no new resource admission.
+
+## Integrity and residual obligations
+
+All12 producer files matched the ready marker before review and remained identical after tests; the marker itself also remained identical. The independent test pins the marker and source-pin manifest against simultaneous self-report changes. Before=after anchors:
+
+| File | SHA256 |
+| --- | --- |
+| producer-ready.json | f08c891d7639d6487efcb65cc9d582e31428bbe48fdd775266d9f4179cf9178e |
+| lift.py | 5712731a8b120cb4b47c28ed296d464ec89729ff2294e296942fd7c25e39cf67 |
+| PROOF.md | 27747cbfbcdcd7a40407cfbf5e4943632de7a72faa125ccf25bb81e0427ecd10 |
+| source-pins.json | 515c3d1a21645741aab58cf404228263ebc12128c9636c0df1fe0f9afd74d82a |
+| lift-contract.json | 7e7f6277db494acb4c80f5fd16453ad42425cc6fb22a1343cd76db495a522d14 |
+
+The other eight producer digests are exactly those in the unchanged marker; all nine canonical workspace pins also remain unchanged. No producer edits, git commands or GitHub posts were made.
+
+Retained imports: actual determinant-one cocycle and coherent physical frame/deck linearization; exact original resolution contraction and row/inclusion projection compatibility; authenticated primitive homogeneous seeds and pole bounds; RS ambient two-jet/first-lift/closure/class theorem; FD admitted fresh raw primitive and harmonic-zero/domain application; PB/QB/PH actual source and quotient semantics; fixed partition, prism, rectangle and staircase identities. Their independent implementation acceptance remains external to JC. Proof strings, statuses, hashes and index contracts cannot manufacture these premises. This is a conditional mathematical application, not a hostile-Python authentication boundary.
+
+Still open: independent RS implementation acceptance and any upstream model obligations; historical-versus-fresh nonlinear source/value comparison; executable whole coefficient/jet/fiber realization and complete arithmetic/live-storage schedule; transport's pending adapter registry/lowering; authenticated detector values and global obstruction verdict. JC does not populate that registry or authorize an actual96 provider. The six-owner Laurent envelopes are not a seventh-owner finite-support certificate. Physical coefficient, factor-stream and owner/fiber entry points remain unconditionally refused. The obstruction is undecided.
