@@ -76,3 +76,13 @@ Since each r_a is a nonzero rational function, vanishing of the four single-bit 
 For example, contraction of F wedge(r_0 dx_0) on (0,1) is -r_0 F_1, and the bit-one coefficient is r_1 F_0; the other pair is identical. This uses rational-function nonvanishing, not a claim that a numerical coefficient is bounded away from zero everywhere. Over the common finite function field, y factors are invertible and do not alter the criterion.
 
 Equation (5) supplies a direct falsification target for the all-mask closed-K proposal: failure of either weighted trace one-form identity already suffices. It still says nothing by itself about the complete obstruction, and no actual weighted trace has been computed here.
+
+## Repeated carriers give an exact smaller test
+
+If the first two vertices use the same carrier, then K_ij=I, Gamma_i^0=Gamma_j^0, Q_ij^0=0 and u_ij=0. Equations (3)-(4) give Lambda=0 for every legal mask and any third carrier. This is a rational finite-chart identity, independent of actual coefficient evaluation.
+
+If instead the last two vertices have the same carrier, K_jk=I, z_jk^0=0, u_jk=0, K_ik=K_ij and A_k=A_j. The formula becomes
+
+    Lambda_ijk=(A_j-19u_ij) wedge(ell_j-ell_k).             (6)
+
+Such vertices remain distinct when their legal masks differ. Consequently these repeated-last-carrier triples alone already test the necessary weighted-trace one-form identity A_j=19u_ij. For each pair contraction only the two relevant single-bit differences are needed. This isolates the pairwise part of the proposed all-cover shortcut without introducing a third distinct carrier. It is a reduction of the symbolic identity to be checked, not a claim that the pairwise identity holds. With all three carriers equal, the first case gives zero identically.
