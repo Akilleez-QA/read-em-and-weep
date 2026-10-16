@@ -1,0 +1,114 @@
+{
+  "schema": "wave7-supplemental-null-cost-review-v1",
+  "published_after_frozen_final_replay": true,
+  "does_not_modify_final_replay_manifests_or_counts": true,
+  "external_suites_attributed_not_rerun": true,
+  "review_scope": "conditional frozen-graph symbolic majorant and narrow acceptance of exponent-height and transitive-binding repairs; no physical byte/native-bitwork/shared-ledger admission",
+  "files": [
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/binding-repair-normal.log",
+      "git_blob": "a7f2a0fe324506ef6c2bb152515caee8e476fdb3",
+      "sha256": "749b0146f4be90420d83fef84a40c4af809f18caa1fb21a0a47b33461cf9b4c0",
+      "bytes": 267,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/binding-repair-optimized.log",
+      "git_blob": "a7f2a0fe324506ef6c2bb152515caee8e476fdb3",
+      "sha256": "749b0146f4be90420d83fef84a40c4af809f18caa1fb21a0a47b33461cf9b4c0",
+      "bytes": 267,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/check_transitive_binding.py",
+      "git_blob": "a331c99ec9f49c95975f905f565b25c0a3c0733c",
+      "sha256": "f1cb49185a16a883ffea33c5471f0104c9bab35571ab87c075976de37e4a07bc",
+      "bytes": 2844,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/cost-binding-followup-2026-10-16.md",
+      "git_blob": "6fc828b275bbd023a45d986b95fd7dbdb0c55851",
+      "sha256": "0868e39cf3a4f21a34fff98565c74794f4c46800eed4d05b6410dae35f144d1a",
+      "bytes": 3116,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/cost-controls-normal.log",
+      "git_blob": "a367e2fb3db0c98f65537874a0b7e8c5a340415a",
+      "sha256": "6e7c701061ffc8054dc2668c8f2882968950b7018c97ddaabd5a6a24ec75c23d",
+      "bytes": 967,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/cost-controls-optimized.log",
+      "git_blob": "a7f3c4136a1b98c69a011b89d10b97e949642b36",
+      "sha256": "f10ca8e8bf9e49e9870cae5248c8da14bbfab9ba707233384028b65e77bbadbd",
+      "bytes": 967,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/cost-review-receipt.json",
+      "git_blob": "21ef7d7c9026e793c6c041f756ecb5655b957bbf",
+      "sha256": "128b8e0f187922f382de336a7f14eed38615e108a17d783b756773dbb09eda74",
+      "bytes": 1620,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/cost-review.md",
+      "git_blob": "4d62aca614ad59788df66510dd8db7c52dabeacb",
+      "sha256": "e28db3dad1110c092c31be5227e0781f31cd530ef68bc77683f366501f029a74",
+      "bytes": 13671,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/height-repair-normal.log",
+      "git_blob": "24f53f949708278a15f4cc9f465986a038ae0c35",
+      "sha256": "ab78d8f8cdfe31dd59e9d90f772ba15ec21b105cc9e1d22b78c60ea73dafdf11",
+      "bytes": 316,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/height-repair-optimized.log",
+      "git_blob": "216e04523837c32cd4cd66b0c6ee0535c881508e",
+      "sha256": "e50186721e3b54bf2f2ebb787a61dec963a4697f2b6f7d96f7cfabfaad1f083c",
+      "bytes": 316,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/test_cost_review.py",
+      "git_blob": "c923d2e3a67cd99fa966e90550c913ef6c31a3b0",
+      "sha256": "118f28fae5d075c7fc667d49c85f9252e82c5d6dc9363f9b0f21a00348f98d3c",
+      "bytes": 9627,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/test_height_repair.py",
+      "git_blob": "ea8e1575681c96fe142cfa5ac96a98404e7daf38",
+      "sha256": "ef374ee5e866e6097e1737964cca6c46e91c97b8e6de68f8b3bcbc892afedd2d",
+      "bytes": 2400,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/detector-cost-review/transitive-binding-control.log",
+      "git_blob": "2668cea058d98ab0f9482c5d24b957157ac4186b",
+      "sha256": "6c5685259d45e6d8c71e147a80da86608d8bb94165c37693e09afa54a804ad4d",
+      "bytes": 181,
+      "github_bytes_match": true
+    }
+  ],
+  "physical_execution_release": false
+}

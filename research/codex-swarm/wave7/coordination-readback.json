@@ -1,0 +1,66 @@
+{
+  "schema": "wave7-coordination-exact-readback-v1",
+  "source_snapshot": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+  "feature_receipt_commit": "15721859ab729cb4cde708164b3ae584fd909425",
+  "registry_head": "e6aa35fbc989ddcb3c51d0e32690fda7c6cb0aa6",
+  "feature_after_source_paths": [
+    "research/codex-swarm/SOURCE_INVENTORY.md",
+    "research/codex-swarm/STATUS.md",
+    "research/codex-swarm/wave7/README.md",
+    "research/codex-swarm/wave7/github-readback.json"
+  ],
+  "no_source_changes_after_reviewed_snapshot": true,
+  "files": [
+    {
+      "commit": "15721859ab729cb4cde708164b3ae584fd909425",
+      "path": "research/codex-swarm/SOURCE_INVENTORY.md",
+      "sha256": "dbdc16769e9f0b79c7ef727ad0e725309661a4ff9c05e65194acbe2e6eb0a3fb",
+      "bytes": 14152,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "15721859ab729cb4cde708164b3ae584fd909425",
+      "path": "research/codex-swarm/STATUS.md",
+      "sha256": "c78a228b9dcaca23bd7dd064e16d8bb93e1e38af6540a649c03da201c0a12770",
+      "bytes": 29061,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "15721859ab729cb4cde708164b3ae584fd909425",
+      "path": "research/codex-swarm/wave7/README.md",
+      "sha256": "446fb90f23bcb0278af0818dbd37ec41f9bdfc6ee866f20bceb5d8d4c0146f13",
+      "bytes": 6077,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "15721859ab729cb4cde708164b3ae584fd909425",
+      "path": "research/codex-swarm/wave7/github-readback.json",
+      "sha256": "90e1ddf8ab2866a5df1e9db0588b5982564a50f7c48480b2b817e359c142fc53",
+      "bytes": 29685,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "e6aa35fbc989ddcb3c51d0e32690fda7c6cb0aa6",
+      "path": "research/codex-swarm/README.md",
+      "sha256": "9a815eae463f10a17693cbd299fcd8f9b53cc124d052416cecf42fbdc7a981b6",
+      "bytes": 7429,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "e6aa35fbc989ddcb3c51d0e32690fda7c6cb0aa6",
+      "path": "research/codex-swarm/SOURCE_INVENTORY.md",
+      "sha256": "dbdc16769e9f0b79c7ef727ad0e725309661a4ff9c05e65194acbe2e6eb0a3fb",
+      "bytes": 14152,
+      "github_bytes_match": true
+    },
+    {
+      "commit": "e6aa35fbc989ddcb3c51d0e32690fda7c6cb0aa6",
+      "path": "research/codex-swarm/STATUS.md",
+      "sha256": "c78a228b9dcaca23bd7dd064e16d8bb93e1e38af6540a649c03da201c0a12770",
+      "bytes": 29061,
+      "github_bytes_match": true
+    }
+  ],
+  "PR89_body_matches": true,
+  "physical_execution_release": false
+}
