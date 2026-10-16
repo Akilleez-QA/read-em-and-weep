@@ -127,6 +127,9 @@ class Execution:
         return self.poly(((tuple(e), 1),))
 
     def rational(self, numerator, denominator=None):
+        self.check()
+        if any(isinstance(p, Poly) and p.ex is not self for p in (numerator, denominator)):
+            raise ValueError("polynomial inputs must share receiving Execution")
         if not isinstance(numerator, Poly):
             numerator = self.constant(numerator)
         if denominator is None:
