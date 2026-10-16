@@ -1,0 +1,16 @@
+test_closed_harmonic_counterexample_both_pairs (__main__.IndependentControls.test_closed_harmonic_counterexample_both_pairs) ... ok
+test_cone_higher_degrees_and_rectangle (__main__.IndependentControls.test_cone_higher_degrees_and_rectangle) ... ok
+test_explicit_bit_orientation_and_staircase (__main__.IndependentControls.test_explicit_bit_orientation_and_staircase) ... ok
+test_extension_refuses_each_lost_binding (__main__.IndependentControls.test_extension_refuses_each_lost_binding) ... ok
+test_fiber_and_quotient_refusals (__main__.IndependentControls.test_fiber_and_quotient_refusals) ... ok
+test_full_R_and_pre_h_derivatives (__main__.IndependentControls.test_full_R_and_pre_h_derivatives) ... ok
+test_multiterm_Pi_convolution_and_owner_trace (__main__.IndependentControls.test_multiterm_Pi_convolution_and_owner_trace) ... ok
+test_nonclosed_identity_requires_B_delta (__main__.IndependentControls.test_nonclosed_identity_requires_B_delta) ... ok
+test_physical_modes_rejected_even_with_cached_values (__main__.IndependentControls.test_physical_modes_rejected_even_with_cached_values) ... ok
+test_support_metadata_and_inserted_padding_boundary (__main__.IndependentControls.test_support_metadata_and_inserted_padding_boundary) ... ok
+test_tensor_identity_regular_basis_thresholds (__main__.IndependentControls.test_tensor_identity_regular_basis_thresholds) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.190s
+
+OK

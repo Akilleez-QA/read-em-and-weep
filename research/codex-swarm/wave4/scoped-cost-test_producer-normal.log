@@ -1,0 +1,13 @@
+test_actual_demands_and_complete_source (__main__.ProducerTests.test_actual_demands_and_complete_source) ... ok
+test_actual_sources_and_pin_authentication (__main__.ProducerTests.test_actual_sources_and_pin_authentication) ... ok
+test_exact_validation_rejects_mutated_scope_bound_and_gate (__main__.ProducerTests.test_exact_validation_rejects_mutated_scope_bound_and_gate) ... ok
+test_full_owner_and_standard_boundaries (__main__.ProducerTests.test_full_owner_and_standard_boundaries) ... ok
+test_integer_bound_and_shape_semantics (__main__.ProducerTests.test_integer_bound_and_shape_semantics) ... ok
+test_reference_decoding_never_treats_slots_as_nodes (__main__.ProducerTests.test_reference_decoding_never_treats_slots_as_nodes) ... ok
+test_report_has_explicit_pending_programs_and_held_gates (__main__.ProducerTests.test_report_has_explicit_pending_programs_and_held_gates) ... ok
+test_tree_counts_and_known_template_sharing (__main__.ProducerTests.test_tree_counts_and_known_template_sharing) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.674s
+
+OK

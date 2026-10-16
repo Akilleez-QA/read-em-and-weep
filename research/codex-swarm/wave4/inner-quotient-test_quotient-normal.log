@@ -1,0 +1,12 @@
+test_actual_n14_metadata_refuses_all_coefficient_paths (__main__.Controls.test_actual_n14_metadata_refuses_all_coefficient_paths) ... ok
+test_caps_abort_and_aggregate_state (__main__.Controls.test_caps_abort_and_aggregate_state) ... ok
+test_cbar_dbar_endpoint_ranges (__main__.Controls.test_cbar_dbar_endpoint_ranges) ... ok
+test_first_hit_exact_disjoint_domains (__main__.Controls.test_first_hit_exact_disjoint_domains) ... ok
+test_owner_frame_reversal_and_pair_line (__main__.Controls.test_owner_frame_reversal_and_pair_line) ... ok
+test_polynomial_convolution_and_no_truncation (__main__.Controls.test_polynomial_convolution_and_no_truncation) ... ok
+test_zero_finite_mask_and_unavailable_carrier (__main__.Controls.test_zero_finite_mask_and_unavailable_carrier) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.007s
+
+OK

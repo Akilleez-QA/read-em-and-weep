@@ -1,0 +1,15 @@
+test_01_pins_and_entire_certificate (__main__.Independent.test_01_pins_and_entire_certificate) ... ok
+test_02_elementary_lift_as_independent_subset_polynomials (__main__.Independent.test_02_elementary_lift_as_independent_subset_polynomials) ... ok
+test_03_literal_primitive_exponents_and_padding (__main__.Independent.test_03_literal_primitive_exponents_and_padding) ... ok
+test_04_actual_rf_connection_cross_multiplied (__main__.Independent.test_04_actual_rf_connection_cross_multiplied) ... ok
+test_05_artificial_matrices_all_charts_both_pairs (__main__.Independent.test_05_artificial_matrices_all_charts_both_pairs) ... ok
+test_06_negative_endpoint_sign_order_controls (__main__.Independent.test_06_negative_endpoint_sign_order_controls) ... ok
+test_07_D_half_weight_and_chain_balance (__main__.Independent.test_07_D_half_weight_and_chain_balance) ... ok
+test_08_C_legal_sections_owner_tags_and_reversal (__main__.Independent.test_08_C_legal_sections_owner_tags_and_reversal) ... ok
+test_09_order_boundary_and_mutation_rejection (__main__.Independent.test_09_order_boundary_and_mutation_rejection) ... ok
+test_actual_rf_tangent_on_artificial_Laurent_entries (__main__.Independent.test_actual_rf_tangent_on_artificial_Laurent_entries) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.179s
+
+OK

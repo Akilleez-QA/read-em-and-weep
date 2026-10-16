@@ -1,0 +1,15 @@
+test_actual_owner_units_and_C_P_degrees (__main__.Tests.test_actual_owner_units_and_C_P_degrees) ... ok
+test_all16_chart_core_and_trace_identity (__main__.Tests.test_all16_chart_core_and_trace_identity) ... ok
+test_complementary_frame_uses_null_property_not_cochain_sorting (__main__.Tests.test_complementary_frame_uses_null_property_not_cochain_sorting) ... ok
+test_corrupt_source_reject (__main__.Tests.test_corrupt_source_reject) ... ok
+test_elementary_generator_pullback_formally (__main__.Tests.test_elementary_generator_pullback_formally) ... ok
+test_exact_primitive_homogeneous_bridge (__main__.Tests.test_exact_primitive_homogeneous_bridge) ... ok
+test_infinity_endpoint_Q_and_tangent_coefficients (__main__.Tests.test_infinity_endpoint_Q_and_tangent_coefficients) ... ok
+test_source_reference_and_no_global_program_claim (__main__.Tests.test_source_reference_and_no_global_program_claim) ... ok
+test_strict_owner_chart_and_mutated_frame_reject (__main__.Tests.test_strict_owner_chart_and_mutated_frame_reject) ... ok
+test_two_minus_signs_and_actual_gerbe (__main__.Tests.test_two_minus_signs_and_actual_gerbe) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.059s
+
+OK

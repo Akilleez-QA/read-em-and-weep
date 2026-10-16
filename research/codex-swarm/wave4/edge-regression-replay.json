@@ -1,0 +1,32 @@
+{
+  "controls": [
+    {
+      "optimized": false,
+      "result": "PASS; increasing-edge call=-1, reversed edge explicitly rejected",
+      "returncode": 0,
+      "tests": 1
+    },
+    {
+      "optimized": true,
+      "result": "PASS; increasing-edge call=-1, reversed edge explicitly rejected",
+      "returncode": 0,
+      "tests": 1
+    }
+  ],
+  "execution_release": false,
+  "implementation_sha256": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452",
+  "physical_source_evaluated": false,
+  "schema": "null-exact-edge-regression-replay-v1",
+  "source_commit": "93120cfab74e448e7df07268abe6c54031d630db",
+  "source_directory": "research/hm/null-source-integration/ins-edge-order-regression/",
+  "source_files": {
+    "README.md": {
+      "git_blob": "2bab782132040e08d086c2f52a29d3c88702e49d",
+      "sha256": "15cd1943cbb46b4cf2a8cf9abf7f1f5f847a0bee324b4a9910cfc5228923d900"
+    },
+    "test_edge_order.py": {
+      "git_blob": "84e7dd676ca3e8d193f052d31fb72d42f811d2b6",
+      "sha256": "5ba6455b67355f1b35c6c8a5baebe8b029ddfee22b6faac088422a7ebfcb7303"
+    }
+  }
+}

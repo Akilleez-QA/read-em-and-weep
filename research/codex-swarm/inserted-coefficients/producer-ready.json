@@ -5,8 +5,8 @@
   "physical_admission": false,
   "execution_release": false,
   "files": {
-    "README.md": "56be54f199c2977762315bcce1623421fcf0e2f8fc6197eba8a18caf5f9e4b84",
-    "inserted_program.py": "45035aac04fdfe297fdffbdd4f9c489cc41616d417acc3e4dc80ba4e43a4ea3c",
+    "README.md": "61167c4a09918301ae11ef87a3fed9a774455d46b653f49ea4c5c1b388d81b91",
+    "inserted_program.py": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452",
     "interfaces.py": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
     "polynomial_coefficients.py": "c826bc5379910222bb962288581a9e5fec64d3b956c03cefdfc4566567cf19ee",
     "program-contract.json": "d245f0291f1e05d7354b8e9e26fc0469ce2a7aa6e85c0510285a66061daa8808",
@@ -30,5 +30,5 @@
     "physical execution admission/budget"
   ],
   "note": "Producer file hashes are review handoff metadata; no admission capability.",
-  "root_fix": "INS-R found unchecked custom-provider seed/occurrence/duplicates; root added exact binding and finite cap. Independent follow-up pending."
+  "root_fix": "INS-R provider full-owner binding repaired and independently accepted; INS-EDGE-R reproduced raw reversed-edge failure, so root now rejects non-increasing/repeated common edges. Edge follow-up pending."
 }

@@ -1,0 +1,13 @@
+test_all16_representation_vertices_and_both_pairs (__main__.Controls.test_all16_representation_vertices_and_both_pairs) ... ok
+test_common_local_division_without_extension_rejected (__main__.Controls.test_common_local_division_without_extension_rejected) ... ok
+test_exact_owned_degrees_both_pairs (__main__.Controls.test_exact_owned_degrees_both_pairs) ... ok
+test_mixed_intersection_and_actual_finite_convolution (__main__.Controls.test_mixed_intersection_and_actual_finite_convolution) ... ok
+test_mutations_rejected (__main__.Controls.test_mutations_rejected) ... ok
+test_physical_gate_and_inexact_coefficients (__main__.Controls.test_physical_gate_and_inexact_coefficients) ... ok
+test_proposal_indices_and_candidate_are_never_admission (__main__.Controls.test_proposal_indices_and_candidate_are_never_admission) ... ok
+test_uniform_degree_does_not_replace_exact_owned_degree (__main__.Controls.test_uniform_degree_does_not_replace_exact_owned_degree) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.003s
+
+OK

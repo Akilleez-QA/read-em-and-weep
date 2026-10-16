@@ -6,7 +6,7 @@ This program lowers the authentic 153-node finite cleared F12 circuit into exact
 
 A `FullOwner` retains seed, occurrence, carrier, low-bit legal mask and high-bit standard tag. Source slices sort once by auxiliary-first carrier, mask and tag and apply the single permutation sign externally. Equal source `(carrier, mask)` values give zero because this F is pulled back from the source cover; this rule is not for arbitrary T/Rsharp. Clearing occurrences remain distinct even for equal polynomial factors. `RequestContext` retains every outer weight owner, the exact leading prefix, and the output edge. It records their identity; it does not apply the outer weights or certify a detector sum.
 
-`PrismProgram` evaluates exactly
+`PrismProgram` accepts only strictly increasing source-first common output edges. Reversed and repeated common keys are rejected; callers must alternate the COMPLETE result once rather than re-evaluate raw prisms on reversed edges. Distinct common tags remain distinct even at equal physical labels. It evaluates exactly
 
     Z sum_u Qhat_u P[u,a,b] - Ca Z sum_uv Qhat_u Qhat_v P[u,v,b].
 

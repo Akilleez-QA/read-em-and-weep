@@ -1,0 +1,70 @@
+{
+  "schema": "standard-source-witnesses-pins-v1",
+  "repository": "https://github.com/Akilleez-QA/read-em-and-weep",
+  "immutable_proof_dependencies": [
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-proof-foundations/hm-transition-only-first-lift-alternative.md",
+      "git_blob": "c8bd02bc22d0da5bdcba6bb50d9c82548b92f990",
+      "sha256": "a3b9564bd9ef3bbf497538037f73bdd90d998e302205eff342d8c6f52364e1c4",
+      "bytes": 15441
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/PROOF.md",
+      "git_blob": "9d7a5a400b48d9b8b46008fbd9fb3d79be601920",
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25",
+      "bytes": 16497
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-proof-foundations/hm-regular-cover-transport.md",
+      "git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+      "sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d",
+      "bytes": 23469
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+      "git_blob": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc",
+      "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6",
+      "bytes": 10735
+    },
+    {
+      "commit": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "path": "research/codex-swarm/whole-source-clearing/PROOF.md",
+      "git_blob": "806fa33f3492aac3f89431b46c9b493c0945751b",
+      "sha256": "3ea2b68a04168f76ba217b2b43470c41657124b550111c72a3eb10b60dd89361",
+      "bytes": 10508
+    },
+    {
+      "commit": "02d0e727ffb95dfd9281906cc284c56e8bffd018",
+      "path": "research/hm/null-source-integration/complementary-pair/PROOF.md",
+      "git_blob": "720b6b6c680729ee4745e41d8dc6635e37708cd1",
+      "sha256": "edf2efafdb0f1891af0c9adf02a133e683633466686813e0f8aba48f85abe6bc",
+      "bytes": 11675
+    },
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3",
+      "bytes": 13965
+    }
+  ],
+  "workspace_dependencies": [
+    {
+      "path": "research/codex-swarm/physical-homogenization/PROOF.md",
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab",
+      "bytes": 14679,
+      "status": "physical theorem premise, independent acceptance external"
+    },
+    {
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+      "bytes": 3422,
+      "status": "shared interface identity"
+    }
+  ],
+  "physical_source_evaluated": false
+}

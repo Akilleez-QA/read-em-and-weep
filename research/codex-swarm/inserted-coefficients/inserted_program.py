@@ -98,6 +98,7 @@ class PrismProgram:
  def __init__(self,edge,source,quotient,fibers,C_a,z_shift,witness,budget,context=None,pair=(0,1)):
   need(len(edge)==2 and all(isinstance(o,FullOwner)for o in edge),'edge full owners')
   need(edge[0].seed==edge[1].seed,'edge request seed mismatch')
+  need(edge[0].source_key<edge[1].source_key,'raw prism formula requires increasing source-first common edge; alternate the COMPLETE result externally')
   self.edge=tuple(edge);self.source=source;self.quotient=quotient;self.fibers=fibers;self.C_a=C_a;self.Z=exponent(z_shift);self.witness=witness;self.budget=budget
   self.mode='synthetic'if all(x.mode=='synthetic'for x in(source,quotient,fibers,C_a))else'physical'
   need(pair in((0,1),(2,3)),'ordered source pair');self.pair=pair
