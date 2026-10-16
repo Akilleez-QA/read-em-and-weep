@@ -1,0 +1,17 @@
+{
+  "status": "accepted_documentation_correction",
+  "unchanged_theorem": true,
+  "unchanged_primitive_coefficient": "-1/72",
+  "original_proof_sha256": "0f380a52c52cf482d9c160e9f386a41520d625b7ac3eddccfa60e05ebfd8c18b",
+  "original_review_sha256": "95c25c89395afe7a31065a1ae57fb64eff74a9caffefee1f5224ed8f77f7c738",
+  "corrected_proof_sha256": "e43de2abc2838f2d5e31c3fd45fc9517c963e3ad9c8a605f00ec62b50263bab9",
+  "corrected_review_sha256": "e155fa2d432bfa4e4c673fc31cd4c66dc80d2af02e1ce0683a07a80e60978f39",
+  "physical_source_evaluations": 0,
+  "code_changed": false,
+  "code_sha256": {
+    "alternating-scalar-remainder/check_exterior.py": "9b8a0f4bf45d3426a40c68a1ff08bade8543238b201d3ab230e831a415f942cf",
+    "alternating-scalar-remainder/check_chain_blocks.py": "e483a1f166853aac2c71827a392d3758317f77f51da2d9b5db72b64cab7f6887",
+    "alternating-primitive-review/check_independent.py": "fe3b9b0cec285882308a5bfe2f581d7b03e4d7ae868a23b186c3d5e24e025469"
+  },
+  "scope": "Correct actual common-ambient A^E comparison; full S4 primitive and two-dimensional class projection unchanged."
+}

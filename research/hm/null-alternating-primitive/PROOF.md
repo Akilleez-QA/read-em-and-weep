@@ -2,7 +2,7 @@
 
 ## Status and result
 
-This is a symbolic proof candidate, pending independent audit. It uses the genuine full ordered-nerve source and the pinned physical connection/transgression premises. It does not evaluate the source, repeat a source experiment, or construct a coefficient provider.
+This is a symbolic proof using the genuine full ordered-nerve source and the pinned physical connection/transgression premises. The independent review accepts the boundary theorem at that scope. This corrected version includes the common-ambient-frame transport in section 4; the earlier normalization error and unchanged theorem are documented in `ERRATUM.md`. It does not evaluate the source, repeat a source experiment, or construct a coefficient provider.
 
 Let `Alt` be normalized full alternation in four derivative slots, with the full geometric action on all source data. Write `L=g_ij^-1 d g_ij` and `U=g_ij^-1(g_jk^-1 d g_jk)g_ij` on an ordered triple, in its first row frame. Products below are ordinary exterior products with matrix composition, not the totalized Cech/forms product. A displayed four-form means its value on `(V_1,V_2,V_3,V_4)`, with no extra factorial.
 
@@ -30,7 +30,7 @@ On vertex open U_i the exact scalar source uses
 
     B_i^(r) = −(d U_i^(r))(U_i^(r))^-1 − k_r gamma_i I.
 
-The extreme split matrices are identities. Equivalently, B_i is the difference between the flat split connection and the old connection on the same block. Each B_i is therefore an endomorphism-valued one-form on U_i, transforming tensorially. Products involving two vertices are taken after transporting both factors to a common physical ambient frame.
+The extreme split matrices are identities in their prescribed vertex frames. In a common ambient frame the whole block transports by nu_i^k_r, so the extreme common-frame split matrices need not be identities. Equivalently, B_i is the difference between the flat split connection and the old connection on the same block. Each B_i is therefore an endomorphism-valued one-form on U_i, transforming tensorially. Products involving two vertices are taken after transporting both factors to a common physical ambient frame.
 
 The old block connection is scalar and flat. In the prescribed line frames its coefficient is k_r gamma_i, and d gamma_i=0. The two split matrices are genuine invertible local bases and the split connection is flat. Thus in a common physical block frame
 
@@ -131,15 +131,34 @@ Thus the scalar shift has no cubic-trace effect, block by block, irrespective of
 
     str((B_j−B_i)³)=tr((A^E_ij)³).                   (10)
 
-The actual split cohomology columns are f_i=(I_0,I_1 nu_i^−2), whereas the determinant-normalized physical columns are e_i=nu_i f_i. For G_ij=e_i^−1 e_j=g_ij^t, the split transition is Csplit_ij=(nu_i/nu_j)G_ij. Consequently the induced connection difference is precisely
+The cohomology comparison includes the whole ambient line-frame transport. Write U_i,pres^(r) for the split matrix in the prescribed frame of the block of weight k_r. Its matrix in the common ambient frame is
 
-    A^E_ij = −L_ij^t + (dlog nu_j−dlog nu_i)I.
+    Utilde_i^(r) = nu_i^k_r U_i,pres^(r).
 
-The scalar term cannot be omitted from the connection itself. It has zero effect on its cubic trace by the same scalar-shift identity. Transposing three one-form factors reverses three pairs, and the three minus signs contribute the other minus. Therefore
+Every differential raises the line weight by two. The prescribed differential is nu_i^−2 D_ref, so its common-frame matrix is
+
+    nu_i^(k_r+2) (nu_i^−2 D_ref) nu_i^−k_r = D_ref.
+
+The cohomology lies in the middle ambient block of weight one. Its prescribed column array is f_i=I_i diag(1,nu_i^−2), while its actual common-ambient column array is
+
+    e_i = nu_i f_i = I_i diag(nu_i,nu_i^−1).
+
+The corresponding projection is diag(nu_i^−1,nu_i)P_i. These are exactly the determinant-normalized physical cohomology frames, with transition
+
+    G_ij = diag(nu_i^−1,nu_i)(P_i I_j)diag(nu_j,nu_j^−1)
+         = g_ij^t.
+
+Each induced split connection is flat in its own e_i frame. Therefore its actual common-frame difference, expressed in the first cohomology frame, is precisely
+
+    A^E_ij = −dG_ij G_ij^−1 = −L_ij^t.
+
+The earlier version differentiated the array comparison (nu_i/nu_j)G_ij and thereby included a spurious scalar one-form in this equality. That array comparison omits the ambient middle-frame factor nu_j/nu_i. Including it gives G_ij itself. The scalar-shift invariance above is required for the ambient k_r theta_ij term, but no additional scalar term occurs in the actual cohomology comparison.
+
+Transposing three one-form factors reverses three pairs, and the three minus signs contribute the other minus. Therefore
 
     tr((A^E_ij)³)=tr(L_ij³).                        (11)
 
-In particular L_ij is intrinsically the negative transpose of the tracefree induced connection difference. This also supplies its tensorial common-frame covariance. The physical current L_ij is traceless, as required in section 3.
+In particular L_ij is intrinsically the negative transpose of the induced connection difference, which is already tracefree. This also supplies its tensorial common-frame covariance. The physical current L_ij is traceless, as required in section 3.
 
 Ordinary graded cyclicity is legitimate for these single-edge differential-form products. It is not an assumed cyclicity of different Alexander–Whitney cochain endpoints. Expanding the cube gives
 
@@ -178,7 +197,7 @@ the row-End differential is
 
 which is exactly (13). This works on every ordered tuple, with repetitions allowed; no tuple sorting or guessed alternating extension occurs.
 
-Z_i is a scalar, regular, invariant three-form on U_i because it is the trace of a tensorial connection difference. L_ij is a regular End-valued one-form on U_i∩U_j: intrinsically it is the negative transpose of the tracefree induced connection difference, as explained in section 4, so it transforms in the prescribed first row frame. This statement keeps the fixed source connections under coordinate/frame transport; it does not reset them after arbitrary independent changes of endpoint basis. Therefore P is a regular row-End edge cochain with values in four-forms, and evaluating on the ordered four global product vector fields gives the required scalar-coefficient edge cochain. The tracefree condition is automatic from tr L_ij=0.
+Z_i is a scalar, regular, invariant three-form on U_i because it is the trace of a tensorial connection difference. L_ij is a regular End-valued one-form on U_i∩U_j: intrinsically it is the negative transpose of the induced connection difference, as explained in section 4, so it transforms in the prescribed first row frame. This statement keeps the fixed source connections under coordinate/frame transport; it does not reset them after arbitrary independent changes of endpoint basis. Therefore P is a regular row-End edge cochain with values in four-forms, and evaluating on the ordered four global product vector fields gives the required scalar-coefficient edge cochain. The tracefree condition is automatic from tr L_ij=0.
 
 No local gamma∧tau primitive was used. Such a primitive has the previously computed common-frame defect; Z_i instead is invariant under physical frame transport from the outset. There is no need to replace four ambient B blocks by six cohomology connection matrices. Their contractible contributions remain inside Z and hence inside the exhibited primitive.
 
@@ -186,7 +205,7 @@ No local gamma∧tau primitive was used. Such a primitive has the previously com
 
 The argument depends on the pinned source's ordinary-wedge formula (2), physical regularity of its splittings, local scalar old connections, flatness and differential-compatibility of its split connections, determinant-one rank-two physical transitions, and the already reviewed geometric ordered-nerve action. Those are mathematical source identities. The algebra is independent of the entries of any physical source polynomial or point.
 
-The candidate proves a global boundary only if these premises apply with exactly the transported source conventions used above. Independent audit should particularly check (1), (9), (11), and the regularity of Z. It does not justify a finite-cutoff executable use of P, additional source evaluations, or elimination of the complementary thirty-dimensional sector.
+The global boundary conclusion uses these premises with exactly the transported source conventions used above. The independent review checks (1), (9), (11), and the regularity of Z; this correction supplies the exact common-ambient normalization in (11). It does not justify a finite-cutoff executable use of P, additional source evaluations, or elimination of the complementary thirty-dimensional sector.
 
 ## 7. Exact invented controls
 

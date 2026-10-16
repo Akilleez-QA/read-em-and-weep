@@ -2,7 +2,7 @@
 
 ## Verdict
 
-**Accepted, with the split-frame normalization stated explicitly below.** Under the pinned physical source premises already used by the ordered-nerve and complete-remainder proofs, the genuine full `S4` alternating projection of the complete raw representative is a regular global boundary. In the prescribed first-row frame, the primitive is
+**Accepted, with the common-ambient-frame normalization stated explicitly below.** Under the pinned physical source premises already used by the ordered-nerve and complete-remainder proofs, the genuine full `S4` alternating projection of the complete raw representative is a regular global boundary. In the prescribed first-row frame, the primitive is
 
 \[
 P_{ij}=-\frac1{72}\,\iota_{V_1\wedge V_2\wedge V_3\wedge V_4}
@@ -18,7 +18,7 @@ No actual source polynomial, physical matrix, jet, residual, fiber, owner list, 
 
 ## 1. Inputs and source premises
 
-The frozen proof reviewed has SHA-256 `0f380a52c52cf482d9c160e9f386a41520d625b7ac3eddccfa60e05ebfd8c18b`.
+The corrected proof reviewed has SHA-256 `e43de2abc2838f2d5e31c3fd45fc9517c963e3ad9c8a605f00ec62b50263bab9`. The initial proof had SHA-256 `0f380a52c52cf482d9c160e9f386a41520d625b7ac3eddccfa60e05ebfd8c18b`. The common-ambient-frame correction below replaces this review's earlier scalar-shift equation (4); the theorem and primitive are unchanged. See `ERRATUM.md` for the correction and `COMMON_FRAME_CORRECTION.md` for the detailed source derivation.
 
 I independently read the complete-remainder proof and the ordered-source review, then checked the proposed exterior-transgression proof. The relevant frozen source descriptions are:
 
@@ -160,27 +160,45 @@ For a scalar one-form `a` and matrix-valued one-form `X`,
 
 This removes the `k theta` shift from the cubic trace block by block. It does not assert the shift is a chain map or erase commutators with the differential.
 
-There is a second scalar shift that should be explicit. The source's split cohomology columns are
+The cohomology comparison must include the ambient line-frame transport. Let `U_i,pres^(r)` denote the source split matrix in the prescribed vertex frame of the block of weight `k_r`. Since that line frame is `nu_i` times the reference line frame, its split matrix in the common ambient frame is
 
 \[
-f_i=(I_0,I_1\nu_i^{-2}),
+\widetilde U_i^{(r)}=\nu_i^{k_r}U_{i,\mathrm{pres}}^{(r)}.
 \]
 
-whereas its determinant-normalized physical columns are `e_i=nu_i f_i`. If `G_ij=g_ij^t` is the transition in the latter frames, the split-frame transition is `(nu_i/nu_j)G_ij`. Therefore the induced split-connection difference in the physical frame is
+Every differential raises the weight by two. The source's prescribed differential is `nu_i^-2 D_ref`, so its common-frame matrix is
 
 \[
-A^E_{ij}=-dG_{ij}G_{ij}^{-1}
-             +(d\log\nu_j-d\log\nu_i)I
-         =-L_{ij}^t+(d\log\nu_j-d\log\nu_i)I.       \tag{4}
+\nu_i^{k_r+2}(\nu_i^{-2}D_{\mathrm{ref}})\nu_i^{-k_r}=D_{\mathrm{ref}}.
 \]
 
-Consequently its cubic trace is the cubic trace of `-L^t`. Transposing three one-form factors reverses three pairs and changes the trace sign; the three explicit minus signs supply the other minus. Hence
+In particular the ambient middle block has weight one. The prescribed cohomology column array is `(I_0,I_1 nu_i^-2)`, but its common-ambient column array is
+
+\[
+\nu_i(I_0,I_1\nu_i^{-2})
+=I_i^{\mathrm{ref}}\operatorname{diag}(\nu_i,\nu_i^{-1}),
+\]
+
+which is exactly the determinant-normalized physical cohomology frame. With its corresponding left inverse, the actual common-frame transition is
+
+\[
+G_{ij}=\operatorname{diag}(\nu_i^{-1},\nu_i)(P_iI_j)
+                  \operatorname{diag}(\nu_j,\nu_j^{-1})=g_{ij}^t.
+\]
+
+Therefore the induced split-connection difference, in the first cohomology frame, is precisely
+
+\[
+A^E_{ij}=-dG_{ij}G_{ij}^{-1}=-L_{ij}^t.             \tag{4}
+\]
+
+An earlier revision of this review instead differentiated `(nu_i/nu_j)G_ij` and attributed an extra scalar one-form to the actual induced difference. That expression compares the prescribed column arrays before applying their different ambient frame factors. Multiplying by the required ambient comparison factor `nu_j/nu_i` gives `G_ij`; the extra scalar term is absent from the actual source comparison. The scalar-shift invariance proved above is still needed for the ambient `k theta` shift, but it is not needed to repair the cohomology normalization.
+
+Transposing three one-form factors reverses three pairs and changes the trace sign; the three explicit minus signs supply the other minus. Hence
 
 \[
 \operatorname{tr}((A^E_{ij})^3)=\operatorname{tr}(L_{ij}^3).
 \]
-
-The author's revised proof now includes (4). Treating the two cohomology normalizations as literally equal would have been imprecise, but does not change the final formula because of scalar-shift invariance.
 
 Finally, for odd matrix forms, cyclically moving one factor across the other two has positive sign. Expanding the cube gives
 
@@ -215,7 +233,7 @@ which equals (6), including both signs. This algebra holds on every ordered tupl
 
 Each `B_i` is a regular tensorial difference of two fixed connections on its own vertex open. Thus `Z_i=str(B_i^3)` is a regular scalar three-form there. A Cech zero-cochain requires no agreement of the separate `Z_i` on distinct vertices. The accepted homogeneous inverse-splitting identities and the physical-frame theorem provide regularity on legal infinity charts as well as finite ones; the old infinity connection is transported, not reset to zero.
 
-The expression `g_ij^-1 dg_ij` is used in the prescribed physical source frames. Its tracefree intrinsic interpretation is the negative row transpose of the tracefree induced split-connection difference in (4). This explains its compatible physical transport. Under an arbitrary nonconstant change of endpoint bases, one transports the already fixed connections as well; re-flattening the changed frames would define different source data. The proof does not claim that a bare logarithmic derivative is tensorial under that different operation.
+The expression `g_ij^-1 dg_ij` is used in the prescribed physical source frames. Its intrinsic interpretation is the negative row transpose of the induced split-connection difference in (4), which is already tracefree. This explains its compatible physical transport. Under an arbitrary nonconstant change of endpoint bases, one transports the already fixed connections as well; re-flattening the changed frames would define different source data. The proof does not claim that a bare logarithmic derivative is tensorial under that different operation.
 
 With these fixed frames and transports, `P` is a regular row-End edge cochain valued in four-forms. The four product vector fields are global and regular, so evaluating the four-form gives a regular coefficient cochain. Its matrix trace is zero because `tr L=0`. The genuine ordered-nerve permutation covariance identifies (6) with the full geometric sign projection. Restriction to increasing tuples is a chain map and supplies the asserted global class conclusion.
 
