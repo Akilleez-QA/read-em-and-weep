@@ -34,3 +34,5 @@ Producer markers, independent reports, bounded logs, integration metadata, sourc
 2. CO/resource owners must supply total work/height/bit/storage/lifetime accounting, an aggregate supervisor and authoritative shared-ledger reconciliation before any physical run. No fresh arithmetic pool is created.
 3. Null retains historical nonlinear order/value comparison and completed seed4/support ownership; J/source workers retain actual second-jet symmetry. No finished scan is repeated.
 4. A nonzero authenticated assembled boundary-annihilating detector, evaluated complete separating family, or explicit global boundary witness is still required. **Rsharp is undecided.**
+
+Null's independent RS/JC/TP reports and portable controls are pinned at PR79 `ab94746644cabd83366abe52c86fd8feb24765d0` in `external-reviews.json` (six files). JC includes the92b2a88 prism clarification acceptance. Their reported controls are separate from root's75/mode; they are not rerun or double-counted. Their explicit source/model and physical nonexecution boundaries remain.

@@ -20,8 +20,59 @@
   },
   "all_current_narrow_scopes_accepted": true,
   "execution_release": false,
+  "external_reported_controls_not_added_to_root75": {
+    "JC_independent_per_mode": 6,
+    "JC_with_producer_per_mode": 17,
+    "RS_per_mode": 12,
+    "TP_per_mode": 7,
+    "replayed_by_root": false
+  },
+  "external_review_pin_scope": "Null independent RS/JC/TP reports and portable controls at PR79 ab94746644cabd83366abe52c86fd8feb24765d0; read and authenticated immutable bytes, no duplicate execution. JC includes acceptance of92b2a88 domain clarification; report-specific premises and nonexecution boundaries retained.",
   "interpretation": "These stable local independent review/control bytes identify acceptance scope, not a substitute for the actual mathematical premises. Historical reports remain unchanged and are composed with explicit follow-ups.",
-  "new_cloud_external_review_pins": [],
+  "new_cloud_external_review_pins": [
+    {
+      "bytes": 16021,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "17757f20c41045612fabc4e28d81701345d5427e",
+      "path": "research/hm/null-source-integration/full-lift-domain-review/REVIEW.md",
+      "sha256": "b7e4bf0c61dff5db172951b41609325a0d08a07ebf1f409dd417c9146bc228c5"
+    },
+    {
+      "bytes": 5907,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "56cc44983c23a4b7f38be6c8021ebbec885b1333",
+      "path": "research/hm/null-source-integration/full-lift-domain-review/test_review_controls.py",
+      "sha256": "361bca91ee0316119c857682bbe6a52d44d1f88524ac4f682c7b671050c7fb4f"
+    },
+    {
+      "bytes": 17529,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "fcfa4261c0729b703a1217f416617442909a80e5",
+      "path": "research/hm/null-source-integration/full-source-closure-review/REVIEW.md",
+      "sha256": "e2e35c30e4680df267115e3557e522f5a9dc3e4b3b3f9f29e0de67dcf575597b"
+    },
+    {
+      "bytes": 18091,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "f1cc840b32235610fafa6019b7cb52c5473ce9b1",
+      "path": "research/hm/null-source-integration/full-source-closure-review/test_rs01_closure.py",
+      "sha256": "cae512d3a7dd668f9882c06009fed26ce74a431f43b8705f704d5a49484d7ff4"
+    },
+    {
+      "bytes": 7073,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "d9cc04209961485d44c5aac80717a9c91502a331",
+      "path": "research/hm/null-source-integration/total-provider-frame-review/review-frame-independent.md",
+      "sha256": "04ca10bde8c0804408007e3339ad9324cfcb4afd2b205c20e3927e7c6a75411f"
+    },
+    {
+      "bytes": 7349,
+      "commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+      "git_blob": "a8168439234187b7aba358afc00d30f2c3dcea01",
+      "path": "research/hm/null-source-integration/total-provider-frame-review/test_frame_independent.py",
+      "sha256": "47c36fa90677503e63950a24f92118f29ce2960782514df628fccb9b2bac5d76"
+    }
+  ],
   "physical_source_evaluated": false,
   "reviews": [
     {

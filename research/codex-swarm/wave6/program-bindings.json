@@ -645,6 +645,7 @@
     }
   },
   "coordination_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6212446562",
+  "external_review_scope": "RS fresh source/class/closure, JC lift/domain with inserted/suffix clarification, TP normalization/frame plan; explicit imported premises retained, no actual arithmetic or gate release",
   "full96_scope": {
     "actual_domain_enumerated": false,
     "cardinality": 96,
@@ -749,6 +750,7 @@
     "role": "root bounded descriptor-only replay; RS3471/209608, JC2584/412115",
     "sha256": "5bf3691a3d06a43771ef90d7ab4be4b5731106608b6c499706dcf3f0209110e2"
   },
+  "new_external_review_commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
   "pending": [
     "Physical coefficient/jet/fiber and transport adapter realization; complete aggregate resource/execution admission; authenticated detector values and obstruction verdict remain outside this bounded application."
   ],
