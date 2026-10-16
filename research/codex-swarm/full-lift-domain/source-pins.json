@@ -1,0 +1,153 @@
+{
+  "schema": "JC01-source-pins-v1",
+  "immutable_dependencies": [
+    {
+      "commit": "43193bc8badf3f29a1363132135d956cc12d46ad",
+      "path": "research/hm/null-source-integration/scalar-family-transport/PROOF.md",
+      "git_blob": "fc8befcc863efd073d4a66dc6eec12c722504447",
+      "sha256": "e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3",
+      "bytes": 13965
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-proof-foundations/refined-tracefree-pole-domain.md",
+      "git_blob": "b6e9933ffafcd7018b1b2876ad3685f22e3b5292",
+      "sha256": "209d8c8a35edabadabd57d4608c4b49a508700cc00e983d50045b7a722de5ab2",
+      "bytes": 13290
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-proof-foundations/hm-regular-cover-transport.md",
+      "git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+      "sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d",
+      "bytes": 23469
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-source-integration/combined-pole/PROOF.md",
+      "git_blob": "9d7a5a400b48d9b8b46008fbd9fb3d79be601920",
+      "sha256": "03673d6f120cb0b89d6d3887b7ab0bfee6aa33acf2abcc0ddbb116071b159c25",
+      "bytes": 16497
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-proof/map-and-comparison.md",
+      "git_blob": "c3434677588f8214edfa930ecb7a90c1aa50ac24",
+      "sha256": "777a11e0e82ca5de557d1b756e9ce7535836a0ff4cc34ee6e50712e23f788e72",
+      "bytes": 6710
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-geometric-dependencies/source-identity.md",
+      "git_blob": "7e12e8c7479427db87cd496763f5f003005af9c5",
+      "sha256": "2a5ff3f10eaaba3598aee22f654a6b48c888d8858e89b35d4f47ab28facea939",
+      "bytes": 5981
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+      "git_blob": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc",
+      "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6",
+      "bytes": 10735
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-geometric-dependencies/frames-and-poles.md",
+      "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+      "bytes": 9325
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "path": "research/codex-swarm/physical-homogenization/PROOF.md",
+      "git_blob": "68d3f0e3e6b60a4a99b7cbb54d8589bf69d7e747",
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab",
+      "bytes": 14679
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "path": "research/codex-swarm/physical-homogenization/frames.py",
+      "git_blob": "b75c6722c004aea607db4509fd3b8e343ece1e61",
+      "sha256": "841b8ebd342ae0c45d92499fc712d94051729d27e8137279fb14e09710246c6e",
+      "bytes": 16044
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "path": "research/codex-swarm/physical-homogenization/review-independent.md",
+      "git_blob": "2dbb9a62bae03f8d728fddd375276e5737538085",
+      "sha256": "f256c475a1a2ee88f8f68f32c228141513854cc300ef3f015ff7aa733b4c3a53",
+      "bytes": 10257
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "path": "research/codex-swarm/source-domain-application/PROOF.md",
+      "git_blob": "4b49e3666e130414ff735280a67b7ea261a0d521",
+      "sha256": "63bd8548057b5e4de81609b15817335d145685dc9867d91cbdebc8242a9af631",
+      "bytes": 12755
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "path": "research/codex-swarm/source-domain-application/review-independent.md",
+      "git_blob": "eda661f11c6606cc7a7b50c0808a0e6365ac83f8",
+      "sha256": "cd821e0d1aa8e46ddf92d51ac0d40b297ac6c3dd8d3a62d4364aa1710b1a71fd",
+      "bytes": 16226
+    }
+  ],
+  "canonical_workspace_dependencies": [
+    {
+      "path": "research/codex-swarm/full-source-application/r_binding.py",
+      "sha256": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b",
+      "bytes": 9457,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/full-source-application/PROOF.md",
+      "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed",
+      "bytes": 12579,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/full-source-application/source-pins.json",
+      "sha256": "80de123d734a20c27de405cbef32282aedb6b9487cc0738f57c270e6d0f16c44",
+      "bytes": 6178,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/full-source-application/formal_identities.py",
+      "sha256": "d248be8d82670c80bb76926b4af7e0ada06f8de8fe2b8bff7863627af5fe8278",
+      "bytes": 2013,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/full-source-application/producer-ready.json",
+      "sha256": "883490825f5d1b1156ad865e9852ef64e314322418409c9de3b71041f07d3616",
+      "bytes": 1781,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/transport-binding/transport_binding.py",
+      "sha256": "31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237",
+      "bytes": 14743,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/transport-binding/lift_schema.py",
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31",
+      "bytes": 2281,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/transport-binding/source-pins.json",
+      "sha256": "c64b506220ca636632e6d74f04c08050eff7c3c549a8191e5121ef2d32fd7d94",
+      "bytes": 5000,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    },
+    {
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+      "bytes": 3422,
+      "scope": "canonical definition/proof snapshot; independent review external, not admission capability"
+    }
+  ],
+  "actual_coefficients_evaluated": false
+}

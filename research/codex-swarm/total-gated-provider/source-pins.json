@@ -1,0 +1,46 @@
+{
+  "schema": "total-gated-provider-input-pins-v1",
+  "workspace_inputs": [
+    {
+      "path": "source-faithful-P/p_binding.py",
+      "sha256": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37"
+    },
+    {
+      "path": "source-faithful-P/source-pins.json",
+      "sha256": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab"
+    },
+    {
+      "path": "source-faithful-Q/q_binding.py",
+      "sha256": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+    },
+    {
+      "path": "source-faithful-Q/source-pins.json",
+      "sha256": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d"
+    },
+    {
+      "path": "source-domain-application/domain.py",
+      "sha256": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d"
+    },
+    {
+      "path": "source-domain-application/source-pins.json",
+      "sha256": "09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc"
+    },
+    {
+      "path": "inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "path": "inserted-coefficients/inserted_program.py",
+      "sha256": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452"
+    },
+    {
+      "path": "standard-coefficients/standard.py",
+      "sha256": "bd9c9a77d2e366a92e265406727bd26ba05c4b15680df384d16f6b1c074ad2fd"
+    },
+    {
+      "path": "inner-quotient/quotient.py",
+      "sha256": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91"
+    }
+  ],
+  "actual_execution": false
+}

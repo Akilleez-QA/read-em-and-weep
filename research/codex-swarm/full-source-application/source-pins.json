@@ -1,0 +1,127 @@
+{
+  "baseline_PR87": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+  "coordination_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6212446562",
+  "schema": "full-source-application-pins-v1",
+  "sources": [
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+      "path": "research/codex-swarm/scalar-compiler/compiler.py",
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "7122ccf90cea3f7ed69f9d13879b48b9923f2f7a",
+      "path": "research/codex-swarm/scalar-compiler/compiled-template.json",
+      "sha256": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "d3ea36574b4c408eea2b4954b0590a67ed844ea6",
+      "path": "research/codex-swarm/scalar-compiler/review-independent.md",
+      "sha256": "5de7f6a29f3ac95804ce92536b66ece9d924e3dfac77b67ff485ce9e97de4094"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "54a2ef750930cfa268cf9f7d316357b23bf354b0",
+      "path": "research/codex-swarm/scalar-compiler/review-fix-followup.md",
+      "sha256": "86d5b0767de2e74a25e9922f1e87df332877a26923db61508c4238c98add42c3"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "730e8d668c0e0330a5f203341fa2ab7e355b0764",
+      "path": "research/codex-swarm/source-domain-application/domain.py",
+      "sha256": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "4b49e3666e130414ff735280a67b7ea261a0d521",
+      "path": "research/codex-swarm/source-domain-application/PROOF.md",
+      "sha256": "63bd8548057b5e4de81609b15817335d145685dc9867d91cbdebc8242a9af631"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "9de5ea3ad4d6ea8ae71914450dd36f10fef50487",
+      "path": "research/codex-swarm/source-domain-application/source-pins.json",
+      "sha256": "09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "eda661f11c6606cc7a7b50c0808a0e6365ac83f8",
+      "path": "research/codex-swarm/source-domain-application/review-independent.md",
+      "sha256": "cd821e0d1aa8e46ddf92d51ac0d40b297ac6c3dd8d3a62d4364aa1710b1a71fd"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "b0a6f1712bfb12056fefe2b40a737327fa0f3565",
+      "path": "research/codex-swarm/source-faithful-P/p_binding.py",
+      "sha256": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "b6f3d0273d01493e0fcc6916e74edb1fbd979277",
+      "path": "research/codex-swarm/source-faithful-P/source-pins.json",
+      "sha256": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "4893e6616dc66590ed1dc3fa9643e2ba7df129dc",
+      "path": "research/codex-swarm/source-faithful-Q/q_binding.py",
+      "sha256": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "a31dafd80b26c5cc8f7913dc104c1b45710fd7fa",
+      "path": "research/codex-swarm/source-faithful-Q/source-pins.json",
+      "sha256": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d"
+    },
+    {
+      "commit": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+      "git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "git_blob": "e07d4373a7c22f7cf4502260d80dbd559d942850",
+      "path": "research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+      "sha256": "395e18b7f00a1ca7f29cd0cb84f5fbe2fc2a250d68effe60cd35aa61162dfc46"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "git_blob": "946f96670ecb8152eaae16195329f9eb1243b7ae",
+      "path": "research/hm/current-scalar-residual-attribution/closure-and-characters.md",
+      "sha256": "434aa106d0780f6eeef956335cc207a8b436d35db52f515f52bb5d49204292a2"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "git_blob": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc",
+      "path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+      "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "b63c3486cdf15a3bca6d673d3918fcab3f30b104",
+      "path": "research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+      "sha256": "246b7265f4f8936bf5cc2bfd9f0f7505f119d4b3515acdd82822f7d45c0c4d00"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "c8bd02bc22d0da5bdcba6bb50d9c82548b92f990",
+      "path": "research/hm/null-proof-foundations/hm-transition-only-first-lift-alternative.md",
+      "sha256": "a3b9564bd9ef3bbf497538037f73bdd90d998e302205eff342d8c6f52364e1c4"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    }
+  ]
+}

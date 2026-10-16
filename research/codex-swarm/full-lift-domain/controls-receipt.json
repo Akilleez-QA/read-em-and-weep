@@ -1,0 +1,44 @@
+{
+  "schema": "full-lift-domain-controls-v1",
+  "hard_address_space_bytes": 536870912,
+  "hard_cpu_seconds": 59,
+  "parent_wall_timeout_seconds": 60,
+  "physical_source_evaluated": false,
+  "runs": [
+    {
+      "success": true,
+      "tests": 11,
+      "seconds": 0.47561659699931624,
+      "peak_rss_kib": 19000,
+      "optimized": false,
+      "actual_source_descriptions_constructed": false,
+      "actual_fibers_enumerated": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.5088590349987498,
+      "command": [
+        "python",
+        "-B",
+        "run_controls.py",
+        "--child"
+      ]
+    },
+    {
+      "success": true,
+      "tests": 11,
+      "seconds": 0.48160268900028314,
+      "peak_rss_kib": 18980,
+      "optimized": true,
+      "actual_source_descriptions_constructed": false,
+      "actual_fibers_enumerated": false,
+      "physical_source_evaluated": false,
+      "parent_elapsed_seconds": 0.5158246940009121,
+      "command": [
+        "python",
+        "-B",
+        "-O",
+        "run_controls.py",
+        "--child"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+test_canonical_actual_factory_does_not_accept_closure_strings (test_lift.Controls.test_canonical_actual_factory_does_not_accept_closure_strings) ... ok
+test_face_words_and_deleted_prefix_ownership_retained (test_lift.Controls.test_face_words_and_deleted_prefix_ownership_retained) ... ok
+test_full_signed_lift_all_five_equations_and_nonzero_J3 (test_lift.Controls.test_full_signed_lift_all_five_equations_and_nonzero_J3) ... ok
+test_ledger_is_not_a_standard_extension_certificate (test_lift.Controls.test_ledger_is_not_a_standard_extension_certificate) ... ok
+test_local_End_contraction_identity_all_tiny_matrix_units (test_lift.Controls.test_local_End_contraction_identity_all_tiny_matrix_units) ... ok
+test_original_frame_deck_conversion_precedes_scalar (test_lift.Controls.test_original_frame_deck_conversion_precedes_scalar) ... ok
+test_outer_degree_owner_units_and_no_unowned_tag (test_lift.Controls.test_outer_degree_owner_units_and_no_unowned_tag) ... ok
+test_source_closed_and_same_induced_cohomology_frames (test_lift.Controls.test_source_closed_and_same_induced_cohomology_frames) ... ok
+test_strict_owner_and_physical_gates (test_lift.Controls.test_strict_owner_and_physical_gates) ... ok
+test_top_boundary_seven_owner_domain_is_not_a_six_owner_box (test_lift.Controls.test_top_boundary_seven_owner_domain_is_not_a_six_owner_box) ... ok
+test_wrong_middle_sign_fails_and_bottom_d_is_injective (test_lift.Controls.test_wrong_middle_sign_fails_and_bottom_d_is_injective) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.474s
+
+OK

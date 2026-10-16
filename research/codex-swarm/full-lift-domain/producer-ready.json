@@ -1,0 +1,32 @@
+{
+  "schema": "JC01-producer-review-handoff-v1",
+  "producer": "JC01",
+  "scope": "coefficient-free actual full-lift/domain theorem conditional on canonical RS source and pinned model premises",
+  "tests": {
+    "normal": 11,
+    "optimized": 11,
+    "command": "python -B run_controls.py"
+  },
+  "actual_coefficients_evaluated": false,
+  "actual_fibers_enumerated": false,
+  "physical_execution_authorized": false,
+  "RS_implementation_review_external": true,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "files": {
+    "lift.py": "5712731a8b120cb4b47c28ed296d464ec89729ff2294e296942fd7c25e39cf67",
+    "test_lift.py": "288bac12433c90d8e3a6f5eca5d096e8c0c1ed7856a357f0e1687b558e7cd981",
+    "run_controls.py": "3b402fb7ac71a3566297586a61741f261198b512476bdb3b370d8bf943b27137",
+    "build_handoff.py": "195fcb1e59f397ece022f0123035ceb533d802f088bd1574f440998562452c69",
+    "PROOF.md": "27747cbfbcdcd7a40407cfbf5e4943632de7a72faa125ccf25bb81e0427ecd10",
+    "README.md": "237d162254a7d29034e3853220500fb140928b7fd430e706abd49c2f644eb675",
+    "source-pins.json": "515c3d1a21645741aab58cf404228263ebc12128c9636c0df1fe0f9afd74d82a",
+    "lift-contract.json": "7e7f6277db494acb4c80f5fd16453ad42425cc6fb22a1343cd76db495a522d14",
+    "face-program-example.json": "971fac3595b6a948c1271cedba3171d684e79d237472f97c97e0532536adffa3",
+    "controls-receipt.json": "77a1d9426ed89d7cb30d65c614fbcb4e12f97a870c2b58c5defd87f3759dae55",
+    "controls-normal.log": "6e2d4c345459bc3a4a6977cab0f4dbb44d5fd1408674b42e78e895188adc1245",
+    "controls-optimized.log": "db7147961281967ce2f7e811b33c9d1deaa4efb948c290e31ce64ae71348c06b"
+  }
+}

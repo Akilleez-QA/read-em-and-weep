@@ -1,0 +1,5 @@
+# Sixth bounded full-obstruction application
+
+This branch is stacked on PR87. It composes the independently accepted fresh inner primitive/source bindings into the complete corrected representative, actual resolution lift and outer standard-domain comparison. A disjoint lane supplies total gated request semantics. Existing algorithms/support proofs are reused; no physical coefficient, actual fiber enumeration or fresh resource budget is authorized.
+
+RS01 owns `full-source-application/` (all five Rsharp terms, full gerbe baseline, actual fresh first lift, corrected-source identity and closure). JC01 owns `full-lift-domain/` (J0–J3, original-frame identities and common54/29/5251 actual-source domain application). TP01 owns `total-gated-provider/` (all valid request tuples, repeated-common zeros, complete lazy index semantics and unconditional physical refusal). Producers and independent reviewers have disjoint files. Exact proof premises, accepted scope and residual owners will be recorded here before handoff.

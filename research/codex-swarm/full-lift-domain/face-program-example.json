@@ -1,0 +1,3764 @@
+{
+  "schema": "JC01-full-lift-face-program-v1",
+  "component": "J2",
+  "bidegree": [
+    4,
+    -2
+  ],
+  "target_owners": [
+    [
+      12,
+      [
+        "toy-outer",
+        0
+      ],
+      5,
+      0,
+      0
+    ],
+    [
+      12,
+      [
+        "toy-outer",
+        1
+      ],
+      0,
+      0,
+      1
+    ],
+    [
+      12,
+      [
+        "toy-outer",
+        2
+      ],
+      1,
+      0,
+      3
+    ],
+    [
+      12,
+      [
+        "toy-outer",
+        3
+      ],
+      2,
+      0,
+      7
+    ],
+    [
+      12,
+      [
+        "toy-outer",
+        4
+      ],
+      3,
+      0,
+      11
+    ]
+  ],
+  "terms": [
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            4
+          ],
+          3,
+          0,
+          11
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 4
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "face_index": 0
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 4
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              1
+            ],
+            0,
+            0,
+            1
+          ],
+          "face_index": 1
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": -1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 4
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              2
+            ],
+            1,
+            0,
+            3
+          ],
+          "face_index": 2
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            3
+          ],
+          2,
+          0,
+          7
+        ]
+      ]
+    },
+    {
+      "coefficient": 1,
+      "operator_word": [
+        {
+          "op": "H_End",
+          "input_internal_degree": -1,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              4
+            ],
+            3,
+            0,
+            11
+          ],
+          "face_index": 4
+        },
+        {
+          "op": "H_End",
+          "input_internal_degree": 0,
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "formula": "H_K F+(-1)^r (IP)F H_K",
+          "restriction_frame": "original resolution; no row conjugation"
+        },
+        {
+          "op": "signed_Cech_face",
+          "deleted_owner": [
+            12,
+            [
+              "toy-outer",
+              3
+            ],
+            2,
+            0,
+            7
+          ],
+          "face_index": 3
+        },
+        {
+          "op": "j",
+          "owner": [
+            12,
+            [
+              "toy-outer",
+              0
+            ],
+            5,
+            0,
+            0
+          ],
+          "transpose_row_input_once": true
+        }
+      ],
+      "Rsharp_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ]
+      ],
+      "retained_prefix_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ]
+      ],
+      "all_factor_owners": [
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            0
+          ],
+          5,
+          0,
+          0
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            1
+          ],
+          0,
+          0,
+          1
+        ],
+        [
+          12,
+          [
+            "toy-outer",
+            2
+          ],
+          1,
+          0,
+          3
+        ]
+      ]
+    }
+  ],
+  "source_evaluated": false,
+  "physical_execution_authorized": false
+}
