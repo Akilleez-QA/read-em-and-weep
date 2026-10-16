@@ -1,6 +1,6 @@
 """Exact finite demand convolutions and both padded prism sums, synthetic only."""
 from fractions import Fraction as Q
-from itertools import product
+from itertools import product,islice
 from interfaces import FullOwner,RegularExtensionWitness,need,exponent,require_synthetic,sorted_source
 from polynomial_coefficients import Budget
 
@@ -97,6 +97,7 @@ class PrismProgram:
  """
  def __init__(self,edge,source,quotient,fibers,C_a,z_shift,witness,budget,context=None,pair=(0,1)):
   need(len(edge)==2 and all(isinstance(o,FullOwner)for o in edge),'edge full owners')
+  need(edge[0].seed==edge[1].seed,'edge request seed mismatch')
   self.edge=tuple(edge);self.source=source;self.quotient=quotient;self.fibers=fibers;self.C_a=C_a;self.Z=exponent(z_shift);self.witness=witness;self.budget=budget
   self.mode='synthetic'if all(x.mode=='synthetic'for x in(source,quotient,fibers,C_a))else'physical'
   need(pair in((0,1),(2,3)),'ordered source pair');self.pair=pair
@@ -105,6 +106,12 @@ class PrismProgram:
    need(self.Z==actual_z_shift(self.edge),'actual Z padding must retain both standard owners')
    need(isinstance(context,RequestContext),'outer prefix/weight context required')
   if context is not None:context.validate(self.edge)
+ def _owners(self,tag,occurrence):
+  values=tuple(islice(iter(self.fibers.owners(tag,occurrence)),4097))
+  need(len(values)<=4096,'finite fiber provider cap')
+  need(all(isinstance(o,FullOwner)and o.standard_tag==tag and o.seed==self.edge[0].seed and o.occurrence==occurrence for o in values),'inserted fiber full owner binding')
+  need(len({o.common_key for o in values})==len(values),'duplicate inserted fiber label')
+  return values
  def _source_product(self,owners,shifts,e,padding=None):
   e=tuple(x-z-sum(a[i]for a,_ in shifts)for i,(x,z)in enumerate(zip(e,self.Z)))
   factor=Q(1)
@@ -114,14 +121,14 @@ class PrismProgram:
  def coefficient(self,kind,e):
   require_synthetic(self.mode);need(kind in('prism1','prism2'),'prism kind');e=exponent(e)
   a,b=self.edge;self.witness.require(self.edge,(a.standard_tag,b.standard_tag));out=Q(0)
-  for u in self.fibers.owners(a.standard_tag,('inserted',a.occurrence,b.occurrence,'u')):
+  for u in self._owners(a.standard_tag,('inserted',a.occurrence,b.occurrence,'u')):
    need(u.standard_tag==a.standard_tag,'inserted u standard mismatch')
    U=tuple(self.quotient.factor_terms(u,self.pair));need(len(U)<=4096,'finite quotient stream cap')
    if kind=='prism1':
     self.budget.debit('owner_terms')
     for term in U:out+=self._source_product((u,a,b),(term,),e)
    else:
-    for v in self.fibers.owners(b.standard_tag,('inserted',a.occurrence,b.occurrence,'v')):
+    for v in self._owners(b.standard_tag,('inserted',a.occurrence,b.occurrence,'v')):
      need(v.standard_tag==b.standard_tag,'inserted v standard mismatch');self.budget.debit('owner_terms')
      V=tuple(self.quotient.factor_terms(v,self.pair));need(len(V)<=4096,'finite quotient stream cap')
      for tu in U:
