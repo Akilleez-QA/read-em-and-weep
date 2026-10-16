@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "formal monomial bases only; no HM physical source arithmetic",
+  "counts": {
+    "Laurent_derivative_adjoint_pairings": 1755,
+    "explicit_sign_and_zero_mode_controls": 7,
+    "one_factor_J_adjoint_pairings": 202,
+    "one_factor_derivative_J_zero_checks": 22,
+    "one_factor_derivative_h_commutation": 11,
+    "one_factor_h_adjoint_pairings": 202,
+    "tensor_H_squared_zero": 168420,
+    "tensor_adjoint_basis_support_checks": 168420,
+    "tensor_adjoint_forward_entries": 89100,
+    "tensor_adjoint_reverse_entries": 89100,
+    "tensor_contraction_basis_identities": 168420,
+    "tensor_d_squared_zero": 168420,
+    "tensor_derivative_h_commutation": 365651
+  },
+  "total_recorded_checks": 1219730
+}

@@ -1,0 +1,19 @@
+{
+  "full_dimensions": [
+    16,
+    150,
+    256
+  ],
+  "jet_dimensions": [
+    16,
+    24,
+    16
+  ],
+  "jet_algebra_dimension": 4,
+  "full_closed_covector_dimension": 134,
+  "jet_closed_covector_dimension": 12,
+  "exact_intertwining": true,
+  "exact_contraction": true,
+  "exact_lifted_dual_residual_zero": true,
+  "physical_source_evaluated": false
+}
