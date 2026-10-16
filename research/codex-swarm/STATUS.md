@@ -6,6 +6,20 @@ Current published dependencies and portable reproduction boundaries: [SOURCE_INV
 
 Focused review units: [PR85: reviewed source compilation wave](https://github.com/Akilleez-QA/read-em-and-weep/pull/85), [PR84: seed12/30 v5 binding](https://github.com/Akilleez-QA/read-em-and-weep/pull/84), [PR83: explicit32 weighted tests](https://github.com/Akilleez-QA/read-em-and-weep/pull/83), [PR81: minimal complete scalar family](https://github.com/Akilleez-QA/read-em-and-weep/pull/81), [PR82: selector pruning](https://github.com/Akilleez-QA/read-em-and-weep/pull/82). [PR80](https://github.com/Akilleez-QA/read-em-and-weep/pull/80) retains the shared registry, complete report history and source-demand tools. These extracted proof subsets share the same proof bytes; they are not additional independent implementations.
 
+## Sixth-wave full-source application
+
+[PR88](https://github.com/Akilleez-QA/read-em-and-weep/pull/88), source artifact `fce8a9d59a7df3776c34cd0903b1f82f6a6ae81d`, stacked on PR87, supplies the complete SAME fresh source through the original-resolution lift and common outer domain. Review evidence and bounded replay are in its `wave6/` package. This section supersedes earlier open-source/domain application entries only at the scope below; physical implementation, evaluation and resource gates remain held.
+
+- **RS01:** exact Rsharp=tf(M_fresh)+delta(sq kp+sp kq), positive boundary; full unprojected ambient defect closure precedes character projection. The complete seven-kinetic/three-gerbe baseline and both Fk/E branches are retained. Tracefree projection preserves the full-sign cohomology class via scalar H²=0; no pointwise trace zero or historical nonlinear reordering is claimed.
+- **JC01:** SAME canonical source on every face, original-frame row formula then transpose, J0–J3 signs and all five closure equations. DeltaJ3 uses seven owners and universal bottom injectivity, not the six-slot source DAG. Actual homogeneous source/owned pole application gives common54/29/5251 whole-standard projection extension and appropriately CLEARED whole prism/restriction coefficients, retaining original tags/prefix factors. H_rho leaves original suffix carrier/legal poles on the common-cover domain. J2 uses tau^-4 BEFORE L. Imported physical contraction, determinant, line-frame and geometric premises remain explicit.
+- **TP01:** total pure normalization plans and complete lazy96 index descriptors; repeated-common zeros for every role, repeated-physical zero ONLY for F. Raw row-End sorting records sign*G^-1 X G with the ORIGINAL ordered transition edge. This is metadata, not whole T/Rsharp coefficient realization. Current followup preserves the original review/test bytes and transparently changes only the historical test's marker anchor in memory for current replay.
+
+Null's independent RS/JC/TP reviews at PR79 `ab94746644cabd83366abe52c86fd8feb24765d0` are additionally consumed, including the prism clarification acceptance. Six immutable report/control files are pinned; their reported tests are not double-counted.
+
+**75 focused controls pass per mode**, including canonical RS/J3 AST-only integration; exact hashes/logs and the explicit historical TP replay route are retained in `wave6/controls-receipt.json`. These are artificial/metadata checks, not source values.
+
+**Next owners:** source-interface workers must realize actual coefficients/streams and complete weighted traversal with these exact definitions, frame transport and owners. CO must certify aggregate operation/height/bit/storage/lifetime bounds and shared-ledger admission before physical work. Null retains finished support/seed4 and historical nonlinear order/value ownership; J/source workers retain actual source symmetry. A complete assembled detector verdict or explicit boundary witness remains absent. All actual source/jet/fiber evaluation and fresh budgets stay held.
+
 ## Accepted progress
 
 | Artifact | Evidence and exact scope | Next owner |
