@@ -1,0 +1,24 @@
+{
+  "schema": "producer-ready-v1",
+  "producer": "SR01",
+  "scope": "literal fixed request30 implementation; physical hardheld, artificial complete24 exercised",
+  "files": {
+    "PROOF.md": "76b34de44044631b767f40c30fa6ab43fcc1f70ce44b1770232da51e5784aec4",
+    "README.md": "626e5ec82c5a521647c02298af6565d0366b5060dacebcab6ac382b0aceeaef6",
+    "algorithm.json": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285",
+    "artificial.py": "ce77154ca9b479aff523a958108382673e7bef029fe3bcfcd365e68a1df7757f",
+    "bindings.py": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba",
+    "controls-normal.log": "68c55304b98030864d46300f9897b7a40cf7d2e34daec9533e6787f6dc68edbb",
+    "controls-optimized.log": "82602cf42d4496240f84e3465c3696363dddb7de7e3805ef229cd5fb67b528ab",
+    "controls-receipt.json": "37908993fadd6b6fc97644cf975e576d274e69dc5439ba58de696918f99a2231",
+    "draft-label-check.md": "3f2fc2474fcf662a6bfc783c9558a62a0f0361cfa17a42cdc432f49a99724f67",
+    "program.py": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "raw_engine.py": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "source-pins.json": "51dc5659a5ab5b04b9b567be8d7c2686d1c9e66dc1b816f96d8558e1eab983e5",
+    "test_realization.py": "40a77b25c5a91a2b75127d21db9549e08ec0d882b5f43af076e4f1613f223bab"
+  },
+  "physical_source_evaluated": false,
+  "physical_execution_admitted": false,
+  "independent_review": "pending",
+  "draft_metadata_label_receipt": "draft-label-check.md"
+}

@@ -1,0 +1,142 @@
+{
+  "schema": "SR01-literal-route30-algorithm-v1",
+  "route_id": "raw-fullsource-J2-request30-v1",
+  "request": {
+    "id": 30,
+    "scalar_selector": [
+      [
+        "X13",
+        5,
+        0,
+        1
+      ],
+      [
+        "X02",
+        1,
+        3,
+        1
+      ],
+      [
+        "X02",
+        4,
+        2,
+        1
+      ]
+    ],
+    "exponent": [
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    "weighted_roots": 1,
+    "complete_detector_family_size": 32,
+    "zero_of_this_request": "UNDECIDED",
+    "nonzero": "NONZERO"
+  },
+  "algorithm_files": [
+    "raw_engine.py",
+    "program.py",
+    "bindings.py"
+  ],
+  "dimensions": {
+    "K": [
+      5,
+      15,
+      10,
+      2
+    ],
+    "cohomology": 2,
+    "block_frames": [
+      15,
+      10
+    ],
+    "raw_scalar_blocks": 4,
+    "source_parts": 5,
+    "baseline_kinetic_terms": 7,
+    "baseline_gerbe_terms": 3
+  },
+  "literal_recurrence": {
+    "J0": "I D R_row^t D^-1 P",
+    "J1": "H_0 delta J0",
+    "J2": "-H_-1 delta J1",
+    "outer": "sum_24 orientation * sum_5fibers product_5 rho_owned * alternating_same_J2",
+    "terminal": "full complete original-frame scalar -> y^15 -> exact rational Laurent division at(-1)^4",
+    "whole_tuple_sort": "star-first carrier, numeric legal mask, standard tag; one parity; ordered faces",
+    "raw_primitive": "four-block trace endpoint formula /4 -15qa qb/8; reviewed BI replacement",
+    "inner_N14_calls": 0
+  },
+  "outer": {
+    "N": 54,
+    "legal_power": 29,
+    "M": 107,
+    "T": 535,
+    "L_max": 2671,
+    "line_M": 57,
+    "potential_counts_by_stair_position": [
+      2,
+      6,
+      16,
+      40,
+      32
+    ],
+    "potential_assignments_per_stair": 245760,
+    "staircases": 24,
+    "potential_assignments": 5898240,
+    "unpruned_assignments": 195689447424,
+    "count_scope": "syntactic index summands, not product cost; no actual enumeration",
+    "additional_repeated_physical_pruning": false
+  },
+  "static_execution_envelope": {
+    "caller_AST_nodes": {
+      "raw_engine.py": 3206,
+      "artificial.py": 1832,
+      "program.py": 1952,
+      "test_realization.py": 813,
+      "bindings.py": 242
+    },
+    "caller_AST_node_upper": 65536,
+    "non_RF_call_depth_upper": 128,
+    "simultaneously_active_non_RF_loop_depth_upper": 32,
+    "per_iterator_length_upper": "C=2672^5",
+    "why_C": "compositions length<=5 with total<=2671; outer product<=96^5, sparse primitive terms<=56, matrix dimensions<=15, scalar loops<=107, binary power iterations<=12",
+    "binomial_integer_algorithm": "for j=1..min(k,n-k): out=out*(n-j+1)//j; each division exact",
+    "binomial_call_products_and_exact_divisions_upper": 2671,
+    "combinatorial_work_separate_from_RF": true,
+    "maximum_recursion_sources": [
+      "compositions at most5 slots",
+      "binary power negative case at most1 extra call",
+      "Lift stage2 -> stage1 -> stage0"
+    ]
+  },
+  "lifetime_policy": {
+    "assignment": "new PhysicalModel/Source/Lift per tuple; no cross-assignment value cache",
+    "method_caches": "primitive,nu,g,blocks,s_raw class-level lru wrappers explicitly cleared in finally per assignment",
+    "matrix_event_record": "counts per (r,k,c), no retained event list",
+    "accumulator": "one growing exact field total retained through all24/fibers; prior total/term temporaries alive during arithmetic",
+    "RF_normalization": "must count polynomial convolution, denominator normalization and division temporaries",
+    "storage_events_are_peak_bytes": false,
+    "python_occupancy_certified": false
+  },
+  "missing_for_arithmetic_admission": [
+    "authoritative reconciled aggregate spent/reservations/live allocations ledger",
+    "complete raw_J2_weighted_sum numerator/denominator degree and height root bound instantiated for this literal program",
+    "whole execution RF products and separate integer binomial work bound",
+    "retained plus transient Python object/storage and final polynomial-division bound",
+    "independent literal source/frame/outer implementation acceptance"
+  ],
+  "physical_polynomial_evaluation": false,
+  "physical_coefficients": false,
+  "resource_gate_passed": false,
+  "audit_scope_correction": {
+    "draft_test_executed": true,
+    "physical_domain_labels_constructed_before_guard_fix": 96,
+    "source_or_field_values_on_those_labels": false,
+    "joint_physical_fiber_assignments_evaluated": 0,
+    "correction": "potential_owners now guarded before first yield; final tests use pure alphabet_count(tag) formula; labels were metadata only, not physical arithmetic",
+    "draft_test_runs": 2,
+    "physical_domain_label_instances_before_guard_fix": 192,
+    "receipt": "draft-label-check.md"
+  },
+  "actual_joint_fibers_evaluated": false
+}

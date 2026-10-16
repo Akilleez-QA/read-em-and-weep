@@ -1,0 +1,30 @@
+{
+  "physical_source_evaluated": false,
+  "physical_coefficients": false,
+  "final_controls_physical_owner_construction": false,
+  "historical_draft_label_check": "draft-label-check.md",
+  "limits": {
+    "address_space_MiB": 768,
+    "CPU_seconds": 59,
+    "wall_seconds": 60
+  },
+  "test_sha256": "40a77b25c5a91a2b75127d21db9549e08ec0d882b5f43af076e4f1613f223bab",
+  "controls": [
+    {
+      "mode": "normal",
+      "returncode": 0,
+      "seconds": 2.725,
+      "test_count": 10,
+      "log": "controls-normal.log",
+      "sha256": "68c55304b98030864d46300f9897b7a40cf7d2e34daec9533e6787f6dc68edbb"
+    },
+    {
+      "mode": "optimized",
+      "returncode": 0,
+      "seconds": 2.639,
+      "test_count": 10,
+      "log": "controls-optimized.log",
+      "sha256": "82602cf42d4496240f84e3465c3696363dddb7de7e3805ef229cd5fb67b528ab"
+    }
+  ]
+}
