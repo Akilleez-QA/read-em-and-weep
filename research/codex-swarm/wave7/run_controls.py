@@ -27,6 +27,44 @@ def digest(path):return sha(path.read_bytes())
 def local_name(name):
     need(type(name)is str and Path(name).name==name and name not in('','.', '..'),'local filename required')
     return name
+def repository_path(name):
+    need(type(name)is str and bool(name),'repository-relative path required')
+    path=Path(name)
+    need(not path.is_absolute()and not any(x in('','..','.')for x in path.parts)
+        and path.as_posix()==name,'canonical safe repository-relative path required')
+    target=ROOT/path
+    need(target.resolve().is_relative_to(ROOT.resolve()),'repository path escapes root')
+    return target
+def verify_dependency_snapshot(snapshot,declared):
+    need(type(snapshot)is dict and snapshot==declared,'exact declared dependency union required')
+    result={}
+    for name,want in snapshot.items():
+        need(type(want)is str and re.fullmatch('[0-9a-f]{64}',want)is not None,'SHA256 dependency pin required')
+        value=digest(repository_path(name));need(value==want,'transitive dependency drift: '+name)
+        result[name]=value
+    return result
+def dependency_inputs(bindings):
+    declared={}
+    for lane,collection in(('detector-realization','local_dependencies'),('detector-admission','workspace_inputs')):
+        pins=json.loads(repository_path('research/codex-swarm/'+lane+'/source-pins.json').read_bytes())
+        for row in pins[collection]:
+            name='research/codex-swarm/'+row['path'];repository_path(name)
+            need(name not in declared or declared[name]==row['sha256'],'conflicting source dependency pins')
+            declared[name]=row['sha256']
+    result=verify_dependency_snapshot(bindings['dependency_snapshot'],declared)
+    source=json.loads(repository_path('research/codex-swarm/detector-realization/source-pins.json').read_bytes())
+    wanted=sorted(source['git_objects'],key=lambda r:(r['commit'],r['path']))
+    rows=bindings['immutable_input_pins']
+    need(type(rows)is list and sorted(rows,key=lambda r:(r['commit'],r['path']))==wanted
+        and len(rows)==3,'exact three SR immutable input records required')
+    git_inputs={}
+    for row in rows:
+        need(re.fullmatch('[0-9a-f]{40}',row['commit'])is not None,'full immutable commit required')
+        repository_path(row['path']);ref=row['commit']+':'+row['path']
+        raw=subprocess.check_output(['git','show',ref],cwd=ROOT,timeout=10)
+        need(sha(raw)==row['sha256'],'immutable source input drift: '+ref)
+        git_inputs[ref]=sha(raw)
+    return result,git_inputs
 def limits():
     resource.setrlimit(resource.RLIMIT_AS,(768*1024**2,768*1024**2))
     resource.setrlimit(resource.RLIMIT_CPU,(59,59))
@@ -84,6 +122,8 @@ def authenticate(bindings,reviews):
     for name,want in bindings.get('integration_inputs',{}).items():
         local_name(name);value=digest(HERE/name);need(value==want,'integration input drift: '+name)
         result['integration_inputs'][name]=value
+    dependencies,git_inputs=dependency_inputs(bindings)
+    result['dependency_snapshot']=dependencies;result['immutable_input_pins']=git_inputs
     return result
 
 def main():
@@ -110,7 +150,7 @@ def main():
                 for optimized in(False,True):
                     command=[sys.executable,'-B']+(['-O']if optimized else[])
                     if external is None:
-                        command += [name]+(['--child']if lane=='exact-curve-field'and name=='test_independent.py'else[])+['-v']
+                        command += [name]+(['--child']if lane in('exact-curve-field','source-boundary-analysis','detector-realization','detector-admission')and name=='test_independent.py'else[])+['-v']
                     else:
                         ref=external['commit']+':'+external['path']
                         raw=subprocess.check_output(['git','show',ref],cwd=ROOT,timeout=10)
