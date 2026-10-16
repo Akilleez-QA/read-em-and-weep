@@ -12,6 +12,8 @@ statements; historical reports keep their inspection dates and limits.
 | [PR82](https://github.com/Akilleez-QA/read-em-and-weep/pull/82) | `aa422b2a82e424082f3e1174f5d3233f1afbd3bf` (accepted proof; pointer correction at `7ce324bfa5b3c9001f93c9ef19eac0f864e39c9d`): conditional fixed-partition exclusion of 34 selector seeds, accepted independently by null. |
 | [PR83](https://github.com/Akilleez-QA/read-em-and-weep/pull/83) | `1f81ad66d05d816e367ff0b836e6c3877e52f0f3`: explicit32 weighted Laurent requests, constant-matrix certificates and independent exact-rank/term reviews; stacked on PR81. No source values. |
 | [PR84](https://github.com/Akilleez-QA/read-em-and-weep/pull/84) | `fc7563595b8fd0aeed1675d886b178d43c385bdf`: source-authenticated seed12/30 v5 metadata specialization, repaired projection/fixed-mask semantics and independent controls. Regularization remains open. |
+| [PR85](https://github.com/Akilleez-QA/read-em-and-weep/pull/85) | `82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc`: complete symbolic scalar operator, actual finite F12 clearing and217/210 degree proof, conditional frame/transport binding and demand/cost preflight.51 package blobs read back; physical homogeneous/standard coefficient realization remains open. This branch is stacked on PR80; these new packages are maintained in PR85. |
+| New PR79 integration support | `10810ee877fdaf291399198ad60d7dd0c316a42d` combined-pole/order; `398bb5ea34893a2cac80092eb78d4c73dabebb85` first-current tracefree; `43193bc8badf3f29a1363132135d956cc12d46ad` common20-row transport.46 abstract controls independently replayed. The actual-source hypotheses stay explicit. |
 | Constant P4 constructor | `f968b53943ba2312f09fbc3e8f9d462e86bcaa34`, `research/hm/d8-small-certificates/p4/`: pinned constructor and earlier rank receipt. New detector-selection producer extracts only constant constructors; independent verifier reconstructs arrows and exact rational ranks separately. |
 | Twenty-class quotient | `e6e8d272e760a432dbbc1053b88c8eae03a47304`, `research/hsd/twist-minus2-d5/NOTE.md`: explicit ten d5 relations; inherited premise for the twenty initial classes. |
 | Geometric/source comparison | `08b73637d4136f91606aad332c46cafd064417f8`, `research/hm/current-scalar-proof/` and geometric-dependency directories. The conditional source/frame and epsilon-membership premises remain load-bearing. |
@@ -39,9 +41,7 @@ checks formal/source metadata, not physical source values or regularization.
 
 ## Open work and owners
 
-Null owns the reusable combined-inner cancellation/pole lemma and the
-historical-versus-fresh ordering comparison. Codex owns binding that result to
-seed12/30 and compiling the new weighted detector family. The old 78 summands
+Null’s combined-inner and common scalar-family transport lemmas are now published and source-bound, as is its scoped first-current tracefree result. Null retains those proofs and carrier-block comparison; conditional seed4 defect results do not identify the entire historical source. Codex has published finite seed12/30 F12 clearing and the formal weighted-family compiler in PR85; actual homogeneous-frame identification, complete standardB/inner quotient coefficient circuits and source closure/domain witnesses remain with the source/compiler lanes. The old 78 summands
 belong to one scalar functional and do not automatically compile all twenty
 maps. Actual-source symmetry, complete corrected-source/frame transport,
 source-specific denominator/Laurent proofs, shared arithmetic admission and
