@@ -82,6 +82,7 @@ def child(mode):
         point = [p.parse_rat(meter, x) for x in literals]
         result = p.calculate_one(model, point, 'PHYSICAL_FIXED' if mode == 'physical' else 'ARTIFICIAL')
         result.update(evaluation_started=True, result_complete=True,
+                      execution_release=(mode == 'physical' and PHYSICAL_RELEASED),
                       physical_source_evaluated=(mode == 'physical'),
                       normalization={
                           'H_and_J': 'stripped rational mixed jets',
@@ -162,7 +163,15 @@ def supervise(mode):
                 child_returncode=code, captured_bytes=len(out)+len(err),
                 output_limit_bytes=CAP, launcher_sha256=before)
     if reason or code != 0:
-        return dict(base, status='REFUSED_INCONCLUSIVE', reason=reason or 'child failed',
+        detail = reason or 'child failed'
+        if not reason and code == 3:
+            try:
+                failure = json.loads(out)
+                if failure.get('status') == 'REFUSED_INCONCLUSIVE' and isinstance(failure.get('reason'), str):
+                    detail = failure['reason'][:1024]
+            except (ValueError, AttributeError):
+                pass
+        return dict(base, status='REFUSED_INCONCLUSIVE', reason=detail,
                     result_complete=False, zero_value_claimed=False)
     if err != STARTED:
         raise RuntimeError('unexpected child protocol')

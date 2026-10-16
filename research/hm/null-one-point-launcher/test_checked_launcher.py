@@ -45,6 +45,12 @@ class Checks(unittest.TestCase):
             r=L.supervise('artificial')
         self.assertEqual(r['evaluation_started'],'unknown')
         self.assertFalse(r['physical_source_evaluated'])
+    def test_child_refusal_reason_survives_without_values(self):
+        raw=b'{"status":"REFUSED_INCONCLUSIVE","reason":"integer_ops limit","omega_stripped":"must discard"}'
+        with patch.object(L,'limits'),patch.object(L,'load_checked'),patch.object(L,'capture',return_value=(raw,L.STARTED,3,None)):
+            r=L.supervise('artificial')
+        self.assertEqual(r['reason'],'integer_ops limit')
+        self.assertNotIn('omega_stripped',r)
     def test_bad_protocol_refuses(self):
         with patch.object(L,'limits'),patch.object(L,'load_checked'),patch.object(L,'capture',return_value=(b'{}',b'',0,None)):
             with self.assertRaisesRegex(RuntimeError,'protocol'):L.supervise('artificial')

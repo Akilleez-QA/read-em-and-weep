@@ -64,3 +64,15 @@ The source's common legal open contains all mask choices simultaneously after re
 ## Scope and next check
 
 This reduction concerns Lambda=delta K, not the second-jet Omega symbol, the complete Rsharp, or a detector. It leaves the fixed Omega preparation untouched. The finite frame/trace identities should be independently reviewed before using the mask reduction in a future source computation. A nonzero coefficient would refute the closed-K shortcut on that domain; it would not prove a global obstruction. All source quantities in (1)-(4) require at most first derivatives.
+
+## Stronger equivalent form for both target pairs
+
+Since each r_a is a nonzero rational function, vanishing of the four single-bit coefficients for pair (0,1) forces components 0 and 1 of each of A_j-19u and 19u-A_k to vanish. Pair (2,3) forces their remaining two components to vanish. Thus the ten scalar identities are equivalently
+
+    A_j = 19u_ij as a one-form,
+    A_k = 19u_ij as a one-form,
+    (T_ijk)_(0,1) = (T_ijk)_(2,3) = 0.                  (5)
+
+For example, contraction of F wedge(r_0 dx_0) on (0,1) is -r_0 F_1, and the bit-one coefficient is r_1 F_0; the other pair is identical. This uses rational-function nonvanishing, not a claim that a numerical coefficient is bounded away from zero everywhere. Over the common finite function field, y factors are invertible and do not alter the criterion.
+
+Equation (5) supplies a direct falsification target for the all-mask closed-K proposal: failure of either weighted trace one-form identity already suffices. It still says nothing by itself about the complete obstruction, and no actual weighted trace has been computed here.
