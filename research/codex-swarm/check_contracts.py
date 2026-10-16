@@ -12,6 +12,9 @@ from pathlib import Path
 ROWS = {
     2: (("M11", 9, 3, 1), ("M11", 10, 4, 1), ("M11", 12, 6, -2)),
     3: (("M10", 0, 3, 1), ("M10", 2, 6, 2), ("M21", 10, 1, 1), ("M21", 12, 5, 2)),
+    # These are terminal-row coefficients, before the lift sign. The source
+    # fingerprint has +orientation for BOTH q4 factored words; the M20 minus
+    # cancels the negative second lift. bind_seed_fingerprints.py checks that.
     4: (("M20", 0, 0, -1), ("M31", 10, 0, 1)),
 }
 
@@ -132,7 +135,7 @@ def self_test():
     check(coefficient_weight((1,), (1,), {(0,): -1}, [{(1,): 1}]) == 0, "overlap cancellation")
     check(coefficient_weight((1,), (1,), {(0,): -1}, [{(1,): 2}]) == 1, "cancellation negative control")
     print(json.dumps({"status": "pass", "identities": 36, "proposed_seed_channel_cells": 156,
-                      "source_label_coverage": "unproved", "incumbent_binding": "pending",
+                      "source_label_coverage": "unproved", "incumbent_binding": "checked separately by bind_seed_fingerprints.py",
                       "physical_source_evaluated": False, "obstruction": "undecided"}, sort_keys=True))
 
 

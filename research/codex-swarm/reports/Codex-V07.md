@@ -1,50 +1,53 @@
 > Worker proposal/review record. Acceptance and supersession are tracked in `../STATUS.md`.
 
-# Codex-V07: exact obstruction and scalar-dual acceptance theorem
+# Codex-V07: G2 small-P4 certificate and execution preflight
 
-Independent cohomological reviewer; reviewer handoff: V08/I02. Scope: symbolic proof and tiny exact countercontrol only. No physical source arithmetic or dense oracle. Source pin 08b73637d4136f91606aad332c46cafd064417f8; paths below relative to research/hm/. Public discussion IDs refer to PR1. This report derives acceptance criteria; it does not certify missing evaluations.
+Status: NEW hand-derived certificate/selection plan, NOT executed algebra or source evaluation. Independent review D02/V08 pending for latest explicit basis/splitting. Earlier tiny Fraction countercontrol and check_contracts.py normal/-O self-tests passed. No physical source or full oracle run. Paths repo-relative; Q unless specified.
 
-## 1. Complete detector theorem (any field k)
+## Input pins and actual inventory
 
-Let C1 --B--> C2 --A--> C3 be finite-dimensional, AB=0, N=dim C2, b=rank B. Let L:C2->k^t satisfy LB=0. For a CLOSED v (Av=0), Lv!=0 implies [v]!=0. Conversely, all Lv=0 imply [v]=0 for EVERY closed v iff
+P=08b73637d4136f91606aad332c46cafd064417f8, research/hm/current-scalar-proof/: structural-relations.md blobd48c88141e80f0005cf598d4796d6f358d45f07a supplies30 rows/kernel/ranks; map-and-comparison.md11-36 fixes scalar chain-map convention.
+S=f968b53943ba2312f09fbc3e8f9d462e86bcaa34, research/hm/d8-small-certificates/p4/: check_hm_p4_all_twists.js blob7adc1d6a733636204b1dd613870c168717be6277 (10397bytes); certificate.json blob304d031083bb2a19fb9bc012cfd338bbe0129980 (3112bytes). Saved JSON contains ranks/shapes/counts, NOT matrices/bases/pivots. Script regenerates them from constant source blobfa5231de92b61143e3406111d4af028284db6d55.
+H=e6e8d272e760a432dbbc1053b88c8eae03a47304, research/hsd/twist-minus2-d5/: NOTE.md blob0a1d5d00a85e13bcf535a2001577eb0eafc77f43 gives explicit30x10 kernel coordinates; certificate.py blobc40568470cb9b592afd4a489138d67d9d9271252 PRINTS ordinary/d5/kernel matrices; no saved matrix JSON. Neither run here. Missing10+2 row choices and source values; no explicit splitting file found.
 
-rank([A;L])=N-b.                                           (C)
+## Completeness scope
 
-Proof: im B is contained in ker A intersect ker L. The latter has dimension N-rank([A;L]); equality of dimensions is equivalent to equality with im B. No conclusion uses merely a lower bound for rank. A verified upper bound N-b follows from LB=AB=0, so an authenticated nonzero minor of size N-b suffices for the remaining lower bound. Rank over a different field is not a substitute.
+All30 scalar maps are complete on conditional characteristic-zero epsilon W32: P structural-relations.md121-153 identifies their kernel with pure-positive20, whose global degree0 representatives are fixed by factor permutations (HDelta i=0), hence disjoint from epsilon. Values remain missing. P4-linear maps tensor identity on rho_*O; source blocks20/10/2 and target1/5/15 imply m-map rank<=min(20,m)+min(10,5m)+min(2,15m). Two maps rank<=14, blind>=18; at least20 needed. No F3 inference.
 
-An alternative zero certificate is an explicit w with Bw=v, entrywise. This avoids dual completeness, but not the source-comparison obligation. For the pinned full-sign Q model, N=6560,b=2560,rank A=3648,dim H2=352, so (C) requires rank([A;L])=4000. Source: current-scalar-proof/checks/verify_finite_model.js:99-120. Its rank332 constant-scalar family plus ell has rank333, leaving19 dimensions; only evaluations actually supplied restrict the obstruction. Comments6104478488,6104582655.
+## NEW explicit invariant splitting: no large projector
 
-Sector version: supply closed columns Z1,...,Zd spanning the relevant classes modulo im B, with rank([B Z])=b+d. If the actual [v] lies in this span, LB=0 and rank(LZ)=d suffice. For the characteristic-zero D8 epsilon sector d=32, use geometric naturality and full-sign choice independence (6130352358/6130391535), or explicit certificates; the finite-model action is corrected P rho(g) I. Naive harmonic permutation is invalid. Rank333 on352 does not determine rank on32. One ell has rank at most1 on32. The F3 perfect-complex dimension32 does not identify the HM bundle, authenticate obstruction specialization, or prove characteristic3 choice independence.
+Use the graded symmetric-product section ring R, base A=Q[v0,...,v4], D8=< (12),(34),(13)(24)>. Put
+q=X1X2Y3Y4+Y1Y2X3X4,
+which is a section of O(1,1,1,1). In affine Yi=1, q=x1x2+x3x4. The three S4 conjugates are distinct and have stabilizer D8, so q has degree3 over the symmetric fraction field. Its homogeneous resolvent is
+q^3-v2*q^2+(v1*v3-4*v0*v4)*q-(v0*v3^2+v1^2*v4-4*v0*v2*v4)=0.
+Hence1,q,q^2 are A-independent. The published invariant Hilbert numerator1+t+t^2 (S proof section3) gives equality of each graded dimension, proving R^D8=A*1 directsum A*q directsum A*q^2. This is a free graded-module basis. Abstract dictionary-polynomial control over Z[X1,Y1,...,X4,Y4] WAS run: resolvent difference ZERO, Q fixed by all three D8 generators. No source/model inputs or CAS. Independence still needs generic degree3.
 
-## 2. Source bridge and exact scope
+The full-sign line O(-2)^4 has permutation-INVARIANT generator; K_Y is that line WITH permutation-sign linearization. Thus (H2_fullsign)*=H2(rho*End(K)) tensor sgn and W*=H2(rho*End(K))^D8. Serre duality identifies W* with
+H2 End(K) [dim2] + H2 End(K)(-1)*q [dim10] + H2 End(K)(-2)*q^2 [dim20].
+Here *q means summand label, not another dual. Scalar target H4 O(-4)^4 has dual H0 O(2)^4 tensor sgn; its epsilon dual is the invariant polynomial space below. A scalar-output functional paired against f in H0(Y,O(2)^4)^D8 decomposes uniquely as
+f=a2(v)+a1(v)*q+a0*q^2, deg a_j=j.
+Thus32 detectors can be selected as20 labels(L_i,b,q^2),10 labels(L_i,b,v_k*q),2 labels(L_i,b,v_k*v_l), k<=l. Physical evaluation is the usual Serre Laurent pairing [x1^-1...x4^-1](f*scalar cochain), after authenticated regular transport, not point evaluation.
 
-Let r be the COMPLETE corrected closed geometric Rsharp, J its total End lift, C an authenticated regular cover comparison and P_A the finite chain projection. A candidate v must satisfy v-P_A C J(r)=B u (or an equivalent authenticated pulled-back dual identity for each row used). Domain, field, frames, full owners, partition powers, total signs and top J3 homotopy must match. D r=0 alone does not bind an arbitrary finite v to r.
+## NEW explicit20-map block basis (includes both old maps)
 
-For nonzero, one fully authenticated pairing suffices; for zero use a boundary witness or theorem(C)/sector version plus ALL evaluations. The78 staircase seeds are summands of ONE ell(n,z)=z[7]-z[25], not independent rows (6205341120). A nonzero summand need not survive assembly. The class represented in6205127744 is the full-sign component: vanishing there alone is not vanishing of every unprojected obstruction component. Baseline M0 must retain its gerbe terms; central pieces may be discarded only by the stated closed trace splitting, not individually.
+Define L_i,b=X13[i,b]-sum_(a,k)gamma[i,a,k] X02[a,5b+k] (P structural-relations.md eq3). Let K_j be the80x30 kernel basis at H, with identity on free positive coordinates50..79; j=15b+i is the M13[target b,source i] coordinate. Under the supertrace trace pairing, L_i,b corresponds to -K_j (a uniform degree-shift sign has no effect on independence).
 
-## 3. Direct scalar dual: precise certificate
+NOTE's d5 coordinates give exactly the10 relations
+K_r+K_(25+r)=0, K_(10+r)+K_(20+r)=0, r=0,...,4.
+All20 involved indices are distinct; indices5..9,15..19 are untouched. Thus the20 maps with b0,i5..9 and b1,i0..14 form a quotient basis. To retain the old L as well as Lminus, replace (i5,b1) by(i10,b0), using K10+K20=0. I20={(i,0):5<=i<=10} union {(i,1):0<=i<=14,i!=5},20 members containing(10,0),(10,1). This is a unit quotient certificate requiring no rank search. Before use, verifier must reconstruct K and confirm its free-coordinate convention and the supertrace identification; do not trust ordinal agreement alone.
 
-Use V0 --d0--> V1 --d1--> V2 from6206738230, with FULL homogeneous numerator spaces and all distinct common vertices; d1 d0=0, ker d1=im d0. For e in (V1)* satisfying e d0=0, finite-dimensional duality gives eta in(V2)* with eta d1=e. If s lies in V1 and d1 s=F, then e(s)=eta(F), independent of the primitive. Practical acceptance requires an exact identity eta d1=e on every V1 basis element (or a proved factored identity spanning the full space), and authenticated F,s admission. A solve on sampled demands is insufficient.
+## Exact32-row discovery and verifier algorithm
 
-The public exactness proof uses a locally contractible augmented wedge-Koszul sheaf complex, acyclic nonempty numerator bundles, and H1(O(0,0,-2,-2))=0. H2 is one-dimensional, so d1 is not surjective onto arbitrary V2; F must be the actual exact source or carry its compatibility certificate. The FULL dual cocycle proves e d0=0; restricting it to lambda2/3/4 is justified on J of exact residuals, not on arbitrary intermediate cochains. Clipped Laurent boxes inherit neither exactness nor this proof. Actual eta rows/factored inverse and cost remain missing.
+1. Regenerate ONLY small ordinary End(K) blocks and d5, pin basis tuples(u,v,target,source,5-exponent). Verify d5 in kernel, rank50 ordinary, identity free coordinates, and above10 relations. Form c_i=-K_(15b+i) for I20. Their classes span h2(-2)20.
+2. Multiply c_i by each v_k:100 explicit cycle candidates in degree2 of twist-1, ambient400. Boundary matrix B1 is400x245,rank240; outgoing C1 is150x400,rank150. Verify C1*candidates=0 and choose10 lexicographically first candidates increasing rank modulo im B1. Certify rank[B1 Q10]=250 and preserve labels(i,b,k). These are the v_k*q detector choices.
+3. Multiply c_i by each of15 degree2 base monomials:300 candidates in twist0 ambient1200. Boundary B0 is1200x1225,rank848; outgoing C0 is350x1200,rank350. Choose2 independent modulo B0, certify C0*Q2=0 and rank[B0 Q2]=850. Preserve labels(i,b,k,l). These are the v_k*v_l detector choices.
+4. Independent verifier regenerates matrices, checks labels and products, boundary ranks and selected augmented ranks, plus the20 quotient witness. Dimensions20/10/2 and q-splitting prove the32 output functionals separate W by Serre duality. No full finite-projector/action matrix is required. Success proves completeness only, NEVER source values.
 
-## 4. Executed independent countercontrol
+## Preflight: static sizes, bounded execution, schema
 
-Tiny exact Q elimination using Python Fraction, no datasets retained: B=(1,0,0,0)^t, A=(0,0,0,1), l=(0,1,0,0), m=(0,0,1,0), k=(0,0,1,0)^t. Checked AB=lB=Ak=lk=0; rank([B k])=2 proves k nonboundary. rank([A;l])=2<4-1 while rank([A;l;m])=3. The78 rows j*l (1<=j<=78) have rank1. Thus78 zero readings can miss a nonzero class. Also A rejects the noncycle e4 although l(e4)=0; e1* is an invalid detector since it does not kill B. These last two checks are direct displayed dot products, not claimed separate program tests.
+DO NOT run existing monolithic main to extract data implicitly. New producer must isolate constant definitions, matrix constructor and10-column zigzag with a reviewed extraction boundary. No HM residual source, divisor masks, polynomial-source DAG, or physical input is allowed. Output is exact constant-matrix algebra only.
+Static maxima:400x345 selection matrix at twist-1,1200x1525 at twist0; candidate supports at most80 entries each before reduction. Stream columns; store at most850 pivot vectors of length1200=1,020,000 integer cells. Packed signed512-bit cells require65,280,000bytes for this pivot table; scratch and input tables must be separately charged. A naive exact reduction upper bound is1525*850*1200<1.56e9 coefficient updates, NOT a runtime claim. Rational/primitive-fraction-free growth is unproved; abort on512-bit coefficient cap. Proposed supervisor cap512MiB RSS,60s wall,20million coefficient updates,2MiB retained output; these are proposed FAIL-CLOSED bounds, not demonstrated sufficient or an execution authorization. No spill/cache files. Emit cap-hit status without a partial rank claim.
 
-Available-report audit: I01 correctly distinguishes one detector from completeness; V01 correctly calls its156 cells ownership, not rank; V03 retains full-source/gerbe/frame requirements. D01/D02/T01/T02/V08 absent at inspection: no producer acceptance claimed. Next: apply(C) or sector criterion to D reports and the exact eta identity/domain test to T reports. Original contribution: explicit iff rank certificate and executable tiny countercontrol; dimensions and finite-domain lemma are existing published inputs.
+Schema: fieldQ; pinned inputs/basis-policy/trace-sign; I20/free-columns/d5-relations; selected10/2 map+monomial labels; matrix hashes; cycle checks and exact boundary/augmented-rank witnesses; Q/resolvent/Hilbert premise; code/verifier hashes and resource receipt. Hashes alone do not prove rank. Reject altered labels/basis/trace/relations. No physical-evaluation or obstruction status.
 
-
-## 5. NEW: all constant scalar maps ARE complete on epsilon
-
-Pinned current-scalar-proof/structural-relations.md:121-153 proves: S has2430 output rows, supported on negative n alone; pure-positive ker C/(T ker A) has dimension30-10=20, injects into H2, EVERY constant scalar map kills it, and this equals their entire common kernel K. This uses explicit vanishing, not dimension alone.
-
-Pure-positive inputs have internal degree2, Cech degree0, constant O(0,0,0,0) coefficients. In genuine inclusion I_A=(1+H Delta)^(-1)i, H Delta i=0 because H lowers Cech degree below0. Thus I_A(0,p)=i(0,p), a GLOBAL constant section. Factor permutations fix coefficient matrices (6130306841) and diagonal constant chart cochains; no H1/Koszul sign occurs in degree0. Hence rho(g)i(0,p)=i(0,p), and corrected P_A rho(g) I_A fixes (0,p). Therefore the ENTIRE K is the trivial D8 representation.
-
-For W=H2[epsilon], a=(12) acts by-1. Any x in K intersect W satisfies ax=x=-x, hence x=0 overQ. Thus S|W is injective, rank32 under the published dimension premise. All2430 scalar outputs zero for the authenticated actual epsilon class DO prove boundary. Only two maps being evaluated is insufficient. This provides theoretical completeness, not the missing source values or a smaller extraction schedule. No F3 transfer: rational kernel identity and geometric membership are premises. D02's13..32 bound is correct but weaker; D01's invariant witness extends to all K by this argument.
-
-## 6. Code and arriving-report review
-
-Read research/codex-swarm/check_contracts.py; ran ONLY normal and -O self-tests with -B, both pass. Boundary-column transpose rank, AB=LB rejection, completeness rank criterion, Laurent shifts/cancellation and reconstructed156 ownership cells are correct. No blocking defect found. Inputs to the Laurent identity must be integer exponent tuples. The4096-entry toy cap is not a hostile-input resource guard: conversion precedes it, bit sizes/empty-matrix column counts are uncapped. This does not affect these tests.
-
-D01/D02 dual contracts and V08 boundary criterion are correct. T01 homotopy defect signs and extension/admission caveat are correct; T02 gauge and compressed-kernel identities check algebraically. These accept contracts, not an instantiated eta or source evaluation. The new theorem supersedes their restricted-completeness uncertainty only.
+Final verdict still needs complete corrected closed Rsharp, authenticated regular source bridge (owners/frames/gerbe/top-J3), and actual32 values or boundary preimage. Earlier toy tests do not certify G2 or physical values.

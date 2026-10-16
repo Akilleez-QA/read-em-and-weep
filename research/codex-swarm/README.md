@@ -2,6 +2,8 @@
 
 Owner: **Codex**. Coordination: [new bounded claim on #1](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6208896682).
 
+**Current reviewed state: [STATUS.md](STATUS.md).** The original registration below records the initial dependency gates. PR #79 has since published the seed fingerprints and support-source closure. The independent binder now identifies seed4 exactly; it remains reserved to null. Higher-row support exclusions, scalar-family completeness, and source-jet metadata contracts are linked in STATUS.md. Initial missing-input statements in worker reports are preserved as history, not current assertions that the release is absent.
+
 This branch is the shared record for 36 distinct worker assignments. `workers.json` records each bounded claim, dependency, and independent reviewer. Registration is not a claim that an assignment has finished. Worker proposals require review before they become accepted lemmas.
 
 ## Mathematical objective

@@ -1,0 +1,30 @@
+{
+  "schema": "a05-primary-current-request-v1",
+  "owners": [
+    {
+      "seed": 7,
+      "owner": 1,
+      "carrier": 1,
+      "legal_mask": 0,
+      "standard_tag": 0
+    },
+    {
+      "seed": 7,
+      "owner": 2,
+      "carrier": 2,
+      "legal_mask": 1,
+      "standard_tag": 8
+    },
+    {
+      "seed": 7,
+      "owner": 3,
+      "carrier": 4,
+      "legal_mask": 15,
+      "standard_tag": 15
+    }
+  ],
+  "pair": [
+    2,
+    3
+  ]
+}
