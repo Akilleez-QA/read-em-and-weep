@@ -1,0 +1,12 @@
+{
+  "schema": "one-point-omega-preparation-failure-v1",
+  "stage": "artificial supervisor child preexec, before test interpreter exec",
+  "observed_exception": "subprocess.SubprocessError: Exception occurred in preexec_fn.",
+  "cause": "parent hard RLIMIT_AS128MiB and CPU5 inherited; preexec tried to raise child hard limits to256MiB and15CPU, which is prohibited",
+  "actual_source_evaluated": false,
+  "zero_claimed": false,
+  "repair": "both parent and child hard AS256MiB/CPU15; max2simultaneous processes, aggregate address-space upper512MiB/CPU30; authority still absent",
+  "failure_was_fail_closed": true,
+  "test_program_started": false,
+  "forked_child_failed_before_exec": true
+}

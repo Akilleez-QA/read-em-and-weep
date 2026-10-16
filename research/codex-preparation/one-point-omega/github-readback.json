@@ -1,0 +1,158 @@
+{
+  "schema": "one-point-omega-github-readback-v1",
+  "pull_request": 90,
+  "review_candidate": "779c1f7604db6fd48ce6e389b30a96f7aebef9f7",
+  "files": [
+    {
+      "path": "research/codex-preparation/one-point-omega/PLAN.md",
+      "git_blob": "0d1748c3e1403d4136e0f8fe5f49a986e973560a",
+      "sha256": "aa9bcf9dbcfa31f8fc45a77ea90db5792574d843c16d5dde3e573bf90046b219",
+      "bytes": 10746,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/README.md",
+      "git_blob": "62cc1ef352040f1ae2e3b0e4674ba5f317c6e1fc",
+      "sha256": "60897f66bda42ff1296cc25d6aaa8e5765293c18d8f2c3f348620c8fe48082d8",
+      "bytes": 2991,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/artificial-example.json",
+      "git_blob": "445c389d395abb84b2f655b1ca45393b6b7fe5b4",
+      "sha256": "1ef9bba3d27a6b8fc9e3b112dbac211feb2e241d791ff7ce187299f433e5cd7b",
+      "bytes": 2410,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/bounded_exact.py",
+      "git_blob": "baab1b4270746a9a2d869efc4dc8013acc81b3f6",
+      "sha256": "d57ed120979fc8818ab402da6a684819235cfe93dd743902bde665a5fde95b81",
+      "bytes": 11070,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/controls-normal.log",
+      "git_blob": "0cb266a43f2cbbc9b0eeb40d086fdd517980114a",
+      "sha256": "8bb5a23b9dcd9db1dfe06b86c001e4d09cc1157acda75d05fff45a94ef0629fe",
+      "bytes": 1766,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/controls-optimized.log",
+      "git_blob": "253780c137aecc9453e6152d25320b19e2a10834",
+      "sha256": "2a57d0aa6099b099ccf3eb8f836519f1108db92a33670e77a3868d177ace43cf",
+      "bytes": 1766,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/controls-receipt.json",
+      "git_blob": "53d7e02c1a25e748d16cf721d6125b181e9e886c",
+      "sha256": "0e0b31efc2f2a47005c47d93c4d3de300b6b99b11d68f57cfe537c95c81990b8",
+      "bytes": 3222,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/expected-output-schema.json",
+      "git_blob": "5f5986ab0b844613a53abbbd441b95ed32e11424",
+      "sha256": "322c114741cc377215a2dc2c6dc36c441645982a61f15ebdfa3e5b8393ee1b0a",
+      "bytes": 1920,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/parent-limit-failure.json",
+      "git_blob": "80daf92a168ec743ad9388b5ee7c2a9535633e33",
+      "sha256": "dc0a6eec6fcafa371c8594249fc35785da9fa2cc47740183519957237ada3e95",
+      "bytes": 692,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/preparation-manifest.json",
+      "git_blob": "316071de704727ea90906b70c85244516bc4e963",
+      "sha256": "ead18ab84b6874d30bbda066e30b69f52c9d4f65647dd518b28bb13d68ee72b0",
+      "bytes": 3323,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/prepare_omega.py",
+      "git_blob": "4c6c1c65d566ea51831186dede0516f2c5a335a7",
+      "sha256": "1fc6bda205ab84513a7d3ef151f7d78a8477944c536e9b4ba6064703e9217a5f",
+      "bytes": 19227,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/run_artificial_checks.py",
+      "git_blob": "b1d36e4a4b746b98eb25991b659cbad8c7ad955e",
+      "sha256": "80859a836d690d598d9a78f79bf95691b6965cee8b27a183288a4115f4ac1bbd",
+      "bytes": 3313,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/source-pins.json",
+      "git_blob": "b9248e164b561d8bee8b914863c18b5ea0d0284d",
+      "sha256": "efffbacd3866e293bd3da3e1b52e8bf6eabca812d9e342e7569e00f8185462ef",
+      "bytes": 2005,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/sources/model.json",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "bytes": 16803,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/sources/physical-frames.md",
+      "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+      "bytes": 9325,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/sources/second-jet-survivor.md",
+      "git_blob": "68204705bd8f99f02f636f3f8fb0095a9b64e0b9",
+      "sha256": "4b816d816637c4670197309565168e341958f8498a9fb007f75966970074deaa",
+      "bytes": 7633,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/sources/source-formulas.js",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+      "bytes": 4580,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/sources/symmetry-criterion.md",
+      "git_blob": "0ccefeb20cf458539ce8a10970daa0b3caaa422c",
+      "sha256": "9a792c260c483fc80c3df1a57ebe5d7a9e6c3c1be87e58c3334c62d8036879ff",
+      "bytes": 12307,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/spec.json",
+      "git_blob": "03b8cc476988312edbc54d87113c546bef792ffa",
+      "sha256": "55082c8ddb7182230ec1b7d5f0013a4edc8d8bf2bbfbe8337a67847b0975fd06",
+      "bytes": 1614,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/static-receipt.json",
+      "git_blob": "8e72b8ee224968155a05881d97a917304448c314",
+      "sha256": "99884e6eb2b8a365e8892fcc0e4a71891e30f9a83a6aae2ba7697d8a96b26be4",
+      "bytes": 555,
+      "github_bytes_match": true
+    },
+    {
+      "path": "research/codex-preparation/one-point-omega/test_artificial.py",
+      "git_blob": "9f43f63537785b3a8068351a8a4ec76d14696aa3",
+      "sha256": "0e25f939fefeb78a83bccacf685ec454a8877e0de0d42f88e060b354f2593bfa",
+      "bytes": 8661,
+      "github_bytes_match": true
+    }
+  ],
+  "file_count": 21,
+  "total_bytes": 125929,
+  "actual_source_evaluated": false,
+  "execution_release": false
+}
