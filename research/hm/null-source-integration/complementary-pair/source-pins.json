@@ -1,0 +1,38 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "files": [
+    {
+      "file": "sources/finite-clearing-PROOF.md",
+      "ref": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "git_blob": "806fa33f3492aac3f89431b46c9b493c0945751b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc/research/codex-swarm/whole-source-clearing/PROOF.md",
+      "scope": "read-only source inspection; not executed",
+      "local_sha256": "3ea2b68a04168f76ba217b2b43470c41657124b550111c72a3eb10b60dd89361",
+      "local_git_blob": "806fa33f3492aac3f89431b46c9b493c0945751b"
+    },
+    {
+      "file": "sources/finite-clearing.py",
+      "ref": "82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc",
+      "git_blob": "d21bef0675234baca973dfdf8423e104e8267202",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/82a8785d0a23e8d4e44e9ca4f52c8bb24fdadbdc/research/codex-swarm/whole-source-clearing/clearing.py",
+      "scope": "read-only source inspection; not executed",
+      "local_sha256": "2cc26945328dba5069d0b79888416b4d9d48b4031336fe266b2ffc103db3abef",
+      "local_git_blob": "d21bef0675234baca973dfdf8423e104e8267202"
+    },
+    {
+      "file": "sources/hm-pinned-source-formulas.js",
+      "ref": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "scope": "read-only source inspection; not executed",
+      "local_sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+      "local_git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f"
+    }
+  ],
+  "physical_polynomial_evaluation": false,
+  "physical_polynomial_expansion": false,
+  "source_checker_executed": false,
+  "geometric_frame_identification": false,
+  "full_cover_value_equivalence": false,
+  "execution_release": false
+}
