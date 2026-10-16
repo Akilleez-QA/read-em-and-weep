@@ -6,7 +6,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C02",
@@ -15,7 +15,13 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md",
+    "reservation": {
+      "seed": 4,
+      "channel": "E12",
+      "local_rank": 4,
+      "owner": "null"
+    }
   },
   {
     "identity": "Codex-C03",
@@ -24,7 +30,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C04",
@@ -33,7 +39,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C05",
@@ -42,7 +48,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C06",
@@ -51,7 +57,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C07",
@@ -60,7 +66,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C08",
@@ -69,7 +75,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C09",
@@ -78,7 +84,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C10",
@@ -87,7 +93,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C11",
@@ -96,7 +102,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-C12",
@@ -105,7 +111,7 @@
     "reviewer": "Codex-V01/Codex-V02",
     "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-J01",
@@ -114,7 +120,7 @@
     "reviewer": "Codex-J02/Codex-V03",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-J02",
@@ -123,7 +129,7 @@
     "reviewer": "Codex-J01/Codex-V04",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-B01",
@@ -132,7 +138,7 @@
     "reviewer": "Codex-B02",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-B02",
@@ -141,7 +147,7 @@
     "reviewer": "Codex-B01/Codex-V08",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-T01",
@@ -150,7 +156,7 @@
     "reviewer": "Codex-T02",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-T02",
@@ -159,7 +165,7 @@
     "reviewer": "Codex-T01/Codex-V07",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-D01",
@@ -168,7 +174,7 @@
     "reviewer": "Codex-D02/Codex-V07",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-D02",
@@ -177,7 +183,7 @@
     "reviewer": "Codex-D01/Codex-V08",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A01",
@@ -186,7 +192,7 @@
     "reviewer": "Codex-A02/Codex-V03",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A02",
@@ -195,7 +201,7 @@
     "reviewer": "Codex-A01/Codex-V04",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A03",
@@ -204,7 +210,7 @@
     "reviewer": "Codex-A04/Codex-V05",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A04",
@@ -213,7 +219,7 @@
     "reviewer": "Codex-A03/Codex-V06",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A05",
@@ -222,7 +228,7 @@
     "reviewer": "Codex-V03/Codex-V04",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-A06",
@@ -231,7 +237,7 @@
     "reviewer": "Codex-V06/Codex-I01",
     "dependency": "authenticated survivor record; conditional design only until available",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V02",
@@ -240,7 +246,7 @@
     "reviewer": "Codex-V01",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V04",
@@ -249,7 +255,7 @@
     "reviewer": "Codex-V03",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V05",
@@ -258,7 +264,7 @@
     "reviewer": "Codex-V06",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V06",
@@ -267,7 +273,7 @@
     "reviewer": "Codex-V05",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V08",
@@ -276,7 +282,7 @@
     "reviewer": "Codex-V07",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-I01",
@@ -285,7 +291,7 @@
     "reviewer": "Codex-I02",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-I02",
@@ -294,7 +300,7 @@
     "reviewer": "Codex-I01",
     "dependency": "public pinned formulas",
     "execution": "cli",
-    "status": "registered"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V01",
@@ -303,7 +309,7 @@
     "reviewer": "Codex-V02",
     "dependency": "public pinned formulas",
     "execution": "subagent",
-    "status": "bootstrap-complete; continuing review"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V03",
@@ -312,7 +318,7 @@
     "reviewer": "Codex-V04",
     "dependency": "public pinned formulas",
     "execution": "subagent",
-    "status": "bootstrap-complete; continuing review"
+    "status": "first-wave report published; review state in STATUS.md"
   },
   {
     "identity": "Codex-V07",
@@ -321,6 +327,6 @@
     "reviewer": "Codex-V08",
     "dependency": "public pinned formulas",
     "execution": "subagent",
-    "status": "bootstrap-complete; continuing review"
+    "status": "first-wave report published; review state in STATUS.md"
   }
 ]
