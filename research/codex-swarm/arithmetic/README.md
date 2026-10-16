@@ -9,9 +9,12 @@ These are metadata contracts and conditional recurrence plans for two independen
 | `primary_current` | A current-only rational/factored DAG adapter for three distinct source-sorted primary tail owners. It accepts actual arbitrary standard tags and rejects exceptional tail carriers. It does not supply the exceptional prefix, selector, scalar primitive, complete weighted derivative, or arithmetic admission. |
 | `recurrence12` | Exceptional-prefix outer partition plan plus an executable **synthetic** bounded affine convolution. The auxiliary denominator conversion doubles its carrier order; actual combined orders are unresolved. |
 | `recurrence30` | An independent divided-power/generating-function recurrence and signed Laurent demand plan. Tiny synthetic controls test the recurrence, not a physical partition expansion. |
+| `compiler_v5` | New source-pinned specialization of PR79 v5 for these two fixed requests, with independently replayed public compiler tests. Explicit realization/pole/Laurent gates remain unresolved; see its README for review corrections and scope. |
 | `ledger` | A synthetic single-snapshot schedule replay and a hash-bound join of the two candidate metadata contracts. It separates actual file lengths from unknown physical costs, never authenticates real ledger history, and never emits execution authorization. |
 
 The two requests use fixed prefix masks. Replacing a prefix mask sum by its partition-of-unity value1 is a different family operation, never a multiplication by the number of masks. Code preserves the fixed masks and weights. Inserted-label lists in the seed30 scalar leaf are explicit finite **enclosures**; branch-specific standard-owner restrictions remain unresolved and must be bound before enumeration.
+
+The newer `compiler_v5/` package reads Git objects at `ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18` directly. It does not silently replace the older dependency pins below.
 
 ## Immutable dependency
 

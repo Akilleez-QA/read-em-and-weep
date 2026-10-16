@@ -1,8 +1,8 @@
-> Reviewed metadata record; scope in STATUS.md.
+> Reviewed metadata record; scope in [PR80 STATUS](https://github.com/Akilleez-QA/read-em-and-weep/blob/b5224465774932b25b03d74af5dbe087ba291ac2/research/codex-swarm/STATUS.md).
 
 # Endpoint partition rule on unchanged carrier domains
 
-Source pinned to PR79 commit6e28c6b59f8245779f6c03a20798e4de6842ae19. Independent script Codex-V01-endpoint-support.py authenticates outer_partition_source_binding.py Git blob1dcb9d5e0def4fba2268f4c54de6409b137ed05e and owned_scalar_denominator_binding.py blobb1fee3ac562bce5f561adb5b6ab03103f148efa6 before classifying. It DOES NOT import/execute either package module. It reuses our independently authored Boolean model parser/checker with model blob authentication. Complete per-tuple records: Codex-V01-endpoint-support.json. No q2/seed4 work, physical polynomials or coefficients.
+Source pinned to PR79 commit6e28c6b59f8245779f6c03a20798e4de6842ae19. Independent script check_endpoint_support.py authenticates outer_partition_source_binding.py Git blob1dcb9d5e0def4fba2268f4c54de6409b137ed05e and owned_scalar_denominator_binding.py blobb1fee3ac562bce5f561adb5b6ab03103f148efa6 before classifying. It DOES NOT import/execute either package module. It reuses our independently authored Boolean model parser/checker with model blob authentication. Complete per-tuple records: certificates/endpoint-support.json. No q2/seed4 work, physical polynomials or coefficients.
 
 ## Hand rule, exact inspected source
 

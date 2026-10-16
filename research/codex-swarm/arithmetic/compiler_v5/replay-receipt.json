@@ -1,0 +1,40 @@
+{
+  "artifact_rebuild_byte_identical": true,
+  "command": "uv run --with sympy==1.14.0 --with numpy==2.3.5 python -B run_checks.py",
+  "evidence_kind": "observed command output; no success-log file asserted",
+  "exit_code": 0,
+  "first_attempt": {
+    "result": "artifact rebuild passed then first test could not import sympy; full replay retried in isolated uv runtime",
+    "runtime": "system Python3.14"
+  },
+  "global_Laurent_admission": false,
+  "graph_sha256": "cc21900c9071899dd1e607ba476451877e6ea3a92e44cd8dd926f5bfbdadd6fe",
+  "obstruction_computed": false,
+  "optimized_wrapper": {
+    "exit_code": 1,
+    "output": "optimized Python refused"
+  },
+  "physical_source_evaluated": false,
+  "runtime": {
+    "mpmath": "1.3.0",
+    "numpy": "2.3.5",
+    "python": "3.13.15",
+    "sympy": "1.14.0"
+  },
+  "schema": "codex-v03-v5-replay-observation-v1",
+  "selected_sha256": "4b31091610ef5d5f0ef4d3434ce164dbdeff7ba3e08e61c413a1e09210588b05",
+  "source_commit": "ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18",
+  "staging": "Temporary isolated checkout of the pinned research/hm/null-operator-compiler subtree, outside publication; recreated using git archive.",
+  "test_counts": [
+    9,
+    11,
+    8,
+    9,
+    3,
+    5,
+    8,
+    5
+  ],
+  "test_scripts": 8,
+  "total_tests": 58
+}
