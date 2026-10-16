@@ -1,0 +1,9 @@
+test_each_inactive_outer_owner_literal_zero (test_primary_carrier_sector.PrimaryCarrierTests.test_each_inactive_outer_owner_literal_zero) ... ok
+test_every_saved_separator_independently (test_primary_carrier_sector.PrimaryCarrierTests.test_every_saved_separator_independently) ... ok
+test_parameterized_source_changes_only (test_primary_carrier_sector.PrimaryCarrierTests.test_parameterized_source_changes_only) ... ok
+test_source_first_domain_partition (test_primary_carrier_sector.PrimaryCarrierTests.test_source_first_domain_partition) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 169.545s
+
+OK

@@ -4,7 +4,7 @@
 
 There is an exact necessary-and-sufficient three-scalar identity for the vanishing of Omega. None of determinant one, commuting coordinate derivatives, low matrix rank, internal edgewise commutativity, elementary-symmetric pullback, or rank-one coordinate Hessians supplies those three identities universally. A shared one-dimensional Lie-algebra image, a suitable symmetry relating the two complete jet arrays, or a signed coordinate-rank cancellation would suffice. No such global identity for the actual pinned HM source is certified by the inputs reviewed here. This is an absence of a certificate, not a proof that the source fails those relations.
 
-Nine reproducible abstract tests pass with `python test_source_second_jet_degeneracy.py`. They import no HM source modules or data and do not evaluate any physical polynomial. The pinned model was read and its bytes hashed, not evaluated or expanded. Its hash is 635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926, matching the physical-current binder.
+Nine reproducible abstract tests pass with `python test_source_second_jet_degeneracy.py`. They import no HM source modules or data and do not evaluate any physical polynomial. The pinned model was read and its bytes hashed, not evaluated or expanded. Its hash is 635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926, matching the physical-current binder. Private resource configuration is omitted; execution release remains false.
 
 ## 1. Minimal exact relations
 

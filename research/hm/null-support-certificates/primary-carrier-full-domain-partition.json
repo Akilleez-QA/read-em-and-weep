@@ -1,0 +1,71 @@
+{
+  "actual_factorization_accepted": false,
+  "carrier_active_counts": {
+    "1,1,4": 320,
+    "1,2,4": 512,
+    "1,3,4": 512,
+    "2,2,4": 320,
+    "2,3,4": 512
+  },
+  "certificates_sha256": {
+    "legal-mask-sector-support.json": "1d420ed8368424cfa61d48dcf3b5b46e6f855b4dffe58fe33f9446f8a8aad740",
+    "lower_legal_mask_sector.py": "b560d58627027f0b03e15538e9bb5f76c7dce011a702cff020f47b12762ea214",
+    "lower_primary_carrier_sector.py": "f33fe0e76017fde8556507958157659e6c04ba046ee00ea9ce9bd1fd8bc40f34",
+    "lower_selected_kernel_denominators.py": "8c3bb290df33a2d17da477cd30a36cc581aeddc4cdb3e276fdfbf35973ced89d",
+    "preflight_primary_carrier_sector.py": "5cb96126803c001784f4aee8236ce5e4a748d7283fd0914b473bff4ed8190574",
+    "primary-carrier-sector-support.json": "c6c6795aab6f9ad5cc6037cae0ef6eb472413b837eaa365dd76792a9b95dab35",
+    "test_primary_carrier_sector.py": "130ed14d09f61a76c77dd6bc1e4bd31227bd67742809592508ab4460c2619769"
+  },
+  "counts": {
+    "new_multipliers": 6656,
+    "new_support_excluded": 832,
+    "outer_active": 2176,
+    "outer_literal_zero": 43584,
+    "prior_support_excluded": 512,
+    "selected_contraction_literal_zero": 832,
+    "source_ordered_full_owner_triples": 45760,
+    "unresolved_in_implemented_domain": 0
+  },
+  "execution_release": false,
+  "held_limits": {
+    "private_resource_configuration_omitted": true
+  },
+  "independent_audit": {
+    "elapsed_seconds": 169.545,
+    "log": "primary-carrier-independent-test.log",
+    "result": "OK",
+    "sha256": "35f45e437da157c8fbbd7ef1f55695d117cce5f20e063b4425e80dd4c7ca0c3f",
+    "tests": 4
+  },
+  "physical_polynomial_evaluation": false,
+  "physical_polynomial_expansion": false,
+  "physical_products_spent": 0,
+  "schema": "primary-carrier-full-domain-partition-v1",
+  "scope": {
+    "excluded_unimplemented_carriers": [
+      0,
+      5
+    ],
+    "implemented_carriers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "kernel": "E12",
+    "ordering": [
+      "carrier",
+      "legal_mask",
+      "standard_tag"
+    ],
+    "row": 2,
+    "seed": 4,
+    "standard": [
+      3,
+      11,
+      15
+    ],
+    "star_physical_index": 5
+  },
+  "status": "complete finite-domain support exclusion; all four independent tests passed"
+}

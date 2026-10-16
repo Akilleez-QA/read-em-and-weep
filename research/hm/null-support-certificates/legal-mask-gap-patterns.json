@@ -1,0 +1,80 @@
+{
+  "domain_checked": 512,
+  "execution_release": false,
+  "gap_formulas": [
+    "edge12:487-58*(m02+m03)-57*(m10+m12+m13+m20+m22+m23)",
+    "edge01 firstA/B:273-57*(m03+m13)-58*m23",
+    "edge01 secondA/B:272-57*(m03+m13)-58*m23"
+  ],
+  "mask_notation": "moi is coordinate i low bit of owner o legal mask",
+  "negative_coordinate_derivation": {
+    "homogenization_upper_change": 58,
+    "legal_clearance_upper_change": -29,
+    "line_factor_upper_change": -29,
+    "net_off_edge_upper_change": 0,
+    "note": "Only owner2 can vary coordinate1; that owner is off edge01. There is no negative-coordinate on-edge mask in this sector."
+  },
+  "physical_evaluation": false,
+  "positive_coordinate_derivation": {
+    "edge_inverse_upper_change": -3,
+    "homogenization_upper_change": -58,
+    "legal_clearance_upper_change": 87,
+    "line_factor_upper_change": 29,
+    "net_off_edge_upper_change": 58,
+    "net_on_edge_gap_change": -57,
+    "net_on_edge_upper_change": 55,
+    "on_edge_degree_change": 2
+  },
+  "ranges": [
+    {
+      "max_gap": 487,
+      "min_gap": 29,
+      "minimizing_tuple_count": 2,
+      "multiplier_index": 0
+    },
+    {
+      "max_gap": 487,
+      "min_gap": 29,
+      "minimizing_tuple_count": 2,
+      "multiplier_index": 1
+    },
+    {
+      "max_gap": 487,
+      "min_gap": 29,
+      "minimizing_tuple_count": 2,
+      "multiplier_index": 2
+    },
+    {
+      "max_gap": 487,
+      "min_gap": 29,
+      "minimizing_tuple_count": 2,
+      "multiplier_index": 3
+    },
+    {
+      "max_gap": 273,
+      "min_gap": 101,
+      "minimizing_tuple_count": 64,
+      "multiplier_index": 4
+    },
+    {
+      "max_gap": 273,
+      "min_gap": 101,
+      "minimizing_tuple_count": 64,
+      "multiplier_index": 5
+    },
+    {
+      "max_gap": 272,
+      "min_gap": 100,
+      "minimizing_tuple_count": 64,
+      "multiplier_index": 6
+    },
+    {
+      "max_gap": 272,
+      "min_gap": 100,
+      "minimizing_tuple_count": 64,
+      "multiplier_index": 7
+    }
+  ],
+  "schema": "legal-mask-gap-patterns-v1",
+  "zero_support_not_cancellation": true
+}
