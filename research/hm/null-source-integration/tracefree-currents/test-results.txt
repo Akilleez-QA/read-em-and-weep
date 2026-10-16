@@ -1,0 +1,12 @@
+test_missing_term_general_basis (__main__.Controls.test_missing_term_general_basis) ... ok
+test_moving_frame_L_and_transported_U (__main__.Controls.test_moving_frame_L_and_transported_U) ... ok
+test_nonSL2_negative_controls (__main__.Controls.test_nonSL2_negative_controls) ... ok
+test_pinned_source_bytes_and_determinant_dependency (__main__.Controls.test_pinned_source_bytes_and_determinant_dependency) ... ok
+test_raw_baseline_and_second_jet_negative_controls (__main__.Controls.test_raw_baseline_and_second_jet_negative_controls) ... ok
+test_selector_transpose_and_physical_adapter (__main__.Controls.test_selector_transpose_and_physical_adapter) ... ok
+test_weighted_normal_order_is_linear_in_C (__main__.Controls.test_weighted_normal_order_is_linear_in_C) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.537s
+
+OK

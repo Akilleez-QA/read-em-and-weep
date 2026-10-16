@@ -1,0 +1,42 @@
+[
+  {
+    "file": "bind_requests.py",
+    "git_blob": "ba0a962abf9a284950d140247676e5ff55e969e3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fc7563595b8fd0aeed1675d886b178d43c385bdf/research/codex-swarm/arithmetic/compiler_v5/bind_requests.py"
+  },
+  {
+    "file": "physical_current_source_binding.py",
+    "git_blob": "558516485e0df8b7375b6d34224b2045d51184d7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18/research/hm/null-operator-compiler/physical_current_source_binding.py"
+  },
+  {
+    "file": "compile_actual_scalar_differential_kernel.py",
+    "git_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18/research/hm/null-operator-compiler/compile_actual_scalar_differential_kernel.py"
+  },
+  {
+    "file": "first-order-source.md",
+    "git_blob": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/first-order-source.md"
+  },
+  {
+    "file": "determinant-verification.json",
+    "git_blob": "d36f2f1f0f84e1aae4412ae346487d6663e1d6d4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/certificates/verification.json"
+  },
+  {
+    "file": "attribution-pins.json",
+    "git_blob": "4e672c77e0d0ea233a07cb45c9da466e5cd32868",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/pins.json"
+  },
+  {
+    "file": "resolution_selector_source_binding.py",
+    "git_blob": "07b5c3403e50c2de8ac658d30b82580fb625acc1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18/research/hm/null-operator-compiler/resolution_selector_source_binding.py"
+  },
+  {
+    "file": "outer-pinned-frames-and-poles.md",
+    "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18/research/hm/null-operator-compiler/outer-pinned-frames-and-poles.md"
+  }
+]
