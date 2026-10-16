@@ -1,0 +1,20 @@
+{
+  "code_sha256": {
+    "extract_constants.js": "00bcc662bf111286fd1749fc4fecc37b794e51a081a499137ce1c17ef824f2d7",
+    "run_bounded.py": "5916b2cc8e288962a32636a3e6a1d2dce0e346c96fac3e57b4635d3dd40c39fb",
+    "select_detectors.py": "ddd9749f6a61d332be9bc9f1e6fadf441ef6612a41164131c7c6bc0115e5701f"
+  },
+  "elapsed_seconds": 0.094259,
+  "exit_code": 0,
+  "failure": null,
+  "obstruction": "undecided",
+  "output_bytes": 172594,
+  "output_sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+  "peak_sampled_group_rss_bytes": 73678848,
+  "physical_source_evaluated": false,
+  "rss_cap_bytes": 536870912,
+  "rss_sampling_seconds": 0.02,
+  "status": "success",
+  "stderr": "",
+  "wall_cap_seconds": 59.0
+}
