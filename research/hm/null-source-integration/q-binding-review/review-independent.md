@@ -47,3 +47,11 @@ This review used exact connector-fetched source bytes. For the staged review, on
 - [QB proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/b429d19f6b3fd4f4fe3968a37a848ec980a574a2/research/codex-swarm/source-faithful-Q/PROOF.md)
 - [Fixed partition definitions](https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/outer_partition_source_binding.py)
 - [Combined-pole quotient law](https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-source-integration/combined-pole/PROOF.md#2-inserted-quotient-with-frame-conversion-exactly-once)
+
+## Historical fix verification: 85ce7204
+
+The minor alternate-repository API finding above is resolved at `85ce7204f120bd533519d2eb035be1fdb64dd9f1`. `ActualQBinding` now accepts only None or a path resolving to the module's canonical repository; unsupported repositories are rejected before authentication. The README explicitly documents that alternate repository loading is unsupported. Thus a supplied alternate repository can no longer appear to govern only the initial authentication while later construction silently uses another repository.
+
+The producer's focused guard control and a separate independent guard control both pass under normal Python and Python -O. The independent control checks two alternate paths are rejected without authentication and None, the canonical Path/string, and a normalized equivalent path are accepted. These controls mock only authentication and perform no physical polynomial work. The original mathematical acceptance and remaining physical-execution obligations are unchanged. The prior finding is retained above as historical review evidence, not as an outstanding defect.
+
+[Verified implementation](https://github.com/Akilleez-QA/read-em-and-weep/blob/85ce7204f120bd533519d2eb035be1fdb64dd9f1/research/codex-swarm/source-faithful-Q/q_binding.py)

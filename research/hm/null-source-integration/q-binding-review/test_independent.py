@@ -14,6 +14,16 @@ def pinned_git(args,**kwargs):
     return (PINROOT/('/'.join(path.split('/')[-2:]))).read_bytes()
 def prohibited(*args,**kwargs):raise AssertionError('physical coefficient operation attempted')
 class Independent(unittest.TestCase):
+    def test_canonical_repository_guard(self):
+        canonical=Path(B.__file__).resolve().parents[3]
+        with patch.object(B,'authenticate',return_value={'review_spy':True}) as auth:
+            for alternate in [canonical.parent/'different-repository',canonical/'child']:
+                with self.assertRaisesRegex(ValueError,'only canonical workspace'):
+                    B.ActualQBinding(alternate)
+            auth.assert_not_called()
+            for accepted in [None,canonical,str(canonical),canonical/'child'/'..']:
+                self.assertEqual(B.ActualQBinding(accepted).pins,{'review_spy':True})
+            self.assertEqual(auth.call_count,4)
     def test_metadata_all_charts_pairs_full_owners(self):
         with patch.object(B.QH.subprocess,'check_output',pinned_git),patch.object(B.QH.FiniteRing,'coefficient',prohibited),patch.object(B.QH.FiniteRing,'_coefficient',prohibited):
             api=B.ActualQBinding()
