@@ -1,0 +1,13 @@
+# Checked launcher candidate, physical route held
+
+This additive candidate preserves PR90 mathematical implementation 779c1f7604db6fd48ce6e389b30a96f7aebef9f7 byte-for-byte. `checked_launcher.py` binds both executable dependency digests, authenticates them before importing and again in its one supervised child, and compares the launcher's own SHA-256 across parent and child. An eventual release must additionally pin this launcher's exact reviewed hash externally before invoking it. This is an integrity contract for ordinary trusted execution, not an adversarial filesystem sandbox.
+
+The physical parent and child routes both refuse while PHYSICAL_RELEASED is false. There is no release argument, point override, or source override. Existing prepare_omega.py physical routes remain unmodified and held. The actual calculation body in this wrapper is dormant pending review.
+
+The wrapper imposes the original per-process limits: 256 MiB address space and 15 CPU seconds for parent and child, at most two processes combined. A 20-second deadline covers the child. stdout and stderr together are read only up to 65537 bytes, including newlines; byte 65537 triggers immediate termination and inconclusive refusal. No retained partial matrix is emitted on failure. A one-line progress marker precedes point construction and arithmetic. Observable child failure records true when that marker arrived, otherwise unknown; outer/protocol failures conservatively report unknown progress. A held physical route reports false. No progress or completion field means the value is zero.
+
+The mathematical output explicitly identifies H/J as stripped rational jets. A slot (a,b) is multiplied by y_a*y_b for its physical jet; Gram and Omega use y0*y1*y2*y3. The initial mask is zero, so there is no additional constant conjugation.
+
+Reproduce safe controls with `python -I -B test_checked_launcher.py` and the same command with `-O`. Both modes pass ten launcher tests: early parent/child hold, executable drift, combined output bound, timeout termination, protocol completeness, partial-failure provenance, missing-marker uncertainty, invalid protocol, and serialized newline accounting. These use invented data or synthetic subprocesses only. `python -I -B checked_launcher.py artificial` runs the invented fixture; it completed with 302666 rational operations and 1571502 integer operations, max 57 bits. This is not an actual-source cost estimate or completion promise.
+
+No actual source specialization, detector, or obstruction value has been computed. The earlier residue replay and its accounting remain separate. Review the exact candidate before changing the physical guard or authorizing one fixed attempt. No adaptive retry follows from refusal or a zero result.
