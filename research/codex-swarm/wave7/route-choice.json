@@ -1,0 +1,74 @@
+{
+  "complete_family_request_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "distinct_fallback_map_exponent_roots": 121,
+  "execution_release": false,
+  "first_detector": {
+    "base_monomial": [
+      0,
+      0
+    ],
+    "block": "v_k v_l",
+    "id": 30,
+    "scalar_map": {
+      "b": 0,
+      "i": 5
+    },
+    "terms": [
+      {
+        "coefficient": 1,
+        "dual_monomial": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "laurent_exponents": [
+          -1,
+          -1,
+          -1,
+          -1
+        ],
+        "output_index": 80
+      }
+    ]
+  },
+  "optimality_proved": "minimum positive coefficient-root count among the existing32 requests only",
+  "physical_cost_optimality_proved": false,
+  "physical_evaluation_performed": false,
+  "requests_sha256": "f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0",
+  "route": "first request30; nonzero decides nonvanishing under accepted boundary-annihilation theorem; zero leaves fallback32 or explicit boundary necessary",
+  "schema": "seventh-wave-fixed-detector-route-v1"
+}
