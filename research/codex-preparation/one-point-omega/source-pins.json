@@ -1,0 +1,46 @@
+{
+  "schema": "one-point-omega-source-pins-v1",
+  "physical_source_revision": "08b73637d4136f91606aad332c46cafd064417f8",
+  "files": [
+    {
+      "local": "sources/model.json",
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "bytes": 16803
+    },
+    {
+      "local": "sources/source-formulas.js",
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+      "bytes": 4580
+    },
+    {
+      "local": "sources/symmetry-criterion.md",
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-support-certificates/source-second-jet-degeneracy-certificate.md",
+      "git_blob": "0ccefeb20cf458539ce8a10970daa0b3caaa422c",
+      "sha256": "9a792c260c483fc80c3df1a57ebe5d7a9e6c3c1be87e58c3334c62d8036879ff",
+      "bytes": 12307
+    },
+    {
+      "local": "sources/second-jet-survivor.md",
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-proof-foundations/m0-second-jet-survivor.md",
+      "git_blob": "68204705bd8f99f02f636f3f8fb0095a9b64e0b9",
+      "sha256": "4b816d816637c4670197309565168e341958f8498a9fb007f75966970074deaa",
+      "bytes": 7633
+    },
+    {
+      "local": "sources/physical-frames.md",
+      "commit": "5c9705bfcf1cab76ae76885cc8efc56f558d64f2",
+      "path": "research/hm/null-source-integration/tracefree-currents/sources/outer-pinned-frames-and-poles.md",
+      "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+      "bytes": 9325
+    }
+  ]
+}
