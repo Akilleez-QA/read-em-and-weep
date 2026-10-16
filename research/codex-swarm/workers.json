@@ -1,0 +1,332 @@
+[
+  {
+    "identity": "Codex-C01",
+    "group": "sector",
+    "claim": "q=2, E12, canonical terminal-row/staircase ranks [0,3) of 6. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C02",
+    "group": "sector",
+    "claim": "q=2, E12, canonical terminal-row/staircase ranks [3,6) of 6. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md",
+    "reservation": {
+      "seed": 4,
+      "channel": "E12",
+      "local_rank": 4,
+      "owner": "null"
+    }
+  },
+  {
+    "identity": "Codex-C03",
+    "group": "sector",
+    "claim": "q=2, E34, canonical terminal-row/staircase ranks [0,3) of 6. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C04",
+    "group": "sector",
+    "claim": "q=2, E34, canonical terminal-row/staircase ranks [3,6) of 6. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C05",
+    "group": "sector",
+    "claim": "q=3, E12, canonical terminal-row/staircase ranks [0,12) of 24. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C06",
+    "group": "sector",
+    "claim": "q=3, E12, canonical terminal-row/staircase ranks [12,24) of 24. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C07",
+    "group": "sector",
+    "claim": "q=3, E34, canonical terminal-row/staircase ranks [0,12) of 24. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C08",
+    "group": "sector",
+    "claim": "q=3, E34, canonical terminal-row/staircase ranks [12,24) of 24. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C09",
+    "group": "sector",
+    "claim": "q=4, E12, canonical terminal-row/staircase ranks [0,24) of 48. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C10",
+    "group": "sector",
+    "claim": "q=4, E12, canonical terminal-row/staircase ranks [24,48) of 48. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E12 scan HOLD: incumbent seed-4 fingerprint is unpublished; only domain/specification and symbolic rule work until binding arrives.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C11",
+    "group": "sector",
+    "claim": "q=4, E34, canonical terminal-row/staircase ranks [0,24) of 48. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-C12",
+    "group": "sector",
+    "claim": "q=4, E34, canonical terminal-row/staircase ranks [24,48) of 48. Derive exact factored coefficient-demand and separating-support rules for THIS domain; enumerate label dimensions, source sorting and signs. Produce a reusable exclusion if justified, else the smallest precise unresolved demand. Canonical order is displayed terminal-row order followed by lexicographic permutations of the q C coordinates. Do not identify these ranks with upstream seed numbering. E34 formula work allowed, but no physical-source arithmetic. Independent ordering must be marked reconstructed, not original seed IDs.",
+    "reviewer": "Codex-V01/Codex-V02",
+    "dependency": "78-seed generator and seed-4 fingerprint pending; public row formulas available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-J01",
+    "group": "identity",
+    "claim": "Source-jet producer: derive actual mixed second-jet contraction from pinned crossResidual/globalCross and identify an exact source-admissible symmetry or nonvanishing criterion. User-supplied Omega iff J^t S H symmetric lacks published definitions: explicitly list missing binding; do not invent those definitions. Work on an independent source-based expression that can later be compared.",
+    "reviewer": "Codex-J02/Codex-V03",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-J02",
+    "group": "identity",
+    "claim": "Source-jet independent reviewer: derive mixed differential contribution from authenticated source; audit coefficient 1/4, matrix order, transpose, actual source relations and physical frame derivatives. A generic SL2 jet counterexample is insufficient unless realized by actual source. Challenge the proposed symmetry reduction; missing definitions are dependencies, not evidence of falsehood.",
+    "reviewer": "Codex-J01/Codex-V04",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-B01",
+    "group": "identity",
+    "claim": "Baseline producer: derive complete symbolic baseline M(0)^0+Fp kq+Fq kp from u0=gk with every gerbe correction; compare to Rkin^0-cp kq-cq kp. Find exact cancellations/boundaries with hypotheses, without reusing legacy scalar-corrected residual. Give a concrete auditable formula/specification.",
+    "reviewer": "Codex-B02",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-B02",
+    "group": "identity",
+    "claim": "Baseline independent reviewer: independently verify coboundary signs and scalar/traceless projection in Rsharp=M(s)^0+delta(sp kq+sq kp). Check both gerbe-baseline forms and identify failure controls when one correction is omitted. Do not merely repeat producer algebra.",
+    "reviewer": "Codex-B01/Codex-V08",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-T01",
+    "group": "identity",
+    "claim": "Scalar-dual producer: derive a factored constructive route to eta with D1^t eta=Ep^t Phi on the full admitted finite domain, beyond the already published existence proof. Avoid dense model (~1.51e22); use actual sparse adjoint grammar, demand rows and owner-preserving maps. Return explicit partial certificate or exact missing map.",
+    "reviewer": "Codex-T02",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-T02",
+    "group": "identity",
+    "claim": "Scalar-dual independent reviewer: challenge whether eta(F) equals Phi(Ep(TF)); check primitive admission, full dual cocycle, owner multiplicities and any domain reduction. Seek a compact actual dual construction or a rigorous obstruction to a proposed compression. Existence alone is old work; identify concrete progress beyond it.",
+    "reviewer": "Codex-T01/Codex-V07",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-D01",
+    "group": "identity",
+    "claim": "Detector producer: construct a precise complete-dual or boundary certificate specification on the genuine characteristic-zero D8 epsilon sector (dimension32 under stated hypotheses). Investigate available P rho(g) I maps and ranks of restricted known detectors; do not run the oracle/full matrices. Expose minimal missing executable inputs. Current 78 seeds expand ONE functional.",
+    "reviewer": "Codex-D02/Codex-V07",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-D02",
+    "group": "identity",
+    "claim": "Detector independent reviewer: independently prove and challenge completeness criteria on dim352 and the conditional dim32 source sector. Check whether known 30 scalar maps plus ell separate that sector; do not infer restricted rank from global rank333. Construct a small exact countercontrol for incomplete detectors and specify a checkable rank certificate.",
+    "reviewer": "Codex-D01/Codex-V08",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A01",
+    "group": "arithmetic",
+    "claim": "Backward-demand plan for q2/E34 cells from C03/C04 ONLY. Consume their reports if present; otherwise identify exact unfilled survivor-record fields and stop before arbitrary expression expansion. Specify owner-preserving DAG hash keys and reusable subexpressions using actual source formulas.",
+    "reviewer": "Codex-A02/Codex-V03",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A02",
+    "group": "arithmetic",
+    "claim": "Independent backward-demand plan for q3/q4 E34 from C07/C08/C11/C12. Consume precise survivor records when present; otherwise give conditional propagation grammar with unresolved leaf types, not a fabricated survivor. Audit mixed derivatives and source sorting.",
+    "reviewer": "Codex-A01/Codex-V04",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A03",
+    "group": "arithmetic",
+    "claim": "Partition-coefficient recurrence producer for a C03/C04 demand if present. Work on authenticated N14 inner and outer54/legal29 formula families, exact recurrence/dynamic-programming contraction; specify indices and boundary conditions. Without a certified demand, derive only conditional recurrence and admission tests; no full expansion.",
+    "reviewer": "Codex-A04/Codex-V05",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A04",
+    "group": "arithmetic",
+    "claim": "Independent bounded-partition extraction reviewer for C07/C08/C11/C12 demand if present. Derive recurrence via a distinct generating-function argument; compare finite/infinity frame shifts and owner multiplicities. No arbitrary target if absent; report dependency.",
+    "reviewer": "Codex-A03/Codex-V06",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A05",
+    "group": "arithmetic",
+    "claim": "Generalized owner-preserving Laurent normalization: give exact rules for full common-vertex owners including exceptional carriers, repeated tail carriers, frozen-frame jets and cancel-before-differentiate. Consume available C-worker demands. Identify all required authenticated factor identities; no old squarefree-owner shortcut.",
+    "reviewer": "Codex-V03/Codex-V04",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-A06",
+    "group": "arithmetic",
+    "claim": "Global arithmetic schedule designer: consume C and A reports if available and specify one combined peak-live-memory/multiplication ledger; reject renewed per-worker budgets and support-envelope-as-storage. Existing held pool149 polynomial products/294117 bytes is NOT released. Missing survivor sizes/source bytes => no admission, not guessed budget. Distinguish orchestration text from physical arithmetic ledger.",
+    "reviewer": "Codex-V06/Codex-I01",
+    "dependency": "authenticated survivor record; conditional design only until available",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V02",
+    "group": "review",
+    "claim": "Independent label auditor: reconstruct all row/staircase labels directly from public sparse rows. Check disjoint 12-way assignment, signs, source order, repeated tails and E12 incumbent reservation. Audit C reports when present; output exact coverage gaps, never exclusion rates over a changed domain.",
+    "reviewer": "Codex-V01",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V04",
+    "group": "review",
+    "claim": "Independent source/frame auditor: examine normalization at finite/infinity charts, differentiation of endpoint frames vs frozen constant jets, gerbe corrections, and owner-preserving denominator cancellation. Challenge J/B/A05 reports if present and give precise countercontrols.",
+    "reviewer": "Codex-V03",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V05",
+    "group": "review",
+    "claim": "Independent support-certificate auditor: derive exact coefficient functional weights and rational separating-hyperplane criterion including derivative exponent shifts and multiplier cancellations. Audit available C reports. User gaps29,101,100 and mask increments57/58 are not reproduced without exact package.",
+    "reviewer": "Codex-V06",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V06",
+    "group": "review",
+    "claim": "Independent adversarial support/nonzero and cost auditor: distinguish formal support overlap, true nonzero w(a), actual source polynomial coefficient, sector sum, detector value, global class. Specify exact certificate needed at every promotion; challenge cost and recurrence plans without physical arithmetic.",
+    "reviewer": "Codex-V05",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V08",
+    "group": "review",
+    "claim": "Independent global-conclusion auditor: check complete Rsharp correction terms and exact meaning of full-sign/D8 sector. Falsify any proposal that treats 78 seed zeros or one local nonzero as deciding class. Derive necessary and sufficient rank/boundary tests and trace their source/model authentication.",
+    "reviewer": "Codex-V07",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-I01",
+    "group": "integration",
+    "claim": "Build the exact dependency/ownership graph from the roster and public handoffs. Audit missing published source vs missing evidence vs missing implementation. Identify shortest critical path to authenticated nonzero detector or complete boundary witness. You do not own other workers branches. Read reports if present; return a compact graph and next dependency.",
+    "reviewer": "Codex-I02",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-I02",
+    "group": "integration",
+    "claim": "Assemble an initial proof ledger from actual accepted/public lemmas only: source representative -> regular comparison -> detector -> global verdict. Distinguish proven/source-pinned, user-supplied-unpublished, conditional, unresolved. Integrate available reports and find next missing implication; no theorem repair claim.",
+    "reviewer": "Codex-I01",
+    "dependency": "public pinned formulas",
+    "execution": "cli",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V01",
+    "group": "review",
+    "claim": "Independent coverage review and public seed-source binding",
+    "reviewer": "Codex-V02",
+    "dependency": "public pinned formulas",
+    "execution": "subagent",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V03",
+    "group": "review",
+    "claim": "Independent actual-source/frame/baseline binding review",
+    "reviewer": "Codex-V04",
+    "dependency": "public pinned formulas",
+    "execution": "subagent",
+    "status": "first-wave report published; review state in STATUS.md"
+  },
+  {
+    "identity": "Codex-V07",
+    "group": "review",
+    "claim": "Independent complete-cohomology and detector review",
+    "reviewer": "Codex-V08",
+    "dependency": "public pinned formulas",
+    "execution": "subagent",
+    "status": "first-wave report published; review state in STATUS.md"
+  }
+]

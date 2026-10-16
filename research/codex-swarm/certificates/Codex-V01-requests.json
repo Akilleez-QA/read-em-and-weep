@@ -1,0 +1,474 @@
+{
+  "current_definition": "L_d=g_ij^-1 V_dg_ij; D_d=g_ik^-1 V_dg_ik-L_d",
+  "frames": "authenticated homogeneous physical/common frame; frozen-point conversion only with consistent constant endpoint frames",
+  "inner_partition": "N14 scalar T12, distinct owners/weights",
+  "outer_partition": "carrier54/legal29, independently source-bound endpoint proof",
+  "physical_source_evaluated": false,
+  "prefix_sum_warning": "fixed concrete masks retain all weights; a later prefix-mask family sum replaces selected mask by full admitted mask domain and removes its line weight once, never multiplies its cardinality",
+  "records": [
+    {
+      "arithmetic_status": "UNKNOWN; no Laurent support or polynomial nonzero certificate",
+      "channel": "E34",
+      "cloud_row": 4,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "derivative_families": [
+        {
+          "coefficient": "effective_coefficient/2",
+          "kernel": "selector(L4)",
+          "scalar": "V3 s_jk",
+          "scalar_edge_owners": [
+            2,
+            3
+          ]
+        },
+        {
+          "coefficient": "-effective_coefficient/2",
+          "kernel": "selector(L3)",
+          "scalar": "V4 s_jk",
+          "scalar_edge_owners": [
+            2,
+            3
+          ]
+        },
+        {
+          "coefficient": "effective_coefficient/2",
+          "kernel": "selector(D3)",
+          "scalar": "V4 s_ij",
+          "scalar_edge_owners": [
+            1,
+            2
+          ]
+        },
+        {
+          "coefficient": "-effective_coefficient/2",
+          "kernel": "selector(D4)",
+          "scalar": "V3 s_ij",
+          "scalar_edge_owners": [
+            1,
+            2
+          ]
+        }
+      ],
+      "effective_coefficient": 2,
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left_word": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "local_rank": 6,
+      "operator": "E34(T12 F12)",
+      "owners": [
+        {
+          "legal_mask_bits": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            12,
+            0,
+            5,
+            8,
+            1
+          ],
+          "standard_bits": [
+            0,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            12,
+            1,
+            1,
+            9,
+            9
+          ],
+          "standard_bits": [
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            12,
+            2,
+            2,
+            11,
+            13
+          ],
+          "standard_bits": [
+            1,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            12,
+            3,
+            4,
+            15,
+            15
+          ],
+          "standard_bits": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prefix_mask_collapse_applied": false,
+      "q": 3,
+      "request_scope": "one concrete fixed-mask term; not prefix-summed family",
+      "residual_matrix_paths": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "right_word": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "seed": 12,
+      "source_sort_permutation": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "source_sort_sign": 1,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail_owners": [
+        1,
+        2,
+        3
+      ],
+      "terminal_entry": [
+        2,
+        6
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "worker": "Codex-A01"
+    },
+    {
+      "arithmetic_status": "UNKNOWN; no Laurent support or polynomial nonzero certificate",
+      "channel": "E34",
+      "cloud_row": 7,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "derivative_families": [
+        {
+          "coefficient": "effective_coefficient/2",
+          "kernel": "selector(L4)",
+          "scalar": "V3 s_jk",
+          "scalar_edge_owners": [
+            3,
+            4
+          ]
+        },
+        {
+          "coefficient": "-effective_coefficient/2",
+          "kernel": "selector(L3)",
+          "scalar": "V4 s_jk",
+          "scalar_edge_owners": [
+            3,
+            4
+          ]
+        },
+        {
+          "coefficient": "effective_coefficient/2",
+          "kernel": "selector(D3)",
+          "scalar": "V4 s_ij",
+          "scalar_edge_owners": [
+            2,
+            3
+          ]
+        },
+        {
+          "coefficient": "-effective_coefficient/2",
+          "kernel": "selector(D4)",
+          "scalar": "V3 s_ij",
+          "scalar_edge_owners": [
+            2,
+            3
+          ]
+        }
+      ],
+      "effective_coefficient": 1,
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left_word": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "local_rank": 0,
+      "operator": "E34(T12 F12)",
+      "owners": [
+        {
+          "legal_mask_bits": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          "standard_bits": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            30,
+            1,
+            1,
+            1,
+            8
+          ],
+          "standard_bits": [
+            1,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          "standard_bits": [
+            1,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          "standard_bits": [
+            1,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "legal_mask_bits": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "outer_weight_status": "passes known literal zero flags; nonzero unproved",
+          "owner": [
+            30,
+            4,
+            4,
+            15,
+            15
+          ],
+          "standard_bits": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      ],
+      "prefix_mask_collapse_applied": false,
+      "q": 4,
+      "request_scope": "one concrete fixed-mask term; not prefix-summed family",
+      "residual_matrix_paths": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "right_word": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "seed": 30,
+      "source_sort_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_sort_sign": 1,
+      "standard": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ],
+      "tail_owners": [
+        2,
+        3,
+        4
+      ],
+      "terminal_entry": [
+        0,
+        0
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "worker": "Codex-A02"
+    }
+  ],
+  "scalar_definition": "s=T12F12",
+  "schema": "codex-v01-concrete-unknown-requests-v1",
+  "source_commit": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+  "source_order": "carrier key (-1 for star5), legal_mask, standard",
+  "status": "metadata_pass"
+}

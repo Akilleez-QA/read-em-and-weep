@@ -1,0 +1,5827 @@
+{
+  "branches": [
+    {
+      "demand_current": {
+        "formula": "R-tr(R)/2*I_2",
+        "frame": "global-finite-product-frame",
+        "input_ast": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              2,
+                              2,
+                              3,
+                              12
+                            ],
+                            "P",
+                            "dp"
+                          ],
+                          "op": "pinned_rational_block",
+                          "shape": [
+                            2,
+                            15
+                          ]
+                        },
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              3,
+                              3,
+                              7,
+                              14
+                            ],
+                            "I",
+                            "di"
+                          ],
+                          "op": "pinned_rational_block",
+                          "shape": [
+                            15,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "transpose",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "adjugate_over_determinant",
+              "shape": [
+                2,
+                2
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        3
+                      ],
+                      "op": "partial",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            [
+                              30,
+                              3,
+                              3,
+                              7,
+                              14
+                            ],
+                            3
+                          ],
+                          "op": "logarithmic_diagonal_frame",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "add",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            [
+                              30,
+                              2,
+                              2,
+                              3,
+                              12
+                            ],
+                            3
+                          ],
+                          "op": "logarithmic_diagonal_frame",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "negate",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "add",
+              "shape": [
+                2,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "operator": "tracefree",
+        "raw_v5_projection_equivalence": "unresolved; raw source AST retained for provenance",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "effective_scalar_coefficient": [
+        1,
+        2
+      ],
+      "id": "s30:p2:b0",
+      "normal_order_source_reference": {
+        "function": "compile_term",
+        "requires_demand_current_projection": true,
+        "source_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+        "template": "quotient-and-frame-v1",
+        "template_application": "C must contract demand_current; equivalence to raw v5 C is not asserted"
+      },
+      "pending_null_lemma": {
+        "branch_id": "s30:p2:b0",
+        "coordinate": 2,
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "discharged": false,
+        "frame": "global-finite-product-frame",
+        "input_pair": [
+          0,
+          1
+        ],
+        "must_instantiate": [
+          "exact combined inner T12F12 branch/prism map and signed source ordering",
+          "full-owner grouped cancellation equality before derivative; physical Q/weight derivatives retained",
+          "actual denominator orders per owner, incl auxiliary5 dh and carrier0 dh where present",
+          "homogeneous standard/frame shifts and derivative suffix bounds",
+          "exact finite Laurent source-domain predicate or proved admissible equivalent"
+        ],
+        "numerator_slot": "arbitrary edge numerator in v5; T12F12 realization unresolved",
+        "owners": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            1,
+            1,
+            1,
+            8
+          ],
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ],
+        "proof_reference": null,
+        "scalar_edge_owners": [
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ]
+      },
+      "source_branch": {
+        "coefficient": [
+          1,
+          2
+        ],
+        "coordinate": 2,
+        "current": [
+          "L",
+          3,
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "current_source_binding": {
+          "contraction_frame_witness": "Iphysical Rphysical^t Pphysical=I Rnormalized^t P; same first owner; cancel diagonal frames once",
+          "coordinate": 3,
+          "definition": "physical-first-current-source-v1",
+          "id": "s30:p2:b0:current",
+          "kind": "L",
+          "moving_frame_log_terms_retained": true,
+          "normalized_source_ast": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                2,
+                                2,
+                                3,
+                                12
+                              ],
+                              "P",
+                              "dp"
+                            ],
+                            "op": "pinned_rational_block",
+                            "shape": [
+                              2,
+                              15
+                            ]
+                          },
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                3,
+                                3,
+                                7,
+                                14
+                              ],
+                              "I",
+                              "di"
+                            ],
+                            "op": "pinned_rational_block",
+                            "shape": [
+                              15,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "transpose",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "adjugate_over_determinant",
+                "shape": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          3
+                        ],
+                        "op": "partial",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              [
+                                30,
+                                3,
+                                3,
+                                7,
+                                14
+                              ],
+                              3
+                            ],
+                            "op": "logarithmic_diagonal_frame",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "add",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              [
+                                30,
+                                2,
+                                2,
+                                3,
+                                12
+                              ],
+                              3
+                            ],
+                            "op": "logarithmic_diagonal_frame",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "negate",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "add",
+                "shape": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              2,
+              2
+            ]
+          },
+          "owners": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ],
+          "physical_matrix_identified_with_normalized": false
+        },
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "edge": [
+          3,
+          4
+        ],
+        "id": "s30:p2:b0",
+        "normal_order_template": "quotient-and-frame-v1",
+        "owned_edge_definition": {
+          "definition": "owned-scalar-denominator-factored-v1",
+          "frame_conversion": {
+            "alpha": 1,
+            "beta": 0,
+            "c": 1
+          },
+          "input_pair": [
+            0,
+            1
+          ],
+          "vertices": [
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "demand_current": {
+        "formula": "R-tr(R)/2*I_2",
+        "frame": "global-finite-product-frame",
+        "input_ast": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              2,
+                              2,
+                              3,
+                              12
+                            ],
+                            "P",
+                            "dp"
+                          ],
+                          "op": "pinned_rational_block",
+                          "shape": [
+                            2,
+                            15
+                          ]
+                        },
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              3,
+                              3,
+                              7,
+                              14
+                            ],
+                            "I",
+                            "di"
+                          ],
+                          "op": "pinned_rational_block",
+                          "shape": [
+                            15,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "transpose",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "adjugate_over_determinant",
+              "shape": [
+                2,
+                2
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        2
+                      ],
+                      "op": "partial",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            [
+                              30,
+                              3,
+                              3,
+                              7,
+                              14
+                            ],
+                            2
+                          ],
+                          "op": "logarithmic_diagonal_frame",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "add",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            [
+                              30,
+                              2,
+                              2,
+                              3,
+                              12
+                            ],
+                            2
+                          ],
+                          "op": "logarithmic_diagonal_frame",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "negate",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "add",
+              "shape": [
+                2,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "operator": "tracefree",
+        "raw_v5_projection_equivalence": "unresolved; raw source AST retained for provenance",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "effective_scalar_coefficient": [
+        -1,
+        2
+      ],
+      "id": "s30:p2:b1",
+      "normal_order_source_reference": {
+        "function": "compile_term",
+        "requires_demand_current_projection": true,
+        "source_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+        "template": "quotient-and-frame-v1",
+        "template_application": "C must contract demand_current; equivalence to raw v5 C is not asserted"
+      },
+      "pending_null_lemma": {
+        "branch_id": "s30:p2:b1",
+        "coordinate": 3,
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "discharged": false,
+        "frame": "global-finite-product-frame",
+        "input_pair": [
+          0,
+          1
+        ],
+        "must_instantiate": [
+          "exact combined inner T12F12 branch/prism map and signed source ordering",
+          "full-owner grouped cancellation equality before derivative; physical Q/weight derivatives retained",
+          "actual denominator orders per owner, incl auxiliary5 dh and carrier0 dh where present",
+          "homogeneous standard/frame shifts and derivative suffix bounds",
+          "exact finite Laurent source-domain predicate or proved admissible equivalent"
+        ],
+        "numerator_slot": "arbitrary edge numerator in v5; T12F12 realization unresolved",
+        "owners": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            1,
+            1,
+            1,
+            8
+          ],
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ],
+        "proof_reference": null,
+        "scalar_edge_owners": [
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ]
+      },
+      "source_branch": {
+        "coefficient": [
+          -1,
+          2
+        ],
+        "coordinate": 3,
+        "current": [
+          "L",
+          2,
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "current_source_binding": {
+          "contraction_frame_witness": "Iphysical Rphysical^t Pphysical=I Rnormalized^t P; same first owner; cancel diagonal frames once",
+          "coordinate": 2,
+          "definition": "physical-first-current-source-v1",
+          "id": "s30:p2:b1:current",
+          "kind": "L",
+          "moving_frame_log_terms_retained": true,
+          "normalized_source_ast": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                2,
+                                2,
+                                3,
+                                12
+                              ],
+                              "P",
+                              "dp"
+                            ],
+                            "op": "pinned_rational_block",
+                            "shape": [
+                              2,
+                              15
+                            ]
+                          },
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                3,
+                                3,
+                                7,
+                                14
+                              ],
+                              "I",
+                              "di"
+                            ],
+                            "op": "pinned_rational_block",
+                            "shape": [
+                              15,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "transpose",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "adjugate_over_determinant",
+                "shape": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          2
+                        ],
+                        "op": "partial",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              [
+                                30,
+                                3,
+                                3,
+                                7,
+                                14
+                              ],
+                              2
+                            ],
+                            "op": "logarithmic_diagonal_frame",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "add",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              [
+                                30,
+                                2,
+                                2,
+                                3,
+                                12
+                              ],
+                              2
+                            ],
+                            "op": "logarithmic_diagonal_frame",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "negate",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "add",
+                "shape": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              2,
+              2
+            ]
+          },
+          "owners": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ],
+          "physical_matrix_identified_with_normalized": false
+        },
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "edge": [
+          3,
+          4
+        ],
+        "id": "s30:p2:b1",
+        "normal_order_template": "quotient-and-frame-v1",
+        "owned_edge_definition": {
+          "definition": "owned-scalar-denominator-factored-v1",
+          "frame_conversion": {
+            "alpha": 1,
+            "beta": 0,
+            "c": 1
+          },
+          "input_pair": [
+            0,
+            1
+          ],
+          "vertices": [
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "demand_current": {
+        "formula": "R-tr(R)/2*I_2",
+        "frame": "global-finite-product-frame",
+        "input_ast": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "adjugate_over_determinant",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      4,
+                                      4,
+                                      15,
+                                      15
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "adjugate_over_determinant",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            2
+                          ],
+                          "op": "partial",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                [
+                                  30,
+                                  4,
+                                  4,
+                                  15,
+                                  15
+                                ],
+                                2
+                              ],
+                              "op": "logarithmic_diagonal_frame",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "add",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                [
+                                  30,
+                                  3,
+                                  3,
+                                  7,
+                                  14
+                                ],
+                                2
+                              ],
+                              "op": "logarithmic_diagonal_frame",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "negate",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "add",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "multiply",
+              "shape": [
+                2,
+                2
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        "P",
+                        "dp"
+                      ],
+                      "op": "pinned_rational_block",
+                      "shape": [
+                        2,
+                        15
+                      ]
+                    },
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          3,
+                          3,
+                          7,
+                          14
+                        ],
+                        "I",
+                        "di"
+                      ],
+                      "op": "pinned_rational_block",
+                      "shape": [
+                        15,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "transpose",
+              "shape": [
+                2,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "operator": "tracefree",
+        "raw_v5_projection_equivalence": "unresolved; raw source AST retained for provenance",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "effective_scalar_coefficient": [
+        1,
+        2
+      ],
+      "id": "s30:p2:b2",
+      "normal_order_source_reference": {
+        "function": "compile_term",
+        "requires_demand_current_projection": true,
+        "source_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+        "template": "quotient-and-frame-v1",
+        "template_application": "C must contract demand_current; equivalence to raw v5 C is not asserted"
+      },
+      "pending_null_lemma": {
+        "branch_id": "s30:p2:b2",
+        "coordinate": 3,
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "discharged": false,
+        "frame": "global-finite-product-frame",
+        "input_pair": [
+          0,
+          1
+        ],
+        "must_instantiate": [
+          "exact combined inner T12F12 branch/prism map and signed source ordering",
+          "full-owner grouped cancellation equality before derivative; physical Q/weight derivatives retained",
+          "actual denominator orders per owner, incl auxiliary5 dh and carrier0 dh where present",
+          "homogeneous standard/frame shifts and derivative suffix bounds",
+          "exact finite Laurent source-domain predicate or proved admissible equivalent"
+        ],
+        "numerator_slot": "arbitrary edge numerator in v5; T12F12 realization unresolved",
+        "owners": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            1,
+            1,
+            1,
+            8
+          ],
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ],
+        "proof_reference": null,
+        "scalar_edge_owners": [
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ]
+        ]
+      },
+      "source_branch": {
+        "coefficient": [
+          1,
+          2
+        ],
+        "coordinate": 3,
+        "current": [
+          "U",
+          2,
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "current_source_binding": {
+          "contraction_frame_witness": "Iphysical Rphysical^t Pphysical=I Rnormalized^t P; same first owner; cancel diagonal frames once",
+          "coordinate": 2,
+          "definition": "physical-first-current-source-v1",
+          "id": "s30:p2:b2:current",
+          "kind": "U",
+          "moving_frame_log_terms_retained": true,
+          "normalized_source_ast": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "adjugate_over_determinant",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        4,
+                                        4,
+                                        15,
+                                        15
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "adjugate_over_determinant",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              2
+                            ],
+                            "op": "partial",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  [
+                                    30,
+                                    4,
+                                    4,
+                                    15,
+                                    15
+                                  ],
+                                  2
+                                ],
+                                "op": "logarithmic_diagonal_frame",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "add",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  [
+                                    30,
+                                    3,
+                                    3,
+                                    7,
+                                    14
+                                  ],
+                                  2
+                                ],
+                                "op": "logarithmic_diagonal_frame",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "negate",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "add",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "multiply",
+                "shape": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            2,
+                            2,
+                            3,
+                            12
+                          ],
+                          "P",
+                          "dp"
+                        ],
+                        "op": "pinned_rational_block",
+                        "shape": [
+                          2,
+                          15
+                        ]
+                      },
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            3,
+                            3,
+                            7,
+                            14
+                          ],
+                          "I",
+                          "di"
+                        ],
+                        "op": "pinned_rational_block",
+                        "shape": [
+                          15,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "transpose",
+                "shape": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              2,
+              2
+            ]
+          },
+          "owners": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ],
+          "physical_matrix_identified_with_normalized": false
+        },
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "edge": [
+          2,
+          3
+        ],
+        "id": "s30:p2:b2",
+        "normal_order_template": "quotient-and-frame-v1",
+        "owned_edge_definition": {
+          "definition": "owned-scalar-denominator-factored-v1",
+          "frame_conversion": {
+            "alpha": 1,
+            "beta": 0,
+            "c": 1
+          },
+          "input_pair": [
+            0,
+            1
+          ],
+          "vertices": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "demand_current": {
+        "formula": "R-tr(R)/2*I_2",
+        "frame": "global-finite-product-frame",
+        "input_ast": {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      2,
+                                      2,
+                                      3,
+                                      12
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "adjugate_over_determinant",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      3,
+                                      3,
+                                      7,
+                                      14
+                                    ],
+                                    "P",
+                                    "dp"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    2,
+                                    15
+                                  ]
+                                },
+                                {
+                                  "args": [
+                                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                    [
+                                      30,
+                                      4,
+                                      4,
+                                      15,
+                                      15
+                                    ],
+                                    "I",
+                                    "di"
+                                  ],
+                                  "op": "pinned_rational_block",
+                                  "shape": [
+                                    15,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "multiply",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "transpose",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "adjugate_over_determinant",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                },
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            3
+                          ],
+                          "op": "partial",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                [
+                                  30,
+                                  4,
+                                  4,
+                                  15,
+                                  15
+                                ],
+                                3
+                              ],
+                              "op": "logarithmic_diagonal_frame",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "add",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    },
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                {
+                                  "args": [
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          3,
+                                          3,
+                                          7,
+                                          14
+                                        ],
+                                        "P",
+                                        "dp"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        2,
+                                        15
+                                      ]
+                                    },
+                                    {
+                                      "args": [
+                                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                        [
+                                          30,
+                                          4,
+                                          4,
+                                          15,
+                                          15
+                                        ],
+                                        "I",
+                                        "di"
+                                      ],
+                                      "op": "pinned_rational_block",
+                                      "shape": [
+                                        15,
+                                        2
+                                      ]
+                                    }
+                                  ],
+                                  "op": "multiply",
+                                  "shape": [
+                                    2,
+                                    2
+                                  ]
+                                }
+                              ],
+                              "op": "transpose",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                [
+                                  30,
+                                  3,
+                                  3,
+                                  7,
+                                  14
+                                ],
+                                3
+                              ],
+                              "op": "logarithmic_diagonal_frame",
+                              "shape": [
+                                2,
+                                2
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            2,
+                            2
+                          ]
+                        }
+                      ],
+                      "op": "negate",
+                      "shape": [
+                        2,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "add",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "multiply",
+              "shape": [
+                2,
+                2
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        "P",
+                        "dp"
+                      ],
+                      "op": "pinned_rational_block",
+                      "shape": [
+                        2,
+                        15
+                      ]
+                    },
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          3,
+                          3,
+                          7,
+                          14
+                        ],
+                        "I",
+                        "di"
+                      ],
+                      "op": "pinned_rational_block",
+                      "shape": [
+                        15,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "transpose",
+              "shape": [
+                2,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            2,
+            2
+          ]
+        },
+        "operator": "tracefree",
+        "raw_v5_projection_equivalence": "unresolved; raw source AST retained for provenance",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "effective_scalar_coefficient": [
+        -1,
+        2
+      ],
+      "id": "s30:p2:b3",
+      "normal_order_source_reference": {
+        "function": "compile_term",
+        "requires_demand_current_projection": true,
+        "source_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+        "template": "quotient-and-frame-v1",
+        "template_application": "C must contract demand_current; equivalence to raw v5 C is not asserted"
+      },
+      "pending_null_lemma": {
+        "branch_id": "s30:p2:b3",
+        "coordinate": 2,
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "discharged": false,
+        "frame": "global-finite-product-frame",
+        "input_pair": [
+          0,
+          1
+        ],
+        "must_instantiate": [
+          "exact combined inner T12F12 branch/prism map and signed source ordering",
+          "full-owner grouped cancellation equality before derivative; physical Q/weight derivatives retained",
+          "actual denominator orders per owner, incl auxiliary5 dh and carrier0 dh where present",
+          "homogeneous standard/frame shifts and derivative suffix bounds",
+          "exact finite Laurent source-domain predicate or proved admissible equivalent"
+        ],
+        "numerator_slot": "arbitrary edge numerator in v5; T12F12 realization unresolved",
+        "owners": [
+          [
+            30,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            30,
+            1,
+            1,
+            1,
+            8
+          ],
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ],
+          [
+            30,
+            4,
+            4,
+            15,
+            15
+          ]
+        ],
+        "proof_reference": null,
+        "scalar_edge_owners": [
+          [
+            30,
+            2,
+            2,
+            3,
+            12
+          ],
+          [
+            30,
+            3,
+            3,
+            7,
+            14
+          ]
+        ]
+      },
+      "source_branch": {
+        "coefficient": [
+          -1,
+          2
+        ],
+        "coordinate": 2,
+        "current": [
+          "U",
+          3,
+          [
+            2,
+            3,
+            4
+          ]
+        ],
+        "current_source_binding": {
+          "contraction_frame_witness": "Iphysical Rphysical^t Pphysical=I Rnormalized^t P; same first owner; cancel diagonal frames once",
+          "coordinate": 3,
+          "definition": "physical-first-current-source-v1",
+          "id": "s30:p2:b3:current",
+          "kind": "U",
+          "moving_frame_log_terms_retained": true,
+          "normalized_source_ast": {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        2,
+                                        2,
+                                        3,
+                                        12
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "adjugate_over_determinant",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        3,
+                                        3,
+                                        7,
+                                        14
+                                      ],
+                                      "P",
+                                      "dp"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      2,
+                                      15
+                                    ]
+                                  },
+                                  {
+                                    "args": [
+                                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                      [
+                                        30,
+                                        4,
+                                        4,
+                                        15,
+                                        15
+                                      ],
+                                      "I",
+                                      "di"
+                                    ],
+                                    "op": "pinned_rational_block",
+                                    "shape": [
+                                      15,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "multiply",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "transpose",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "adjugate_over_determinant",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  },
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              3
+                            ],
+                            "op": "partial",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  [
+                                    30,
+                                    4,
+                                    4,
+                                    15,
+                                    15
+                                  ],
+                                  3
+                                ],
+                                "op": "logarithmic_diagonal_frame",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "add",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      },
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  {
+                                    "args": [
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            3,
+                                            3,
+                                            7,
+                                            14
+                                          ],
+                                          "P",
+                                          "dp"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          2,
+                                          15
+                                        ]
+                                      },
+                                      {
+                                        "args": [
+                                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                          [
+                                            30,
+                                            4,
+                                            4,
+                                            15,
+                                            15
+                                          ],
+                                          "I",
+                                          "di"
+                                        ],
+                                        "op": "pinned_rational_block",
+                                        "shape": [
+                                          15,
+                                          2
+                                        ]
+                                      }
+                                    ],
+                                    "op": "multiply",
+                                    "shape": [
+                                      2,
+                                      2
+                                    ]
+                                  }
+                                ],
+                                "op": "transpose",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  [
+                                    30,
+                                    3,
+                                    3,
+                                    7,
+                                    14
+                                  ],
+                                  3
+                                ],
+                                "op": "logarithmic_diagonal_frame",
+                                "shape": [
+                                  2,
+                                  2
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              2,
+                              2
+                            ]
+                          }
+                        ],
+                        "op": "negate",
+                        "shape": [
+                          2,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "add",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "multiply",
+                "shape": [
+                  2,
+                  2
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            2,
+                            2,
+                            3,
+                            12
+                          ],
+                          "P",
+                          "dp"
+                        ],
+                        "op": "pinned_rational_block",
+                        "shape": [
+                          2,
+                          15
+                        ]
+                      },
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            3,
+                            3,
+                            7,
+                            14
+                          ],
+                          "I",
+                          "di"
+                        ],
+                        "op": "pinned_rational_block",
+                        "shape": [
+                          15,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "transpose",
+                "shape": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              2,
+              2
+            ]
+          },
+          "owners": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ],
+            [
+              30,
+              4,
+              4,
+              15,
+              15
+            ]
+          ],
+          "physical_matrix_identified_with_normalized": false
+        },
+        "derivative_pair": [
+          2,
+          3
+        ],
+        "edge": [
+          2,
+          3
+        ],
+        "id": "s30:p2:b3",
+        "normal_order_template": "quotient-and-frame-v1",
+        "owned_edge_definition": {
+          "definition": "owned-scalar-denominator-factored-v1",
+          "frame_conversion": {
+            "alpha": 1,
+            "beta": 0,
+            "c": 1
+          },
+          "input_pair": [
+            0,
+            1
+          ],
+          "vertices": [
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            [
+              30,
+              3,
+              3,
+              7,
+              14
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "compiler_scope": "v5 raw AST provenance plus explicit tracefree request wrapper; equality to raw v5 contraction unresolved",
+  "deleted_prefix_owners": [
+    0,
+    1
+  ],
+  "effective_word_coefficient": 1,
+  "fixed_mask_legal_weights": [
+    {
+      "component_of_existing_outer_weight": true,
+      "definition": "product_i ell_(mask_i,i)^29 * Q_(i,mask_i)",
+      "legal_mask": 0,
+      "mask_bits_low_first": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "multiply_as_extra_factor": false,
+      "owner": [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      "replace_by_one": false
+    },
+    {
+      "component_of_existing_outer_weight": true,
+      "definition": "product_i ell_(mask_i,i)^29 * Q_(i,mask_i)",
+      "legal_mask": 1,
+      "mask_bits_low_first": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "multiply_as_extra_factor": false,
+      "owner": [
+        30,
+        1,
+        1,
+        1,
+        8
+      ],
+      "replace_by_one": false
+    },
+    {
+      "component_of_existing_outer_weight": true,
+      "definition": "product_i ell_(mask_i,i)^29 * Q_(i,mask_i)",
+      "legal_mask": 3,
+      "mask_bits_low_first": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "multiply_as_extra_factor": false,
+      "owner": [
+        30,
+        2,
+        2,
+        3,
+        12
+      ],
+      "replace_by_one": false
+    },
+    {
+      "component_of_existing_outer_weight": true,
+      "definition": "product_i ell_(mask_i,i)^29 * Q_(i,mask_i)",
+      "legal_mask": 7,
+      "mask_bits_low_first": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "multiply_as_extra_factor": false,
+      "owner": [
+        30,
+        3,
+        3,
+        7,
+        14
+      ],
+      "replace_by_one": false
+    },
+    {
+      "component_of_existing_outer_weight": true,
+      "definition": "product_i ell_(mask_i,i)^29 * Q_(i,mask_i)",
+      "legal_mask": 15,
+      "mask_bits_low_first": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "multiply_as_extra_factor": false,
+      "owner": [
+        30,
+        4,
+        4,
+        15,
+        15
+      ],
+      "replace_by_one": false
+    }
+  ],
+  "fixed_mask_warning": "one fixed-prefix-mask term, not collapsed prefix-mask family",
+  "gates": {
+    "Laurent_admitted": false,
+    "T12F12_realized": false,
+    "actual_detector_admitted": false,
+    "combined_inner_poles_discharged": false,
+    "execution_release": false,
+    "historical_order_audit_accepted": false,
+    "physical_source_evaluated": false,
+    "raw_v5_projection_equivalence": false
+  },
+  "kappa": [
+    -1,
+    -2,
+    -3,
+    -4
+  ],
+  "kernel_owners": [
+    0,
+    1,
+    2
+  ],
+  "null_ownership": "combined-inner pole/cancellation algebra and historical-order audit remain with null",
+  "outer_weight_source_bindings": [
+    {
+      "carrier_selector": [
+        "carrier",
+        [
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "definition": "outer-partition-source-v1",
+      "executable_AST_lowered": false,
+      "legal_mask_selector": [
+        "legal_mask",
+        [
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "owner": [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      "regularized_Laurent_multiplier_proved": false,
+      "source_formula_bound": true,
+      "source_pole_domain_proved_by_this_record": false,
+      "standard_chart_selector": [
+        "standard_tag",
+        [
+          30,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "carrier_selector": [
+        "carrier",
+        [
+          30,
+          1,
+          1,
+          1,
+          8
+        ]
+      ],
+      "definition": "outer-partition-source-v1",
+      "executable_AST_lowered": false,
+      "legal_mask_selector": [
+        "legal_mask",
+        [
+          30,
+          1,
+          1,
+          1,
+          8
+        ]
+      ],
+      "owner": [
+        30,
+        1,
+        1,
+        1,
+        8
+      ],
+      "regularized_Laurent_multiplier_proved": false,
+      "source_formula_bound": true,
+      "source_pole_domain_proved_by_this_record": false,
+      "standard_chart_selector": [
+        "standard_tag",
+        [
+          30,
+          1,
+          1,
+          1,
+          8
+        ]
+      ]
+    },
+    {
+      "carrier_selector": [
+        "carrier",
+        [
+          30,
+          2,
+          2,
+          3,
+          12
+        ]
+      ],
+      "definition": "outer-partition-source-v1",
+      "executable_AST_lowered": false,
+      "legal_mask_selector": [
+        "legal_mask",
+        [
+          30,
+          2,
+          2,
+          3,
+          12
+        ]
+      ],
+      "owner": [
+        30,
+        2,
+        2,
+        3,
+        12
+      ],
+      "regularized_Laurent_multiplier_proved": false,
+      "source_formula_bound": true,
+      "source_pole_domain_proved_by_this_record": false,
+      "standard_chart_selector": [
+        "standard_tag",
+        [
+          30,
+          2,
+          2,
+          3,
+          12
+        ]
+      ]
+    },
+    {
+      "carrier_selector": [
+        "carrier",
+        [
+          30,
+          3,
+          3,
+          7,
+          14
+        ]
+      ],
+      "definition": "outer-partition-source-v1",
+      "executable_AST_lowered": false,
+      "legal_mask_selector": [
+        "legal_mask",
+        [
+          30,
+          3,
+          3,
+          7,
+          14
+        ]
+      ],
+      "owner": [
+        30,
+        3,
+        3,
+        7,
+        14
+      ],
+      "regularized_Laurent_multiplier_proved": false,
+      "source_formula_bound": true,
+      "source_pole_domain_proved_by_this_record": false,
+      "standard_chart_selector": [
+        "standard_tag",
+        [
+          30,
+          3,
+          3,
+          7,
+          14
+        ]
+      ]
+    },
+    {
+      "carrier_selector": [
+        "carrier",
+        [
+          30,
+          4,
+          4,
+          15,
+          15
+        ]
+      ],
+      "definition": "outer-partition-source-v1",
+      "executable_AST_lowered": false,
+      "legal_mask_selector": [
+        "legal_mask",
+        [
+          30,
+          4,
+          4,
+          15,
+          15
+        ]
+      ],
+      "owner": [
+        30,
+        4,
+        4,
+        15,
+        15
+      ],
+      "regularized_Laurent_multiplier_proved": false,
+      "source_formula_bound": true,
+      "source_pole_domain_proved_by_this_record": false,
+      "standard_chart_selector": [
+        "standard_tag",
+        [
+          30,
+          4,
+          4,
+          15,
+          15
+        ]
+      ]
+    }
+  ],
+  "request": {
+    "channel": "E34(T12F12)",
+    "frame": "global-finite-product-frame",
+    "orientation": 1,
+    "owners": [
+      [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        1,
+        1,
+        1,
+        8
+      ],
+      [
+        30,
+        2,
+        2,
+        3,
+        12
+      ],
+      [
+        30,
+        3,
+        3,
+        7,
+        14
+      ],
+      [
+        30,
+        4,
+        4,
+        15,
+        15
+      ]
+    ],
+    "prefix_mask_scope": "fixed-mask-term",
+    "schema": "codex-v5-e34-request-v1",
+    "seed": 30
+  },
+  "schema": "codex-v5-seed-binding-v1",
+  "selector_source_binding": {
+    "actual_factorization": false,
+    "coefficient": 1,
+    "deleted_prefix_owners": [
+      0,
+      1
+    ],
+    "dual_kernel_ast": {
+      "args": [
+        {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        "P",
+                        "dp"
+                      ],
+                      "op": "pinned_resolution_rational_block",
+                      "shape": [
+                        2,
+                        15
+                      ]
+                    },
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          1,
+                          1,
+                          1,
+                          8
+                        ],
+                        "H1",
+                        "dh"
+                      ],
+                      "op": "pinned_resolution_rational_block",
+                      "shape": [
+                        15,
+                        10
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    2,
+                    10
+                  ]
+                },
+                0
+              ],
+              "op": "column",
+              "shape": [
+                2,
+                1
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              0,
+                              0,
+                              0,
+                              0
+                            ],
+                            "H0",
+                            "dh"
+                          ],
+                          "op": "pinned_resolution_rational_block",
+                          "shape": [
+                            5,
+                            15
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                [
+                                  30,
+                                  1,
+                                  1,
+                                  1,
+                                  8
+                                ],
+                                "I",
+                                "di"
+                              ],
+                              "op": "pinned_resolution_rational_block",
+                              "shape": [
+                                15,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                [
+                                  30,
+                                  1,
+                                  1,
+                                  1,
+                                  8
+                                ],
+                                "P",
+                                "dp"
+                              ],
+                              "op": "pinned_resolution_rational_block",
+                              "shape": [
+                                2,
+                                15
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            15,
+                            15
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        5,
+                        15
+                      ]
+                    },
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        "I",
+                        "di"
+                      ],
+                      "op": "pinned_resolution_rational_block",
+                      "shape": [
+                        15,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    5,
+                    2
+                  ]
+                },
+                0
+              ],
+              "op": "row",
+              "shape": [
+                1,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            2,
+            2
+          ]
+        }
+      ],
+      "op": "transpose",
+      "shape": [
+        2,
+        2
+      ]
+    },
+    "entry": [
+      0,
+      0
+    ],
+    "entry_indices": "zero-based",
+    "execution_release": false,
+    "exponent": [
+      -1,
+      -2,
+      -3,
+      -4
+    ],
+    "frame": "common original resolution frame; normalized residual at first tail owner",
+    "frame_current_rule": "consume normalized_source_ast exactly once; retain both logarithmic Q terms",
+    "frame_identity": "Iphys=I D; Pphys=D^-1 P; Rphys=D Rbar D^-1; Iphys Rphys^t Pphys=I Rbar^t P",
+    "left_ast": {
+      "args": [
+        {
+          "args": [
+            {
+              "args": [
+                "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                [
+                  30,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "H0",
+                "dh"
+              ],
+              "op": "pinned_resolution_rational_block",
+              "shape": [
+                5,
+                15
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                    [
+                      30,
+                      1,
+                      1,
+                      1,
+                      8
+                    ],
+                    "I",
+                    "di"
+                  ],
+                  "op": "pinned_resolution_rational_block",
+                  "shape": [
+                    15,
+                    2
+                  ]
+                },
+                {
+                  "args": [
+                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                    [
+                      30,
+                      1,
+                      1,
+                      1,
+                      8
+                    ],
+                    "P",
+                    "dp"
+                  ],
+                  "op": "pinned_resolution_rational_block",
+                  "shape": [
+                    2,
+                    15
+                  ]
+                }
+              ],
+              "op": "multiply",
+              "shape": [
+                15,
+                15
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            5,
+            15
+          ]
+        },
+        {
+          "args": [
+            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            "I",
+            "di"
+          ],
+          "op": "pinned_resolution_rational_block",
+          "shape": [
+            15,
+            2
+          ]
+        }
+      ],
+      "op": "multiply",
+      "shape": [
+        5,
+        2
+      ]
+    },
+    "owners": [
+      [
+        30,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        30,
+        1,
+        1,
+        1,
+        8
+      ],
+      [
+        30,
+        2,
+        2,
+        3,
+        12
+      ],
+      [
+        30,
+        3,
+        3,
+        7,
+        14
+      ],
+      [
+        30,
+        4,
+        4,
+        15,
+        15
+      ]
+    ],
+    "pairing": "coefficient * tr(dual_kernel * normalized_row_residual)",
+    "physical_polynomial_evaluation": false,
+    "pinned_model_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "prefix_mask_policy": {
+      "collapse_applied": false,
+      "legal_weight_replaced_by_one": false,
+      "prefix_owner_positions": [
+        0,
+        1
+      ],
+      "removed_combinations": 0,
+      "scope": "fixed-mask-term"
+    },
+    "right_ast": {
+      "args": [
+        {
+          "args": [
+            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+            [
+              30,
+              2,
+              2,
+              3,
+              12
+            ],
+            "P",
+            "dp"
+          ],
+          "op": "pinned_resolution_rational_block",
+          "shape": [
+            2,
+            15
+          ]
+        },
+        {
+          "args": [
+            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+            [
+              30,
+              1,
+              1,
+              1,
+              8
+            ],
+            "H1",
+            "dh"
+          ],
+          "op": "pinned_resolution_rational_block",
+          "shape": [
+            15,
+            10
+          ]
+        }
+      ],
+      "op": "multiply",
+      "shape": [
+        2,
+        10
+      ]
+    },
+    "row": 7,
+    "schema": "resolution-selector-source-binding-v1",
+    "seed": 30,
+    "source_ast": {
+      "args": [
+        {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    {
+                      "args": [
+                        {
+                          "args": [
+                            "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                            [
+                              30,
+                              0,
+                              0,
+                              0,
+                              0
+                            ],
+                            "H0",
+                            "dh"
+                          ],
+                          "op": "pinned_resolution_rational_block",
+                          "shape": [
+                            5,
+                            15
+                          ]
+                        },
+                        {
+                          "args": [
+                            {
+                              "args": [
+                                "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                [
+                                  30,
+                                  1,
+                                  1,
+                                  1,
+                                  8
+                                ],
+                                "I",
+                                "di"
+                              ],
+                              "op": "pinned_resolution_rational_block",
+                              "shape": [
+                                15,
+                                2
+                              ]
+                            },
+                            {
+                              "args": [
+                                "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                [
+                                  30,
+                                  1,
+                                  1,
+                                  1,
+                                  8
+                                ],
+                                "P",
+                                "dp"
+                              ],
+                              "op": "pinned_resolution_rational_block",
+                              "shape": [
+                                2,
+                                15
+                              ]
+                            }
+                          ],
+                          "op": "multiply",
+                          "shape": [
+                            15,
+                            15
+                          ]
+                        }
+                      ],
+                      "op": "multiply",
+                      "shape": [
+                        5,
+                        15
+                      ]
+                    },
+                    {
+                      "args": [
+                        "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        "I",
+                        "di"
+                      ],
+                      "op": "pinned_resolution_rational_block",
+                      "shape": [
+                        15,
+                        2
+                      ]
+                    }
+                  ],
+                  "op": "multiply",
+                  "shape": [
+                    5,
+                    2
+                  ]
+                },
+                0
+              ],
+              "op": "row",
+              "shape": [
+                1,
+                2
+              ]
+            },
+            {
+              "args": [
+                {
+                  "args": [
+                    [
+                      [
+                        30,
+                        2,
+                        2,
+                        3,
+                        12
+                      ],
+                      [
+                        30,
+                        3,
+                        3,
+                        7,
+                        14
+                      ],
+                      [
+                        30,
+                        4,
+                        4,
+                        15,
+                        15
+                      ]
+                    ]
+                  ],
+                  "op": "normalized_row_residual_slot",
+                  "shape": [
+                    2,
+                    2
+                  ]
+                }
+              ],
+              "op": "transpose",
+              "shape": [
+                2,
+                2
+              ]
+            }
+          ],
+          "op": "multiply",
+          "shape": [
+            1,
+            2
+          ]
+        },
+        {
+          "args": [
+            {
+              "args": [
+                {
+                  "args": [
+                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                    [
+                      30,
+                      2,
+                      2,
+                      3,
+                      12
+                    ],
+                    "P",
+                    "dp"
+                  ],
+                  "op": "pinned_resolution_rational_block",
+                  "shape": [
+                    2,
+                    15
+                  ]
+                },
+                {
+                  "args": [
+                    "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                    [
+                      30,
+                      1,
+                      1,
+                      1,
+                      8
+                    ],
+                    "H1",
+                    "dh"
+                  ],
+                  "op": "pinned_resolution_rational_block",
+                  "shape": [
+                    15,
+                    10
+                  ]
+                }
+              ],
+              "op": "multiply",
+              "shape": [
+                2,
+                10
+              ]
+            },
+            0
+          ],
+          "op": "column",
+          "shape": [
+            2,
+            1
+          ]
+        }
+      ],
+      "op": "multiply",
+      "shape": [
+        1,
+        1
+      ]
+    },
+    "staircase_standard_tags": [
+      0,
+      8,
+      12,
+      14,
+      15
+    ],
+    "standard_owner_rule": "tags are reassigned by exact source-first sorting; retain sorting orientation externally",
+    "tail_owners": [
+      [
+        30,
+        2,
+        2,
+        3,
+        12
+      ],
+      [
+        30,
+        3,
+        3,
+        7,
+        14
+      ],
+      [
+        30,
+        4,
+        4,
+        15,
+        15
+      ]
+    ],
+    "terminal_block": "M20",
+    "weighted_owners": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "source_authentication": {
+    "commit": "ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18",
+    "files": {
+      "actual-scalar-differential-kernel.json.gz": {
+        "git_blob": "42aff8317fa8ec832b0bccfc3b250b22de86050b",
+        "sha256": "545c29e4c0aba0a2dedb0c58e61ca57b490840367f6415104b568b511f965124"
+      },
+      "authenticated-refined-detector-composition.md": {
+        "git_blob": "5aecb6f85d1c640cdbe280452a18fa9c2dc62cc5",
+        "sha256": "28a7db43cc9d8660d9d040f6bc40e4b7a1868cca8b10e93e72036b8f4a6995b3"
+      },
+      "compile_actual_scalar_differential_kernel.py": {
+        "git_blob": "805428b4c32214ce6c945fa3f88ebf47b75f7188",
+        "sha256": "d12dbdfe90a42dc97b6ecf31b239ce74e278ef549a6828447f454852315bbaa6"
+      },
+      "compile_refined_detector_metadata.py": {
+        "git_blob": "51197dbb09b9927dfc6ce744ffa8300cb424a098",
+        "sha256": "9658e65bdc78710d3fce05b88f0a3c5defb0411063bcad101e61e87724bd1524"
+      },
+      "hm-pinned-model.json": {
+        "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+        "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+      },
+      "hm-pinned-source-formulas.js": {
+        "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+        "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+      },
+      "outer-pinned-frames-and-poles.md": {
+        "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+        "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916"
+      },
+      "outer-pinned-source-identity.md": {
+        "git_blob": "7e12e8c7479427db87cd496763f5f003005af9c5",
+        "sha256": "2a5ff3f10eaaba3598aee22f654a6b48c888d8858e89b35d4f47ab28facea939"
+      },
+      "outer_partition_source_binding.py": {
+        "git_blob": "f5a33e325e1eee6b801c94613093d1cd4686ca54",
+        "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a"
+      },
+      "owned_scalar_denominator_binding.py": {
+        "git_blob": "b1fee3ac562bce5f561adb5b6ab03103f148efa6",
+        "sha256": "ef82c151febff2f82e4e27a24e38f7f884814d0a99b75a75b81459abfc356018"
+      },
+      "physical_current_source_binding.py": {
+        "git_blob": "558516485e0df8b7375b6d34224b2045d51184d7",
+        "sha256": "8cc3f3be47c6944e983a8b1922470a27c1a413b3fe9059f97c75b7a2cd967d3d"
+      },
+      "prune_refined_selector_paths.py": {
+        "git_blob": "b652582eec3807b074e82cc8fc8cecc7e185223b",
+        "sha256": "1f146ef1a38d6fbc396944753800509c85fa07c2cc16607b3ebdb138bc62b407"
+      },
+      "refined-prefix-pruning-audit.md": {
+        "git_blob": "7b83284ba9c967a174c2b0fd0708176dc40dbe93",
+        "sha256": "6b3fb5db68a210d690d098397e73c0b74d58f751df65d5d6d598e3e714113d3f"
+      },
+      "resolution_selector_source_binding.py": {
+        "git_blob": "07b5c3403e50c2de8ac658d30b82580fb625acc1",
+        "sha256": "3f57b8408ca6fd54a6fb243c57121dfbb7f0c4c10976e0c044c7e5ffe3f63e60"
+      }
+    },
+    "graph_sha256": "cc21900c9071899dd1e607ba476451877e6ea3a92e44cd8dd926f5bfbdadd6fe",
+    "manifest_git_blob": "7e4a18ed9fe8a9c32cc6cf3b710e276c69af5c79"
+  },
+  "source_selector_provenance": {
+    "applied_to_fixed_mask_request": false,
+    "source_record": {
+      "actual_factorization": false,
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "dual_kernel_ast": {
+        "args": [
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            2,
+                            2,
+                            3,
+                            12
+                          ],
+                          "P",
+                          "dp"
+                        ],
+                        "op": "pinned_resolution_rational_block",
+                        "shape": [
+                          2,
+                          15
+                        ]
+                      },
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            1,
+                            1,
+                            1,
+                            8
+                          ],
+                          "H1",
+                          "dh"
+                        ],
+                        "op": "pinned_resolution_rational_block",
+                        "shape": [
+                          15,
+                          10
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      2,
+                      10
+                    ]
+                  },
+                  0
+                ],
+                "op": "column",
+                "shape": [
+                  2,
+                  1
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                0,
+                                0,
+                                0,
+                                0
+                              ],
+                              "H0",
+                              "dh"
+                            ],
+                            "op": "pinned_resolution_rational_block",
+                            "shape": [
+                              5,
+                              15
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                  [
+                                    30,
+                                    1,
+                                    1,
+                                    1,
+                                    8
+                                  ],
+                                  "I",
+                                  "di"
+                                ],
+                                "op": "pinned_resolution_rational_block",
+                                "shape": [
+                                  15,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                  [
+                                    30,
+                                    1,
+                                    1,
+                                    1,
+                                    8
+                                  ],
+                                  "P",
+                                  "dp"
+                                ],
+                                "op": "pinned_resolution_rational_block",
+                                "shape": [
+                                  2,
+                                  15
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              15,
+                              15
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          5,
+                          15
+                        ]
+                      },
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            2,
+                            2,
+                            3,
+                            12
+                          ],
+                          "I",
+                          "di"
+                        ],
+                        "op": "pinned_resolution_rational_block",
+                        "shape": [
+                          15,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      5,
+                      2
+                    ]
+                  },
+                  0
+                ],
+                "op": "row",
+                "shape": [
+                  1,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              2,
+              2
+            ]
+          }
+        ],
+        "op": "transpose",
+        "shape": [
+          2,
+          2
+        ]
+      },
+      "entry": [
+        0,
+        0
+      ],
+      "entry_indices": "zero-based",
+      "execution_release": false,
+      "exponent": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "frame": "common original resolution frame; normalized residual at first tail owner",
+      "frame_current_rule": "consume normalized_source_ast exactly once; retain both logarithmic Q terms",
+      "frame_identity": "Iphys=I D; Pphys=D^-1 P; Rphys=D Rbar D^-1; Iphys Rphys^t Pphys=I Rbar^t P",
+      "left_ast": {
+        "args": [
+          {
+            "args": [
+              {
+                "args": [
+                  "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                  [
+                    30,
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "H0",
+                  "dh"
+                ],
+                "op": "pinned_resolution_rational_block",
+                "shape": [
+                  5,
+                  15
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                      [
+                        30,
+                        1,
+                        1,
+                        1,
+                        8
+                      ],
+                      "I",
+                      "di"
+                    ],
+                    "op": "pinned_resolution_rational_block",
+                    "shape": [
+                      15,
+                      2
+                    ]
+                  },
+                  {
+                    "args": [
+                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                      [
+                        30,
+                        1,
+                        1,
+                        1,
+                        8
+                      ],
+                      "P",
+                      "dp"
+                    ],
+                    "op": "pinned_resolution_rational_block",
+                    "shape": [
+                      2,
+                      15
+                    ]
+                  }
+                ],
+                "op": "multiply",
+                "shape": [
+                  15,
+                  15
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              5,
+              15
+            ]
+          },
+          {
+            "args": [
+              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+              [
+                30,
+                2,
+                2,
+                3,
+                12
+              ],
+              "I",
+              "di"
+            ],
+            "op": "pinned_resolution_rational_block",
+            "shape": [
+              15,
+              2
+            ]
+          }
+        ],
+        "op": "multiply",
+        "shape": [
+          5,
+          2
+        ]
+      },
+      "owners": [
+        [
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          30,
+          1,
+          1,
+          1,
+          8
+        ],
+        [
+          30,
+          2,
+          2,
+          3,
+          12
+        ],
+        [
+          30,
+          3,
+          3,
+          7,
+          14
+        ],
+        [
+          30,
+          4,
+          4,
+          15,
+          15
+        ]
+      ],
+      "pairing": "coefficient * tr(dual_kernel * normalized_row_residual)",
+      "physical_polynomial_evaluation": false,
+      "pinned_model_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "prefix_mask_merger": {
+        "carrier_weights_retained": [
+          0,
+          1
+        ],
+        "inner_T_masks_summed": false,
+        "legal_weight": "1",
+        "prefix_owners": [
+          0,
+          1
+        ],
+        "raw_mask_combinations_removed": 256,
+        "standard_owners_retained": [
+          0,
+          1
+        ],
+        "tail_masks_summed": false
+      },
+      "right_ast": {
+        "args": [
+          {
+            "args": [
+              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+              [
+                30,
+                2,
+                2,
+                3,
+                12
+              ],
+              "P",
+              "dp"
+            ],
+            "op": "pinned_resolution_rational_block",
+            "shape": [
+              2,
+              15
+            ]
+          },
+          {
+            "args": [
+              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+              [
+                30,
+                1,
+                1,
+                1,
+                8
+              ],
+              "H1",
+              "dh"
+            ],
+            "op": "pinned_resolution_rational_block",
+            "shape": [
+              15,
+              10
+            ]
+          }
+        ],
+        "op": "multiply",
+        "shape": [
+          2,
+          10
+        ]
+      },
+      "row": 7,
+      "schema": "resolution-selector-source-binding-v1",
+      "seed": 30,
+      "source_ast": {
+        "args": [
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "args": [
+                          {
+                            "args": [
+                              "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                              [
+                                30,
+                                0,
+                                0,
+                                0,
+                                0
+                              ],
+                              "H0",
+                              "dh"
+                            ],
+                            "op": "pinned_resolution_rational_block",
+                            "shape": [
+                              5,
+                              15
+                            ]
+                          },
+                          {
+                            "args": [
+                              {
+                                "args": [
+                                  "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                  [
+                                    30,
+                                    1,
+                                    1,
+                                    1,
+                                    8
+                                  ],
+                                  "I",
+                                  "di"
+                                ],
+                                "op": "pinned_resolution_rational_block",
+                                "shape": [
+                                  15,
+                                  2
+                                ]
+                              },
+                              {
+                                "args": [
+                                  "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                                  [
+                                    30,
+                                    1,
+                                    1,
+                                    1,
+                                    8
+                                  ],
+                                  "P",
+                                  "dp"
+                                ],
+                                "op": "pinned_resolution_rational_block",
+                                "shape": [
+                                  2,
+                                  15
+                                ]
+                              }
+                            ],
+                            "op": "multiply",
+                            "shape": [
+                              15,
+                              15
+                            ]
+                          }
+                        ],
+                        "op": "multiply",
+                        "shape": [
+                          5,
+                          15
+                        ]
+                      },
+                      {
+                        "args": [
+                          "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                          [
+                            30,
+                            2,
+                            2,
+                            3,
+                            12
+                          ],
+                          "I",
+                          "di"
+                        ],
+                        "op": "pinned_resolution_rational_block",
+                        "shape": [
+                          15,
+                          2
+                        ]
+                      }
+                    ],
+                    "op": "multiply",
+                    "shape": [
+                      5,
+                      2
+                    ]
+                  },
+                  0
+                ],
+                "op": "row",
+                "shape": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      [
+                        [
+                          30,
+                          2,
+                          2,
+                          3,
+                          12
+                        ],
+                        [
+                          30,
+                          3,
+                          3,
+                          7,
+                          14
+                        ],
+                        [
+                          30,
+                          4,
+                          4,
+                          15,
+                          15
+                        ]
+                      ]
+                    ],
+                    "op": "normalized_row_residual_slot",
+                    "shape": [
+                      2,
+                      2
+                    ]
+                  }
+                ],
+                "op": "transpose",
+                "shape": [
+                  2,
+                  2
+                ]
+              }
+            ],
+            "op": "multiply",
+            "shape": [
+              1,
+              2
+            ]
+          },
+          {
+            "args": [
+              {
+                "args": [
+                  {
+                    "args": [
+                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                      [
+                        30,
+                        2,
+                        2,
+                        3,
+                        12
+                      ],
+                      "P",
+                      "dp"
+                    ],
+                    "op": "pinned_resolution_rational_block",
+                    "shape": [
+                      2,
+                      15
+                    ]
+                  },
+                  {
+                    "args": [
+                      "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+                      [
+                        30,
+                        1,
+                        1,
+                        1,
+                        8
+                      ],
+                      "H1",
+                      "dh"
+                    ],
+                    "op": "pinned_resolution_rational_block",
+                    "shape": [
+                      15,
+                      10
+                    ]
+                  }
+                ],
+                "op": "multiply",
+                "shape": [
+                  2,
+                  10
+                ]
+              },
+              0
+            ],
+            "op": "column",
+            "shape": [
+              2,
+              1
+            ]
+          }
+        ],
+        "op": "multiply",
+        "shape": [
+          1,
+          1
+        ]
+      },
+      "staircase_standard_tags": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ],
+      "standard_owner_rule": "tags are reassigned by exact source-first sorting; retain sorting orientation externally",
+      "tail_owners": [
+        [
+          30,
+          2,
+          2,
+          3,
+          12
+        ],
+        [
+          30,
+          3,
+          3,
+          7,
+          14
+        ],
+        [
+          30,
+          4,
+          4,
+          15,
+          15
+        ]
+      ],
+      "terminal_block": "M20",
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "usage": "provenance-only; collapsed-mask claims do not apply to this request"
+  },
+  "unresolved_regularization_group": {
+    "arguments": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        8,
+        12,
+        14,
+        15
+      ]
+    ],
+    "id": "s30:regularization",
+    "type": "regularization_laurent",
+    "uses": [
+      "s30:p0:b0",
+      "s30:p0:b1",
+      "s30:p0:b2",
+      "s30:p0:b3",
+      "s30:p2:b0",
+      "s30:p2:b1",
+      "s30:p2:b2",
+      "s30:p2:b3"
+    ]
+  },
+  "weighted_owners": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ]
+}

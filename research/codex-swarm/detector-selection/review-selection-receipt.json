@@ -1,0 +1,55 @@
+{
+  "obstruction": "undecided",
+  "physical_source_evaluated": false,
+  "rational_upper_source": "independently reconstructed exact integer unit-pivot reduction with zero remainder",
+  "results": [
+    {
+      "different_pivot_order": true,
+      "integer_selected_cycles": 10,
+      "integer_unit_rank_certificate": {
+        "max_bits": 2,
+        "rank_Q": 240,
+        "remaining_nonzero_rows": 0,
+        "unit_pivots": 240,
+        "updates": 745
+      },
+      "outgoing_integer_unit_rank_certificate": {
+        "max_bits": 0,
+        "rank_Q": 150,
+        "remaining_nonzero_rows": 0,
+        "unit_pivots": 150,
+        "updates": 0
+      },
+      "quotient_dimension_Q": 10,
+      "rank_B_mod101": 240,
+      "rank_aug_mod101": 250,
+      "twist": -1,
+      "updates": 406
+    },
+    {
+      "different_pivot_order": true,
+      "integer_selected_cycles": 2,
+      "integer_unit_rank_certificate": {
+        "max_bits": 4,
+        "rank_Q": 848,
+        "remaining_nonzero_rows": 0,
+        "unit_pivots": 848,
+        "updates": 7188
+      },
+      "outgoing_integer_unit_rank_certificate": {
+        "max_bits": 0,
+        "rank_Q": 350,
+        "remaining_nonzero_rows": 0,
+        "unit_pivots": 350,
+        "updates": 0
+      },
+      "quotient_dimension_Q": 2,
+      "rank_B_mod101": 848,
+      "rank_aug_mod101": 850,
+      "twist": 0,
+      "updates": 5052
+    }
+  ],
+  "selection_sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d",
+  "status": "independent_constant_selection_pass"
+}
