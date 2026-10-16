@@ -1,0 +1,25 @@
+{
+  "schema": "producer-review-handoff-v1",
+  "producer": "TP01",
+  "files": {
+    "PROOF.md": "afc5eb479dc9a24ca569c955644a2823e9a2d20b773d1b64a611a495b732245e",
+    "README.md": "ce8b9791f4e475166953a5157adccd9ecb4ae6ae2fecb3cc578efb656acf454c",
+    "provider.py": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af",
+    "source-pins.json": "84b292ec6a9f9260e0dfd52dd39aa2f8abd9c2f6d16b38948aabca0a675bd186",
+    "test_provider.py": "2519a2ac1e83202bf51c27f1b234dc5df0ca5f77288556ca82a999637b965783"
+  },
+  "tests": {
+    "synthetic_controls": 9,
+    "normal": "PASS",
+    "optimized": "PASS"
+  },
+  "actual_coefficient_execution": false,
+  "actual_fiber_enumeration": false,
+  "aggregate_admission": false,
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "scope": "total pure request normalization and complete lazy96 descriptors; actual provider entry points unconditionally refuse",
+  "post_review_delta": "Pure frame_plan for raw row-End Rsharp: exact ordered original-to-canonical edge, left inverse/right transition plus parity; scalar F/T remain fixed-frame. No transport evaluated."
+}

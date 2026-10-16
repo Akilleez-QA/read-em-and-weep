@@ -1,0 +1,888 @@
+{
+  "AST_count_interpretation": "Stored descriptor dag/nodes array occurrences and canonical JSON bytes only. Existing SC4270 graph is a pinned reference, not copied into these counts. Metadata sizes are not coefficient slots, exact rational heights, physical operation cost or peak memory admission.",
+  "actual_explicit_owner_AST_metadata": {
+    "JC": {
+      "component": "J3",
+      "face_terms": 120,
+      "frame": {
+        "frozen_frame_derivatives_used": false,
+        "full_sign_deck_product_removed_count": 1,
+        "internal_degree": -3,
+        "matrix_frame": "original-resolution",
+        "scalar_L_applied_after_this_conversion": false,
+        "tau_power": -5
+      },
+      "producer_profile": {
+        "AST_arrays": [
+          {
+            "nodes": 153,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+          },
+          {
+            "nodes": 137,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 58,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 137,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 58,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 128,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 50,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+          },
+          {
+            "nodes": 153,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+          },
+          {
+            "nodes": 136,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 56,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 136,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 56,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 128,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 50,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+          }
+        ],
+        "aggregate_stored_AST_nodes": 2584,
+        "physical_arithmetic_cost_or_memory_admission": false,
+        "pre_profile_JSON_bytes": 409458
+      },
+      "profile": {
+        "aggregate_stored_AST_nodes": 2584,
+        "canonical_descriptor_bytes": 412115,
+        "physical_arithmetic_cost_or_memory_admission": false,
+        "stored_AST_arrays": [
+          {
+            "nodes": 153,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+          },
+          {
+            "nodes": 137,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 58,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 137,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 58,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 128,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 50,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+          },
+          {
+            "nodes": 153,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+          },
+          {
+            "nodes": 136,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 56,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 136,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 56,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 128,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 50,
+            "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+          }
+        ]
+      },
+      "scalar_maps": 20,
+      "schema": "JC01-actual-full-lift-application-v1",
+      "source_leaf_bindings": 20,
+      "weighted_tests": 32
+    },
+    "RS": {
+      "boundary_sign": 1,
+      "profile": {
+        "aggregate_stored_AST_nodes": 3471,
+        "canonical_descriptor_bytes": 209608,
+        "physical_arithmetic_cost_or_memory_admission": false,
+        "stored_AST_arrays": [
+          {
+            "nodes": 153,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+          },
+          {
+            "nodes": 292,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 190,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 115,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 154,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 192,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 77,
+            "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+          },
+          {
+            "nodes": 153,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+          },
+          {
+            "nodes": 292,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 188,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 188,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+          },
+          {
+            "nodes": 191,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 188,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 113,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+          },
+          {
+            "nodes": 152,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+          },
+          {
+            "nodes": 188,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+          },
+          {
+            "nodes": 73,
+            "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+          }
+        ]
+      },
+      "schema": "actual-fresh-full-source-application-v1",
+      "source_component_ids": [
+        "E12",
+        "E34",
+        "Fk12",
+        "Fk34",
+        "baseline"
+      ],
+      "source_graph_reference_nodes": 4270
+    },
+    "actual_fibers_enumerated": false,
+    "actual_source_coefficients_evaluated": false,
+    "execution_release": false,
+    "explicit_owners": [
+      [
+        12,
+        [
+          "wave6-explicit",
+          0
+        ],
+        5,
+        1,
+        0
+      ],
+      [
+        12,
+        [
+          "wave6-explicit",
+          1
+        ],
+        0,
+        2,
+        1
+      ],
+      [
+        12,
+        [
+          "wave6-explicit",
+          2
+        ],
+        1,
+        3,
+        3
+      ],
+      [
+        12,
+        [
+          "wave6-explicit",
+          3
+        ],
+        2,
+        7,
+        7
+      ],
+      [
+        12,
+        [
+          "wave6-explicit",
+          4
+        ],
+        3,
+        11,
+        11
+      ],
+      [
+        12,
+        [
+          "wave6-explicit",
+          5
+        ],
+        4,
+        15,
+        15
+      ]
+    ],
+    "implementation_sha256": {
+      "full-lift-domain/lift.py": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a",
+      "full-source-application/r_binding.py": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b"
+    },
+    "physical_memory_or_cost_admitted": false,
+    "schema": "wave6-canonical-AST-metadata-only-v1"
+  },
+  "baseline_PR87": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+  "bounded_replay": {
+    "direct_file_subprocesses": true,
+    "final_result": {
+      "actual_fibers_enumerated": false,
+      "every_executed_test_digest_matches_current_bytes": true,
+      "every_log_digest_matches": true,
+      "lane_totals_per_mode": {
+        "JC01": 28,
+        "RS01": 18,
+        "TP01": 27,
+        "wave6_metadata": 2
+      },
+      "physical_source_evaluated": false,
+      "receipt": {
+        "bytes": 10235,
+        "path": "research/codex-swarm/wave6/controls-receipt.json",
+        "role": "root final bounded replay after minimal JC clarification",
+        "sha256": "03eac70ccbf987bd47e661b1884fb4dea1ce3792ac337b4d22c0d68c3e30f5c8"
+      },
+      "replayed_by_manifest_writer": false,
+      "total_tests_per_mode": 75
+    },
+    "historical_TP_route": "Skip direct preserved test_independent.py; test_frame_followup.py discloses in-memory override of only original MARKER_SHA and combines historical cases with new frame controls. Count all reported unittest suites, not only last suite.",
+    "limits_per_process": {
+      "CPU_seconds": 59,
+      "address_space_MiB": 768,
+      "wall_seconds": 60
+    },
+    "logs": "Final runner persists each lane-testfile-normal|optimized.log and its SHA256; optional --output writes JSON receipt.",
+    "preliminary_result": {
+      "pending": [
+        "TP frame follow-up wrapper not yet available"
+      ],
+      "scope": "Initial pre-final-review run, before log-persistence update; not final bundle replay. Tests and metadata were bounded and no physical coefficients/fibers were evaluated.",
+      "tests_per_mode": {
+        "False": 40,
+        "True": 40
+      }
+    },
+    "runner": "research/codex-swarm/wave6/run_controls.py"
+  },
+  "components": {
+    "JC01": {
+      "actual_fibers_enumerated": false,
+      "domain_precision": {
+        "Hrho": "Weights inserted occurrences only; original suffix carrier/legal denominators remain in the common-cover domain.",
+        "Pi_out": "Weights every sampled occurrence; the whole weighted term extends to the full standard target after matching H/ell cancellation.",
+        "follow_up": "review-domain-followup.md independently accepted minimal descriptive clarification; recurrence, signs, frames, owner computations and source routing unchanged.",
+        "prism_extension": "Only the appropriately CLEARED WHOLE prism coefficient is asserted to extend to the full standard target, not the uncleared prism value.",
+        "standard_Z": "Original-tag Z factors are target units; original tags/owners and multiplicities retained."
+      },
+      "files": [
+        {
+          "bytes": 13344,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/PROOF.md",
+          "sha256": "0fed4ce72868ffa43f9c8e042055396f441873cca208d40e943b1b60b35f0443"
+        },
+        {
+          "bytes": 2515,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/README.md",
+          "sha256": "f00f565abea6880f5db4f76e81cad6579c8bfe4675ba86355c2771324d4d863a"
+        },
+        {
+          "bytes": 5250,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/build_handoff.py",
+          "sha256": "5004ef8e3a26f6c6fbebbb0754c55adec3b2d0622441be939753f0a29279c4dd"
+        },
+        {
+          "bytes": 1585,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/controls-normal.log",
+          "sha256": "6e2d4c345459bc3a4a6977cab0f4dbb44d5fd1408674b42e78e895188adc1245"
+        },
+        {
+          "bytes": 1585,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/controls-optimized.log",
+          "sha256": "db7147961281967ce2f7e811b33c9d1deaa4efb948c290e31ce64ae71348c06b"
+        },
+        {
+          "bytes": 1102,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/controls-receipt.json",
+          "sha256": "77a1d9426ed89d7cb30d65c614fbcb4e12f97a870c2b58c5defd87f3759dae55"
+        },
+        {
+          "bytes": 61886,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/face-program-example.json",
+          "sha256": "971fac3595b6a948c1271cedba3171d684e79d237472f97c97e0532536adffa3"
+        },
+        {
+          "bytes": 12458,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/lift-contract.json",
+          "sha256": "5fa6d7462528291ecb25dec833050ab4f02c13eb9919aa9dc9b6f9c3ee9344f0"
+        },
+        {
+          "bytes": 15338,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/lift.py",
+          "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a"
+        },
+        {
+          "bytes": 2011,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/run_controls.py",
+          "sha256": "3b402fb7ac71a3566297586a61741f261198b512476bdb3b370d8bf943b27137"
+        },
+        {
+          "bytes": 7043,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/source-pins.json",
+          "sha256": "515c3d1a21645741aab58cf404228263ebc12128c9636c0df1fe0f9afd74d82a"
+        },
+        {
+          "bytes": 6438,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-lift-domain/test_lift.py",
+          "sha256": "288bac12433c90d8e3a6f5eca5d096e8c0c1ed7856a357f0e1687b558e7cd981"
+        }
+      ],
+      "physical_coefficients_evaluated": false,
+      "physical_execution_released": false,
+      "producer_marker": {
+        "bytes": 1670,
+        "path": "research/codex-swarm/full-lift-domain/producer-ready.json",
+        "sha256": "88cd12c2a2a90e5300966adc6b01999d6f65559e2b7a8c8d5c36b0946f323ae9"
+      },
+      "proof_boundaries": [
+        "Preserves all five closure equations and mandatory J3, with HPL signs+,+,-,+ and input homotopy degrees0,-1,-2.",
+        "Original resolution frames, full-sign deck product removed once; tau powers-2,-3,-4,-5 for J0..J3, J2 tau^-4 before scalar L.",
+        "Whole standard-target extension uses actual source/combined-current identities and owned poles, not a bound table or status string alone."
+      ],
+      "recorded_producer_tests": {
+        "command": "python -B run_controls.py",
+        "normal": 11,
+        "optimized": 11
+      },
+      "remaining_obligations": [
+        "Named actual model, determinant-one cocycle, original contractions, physical homogeneous/deck frames and inherited source/quotient/cover theorems remain explicit imports, not manufactured by a proof hash.",
+        "Executable complete coefficient/jet/fiber/provider realization, pending transport adapter/lowering registry and complete arithmetic/live-storage schedule.",
+        "Authenticated detector values and obstruction decision; historical nonlinear source/order/value comparison separate."
+      ],
+      "review_state": "JC-R conditional full-lift/domain accepted, composed with separately pinned RS-R acceptance; four-control minimal domain clarification accepted.",
+      "scope": "Actual same-source J0..J3 inclusion, original-frame identities, owned homogeneous pole and outer whole-standard-domain theorem; independent review pending."
+    },
+    "RS01": {
+      "actual_fibers_enumerated": false,
+      "files": [
+        {
+          "bytes": 12579,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/PROOF.md",
+          "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed"
+        },
+        {
+          "bytes": 2607,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/README.md",
+          "sha256": "8e48deec92c6667c7121420fe9d5bca00873b81753d419909b4647761c3607e6"
+        },
+        {
+          "bytes": 1485,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/contract.json",
+          "sha256": "0bb4d3441f4ac376bc55ce876394db05903f5a93efb84eae85b8f221b8712159"
+        },
+        {
+          "bytes": 2013,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/formal_identities.py",
+          "sha256": "d248be8d82670c80bb76926b4af7e0ada06f8de8fe2b8bff7863627af5fe8278"
+        },
+        {
+          "bytes": 9457,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/r_binding.py",
+          "sha256": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b"
+        },
+        {
+          "bytes": 6178,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/source-pins.json",
+          "sha256": "80de123d734a20c27de405cbef32282aedb6b9487cc0738f57c270e6d0f16c44"
+        },
+        {
+          "bytes": 4517,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/full-source-application/test_application.py",
+          "sha256": "b9a38a74dccd25fa7a4cb9bf86f6e214759b06d18bbc57f1e4c54d67f2340197"
+        }
+      ],
+      "identity": "Rsharp=tf C2(u_fresh)+delta(s_q k_p+s_p k_q), boundary sign+1.",
+      "physical_coefficients_evaluated": false,
+      "physical_execution_released": false,
+      "producer_marker": {
+        "bytes": 1781,
+        "path": "research/codex-swarm/full-source-application/producer-ready.json",
+        "sha256": "883490825f5d1b1156ad865e9852ef64e314322418409c9de3b71041f07d3616"
+      },
+      "proof_boundaries": [
+        "Published Moyal associativity and both actual ambient descent identities; FD fresh first-order module equation; actual physical determinant-one transitions/contractions.",
+        "Same gerbe-corrected M0 has seven kinetic and three gerbe terms; both Fk and both E(TF) terms retained.",
+        "Scalar central H2 of O(-2,-2,-2,-2) is zero abstractly; trace is not pointwise zero and is not assigned the smaller Rsharp ledger."
+      ],
+      "recorded_producer_tests": {
+        "normal": 7,
+        "optimized": 7,
+        "physical_source_evaluated": false,
+        "result": "PASS"
+      },
+      "remaining_obligations": [
+        "Actual physical coefficient/fiber realization, aggregate execution resources and authenticated detector values; historical comparison remains separate."
+      ],
+      "review_state": "RS-R accepted same-fresh-source identity/closure/class and exact constructor; explicit source/model premises retained.",
+      "scope": "Actual fresh full five-term Rsharp identity, closure and same full-sign class under exact pinned ambient/source premises."
+    },
+    "TP01": {
+      "actual_fibers_enumerated": false,
+      "files": [
+        {
+          "bytes": 9016,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/total-gated-provider/PROOF.md",
+          "sha256": "afc5eb479dc9a24ca569c955644a2823e9a2d20b773d1b64a611a495b732245e"
+        },
+        {
+          "bytes": 2423,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/total-gated-provider/README.md",
+          "sha256": "ce8b9791f4e475166953a5157adccd9ecb4ae6ae2fecb3cc578efb656acf454c"
+        },
+        {
+          "bytes": 9091,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/total-gated-provider/provider.py",
+          "sha256": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af"
+        },
+        {
+          "bytes": 1590,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/total-gated-provider/source-pins.json",
+          "sha256": "84b292ec6a9f9260e0dfd52dd39aa2f8abd9c2f6d16b38948aabca0a675bd186"
+        },
+        {
+          "bytes": 6403,
+          "matches_producer_marker": true,
+          "path": "research/codex-swarm/total-gated-provider/test_provider.py",
+          "sha256": "2519a2ac1e83202bf51c27f1b234dc5df0ca5f77288556ca82a999637b965783"
+        }
+      ],
+      "physical_coefficients_evaluated": false,
+      "physical_execution_released": false,
+      "producer_marker": {
+        "bytes": 1156,
+        "path": "research/codex-swarm/total-gated-provider/producer-ready.json",
+        "sha256": "2b359484048dc31e8e4258f7ea864ec15f9a57c36729f71439f9954e230e750d"
+      },
+      "proof_boundaries": [
+        "Repeated common keys yield alternating-zero PLAN for every cochain; repeated physical labels only kill pulled-back F, not general T or Rsharp.",
+        "Full five-field owner identity retained with one target sorting parity. Raw row-End Rsharp additionally needs exact original-to-canonical first-owner conjugation.",
+        "F/T use fixed common-finite scalar frame; raw row-End source uses G^-1 (same source in canonical frame) G plus parity. No transition or physical value evaluated."
+      ],
+      "recorded_producer_tests": {
+        "normal": "PASS",
+        "optimized": "PASS",
+        "synthetic_controls": 9
+      },
+      "remaining_obligations": [
+        "Actual coefficient/jet/fiber realization remains absent; zero/index/frame plans are not physical evaluators.",
+        "Rsharp values are canonical RS/JC source/lift semantics with frame conjugation, not scalar ToyProvider coefficients.",
+        "Aggregate physical resource schedule and execution release remain held."
+      ],
+      "review_state": "Original total-plan acceptance plus accepted independent frame-route follow-up; exact preserved historical replay route disclosed.",
+      "scope": "Total pure request normalization and complete lazy96 index descriptors, physical provider methods gated."
+    }
+  },
+  "coordination_reference": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6212446562",
+  "external_review_scope": "RS fresh source/class/closure, JC lift/domain with inserted/suffix clarification, TP normalization/frame plan; explicit imported premises retained, no actual arithmetic or gate release",
+  "full96_scope": {
+    "actual_domain_enumerated": false,
+    "cardinality": 96,
+    "domain": "carrier0..5 times legal_mask0..15 at fixed original standard tag and request occurrence",
+    "per_index_plan_is_not_actual_owner_or_coefficient_execution": true,
+    "zero_weight_labels_removed": false
+  },
+  "global_limits": {
+    "actual_fibers_enumerated": false,
+    "detector_values_computed": false,
+    "execution_release": false,
+    "historical_nonlinear_source_order_comparison_established": false,
+    "obstruction_decided": false,
+    "physical_coefficient_release": false,
+    "physical_memory_admission": false,
+    "physical_source_evaluated": false
+  },
+  "independent_review_composition": {
+    "RS_and_JC": "JC original external RS-acceptance dependency is supplied by separate RS-R acceptance; original JC report remains unchanged.",
+    "all_three_current_narrow_scopes_accepted": true,
+    "external_reviews": {
+      "bytes": 5546,
+      "path": "research/codex-swarm/wave6/external-reviews.json",
+      "role": "stable local independent acceptance and follow-up scope bindings",
+      "sha256": "a3445e76b0abdf619f66fd46634c2732edb0b493cfd555bf3329d33147a95e7b"
+    },
+    "physical_execution_admitted": false,
+    "upstream_model_premises_retained": true
+  },
+  "integration_files": [
+    {
+      "bytes": 4629,
+      "path": "research/codex-swarm/wave6/run_controls.py",
+      "role": "frozen integration script or final independent-review binding",
+      "sha256": "280eacbd6e2935961a12c4c6f6df4a8440c5a671c893f9fadbbf2abd9cb32ce1"
+    },
+    {
+      "bytes": 2900,
+      "path": "research/codex-swarm/wave6/replay_bundle_metadata.py",
+      "role": "frozen integration script or final independent-review binding",
+      "sha256": "8d348e6e2b90507f233366d8675567518b806484b8c9139fcd5856754b3a8fde"
+    },
+    {
+      "bytes": 1858,
+      "path": "research/codex-swarm/wave6/test_bundle_metadata.py",
+      "role": "frozen integration script or final independent-review binding",
+      "sha256": "4f6954b11f86ffd84a28050307dc9690ab15e9f7ff0b493f929ed35dbd0e87f1"
+    },
+    {
+      "bytes": 5546,
+      "path": "research/codex-swarm/wave6/external-reviews.json",
+      "role": "frozen integration script or final independent-review binding",
+      "sha256": "a3445e76b0abdf619f66fd46634c2732edb0b493cfd555bf3329d33147a95e7b"
+    }
+  ],
+  "lift_domain_scope": {
+    "J0": {
+      "carrier": 36,
+      "legal": 20
+    },
+    "J1": {
+      "carrier": 42,
+      "legal": 23
+    },
+    "J2": {
+      "carrier": 48,
+      "legal": 26
+    },
+    "J3": {
+      "carrier": 54,
+      "legal": 29
+    },
+    "J3_boundary_requires_seven_owners": true,
+    "J3_required_for_closure_even_if_only_J2_is_tested": true,
+    "common_outer_partition": {
+      "carrier": 54,
+      "legal": 29,
+      "retained_standard_unit_order": 5251
+    },
+    "source_owned_bounds": {
+      "carrier": 32,
+      "legal": 18,
+      "standard": 5251
+    },
+    "status": "Accepted conditional actual-source/full-lift/domain application, composed with RS-R and minimal domain clarification; a bound table alone is not its proof.",
+    "whole_standard_precision": {
+      "Hrho": "Weights inserted occurrences only; original suffix carrier/legal denominators remain in the common-cover domain.",
+      "Pi_out": "Weights every sampled occurrence; the whole weighted term extends to the full standard target after matching H/ell cancellation.",
+      "follow_up": "review-domain-followup.md independently accepted minimal descriptive clarification; recurrence, signs, frames, owner computations and source routing unchanged.",
+      "prism_extension": "Only the appropriately CLEARED WHOLE prism coefficient is asserted to extend to the full standard target, not the uncleared prism value.",
+      "standard_Z": "Original-tag Z factors are target units; original tags/owners and multiplicities retained."
+    }
+  },
+  "metadata_receipt": {
+    "bytes": 11921,
+    "limits_reported_by_root": {
+      "CPU_seconds": 59,
+      "address_space_MiB": 768,
+      "wall_seconds": 60
+    },
+    "path": "research/codex-swarm/wave6/bundle-metadata-receipt.json",
+    "role": "root bounded descriptor-only replay; RS3471/209608, JC2584/412115",
+    "sha256": "5bf3691a3d06a43771ef90d7ab4be4b5731106608b6c499706dcf3f0209110e2"
+  },
+  "new_external_review_commit": "ab94746644cabd83366abe52c86fd8feb24765d0",
+  "pending": [
+    "Physical coefficient/jet/fiber and transport adapter realization; complete aggregate resource/execution admission; authenticated detector values and obstruction verdict remain outside this bounded application."
+  ],
+  "producer_workspace_dependencies": [
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/full-source-application/r_binding.py",
+      "producer": "JC01",
+      "sha256": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/full-source-application/PROOF.md",
+      "producer": "JC01",
+      "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/full-source-application/source-pins.json",
+      "producer": "JC01",
+      "sha256": "80de123d734a20c27de405cbef32282aedb6b9487cc0738f57c270e6d0f16c44"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/full-source-application/formal_identities.py",
+      "producer": "JC01",
+      "sha256": "d248be8d82670c80bb76926b4af7e0ada06f8de8fe2b8bff7863627af5fe8278"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/full-source-application/producer-ready.json",
+      "producer": "JC01",
+      "sha256": "883490825f5d1b1156ad865e9852ef64e314322418409c9de3b71041f07d3616"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/transport-binding/transport_binding.py",
+      "producer": "JC01",
+      "sha256": "31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/transport-binding/lift_schema.py",
+      "producer": "JC01",
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/transport-binding/source-pins.json",
+      "producer": "JC01",
+      "sha256": "c64b506220ca636632e6d74f04c08050eff7c3c549a8191e5121ef2d32fd7d94"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "producer": "JC01",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-faithful-P/p_binding.py",
+      "producer": "TP01",
+      "sha256": "18d2e7c08f82b3d84eb91e4a01dec101f2e1812d783122fa74370fea3f754b37"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-faithful-P/source-pins.json",
+      "producer": "TP01",
+      "sha256": "0ac211d49398b2d64b1dac25f19e304d473890aa8d74188eca76a7de5f371fab"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-faithful-Q/q_binding.py",
+      "producer": "TP01",
+      "sha256": "487a415c2b8fdfae0cfdcbab0e8144c137d0ab5e2c31d2b96bce2fe976210107"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-faithful-Q/source-pins.json",
+      "producer": "TP01",
+      "sha256": "2a4a3d255938e6fd056374e3389843a73283902c4ea7004535b7e9cc2cac6f6d"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-domain-application/domain.py",
+      "producer": "TP01",
+      "sha256": "e066f787571333bfe3d9a6267d2cc81d6e4f3c2703d666b22526100621c2298d"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/source-domain-application/source-pins.json",
+      "producer": "TP01",
+      "sha256": "09b2f3af2112c8880950d465c89229b9c043c37f81c0f7a1d1ed8ef5529440cc"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/inserted-coefficients/interfaces.py",
+      "producer": "TP01",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/inserted-coefficients/inserted_program.py",
+      "producer": "TP01",
+      "sha256": "a2b992864449c44de7354c25c1347a9218d3df479f6b94fad2bdb44f67f09452"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/standard-coefficients/standard.py",
+      "producer": "TP01",
+      "sha256": "bd9c9a77d2e366a92e265406727bd26ba05c4b15680df384d16f6b1c074ad2fd"
+    },
+    {
+      "matches_producer_dependency_pin": true,
+      "path": "research/codex-swarm/inner-quotient/quotient.py",
+      "producer": "TP01",
+      "sha256": "08a0e51912e5afab249fa6accc759a03023ee5def7e400e3654ce84dbd4f2b91"
+    }
+  ],
+  "public_original_artifacts": {
+    "availability": "Reusable seed4 scan/fingerprint/mask-gap/JTSH mathematics is public; wave6 is not a recreation.",
+    "full_seed4_theorem": "6e28c6b59f8245779f6c03a20798e4de6842ae19",
+    "private_staging_byte_identity_claimed": false,
+    "release": "41de3864f058b645af9987fb3462cc6b8384e6cd"
+  },
+  "purpose": "Source-faithful full obstruction representative, signed lift/domain and gated total request integration; mathematical scope is separate from coefficient execution.",
+  "resource_scope": {
+    "aggregate_physical_resource_schedule_accepted": false,
+    "metadata_profiles_are_physical_memory_admission": false,
+    "new_physical_budget_created": false,
+    "per_Ring_node_cache_and_per_FiniteRing_index_limits_are_not_aggregate_supervisor": true
+  },
+  "reviewer_files_hashed": true,
+  "schema": "wave6-producer-program-bindings-v1"
+}

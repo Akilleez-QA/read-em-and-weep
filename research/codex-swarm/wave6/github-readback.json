@@ -1,0 +1,447 @@
+{
+  "execution_release": false,
+  "file_count": 62,
+  "files": [
+    {
+      "bytes": 13344,
+      "git_blob": "7fdf8d04485681cd9760615cf1994597bc242261",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/PROOF.md",
+      "sha256": "0fed4ce72868ffa43f9c8e042055396f441873cca208d40e943b1b60b35f0443"
+    },
+    {
+      "bytes": 2515,
+      "git_blob": "8a0f0f0599d80416f4835f980c9d2c6c9e1e5731",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/README.md",
+      "sha256": "f00f565abea6880f5db4f76e81cad6579c8bfe4675ba86355c2771324d4d863a"
+    },
+    {
+      "bytes": 5250,
+      "git_blob": "f2859e1e32372bb34e6af6fbd7511f4e5a82592b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/build_handoff.py",
+      "sha256": "5004ef8e3a26f6c6fbebbb0754c55adec3b2d0622441be939753f0a29279c4dd"
+    },
+    {
+      "bytes": 1585,
+      "git_blob": "7923a25d272fa6b2600d149a3cb0d32151b7b4eb",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/controls-normal.log",
+      "sha256": "6e2d4c345459bc3a4a6977cab0f4dbb44d5fd1408674b42e78e895188adc1245"
+    },
+    {
+      "bytes": 1585,
+      "git_blob": "48ce678943ca84c7cb192736713d943b5ec5493f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/controls-optimized.log",
+      "sha256": "db7147961281967ce2f7e811b33c9d1deaa4efb948c290e31ce64ae71348c06b"
+    },
+    {
+      "bytes": 1102,
+      "git_blob": "2f7d5082877428e668d070b616907fe1d295d5e0",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/controls-receipt.json",
+      "sha256": "77a1d9426ed89d7cb30d65c614fbcb4e12f97a870c2b58c5defd87f3759dae55"
+    },
+    {
+      "bytes": 61886,
+      "git_blob": "304f294559247ac4a5fd6de280da079dd543a34e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/face-program-example.json",
+      "sha256": "971fac3595b6a948c1271cedba3171d684e79d237472f97c97e0532536adffa3"
+    },
+    {
+      "bytes": 12458,
+      "git_blob": "a18d01987cd3e6c754fafdb616489e08b4f30722",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/lift-contract.json",
+      "sha256": "5fa6d7462528291ecb25dec833050ab4f02c13eb9919aa9dc9b6f9c3ee9344f0"
+    },
+    {
+      "bytes": 15338,
+      "git_blob": "a22ae9aa7df35f10c1dd2e189d5dad23ecc24dbc",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/lift.py",
+      "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a"
+    },
+    {
+      "bytes": 1670,
+      "git_blob": "2ae0da317559f2ac4df30d87014baa1edbdd769e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/producer-ready.json",
+      "sha256": "88cd12c2a2a90e5300966adc6b01999d6f65559e2b7a8c8d5c36b0946f323ae9"
+    },
+    {
+      "bytes": 3480,
+      "git_blob": "62f849dbd9b90632129325f2c46beecf1115f351",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/review-domain-followup.md",
+      "sha256": "8ad559216e9ab2af4c2ffcb7ef8471fbc972f1074b499a440517051cdfeee50c"
+    },
+    {
+      "bytes": 15405,
+      "git_blob": "6f044abcbe502b64cc0426025babaeab3e251c0f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/review-independent.md",
+      "sha256": "98569746b9bef82ca1193d26e24cb926334b5bc8a9de702070124da2b24b3cb2"
+    },
+    {
+      "bytes": 2011,
+      "git_blob": "30aeb9f8f26fbccfa3214e9a0dc12bdd57d9c062",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/run_controls.py",
+      "sha256": "3b402fb7ac71a3566297586a61741f261198b512476bdb3b370d8bf943b27137"
+    },
+    {
+      "bytes": 7043,
+      "git_blob": "642ebd599b4858baa2a59d04c8ba9bd8ddc9f4eb",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/source-pins.json",
+      "sha256": "515c3d1a21645741aab58cf404228263ebc12128c9636c0df1fe0f9afd74d82a"
+    },
+    {
+      "bytes": 4355,
+      "git_blob": "09eb5b7d075ac0bab2ed52eecef931d914536034",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/test_domain_followup.py",
+      "sha256": "7f9435978fbf03c0ec948878a8c3c1667b39f6c1ce0ff393e66414594bac5ab0"
+    },
+    {
+      "bytes": 17553,
+      "git_blob": "e7d83fd3296e131d77533de696ec7fda52f4f729",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/test_independent.py",
+      "sha256": "835e3727894dd8f1257aad77248881d9c758d1aadab1465899f94212dc4f52c5"
+    },
+    {
+      "bytes": 6438,
+      "git_blob": "f7e9b01eca438c248e04ae9098762e1e1f83b30b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-lift-domain/test_lift.py",
+      "sha256": "288bac12433c90d8e3a6f5eca5d096e8c0c1ed7856a357f0e1687b558e7cd981"
+    },
+    {
+      "bytes": 12579,
+      "git_blob": "69821c62a44485d64325e77c21bdab3553bf0d17",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/PROOF.md",
+      "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed"
+    },
+    {
+      "bytes": 2607,
+      "git_blob": "c166e6a0ebbaf07d3a22d8a75592cf60d785d0b5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/README.md",
+      "sha256": "8e48deec92c6667c7121420fe9d5bca00873b81753d419909b4647761c3607e6"
+    },
+    {
+      "bytes": 1485,
+      "git_blob": "0a56ea2062e382c607be96b1dbf96c74daced871",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/contract.json",
+      "sha256": "0bb4d3441f4ac376bc55ce876394db05903f5a93efb84eae85b8f221b8712159"
+    },
+    {
+      "bytes": 2013,
+      "git_blob": "f845bb07ca5801371f4858c6461bdfa2e21bf694",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/formal_identities.py",
+      "sha256": "d248be8d82670c80bb76926b4af7e0ada06f8de8fe2b8bff7863627af5fe8278"
+    },
+    {
+      "bytes": 1781,
+      "git_blob": "60f8704e46b5e131af6f3bb167830f4cd261a110",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/producer-ready.json",
+      "sha256": "883490825f5d1b1156ad865e9852ef64e314322418409c9de3b71041f07d3616"
+    },
+    {
+      "bytes": 9457,
+      "git_blob": "6c6b033ff4bc2095ebb7e8bacfdcbff98e636822",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/r_binding.py",
+      "sha256": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b"
+    },
+    {
+      "bytes": 11673,
+      "git_blob": "6b63971c23ac2f3e6ab413dabfec61c90f3a9121",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/review-independent.md",
+      "sha256": "e6969ba15399096cbe4d3ef35ddde404d4d9d4bc69ebbf859c1683472a2f1a70"
+    },
+    {
+      "bytes": 6178,
+      "git_blob": "df4298e6e36dbf41a6c21ae3939a81ef4c8f437a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/source-pins.json",
+      "sha256": "80de123d734a20c27de405cbef32282aedb6b9487cc0738f57c270e6d0f16c44"
+    },
+    {
+      "bytes": 4517,
+      "git_blob": "36e3495cb30f2538ccdb56ceac1b50c01cb88bf1",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/test_application.py",
+      "sha256": "b9a38a74dccd25fa7a4cb9bf86f6e214759b06d18bbc57f1e4c54d67f2340197"
+    },
+    {
+      "bytes": 20337,
+      "git_blob": "24330f69bb32bf47e61e68c577898a859bf63e75",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/full-source-application/test_independent.py",
+      "sha256": "bca452fcf390055f08274bbead7d404f03155c6cf1b47020ced29fe8f64cb4f7"
+    },
+    {
+      "bytes": 9016,
+      "git_blob": "b843eec9c872fcf06f2f978f990c7f0275573ad6",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/PROOF.md",
+      "sha256": "afc5eb479dc9a24ca569c955644a2823e9a2d20b773d1b64a611a495b732245e"
+    },
+    {
+      "bytes": 2423,
+      "git_blob": "f8f419b285cb7abfd5ed95fdda9ed8162cdb691a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/README.md",
+      "sha256": "ce8b9791f4e475166953a5157adccd9ecb4ae6ae2fecb3cc578efb656acf454c"
+    },
+    {
+      "bytes": 1156,
+      "git_blob": "40d6fd84e91ecaddfac40ddbdb1b371446528afe",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/producer-ready.json",
+      "sha256": "2b359484048dc31e8e4258f7ea864ec15f9a57c36729f71439f9954e230e750d"
+    },
+    {
+      "bytes": 9091,
+      "git_blob": "a95b35af62bf246521c53ac1e7cbf24e0704d88a",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/provider.py",
+      "sha256": "bf9bf8f712fe5c7959097c24521ea01fd8c50010f55003af61870050fbc068af"
+    },
+    {
+      "bytes": 6071,
+      "git_blob": "b6f53a6c9603a9b6ddd204fd8a5866ca2fa0b8ee",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/review-frame-followup.md",
+      "sha256": "368938e1994c6754a278a968b738188d3ba2a8ba26187708be6f184adfaf20e2"
+    },
+    {
+      "bytes": 8215,
+      "git_blob": "843ca0bce887c6abcc0e72812b3999bb269dae50",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/review-independent.md",
+      "sha256": "23879d3ca96aeb342a59a42550a83c4ad4e569bb316eb3a4b951f9d4be49b1d2"
+    },
+    {
+      "bytes": 1590,
+      "git_blob": "47eb2d97749f09d31c43d3ba5af27a8d0841b7bd",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/source-pins.json",
+      "sha256": "84b292ec6a9f9260e0dfd52dd39aa2f8abd9c2f6d16b38948aabca0a675bd186"
+    },
+    {
+      "bytes": 8603,
+      "git_blob": "dd8ba2af2828278f6dab66c128335a357f9b306c",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/test_frame_followup.py",
+      "sha256": "01aa1a8ac6ee352d71a2de78e17b87e2ee17280063a3c7d3150c2fa46525ce08"
+    },
+    {
+      "bytes": 20095,
+      "git_blob": "5514526dead26295753c3fb1715dc2b01018739e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/test_independent.py",
+      "sha256": "5797d6a113fc63676e3373873ffb3dd15a177b4480a6db6b17b8e74bf95ec835"
+    },
+    {
+      "bytes": 6403,
+      "git_blob": "60d743f7306193cb448b4aae1e8331aade0bf225",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/total-gated-provider/test_provider.py",
+      "sha256": "2519a2ac1e83202bf51c27f1b234dc5df0ca5f77288556ca82a999637b965783"
+    },
+    {
+      "bytes": 7160,
+      "git_blob": "8e75541c7091d51dfff535a59fcf27dc230f8b5f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/README.md",
+      "sha256": "38752e57063510fcb55de960708c8bf70a96a44c3b1c0b75fc5e3e177d727d3a"
+    },
+    {
+      "bytes": 11921,
+      "git_blob": "88ede0d5ff05b4b6ec993338cb465e13d73206e5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/bundle-metadata-receipt.json",
+      "sha256": "5bf3691a3d06a43771ef90d7ab4be4b5731106608b6c499706dcf3f0209110e2"
+    },
+    {
+      "bytes": 10235,
+      "git_blob": "d31e7bd53e634369bbd19dd7fe9912c25a4679f2",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/controls-receipt.json",
+      "sha256": "03eac70ccbf987bd47e661b1884fb4dea1ce3792ac337b4d22c0d68c3e30f5c8"
+    },
+    {
+      "bytes": 8107,
+      "git_blob": "fd2f1da7199066c7272e56bc11cf0ee96ed28f09",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/external-reviews.json",
+      "sha256": "c63505d48858bf7301ac5bc73da0cf48f1bb5b2efb8c2980f61d87d79798f8e4"
+    },
+    {
+      "bytes": 572,
+      "git_blob": "ba966516fb3cf4b36fc9c99c4e5c8c3757ad9363",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_domain_followup-normal.log",
+      "sha256": "9876ba02a598d223479b0beadfcbe53ced50dff56d3446a39f55140c14ab7105"
+    },
+    {
+      "bytes": 572,
+      "git_blob": "c8af1e1c822cf67b5295dcea4fecbd6ae819e56b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_domain_followup-optimized.log",
+      "sha256": "77a916b1d84f73e48638048ad1c6ec84b1bf302d4f359b6ca497f55ad2a38e30"
+    },
+    {
+      "bytes": 1987,
+      "git_blob": "01cfb1bdc0281129366de24fd68b105905787fcf",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_independent-normal.log",
+      "sha256": "d2e4c57100088f1441afe331fb9d3a0dbfd4f573eaf9ab6368251f1385cb7f80"
+    },
+    {
+      "bytes": 1986,
+      "git_blob": "7f34f9ae73e1d8aae9f741b3b20ca5c3e32684e3",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_independent-optimized.log",
+      "sha256": "18e890a323b6b3021132797421d6cb8cdf1fbc58e75aa8057023c0d687b407bc"
+    },
+    {
+      "bytes": 1574,
+      "git_blob": "b4afa896fee542918db836b716d0553145d53b0e",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_lift-normal.log",
+      "sha256": "a22e3797ba2ac251ee0dd2c44da3e170ec3c5d7381d9a25817bf536c1bf43683"
+    },
+    {
+      "bytes": 1574,
+      "git_blob": "b6215e771db77cb4e9acc6ed828fb14ddba5d3f5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-lift-domain-test_lift-optimized.log",
+      "sha256": "e12fa4fd24a67a848c53b4bc1ab86aecb226172c9c5f3fff2bd6219fbce22e3f"
+    },
+    {
+      "bytes": 1214,
+      "git_blob": "d86e6331397bfffcd53057fedcca131c210c97b9",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-source-application-test_application-normal.log",
+      "sha256": "726a9916a11c176f67d4c218a319af8043c5215b460707fdb9eec1e30ea7e338"
+    },
+    {
+      "bytes": 1214,
+      "git_blob": "9e0c87e9e7b907162a2530e228e6919dec9e2488",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-source-application-test_application-optimized.log",
+      "sha256": "4d144ce8669431fc8e98ad5198228d16d8f894676937b8bce2d2fd3835a443de"
+    },
+    {
+      "bytes": 1741,
+      "git_blob": "e82e7b9424d43db4c99c1a1dbaf0dde4ce677d89",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-source-application-test_independent-normal.log",
+      "sha256": "8c4022ab945546ccdaf70434609a68f0efe77e3c6681e9a353915584d1a4b6af"
+    },
+    {
+      "bytes": 1741,
+      "git_blob": "78be9892a9b5003882d08ce92505bedf94cbab7d",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/full-source-application-test_independent-optimized.log",
+      "sha256": "c7e7b967fa24918cbc3ddcc8920d34ef6854780a968b3f70563c54fc6100a66a"
+    },
+    {
+      "bytes": 37368,
+      "git_blob": "6b830019056c45ce7783ac11f310ced3adc8efea",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/program-bindings.json",
+      "sha256": "abcab35c738c0d817d271617abf5ed4a35a17ed2066d1476e27132a36dc17360"
+    },
+    {
+      "bytes": 2900,
+      "git_blob": "d20e2dd5b5e5d3c178c075c3a3cf5c0a14767115",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/replay_bundle_metadata.py",
+      "sha256": "8d348e6e2b90507f233366d8675567518b806484b8c9139fcd5856754b3a8fde"
+    },
+    {
+      "bytes": 4629,
+      "git_blob": "72ab8d61fa4a7b2444a4a79764389061ec11f4a5",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/run_controls.py",
+      "sha256": "280eacbd6e2935961a12c4c6f6df4a8440c5a671c893f9fadbbf2abd9cb32ce1"
+    },
+    {
+      "bytes": 1858,
+      "git_blob": "7d4b12141fa89a78545a7527fbf00d17fc62a418",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/test_bundle_metadata.py",
+      "sha256": "4f6954b11f86ffd84a28050307dc9690ab15e9f7ff0b493f929ed35dbd0e87f1"
+    },
+    {
+      "bytes": 3117,
+      "git_blob": "336391d6496f7ecaf4a5a08c5f549215ce5ce033",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/total-gated-provider-test_frame_followup-normal.log",
+      "sha256": "61596f5b8e67665b8c03b0909281f638c07b157476a15259874d47b0d034d2af"
+    },
+    {
+      "bytes": 3117,
+      "git_blob": "a8578f924f0cd324d72934745f327fd74c906169",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/total-gated-provider-test_frame_followup-optimized.log",
+      "sha256": "cddb1840b0501d7ee347bd7c00d0bf2986e3cdff8f0b2e40a5700aaabc5247c6"
+    },
+    {
+      "bytes": 1281,
+      "git_blob": "3462adadb3f42d4af376668cbd07b0551cf5834b",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/total-gated-provider-test_provider-normal.log",
+      "sha256": "62fd9f359d92bdea9095508c95eac66d83bb9f40c90be74ba7d573d6d8580446"
+    },
+    {
+      "bytes": 1281,
+      "git_blob": "d224d029b5deba9c55f43576db04d043ceae9da3",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/total-gated-provider-test_provider-optimized.log",
+      "sha256": "a840c7e4ebf7dfed7587e33fde0c1c0c641a6dd0d5db79754133a5c481f2ff66"
+    },
+    {
+      "bytes": 1792,
+      "git_blob": "96aa450836c17eb1722754103e3fa441ce6b031f",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/verify_github.py",
+      "sha256": "3ba953541da029ccc1f9abb3639637ba8be6a609700c2b04ea49f951a0355c32"
+    },
+    {
+      "bytes": 352,
+      "git_blob": "0b2112e5fa949c0d17505bcc74ed31733ee84b77",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/wave6-test_bundle_metadata-normal.log",
+      "sha256": "b31b44b474a75ecef3abfcda9310bd56bcef4d4ceaeb48e2a5b6700316ce868b"
+    },
+    {
+      "bytes": 352,
+      "git_blob": "1af6a2fd4e13ea9b0378c9e6b38bf061ad664119",
+      "github_bytes_match": true,
+      "path": "research/codex-swarm/wave6/wave6-test_bundle_metadata-optimized.log",
+      "sha256": "98c34d301e634184e3f794e5d01aabc3ae610e7750804b5c27dd9d022eac2eb1"
+    }
+  ],
+  "physical_source_evaluated": false,
+  "pull_request": 88,
+  "remote_head_at_readback": "fce8a9d59a7df3776c34cd0903b1f82f6a6ae81d",
+  "schema": "github-wave6-exact-readback-v1",
+  "source_base": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+  "source_snapshot": "fce8a9d59a7df3776c34cd0903b1f82f6a6ae81d",
+  "total_bytes": 427953
+}

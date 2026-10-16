@@ -1,0 +1,33 @@
+{
+  "J0_J3_extension_discharged": false,
+  "actual_fibers_enumerated": false,
+  "all_physical_methods": "coefficient/factor_terms/owners unconditionally refuse",
+  "boundary_sign": 1,
+  "class_identity": "same full-sign H2(End E) class by scalar H2(O(-2,-2,-2,-2))=0; trace not pointwise zero",
+  "closure": "delta Rsharp=0 under exact pinned ambient associativity/two coherence identities and FD fresh first-order module equation",
+  "constructor": "ActualFullSourceApplication(repo=None)",
+  "describe": "describe(strict_source_increasing_full_owners)",
+  "frame": "physical row-End; nonlinear source before transpose; actual moving endpoint frames",
+  "historical_comparison_established": false,
+  "identity": "Rsharp=tf C2(u_fresh)+delta(s_q*k_p+s_p*k_q)",
+  "module": "r_binding",
+  "obstruction_decided": false,
+  "outer_full54_29_5251_domain_discharged": false,
+  "output_schema": "actual-fresh-full-source-application-v1",
+  "physical_coefficients_evaluated": false,
+  "physical_execution_admitted": false,
+  "schema": "actual-fresh-full-source-consumer-contract-v1",
+  "source_geometry_premises": [
+    "actual pinned determinant-one transitions/contractions",
+    "coherent physical line/deck frames",
+    "actual Moyal second jet and both gerbe descent identities",
+    "accepted same-source FD fresh scalar primitive/domain identity"
+  ],
+  "source_parts": [
+    "baseline_tf_full_gerbe_M0",
+    "F34*k12_ik",
+    "F12*k34_ik",
+    "E12(T34 F34)",
+    "E34(T12 F12)"
+  ]
+}

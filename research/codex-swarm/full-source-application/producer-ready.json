@@ -1,0 +1,38 @@
+{
+  "actual_fibers_enumerated": false,
+  "baseline_PR87": "e011d7c2e0b79f1b885e001c9b0e39b97618a424",
+  "files": {
+    "PROOF.md": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed",
+    "README.md": "8e48deec92c6667c7121420fe9d5bca00873b81753d419909b4647761c3607e6",
+    "contract.json": "0bb4d3441f4ac376bc55ce876394db05903f5a93efb84eae85b8f221b8712159",
+    "formal_identities.py": "d248be8d82670c80bb76926b4af7e0ada06f8de8fe2b8bff7863627af5fe8278",
+    "r_binding.py": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b",
+    "source-pins.json": "80de123d734a20c27de405cbef32282aedb6b9487cc0738f57c270e6d0f16c44",
+    "test_application.py": "b9a38a74dccd25fa7a4cb9bf86f6e214759b06d18bbc57f1e4c54d67f2340197"
+  },
+  "obstruction_decided": false,
+  "physical_execution_admitted": false,
+  "physical_source_evaluated": false,
+  "producer": "RS01",
+  "ready_for_independent_review": true,
+  "remaining_obligations": [
+    "independent RS review",
+    "full J0..J3 source inclusion/whole-standard-target extension",
+    "complete outer54/29/5251 all-prism/restriction domains",
+    "actual coefficient/fiber programs and aggregate resource accounting",
+    "detector values and global obstruction decision; historical comparison separate"
+  ],
+  "reserved_reviewer_files": [
+    "test_independent.py",
+    "review-independent.md"
+  ],
+  "resource_admission": false,
+  "schema": "producer-review-handoff-v1",
+  "scope": "Actual fresh full-five-term source identity Rsharp=tf C2(u_fresh)+delta W, coefficient-free closure and same full-sign class, under exact pinned ambient/source premises. No physical coefficient/fiber evaluation.",
+  "tests": {
+    "normal": 7,
+    "optimized": 7,
+    "physical_source_evaluated": false,
+    "result": "PASS"
+  }
+}

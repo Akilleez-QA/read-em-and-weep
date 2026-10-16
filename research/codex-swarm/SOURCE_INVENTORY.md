@@ -1,5 +1,11 @@
 # Published sources and reproduction boundaries
 
+## Current full-source application
+
+[PR88](https://github.com/Akilleez-QA/read-em-and-weep/pull/88) is stacked on PR87. Its `full-source-application/`, `full-lift-domain/`, `total-gated-provider/` and `wave6/` packages publish actual-definition proofs, canonical coefficient-free constructors, disjoint independent controls/reviews, source/review hashes and bounded replay/readback receipts. They reuse PR87's actual P/Q/fresh primitive, PR85's4270-node compiler and the uniform20-row transport; no completed support scan or physical arithmetic is repeated. Reviewed source snapshot `fce8a9d59a7df3776c34cd0903b1f82f6a6ae81d`; exact receipt pointers are in PR88's `wave6/README.md`. Null's independent RS/JC/TP review/support snapshot `ab94746644cabd83366abe52c86fd8feb24765d0` is consumed with six immutable report/control pins.
+
+The new mathematical scope is the SAME fresh complete-source identity/closure/class, J0–J3 original-frame application and common54/29/5251 whole-standard domain, under stated imported model premises. The total request/index/frame provider remains gated metadata. Actual coefficient/stream/fiber execution, aggregate supervision, detector values, actual source symmetry and historical nonlinear value comparison remain absent. Older false flags and reports retain their historical scope; publication does not silently promote them.
+
 GitHub is the shared delivery record. A local staging directory is not a
 handoff. This inventory supersedes the initial registration's missing-input
 statements; historical reports keep their inspection dates and limits.

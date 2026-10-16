@@ -1,0 +1,362 @@
+{
+  "JC": {
+    "component": "J3",
+    "face_terms": 120,
+    "frame": {
+      "frozen_frame_derivatives_used": false,
+      "full_sign_deck_product_removed_count": 1,
+      "internal_degree": -3,
+      "matrix_frame": "original-resolution",
+      "scalar_L_applied_after_this_conversion": false,
+      "tau_power": -5
+    },
+    "producer_profile": {
+      "AST_arrays": [
+        {
+          "nodes": 153,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+        },
+        {
+          "nodes": 137,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 58,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 137,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 58,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 128,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 50,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+        },
+        {
+          "nodes": 153,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+        },
+        {
+          "nodes": 136,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 56,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 136,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 56,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 128,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 50,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+        }
+      ],
+      "aggregate_stored_AST_nodes": 2584,
+      "physical_arithmetic_cost_or_memory_admission": false,
+      "pre_profile_JSON_bytes": 409458
+    },
+    "profile": {
+      "aggregate_stored_AST_nodes": 2584,
+      "canonical_descriptor_bytes": 412115,
+      "physical_arithmetic_cost_or_memory_admission": false,
+      "stored_AST_arrays": [
+        {
+          "nodes": 153,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+        },
+        {
+          "nodes": 137,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 58,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 137,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 58,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 128,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 50,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+        },
+        {
+          "nodes": 153,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+        },
+        {
+          "nodes": 136,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 56,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 136,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 56,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 128,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 50,
+          "path": "/source_definition_instance/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+        }
+      ]
+    },
+    "scalar_maps": 20,
+    "schema": "JC01-actual-full-lift-application-v1",
+    "source_leaf_bindings": 20,
+    "weighted_tests": 32
+  },
+  "RS": {
+    "boundary_sign": 1,
+    "profile": {
+      "aggregate_stored_AST_nodes": 3471,
+      "canonical_descriptor_bytes": 209608,
+      "physical_arithmetic_cost_or_memory_admission": false,
+      "stored_AST_arrays": [
+        {
+          "nodes": 153,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/P_definition/program/dag"
+        },
+        {
+          "nodes": 292,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 190,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 115,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 154,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 192,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 77,
+          "path": "/fresh_first_lift/FD_actual_definitions/0/Q_definitions/2/local_C_AST/nodes"
+        },
+        {
+          "nodes": 153,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/P_definition/program/dag"
+        },
+        {
+          "nodes": 292,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 188,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 188,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/0/local_C_AST/nodes"
+        },
+        {
+          "nodes": 191,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 188,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 113,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/1/local_C_AST/nodes"
+        },
+        {
+          "nodes": 152,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_Q_AST/nodes"
+        },
+        {
+          "nodes": 188,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/finite_C_AST/nodes"
+        },
+        {
+          "nodes": 73,
+          "path": "/fresh_first_lift/FD_actual_definitions/1/Q_definitions/2/local_C_AST/nodes"
+        }
+      ]
+    },
+    "schema": "actual-fresh-full-source-application-v1",
+    "source_component_ids": [
+      "E12",
+      "E34",
+      "Fk12",
+      "Fk34",
+      "baseline"
+    ],
+    "source_graph_reference_nodes": 4270
+  },
+  "actual_fibers_enumerated": false,
+  "actual_source_coefficients_evaluated": false,
+  "execution_release": false,
+  "explicit_owners": [
+    [
+      12,
+      [
+        "wave6-explicit",
+        0
+      ],
+      5,
+      1,
+      0
+    ],
+    [
+      12,
+      [
+        "wave6-explicit",
+        1
+      ],
+      0,
+      2,
+      1
+    ],
+    [
+      12,
+      [
+        "wave6-explicit",
+        2
+      ],
+      1,
+      3,
+      3
+    ],
+    [
+      12,
+      [
+        "wave6-explicit",
+        3
+      ],
+      2,
+      7,
+      7
+    ],
+    [
+      12,
+      [
+        "wave6-explicit",
+        4
+      ],
+      3,
+      11,
+      11
+    ],
+    [
+      12,
+      [
+        "wave6-explicit",
+        5
+      ],
+      4,
+      15,
+      15
+    ]
+  ],
+  "implementation_sha256": {
+    "full-lift-domain/lift.py": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a",
+    "full-source-application/r_binding.py": "7ebcb82606b461e928897331b93e89c5b1382d6585ccb0af189169653e117e7b"
+  },
+  "physical_memory_or_cost_admitted": false,
+  "schema": "wave6-canonical-AST-metadata-only-v1"
+}
