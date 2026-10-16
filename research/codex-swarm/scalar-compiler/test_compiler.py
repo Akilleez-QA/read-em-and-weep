@@ -156,6 +156,15 @@ class Controls(unittest.TestCase):
                     self.assertFalse(iszero(sum_blocks((1,delta),(-1,end_d(nextF,-2)))))
             else:self.assertTrue(iszero(delta))
         self.assertTrue(nonzero_J2)
+    def test_boolean_standard_tags_and_selectors_rejected(self):
+        tags=[0,8,12,14,15];owners=[[0,j,1,0,t]for j,t in enumerate(tags)]
+        tags[0]=False
+        with self.assertRaises(ValueError):C.bind_outer_assignment(tags,owners)
+        for field,position in [('entry',0),('block',0),('coefficient',None)]:
+            terms=C.scalar_terms(self.g,5,0)
+            if position is None:terms[0][field]=True
+            else:terms[0][field][position]=False
+            with self.assertRaises(ValueError):C.row_bottom_coefficients(self.g,terms)
     def test_no_realization_gate_can_be_forged(self):
         bad=copy.deepcopy(self.template);bad['gates']['physical_source_evaluated']=True
         with self.assertRaises(ValueError):C.validate_template(bad)

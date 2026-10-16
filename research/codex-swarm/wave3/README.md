@@ -31,3 +31,11 @@ The family has32 weighted tests,127 listed terms and121 distinct(map,exponent) d
 All five complete corrected-source terms, the gerbe baseline, actual full owners, both inner prism families, the complete standard branch, differentiated Q/weights, original-frame conversion and J3 closure must remain. None is replaced by a passed boolean or a hash.
 
 This wave supplies symbolic/source-binding progress and bounded formal checks. Physical source arithmetic is held. Costs, occupied supports, current global spending/live allocations and complete source admission remain unknown until certified; fan-out grants no new pool. Obstruction values remain uncomputed.
+
+## Final reviewed state
+
+All four lane reviews are published with the code. The suites pass31(SC),24(TR),17(CLR),12(CO) tests per Python mode:84 total in normal and optimized runs, separately from46 abstract support tests. `reviewed-lanes.json` records the accepted scopes and tested file hashes.
+
+SC-R2 exposed two Boolean/integer alias gaps; the producer fixed both. The unchanged compiled circuit and31 passing tests are recorded in `scalar-compiler/review-fix-followup.md`; the pre-fix review is preserved. TR-R exposed frame-conversion order and its producer corrected it before final handoff. CLR-R2 and the separate degree reviewer accept the actual finite identity and217/210 bound, conditional on the pinned contraction identities. None identifies the finite homogenization with the physical homogeneous source.
+
+Next owners: the source/clearing lane must authenticate that frame/homogenization equality and build executable complete standardB/inner quotient coefficient circuits; SC/TR must bind the complete source closure and whole-standard extension to the formal operator; CO must consume the resulting actual coefficient grammar and independently reviewed physical allocation/operation schedule against the authoritative shared ledger. Null retains its support theorems and carrier-block comparison. No new pool or physical execution follows.

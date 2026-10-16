@@ -11,9 +11,9 @@ python -B research/codex-swarm/scalar-compiler/run_formal.py
 python -B research/codex-swarm/scalar-compiler/run_controls.py
 ```
 
-The first command writes `compiled-template.json` and `formal-run-receipt.json`. The second runs twelve exact producer controls normally and under `-O`, each in a separate bounded subprocess, and writes `controls-receipt.json`. Bounds are 512 MiB address space, 59 seconds CPU, and 60 seconds wall per subprocess. The node cap is 25,000 and serialized circuit cap 4,000,000 bytes.
+The first command writes `compiled-template.json` and `formal-run-receipt.json`. The second runs thirteen exact producer controls normally and under `-O`, each in a separate bounded subprocess, and writes `controls-receipt.json`. Bounds are 512 MiB address space, 59 seconds CPU, and 60 seconds wall per subprocess. The node cap is 25,000 and serialized circuit cap 4,000,000 bytes.
 
-The current formal output has 4,270 interned nodes and 20 complete-source triple stencils. Its bounded generation took 0.076940 seconds and 24,899,584 bytes kernel-reported child maximum RSS. The normal and optimized controls pass. These measurements concern formal circuit generation and tiny abstract controls, not physical coefficient evaluation.
+The current formal output has 4,270 interned nodes and 20 complete-source triple stencils. Its bounded generation took 0.075930 seconds and 24,928,256 bytes kernel-reported child maximum RSS. The normal and optimized controls pass, including strict integer/Boolean input rejection. These measurements concern formal circuit generation and tiny abstract controls, not physical coefficient evaluation.
 
 ## What is executable
 

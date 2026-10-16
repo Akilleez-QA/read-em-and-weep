@@ -76,8 +76,14 @@ def row_bottom_coefficients(g,terms):
     def put(a,b,k,z):
         key=(a,b,k);residual[key]=residual.get(key,0)+z
         if not residual[key]:del residual[key]
+    need(isinstance(terms,(list,tuple)),'selector term sequence')
     for t in terms:
-        block=t['block'];a,b=t['entry'];z=t['coefficient']
+        need(type(t)is dict and set(t)=={'block','entry','coefficient'},'selector term fields')
+        block=t['block'];entry=t['entry'];z=t['coefficient']
+        need(isinstance(block,(list,tuple))and len(block)==2 and all(type(x)is int for x in block),'integer selector block')
+        need(isinstance(entry,(list,tuple))and len(entry)==2 and all(type(x)is int for x in entry),'integer selector entry')
+        need(type(z)is int,'integer selector coefficient')
+        block=list(block);a,b=entry
         if block==[2,0]:
             need(0<=a<5 and 0<=b<10,'X02 selector bounds');put(a,b//5,b%5,z)
         elif block==[3,1]:
@@ -281,6 +287,7 @@ def bind_outer_assignment(standard_tags,owners):
     alternating cochain, never rebuilds a nonlinear directional prescription.
     """
     need(len(standard_tags)==len(owners)==5,'five outer owners')
+    need(all(type(t)is int and 0<=t<16 for t in standard_tags),'integer standard tags')
     for t,o in zip(standard_tags,owners):
         need(len(o)==5 and all(type(x)is int for x in o),'integer full owner')
         need(0<=o[0]<32 and o[1]>=0 and o[4]==t and 0<=t<16 and 0<=o[2]<6 and 0<=o[3]<16,'owner request/occurrence/standard/carrier/mask')

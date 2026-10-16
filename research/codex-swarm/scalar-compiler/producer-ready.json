@@ -2,32 +2,32 @@
   "execution_release": false,
   "files": {
     "README.md": {
-      "bytes": 5901,
-      "sha256": "114c92617435eccc75efbd12fe51ad1ddc263cf27aa18c8edbc48b062849c612"
+      "bytes": 5953,
+      "sha256": "c3aa9d24cd96f87c91ee7bd1ca136c951b0b3fd1d32ff0985d2c7bba4b811c73"
     },
     "compiled-template.json": {
       "bytes": 1026584,
       "sha256": "30fa190054411ea8180015be2ad3dbba65bd209abef7ddd78973a6fae024c565"
     },
     "compiler.py": {
-      "bytes": 21901,
-      "sha256": "42dc34d123c5aa69834f003034a66ca13b6a031b84504eefd12c20d30aa4b9f2"
+      "bytes": 22498,
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
     },
     "controls-receipt.json": {
-      "bytes": 3936,
-      "sha256": "40187f9858c9549396dfd312d36453e554e23314deb34f20d92a1ec75ebb948d"
+      "bytes": 4202,
+      "sha256": "3827a4ed8ef99219e26e7a3274c7ed0c5bbe5818bdbdde148ad224c32e6da3a4"
     },
     "formal-run-receipt.json": {
       "bytes": 380,
-      "sha256": "b58ddde2b75314c7404276b173c057f0a9c3e94d4541c3123e451d836b041cd3"
+      "sha256": "598cce62757bd5082dccbc8fd915500bd95812a9e48a39689e476ae2e76149a7"
     },
     "operator-contract.md": {
-      "bytes": 4816,
-      "sha256": "d3b5df917bd5643ad5f9ecc8f35d439c1e24ea57ef246a647a9bb4ce009e911f"
+      "bytes": 4913,
+      "sha256": "491f1f11faa4f8f2095f3461eec5abba7f2486383116d0272c0d97f099f4332d"
     },
     "run_controls.py": {
       "bytes": 1495,
-      "sha256": "45a2439f8e8954fcdd07018f75773134db51a2bd6ef1e9b161ae81c53689f8d8"
+      "sha256": "58d773a48e052ecdec53ca6664fe6ed799fc21ac3219eeebb998aed9e22b2637"
     },
     "run_formal.py": {
       "bytes": 1336,
@@ -38,15 +38,15 @@
       "sha256": "dc3fccb706a5747f82fdca152785dd756c366273dadf01d3b15021f9ae082ef0"
     },
     "test_compiler.py": {
-      "bytes": 8719,
-      "sha256": "7281fc6127ed2fd8c2e571fea06d8dde91b4a817044f32d9c27b110274a8e8fc"
+      "bytes": 9273,
+      "sha256": "1331008255e0a5816cdabde2ab8b88013214986abf9851d91d877b78438a3dea"
     }
   },
   "formal_circuit_nodes": 4270,
   "independent_review": "pending SC-R",
   "ownership_scope": "Explicit producer-owned file whitelist; reviewer-owned tests, reviews and receipts excluded.",
   "physical_source_evaluated": false,
-  "producer_controls_normal_and_optimized": 12,
+  "producer_controls_normal_and_optimized": 13,
   "purpose": "reviewer handoff marker only, NOT admission",
   "schema": "sc01-review-handoff-v1"
 }

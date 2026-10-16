@@ -1,5 +1,5 @@
 {
-  "child_maxrss_kib": 21600,
+  "child_maxrss_kib": 21380,
   "execution_release": false,
   "limits": {
     "per_command_wall_seconds": 25,
@@ -13,12 +13,12 @@
       "command": [
         "/usr/bin/python",
         "-B",
-        "/home/akilleez/LOCAL LLM/read-em-and-weep/research/codex-swarm/demand-cost/preflight.py"
+        "research/codex-swarm/demand-cost/preflight.py"
       ],
       "exit_status": 0,
       "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "stdout_sha256": "7f374fa61bdb6d034902516edeec75a10ba2123f612223a7efd0b037fd5cd4fd",
-      "wall_seconds": 0.040811
+      "wall_seconds": 0.040554
     },
     {
       "command": [
@@ -28,15 +28,15 @@
         "unittest",
         "discover",
         "-s",
-        "/home/akilleez/LOCAL LLM/read-em-and-weep/research/codex-swarm/demand-cost",
+        "research/codex-swarm/demand-cost",
         "-p",
         "test_producer.py",
         "-v"
       ],
       "exit_status": 0,
-      "stderr_sha256": "5f7ed543859568b1727bb84d229a9fa32608bfa7fedae29794e03bc74a185f66",
+      "stderr_sha256": "fd85398e7188e3f812ea372668ec3e757b3d7d248e68b456a07ab59da8aead04",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "wall_seconds": 0.061923
+      "wall_seconds": 0.064084
     },
     {
       "command": [
@@ -47,7 +47,7 @@
         "unittest",
         "discover",
         "-s",
-        "/home/akilleez/LOCAL LLM/read-em-and-weep/research/codex-swarm/demand-cost",
+        "research/codex-swarm/demand-cost",
         "-p",
         "test_producer.py",
         "-v"
@@ -55,7 +55,7 @@
       "exit_status": 0,
       "stderr_sha256": "96a4d02353b09466f738edf1b0aa2394fb63e00582cd38dca737891d1dc81cbe",
       "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "wall_seconds": 0.061903
+      "wall_seconds": 0.062764
     }
   ],
   "schema": "co01-bounded-replay-v1"

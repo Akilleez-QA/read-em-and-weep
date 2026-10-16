@@ -9,6 +9,7 @@ import time
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
+RELATIVE = HERE.relative_to(REPO)
 
 
 def limits():
@@ -18,9 +19,9 @@ def limits():
 
 def main():
     commands = [
-        [sys.executable,'-B',str(HERE/'preflight.py')],
-        [sys.executable,'-B','-m','unittest','discover','-s',str(HERE),'-p','test_producer.py','-v'],
-        [sys.executable,'-O','-B','-m','unittest','discover','-s',str(HERE),'-p','test_producer.py','-v'],
+        [sys.executable,'-B',str(RELATIVE/'preflight.py')],
+        [sys.executable,'-B','-m','unittest','discover','-s',str(RELATIVE),'-p','test_producer.py','-v'],
+        [sys.executable,'-O','-B','-m','unittest','discover','-s',str(RELATIVE),'-p','test_producer.py','-v'],
     ]
     runs = []
     for i,cmd in enumerate(commands):
