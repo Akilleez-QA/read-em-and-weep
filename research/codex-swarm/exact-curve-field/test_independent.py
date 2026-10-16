@@ -1,7 +1,7 @@
 """RF-R: tiny synthetic inputs only; no source/model imports or calls.
 
 Standalone invocation bounds both normal and -O producer/independent children.
-The expected failure is a reported producer defect, not an accepted contract.
+RF-R-1 was repaired; the former expected-failure regression must now pass.
 """
 import os
 from pathlib import Path
@@ -215,7 +215,6 @@ class IndependentTests(unittest.TestCase):
             with self.assertRaises(LimitExceeded):
                 Execution(limits).constant(1)
 
-    @unittest.expectedFailure
     def test_foreign_polynomial_pair_constructor_must_reject(self):
         owner, receiver = Execution(), Execution(Limits(products=0))
         p = owner.constant(2); q = owner.constant(3)
