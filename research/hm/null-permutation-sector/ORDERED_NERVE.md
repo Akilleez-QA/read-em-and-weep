@@ -34,6 +34,8 @@ The entire rest of each transformed R_bar is still present: Q2, Q4, both complem
 
 ## 4. Scope of the construction
 
-This isolates a lower-jet representative for the full alternating projection, conditional on the same published raw-source closure and physical permutation naturality used by the global sector theorem. It does not prove a primitive for that representative, compute either of its two global coordinates, or affect the remaining30 coordinates.
+This isolates a representative without the bilinear second-jet Omega term for the full alternating projection. It can still contain second derivatives through Q2 and E. The construction is conditional on the same published raw-source closure and physical permutation naturality used by the global sector theorem. It does not prove a primitive for that representative, compute either of its two global coordinates, or affect the remaining30 coordinates.
 
 No existing alternating total provider is asserted to implement the ordered-nerve source. A future source-faithful compiler must retain the supplied order until after the full geometric average, and must authenticate its comparison with the admitted fresh representative. No current execution allowance is enlarged, no historical table is reused, and no runtime or owner-count reduction is claimed. The separate one-point Omega attempt has already been consumed and is not repeated here.
+
+The ordered-source closure input is the universal quadruple-overlap associativity calculation in [closure-and-characters, section1](https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/closure-and-characters.md). The first-order transgression is the corresponding pinned first-order-source formula. The symbol cancellation does not remove terms merely because they also contain a second derivative.

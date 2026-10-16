@@ -4,7 +4,7 @@
 
 Over Q, the authenticated 32-dimensional D8 permutation-sign sector splits under the full alternating projector into a 2-dimensional image and a 30-dimensional kernel. The 2-dimensional image is the full S4 sign-isotypic part. The 30-dimensional kernel consists of the D8-sign lines in thirty copies of the S4 representation (2,2). The D8 sector itself is not S4-stable, so this is a projector decomposition of that sector, not a claim that its 30-dimensional kernel is an S4 subrepresentation.
 
-The highest mixed-second-jet symbol Omega cancels pointwise in the full alternating combination of the three pair partitions. This does not make the complete obstruction's alternating projection zero: all lower-jet, scalar and gerbe terms still require comparison. It supplies a sharper division of the remaining global work after actual pointwise Omega=0 was refuted.
+The highest mixed-second-jet symbol Omega cancels pointwise in the full alternating combination of the three pair partitions. This does not make the complete obstruction's alternating projection zero: terms linear in second jets, other lower terms, scalar terms and gerbe terms still require comparison. It supplies a sharper division of the remaining global work after actual pointwise Omega=0 was refuted.
 
 ## 1. Published premises
 
