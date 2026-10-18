@@ -1,0 +1,160 @@
+--- a/exact-curve-field/field.py
++++ b/exact-curve-field/field.py
+@@ -324,6 +324,25 @@
+                         self.numerator * self.denominator.partial(i),
+                         self.denominator * self.denominator)
+ 
++    def certify_laurent(self, context):
++        """One complete division; retain the quotient, identity and lifetime.
++
++        Frame labels are caller declarations, not source authentication.
++        This pure field API grants no physical execution permission.
++        """
++        self.ex.check()
++        if type(context) is not LaurentContext or context.ex is not self.ex:
++            raise ValueError("foreign Laurent context")
++        d = tuple(min(e[i] for e, _ in self.denominator.terms) for i in range(4))
++        self.ex.tick('storage_events', 5)
++        residual = self.ex.poly((tuple(e[i]-d[i] for i in range(4)), c)
++                                for e, c in self.denominator.terms)
++        quotient, remainder = self.numerator.divide(residual)
++        if not remainder.is_zero():
++            raise NotLaurentPolynomial("nonzero polynomial division remainder")
++        self.ex.check()
++        return LaurentCertificate(_LAURENT_SEAL, self, context, d, quotient)
++
+     def laurent_coefficient(self, exponent):
+         """Return a coefficient only after proving this rational is Laurent.
+ 
+@@ -345,6 +364,91 @@
+             if e == target:
+                 return c
+         return Fraction(0)
++
++
++_LAURENT_SEAL = object()
++
++
++@dataclass(frozen=True, slots=True, init=False, eq=False)
++class LaurentContext:
++    ex: Execution = field(repr=False)
++    frame: tuple
++
++    def __init__(self, ex, frame):
++        if type(ex) is not Execution:
++            raise TypeError("production Execution required")
++        ex.check()
++        if type(frame) is not tuple or not frame or any(type(v) is not str for v in frame):
++            raise TypeError("immutable nonempty frame tuple required")
++        ex.tick('storage_events', len(frame) + 1)
++        object.__setattr__(self, 'ex', ex)
++        object.__setattr__(self, 'frame', frame)
++
++
++@dataclass(frozen=True, slots=True, init=False, eq=False)
++class LaurentCertificate:
++    rational: Rational = field(repr=False)
++    context: LaurentContext = field(repr=False)
++    ex: Execution = field(repr=False)
++    shift: tuple
++    quotient: Poly = field(repr=False)
++
++    def __init__(self, seal, rational, context, shift, quotient):
++        if seal is not _LAURENT_SEAL:
++            raise TypeError("use Rational.certify_laurent")
++        ex = rational.ex
++        ex.check()
++        if context.ex is not ex or quotient.ex is not ex:
++            raise ValueError("certificate Execution mismatch")
++        ex.tick('storage_events', 6)
++        object.__setattr__(self, 'rational', rational)
++        object.__setattr__(self, 'context', context)
++        object.__setattr__(self, 'ex', ex)
++        object.__setattr__(self, 'shift', shift)
++        object.__setattr__(self, 'quotient', quotient)
++
++    def _check(self, rational, context):
++        self.ex.check()
++        if rational is not self.rational or context is not self.context:
++            raise ValueError("certificate rational/context identity mismatch")
++        if rational.ex is not self.ex or context.ex is not self.ex or self.quotient.ex is not self.ex:
++            raise ValueError("certificate Execution mismatch")
++
++    def coefficient(self, rational, context, exponent):
++        self._check(rational, context)
++        exponent = _exponent(exponent, signed=True)
++        target = tuple(exponent[i] + self.shift[i] for i in range(4))
++        self.ex.tick('storage_events', 5)
++        for power in target:
++            self.ex.observe(Fraction(power))
++        answer = self.ex.q(0)
++        for e, c in self.quotient.terms:
++            self.ex.tick()
++            if e == target:
++                answer = c
++                break
++        self._check(rational, context)
++        return answer
++
++    def weighted_coefficients(self, rational, context, terms):
++        self._check(rational, context)
++        if type(terms) is not tuple:
++            raise TypeError("immutable coefficient request tuple required")
++        answer = self.ex.q(0)
++        for item in terms:
++            self.ex.tick()
++            if type(item) is not tuple or len(item) != 2:
++                raise TypeError("exponent/weight tuple required")
++            exponent, weight = item
++            if type(exponent) is not tuple:
++                raise TypeError("immutable exponent tuple required")
++            weight = self.ex.q(weight)
++            value = self.coefficient(rational, context, exponent)
++            product = self.ex.mul(weight, value)
++            answer = self.ex.add(answer, product)
++            self.ex.tick('storage_events', 3)
++        self._check(rational, context)
++        return answer
+ 
+ 
+ @dataclass(frozen=True, slots=True, init=False, eq=False)
+--- a/detector-realization/program.py
++++ b/detector-realization/program.py
+@@ -139,3 +139,37 @@
+     if any(type(v)not in(int,Q)for v in values.values()):raise ValueError('exact detector values')
+     if any(values.values()):return 'NONZERO'
+     return 'ZERO'if set(values)==set(range(32))else 'UNDECIDED'
++
++
++def actual_id0(ex=None, *args, **kwargs):
++    raise RuntimeError("ID0 physical execution is unconditionally held")
++    # Inert integration specification only. No separate private body or bypass.
++    # Everything below is unreachable even if aggregate admission is mocked.
++    def potential_owners_id0(tag,occurrence):
++        require_aggregate_admission()
++        bits=[(tag>>(3-i))&1 for i in range(4)];s=sum(bits)
++        carriers=[4,5]if s==4 else list(range(s+1))+[5]
++        for c in carriers:
++            for m in range(16):
++                if any(((m>>i)&1)and not bits[i]for i in range(4)):continue
++                # Fresh carrier-first order, legal numeric, original standard tag.
++                yield I.FullOwner(0,occurrence,c,m,tag)
++
++    require_aggregate_admission()
++    from bindings import actual_model
++    model_data=actual_model()
++    total=ex.scalar(0)
++    for si,stair in enumerate(SC.staircase_records()):
++        fibers=[tuple(potential_owners_id0(t,('outer',si,j)))for j,t in enumerate(stair['standard_tags'])]
++        for owners in itertools.product(*fibers):
++            total=total+weighted_assignment(ex,model_data,owners)*ex.scalar(stair['orientation'])
++    # Whole complete scalar original-frame expression -> full-sign character
++    # -> exact rational Laurent division. No local-support zero shortcut.
++    stripped=dict(total.terms).get(15,ex.rational(0))
++    context=RF.LaurentContext(ex,('original-resolution-frame', 'degree-minus2-tau-minus4', 'finite-tau1', 'full-deck-mask15', 'ID0-L5,0-Q2'))
++    certificate=stripped.certify_laurent(context)
++    return certificate.weighted_coefficients(stripped,context,(
++        ((-3,-3,-1,-1),1),
++        ((-2,-2,-2,-2),2),
++        ((-1,-1,-3,-3),1),
++    ))
