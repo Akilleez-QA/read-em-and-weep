@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "static_formula_checks": 44,
+  "negative_controls": 8,
+  "negative_pin_controls": 14,
+  "formal_staircases": 24,
+  "physical_execution": false,
+  "owner_enumeration": false,
+  "actual_pole_bounds_proved": false,
+  "scope": "static wiring and finite-index algebra; read PROOF.md for universal identities and geometric premises"
+}

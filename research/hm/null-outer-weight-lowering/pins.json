@@ -1,0 +1,120 @@
+{
+  "JC-PROOF.md": {
+    "bytes": 13344,
+    "git_blob": "7fdf8d04485681cd9760615cf1994597bc242261",
+    "original_bytes": 13344,
+    "original_git_blob": "7fdf8d04485681cd9760615cf1994597bc242261",
+    "original_sha256": "0fed4ce72868ffa43f9c8e042055396f441873cca208d40e943b1b60b35f0443",
+    "sha256": "0fed4ce72868ffa43f9c8e042055396f441873cca208d40e943b1b60b35f0443",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/full-lift-domain/PROOF.md",
+    "transformation": "exact inert byte copy"
+  },
+  "JC-historically-reviewed-PROOF.md": {
+    "bytes": 12838,
+    "git_blob": "01b0eae71b2eacde4bd1d0b845afe2fa7e657e27",
+    "sha256": "27747cbfbcdcd7a40407cfbf5e4943632de7a72faa125ccf25bb81e0427ecd10",
+    "transformation": "local archived evidence; provenance explained in REVIEW.md"
+  },
+  "JC-proof-change.diff": {
+    "bytes": 4316,
+    "git_blob": "92c1161cff74bb1c22ff79f1afb05f57fb324f8a",
+    "sha256": "f1523823be561fa00c3c77f0181b12227caa9c8c0cc47dd9bc7fc4035f7b0566",
+    "transformation": "local archived evidence; provenance explained in REVIEW.md"
+  },
+  "compiler.py": {
+    "bytes": 22498,
+    "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+    "original_bytes": 22498,
+    "original_git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+    "original_sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+    "transformation": "exact inert byte copy"
+  },
+  "full-lift-domain__review-independent.md": {
+    "bytes": 12217,
+    "git_blob": "47f7cd157628219abc161aa372b54a37cda38cdc",
+    "original_bytes": 15405,
+    "original_git_blob": "6f044abcbe502b64cc0426025babaeab3e251c0f",
+    "original_sha256": "98569746b9bef82ca1193d26e24cb926334b5bc8a9de702070124da2b24b3cb2",
+    "sha256": "3e0fa4f2f3c30d05655cbcf016b863431705b511cce0fb2ad1c43fc5952355a3",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/full-lift-domain/review-independent.md",
+    "transformation": "excerpt: original lines 1-6, 9-85, 100-end; local context and test accounting omitted"
+  },
+  "interfaces.py": {
+    "bytes": 3422,
+    "git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+    "original_bytes": 3422,
+    "original_git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+    "original_sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+    "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/inserted-coefficients/interfaces.py",
+    "transformation": "exact inert byte copy"
+  },
+  "original-report.md": {
+    "bytes": 16613,
+    "git_blob": "0519b1679f177b1d30a38a260c2f5d49aa979da9",
+    "sha256": "a1281561cd7d46e88abcba22cd20cf5d25372e5bde0df76d2aba2dac114dfbaf",
+    "transformation": "local archived evidence; provenance explained in REVIEW.md"
+  },
+  "outer_partition_source_binding.py": {
+    "bytes": 11959,
+    "git_blob": "1dcb9d5e0def4fba2268f4c54de6409b137ed05e",
+    "original_bytes": 11959,
+    "original_git_blob": "1dcb9d5e0def4fba2268f4c54de6409b137ed05e",
+    "original_sha256": "e99e4a8c8a3736a7ef583d66f8de21680fae7dca5fe253bff7483426c513fa00",
+    "sha256": "e99e4a8c8a3736a7ef583d66f8de21680fae7dca5fe253bff7483426c513fa00",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-support-certificates/outer_partition_source_binding.py",
+    "transformation": "exact inert byte copy"
+  },
+  "pinned-program.py": {
+    "bytes": 6041,
+    "git_blob": "745beade7f111b4648d5da36a962c787f1a29d72",
+    "original_bytes": 6041,
+    "original_git_blob": "745beade7f111b4648d5da36a962c787f1a29d72",
+    "original_sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/program.py",
+    "transformation": "exact inert byte copy"
+  },
+  "program.py": {
+    "bytes": 6041,
+    "git_blob": "745beade7f111b4648d5da36a962c787f1a29d72",
+    "original_bytes": 6041,
+    "original_git_blob": "745beade7f111b4648d5da36a962c787f1a29d72",
+    "original_sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/program.py",
+    "transformation": "exact inert byte copy"
+  },
+  "raw_engine.py": {
+    "bytes": 8960,
+    "git_blob": "34a230aedc9e6d47148195752da54c30c576f53a",
+    "original_bytes": 8960,
+    "original_git_blob": "34a230aedc9e6d47148195752da54c30c576f53a",
+    "original_sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "transformation": "exact inert byte copy"
+  },
+  "regular-cover-transport.md": {
+    "bytes": 23469,
+    "git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+    "original_bytes": 23469,
+    "original_git_blob": "1131532f944cf23319329d0904a8c8a4afc8b10e",
+    "original_sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d",
+    "sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-proof-foundations/hm-regular-cover-transport.md",
+    "transformation": "exact inert byte copy"
+  },
+  "transport-binding__review-independent.md": {
+    "bytes": 13677,
+    "git_blob": "3176e8e7fbebf1675d9601edb88bb76e4f8f625c",
+    "original_bytes": 15921,
+    "original_git_blob": "e8f2dd9269b670e4a977a56ff023f2b9be86a42d",
+    "original_sha256": "be7b91043f2e5a97dea1cff969df7f8ab29110d01240732071bcd6054a823b69",
+    "sha256": "be55afcbfa444125c3151751bf6eccd7c5d6420a50fcaaff54bbde5207e84437",
+    "source_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/transport-binding/review-independent.md",
+    "transformation": "excerpt: original lines 1-30, 45-end; test accounting omitted"
+  }
+}
