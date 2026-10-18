@@ -1,0 +1,30 @@
+{
+  "description": "Selected exact sections of supplied predecessor packets; full-file hashes identify supplied bytes only, not fresh remote provenance. No upstream checker or production code is executed.",
+  "sources": [
+    {
+      "file": "dependencies/source-adjoint.md",
+      "selection": "## 3. through before ## 5.",
+      "supplied_full_file_sha256": "106648cb80212191cc6fe85098a24271069f8f2e7f625daae29c9f5a114d2922"
+    },
+    {
+      "file": "dependencies/current-curl.md",
+      "selection": "## 1. through before ## 4.",
+      "supplied_full_file_sha256": "3993ac2bdacaedcd1358c50ff612446f05255b144b760dd660188512d855e639"
+    },
+    {
+      "file": "dependencies/hpl.md",
+      "selection": "## 4. through before ## Reproduction",
+      "supplied_full_file_sha256": "b19a9393bed39efc138d9adb1f6dfcf88af91fac6b403842fc225c8bc8eca0dc"
+    },
+    {
+      "file": "dependencies/outer-weight.md",
+      "selection": "## 5. through before ## Controls",
+      "supplied_full_file_sha256": "8233907cb22519e35ca0fea39e36a293fd8c17595730cd93163873fce7dbb206"
+    },
+    {
+      "file": "dependencies/regular-prism.md",
+      "selection": "## 7. through before ## 9.",
+      "supplied_full_file_sha256": "98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "negative_controls": {
+    "drop_deleted_prefix": "rejected normally and optimized",
+    "erase_repeated_target": "rejected normally and optimized",
+    "false_derivative_divisor": "rejected normally and optimized",
+    "missing_odd_frame": "rejected normally and optimized",
+    "undercharged_hpl": "rejected normally and optimized"
+  },
+  "status": "pass"
+}
