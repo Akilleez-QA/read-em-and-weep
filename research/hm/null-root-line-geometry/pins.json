@@ -1,0 +1,46 @@
+{
+  "repository": "https://github.com/Akilleez-QA/read-em-and-weep",
+  "provenance": "Previously fetched immutable source snapshots; Git blob identities checked against fetch metadata locally. No fresh network retrieval claimed.",
+  "sources": [
+    {
+      "file": "inputs/frames-and-poles.md.txt",
+      "repository_path": "research/hm/current-scalar-geometric-dependencies/frames-and-poles.md",
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/frames-and-poles.md",
+      "git_blob_sha1": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+      "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916"
+    },
+    {
+      "file": "inputs/ambient-second-jet.md.txt",
+      "repository_path": "research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+      "git_blob_sha1": "e07d4373a7c22f7cf4502260d80dbd559d942850",
+      "sha256": "395e18b7f00a1ca7f29cd0cb84f5fbe2fc2a250d68effe60cd35aa61162dfc46"
+    },
+    {
+      "file": "inputs/first-order-source.md.txt",
+      "repository_path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/first-order-source.md",
+      "git_blob_sha1": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc",
+      "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6"
+    },
+    {
+      "file": "inputs/raw-engine-excerpt.txt",
+      "source_sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+      "source_lines": [
+        [
+          126,
+          138
+        ],
+        [
+          151,
+          154
+        ]
+      ],
+      "provenance": "Supplied inert source snapshot; no repository commit asserted for this snapshot.",
+      "sha256": "9e37fd0fc89916ce5557feee8af28484100d7bdc10073a2423d85846685e4415"
+    }
+  ]
+}
