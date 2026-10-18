@@ -1,0 +1,36 @@
+{
+  "inputs/compiler.py.txt": {
+    "Lift.H": "8e21145ad451f63a7de3431d9c48d227672ae4a064addf5548e5dfe5a6949a5d",
+    "Lift.IP": "b1d17c14574cf0babee718bea82eda5f01b05492865a6140c8070427235b272c",
+    "Lift.at": "ad5ec8354d3bbe560efd32c032355968b572d69ed16d529041f46cd8d3afcc07",
+    "Lift.delta": "0b9929f081887294503ab97b551f89e741b2eb67767c85780553ee60fe52ab74",
+    "Lift.homotopy": "9d8fa05bf194ce63ada9b9528071f2d96957c469a261a42da276458333c3f593",
+    "Lift.merge": "e9937c49664e17816a1adfe4208de74c552bdc05eb8b1678f029edd76f0d8b9c",
+    "Source.E": "4e17ef5c091a4f24cd185d13e69c8aa21ed6ffbfcc735b90579b42e62e75fb10",
+    "Source.F": "4b8e1a2cc196d3b215d43670e3858e201fbb7de95046a4f881eb684bf5fc1033",
+    "Source.b": "eef12160bf357ae1621cb7e6072185483dc5fa3eb2141b90d878d2ea1dc994d7",
+    "Source.g": "e064a63574d6ba41b8626aa69b0d5f1671bd6aa0a3fa8adaf034443245229efe",
+    "Source.gi": "b545e0e49d94006d891375b5c49f89a2a69ceed759065e76862a887481a9c2cb",
+    "Source.k": "725e028150b47da8a0109f5fd292daf8b93d3392b789d29fe24e8fbc6e3ac93d",
+    "Source.mu": "96dba61bc390fae1348b676de0afe56988dcc53eac7c3aec755ca2f76ea729e6",
+    "Source.mu2": "f6f53f210cb3c18fabc0f5def98592794dcd4b0a5ac7de4995976ebb6f5efb4e",
+    "Source.residual": "6ded1e8e0adb013461fd4bfe16eb566e04842bdb96be836b6b9966cf4907aa3c",
+    "staircase_records": "289f227063088d9f8fb97b18e1e731d436f6f7ebb34092ec11a3327469fdaa6e"
+  },
+  "inputs/lift_schema.py.txt": {
+    "closed_lift_schema": "590a9af198fefdfe8d7c5d91d9d60fdda24ccf483a364b707010d9a09a0db63f"
+  },
+  "inputs/program.py.txt": {
+    "actual_id0": "e8a30986bf2785097cb0d09df0877eb7b9e82a9e8e36ec9980234497f19bea45",
+    "outer_weight": "3bd39a703ca9795a11bc6e5e0dc91d52a6f5d4d1dc945d60f692681b93a895ff",
+    "weighted_assignment": "8e214b7a5ee495c83f5a0049a23ce225aee16a614330c3e448e57ceedc682ef8"
+  },
+  "inputs/raw_engine.py.txt": {
+    "Mat.D": "274e532e8519c9d9629fb8006fd05043b3f422ee2d1542f1df579757fc77152a",
+    "Mat.inverse": "98a5d789b9d99ff3c1d6a39a2306339296eb86fe7857bade228b566905dd46d0",
+    "Mat.leaf": "107179dccde8ead15049111b8bcf1fe208dfc8db0024c7e06cef3b96aa0e63ef",
+    "PhysicalModel.leaf": "de94d18e59eac7ef3a0b55b30f3d043c29593b9b05d830111614c3f6014a1bc5",
+    "RawSource.T": "dcda10c4abd1a3be8477975eb0b03ca83aa1120458cad3a2f4cd519da68f26cc",
+    "source_and_lift": "a2e69d453888314557e6a6fa84203fb758c7df71b29f1ee794bb08d488901231"
+  }
+}

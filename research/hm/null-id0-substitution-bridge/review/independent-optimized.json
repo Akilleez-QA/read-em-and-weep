@@ -1,0 +1,26 @@
+{
+  "A_freshly_proved_or_replayed": false,
+  "A_historical_reported_entries": 1350,
+  "B_literal_zero_carriers": 6,
+  "C_skew_pairs": 20,
+  "C_zero_blocks": 10,
+  "candidate_operational_result": "unconditional refusal",
+  "current_public_head": "parent label only; not remotely authenticated here",
+  "field_correctness": "premise; finite extracted controls are not universal proof",
+  "geometric_residual_HPL_outer_interfaces": "conditional, not discharged",
+  "kernel_controls": 49,
+  "patch_applied": false,
+  "physical_evaluation": false,
+  "pinned_input_files": 88,
+  "polynomial_products": false,
+  "production_imports": false,
+  "raw_scalar_substitution_through_frozen_residual_lift_outer": "proved under exact operations and fixed context",
+  "shared_model_and_middle_source_pins": true,
+  "source_compilation_or_execution": false,
+  "status": "PASS static composition and formal terminal controls only",
+  "terminal_weights": [
+    1,
+    2,
+    1
+  ]
+}

@@ -1,0 +1,32 @@
+class Source:
+    def E(self,p,solver_pair,t):
+        c=self.c;i,j,k=t;a,b=p;sij=self.T(solver_pair,i,j);sjk=self.T(solver_pair,j,k)
+        la=c.mul(self.gi(i,j),c.D(self.g(i,j),a));lb=c.mul(self.gi(i,j),c.D(self.g(i,j),b))
+        ta=c.mul(self.gi(i,j),self.gi(j,k),c.D(self.g(j,k),a),self.g(i,j))
+        tb=c.mul(self.gi(i,j),self.gi(j,k),c.D(self.g(j,k),b),self.g(i,j))
+        return c.scale(c.add(c.smul(c.D(sjk,a),lb),c.scale(c.smul(c.D(sjk,b),la),-1),c.smul(c.D(sij,b),ta),c.scale(c.smul(c.D(sij,a),tb),-1)),Q(1,2))
+class Lift:
+    def homotopy(self,F,r,owner):
+        c=self.c;out={};I,P=self.IP(owner);EK=c.mul(I,P)
+        for(u,v),node in F.items():
+            need(v-u==r,'End internal degree')
+            if v>0:self.merge(out,(u,v-1),c.mul(self.H(v,owner),node))
+            if v==1 and u<3:self.merge(out,(u+1,v),c.scale(c.mul(EK,node,self.H(u+1,owner)),(-1 if r%2 else 1)))
+        return out
+    def delta(self,stage,t):
+        out={}
+        for j in range(len(t)):
+            face=t[:j]+t[j+1:]
+            for key,node in self.at(stage,face).items():self.merge(out,key,self.c.scale(node,(-1)**j))
+        return out
+    def at(self,stage,t):
+        t=tuple(t);need(len(t)==stage+3 and len(set(t))==len(t),'ordered full common tuple')
+        if(stage,t)in self.cache:return self.cache[stage,t]
+        c=self.c
+        if stage==0:
+            I,P=self.IP(t[0]);out={(1,1):c.mul(I,c.transpose(self.R(t)),P)}
+        else:
+            node=self.schema['nodes'][stage]
+            out=self.homotopy(self.delta(stage-1,t),node['homotopy_input_degree'],t[0])
+            out={key:c.scale(n,node['coefficient'])for key,n in out.items()}
+        self.cache[stage,t]=out;return out
