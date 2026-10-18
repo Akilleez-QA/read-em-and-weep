@@ -1,0 +1,41 @@
+[
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/detector-realization/raw_engine.py",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py"
+  },
+  {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-model.json"
+  },
+  {
+    "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/exact-curve-field/field.py"
+  },
+  {
+    "sha256": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/checks/verify_homogeneous_identities.py"
+  },
+  {
+    "local_file": "historical-A-receipt.json",
+    "sha256": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/certificates/homogeneous-identities.json"
+  },
+  {
+    "local_file": "historical-manifest.json",
+    "sha256": "68f8f4ac9ab653dc07134f0c0a40c868a0c1944da2e22415f997e1316dc0698d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/manifest.json"
+  },
+  {
+    "local_file": "historical-producer-INERT.txt",
+    "sha256": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/checks/verify_homogeneous_identities.py"
+  },
+  {
+    "sha256": "395e18b7f00a1ca7f29cd0cb84f5fbe2fc2a250d68effe60cd35aa61162dfc46",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+    "included": "bounded excerpt, lines1\u201324"
+  }
+]
