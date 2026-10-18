@@ -1,0 +1,1 @@
+{'checks': {'tangent_to_C': True, 'weighted_Euler': True, 'original_m1': True, 'rational_divergence': True, 'negative_mutation_rejected': True, 'full_total_bound': True, 'second_generator_succeeds': True}, 'invented_positive_residue': 0, 'invented_mutation_residue': 1, 'actual_source_evaluations': 0}
