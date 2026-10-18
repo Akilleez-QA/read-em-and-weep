@@ -1,0 +1,76 @@
+{
+  "scope": "Frozen formal proof premises only; no actual-model or current remote-state attestation.",
+  "immutable_common_connection": {
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4ae1ba6081db6563389d5ff78597cf2e98ecc04f",
+    "path": "research/hm/null-common-split-connection/PROOF.md"
+  },
+  "dependencies": [
+    {
+      "path": "dependencies/common-connection.md",
+      "source_packet": "common-split-connection-public",
+      "source_document": "PROOF.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93",
+      "sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93"
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "source_packet": "common-split-connection-public",
+      "source_document": "dependencies/hpl.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023",
+      "sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023"
+    },
+    {
+      "path": "dependencies/raw-first-order.md",
+      "source_packet": "raw-first-order-transgression-public",
+      "source_document": "PROOF.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "f8ad4a0f3d6af0d583213cc607d70005940e3167dbd1344cc4ea1d25b5161668",
+      "sha256": "f8ad4a0f3d6af0d583213cc607d70005940e3167dbd1344cc4ea1d25b5161668"
+    },
+    {
+      "path": "dependencies/endpoint.md",
+      "source_packet": "common-split-connection-public",
+      "source_document": "dependencies/endpoint-transfer.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "740cc066a3f4964d8f67dfaf9e7014f21547784d293738649d3ffd79b3e0b275",
+      "sha256": "740cc066a3f4964d8f67dfaf9e7014f21547784d293738649d3ffd79b3e0b275"
+    },
+    {
+      "path": "dependencies/frames.md",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "dependencies/frames.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25",
+      "sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25"
+    },
+    {
+      "path": "dependencies/domain-premises.md",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "dependencies/domain-premises.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d",
+      "sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d"
+    },
+    {
+      "path": "dependencies/raw-poles.md",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "dependencies/raw-poles.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c",
+      "sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c"
+    },
+    {
+      "path": "dependencies/prior-domain.md",
+      "source_packet": "common-split-connection-public",
+      "source_document": "dependencies/domain.md",
+      "selection": "complete frozen supplied proof/excerpt; exact bytes",
+      "upstream_sha256": "3ff8e0634cff39143f2ab57b00741540f545e947a6ae978ca9741bb6f0f5de1d",
+      "sha256": "3ff8e0634cff39143f2ab57b00741540f545e947a6ae978ca9741bb6f0f5de1d"
+    }
+  ],
+  "author_proof_sha256_before_portable_edits": "e711a3e8eda4d06e1f81ab654e5ef98c0bc34e34046a1e2fd4caca880be3f4f7",
+  "portable_edits": "Replace packet references by local dependency links, remove live-state narrative, and point to the separate conditional DOMAIN theorem; no algebraic changes."
+}
