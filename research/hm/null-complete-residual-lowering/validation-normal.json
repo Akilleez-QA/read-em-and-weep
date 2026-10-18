@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "negative_pin_controls": {
+    "input_drifts_rejected": 35,
+    "manifest_drift_rejected": true
+  },
+  "counts": {
+    "kinetic_expanded_word_counts": [
+      4,
+      4,
+      12,
+      12,
+      12,
+      12,
+      4
+    ],
+    "gerbe_expanded_word_counts": [
+      2,
+      2,
+      1
+    ],
+    "component_expanded_word_counts": {
+      "baseline": 130,
+      "Fk12": 6,
+      "Fk34": 6,
+      "E12": 4,
+      "E34": 4
+    },
+    "total_expanded_words": 150
+  },
+  "semantic_mutations_rejected": [
+    "kinetic order",
+    "mu wedge sign",
+    "mixed Moyal coefficient",
+    "mixed jet sign",
+    "gerbe sign",
+    "gerbe last omitted",
+    "normalization side",
+    "F trace sign",
+    "Fk pair swap",
+    "E transport order",
+    "E endpoint omission",
+    "E minus sign",
+    "k factor"
+  ],
+  "physical_execution": false,
+  "ID0_claim": false,
+  "production_imports": false
+}
