@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "optimized_python": true,
+  "control": "changed model bytes rejected before model parsing",
+  "expected_failure": "RuntimeError: immutable SHA256 mismatch: model",
+  "physical_evaluation": false
+}
