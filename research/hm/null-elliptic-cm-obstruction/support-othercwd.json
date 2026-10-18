@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "checks": 48,
+  "scope": "literal records, signed degree/exponent labels only",
+  "production_imports": false,
+  "source_jet_matrix_evaluations": false,
+  "polynomial_products": false
+}
