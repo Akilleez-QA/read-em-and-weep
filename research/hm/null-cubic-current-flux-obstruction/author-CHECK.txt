@@ -1,0 +1,41 @@
+columns 96 rows 144 rank 94
+INCONSISTENT; certificate support 8 pairing N 1 pairing M2 1/8
+1 d(L3,U1) H24 target 1
+1 d(L1,U3) H24 target 1
+1 d(J13,L2) L4 target 0
+-1 d(H12,U3) L4 target 0
+-1 d(H23,U1) L4 target 1
+1 d(J13,L4) L2 target 0
+-1 d(H14,U3) L2 target 0
+-1 d(H34,U1) L2 target 0
+
+Nonzero column incidences in certificate support:
+V1 d(L4,U3) L2 : 1 [d(J13,L4) L2]; -1 [d(H14,U3) L2]
+V1 d(L2,U3) L4 : 1 [d(J13,L2) L4]; -1 [d(H12,U3) L4]
+V2 d(L1,U3) L4 : 1 [d(L1,U3) H24]; -1 [d(H12,U3) L4]
+V2 d(L3,U1) L4 : 1 [d(L3,U1) H24]; -1 [d(H23,U1) L4]
+V3 d(L4,U1) L2 : 1 [d(J13,L4) L2]; -1 [d(H34,U1) L2]
+V3 d(L2,U1) L4 : 1 [d(J13,L2) L4]; -1 [d(H23,U1) L4]
+V4 d(L1,U3) L2 : 1 [d(L1,U3) H24]; -1 [d(H14,U3) L2]
+V4 d(L3,U1) L2 : 1 [d(L3,U1) H24]; -1 [d(H34,U1) L2]
+--- optimized ---
+columns 96 rows 144 rank 94
+INCONSISTENT; certificate support 8 pairing N 1 pairing M2 1/8
+1 d(L3,U1) H24 target 1
+1 d(L1,U3) H24 target 1
+1 d(J13,L2) L4 target 0
+-1 d(H12,U3) L4 target 0
+-1 d(H23,U1) L4 target 1
+1 d(J13,L4) L2 target 0
+-1 d(H14,U3) L2 target 0
+-1 d(H34,U1) L2 target 0
+
+Nonzero column incidences in certificate support:
+V1 d(L4,U3) L2 : 1 [d(J13,L4) L2]; -1 [d(H14,U3) L2]
+V1 d(L2,U3) L4 : 1 [d(J13,L2) L4]; -1 [d(H12,U3) L4]
+V2 d(L1,U3) L4 : 1 [d(L1,U3) H24]; -1 [d(H12,U3) L4]
+V2 d(L3,U1) L4 : 1 [d(L3,U1) H24]; -1 [d(H23,U1) L4]
+V3 d(L4,U1) L2 : 1 [d(J13,L4) L2]; -1 [d(H34,U1) L2]
+V3 d(L2,U1) L4 : 1 [d(J13,L2) L4]; -1 [d(H23,U1) L4]
+V4 d(L1,U3) L2 : 1 [d(L1,U3) H24]; -1 [d(H14,U3) L2]
+V4 d(L3,U1) L2 : 1 [d(L3,U1) H24]; -1 [d(H34,U1) L2]

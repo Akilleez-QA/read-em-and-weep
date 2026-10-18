@@ -1,0 +1,40 @@
+{
+  "scope": "Bounded formal universal-algebra audit; source snapshots are premises, not new domain proofs. No external publication or remote authentication.",
+  "sources": [
+    {
+      "source_packet": "rank-two-jet-reduction-public",
+      "source_record": "RESULT.md",
+      "bundled_path": "dependencies/rank-two-collection.md",
+      "bundled_sha256": "3617328ec484770e85da5009fd2aaf07367e544bb335b186d9a3d3b1b7773f0a",
+      "scope": "Frozen supplied public premise; not remote-authenticated or newly re-proved."
+    },
+    {
+      "source_packet": "rank-two-jet-reduction-public",
+      "source_record": "REVIEW.md",
+      "bundled_path": "dependencies/rank-two-review.md",
+      "bundled_sha256": "df642260dfcab12b3bedea0caf42d9341a0e4d0e77b389745cb94cde1cdcf384",
+      "scope": "Frozen supplied public premise; not remote-authenticated or newly re-proved."
+    },
+    {
+      "source_packet": "rank-two-jet-reduction-public",
+      "source_record": "current-kernels.md",
+      "bundled_path": "dependencies/current-kernels.md",
+      "bundled_sha256": "d962f0301898ad54fc11ee19c22665bcf3ed2000ae9f4a47031b67f30f68d484",
+      "scope": "Frozen supplied public premise; not remote-authenticated or newly re-proved."
+    },
+    {
+      "source_packet": "rank-two-jet-reduction-public",
+      "source_record": "quartic.md",
+      "bundled_path": "dependencies/quartic.md",
+      "bundled_sha256": "6b04b83c846935e1f175906fdf3bc0f3e7b94353eb42ee1ffda35b75587f07f3",
+      "scope": "Frozen supplied public premise; not remote-authenticated or newly re-proved."
+    },
+    {
+      "source_packet": "complete-remainder-normal-form-public",
+      "source_record": "RESULT.md",
+      "bundled_path": "dependencies/complete-normal-form.md",
+      "bundled_sha256": "75f3c4fd559a9333b3252e1b1d0771a8e6f216354548df57eef60db5388af306",
+      "scope": "Frozen supplied public premise; not remote-authenticated or newly re-proved."
+    }
+  ]
+}

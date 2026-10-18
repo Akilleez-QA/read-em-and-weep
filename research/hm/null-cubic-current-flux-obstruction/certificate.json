@@ -1,0 +1,81 @@
+{
+  "normalization": "N=8 M2",
+  "rows": [
+    {
+      "pair": [
+        "L3",
+        "U1"
+      ],
+      "out": "H24",
+      "weight": "1",
+      "target": "1"
+    },
+    {
+      "pair": [
+        "L1",
+        "U3"
+      ],
+      "out": "H24",
+      "weight": "1",
+      "target": "1"
+    },
+    {
+      "pair": [
+        "J13",
+        "L2"
+      ],
+      "out": "L4",
+      "weight": "1",
+      "target": "0"
+    },
+    {
+      "pair": [
+        "H12",
+        "U3"
+      ],
+      "out": "L4",
+      "weight": "-1",
+      "target": "0"
+    },
+    {
+      "pair": [
+        "H23",
+        "U1"
+      ],
+      "out": "L4",
+      "weight": "-1",
+      "target": "1"
+    },
+    {
+      "pair": [
+        "J13",
+        "L4"
+      ],
+      "out": "L2",
+      "weight": "1",
+      "target": "0"
+    },
+    {
+      "pair": [
+        "H14",
+        "U3"
+      ],
+      "out": "L2",
+      "weight": "-1",
+      "target": "0"
+    },
+    {
+      "pair": [
+        "H34",
+        "U1"
+      ],
+      "out": "L2",
+      "weight": "-1",
+      "target": "0"
+    }
+  ],
+  "pairing": "1",
+  "columns": 96,
+  "row_count": 144,
+  "rank": 94
+}
