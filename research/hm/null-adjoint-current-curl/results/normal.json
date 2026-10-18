@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Maurer-Cartan L",
+    "transported U curl",
+    "total current curl",
+    "product transition current",
+    "literal source k",
+    "k difference curl",
+    "jk complete weighted adjoint",
+    "ij complete weighted adjoint",
+    "cyclic covariant dual form",
+    "reject naive MC for U",
+    "reject dropped dual derivative jk",
+    "reject dropped dual derivative ij",
+    "reject wrong ij endpoint sign",
+    "mixed trace family really survives",
+    "eight source branch signs and endpoints"
+  ],
+  "check_count": 15,
+  "scope": "universal free differential words, formal cyclic trace, source branch metadata; no matrix/source/owner/jet evaluation"
+}
