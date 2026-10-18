@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "scope": "static source/AST/metadata and formal or invented controls only",
+  "optimization_safe_checks": true,
+  "ast_methods": 12,
+  "historical_claim_pairs": 36,
+  "historical_execution_attested": false,
+  "actual_model_determinants_recomputed": false,
+  "negative_controls": [
+    "changed input digest",
+    "missing denominator square",
+    "reversed denominator owners",
+    "missing ordered pair",
+    "wrong model digest",
+    "reversed delta K sign",
+    "reversed reciprocal factors"
+  ],
+  "sl2_basis_combinations": 81
+}
