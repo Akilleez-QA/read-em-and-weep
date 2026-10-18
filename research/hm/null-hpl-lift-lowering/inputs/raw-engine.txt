@@ -1,0 +1,26 @@
+class PhysicalModel:
+    def Dframe(self,o,inverse=False):
+        n=self.nu(o);a,b=(n.inverse(),n)if inverse else(n,n.inverse());z=self.ex.scalar(0)
+        return ((a,z),(z,b))
+
+    def g(self,a,b):
+        pa=self.primitive(a.carrier)['P'];ib=self.primitive(b.carrier)['I']
+        return self.M.mul(self.Dframe(b),self.M.transpose(self.M.mul(pa,ib)),self.Dframe(a,True))
+
+    def leaf(self,name,shape,**data):
+        if name=='g_phys':return self.g(*data['owners'])
+        if name=='physical_q':return ((self.q(*data['owners'],data['coordinate']),),)
+        o=data['owner'];c=self.primitive(o.carrier)
+        # Common scalar nu factors in actual Iphys/Pphys cancel in j and IP.
+        if name=='I_phys':return self.M.mul(c['I'],self.Dframe(o))
+        if name=='P_phys':return self.M.mul(self.Dframe(o,True),c['P'])
+        return c[name]
+
+
+def source_and_lift(model,owners,stage=2):
+    """Actual literal source and accepted block HPL recurrence; no callbacks."""
+    M=model.M;M.model=model;source=RawSource(M)
+    schema=load('sr01_lift_schema',BASE/'transport-binding/lift_schema.py').closed_lift_schema()
+    lift=SC.Lift(M,source.residual,schema,dims=model.dims)
+    return source,lift.at(stage,tuple(owners))
+

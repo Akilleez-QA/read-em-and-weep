@@ -1,0 +1,36 @@
+class Lift:
+    def __init__(self,c,residual,schema,dims=(5,15,10,2)):
+        self.c=c;self.R=residual;self.schema=schema;self.dims=dims;self.cache={}
+        need([n['coefficient']for n in schema['nodes']]==[1,1,-1,1],'shared lift signs')
+        need(schema['scalar_test_component']=='J2'and schema['top_component_required']=='J3','shared lift top component')
+    def leaf(self,name,owner,shape):return self.c.leaf(name,shape,owner=owner,frame='original fixed resolution')
+    def IP(self,owner):return self.leaf('I_phys',owner,(self.dims[1],2)),self.leaf('P_phys',owner,(2,self.dims[1]))
+    def H(self,source,owner):
+        need(1<=source<=3,'HK degree')
+        return self.leaf(('H0','H1','eta')[source-1],owner,(self.dims[source-1],self.dims[source]))
+    def merge(self,out,key,node):out[key]=self.c.add(out[key],node)if key in out else node
+    def homotopy(self,F,r,owner):
+        c=self.c;out={};I,P=self.IP(owner);EK=c.mul(I,P)
+        for(u,v),node in F.items():
+            need(v-u==r,'End internal degree')
+            if v>0:self.merge(out,(u,v-1),c.mul(self.H(v,owner),node))
+            if v==1 and u<3:self.merge(out,(u+1,v),c.scale(c.mul(EK,node,self.H(u+1,owner)),(-1 if r%2 else 1)))
+        return out
+    def delta(self,stage,t):
+        out={}
+        for j in range(len(t)):
+            face=t[:j]+t[j+1:]
+            for key,node in self.at(stage,face).items():self.merge(out,key,self.c.scale(node,(-1)**j))
+        return out
+    def at(self,stage,t):
+        t=tuple(t);need(len(t)==stage+3 and len(set(t))==len(t),'ordered full common tuple')
+        if(stage,t)in self.cache:return self.cache[stage,t]
+        c=self.c
+        if stage==0:
+            I,P=self.IP(t[0]);out={(1,1):c.mul(I,c.transpose(self.R(t)),P)}
+        else:
+            node=self.schema['nodes'][stage]
+            out=self.homotopy(self.delta(stage-1,t),node['homotopy_input_degree'],t[0])
+            out={key:c.scale(n,node['coefficient'])for key,n in out.items()}
+        self.cache[stage,t]=out;return out
+

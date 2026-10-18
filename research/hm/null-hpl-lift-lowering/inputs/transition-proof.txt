@@ -1,0 +1,44 @@
+## 1. Quotient identification, with the necessary hypotheses visible
+
+Work over a commutative field of characteristic zero (or a commutative localization with 2 invertible). All carrier matrices on an overlap refer to the SAME ambient complex, after any necessary ambient-frame transport. For each i assume
+
+    Id_V = gamma H0_i + I_i P_i + H1_i delta,
+    P_i I_i = Id_2,  P_i gamma = 0,  delta I_i = 0.
+
+Assume also delta gamma=0 when identifying the cohomology quotient H=ker(delta)/im(gamma). These are consequences of the sufficient contraction systems in the earlier primitive bridge, conditional on its premises; the present proof does not independently validate actual primitive entries.
+
+For z in ker(delta), z−I_iP_i z=gamma H0_i z. Thus [I_i] and the map induced by P_i are mutual inverses between the rank-two coefficient module and H. P_i descends because P_i gamma=0; I_i lands in ker(delta) because delta I_i=0. Different literal images of I_i need only be representatives of the same quotient.
+
+Put T_ij=P_i I_j. Then
+
+    T_ij T_jk
+      = P_i (Id−gamma H0_j−H1_j delta) I_k
+      = P_i I_k = T_ik.
+
+Each error term vanishes separately: the first by P_i gamma=0, the second by delta I_k=0. No condition P_i H1_j=0 for different carriers is assumed or needed. T_ii=Id, hence T_ij T_ji=T_ji T_ij=Id. In particular invertibility is derived, not guessed from the diagonal PI identities. Also
+
+    I_j−I_i T_ij = gamma H0_i I_j,
+
+so literal equality of inclusion images is neither necessary nor generally true. The cocycle derivation itself does not use delta gamma=0; that extra hypothesis is needed only for the stated quotient interpretation.
+
+## 2. Exact line factors and transpose order
+
+For an owner i with carrier c_i, set n_i=nu(i), D_i=diag(n_i,n_i^-1), assuming n_i is invertible in the relevant coefficient field/localization. Frozen PhysicalModel.Dframe(i,True)=D_i^-1. Its g method returns
+
+    g_ij = D_j (P_ci I_cj)^t D_i^-1
+         = (D_i^-1 T_ij D_j)^t.
+
+This equals the pinned JavaScript formula exactly: its left row factors are (nu_i^-1,nu_i), its right column factors (nu_j,nu_j^-1), followed by transpose. Thus column transitions G_ij=g_ij^t satisfy
+
+    G_ij G_jk=G_ik,   g_jk g_ij=g_ik,
+    g_ii=Id,         g_ji=g_ij^-1.
+
+The physical inclusion/projection leaves are I_i D_i and D_i^-1 P_i, so their cross contraction is G_ij, while their diagonal product and reversed diagonal product give the intended quotient inclusion/projection identities. The engine explicitly notes that omitted COMMON physical nu factors cancel in j and IP; that observation does not by itself identify every omitted physical leaf individually. Geometric use still needs the stated physical-frame identification.
+
+Because det D_i=1,
+
+    d_ij := det g_ij = det T_ij,
+    d_ii=1, d_ij d_jk=d_ik, d_ji=d_ij^-1.
+
+These identities give a multiplicative determinant cocycle, not d_ij=1. On a connected common chart family it suffices to establish d_ri=1 for one reference carrier r and every i: the other determinant identities follow. This is a logical reduction of proof obligations, not authorization to compute even those reduced actual products.
+

@@ -1,0 +1,37 @@
+SIGNS=(1,1,-1,1)
+
+def _ordered_owners(owners,length):
+    need(type(owners)in(tuple,list)and len(owners)==length and all(type(o)is I.FullOwner for o in owners),'complete lift owners')
+    need(len({o.seed for o in owners})==1 and len({o.occurrence for o in owners})==len(owners),'coherent distinct owned occurrences')
+    need(all(owners[j].source_key<owners[j+1].source_key for j in range(len(owners)-1)),'strict source-first common tuple')
+    return tuple(owners)
+
+
+def owner_tuple(owners,s):
+    need(type(s)is int and 0<=s<=3,'J0..J3')
+    return _ordered_owners(owners,3+s)
+
+
+def lift_terms(s,owners):
+    """Finite exact face words with ownership retained; no source values.
+
+    Expands only at most120 face words, not common-cover labels or matrices.
+    Each H records its owner before its next face deletion.
+    """
+    owners=owner_tuple(owners,s)
+    def recurse(level,current,prefix,sign,word):
+        if level==0:
+            return [{'coefficient':sign,'operator_word':word+[{'op':'j','owner':current[0].data(),'transpose_row_input_once':True}],
+                'Rsharp_owners':[o.data()for o in current],'retained_prefix_owners':[o.data()for o in prefix],
+                'all_factor_owners':[o.data()for o in prefix+current]}]
+        out=[];first=current[0]
+        hom={'op':'H_End','input_internal_degree':1-level,'owner':first.data(),
+            'formula':'H_K F+(-1)^r (IP)F H_K','restriction_frame':'original resolution; no row conjugation'}
+        for j in range(len(current)):
+            out.extend(recurse(level-1,current[:j]+current[j+1:],prefix+(first,),sign*SIGNS[level]*(-1)**j,
+                word+[hom,{'op':'signed_Cech_face','deleted_owner':current[j].data(),'face_index':j}]))
+        return out
+    return {'schema':'JC01-full-lift-face-program-v1','component':'J'+str(s),'bidegree':(2+s,-s),
+        'target_owners':[o.data()for o in owners],'terms':recurse(s,owners,(),1,[]),
+        'source_evaluated':False,'physical_execution_authorized':False}
+
