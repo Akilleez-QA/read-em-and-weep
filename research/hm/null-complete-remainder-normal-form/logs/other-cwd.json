@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "count": 27,
+  "checks": [
+    "combined derivative and K signs",
+    "complete remainder substitution",
+    "reject old U double subtraction",
+    "reject wrong nonclosed sign",
+    "reject dropped selector",
+    "two-endpoint current curl",
+    "four scalar-free defect signs",
+    "coupled anomaly cancellation",
+    "reject either separated term as tensor",
+    "finite beta numerator",
+    "bit-zero rho",
+    "bit-one rho",
+    "infinity beta legal owner cases",
+    "internal-minus-two connection anomaly",
+    "canonical full-sign coefficient transition",
+    "prism character and dual-section typing",
+    "coupled owned bound",
+    "Q Z bound",
+    "Q Delta Z bound",
+    "ordinary clearing dominates overlap families",
+    "differentiated own clearing dominates TZ",
+    "all ten baseline terms and both Fk branches written",
+    "reject omitted branch \u2212b_PU_Q,ik",
+    "reject omitted branch \u2212b_QU_P,ik",
+    "reject omitted branch \u2212b_Pb_QG",
+    "reject omitted branch +F_Qk_P,ik",
+    "reject omitted branch +F_Pk_Q,ik"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Frozen supplied prose and static source inventory; hashes establish byte integrity, not geometric premises or remote publication.",
+  "context_only": {
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "reported_current_head": "fdbf6651861df586f9c29aec2e1dd3fec6363ae8",
+    "reported_PR1_comment": "6250367808",
+    "independently_remote_authenticated": false
+  },
+  "inherited_source_snapshot": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+  "dependencies": [
+    {
+      "path": "dependencies/source-adjoint.md",
+      "supplied_source_packet_path": "residue-source-adjoint-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": "## 3.",
+        "end_heading_exclusive": "## 6."
+      },
+      "supplied_source_sha256": "106648cb80212191cc6fe85098a24271069f8f2e7f625daae29c9f5a114d2922",
+      "sha256": "1dc0d69117cf6412ae9a440d98a25b8189c36fc2a646b4f614a73416feaedd43"
+    },
+    {
+      "path": "dependencies/current-curl.md",
+      "supplied_source_packet_path": "adjoint-current-curl-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": "## 1.",
+        "end_heading_exclusive": "## 4."
+      },
+      "supplied_source_sha256": "3993ac2bdacaedcd1358c50ff612446f05255b144b760dd660188512d855e639",
+      "sha256": "2ba896e7243a1a7da41fe92dc963c4e4af27d485ad948733b791c69e94d37450"
+    },
+    {
+      "path": "dependencies/common-connection.md",
+      "supplied_source_packet_path": "common-split-connection-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93",
+      "sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93"
+    },
+    {
+      "path": "dependencies/overlap.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "d7894a0e8697774d94df93936c10c90ee36be1c16d57356667794ee1aee042d3",
+      "sha256": "d7894a0e8697774d94df93936c10c90ee36be1c16d57356667794ee1aee042d3"
+    },
+    {
+      "path": "dependencies/overlap-domain.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/DOMAIN.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "0d43ee02cdef77017dbbcb70c105f45608715d0b2e9f0ce53690a758aeb8784a",
+      "sha256": "0d43ee02cdef77017dbbcb70c105f45608715d0b2e9f0ce53690a758aeb8784a"
+    },
+    {
+      "path": "dependencies/ward.md",
+      "supplied_source_packet_path": "partition-ward-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": "## 1.",
+        "end_heading_exclusive": "## 3."
+      },
+      "supplied_source_sha256": "42189fa11cb6c6165dc6678429b31b27c429bd87024fe9a7161209b06deb9a1c",
+      "sha256": "8c3d06260e1cd776fff411981390fed83403fd99795076f5766f7d5da1be37fa"
+    },
+    {
+      "path": "dependencies/endpoint.md",
+      "supplied_source_packet_path": "endpoint-defect-transfer-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": "## 1.",
+        "end_heading_exclusive": "## 5."
+      },
+      "supplied_source_sha256": "9e534ad92544de3c031b64d76d229426cdb077e545e9d5f3bd6d5446700ab599",
+      "sha256": "337e42118eb6554e476d1b78eb8bb7c9a4f915e1f4f0bbea8efaeac182fa877f"
+    },
+    {
+      "path": "dependencies/partition-domain.md",
+      "supplied_source_packet_path": "differentiated-partition-domain-public/PROOF.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b"
+    },
+    {
+      "path": "dependencies/frames.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/dependencies/frames.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25",
+      "sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25"
+    },
+    {
+      "path": "dependencies/raw-poles.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/dependencies/raw-poles.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c",
+      "sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c"
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/dependencies/hpl.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023",
+      "sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023"
+    },
+    {
+      "path": "dependencies/domain-premises.md",
+      "supplied_source_packet_path": "overlap-homotopy-public/dependencies/domain-premises.md",
+      "selection": {
+        "start_heading_inclusive": null,
+        "end_heading_exclusive": null
+      },
+      "supplied_source_sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d",
+      "sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d"
+    }
+  ],
+  "inert_source_inventory": [
+    {
+      "supplied_source_packet_path": "residue-source-adjoint-public/inputs/compiler.py.txt",
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+      "included": false,
+      "handling": "Inert inherited source inventory only; not imported, executed, or reevaluated by this synthesis."
+    },
+    {
+      "supplied_source_packet_path": "residue-source-adjoint-public/inputs/program.py.txt",
+      "sha256": "ad0603264992c2dfb425451f59d183a64d139b3c25db43b7866d7683851fc62a",
+      "included": false,
+      "handling": "Inert inherited source inventory only; not imported, executed, or reevaluated by this synthesis."
+    },
+    {
+      "supplied_source_packet_path": "residue-source-adjoint-public/inputs/raw_engine.py.txt",
+      "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+      "included": false,
+      "handling": "Inert inherited source inventory only; not imported, executed, or reevaluated by this synthesis."
+    }
+  ],
+  "author_draft_sha256": "008e5611d189dac5d32c130dfa55cf3c9c0ea5a3cabaaa1343ead6c9bd1ef3fd",
+  "public_edit": "Section 4 heading explicitly labels the new conditional coupled-domain theorem; mathematical content unchanged."
+}

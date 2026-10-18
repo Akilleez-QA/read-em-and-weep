@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "method": "Exact sparse polynomials in 51 independent universal scalar indeterminates plus 2 gerbe symbols; no matrices or physical inputs instantiated",
+  "checks": [
+    "old Q to preferred (1, 2)",
+    "old Q to preferred (3, 4)",
+    "complete full-gerbe R_alg = existing Q4 + S2",
+    "direct dual contraction",
+    "rank-two nested contraction",
+    "detect omitted Fk branches",
+    "detect doubled mixed Moyal factor",
+    "detect missing complement",
+    "detect complement sign flip",
+    "detect dual commutator reversal"
+  ],
+  "Ralg_coordinate_monomial_counts": [
+    200,
+    224,
+    224
+  ],
+  "S2_coordinate_monomial_counts": [
+    96,
+    96,
+    96
+  ]
+}
