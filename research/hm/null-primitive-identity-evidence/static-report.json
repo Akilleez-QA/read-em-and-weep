@@ -1,0 +1,222 @@
+{
+  "status": "PASS static bindings and literal C pattern only",
+  "hashes": {
+    "data/model.json": {
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "bytes": 16803
+    },
+    "certificates/homogeneous-identities.json": {
+      "sha256": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018",
+      "git_blob": "e55dae1fccef9b66bd5735b04fc09bd5590180fc",
+      "bytes": 911
+    },
+    "checks/verify_homogeneous_identities.py": {
+      "sha256": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+      "git_blob": "25816d9ba8699ffaf20c562d9dd8403f049ae383",
+      "bytes": 5050
+    },
+    "verify.py": {
+      "sha256": "b037eb1fe5d8d3434d793e133eb49e7cbc9e477f71dbadffce4a730559d47984",
+      "git_blob": "07023d8cf9d5dc488e9efab31d3158e20f5ae691",
+      "bytes": 3452
+    }
+  },
+  "compactModelSha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+  "historical_A_entry_checks": 1350,
+  "A_replayed": false,
+  "C_pattern_pairs": 20,
+  "C_zero_blocks": 10,
+  "pairs": [
+    {
+      "block": 0,
+      "column": 0,
+      "r": 2,
+      "s": 3,
+      "epsilon": -1
+    },
+    {
+      "block": 0,
+      "column": 1,
+      "r": 3,
+      "s": 4,
+      "epsilon": -1
+    },
+    {
+      "block": 0,
+      "column": 2,
+      "r": 0,
+      "s": 4,
+      "epsilon": 1
+    },
+    {
+      "block": 0,
+      "column": 3,
+      "r": 0,
+      "s": 1,
+      "epsilon": -1
+    },
+    {
+      "block": 0,
+      "column": 4,
+      "r": 1,
+      "s": 2,
+      "epsilon": -1
+    },
+    {
+      "block": 0,
+      "column": 5,
+      "zero": true
+    },
+    {
+      "block": 0,
+      "column": 6,
+      "zero": true
+    },
+    {
+      "block": 0,
+      "column": 7,
+      "zero": true
+    },
+    {
+      "block": 0,
+      "column": 8,
+      "zero": true
+    },
+    {
+      "block": 0,
+      "column": 9,
+      "zero": true
+    },
+    {
+      "block": 0,
+      "column": 10,
+      "r": 1,
+      "s": 4,
+      "epsilon": -1
+    },
+    {
+      "block": 0,
+      "column": 11,
+      "r": 0,
+      "s": 2,
+      "epsilon": 1
+    },
+    {
+      "block": 0,
+      "column": 12,
+      "r": 1,
+      "s": 3,
+      "epsilon": 1
+    },
+    {
+      "block": 0,
+      "column": 13,
+      "r": 2,
+      "s": 4,
+      "epsilon": 1
+    },
+    {
+      "block": 0,
+      "column": 14,
+      "r": 0,
+      "s": 3,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 0,
+      "zero": true
+    },
+    {
+      "block": 1,
+      "column": 1,
+      "zero": true
+    },
+    {
+      "block": 1,
+      "column": 2,
+      "zero": true
+    },
+    {
+      "block": 1,
+      "column": 3,
+      "zero": true
+    },
+    {
+      "block": 1,
+      "column": 4,
+      "zero": true
+    },
+    {
+      "block": 1,
+      "column": 5,
+      "r": 1,
+      "s": 4,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 6,
+      "r": 0,
+      "s": 2,
+      "epsilon": 1
+    },
+    {
+      "block": 1,
+      "column": 7,
+      "r": 1,
+      "s": 3,
+      "epsilon": 1
+    },
+    {
+      "block": 1,
+      "column": 8,
+      "r": 2,
+      "s": 4,
+      "epsilon": 1
+    },
+    {
+      "block": 1,
+      "column": 9,
+      "r": 0,
+      "s": 3,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 10,
+      "r": 2,
+      "s": 3,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 11,
+      "r": 3,
+      "s": 4,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 12,
+      "r": 0,
+      "s": 4,
+      "epsilon": 1
+    },
+    {
+      "block": 1,
+      "column": 13,
+      "r": 0,
+      "s": 1,
+      "epsilon": -1
+    },
+    {
+      "block": 1,
+      "column": 14,
+      "r": 1,
+      "s": 2,
+      "epsilon": -1
+    }
+  ]
+}

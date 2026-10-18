@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "checks": [
+    "six inert dependency hashes",
+    "nonzero degree-zero projection is retained",
+    "both degree parities, common negative J2, bottom coefficient and distinct arities",
+    "four-face expansion gives minus both cups and full i-to-k transport",
+    "four axis/pair labels and Ward signs"
+  ],
+  "negative_controls_rejected": [
+    "dropped projection",
+    "wrong degree-three first sign",
+    "positive stage-two word",
+    "wrong second cup sign",
+    "truncated final transport",
+    "silently closed endpoint"
+  ],
+  "scope": "formal free labels and supplied text hashes only; no actual values or matrix products"
+}

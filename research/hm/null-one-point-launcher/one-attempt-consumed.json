@@ -1,0 +1,9 @@
+{
+  "status": "CONSUMED_COMPLETE_NONZERO",
+  "attempts_executed": 1,
+  "remaining_invocations": 0,
+  "repeat_forbidden": true,
+  "source_kernel_reruns": 0,
+  "result_sha256": "a6290391e3cfdf7f211bec87dcbc3fd516471377642e4f839f0bc9efd85babe2",
+  "scope": "pointwise Omega only; global obstruction undecided"
+}

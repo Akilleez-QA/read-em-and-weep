@@ -1,0 +1,141 @@
+"""Fixed route30 literal weighted raw-J2 program. Physical entry is hard held."""
+from fractions import Fraction as Q
+import itertools, math
+from raw_engine import RF,SC,I,PhysicalModel,power,source_and_lift,require_aggregate_admission
+
+EXPONENT=(-1,-1,-1,-1)
+
+def binomial(n,k):
+    if type(n)is not int or type(k)is not int or not 0<=k<=n:raise ValueError("binomial domain")
+    out=1
+    for j in range(1,min(k,n-k)+1):out=out*(n-j+1)//j
+    return out
+
+def compositions(n,k):
+    if k==1:
+        yield(n,);return
+    for a in range(n+1):
+        for tail in compositions(n-a,k-1):yield(a,)+tail
+
+def first_hit(ex,cs,vs,j,T,L):
+    # Exact integer chained binomials; never a rational multinomial inverse.
+    if T>15 or L>64:require_aggregate_admission()
+    out=ex.scalar(0)
+    for ns in compositions(L,len(vs)):
+        if ns[j]<T or any(ns[i]>=T for i in range(j)):continue
+        left=L;co=1;term=ex.scalar(1)
+        for i,n in enumerate(ns):
+            co*=binomial(left,n);left-=n
+            term=term*power(cs[i],n)*power(vs[i],n-(T if i==j else 0))
+        out=out+ex.scalar(co)*term
+    return out
+
+def outer_weight(ex,owner,N=54,n=29):
+    """Literal pinned polynomial rho on OWN chart, pulled to finite x once.
+
+    No sheaf frame multiplier: rho is a scalar function. Intermediate terms
+    remain rational until the complete weighted sum is stripped/divided.
+    """
+    if N>2 or n>2:require_aggregate_admission()
+    bits=[(owner.standard_tag>>(3-i))&1 for i in range(4)];s=sum(bits)
+    x=[ex.x(i) for i in range(4)];z=[x[i].inverse() if bits[i] else x[i] for i in range(4)]
+    v=[]
+    for k in range(5):
+        total=ex.scalar(0)
+        for A in itertools.combinations(range(4),k):
+            term=ex.scalar(1)
+            for i in range(4):
+                if (i in A and not bits[i]) or(i not in A and bits[i]):term=term*z[i]
+            total=total+term
+        v.append(total)
+    prod=ex.scalar(1)
+    for a in v:prod=prod*a
+    h=[power(a,5)-prod for a in v];aux=v[0]*v[1]*v[3]*v[4]
+    finite=[i for i in range(4)if not bits[i]];H=[]
+    for k in range(s+1):
+        total=ex.scalar(0)
+        for ns in compositions(k,len(finite)) if finite else ([()]if k==0 else []):
+            term=ex.scalar(1)
+            for i,a in zip(finite,ns):term=term*power(z[i],a)
+            total=total+term
+        H.append(total)
+    M=2*N-1;T=5*M;L=(s+1)*(T-1)+1
+    cs=[ex.scalar((-1)**(s-j))*H[s-j]for j in range(s+1)]
+    root=ex.scalar(0);b=owner.carrier
+    for j in (range(s+1)if b==5 else [b]if b<=s else []):
+        B=first_hit(ex,cs,v[:s+1],j,T,L);split=ex.scalar(0)
+        for k in (range(N)if b==5 else range(N,M+1)):
+            term=ex.scalar(binomial(M,k))
+            term=term*power(h[j],k if b==5 else k-N)*power(v[2],M-k)*power(aux,M-k-N if b==5 else M-k)
+            split=split+term
+        root=root+B*split
+    root=root*power(aux if b==5 else h[b],N)
+    ml=2*n-1
+    for i in range(4):
+        mask=(owner.legal_mask>>i)&1
+        if not bits[i]:
+            if mask:return ex.scalar(0)
+            continue
+        t=z[i];line=ex.scalar(0)
+        for k in (range(n)if mask else range(n,ml+1)):
+            line=line+ex.scalar(binomial(ml,k))*power(t,2*k if mask else 2*k-n)*power(ex.scalar(1)-t*t,ml-k-n if mask else ml-k)
+        ell=ex.scalar(1)-t*t if mask else t
+        root=root*power(ell,n)*line
+    return root
+
+def alphabet_count(tag):
+    if type(tag)is not int or not 0<=tag<16:raise ValueError("standard tag")
+    s=tag.bit_count()
+    return (2 if s==4 else s+2)*(2**s)
+
+def potential_owners(tag,occurrence):
+    require_aggregate_admission()
+    bits=[(tag>>(3-i))&1 for i in range(4)];s=sum(bits)
+    carriers=[4,5]if s==4 else list(range(s+1))+[5]
+    for c in carriers:
+        for m in range(16):
+            if any(((m>>i)&1)and not bits[i]for i in range(4)):continue
+            # Fresh carrier-first order, legal numeric, original standard tag.
+            yield I.FullOwner(30,occurrence,c,m,tag)
+
+def weighted_assignment(ex,model_data,owners):
+    require_aggregate_admission()
+    canonical,parity=I.sorted_source(owners)
+    if not parity:return ex.scalar(0)
+    # Fresh per-assignment model/source/lift. No cross-assignment leaf cache.
+    model=PhysicalModel(ex,model_data)
+    try:
+        source,blocks=source_and_lift(model,canonical,2)
+        X13=blocks[(3,1)];X02=blocks[(2,0)]
+        scalar=X13[5][0]+X02[1][3]+X02[4][2]
+        weighted=scalar*ex.scalar(parity)
+        for owner in owners:weighted=weighted*outer_weight(ex,owner)
+        return weighted
+    finally:
+        # Decorated methods otherwise retain their self keys across assignments.
+        for name in ("primitive","nu","g","blocks","s_raw"):
+            getattr(PhysicalModel,name).cache_clear()
+
+def _actual_body(ex):
+    require_aggregate_admission()
+    from bindings import actual_model
+    model_data=actual_model()
+    total=ex.scalar(0)
+    for si,stair in enumerate(SC.staircase_records()):
+        fibers=[tuple(potential_owners(t,('outer',si,j)))for j,t in enumerate(stair['standard_tags'])]
+        for owners in itertools.product(*fibers):
+            total=total+weighted_assignment(ex,model_data,owners)*ex.scalar(stair['orientation'])
+    # Whole complete scalar original-frame expression -> full-sign character
+    # -> exact rational Laurent division. No local-support zero shortcut.
+    stripped=dict(total.terms).get(15,ex.rational(0))
+    return stripped.laurent_coefficient(EXPONENT)
+
+def actual_route30(*args,**kwargs):
+    require_aggregate_admission() # before constructing Execution or model
+
+def assumed_authenticated_detector_results(values):
+    """Logical criterion for assumed authenticated exact values, not physical API."""
+    if type(values)is not dict or any(type(k)is not int or not 0<=k<32 for k in values):raise ValueError('detector ids')
+    if any(type(v)not in(int,Q)for v in values.values()):raise ValueError('exact detector values')
+    if any(values.values()):return 'NONZERO'
+    return 'ZERO'if set(values)==set(range(32))else 'UNDECIDED'

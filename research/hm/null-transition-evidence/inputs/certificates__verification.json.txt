@@ -1,0 +1,248 @@
+{
+  "status": "PASS",
+  "packageManifestVerified": true,
+  "checks": {
+    "algebra": {
+      "status": "PASS",
+      "universalFreeTraceIdentities": 2,
+      "firstOrderSignCalibration": [
+        "supertrace coefficient",
+        "total-to-ordinary old square",
+        "total theta to Pi_AW",
+        "theta and gerbe correction",
+        "row-column ordinary trace",
+        "ordinary transgression to scalar",
+        "unchanged scalar equation",
+        "rank-two delta K",
+        "unchanged full first-order equation"
+      ],
+      "wrongSignVariantsRejected": [
+        "reversed ordinary transgression",
+        "reversed ordinary row-column trace"
+      ],
+      "commutativeScalarOrMatrixEntryIdentities": 13,
+      "mixedMoyalTerms": 4,
+      "completeModuleExpansion": true,
+      "characterSupportEnumerated": true,
+      "scope": "Universal symbolic identities; no point sampling or scalar evaluation."
+    },
+    "determinants": {
+      "status": "PASS",
+      "exactDeterminantOneIdentities": 36,
+      "coefficientRing": "Z[v1,v2,v3,v4]",
+      "orderedPairs": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          5,
+          5
+        ]
+      ],
+      "identity": "det(P_i I_j)=1 after exact denominator cross multiplication",
+      "pointSamplesUsedAsProof": false,
+      "modelSHA256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    "source": {
+      "status": "PASS",
+      "sourceFunctions": [
+        "build2",
+        "crossResidual",
+        "mtraceProduct",
+        "globalBuild2",
+        "globalCross"
+      ],
+      "exactFirstOrderAnchors": 6,
+      "finalLeftNormalizationMatched": true,
+      "completePublicGeneratorCompared": true,
+      "scope": "Exact source binding plus mathematical dictionary; no DAG regeneration."
+    },
+    "characterRanks": {
+      "status": "PASS",
+      "exactFiniteSourceSHA256": "1fe4608ed77f3767691e7ef4de375fc55b052ccf26159a4aae3ec6d35fe96414",
+      "classicalMatrixEntryIdentities": 245,
+      "perCharacterH1BySupportSize": [
+        79,
+        2,
+        0,
+        0,
+        0
+      ],
+      "characterMultiplicities": [
+        1,
+        4,
+        6,
+        4,
+        1
+      ],
+      "totalH1": 87,
+      "initialRanks": [
+        50,
+        150,
+        450,
+        1250,
+        2550
+      ],
+      "weightTwoLengthThreeRank": 100,
+      "remainingRanks": [
+        3598,
+        522,
+        90,
+        30,
+        10
+      ],
+      "trivialBoundaryRank": 353,
+      "scope": "Exact rational ranks of the pinned finite model. Geometric model identification and symmetry are stated in the proof."
+    },
+    "fixtures": {
+      "status": "PASS",
+      "rejectedAlterations": [
+        "changed transition numerator",
+        "zero transition denominator",
+        "changed weight-two Ext1",
+        "incomplete classical matrix tie",
+        "changed transgression normalization",
+        "replaced geometric model"
+      ],
+      "count": 6
+    }
+  },
+  "scope": "Bounded attribution to the declared noncentral second jet. No scalar or full obstruction evaluated."
+}

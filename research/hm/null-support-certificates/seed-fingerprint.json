@@ -1,0 +1,4970 @@
+{
+  "indexing": "zero-based seed and row identifiers",
+  "legal_mask_bits": "coordinate i uses bit i",
+  "origin_kernel_sha256": "5fc615d4c3a8ad6d19524c0bc09d9a9ce778037cfba9bf70b9f9598f5c0c4782",
+  "schema": "null-selector-seed-fingerprint-v1",
+  "scope": "Fingerprint only; not an executable full-domain lowering or obstruction value. Seed 4 E12 work remains with null pending its full source handoff.",
+  "seed_count": 78,
+  "seeds": [
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [],
+      "entry": [
+        9,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 0,
+      "seed": 0,
+      "standard": [
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [],
+      "entry": [
+        9,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 0,
+      "seed": 1,
+      "standard": [
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [],
+      "entry": [
+        10,
+        4
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 1,
+      "seed": 2,
+      "standard": [
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [],
+      "entry": [
+        10,
+        4
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 1,
+      "seed": 3,
+      "standard": [
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [],
+      "entry": [
+        12,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 2,
+      "seed": 4,
+      "standard": [
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [],
+      "entry": [
+        12,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -2,
+        -2
+      ],
+      "kernel_owners": [
+        0
+      ],
+      "left": [
+        [
+          "I",
+          0
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          0
+        ]
+      ],
+      "row": 2,
+      "seed": 5,
+      "standard": [
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        0,
+        1,
+        2
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 6,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 7,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 8,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 9,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 10,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        0,
+        3
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 3,
+      "seed": 11,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 12,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 13,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 14,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 15,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 16,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        2,
+        6
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ]
+      ],
+      "row": 4,
+      "seed": 17,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 18,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 19,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 20,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 21,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 22,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        10,
+        1
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 5,
+      "seed": 23,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 24,
+      "standard": [
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 25,
+      "standard": [
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 26,
+      "standard": [
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 27,
+      "standard": [
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 28,
+      "standard": [
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": -2,
+      "deleted_prefix_owners": [
+        0
+      ],
+      "entry": [
+        12,
+        5
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -3
+      ],
+      "kernel_owners": [
+        0,
+        1
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "I",
+          1
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 6,
+      "seed": 29,
+      "standard": [
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        1,
+        2,
+        3
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 30,
+      "standard": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 31,
+      "standard": [
+        0,
+        8,
+        12,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 32,
+      "standard": [
+        0,
+        8,
+        10,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 33,
+      "standard": [
+        0,
+        8,
+        10,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 34,
+      "standard": [
+        0,
+        8,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 35,
+      "standard": [
+        0,
+        8,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 36,
+      "standard": [
+        0,
+        4,
+        12,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 37,
+      "standard": [
+        0,
+        4,
+        12,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 38,
+      "standard": [
+        0,
+        4,
+        6,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 39,
+      "standard": [
+        0,
+        4,
+        6,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 40,
+      "standard": [
+        0,
+        4,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 41,
+      "standard": [
+        0,
+        4,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 42,
+      "standard": [
+        0,
+        2,
+        10,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 43,
+      "standard": [
+        0,
+        2,
+        10,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 44,
+      "standard": [
+        0,
+        2,
+        6,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 45,
+      "standard": [
+        0,
+        2,
+        6,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 46,
+      "standard": [
+        0,
+        2,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 47,
+      "standard": [
+        0,
+        2,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 48,
+      "standard": [
+        0,
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 49,
+      "standard": [
+        0,
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 50,
+      "standard": [
+        0,
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 51,
+      "standard": [
+        0,
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 52,
+      "standard": [
+        0,
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        0,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "H",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ]
+      ],
+      "row": 7,
+      "seed": 53,
+      "standard": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 54,
+      "standard": [
+        0,
+        8,
+        12,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 55,
+      "standard": [
+        0,
+        8,
+        12,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 56,
+      "standard": [
+        0,
+        8,
+        10,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 57,
+      "standard": [
+        0,
+        8,
+        10,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 58,
+      "standard": [
+        0,
+        8,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 59,
+      "standard": [
+        0,
+        8,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 60,
+      "standard": [
+        0,
+        4,
+        12,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 61,
+      "standard": [
+        0,
+        4,
+        12,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 62,
+      "standard": [
+        0,
+        4,
+        6,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 63,
+      "standard": [
+        0,
+        4,
+        6,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 64,
+      "standard": [
+        0,
+        4,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 65,
+      "standard": [
+        0,
+        4,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 66,
+      "standard": [
+        0,
+        2,
+        10,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 67,
+      "standard": [
+        0,
+        2,
+        10,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 68,
+      "standard": [
+        0,
+        2,
+        6,
+        14,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 69,
+      "standard": [
+        0,
+        2,
+        6,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 70,
+      "standard": [
+        0,
+        2,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 71,
+      "standard": [
+        0,
+        2,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 72,
+      "standard": [
+        0,
+        1,
+        9,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 73,
+      "standard": [
+        0,
+        1,
+        9,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 74,
+      "standard": [
+        0,
+        1,
+        5,
+        13,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 75,
+      "standard": [
+        0,
+        1,
+        5,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": -1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 76,
+      "standard": [
+        0,
+        1,
+        3,
+        11,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "coefficient": 1,
+      "deleted_prefix_owners": [
+        0,
+        1
+      ],
+      "entry": [
+        10,
+        0
+      ],
+      "kappa": [
+        -1,
+        -2,
+        -3,
+        -4
+      ],
+      "kernel_owners": [
+        0,
+        1,
+        2
+      ],
+      "left": [
+        [
+          "E",
+          0
+        ],
+        [
+          "E",
+          1
+        ],
+        [
+          "I",
+          2
+        ]
+      ],
+      "right": [
+        [
+          "P",
+          2
+        ],
+        [
+          "H",
+          1
+        ],
+        [
+          "H",
+          0
+        ]
+      ],
+      "row": 8,
+      "seed": 77,
+      "standard": [
+        0,
+        1,
+        3,
+        7,
+        15
+      ],
+      "tail": [
+        2,
+        3,
+        4
+      ],
+      "weighted_owners": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "source_commit": "08b73637d4136f91606aad332c46cafd064417f8",
+  "source_order": "original source vertex then standard vertex; attach labels before sorting, retaining permutation sign",
+  "standard_bits": "coordinate i uses bit 3-i",
+  "star_carrier": "canonical carrier 5, sorting key -1 only"
+}

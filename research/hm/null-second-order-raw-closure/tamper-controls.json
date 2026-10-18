@@ -1,0 +1,26 @@
+[
+  {
+    "mode": "-B",
+    "case": "input_bytes",
+    "rejected": true,
+    "reason": "Input pin mismatch"
+  },
+  {
+    "mode": "-B",
+    "case": "q_ast_with_refreshed_hash",
+    "rejected": true,
+    "reason": "Physical q support formula changed"
+  },
+  {
+    "mode": "-BO",
+    "case": "input_bytes",
+    "rejected": true,
+    "reason": "Input pin mismatch"
+  },
+  {
+    "mode": "-BO",
+    "case": "q_ast_with_refreshed_hash",
+    "rejected": true,
+    "reason": "Physical q support formula changed"
+  }
+]

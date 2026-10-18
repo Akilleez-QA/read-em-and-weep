@@ -1,0 +1,157 @@
+{
+  "raw_engine.py.txt": {
+    "original_file_sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "excerpts": {
+      "PhysicalModel._build_body": {
+        "start_line": 96,
+        "end_line": 104,
+        "text": "    def _build_body(self,ex,model):\n        require_aggregate_admission()  # direct private invocation also refuses\n        self.ex=ex;self.M=Mat(ex);self.M.model=self;self.data=model\n        self.x=[ex.x(i)for i in range(4)];self.y=[ex.y(i)for i in range(4)]\n        self.v=[ex.scalar(1)]+[ex.scalar(0)for _ in range(4)]\n        for x in self.x:\n            for j in range(4,0,-1):self.v[j]=self.v[j]+x*self.v[j-1]\n        one=[['0,0,0,0',1]]\n        self.gamma=self.matrix(model['gamma'],one);self.delta=self.matrix(model['delta'],one);self.ev=self.matrix(model['ev'],one)\n",
+        "sha256": "7c2061c9ffce3753beefa17e61cc4bcaeeeee01867cd331ea3f8978971430d1b",
+        "ast_sha256": "945e00b6138d72178d4aa9678b06ab6733a0220a5b84df140a33540e24e361a5"
+      },
+      "PhysicalModel.polynomial": {
+        "start_line": 105,
+        "end_line": 111,
+        "text": "    def polynomial(self,terms):\n        out=self.ex.scalar(0)\n        for key,c in terms:\n            e=tuple(map(int,key.split(',')));term=self.ex.scalar(Q(c))\n            for i,n in enumerate(e):term=term*power(self.v[i+1],n)\n            out=out+term\n        return out\n",
+        "sha256": "aa079000dc65b63123ae02107a1634c62a969bb7329b2a86a393756b88cc03e6",
+        "ast_sha256": "c059ddd6b5758a2d40a84df41897979a1834f0348bc285321fdd300d78645728"
+      },
+      "PhysicalModel.matrix": {
+        "start_line": 112,
+        "end_line": 114,
+        "text": "    def matrix(self,a,den):\n        inv=self.polynomial(den).inverse()\n        return tuple(tuple(self.polynomial(p)*inv for p in row)for row in a)\n",
+        "sha256": "5e4c486b15497f2bccbbbe256d48e3c9f47eb8e9d56ceb51f5295a08682929ac",
+        "ast_sha256": "ce79601a0c7c8c260e2f9332bc2a89c0a988f8c92cd45f27db86f3fe1ad8c1d3"
+      },
+      "PhysicalModel.primitive": {
+        "start_line": 115,
+        "end_line": 124,
+        "text": "    @lru_cache(maxsize=None)\n    def primitive(self,c):\n        ch=self.data['charts'][c];out={k:self.matrix(ch[k],ch[d])for k,d in [('I','di'),('P','dp'),('H0','dh'),('H1','dh')]}\n        p=ch['pivot'];W=[list(r)for r in self.M.zero(10,8)];eta=[list(r)for r in self.M.zero(10,2)];L=[list(r)for r in self.M.zero(8,10)]\n        for h in range(2):\n            eta[h*5+p][h]=self.v[p].inverse()\n            for k in range(1,5):\n                kk=(p+k)%5;col=h*4+k-1\n                W[h*5+kk][col]=self.ex.scalar(1);W[h*5+p][col]=-self.v[kk]/self.v[p];L[col][h*5+kk]=self.ex.scalar(1)\n        out.update(W=tuple(map(tuple,W)),eta=tuple(map(tuple,eta)),L=tuple(map(tuple,L)));return out\n",
+        "sha256": "1c61cf6ab12c165ada1972028bbb8945203a8ed8b6e47ca03ec4baed1bc736c6",
+        "ast_sha256": "b8e029537d73475fa54959022329bb8e87a3ed39222028210d6842d962d16c4c"
+      },
+      "PhysicalModel.nu": {
+        "start_line": 125,
+        "end_line": 130,
+        "text": "    @lru_cache(maxsize=None)\n    def nu(self,o):\n        out=self.ex.scalar(1)\n        for i in range(4):\n            if(o.legal_mask>>i)&1:out=out*(self.y[i]/self.x[i])\n        return out\n",
+        "sha256": "2227c91c7f741f2bd73e1d8946b0b2f617dcf300a89a1750e9d80b70561efbfa",
+        "ast_sha256": "c0462d3ce9a72a5f0b70f2a5254bfa58c67c5a4ec603fc48777cdbf04efc3cc3"
+      },
+      "PhysicalModel.Dframe": {
+        "start_line": 131,
+        "end_line": 133,
+        "text": "    def Dframe(self,o,inverse=False):\n        n=self.nu(o);a,b=(n.inverse(),n)if inverse else(n,n.inverse());z=self.ex.scalar(0)\n        return ((a,z),(z,b))\n",
+        "sha256": "d144472d597001bbea9b6cc9360b232349e7794ca034e4585ffa625ba665b614",
+        "ast_sha256": "8a40f67fa49b3e28df4403e3dc86d8d5bfe3f907fae258536859b80b882836e5"
+      },
+      "PhysicalModel.g": {
+        "start_line": 134,
+        "end_line": 137,
+        "text": "    @lru_cache(maxsize=None)\n    def g(self,a,b):\n        pa=self.primitive(a.carrier)['P'];ib=self.primitive(b.carrier)['I']\n        return self.M.mul(self.Dframe(b),self.M.transpose(self.M.mul(pa,ib)),self.Dframe(a,True))\n",
+        "sha256": "b12bbc78466251dacddc7a96db7076c09d29ae4932223b7f6a1560947672be7f",
+        "ast_sha256": "7b59d7c9750b5eb95b219f553ffddc66b77fcee2de62fa579fee1898da1b8967"
+      },
+      "PhysicalModel.blocks": {
+        "start_line": 139,
+        "end_line": 155,
+        "text": "    @lru_cache(maxsize=None)\n    def blocks(self,o,d):\n        c=self.primitive(o.carrier);n2=power(self.nu(o),2)\n        U0=tuple(tuple(list(g)+list(i)+list(w))for g,i,w in zip(self.gamma,c['I'],self.M.mul(c['H1'],c['W'])))\n        Q0=tuple(c['H0'])+tuple(c['P'])+tuple(self.M.mul(c['L'],self.delta))\n        U1=tuple(tuple(list(w)+list(e))for w,e in zip(c['W'],c['eta']));Q1=tuple(c['L'])+tuple(self.ev)\n        w0=[n2.inverse()]*5+[self.ex.scalar(1),n2.inverse()]+[n2]*8;w1=[self.ex.scalar(1)]*8+[n2]*2\n        def moving(U,Q,w):\n            U=tuple(tuple(v*w[j]for j,v in enumerate(row))for row in U)\n            Q=tuple(tuple(v/w[i]for v in row)for i,row in enumerate(Q))\n            return self.M.scale(self.M.mul(self.M.D(U,d),Q),-1)\n        B0=moving(U0,Q0,w0);B1=moving(U1,Q1,w1)\n        gamma=self.ex.scalar((o.legal_mask>>d)&1)*self.y[d]/(self.x[d]*(self.x[d]*self.x[d]-self.ex.scalar(1)))\n        out=[]\n        for dim,k,B in zip(self.dims,(-1,1,3,5),(None,B0,B1,None)):\n            B=B or self.M.zero(dim,dim);out.append(self.M.add(B,self.M.scale(self.M.smul(((gamma,),),self.M.eye(dim)),-k)))\n        return tuple(out)\n",
+        "sha256": "50a1d12b94326c08a90c109890ae1bab5687a9bcb1a020412d2e437a7c1fac8b",
+        "ast_sha256": "d863941771317f6c927fc6371367e5b83a60c8fa99a6bc7fed0550de895ebf8c"
+      },
+      "PhysicalModel.s_raw": {
+        "start_line": 156,
+        "end_line": 159,
+        "text": "    @lru_cache(maxsize=None)\n    def s_raw(self,p,a,b):\n        u,v=p\n        return raw_scalar_formula(self.M,(self.blocks(a,u),self.blocks(a,v)),(self.blocks(b,u),self.blocks(b,v)),self.q(a,b,u),self.q(a,b,v))\n",
+        "sha256": "adfc1cb9cee2db053977ba389e31d7464981fe2dfa5c5fbd358402c8705ae3ea",
+        "ast_sha256": "2e806bfc6638c1282565323455e490e7bc45376ba1d799c6db1c1521fd246509"
+      },
+      "PhysicalModel.leaf": {
+        "start_line": 160,
+        "end_line": 167,
+        "text": "    def leaf(self,name,shape,**data):\n        if name=='g_phys':return self.g(*data['owners'])\n        if name=='physical_q':return ((self.q(*data['owners'],data['coordinate']),),)\n        o=data['owner'];c=self.primitive(o.carrier)\n        # Common scalar nu factors in actual Iphys/Pphys cancel in j and IP.\n        if name=='I_phys':return self.M.mul(c['I'],self.Dframe(o))\n        if name=='P_phys':return self.M.mul(self.Dframe(o,True),c['P'])\n        return c[name]\n",
+        "sha256": "f7c3873fe4d0d7754beea00bae55accfc2efb3a0d25ae6c3b9c02dbbe9a0d188",
+        "ast_sha256": "452de39aaed80a1d3ddbb4e0284e1a210b7a0c9a43adf265e016afaecf328a83"
+      },
+      "RawSource.T": {
+        "start_line": 171,
+        "end_line": 171,
+        "text": "    def T(self,p,a,b):return ((self.c.model.s_raw(tuple(p),a,b),),)\n",
+        "sha256": "6dd92e13023dcb23b171ca7acdd3338c3a640d2993fdce9c333cf9955bb23e3b",
+        "ast_sha256": "4f5ded49e3354929500cd74dca4599d9ce042018c1ee4e86953a6437816dd87d"
+      },
+      "source_and_lift": {
+        "start_line": 174,
+        "end_line": 179,
+        "text": "def source_and_lift(model,owners,stage=2):\n    \"\"\"Actual literal source and accepted block HPL recurrence; no callbacks.\"\"\"\n    M=model.M;M.model=model;source=RawSource(M)\n    schema=load('sr01_lift_schema',BASE/'transport-binding/lift_schema.py').closed_lift_schema()\n    lift=SC.Lift(M,source.residual,schema,dims=model.dims)\n    return source,lift.at(stage,tuple(owners))\n",
+        "sha256": "cc3993159b5fdcb582041748c987aa421c361e2df0b39f1c8395f3c58fe2a89e",
+        "ast_sha256": "221e6a445537a4e3017f01d375ab1fe807f3e2d1cac95483cac623cdb1c41769"
+      },
+      "raw_scalar_formula": {
+        "start_line": 76,
+        "end_line": 83,
+        "text": "def raw_scalar_formula(mat,blocks_i,blocks_j,qa,qb):\n    \"\"\"Pinned globalBuild2.first: all4 block traces, both endpoint terms.\"\"\"\n    result=mat.ex.scalar(0);ta=qa*mat.ex.scalar(Q(1,2));tb=qb*mat.ex.scalar(Q(1,2))\n    for k,sign,a_i,b_i,a_j,b_j in zip((-1,1,3,5),(-1,1,-1,1),*blocks_i,*blocks_j):\n        wedge=mat.trace(mat.mul(a_i,b_j))[0][0]-mat.trace(mat.mul(b_i,a_j))[0][0]\n        linear=(ta*(mat.trace(b_i)[0][0]+mat.trace(b_j)[0][0])-tb*(mat.trace(a_i)[0][0]+mat.trace(a_j)[0][0]))*mat.ex.scalar(k)\n        result=result+(wedge+linear)*mat.ex.scalar(sign)\n    return result*mat.ex.scalar(Q(1,4))-qa*qb*mat.ex.scalar(Q(15,8))\n",
+        "sha256": "e9483cd482fce524d7c9e359c346a8081e69b1eb32194a847c66623c15235d4b",
+        "ast_sha256": "8d9fae8142698b4aebb4373dc35b54f093a7077a834b2ea6e2cc9eff637cf414"
+      }
+    }
+  },
+  "compiler.py.txt": {
+    "original_file_sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "excerpts": {
+      "Lift.__init__": {
+        "start_line": 236,
+        "end_line": 239,
+        "text": "    def __init__(self,c,residual,schema,dims=(5,15,10,2)):\n        self.c=c;self.R=residual;self.schema=schema;self.dims=dims;self.cache={}\n        need([n['coefficient']for n in schema['nodes']]==[1,1,-1,1],'shared lift signs')\n        need(schema['scalar_test_component']=='J2'and schema['top_component_required']=='J3','shared lift top component')\n",
+        "sha256": "daa80fc12a56c9484d8fe3c5c57c83ba96b2c81b895326fc1918e2305c9f8ef5",
+        "ast_sha256": "b85126c64ee08cdf591a84c28551ca9c1cb65f6e3914d9ef74e6710844332c3f"
+      },
+      "Lift.IP": {
+        "start_line": 241,
+        "end_line": 241,
+        "text": "    def IP(self,owner):return self.leaf('I_phys',owner,(self.dims[1],2)),self.leaf('P_phys',owner,(2,self.dims[1]))\n",
+        "sha256": "15cfdcbb2f8d7f0796c9040fc661b5b08d903883507ba8a90e757fd5f7ff5a76",
+        "ast_sha256": "37a4468ad02dabe83807fff41ee99e876b8f66e5cc9f84f03c1ff67b90f75017"
+      },
+      "Lift.H": {
+        "start_line": 242,
+        "end_line": 244,
+        "text": "    def H(self,source,owner):\n        need(1<=source<=3,'HK degree')\n        return self.leaf(('H0','H1','eta')[source-1],owner,(self.dims[source-1],self.dims[source]))\n",
+        "sha256": "d1d7a597b870fe1d8c6e09db69a4bcf1b77a11c9fac1a54afacf8c1d948e5693",
+        "ast_sha256": "8820e644ec09c41a360cf96a5f749d69fce521f72cb9aa39a7bdb72a5c9b5dfb"
+      },
+      "Lift.homotopy": {
+        "start_line": 246,
+        "end_line": 252,
+        "text": "    def homotopy(self,F,r,owner):\n        c=self.c;out={};I,P=self.IP(owner);EK=c.mul(I,P)\n        for(u,v),node in F.items():\n            need(v-u==r,'End internal degree')\n            if v>0:self.merge(out,(u,v-1),c.mul(self.H(v,owner),node))\n            if v==1 and u<3:self.merge(out,(u+1,v),c.scale(c.mul(EK,node,self.H(u+1,owner)),(-1 if r%2 else 1)))\n        return out\n",
+        "sha256": "3c48d9bd4796d22b13554bcd71b94554fa48bb285b3acfccf4ad791c7064155e",
+        "ast_sha256": "1f8c99f74019e0466907dadb9eb6bbef9f3f9488d8fe92286079cc1cccbf5d8a"
+      },
+      "Lift.delta": {
+        "start_line": 253,
+        "end_line": 258,
+        "text": "    def delta(self,stage,t):\n        out={}\n        for j in range(len(t)):\n            face=t[:j]+t[j+1:]\n            for key,node in self.at(stage,face).items():self.merge(out,key,self.c.scale(node,(-1)**j))\n        return out\n",
+        "sha256": "51cd35d4938013ffcad90c611ddcc648cdc1dbfe67528d930132b3642a444b4c",
+        "ast_sha256": "fee48ea58d73f0366fa8403d8843e08006a6c70a12246e3634196e228e5fba79"
+      },
+      "Lift.at": {
+        "start_line": 259,
+        "end_line": 269,
+        "text": "    def at(self,stage,t):\n        t=tuple(t);need(len(t)==stage+3 and len(set(t))==len(t),'ordered full common tuple')\n        if(stage,t)in self.cache:return self.cache[stage,t]\n        c=self.c\n        if stage==0:\n            I,P=self.IP(t[0]);out={(1,1):c.mul(I,c.transpose(self.R(t)),P)}\n        else:\n            node=self.schema['nodes'][stage]\n            out=self.homotopy(self.delta(stage-1,t),node['homotopy_input_degree'],t[0])\n            out={key:c.scale(n,node['coefficient'])for key,n in out.items()}\n        self.cache[stage,t]=out;return out\n",
+        "sha256": "9120a8f217740719adb25b9f346203b1de501a1449b5b240d411bd9fdc247bad",
+        "ast_sha256": "a1981a6699526097a96c2553257dde9038cc756ce21b94b107a8c76d9a1102f3"
+      }
+    }
+  },
+  "program.py.txt": {
+    "original_file_sha256": "ad0603264992c2dfb425451f59d183a64d139b3c25db43b7866d7683851fc62a",
+    "excerpts": {
+      "weighted_assignment": {
+        "start_line": 101,
+        "end_line": 117,
+        "text": "def weighted_assignment(ex,model_data,owners):\n    require_aggregate_admission()\n    canonical,parity=I.sorted_source(owners)\n    if not parity:return ex.scalar(0)\n    # Fresh per-assignment model/source/lift. No cross-assignment leaf cache.\n    model=PhysicalModel(ex,model_data)\n    try:\n        source,blocks=source_and_lift(model,canonical,2)\n        X13=blocks[(3,1)];X02=blocks[(2,0)]\n        scalar=X13[5][0]+X02[1][3]+X02[4][2]\n        weighted=scalar*ex.scalar(parity)\n        for owner in owners:weighted=weighted*outer_weight(ex,owner)\n        return weighted\n    finally:\n        # Decorated methods otherwise retain their self keys across assignments.\n        for name in (\"primitive\",\"nu\",\"g\",\"blocks\",\"s_raw\"):\n            getattr(PhysicalModel,name).cache_clear()\n",
+        "sha256": "0305531da407de19fe40be7ceb7bfff76d94bbe8d2b05893dd1d76240dacf486",
+        "ast_sha256": "c3c575234325a9044faf83943c69de70c532373c8628084ca898f2f9be124d35"
+      }
+    }
+  }
+}

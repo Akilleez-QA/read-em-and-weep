@@ -1,0 +1,65 @@
+[
+  {
+    "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/scalar-compiler/compiler.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+    "bundle_path": "sources/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py.txt",
+    "bytes": 22498
+  },
+  {
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "git_blob": "34a230aedc9e6d47148195752da54c30c576f53a",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/detector-realization/raw_engine.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "bundle_path": "sources/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py.txt",
+    "bytes": 8960
+  },
+  {
+    "sha256": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7",
+    "git_blob": "d3663b1fc97ff206d3937b0fe746e0817377af24",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/source-boundary-analysis/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/PROOF.md",
+    "bundle_path": "sources/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/PROOF.md",
+    "bytes": 12385
+  },
+  {
+    "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed",
+    "git_blob": "69821c62a44485d64325e77c21bdab3553bf0d17",
+    "commit": "ce8b3eeae7159e2dcb146638789533360a3e32be",
+    "repository_path": "research/codex-swarm/full-source-application/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ce8b3eeae7159e2dcb146638789533360a3e32be/research/codex-swarm/full-source-application/PROOF.md",
+    "bundle_path": "sources/ce8b3eeae7159e2dcb146638789533360a3e32be/research/codex-swarm/full-source-application/PROOF.md",
+    "bytes": 12579
+  },
+  {
+    "sha256": "e6969ba15399096cbe4d3ef35ddde404d4d9d4bc69ebbf859c1683472a2f1a70",
+    "git_blob": "6b63971c23ac2f3e6ab413dabfec61c90f3a9121",
+    "commit": "ce8b3eeae7159e2dcb146638789533360a3e32be",
+    "repository_path": "research/codex-swarm/full-source-application/review-independent.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ce8b3eeae7159e2dcb146638789533360a3e32be/research/codex-swarm/full-source-application/review-independent.md",
+    "bundle_path": "sources/ce8b3eeae7159e2dcb146638789533360a3e32be/research/codex-swarm/full-source-application/review-independent.md",
+    "bytes": 11673
+  },
+  {
+    "sha256": "a065a491dd4ff7d27e0262fc1b2edc7f04833261bd6389ee43c821767c071c24",
+    "git_blob": "5b25dc29c15fb4911849f9dd59ac7c0b6825655b",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/source-boundary-analysis/review-independent.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/review-independent.md",
+    "bundle_path": "sources/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/review-independent.md",
+    "bytes": 12452
+  },
+  {
+    "sha256": "246b7265f4f8936bf5cc2bfd9f0f7505f119d4b3515acdd82822f7d45c0c4d00",
+    "git_blob": "b63c3486cdf15a3bca6d673d3918fcab3f30b104",
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "repository_path": "research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+    "bundle_path": "sources/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md",
+    "bytes": 11090
+  }
+]

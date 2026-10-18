@@ -1,0 +1,77 @@
+{
+  "schema": "closed-k-review-source-pins-v1",
+  "files": [
+    {
+      "role": "review_note",
+      "name": "source_pair_trace_obstruction.md",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/source_pair_trace_obstruction.md",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "02785bcf331577be971200f5cc93dee108d780b8",
+      "sha256": "c766f1f74cf773f1c84de467e0da12f49179646f0a5725f07cc56ee678e711e6",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/source_pair_trace_obstruction.md"
+    },
+    {
+      "role": "review_note",
+      "name": "source_diagonal_connections.md",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/source_diagonal_connections.md",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "3ac61b916bcae0fe2e9a9578c51b2bb9a6113de2",
+      "sha256": "7c2ff83d57921d572e4ce2e80508a497ff58d4aca00d8f52a32185a360319fbc",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/source_diagonal_connections.md"
+    },
+    {
+      "role": "review_note",
+      "name": "finite_mask_affine_pairing.md",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/finite_mask_affine_pairing.md",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "f8d275be6e9195eb14e7e65fc9f6ea3336ab2803",
+      "sha256": "278b8e0c78a00b403c33023cc8a5aa7356c4969803248c181dacb74424f4e4be",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/finite_mask_affine_pairing.md"
+    },
+    {
+      "role": "review_note",
+      "name": "finite_weighted_trace_reduction.md",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/finite_weighted_trace_reduction.md",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "2dc43600e444e6da93d0c39a5d1a46b3d9874f6d",
+      "sha256": "4c294ed7e725ad8d7af90f9b3338f0902b83bbb73c4f92a72fe58270b68a9205",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/finite_weighted_trace_reduction.md"
+    },
+    {
+      "role": "review_note",
+      "name": "curvature_descent_followup.md",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/curvature_descent_followup.md",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "000796a385402f17a9636d5179aad218a9b823ad",
+      "sha256": "3e88449a435b159a1edc3bf595867656481c6903ff19dbf9ce46f174be5298b0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/curvature_descent_followup.md"
+    },
+    {
+      "role": "review_note",
+      "name": "check_pair_trace_structure.py",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/check_pair_trace_structure.py",
+      "commit": "b4f62461e03491ceb0dccd910fd457c267a5b924",
+      "git_blob": "10b261af8621ba20d4364dde702a4d76804d6e1c",
+      "sha256": "d4c12f5f6c6e33229bff35a58c460c1de87e86c7214c5eaca05a688166e1dcab",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b4f62461e03491ceb0dccd910fd457c267a5b924/research/hm/null-source-integration/complete-raw-remainder/check_pair_trace_structure.py"
+    },
+    {
+      "role": "model",
+      "name": "hm-pinned-model.json",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-model.json"
+    },
+    {
+      "role": "source_formulas",
+      "name": "hm-pinned-source-formulas.js",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "git_blob": "3dfed53a28b53b3c912a097971d89fc547330a5f",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-source-formulas.js"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "comparison": "Recursive equality after omission of resource configuration and serialization-dependent provenance hashes; all mathematical formulas, label rows, bounds and gap certificates retained.",
+  "excluded_metadata_keys": [
+    "dag_sha256",
+    "files_sha256",
+    "git_blobs",
+    "held_limits",
+    "original_ast_sha256",
+    "original_compiler_sha256",
+    "proof_sha256",
+    "source_certificate"
+  ],
+  "results": [
+    {
+      "file": "selected-full-owner-kernel-lowering.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "legal-mask-sector-support.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "legal-mask-gap-patterns.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "primary-carrier-sector-support.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "permuted-standard-sector-support.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "exceptional-carrier-domain-partition.json",
+      "mathematical_content_unchanged": true
+    },
+    {
+      "file": "permuted-standard-domain-inventory.json",
+      "mathematical_content_unchanged": true
+    }
+  ]
+}

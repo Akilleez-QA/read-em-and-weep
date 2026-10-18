@@ -1,0 +1,53 @@
+{
+  "scope": "Supplied immutable excerpt bytes only; inherited provenance, no fresh remote attestation. Geometric premises remain conditional.",
+  "sources": [
+    {
+      "file": "dependencies/hpl.md",
+      "sha256": "9ff4fb6c3aa98ecfc91d0d6776f0ddabc3e781a8dcd17758d1eb714652b2b075",
+      "source_packet": "hpl-lift-lowering-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "b19a9393bed39efc138d9adb1f6dfcf88af91fac6b403842fc225c8bc8eca0dc",
+      "selection": "## 1. through before ## Reproduction"
+    },
+    {
+      "file": "dependencies/source-adjoint.md",
+      "sha256": "c4c45e748e4b7c22aff75c6d05772ec35d3902c7210924dcfad618b2890e8cec",
+      "source_packet": "residue-source-adjoint-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "106648cb80212191cc6fe85098a24271069f8f2e7f625daae29c9f5a114d2922",
+      "selection": "## 3. through before ## 5."
+    },
+    {
+      "file": "dependencies/raw-first-order.md",
+      "sha256": "e2a3ea945775c8a12715c29f4c9e6613215d9dcb5e55691b810ecccab861d0e3",
+      "source_packet": "raw-first-order-transgression-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "f8ad4a0f3d6af0d583213cc607d70005940e3167dbd1344cc4ea1d25b5161668",
+      "selection": "## 1. through before ## 7."
+    },
+    {
+      "file": "dependencies/raw-first-order-review.md",
+      "sha256": "16a04524d9fcec4550b09255e8f88d0ff75a62d6c7cff878b2f5f299650c8faf",
+      "source_packet": "raw-first-order-transgression-public",
+      "source_document": "REVIEW.md",
+      "source_sha256": "16a04524d9fcec4550b09255e8f88d0ff75a62d6c7cff878b2f5f299650c8faf",
+      "selection": "complete file"
+    },
+    {
+      "file": "dependencies/ward.md",
+      "sha256": "8c3d06260e1cd776fff411981390fed83403fd99795076f5766f7d5da1be37fa",
+      "source_packet": "partition-ward-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "42189fa11cb6c6165dc6678429b31b27c429bd87024fe9a7161209b06deb9a1c",
+      "selection": "## 1. through before ## 3."
+    },
+    {
+      "file": "dependencies/domain.md",
+      "sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "source_packet": "differentiated-partition-domain-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "selection": "complete file"
+    }
+  ]
+}

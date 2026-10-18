@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "modes": [
+    {
+      "optimized": false,
+      "relocated_pass": true,
+      "source_corruption_rejected": true,
+      "joint_source_manifest_rejected": true,
+      "restored_pass": true
+    },
+    {
+      "optimized": true,
+      "relocated_pass": true,
+      "source_corruption_rejected": true,
+      "joint_source_manifest_rejected": true,
+      "restored_pass": true
+    }
+  ],
+  "production_imports": false
+}

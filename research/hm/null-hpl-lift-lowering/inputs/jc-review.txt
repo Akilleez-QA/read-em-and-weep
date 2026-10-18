@@ -1,0 +1,16 @@
+## 1. Exact lift signs and top closure
+
+On internal degree r the two-term End homotopy is
+
+`H_r(F)=h_K F+(-1)^r E F h_K`, with `E=IP`.
+
+Expanding the graded commutator proves `d_End H+H d_End=1-E(-)E`. Under the source-compatible projection, the latter is `1-j pi`, with `j(R)=I R^t P`. Both H terms and the single row transpose matter. On degree zero, the projected first correction vanishes by the imported actual frame identity `pi_first delta j(R)=delta_row R` and the **complete source's** closure. It is not implied merely by local constant-matrix contraction identities.
+
+For `D=delta+(-1)^q d_End`, J_s has bidegree `(2+s,-s)`. Thus the recurrence is exactly
+
+`J0=jR; J1=+H_0 delta J0; J2=-H_-1 delta J1; J3=+H_-2 delta J2`.
+
+It gives `dJ0=0`, `delta J0-dJ1=0`, `delta J1+dJ2=0`, and `delta J2-dJ3=0`. In negative internal degrees the projected cohomology term is zero. Original-frame restrictions commute with d_End, so `d_End delta J3=delta^2 J2=0`.
+
+Checked: [JC01 §2](https://github.com/Akilleez-QA/read-em-and-weep/blob/d18d9810f7333d9f94a895c4e26985520cc60057/research/codex-swarm/full-lift-domain/PROOF.md#L17-L46), [uniform scalar-family transport §4](https://github.com/Akilleez-QA/read-em-and-weep/blob/43193bc8badf3f29a1363132135d956cc12d46ad/research/hm/null-source-integration/scalar-family-transport/PROOF.md), and [map-and-comparison §§1–3](https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-proof/map-and-comparison.md).
+

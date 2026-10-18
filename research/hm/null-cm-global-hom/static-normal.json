@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "scope": "literal metadata, degree labels, skew support, formal cohomology support only; A not recomputed",
+  "charts": [
+    {
+      "chart": 0,
+      "pivot": 0,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 1,
+          "literal_terms_inspected": 36,
+          "denominator_degree": 4
+        },
+        "P": {
+          "extra_v0_pole_bound": 1,
+          "literal_terms_inspected": 20,
+          "denominator_degree": 4
+        },
+        "H0": {
+          "extra_v0_pole_bound": 1,
+          "literal_terms_inspected": 18,
+          "denominator_degree": 4
+        },
+        "H1": {
+          "extra_v0_pole_bound": 1,
+          "literal_terms_inspected": 40,
+          "denominator_degree": 4
+        }
+      },
+      "B_literal_zero": true
+    },
+    {
+      "chart": 1,
+      "pivot": 1,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 36,
+          "denominator_degree": 5
+        },
+        "P": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 20,
+          "denominator_degree": 5
+        },
+        "H0": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 18,
+          "denominator_degree": 5
+        },
+        "H1": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 40,
+          "denominator_degree": 5
+        }
+      },
+      "B_literal_zero": true
+    },
+    {
+      "chart": 2,
+      "pivot": 2,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 36,
+          "denominator_degree": 5
+        },
+        "P": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 20,
+          "denominator_degree": 5
+        },
+        "H0": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 18,
+          "denominator_degree": 5
+        },
+        "H1": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 40,
+          "denominator_degree": 5
+        }
+      },
+      "B_literal_zero": true
+    },
+    {
+      "chart": 3,
+      "pivot": 3,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 36,
+          "denominator_degree": 5
+        },
+        "P": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 20,
+          "denominator_degree": 5
+        },
+        "H0": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 18,
+          "denominator_degree": 5
+        },
+        "H1": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 40,
+          "denominator_degree": 5
+        }
+      },
+      "B_literal_zero": true
+    },
+    {
+      "chart": 4,
+      "pivot": 4,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 36,
+          "denominator_degree": 5
+        },
+        "P": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 20,
+          "denominator_degree": 5
+        },
+        "H0": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 18,
+          "denominator_degree": 5
+        },
+        "H1": {
+          "extra_v0_pole_bound": 0,
+          "literal_terms_inspected": 40,
+          "denominator_degree": 5
+        }
+      },
+      "B_literal_zero": true
+    },
+    {
+      "chart": 5,
+      "pivot": 0,
+      "bounds": {
+        "I": {
+          "extra_v0_pole_bound": 2,
+          "literal_terms_inspected": 15,
+          "denominator_degree": 4
+        },
+        "P": {
+          "extra_v0_pole_bound": 2,
+          "literal_terms_inspected": 9,
+          "denominator_degree": 4
+        },
+        "H0": {
+          "extra_v0_pole_bound": 1,
+          "literal_terms_inspected": 9,
+          "denominator_degree": 4
+        },
+        "H1": {
+          "extra_v0_pole_bound": 2,
+          "literal_terms_inspected": 16,
+          "denominator_degree": 4
+        }
+      },
+      "B_literal_zero": true
+    }
+  ],
+  "internal_Hom_multiplicities": {
+    "-3": 10,
+    "-2": 80,
+    "-1": 245,
+    "0": 354,
+    "1": 245,
+    "2": 80,
+    "3": 10
+  },
+  "X_E1_support": [
+    [
+      -3,
+      4
+    ],
+    [
+      -2,
+      4
+    ],
+    [
+      -1,
+      4
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ]
+  ],
+  "higher_incoming_to_origin": []
+}

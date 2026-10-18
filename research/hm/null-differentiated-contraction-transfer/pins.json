@@ -1,0 +1,56 @@
+{
+  "scope": "Supplied exact prerequisite excerpts and portable proof/review bytes; inherited provenance only, no fresh remote or geometric attestation. Nested provenance references are not extra checker inputs.",
+  "author_proof_sha256": "1079bcd2abb50c6c092e7a5b7d3330563f2f52dabb58d122edea446da44b9be1",
+  "files": [
+    {
+      "path": "dependencies/hpl.md",
+      "sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023",
+      "source_packet": "hpl-lift-lowering-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "b19a9393bed39efc138d9adb1f6dfcf88af91fac6b403842fc225c8bc8eca0dc",
+      "selection": "## 1. through before ## Reproduction"
+    },
+    {
+      "path": "dependencies/endpoint.md",
+      "sha256": "799e4744e58994e1d10abaaeccffd14a5234f92cd8cb5899b389f8db588a8bf0",
+      "source_packet": "endpoint-defect-transfer-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "9e534ad92544de3c031b64d76d229426cdb077e545e9d5f3bd6d5446700ab599",
+      "selection": "## 1. through before ## 6."
+    },
+    {
+      "path": "dependencies/frame.md",
+      "sha256": "241ff5b071fb136d352e0e115b5e78ccb05d860400fc9d562bb33771a19e1472",
+      "source_packet": "scalar-frame-bridge-public",
+      "source_document": "frame/PROOF.md",
+      "source_sha256": "4c440b0b8477f2b8adf1ee0c6d3f63787178a84efa79accf4dd4d6415497e78f",
+      "selection": "## Premises through before ## Relation to the pinned JavaScript"
+    },
+    {
+      "path": "dependencies/hpl-provenance.json",
+      "sha256": "39f1b6f859f911421f1d21aa0b31c7ae8cdf574d1aeac3b4699a2b8fa4da8229",
+      "source_packet": "hpl-lift-lowering-public",
+      "selection": "Inherited pins metadata; source_root_path keys removed; references to upstream inputs are provenance, not bundled-check coverage."
+    },
+    {
+      "path": "dependencies/endpoint-provenance.json",
+      "sha256": "443905052e56b7ed9dc1c049f044166e744cea2acebc37775ef68720c2e73f69",
+      "source_packet": "endpoint-defect-transfer-public",
+      "selection": "Inherited pins metadata; source_root_path keys removed; references to upstream inputs are provenance, not bundled-check coverage."
+    },
+    {
+      "path": "dependencies/frame-provenance.json",
+      "sha256": "044d8faa4a9ee238272bbd9ebd30cc06d376cba1892be5df87169f6402fce063",
+      "source_packet": "scalar-frame-bridge-public",
+      "selection": "Inherited pins metadata; source_root_path keys removed; references to upstream inputs are provenance, not bundled-check coverage."
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "c0bbb976e98cc7c4e137079a0ddd9ad191607fc8f7608e97088539b185ff17e2"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "72471c71d11cfa51105896379c085c36ff3d50076101b7bec66b838c1c4e8038"
+    }
+  ]
+}

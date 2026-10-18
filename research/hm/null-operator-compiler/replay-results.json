@@ -1,0 +1,28 @@
+{
+  "schema": "hm-public-operator-replay-v1",
+  "test_scripts": 8,
+  "unittest_cases": 58,
+  "all_passed": true,
+  "seed_count": 78,
+  "edge_branch_count": 624,
+  "derivative_pair_branch_counts": {
+    "E12": 312,
+    "E34": 312
+  },
+  "selected_dag_nodes": 199,
+  "outer_weight_owner_references": 354,
+  "unresolved_regularization_Laurent_groups": 78,
+  "physical_polynomial_evaluation": false,
+  "global_admission": false,
+  "actual_O2_computed": false,
+  "selected_dag_source_bytes_preserved": true,
+  "pinned_model_and_source_bytes_preserved": true,
+  "gzip_deterministic_roundtrip": true,
+  "optimized_wrapper_execution_refused": true,
+  "public_kernel_changes": [
+    "removed operational budget metadata",
+    "updated sanitized proof hash",
+    "replaced local documentation pointer with shipped public notes"
+  ],
+  "compiled_seed_records_unchanged": true
+}

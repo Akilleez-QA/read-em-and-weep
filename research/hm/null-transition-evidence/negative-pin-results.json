@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "rejected_pin_mutations": 42,
+  "portable_baselines": 3,
+  "scope": "isolated copies of static checker only",
+  "checks": [
+    {
+      "file": "inputs/raw_engine.py.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/compiler.py.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/source-formulas.js.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/first-order-source.md.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/README.md.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/certificates__verification.json.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_determinants.py.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_source.py.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__data__model.json.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__frames-and-poles.md.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__manifest.json.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/manifest.json.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/pins.json.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/verify.py.txt",
+      "mode": [
+        "normal"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/raw_engine.py.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/compiler.py.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/source-formulas.js.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/first-order-source.md.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/README.md.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/certificates__verification.json.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_determinants.py.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_source.py.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__data__model.json.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__frames-and-poles.md.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__manifest.json.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/manifest.json.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/pins.json.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/verify.py.txt",
+      "mode": [
+        "-O"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/raw_engine.py.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/compiler.py.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/source-formulas.js.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/first-order-source.md.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/README.md.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/certificates__verification.json.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_determinants.py.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/checks__verify_source.py.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__data__model.json.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__frames-and-poles.md.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/geo__manifest.json.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/manifest.json.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/pins.json.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    },
+    {
+      "file": "inputs/verify.py.txt",
+      "mode": [
+        "-OO"
+      ],
+      "rejected": true
+    }
+  ]
+}

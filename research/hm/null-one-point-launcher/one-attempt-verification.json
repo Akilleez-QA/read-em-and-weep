@@ -1,0 +1,24 @@
+{
+  "status": "INDEPENDENT_RESULT_ARITHMETIC_VERIFIED",
+  "result_sha256": "a6290391e3cfdf7f211bec87dcbc3fd516471377642e4f839f0bc9efd85babe2",
+  "result_bytes": 12430,
+  "exact_commutator_recomputed": true,
+  "exact_gram_recomputed": true,
+  "tracefree": true,
+  "all_reported_denominators_nonzero": true,
+  "omega00_mod_prime": {
+    "prime": 101,
+    "denominator_nonzero": true,
+    "residue": 7
+  },
+  "counts": {
+    "integer_ops": 5232964,
+    "max_integer_bits": 1041,
+    "rational_ops": 560048
+  },
+  "captured_bytes": 12372,
+  "child_returncode": 0,
+  "source_kernel_rerun": false,
+  "remaining_invocations": 0,
+  "interpretation": "Refutes pointwise Omega=0 / cross-Gram symmetry only; global obstruction undecided"
+}

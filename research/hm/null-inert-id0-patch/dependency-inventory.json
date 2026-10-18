@@ -1,0 +1,139 @@
+{
+  "local_receipt_dependencies": [
+    {
+      "path": "exact-curve-field/field.py",
+      "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "exact-curve-field/producer-ready.json",
+      "sha256": "0d73ba3649961454a0795d408938abf9e857bd4e44feb47b99b666f2fd6e3340",
+      "present_in_frozen_snapshot": false,
+      "byte_match": false
+    },
+    {
+      "path": "scalar-compiler/compiler.py",
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "full-lift-domain/lift.py",
+      "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "transport-binding/lift_schema.py",
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "inserted-coefficients/interfaces.py",
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "source-boundary-analysis/PROOF.md",
+      "sha256": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "source-boundary-analysis/review-independent.md",
+      "sha256": "a065a491dd4ff7d27e0262fc1b2edc7f04833261bd6389ee43c821767c071c24",
+      "present_in_frozen_snapshot": false,
+      "byte_match": false
+    },
+    {
+      "path": "full-source-application/PROOF.md",
+      "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    },
+    {
+      "path": "physical-homogenization/PROOF.md",
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab",
+      "present_in_frozen_snapshot": true,
+      "byte_match": true
+    }
+  ],
+  "historical_git_objects_not_refetched": [
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+      "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+      "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94"
+    },
+    {
+      "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+      "path": "research/hm/null-operator-compiler/outer_partition_source_binding.py",
+      "sha256": "3308e733e4fc12ee297964d9c3bd4c7166bac6b061853690ef309ea786c5bd2a"
+    }
+  ],
+  "static_imports": {
+    "detector-admission/certifier.py": [
+      "from pathlib import Path",
+      "import sys, importlib.util, json, hashlib, math, copy",
+      "import schedule_validator as A06"
+    ],
+    "detector-admission/whole_envelope.py": [
+      "from pathlib import Path",
+      "import ast, json, hashlib"
+    ],
+    "detector-realization/bindings.py": [
+      "from pathlib import Path",
+      "import hashlib, json, subprocess",
+      "from raw_engine import require_aggregate_admission"
+    ],
+    "detector-realization/program.py": [
+      "from fractions import Fraction as Q",
+      "import itertools, math",
+      "from raw_engine import RF, SC, I, PhysicalModel, power, source_and_lift, require_aggregate_admission",
+      "from bindings import actual_model"
+    ],
+    "detector-realization/raw_engine.py": [
+      "from fractions import Fraction as Q",
+      "from functools import lru_cache",
+      "import importlib.util",
+      "from pathlib import Path",
+      "import sys"
+    ],
+    "exact-curve-field/field.py": [
+      "from dataclasses import dataclass, field",
+      "from fractions import Fraction",
+      "from types import MappingProxyType"
+    ],
+    "full-lift-domain/lift.py": [
+      "from fractions import Fraction as Q",
+      "from functools import lru_cache",
+      "import importlib.util",
+      "import json",
+      "from pathlib import Path",
+      "import sys",
+      "import interfaces as I"
+    ],
+    "inserted-coefficients/interfaces.py": [
+      "from dataclasses import dataclass",
+      "from fractions import Fraction",
+      "from typing import Protocol"
+    ],
+    "scalar-compiler/compiler.py": [
+      "from fractions import Fraction as Q",
+      "from pathlib import Path",
+      "import hashlib",
+      "import importlib.util",
+      "import itertools",
+      "import json",
+      "import subprocess"
+    ],
+    "transport-binding/lift_schema.py": []
+  }
+}

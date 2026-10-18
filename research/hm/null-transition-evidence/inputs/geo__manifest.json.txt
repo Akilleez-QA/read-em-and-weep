@@ -1,0 +1,32 @@
+{
+  "schema": "current-scalar-geometric-package-files-v1",
+  "sha256": {
+    ".gitignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "README.md": "d4aa3a6a6d8b206395f7c757e31ac070538a88392c43e0ab06586dfd80a4e9b0",
+    "certificates/chart-and-lines.json": "2c9eec5bd392316b4b3f21957aa0cf20a3e00bb21577224949500db0c1767978",
+    "certificates/computed-bounds.json": "bc113b0417c2638236a4425510eeba28a675507ad4d59d0d0c8ae8028e37421e",
+    "certificates/divisor-seeds.json": "96dacb6adccfdceaf4b9871a096b1211c550c07c19f6c129d8b5552a8800ade6",
+    "certificates/factor48-axes.json": "04be095ec72bd60039953e116b9a0b1051012defe5a53999c2272ec04a71a669",
+    "certificates/fixtures.json": "829db02cf50289335abe386c6ebd3ad66aa9a42cd8325b073c5d156a00d2458e",
+    "certificates/homogeneous-identities.json": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018",
+    "certificates/optimization-guards.json": "147903181d7a621d1b93479c818dcb8e5863b8e3a610d4f5baacf2b8e7e94bfc",
+    "certificates/pole-bounds.json": "85611d32cd6b61d84953dfbf7c688f26d0618c976021754626313ea5ffd37f0c",
+    "certificates/source-alignment.json": "0f228bd3907c1a3b4e90f428bfa8041991e394fb6a85c0b718b56703ecf95c73",
+    "checks/compute_pole_bounds.js": "02541a2845ed6b47fe2b0c612ffdd6f44184acb69eac5c6bbc36c544b1afeddb",
+    "checks/test_certificates.py": "06d13eb9e521f76ba01190962af62c0d2264243df8d302320fd77b099a11b442",
+    "checks/verify_chart_and_lines.py": "4cfbfd3e122aecb17e00935f995e1ba1e530afb5074101737cdb4828db3ed9cb",
+    "checks/verify_computed_bounds.py": "341ab474473c337a6019727c758a5a14e236817fa3f9dc5fdf5f5b034f8045a1",
+    "checks/verify_divisor_seeds.py": "c185b520efb447b72e7fc9c5f8b4cd30f965eb58fefa7fbf167982b196a91936",
+    "checks/verify_factor48.py": "4223dc304b71ac71c4a8c0bfc973d178d80b007ee4423e99c9347f1395fb6839",
+    "checks/verify_homogeneous_identities.py": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+    "checks/verify_source_alignment.py": "5d65d4cb322c8e9d48a58aa97c62200cb362bad2504f3a283f4b3e71194a982c",
+    "data/divisor-seeds.json": "d8b736bd68fe3776f6a6c7b66763639830d866ed27333f747c0b1cc52b751ab7",
+    "data/model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "data/source-formulas.js": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+    "degree-and-factor48.md": "94f178786915a5ca2c135dd6aa8ee9be5a8719c14918d47a1189e03c16e4ca20",
+    "frames-and-poles.md": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+    "pins.json": "2043d1ab47723b7cd93a36bb787873b359ff0cfd0807a8e7896ce20a0dc4f992",
+    "source-identity.md": "2a5ff3f10eaaba3598aee22f654a6b48c888d8858e89b35d4f47ab28facea939",
+    "verify.py": "b037eb1fe5d8d3434d793e133eb49e7cbc9e477f71dbadffce4a730559d47984"
+  }
+}

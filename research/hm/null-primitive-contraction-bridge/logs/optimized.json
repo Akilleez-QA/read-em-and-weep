@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "conditional decoder/contraction reduction",
+  "pins": 5,
+  "charts_metadata_checked": 6,
+  "H1_eta_literal_zero_charts": 6,
+  "independent_matrix_identity_families": 3,
+  "tiny_invented_independence_controls": 3,
+  "physical_evaluation": false,
+  "production_import": false,
+  "actual_model_polynomial_products": false
+}

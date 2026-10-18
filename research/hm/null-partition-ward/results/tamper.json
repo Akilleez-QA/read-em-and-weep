@@ -1,0 +1,52 @@
+[
+  {
+    "mutation": "proof pin",
+    "optimized": false,
+    "rejected": true
+  },
+  {
+    "mutation": "branch pin",
+    "optimized": false,
+    "rejected": true
+  },
+  {
+    "mutation": "dependency pin",
+    "optimized": false,
+    "rejected": true
+  },
+  {
+    "mutation": "prism sign",
+    "optimized": false,
+    "rejected": true
+  },
+  {
+    "mutation": "omit source defect",
+    "optimized": false,
+    "rejected": true
+  },
+  {
+    "mutation": "proof pin",
+    "optimized": true,
+    "rejected": true
+  },
+  {
+    "mutation": "branch pin",
+    "optimized": true,
+    "rejected": true
+  },
+  {
+    "mutation": "dependency pin",
+    "optimized": true,
+    "rejected": true
+  },
+  {
+    "mutation": "prism sign",
+    "optimized": true,
+    "rejected": true
+  },
+  {
+    "mutation": "omit source defect",
+    "optimized": true,
+    "rejected": true
+  }
+]

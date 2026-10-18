@@ -1,0 +1,7 @@
+PASS: all 23 frozen hashes unchanged; candidate/patch hashes match.
+PASS: old program prefix byte-identical; all old field definitions AST-identical.
+PASS: public direct raise; no new top-level secondary body; owner helper only below raise.
+PASS: preterminal AST identical modulo nested owner helper name; helper differs only seed30->0.
+PASS: exact three terminals, weights1:2:1, one shared division, failure checks before reads/returns.
+PASS: six in-memory negative AST mutations rejected.
+LIMIT: no candidate/production code executed; no physical or synthetic numeric result claimed.

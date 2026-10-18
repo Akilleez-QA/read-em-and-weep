@@ -1,0 +1,43 @@
+[
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/detector-realization/raw_engine.py",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "id": "raw_engine",
+    "input_path": "raw_engine.py.txt"
+  },
+  {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "repository_path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+    "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+    "id": "source_formulas",
+    "input_path": "source-formulas.js.txt"
+  },
+  {
+    "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+    "repository_path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+    "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/first-order-source.md",
+    "id": "first_order",
+    "input_path": "first-order-source.md"
+  },
+  {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-model.json",
+    "id": "model",
+    "input_path": "model.json",
+    "repository_path": "research/hm/null-operator-compiler/hm-pinned-model.json"
+  },
+  {
+    "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+    "git_blob_sha1": "25816d9ba8699ffaf20c562d9dd8403f049ae383",
+    "sha256": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-geometric-dependencies/checks/verify_homogeneous_identities.py",
+    "id": "historical_checker",
+    "input_path": "verify_homogeneous_identities.py.txt",
+    "repository_path": "research/hm/current-scalar-geometric-dependencies/checks/verify_homogeneous_identities.py"
+  }
+]

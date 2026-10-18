@@ -1,0 +1,32 @@
+## 2. Exact HPL signs and J3 closure
+
+In the original fixed four-term resolution K of ranks(5,15,10,2), let d=d_K, E=IP and h_K be its local contraction, with
+
+    PI=1,  d h_K+h_K d=1-E,
+    h_K^2=h_K I=P h_K=0.
+
+On internal degree r put
+
+    d_End F=d F-(-1)^r F d,
+    H_r F=h_K F+(-1)^r E F h_K,
+    j(R)=I R^transpose P.
+
+Expanding the two graded products gives `d_End H+H d_End=1-j pi`; here pi(F)=P F I on internal degree0 (with the corresponding row transpose), and pi=0 in negative degrees. Both terms of H are necessary. The source-compatible projection identity is `pi_first delta j(R)=delta_row R`, using the actual transition between cohomology frames. In particular RS source closure gives the zero projected component needed to solve the first correction. This compatibility is an imported actual contraction/frame identity, not a consequence of constant abstract matrices.
+
+With D=delta+(-1)^q d_End, define
+
+    J0=jR,
+    J1=+H_0 delta J0,
+    J2=-H_-1 delta J1,
+    J3=+H_-2 delta J2.
+
+Thus J_s has bidegree(2+s,-s). The five equations follow successively:
+
+    d_End J0=0,
+    delta J0-d_End J1=0,
+    delta J1+d_End J2=0,
+    delta J2-d_End J3=0,
+    delta J3=0.
+
+For the middle steps, d_End commutes with original-frame restrictions and delta, delta²=0, and the negative-degree contraction has no cohomology projection. For the last step, `d_End delta J3=delta d_End J3=delta² J2=0`. The bottom differential is injective: an internal-3 matrix W has `d_End W=(W ev,gamma W)`; if this is zero, `H0 gamma=1` implies W=0. Hence delta J3=0. J3 is a required closure witness even though its terminal scalar value is zero.
+

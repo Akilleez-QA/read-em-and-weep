@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "equations": 375,
+  "unknowns": 250,
+  "cm_exact_integer_rank": 250,
+  "cm_nullity": 0,
+  "identity_rank": 249,
+  "identity_pair_verified": true,
+  "author_certificate_independently_replayed": true,
+  "method": "independent dense integer fraction-free elimination with gcd normalization",
+  "physical_source_evaluated": false,
+  "matrix_polynomial_products": false
+}

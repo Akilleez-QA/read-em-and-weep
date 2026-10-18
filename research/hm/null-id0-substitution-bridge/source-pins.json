@@ -1,0 +1,34 @@
+[
+  {
+    "file": "inputs/compiler.py.txt",
+    "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+    "status": "pinned original inert text"
+  },
+  {
+    "file": "inputs/raw_engine.py.txt",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "status": "pinned original inert text"
+  },
+  {
+    "file": "inputs/lift_schema.py.txt",
+    "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31",
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/transport-binding/lift_schema.py",
+    "status": "pinned original inert text"
+  },
+  {
+    "file": "inputs/program.py.txt",
+    "sha256": "ad0603264992c2dfb425451f59d183a64d139b3c25db43b7866d7683851fc62a",
+    "base_commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "status": "non-applied inert candidate, not claimed to be repository production bytes"
+  },
+  {
+    "file": "expected-context.txt",
+    "sha256": "68c0030a4598c8e21319496d3a1988cea8d8908cba909c9dcf2a7ff436087684",
+    "status": "reviewed inert method expectations"
+  }
+]

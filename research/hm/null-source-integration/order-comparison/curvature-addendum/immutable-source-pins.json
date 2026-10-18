@@ -1,0 +1,13 @@
+{
+  "directory": "research/hm/null-support-certificates",
+  "git_blobs": {
+    "hm-pinned-model.json": "fcd48a9a22d40d55ce7a08b8aefcb4eaa2fdf761",
+    "lower_permuted_standard_sector.py": "213e4cf83e5d721f64d1e76577b96212c71e580e",
+    "outer_partition_source_binding.py": "1dcb9d5e0def4fba2268f4c54de6409b137ed05e",
+    "owned_scalar_denominator_binding.py": "b1fee3ac562bce5f561adb5b6ab03103f148efa6",
+    "physical_current_source_binding.py": "558516485e0df8b7375b6d34224b2045d51184d7",
+    "preflight_selected_coefficient_support.py": "0ce28f5e7b5dbd95e026ddf72cf9acf7f5ea1e1c"
+  },
+  "ref": "ea2d1a1d2b5774984d0ad48bc15df5fa4d2e0f18",
+  "repository": "Akilleez-QA/read-em-and-weep"
+}

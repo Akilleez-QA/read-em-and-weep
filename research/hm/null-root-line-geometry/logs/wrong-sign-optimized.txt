@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./verify_one_curve.py", line 63, in <module>
+    main()
+  File "./verify_one_curve.py", line 59, in main
+    require_zero('injected_reversed_A_sign',negative['reversed_A_sign'])
+  File "./verify_one_curve.py", line 43, in require_zero
+    raise RuntimeError('Identity failed: '+name)
+RuntimeError: Identity failed: injected_reversed_A_sign

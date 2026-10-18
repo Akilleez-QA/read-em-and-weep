@@ -1,0 +1,12 @@
+{
+  "seen_result_ids": [],
+  "current_claims": {
+    "claim-1": {
+      "source_commit_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "input_artifact_hashes": {
+        "matrix.json": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      "scope_hash": "c40fb596d3990173d4ab8e406025eedb72905ce17c9dcb4e5a4c9b9cd5c08cc0"
+    }
+  }
+}

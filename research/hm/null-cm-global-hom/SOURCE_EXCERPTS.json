@@ -1,0 +1,53 @@
+{
+  "raw_engine": {
+    "original_file_sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "excerpts": {
+      "PhysicalModel._build_body": {
+        "start_line": 96,
+        "end_line": 104,
+        "text": "    def _build_body(self,ex,model):\n        require_aggregate_admission()  # direct private invocation also refuses\n        self.ex=ex;self.M=Mat(ex);self.M.model=self;self.data=model\n        self.x=[ex.x(i)for i in range(4)];self.y=[ex.y(i)for i in range(4)]\n        self.v=[ex.scalar(1)]+[ex.scalar(0)for _ in range(4)]\n        for x in self.x:\n            for j in range(4,0,-1):self.v[j]=self.v[j]+x*self.v[j-1]\n        one=[['0,0,0,0',1]]\n        self.gamma=self.matrix(model['gamma'],one);self.delta=self.matrix(model['delta'],one);self.ev=self.matrix(model['ev'],one)\n",
+        "sha256": "7c2061c9ffce3753beefa17e61cc4bcaeeeee01867cd331ea3f8978971430d1b",
+        "ast_sha256": "945e00b6138d72178d4aa9678b06ab6733a0220a5b84df140a33540e24e361a5"
+      },
+      "PhysicalModel.polynomial": {
+        "start_line": 105,
+        "end_line": 111,
+        "text": "    def polynomial(self,terms):\n        out=self.ex.scalar(0)\n        for key,c in terms:\n            e=tuple(map(int,key.split(',')));term=self.ex.scalar(Q(c))\n            for i,n in enumerate(e):term=term*power(self.v[i+1],n)\n            out=out+term\n        return out\n",
+        "sha256": "aa079000dc65b63123ae02107a1634c62a969bb7329b2a86a393756b88cc03e6",
+        "ast_sha256": "c059ddd6b5758a2d40a84df41897979a1834f0348bc285321fdd300d78645728"
+      },
+      "PhysicalModel.matrix": {
+        "start_line": 112,
+        "end_line": 114,
+        "text": "    def matrix(self,a,den):\n        inv=self.polynomial(den).inverse()\n        return tuple(tuple(self.polynomial(p)*inv for p in row)for row in a)\n",
+        "sha256": "5e4c486b15497f2bccbbbe256d48e3c9f47eb8e9d56ceb51f5295a08682929ac",
+        "ast_sha256": "ce79601a0c7c8c260e2f9332bc2a89c0a988f8c92cd45f27db86f3fe1ad8c1d3"
+      },
+      "PhysicalModel.primitive": {
+        "start_line": 115,
+        "end_line": 124,
+        "text": "    @lru_cache(maxsize=None)\n    def primitive(self,c):\n        ch=self.data['charts'][c];out={k:self.matrix(ch[k],ch[d])for k,d in [('I','di'),('P','dp'),('H0','dh'),('H1','dh')]}\n        p=ch['pivot'];W=[list(r)for r in self.M.zero(10,8)];eta=[list(r)for r in self.M.zero(10,2)];L=[list(r)for r in self.M.zero(8,10)]\n        for h in range(2):\n            eta[h*5+p][h]=self.v[p].inverse()\n            for k in range(1,5):\n                kk=(p+k)%5;col=h*4+k-1\n                W[h*5+kk][col]=self.ex.scalar(1);W[h*5+p][col]=-self.v[kk]/self.v[p];L[col][h*5+kk]=self.ex.scalar(1)\n        out.update(W=tuple(map(tuple,W)),eta=tuple(map(tuple,eta)),L=tuple(map(tuple,L)));return out\n",
+        "sha256": "1c61cf6ab12c165ada1972028bbb8945203a8ed8b6e47ca03ec4baed1bc736c6",
+        "ast_sha256": "b8e029537d73475fa54959022329bb8e87a3ed39222028210d6842d962d16c4c"
+      }
+    }
+  },
+  "curve": {
+    "original_file_sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+    "lines_155_158": "    def curve(self, i):\n        x = self.xpoly(i)\n        return x * x * x - x\n"
+  },
+  "homogeneous": {
+    "original_file_sha256": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf",
+    "start_line": 10,
+    "end_line": 18,
+    "text": "def hom(p,D):return S.Integer(0)+sum(S.Integer(c)*v[0]**(D-sum(es))*S.prod(v[i+1]**e for i,e in enumerate(es)) for k,c in p for es in [list(map(int,k.split(',')))])\ndef rat(p,d,w):\n if not p:return S.Integer(0)\n D=deg(d);e=max(0,deg(p)-D-w)\n return S.cancel(hom(p,D+e+w)/(v[0]**e*hom(d,D)))\ndef primitive(c,k):\n den=c[{'I':'di','P':'dp','H0':'dh','H1':'dh'}[k]]\n return S.Matrix([[rat(p,den,([0,1][j] if k=='I' else [0,-1][i] if k=='P' else -1)) for j,p in enumerate(row)] for i,row in enumerate(c[k])])\nregular={k:S.Matrix([[hom(p,1) for p in row] for row in MODEL[k]]) for k in ['gamma','delta','ev']}\n",
+    "sha256": "04104788296153b801dd7a05d43ed72b9afb781c974be1b4582b8990ae546846"
+  },
+  "ambient": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+    "original_file_sha256": "395e18b7f00a1ca7f29cd0cb84f5fbe2fc2a250d68effe60cd35aa61162dfc46",
+    "start_line": 1,
+    "end_line": 24,
+    "text": "# The declared ambient second jet\n\n## 1. Problem and conventions\n\nWork over a characteristic-zero field containing the coefficients, or over\nthe complex numbers. Put `R=k[h]/(h^3)` and let `X=C^4`, where `C` is the\nsmooth projective completion of `y^2=x^3-x`. The bundle in question is the\nsole degree-zero cohomology `E` of\n\n\\[\nK=[5N^{-1}\\xrightarrow{\\gamma}15N\\xrightarrow{\\delta_K}10N^3\n\\xrightarrow{\\mathrm{ev}}2N^5],\\qquad N=\\mathcal O_X(\\Theta),\n\\]\n\nin degrees `(-1,0,1,2)`. Shifting all four degrees by one, as in the scalar\nproof, leaves End degrees and the scalar labels unchanged. The actual\nmatrices and local contractions are those in the geometric dependency.\nThe signed determinant exponent is `5+15-30+10=0`, and `E` has rank two.\n\nThe task is to lift this classical bundle, with the explicit first-order\nlift in [the source proof](first-order-source.md), to a left module for the\nspecific ambient algebroid through order `h\u00b2`. This is a declared deformation\nproblem; it does not identify every alternative presentation of an earlier\ndeformation problem with this one.\n"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "full_composition_mechanically_verified": false,
+  "geometric_premises_discharged": false,
+  "negative_model_mutation_rejected": true,
+  "negative_pin_rejected": true,
+  "negative_selector_mutation_rejected": true,
+  "physical_evaluation": false,
+  "polynomial_products": 0,
+  "production_imports": false,
+  "scope": "bundled selector source AST and pinned model literals only",
+  "selector_identity": "four scalar terms cancel by commutativity, as proved in PROOF.md",
+  "status": "PASS"
+}

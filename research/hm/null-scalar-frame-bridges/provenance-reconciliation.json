@@ -1,0 +1,29 @@
+{
+  "scope": "Byte-level provenance reconciliation only; no production execution or semantic verification. Original hash-only entries resolved against retained commit-pinned fetch records; SHA-256, byte length, and Git blob identifiers independently recomputed from the source bytes. No network re-fetch performed.",
+  "records": [
+    {
+      "id": "field",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "repository_path": "research/codex-swarm/exact-curve-field/field.py",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/exact-curve-field/field.py",
+      "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+      "git_blob": "cd7bd6868d882cd016955c3bfd11abe5bfd3a0a4",
+      "bytes": 15366,
+      "sha256_matches_original_pin": true,
+      "sha256_matches_retained_fetch_record": true,
+      "git_blob_recomputed_matches_retained_fetch_record": true
+    },
+    {
+      "id": "compiler",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "repository_path": "research/codex-swarm/scalar-compiler/compiler.py",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+      "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+      "bytes": 22498,
+      "sha256_matches_original_pin": true,
+      "sha256_matches_retained_fetch_record": true,
+      "git_blob_recomputed_matches_retained_fetch_record": true
+    }
+  ]
+}

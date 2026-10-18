@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "production_execution": false,
+  "tests": [
+    {
+      "mode": "normal",
+      "checker": "scalar",
+      "case": "unaltered packaged checker",
+      "exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "normal",
+      "checker": "frame",
+      "case": "unaltered packaged checker",
+      "exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "normal",
+      "checker": "scalar",
+      "case": "deliberately incorrect raw-engine pin",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "normal",
+      "checker": "frame",
+      "case": "deliberately incorrect raw-engine pin",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "normal",
+      "checker": "scalar",
+      "case": "deliberately incorrect expected gerbe coefficient",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "optimized",
+      "checker": "scalar",
+      "case": "unaltered packaged checker",
+      "exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "optimized",
+      "checker": "frame",
+      "case": "unaltered packaged checker",
+      "exit_code": 0,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "optimized",
+      "checker": "scalar",
+      "case": "deliberately incorrect raw-engine pin",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "optimized",
+      "checker": "frame",
+      "case": "deliberately incorrect raw-engine pin",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    },
+    {
+      "mode": "optimized",
+      "checker": "scalar",
+      "case": "deliberately incorrect expected gerbe coefficient",
+      "exit_code": 1,
+      "expected_outcome_verified": true
+    }
+  ]
+}

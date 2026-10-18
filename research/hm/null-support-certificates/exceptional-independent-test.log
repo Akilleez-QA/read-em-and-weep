@@ -1,0 +1,16 @@
+test_current_ast_all_exceptional_carrier_sectors (test_exceptional_carrier_sector.ExceptionalCarrierTests.test_current_ast_all_exceptional_carrier_sectors) ... ok
+test_denominators_and_transpose_selector (test_exceptional_carrier_sector.ExceptionalCarrierTests.test_denominators_and_transpose_selector) ... ok
+test_independent_domain (test_exceptional_carrier_sector.ExceptionalCarrierTests.test_independent_domain) ... ok
+test_mask_and_order_guards (test_exceptional_carrier_sector.ExceptionalCarrierTests.test_mask_and_order_guards) ... ok
+test_all_standard_permutations_exceptional_selector (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_all_standard_permutations_exceptional_selector) ... ok
+test_domain_by_cartesian_product_and_full_keys (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_domain_by_cartesian_product_and_full_keys) ... ok
+test_full_seed_has_uncovered_sorted_standard_permutations (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_full_seed_has_uncovered_sorted_standard_permutations) ... ok
+test_partition_does_not_build_currents_or_clear_denominators (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_partition_does_not_build_currents_or_clear_denominators) ... ok
+test_pinned_model_and_certificate_bridge_without_execution (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_pinned_model_and_certificate_bridge_without_execution) ... ok
+test_primary_artifact_hash_bridge (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_primary_artifact_hash_bridge) ... ok
+test_selector_orientation_and_all_four_arbitrary_entries (test_exceptional_carrier_independent.ExceptionalIndependentTests.test_selector_orientation_and_all_four_arbitrary_entries) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 9.046s
+
+OK

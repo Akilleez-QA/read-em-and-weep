@@ -1,0 +1,19 @@
+{
+  "character_chart_cases": 256,
+  "general_gauge_correction_terms": 2,
+  "kernel_bound": [
+    17,
+    9
+  ],
+  "ordinary_weight_slack": [
+    18,
+    13
+  ],
+  "owner_incidence_cases": 2,
+  "primitive_bound": [
+    36,
+    16
+  ],
+  "scope": "Formal declared-rule and integer controls only; no actual model data or geometric source verification.",
+  "status": "PASS"
+}

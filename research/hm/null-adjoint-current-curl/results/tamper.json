@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "rejections": 16,
+  "controls": [
+    {
+      "target": "branches.json",
+      "mutation": "\"axis\": 0",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "branches.json",
+      "mutation": "\"axis\": 0",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "inputs/compiler.py.txt",
+      "mutation": "Q(-1,4)",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "inputs/compiler.py.txt",
+      "mutation": "Q(-1,4)",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "inputs/raw_engine.py.txt",
+      "mutation": "class RawSource",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "inputs/raw_engine.py.txt",
+      "mutation": "class RawSource",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "dependencies/source-adjoint-proof.md",
+      "mutation": "seven",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "dependencies/source-adjoint-proof.md",
+      "mutation": "seven",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "Q(1,4));kik",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "Q(1,4));kik",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "newjk=add(scale(KderL,Q(-1,2))",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "newjk=add(scale(KderL,Q(-1,2))",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "newij=add(scale(KderU,Q(1,2))",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "newij=add(scale(KderU,Q(1,2))",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "cU,scale(add(BU,M),-1)",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "target": "check.py",
+      "mutation": "cU,scale(add(BU,M),-1)",
+      "optimized": true,
+      "rejected": true
+    }
+  ]
+}

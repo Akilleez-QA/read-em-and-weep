@@ -1,0 +1,162 @@
+[
+  {
+    "pair": [
+      0,
+      1
+    ],
+    "scalar_pair": [
+      2,
+      3
+    ],
+    "axis": 0,
+    "current": [
+      "L",
+      1
+    ],
+    "edge": "jk",
+    "coefficient": [
+      1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      0,
+      1
+    ],
+    "scalar_pair": [
+      2,
+      3
+    ],
+    "axis": 1,
+    "current": [
+      "L",
+      0
+    ],
+    "edge": "jk",
+    "coefficient": [
+      -1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      0,
+      1
+    ],
+    "scalar_pair": [
+      2,
+      3
+    ],
+    "axis": 1,
+    "current": [
+      "U",
+      0
+    ],
+    "edge": "ij",
+    "coefficient": [
+      1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      0,
+      1
+    ],
+    "scalar_pair": [
+      2,
+      3
+    ],
+    "axis": 0,
+    "current": [
+      "U",
+      1
+    ],
+    "edge": "ij",
+    "coefficient": [
+      -1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      2,
+      3
+    ],
+    "scalar_pair": [
+      0,
+      1
+    ],
+    "axis": 2,
+    "current": [
+      "L",
+      3
+    ],
+    "edge": "jk",
+    "coefficient": [
+      1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      2,
+      3
+    ],
+    "scalar_pair": [
+      0,
+      1
+    ],
+    "axis": 3,
+    "current": [
+      "L",
+      2
+    ],
+    "edge": "jk",
+    "coefficient": [
+      -1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      2,
+      3
+    ],
+    "scalar_pair": [
+      0,
+      1
+    ],
+    "axis": 3,
+    "current": [
+      "U",
+      2
+    ],
+    "edge": "ij",
+    "coefficient": [
+      1,
+      2
+    ]
+  },
+  {
+    "pair": [
+      2,
+      3
+    ],
+    "scalar_pair": [
+      0,
+      1
+    ],
+    "axis": 2,
+    "current": [
+      "U",
+      3
+    ],
+    "edge": "ij",
+    "coefficient": [
+      -1,
+      2
+    ]
+  }
+]

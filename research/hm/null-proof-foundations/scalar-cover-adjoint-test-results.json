@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "scope": "formal finite chains and coefficient indices only",
+  "counts": {
+    "AW_reverse_path_edges": 120,
+    "rectangle_cone_boundary_edges": 120,
+    "five_triangle_bounds": 120,
+    "raw_request_bound_checks": 150000,
+    "weighted_prism_identity_entries": 69,
+    "two_branch_prism_entries": 24
+  },
+  "maxima_on_test_domain": {
+    "k_nonzero_triangles": 5,
+    "pair12_raw_paths": 6,
+    "pair34_raw_paths": 12
+  },
+  "witnesses": {
+    "pair12_raw_paths": {
+      "edge": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "exponents": [
+        0,
+        -3,
+        -3,
+        -3
+      ]
+    },
+    "pair34_raw_paths": {
+      "edge": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "exponents": [
+        0,
+        0,
+        -1,
+        -3
+      ]
+    }
+  },
+  "total_checks": 150453
+}

@@ -1,0 +1,106 @@
+{
+  "actual_factorization_accepted": false,
+  "anchor_counts": {
+    "0": 42800,
+    "5": 63536
+  },
+  "authentication": {
+    "contraction_certificate": {
+      "canonical_model_sha256": "b6b532c4bab5787397a4cddde34210c12fae71853b30cb73ecbe8a9c2b4826b2",
+      "files_sha256": {
+        "pinned-homogeneous-identities.json": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018",
+        "pinned-verify-homogeneous-identities.py.txt": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf"
+      },
+      "git_blobs": {
+        "pinned-homogeneous-identities.json": "e55dae1fccef9b66bd5735b04fc09bd5590180fc",
+        "pinned-verify-homogeneous-identities.py.txt": "25816d9ba8699ffaf20c562d9dd8403f049ae383"
+      },
+      "historical_checker_executed_now": false,
+      "identities": {
+        "E_identity": 1350,
+        "P_I": 24,
+        "P_gamma": 60,
+        "delta_I": 120
+      },
+      "proof_specialization": "E_b=Id-gamma H0_b-H1_b delta; P_a gamma=0; delta I_a=0; P_a I_a=Id",
+      "status": "existing pinned source certificate verified by read-only provenance and canonical model binding"
+    },
+    "denominators": {
+      "0": "-h0= v1*v2*v3*v4 - 1",
+      "5": "-v1*a=-v1^2*v3*v4"
+    },
+    "literal_zero_carriers": [
+      0,
+      5
+    ],
+    "model_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "outer_sources": [
+      {
+        "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+        "file": "outer-pinned-source-identity.md",
+        "git_blob": "7e12e8c7479427db87cd496763f5f003005af9c5",
+        "sha256": "2a5ff3f10eaaba3598aee22f654a6b48c888d8858e89b35d4f47ab28facea939"
+      },
+      {
+        "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+        "file": "outer-pinned-frames-and-poles.md",
+        "git_blob": "46470b5a7198be2f8c39f9cb5f5a904ae355ec97",
+        "sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916"
+      }
+    ],
+    "pivot": "Both exceptional charts have pivot 0; v0=1 on the finite chart.",
+    "selected_column": 6,
+    "unit_proof": "On D(a), v1 is a unit: inverse(v1)=v0*v3*v4/a; on the global finite chart v0=1. No additional localization."
+  },
+  "counts": {
+    "exceptional_outer_literal_zero": 101962,
+    "exceptional_outer_not_structurally_zero": 4374,
+    "exceptional_selected_contraction_zero": 106336,
+    "full": 152096,
+    "prior_primary": 45760,
+    "remaining_exceptional": 106336,
+    "unresolved_exceptional": 0
+  },
+  "execution_release": false,
+  "held_limits": {
+    "private_resource_configuration_omitted": true
+  },
+  "overlap_semantics": "No support overlap is labelled nonzero; all exceptional tuples vanish by an exact matrix-column identity.",
+  "physical_polynomial_evaluation": false,
+  "physical_polynomial_expansion": false,
+  "physical_products_spent": 0,
+  "potentially_active_carrier_sectors": {
+    "0,0,4": 320,
+    "0,1,4": 512,
+    "0,2,4": 512,
+    "0,3,4": 512,
+    "5,0,4": 512,
+    "5,1,4": 512,
+    "5,2,4": 512,
+    "5,3,4": 512,
+    "5,5,4": 320,
+    "5,5,5": 150
+  },
+  "proof": "Every exceptional-containing increasing triple starts at star5 or carrier0. For either anchor, P[w][6]=0 for w=0,1 in the authenticated source, so sum_u,w I[12][u] tf(R)[w][u] P[w][6]=0 for every current R. This is the full transpose contraction, before scalar edge or outer multiplication.",
+  "schema": "exceptional-carrier-domain-v1",
+  "scope": {
+    "kernel": "E12",
+    "not_covered": "E34, other seeds, rows, staircases, and global factorization",
+    "ordering_provenance": "fresh consistent source definition; fresh_source_order_contract.py; no historical value import or newly authenticated historical mask ordering",
+    "row": 2,
+    "seed": 4,
+    "source_carrier_order": [
+      5,
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "standards": [
+      3,
+      11,
+      15
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "actual_polynomial_products": false,
+  "candidate_identical_core_methods": 53,
+  "checks": 918,
+  "mutations_rejected": [
+    "xor-to-or",
+    "overlap-to-union",
+    "basis-sign",
+    "missing-half",
+    "missing-basis-toggle",
+    "quotient-sign",
+    "quotient-denominator",
+    "coefficient-exponent",
+    "jet-reset",
+    "jet-reversed"
+  ],
+  "physical_evaluation": false,
+  "production_imports": false,
+  "reference_methods": [
+    "Element.V",
+    "Element.__mul__",
+    "Element.jet",
+    "Execution.curve",
+    "Execution.xpoly",
+    "Execution.y",
+    "Poly.partial",
+    "Rational.partial"
+  ],
+  "scope": "Static AST contracts and invented free differential-symbol controls, not a mechanized proof of prose or a production run",
+  "status": "PASS"
+}

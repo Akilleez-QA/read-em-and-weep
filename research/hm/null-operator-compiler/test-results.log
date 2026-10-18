@@ -1,0 +1,72 @@
+test_abstract_laurent_lowering_matches_independent_coefficients (__main__.KernelTests.test_abstract_laurent_lowering_matches_independent_coefficients) ... ok
+test_actual_admission_stays_closed (__main__.KernelTests.test_actual_admission_stays_closed) ... ok
+test_all_seed_owner_sign_coverage (__main__.KernelTests.test_all_seed_owner_sign_coverage) ... ok
+test_denominator_term_cannot_be_dropped (__main__.KernelTests.test_denominator_term_cannot_be_dropped) ... ok
+test_full_formal_branch_four_terms (__main__.KernelTests.test_full_formal_branch_four_terms) ... ok
+test_normal_order_arbitrary_functions (__main__.KernelTests.test_normal_order_arbitrary_functions) ... ok
+test_physical_frame_conjugation_and_four_terms (__main__.KernelTests.test_physical_frame_conjugation_and_four_terms) ... ok
+test_scalar_types_fail_closed (__main__.KernelTests.test_scalar_types_fail_closed) ... ok
+test_selected_serialized_ast_against_direct_E (__main__.KernelTests.test_selected_serialized_ast_against_direct_E) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 6.314s
+
+OK
+...........
+----------------------------------------------------------------------
+Ran 11 tests in 0.165s
+
+OK
+test_asymmetric_mask_and_standard_decoders (__main__.BindingTests.test_asymmetric_mask_and_standard_decoders) ... ok
+test_canonical_star_carrier_is_five_not_sort_key (__main__.BindingTests.test_canonical_star_carrier_is_five_not_sort_key) ... ok
+test_character_conversion_rejects_noncomplementary (__main__.BindingTests.test_character_conversion_rejects_noncomplementary) ... ok
+test_choice_derivative_keeps_full_discrete_owner (__main__.BindingTests.test_choice_derivative_keeps_full_discrete_owner) ... ok
+test_complete_labels_and_denominator_shape (__main__.BindingTests.test_complete_labels_and_denominator_shape) ... ok
+test_elementary_structure_without_expansion (__main__.BindingTests.test_elementary_structure_without_expansion) ... ok
+test_inventory_is_bound_for_every_branch (__main__.BindingTests.test_inventory_is_bound_for_every_branch) ... ok
+test_product_power_derivative_abstract (__main__.BindingTests.test_product_power_derivative_abstract) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 3.208s
+
+OK
+.........
+----------------------------------------------------------------------
+Ran 9 tests in 5.755s
+
+OK
+test_exact_public_rebuild (__main__.PublicTests.test_exact_public_rebuild) ... ok
+test_no_external_runtime_imports (__main__.PublicTests.test_no_external_runtime_imports) ... ok
+test_public_provenance (__main__.PublicTests.test_public_provenance) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.487s
+
+OK
+test_all_owner_ledgers_and_eta (__main__.BindingTests.test_all_owner_ledgers_and_eta) ... ok
+test_all_paths_against_direct_cech_J (__main__.BindingTests.test_all_paths_against_direct_cech_J) ... ok
+test_binding_mutations (__main__.BindingTests.test_binding_mutations) ... ok
+test_canonical_carriers_and_bits (__main__.BindingTests.test_canonical_carriers_and_bits) ... ok
+test_negative_inputs (__main__.BindingTests.test_negative_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 5.128s
+
+OK
+........
+----------------------------------------------------------------------
+Ran 8 tests in 0.018s
+
+OK
+test_blocked_rational_branches (__main__.IndependentSelectedDemandAudit.test_blocked_rational_branches) ... ok
+test_exact_ahs_families (__main__.IndependentSelectedDemandAudit.test_exact_ahs_families) ... ok
+test_frame_and_signs (__main__.IndependentSelectedDemandAudit.test_frame_and_signs) ... ok
+test_homogeneous_degrees_and_E_signs (__main__.IndependentSelectedDemandAudit.test_homogeneous_degrees_and_E_signs) ... ok
+test_wrong_frame_and_double_normalization (__main__.IndependentSelectedDemandAudit.test_wrong_frame_and_double_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.015s
+
+OK
+PASS: byte-identical public artifacts; all abstract and metadata controls passed.
+No physical polynomial evaluation, full-domain Laurent admission, or obstruction value is established.

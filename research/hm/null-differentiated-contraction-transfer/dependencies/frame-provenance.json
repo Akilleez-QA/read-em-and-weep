@@ -1,0 +1,48 @@
+[
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/detector-realization/raw_engine.py",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "id": "raw_engine"
+  },
+  {
+    "commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+    "repository_path": "research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+    "sha256": "c4f65ff831092d0e56b3e33a0357f44182169fda45943ea780c8c551b4023f94",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/10810ee877fdaf291399198ad60d7dd0c316a42d/research/hm/null-operator-compiler/hm-pinned-source-formulas.js",
+    "id": "source_formulas"
+  },
+  {
+    "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+    "repository_path": "research/hm/current-scalar-residual-attribution/first-order-source.md",
+    "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/first-order-source.md",
+    "id": "first_order"
+  },
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/source-boundary-analysis/actual-raw-s-denotation.json",
+    "sha256": "9e8108dade2291fed3c58ef6dd39025bf059fbb1af3592922f1925ea42d99989",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/actual-raw-s-denotation.json",
+    "id": "denotation"
+  },
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/exact-curve-field/field.py",
+    "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/exact-curve-field/field.py",
+    "id": "field",
+    "git_blob": "cd7bd6868d882cd016955c3bfd11abe5bfd3a0a4",
+    "bytes": 15366
+  },
+  {
+    "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+    "repository_path": "research/codex-swarm/scalar-compiler/compiler.py",
+    "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+    "id": "compiler",
+    "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+    "bytes": 22498
+  }
+]

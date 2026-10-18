@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "first_order_tetrahedron": true,
+  "mixed_bianchi_exact": true,
+  "arbitrary_gerbe_anomaly_terms": 8,
+  "complementary_support_closure": true,
+  "omitted_gerbe_mutation_rejected": true,
+  "traceless_noncentral_countercontrol": true,
+  "anomaly_sign_mutation_rejected": true,
+  "mixed_coefficient_mutation_rejected": true,
+  "word_order_control": true,
+  "production_imports": false,
+  "physical_evaluations": false
+}

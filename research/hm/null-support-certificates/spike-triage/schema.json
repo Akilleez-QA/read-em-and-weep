@@ -1,0 +1,224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Structural companion only. triage.validate adds mandatory cross-field safeguards. Neither certifies mathematical truth.",
+  "type": "object",
+  "required": [
+    "result_id",
+    "worker_identity",
+    "claim_id",
+    "parent_claim",
+    "source_commit_hash",
+    "input_artifact_hashes",
+    "scope",
+    "scope_relation",
+    "conclusion_kind",
+    "hypotheses",
+    "proof_artifacts",
+    "test_commands",
+    "receipts",
+    "evidence_kind",
+    "execution_status",
+    "eliminates_family",
+    "review",
+    "changed_claim",
+    "unresolved_obligation",
+    "next_discriminating_test"
+  ],
+  "properties": {
+    "result_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "worker_identity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "claim_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_claim": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_commit_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"
+    },
+    "input_artifact_hashes": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "minLength": 1
+      },
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "domain",
+        "quantifiers",
+        "restrictions",
+        "family"
+      ],
+      "properties": {
+        "domain": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quantifiers": {
+          "type": "string",
+          "minLength": 1
+        },
+        "restrictions": {
+          "type": "string",
+          "minLength": 1
+        },
+        "family": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "scope_relation": {
+      "enum": [
+        "same",
+        "narrower",
+        "broader",
+        "new"
+      ]
+    },
+    "conclusion_kind": {
+      "enum": [
+        "blocker",
+        "candidate_overlap",
+        "counterexample",
+        "proved_zero",
+        "proven_nonzero"
+      ]
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "proof_artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "test_commands": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "receipts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "evidence_kind": {
+      "enum": [
+        "proof",
+        "support_overlap_only",
+        "computation",
+        "none"
+      ]
+    },
+    "execution_status": {
+      "enum": [
+        "completed",
+        "not_run",
+        "resource_failure"
+      ]
+    },
+    "eliminates_family": {
+      "type": "boolean"
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status",
+        "reviewer_identity",
+        "reviewer_independence"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "accepted",
+            "needs_review",
+            "pending",
+            "rejected"
+          ]
+        },
+        "reviewer_identity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reviewer_independence": {
+          "type": "boolean"
+        },
+        "review_receipt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "changed_claim": {
+      "type": "string",
+      "minLength": 1
+    },
+    "unresolved_obligation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "next_discriminating_test": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}

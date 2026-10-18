@@ -1,0 +1,19 @@
+{
+  "actual_polynomial_products": false,
+  "candidate_operational_result": "unconditional refusal",
+  "expected_context_verified": true,
+  "formal_response_additivity_controls": 9,
+  "geometric_denotation": "not established",
+  "mathematical_result": "fixed-context substitution under exact semantics; see proof and review",
+  "negative_pin_rejected": true,
+  "negative_source_pattern_rejected": true,
+  "original_88_input_checks_reproduced": false,
+  "physical_evaluation": false,
+  "primitive_frame_and_terminal_theorems": "cited premises, not rechecked here",
+  "production_imports": false,
+  "publication_or_patch_application": false,
+  "reviewed_complete_method_asts": 26,
+  "source_execution": false,
+  "source_texts_verified": 4,
+  "status": "PASS narrow section-3 static checks only"
+}

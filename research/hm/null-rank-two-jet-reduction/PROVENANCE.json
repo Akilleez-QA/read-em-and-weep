@@ -1,0 +1,62 @@
+{
+  "scope": "Exact supplied local source snapshots; byte integrity is not remote authentication or geometric premise verification. No remote source fetch was performed by this audit.",
+  "context_only": {
+    "reported_PR1_comment": "6250367808",
+    "independently_remote_authenticated": false
+  },
+  "sources": [
+    {
+      "bundled_path": "dependencies/current-kernels.md",
+      "source_record": "m0-current-selected-kernels.md",
+      "source_sha256": "d962f0301898ad54fc11ee19c22665bcf3ed2000ae9f4a47031b67f30f68d484",
+      "excerpt_end_exclusive": null,
+      "bundled_sha256": "d962f0301898ad54fc11ee19c22665bcf3ed2000ae9f4a47031b67f30f68d484",
+      "supplied_public_copy": "research/hm/null-proof-foundations/m0-current-selected-kernels.md"
+    },
+    {
+      "bundled_path": "dependencies/quartic.md",
+      "source_record": "rsharp-quartic-current-remainder.md",
+      "source_sha256": "6b04b83c846935e1f175906fdf3bc0f3e7b94353eb42ee1ffda35b75587f07f3",
+      "excerpt_end_exclusive": null,
+      "bundled_sha256": "6b04b83c846935e1f175906fdf3bc0f3e7b94353eb42ee1ffda35b75587f07f3",
+      "supplied_public_copy": "research/hm/null-proof-foundations/rsharp-quartic-current-remainder.md"
+    },
+    {
+      "bundled_path": "dependencies/baseline-audit.md",
+      "source_record": "m0-baseline-independent-audit.md",
+      "source_sha256": "0545cafae089f796952b89efc3b095c76734afe1f084dcc747d705dba9a19e18",
+      "excerpt_end_exclusive": "## Concrete circuit audit",
+      "bundled_sha256": "4b7085927999381a8cce3fd38a63607349e8c227a86f72353822a93f4472dfff",
+      "supplied_public_copy": "research/hm/null-proof-foundations/m0-baseline-independent-audit.md"
+    },
+    {
+      "bundled_path": "dependencies/current-audit.md",
+      "source_record": "m0-current-kernel-independent-audit.md",
+      "source_sha256": "da5b50265a6845ec239a17f5f72751607b1135acf90661bf8129f006b77d789e",
+      "excerpt_end_exclusive": null,
+      "bundled_sha256": "da5b50265a6845ec239a17f5f72751607b1135acf90661bf8129f006b77d789e"
+    },
+    {
+      "bundled_path": "dependencies/complete-normal-form.md",
+      "source_record": "RESULT.md",
+      "source_sha256": "008e5611d189dac5d32c130dfa55cf3c9c0ea5a3cabaaa1343ead6c9bd1ef3fd",
+      "excerpt_end_exclusive": "## 2.",
+      "bundled_sha256": "1745172e1b19dbb3935358c0109ddb56c2320f45374bb7e8bb810a75929c1637"
+    },
+    {
+      "bundled_path": "dependencies/corrected-full-sign.md",
+      "source_record": "PROOF.md",
+      "source_sha256": "e43de2abc2838f2d5e31c3fd45fc9517c963e3ad9c8a605f00ec62b50263bab9",
+      "excerpt_end_exclusive": null,
+      "bundled_sha256": "e43de2abc2838f2d5e31c3fd45fc9517c963e3ad9c8a605f00ec62b50263bab9"
+    },
+    {
+      "bundled_path": "dependencies/common-frame-correction.md",
+      "source_record": "COMMON_FRAME_CORRECTION.md",
+      "source_sha256": "a88442758260f080d7c5c6d871b27522a60263cec6a8669e3956d63d7ff71bc7",
+      "excerpt_end_exclusive": null,
+      "bundled_sha256": "a88442758260f080d7c5c6d871b27522a60263cec6a8669e3956d63d7ff71bc7"
+    }
+  ],
+  "audit_note": "Public foundation copies differ from older working records only in packaging/context prose, not the formulas audited here."
+}

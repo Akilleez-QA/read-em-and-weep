@@ -1,0 +1,73 @@
+# TR-R independent source-bound review
+
+Verdict: the handed-off **conditional metadata/template binding is consistent with the inspected sources and passes the bounded controls below**. This is not acceptance of an actual source binding, coefficient realization, historical-source identification, or execution release. No unresolved producer defect was found within that declared template scope. The complete-source/closed-lift and source-order registry slots remain pending, and the admission function has no success path even if they were populated later.
+
+Only `test_independent.py` and this review were written by TR-R. No commits, pushes, GitHub writes, detector-selection runs, seed-4 scans, physical-source imports/evaluation/expansion, large oracle, or partition expansion were performed. No new universal transport theorem or duplicate null contract was produced.
+
+## Independent expectations and semantic findings
+
+The initial eight source pins were read before developing the controls; the seven newly supplied null-contract pins were then inspected before handoff review. Git objects were read with `git show <commit>:<path>`; no network retrieval was required. The exact source pins are recorded below.
+
+1. **Closure, degrees and signs.** With source K ranks (5,15,10,2), internal -2 blocks are X02:K2→K0 (5×10) and X13:K3→K1 (15×2). Internal -3 is W:K3→K0 (5×2); its incoming differential has blocks (W ev, gamma W). The historical L=X02[0,0]−X13[10,0] annihilates this differential by the two pinned v0 row identities. This historical L is the negative of the family's L_(10,0); its extra sign must not be imported into the family convention. The handed-off lift has bidegrees (2,0),(3,-1),(4,-2),(5,-3), recursion signs +,+,−,+, and homotopy input degrees 0,−1,−2. Thus δJ2=d_End J3 and L d_End=0 give δLJ2=0. J3's zero terminal tensor contribution does not remove its closure obligation. All five equations, including δJ3=0, are required structurally. Synthetic D-boundary controls independently give nonzero J3, nonzero δJ2 and a nonzero scalar boundary; deleting or negating J3 breaks closure.
+
+2. **Frames and derivatives.** The scalar map source requires same original resolution frames before L, removal of the common deck product once, and tau^(r−2), hence tau^-4 at r=−2. The handoff puts conversion before L and binds its count, exponent and transpose. Independent artificial row-inclusion covariance checks retain R^t, matching transformed I/P and a nonsymmetric determinant-one frame. Double movement and omission of the transpose change the result. Separate exact rational controls check the tau cocycle, double conversion and missing deck removal. The artificial jet product control keeps frozen N' = 0 while retaining moving Q'; neither differentiating N nor freezing Q gives the correct derivative. These controls do not execute a physical frame derivative; the actual adapter is absent. The source-backed first-current lemma explicitly retains Q_b A−A Q_a and transported U, so its scoped registration is justified without dropping moving frames.
+
+3. **Owners and standard units.** The source requires the same r(v)=standard tag throughout. Carrier/legal charges remain at actual occurrences; equal polynomial factors do not authorize owner transfer. The code independently checks five-field integer occurrence owners, retained outer prefix weights, source-sorting parity and membership of every owner standard tag in the target. It also requires a whole-lift/all-prism/restriction extension reference on that STANDARD target, with matching owner/tag ledgers. A common-localization-only statement is rejected. This matches the conditional null theorem; it does not prove that any concrete coefficient extends. The synthetic wrong-projection and lost-prefix negatives reach these checks before pending-adapter rejection.
+
+4. **Complete source.** Rsharp retains M0^0 (the full gerbe-corrected baseline), both Fk terms and both E(TF) terms. The pinned reduction identifies the complete corrected closed representative with the actual closed residual modulo the displayed coboundary, under its scalar equations and source identity. It does not declare M0 or individual directional terms closed. The template's five branch names, gerbe metadata and exact lift schema preserve this distinction, but they are not actual authenticated coefficients or a proof of their scalar equations. Projecting an E-only input is rejected rather than substituted for the complete source.
+
+5. **Imported conditional contracts.** Null's all-row theorem at 43193bc8badf3f29a1363132135d956cc12d46ad proves one source-independent operator on its witnessed whole-source standard-target domain, not that this package supplies those witnesses. Its 54/29/5251 full-lift domain and J2 48/26 bound agree with the fresh ledger; no old scalar v0/h_j allocation, four-tail simplification, cost bound, or 78-seed circuit is transferred. The new first-current proof covers the first L/U wrappers and specifically eight seed12/30 E34 requests; its registry scope excludes M0 and raw second jets. This review imports these exact contracts and their prior reviews instead of re-proving them.
+
+6. **Combined poles and order.** At 10810ee877fdaf291399198ad60d7dd0c316a42d the combined-pole certificate proves a generic complete-sum numerator/derivative identity while explicitly leaving actual source clearing false. The template preserves that distinction and the 14/1/5250→15/2/5251 derivative bounds. The derivative applies after certified regularization, not to independently admitted raw Leibniz pieces. At the same pin the order-comparison note distinguishes genuine alternating reindexing from rebuilding the directional cup operator, with a curvature defect. The packet requires an actual source-definition/order proof reference; fresh versus historical labels require a full comparison kind. Sorting alone, or a directional zero, is not equality of sources. No historical order was authenticated here.
+
+7. **Coefficient target versus realization.** The conditional family source-HPL formula has the J2 minus exactly once, retains J0/J1 in its construction and J3 in the proof, and uses the reversed adjoint with first owners retained before face deletion. The 32 request records, 127 listed terms and 121 distinct map/exponent pairs are request metadata. The J2 degree 28036 and envelope [-38070,61421]^4 are conservative support slots, not authenticated occupied support, leaf-demand counts or allocations. No coefficient lowering, source numerator realization, full cost ledger or memory schedule exists here. Well-formed fake proof hashes are insufficient: exact registered adapters are required, pending source slots reject, and the function ultimately still refuses admission.
+
+## Findings during staging
+
+Before the marker, the provisional `operator_order` placed original-frame/deck conversion after L. That conflicted with the pinned source's explicit before-L convention unless a separate deferral proof were supplied. The producer's handed-off version places conversion before L. The saved regression verifies this for all 32 records; it passes. No failing test was run against the earlier staging version, and this issue is not outstanding in the reviewed hashes.
+
+There are no remaining requested producer fixes for the conditional-template claim. The absence of actual source/closure/domain/order witnesses is an explicit deliverable limit, not evidence that the actual binding was accepted.
+
+## Next owners and limits
+
+Root/transport producer: retain the conditional status and route the complete actual source identity, scalar equations, full J0–J3 closure, exact whole-standard-extension/prism witnesses and intended-order binding to the next source-adapter review. Null retains ownership of its selector, 20-row transport and carrier-block-defect contracts; any strengthening belongs there. The coefficient/compiler owner must later provide executable rational/Laurent lowering and an independently reviewed product/live-byte schedule. None of these obligations is discharged by this review or the marker. The obstruction and all 32 numerical values remain undecided.
+
+## Reviewed local file hashes
+
+SHA256 and byte counts at handoff (independently checked):
+
+| File | Bytes | SHA256 |
+|---|---:|---|
+| `README.md` | 6456 | `85821df17304afd097cb164a8a98caae413f1de79fa4ad801b85da20d3de8709` |
+| `lift_schema.py` | 2281 | `3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31` |
+| `source-pins.json` | 5000 | `c64b506220ca636632e6d74f04c08050eff7c3c549a8191e5121ef2d32fd7d94` |
+| `test_transport_binding.py` | 5994 | `96da4ba2c52f80c9585a99a2eef1d34b9ff81715d63715b6c3fe3c4492a68779` |
+| `transport-template.json` | 89714 | `a551f79e1dbed2dbb21d195ecdc5bd98871b8e12d9bd241d918572fadb085839` |
+| `transport_binding.py` | 14743 | `31c8affe5cb3303302b95dc3629ee7ec24c16d403d658643821854080f6bd237` |
+| `producer-ready.json` | 1368 | `71edfca6e6c491f1637dd4d47d126d27f335543b5ed8ac902741a905f670d792` |
+| `test_independent.py` | 16154 | `01ed875f2ef1efe6f48fc09ca36e46af024deb8c3c8be223705e31db1fff2f43` |
+
+## Exact cited source pins
+
+Each row was checked against its Git object for bytes, SHA256 and Git blob ID. Paths are repository relative. Source reading imported the proofs at their stated scope; it did not rerun their physical dependencies.
+
+| Commit | Path | Git blob | SHA256 |
+|---|---|---|---|
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-source-integration/combined-pole/certificate.json` | `6ab606c5f9df44e81b7f3c4c89d5ffe84118aaa1` | `cd97c643c479d25dcdbc11297a0989ed4e83511e9784ff908fbe7b2acb21e218` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-source-integration/order-comparison/source-order-curvature-comparison.md` | `2be2660f33f791af9ce6ceda87be7693a41b7dfb` | `c8dc3acbda9bcfc80317116ff2ff400e275ecf82a18f5321479c936d3c109451` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-proof-foundations/refined-tracefree-pole-domain.md` | `b6e9933ffafcd7018b1b2876ad3685f22e3b5292` | `209d8c8a35edabadabd57d4608c4b49a508700cc00e983d50045b7a722de5ab2` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-proof-foundations/direct-scalar-free-pairing-reduction.md` | `b63c3486cdf15a3bca6d673d3918fcab3f30b104` | `246b7265f4f8936bf5cc2bfd9f0f7505f119d4b3515acdd82822f7d45c0c4d00` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-proof-foundations/hm-regular-cover-transport.md` | `1131532f944cf23319329d0904a8c8a4afc8b10e` | `98a10d3da934ef5b6dfe1e2cf6af4ac46fcf6347e0e6081a8c0cbd58b2f7f02d` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-support-certificates/authenticated-refined-detector-composition.md` | `45c3fb7508aebda7090c38e5c12d06ec1e6bb72b` | `7169f63931d7ae94a28db6d493208af9c46f743ad6d56f68cca55a146ca063f0` |
+| `10810ee877fdaf291399198ad60d7dd0c316a42d` | `research/hm/null-support-certificates/outer_partition_source_binding.py` | `1dcb9d5e0def4fba2268f4c54de6409b137ed05e` | `e99e4a8c8a3736a7ef583d66f8de21680fae7dca5fe253bff7483426c513fa00` |
+| `08b73637d4136f91606aad332c46cafd064417f8` | `research/hm/current-scalar-proof/map-and-comparison.md` | `c3434677588f8214edfa930ecb7a90c1aa50ac24` | `777a11e0e82ca5de557d1b756e9ce7535836a0ff4cc34ee6e50712e23f788e72` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/scalar-family-transport/PROOF.md` | `fc8befcc863efd073d4a66dc6eec12c722504447` | `e0fac7c2a2564dd1521a6055238e175fcf83e11e1b4bf9302eacad13ed040db3` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/scalar-family-transport/independent-review.md` | `fa3cc80d7746f97efc790cd90d45db21ec2bb795` | `a90786c603a623b7a3a6ac956bf1196862f77eb67d2fd15916dfae652542a317` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/scalar-family-transport/weighted-requests.json` | `f8a9ca5ee5ae95eaffbe4c9a3fabaa937622950e` | `f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/tracefree-currents/PROOF.md` | `405a46728161bce487ef6d5b147ee6b7a73c7e17` | `e77328364f7d738430d5ef4ebcde16ae1aa827ce59cd48f9300c1ad5319407b3` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/tracefree-currents/certificate.json` | `f7c3900fb1dd1af2c0437c040f97ac1f190efc41` | `24b17fae822929bbac7b621154235ad02af7b325b1052a5db6cd395ba7defd17` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/tracefree-currents/source-pins.json` | `1dc5bc477f2389f3d8fd212d6e209b20bfdbb87b` | `dfba29eb6cc4c8edb3d33afa8b4bf6afd327d7f01604c80cbf8955c0d3de1f70` |
+| `43193bc8badf3f29a1363132135d956cc12d46ad` | `research/hm/null-source-integration/tracefree-currents/independent-review.md` | `7a51b9c0c298a5c8141871f6b357d7cfd9adf9a8` | `a15e3115a48afc726564d125c28976449f11ea1cd3d451f539b0eaaabadbbc10` |
+| `08b73637d4136f91606aad332c46cafd064417f8` | `research/hm/current-scalar-residual-attribution/closure-and-characters.md` (additional closure-source reading) | `946f96670ecb8152eaae16195329f9eb1243b7ae` | `434aa106d0780f6eeef956335cc207a8b436d35db52f515f52bb5d49204292a2` |
+
+Read-only request inputs additionally authenticated by the real template builder: detector-selection/selection.json SHA256 `54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d`; detector-selection/weighted-requests.json SHA256 `f256746fbfd0897fd4a5241e13715198004d277fec700b7ba5c4b3ace9bfe5e0`. These inputs were read and hashed, not reselected or rescanned.

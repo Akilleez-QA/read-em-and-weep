@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "requests": 30,
+  "terms": 122,
+  "even_weights": 26,
+  "odd_weight_ids": [
+    21,
+    24,
+    26,
+    28
+  ],
+  "detector_character_claim": false,
+  "metadata_sha256": "707663b97c3a8289d6531172a1c509e54ceccb3185a6e07f4f28153fbc119375"
+}

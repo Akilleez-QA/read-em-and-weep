@@ -1,0 +1,2432 @@
+{
+  "comparison": {
+    "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+    "path": "research/hm/current-scalar-proof/map-and-comparison.md",
+    "rule": "e=-m-1; k=sum_i (2-m_i)*3^(3-i), i=0..3"
+  },
+  "gates": {
+    "complete_corrected_source_bound": false,
+    "execution_release": false,
+    "physical_source_evaluated": false,
+    "regular_transport_bound": false
+  },
+  "interpretation": "32 weighted sums of scalar Laurent outputs, not 32 individual positions",
+  "normalization": "v_k=e_k(x1,x2,x3,x4); v0=1; Q=x1*x2+x3*x4; unscaled",
+  "obstruction": "undecided",
+  "requests": [
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 0,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 1,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 2,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 3,
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 4,
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 5,
+      "scalar_map": {
+        "b": 0,
+        "i": 10
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 6,
+      "scalar_map": {
+        "b": 1,
+        "i": 0
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 7,
+      "scalar_map": {
+        "b": 1,
+        "i": 1
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 8,
+      "scalar_map": {
+        "b": 1,
+        "i": 2
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 9,
+      "scalar_map": {
+        "b": 1,
+        "i": 3
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 10,
+      "scalar_map": {
+        "b": 1,
+        "i": 4
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 11,
+      "scalar_map": {
+        "b": 1,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 12,
+      "scalar_map": {
+        "b": 1,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 13,
+      "scalar_map": {
+        "b": 1,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 14,
+      "scalar_map": {
+        "b": 1,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 15,
+      "scalar_map": {
+        "b": 1,
+        "i": 10
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 16,
+      "scalar_map": {
+        "b": 1,
+        "i": 11
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 17,
+      "scalar_map": {
+        "b": 1,
+        "i": 12
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 18,
+      "scalar_map": {
+        "b": 1,
+        "i": 13
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [],
+      "block": "Q^2",
+      "id": 19,
+      "scalar_map": {
+        "b": 1,
+        "i": 14
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0
+      ],
+      "block": "v_k Q",
+      "id": 20,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 21,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        4
+      ],
+      "block": "v_k Q",
+      "id": 22,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0
+      ],
+      "block": "v_k Q",
+      "id": 23,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 44
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 76
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 24,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        2
+      ],
+      "block": "v_k Q",
+      "id": 25,
+      "scalar_map": {
+        "b": 0,
+        "i": 6
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1
+      ],
+      "block": "v_k Q",
+      "id": 26,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -1
+          ],
+          "output_index": 17
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 35
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 41
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 43
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -2
+          ],
+          "output_index": 49
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 67
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 73
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 75
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        2
+      ],
+      "block": "v_k Q",
+      "id": 27,
+      "scalar_map": {
+        "b": 0,
+        "i": 7
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -1
+          ],
+          "output_index": 8
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -1
+          ],
+          "output_index": 14
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -1,
+            -2
+          ],
+          "output_index": 16
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 32
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 34
+        },
+        {
+          "coefficient": 2,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 40
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -2
+          ],
+          "output_index": 46
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -2,
+            -3
+          ],
+          "output_index": 48
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 64
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 66
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 72
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        3
+      ],
+      "block": "v_k Q",
+      "id": 28,
+      "scalar_map": {
+        "b": 0,
+        "i": 8
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            0
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -1
+          ],
+          "output_index": 5
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            0,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -1,
+            -2
+          ],
+          "output_index": 7
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            0,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -1,
+            -3,
+            -3
+          ],
+          "output_index": 45
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -1,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 63
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        4
+      ],
+      "block": "v_k Q",
+      "id": 29,
+      "scalar_map": {
+        "b": 0,
+        "i": 9
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 4
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -3
+          ],
+          "output_index": 36
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        0,
+        0
+      ],
+      "block": "v_k v_l",
+      "id": 30,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "laurent_exponents": [
+            -1,
+            -1,
+            -1,
+            -1
+          ],
+          "output_index": 80
+        }
+      ]
+    },
+    {
+      "base_monomial": [
+        1,
+        4
+      ],
+      "block": "v_k v_l",
+      "id": 31,
+      "scalar_map": {
+        "b": 0,
+        "i": 5
+      },
+      "terms": [
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -3,
+            -2,
+            -2,
+            -2
+          ],
+          "output_index": 13
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -3,
+            -2,
+            -2
+          ],
+          "output_index": 31
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -3,
+            -2
+          ],
+          "output_index": 37
+        },
+        {
+          "coefficient": 1,
+          "dual_monomial": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "laurent_exponents": [
+            -2,
+            -2,
+            -2,
+            -3
+          ],
+          "output_index": 39
+        }
+      ]
+    }
+  ],
+  "required_frame": "original frame, deck product removed, internal degree -2 factor tau^-4",
+  "scalar_map_convention": "L_i,b=X13[i,b]-sum gamma[i,a,k]*X02[a,5*b+k]",
+  "schema": "codex-weighted-scalar-requests-v1",
+  "selection_sha256": "54603e2e3634d73da740837081297800f3b2b3bb219aeccd22141ac27e58368d"
+}

@@ -1,0 +1,8021 @@
+{
+  "I20": [
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      6,
+      1
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      11,
+      1
+    ],
+    [
+      12,
+      1
+    ],
+    [
+      13,
+      1
+    ],
+    [
+      14,
+      1
+    ]
+  ],
+  "candidate_order": "I20 as listed, then k=0..4 or (k,l) with k ascending and l=k..4",
+  "coefficient_updates": 9464,
+  "d5_regenerated": false,
+  "d5_relations_premise": {
+    "blob": "0a1d5d00a85e13bcf535a2001577eb0eafc77f43",
+    "commit": "e6e8d272e760a432dbbc1053b88c8eae03a47304",
+    "path": "research/hsd/twist-minus2-d5/NOTE.md"
+  },
+  "field_lower_bound": "F_101",
+  "obstruction": "undecided",
+  "physical_source_evaluated": false,
+  "rational_boundary_upper_receipt": {
+    "blob": "304d031083bb2a19fb9bc012cfd338bbe0129980",
+    "bytes": 3112,
+    "commit": "f968b53943ba2312f09fbc3e8f9d462e86bcaa34",
+    "path": "research/hm/d8-small-certificates/p4/certificate.json",
+    "ranks": {
+      "B0": {
+        "max": 5,
+        "nonzeros": 3400,
+        "rank": 848,
+        "shape": [
+          1200,
+          1225
+        ],
+        "tailMaxBits": 0,
+        "unitRank": 848
+      },
+      "B1": {
+        "max": 2,
+        "nonzeros": 680,
+        "rank": 240,
+        "shape": [
+          400,
+          245
+        ],
+        "tailMaxBits": 0,
+        "unitRank": 240
+      }
+    }
+  },
+  "rational_conclusion": "32 independent dual classes conditional on pinned rational boundary ranks and established P4/Serre source identifications",
+  "selected": {
+    "minus1": {
+      "augmented_rank_mod101": 250,
+      "boundary_rank_mod101": 240,
+      "candidate_cycles_checked": 100,
+      "labels": [
+        {
+          "b": 0,
+          "base_monomial": [
+            0
+          ],
+          "i": 5
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            1
+          ],
+          "i": 5
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            4
+          ],
+          "i": 5
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            0
+          ],
+          "i": 6
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            1
+          ],
+          "i": 6
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            2
+          ],
+          "i": 6
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            1
+          ],
+          "i": 7
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            2
+          ],
+          "i": 7
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            3
+          ],
+          "i": 8
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            4
+          ],
+          "i": 9
+        }
+      ],
+      "matrix_digest": "45add1c972ea94e965cde867de00a6d2e4fc421b7e584b23e3fb5df2c4f3adaa",
+      "outgoing_digest": "9ec73f9d2bd737927d573dda66fec59a68798f8d47f4111ef6f1d7645543d1ba",
+      "pivot_log": [
+        {
+          "label": {
+            "boundary_column": 0
+          },
+          "pre_normalization_pivot": 100,
+          "row": 51
+        },
+        {
+          "label": {
+            "boundary_column": 1
+          },
+          "pre_normalization_pivot": 100,
+          "row": 56
+        },
+        {
+          "label": {
+            "boundary_column": 2
+          },
+          "pre_normalization_pivot": 100,
+          "row": 61
+        },
+        {
+          "label": {
+            "boundary_column": 3
+          },
+          "pre_normalization_pivot": 100,
+          "row": 66
+        },
+        {
+          "label": {
+            "boundary_column": 4
+          },
+          "pre_normalization_pivot": 100,
+          "row": 71
+        },
+        {
+          "label": {
+            "boundary_column": 5
+          },
+          "pre_normalization_pivot": 100,
+          "row": 75
+        },
+        {
+          "label": {
+            "boundary_column": 6
+          },
+          "pre_normalization_pivot": 100,
+          "row": 80
+        },
+        {
+          "label": {
+            "boundary_column": 7
+          },
+          "pre_normalization_pivot": 100,
+          "row": 85
+        },
+        {
+          "label": {
+            "boundary_column": 8
+          },
+          "pre_normalization_pivot": 100,
+          "row": 90
+        },
+        {
+          "label": {
+            "boundary_column": 9
+          },
+          "pre_normalization_pivot": 100,
+          "row": 95
+        },
+        {
+          "label": {
+            "boundary_column": 10
+          },
+          "pre_normalization_pivot": 1,
+          "row": 0
+        },
+        {
+          "label": {
+            "boundary_column": 11
+          },
+          "pre_normalization_pivot": 1,
+          "row": 5
+        },
+        {
+          "label": {
+            "boundary_column": 12
+          },
+          "pre_normalization_pivot": 1,
+          "row": 10
+        },
+        {
+          "label": {
+            "boundary_column": 13
+          },
+          "pre_normalization_pivot": 1,
+          "row": 15
+        },
+        {
+          "label": {
+            "boundary_column": 14
+          },
+          "pre_normalization_pivot": 1,
+          "row": 20
+        },
+        {
+          "label": {
+            "boundary_column": 15
+          },
+          "pre_normalization_pivot": 100,
+          "row": 3
+        },
+        {
+          "label": {
+            "boundary_column": 16
+          },
+          "pre_normalization_pivot": 100,
+          "row": 8
+        },
+        {
+          "label": {
+            "boundary_column": 17
+          },
+          "pre_normalization_pivot": 100,
+          "row": 13
+        },
+        {
+          "label": {
+            "boundary_column": 18
+          },
+          "pre_normalization_pivot": 100,
+          "row": 18
+        },
+        {
+          "label": {
+            "boundary_column": 19
+          },
+          "pre_normalization_pivot": 100,
+          "row": 23
+        },
+        {
+          "label": {
+            "boundary_column": 20
+          },
+          "pre_normalization_pivot": 100,
+          "row": 27
+        },
+        {
+          "label": {
+            "boundary_column": 21
+          },
+          "pre_normalization_pivot": 100,
+          "row": 32
+        },
+        {
+          "label": {
+            "boundary_column": 22
+          },
+          "pre_normalization_pivot": 100,
+          "row": 37
+        },
+        {
+          "label": {
+            "boundary_column": 23
+          },
+          "pre_normalization_pivot": 100,
+          "row": 42
+        },
+        {
+          "label": {
+            "boundary_column": 24
+          },
+          "pre_normalization_pivot": 100,
+          "row": 47
+        },
+        {
+          "label": {
+            "boundary_column": 25
+          },
+          "pre_normalization_pivot": 100,
+          "row": 150
+        },
+        {
+          "label": {
+            "boundary_column": 26
+          },
+          "pre_normalization_pivot": 100,
+          "row": 155
+        },
+        {
+          "label": {
+            "boundary_column": 27
+          },
+          "pre_normalization_pivot": 100,
+          "row": 160
+        },
+        {
+          "label": {
+            "boundary_column": 28
+          },
+          "pre_normalization_pivot": 100,
+          "row": 165
+        },
+        {
+          "label": {
+            "boundary_column": 29
+          },
+          "pre_normalization_pivot": 100,
+          "row": 170
+        },
+        {
+          "label": {
+            "boundary_column": 30
+          },
+          "pre_normalization_pivot": 1,
+          "row": 127
+        },
+        {
+          "label": {
+            "boundary_column": 31
+          },
+          "pre_normalization_pivot": 1,
+          "row": 132
+        },
+        {
+          "label": {
+            "boundary_column": 32
+          },
+          "pre_normalization_pivot": 1,
+          "row": 137
+        },
+        {
+          "label": {
+            "boundary_column": 33
+          },
+          "pre_normalization_pivot": 1,
+          "row": 142
+        },
+        {
+          "label": {
+            "boundary_column": 34
+          },
+          "pre_normalization_pivot": 1,
+          "row": 147
+        },
+        {
+          "label": {
+            "boundary_column": 35
+          },
+          "pre_normalization_pivot": 1,
+          "row": 151
+        },
+        {
+          "label": {
+            "boundary_column": 36
+          },
+          "pre_normalization_pivot": 1,
+          "row": 156
+        },
+        {
+          "label": {
+            "boundary_column": 37
+          },
+          "pre_normalization_pivot": 1,
+          "row": 161
+        },
+        {
+          "label": {
+            "boundary_column": 38
+          },
+          "pre_normalization_pivot": 1,
+          "row": 166
+        },
+        {
+          "label": {
+            "boundary_column": 39
+          },
+          "pre_normalization_pivot": 1,
+          "row": 171
+        },
+        {
+          "label": {
+            "boundary_column": 40
+          },
+          "pre_normalization_pivot": 1,
+          "row": 175
+        },
+        {
+          "label": {
+            "boundary_column": 41
+          },
+          "pre_normalization_pivot": 1,
+          "row": 180
+        },
+        {
+          "label": {
+            "boundary_column": 42
+          },
+          "pre_normalization_pivot": 1,
+          "row": 185
+        },
+        {
+          "label": {
+            "boundary_column": 43
+          },
+          "pre_normalization_pivot": 1,
+          "row": 190
+        },
+        {
+          "label": {
+            "boundary_column": 44
+          },
+          "pre_normalization_pivot": 1,
+          "row": 195
+        },
+        {
+          "label": {
+            "boundary_column": 45
+          },
+          "pre_normalization_pivot": 100,
+          "row": 126
+        },
+        {
+          "label": {
+            "boundary_column": 46
+          },
+          "pre_normalization_pivot": 100,
+          "row": 131
+        },
+        {
+          "label": {
+            "boundary_column": 47
+          },
+          "pre_normalization_pivot": 100,
+          "row": 136
+        },
+        {
+          "label": {
+            "boundary_column": 48
+          },
+          "pre_normalization_pivot": 100,
+          "row": 141
+        },
+        {
+          "label": {
+            "boundary_column": 49
+          },
+          "pre_normalization_pivot": 100,
+          "row": 146
+        },
+        {
+          "label": {
+            "boundary_column": 50
+          },
+          "pre_normalization_pivot": 100,
+          "row": 25
+        },
+        {
+          "label": {
+            "boundary_column": 51
+          },
+          "pre_normalization_pivot": 100,
+          "row": 30
+        },
+        {
+          "label": {
+            "boundary_column": 52
+          },
+          "pre_normalization_pivot": 100,
+          "row": 35
+        },
+        {
+          "label": {
+            "boundary_column": 53
+          },
+          "pre_normalization_pivot": 100,
+          "row": 40
+        },
+        {
+          "label": {
+            "boundary_column": 54
+          },
+          "pre_normalization_pivot": 100,
+          "row": 45
+        },
+        {
+          "label": {
+            "boundary_column": 55
+          },
+          "pre_normalization_pivot": 1,
+          "row": 2
+        },
+        {
+          "label": {
+            "boundary_column": 56
+          },
+          "pre_normalization_pivot": 1,
+          "row": 7
+        },
+        {
+          "label": {
+            "boundary_column": 57
+          },
+          "pre_normalization_pivot": 1,
+          "row": 12
+        },
+        {
+          "label": {
+            "boundary_column": 58
+          },
+          "pre_normalization_pivot": 1,
+          "row": 17
+        },
+        {
+          "label": {
+            "boundary_column": 59
+          },
+          "pre_normalization_pivot": 1,
+          "row": 22
+        },
+        {
+          "label": {
+            "boundary_column": 60
+          },
+          "pre_normalization_pivot": 1,
+          "row": 26
+        },
+        {
+          "label": {
+            "boundary_column": 61
+          },
+          "pre_normalization_pivot": 1,
+          "row": 31
+        },
+        {
+          "label": {
+            "boundary_column": 62
+          },
+          "pre_normalization_pivot": 1,
+          "row": 36
+        },
+        {
+          "label": {
+            "boundary_column": 63
+          },
+          "pre_normalization_pivot": 1,
+          "row": 41
+        },
+        {
+          "label": {
+            "boundary_column": 64
+          },
+          "pre_normalization_pivot": 1,
+          "row": 46
+        },
+        {
+          "label": {
+            "boundary_column": 65
+          },
+          "pre_normalization_pivot": 1,
+          "row": 50
+        },
+        {
+          "label": {
+            "boundary_column": 66
+          },
+          "pre_normalization_pivot": 1,
+          "row": 55
+        },
+        {
+          "label": {
+            "boundary_column": 67
+          },
+          "pre_normalization_pivot": 1,
+          "row": 60
+        },
+        {
+          "label": {
+            "boundary_column": 68
+          },
+          "pre_normalization_pivot": 1,
+          "row": 65
+        },
+        {
+          "label": {
+            "boundary_column": 69
+          },
+          "pre_normalization_pivot": 1,
+          "row": 70
+        },
+        {
+          "label": {
+            "boundary_column": 70
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1
+        },
+        {
+          "label": {
+            "boundary_column": 71
+          },
+          "pre_normalization_pivot": 100,
+          "row": 6
+        },
+        {
+          "label": {
+            "boundary_column": 72
+          },
+          "pre_normalization_pivot": 100,
+          "row": 11
+        },
+        {
+          "label": {
+            "boundary_column": 73
+          },
+          "pre_normalization_pivot": 100,
+          "row": 16
+        },
+        {
+          "label": {
+            "boundary_column": 74
+          },
+          "pre_normalization_pivot": 100,
+          "row": 21
+        },
+        {
+          "label": {
+            "boundary_column": 75
+          },
+          "pre_normalization_pivot": 1,
+          "row": 39
+        },
+        {
+          "label": {
+            "boundary_column": 76
+          },
+          "pre_normalization_pivot": 1,
+          "row": 24
+        },
+        {
+          "label": {
+            "boundary_column": 77
+          },
+          "pre_normalization_pivot": 1,
+          "row": 29
+        },
+        {
+          "label": {
+            "boundary_column": 78
+          },
+          "pre_normalization_pivot": 1,
+          "row": 59
+        },
+        {
+          "label": {
+            "boundary_column": 79
+          },
+          "pre_normalization_pivot": 1,
+          "row": 9
+        },
+        {
+          "label": {
+            "boundary_column": 80
+          },
+          "pre_normalization_pivot": 100,
+          "row": 74
+        },
+        {
+          "label": {
+            "boundary_column": 81
+          },
+          "pre_normalization_pivot": 100,
+          "row": 79
+        },
+        {
+          "label": {
+            "boundary_column": 82
+          },
+          "pre_normalization_pivot": 100,
+          "row": 19
+        },
+        {
+          "label": {
+            "boundary_column": 83
+          },
+          "pre_normalization_pivot": 100,
+          "row": 14
+        },
+        {
+          "label": {
+            "boundary_column": 84
+          },
+          "pre_normalization_pivot": 100,
+          "row": 44
+        },
+        {
+          "label": {
+            "boundary_column": 85
+          },
+          "pre_normalization_pivot": 1,
+          "row": 4
+        },
+        {
+          "label": {
+            "boundary_column": 86
+          },
+          "pre_normalization_pivot": 1,
+          "row": 34
+        },
+        {
+          "label": {
+            "boundary_column": 87
+          },
+          "pre_normalization_pivot": 1,
+          "row": 64
+        },
+        {
+          "label": {
+            "boundary_column": 88
+          },
+          "pre_normalization_pivot": 1,
+          "row": 94
+        },
+        {
+          "label": {
+            "boundary_column": 89
+          },
+          "pre_normalization_pivot": 1,
+          "row": 124
+        },
+        {
+          "label": {
+            "boundary_column": 90
+          },
+          "pre_normalization_pivot": 1,
+          "row": 38
+        },
+        {
+          "label": {
+            "boundary_column": 91
+          },
+          "pre_normalization_pivot": 1,
+          "row": 49
+        },
+        {
+          "label": {
+            "boundary_column": 92
+          },
+          "pre_normalization_pivot": 1,
+          "row": 28
+        },
+        {
+          "label": {
+            "boundary_column": 93
+          },
+          "pre_normalization_pivot": 1,
+          "row": 58
+        },
+        {
+          "label": {
+            "boundary_column": 94
+          },
+          "pre_normalization_pivot": 1,
+          "row": 88
+        },
+        {
+          "label": {
+            "boundary_column": 95
+          },
+          "pre_normalization_pivot": 100,
+          "row": 73
+        },
+        {
+          "label": {
+            "boundary_column": 96
+          },
+          "pre_normalization_pivot": 100,
+          "row": 78
+        },
+        {
+          "label": {
+            "boundary_column": 97
+          },
+          "pre_normalization_pivot": 1,
+          "row": 54
+        },
+        {
+          "label": {
+            "boundary_column": 98
+          },
+          "pre_normalization_pivot": 100,
+          "row": 48
+        },
+        {
+          "label": {
+            "boundary_column": 99
+          },
+          "pre_normalization_pivot": 100,
+          "row": 43
+        },
+        {
+          "label": {
+            "boundary_column": 100
+          },
+          "pre_normalization_pivot": 100,
+          "row": 99
+        },
+        {
+          "label": {
+            "boundary_column": 101
+          },
+          "pre_normalization_pivot": 1,
+          "row": 33
+        },
+        {
+          "label": {
+            "boundary_column": 102
+          },
+          "pre_normalization_pivot": 1,
+          "row": 63
+        },
+        {
+          "label": {
+            "boundary_column": 103
+          },
+          "pre_normalization_pivot": 1,
+          "row": 93
+        },
+        {
+          "label": {
+            "boundary_column": 104
+          },
+          "pre_normalization_pivot": 1,
+          "row": 123
+        },
+        {
+          "label": {
+            "boundary_column": 105
+          },
+          "pre_normalization_pivot": 1,
+          "row": 117
+        },
+        {
+          "label": {
+            "boundary_column": 106
+          },
+          "pre_normalization_pivot": 1,
+          "row": 67
+        },
+        {
+          "label": {
+            "boundary_column": 107
+          },
+          "pre_normalization_pivot": 1,
+          "row": 53
+        },
+        {
+          "label": {
+            "boundary_column": 108
+          },
+          "pre_normalization_pivot": 1,
+          "row": 57
+        },
+        {
+          "label": {
+            "boundary_column": 109
+          },
+          "pre_normalization_pivot": 1,
+          "row": 87
+        },
+        {
+          "label": {
+            "boundary_column": 110
+          },
+          "pre_normalization_pivot": 100,
+          "row": 72
+        },
+        {
+          "label": {
+            "boundary_column": 111
+          },
+          "pre_normalization_pivot": 100,
+          "row": 77
+        },
+        {
+          "label": {
+            "boundary_column": 112
+          },
+          "pre_normalization_pivot": 100,
+          "row": 69
+        },
+        {
+          "label": {
+            "boundary_column": 113
+          },
+          "pre_normalization_pivot": 1,
+          "row": 83
+        },
+        {
+          "label": {
+            "boundary_column": 114
+          },
+          "pre_normalization_pivot": 100,
+          "row": 52
+        },
+        {
+          "label": {
+            "boundary_column": 115
+          },
+          "pre_normalization_pivot": 1,
+          "row": 108
+        },
+        {
+          "label": {
+            "boundary_column": 116
+          },
+          "pre_normalization_pivot": 100,
+          "row": 103
+        },
+        {
+          "label": {
+            "boundary_column": 117
+          },
+          "pre_normalization_pivot": 1,
+          "row": 62
+        },
+        {
+          "label": {
+            "boundary_column": 118
+          },
+          "pre_normalization_pivot": 1,
+          "row": 92
+        },
+        {
+          "label": {
+            "boundary_column": 119
+          },
+          "pre_normalization_pivot": 1,
+          "row": 122
+        },
+        {
+          "label": {
+            "boundary_column": 120
+          },
+          "pre_normalization_pivot": 1,
+          "row": 116
+        },
+        {
+          "label": {
+            "boundary_column": 121
+          },
+          "pre_normalization_pivot": 1,
+          "row": 172
+        },
+        {
+          "label": {
+            "boundary_column": 122
+          },
+          "pre_normalization_pivot": 1,
+          "row": 96
+        },
+        {
+          "label": {
+            "boundary_column": 123
+          },
+          "pre_normalization_pivot": 1,
+          "row": 82
+        },
+        {
+          "label": {
+            "boundary_column": 124
+          },
+          "pre_normalization_pivot": 1,
+          "row": 84
+        },
+        {
+          "label": {
+            "boundary_column": 125
+          },
+          "pre_normalization_pivot": 100,
+          "row": 81
+        },
+        {
+          "label": {
+            "boundary_column": 126
+          },
+          "pre_normalization_pivot": 100,
+          "row": 76
+        },
+        {
+          "label": {
+            "boundary_column": 127
+          },
+          "pre_normalization_pivot": 100,
+          "row": 106
+        },
+        {
+          "label": {
+            "boundary_column": 128
+          },
+          "pre_normalization_pivot": 100,
+          "row": 89
+        },
+        {
+          "label": {
+            "boundary_column": 129
+          },
+          "pre_normalization_pivot": 1,
+          "row": 112
+        },
+        {
+          "label": {
+            "boundary_column": 130
+          },
+          "pre_normalization_pivot": 100,
+          "row": 114
+        },
+        {
+          "label": {
+            "boundary_column": 131
+          },
+          "pre_normalization_pivot": 1,
+          "row": 130
+        },
+        {
+          "label": {
+            "boundary_column": 132
+          },
+          "pre_normalization_pivot": 1,
+          "row": 104
+        },
+        {
+          "label": {
+            "boundary_column": 133
+          },
+          "pre_normalization_pivot": 1,
+          "row": 91
+        },
+        {
+          "label": {
+            "boundary_column": 134
+          },
+          "pre_normalization_pivot": 1,
+          "row": 121
+        },
+        {
+          "label": {
+            "boundary_column": 135
+          },
+          "pre_normalization_pivot": 1,
+          "row": 113
+        },
+        {
+          "label": {
+            "boundary_column": 136
+          },
+          "pre_normalization_pivot": 100,
+          "row": 143
+        },
+        {
+          "label": {
+            "boundary_column": 137
+          },
+          "pre_normalization_pivot": 1,
+          "row": 176
+        },
+        {
+          "label": {
+            "boundary_column": 138
+          },
+          "pre_normalization_pivot": 1,
+          "row": 100
+        },
+        {
+          "label": {
+            "boundary_column": 139
+          },
+          "pre_normalization_pivot": 1,
+          "row": 109
+        },
+        {
+          "label": {
+            "boundary_column": 140
+          },
+          "pre_normalization_pivot": 1,
+          "row": 148
+        },
+        {
+          "label": {
+            "boundary_column": 141
+          },
+          "pre_normalization_pivot": 100,
+          "row": 101
+        },
+        {
+          "label": {
+            "boundary_column": 142
+          },
+          "pre_normalization_pivot": 100,
+          "row": 105
+        },
+        {
+          "label": {
+            "boundary_column": 143
+          },
+          "pre_normalization_pivot": 100,
+          "row": 152
+        },
+        {
+          "label": {
+            "boundary_column": 144
+          },
+          "pre_normalization_pivot": 100,
+          "row": 102
+        },
+        {
+          "label": {
+            "boundary_column": 145
+          },
+          "pre_normalization_pivot": 100,
+          "row": 205
+        },
+        {
+          "label": {
+            "boundary_column": 146
+          },
+          "pre_normalization_pivot": 1,
+          "row": 181
+        },
+        {
+          "label": {
+            "boundary_column": 147
+          },
+          "pre_normalization_pivot": 100,
+          "row": 138
+        },
+        {
+          "label": {
+            "boundary_column": 148
+          },
+          "pre_normalization_pivot": 100,
+          "row": 135
+        },
+        {
+          "label": {
+            "boundary_column": 149
+          },
+          "pre_normalization_pivot": 1,
+          "row": 120
+        },
+        {
+          "label": {
+            "boundary_column": 150
+          },
+          "pre_normalization_pivot": 2,
+          "row": 140
+        },
+        {
+          "label": {
+            "boundary_column": 151
+          },
+          "pre_normalization_pivot": 1,
+          "row": 149
+        },
+        {
+          "label": {
+            "boundary_column": 152
+          },
+          "pre_normalization_pivot": 1,
+          "row": 128
+        },
+        {
+          "label": {
+            "boundary_column": 153
+          },
+          "pre_normalization_pivot": 1,
+          "row": 125
+        },
+        {
+          "label": {
+            "boundary_column": 154
+          },
+          "pre_normalization_pivot": 1,
+          "row": 134
+        },
+        {
+          "label": {
+            "boundary_column": 155
+          },
+          "pre_normalization_pivot": 100,
+          "row": 199
+        },
+        {
+          "label": {
+            "boundary_column": 156
+          },
+          "pre_normalization_pivot": 100,
+          "row": 204
+        },
+        {
+          "label": {
+            "boundary_column": 157
+          },
+          "pre_normalization_pivot": 100,
+          "row": 144
+        },
+        {
+          "label": {
+            "boundary_column": 158
+          },
+          "pre_normalization_pivot": 100,
+          "row": 139
+        },
+        {
+          "label": {
+            "boundary_column": 159
+          },
+          "pre_normalization_pivot": 100,
+          "row": 169
+        },
+        {
+          "label": {
+            "boundary_column": 160
+          },
+          "pre_normalization_pivot": 1,
+          "row": 129
+        },
+        {
+          "label": {
+            "boundary_column": 161
+          },
+          "pre_normalization_pivot": 1,
+          "row": 133
+        },
+        {
+          "label": {
+            "boundary_column": 162
+          },
+          "pre_normalization_pivot": 1,
+          "row": 189
+        },
+        {
+          "label": {
+            "boundary_column": 163
+          },
+          "pre_normalization_pivot": 1,
+          "row": 219
+        },
+        {
+          "label": {
+            "boundary_column": 164
+          },
+          "pre_normalization_pivot": 1,
+          "row": 145
+        },
+        {
+          "label": {
+            "boundary_column": 165
+          },
+          "pre_normalization_pivot": 1,
+          "row": 163
+        },
+        {
+          "label": {
+            "boundary_column": 166
+          },
+          "pre_normalization_pivot": 1,
+          "row": 167
+        },
+        {
+          "label": {
+            "boundary_column": 167
+          },
+          "pre_normalization_pivot": 1,
+          "row": 153
+        },
+        {
+          "label": {
+            "boundary_column": 168
+          },
+          "pre_normalization_pivot": 1,
+          "row": 157
+        },
+        {
+          "label": {
+            "boundary_column": 169
+          },
+          "pre_normalization_pivot": 1,
+          "row": 159
+        },
+        {
+          "label": {
+            "boundary_column": 170
+          },
+          "pre_normalization_pivot": 100,
+          "row": 198
+        },
+        {
+          "label": {
+            "boundary_column": 171
+          },
+          "pre_normalization_pivot": 100,
+          "row": 203
+        },
+        {
+          "label": {
+            "boundary_column": 172
+          },
+          "pre_normalization_pivot": 1,
+          "row": 179
+        },
+        {
+          "label": {
+            "boundary_column": 173
+          },
+          "pre_normalization_pivot": 100,
+          "row": 164
+        },
+        {
+          "label": {
+            "boundary_column": 174
+          },
+          "pre_normalization_pivot": 100,
+          "row": 168
+        },
+        {
+          "label": {
+            "boundary_column": 175
+          },
+          "pre_normalization_pivot": 1,
+          "row": 154
+        },
+        {
+          "label": {
+            "boundary_column": 176
+          },
+          "pre_normalization_pivot": 1,
+          "row": 158
+        },
+        {
+          "label": {
+            "boundary_column": 177
+          },
+          "pre_normalization_pivot": 1,
+          "row": 162
+        },
+        {
+          "label": {
+            "boundary_column": 178
+          },
+          "pre_normalization_pivot": 1,
+          "row": 218
+        },
+        {
+          "label": {
+            "boundary_column": 179
+          },
+          "pre_normalization_pivot": 1,
+          "row": 248
+        },
+        {
+          "label": {
+            "boundary_column": 180
+          },
+          "pre_normalization_pivot": 1,
+          "row": 188
+        },
+        {
+          "label": {
+            "boundary_column": 181
+          },
+          "pre_normalization_pivot": 1,
+          "row": 192
+        },
+        {
+          "label": {
+            "boundary_column": 182
+          },
+          "pre_normalization_pivot": 1,
+          "row": 178
+        },
+        {
+          "label": {
+            "boundary_column": 183
+          },
+          "pre_normalization_pivot": 1,
+          "row": 182
+        },
+        {
+          "label": {
+            "boundary_column": 184
+          },
+          "pre_normalization_pivot": 1,
+          "row": 184
+        },
+        {
+          "label": {
+            "boundary_column": 185
+          },
+          "pre_normalization_pivot": 100,
+          "row": 197
+        },
+        {
+          "label": {
+            "boundary_column": 186
+          },
+          "pre_normalization_pivot": 100,
+          "row": 202
+        },
+        {
+          "label": {
+            "boundary_column": 187
+          },
+          "pre_normalization_pivot": 100,
+          "row": 194
+        },
+        {
+          "label": {
+            "boundary_column": 188
+          },
+          "pre_normalization_pivot": 1,
+          "row": 208
+        },
+        {
+          "label": {
+            "boundary_column": 189
+          },
+          "pre_normalization_pivot": 100,
+          "row": 177
+        },
+        {
+          "label": {
+            "boundary_column": 190
+          },
+          "pre_normalization_pivot": 1,
+          "row": 233
+        },
+        {
+          "label": {
+            "boundary_column": 191
+          },
+          "pre_normalization_pivot": 1,
+          "row": 183
+        },
+        {
+          "label": {
+            "boundary_column": 192
+          },
+          "pre_normalization_pivot": 1,
+          "row": 187
+        },
+        {
+          "label": {
+            "boundary_column": 193
+          },
+          "pre_normalization_pivot": 1,
+          "row": 191
+        },
+        {
+          "label": {
+            "boundary_column": 194
+          },
+          "pre_normalization_pivot": 1,
+          "row": 247
+        },
+        {
+          "label": {
+            "boundary_column": 195
+          },
+          "pre_normalization_pivot": 1,
+          "row": 213
+        },
+        {
+          "label": {
+            "boundary_column": 196
+          },
+          "pre_normalization_pivot": 1,
+          "row": 217
+        },
+        {
+          "label": {
+            "boundary_column": 197
+          },
+          "pre_normalization_pivot": 1,
+          "row": 221
+        },
+        {
+          "label": {
+            "boundary_column": 198
+          },
+          "pre_normalization_pivot": 1,
+          "row": 200
+        },
+        {
+          "label": {
+            "boundary_column": 199
+          },
+          "pre_normalization_pivot": 1,
+          "row": 209
+        },
+        {
+          "label": {
+            "boundary_column": 200
+          },
+          "pre_normalization_pivot": 100,
+          "row": 206
+        },
+        {
+          "label": {
+            "boundary_column": 201
+          },
+          "pre_normalization_pivot": 100,
+          "row": 201
+        },
+        {
+          "label": {
+            "boundary_column": 202
+          },
+          "pre_normalization_pivot": 100,
+          "row": 231
+        },
+        {
+          "label": {
+            "boundary_column": 203
+          },
+          "pre_normalization_pivot": 100,
+          "row": 214
+        },
+        {
+          "label": {
+            "boundary_column": 204
+          },
+          "pre_normalization_pivot": 1,
+          "row": 237
+        },
+        {
+          "label": {
+            "boundary_column": 205
+          },
+          "pre_normalization_pivot": 100,
+          "row": 239
+        },
+        {
+          "label": {
+            "boundary_column": 206
+          },
+          "pre_normalization_pivot": 1,
+          "row": 256
+        },
+        {
+          "label": {
+            "boundary_column": 207
+          },
+          "pre_normalization_pivot": 1,
+          "row": 212
+        },
+        {
+          "label": {
+            "boundary_column": 208
+          },
+          "pre_normalization_pivot": 1,
+          "row": 216
+        },
+        {
+          "label": {
+            "boundary_column": 209
+          },
+          "pre_normalization_pivot": 1,
+          "row": 220
+        },
+        {
+          "label": {
+            "boundary_column": 210
+          },
+          "pre_normalization_pivot": 1,
+          "row": 238
+        },
+        {
+          "label": {
+            "boundary_column": 211
+          },
+          "pre_normalization_pivot": 1,
+          "row": 242
+        },
+        {
+          "label": {
+            "boundary_column": 212
+          },
+          "pre_normalization_pivot": 1,
+          "row": 228
+        },
+        {
+          "label": {
+            "boundary_column": 213
+          },
+          "pre_normalization_pivot": 1,
+          "row": 225
+        },
+        {
+          "label": {
+            "boundary_column": 214
+          },
+          "pre_normalization_pivot": 1,
+          "row": 234
+        },
+        {
+          "label": {
+            "boundary_column": 215
+          },
+          "pre_normalization_pivot": 100,
+          "row": 269
+        },
+        {
+          "label": {
+            "boundary_column": 216
+          },
+          "pre_normalization_pivot": 100,
+          "row": 226
+        },
+        {
+          "label": {
+            "boundary_column": 217
+          },
+          "pre_normalization_pivot": 100,
+          "row": 230
+        },
+        {
+          "label": {
+            "boundary_column": 218
+          },
+          "pre_normalization_pivot": 100,
+          "row": 251
+        },
+        {
+          "label": {
+            "boundary_column": 219
+          },
+          "pre_normalization_pivot": 100,
+          "row": 227
+        },
+        {
+          "label": {
+            "boundary_column": 220
+          },
+          "pre_normalization_pivot": 1,
+          "row": 229
+        },
+        {
+          "label": {
+            "boundary_column": 221
+          },
+          "pre_normalization_pivot": 100,
+          "row": 252
+        },
+        {
+          "label": {
+            "boundary_column": 222
+          },
+          "pre_normalization_pivot": 1,
+          "row": 260
+        },
+        {
+          "label": {
+            "boundary_column": 223
+          },
+          "pre_normalization_pivot": 1,
+          "row": 241
+        },
+        {
+          "label": {
+            "boundary_column": 224
+          },
+          "pre_normalization_pivot": 1,
+          "row": 245
+        },
+        {
+          "label": {
+            "boundary_column": 225
+          },
+          "pre_normalization_pivot": 100,
+          "row": 357
+        },
+        {
+          "label": {
+            "boundary_column": 226
+          },
+          "pre_normalization_pivot": 1,
+          "row": 350
+        },
+        {
+          "label": {
+            "boundary_column": 227
+          },
+          "pre_normalization_pivot": 1,
+          "row": 359
+        },
+        {
+          "label": {
+            "boundary_column": 228
+          },
+          "pre_normalization_pivot": 1,
+          "row": 363
+        },
+        {
+          "label": {
+            "boundary_column": 229
+          },
+          "pre_normalization_pivot": 100,
+          "row": 353
+        },
+        {
+          "label": {
+            "boundary_column": 230
+          },
+          "pre_normalization_pivot": 1,
+          "row": 282
+        },
+        {
+          "label": {
+            "boundary_column": 231
+          },
+          "pre_normalization_pivot": 100,
+          "row": 275
+        },
+        {
+          "label": {
+            "boundary_column": 232
+          },
+          "pre_normalization_pivot": 100,
+          "row": 284
+        },
+        {
+          "label": {
+            "boundary_column": 233
+          },
+          "pre_normalization_pivot": 100,
+          "row": 288
+        },
+        {
+          "label": {
+            "boundary_column": 234
+          },
+          "pre_normalization_pivot": 1,
+          "row": 278
+        },
+        {
+          "label": {
+            "boundary_column": 235
+          },
+          "pre_normalization_pivot": 1,
+          "row": 335
+        },
+        {
+          "label": {
+            "boundary_column": 236
+          },
+          "pre_normalization_pivot": 1,
+          "row": 344
+        },
+        {
+          "label": {
+            "boundary_column": 237
+          },
+          "pre_normalization_pivot": 100,
+          "row": 326
+        },
+        {
+          "label": {
+            "boundary_column": 238
+          },
+          "pre_normalization_pivot": 1,
+          "row": 327
+        },
+        {
+          "label": {
+            "boundary_column": 239
+          },
+          "pre_normalization_pivot": 1,
+          "row": 331
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                0
+              ],
+              "i": 5
+            }
+          },
+          "pre_normalization_pivot": 2,
+          "row": 246
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                1
+              ],
+              "i": 5
+            }
+          },
+          "pre_normalization_pivot": 1,
+          "row": 210
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                4
+              ],
+              "i": 5
+            }
+          },
+          "pre_normalization_pivot": 1,
+          "row": 174
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                0
+              ],
+              "i": 6
+            }
+          },
+          "pre_normalization_pivot": 100,
+          "row": 196
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                1
+              ],
+              "i": 6
+            }
+          },
+          "pre_normalization_pivot": 2,
+          "row": 186
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                2
+              ],
+              "i": 6
+            }
+          },
+          "pre_normalization_pivot": 50,
+          "row": 173
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                1
+              ],
+              "i": 7
+            }
+          },
+          "pre_normalization_pivot": 1,
+          "row": 207
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                2
+              ],
+              "i": 7
+            }
+          },
+          "pre_normalization_pivot": 2,
+          "row": 215
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                3
+              ],
+              "i": 8
+            }
+          },
+          "pre_normalization_pivot": 2,
+          "row": 249
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                4
+              ],
+              "i": 9
+            }
+          },
+          "pre_normalization_pivot": 99,
+          "row": 224
+        }
+      ]
+    },
+    "zero": {
+      "augmented_rank_mod101": 850,
+      "boundary_rank_mod101": 848,
+      "candidate_cycles_checked": 300,
+      "labels": [
+        {
+          "b": 0,
+          "base_monomial": [
+            0,
+            0
+          ],
+          "i": 5
+        },
+        {
+          "b": 0,
+          "base_monomial": [
+            1,
+            4
+          ],
+          "i": 5
+        }
+      ],
+      "matrix_digest": "fe888b6657bf5bc9b7064974769a78410c7fc19223fd6cb6ff8a35fb6b057972",
+      "outgoing_digest": "f996e54bc8d7f7f4149955574093f7359eb3bf5af4d596a1185ec220edd6a985",
+      "pivot_log": [
+        {
+          "label": {
+            "boundary_column": 0
+          },
+          "pre_normalization_pivot": 100,
+          "row": 151
+        },
+        {
+          "label": {
+            "boundary_column": 1
+          },
+          "pre_normalization_pivot": 100,
+          "row": 152
+        },
+        {
+          "label": {
+            "boundary_column": 2
+          },
+          "pre_normalization_pivot": 100,
+          "row": 154
+        },
+        {
+          "label": {
+            "boundary_column": 3
+          },
+          "pre_normalization_pivot": 100,
+          "row": 157
+        },
+        {
+          "label": {
+            "boundary_column": 4
+          },
+          "pre_normalization_pivot": 100,
+          "row": 161
+        },
+        {
+          "label": {
+            "boundary_column": 5
+          },
+          "pre_normalization_pivot": 100,
+          "row": 166
+        },
+        {
+          "label": {
+            "boundary_column": 6
+          },
+          "pre_normalization_pivot": 100,
+          "row": 167
+        },
+        {
+          "label": {
+            "boundary_column": 7
+          },
+          "pre_normalization_pivot": 100,
+          "row": 169
+        },
+        {
+          "label": {
+            "boundary_column": 8
+          },
+          "pre_normalization_pivot": 100,
+          "row": 172
+        },
+        {
+          "label": {
+            "boundary_column": 9
+          },
+          "pre_normalization_pivot": 100,
+          "row": 176
+        },
+        {
+          "label": {
+            "boundary_column": 10
+          },
+          "pre_normalization_pivot": 100,
+          "row": 181
+        },
+        {
+          "label": {
+            "boundary_column": 11
+          },
+          "pre_normalization_pivot": 100,
+          "row": 182
+        },
+        {
+          "label": {
+            "boundary_column": 12
+          },
+          "pre_normalization_pivot": 100,
+          "row": 184
+        },
+        {
+          "label": {
+            "boundary_column": 13
+          },
+          "pre_normalization_pivot": 100,
+          "row": 187
+        },
+        {
+          "label": {
+            "boundary_column": 14
+          },
+          "pre_normalization_pivot": 100,
+          "row": 191
+        },
+        {
+          "label": {
+            "boundary_column": 15
+          },
+          "pre_normalization_pivot": 100,
+          "row": 196
+        },
+        {
+          "label": {
+            "boundary_column": 16
+          },
+          "pre_normalization_pivot": 100,
+          "row": 197
+        },
+        {
+          "label": {
+            "boundary_column": 17
+          },
+          "pre_normalization_pivot": 100,
+          "row": 199
+        },
+        {
+          "label": {
+            "boundary_column": 18
+          },
+          "pre_normalization_pivot": 100,
+          "row": 202
+        },
+        {
+          "label": {
+            "boundary_column": 19
+          },
+          "pre_normalization_pivot": 100,
+          "row": 206
+        },
+        {
+          "label": {
+            "boundary_column": 20
+          },
+          "pre_normalization_pivot": 100,
+          "row": 211
+        },
+        {
+          "label": {
+            "boundary_column": 21
+          },
+          "pre_normalization_pivot": 100,
+          "row": 212
+        },
+        {
+          "label": {
+            "boundary_column": 22
+          },
+          "pre_normalization_pivot": 100,
+          "row": 214
+        },
+        {
+          "label": {
+            "boundary_column": 23
+          },
+          "pre_normalization_pivot": 100,
+          "row": 217
+        },
+        {
+          "label": {
+            "boundary_column": 24
+          },
+          "pre_normalization_pivot": 100,
+          "row": 221
+        },
+        {
+          "label": {
+            "boundary_column": 25
+          },
+          "pre_normalization_pivot": 100,
+          "row": 225
+        },
+        {
+          "label": {
+            "boundary_column": 26
+          },
+          "pre_normalization_pivot": 100,
+          "row": 226
+        },
+        {
+          "label": {
+            "boundary_column": 27
+          },
+          "pre_normalization_pivot": 100,
+          "row": 228
+        },
+        {
+          "label": {
+            "boundary_column": 28
+          },
+          "pre_normalization_pivot": 100,
+          "row": 231
+        },
+        {
+          "label": {
+            "boundary_column": 29
+          },
+          "pre_normalization_pivot": 100,
+          "row": 235
+        },
+        {
+          "label": {
+            "boundary_column": 30
+          },
+          "pre_normalization_pivot": 100,
+          "row": 240
+        },
+        {
+          "label": {
+            "boundary_column": 31
+          },
+          "pre_normalization_pivot": 100,
+          "row": 241
+        },
+        {
+          "label": {
+            "boundary_column": 32
+          },
+          "pre_normalization_pivot": 100,
+          "row": 243
+        },
+        {
+          "label": {
+            "boundary_column": 33
+          },
+          "pre_normalization_pivot": 100,
+          "row": 246
+        },
+        {
+          "label": {
+            "boundary_column": 34
+          },
+          "pre_normalization_pivot": 100,
+          "row": 250
+        },
+        {
+          "label": {
+            "boundary_column": 35
+          },
+          "pre_normalization_pivot": 100,
+          "row": 255
+        },
+        {
+          "label": {
+            "boundary_column": 36
+          },
+          "pre_normalization_pivot": 100,
+          "row": 256
+        },
+        {
+          "label": {
+            "boundary_column": 37
+          },
+          "pre_normalization_pivot": 100,
+          "row": 258
+        },
+        {
+          "label": {
+            "boundary_column": 38
+          },
+          "pre_normalization_pivot": 100,
+          "row": 261
+        },
+        {
+          "label": {
+            "boundary_column": 39
+          },
+          "pre_normalization_pivot": 100,
+          "row": 265
+        },
+        {
+          "label": {
+            "boundary_column": 40
+          },
+          "pre_normalization_pivot": 100,
+          "row": 270
+        },
+        {
+          "label": {
+            "boundary_column": 41
+          },
+          "pre_normalization_pivot": 100,
+          "row": 271
+        },
+        {
+          "label": {
+            "boundary_column": 42
+          },
+          "pre_normalization_pivot": 100,
+          "row": 273
+        },
+        {
+          "label": {
+            "boundary_column": 43
+          },
+          "pre_normalization_pivot": 100,
+          "row": 276
+        },
+        {
+          "label": {
+            "boundary_column": 44
+          },
+          "pre_normalization_pivot": 100,
+          "row": 280
+        },
+        {
+          "label": {
+            "boundary_column": 45
+          },
+          "pre_normalization_pivot": 100,
+          "row": 285
+        },
+        {
+          "label": {
+            "boundary_column": 46
+          },
+          "pre_normalization_pivot": 100,
+          "row": 286
+        },
+        {
+          "label": {
+            "boundary_column": 47
+          },
+          "pre_normalization_pivot": 100,
+          "row": 288
+        },
+        {
+          "label": {
+            "boundary_column": 48
+          },
+          "pre_normalization_pivot": 100,
+          "row": 291
+        },
+        {
+          "label": {
+            "boundary_column": 49
+          },
+          "pre_normalization_pivot": 100,
+          "row": 295
+        },
+        {
+          "label": {
+            "boundary_column": 50
+          },
+          "pre_normalization_pivot": 1,
+          "row": 0
+        },
+        {
+          "label": {
+            "boundary_column": 51
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1
+        },
+        {
+          "label": {
+            "boundary_column": 52
+          },
+          "pre_normalization_pivot": 1,
+          "row": 3
+        },
+        {
+          "label": {
+            "boundary_column": 53
+          },
+          "pre_normalization_pivot": 1,
+          "row": 6
+        },
+        {
+          "label": {
+            "boundary_column": 54
+          },
+          "pre_normalization_pivot": 1,
+          "row": 10
+        },
+        {
+          "label": {
+            "boundary_column": 55
+          },
+          "pre_normalization_pivot": 1,
+          "row": 15
+        },
+        {
+          "label": {
+            "boundary_column": 56
+          },
+          "pre_normalization_pivot": 1,
+          "row": 16
+        },
+        {
+          "label": {
+            "boundary_column": 57
+          },
+          "pre_normalization_pivot": 1,
+          "row": 18
+        },
+        {
+          "label": {
+            "boundary_column": 58
+          },
+          "pre_normalization_pivot": 1,
+          "row": 21
+        },
+        {
+          "label": {
+            "boundary_column": 59
+          },
+          "pre_normalization_pivot": 1,
+          "row": 25
+        },
+        {
+          "label": {
+            "boundary_column": 60
+          },
+          "pre_normalization_pivot": 1,
+          "row": 30
+        },
+        {
+          "label": {
+            "boundary_column": 61
+          },
+          "pre_normalization_pivot": 1,
+          "row": 31
+        },
+        {
+          "label": {
+            "boundary_column": 62
+          },
+          "pre_normalization_pivot": 1,
+          "row": 33
+        },
+        {
+          "label": {
+            "boundary_column": 63
+          },
+          "pre_normalization_pivot": 1,
+          "row": 36
+        },
+        {
+          "label": {
+            "boundary_column": 64
+          },
+          "pre_normalization_pivot": 1,
+          "row": 40
+        },
+        {
+          "label": {
+            "boundary_column": 65
+          },
+          "pre_normalization_pivot": 1,
+          "row": 45
+        },
+        {
+          "label": {
+            "boundary_column": 66
+          },
+          "pre_normalization_pivot": 1,
+          "row": 46
+        },
+        {
+          "label": {
+            "boundary_column": 67
+          },
+          "pre_normalization_pivot": 1,
+          "row": 48
+        },
+        {
+          "label": {
+            "boundary_column": 68
+          },
+          "pre_normalization_pivot": 1,
+          "row": 51
+        },
+        {
+          "label": {
+            "boundary_column": 69
+          },
+          "pre_normalization_pivot": 1,
+          "row": 55
+        },
+        {
+          "label": {
+            "boundary_column": 70
+          },
+          "pre_normalization_pivot": 1,
+          "row": 60
+        },
+        {
+          "label": {
+            "boundary_column": 71
+          },
+          "pre_normalization_pivot": 1,
+          "row": 61
+        },
+        {
+          "label": {
+            "boundary_column": 72
+          },
+          "pre_normalization_pivot": 1,
+          "row": 63
+        },
+        {
+          "label": {
+            "boundary_column": 73
+          },
+          "pre_normalization_pivot": 1,
+          "row": 66
+        },
+        {
+          "label": {
+            "boundary_column": 74
+          },
+          "pre_normalization_pivot": 1,
+          "row": 70
+        },
+        {
+          "label": {
+            "boundary_column": 75
+          },
+          "pre_normalization_pivot": 1,
+          "row": 85
+        },
+        {
+          "label": {
+            "boundary_column": 76
+          },
+          "pre_normalization_pivot": 100,
+          "row": 7
+        },
+        {
+          "label": {
+            "boundary_column": 77
+          },
+          "pre_normalization_pivot": 100,
+          "row": 8
+        },
+        {
+          "label": {
+            "boundary_column": 78
+          },
+          "pre_normalization_pivot": 100,
+          "row": 9
+        },
+        {
+          "label": {
+            "boundary_column": 79
+          },
+          "pre_normalization_pivot": 100,
+          "row": 13
+        },
+        {
+          "label": {
+            "boundary_column": 80
+          },
+          "pre_normalization_pivot": 1,
+          "row": 100
+        },
+        {
+          "label": {
+            "boundary_column": 81
+          },
+          "pre_normalization_pivot": 100,
+          "row": 22
+        },
+        {
+          "label": {
+            "boundary_column": 82
+          },
+          "pre_normalization_pivot": 100,
+          "row": 23
+        },
+        {
+          "label": {
+            "boundary_column": 83
+          },
+          "pre_normalization_pivot": 100,
+          "row": 24
+        },
+        {
+          "label": {
+            "boundary_column": 84
+          },
+          "pre_normalization_pivot": 100,
+          "row": 28
+        },
+        {
+          "label": {
+            "boundary_column": 85
+          },
+          "pre_normalization_pivot": 1,
+          "row": 115
+        },
+        {
+          "label": {
+            "boundary_column": 86
+          },
+          "pre_normalization_pivot": 100,
+          "row": 37
+        },
+        {
+          "label": {
+            "boundary_column": 87
+          },
+          "pre_normalization_pivot": 100,
+          "row": 38
+        },
+        {
+          "label": {
+            "boundary_column": 88
+          },
+          "pre_normalization_pivot": 100,
+          "row": 39
+        },
+        {
+          "label": {
+            "boundary_column": 89
+          },
+          "pre_normalization_pivot": 100,
+          "row": 43
+        },
+        {
+          "label": {
+            "boundary_column": 90
+          },
+          "pre_normalization_pivot": 1,
+          "row": 130
+        },
+        {
+          "label": {
+            "boundary_column": 91
+          },
+          "pre_normalization_pivot": 100,
+          "row": 52
+        },
+        {
+          "label": {
+            "boundary_column": 92
+          },
+          "pre_normalization_pivot": 100,
+          "row": 53
+        },
+        {
+          "label": {
+            "boundary_column": 93
+          },
+          "pre_normalization_pivot": 100,
+          "row": 54
+        },
+        {
+          "label": {
+            "boundary_column": 94
+          },
+          "pre_normalization_pivot": 100,
+          "row": 58
+        },
+        {
+          "label": {
+            "boundary_column": 95
+          },
+          "pre_normalization_pivot": 1,
+          "row": 145
+        },
+        {
+          "label": {
+            "boundary_column": 96
+          },
+          "pre_normalization_pivot": 100,
+          "row": 67
+        },
+        {
+          "label": {
+            "boundary_column": 97
+          },
+          "pre_normalization_pivot": 100,
+          "row": 68
+        },
+        {
+          "label": {
+            "boundary_column": 98
+          },
+          "pre_normalization_pivot": 100,
+          "row": 69
+        },
+        {
+          "label": {
+            "boundary_column": 99
+          },
+          "pre_normalization_pivot": 100,
+          "row": 73
+        },
+        {
+          "label": {
+            "boundary_column": 100
+          },
+          "pre_normalization_pivot": 100,
+          "row": 78
+        },
+        {
+          "label": {
+            "boundary_column": 101
+          },
+          "pre_normalization_pivot": 100,
+          "row": 79
+        },
+        {
+          "label": {
+            "boundary_column": 102
+          },
+          "pre_normalization_pivot": 100,
+          "row": 80
+        },
+        {
+          "label": {
+            "boundary_column": 103
+          },
+          "pre_normalization_pivot": 100,
+          "row": 83
+        },
+        {
+          "label": {
+            "boundary_column": 104
+          },
+          "pre_normalization_pivot": 100,
+          "row": 87
+        },
+        {
+          "label": {
+            "boundary_column": 105
+          },
+          "pre_normalization_pivot": 100,
+          "row": 93
+        },
+        {
+          "label": {
+            "boundary_column": 106
+          },
+          "pre_normalization_pivot": 100,
+          "row": 94
+        },
+        {
+          "label": {
+            "boundary_column": 107
+          },
+          "pre_normalization_pivot": 100,
+          "row": 95
+        },
+        {
+          "label": {
+            "boundary_column": 108
+          },
+          "pre_normalization_pivot": 100,
+          "row": 98
+        },
+        {
+          "label": {
+            "boundary_column": 109
+          },
+          "pre_normalization_pivot": 100,
+          "row": 102
+        },
+        {
+          "label": {
+            "boundary_column": 110
+          },
+          "pre_normalization_pivot": 100,
+          "row": 108
+        },
+        {
+          "label": {
+            "boundary_column": 111
+          },
+          "pre_normalization_pivot": 100,
+          "row": 109
+        },
+        {
+          "label": {
+            "boundary_column": 112
+          },
+          "pre_normalization_pivot": 100,
+          "row": 110
+        },
+        {
+          "label": {
+            "boundary_column": 113
+          },
+          "pre_normalization_pivot": 100,
+          "row": 113
+        },
+        {
+          "label": {
+            "boundary_column": 114
+          },
+          "pre_normalization_pivot": 100,
+          "row": 117
+        },
+        {
+          "label": {
+            "boundary_column": 115
+          },
+          "pre_normalization_pivot": 100,
+          "row": 123
+        },
+        {
+          "label": {
+            "boundary_column": 116
+          },
+          "pre_normalization_pivot": 100,
+          "row": 124
+        },
+        {
+          "label": {
+            "boundary_column": 117
+          },
+          "pre_normalization_pivot": 100,
+          "row": 125
+        },
+        {
+          "label": {
+            "boundary_column": 118
+          },
+          "pre_normalization_pivot": 100,
+          "row": 128
+        },
+        {
+          "label": {
+            "boundary_column": 119
+          },
+          "pre_normalization_pivot": 100,
+          "row": 132
+        },
+        {
+          "label": {
+            "boundary_column": 120
+          },
+          "pre_normalization_pivot": 100,
+          "row": 138
+        },
+        {
+          "label": {
+            "boundary_column": 121
+          },
+          "pre_normalization_pivot": 100,
+          "row": 139
+        },
+        {
+          "label": {
+            "boundary_column": 122
+          },
+          "pre_normalization_pivot": 100,
+          "row": 140
+        },
+        {
+          "label": {
+            "boundary_column": 123
+          },
+          "pre_normalization_pivot": 100,
+          "row": 143
+        },
+        {
+          "label": {
+            "boundary_column": 124
+          },
+          "pre_normalization_pivot": 100,
+          "row": 147
+        },
+        {
+          "label": {
+            "boundary_column": 125
+          },
+          "pre_normalization_pivot": 100,
+          "row": 450
+        },
+        {
+          "label": {
+            "boundary_column": 126
+          },
+          "pre_normalization_pivot": 100,
+          "row": 451
+        },
+        {
+          "label": {
+            "boundary_column": 127
+          },
+          "pre_normalization_pivot": 100,
+          "row": 453
+        },
+        {
+          "label": {
+            "boundary_column": 128
+          },
+          "pre_normalization_pivot": 100,
+          "row": 456
+        },
+        {
+          "label": {
+            "boundary_column": 129
+          },
+          "pre_normalization_pivot": 100,
+          "row": 460
+        },
+        {
+          "label": {
+            "boundary_column": 130
+          },
+          "pre_normalization_pivot": 100,
+          "row": 465
+        },
+        {
+          "label": {
+            "boundary_column": 131
+          },
+          "pre_normalization_pivot": 100,
+          "row": 466
+        },
+        {
+          "label": {
+            "boundary_column": 132
+          },
+          "pre_normalization_pivot": 100,
+          "row": 468
+        },
+        {
+          "label": {
+            "boundary_column": 133
+          },
+          "pre_normalization_pivot": 100,
+          "row": 471
+        },
+        {
+          "label": {
+            "boundary_column": 134
+          },
+          "pre_normalization_pivot": 100,
+          "row": 475
+        },
+        {
+          "label": {
+            "boundary_column": 135
+          },
+          "pre_normalization_pivot": 100,
+          "row": 480
+        },
+        {
+          "label": {
+            "boundary_column": 136
+          },
+          "pre_normalization_pivot": 100,
+          "row": 481
+        },
+        {
+          "label": {
+            "boundary_column": 137
+          },
+          "pre_normalization_pivot": 100,
+          "row": 483
+        },
+        {
+          "label": {
+            "boundary_column": 138
+          },
+          "pre_normalization_pivot": 100,
+          "row": 486
+        },
+        {
+          "label": {
+            "boundary_column": 139
+          },
+          "pre_normalization_pivot": 100,
+          "row": 490
+        },
+        {
+          "label": {
+            "boundary_column": 140
+          },
+          "pre_normalization_pivot": 100,
+          "row": 495
+        },
+        {
+          "label": {
+            "boundary_column": 141
+          },
+          "pre_normalization_pivot": 100,
+          "row": 496
+        },
+        {
+          "label": {
+            "boundary_column": 142
+          },
+          "pre_normalization_pivot": 100,
+          "row": 498
+        },
+        {
+          "label": {
+            "boundary_column": 143
+          },
+          "pre_normalization_pivot": 100,
+          "row": 501
+        },
+        {
+          "label": {
+            "boundary_column": 144
+          },
+          "pre_normalization_pivot": 100,
+          "row": 505
+        },
+        {
+          "label": {
+            "boundary_column": 145
+          },
+          "pre_normalization_pivot": 100,
+          "row": 510
+        },
+        {
+          "label": {
+            "boundary_column": 146
+          },
+          "pre_normalization_pivot": 100,
+          "row": 511
+        },
+        {
+          "label": {
+            "boundary_column": 147
+          },
+          "pre_normalization_pivot": 100,
+          "row": 513
+        },
+        {
+          "label": {
+            "boundary_column": 148
+          },
+          "pre_normalization_pivot": 100,
+          "row": 516
+        },
+        {
+          "label": {
+            "boundary_column": 149
+          },
+          "pre_normalization_pivot": 100,
+          "row": 520
+        },
+        {
+          "label": {
+            "boundary_column": 150
+          },
+          "pre_normalization_pivot": 1,
+          "row": 378
+        },
+        {
+          "label": {
+            "boundary_column": 151
+          },
+          "pre_normalization_pivot": 1,
+          "row": 379
+        },
+        {
+          "label": {
+            "boundary_column": 152
+          },
+          "pre_normalization_pivot": 1,
+          "row": 380
+        },
+        {
+          "label": {
+            "boundary_column": 153
+          },
+          "pre_normalization_pivot": 1,
+          "row": 383
+        },
+        {
+          "label": {
+            "boundary_column": 154
+          },
+          "pre_normalization_pivot": 1,
+          "row": 387
+        },
+        {
+          "label": {
+            "boundary_column": 155
+          },
+          "pre_normalization_pivot": 1,
+          "row": 393
+        },
+        {
+          "label": {
+            "boundary_column": 156
+          },
+          "pre_normalization_pivot": 1,
+          "row": 394
+        },
+        {
+          "label": {
+            "boundary_column": 157
+          },
+          "pre_normalization_pivot": 1,
+          "row": 395
+        },
+        {
+          "label": {
+            "boundary_column": 158
+          },
+          "pre_normalization_pivot": 1,
+          "row": 398
+        },
+        {
+          "label": {
+            "boundary_column": 159
+          },
+          "pre_normalization_pivot": 1,
+          "row": 402
+        },
+        {
+          "label": {
+            "boundary_column": 160
+          },
+          "pre_normalization_pivot": 1,
+          "row": 408
+        },
+        {
+          "label": {
+            "boundary_column": 161
+          },
+          "pre_normalization_pivot": 1,
+          "row": 409
+        },
+        {
+          "label": {
+            "boundary_column": 162
+          },
+          "pre_normalization_pivot": 1,
+          "row": 410
+        },
+        {
+          "label": {
+            "boundary_column": 163
+          },
+          "pre_normalization_pivot": 1,
+          "row": 413
+        },
+        {
+          "label": {
+            "boundary_column": 164
+          },
+          "pre_normalization_pivot": 1,
+          "row": 417
+        },
+        {
+          "label": {
+            "boundary_column": 165
+          },
+          "pre_normalization_pivot": 1,
+          "row": 423
+        },
+        {
+          "label": {
+            "boundary_column": 166
+          },
+          "pre_normalization_pivot": 1,
+          "row": 424
+        },
+        {
+          "label": {
+            "boundary_column": 167
+          },
+          "pre_normalization_pivot": 1,
+          "row": 425
+        },
+        {
+          "label": {
+            "boundary_column": 168
+          },
+          "pre_normalization_pivot": 1,
+          "row": 428
+        },
+        {
+          "label": {
+            "boundary_column": 169
+          },
+          "pre_normalization_pivot": 1,
+          "row": 432
+        },
+        {
+          "label": {
+            "boundary_column": 170
+          },
+          "pre_normalization_pivot": 1,
+          "row": 438
+        },
+        {
+          "label": {
+            "boundary_column": 171
+          },
+          "pre_normalization_pivot": 1,
+          "row": 439
+        },
+        {
+          "label": {
+            "boundary_column": 172
+          },
+          "pre_normalization_pivot": 1,
+          "row": 440
+        },
+        {
+          "label": {
+            "boundary_column": 173
+          },
+          "pre_normalization_pivot": 1,
+          "row": 443
+        },
+        {
+          "label": {
+            "boundary_column": 174
+          },
+          "pre_normalization_pivot": 1,
+          "row": 447
+        },
+        {
+          "label": {
+            "boundary_column": 175
+          },
+          "pre_normalization_pivot": 100,
+          "row": 606
+        },
+        {
+          "label": {
+            "boundary_column": 176
+          },
+          "pre_normalization_pivot": 1,
+          "row": 452
+        },
+        {
+          "label": {
+            "boundary_column": 177
+          },
+          "pre_normalization_pivot": 1,
+          "row": 454
+        },
+        {
+          "label": {
+            "boundary_column": 178
+          },
+          "pre_normalization_pivot": 1,
+          "row": 457
+        },
+        {
+          "label": {
+            "boundary_column": 179
+          },
+          "pre_normalization_pivot": 1,
+          "row": 461
+        },
+        {
+          "label": {
+            "boundary_column": 180
+          },
+          "pre_normalization_pivot": 100,
+          "row": 621
+        },
+        {
+          "label": {
+            "boundary_column": 181
+          },
+          "pre_normalization_pivot": 1,
+          "row": 467
+        },
+        {
+          "label": {
+            "boundary_column": 182
+          },
+          "pre_normalization_pivot": 1,
+          "row": 469
+        },
+        {
+          "label": {
+            "boundary_column": 183
+          },
+          "pre_normalization_pivot": 1,
+          "row": 472
+        },
+        {
+          "label": {
+            "boundary_column": 184
+          },
+          "pre_normalization_pivot": 1,
+          "row": 476
+        },
+        {
+          "label": {
+            "boundary_column": 185
+          },
+          "pre_normalization_pivot": 100,
+          "row": 636
+        },
+        {
+          "label": {
+            "boundary_column": 186
+          },
+          "pre_normalization_pivot": 1,
+          "row": 482
+        },
+        {
+          "label": {
+            "boundary_column": 187
+          },
+          "pre_normalization_pivot": 1,
+          "row": 484
+        },
+        {
+          "label": {
+            "boundary_column": 188
+          },
+          "pre_normalization_pivot": 1,
+          "row": 487
+        },
+        {
+          "label": {
+            "boundary_column": 189
+          },
+          "pre_normalization_pivot": 1,
+          "row": 491
+        },
+        {
+          "label": {
+            "boundary_column": 190
+          },
+          "pre_normalization_pivot": 100,
+          "row": 651
+        },
+        {
+          "label": {
+            "boundary_column": 191
+          },
+          "pre_normalization_pivot": 1,
+          "row": 497
+        },
+        {
+          "label": {
+            "boundary_column": 192
+          },
+          "pre_normalization_pivot": 1,
+          "row": 499
+        },
+        {
+          "label": {
+            "boundary_column": 193
+          },
+          "pre_normalization_pivot": 1,
+          "row": 502
+        },
+        {
+          "label": {
+            "boundary_column": 194
+          },
+          "pre_normalization_pivot": 1,
+          "row": 506
+        },
+        {
+          "label": {
+            "boundary_column": 195
+          },
+          "pre_normalization_pivot": 100,
+          "row": 666
+        },
+        {
+          "label": {
+            "boundary_column": 196
+          },
+          "pre_normalization_pivot": 1,
+          "row": 512
+        },
+        {
+          "label": {
+            "boundary_column": 197
+          },
+          "pre_normalization_pivot": 1,
+          "row": 514
+        },
+        {
+          "label": {
+            "boundary_column": 198
+          },
+          "pre_normalization_pivot": 1,
+          "row": 517
+        },
+        {
+          "label": {
+            "boundary_column": 199
+          },
+          "pre_normalization_pivot": 1,
+          "row": 521
+        },
+        {
+          "label": {
+            "boundary_column": 200
+          },
+          "pre_normalization_pivot": 1,
+          "row": 525
+        },
+        {
+          "label": {
+            "boundary_column": 201
+          },
+          "pre_normalization_pivot": 1,
+          "row": 526
+        },
+        {
+          "label": {
+            "boundary_column": 202
+          },
+          "pre_normalization_pivot": 1,
+          "row": 528
+        },
+        {
+          "label": {
+            "boundary_column": 203
+          },
+          "pre_normalization_pivot": 1,
+          "row": 531
+        },
+        {
+          "label": {
+            "boundary_column": 204
+          },
+          "pre_normalization_pivot": 1,
+          "row": 535
+        },
+        {
+          "label": {
+            "boundary_column": 205
+          },
+          "pre_normalization_pivot": 1,
+          "row": 540
+        },
+        {
+          "label": {
+            "boundary_column": 206
+          },
+          "pre_normalization_pivot": 1,
+          "row": 541
+        },
+        {
+          "label": {
+            "boundary_column": 207
+          },
+          "pre_normalization_pivot": 1,
+          "row": 543
+        },
+        {
+          "label": {
+            "boundary_column": 208
+          },
+          "pre_normalization_pivot": 1,
+          "row": 546
+        },
+        {
+          "label": {
+            "boundary_column": 209
+          },
+          "pre_normalization_pivot": 1,
+          "row": 550
+        },
+        {
+          "label": {
+            "boundary_column": 210
+          },
+          "pre_normalization_pivot": 1,
+          "row": 555
+        },
+        {
+          "label": {
+            "boundary_column": 211
+          },
+          "pre_normalization_pivot": 1,
+          "row": 556
+        },
+        {
+          "label": {
+            "boundary_column": 212
+          },
+          "pre_normalization_pivot": 1,
+          "row": 558
+        },
+        {
+          "label": {
+            "boundary_column": 213
+          },
+          "pre_normalization_pivot": 1,
+          "row": 561
+        },
+        {
+          "label": {
+            "boundary_column": 214
+          },
+          "pre_normalization_pivot": 1,
+          "row": 565
+        },
+        {
+          "label": {
+            "boundary_column": 215
+          },
+          "pre_normalization_pivot": 1,
+          "row": 570
+        },
+        {
+          "label": {
+            "boundary_column": 216
+          },
+          "pre_normalization_pivot": 1,
+          "row": 571
+        },
+        {
+          "label": {
+            "boundary_column": 217
+          },
+          "pre_normalization_pivot": 1,
+          "row": 573
+        },
+        {
+          "label": {
+            "boundary_column": 218
+          },
+          "pre_normalization_pivot": 1,
+          "row": 576
+        },
+        {
+          "label": {
+            "boundary_column": 219
+          },
+          "pre_normalization_pivot": 1,
+          "row": 580
+        },
+        {
+          "label": {
+            "boundary_column": 220
+          },
+          "pre_normalization_pivot": 1,
+          "row": 585
+        },
+        {
+          "label": {
+            "boundary_column": 221
+          },
+          "pre_normalization_pivot": 1,
+          "row": 586
+        },
+        {
+          "label": {
+            "boundary_column": 222
+          },
+          "pre_normalization_pivot": 1,
+          "row": 588
+        },
+        {
+          "label": {
+            "boundary_column": 223
+          },
+          "pre_normalization_pivot": 1,
+          "row": 591
+        },
+        {
+          "label": {
+            "boundary_column": 224
+          },
+          "pre_normalization_pivot": 1,
+          "row": 595
+        },
+        {
+          "label": {
+            "boundary_column": 225
+          },
+          "pre_normalization_pivot": 100,
+          "row": 376
+        },
+        {
+          "label": {
+            "boundary_column": 226
+          },
+          "pre_normalization_pivot": 100,
+          "row": 377
+        },
+        {
+          "label": {
+            "boundary_column": 227
+          },
+          "pre_normalization_pivot": 100,
+          "row": 536
+        },
+        {
+          "label": {
+            "boundary_column": 228
+          },
+          "pre_normalization_pivot": 100,
+          "row": 382
+        },
+        {
+          "label": {
+            "boundary_column": 229
+          },
+          "pre_normalization_pivot": 100,
+          "row": 386
+        },
+        {
+          "label": {
+            "boundary_column": 230
+          },
+          "pre_normalization_pivot": 100,
+          "row": 391
+        },
+        {
+          "label": {
+            "boundary_column": 231
+          },
+          "pre_normalization_pivot": 100,
+          "row": 392
+        },
+        {
+          "label": {
+            "boundary_column": 232
+          },
+          "pre_normalization_pivot": 100,
+          "row": 551
+        },
+        {
+          "label": {
+            "boundary_column": 233
+          },
+          "pre_normalization_pivot": 100,
+          "row": 397
+        },
+        {
+          "label": {
+            "boundary_column": 234
+          },
+          "pre_normalization_pivot": 100,
+          "row": 401
+        },
+        {
+          "label": {
+            "boundary_column": 235
+          },
+          "pre_normalization_pivot": 100,
+          "row": 406
+        },
+        {
+          "label": {
+            "boundary_column": 236
+          },
+          "pre_normalization_pivot": 100,
+          "row": 407
+        },
+        {
+          "label": {
+            "boundary_column": 237
+          },
+          "pre_normalization_pivot": 100,
+          "row": 566
+        },
+        {
+          "label": {
+            "boundary_column": 238
+          },
+          "pre_normalization_pivot": 100,
+          "row": 412
+        },
+        {
+          "label": {
+            "boundary_column": 239
+          },
+          "pre_normalization_pivot": 100,
+          "row": 416
+        },
+        {
+          "label": {
+            "boundary_column": 240
+          },
+          "pre_normalization_pivot": 100,
+          "row": 421
+        },
+        {
+          "label": {
+            "boundary_column": 241
+          },
+          "pre_normalization_pivot": 100,
+          "row": 422
+        },
+        {
+          "label": {
+            "boundary_column": 242
+          },
+          "pre_normalization_pivot": 100,
+          "row": 581
+        },
+        {
+          "label": {
+            "boundary_column": 243
+          },
+          "pre_normalization_pivot": 100,
+          "row": 427
+        },
+        {
+          "label": {
+            "boundary_column": 244
+          },
+          "pre_normalization_pivot": 100,
+          "row": 431
+        },
+        {
+          "label": {
+            "boundary_column": 245
+          },
+          "pre_normalization_pivot": 100,
+          "row": 436
+        },
+        {
+          "label": {
+            "boundary_column": 246
+          },
+          "pre_normalization_pivot": 100,
+          "row": 437
+        },
+        {
+          "label": {
+            "boundary_column": 247
+          },
+          "pre_normalization_pivot": 100,
+          "row": 596
+        },
+        {
+          "label": {
+            "boundary_column": 248
+          },
+          "pre_normalization_pivot": 100,
+          "row": 442
+        },
+        {
+          "label": {
+            "boundary_column": 249
+          },
+          "pre_normalization_pivot": 100,
+          "row": 446
+        },
+        {
+          "label": {
+            "boundary_column": 250
+          },
+          "pre_normalization_pivot": 100,
+          "row": 75
+        },
+        {
+          "label": {
+            "boundary_column": 251
+          },
+          "pre_normalization_pivot": 100,
+          "row": 76
+        },
+        {
+          "label": {
+            "boundary_column": 252
+          },
+          "pre_normalization_pivot": 100,
+          "row": 156
+        },
+        {
+          "label": {
+            "boundary_column": 253
+          },
+          "pre_normalization_pivot": 100,
+          "row": 81
+        },
+        {
+          "label": {
+            "boundary_column": 255
+          },
+          "pre_normalization_pivot": 100,
+          "row": 90
+        },
+        {
+          "label": {
+            "boundary_column": 256
+          },
+          "pre_normalization_pivot": 100,
+          "row": 91
+        },
+        {
+          "label": {
+            "boundary_column": 257
+          },
+          "pre_normalization_pivot": 100,
+          "row": 171
+        },
+        {
+          "label": {
+            "boundary_column": 258
+          },
+          "pre_normalization_pivot": 100,
+          "row": 96
+        },
+        {
+          "label": {
+            "boundary_column": 260
+          },
+          "pre_normalization_pivot": 100,
+          "row": 105
+        },
+        {
+          "label": {
+            "boundary_column": 261
+          },
+          "pre_normalization_pivot": 100,
+          "row": 106
+        },
+        {
+          "label": {
+            "boundary_column": 262
+          },
+          "pre_normalization_pivot": 100,
+          "row": 186
+        },
+        {
+          "label": {
+            "boundary_column": 263
+          },
+          "pre_normalization_pivot": 100,
+          "row": 111
+        },
+        {
+          "label": {
+            "boundary_column": 265
+          },
+          "pre_normalization_pivot": 100,
+          "row": 120
+        },
+        {
+          "label": {
+            "boundary_column": 266
+          },
+          "pre_normalization_pivot": 100,
+          "row": 121
+        },
+        {
+          "label": {
+            "boundary_column": 267
+          },
+          "pre_normalization_pivot": 100,
+          "row": 201
+        },
+        {
+          "label": {
+            "boundary_column": 268
+          },
+          "pre_normalization_pivot": 100,
+          "row": 126
+        },
+        {
+          "label": {
+            "boundary_column": 270
+          },
+          "pre_normalization_pivot": 100,
+          "row": 135
+        },
+        {
+          "label": {
+            "boundary_column": 271
+          },
+          "pre_normalization_pivot": 100,
+          "row": 136
+        },
+        {
+          "label": {
+            "boundary_column": 272
+          },
+          "pre_normalization_pivot": 100,
+          "row": 216
+        },
+        {
+          "label": {
+            "boundary_column": 273
+          },
+          "pre_normalization_pivot": 100,
+          "row": 141
+        },
+        {
+          "label": {
+            "boundary_column": 275
+          },
+          "pre_normalization_pivot": 100,
+          "row": 160
+        },
+        {
+          "label": {
+            "boundary_column": 276
+          },
+          "pre_normalization_pivot": 1,
+          "row": 4
+        },
+        {
+          "label": {
+            "boundary_column": 277
+          },
+          "pre_normalization_pivot": 1,
+          "row": 5
+        },
+        {
+          "label": {
+            "boundary_column": 279
+          },
+          "pre_normalization_pivot": 1,
+          "row": 12
+        },
+        {
+          "label": {
+            "boundary_column": 280
+          },
+          "pre_normalization_pivot": 100,
+          "row": 175
+        },
+        {
+          "label": {
+            "boundary_column": 281
+          },
+          "pre_normalization_pivot": 1,
+          "row": 19
+        },
+        {
+          "label": {
+            "boundary_column": 282
+          },
+          "pre_normalization_pivot": 1,
+          "row": 20
+        },
+        {
+          "label": {
+            "boundary_column": 284
+          },
+          "pre_normalization_pivot": 1,
+          "row": 27
+        },
+        {
+          "label": {
+            "boundary_column": 285
+          },
+          "pre_normalization_pivot": 100,
+          "row": 190
+        },
+        {
+          "label": {
+            "boundary_column": 286
+          },
+          "pre_normalization_pivot": 1,
+          "row": 34
+        },
+        {
+          "label": {
+            "boundary_column": 287
+          },
+          "pre_normalization_pivot": 1,
+          "row": 35
+        },
+        {
+          "label": {
+            "boundary_column": 289
+          },
+          "pre_normalization_pivot": 1,
+          "row": 42
+        },
+        {
+          "label": {
+            "boundary_column": 290
+          },
+          "pre_normalization_pivot": 100,
+          "row": 205
+        },
+        {
+          "label": {
+            "boundary_column": 291
+          },
+          "pre_normalization_pivot": 1,
+          "row": 49
+        },
+        {
+          "label": {
+            "boundary_column": 292
+          },
+          "pre_normalization_pivot": 1,
+          "row": 50
+        },
+        {
+          "label": {
+            "boundary_column": 294
+          },
+          "pre_normalization_pivot": 1,
+          "row": 57
+        },
+        {
+          "label": {
+            "boundary_column": 295
+          },
+          "pre_normalization_pivot": 100,
+          "row": 220
+        },
+        {
+          "label": {
+            "boundary_column": 296
+          },
+          "pre_normalization_pivot": 1,
+          "row": 64
+        },
+        {
+          "label": {
+            "boundary_column": 297
+          },
+          "pre_normalization_pivot": 1,
+          "row": 65
+        },
+        {
+          "label": {
+            "boundary_column": 299
+          },
+          "pre_normalization_pivot": 1,
+          "row": 72
+        },
+        {
+          "label": {
+            "boundary_column": 300
+          },
+          "pre_normalization_pivot": 1,
+          "row": 375
+        },
+        {
+          "label": {
+            "boundary_column": 301
+          },
+          "pre_normalization_pivot": 1,
+          "row": 77
+        },
+        {
+          "label": {
+            "boundary_column": 303
+          },
+          "pre_normalization_pivot": 1,
+          "row": 82
+        },
+        {
+          "label": {
+            "boundary_column": 304
+          },
+          "pre_normalization_pivot": 1,
+          "row": 86
+        },
+        {
+          "label": {
+            "boundary_column": 305
+          },
+          "pre_normalization_pivot": 1,
+          "row": 390
+        },
+        {
+          "label": {
+            "boundary_column": 306
+          },
+          "pre_normalization_pivot": 1,
+          "row": 92
+        },
+        {
+          "label": {
+            "boundary_column": 308
+          },
+          "pre_normalization_pivot": 1,
+          "row": 97
+        },
+        {
+          "label": {
+            "boundary_column": 309
+          },
+          "pre_normalization_pivot": 1,
+          "row": 101
+        },
+        {
+          "label": {
+            "boundary_column": 310
+          },
+          "pre_normalization_pivot": 1,
+          "row": 405
+        },
+        {
+          "label": {
+            "boundary_column": 311
+          },
+          "pre_normalization_pivot": 1,
+          "row": 107
+        },
+        {
+          "label": {
+            "boundary_column": 313
+          },
+          "pre_normalization_pivot": 1,
+          "row": 112
+        },
+        {
+          "label": {
+            "boundary_column": 314
+          },
+          "pre_normalization_pivot": 1,
+          "row": 116
+        },
+        {
+          "label": {
+            "boundary_column": 315
+          },
+          "pre_normalization_pivot": 1,
+          "row": 420
+        },
+        {
+          "label": {
+            "boundary_column": 316
+          },
+          "pre_normalization_pivot": 1,
+          "row": 122
+        },
+        {
+          "label": {
+            "boundary_column": 318
+          },
+          "pre_normalization_pivot": 1,
+          "row": 127
+        },
+        {
+          "label": {
+            "boundary_column": 319
+          },
+          "pre_normalization_pivot": 1,
+          "row": 131
+        },
+        {
+          "label": {
+            "boundary_column": 320
+          },
+          "pre_normalization_pivot": 1,
+          "row": 435
+        },
+        {
+          "label": {
+            "boundary_column": 321
+          },
+          "pre_normalization_pivot": 1,
+          "row": 137
+        },
+        {
+          "label": {
+            "boundary_column": 323
+          },
+          "pre_normalization_pivot": 1,
+          "row": 142
+        },
+        {
+          "label": {
+            "boundary_column": 324
+          },
+          "pre_normalization_pivot": 1,
+          "row": 146
+        },
+        {
+          "label": {
+            "boundary_column": 325
+          },
+          "pre_normalization_pivot": 1,
+          "row": 150
+        },
+        {
+          "label": {
+            "boundary_column": 327
+          },
+          "pre_normalization_pivot": 1,
+          "row": 153
+        },
+        {
+          "label": {
+            "boundary_column": 328
+          },
+          "pre_normalization_pivot": 100,
+          "row": 384
+        },
+        {
+          "label": {
+            "boundary_column": 329
+          },
+          "pre_normalization_pivot": 100,
+          "row": 388
+        },
+        {
+          "label": {
+            "boundary_column": 330
+          },
+          "pre_normalization_pivot": 1,
+          "row": 165
+        },
+        {
+          "label": {
+            "boundary_column": 332
+          },
+          "pre_normalization_pivot": 1,
+          "row": 168
+        },
+        {
+          "label": {
+            "boundary_column": 333
+          },
+          "pre_normalization_pivot": 100,
+          "row": 399
+        },
+        {
+          "label": {
+            "boundary_column": 334
+          },
+          "pre_normalization_pivot": 100,
+          "row": 403
+        },
+        {
+          "label": {
+            "boundary_column": 335
+          },
+          "pre_normalization_pivot": 1,
+          "row": 180
+        },
+        {
+          "label": {
+            "boundary_column": 337
+          },
+          "pre_normalization_pivot": 1,
+          "row": 183
+        },
+        {
+          "label": {
+            "boundary_column": 338
+          },
+          "pre_normalization_pivot": 100,
+          "row": 414
+        },
+        {
+          "label": {
+            "boundary_column": 339
+          },
+          "pre_normalization_pivot": 100,
+          "row": 418
+        },
+        {
+          "label": {
+            "boundary_column": 340
+          },
+          "pre_normalization_pivot": 1,
+          "row": 195
+        },
+        {
+          "label": {
+            "boundary_column": 342
+          },
+          "pre_normalization_pivot": 1,
+          "row": 198
+        },
+        {
+          "label": {
+            "boundary_column": 343
+          },
+          "pre_normalization_pivot": 100,
+          "row": 429
+        },
+        {
+          "label": {
+            "boundary_column": 344
+          },
+          "pre_normalization_pivot": 100,
+          "row": 433
+        },
+        {
+          "label": {
+            "boundary_column": 345
+          },
+          "pre_normalization_pivot": 1,
+          "row": 210
+        },
+        {
+          "label": {
+            "boundary_column": 347
+          },
+          "pre_normalization_pivot": 1,
+          "row": 213
+        },
+        {
+          "label": {
+            "boundary_column": 348
+          },
+          "pre_normalization_pivot": 100,
+          "row": 444
+        },
+        {
+          "label": {
+            "boundary_column": 349
+          },
+          "pre_normalization_pivot": 100,
+          "row": 448
+        },
+        {
+          "label": {
+            "boundary_column": 351
+          },
+          "pre_normalization_pivot": 100,
+          "row": 2
+        },
+        {
+          "label": {
+            "boundary_column": 352
+          },
+          "pre_normalization_pivot": 100,
+          "row": 455
+        },
+        {
+          "label": {
+            "boundary_column": 353
+          },
+          "pre_normalization_pivot": 1,
+          "row": 385
+        },
+        {
+          "label": {
+            "boundary_column": 354
+          },
+          "pre_normalization_pivot": 100,
+          "row": 11
+        },
+        {
+          "label": {
+            "boundary_column": 356
+          },
+          "pre_normalization_pivot": 100,
+          "row": 17
+        },
+        {
+          "label": {
+            "boundary_column": 357
+          },
+          "pre_normalization_pivot": 100,
+          "row": 470
+        },
+        {
+          "label": {
+            "boundary_column": 358
+          },
+          "pre_normalization_pivot": 1,
+          "row": 400
+        },
+        {
+          "label": {
+            "boundary_column": 359
+          },
+          "pre_normalization_pivot": 100,
+          "row": 26
+        },
+        {
+          "label": {
+            "boundary_column": 361
+          },
+          "pre_normalization_pivot": 100,
+          "row": 32
+        },
+        {
+          "label": {
+            "boundary_column": 362
+          },
+          "pre_normalization_pivot": 100,
+          "row": 485
+        },
+        {
+          "label": {
+            "boundary_column": 363
+          },
+          "pre_normalization_pivot": 1,
+          "row": 415
+        },
+        {
+          "label": {
+            "boundary_column": 364
+          },
+          "pre_normalization_pivot": 100,
+          "row": 41
+        },
+        {
+          "label": {
+            "boundary_column": 366
+          },
+          "pre_normalization_pivot": 100,
+          "row": 47
+        },
+        {
+          "label": {
+            "boundary_column": 367
+          },
+          "pre_normalization_pivot": 100,
+          "row": 500
+        },
+        {
+          "label": {
+            "boundary_column": 368
+          },
+          "pre_normalization_pivot": 1,
+          "row": 430
+        },
+        {
+          "label": {
+            "boundary_column": 369
+          },
+          "pre_normalization_pivot": 100,
+          "row": 56
+        },
+        {
+          "label": {
+            "boundary_column": 371
+          },
+          "pre_normalization_pivot": 100,
+          "row": 62
+        },
+        {
+          "label": {
+            "boundary_column": 372
+          },
+          "pre_normalization_pivot": 100,
+          "row": 515
+        },
+        {
+          "label": {
+            "boundary_column": 373
+          },
+          "pre_normalization_pivot": 1,
+          "row": 445
+        },
+        {
+          "label": {
+            "boundary_column": 374
+          },
+          "pre_normalization_pivot": 100,
+          "row": 71
+        },
+        {
+          "label": {
+            "boundary_column": 375
+          },
+          "pre_normalization_pivot": 1,
+          "row": 343
+        },
+        {
+          "label": {
+            "boundary_column": 376
+          },
+          "pre_normalization_pivot": 1,
+          "row": 268
+        },
+        {
+          "label": {
+            "boundary_column": 377
+          },
+          "pre_normalization_pivot": 1,
+          "row": 193
+        },
+        {
+          "label": {
+            "boundary_column": 378
+          },
+          "pre_normalization_pivot": 1,
+          "row": 118
+        },
+        {
+          "label": {
+            "boundary_column": 379
+          },
+          "pre_normalization_pivot": 1,
+          "row": 119
+        },
+        {
+          "label": {
+            "boundary_column": 380
+          },
+          "pre_normalization_pivot": 1,
+          "row": 357
+        },
+        {
+          "label": {
+            "boundary_column": 381
+          },
+          "pre_normalization_pivot": 1,
+          "row": 282
+        },
+        {
+          "label": {
+            "boundary_column": 382
+          },
+          "pre_normalization_pivot": 1,
+          "row": 207
+        },
+        {
+          "label": {
+            "boundary_column": 383
+          },
+          "pre_normalization_pivot": 1,
+          "row": 149
+        },
+        {
+          "label": {
+            "boundary_column": 384
+          },
+          "pre_normalization_pivot": 1,
+          "row": 74
+        },
+        {
+          "label": {
+            "boundary_column": 385
+          },
+          "pre_normalization_pivot": 1,
+          "row": 313
+        },
+        {
+          "label": {
+            "boundary_column": 386
+          },
+          "pre_normalization_pivot": 1,
+          "row": 238
+        },
+        {
+          "label": {
+            "boundary_column": 387
+          },
+          "pre_normalization_pivot": 1,
+          "row": 163
+        },
+        {
+          "label": {
+            "boundary_column": 388
+          },
+          "pre_normalization_pivot": 1,
+          "row": 88
+        },
+        {
+          "label": {
+            "boundary_column": 389
+          },
+          "pre_normalization_pivot": 1,
+          "row": 89
+        },
+        {
+          "label": {
+            "boundary_column": 390
+          },
+          "pre_normalization_pivot": 1,
+          "row": 310
+        },
+        {
+          "label": {
+            "boundary_column": 391
+          },
+          "pre_normalization_pivot": 1,
+          "row": 252
+        },
+        {
+          "label": {
+            "boundary_column": 392
+          },
+          "pre_normalization_pivot": 1,
+          "row": 177
+        },
+        {
+          "label": {
+            "boundary_column": 393
+          },
+          "pre_normalization_pivot": 1,
+          "row": 178
+        },
+        {
+          "label": {
+            "boundary_column": 394
+          },
+          "pre_normalization_pivot": 1,
+          "row": 179
+        },
+        {
+          "label": {
+            "boundary_column": 395
+          },
+          "pre_normalization_pivot": 1,
+          "row": 329
+        },
+        {
+          "label": {
+            "boundary_column": 396
+          },
+          "pre_normalization_pivot": 1,
+          "row": 254
+        },
+        {
+          "label": {
+            "boundary_column": 397
+          },
+          "pre_normalization_pivot": 1,
+          "row": 267
+        },
+        {
+          "label": {
+            "boundary_column": 398
+          },
+          "pre_normalization_pivot": 1,
+          "row": 104
+        },
+        {
+          "label": {
+            "boundary_column": 399
+          },
+          "pre_normalization_pivot": 1,
+          "row": 29
+        },
+        {
+          "label": {
+            "boundary_column": 400
+          },
+          "pre_normalization_pivot": 100,
+          "row": 326
+        },
+        {
+          "label": {
+            "boundary_column": 401
+          },
+          "pre_normalization_pivot": 100,
+          "row": 251
+        },
+        {
+          "label": {
+            "boundary_column": 402
+          },
+          "pre_normalization_pivot": 100,
+          "row": 222
+        },
+        {
+          "label": {
+            "boundary_column": 403
+          },
+          "pre_normalization_pivot": 100,
+          "row": 223
+        },
+        {
+          "label": {
+            "boundary_column": 404
+          },
+          "pre_normalization_pivot": 100,
+          "row": 224
+        },
+        {
+          "label": {
+            "boundary_column": 405
+          },
+          "pre_normalization_pivot": 100,
+          "row": 311
+        },
+        {
+          "label": {
+            "boundary_column": 406
+          },
+          "pre_normalization_pivot": 100,
+          "row": 236
+        },
+        {
+          "label": {
+            "boundary_column": 407
+          },
+          "pre_normalization_pivot": 100,
+          "row": 237
+        },
+        {
+          "label": {
+            "boundary_column": 408
+          },
+          "pre_normalization_pivot": 1,
+          "row": 296
+        },
+        {
+          "label": {
+            "boundary_column": 409
+          },
+          "pre_normalization_pivot": 100,
+          "row": 239
+        },
+        {
+          "label": {
+            "boundary_column": 410
+          },
+          "pre_normalization_pivot": 100,
+          "row": 325
+        },
+        {
+          "label": {
+            "boundary_column": 411
+          },
+          "pre_normalization_pivot": 100,
+          "row": 284
+        },
+        {
+          "label": {
+            "boundary_column": 412
+          },
+          "pre_normalization_pivot": 100,
+          "row": 209
+        },
+        {
+          "label": {
+            "boundary_column": 413
+          },
+          "pre_normalization_pivot": 100,
+          "row": 134
+        },
+        {
+          "label": {
+            "boundary_column": 414
+          },
+          "pre_normalization_pivot": 100,
+          "row": 59
+        },
+        {
+          "label": {
+            "boundary_column": 415
+          },
+          "pre_normalization_pivot": 100,
+          "row": 344
+        },
+        {
+          "label": {
+            "boundary_column": 416
+          },
+          "pre_normalization_pivot": 100,
+          "row": 269
+        },
+        {
+          "label": {
+            "boundary_column": 417
+          },
+          "pre_normalization_pivot": 100,
+          "row": 194
+        },
+        {
+          "label": {
+            "boundary_column": 418
+          },
+          "pre_normalization_pivot": 100,
+          "row": 148
+        },
+        {
+          "label": {
+            "boundary_column": 419
+          },
+          "pre_normalization_pivot": 100,
+          "row": 44
+        },
+        {
+          "label": {
+            "boundary_column": 420
+          },
+          "pre_normalization_pivot": 100,
+          "row": 312
+        },
+        {
+          "label": {
+            "boundary_column": 421
+          },
+          "pre_normalization_pivot": 100,
+          "row": 283
+        },
+        {
+          "label": {
+            "boundary_column": 422
+          },
+          "pre_normalization_pivot": 100,
+          "row": 162
+        },
+        {
+          "label": {
+            "boundary_column": 423
+          },
+          "pre_normalization_pivot": 100,
+          "row": 133
+        },
+        {
+          "label": {
+            "boundary_column": 424
+          },
+          "pre_normalization_pivot": 100,
+          "row": 164
+        },
+        {
+          "label": {
+            "boundary_column": 425
+          },
+          "pre_normalization_pivot": 1,
+          "row": 314
+        },
+        {
+          "label": {
+            "boundary_column": 426
+          },
+          "pre_normalization_pivot": 1,
+          "row": 373
+        },
+        {
+          "label": {
+            "boundary_column": 427
+          },
+          "pre_normalization_pivot": 1,
+          "row": 328
+        },
+        {
+          "label": {
+            "boundary_column": 428
+          },
+          "pre_normalization_pivot": 100,
+          "row": 299
+        },
+        {
+          "label": {
+            "boundary_column": 429
+          },
+          "pre_normalization_pivot": 1,
+          "row": 14
+        },
+        {
+          "label": {
+            "boundary_column": 430
+          },
+          "pre_normalization_pivot": 1,
+          "row": 868
+        },
+        {
+          "label": {
+            "boundary_column": 431
+          },
+          "pre_normalization_pivot": 1,
+          "row": 253
+        },
+        {
+          "label": {
+            "boundary_column": 432
+          },
+          "pre_normalization_pivot": 1,
+          "row": 371
+        },
+        {
+          "label": {
+            "boundary_column": 433
+          },
+          "pre_normalization_pivot": 1,
+          "row": 103
+        },
+        {
+          "label": {
+            "boundary_column": 434
+          },
+          "pre_normalization_pivot": 1,
+          "row": 356
+        },
+        {
+          "label": {
+            "boundary_column": 435
+          },
+          "pre_normalization_pivot": 1,
+          "row": 342
+        },
+        {
+          "label": {
+            "boundary_column": 436
+          },
+          "pre_normalization_pivot": 1,
+          "row": 809
+        },
+        {
+          "label": {
+            "boundary_column": 437
+          },
+          "pre_normalization_pivot": 1,
+          "row": 192
+        },
+        {
+          "label": {
+            "boundary_column": 438
+          },
+          "pre_normalization_pivot": 1,
+          "row": 374
+        },
+        {
+          "label": {
+            "boundary_column": 439
+          },
+          "pre_normalization_pivot": 100,
+          "row": 838
+        },
+        {
+          "label": {
+            "boundary_column": 440
+          },
+          "pre_normalization_pivot": 100,
+          "row": 761
+        },
+        {
+          "label": {
+            "boundary_column": 441
+          },
+          "pre_normalization_pivot": 1,
+          "row": 281
+        },
+        {
+          "label": {
+            "boundary_column": 442
+          },
+          "pre_normalization_pivot": 100,
+          "row": 776
+        },
+        {
+          "label": {
+            "boundary_column": 443
+          },
+          "pre_normalization_pivot": 100,
+          "row": 852
+        },
+        {
+          "label": {
+            "boundary_column": 444
+          },
+          "pre_normalization_pivot": 1,
+          "row": 372
+        },
+        {
+          "label": {
+            "boundary_column": 445
+          },
+          "pre_normalization_pivot": 1,
+          "row": 370
+        },
+        {
+          "label": {
+            "boundary_column": 446
+          },
+          "pre_normalization_pivot": 100,
+          "row": 790
+        },
+        {
+          "label": {
+            "boundary_column": 447
+          },
+          "pre_normalization_pivot": 1,
+          "row": 835
+        },
+        {
+          "label": {
+            "boundary_column": 448
+          },
+          "pre_normalization_pivot": 100,
+          "row": 854
+        },
+        {
+          "label": {
+            "boundary_column": 449
+          },
+          "pre_normalization_pivot": 1,
+          "row": 762
+        },
+        {
+          "label": {
+            "boundary_column": 450
+          },
+          "pre_normalization_pivot": 1,
+          "row": 339
+        },
+        {
+          "label": {
+            "boundary_column": 451
+          },
+          "pre_normalization_pivot": 1,
+          "row": 264
+        },
+        {
+          "label": {
+            "boundary_column": 452
+          },
+          "pre_normalization_pivot": 1,
+          "row": 189
+        },
+        {
+          "label": {
+            "boundary_column": 453
+          },
+          "pre_normalization_pivot": 1,
+          "row": 114
+        },
+        {
+          "label": {
+            "boundary_column": 455
+          },
+          "pre_normalization_pivot": 1,
+          "row": 353
+        },
+        {
+          "label": {
+            "boundary_column": 456
+          },
+          "pre_normalization_pivot": 1,
+          "row": 278
+        },
+        {
+          "label": {
+            "boundary_column": 457
+          },
+          "pre_normalization_pivot": 1,
+          "row": 203
+        },
+        {
+          "label": {
+            "boundary_column": 458
+          },
+          "pre_normalization_pivot": 1,
+          "row": 204
+        },
+        {
+          "label": {
+            "boundary_column": 460
+          },
+          "pre_normalization_pivot": 1,
+          "row": 309
+        },
+        {
+          "label": {
+            "boundary_column": 461
+          },
+          "pre_normalization_pivot": 1,
+          "row": 234
+        },
+        {
+          "label": {
+            "boundary_column": 462
+          },
+          "pre_normalization_pivot": 1,
+          "row": 159
+        },
+        {
+          "label": {
+            "boundary_column": 463
+          },
+          "pre_normalization_pivot": 1,
+          "row": 84
+        },
+        {
+          "label": {
+            "boundary_column": 465
+          },
+          "pre_normalization_pivot": 1,
+          "row": 306
+        },
+        {
+          "label": {
+            "boundary_column": 466
+          },
+          "pre_normalization_pivot": 1,
+          "row": 248
+        },
+        {
+          "label": {
+            "boundary_column": 467
+          },
+          "pre_normalization_pivot": 1,
+          "row": 173
+        },
+        {
+          "label": {
+            "boundary_column": 468
+          },
+          "pre_normalization_pivot": 1,
+          "row": 174
+        },
+        {
+          "label": {
+            "boundary_column": 470
+          },
+          "pre_normalization_pivot": 1,
+          "row": 337
+        },
+        {
+          "label": {
+            "boundary_column": 471
+          },
+          "pre_normalization_pivot": 1,
+          "row": 262
+        },
+        {
+          "label": {
+            "boundary_column": 472
+          },
+          "pre_normalization_pivot": 1,
+          "row": 263
+        },
+        {
+          "label": {
+            "boundary_column": 473
+          },
+          "pre_normalization_pivot": 100,
+          "row": 352
+        },
+        {
+          "label": {
+            "boundary_column": 475
+          },
+          "pre_normalization_pivot": 100,
+          "row": 322
+        },
+        {
+          "label": {
+            "boundary_column": 476
+          },
+          "pre_normalization_pivot": 100,
+          "row": 247
+        },
+        {
+          "label": {
+            "boundary_column": 477
+          },
+          "pre_normalization_pivot": 100,
+          "row": 218
+        },
+        {
+          "label": {
+            "boundary_column": 478
+          },
+          "pre_normalization_pivot": 100,
+          "row": 219
+        },
+        {
+          "label": {
+            "boundary_column": 480
+          },
+          "pre_normalization_pivot": 100,
+          "row": 307
+        },
+        {
+          "label": {
+            "boundary_column": 481
+          },
+          "pre_normalization_pivot": 100,
+          "row": 232
+        },
+        {
+          "label": {
+            "boundary_column": 482
+          },
+          "pre_normalization_pivot": 100,
+          "row": 233
+        },
+        {
+          "label": {
+            "boundary_column": 483
+          },
+          "pre_normalization_pivot": 1,
+          "row": 292
+        },
+        {
+          "label": {
+            "boundary_column": 485
+          },
+          "pre_normalization_pivot": 100,
+          "row": 321
+        },
+        {
+          "label": {
+            "boundary_column": 486
+          },
+          "pre_normalization_pivot": 1,
+          "row": 368
+        },
+        {
+          "label": {
+            "boundary_column": 487
+          },
+          "pre_normalization_pivot": 100,
+          "row": 208
+        },
+        {
+          "label": {
+            "boundary_column": 488
+          },
+          "pre_normalization_pivot": 100,
+          "row": 297
+        },
+        {
+          "label": {
+            "boundary_column": 490
+          },
+          "pre_normalization_pivot": 1,
+          "row": 355
+        },
+        {
+          "label": {
+            "boundary_column": 491
+          },
+          "pre_normalization_pivot": 100,
+          "row": 294
+        },
+        {
+          "label": {
+            "boundary_column": 492
+          },
+          "pre_normalization_pivot": 1,
+          "row": 249
+        },
+        {
+          "label": {
+            "boundary_column": 493
+          },
+          "pre_normalization_pivot": 100,
+          "row": 144
+        },
+        {
+          "label": {
+            "boundary_column": 495
+          },
+          "pre_normalization_pivot": 100,
+          "row": 308
+        },
+        {
+          "label": {
+            "boundary_column": 496
+          },
+          "pre_normalization_pivot": 100,
+          "row": 279
+        },
+        {
+          "label": {
+            "boundary_column": 497
+          },
+          "pre_normalization_pivot": 100,
+          "row": 158
+        },
+        {
+          "label": {
+            "boundary_column": 498
+          },
+          "pre_normalization_pivot": 100,
+          "row": 129
+        },
+        {
+          "label": {
+            "boundary_column": 500
+          },
+          "pre_normalization_pivot": 100,
+          "row": 808
+        },
+        {
+          "label": {
+            "boundary_column": 501
+          },
+          "pre_normalization_pivot": 1,
+          "row": 369
+        },
+        {
+          "label": {
+            "boundary_column": 502
+          },
+          "pre_normalization_pivot": 1,
+          "row": 324
+        },
+        {
+          "label": {
+            "boundary_column": 503
+          },
+          "pre_normalization_pivot": 100,
+          "row": 298
+        },
+        {
+          "label": {
+            "boundary_column": 505
+          },
+          "pre_normalization_pivot": 1,
+          "row": 864
+        },
+        {
+          "label": {
+            "boundary_column": 506
+          },
+          "pre_normalization_pivot": 1,
+          "row": 834
+        },
+        {
+          "label": {
+            "boundary_column": 507
+          },
+          "pre_normalization_pivot": 1,
+          "row": 367
+        },
+        {
+          "label": {
+            "boundary_column": 508
+          },
+          "pre_normalization_pivot": 1,
+          "row": 99
+        },
+        {
+          "label": {
+            "boundary_column": 510
+          },
+          "pre_normalization_pivot": 1,
+          "row": 338
+        },
+        {
+          "label": {
+            "boundary_column": 511
+          },
+          "pre_normalization_pivot": 100,
+          "row": 818
+        },
+        {
+          "label": {
+            "boundary_column": 512
+          },
+          "pre_normalization_pivot": 1,
+          "row": 188
+        },
+        {
+          "label": {
+            "boundary_column": 513
+          },
+          "pre_normalization_pivot": 100,
+          "row": 758
+        },
+        {
+          "label": {
+            "boundary_column": 515
+          },
+          "pre_normalization_pivot": 100,
+          "row": 757
+        },
+        {
+          "label": {
+            "boundary_column": 516
+          },
+          "pre_normalization_pivot": 1,
+          "row": 277
+        },
+        {
+          "label": {
+            "boundary_column": 517
+          },
+          "pre_normalization_pivot": 100,
+          "row": 772
+        },
+        {
+          "label": {
+            "boundary_column": 518
+          },
+          "pre_normalization_pivot": 100,
+          "row": 848
+        },
+        {
+          "label": {
+            "boundary_column": 520
+          },
+          "pre_normalization_pivot": 1,
+          "row": 366
+        },
+        {
+          "label": {
+            "boundary_column": 521
+          },
+          "pre_normalization_pivot": 100,
+          "row": 786
+        },
+        {
+          "label": {
+            "boundary_column": 522
+          },
+          "pre_normalization_pivot": 1,
+          "row": 831
+        },
+        {
+          "label": {
+            "boundary_column": 523
+          },
+          "pre_normalization_pivot": 100,
+          "row": 853
+        },
+        {
+          "label": {
+            "boundary_column": 525
+          },
+          "pre_normalization_pivot": 1,
+          "row": 348
+        },
+        {
+          "label": {
+            "boundary_column": 526
+          },
+          "pre_normalization_pivot": 1,
+          "row": 349
+        },
+        {
+          "label": {
+            "boundary_column": 527
+          },
+          "pre_normalization_pivot": 1,
+          "row": 350
+        },
+        {
+          "label": {
+            "boundary_column": 529
+          },
+          "pre_normalization_pivot": 100,
+          "row": 645
+        },
+        {
+          "label": {
+            "boundary_column": 530
+          },
+          "pre_normalization_pivot": 100,
+          "row": 660
+        },
+        {
+          "label": {
+            "boundary_column": 531
+          },
+          "pre_normalization_pivot": 1,
+          "row": 275
+        },
+        {
+          "label": {
+            "boundary_column": 532
+          },
+          "pre_normalization_pivot": 1,
+          "row": 200
+        },
+        {
+          "label": {
+            "boundary_column": 534
+          },
+          "pre_normalization_pivot": 100,
+          "row": 648
+        },
+        {
+          "label": {
+            "boundary_column": 535
+          },
+          "pre_normalization_pivot": 100,
+          "row": 354
+        },
+        {
+          "label": {
+            "boundary_column": 536
+          },
+          "pre_normalization_pivot": 1,
+          "row": 289
+        },
+        {
+          "label": {
+            "boundary_column": 537
+          },
+          "pre_normalization_pivot": 1,
+          "row": 290
+        },
+        {
+          "label": {
+            "boundary_column": 539
+          },
+          "pre_normalization_pivot": 100,
+          "row": 661
+        },
+        {
+          "label": {
+            "boundary_column": 540
+          },
+          "pre_normalization_pivot": 1,
+          "row": 303
+        },
+        {
+          "label": {
+            "boundary_column": 541
+          },
+          "pre_normalization_pivot": 1,
+          "row": 245
+        },
+        {
+          "label": {
+            "boundary_column": 542
+          },
+          "pre_normalization_pivot": 1,
+          "row": 170
+        },
+        {
+          "label": {
+            "boundary_column": 544
+          },
+          "pre_normalization_pivot": 100,
+          "row": 600
+        },
+        {
+          "label": {
+            "boundary_column": 545
+          },
+          "pre_normalization_pivot": 1,
+          "row": 327
+        },
+        {
+          "label": {
+            "boundary_column": 546
+          },
+          "pre_normalization_pivot": 1,
+          "row": 259
+        },
+        {
+          "label": {
+            "boundary_column": 547
+          },
+          "pre_normalization_pivot": 1,
+          "row": 260
+        },
+        {
+          "label": {
+            "boundary_column": 549
+          },
+          "pre_normalization_pivot": 100,
+          "row": 625
+        },
+        {
+          "label": {
+            "boundary_column": 550
+          },
+          "pre_normalization_pivot": 100,
+          "row": 319
+        },
+        {
+          "label": {
+            "boundary_column": 551
+          },
+          "pre_normalization_pivot": 100,
+          "row": 244
+        },
+        {
+          "label": {
+            "boundary_column": 552
+          },
+          "pre_normalization_pivot": 100,
+          "row": 215
+        },
+        {
+          "label": {
+            "boundary_column": 554
+          },
+          "pre_normalization_pivot": 1,
+          "row": 616
+        },
+        {
+          "label": {
+            "boundary_column": 555
+          },
+          "pre_normalization_pivot": 100,
+          "row": 304
+        },
+        {
+          "label": {
+            "boundary_column": 556
+          },
+          "pre_normalization_pivot": 100,
+          "row": 229
+        },
+        {
+          "label": {
+            "boundary_column": 557
+          },
+          "pre_normalization_pivot": 100,
+          "row": 230
+        },
+        {
+          "label": {
+            "boundary_column": 559
+          },
+          "pre_normalization_pivot": 1,
+          "row": 601
+        },
+        {
+          "label": {
+            "boundary_column": 560
+          },
+          "pre_normalization_pivot": 100,
+          "row": 318
+        },
+        {
+          "label": {
+            "boundary_column": 561
+          },
+          "pre_normalization_pivot": 1,
+          "row": 365
+        },
+        {
+          "label": {
+            "boundary_column": 562
+          },
+          "pre_normalization_pivot": 1,
+          "row": 266
+        },
+        {
+          "label": {
+            "boundary_column": 564
+          },
+          "pre_normalization_pivot": 1,
+          "row": 615
+        },
+        {
+          "label": {
+            "boundary_column": 565
+          },
+          "pre_normalization_pivot": 1,
+          "row": 630
+        },
+        {
+          "label": {
+            "boundary_column": 566
+          },
+          "pre_normalization_pivot": 100,
+          "row": 293
+        },
+        {
+          "label": {
+            "boundary_column": 567
+          },
+          "pre_normalization_pivot": 1,
+          "row": 336
+        },
+        {
+          "label": {
+            "boundary_column": 569
+          },
+          "pre_normalization_pivot": 1,
+          "row": 640
+        },
+        {
+          "label": {
+            "boundary_column": 570
+          },
+          "pre_normalization_pivot": 100,
+          "row": 305
+        },
+        {
+          "label": {
+            "boundary_column": 571
+          },
+          "pre_normalization_pivot": 1,
+          "row": 335
+        },
+        {
+          "label": {
+            "boundary_column": 572
+          },
+          "pre_normalization_pivot": 100,
+          "row": 155
+        },
+        {
+          "label": {
+            "boundary_column": 574
+          },
+          "pre_normalization_pivot": 1,
+          "row": 603
+        },
+        {
+          "label": {
+            "boundary_column": 575
+          },
+          "pre_normalization_pivot": 100,
+          "row": 358
+        },
+        {
+          "label": {
+            "boundary_column": 576
+          },
+          "pre_normalization_pivot": 100,
+          "row": 873
+        },
+        {
+          "label": {
+            "boundary_column": 577
+          },
+          "pre_normalization_pivot": 1,
+          "row": 323
+        },
+        {
+          "label": {
+            "boundary_column": 579
+          },
+          "pre_normalization_pivot": 100,
+          "row": 610
+        },
+        {
+          "label": {
+            "boundary_column": 580
+          },
+          "pre_normalization_pivot": 1,
+          "row": 863
+        },
+        {
+          "label": {
+            "boundary_column": 581
+          },
+          "pre_normalization_pivot": 100,
+          "row": 633
+        },
+        {
+          "label": {
+            "boundary_column": 582
+          },
+          "pre_normalization_pivot": 1,
+          "row": 364
+        },
+        {
+          "label": {
+            "boundary_column": 585
+          },
+          "pre_normalization_pivot": 1,
+          "row": 845
+        },
+        {
+          "label": {
+            "boundary_column": 586
+          },
+          "pre_normalization_pivot": 1,
+          "row": 807
+        },
+        {
+          "label": {
+            "boundary_column": 587
+          },
+          "pre_normalization_pivot": 1,
+          "row": 185
+        },
+        {
+          "label": {
+            "boundary_column": 589
+          },
+          "pre_normalization_pivot": 100,
+          "row": 833
+        },
+        {
+          "label": {
+            "boundary_column": 590
+          },
+          "pre_normalization_pivot": 100,
+          "row": 754
+        },
+        {
+          "label": {
+            "boundary_column": 591
+          },
+          "pre_normalization_pivot": 1,
+          "row": 274
+        },
+        {
+          "label": {
+            "boundary_column": 592
+          },
+          "pre_normalization_pivot": 100,
+          "row": 769
+        },
+        {
+          "label": {
+            "boundary_column": 594
+          },
+          "pre_normalization_pivot": 100,
+          "row": 646
+        },
+        {
+          "label": {
+            "boundary_column": 595
+          },
+          "pre_normalization_pivot": 1,
+          "row": 363
+        },
+        {
+          "label": {
+            "boundary_column": 596
+          },
+          "pre_normalization_pivot": 100,
+          "row": 783
+        },
+        {
+          "label": {
+            "boundary_column": 597
+          },
+          "pre_normalization_pivot": 1,
+          "row": 828
+        },
+        {
+          "label": {
+            "boundary_column": 599
+          },
+          "pre_normalization_pivot": 1,
+          "row": 755
+        },
+        {
+          "label": {
+            "boundary_column": 600
+          },
+          "pre_normalization_pivot": 1,
+          "row": 346
+        },
+        {
+          "label": {
+            "boundary_column": 601
+          },
+          "pre_normalization_pivot": 1,
+          "row": 347
+        },
+        {
+          "label": {
+            "boundary_column": 603
+          },
+          "pre_normalization_pivot": 1,
+          "row": 411
+        },
+        {
+          "label": {
+            "boundary_column": 604
+          },
+          "pre_normalization_pivot": 1,
+          "row": 488
+        },
+        {
+          "label": {
+            "boundary_column": 605
+          },
+          "pre_normalization_pivot": 1,
+          "row": 766
+        },
+        {
+          "label": {
+            "boundary_column": 606
+          },
+          "pre_normalization_pivot": 100,
+          "row": 592
+        },
+        {
+          "label": {
+            "boundary_column": 608
+          },
+          "pre_normalization_pivot": 1,
+          "row": 518
+        },
+        {
+          "label": {
+            "boundary_column": 609
+          },
+          "pre_normalization_pivot": 1,
+          "row": 522
+        },
+        {
+          "label": {
+            "boundary_column": 610
+          },
+          "pre_normalization_pivot": 1,
+          "row": 362
+        },
+        {
+          "label": {
+            "boundary_column": 611
+          },
+          "pre_normalization_pivot": 1,
+          "row": 287
+        },
+        {
+          "label": {
+            "boundary_column": 613
+          },
+          "pre_normalization_pivot": 1,
+          "row": 381
+        },
+        {
+          "label": {
+            "boundary_column": 614
+          },
+          "pre_normalization_pivot": 1,
+          "row": 458
+        },
+        {
+          "label": {
+            "boundary_column": 615
+          },
+          "pre_normalization_pivot": 1,
+          "row": 301
+        },
+        {
+          "label": {
+            "boundary_column": 616
+          },
+          "pre_normalization_pivot": 1,
+          "row": 302
+        },
+        {
+          "label": {
+            "boundary_column": 618
+          },
+          "pre_normalization_pivot": 1,
+          "row": 527
+        },
+        {
+          "label": {
+            "boundary_column": 619
+          },
+          "pre_normalization_pivot": 1,
+          "row": 663
+        },
+        {
+          "label": {
+            "boundary_column": 620
+          },
+          "pre_normalization_pivot": 1,
+          "row": 332
+        },
+        {
+          "label": {
+            "boundary_column": 621
+          },
+          "pre_normalization_pivot": 1,
+          "row": 257
+        },
+        {
+          "label": {
+            "boundary_column": 623
+          },
+          "pre_normalization_pivot": 1,
+          "row": 473
+        },
+        {
+          "label": {
+            "boundary_column": 624
+          },
+          "pre_normalization_pivot": 1,
+          "row": 477
+        },
+        {
+          "label": {
+            "boundary_column": 625
+          },
+          "pre_normalization_pivot": 100,
+          "row": 317
+        },
+        {
+          "label": {
+            "boundary_column": 626
+          },
+          "pre_normalization_pivot": 100,
+          "row": 242
+        },
+        {
+          "label": {
+            "boundary_column": 628
+          },
+          "pre_normalization_pivot": 1,
+          "row": 631
+        },
+        {
+          "label": {
+            "boundary_column": 629
+          },
+          "pre_normalization_pivot": 1,
+          "row": 547
+        },
+        {
+          "label": {
+            "boundary_column": 630
+          },
+          "pre_normalization_pivot": 100,
+          "row": 331
+        },
+        {
+          "label": {
+            "boundary_column": 631
+          },
+          "pre_normalization_pivot": 100,
+          "row": 227
+        },
+        {
+          "label": {
+            "boundary_column": 633
+          },
+          "pre_normalization_pivot": 100,
+          "row": 557
+        },
+        {
+          "label": {
+            "boundary_column": 634
+          },
+          "pre_normalization_pivot": 1,
+          "row": 532
+        },
+        {
+          "label": {
+            "boundary_column": 635
+          },
+          "pre_normalization_pivot": 100,
+          "row": 316
+        },
+        {
+          "label": {
+            "boundary_column": 636
+          },
+          "pre_normalization_pivot": 1,
+          "row": 577
+        },
+        {
+          "label": {
+            "boundary_column": 638
+          },
+          "pre_normalization_pivot": 100,
+          "row": 503
+        },
+        {
+          "label": {
+            "boundary_column": 639
+          },
+          "pre_normalization_pivot": 100,
+          "row": 507
+        },
+        {
+          "label": {
+            "boundary_column": 640
+          },
+          "pre_normalization_pivot": 100,
+          "row": 341
+        },
+        {
+          "label": {
+            "boundary_column": 641
+          },
+          "pre_normalization_pivot": 100,
+          "row": 320
+        },
+        {
+          "label": {
+            "boundary_column": 643
+          },
+          "pre_normalization_pivot": 100,
+          "row": 441
+        },
+        {
+          "label": {
+            "boundary_column": 644
+          },
+          "pre_normalization_pivot": 100,
+          "row": 492
+        },
+        {
+          "label": {
+            "boundary_column": 645
+          },
+          "pre_normalization_pivot": 1,
+          "row": 333
+        },
+        {
+          "label": {
+            "boundary_column": 646
+          },
+          "pre_normalization_pivot": 1,
+          "row": 334
+        },
+        {
+          "label": {
+            "boundary_column": 648
+          },
+          "pre_normalization_pivot": 100,
+          "row": 426
+        },
+        {
+          "label": {
+            "boundary_column": 649
+          },
+          "pre_normalization_pivot": 1,
+          "row": 542
+        },
+        {
+          "label": {
+            "boundary_column": 650
+          },
+          "pre_normalization_pivot": 100,
+          "row": 340
+        },
+        {
+          "label": {
+            "boundary_column": 651
+          },
+          "pre_normalization_pivot": 1,
+          "row": 587
+        },
+        {
+          "label": {
+            "boundary_column": 653
+          },
+          "pre_normalization_pivot": 1,
+          "row": 767
+        },
+        {
+          "label": {
+            "boundary_column": 654
+          },
+          "pre_normalization_pivot": 1,
+          "row": 462
+        },
+        {
+          "label": {
+            "boundary_column": 655
+          },
+          "pre_normalization_pivot": 1,
+          "row": 862
+        },
+        {
+          "label": {
+            "boundary_column": 656
+          },
+          "pre_normalization_pivot": 1,
+          "row": 832
+        },
+        {
+          "label": {
+            "boundary_column": 658
+          },
+          "pre_normalization_pivot": 1,
+          "row": 396
+        },
+        {
+          "label": {
+            "boundary_column": 660
+          },
+          "pre_normalization_pivot": 1,
+          "row": 655
+        },
+        {
+          "label": {
+            "boundary_column": 661
+          },
+          "pre_normalization_pivot": 1,
+          "row": 806
+        },
+        {
+          "label": {
+            "boundary_column": 665
+          },
+          "pre_normalization_pivot": 100,
+          "row": 752
+        },
+        {
+          "label": {
+            "boundary_column": 666
+          },
+          "pre_normalization_pivot": 1,
+          "row": 272
+        },
+        {
+          "label": {
+            "boundary_column": 668
+          },
+          "pre_normalization_pivot": 100,
+          "row": 844
+        },
+        {
+          "label": {
+            "boundary_column": 669
+          },
+          "pre_normalization_pivot": 100,
+          "row": 826
+        },
+        {
+          "label": {
+            "boundary_column": 670
+          },
+          "pre_normalization_pivot": 1,
+          "row": 361
+        },
+        {
+          "label": {
+            "boundary_column": 671
+          },
+          "pre_normalization_pivot": 100,
+          "row": 781
+        },
+        {
+          "label": {
+            "boundary_column": 673
+          },
+          "pre_normalization_pivot": 100,
+          "row": 851
+        },
+        {
+          "label": {
+            "boundary_column": 675
+          },
+          "pre_normalization_pivot": 1,
+          "row": 345
+        },
+        {
+          "label": {
+            "boundary_column": 677
+          },
+          "pre_normalization_pivot": 1,
+          "row": 559
+        },
+        {
+          "label": {
+            "boundary_column": 678
+          },
+          "pre_normalization_pivot": 1,
+          "row": 562
+        },
+        {
+          "label": {
+            "boundary_column": 680
+          },
+          "pre_normalization_pivot": 100,
+          "row": 753
+        },
+        {
+          "label": {
+            "boundary_column": 683
+          },
+          "pre_normalization_pivot": 1,
+          "row": 574
+        },
+        {
+          "label": {
+            "boundary_column": 685
+          },
+          "pre_normalization_pivot": 1,
+          "row": 780
+        },
+        {
+          "label": {
+            "boundary_column": 687
+          },
+          "pre_normalization_pivot": 1,
+          "row": 529
+        },
+        {
+          "label": {
+            "boundary_column": 690
+          },
+          "pre_normalization_pivot": 1,
+          "row": 300
+        },
+        {
+          "label": {
+            "boundary_column": 693
+          },
+          "pre_normalization_pivot": 1,
+          "row": 544
+        },
+        {
+          "label": {
+            "boundary_column": 695
+          },
+          "pre_normalization_pivot": 1,
+          "row": 764
+        },
+        {
+          "label": {
+            "boundary_column": 700
+          },
+          "pre_normalization_pivot": 1,
+          "row": 825
+        },
+        {
+          "label": {
+            "boundary_column": 703
+          },
+          "pre_normalization_pivot": 100,
+          "row": 589
+        },
+        {
+          "label": {
+            "boundary_column": 705
+          },
+          "pre_normalization_pivot": 100,
+          "row": 330
+        },
+        {
+          "label": {
+            "boundary_column": 707
+          },
+          "pre_normalization_pivot": 100,
+          "row": 572
+        },
+        {
+          "label": {
+            "boundary_column": 710
+          },
+          "pre_normalization_pivot": 100,
+          "row": 315
+        },
+        {
+          "label": {
+            "boundary_column": 713
+          },
+          "pre_normalization_pivot": 1,
+          "row": 618
+        },
+        {
+          "label": {
+            "boundary_column": 715
+          },
+          "pre_normalization_pivot": 100,
+          "row": 850
+        },
+        {
+          "label": {
+            "boundary_column": 720
+          },
+          "pre_normalization_pivot": 96,
+          "row": 670
+        },
+        {
+          "label": {
+            "boundary_column": 725
+          },
+          "pre_normalization_pivot": 100,
+          "row": 805
+        },
+        {
+          "label": {
+            "boundary_column": 730
+          },
+          "pre_normalization_pivot": 1,
+          "row": 861
+        },
+        {
+          "label": {
+            "boundary_column": 735
+          },
+          "pre_normalization_pivot": 1,
+          "row": 843
+        },
+        {
+          "label": {
+            "boundary_column": 740
+          },
+          "pre_normalization_pivot": 100,
+          "row": 751
+        },
+        {
+          "label": {
+            "boundary_column": 745
+          },
+          "pre_normalization_pivot": 1,
+          "row": 360
+        },
+        {
+          "label": {
+            "boundary_column": 750
+          },
+          "pre_normalization_pivot": 1,
+          "row": 718
+        },
+        {
+          "label": {
+            "boundary_column": 751
+          },
+          "pre_normalization_pivot": 1,
+          "row": 643
+        },
+        {
+          "label": {
+            "boundary_column": 752
+          },
+          "pre_normalization_pivot": 1,
+          "row": 568
+        },
+        {
+          "label": {
+            "boundary_column": 753
+          },
+          "pre_normalization_pivot": 1,
+          "row": 493
+        },
+        {
+          "label": {
+            "boundary_column": 754
+          },
+          "pre_normalization_pivot": 1,
+          "row": 494
+        },
+        {
+          "label": {
+            "boundary_column": 755
+          },
+          "pre_normalization_pivot": 1,
+          "row": 732
+        },
+        {
+          "label": {
+            "boundary_column": 756
+          },
+          "pre_normalization_pivot": 1,
+          "row": 657
+        },
+        {
+          "label": {
+            "boundary_column": 757
+          },
+          "pre_normalization_pivot": 1,
+          "row": 582
+        },
+        {
+          "label": {
+            "boundary_column": 758
+          },
+          "pre_normalization_pivot": 1,
+          "row": 524
+        },
+        {
+          "label": {
+            "boundary_column": 759
+          },
+          "pre_normalization_pivot": 1,
+          "row": 449
+        },
+        {
+          "label": {
+            "boundary_column": 760
+          },
+          "pre_normalization_pivot": 1,
+          "row": 688
+        },
+        {
+          "label": {
+            "boundary_column": 761
+          },
+          "pre_normalization_pivot": 1,
+          "row": 613
+        },
+        {
+          "label": {
+            "boundary_column": 762
+          },
+          "pre_normalization_pivot": 1,
+          "row": 538
+        },
+        {
+          "label": {
+            "boundary_column": 763
+          },
+          "pre_normalization_pivot": 1,
+          "row": 463
+        },
+        {
+          "label": {
+            "boundary_column": 764
+          },
+          "pre_normalization_pivot": 1,
+          "row": 464
+        },
+        {
+          "label": {
+            "boundary_column": 765
+          },
+          "pre_normalization_pivot": 1,
+          "row": 685
+        },
+        {
+          "label": {
+            "boundary_column": 766
+          },
+          "pre_normalization_pivot": 1,
+          "row": 627
+        },
+        {
+          "label": {
+            "boundary_column": 767
+          },
+          "pre_normalization_pivot": 1,
+          "row": 552
+        },
+        {
+          "label": {
+            "boundary_column": 768
+          },
+          "pre_normalization_pivot": 1,
+          "row": 553
+        },
+        {
+          "label": {
+            "boundary_column": 769
+          },
+          "pre_normalization_pivot": 1,
+          "row": 554
+        },
+        {
+          "label": {
+            "boundary_column": 770
+          },
+          "pre_normalization_pivot": 1,
+          "row": 704
+        },
+        {
+          "label": {
+            "boundary_column": 771
+          },
+          "pre_normalization_pivot": 1,
+          "row": 629
+        },
+        {
+          "label": {
+            "boundary_column": 772
+          },
+          "pre_normalization_pivot": 1,
+          "row": 642
+        },
+        {
+          "label": {
+            "boundary_column": 773
+          },
+          "pre_normalization_pivot": 1,
+          "row": 479
+        },
+        {
+          "label": {
+            "boundary_column": 774
+          },
+          "pre_normalization_pivot": 1,
+          "row": 404
+        },
+        {
+          "label": {
+            "boundary_column": 775
+          },
+          "pre_normalization_pivot": 100,
+          "row": 701
+        },
+        {
+          "label": {
+            "boundary_column": 776
+          },
+          "pre_normalization_pivot": 100,
+          "row": 626
+        },
+        {
+          "label": {
+            "boundary_column": 777
+          },
+          "pre_normalization_pivot": 100,
+          "row": 597
+        },
+        {
+          "label": {
+            "boundary_column": 778
+          },
+          "pre_normalization_pivot": 100,
+          "row": 598
+        },
+        {
+          "label": {
+            "boundary_column": 779
+          },
+          "pre_normalization_pivot": 100,
+          "row": 599
+        },
+        {
+          "label": {
+            "boundary_column": 780
+          },
+          "pre_normalization_pivot": 100,
+          "row": 686
+        },
+        {
+          "label": {
+            "boundary_column": 781
+          },
+          "pre_normalization_pivot": 100,
+          "row": 611
+        },
+        {
+          "label": {
+            "boundary_column": 782
+          },
+          "pre_normalization_pivot": 100,
+          "row": 612
+        },
+        {
+          "label": {
+            "boundary_column": 783
+          },
+          "pre_normalization_pivot": 1,
+          "row": 671
+        },
+        {
+          "label": {
+            "boundary_column": 784
+          },
+          "pre_normalization_pivot": 100,
+          "row": 614
+        },
+        {
+          "label": {
+            "boundary_column": 785
+          },
+          "pre_normalization_pivot": 100,
+          "row": 700
+        },
+        {
+          "label": {
+            "boundary_column": 786
+          },
+          "pre_normalization_pivot": 100,
+          "row": 659
+        },
+        {
+          "label": {
+            "boundary_column": 787
+          },
+          "pre_normalization_pivot": 100,
+          "row": 584
+        },
+        {
+          "label": {
+            "boundary_column": 788
+          },
+          "pre_normalization_pivot": 100,
+          "row": 509
+        },
+        {
+          "label": {
+            "boundary_column": 789
+          },
+          "pre_normalization_pivot": 100,
+          "row": 434
+        },
+        {
+          "label": {
+            "boundary_column": 790
+          },
+          "pre_normalization_pivot": 100,
+          "row": 719
+        },
+        {
+          "label": {
+            "boundary_column": 791
+          },
+          "pre_normalization_pivot": 100,
+          "row": 644
+        },
+        {
+          "label": {
+            "boundary_column": 792
+          },
+          "pre_normalization_pivot": 100,
+          "row": 569
+        },
+        {
+          "label": {
+            "boundary_column": 793
+          },
+          "pre_normalization_pivot": 100,
+          "row": 523
+        },
+        {
+          "label": {
+            "boundary_column": 794
+          },
+          "pre_normalization_pivot": 100,
+          "row": 419
+        },
+        {
+          "label": {
+            "boundary_column": 795
+          },
+          "pre_normalization_pivot": 100,
+          "row": 687
+        },
+        {
+          "label": {
+            "boundary_column": 796
+          },
+          "pre_normalization_pivot": 100,
+          "row": 658
+        },
+        {
+          "label": {
+            "boundary_column": 797
+          },
+          "pre_normalization_pivot": 100,
+          "row": 537
+        },
+        {
+          "label": {
+            "boundary_column": 798
+          },
+          "pre_normalization_pivot": 100,
+          "row": 508
+        },
+        {
+          "label": {
+            "boundary_column": 799
+          },
+          "pre_normalization_pivot": 100,
+          "row": 539
+        },
+        {
+          "label": {
+            "boundary_column": 800
+          },
+          "pre_normalization_pivot": 1,
+          "row": 689
+        },
+        {
+          "label": {
+            "boundary_column": 801
+          },
+          "pre_normalization_pivot": 1,
+          "row": 748
+        },
+        {
+          "label": {
+            "boundary_column": 802
+          },
+          "pre_normalization_pivot": 1,
+          "row": 703
+        },
+        {
+          "label": {
+            "boundary_column": 803
+          },
+          "pre_normalization_pivot": 100,
+          "row": 674
+        },
+        {
+          "label": {
+            "boundary_column": 804
+          },
+          "pre_normalization_pivot": 1,
+          "row": 389
+        },
+        {
+          "label": {
+            "boundary_column": 805
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1093
+        },
+        {
+          "label": {
+            "boundary_column": 806
+          },
+          "pre_normalization_pivot": 1,
+          "row": 628
+        },
+        {
+          "label": {
+            "boundary_column": 807
+          },
+          "pre_normalization_pivot": 1,
+          "row": 746
+        },
+        {
+          "label": {
+            "boundary_column": 808
+          },
+          "pre_normalization_pivot": 1,
+          "row": 478
+        },
+        {
+          "label": {
+            "boundary_column": 809
+          },
+          "pre_normalization_pivot": 1,
+          "row": 731
+        },
+        {
+          "label": {
+            "boundary_column": 810
+          },
+          "pre_normalization_pivot": 1,
+          "row": 717
+        },
+        {
+          "label": {
+            "boundary_column": 811
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1034
+        },
+        {
+          "label": {
+            "boundary_column": 812
+          },
+          "pre_normalization_pivot": 1,
+          "row": 567
+        },
+        {
+          "label": {
+            "boundary_column": 813
+          },
+          "pre_normalization_pivot": 1,
+          "row": 749
+        },
+        {
+          "label": {
+            "boundary_column": 814
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1063
+        },
+        {
+          "label": {
+            "boundary_column": 815
+          },
+          "pre_normalization_pivot": 100,
+          "row": 986
+        },
+        {
+          "label": {
+            "boundary_column": 816
+          },
+          "pre_normalization_pivot": 1,
+          "row": 656
+        },
+        {
+          "label": {
+            "boundary_column": 817
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1001
+        },
+        {
+          "label": {
+            "boundary_column": 818
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1077
+        },
+        {
+          "label": {
+            "boundary_column": 819
+          },
+          "pre_normalization_pivot": 1,
+          "row": 747
+        },
+        {
+          "label": {
+            "boundary_column": 820
+          },
+          "pre_normalization_pivot": 1,
+          "row": 745
+        },
+        {
+          "label": {
+            "boundary_column": 821
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1015
+        },
+        {
+          "label": {
+            "boundary_column": 822
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1060
+        },
+        {
+          "label": {
+            "boundary_column": 823
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1079
+        },
+        {
+          "label": {
+            "boundary_column": 824
+          },
+          "pre_normalization_pivot": 1,
+          "row": 987
+        },
+        {
+          "label": {
+            "boundary_column": 825
+          },
+          "pre_normalization_pivot": 1,
+          "row": 714
+        },
+        {
+          "label": {
+            "boundary_column": 826
+          },
+          "pre_normalization_pivot": 1,
+          "row": 639
+        },
+        {
+          "label": {
+            "boundary_column": 827
+          },
+          "pre_normalization_pivot": 1,
+          "row": 564
+        },
+        {
+          "label": {
+            "boundary_column": 828
+          },
+          "pre_normalization_pivot": 1,
+          "row": 489
+        },
+        {
+          "label": {
+            "boundary_column": 830
+          },
+          "pre_normalization_pivot": 1,
+          "row": 728
+        },
+        {
+          "label": {
+            "boundary_column": 831
+          },
+          "pre_normalization_pivot": 1,
+          "row": 653
+        },
+        {
+          "label": {
+            "boundary_column": 832
+          },
+          "pre_normalization_pivot": 1,
+          "row": 578
+        },
+        {
+          "label": {
+            "boundary_column": 833
+          },
+          "pre_normalization_pivot": 1,
+          "row": 579
+        },
+        {
+          "label": {
+            "boundary_column": 835
+          },
+          "pre_normalization_pivot": 1,
+          "row": 684
+        },
+        {
+          "label": {
+            "boundary_column": 836
+          },
+          "pre_normalization_pivot": 1,
+          "row": 609
+        },
+        {
+          "label": {
+            "boundary_column": 837
+          },
+          "pre_normalization_pivot": 1,
+          "row": 534
+        },
+        {
+          "label": {
+            "boundary_column": 838
+          },
+          "pre_normalization_pivot": 1,
+          "row": 459
+        },
+        {
+          "label": {
+            "boundary_column": 840
+          },
+          "pre_normalization_pivot": 1,
+          "row": 681
+        },
+        {
+          "label": {
+            "boundary_column": 841
+          },
+          "pre_normalization_pivot": 1,
+          "row": 623
+        },
+        {
+          "label": {
+            "boundary_column": 842
+          },
+          "pre_normalization_pivot": 1,
+          "row": 548
+        },
+        {
+          "label": {
+            "boundary_column": 843
+          },
+          "pre_normalization_pivot": 1,
+          "row": 549
+        },
+        {
+          "label": {
+            "boundary_column": 845
+          },
+          "pre_normalization_pivot": 1,
+          "row": 712
+        },
+        {
+          "label": {
+            "boundary_column": 846
+          },
+          "pre_normalization_pivot": 1,
+          "row": 637
+        },
+        {
+          "label": {
+            "boundary_column": 847
+          },
+          "pre_normalization_pivot": 1,
+          "row": 638
+        },
+        {
+          "label": {
+            "boundary_column": 848
+          },
+          "pre_normalization_pivot": 100,
+          "row": 727
+        },
+        {
+          "label": {
+            "boundary_column": 850
+          },
+          "pre_normalization_pivot": 100,
+          "row": 697
+        },
+        {
+          "label": {
+            "boundary_column": 851
+          },
+          "pre_normalization_pivot": 100,
+          "row": 622
+        },
+        {
+          "label": {
+            "boundary_column": 852
+          },
+          "pre_normalization_pivot": 100,
+          "row": 593
+        },
+        {
+          "label": {
+            "boundary_column": 853
+          },
+          "pre_normalization_pivot": 100,
+          "row": 594
+        },
+        {
+          "label": {
+            "boundary_column": 855
+          },
+          "pre_normalization_pivot": 100,
+          "row": 682
+        },
+        {
+          "label": {
+            "boundary_column": 856
+          },
+          "pre_normalization_pivot": 100,
+          "row": 607
+        },
+        {
+          "label": {
+            "boundary_column": 857
+          },
+          "pre_normalization_pivot": 100,
+          "row": 608
+        },
+        {
+          "label": {
+            "boundary_column": 858
+          },
+          "pre_normalization_pivot": 1,
+          "row": 667
+        },
+        {
+          "label": {
+            "boundary_column": 860
+          },
+          "pre_normalization_pivot": 100,
+          "row": 696
+        },
+        {
+          "label": {
+            "boundary_column": 861
+          },
+          "pre_normalization_pivot": 1,
+          "row": 743
+        },
+        {
+          "label": {
+            "boundary_column": 862
+          },
+          "pre_normalization_pivot": 100,
+          "row": 583
+        },
+        {
+          "label": {
+            "boundary_column": 863
+          },
+          "pre_normalization_pivot": 100,
+          "row": 672
+        },
+        {
+          "label": {
+            "boundary_column": 865
+          },
+          "pre_normalization_pivot": 1,
+          "row": 730
+        },
+        {
+          "label": {
+            "boundary_column": 866
+          },
+          "pre_normalization_pivot": 100,
+          "row": 669
+        },
+        {
+          "label": {
+            "boundary_column": 867
+          },
+          "pre_normalization_pivot": 1,
+          "row": 624
+        },
+        {
+          "label": {
+            "boundary_column": 868
+          },
+          "pre_normalization_pivot": 100,
+          "row": 519
+        },
+        {
+          "label": {
+            "boundary_column": 870
+          },
+          "pre_normalization_pivot": 100,
+          "row": 683
+        },
+        {
+          "label": {
+            "boundary_column": 871
+          },
+          "pre_normalization_pivot": 100,
+          "row": 654
+        },
+        {
+          "label": {
+            "boundary_column": 872
+          },
+          "pre_normalization_pivot": 100,
+          "row": 533
+        },
+        {
+          "label": {
+            "boundary_column": 873
+          },
+          "pre_normalization_pivot": 100,
+          "row": 504
+        },
+        {
+          "label": {
+            "boundary_column": 875
+          },
+          "pre_normalization_pivot": 81,
+          "row": 756
+        },
+        {
+          "label": {
+            "boundary_column": 876
+          },
+          "pre_normalization_pivot": 1,
+          "row": 744
+        },
+        {
+          "label": {
+            "boundary_column": 877
+          },
+          "pre_normalization_pivot": 1,
+          "row": 699
+        },
+        {
+          "label": {
+            "boundary_column": 878
+          },
+          "pre_normalization_pivot": 100,
+          "row": 673
+        },
+        {
+          "label": {
+            "boundary_column": 880
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1089
+        },
+        {
+          "label": {
+            "boundary_column": 881
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1059
+        },
+        {
+          "label": {
+            "boundary_column": 882
+          },
+          "pre_normalization_pivot": 1,
+          "row": 742
+        },
+        {
+          "label": {
+            "boundary_column": 883
+          },
+          "pre_normalization_pivot": 1,
+          "row": 474
+        },
+        {
+          "label": {
+            "boundary_column": 885
+          },
+          "pre_normalization_pivot": 1,
+          "row": 713
+        },
+        {
+          "label": {
+            "boundary_column": 886
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1033
+        },
+        {
+          "label": {
+            "boundary_column": 887
+          },
+          "pre_normalization_pivot": 1,
+          "row": 563
+        },
+        {
+          "label": {
+            "boundary_column": 888
+          },
+          "pre_normalization_pivot": 100,
+          "row": 983
+        },
+        {
+          "label": {
+            "boundary_column": 890
+          },
+          "pre_normalization_pivot": 100,
+          "row": 982
+        },
+        {
+          "label": {
+            "boundary_column": 891
+          },
+          "pre_normalization_pivot": 1,
+          "row": 652
+        },
+        {
+          "label": {
+            "boundary_column": 892
+          },
+          "pre_normalization_pivot": 100,
+          "row": 997
+        },
+        {
+          "label": {
+            "boundary_column": 893
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1073
+        },
+        {
+          "label": {
+            "boundary_column": 895
+          },
+          "pre_normalization_pivot": 1,
+          "row": 741
+        },
+        {
+          "label": {
+            "boundary_column": 896
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1011
+        },
+        {
+          "label": {
+            "boundary_column": 897
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1056
+        },
+        {
+          "label": {
+            "boundary_column": 898
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1078
+        },
+        {
+          "label": {
+            "boundary_column": 900
+          },
+          "pre_normalization_pivot": 1,
+          "row": 723
+        },
+        {
+          "label": {
+            "boundary_column": 901
+          },
+          "pre_normalization_pivot": 1,
+          "row": 724
+        },
+        {
+          "label": {
+            "boundary_column": 902
+          },
+          "pre_normalization_pivot": 1,
+          "row": 725
+        },
+        {
+          "label": {
+            "boundary_column": 905
+          },
+          "pre_normalization_pivot": 100,
+          "row": 980
+        },
+        {
+          "label": {
+            "boundary_column": 906
+          },
+          "pre_normalization_pivot": 1,
+          "row": 650
+        },
+        {
+          "label": {
+            "boundary_column": 907
+          },
+          "pre_normalization_pivot": 1,
+          "row": 575
+        },
+        {
+          "label": {
+            "boundary_column": 910
+          },
+          "pre_normalization_pivot": 100,
+          "row": 729
+        },
+        {
+          "label": {
+            "boundary_column": 911
+          },
+          "pre_normalization_pivot": 1,
+          "row": 664
+        },
+        {
+          "label": {
+            "boundary_column": 912
+          },
+          "pre_normalization_pivot": 1,
+          "row": 665
+        },
+        {
+          "label": {
+            "boundary_column": 915
+          },
+          "pre_normalization_pivot": 1,
+          "row": 678
+        },
+        {
+          "label": {
+            "boundary_column": 916
+          },
+          "pre_normalization_pivot": 1,
+          "row": 620
+        },
+        {
+          "label": {
+            "boundary_column": 917
+          },
+          "pre_normalization_pivot": 1,
+          "row": 545
+        },
+        {
+          "label": {
+            "boundary_column": 920
+          },
+          "pre_normalization_pivot": 1,
+          "row": 702
+        },
+        {
+          "label": {
+            "boundary_column": 921
+          },
+          "pre_normalization_pivot": 1,
+          "row": 634
+        },
+        {
+          "label": {
+            "boundary_column": 922
+          },
+          "pre_normalization_pivot": 1,
+          "row": 635
+        },
+        {
+          "label": {
+            "boundary_column": 925
+          },
+          "pre_normalization_pivot": 100,
+          "row": 694
+        },
+        {
+          "label": {
+            "boundary_column": 926
+          },
+          "pre_normalization_pivot": 100,
+          "row": 619
+        },
+        {
+          "label": {
+            "boundary_column": 927
+          },
+          "pre_normalization_pivot": 100,
+          "row": 590
+        },
+        {
+          "label": {
+            "boundary_column": 930
+          },
+          "pre_normalization_pivot": 100,
+          "row": 679
+        },
+        {
+          "label": {
+            "boundary_column": 931
+          },
+          "pre_normalization_pivot": 100,
+          "row": 604
+        },
+        {
+          "label": {
+            "boundary_column": 932
+          },
+          "pre_normalization_pivot": 100,
+          "row": 605
+        },
+        {
+          "label": {
+            "boundary_column": 935
+          },
+          "pre_normalization_pivot": 100,
+          "row": 693
+        },
+        {
+          "label": {
+            "boundary_column": 936
+          },
+          "pre_normalization_pivot": 1,
+          "row": 740
+        },
+        {
+          "label": {
+            "boundary_column": 937
+          },
+          "pre_normalization_pivot": 1,
+          "row": 641
+        },
+        {
+          "label": {
+            "boundary_column": 940
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1098
+        },
+        {
+          "label": {
+            "boundary_column": 941
+          },
+          "pre_normalization_pivot": 100,
+          "row": 668
+        },
+        {
+          "label": {
+            "boundary_column": 942
+          },
+          "pre_normalization_pivot": 1,
+          "row": 711
+        },
+        {
+          "label": {
+            "boundary_column": 945
+          },
+          "pre_normalization_pivot": 100,
+          "row": 680
+        },
+        {
+          "label": {
+            "boundary_column": 946
+          },
+          "pre_normalization_pivot": 1,
+          "row": 710
+        },
+        {
+          "label": {
+            "boundary_column": 947
+          },
+          "pre_normalization_pivot": 100,
+          "row": 530
+        },
+        {
+          "label": {
+            "boundary_column": 950
+          },
+          "pre_normalization_pivot": 100,
+          "row": 733
+        },
+        {
+          "label": {
+            "boundary_column": 951
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1121
+        },
+        {
+          "label": {
+            "boundary_column": 952
+          },
+          "pre_normalization_pivot": 1,
+          "row": 698
+        },
+        {
+          "label": {
+            "boundary_column": 955
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1088
+        },
+        {
+          "label": {
+            "boundary_column": 956
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1058
+        },
+        {
+          "label": {
+            "boundary_column": 957
+          },
+          "pre_normalization_pivot": 1,
+          "row": 739
+        },
+        {
+          "label": {
+            "boundary_column": 960
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1070
+        },
+        {
+          "label": {
+            "boundary_column": 961
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1032
+        },
+        {
+          "label": {
+            "boundary_column": 962
+          },
+          "pre_normalization_pivot": 1,
+          "row": 560
+        },
+        {
+          "label": {
+            "boundary_column": 965
+          },
+          "pre_normalization_pivot": 100,
+          "row": 979
+        },
+        {
+          "label": {
+            "boundary_column": 966
+          },
+          "pre_normalization_pivot": 1,
+          "row": 649
+        },
+        {
+          "label": {
+            "boundary_column": 967
+          },
+          "pre_normalization_pivot": 100,
+          "row": 994
+        },
+        {
+          "label": {
+            "boundary_column": 970
+          },
+          "pre_normalization_pivot": 1,
+          "row": 738
+        },
+        {
+          "label": {
+            "boundary_column": 971
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1008
+        },
+        {
+          "label": {
+            "boundary_column": 972
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1053
+        },
+        {
+          "label": {
+            "boundary_column": 975
+          },
+          "pre_normalization_pivot": 1,
+          "row": 721
+        },
+        {
+          "label": {
+            "boundary_column": 976
+          },
+          "pre_normalization_pivot": 1,
+          "row": 722
+        },
+        {
+          "label": {
+            "boundary_column": 980
+          },
+          "pre_normalization_pivot": 1,
+          "row": 991
+        },
+        {
+          "label": {
+            "boundary_column": 981
+          },
+          "pre_normalization_pivot": 1,
+          "row": 992
+        },
+        {
+          "label": {
+            "boundary_column": 985
+          },
+          "pre_normalization_pivot": 1,
+          "row": 737
+        },
+        {
+          "label": {
+            "boundary_column": 986
+          },
+          "pre_normalization_pivot": 1,
+          "row": 662
+        },
+        {
+          "label": {
+            "boundary_column": 990
+          },
+          "pre_normalization_pivot": 1,
+          "row": 676
+        },
+        {
+          "label": {
+            "boundary_column": 991
+          },
+          "pre_normalization_pivot": 1,
+          "row": 677
+        },
+        {
+          "label": {
+            "boundary_column": 995
+          },
+          "pre_normalization_pivot": 1,
+          "row": 707
+        },
+        {
+          "label": {
+            "boundary_column": 996
+          },
+          "pre_normalization_pivot": 1,
+          "row": 632
+        },
+        {
+          "label": {
+            "boundary_column": 1000
+          },
+          "pre_normalization_pivot": 100,
+          "row": 692
+        },
+        {
+          "label": {
+            "boundary_column": 1001
+          },
+          "pre_normalization_pivot": 100,
+          "row": 617
+        },
+        {
+          "label": {
+            "boundary_column": 1005
+          },
+          "pre_normalization_pivot": 100,
+          "row": 706
+        },
+        {
+          "label": {
+            "boundary_column": 1006
+          },
+          "pre_normalization_pivot": 100,
+          "row": 602
+        },
+        {
+          "label": {
+            "boundary_column": 1010
+          },
+          "pre_normalization_pivot": 100,
+          "row": 691
+        },
+        {
+          "label": {
+            "boundary_column": 1011
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1051
+        },
+        {
+          "label": {
+            "boundary_column": 1015
+          },
+          "pre_normalization_pivot": 100,
+          "row": 716
+        },
+        {
+          "label": {
+            "boundary_column": 1016
+          },
+          "pre_normalization_pivot": 100,
+          "row": 695
+        },
+        {
+          "label": {
+            "boundary_column": 1020
+          },
+          "pre_normalization_pivot": 1,
+          "row": 708
+        },
+        {
+          "label": {
+            "boundary_column": 1021
+          },
+          "pre_normalization_pivot": 1,
+          "row": 709
+        },
+        {
+          "label": {
+            "boundary_column": 1025
+          },
+          "pre_normalization_pivot": 100,
+          "row": 715
+        },
+        {
+          "label": {
+            "boundary_column": 1026
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1076
+        },
+        {
+          "label": {
+            "boundary_column": 1030
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1087
+        },
+        {
+          "label": {
+            "boundary_column": 1031
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1057
+        },
+        {
+          "label": {
+            "boundary_column": 1035
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1069
+        },
+        {
+          "label": {
+            "boundary_column": 1036
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1031
+        },
+        {
+          "label": {
+            "boundary_column": 1040
+          },
+          "pre_normalization_pivot": 100,
+          "row": 977
+        },
+        {
+          "label": {
+            "boundary_column": 1041
+          },
+          "pre_normalization_pivot": 1,
+          "row": 647
+        },
+        {
+          "label": {
+            "boundary_column": 1045
+          },
+          "pre_normalization_pivot": 1,
+          "row": 736
+        },
+        {
+          "label": {
+            "boundary_column": 1046
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1006
+        },
+        {
+          "label": {
+            "boundary_column": 1050
+          },
+          "pre_normalization_pivot": 1,
+          "row": 720
+        },
+        {
+          "label": {
+            "boundary_column": 1055
+          },
+          "pre_normalization_pivot": 100,
+          "row": 978
+        },
+        {
+          "label": {
+            "boundary_column": 1060
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1005
+        },
+        {
+          "label": {
+            "boundary_column": 1065
+          },
+          "pre_normalization_pivot": 1,
+          "row": 675
+        },
+        {
+          "label": {
+            "boundary_column": 1070
+          },
+          "pre_normalization_pivot": 5,
+          "row": 896
+        },
+        {
+          "label": {
+            "boundary_column": 1075
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1050
+        },
+        {
+          "label": {
+            "boundary_column": 1080
+          },
+          "pre_normalization_pivot": 100,
+          "row": 705
+        },
+        {
+          "label": {
+            "boundary_column": 1085
+          },
+          "pre_normalization_pivot": 100,
+          "row": 690
+        },
+        {
+          "label": {
+            "boundary_column": 1090
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1075
+        },
+        {
+          "label": {
+            "boundary_column": 1095
+          },
+          "pre_normalization_pivot": 1,
+          "row": 981
+        },
+        {
+          "label": {
+            "boundary_column": 1100
+          },
+          "pre_normalization_pivot": 100,
+          "row": 1030
+        },
+        {
+          "label": {
+            "boundary_column": 1105
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1086
+        },
+        {
+          "label": {
+            "boundary_column": 1110
+          },
+          "pre_normalization_pivot": 1,
+          "row": 1068
+        },
+        {
+          "label": {
+            "boundary_column": 1115
+          },
+          "pre_normalization_pivot": 100,
+          "row": 976
+        },
+        {
+          "label": {
+            "boundary_column": 1120
+          },
+          "pre_normalization_pivot": 1,
+          "row": 735
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                0,
+                0
+              ],
+              "i": 5
+            }
+          },
+          "pre_normalization_pivot": 99,
+          "row": 1043
+        },
+        {
+          "label": {
+            "candidate": {
+              "b": 0,
+              "base_monomial": [
+                1,
+                4
+              ],
+              "i": 5
+            }
+          },
+          "pre_normalization_pivot": 81,
+          "row": 989
+        }
+      ]
+    }
+  },
+  "source": {
+    "blob": "7adc1d6a733636204b1dd613870c168717be6277",
+    "bytes": 10397,
+    "commit": "f968b53943ba2312f09fbc3e8f9d462e86bcaa34",
+    "path": "research/hm/d8-small-certificates/p4/check_hm_p4_all_twists.js",
+    "prefix_bytes": 2918
+  },
+  "status": "selected_output_labels_only",
+  "supertrace_orientation": "c_(i,b)=-K_(15*b+i)",
+  "twist_minus2_cycle_checks": 20,
+  "version": 1
+}

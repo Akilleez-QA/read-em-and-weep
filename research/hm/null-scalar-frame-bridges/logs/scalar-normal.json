@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "AST-only free ordered-trace polynomial identity; no physical execution",
+  "source_files_hashed": 6,
+  "independent_monomials": 25,
+  "negative_controls_rejected": [
+    "gerbe coefficient",
+    "outer factor",
+    "theta half",
+    "block weight",
+    "supertrace sign",
+    "j endpoint trace",
+    "ordered wedge word"
+  ],
+  "physical_execution": false,
+  "whole_model_correctness": false,
+  "ID0_zero_claim": false
+}

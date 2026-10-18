@@ -1,0 +1,15 @@
+{
+  "verdict": "PASS",
+  "row_embedding_rank": 144,
+  "columns": 96,
+  "image_rank": 94,
+  "augmented_rank": 95,
+  "certificate_support": 8,
+  "certificate_pairing_N": "1",
+  "certificate_pairing_M2": "1/8",
+  "negative_controls": [
+    "flipped certificate sign rejected",
+    "omitted target rejected"
+  ],
+  "method": "formal scalar-coordinate coefficient expansion; no evaluation or matrix products"
+}

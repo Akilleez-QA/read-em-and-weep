@@ -1,0 +1,120 @@
+[
+  {
+    "path": "inputs/compiler.txt",
+    "sha256": "121886e87f41f993ce60733a459fad61b6ed12d5d6a3d3e26544d653441d2094",
+    "upstream_sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "upstream_name": "compiler.py",
+    "selection": {
+      "exact_line_ranges": [
+        [
+          235,
+          269
+        ]
+      ]
+    }
+  },
+  {
+    "path": "inputs/schema.txt",
+    "sha256": "9b5c10b31b471373ef65427308ad3b66d6031806fe93e9d9a103ce15d37dbb03",
+    "upstream_sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31",
+    "upstream_name": "lift_schema.py",
+    "selection": {
+      "exact_line_ranges": [
+        [
+          12,
+          32
+        ]
+      ]
+    }
+  },
+  {
+    "path": "inputs/raw-engine.txt",
+    "sha256": "3f91a6faedfe3f2a49de363b351d20943dffc2cdadf5c0af133c0ece8c2e8caa",
+    "upstream_sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+    "upstream_name": "raw_engine.py",
+    "selection": {
+      "exact_method_line_ranges": [
+        [
+          131,
+          133
+        ],
+        [
+          135,
+          137
+        ],
+        [
+          160,
+          167
+        ]
+      ],
+      "exact_function_line_ranges": [
+        [
+          174,
+          179
+        ]
+      ],
+      "wrapper": "class PhysicalModel header only; decorators omitted"
+    }
+  },
+  {
+    "path": "inputs/face-program.txt",
+    "sha256": "c134b00985482e1a110f746c2f05ec954a9095c7176311271444aaaf1aef5f37",
+    "upstream_sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a",
+    "upstream_name": "lift.py",
+    "selection": {
+      "exact_line_ranges": [
+        [
+          99,
+          103
+        ],
+        [
+          105,
+          107
+        ],
+        [
+          109,
+          130
+        ]
+      ],
+      "prefix": "SIGNS literal copied from upstream"
+    }
+  },
+  {
+    "path": "inputs/jc-proof.txt",
+    "sha256": "3da253b3f39211feb2714cc555ed1b14fe0b89ce8c0458cd02234febd66c2fc8",
+    "upstream_sha256": "0fed4ce72868ffa43f9c8e042055396f441873cca208d40e943b1b60b35f0443",
+    "upstream_name": "PROOF.md",
+    "selection": {
+      "exact_section_start": "## 2. Exact HPL",
+      "exclusive_section_end": "## 3.",
+      "paragraphs_omitted_containing": [
+        "4270",
+        "`TinyLift`"
+      ]
+    }
+  },
+  {
+    "path": "inputs/jc-review.txt",
+    "sha256": "0e2e856c3f44d3d8d2165fa165c0e17a9d5e03e9bc4e6e1ae75fc7460fbc8b14",
+    "upstream_sha256": "b7e4bf0c61dff5db172951b41609325a0d08a07ebf1f409dd417c9146bc228c5",
+    "upstream_name": "REVIEW.md",
+    "selection": {
+      "exact_section_start": "## 1. Exact lift",
+      "exclusive_section_end": "## 2.",
+      "paragraphs_omitted_containing": [
+        "4270",
+        "`TinyLift`"
+      ]
+    }
+  },
+  {
+    "path": "inputs/transition-proof.txt",
+    "sha256": "683a189d3dfe75080420724eb7cec27b749dd6df702eeff9e04fb7f5ebce9125",
+    "upstream_sha256": "35b86d94fd5ec6c47ca3d234a6ab5ae1017609a18404b572008752e1ef4ae4a6",
+    "upstream_name": "PROOF.md",
+    "selection": {
+      "exact_section_start": "## 1. Quotient",
+      "exclusive_section_end": "## 3."
+    }
+  }
+]

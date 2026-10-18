@@ -1,0 +1,35 @@
+{
+  "negative_pin_controls": [
+    {
+      "input": "inputs/field.py.txt",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "input": "inputs/field.py.txt",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "input": "inputs/candidate-field.py.txt",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "input": "inputs/candidate-field.py.txt",
+      "optimized": true,
+      "rejected": true
+    },
+    {
+      "input": "reference-methods.txt",
+      "optimized": false,
+      "rejected": true
+    },
+    {
+      "input": "reference-methods.txt",
+      "optimized": true,
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}

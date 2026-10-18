@@ -1,0 +1,17 @@
+[
+  {
+    "name": "first-order-source.md",
+    "path": "inputs/first-order-source.md",
+    "sha256": "502baffafd3e0d271f6a83e2eaf0c847b023a2bcc7e81273fbb438269492a8d6"
+  },
+  {
+    "name": "raw_engine.py.txt",
+    "path": "inputs/raw_engine.py.txt",
+    "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9"
+  },
+  {
+    "name": "scalar-contract.py.txt",
+    "path": "inputs/scalar-contract.py.txt",
+    "sha256": "290675c2854944bf40af443073ee215d0e96871d2cf340121f2cb85029538336"
+  }
+]

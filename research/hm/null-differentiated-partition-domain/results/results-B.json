@@ -1,0 +1,14 @@
+{
+  "checks": {
+    "all_chart_frames_and_derivative_sign": true,
+    "arbitrary_character_projection": true,
+    "dual_test_degree": true,
+    "full_weights_standard_units_and_faces": true,
+    "ledger_and_slack": true,
+    "product_rule_and_coincident_divisors": true,
+    "retained_hpl_prefix_owners": true,
+    "source_alternation": true
+  },
+  "scope": "Synthetic structural controls only; geometric premises and actual source denotations are not certified.",
+  "status": "pass"
+}

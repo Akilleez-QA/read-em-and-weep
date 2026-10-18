@@ -1,0 +1,9 @@
+def raw_scalar_formula(mat,blocks_i,blocks_j,qa,qb):
+    """Pinned globalBuild2.first: all4 block traces, both endpoint terms."""
+    result=mat.ex.scalar(0);ta=qa*mat.ex.scalar(Q(1,2));tb=qb*mat.ex.scalar(Q(1,2))
+    for k,sign,a_i,b_i,a_j,b_j in zip((-1,1,3,5),(-1,1,-1,1),*blocks_i,*blocks_j):
+        wedge=mat.trace(mat.mul(a_i,b_j))[0][0]-mat.trace(mat.mul(b_i,a_j))[0][0]
+        linear=(ta*(mat.trace(b_i)[0][0]+mat.trace(b_j)[0][0])-tb*(mat.trace(a_i)[0][0]+mat.trace(a_j)[0][0]))*mat.ex.scalar(k)
+        result=result+(wedge+linear)*mat.ex.scalar(sign)
+    return result*mat.ex.scalar(Q(1,4))-qa*qb*mat.ex.scalar(Q(15,8))
+

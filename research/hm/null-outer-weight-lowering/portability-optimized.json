@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "optimized": false,
+      "relocated_clean": "PASS",
+      "source_corruption": "REJECTED",
+      "joint_manifest_corruption": "REJECTED"
+    },
+    {
+      "optimized": true,
+      "relocated_clean": "PASS",
+      "source_corruption": "REJECTED",
+      "joint_manifest_corruption": "REJECTED"
+    }
+  ],
+  "production_execution": false
+}

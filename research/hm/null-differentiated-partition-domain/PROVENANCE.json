@@ -1,0 +1,53 @@
+{
+  "scope": "Bounded dependency excerpts from accepted packets; hashes bind supplied text, not geometric truth. No private paths or live evaluations are included.",
+  "dependencies": [
+    {
+      "dependency": "partition-prism.md",
+      "source_document": "PROOF.md",
+      "source_packet": "partition-ward-public",
+      "source_sha256": "42189fa11cb6c6165dc6678429b31b27c429bd87024fe9a7161209b06deb9a1c",
+      "excerpt_sha256": "53921dd259cf1a76be1338719ad1d04576b2c70c3c73fba73db9029c216ff4ee",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    },
+    {
+      "dependency": "raw-extension.md",
+      "source_document": "PROOF.md",
+      "source_packet": "raw-regular-extension-public",
+      "source_sha256": "7b9c607762bc9938dea2292d233318dc358fd22bf32329635c1f66cebebb9b0d",
+      "excerpt_sha256": "94f8fe4bfb2d4b674c84c41406432a39dfb06a084221f4e1e237d451d9d596e1",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    },
+    {
+      "dependency": "source-adjoint.md",
+      "source_document": "PROOF.md",
+      "source_packet": "residue-source-adjoint-public",
+      "source_sha256": "106648cb80212191cc6fe85098a24271069f8f2e7f625daae29c9f5a114d2922",
+      "excerpt_sha256": "ac9102ae33f865a56bb59abf2dba38cd33b7434c16f6b27bc499b5b8cb93fbc1",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    },
+    {
+      "dependency": "frames.md",
+      "source_document": "frames-and-poles.md.txt",
+      "source_packet": "raw-regular-extension-public",
+      "source_sha256": "876cad001a8f96bb207ca246873e3efe67afd9a394cc4d2a0796992596b84916",
+      "excerpt_sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    },
+    {
+      "dependency": "outer-weights.md",
+      "source_document": "outer-weight.md",
+      "source_packet": "dependencies",
+      "source_sha256": "dbd691a2d547a51f2821da19461ba0a740a54495ac77d90cbf5b908a270b933f",
+      "excerpt_sha256": "dbd691a2d547a51f2821da19461ba0a740a54495ac77d90cbf5b908a270b933f",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    },
+    {
+      "dependency": "hpl.md",
+      "source_document": "hpl.md",
+      "source_packet": "dependencies",
+      "source_sha256": "42139f79c0d0e901e6edd8386df174c0732ac040a033c7f002fa9fbc54c5ff98",
+      "excerpt_sha256": "42139f79c0d0e901e6edd8386df174c0732ac040a033c7f002fa9fbc54c5ff98",
+      "authentication": "Inherited frozen-source provenance; no fresh remote attestation."
+    }
+  ]
+}

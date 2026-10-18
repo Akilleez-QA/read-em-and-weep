@@ -1,0 +1,86 @@
+[
+  {
+    "file": "test_direct_dual_cup_signs.py",
+    "exit_code": 0,
+    "stdout": "PASS: both graded cup identities; both opposite-sign controls fail.\nScope: formal signs only; no transport, regularity, or budget certificate.\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_jet_dual_independent.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"dimensions\": [\n    4,\n    54,\n    100,\n    49\n  ],\n  \"ranks\": [\n    4,\n    50,\n    49\n  ],\n  \"cohomology_dimensions\": [\n    0,\n    0,\n    1,\n    0\n  ],\n  \"clipped_H1\": 1,\n  \"omitted_boundary_pairing\": 3,\n  \"physical_source_evaluated\": false\n}\nPASS: chain compatibility, global boundary annihilation, exact e factorization; missing q0 surjectivity prevents jet closedness.\nPASS: order-zero q0 is onto, but actual e factorization fails.\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_jet_quotient_dual_certificate.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"full_dimensions\": [\n    16,\n    150,\n    256\n  ],\n  \"jet_dimensions\": [\n    16,\n    24,\n    16\n  ],\n  \"jet_algebra_dimension\": 4,\n  \"full_closed_covector_dimension\": 134,\n  \"jet_closed_covector_dimension\": 12,\n  \"exact_intertwining\": true,\n  \"exact_contraction\": true,\n  \"exact_lifted_dual_residual_zero\": true,\n  \"physical_source_evaluated\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_m0_baseline_formal.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_complete_raw_terms (__main__.M0FormalTests.test_complete_raw_terms) ... ok\ntest_mixed_block_is_quarter (__main__.M0FormalTests.test_mixed_block_is_quarter) ... ok\ntest_noncommutative_order (__main__.M0FormalTests.test_noncommutative_order) ... ok\ntest_owner_normalization (__main__.M0FormalTests.test_owner_normalization) ... ok\ntest_selected_traceless_quadratic_words (__main__.M0FormalTests.test_selected_traceless_quadratic_words) ... ok\ntest_tracefree_entries_and_scalar_removal (__main__.M0FormalTests.test_tracefree_entries_and_scalar_removal) ... ok\ntest_u0_endpoint_and_product_derivative (__main__.M0FormalTests.test_u0_endpoint_and_product_derivative) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "file": "test_obstruction_inference_guards.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_abstract_complex_and_detector_are_valid (__main__.CompleteRepresentativeGuards.test_abstract_complex_and_detector_are_valid) ... ok\ntest_nonzero_baseline_can_cancel_in_complete_representative (__main__.CompleteRepresentativeGuards.test_nonzero_baseline_can_cancel_in_complete_representative) ... ok\ntest_only_sum_need_be_closed (__main__.CompleteRepresentativeGuards.test_only_sum_need_be_closed) ... ok\ntest_zero_baseline_does_not_make_correction_blocks_zero (__main__.CompleteRepresentativeGuards.test_zero_baseline_does_not_make_correction_blocks_zero) ... ok\ntest_formal_nonzero_does_not_survive_unverified_specialization (__main__.EvidencePromotionGuards.test_formal_nonzero_does_not_survive_unverified_specialization) ... ok\ntest_local_nonzero_closed_value_can_be_exact (__main__.EvidencePromotionGuards.test_local_nonzero_closed_value_can_be_exact) ... ok\ntest_support_overlap_does_not_certify_coefficient (__main__.EvidencePromotionGuards.test_support_overlap_does_not_certify_coefficient) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.001s\n\nOK\n"
+  },
+  {
+    "file": "test_owned_denominator_complex.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"dimensions\": [\n    4,\n    54,\n    100,\n    49\n  ],\n  \"ranks\": [\n    4,\n    50,\n    49\n  ],\n  \"cohomology_dimensions\": [\n    0,\n    0,\n    1,\n    0\n  ],\n  \"clipped_H1\": 1,\n  \"omitted_boundary_pairing\": 3,\n  \"physical_source_evaluated\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_refined_detector_metadata.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "........................\n----------------------------------------------------------------------\nRan 24 tests in 0.033s\n\nOK\n"
+  },
+  {
+    "file": "test_refined_detector_metadata_independent.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_canonical_seed_and_status_contract (__main__.IndependentContractAudit.test_canonical_seed_and_status_contract) ... ok\ntest_cli_fail_closed_before_stdout (__main__.IndependentContractAudit.test_cli_fail_closed_before_stdout) ... ok\ntest_cli_matches_canonical_metadata (__main__.IndependentContractAudit.test_cli_matches_canonical_metadata) ... ok\ntest_deleted_prefix_stays_owned (__main__.IndependentContractAudit.test_deleted_prefix_stays_owned) ... ok\ntest_derivative_requires_inner_partition (__main__.IndependentContractAudit.test_derivative_requires_inner_partition) ... ok\ntest_domain_rejects_forged_preparation (__main__.IndependentContractAudit.test_domain_rejects_forged_preparation) ... ok\ntest_serialization_rejects_nested_mutations (__main__.IndependentContractAudit.test_serialization_rejects_nested_mutations) ... ok\n\n----------------------------------------------------------------------\nRan 7 tests in 0.806s\n\nOK\n"
+  },
+  {
+    "file": "test_refined_selector_pruning.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "..............\n----------------------------------------------------------------------\nRan 14 tests in 0.461s\n\nOK\n"
+  },
+  {
+    "file": "test_refined_selector_pruning_independent.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_all78_against_closed_form_words (__main__.IndependentSelectorAudit.test_all78_against_closed_form_words) ... ok\ntest_carrier_prefix_not_tail_distinctness (__main__.IndependentSelectorAudit.test_carrier_prefix_not_tail_distinctness) ... ok\ntest_mutation_fails_closed (__main__.IndependentSelectorAudit.test_mutation_fails_closed) ... ok\ntest_optimized_cli_fails_before_output (__main__.IndependentSelectorAudit.test_optimized_cli_fails_before_output) ... ok\ntest_word_identities_only_same_owner (__main__.IndependentSelectorAudit.test_word_identities_only_same_owner) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.886s\n\nOK\n"
+  },
+  {
+    "file": "test_rsharp_quartic_remainder.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_all_1296_multilinear_basis_cases (__main__.QuarticRemainder.test_all_1296_multilinear_basis_cases) ... ok\ntest_exact_assignment_support (__main__.QuarticRemainder.test_exact_assignment_support) ... ok\ntest_pair_separated_survivor (__main__.QuarticRemainder.test_pair_separated_survivor) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.080s\n\nOK\n"
+  },
+  {
+    "file": "test_scalar_cover_adjoint.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"formal finite chains and coefficient indices only\",\n  \"counts\": {\n    \"AW_reverse_path_edges\": 120,\n    \"rectangle_cone_boundary_edges\": 120,\n    \"five_triangle_bounds\": 120,\n    \"raw_request_bound_checks\": 150000,\n    \"weighted_prism_identity_entries\": 69,\n    \"two_branch_prism_entries\": 24\n  },\n  \"maxima_on_test_domain\": {\n    \"k_nonzero_triangles\": 5,\n    \"pair12_raw_paths\": 6,\n    \"pair34_raw_paths\": 12\n  },\n  \"witnesses\": {\n    \"pair12_raw_paths\": {\n      \"edge\": [\n        [\n          0,\n          0,\n          0,\n          0\n        ],\n        [\n          0,\n          1,\n          1,\n          1\n        ]\n      ],\n      \"exponents\": [\n        0,\n        -3,\n        -3,\n        -3\n      ]\n    },\n    \"pair34_raw_paths\": {\n      \"edge\": [\n        [\n          0,\n          0,\n          0,\n          0\n        ],\n        [\n          0,\n          1,\n          1,\n          1\n        ]\n      ],\n      \"exponents\": [\n        0,\n        0,\n        -1,\n        -3\n      ]\n    }\n  },\n  \"total_checks\": 150453\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_scalar_homotopy_adjoint.py",
+    "exit_code": 0,
+    "stdout": "{\n  \"status\": \"PASS\",\n  \"scope\": \"formal monomial bases only; no HM physical source arithmetic\",\n  \"counts\": {\n    \"Laurent_derivative_adjoint_pairings\": 1755,\n    \"explicit_sign_and_zero_mode_controls\": 7,\n    \"one_factor_J_adjoint_pairings\": 202,\n    \"one_factor_derivative_J_zero_checks\": 22,\n    \"one_factor_derivative_h_commutation\": 11,\n    \"one_factor_h_adjoint_pairings\": 202,\n    \"tensor_H_squared_zero\": 168420,\n    \"tensor_adjoint_basis_support_checks\": 168420,\n    \"tensor_adjoint_forward_entries\": 89100,\n    \"tensor_adjoint_reverse_entries\": 89100,\n    \"tensor_contraction_basis_identities\": 168420,\n    \"tensor_d_squared_zero\": 168420,\n    \"tensor_derivative_h_commutation\": 365651\n  },\n  \"total_recorded_checks\": 1219730\n}\n",
+    "stderr": ""
+  },
+  {
+    "file": "test_source_second_jet_degeneracy.py",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": ".........\n----------------------------------------------------------------------\nRan 9 tests in 1.174s\n\nOK\n"
+  }
+]

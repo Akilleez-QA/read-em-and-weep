@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "scope": "formal operator rewrite and conditional envelope arithmetic only",
+  "checks": [
+    "full-four-term-contraction-rewrite",
+    "omission-detected-LRJ",
+    "omission-detected-LHRcj",
+    "omission-detected-LHcRj",
+    "omission-detected-cLHRj",
+    "omission-detected-LHRjD",
+    "nonclosed-sign-flip-detected",
+    "common-anomaly-cancels",
+    "Xi-envelope",
+    "Q-envelope",
+    "QZ-envelope",
+    "QDeltaZ-envelope",
+    "ordinary-weight-dominates"
+  ]
+}
