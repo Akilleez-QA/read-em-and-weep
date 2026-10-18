@@ -1,0 +1,189 @@
+{
+  "schema": "id0-static-source-pins-v1",
+  "sources": [
+    {
+      "path": "detector-realization/program.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "745beade7f111b4648d5da36a962c787f1a29d72",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/program.py",
+      "bytes": 6041,
+      "sha256": "87816979ce914f30629ba5187bc15d68ff6a3a34fd934672aaaf4e8fbb17a99b"
+    },
+    {
+      "path": "detector-realization/raw_engine.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "34a230aedc9e6d47148195752da54c30c576f53a",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+      "bytes": 8960,
+      "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9"
+    },
+    {
+      "path": "detector-realization/bindings.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "c795678722623c109a616f6e79261d965881e165",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/bindings.py",
+      "bytes": 1050,
+      "sha256": "f9f79c898f4dc9e158c14227e1214f71d4d06d0641f952cd01433bac19f1beba"
+    },
+    {
+      "path": "detector-realization/PROOF.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "5f8e2e33c908c43697a20f13be27d1cbcdd61f69",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/PROOF.md",
+      "bytes": 5719,
+      "sha256": "76b34de44044631b767f40c30fa6ab43fcc1f70ce44b1770232da51e5784aec4"
+    },
+    {
+      "path": "detector-realization/algorithm.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "75cf0791dae44543e99a612fdcd1f8cfed8e2993",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/algorithm.json",
+      "bytes": 4720,
+      "sha256": "0670f8d409c652a5961f289995cd4ccc78eff7e80030ccc8b292ff42d6d41285"
+    },
+    {
+      "path": "detector-realization/source-pins.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "774c4d8fe11b2124ec1b0c25387dec20651c8ae3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/source-pins.json",
+      "bytes": 2469,
+      "sha256": "51dc5659a5ab5b04b9b567be8d7c2686d1c9e66dc1b816f96d8558e1eab983e5"
+    },
+    {
+      "path": "detector-admission/whole_envelope.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "be3cab677e2eec6612e7bbcc58852154dd8229f1",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/whole_envelope.py",
+      "bytes": 5069,
+      "sha256": "bbe9ffd7154bcb1017e56834a1ffe24326b288d289299bc0bdcd67f4ba6f3e1c"
+    },
+    {
+      "path": "detector-admission/whole-route-envelope.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "c0560299498dcf12be403663d293b08812828e3e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/whole-route-envelope.json",
+      "bytes": 6976,
+      "sha256": "627fbd2234c57d75ec9ef286cf93e4c7ca6c0593eae81a4a8180838e6c4ebd0d"
+    },
+    {
+      "path": "detector-admission/candidate-route.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "58d3c993757e6347809c7d7237a542d78dc8f230",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/candidate-route.json",
+      "bytes": 3741,
+      "sha256": "268b815b975861af02e31336202b94338b81d747a897384fa58c875d7c9d89e9"
+    },
+    {
+      "path": "detector-admission/certifier.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "96e5bb9f9217450c4ffd2090a03b0339c20160c6",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/certifier.py",
+      "bytes": 7625,
+      "sha256": "816f86504b0f517a8ba35aa77d8a6aec5adfb1eb7505803d3a31cd394910eb62"
+    },
+    {
+      "path": "detector-admission/README.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "01985b953cf4bfaf171f0455ef987ad0b42516f9",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/README.md",
+      "bytes": 5335,
+      "sha256": "8f27e9b6c84d07bfdcc5d38154a93154fd914fec31eb4f14562e6e2512bc9c6d"
+    },
+    {
+      "path": "scalar-compiler/compiler.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "7896111d95b9e66ea611204f9f8d93548be83d2d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/scalar-compiler/compiler.py",
+      "bytes": 22498,
+      "sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386"
+    },
+    {
+      "path": "full-lift-domain/lift.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "a22ae9aa7df35f10c1dd2e189d5dad23ecc24dbc",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/full-lift-domain/lift.py",
+      "bytes": 15338,
+      "sha256": "a4a38cdacb66633d74980dfa102dd84387c7b870a1a2c233b67df3f810aa615a"
+    },
+    {
+      "path": "transport-binding/lift_schema.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "0e3bad2aeb926c59cceda6e115974d3aa35e7bf9",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/transport-binding/lift_schema.py",
+      "bytes": 2281,
+      "sha256": "3de33f88790e46bb62d4c400143ef62dea8b0b15d51bd18a4fb70689e3261f31"
+    },
+    {
+      "path": "inserted-coefficients/interfaces.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "7f0317d4e99e72d6020419866f96f6123e6df210",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/inserted-coefficients/interfaces.py",
+      "bytes": 3422,
+      "sha256": "9ba74c9e328c38083c4f8d49a04818d8a67216aa0a0b477563523ed4728f72fa"
+    },
+    {
+      "path": "exact-curve-field/field.py",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "cd7bd6868d882cd016955c3bfd11abe5bfd3a0a4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/exact-curve-field/field.py",
+      "bytes": 15366,
+      "sha256": "4dade295de59741ceb54eb4574c58ffc82c8a1a17063fd1c081656a8b2069b01"
+    },
+    {
+      "path": "source-boundary-analysis/PROOF.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "d3663b1fc97ff206d3937b0fe746e0817377af24",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/source-boundary-analysis/PROOF.md",
+      "bytes": 12385,
+      "sha256": "e14e83722d4e4da8d4160cd1661c32e8a37edd690561effe271135114a8078d7"
+    },
+    {
+      "path": "full-source-application/PROOF.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "69821c62a44485d64325e77c21bdab3553bf0d17",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/full-source-application/PROOF.md",
+      "bytes": 12579,
+      "sha256": "01620dcda6a13a40ef3081f9c78382c58d1de17d14cc0bea75438d3973c396ed"
+    },
+    {
+      "path": "physical-homogenization/PROOF.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "68d3f0e3e6b60a4a99b7cbb54d8589bf69d7e747",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/physical-homogenization/PROOF.md",
+      "bytes": 14679,
+      "sha256": "73896848cf224631578aa71b765a51f43c97ac1541e8d56ec1d146ad448ac1ab"
+    },
+    {
+      "path": "detector-realization/producer-ready.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "b7a4e9eea0dde36a186ab8c0682231ae409477de",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/producer-ready.json",
+      "bytes": 1534,
+      "sha256": "f7f6d523c5f55af2b571cf8912e7473ac21f1a5949354d8bbb6d94eaddec794a"
+    },
+    {
+      "path": "detector-admission/source-pins.json",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "37088e073c663a871c4f61cda3adaa1d5cfea50b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/source-pins.json",
+      "bytes": 3701,
+      "sha256": "e0872ef5cfe3ac9d6d55fabcf6e74aec8b3e7126f946b69f14e9a5a529615931"
+    },
+    {
+      "path": "detector-admission/PROOF.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "bec450f74d61234efd18ab185586261008a93aab",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-admission/PROOF.md",
+      "bytes": 26749,
+      "sha256": "21ca1a8a72fa5cbc6367bf666f33f9787ede01761b14284c479f353e9759012e"
+    },
+    {
+      "path": "detector-selection/README.md",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "git_blob": "725c034b118876ee0148143d4c758a0da18d53e6",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-selection/README.md",
+      "bytes": 6017,
+      "sha256": "cce59b00e0e0c72d86e106bb755264e4c1f18a9adb80718d4b2be8ba879fe0b4"
+    }
+  ]
+}

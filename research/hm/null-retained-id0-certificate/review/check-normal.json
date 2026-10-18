@@ -1,0 +1,71 @@
+{
+  "status": "static and invented algebra controls passed",
+  "source_files_verified": 23,
+  "physical_execution": false,
+  "physical_modules_imported": false,
+  "physical_owners_constructed": false,
+  "seed_delta": "30 -> 0 only, symbolic AST, never compiled",
+  "complete_preterminal_AST_sha256": "c5193055d4054845c4b376b4f5f93b775926f9a584624cdda31c15ec664705f2",
+  "weighted_assignment_AST_sha256": "8e214b7a5ee495c83f5a0049a23ce225aee16a614330c3e448e57ceedc682ef8",
+  "id0_record": {
+    "base_monomial": [],
+    "block": "Q^2",
+    "id": 0,
+    "scalar_map": {
+      "b": 0,
+      "i": 5
+    },
+    "terms": [
+      {
+        "coefficient": 1,
+        "dual_monomial": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "laurent_exponents": [
+          -3,
+          -3,
+          -1,
+          -1
+        ],
+        "output_index": 8
+      },
+      {
+        "coefficient": 2,
+        "dual_monomial": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "laurent_exponents": [
+          -2,
+          -2,
+          -2,
+          -2
+        ],
+        "output_index": 40
+      },
+      {
+        "coefficient": 1,
+        "dual_monomial": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "laurent_exponents": [
+          -1,
+          -1,
+          -3,
+          -3
+        ],
+        "output_index": 72
+      }
+    ]
+  },
+  "invented_polynomial_products": 195,
+  "limitation": "No adapter, cost admission, full transitive implementation validation, or physical detector value."
+}
