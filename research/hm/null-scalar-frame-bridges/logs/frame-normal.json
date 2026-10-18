@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "scope": "conditional moving-frame lowering; static AST and formal words only",
+  "source_hashes_verified": 3,
+  "exact_blocks_ast": true,
+  "exact_primitive_and_nu_ast": true,
+  "pivot_index_cases": 5,
+  "static_mutations_rejected": [
+    "derivative sign",
+    "inverse row scaling",
+    "cohomology column weights",
+    "old connection sign",
+    "extreme weight",
+    "block order",
+    "U0 word order",
+    "Q0 word order"
+  ],
+  "formal_inverse_block_checks": 13,
+  "column_leibniz_checks": 25,
+  "ranks": [
+    5,
+    15,
+    10,
+    2
+  ],
+  "weights": [
+    -1,
+    1,
+    3,
+    5
+  ],
+  "physical_evaluation": false,
+  "production_import": false,
+  "limitations": [
+    "contraction premises not verified against actual model entries",
+    "AST mutations are static mismatch controls, not numerical counterexamples",
+    "formal reduction uses declared equations, including delta gamma=0 for direct Q0U0 check",
+    "no physical source, owner, or jet evaluated"
+  ]
+}
