@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/Akilleez-QA/read-em-and-weep",
+  "historical_commit": "08b73637d4136f91606aad332c46cafd064417f8",
+  "historical_directory": "research/hm/current-scalar-geometric-dependencies",
+  "pinned_commit": "10810ee877fdaf291399198ad60d7dd0c316a42d",
+  "pinned_model_path": "research/hm/null-operator-compiler/hm-pinned-model.json",
+  "sha256": {
+    "certificates-homogeneous-identities.json": "55e78bbc838a971b64531379788192acf8877c04f2d797fb13b4f4a68e47b018",
+    "data-model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "manifest.json": "68f8f4ac9ab653dc07134f0c0a40c868a0c1944da2e22415f997e1316dc0698d",
+    "pinned-model.json": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+    "verify.py.txt": "b037eb1fe5d8d3434d793e133eb49e7cbc9e477f71dbadffce4a730559d47984",
+    "verify_homogeneous_identities.py.txt": "ad6fdb925262b9661bd51c0f65fe1a48d8f4ab1927bbf14b23786a4f0e1503bf"
+  },
+  "A_replayed": false,
+  "network_authentication_performed_by_this_bundle": false
+}
