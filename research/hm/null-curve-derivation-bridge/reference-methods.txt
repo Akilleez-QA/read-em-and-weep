@@ -1,0 +1,68 @@
+class Execution:
+    def xpoly(self, i):
+        e = list(ZERO)
+        e[_axis(i)] = 1
+        return self.poly(((tuple(e), 1),))
+    def y(self, i):
+        return self.element(((1 << _axis(i), self.rational(1)),))
+    def curve(self, i):
+        x = self.xpoly(i)
+        return x * x * x - x
+
+class Poly:
+    def partial(self, i):
+        i = _axis(i)
+    
+        def terms():
+            for e, q in self.terms:
+                self.ex.tick()
+                if e[i]:
+                    f = list(e)
+                    f[i] -= 1
+                    yield (tuple(f), self.ex.mul(q, self.ex.q(e[i])))
+        return Poly(self.ex, terms())
+
+class Rational:
+    def partial(self, i):
+        i = _axis(i)
+        return Rational(self.numerator.partial(i) * self.denominator - self.numerator * self.denominator.partial(i), self.denominator * self.denominator)
+
+class Element:
+    def __mul__(self, other):
+        _same(self, other)
+    
+        def terms():
+            for a, c in self.terms:
+                for b, d in other.terms:
+                    self.ex.tick()
+                    self.ex.tick('basis_products')
+                    q = c * d
+                    for i in range(4):
+                        if a & b & 1 << i:
+                            q = q * self.ex.rational(self.ex.curve(i))
+                    yield (a ^ b, q)
+        return Element(self.ex, terms())
+    def V(self, i):
+        """Invariant derivation, including differentiation of the y moving frame."""
+        i = _axis(i)
+        self.ex.check()
+        pieces = []
+        for mask, c in self.terms:
+            self.ex.tick()
+            term = Element(self.ex, ((mask, c.partial(i)),)) * self.ex.y(i)
+            pieces.extend(term.terms)
+            if mask & 1 << i:
+                x = self.ex.xpoly(i)
+                dy = (x * x).scale(3) - self.ex.constant(1)
+                dy = dy.scale(Fraction(1, 2))
+                pieces.append((mask ^ 1 << i, c * self.ex.rational(dy)))
+            self.ex.tick('storage_events', len(term.terms) + bool(mask & 1 << i))
+        return Element(self.ex, pieces)
+    def jet(self, axes):
+        """Apply V in the supplied order; counts are shared with all other work."""
+        self.ex.check()
+        result = self
+        for i in axes:
+            self.ex.tick()
+            result = result.V(i)
+        return result
