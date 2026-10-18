@@ -1,0 +1,26 @@
+[
+  {
+    "script": "check.py",
+    "flags": "-B",
+    "tampered_dependency": "dependencies/hpl.md",
+    "rejected": true
+  },
+  {
+    "script": "check.py",
+    "flags": "-BO",
+    "tampered_dependency": "dependencies/hpl.md",
+    "rejected": true
+  },
+  {
+    "script": "independent/check_review.py",
+    "flags": "-B",
+    "tampered_dependency": "dependencies/hpl.md",
+    "rejected": true
+  },
+  {
+    "script": "independent/check_review.py",
+    "flags": "-BO",
+    "tampered_dependency": "dependencies/hpl.md",
+    "rejected": true
+  }
+]
