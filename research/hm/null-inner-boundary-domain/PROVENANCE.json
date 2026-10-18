@@ -1,0 +1,164 @@
+{
+  "scope": "Supplied frozen local text only. Hashes bind bytes, not geometric truth or current remote state. Historical source references remain historical; nested source files are not implicitly included.",
+  "dependencies": [
+    {
+      "path": "dependencies/endpoint-transfer.md",
+      "source_packet": "endpoint-defect-transfer-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "9e534ad92544de3c031b64d76d229426cdb077e545e9d5f3bd6d5446700ab599",
+      "selection": {
+        "lines_inclusive": [
+          74,
+          160
+        ]
+      },
+      "sha256": "740cc066a3f4964d8f67dfaf9e7014f21547784d293738649d3ffd79b3e0b275"
+    },
+    {
+      "path": "dependencies/partition-identity.md",
+      "source_packet": "partition-ward-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "42189fa11cb6c6165dc6678429b31b27c429bd87024fe9a7161209b06deb9a1c",
+      "selection": {
+        "lines_inclusive": [
+          33,
+          58
+        ]
+      },
+      "sha256": "54565f2b8bc6b152b02eebe2235417dc341406cd598bdd8f01341545a13ff3d8"
+    },
+    {
+      "path": "dependencies/partition-domain.md",
+      "source_packet": "differentiated-partition-domain-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "selection": {
+        "lines_inclusive": [
+          83,
+          122
+        ]
+      },
+      "sha256": "e7a00c6d240d386a209818ca1530a37b4764eb7c8235d5fe25be7da6d11a3ee4"
+    },
+    {
+      "path": "dependencies/frames.md",
+      "source_packet": "differentiated-partition-domain-public",
+      "source_document": "dependencies/frames.md",
+      "source_sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25",
+      "selection": "complete supplied excerpt",
+      "sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25"
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "source_packet": "endpoint-defect-transfer-public",
+      "source_document": "dependencies/hpl.md",
+      "source_sha256": "9ff4fb6c3aa98ecfc91d0d6776f0ddabc3e781a8dcd17758d1eb714652b2b075",
+      "selection": {
+        "lines_inclusive": [
+          1,
+          65
+        ]
+      },
+      "sha256": "024e4c5638deafdfeb1a67554e166ee146b35118b2b2d4e8abae7afd4177f0fa"
+    },
+    {
+      "path": "dependencies/root-line.md",
+      "source_packet": "root-line-geometry-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "d9425a9a3bb0cd72234fc2392032ffea596029b827d3408f3f3a69df37c0492f",
+      "selection": {
+        "lines_inclusive": [
+          37,
+          100
+        ]
+      },
+      "sha256": "4632f1d0fc2fb0f1fd20aaa3993dc81cbb282770e3e1944afc15bc9b2c3234db"
+    },
+    {
+      "path": "dependencies/root-line-exceptional.md",
+      "source_packet": "root-line-geometry-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "d9425a9a3bb0cd72234fc2392032ffea596029b827d3408f3f3a69df37c0492f",
+      "selection": {
+        "lines_inclusive": [
+          108,
+          118
+        ]
+      },
+      "sha256": "37a6b1c5912364ba696612183b64b29c7342fb8221a0db9f9ffc289b4371fab1"
+    },
+    {
+      "path": "dependencies/scalar.md",
+      "source_packet": "scalar-frame-bridge-public",
+      "source_document": "scalar/PROOF.md",
+      "source_sha256": "f67f73dcfe3eae7b557b8485a22cc9bc05bc4bdc99b8622633dc1b11e297ef77",
+      "selection": {
+        "lines_inclusive": [
+          11,
+          32
+        ]
+      },
+      "sha256": "d0ef2df82dcc01c7e53887c99c9b0eebdf360285f23c970297ea0cac9c5dca19"
+    },
+    {
+      "path": "dependencies/physical-frame.md",
+      "source_packet": "scalar-frame-bridge-public",
+      "source_document": "frame/PROOF.md",
+      "source_sha256": "4c440b0b8477f2b8adf1ee0c6d3f63787178a84efa79accf4dd4d6415497e78f",
+      "selection": {
+        "lines_inclusive": [
+          44,
+          92
+        ]
+      },
+      "sha256": "0c6467dbee3d228f2f2512f223d19a2dfb9d665ead6554885fe730d6fc5b8a6f"
+    },
+    {
+      "path": "dependencies/domain-premises.md",
+      "source_packet": "differentiated-partition-domain-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "selection": {
+        "lines_inclusive": [
+          14,
+          67
+        ]
+      },
+      "sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d"
+    },
+    {
+      "path": "dependencies/outer-weights.md",
+      "source_packet": "differentiated-partition-domain-public",
+      "source_document": "dependencies/outer-weights.md",
+      "source_sha256": "dbd691a2d547a51f2821da19461ba0a740a54495ac77d90cbf5b908a270b933f",
+      "selection": "complete supplied excerpt",
+      "sha256": "dbd691a2d547a51f2821da19461ba0a740a54495ac77d90cbf5b908a270b933f"
+    },
+    {
+      "path": "dependencies/raw-premises.md",
+      "source_packet": "raw-regular-extension-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "7b9c607762bc9938dea2292d233318dc358fd22bf32329635c1f66cebebb9b0d",
+      "selection": {
+        "lines_inclusive": [
+          3,
+          7
+        ]
+      },
+      "sha256": "fb8ea845ae158eddcc7e90bf0cb63242d7a77e85584da2a7e68f517a059cbbb2"
+    },
+    {
+      "path": "dependencies/raw-poles.md",
+      "source_packet": "raw-regular-extension-public",
+      "source_document": "PROOF.md",
+      "source_sha256": "7b9c607762bc9938dea2292d233318dc358fd22bf32329635c1f66cebebb9b0d",
+      "selection": {
+        "lines_inclusive": [
+          17,
+          64
+        ]
+      },
+      "sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c"
+    }
+  ]
+}

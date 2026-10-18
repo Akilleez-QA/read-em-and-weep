@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "authenticated_files": 8,
+  "formal_identities": [
+    "stage_one",
+    "stage_two",
+    "row_differential_variation"
+  ],
+  "distinguished_mutations": [
+    "drop_nonclosed_input",
+    "reverse_boundary_sign",
+    "drop_cohomology_connection",
+    "drop_first_differential_insertion",
+    "drop_second_differential_insertion",
+    "drop_third_differential_insertion"
+  ],
+  "input_degrees": [
+    2,
+    3
+  ],
+  "formal_controls": [
+    "acyclic_inverse_scalar",
+    "invented_rank_two_transport"
+  ],
+  "scope": "Invented formal words and scalar exponents only; normalization and geometry are written-proof premises; no physical evaluation."
+}

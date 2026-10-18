@@ -1,0 +1,89 @@
+{
+  "scope": "Byte authentication only; geometric denotations remain premises.",
+  "reviewed_author_sha256": "f2b771234272dafb293ded56f5ca1036c0b5160a2062d636ea1fc037aa0f58fb",
+  "portable_proof_sha256": "3ff8e0634cff39143f2ab57b00741540f545e947a6ae978ca9741bb6f0f5de1d",
+  "portable_changes": "Replaced source references with bundled/sibling relative references and added bundled-premise index; no mathematical formulas changed. Separate synthesis and independent checks are reviewer additions.",
+  "prerequisite": {
+    "packet": "differentiated-contraction-transfer-public",
+    "path": "PROOF.md",
+    "sha256": "c0bbb976e98cc7c4e137079a0ddd9ad191607fc8f7608e97088539b185ff17e2"
+  },
+  "files": [
+    {
+      "path": "PROOF.md",
+      "sha256": "3ff8e0634cff39143f2ab57b00741540f545e947a6ae978ca9741bb6f0f5de1d"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "sha256": "5c67c0067a378055a8b5ddb7c90ab5aa2eb77ae626afb36af8a924f9db96db54"
+    },
+    {
+      "path": "README.md",
+      "sha256": "28e6824f4dac90ca5b3db8f0d8c5ae51f9861cf252d009f8af3a692a83effbe5"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "c5f92a2cb1d84ad15903ce60f7b47c44dbad78acf88e1019ec50783eb583758f"
+    },
+    {
+      "path": "SYNTHESIS.md",
+      "sha256": "ff857ea97dd211f85d7d494d09b72c57c72ca23aee6cc8a92e5c7b28ec58b6a4"
+    },
+    {
+      "path": "check.py",
+      "sha256": "64bd06b37a3247b1701661a626346de7f205ae0e32d5ca810a31a691403e8244"
+    },
+    {
+      "path": "dependencies/domain-premises.md",
+      "sha256": "c5ed72bb9552b2cc88364b962eb16731f838eabcf2913ed8aee303de096dbd9d"
+    },
+    {
+      "path": "dependencies/endpoint-transfer.md",
+      "sha256": "740cc066a3f4964d8f67dfaf9e7014f21547784d293738649d3ffd79b3e0b275"
+    },
+    {
+      "path": "dependencies/frames.md",
+      "sha256": "58fbd7576b7f6d7f21c144ec6ea207a6539d9fc38b506195d4e5f7dc77b49e25"
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "sha256": "024e4c5638deafdfeb1a67554e166ee146b35118b2b2d4e8abae7afd4177f0fa"
+    },
+    {
+      "path": "dependencies/outer-weights.md",
+      "sha256": "dbd691a2d547a51f2821da19461ba0a740a54495ac77d90cbf5b908a270b933f"
+    },
+    {
+      "path": "dependencies/partition-domain.md",
+      "sha256": "e7a00c6d240d386a209818ca1530a37b4764eb7c8235d5fe25be7da6d11a3ee4"
+    },
+    {
+      "path": "dependencies/partition-identity.md",
+      "sha256": "54565f2b8bc6b152b02eebe2235417dc341406cd598bdd8f01341545a13ff3d8"
+    },
+    {
+      "path": "dependencies/physical-frame.md",
+      "sha256": "0c6467dbee3d228f2f2512f223d19a2dfb9d665ead6554885fe730d6fc5b8a6f"
+    },
+    {
+      "path": "dependencies/raw-poles.md",
+      "sha256": "fa1126d244d5c869190c6b1b30c562e92edbd61792d5d1229a548888f22efe3c"
+    },
+    {
+      "path": "dependencies/raw-premises.md",
+      "sha256": "fb8ea845ae158eddcc7e90bf0cb63242d7a77e85584da2a7e68f517a059cbbb2"
+    },
+    {
+      "path": "dependencies/root-line-exceptional.md",
+      "sha256": "37a6b1c5912364ba696612183b64b29c7342fb8221a0db9f9ffc289b4371fab1"
+    },
+    {
+      "path": "dependencies/root-line.md",
+      "sha256": "4632f1d0fc2fb0f1fd20aaa3993dc81cbb282770e3e1944afc15bc9b2c3234db"
+    },
+    {
+      "path": "dependencies/scalar.md",
+      "sha256": "d0ef2df82dcc01c7e53887c99c9b0eebdf360285f23c970297ea0cac9c5dca19"
+    }
+  ]
+}
