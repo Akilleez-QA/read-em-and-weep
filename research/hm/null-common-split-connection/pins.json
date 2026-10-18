@@ -1,0 +1,85 @@
+{
+  "scope": "Frozen supplied bytes only; no current-head or actual-model attestation.",
+  "candidate_proof_sha256": "64505716a3faeb82ddbec4ce13e0fa60a9648d6958b1ba34bc64857906113540",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93"
+    },
+    {
+      "path": "README.md",
+      "sha256": "d011148bee673a0891690987a9b8d6a2826c691bf57f86b7f29cdf3494c31fc4"
+    },
+    {
+      "path": "REVIEW.md",
+      "sha256": "47b839098eab145fb519e3b464f92ff7d67aa8530ca514a33741bdd08d08119d"
+    },
+    {
+      "path": "check.py",
+      "sha256": "d9414d8a6285df2828d1f83ecc887e248844c0c058d0068fce0682f5cc595a17"
+    },
+    {
+      "path": "dependencies/SYNTHESIS.md",
+      "sha256": "ff857ea97dd211f85d7d494d09b72c57c72ca23aee6cc8a92e5c7b28ec58b6a4",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "SYNTHESIS.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/domain.md",
+      "sha256": "3ff8e0634cff39143f2ab57b00741540f545e947a6ae978ca9741bb6f0f5de1d",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "PROOF.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/endpoint-transfer.md",
+      "sha256": "740cc066a3f4964d8f67dfaf9e7014f21547784d293738649d3ffd79b3e0b275",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "dependencies/endpoint-transfer.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/frame.md",
+      "sha256": "4c440b0b8477f2b8adf1ee0c6d3f63787178a84efa79accf4dd4d6415497e78f",
+      "source_packet": "scalar-frame-bridge-public",
+      "source_document": "frame/PROOF.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023",
+      "source_packet": "differentiated-contraction-transfer-public",
+      "source_document": "dependencies/hpl.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/partition-identity.md",
+      "sha256": "54565f2b8bc6b152b02eebe2235417dc341406cd598bdd8f01341545a13ff3d8",
+      "source_packet": "inner-boundary-domain-public",
+      "source_document": "dependencies/partition-identity.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/transfer.md",
+      "sha256": "c0bbb976e98cc7c4e137079a0ddd9ad191607fc8f7608e97088539b185ff17e2",
+      "source_packet": "differentiated-contraction-transfer-public",
+      "source_document": "PROOF.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "dependencies/transgression.md",
+      "sha256": "f8ad4a0f3d6af0d583213cc607d70005940e3167dbd1344cc4ea1d25b5161668",
+      "source_packet": "raw-first-order-transgression-public",
+      "source_document": "PROOF.md",
+      "selection": "complete supplied file, exact bytes"
+    },
+    {
+      "path": "inputs/raw_engine.py.txt",
+      "sha256": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9",
+      "commit": "e93cf712f9da4926a8450cc870ed45a7bfc379ab",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+      "selection": "complete exact frozen source; read as text only"
+    }
+  ]
+}
