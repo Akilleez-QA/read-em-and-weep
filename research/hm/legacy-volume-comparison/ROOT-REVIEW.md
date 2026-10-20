@@ -1,0 +1,13 @@
+# Independent review of the legacy coefficient comparison
+
+20 October 2026. Scoped mathematical review: PASS under the explicitly imported geometric source, complete-defect and class-comparison hypotheses. This is not formal verification or a source execution certificate.
+
+The exact PR131 marking Ωpair(πpair)=1 and the stated vector field V(x)=y fix the volume dx/y rather than merely choosing an unspecified multiple. The regularity checks at the three finite branch points and infinity are correct. Multiplying the all-odd coefficient by this volume turns removal of the four y factors into ordinary canonical-form descent. The degree-sixteen normalized trace is inverse to that pullback, so this legacy operation is Dρ, not Dρ/4.
+
+The source dictionary's pointwise normalization nu[0]=1 does not erase its derivatives or give a volume scalar. From g'=S_j^{-1}gS_i and D'=S_k^{-1}DS_i, the left-normalized defect satisfies M'=S_i^{-1}MS_i. Restoring that conjugation is essential; bare arrays are not equated. The complete generator returns M. Applying trace removal and retaining the source boundary δW gives the corrected Rraw. Consequently PR434 yields the class 4j4(C), with the boundary retained for literal cochain comparisons.
+
+The actual legal cover is already a root-deck pullback: the two one-factor opens delete either infinity or the three finite ramification points. Their downstairs opens delete the corresponding branch values. Carrier pullbacks and their intersections retain this property and affine acyclicity. Thus the finite trace is meaningful on the stated source cover itself. Comparison with an independently selected cover still requires the stated refinement and comparison boundary.
+
+For the explicit binary form Y dX−X dY, the finite frame maps to dx, and the infinity frame maps to −dt. The line transition e_S=τ²e_fin and partial-infinity sign (−1)^|S| are consistent. If the previously chosen identification is a=c a_std, its inverse inclusion is c^{-1}j_std; therefore the legacy class is 4c j0^a(C). The constant c cannot be identified with the pointwise diagonal matrix normalization. Keeping c named, unless the finite-chart volume equation is adopted, is the correct source limitation.
+
+No high collision-ideal representative, numerical coefficient, obstruction value, pure-square vanishing, module lift or algebraicity conclusion follows. The review read the full final proof and sources and independently checked the normalization, frame covariance, cover argument and chart signs. PR131 and the physical-frame source were freshly retrieved for the comparison.

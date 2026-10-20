@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "date": "2026-10-20",
+  "scope": "Reviewed structural legacy coefficient comparison. Hashes bind document bytes, not source execution or formal verification.",
+  "base_pr": 434,
+  "base_commit": "9a37da0a0ef67d8790b20e8edbf8d930de658251",
+  "files": {
+    "PROOF.md": {
+      "sha256": "2a04ce7247f2273aa92e4df4a040c571be1b6cf31d1bd7a09e6f47657e763039",
+      "bytes": 15624
+    },
+    "SOURCES.md": {
+      "sha256": "e644414d7e8b98be3469243fb50a3fd8aa19c5abea4c816cf12a77d2ca0decae",
+      "bytes": 5146
+    },
+    "INDEPENDENT-REVIEW.md": {
+      "sha256": "2f49835aa5c9083d64e16309f3586ffd47a4c213aacd8da5635ad94f07036e2c",
+      "bytes": 4432
+    },
+    "ROOT-REVIEW.md": {
+      "sha256": "0ea05b98b415254740cdbef30b52293e79132509b814202c588edf0e709ce6e2",
+      "bytes": 2616
+    }
+  },
+  "review_status": "Both scoped mathematical reviews pass under the explicitly imported source hypotheses.",
+  "restrictions": [
+    "No selected HM or source-instance evaluation.",
+    "No generator, model, checker or large computation run.",
+    "No high-ideal representative, primitive, obstruction value or new vanishing claimed.",
+    "Binary-volume scalar c is retained unless the explicit finite-chart volume equation is adopted."
+  ]
+}
