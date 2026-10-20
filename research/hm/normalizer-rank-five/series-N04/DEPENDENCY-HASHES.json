@@ -1,0 +1,56 @@
+[
+  {
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/POINTWISE_ADDENDUM.md",
+    "sha256": "c7667697e7c5f33e4bf9a52b1b7644784531f2388fb2271070ae595b58c27133",
+    "series": "publication-rank-four-series",
+    "unit": "02"
+  },
+  {
+    "path": "research/hm/rank-four/rank-five-canonical-conic-exclusion/PROOF.md",
+    "sha256": "e798fe85ed1429085bdf45493a9f87fddecdd5b87732bf7d7ab59ddcf4362203",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "path": "research/hm/rank-four/rank-five-finite-support-constraints/PROOF.md",
+    "sha256": "34437b514c96f0a3d011606b69538a66c993f08bcec2b9c237f408dfd83f8125",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "path": "research/hm/cubic-loci/canonical-cubic-extension/cubic-massey-module-reduction/PROOF.md",
+    "sha256": "333ba355b1aff7c5cf409c57efd02965731b5f661d5bf7c88a874fbd4eea416b",
+    "series": "publication-cubic-locus-series",
+    "unit": "unit04"
+  },
+  {
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/PROOF.md",
+    "sha256": "a529f7596eee619dde6e94d9f418f709289ecd2d689004fced54280c0ff656fa",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/rank-three-250-plane-exclusion/ADDENDUM.md",
+    "sha256": "44476fd9a1bd1030d3edccd1676920617c4e4b3b6b7d13bda1cf2275f354c1df",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/rank-five-curve-classification/PROOF.md",
+    "sha256": "6d5ebb020d120c37c49fed674b718fda85cf4b0080a3ebcdd462f7d70add173a",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "path": "research/hm/rank-four/rank-five-canonical-conic-exclusion/INDEPENDENT_AUDIT.md",
+    "sha256": "48fea5cf18e44a5c6cff032a6831a4b4002fdd83eea70b1af70421aed6c0ec7c",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "path": "research/hm/rank-four/rank-five-finite-support-constraints/INDEPENDENT_AUDIT.md",
+    "sha256": "2eb07a490741af5077ecf1505d0cdce9c8649602d507a9c9a193051c5ea304e5",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  }
+]
