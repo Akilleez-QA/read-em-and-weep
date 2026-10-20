@@ -1,0 +1,7 @@
+# Current mathematical review
+
+Reviewed 2026-10-20. The proof and retained refinements pass independent mathematical text review under the premises in DEPENDENCIES.md. This is not formal proof checking or an actual source-instance evaluation. Historical audits remain historical.
+
+The ordered independent triple reconstructs W, its projective tensor and the intrinsic positive eigenvalue map R→det W. This provides an actual algebraic inverse off the boundary. Each integral cover component dominates Y, making lambda nonzero there. Pullback of the Segre class is nef with positive top degree, hence big, but can contract boundary curves. The fiber bound is for every kernel-line fiber: h restricts to zero, 2h+t makes t ample there, and the rational cubic relation excludes an integral threefold. Thus an identically zero Q_u would produce an entire P3 fiber and is impossible for every line, including exceptional lines. This uses reduced fibers only, not reducedness of an unreduced incidence.
+
+The degree-four Chern correction and the substitutions m=h−t yield exactly the recorded mixed degrees. The inequality B cubed≤6h3 termwise on nef monomials gives strict positivity after multiplying by B; the boundary relations equate the three h3 x_i degrees. Divisor cycle multiplicities are retained. External premises are PR267 f67e4d962d7078b12b94718cac385c6f4438ba13 for the reduced flag-incidence inverse preserving kernel lines, and PR271 5c5c24194a0ea87378e80ed7e95a785128ee054d for nef h,t, ample 2h+t and the rational cubic relation.
