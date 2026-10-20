@@ -1,0 +1,69 @@
+[
+  {
+    "source_reference": "dependencies/regular-source-cover-PROOF.md",
+    "source_sha256": "1a4d478d18f564a50f4ccb82bcbdf39461da48b30e4998869a612a024a69b607",
+    "public_editions": [
+      {
+        "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+        "sha": "cda1336f844516ec0e5cfc8a1266d8b2ef652f42",
+        "pr": 370,
+        "public_sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cda1336f844516ec0e5cfc8a1266d8b2ef652f42/research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/translation-family-PROOF.md",
+    "source_sha256": "b3af7854e380197f76b0ae2beac36ff68dd4c5752afb438ce0fd9c7770219191",
+    "public_editions": [
+      {
+        "path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+        "sha": "e9fddf52e72d0f99918fbb03750454ec89c34dec",
+        "pr": 336,
+        "public_sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9fddf52e72d0f99918fbb03750454ec89c34dec/research/hm/structural-boundaries/translated-background-family/PROOF.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/translation-family-REVIEW.md",
+    "source_sha256": "a6699d37421016abb445f3b0226f3dbeae564dd13f2e2a21b9f376b048017311",
+    "public_editions": [
+      {
+        "path": "research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md",
+        "sha": "e9fddf52e72d0f99918fbb03750454ec89c34dec",
+        "pr": 336,
+        "public_sha256": "58237dc5526184c8bd4bf05452caee06ba80029fd85f88ac1d733b6c07aca12e",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9fddf52e72d0f99918fbb03750454ec89c34dec/research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md"
+      }
+    ]
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-structural-a/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-structural-a/PROOF.md",
+    "sha": "d1d6d3c6413814e92a5c2a29f4359a231f42cb17",
+    "pr": 314,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1d6d3c6413814e92a5c2a29f4359a231f42cb17/research/hm/original-resolution-foundation-structural-a/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-determinant-volume/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-determinant-volume/PROOF.md",
+    "sha": "757b4c6a8449edf5bb10f7b57a31706a82262400",
+    "pr": 317,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/757b4c6a8449edf5bb10f7b57a31706a82262400/research/hm/original-resolution-foundation-determinant-volume/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-homogeneous/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-homogeneous/PROOF.md",
+    "sha": "3fb00bec06e9e87616e3cb69d2504f1be668cd81",
+    "pr": 321,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb00bec06e9e87616e3cb69d2504f1be668cd81/research/hm/original-resolution-foundation-homogeneous/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-product-root/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-product-root/PROOF.md",
+    "sha": "65c2e29477d6997306ecb4d480a05e8f8c1f3fcb",
+    "pr": 322,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c2e29477d6997306ecb4d480a05e8f8c1f3fcb/research/hm/original-resolution-foundation-product-root/PROOF.md"
+  }
+]

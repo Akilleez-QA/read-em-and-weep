@@ -1,0 +1,22 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "translation-comparison-family-20261018/PROOF.md",
+      "source_sha256": "e1bfa7e72d21cc4892cb9e2ae130214d54b1c1810aaa978062bf40a5e1d1f967",
+      "public_path": "research/hm/structural-boundaries/translated-comparison-weights/PROOF.md",
+      "public_sha256": "19fb87e079e0b7e278743eace189f8e90c85ac7fad9224ea462b66b935fb2469",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "translation-comparison-family-20261018/REVIEW.md",
+      "source_sha256": "1e65e61bf26e65a3cdf2607cdd12313faa379cdc0a58785ac1ed2c2af6860e40",
+      "public_path": "research/hm/structural-boundaries/translated-comparison-weights/REVIEW.md",
+      "public_sha256": "18de9ccd3f9e6023b39c14858f605b4fe7e2fc615f645142005014922f7b0b31",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
