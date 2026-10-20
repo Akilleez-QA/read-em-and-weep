@@ -1,0 +1,37 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "edge_output": [
+      [
+        27,
+        23,
+        20,
+        20,
+        5
+      ],
+      [
+        8,
+        10,
+        10,
+        10,
+        3
+      ]
+    ],
+    "primitive": [
+      [
+        27,
+        23,
+        20,
+        5
+      ],
+      [
+        8,
+        10,
+        10,
+        3
+      ]
+    ],
+    "scope": "integer metadata only; theorem and geometry are not inferred from controls",
+    "status": "pass"
+  }
+}
