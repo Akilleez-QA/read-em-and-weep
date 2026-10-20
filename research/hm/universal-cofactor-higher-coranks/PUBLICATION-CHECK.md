@@ -1,0 +1,5 @@
+# Publication-scope check
+
+Pass for the abstract five-plane evaluation family E=V⊗sl(U), dim V=5 and dim U=2 over C. The arbitrary-cokernel constraint ranks, dimension and irreducibility arguments, all-corank transversality, direct two-plane derivations, and simultaneous incidence/canonical calculations remain present. The terminal and rational singularity claims are confined to D₁; no geometric-family identification or actual-instance rank is assumed.
+
+The normal-form packet must be present at the sibling path linked in REFERENCES.md. PROOF.md and INCIDENCES.md have no circular proof dependency: the general transversality argument is supplied in full, while Part C imports it explicitly. The public Stacks, Bruns–Vetter, Kollár and Popa references are accessible; the determinantal-ring and vanishing statements cited here match their stated uses. Historical audit narrative is retained as mathematical commentary. SHA256SUMS records this publication payload, not historical source hashes or external certification.
