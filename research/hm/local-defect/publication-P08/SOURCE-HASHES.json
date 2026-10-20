@@ -1,0 +1,50 @@
+[
+  {
+    "artifact": "quintic-surface-section-bounds/AUDIT.md",
+    "original_sha256": "18f69f8567922fd8a3fb34aa27df753e9d728a65f03be51d20f94f009cac4d66",
+    "published_sha256": "4d714c51de271af740cbde4962b13ec3297eb5e3b21d9c2835e4cfcfe173d681",
+    "path": "research/hm/local-defect/quintic-surface-section-bounds/AUDIT.md"
+  },
+  {
+    "artifact": "quintic-surface-section-bounds/PROOF.md",
+    "original_sha256": "0bfdc105de7eb7df577fad2f6993b05a75c359f2c4ffa5e26ad0026323073cac",
+    "published_sha256": "40b8378919a5e8a72d2f5f30200252834697502934b5384bb9e1a9082b597655",
+    "path": "research/hm/local-defect/quintic-surface-section-bounds/PROOF.md"
+  },
+  {
+    "artifact": "sextic-surface-section-bounds/AUDIT.md",
+    "original_sha256": "0864e3e6e1c00d6f53d2e792b6537e6f45602d3e5ab9ec8a550f49cb61b44402",
+    "published_sha256": "96dc1ad477cd2f72975f5d8b75fb78b71ee749eaf5b6e5d4b266b04e30987fe7",
+    "path": "research/hm/local-defect/sextic-surface-section-bounds/AUDIT.md"
+  },
+  {
+    "artifact": "sextic-surface-section-bounds/PROOF.md",
+    "original_sha256": "29dcdc9ad8481493b422188a77bc8cf88bdd611d54c530a9aacfedb9a89141b9",
+    "published_sha256": "abe2665edba60f02d6b99326997ccbcd14642addeb923482bce579cf43238475",
+    "path": "research/hm/local-defect/sextic-surface-section-bounds/PROOF.md"
+  },
+  {
+    "artifact": "intermediate-sextic-surface-obstruction/ADDENDUM.md",
+    "original_sha256": "03bf3bd44c87c7fdfb3de70e5534aa4b9383ce6e797de4473a115e85bf45231f",
+    "published_sha256": "986e121f06068dc304ea3cdc81405b7152c03d0c83157e95d4250c5d4a7f0d6c",
+    "path": "research/hm/local-defect/intermediate-sextic-surface-obstruction/ADDENDUM.md"
+  },
+  {
+    "artifact": "intermediate-sextic-surface-obstruction/ADDENDUM_AUDIT.md",
+    "original_sha256": "6c6c43d049214e800bdaed557fd1fd4fb917d4281b25e7a8d5e95a6b22018f1d",
+    "published_sha256": "e05ae3f43afb66998954d3ae1f62126643d85f5bfdcdd4595a299e87688ab7f2",
+    "path": "research/hm/local-defect/intermediate-sextic-surface-obstruction/ADDENDUM_AUDIT.md"
+  },
+  {
+    "artifact": "intermediate-sextic-surface-obstruction/AUDIT.md",
+    "original_sha256": "9cec56e362ea3a658c77f4a4e10f70b7b10aae2d00e4a980297ef05f570e5023",
+    "published_sha256": "232b7edadaf5cfb6203880f021943dad409ac114c47dfe5c1f848b70f4b41fea",
+    "path": "research/hm/local-defect/intermediate-sextic-surface-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "intermediate-sextic-surface-obstruction/PROOF.md",
+    "original_sha256": "30ccf4b36a8d9d7a718c952a94c44e61e2baeb8cc88b4aaa89d963601ba813ce",
+    "published_sha256": "95bbef682f9d86fdb18940a6f443b1f29fdc5e5605bec4b8c4cd609ff2899556",
+    "path": "research/hm/local-defect/intermediate-sextic-surface-obstruction/PROOF.md"
+  }
+]
