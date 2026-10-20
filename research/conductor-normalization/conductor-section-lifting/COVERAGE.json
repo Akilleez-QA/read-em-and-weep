@@ -1,0 +1,55 @@
+[
+  {
+    "manuscript_id": "S062",
+    "cluster": "discriminant-normalization-conductor",
+    "unit": "02",
+    "additional_application_units": [
+      "06"
+    ],
+    "inventory_proof": "discriminant-normalization-conductor/PROOF.md",
+    "inventory_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "actual_proof_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "pure geometric core ready; applications held as separately stated",
+    "held_actual_claims": [
+      "No hold on geometric core. Separate polar application requires its principal-parts framework; source identification is not part of the theorem."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S063",
+    "cluster": "discriminant-pole-exclusion",
+    "unit": "06",
+    "additional_application_units": [],
+    "inventory_proof": "discriminant-pole-exclusion/PROOF.md",
+    "inventory_sha256": "457107a3ceec7844582b7224067940c70dd45cb5b59eb7a4204e8a65cefaab4c",
+    "actual_proof_sha256": "457107a3ceec7844582b7224067940c70dd45cb5b59eb7a4204e8a65cefaab4c",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Identification with the retained source requires regular reconstruction, coefficient projection and common-complex comparison."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S122",
+    "cluster": "high-pole-conductor-obstruction",
+    "unit": "06",
+    "additional_application_units": [],
+    "inventory_proof": "high-pole-conductor-obstruction/PROOF.md",
+    "inventory_sha256": "f632cac385025b0ab0655ea14eaef2b6826256911e1b4243d2b617f8ad5f1767",
+    "actual_proof_sha256": "f632cac385025b0ab0655ea14eaef2b6826256911e1b4243d2b617f8ad5f1767",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual source-to-coefficient comparison and actual conductor section-lifting class are not evaluated. Sharper universal cohomology input is supplied in unit05."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]

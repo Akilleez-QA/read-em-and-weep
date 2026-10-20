@@ -1,0 +1,58 @@
+[
+  {
+    "public_path": "research/conductor-normalization/discriminant-normalization-conductor/POLAR-LAYER-APPLICATION.md",
+    "public_sha256": "03690734970b994cc9a3bc8a048e8830529e6f1156987d01f83ae84602fe8a6b",
+    "source": "discriminant-normalization-conductor/PROOF.md",
+    "source_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "treatment": "section 5 and original scope/dependencies"
+  },
+  {
+    "public_path": "research/conductor-normalization/discriminant-normalization-conductor/POLAR-LAYER-APPLICATION-AUDIT.md",
+    "public_sha256": "8975c5f869417ac76d7379ffced1a220f32b5752f06465ed55bbc951994cf32e",
+    "source": "discriminant-normalization-conductor/AUDIT.md",
+    "source_sha256": "260e2d3f2badefc567505b7f25809004000d45b7d9f5f2ada58e37e796776ba8",
+    "treatment": "polar-application paragraphs and scope"
+  },
+  {
+    "public_path": "research/conductor-normalization/discriminant-pole-exclusion/PROOF.md",
+    "public_sha256": "caaa11acb8f4dceafbd26cfb02cf4b32b1bac1289e66c2d7b8f05f7ccc0d7e76",
+    "source": "discriminant-pole-exclusion/PROOF.md",
+    "source_sha256": "457107a3ceec7844582b7224067940c70dd45cb5b59eb7a4204e8a65cefaab4c",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/discriminant-pole-exclusion/AUDIT.md",
+    "public_sha256": "cfe21b354e324fd044219f2bc9ac62e96c9894904cfcca8b7e74eecc35d9f118",
+    "source": "discriminant-pole-exclusion/AUDIT.md",
+    "source_sha256": "af602e2cb0db159dd2743d542e8879671dd11cd6ddd782ce505b3223fb6efb31",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/high-pole-conductor-obstruction/PROOF.md",
+    "public_sha256": "da392a9e7a261e7521af3092c80b3a75fa8962f56e71a4b15c154391f28ddc60",
+    "source": "high-pole-conductor-obstruction/PROOF.md",
+    "source_sha256": "f632cac385025b0ab0655ea14eaef2b6826256911e1b4243d2b617f8ad5f1767",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/high-pole-conductor-obstruction/AUDIT.md",
+    "public_sha256": "5bf2fd158e2273296aa2a845c5971498a09a33575eb90c7e7243f27f465b55b7",
+    "source": "high-pole-conductor-obstruction/AUDIT.md",
+    "source_sha256": "ad8de3f588d8a92cd3fa9faaa3ea53fa6d663d1cc96ae30755877828dbd084c9",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/high-pole-conductor-obstruction/SHARPER-AUDIT.md",
+    "public_sha256": "3ad8d59316b7f9411553ab6daed7feb45a088ebbe5e65b7e6238c4ac4c3e5647",
+    "source": "high-pole-conductor-obstruction/SHARPER-AUDIT.md",
+    "source_sha256": "831edc9893a2d1be518452c04459e2984d222d2b1668639fd4180d7867046b02",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/high-pole-conductor-obstruction/SHARPER-COROLLARY.md",
+    "public_sha256": "ddbbd321b4fedc84335ac8b4a5a11346291ac9d805159d6a4d72720e51a579e6",
+    "source": "high-pole-conductor-obstruction/SHARPER-COROLLARY.md",
+    "source_sha256": "70a9c866b99d2c918009bc257be0a3ac8984dea5079377687fa61fd09428c41b",
+    "treatment": "complete"
+  }
+]
