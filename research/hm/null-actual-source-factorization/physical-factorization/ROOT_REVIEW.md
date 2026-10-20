@@ -1,0 +1,3 @@
+Independent mathematical review, 2026-10-19 09:18 UTC.
+The review covers the pinned raw-closure proof, including its initial formulas and support argument. Checked that weighted triple unit A is central modulo (s²,t²): same-pair derivatives have squared parameter, complementary derivatives vanish by source support. Tensor product expansion supplies mixed coefficient 1/4 and retains central bP bQ. Degree ≥3 is zero. Verified character projection uniqueness only in common literal deck-equivariant two-jet presentation, with diagonal substitution before quotient. No physical evaluations. No module existence or downstairs identification inferred.
+Historical result: https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6263865869 .
