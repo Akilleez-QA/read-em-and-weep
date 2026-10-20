@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "path": "PROOF.md",
+      "historical_sha256": "4a2082b4f37ea13b7a1df93913dea8d49eed78f6783cd40150228e6bf56a0fbd",
+      "public_sha256": "aadaccbf0d214a264936fd5d5b987abbab19a952de1d26d25c637376ad813609",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "REVIEW.md",
+      "historical_sha256": "9844acba9735cee0143ef2e0e9d8baa6151fab54139271811d9eea9b539d5cb7",
+      "public_sha256": "9844acba9735cee0143ef2e0e9d8baa6151fab54139271811d9eea9b539d5cb7",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "check_invented_controls.py",
+      "historical_sha256": "fb40af816d89ac666c68ac01cbe536f608b6996735d51ce7bf176959d8072316",
+      "public_sha256": "fb40af816d89ac666c68ac01cbe536f608b6996735d51ce7bf176959d8072316",
+      "role": "standalone invented control; not executed"
+    }
+  ]
+}
