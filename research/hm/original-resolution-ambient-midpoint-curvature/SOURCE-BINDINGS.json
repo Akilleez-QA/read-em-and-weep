@@ -1,0 +1,118 @@
+{
+  "record": "S396",
+  "primary_original_sha256": "292c4faf593e0d46552cd5c98bbc32732e9a18c23da547d760f01f1ff0d517cb",
+  "primary_role": "original-resolution refinement",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "role": "primary proof",
+      "original_sha256": "292c4faf593e0d46552cd5c98bbc32732e9a18c23da547d760f01f1ff0d517cb",
+      "staged_sha256": "71724bc5c88dd866704db45237ec567a3d9536480df8444a9c47744f66ae4236",
+      "original_bytes": 9873,
+      "staged_bytes": 10148,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "historical scientific audit",
+      "original_sha256": "1d5b4f28c279a7649340d5fa51b6765bdf383e0915bd5083135a3df1431fca68",
+      "staged_sha256": "21df2ab0e8e5c46620f36b42d93769372ebbb5288aa989724cb201ac41627007",
+      "original_bytes": 5708,
+      "staged_bytes": 6017,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "SOURCE-PINS.md",
+      "role": "supporting dependency",
+      "original_sha256": "5330978cfc59aa8d170c1c9a90f39917d5960995a2c8aaacbfefcc2a98da8262",
+      "staged_sha256": "6a376437f78a5e30f9b30a5d8ae40983e6d13b63f4c5b4b63593bcd0ecc2a5d6",
+      "original_bytes": 1758,
+      "staged_bytes": 2023,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/hpl.md",
+      "role": "supporting dependency",
+      "original_sha256": "1b0ac123ff5f3cc7f73cdc6ea95e6349ed91ee18de60a62bafa9ab5fda2d9023",
+      "staged_sha256": "968505ab6522fbe26821ad4e6425c9a6d98d77d068ddadf809fa7eef8882ba3a",
+      "original_bytes": 9360,
+      "staged_bytes": 9803,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/overlap-domain.md",
+      "role": "supporting dependency",
+      "original_sha256": "ee04cb55f4fb7ea34f0fbec1448263e7f6cd7a3ec9147f3cd703d0e216170a5d",
+      "staged_sha256": "2cf7caa406d97e91751d11756495830c6907f75646132730bb81f471ed8ed053",
+      "original_bytes": 23385,
+      "staged_bytes": 23743,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/weighted-jet-flux.md",
+      "role": "supporting dependency",
+      "original_sha256": "51697dccc19b5632b06a3d3393640d2fe585287898a23dd8e319ab8618182fa9",
+      "staged_sha256": "d3a567f88d8c3650240793cdd64ad546273e1d4db77ba2f2ed5db901fd6a8488",
+      "original_bytes": 22921,
+      "staged_bytes": 23289,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "sources/null-common-split-connection-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93",
+      "staged_sha256": "f974efc411855f7a190a0b9a1cbd1ec9ca11b3100f38acedfaf3905cc303f6b6",
+      "original_bytes": 9483,
+      "staged_bytes": 9867,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "sources/null-covariant-jet-transgression-RESULT.md",
+      "role": "supporting dependency",
+      "original_sha256": "2b07d868ec9c1fc5e38503623a8556ff7b3c71e3df76c3550385560602584db5",
+      "staged_sha256": "526c3a0bdfade36dc83d665ac1c1ca27bf49c501c34e8f950a1a170d48debcdd",
+      "original_bytes": 11399,
+      "staged_bytes": 11805,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "sources/null-overlap-homotopy-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "d7894a0e8697774d94df93936c10c90ee36be1c16d57356667794ee1aee042d3",
+      "staged_sha256": "b229d7ab46a075f87986cc45e5872ea3f507c87c44b95425e43cecc2da90e925",
+      "original_bytes": 7315,
+      "staged_bytes": 7719,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "historical-receipts/check-normal.json",
+      "role": "historical receipt only",
+      "original_sha256": "27fdebc3e7d4415522f2e70f4db1a8c97625a32b60a5c403b074bbf58576070b",
+      "staged_sha256": "a87ec48352b0678e8320de0c58ba14cdb975f15e608d80057a57e9175d5e0629",
+      "staged_bytes": 573
+    },
+    {
+      "path": "historical-receipts/check-optimized.json",
+      "role": "historical receipt only",
+      "original_sha256": "27fdebc3e7d4415522f2e70f4db1a8c97625a32b60a5c403b074bbf58576070b",
+      "staged_sha256": "a87ec48352b0678e8320de0c58ba14cdb975f15e608d80057a57e9175d5e0629",
+      "staged_bytes": 573
+    },
+    {
+      "path": "check_domains.py",
+      "role": "standalone mathematical checker, AST parsed only",
+      "original_sha256": "92b35a1c74b006a9bc8d8dd0d97156c6e5eaf876b8e83a696c7b9d578c338791",
+      "staged_sha256": "92b35a1c74b006a9bc8d8dd0d97156c6e5eaf876b8e83a696c7b9d578c338791",
+      "staged_bytes": 986
+    }
+  ],
+  "immutable_public_sources": [
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/4ae1ba6081db6563389d5ff78597cf2e98ecc04f/research/hm/null-common-split-connection/PROOF.md"
+  ],
+  "omitted_source_bound_code": [],
+  "holds": [
+    "Independent scientific and packaging review pending.",
+    "Standalone checkers have not been run; their syntax was checked by AST parsing."
+  ],
+  "verification": "Filesystem byte/hash inspection and AST parsing only; no authored checker or actual source computation executed."
+}
