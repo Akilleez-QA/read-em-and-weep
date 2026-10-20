@@ -1,0 +1,36 @@
+[
+  {
+    "manuscript_id": "S093",
+    "cluster": "fourth-ideal-pushforward",
+    "unit": "01",
+    "additional_application_units": [],
+    "inventory_proof": "fourth-ideal-pushforward/PROOF.md",
+    "inventory_sha256": "9ce10b76777c65cef689dd1fae40b2cd2e2a4452472fe91ec63d8586de9eaf9d",
+    "actual_proof_sha256": "9ce10b76777c65cef689dd1fae40b2cd2e2a4452472fe91ec63d8586de9eaf9d",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "No hold on abstract ordered-root ideal contraction after included weight lemmas. Identifying the formal coefficient with the actual physical source is a separate hypothesis."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S343",
+    "cluster": "sixth-ideal-pushforward",
+    "unit": "01",
+    "additional_application_units": [],
+    "inventory_proof": "sixth-ideal-pushforward/PROOF.md",
+    "inventory_sha256": "a04a8ec97cd1257348e55e0ddd1323837dfd4034c2970a30aa33c6998a99a671",
+    "actual_proof_sha256": "a04a8ec97cd1257348e55e0ddd1323837dfd4034c2970a30aa33c6998a99a671",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "No hold on ideal contraction after included geometric inputs. The cohomological criterion does not determine its rank or actual source membership."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
