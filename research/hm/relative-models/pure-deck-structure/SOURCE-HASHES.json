@@ -1,0 +1,50 @@
+[
+  {
+    "source": "pure-deck-structure/AUDIT.md",
+    "source_sha256": "fec598ef2a15a7cb9fef0987a9d2a2e3f56baecf63bbf109ebd4bea2b7cdfd2a",
+    "public_path": "research/hm/relative-models/pure-deck-structure/AUDIT.md",
+    "public_sha256": "fec598ef2a15a7cb9fef0987a9d2a2e3f56baecf63bbf109ebd4bea2b7cdfd2a"
+  },
+  {
+    "source": "pure-deck-structure/INTEGRATION.md",
+    "source_sha256": "137bfe32f7f6f33aad4617ec015d02bf41f93b6e81d6ca92d4f64435ac5efb8a",
+    "public_path": "research/hm/relative-models/pure-deck-structure/INTEGRATION.md",
+    "public_sha256": "137bfe32f7f6f33aad4617ec015d02bf41f93b6e81d6ca92d4f64435ac5efb8a"
+  },
+  {
+    "source": "pure-deck-structure/PROOF.md",
+    "source_sha256": "2bdde9b4ace055e61164b4926ba18850d8ee0680e3dc64255db0686533cfe227",
+    "public_path": "research/hm/relative-models/pure-deck-structure/PROOF.md",
+    "public_sha256": "26557fae2dee696f59563b68701635f9b53617bd824c5c58d95c36c66d906e8f"
+  },
+  {
+    "source": "pure-deck-structure/ROOT_CHECK.md",
+    "source_sha256": "9da58986183f5d30e240487f7f92c7d1c8bf469c98caa277db37be1ed1702337",
+    "public_path": "research/hm/relative-models/pure-deck-structure/INDEPENDENT-ASSEMBLY-CHECK.md",
+    "public_sha256": "9da58986183f5d30e240487f7f92c7d1c8bf469c98caa277db37be1ed1702337"
+  },
+  {
+    "source": "pure-deck-structure/dependencies/full-source-character-PROOF.md",
+    "source_sha256": "ce17740962e0f5e7dd23fd1bc3613704ea8d83a81d343827304338e2e686b94f",
+    "public_path": "research/hm/relative-models/pure-deck-structure/dependencies/full-source-character-PROOF.md",
+    "public_sha256": "308ad6d8913b8eb99f6e1cee3b8c450f3fccdef3aa429cd5d2e35c5c7f317051"
+  },
+  {
+    "source": "pure-deck-structure/dependencies/full-source-character-REVIEW.md",
+    "source_sha256": "5324afc08f842c61c690bcc64a4d759adbfe35268afb3a61f5040db5f0cfb643",
+    "public_path": "research/hm/relative-models/pure-deck-structure/dependencies/full-source-character-REVIEW.md",
+    "public_sha256": "f60b4d91945b3394aea2b7b6fa31c36d9ca2161abf9c9f19d8a93ccad3a93200"
+  },
+  {
+    "source": "pure-deck-structure/dependencies/structural-raw-closure-PROOF.md",
+    "source_sha256": "50ec1df804dc461c928dfcd8bba8d4428206e36a0b7f1686a9aa2f43731db490",
+    "public_path": "research/hm/relative-models/pure-deck-structure/dependencies/structural-raw-closure-PROOF.md",
+    "public_sha256": "f143cd2941d39ce1f8bc5b7654f0e6f6e38e1e79d49d83f61cf6469fe21ee6c8"
+  },
+  {
+    "source": "pure-deck-structure/dependencies/structural-raw-closure-REVIEW.md",
+    "source_sha256": "57c3298e8f1327d39a90d0b6b95d297f6904bb175d17ba194397a4208c90b7d9",
+    "public_path": "research/hm/relative-models/pure-deck-structure/dependencies/structural-raw-closure-REVIEW.md",
+    "public_sha256": "820a6e496c6d855e48d0282975cdd3698251a1b96fa96871264e927746a5626b"
+  }
+]

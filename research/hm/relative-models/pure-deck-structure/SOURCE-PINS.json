@@ -1,0 +1,40 @@
+{
+  "public_inputs": [
+    {
+      "snapshot": "inputs/raw-engine.py.txt",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/inputs/raw_engine.py.txt",
+      "git_blob": "34a230aedc9e6d47148195752da54c30c576f53a"
+    },
+    {
+      "snapshot": "inputs/first-order-source.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/inputs/first-order-source.md",
+      "git_blob": "5f4e56252cd9a8a6eb218aceb911c95a1c330ebc"
+    },
+    {
+      "snapshot": "inputs/raw-first-order-transgression.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-raw-first-order-transgression/PROOF.md",
+      "git_blob": "bcdcf5dd3925cebfd269ebb61a265823a12ffe26"
+    },
+    {
+      "snapshot": "inputs/raw-second-order-closure.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/PROOF.md",
+      "git_blob": "a3894976f186b3f3bfb4d4953497c468ae041b3b"
+    },
+    {
+      "snapshot": "inputs/ambient-second-jet.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/ambient-second-jet.md",
+      "git_blob": "e07d4373a7c22f7cf4502260d80dbd559d942850"
+    },
+    {
+      "snapshot": "inputs/reduced-generator.js.txt",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6032b64d3f748c7ac37cb283db4a527e49d06ac8/research/hm/current-scalar-source-bridge/public_generate_hm_mask_coefficients_reduced.js",
+      "git_blob": "30c0cd334c0f188f4699f853afb14740acb48a5d"
+    },
+    {
+      "snapshot": "inputs/upstream-pins.json",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/pins.json",
+      "git_blob": "0068dbd7e9eda443a0dc8c67f7ba9a1d91a01991"
+    }
+  ],
+  "scope": "Immutable public source pointers; no execution receipt is added."
+}
