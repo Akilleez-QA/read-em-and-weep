@@ -1,0 +1,18 @@
+{
+  "unit": "10",
+  "clusters": [
+    "length-twelve-local-defect",
+    "length-thirteen-local-defect",
+    "rank-eight-defect-390",
+    "rank-eight-defect-420"
+  ],
+  "core_predecessors": [
+    "01",
+    "06",
+    "07",
+    "09"
+  ],
+  "external_inputs": [],
+  "later_contextual_units": [],
+  "scope": "Filtered initial-relation estimates and complete local exclusions through13 yield canonical local length\u226514. With noncanonical contribution\u2265600 and equal local lengths of the two finite defect sheaves, total nonzero defect length\u2265420. No upper bound or generic-rank selection is proved here."
+}
