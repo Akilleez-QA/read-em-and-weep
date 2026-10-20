@@ -1,0 +1,13 @@
+{
+  "audit_sha256": "e79a9f6d0c362ec9b5e95f09b4547dc5f3a8fadbf98b6d68cd8e3609e688ab8c",
+  "proofs": [
+    {
+      "path": "research/hm/background-star-cross/PROOF.md",
+      "sha256": "1db73d68337ad4bc8ca0176a6f3dfb5f93aa78e45848b2a157d648a2dc00c276"
+    },
+    {
+      "path": "research/hm/invariant-first-star-lifting/PROOF.md",
+      "sha256": "e342bce9514253396dc364f1ae4496316404f1d0a40d8fa6f19755964f6df430"
+    }
+  ]
+}
