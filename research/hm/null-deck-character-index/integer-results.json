@@ -1,0 +1,44 @@
+{
+  "class_order": [
+    "identity",
+    "transposition",
+    "double transposition",
+    "3-cycle",
+    "4-cycle"
+  ],
+  "End_Euler": [
+    274,
+    86,
+    -26,
+    -26,
+    -4
+  ],
+  "End0_Euler": [
+    273,
+    87,
+    -27,
+    -27,
+    -3
+  ],
+  "imported_H2_character": [
+    352,
+    48,
+    -8,
+    -8,
+    -12
+  ],
+  "recovered_H3_character": [
+    79,
+    -39,
+    19,
+    19,
+    -9
+  ],
+  "recovered_H3_multiplicities": {
+    "trivial": 0,
+    "V": 0,
+    "U22": 5,
+    "Vsign": 15,
+    "sign": 24
+  }
+}
