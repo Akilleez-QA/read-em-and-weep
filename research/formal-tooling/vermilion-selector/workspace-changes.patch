@@ -1,0 +1,12 @@
+diff --git a/lakefile.lean b/lakefile.lean
+index 0647837..cee827a 100644
+--- a/lakefile.lean
++++ b/lakefile.lean
+@@ -299,3 +299,7 @@ lean_lib VermilionBlog where
+ lean_lib CaseDalekLiteLayerA where
+   srcDir := "case-studies/dalek-lite/proofs"
+   globs := proofGlobs (run_io discoverProofRoots "case-studies/dalek-lite/proofs")
++
++lean_lib ResidueSelector where
++  srcDir := "examples/residue-selector/proofs"
++  globs := proofGlobs (run_io discoverProofRoots "examples/residue-selector/proofs")

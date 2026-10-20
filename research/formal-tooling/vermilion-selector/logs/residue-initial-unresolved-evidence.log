@@ -1,0 +1,23 @@
+
+[vermilion] Verus front end: elaborating examples/residue-selector/residue.rs (--no-verify)
+[vermilion] lowering SST to the textual IR
+[vermilion] preparing the Lean environment (cached unless the library changed)
+[vermilion] generating Lean obligations from the IR
+[vermilion] Lean is judging the generated obligations of examples/residue-selector/residue.rs
+[vrml-check] unit=.vermilion/check-residue-missing_face_zero.lean elapsed_ms=1782
+[vrml-check] unit=.vermilion/check-residue-residue_term.lean elapsed_ms=1947
+error[vermilion]: required Lean typeclass evidence is unresolved
+  --> examples/residue-selector/residue.rs:8:13
+   = note: generated evidence `residue.residue_term.evidence_decidable_prop` is still a placeholder (statement hash 233918b60f8d2ffa)
+        Evidence says: the generated class dictionary has no kernel-checked twin proof
+   = help: provide the Lean class dictionary in
+           examples/residue-selector/proofs/residue/Evidence.lean (the user-owned twin: replace the body after `:= by`;
+           keep the signature and markers). Later VCs may be checked contingently
+           using the generated placeholder, but the run cannot verify until this
+           instance itself is kernel-checked.
+
+
+warning: automation could not prove `residue.residue_term.evidence_decidable_prop`; left as `sorry` in examples/residue-selector/proofs/residue/Evidence.lean — prove it manually
+proofs twins updated examples/residue-selector/proofs/residue/ (3 unit twins, 8 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+

@@ -1,0 +1,15 @@
+
+[vermilion] Verus front end: elaborating examples/m1-pipeline/simple.rs (--no-verify)
+[vermilion] lowering SST to the textual IR
+[vermilion] preparing the Lean environment (cached unless the library changed)
+[vermilion] generating Lean obligations from the IR
+[vermilion] Lean is judging the generated obligations of examples/m1-pipeline/simple.rs
+[vrml-check] unit=.vermilion/check-simple-increment.lean elapsed_ms=1607
+✓ all 3 obligations in examples/m1-pipeline/generated/simple/ (per-function units) verified by Lean — 3 newly checked. 🎉
+
+proofs twins updated examples/m1-pipeline/proofs/simple/ (1 unit twins, 3 obligations, 0 sorry)
+
+[vermilion] kernel-checking your proofs twinproofs twin identical to the generated module; skipping duplicate build
+
+✓ proofs twin kernel-checked: examples/m1-pipeline/proofs/simple*
+

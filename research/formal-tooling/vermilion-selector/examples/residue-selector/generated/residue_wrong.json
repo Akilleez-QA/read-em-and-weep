@@ -1,0 +1,25 @@
+{"version": 2,
+ "rust_file": "examples/residue-selector/residue_wrong.rs",
+ "obligations":
+ [{"statement_hash": "062f94c1f3f3fe66",
+   "rust_span":
+   {"start_line": 5,
+    "start_column": 13,
+    "file": "examples/residue-selector/residue_wrong.rs",
+    "end_line": 5,
+    "end_column": 19},
+   "namespace": "residue_wrong.false_residue",
+   "name": "residue_wrong.false_residue.ensures_0",
+   "lean_line_start": 9,
+   "lean_line_end": 34,
+   "lean_file":
+   "examples/residue-selector/generated/residue_wrong/false_residue.lean",
+   "leaf": "ensures_0",
+   "kind": "ensures",
+   "assert_id": "0"}],
+ "mode": "per-function",
+ "lean_file": "examples/residue-selector/generated/residue_wrong",
+ "functions":
+ [{"semantic_fingerprint": "d16ebdf0b1a0eced",
+   "location_fingerprint": "8d0cd1e339a820a7",
+   "function": "residue_wrong.false_residue"}]}

@@ -1,0 +1,28 @@
+Workspace: ${ARTIFACT_ROOT}/vermilion-tooling
+Working directory for commands: ${ARTIFACT_ROOT}/vermilion-tooling/vermilion
+Environment: source ../env.sh
+
+Vermilion commit: 1a56a4f38cbb126b7d73b04207e9c6fda9f179bf
+Lean 4.33.0 official release installed workspace-locally.
+Rust 1.96.0 official rustup install with workspace-local CARGO_HOME/RUSTUP_HOME.
+rustup component add --toolchain 1.96.0 rustc-dev llvm-tools rustfmt: exit 0
+cargo build --workspace && cargo test --workspace: exit 0; 12 tests passed
+./scripts/build.sh: exit 0; full official build; logs/build.log, build.exit
+./scripts/setup_verus.sh: exit 0; logs/verus-build.log, verus-build.exit
+(cd crates/vermilion_direct && rustup run 1.96.0 cargo build --release): exit 0
+./examples/m1-pipeline/run.sh: exit 0; all 3 obligations newly checked
+./scripts/run_example.sh examples/residue-selector intro_wrong.rs: exit 1 at Lean postcondition
+mkdir -p examples/residue-selector/proofs
+python3 scripts/register_proof_lib.py register ResidueSelector examples/residue-selector/proofs
+./scripts/run_example.sh examples/residue-selector residue.rs --lib ResidueSelector: exit 1 (required explicit Decidable Prop evidence unresolved)
+Replaced only Evidence.lean proof twin placeholder with: exact Classical.propDecidable p
+./scripts/run_example.sh examples/residue-selector residue.rs --lib ResidueSelector --manual-proofs: exit 0; 8 obligations, 0 sorry
+./scripts/run_example.sh examples/residue-selector residue_wrong.rs: exit 1 at Lean postcondition
+
+Axiom audits (all successful theorem/evidence bodies preserved in self-contained audit files):
+source ../env.sh
+source scripts/lean_env.sh
+lean --plugin="$vrml_cvc5_plugin" .vermilion/audit-intro.lean: exit 0
+lean --plugin="$vrml_cvc5_plugin" .vermilion/audit-residue.lean: exit 0
+Every audited declaration depends only on propext, Classical.choice, Quot.sound.
+No sorryAx or additional project/dependency axiom occurs in these proof terms.

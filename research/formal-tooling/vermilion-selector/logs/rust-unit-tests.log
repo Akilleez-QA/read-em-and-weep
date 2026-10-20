@@ -1,0 +1,50 @@
+    Blocking waiting for file lock on package cache
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 5.16s
+     Running unittests src/lib.rs (target/debug/deps/vermilion_backend-243f190c934dfc89)
+
+running 2 tests
+test ir::tests::escapes_strings ... ok
+test ir::tests::serializes_structured_trees ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/vrml_check.rs (target/debug/deps/vrml_check-ac424ac481a638a7)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/vrml_source_guard.rs (target/debug/deps/vrml_source_guard-299a5e78954634bb)
+
+running 10 tests
+test tests::accepts_erased_ghost_statements_but_not_executable_let_bindings ... ok
+test tests::accepts_public_spec_declarations_but_not_public_exec_functions ... ok
+test tests::accepts_only_supported_spec_impl_shapes ... ok
+test tests::erases_a_named_result_around_the_original_return_type ... ok
+test tests::rejects_executable_content_disguised_as_a_contract ... ok
+test tests::rejects_nested_and_unclosed_regions ... ok
+test tests::rejects_an_executable_rust_edit ... ok
+test tests::rejects_missing_and_extra_source_files ... ok
+test tests::permits_only_colocated_lean_artifact_directories ... ok
+test tests::erases_a_contract_without_changing_rust_tokens ... ok
+
+test result: ok. 10 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/vrml_sync.rs (target/debug/deps/vrml_sync-a0993994ba6a9401)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/bin/vrml_watch.rs (target/debug/deps/vrml_watch-8e7412bde1e4e237)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests vermilion_backend
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

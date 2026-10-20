@@ -1,0 +1,8 @@
+'residue_residue_term_evidence_decidable_prop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.assert_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.assert_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.assert_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.assert_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.assert_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.residue_term.ensures_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'residue.missing_face_zero.ensures_1' depends on axioms: [propext, Classical.choice, Quot.sound]

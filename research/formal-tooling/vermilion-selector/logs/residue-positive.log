@@ -1,0 +1,11 @@
+
+[vermilion] Verus front end: elaborating examples/residue-selector/residue.rs (--no-verify)
+[vermilion] lowering SST to the textual IR
+[vermilion] preparing the Lean environment (cached unless the library changed)
+[vermilion] generating Lean obligations from the IR
+[vermilion] kernel-checking your proofs twin (sole arbiter; generated check skipped)
+
+proofs twins unchanged examples/residue-selector/proofs/residue/ (3 unit twins, 8 obligations, 0 sorry)
+  (generated-module check skipped: the proofs twin is current and is the sole arbiter)
+✓ proofs twin kernel-checked: examples/residue-selector/proofs/residue*
+
