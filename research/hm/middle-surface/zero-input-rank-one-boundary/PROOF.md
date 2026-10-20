@@ -1,0 +1,215 @@
+# Exact rank-one boundary geometry with one zero input
+
+## Statement
+
+Work over C with dim V=5, dim J=20 and the canonical trilinear operation f. Use only its established outer symmetry, cyclic-zero identity, repeated-input injection, and the intrinsic quadratic normal map
+
+    A_u(v)=f(u,u,v),    Q_u(v)=[f(v,u,v)] in J/im A_u.
+
+Assume the common line Cu is in the rank-ten open of Q. At every rank-one point with exactly one zero input, the full cubic zero scheme X has the following exact Zariski local presentation after four algebraic linear-normal eliminations:
+
+    X = Spec S / a P^2,
+    S = O_B[a,q1,q2,q3,q4] localized near a=q=0,
+    P=(q1,q2,q3,q4).
+
+Here B is smooth of dimension six, recording a nonzero vector u and a nonzero relative scalar t. The rank-one locus is D: P=0. The zero-input coordinate component is C: a=0. The presentation is Zariski algebraic, not just formal. Locally S may include inversion of a determinant that equals one on q=0; this does not affect any asserted germ.
+
+Consequences:
+
+1. X_red is the transverse union C union D, with local ideal aP. Their reduced intersection is smooth of dimension six. C has dimension ten, D has dimension seven, and their tangent spaces span the smooth eleven-dimensional eliminated ambient space.
+2. The primary decomposition is
+
+       aP^2 = (a) intersection P^2.
+
+   Thus there are precisely these two local components and no embedded associated primes. Their generic multiplicities are respectively one and five.
+3. The nilradical is
+
+       N = aP/aP^2,    N^2=0.
+
+   Multiplication by a identifies N with P/P^2 as a module over S/P. Hence N is locally free of rank four on D, including at its intersection with C, and its annihilator in O_X is the ideal of D.
+4. The germ at the intersection is not Cohen–Macaulay, since its minimal components have different dimensions. At a closed intersection point its tangent dimension is eleven, its local dimension is ten, and its depth is seven. The residual ideal has ten minimal cubic generators a q_i q_j; with the four eliminated equations the ambient ideal has fourteen minimal generators.
+5. The natural projection to B times A^1_a is not finite near the boundary: its fiber at a=0 contains the whole four-dimensional q-space. On a nonzero fiber, it is the length-five square-zero scheme in the q variables. There is no assertion of constant length or finite flatness across a=0.
+
+The generic rank-ten theorem makes the hypothesis a nonempty dense open condition on the common line. This result does not assert it for every line, describe points with two zero inputs, or evaluate any actual operation value, matrix, input, rank instance, jet, residue, or detector.
+
+## Imports and conventions
+
+- /research/hm/local-defect/rank-one-normal-obstruction/PROOF.md supplies outer symmetry, cyclic zero, the locally split injection A_u:V/Cu -> J, and the intrinsic map Q.
+- /research/hm/middle-surface/rank-one-open-thickening/PROOF.md supplies the elementary coherent Nakayama argument used below. It established the all-inputs-nonzero case, not this boundary case.
+- /research/hm/local-defect/rank-eight-global-exclusion/PROOF.md establishes generic rank Q=10. No selected rank is evaluated here.
+
+Outer symmetry means f(x,y,z)=f(z,y,x). Cyclic zero means the sum over the three cyclic permutations vanishes. In characteristic zero these give
+
+    f(u,u,u)=0,
+    f(u,v,u)=-2 f(u,u,v),
+    f(u,v,v)=-1/2 f(v,u,v).
+
+All subsequent formulas are universal symbolic consequences of these identities.
+
+## 1. Outer input zero: exact full ambient chart
+
+Consider a point (0,u,t u) with u nonzero and t nonzero. Choose ell with ell(u) nonzero and set H=ker ell. On the ambient open ell(y) ell(z) nonzero, use the inverse algebraic coordinates
+
+    y=u,
+    a=ell(x)/ell(y),
+    t=ell(z)/ell(y),
+    p=x-a u in H,
+    q=z/t-u in H.
+
+Thus
+
+    (x,y,z)=(a u+p,u,t(u+q)).
+
+The independent coordinates are u (five), t (one), a (one), p (four), q (four), totaling fifteen. The rank-one locus is p=q=0. The component x=0 is a=p=0, with q arbitrary. Since t is a unit, removing its factor does not change the zero ideal.
+
+Write
+
+    A=A_u:H -> J,
+    B_q:H -> J,    B_q(p)=f(p,u,q).
+
+The exact identity is
+
+    f(x,y,z)/t = (A+B_q)p + a A q.
+
+Choose a local target splitting (L,pi):J -> H direct-sum C with LA=1 and pi A=0. The rank of C is sixteen. Put
+
+    D_q=1+L B_q.
+
+Its determinant is one at q=0, so it is invertible on an ambient open containing the local zero section. The first four equations are
+
+    D_q p + a q=0,
+
+and give the exact algebraic graph
+
+    p=-a D_q^(-1)q.
+
+The remaining sixteen equations, obtained by applying pi, are exactly
+
+    -a h(q)=0,    h(q)=pi B_q D_q^(-1)q.
+
+This verifies both the sign and the factor a. No division by a occurs. Eliminating p gives the smooth eleven-dimensional ambient ring S, and the ideal of X in it is a J, where J is generated by the components of h.
+
+## 2. Factored coherent Nakayama: why J=P^2
+
+Since B_q is linear in q, h belongs to P^2 and
+
+    h modulo P^3 = pi f(q,u,q).
+
+The rank-ten condition means precisely that the ten-dimensional space Sym^2(H*) is spanned by the components of this quadratic expression on the residue-field fiber at the chosen line. Consequently the map to P^2/P^3 induced by the components of h is surjective near the chosen point of the zero section; equivalently, in its local ring,
+
+    P^2=J+P^3.
+
+For completeness, residue-field surjectivity first gives this equality modulo P by Nakayama over S/P; then the finite module P^2/J satisfies
+
+    P^2/J = P(P^2/J).
+
+As P lies in the local maximal ideal, Nakayama over S gives P^2/J=0. Hence J=P^2 in the local ring and, by coherence, on an open neighborhood.
+
+Multiplying this established equality by a yields
+
+    I_(X/S)=aJ=aP^2.
+
+One must apply Nakayama to J, not declare that the quadratic classes of aJ span P^2/P^3 at a=0: at that fiber they do not. Likewise a is never treated as a unit or canceled inside the already-quotiented ring O_X. The entire proof takes place in the smooth ambient ring before quotienting.
+
+The determinant inverses used here are regular on the chosen open. Thus the elimination and ideal equality are exact Zariski statements and do not need completion, an assumed isolation of D, or a prior flatness claim.
+
+## 3. Middle input zero: same local model, different scalar
+
+Consider instead (u,0,t u). On the ambient open ell(x) ell(z) nonzero, use
+
+    (x,y,z)=(u,a u+p,t(u+q)),    p,q in H.
+
+Set
+
+    C_q(p)=f(u,p,q),    E_q=1-(1/2)L C_q.
+
+Cyclic zero and outer symmetry give the exact equation
+
+    f(x,y,z)/t = -2 A p + C_q(p) + a A q.
+
+Its H component is
+
+    -2 E_q p+a q=0.
+
+Since E_q=1 at q=0, algebraic elimination gives
+
+    p=(a/2)E_q^(-1)q.
+
+The residual equation is exactly
+
+    a k(q)=0,    k(q)=(1/2)pi C_q E_q^(-1)q.
+
+The unfactored residual satisfies k in P^2, with quadratic class
+
+    k modulo P^3
+      = (1/2)pi f(u,q,q)
+      = -(1/4)pi f(q,u,q).
+
+The nonzero scalar -1/4 leaves rank-ten surjectivity unchanged. Section 2 therefore applies to the components of k and gives the identical ideal aP^2. The outer-zero case with z=0 follows by outer symmetry from Section 1.
+
+These three charts cover rank-one points with exactly one zero input and the stated rank-ten common-line hypothesis. They do not cover rank-one points with two zero inputs, where the first derivative and coordinate-component incidence change.
+
+## 4. Reduced components and primary decomposition
+
+We work locally in the regular ambient ring S. The variables a,q1,...,q4 are independent over the smooth base B. In particular a is a nonzerodivisor on both S/P and S/P^2; the latter is locally free of rank five over the base ring O_B[a]. Thus
+
+    (P^2:a)=P^2,
+    (a) intersection P^2=aP^2.
+
+The ideal (a) is prime. The ideal P^2 is P-primary: its quotient has filtration with factors S/P and P/P^2, with the latter free over the domain S/P. Multiplication by any element outside P is injective on both factors and therefore on S/P^2. Its only associated prime is P. This argument remains valid after the permitted localizations. The two ideals in the decomposition are incomparable, so the decomposition is irredundant and has no embedded primes.
+
+Likewise
+
+    sqrt(aP^2)=(a) intersection P=aP.
+
+The components C=V(a) and D=V(P) have dimensions ten and seven. Their reduced scheme-theoretic intersection is V(a,P), of dimension six. Their defining coordinates are disjoint subsets of a regular coordinate system, proving transversality in the eliminated smooth ambient space. This does not claim transversality in the original fifteen-dimensional ambient space, where both components lie in the four-equation graph.
+
+At the generic point of C, some q_i is invertible, hence P^2 is the unit ideal and X is reduced. At the generic point of D, a is invertible and the transverse ring is the square-zero algebra on four generators, of length five. Thus the associated cycle summed over all irreducible components, retaining their different dimensions, is
+
+    [C]+5[D].
+
+This is a mixed-dimensional associated cycle, not a claim that the pure top-dimensional fundamental cycle includes D.
+
+The scheme-theoretic intersection of C with the primary thickening V(P^2), as distinct from the intersection of the two reduced components, is V(a,P^2). It is a rank-four square-zero thickening of V(a,P). Confusing these two intersections would lose part of the nilpotent structure.
+
+## 5. Nilradical and failure of constant-length extension
+
+The nilradical is N=aP/aP^2 because the reduced ideal is aP. The map
+
+    P/P^2 -> aP/aP^2,    r -> a r
+
+is surjective and injective: injectivity follows by cancellation in the regular ambient domain S, or by (aP^2:a)=P^2. Since P kills its target, this is an isomorphism of S/P-modules. Thus N is locally free of rank four on D. Its square is zero because
+
+    (aP)^2=a^2P^2 subset aP^2.
+
+Furthermore Ann_(O_X)(N) is the ideal P/aP^2 of D: in S, an element annihilates aP/aP^2 exactly when it carries P into P^2, which is equivalent to belonging to P, since P/P^2 is faithful over S/P.
+
+The nilradical remains nonzero as a module at every point of D, including a=0. Nevertheless the pullback of the whole scheme to the slice a=0 is reduced:
+
+    (S/aP^2)/(a) = S/(a).
+
+There is no contradiction. The map from N into O_X ceases to be injective after this nonflat base change; indeed the image of N in O_X/(a) is zero. Tensoring the module N with O_X/(a) is not the same as taking its image there.
+
+Projection to the seven-dimensional base (u,t,a) has, at fixed a=0, an open four-dimensional q-fiber. For a nonzero, its q-fiber is the length-five scheme defined by P^2. It is therefore not finite near a=0 and cannot extend the earlier degree-five finite flat retraction across this boundary. The valid constant statement is the rank-four local freeness of N over D, not a constant fiber length of X over D.
+
+At a closed boundary point, aP^2 has order three, so it imposes no additional tangent-linear constraints after elimination: the tangent dimension is eleven. Its ten cubic monomials a q_i q_j are linearly independent modulo the ambient maximal ideal times aP^2, hence are minimal generators. Together with the four equations solved for p, the original ambient ideal has fourteen minimal generators. The local dimension is ten. Finally, a Cohen–Macaulay local quotient of a regular local ring has all minimal primes of the same dimension; the two dimensions here are ten and seven. Thus this boundary germ is not Cohen–Macaulay.
+
+## 6. Exact depth at a closed boundary point
+
+The primary decomposition gives the standard exact sequence
+
+    0 -> S/aP^2 -> S/(a) direct-sum S/P^2 -> S/(a,P^2) -> 0.
+
+At a closed boundary point the three latter rings have depths ten, seven, and six, respectively. The first is regular. The second is free of rank five over the regular seven-dimensional ring of (u,t,a); the third is free of rank five over the regular six-dimensional ring of (u,t). Their dimensions agree with those respective depths. Hence the middle term of the sequence has depth seven while the right term has depth six. The depth lemma gives
+
+    depth(S/aP^2)=7.
+
+Equivalently, after removing the six smooth base parameters the transverse boundary ring
+
+    C[a,q1,q2,q3,q4]_(a,q)/(a(q)^2)
+
+has dimension four and depth one. This is an intersection-depth statement, distinct from the dimension-zero transverse generic ring along D.
+
+## Scope boundary
+
+The proof is purely symbolic and structural. It gives a full local scheme normal form at the rank-ten, exactly-one-zero-input boundary. It does not assert constant rank ten, describe the exceptional common-line locus, analyze two-zero-input points or the vertex, or evaluate forbidden source data.
