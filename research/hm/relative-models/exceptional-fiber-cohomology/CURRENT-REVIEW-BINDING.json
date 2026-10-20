@@ -1,0 +1,84 @@
+{
+  "verdict": "PASS under the hypotheses stated in PROOF.md",
+  "review_date": "2026-10-20",
+  "claim": "S082",
+  "review": "CURRENT-INDEPENDENT-REVIEW.md",
+  "review_scope": "Complete normalized mathematical proof, historical review scope, exact prerequisites and nonduplication. Not a selected-source evaluation or formal checker certificate.",
+  "files": [
+    {
+      "path": "CURRENT-INDEPENDENT-REVIEW.md",
+      "bytes": 2982,
+      "sha256": "282fc793e7829c3dd1bcc7d48b754b5e102e17ade7d796bd863a1b51ab17f068"
+    },
+    {
+      "path": "DEPENDENCIES.json",
+      "bytes": 2297,
+      "sha256": "0759be568b6bb6f5a1a391486ee8448fd4e897f5a0549c6197b361f108fa1f36"
+    },
+    {
+      "path": "HISTORICAL-AUDIT.md",
+      "bytes": 3469,
+      "sha256": "4f0b8b0f8e8f85b8e88e31d2bfdfaa7533a407c5cdccf52f8c63575104861366"
+    },
+    {
+      "path": "HISTORICAL-SOURCE-AUDIT.md",
+      "bytes": 4954,
+      "sha256": "9f66b267ee482fdc54753b3bb94a494fece4480df2459e4bc90cc12159f819b5"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 10430,
+      "sha256": "bcef93ef34871fbe45e337b954203e80e30c532a7f660fae0969bb123b431374"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2612,
+      "sha256": "37f2387daf32f2d91bceb8afaa93522f26b93e70eec727ee1c8d566a8f4cd727"
+    },
+    {
+      "path": "SOURCE-BINDINGS.json",
+      "bytes": 1920,
+      "sha256": "ab33d46c1209836c5d353363df2275dea659391d187525a2978e69681ca5ee7b"
+    }
+  ],
+  "public_prerequisites": [
+    {
+      "role": "cover geometry and generic stable open",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d/research/hm/null-factor-surfaces/relative-surface-0502/RESULT.md",
+      "commit": "e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d",
+      "pr": 116,
+      "uses": "Sections 1\u20134 and 6: finite pushforward, plane family, proper-surface hypotheses and coefficient identification."
+    },
+    {
+      "role": "deck and swap linearization",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d/research/hm/null-factor-surfaces/relative-surface-0502/DECK_ADDENDUM.md",
+      "commit": "e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d",
+      "pr": 116,
+      "uses": "Sections 1\u20134: stable deck dimensions, ordinary swap signs, good-locus rank-12 recipient."
+    },
+    {
+      "role": "full theorem overlap, not a prerequisite for the alternative Hom proof",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d/research/hm/null-factor-surfaces/exceptional-surface-0514/RESULT.md",
+      "commit": "e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d",
+      "pr": 116,
+      "uses": "Sections 1\u20137 already prove all exceptional dimensions and top-base-change support conclusions."
+    },
+    {
+      "role": "relative-sheaf overlap",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01c96a7e1b24685eacd5d1dc52ed0ea026490146/research/hm/relative-models/relative-chern-constraints/PROOF.md",
+      "commit": "01c96a7e1b24685eacd5d1dc52ed0ea026490146",
+      "pr": 247,
+      "uses": "Sections 1 and 4: retained fiber h2=3 and h1=15, locally free rank12 recipient and base-change defect. The alternative proof does not depend on its Chern/rigidity conclusions."
+    },
+    {
+      "role": "primary classification",
+      "url": "https://arxiv.org/pdf/math/0602002v2",
+      "uses": "Corollary 2.2: c1=-1,c2=4 and exactly two unstable normalized plane resolutions; Theorem 3.1: degree25 unstable surface."
+    },
+    {
+      "role": "public finite-pushforward statement",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6260145920",
+      "uses": "Exact cover decomposition and linearization; full derivation is also included in PROOF.md Section 0."
+    }
+  ]
+}
