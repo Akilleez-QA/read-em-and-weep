@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT=${ARTIFACT_ROOT}/selector-laurent-bridge
+V=${ARTIFACT_ROOT}/vermilion-tooling/vermilion
+source ${ARTIFACT_ROOT}/vermilion-tooling/env.sh
+BUILD=$(mktemp -d ${TMPDIR}/selector-laurent-audit.XXXXXX)
+mkdir -p "$BUILD/residue"
+cp "$ROOT"/{ResidueBridge,SelectorLaurentBridge}.lean "$BUILD/"
+cp "$ROOT"/residue/*.lean "$BUILD/residue/"
+export LEAN_PATH="$BUILD:$(cat "$V/.vermilion/lean-path")"
+cd "$BUILD"
+lean --version
+for f in residue/Evidence residue/residue_term residue/missing_face_zero ResidueBridge SelectorLaurentBridge; do
+  echo "INDEPENDENT BUILD $f"
+  lean "$f.lean" -o "$f.olean"
+done
+cat > AuditAxioms.lean <<'LEAN'
+import SelectorLaurentBridge
+#print axioms residue.residue_term.ensures_5
+#print axioms residue.missing_face_zero.ensures_1
+#print axioms SelectorLaurentBridge.clipped_minus_one
+#print axioms SelectorLaurentBridge.guard_iff_exponent
+#print axioms SelectorLaurentBridge.accepted_postcondition
+#print axioms SelectorLaurentBridge.returned_eq_single_coefficient
+#print axioms SelectorLaurentBridge.returned_eq_singleton_residue
+#print axioms SelectorLaurentBridge.first_coordinate_face_zero
+#print SelectorLaurentBridge.accepted_postcondition
+LEAN
+lean AuditAxioms.lean
+printf 'Independent build directory: %s\n' "$BUILD"
