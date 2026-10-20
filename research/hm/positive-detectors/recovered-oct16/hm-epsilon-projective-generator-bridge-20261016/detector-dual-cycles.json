@@ -1,0 +1,2038 @@
+{
+  "scope": "Exact sparse global-cycle coordinates in the archived ambient basis; not quotient coordinates",
+  "genuine_complex_degrees": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "basis_key": [
+    "source_index",
+    "target_index",
+    "row",
+    "column",
+    "v0",
+    "v1",
+    "v2",
+    "v3",
+    "v4"
+  ],
+  "records": [
+    {
+      "detector": "h",
+      "transported": false,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 32,
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 48,
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 65,
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "h",
+      "transported": true,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 26,
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 42,
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 69,
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": false,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 29,
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 38,
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 66,
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": true,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 36,
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 45,
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 68,
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": false,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 14,
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 16,
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 55,
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": true,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 8,
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 10,
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 59,
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": false,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 15,
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 22,
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 56,
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": true,
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "ambient_dimension": 80,
+      "terms": [
+        {
+          "index": 2,
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 9,
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 58,
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "h",
+      "transported": false,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 162,
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 242,
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 327,
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "h",
+      "transported": true,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 132,
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 212,
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 347,
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": false,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 147,
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 192,
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 332,
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": true,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 182,
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 227,
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 342,
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": false,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 72,
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 82,
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 277,
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": true,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 42,
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 52,
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 297,
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": false,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 77,
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 112,
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 282,
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": true,
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "ambient_dimension": 400,
+      "terms": [
+        {
+          "index": 12,
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 47,
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 292,
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "coefficient": -4
+        }
+      ]
+    },
+    {
+      "detector": "h",
+      "transported": false,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 485,
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 487,
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 490,
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 725,
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 727,
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 730,
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 980,
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 982,
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 985,
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        }
+      ]
+    },
+    {
+      "detector": "h",
+      "transported": true,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 395,
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 397,
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 400,
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 635,
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 637,
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 640,
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 1040,
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 1042,
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 1045,
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": false,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 440,
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 442,
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 445,
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 575,
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 577,
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 580,
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 995,
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 997,
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 1000,
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        }
+      ]
+    },
+    {
+      "detector": "j",
+      "transported": true,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 545,
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 547,
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 550,
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 680,
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 682,
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 685,
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 1025,
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 1027,
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 1030,
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": false,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 215,
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 217,
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 220,
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 245,
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 247,
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 250,
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 830,
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 832,
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 835,
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        }
+      ]
+    },
+    {
+      "detector": "p",
+      "transported": true,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 125,
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 127,
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 130,
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 155,
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 157,
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 160,
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 890,
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 892,
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 895,
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": false,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 230,
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 232,
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 235,
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 335,
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 337,
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 340,
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        },
+        {
+          "index": 845,
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 847,
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 850,
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        }
+      ]
+    },
+    {
+      "detector": "r",
+      "transported": true,
+      "primal_twist": -5,
+      "dual_twist": 0,
+      "ambient_dimension": 1200,
+      "terms": [
+        {
+          "index": 35,
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 37,
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 40,
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 140,
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 142,
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 145,
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": 8
+        },
+        {
+          "index": 875,
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "coefficient": -4
+        },
+        {
+          "index": 877,
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "coefficient": 4
+        },
+        {
+          "index": 880,
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": -8
+        }
+      ]
+    }
+  ]
+}
