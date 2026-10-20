@@ -1,0 +1,23 @@
+[
+  {
+    "source_artifact": "length-sixteen-local-defect/AUDIT.md",
+    "source_sha256": "438ccf54baaad34c1b71b541fa2ef21a458a77be4f7b70354142f0782ea311d8",
+    "public_path": "research/hm/local-defect/length-sixteen-local-defect/AUDIT.md",
+    "public_sha256": "b0ac97d77965f6e7dcd4917003947d91bae12d9517a76a4e5c0b5bc89aa621e3",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "length-sixteen-local-defect/CANDIDATE.md",
+    "source_sha256": "1114ebff85b07cf49894d59f3fe5175e64ef2f163d5effbcf583cd922351af17",
+    "public_path": "research/hm/local-defect/length-sixteen-local-defect/CANDIDATE.md",
+    "public_sha256": "068f98fc55a7712d2ad38ed31e2637a251300e4e652a66c924853197150b49ca",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "length-sixteen-local-defect/PROOF.md",
+    "source_sha256": "2878a24d95855eda99d492973a6dd669721bf04797df31371a48606093581d68",
+    "public_path": "research/hm/local-defect/length-sixteen-local-defect/PROOF.md",
+    "public_sha256": "6587bb99168b3ce2d8834ddbe3a392f939367ad5e179025d4aab0a618cf62f62",
+    "role": "mathematical_proof_or_addendum"
+  }
+]
