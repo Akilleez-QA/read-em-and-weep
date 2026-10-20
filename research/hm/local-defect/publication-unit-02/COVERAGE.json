@@ -1,0 +1,20 @@
+{
+  "unit": "02",
+  "clusters": [
+    "minimal-local-defect-character",
+    "length-two-local-defect",
+    "rank-eight-refined-defect"
+  ],
+  "core_predecessors": [
+    "01"
+  ],
+  "external_inputs": [
+    "full-hm-image-symmetry",
+    "normalizer-minimal-point-orbit",
+    "normalizer-refined-point-gap",
+    "rank-eight-finite-image-defect",
+    "rank-eight-isolated-singularity"
+  ],
+  "later_contextual_units": [],
+  "scope": "Length-one character obstruction and canonical local exclusions through four. Global orbit totals are conditional on the explicitly imported normalizer orbit and finite-defect identifications."
+}
