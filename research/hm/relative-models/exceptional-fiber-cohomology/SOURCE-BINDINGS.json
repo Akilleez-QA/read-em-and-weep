@@ -1,0 +1,43 @@
+[
+  {
+    "unit": "01",
+    "source": "fiber-obstruction-localization/EXCEPTIONAL_FIBER_PROOF.md",
+    "source_sha256": "30b14169bd6da1cc744c0f6b958c9ad616cc43560f8e41ad999ffcabe21988fa",
+    "source_bytes": 7095,
+    "public_path": "research/hm/relative-models/exceptional-fiber-cohomology/PROOF.md",
+    "public_sha256": "bcef93ef34871fbe45e337b954203e80e30c532a7f660fae0969bb123b431374",
+    "public_bytes": 10430,
+    "transformations": [
+      "add exact cover/relative setup and public finite-pushforward derivation",
+      "pin public overlaps and primary paper version",
+      "qualify theorem-local non-evaluation boundary; retain all original mathematical derivations"
+    ]
+  },
+  {
+    "unit": "01",
+    "source": "fiber-obstruction-localization/EXCEPTIONAL_FIBER_AUDIT.md",
+    "source_sha256": "9a5b3898abea798ce0fa2cb10d57e029fc212d92d8a397eb59b8f64484e76aa5",
+    "source_bytes": 3250,
+    "public_path": "research/hm/relative-models/exceptional-fiber-cohomology/HISTORICAL-AUDIT.md",
+    "public_sha256": "4f0b8b0f8e8f85b8e88e31d2bfdfaa7533a407c5cdccf52f8c63575104861366",
+    "public_bytes": 3469,
+    "transformations": [
+      "label historical review and exact source proof scope",
+      "remove execution-only sentence; preserve all mathematical checks"
+    ]
+  },
+  {
+    "unit": "01",
+    "source": "fiber-obstruction-localization/SOURCE_AUDIT.md",
+    "source_sha256": "d126a874f94a117fd381a357c301b904466999bf9863e9abd774630611b255dc",
+    "source_bytes": 5136,
+    "public_path": "research/hm/relative-models/exceptional-fiber-cohomology/HISTORICAL-SOURCE-AUDIT.md",
+    "public_sha256": "9f66b267ee482fdc54753b3bb94a494fece4480df2459e4bc90cc12159f819b5",
+    "public_bytes": 4954,
+    "transformations": [
+      "label historical source review",
+      "remove administrative PR snapshot and execution-only sentences",
+      "preserve every mathematical source check and boundary"
+    ]
+  }
+]
