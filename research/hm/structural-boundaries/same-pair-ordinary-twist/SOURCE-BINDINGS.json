@@ -1,0 +1,52 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/CLEAN-EXTRACTION.md",
+      "source_sha256": "5a009f3036c3eb6049ddc7183952bfaa3fdb333c2c6b33ac877e918775b186d3",
+      "public_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/CLEAN-EXTRACTION.md",
+      "public_sha256": "5a009f3036c3eb6049ddc7183952bfaa3fdb333c2c6b33ac877e918775b186d3",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/PROOF.md",
+      "source_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+      "public_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROOF.md",
+      "public_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+      "role": "primary_proof",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/PROVENANCE.md",
+      "source_sha256": "a365eefbf99e2bcc9b32bf62064c4a1084d5c8bf682b07eef5496632ec9f2bc2",
+      "public_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROVENANCE.md",
+      "public_sha256": "cb93de0c879b8ca6f2d68c85e960dd1605680d39d97c8ed5390e4b70665f9faa",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/REVIEW.md",
+      "source_sha256": "a447aae9a755beb46823dbeb7d324b4475599a392d572e1560e1b1c053828fae",
+      "public_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/REVIEW.md",
+      "public_sha256": "cea080d567494984ae41a88a57bcb5741e781065d8289e37422b202e5664e44a",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/audit/check_freeword.py",
+      "source_sha256": "373a0ceb33df0a0b7331aa5d20dd9081433378df4b3d63fa0d593e9ff6170f71",
+      "public_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/check_freeword.py",
+      "public_sha256": "373a0ceb33df0a0b7331aa5d20dd9081433378df4b3d63fa0d593e9ff6170f71",
+      "role": "standalone invented-word control",
+      "transformation": "unchanged"
+    }
+  ],
+  "omitted_historical_wrappers": [
+    {
+      "artifact": "same-pair-ordinary-twist-exclusion-20261018/replay_portable.py",
+      "sha256": "42aff7a5f9fc649a270123fbbabacf458aea6e3648ecc2d0356350c2da3bb091",
+      "reason": "Historical replay/source-manifest wrapper; not a standalone mathematical control. Its original edition is not reproduced as a runnable entry point."
+    }
+  ],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
