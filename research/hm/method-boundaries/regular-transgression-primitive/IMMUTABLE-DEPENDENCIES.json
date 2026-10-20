@@ -1,0 +1,69 @@
+{
+  "scope": "Exact inspected public source editions. Premises and role distinctions are not discharged by byte authentication.",
+  "repository_sources": [
+    {
+      "role": "Complete compact scalar, equation (21), and full two-term contraction.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/supertrace_projection_followup.md",
+      "git_blob": "f606285d39dd59c9d89a69f93761d9374007a777",
+      "sha256": "4746299d43310e2ab39010f8ee8704ff3459d97e2ea4500e45911e37effa095e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9/research/hm/null-source-integration/complete-raw-remainder/supertrace_projection_followup.md"
+    },
+    {
+      "role": "Common-frame connection descent (8) and full delta K formulas (13)-(16).",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/curvature_descent_followup.md",
+      "git_blob": "000796a385402f17a9636d5179aad218a9b823ad",
+      "sha256": "3e88449a435b159a1edc3bf595867656481c6903ff19dbf9ce46f174be5298b0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9/research/hm/null-source-integration/complete-raw-remainder/curvature_descent_followup.md"
+    },
+    {
+      "role": "Complete Q2/Q4 baseline and scalar E operator (13)-(15).",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9",
+      "path": "research/hm/null-source-integration/complete-raw-remainder/PROOF.md",
+      "git_blob": "cf61b556444fa982f4f482de1c9b8414e8f7914c",
+      "sha256": "e2d8fbcbd68490afed37e3a86edb5f04301f268d2b9739bc8ba0a3449362c8ae",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9/research/hm/null-source-integration/complete-raw-remainder/PROOF.md"
+    },
+    {
+      "role": "Corrected common-frame convention and limits of the closed-K shortcut.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9",
+      "path": "research/hm/null-source-integration/closed-k-source-review/REVIEW.md",
+      "git_blob": "3616fe3768b5e73b7917c30c82ca6591b0acc043",
+      "sha256": "17838ad5aa24899ef2227d39a7fe1a904d16b245bbd9e41826dd051b0f1abb15",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8fb699a29b10ee6a53af8f74fb5f909e4c82d6e9/research/hm/null-source-integration/closed-k-source-review/REVIEW.md"
+    },
+    {
+      "role": "Later single-boundary four-family normal form; whole-identity comparison only.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-complete-remainder-normal-form/RESULT.md",
+      "git_blob": "3304f6849ee24c0594354c5bbfb4832f77268987",
+      "sha256": "75f3c4fd559a9333b3252e1b1d0771a8e6f216354548df57eef60db5388af306",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-complete-remainder-normal-form/RESULT.md"
+    },
+    {
+      "role": "Previously public endpoint-average identity and contraction/full-scalar reductions; semantic antecedent.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "46582e468732119ca5afb97ad1f121d05a327045",
+      "path": "research/hm/original-resolution-contraction-transgression/PROOF.md",
+      "git_blob": "afabdcb2f265d9b6c365d5f0c0ad7a499a399adf",
+      "sha256": "77a114648bc17458265f84c60bd7594a65542a7e0f178a21a01c3f6a85f5be18",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/46582e468732119ca5afb97ad1f121d05a327045/research/hm/original-resolution-contraction-transgression/PROOF.md"
+    },
+    {
+      "role": "Later conditional mixed-class result: scope comparison only, not a theorem premise.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "43194f29b0f1b01dac1ef1cc92742359da5e6e34",
+      "path": "research/hm/null-dihedral-mixed-vanishing/PROOF.md",
+      "git_blob": "c6ed7f3a5bd710962c69902766407471c01862f2",
+      "sha256": "c6dad7a6548220f4f6bcd696f8c3e12755a92fcb4c26528d00adde6e37a9b405",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/43194f29b0f1b01dac1ef1cc92742359da5e6e34/research/hm/null-dihedral-mixed-vanishing/PROOF.md"
+    }
+  ],
+  "other_public_sources": []
+}
