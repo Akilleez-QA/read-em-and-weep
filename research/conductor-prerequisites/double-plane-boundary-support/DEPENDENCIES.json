@@ -1,0 +1,20 @@
+{
+  "claim_id": "S066",
+  "section_order_note": "The abstract double-plane support-curve exclusion has a complete local valuation proof. Its final application to normalized middle surfaces is explicitly conditional on global repeat-injectivity, correction incidence/rank strata, finite supports and the positive intersection inequality; those application premises are not conclusions of the double-plane theorem. Distinct-factor support and full-flag proofs are pinned separately.",
+  "references": {
+    "rank-one-boundary-support/PROOF.md": {
+      "path": "research/hm/middle-surface/rank-one-boundary-support/PROOF.md",
+      "commit": "4dc50d6f057d1120a1c772316b2e3b961601efab",
+      "pr": 282,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4dc50d6f057d1120a1c772316b2e3b961601efab/research/hm/middle-surface/rank-one-boundary-support/PROOF.md",
+      "public_sha256": "b9c0d9f15110fd60757a6a9e2c265e2b208740ba03e50c404e53b82233e92169"
+    },
+    "flag-boundary-resolution/PROOF.md": {
+      "path": "research/hm/middle-surface/flag-boundary-resolution/PROOF.md",
+      "commit": "4dc50d6f057d1120a1c772316b2e3b961601efab",
+      "pr": 282,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4dc50d6f057d1120a1c772316b2e3b961601efab/research/hm/middle-surface/flag-boundary-resolution/PROOF.md",
+      "public_sha256": "e78a03cfbad74d4be18c0cfd1c535c24820b2aaad5be2cf8f0e43117823b3cb0"
+    }
+  }
+}
