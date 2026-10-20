@@ -1,0 +1,18 @@
+{
+  "review_date": "2026-10-20",
+  "status": "Two scoped mathematical reviews passed. Independent review binds the final proof and summary bytes. Not formal verification or source execution.",
+  "sha256": {
+    "PROOF.md": "7b336def2d87813b493586dc9fe1627201414cf980223a86eac8113fe836038b",
+    "README.md": "a274bc0342ffb42004c6a73cb89aebc7f8b7afa8e7c6c5e8947859a8a45104db",
+    "INDEPENDENT-REVIEW.md": "9d41eea728899740c1f6cb5d207fdc7a695f33b6be123a51806cd392ca44c95b",
+    "ROOT-REVIEW.md": "6f597fbf83b11310ea9fe19043a47b680666c0406bfaae775e78d4dac9c903fe"
+  },
+  "public_dependencies": {
+    "primary_generation": "PR167 at 063da90fc4543304e87e701cdefcc08225412f17",
+    "primary_quotient": "PR440 at 829e03411d04511f6cf04860bf18db4a70b12448",
+    "paired_filtration": "PR437 at 50e82ed233cd7729c38608194f990376eb832418",
+    "paired_endpoint": "PR439 at bf6ce91fd73fbc96cb8ede65448dfedbc0328c7b",
+    "weight_geometry": "PR158 at aab61d34a84c9b8b5a908606a7beb7212d45fe7c"
+  },
+  "scope": "Generic quadratic surjectivity and generic translated-root order-six whole-coefficient vanishing, holding HM fixed. The original fixed quadratic and quotient remain unevaluated. No actual source membership, pure conditions, module lift or algebraicity is established."
+}
