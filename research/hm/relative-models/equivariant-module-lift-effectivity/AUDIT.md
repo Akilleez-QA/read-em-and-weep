@@ -1,0 +1,11 @@
+# Independent audit
+
+PASS. Reviewed the frozen PROOF.md on2026-10-19 at10:10 UTC, including the fixed-boundary application and subgroup-rigidity criterion.
+
+The relative band is correctly Hom_B(Mbar,I tensor_B Mbar), with global sheaf Ext identified with its cohomology for a locally finite free boundary. Multiplication identifies IM with that tensor product for the specified locally free lifts. Relative endomorphisms kill IM, so their pairwise products vanish and their automorphism group is additive. This proves the abelian-band lifting gerbe and torsor assertions without commuting arbitrary algebra elements or assuming flatness of A over an external parameter ring. The site/Čech and effective-descent hypotheses are explicitly retained.
+
+Averaging the affine displacement cocycle produces an actual fixed marked class, which the torsor construction realizes by a sheaf module. For a fixed class, the global comparisons exist by definition; their defect lies in the additive relative automorphism group because the prescribed boundary action is genuine. The displayed finite H² primitive and correction have the correct signs. The H¹ conjugacy calculation gives the claimed bijection of equivariant classes with fixed ordinary classes and its invariant automorphism group, without incorrectly asserting full faithfulness of forgetting actions. Coherent weak ambient actions require the stated structural maps and pentagon; no additional groupoid coherence equation is omitted.
+
+For the mixed kernel(st), the band reduces to End(M0) tensor I, and corrections identity modulo st preserve the entire specified pure-axis boundary. The theorem therefore removes an additional equivariance-existence obstruction only after that genuine equivariant boundary has been fixed. The P1 counterexample correctly shows why a chosen nonfixed ordinary class cannot simply be linearized. The subgroup criterion transports a full action along an H-equivariant marked isomorphism and does not require H normal; its physical pure-lift application remains explicitly conditional.
+
+The cited Stacks module-deformation and group-cohomology sections were independently read. The direct additive arguments establish the needed noncommutative extension of the standard locally free result. No actual source operation or retained value was evaluated. No outstanding correction.
