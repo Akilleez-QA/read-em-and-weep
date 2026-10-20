@@ -1,0 +1,26 @@
+[
+  {
+    "source": "acm-decic-exclusion/PROOF.md",
+    "source_sha256": "0a09648dc9842159f7c2ca99cd5bea0e86d8d70c85becdad008bafb6489f4ab2",
+    "public_path": "research/hm/middle-surface/acm-decic-exclusion/PROOF.md",
+    "public_sha256": "bd857727437cf2269df2ff038cac2ee27629843d4fbae6a0040ed88657973b1e"
+  },
+  {
+    "source": "acm-decic-audit/AUDIT.md",
+    "source_sha256": "c3edf06b4a7c7cad7d068f8836f38aa57bd77f59615dc1360e8d524c49ea4da0",
+    "public_path": "research/hm/middle-surface/acm-decic-audit/AUDIT.md",
+    "public_sha256": "3341018172b1a29b10d122ea68b5a6b4f103d97c26cc0dde1fea3d09472589f6"
+  },
+  {
+    "source": "decic-hyperplane-deficiency/PROOF.md",
+    "source_sha256": "5468493f3dd2ab42e29a2ab8339009e413e16ac77eb27acaa7b324ad41f14828",
+    "public_path": "research/hm/middle-surface/decic-hyperplane-deficiency/PROOF.md",
+    "public_sha256": "a6eb80a5e28f3896d27f840c9349f0b277cc55fe62e41fb0b62f95a1163109ec"
+  },
+  {
+    "source": "decic-deficiency-audit/AUDIT.md",
+    "source_sha256": "0fb08f533bb71038c6860bf7aa7e2d33d46df05dd4f7e7011b64b21e9779d15b",
+    "public_path": "research/hm/middle-surface/decic-deficiency-audit/AUDIT.md",
+    "public_sha256": "6b7442f01216d90e0e2e9270740ef2f42b82261ef540413f58d207ae2f41e575"
+  }
+]
