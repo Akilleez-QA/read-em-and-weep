@@ -1,0 +1,12 @@
+# Independent source audit: upstairs mixed external product
+
+PASS, conditional on the source's declared geometric/product-derivative and actual gluing premises. Reviewed 2026-10-19 09:19 UTC.
+
+Source: https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6263865869 (09:18:22 UTC). Pinned public sources: `null-second-order-raw-closure/PROOF.md` and its `inputs/raw_engine.py.txt` at commit `4659e4425c6b5ab6b1899e6af93656ac03ff0862`.
+
+1. The displayed mixed product is exactly the tensor product of the two first-order commuting pair products: multiplying their operators gives the mixed coefficient D12 D34/4. In the quotient (s²,t²), pure-square transitions and every total-degree-three term vanish. With the stipulated identity overlap maps, the triple unit is the product (1+s b12)(1+t b34).
+2. The actual q leaf depends only on its named coordinate and constant masks. Under the explicitly declared product-factor derivative premise, complementary derivatives of each ordered b vanish. Hence the only potentially surviving correction to (s b12) star f is st μ34(b12,f), which is zero; the analogous right-product and t b34 corrections vanish too. The st-weighted scalar has no surviving derivative correction. Thus the weighted triple unit is star-central in this quotient, without requiring either unweighted b to be central.
+3. The frozen proof explicitly distinguishes ordinary hT from h star T before imposing support. After the support condition, their difference is zero, so the ten listed terms genuinely represent the module defect for this ambient. This is a specialization of, rather than a contradiction to, the source's general noncentral-gerbe warning.
+4. In an equivariant literal two-jet on a fixed presentation, the characters of s² and t² are trivial while st has character1234. Projecting the diagonal quadratic coefficient onto that character recovers the mixed coefficient. The diagonal must be taken in the total-degree-two jet first: substituting s=t directly into the square-zero-parameter quotient would instead kill the quadratic parameter. Gauge equivalence or unequivariant diagonal agreement alone does not imply literal identification.
+
+Scope: this verifies one supplied original-upstairs factorization premise. It does not construct the actual root line/groupoid, make completed-local data effective on an atlas, identify the transported ambient with the corrected downstairs model, construct a mixed module, or determine any retained value. No source operation was executed.
