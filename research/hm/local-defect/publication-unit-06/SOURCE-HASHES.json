@@ -1,0 +1,30 @@
+[
+  {
+    "source_artifact": "wedge-defect-equivariant-obstruction/AUDIT.md",
+    "source_sha256": "255cd63785457c2d4551afaf41d91c245b62520ad8ccd7eca80f07ad68b464e0",
+    "public_path": "research/hm/local-defect/wedge-defect-equivariant-obstruction/AUDIT.md",
+    "public_sha256": "95cdf45a04e64b31423c986964c1a701ec3e3e6b4844c4882644800f33105791",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "wedge-defect-equivariant-obstruction/PROOF.md",
+    "source_sha256": "9a6783895cf33249a4b39a0ce828d1b665ae4b91d07c2e1eccc00da8ff74d1ee",
+    "public_path": "research/hm/local-defect/wedge-defect-equivariant-obstruction/PROOF.md",
+    "public_sha256": "9045d59172edb5daa0b8cdb1fb1387117b7dde81489ca3e935aca09a75c8e4fd",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "rank-eight-defect-below-600/AUDIT.md",
+    "source_sha256": "369e9fd08c21d6ad2097b35cae7613842d795bde8c7a98b619476bc21ad5e4c8",
+    "public_path": "research/hm/local-defect/rank-eight-defect-below-600/AUDIT.md",
+    "public_sha256": "387c408a1dc0a1f8a3a4916c39e8b08e1a767e35ece1a4c5b62350db62480b47",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-eight-defect-below-600/COROLLARY.md",
+    "source_sha256": "304cab49dac096449b896ccc915f6c86746bd50b192f3b51dd98df4970544144",
+    "public_path": "research/hm/local-defect/rank-eight-defect-below-600/COROLLARY.md",
+    "public_sha256": "7586dc18b5a9434aaf024123a52412fb0510469b21fe38ef4d0d441c26c88c17",
+    "role": "mathematical_proof_or_addendum"
+  }
+]
