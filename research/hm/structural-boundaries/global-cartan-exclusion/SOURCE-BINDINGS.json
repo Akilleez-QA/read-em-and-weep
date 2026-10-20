@@ -1,0 +1,22 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "global-cartan-exclusion-20261018/PROOF.md",
+      "source_sha256": "701619c9d83333cf3f7c03d9441afedb3e5b6e0f40578b1bbffc2291b3dd9cd3",
+      "public_path": "research/hm/structural-boundaries/global-cartan-exclusion/PROOF.md",
+      "public_sha256": "2ec24894cfe2ba9bf90c6f58e936e7c69b5918635c8ed77ba0cd21fdf4da85d1",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "global-cartan-exclusion-20261018/REVIEW.md",
+      "source_sha256": "41c147ee1bb7e2355c31cbbce7b497ecc64318637447bd9b934d271d0b06e1ca",
+      "public_path": "research/hm/structural-boundaries/global-cartan-exclusion/REVIEW.md",
+      "public_sha256": "7a1d045476d6c70a879b9fb82fcedccebec5079c87134a4e63527b4a3efd8592",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}

@@ -1,0 +1,42 @@
+{
+  "audit_sha256": "4652f9c70bf810870b49e23c403334641ab7339e0c66407170bf6a7b76d6c72e",
+  "reviewed_payload": [
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/DEPENDENCIES.md",
+      "sha256": "0207a8942872929fb08aec0a5876d8ab38d0f215f31ce4fc1292a085dd8c2204",
+      "bytes": 1544
+    },
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/PROOF.md",
+      "sha256": "2ec24894cfe2ba9bf90c6f58e936e7c69b5918635c8ed77ba0cd21fdf4da85d1",
+      "bytes": 7837
+    },
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/PUBLICATION.md",
+      "sha256": "37bb1df338dc30959c03b2ec5081c02778ac15110ad06971c0ec0ee316330c5e",
+      "bytes": 1057
+    },
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/REVIEW.md",
+      "sha256": "7a1d045476d6c70a879b9fb82fcedccebec5079c87134a4e63527b4a3efd8592",
+      "bytes": 3730
+    },
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/SOURCE-BINDINGS.json",
+      "sha256": "35bfc8fc21ad1388a86ec3105bbd14205d88620e614e747962c45250e3bd72b7",
+      "bytes": 1478
+    },
+    {
+      "unit": "09",
+      "path": "research/hm/structural-boundaries/global-cartan-exclusion/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "4b66490223a37a9cea45f769bbced05dbcc3935ac2ff5ef55068a6a79b0e1887",
+      "bytes": 4567
+    }
+  ],
+  "review_scope": "09-10"
+}
