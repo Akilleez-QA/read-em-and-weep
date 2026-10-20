@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "S123",
+    "source": "higher-conic-lifting-obstruction/AUDIT.md",
+    "source_sha256": "2f62003c0339b2e5853ec9556bc048c14add56bf09986be1e2255f486a655135",
+    "source_bytes": 14751,
+    "public_path": "research/conductor-prerequisites/higher-conic-lifting-obstruction/AUDIT.md",
+    "public_sha256": "7ddd8b386f9dec7cd67394473a7621784f402c95c8013217ccbfc89b6209ddfa",
+    "public_bytes": 14821,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S123",
+    "source": "higher-conic-lifting-obstruction/PROOF.md",
+    "source_sha256": "96f7b57154eb9b780e421dd793fe8745b7e5492aa114c93c2460897f96326e28",
+    "source_bytes": 12957,
+    "public_path": "research/conductor-prerequisites/higher-conic-lifting-obstruction/PROOF.md",
+    "public_sha256": "f19e6111b6021ed433e8a514cf8c74fb5bc94366ee526d6296e012e87cbbb8d0",
+    "public_bytes": 12882,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]
