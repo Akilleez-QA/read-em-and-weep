@@ -1,0 +1,4 @@
+Example 1: projected yes; actual no; prescribed F not exact.
+Example 2: F=0; J Hom-exact; projected yes; actual no.
+Example 3: kill K on im Delta with compensation; impossible with E fixed.
+All exact-rational synthetic checks passed. No external data read.
