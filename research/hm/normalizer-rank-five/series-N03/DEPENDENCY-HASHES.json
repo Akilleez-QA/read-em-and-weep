@@ -1,0 +1,68 @@
+[
+  {
+    "path": "research/hm/local-defect/rank-one-quadratic-flag-nef/PROOF.md",
+    "sha256": "6c165314713eb3b3b111db1f2528d0a27f570590f4c905796462b4fac3e4be3f",
+    "series": "publication-global-rank-ten-series",
+    "unit": "P01"
+  },
+  {
+    "path": "research/hm/local-defect/global-linear-image-plucker/PROOF.md",
+    "sha256": "f61873c55c63f0ff320392f409268a2ca1ea6cb6f92df093160126889a53c26d",
+    "series": "publication-global-rank-ten-series",
+    "unit": "P03"
+  },
+  {
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/ADDENDUM_DEGREE_30.md",
+    "sha256": "32927ab8d3d7acd4d29bb1a47c886b23f3e468d1a8c834402f97ab0a024568ed",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/AUDIT.md",
+    "sha256": "22695f184d86f5eb8eed21e52a7d7a8cba0c324d05b447ff4791139de6ab1596",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/DEGREE_30_AUDIT.md",
+    "sha256": "3d93c8aa74487c7be060b7529f49b20da1541226bdf932f933cb88edb0dcde54",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/PROOF.md",
+    "sha256": "59cc51fa0a3b8fe205b2aeb9a7591d1ab47ebdbd728badf8cc36bc705e6c6e2d",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/AUDIT.md",
+    "sha256": "18696f52af77effc3b950f117bb57cdfbc8c216b6a01b80e96419bf8cade68bb",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  },
+  {
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/INDEPENDENT_AUDIT.md",
+    "sha256": "c7a29c4249ce9b8a07b51e9c45d05e61287ced907b6590adc206e37ec8e11f5d",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  },
+  {
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/PROOF.md",
+    "sha256": "b1b8d4a5aa9082a202c0f77a97ad533edeb5c3dd81e4f115fbb8d61ff204cecc",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  },
+  {
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/INDEPENDENT_AUDIT.md",
+    "sha256": "6f262508236beb3a5765bb4f491fc4de807e5f7391ea119d7b9187b4fe828be7",
+    "series": "publication-rank-four-series",
+    "unit": "08"
+  },
+  {
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/PROOF.md",
+    "sha256": "5d61ae9060863af29aee21286111e45755ab85c9022d63c60de36612c9022479",
+    "series": "publication-rank-four-series",
+    "unit": "08"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "source_artifact": "normalizer-small-curve-exclusion/ADDENDUM_DEGREE_30.md",
+    "source_sha256": "32927ab8d3d7acd4d29bb1a47c886b23f3e468d1a8c834402f97ab0a024568ed",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/ADDENDUM_DEGREE_30.md",
+    "sha256": "32927ab8d3d7acd4d29bb1a47c886b23f3e468d1a8c834402f97ab0a024568ed",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "normalizer-small-curve-exclusion/AUDIT.md",
+    "source_sha256": "22695f184d86f5eb8eed21e52a7d7a8cba0c324d05b447ff4791139de6ab1596",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/AUDIT.md",
+    "sha256": "22695f184d86f5eb8eed21e52a7d7a8cba0c324d05b447ff4791139de6ab1596",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "normalizer-small-curve-exclusion/DEGREE_30_AUDIT.md",
+    "source_sha256": "3d93c8aa74487c7be060b7529f49b20da1541226bdf932f933cb88edb0dcde54",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/DEGREE_30_AUDIT.md",
+    "sha256": "3d93c8aa74487c7be060b7529f49b20da1541226bdf932f933cb88edb0dcde54",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "normalizer-small-curve-exclusion/PROOF.md",
+    "source_sha256": "59cc51fa0a3b8fe205b2aeb9a7591d1ab47ebdbd728badf8cc36bc705e6c6e2d",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/PROOF.md",
+    "sha256": "59cc51fa0a3b8fe205b2aeb9a7591d1ab47ebdbd728badf8cc36bc705e6c6e2d",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "smooth-normalizer-polarization-divisibility/INDEPENDENT_AUDIT.md",
+    "source_sha256": "6f262508236beb3a5765bb4f491fc4de807e5f7391ea119d7b9187b4fe828be7",
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/INDEPENDENT_AUDIT.md",
+    "sha256": "6f262508236beb3a5765bb4f491fc4de807e5f7391ea119d7b9187b4fe828be7",
+    "series": "publication-rank-four-series",
+    "unit": "08"
+  },
+  {
+    "source_artifact": "smooth-normalizer-polarization-divisibility/PROOF.md",
+    "source_sha256": "b4aedd1e04e869d9fff3fb31c5c83ea8ef4a88964e51c9312936709080e2eaf3",
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/PROOF.md",
+    "sha256": "5d61ae9060863af29aee21286111e45755ab85c9022d63c60de36612c9022479",
+    "series": "publication-rank-four-series",
+    "unit": "08"
+  },
+  {
+    "source_artifact": "binary-group-genus-thirteen/AUDIT.md",
+    "source_sha256": "18696f52af77effc3b950f117bb57cdfbc8c216b6a01b80e96419bf8cade68bb",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/AUDIT.md",
+    "sha256": "18696f52af77effc3b950f117bb57cdfbc8c216b6a01b80e96419bf8cade68bb",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  },
+  {
+    "source_artifact": "binary-group-genus-thirteen/INDEPENDENT_AUDIT.md",
+    "source_sha256": "a5d19da50cb4faba9240afc94485e786640e4c1ed8f803d5612f9ecb9585c706",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/INDEPENDENT_AUDIT.md",
+    "sha256": "c7a29c4249ce9b8a07b51e9c45d05e61287ced907b6590adc206e37ec8e11f5d",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  },
+  {
+    "source_artifact": "binary-group-genus-thirteen/PROOF.md",
+    "source_sha256": "b1b8d4a5aa9082a202c0f77a97ad533edeb5c3dd81e4f115fbb8d61ff204cecc",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/PROOF.md",
+    "sha256": "b1b8d4a5aa9082a202c0f77a97ad533edeb5c3dd81e4f115fbb8d61ff204cecc",
+    "series": "publication-rank-four-series",
+    "unit": "04"
+  }
+]
