@@ -1,0 +1,86 @@
+[
+  {
+    "source_artifact": "quartic-line-factor-cases/PROOF.md",
+    "original_sha256": "194256b5bcc32a8089b93a4e3e06d23f969cf56032be4a4b935a83f9dceda2e0",
+    "public_sha256": "194256b5bcc32a8089b93a4e3e06d23f969cf56032be4a4b935a83f9dceda2e0",
+    "path": "research/hm/normalizer-rank-five/quartic-line-factor-cases/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "quartic-line-factor-cases/INDEPENDENT_AUDIT.md",
+    "original_sha256": "370bf01044037adf3c4f2eed37b019e43a704eadc3585037d2c7771f1cbce4f3",
+    "public_sha256": "eeab635de26adde0f06b0112fe6a0b112118a0aa40d59047c064ac075d83bf4d",
+    "path": "research/hm/normalizer-rank-five/quartic-line-factor-cases/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-six-cubic-web/REDUCIBLE.md",
+    "original_sha256": "bf6117cc1918a6cee0585580cb9a8da806100880f765dc4bfc791ce0fd68e750",
+    "public_sha256": "bf6117cc1918a6cee0585580cb9a8da806100880f765dc4bfc791ce0fd68e750",
+    "path": "research/hm/normalizer-rank-five/rank-six-cubic-web/REDUCIBLE.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "rank-six-cubic-web/REDUCIBLE_AUDIT.md",
+    "original_sha256": "afd1f69f0acf2ae4c2c81da5c35f5679394880021d3264d75914305a01b405df",
+    "public_sha256": "afd1f69f0acf2ae4c2c81da5c35f5679394880021d3264d75914305a01b405df",
+    "path": "research/hm/normalizer-rank-five/rank-six-cubic-web/REDUCIBLE_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/PROOF.md",
+    "original_sha256": "5eff2308b5e96e93f19c40755ae6df3d35495e0e7e57f674ee274c86351d5158",
+    "public_sha256": "46b6fdb84566f52a9eb8e45a2877d5ec4d786889adf225cfed5411f03564e567",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/AUDIT.md",
+    "original_sha256": "0000aace57f789453433e4df2f4cb610688cdebcc3ed68408bfae53fd868b804",
+    "public_sha256": "0000aace57f789453433e4df2f4cb610688cdebcc3ed68408bfae53fd868b804",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/COUNTERMODEL.md",
+    "original_sha256": "0d870ef68a0a9764c4ac1708b5f927d6ce882a93b5afaacc966d83a0ee034df2",
+    "public_sha256": "04077898ca01c1b7d67b49dea544d93ac60429d0597c7a9b8545d85215f8e2c1",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/COUNTERMODEL.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/COUNTERMODEL_AUDIT.md",
+    "original_sha256": "5a18d819a3d86ffca82ce4c6f87f60857910f8b61b44da71670ba14ea6328437",
+    "public_sha256": "5a18d819a3d86ffca82ce4c6f87f60857910f8b61b44da71670ba14ea6328437",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/COUNTERMODEL_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/ROOT_CHECK.md",
+    "original_sha256": "9451ed121cf1647bc17884631a191808a9222b0b409828271dde9a8ab7c7b556",
+    "public_sha256": "317d94864af4380e58a9b869fc559fbe1a3766307819c8135df50ee89a8115bd",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/ROOT_CHECK.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "full-support-scroll-exclusion/COUNTERMODEL_ROOT_CHECK.md",
+    "original_sha256": "049157e11ea03735c1fcdb24957c769faf89d484627406168f21de072f7ce263",
+    "public_sha256": "9f91dc6677e8ae314b891cbebd4ce8c9a78b7763d7b42d031314009ea7bfad7a",
+    "path": "research/hm/normalizer-rank-five/full-support-scroll-exclusion/COUNTERMODEL_ROOT_CHECK.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "extremal-kernel-planes/PROOF.md",
+    "original_sha256": "e847485585c25c653d5234d728e2ef0ed68a2540633f509a39ac754b1d42e402",
+    "public_sha256": "085339e1c62bd546b862b3236e1c26c892ac58b7012324a06d1eb6feeea17cf6",
+    "path": "research/hm/normalizer-rank-five/extremal-kernel-planes/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "extremal-kernel-planes/AUDIT.md",
+    "original_sha256": "faa909e12b6d96c2b761fb749df2ad78a0875b3e16456bcf6f2db01231355b99",
+    "public_sha256": "faa909e12b6d96c2b761fb749df2ad78a0875b3e16456bcf6f2db01231355b99",
+    "path": "research/hm/normalizer-rank-five/extremal-kernel-planes/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  }
+]

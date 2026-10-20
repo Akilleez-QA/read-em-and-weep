@@ -1,0 +1,9 @@
+# Independent audit of the supported-ternary completion
+
+PASS. Reviewed REDUCIBLE.md on 2026-10-19 at09:25 UTC, importing the already audited three-dimensional bounded-rank classification and irreducible-cubic argument.
+
+The hyperplane exhaustion is complete: any reducible degree-three determinant has a linear factor, whose vector hyperplane is a three-dimensional singular space. Inside Sym²E0 the two prior types reduce to Sym²W and eE0. Subtraction of the hyperplane part of the fourth generator yields exactly the displayed block matrices. The cases d≠0/d=0 and rank(B)=2/rank(B)=1 are exhaustive, give nonzero determinants, and prove that a four-dimensional ternary web cannot have identically zero determinant. The resulting alternatives are plane times quadric cone, plane times smooth quadric, and two planes with one repeated.
+
+The compatibility arguments correctly retain points in intersections of determinant components: vanishing of the compatibility section on a dense subset extends throughout the rank-two open of the reduced irreducible component. For the binary-plus-square cone, lines through its distinguished square have fixed supports span(e3,w). For the smooth quadric, its two rulings through e² have fixed supports span(e,f) and span(e,g). Their separate limits force compatibility of the square without extending a rank-two image bundle through the rank-one point. The two plane types likewise force a compatible square.
+
+Thus no component of the determinant surface can be a compatible surface under (NS), including the repeated-plane case. The compatible locus has dimension at most one. The geometric-generic fiber and three-scaling argument gives affine dimension≤6 for components generically supported on three dimensions. This is not a classification of four-dimensional total support. No actual operation or rank instance was evaluated; no outstanding correction.
