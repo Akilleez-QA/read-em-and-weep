@@ -1,0 +1,50 @@
+[
+  {
+    "source": "binary-group-genus-thirteen/AUDIT.md",
+    "source_sha256": "18696f52af77effc3b950f117bb57cdfbc8c216b6a01b80e96419bf8cade68bb",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/AUDIT.md",
+    "sha256": "18696f52af77effc3b950f117bb57cdfbc8c216b6a01b80e96419bf8cade68bb"
+  },
+  {
+    "source": "binary-group-genus-thirteen/INDEPENDENT_AUDIT.md",
+    "source_sha256": "a5d19da50cb4faba9240afc94485e786640e4c1ed8f803d5612f9ecb9585c706",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/INDEPENDENT_AUDIT.md",
+    "sha256": "c7a29c4249ce9b8a07b51e9c45d05e61287ced907b6590adc206e37ec8e11f5d"
+  },
+  {
+    "source": "binary-group-genus-thirteen/PROOF.md",
+    "source_sha256": "b1b8d4a5aa9082a202c0f77a97ad533edeb5c3dd81e4f115fbb8d61ff204cecc",
+    "path": "research/hm/rank-four/binary-group-genus-thirteen/PROOF.md",
+    "sha256": "b1b8d4a5aa9082a202c0f77a97ad533edeb5c3dd81e4f115fbb8d61ff204cecc"
+  },
+  {
+    "source": "quintic-surface-classification/GEOMETRY_AUDIT.md",
+    "source_sha256": "962c7b2ab30543e47a4d8e4dde936d90d7ccb1ff913e82b67524ec90927477f3",
+    "path": "research/hm/rank-four/quintic-surface-classification/GEOMETRY_AUDIT.md",
+    "sha256": "962c7b2ab30543e47a4d8e4dde936d90d7ccb1ff913e82b67524ec90927477f3"
+  },
+  {
+    "source": "quintic-surface-classification/PROOF.md",
+    "source_sha256": "8949bee58400e95b808e295f1ab94dff0777ef4156b5e1176ab2a3eb889af4f6",
+    "path": "research/hm/rank-four/quintic-surface-classification/PROOF.md",
+    "sha256": "8949bee58400e95b808e295f1ab94dff0777ef4156b5e1176ab2a3eb889af4f6"
+  },
+  {
+    "source": "quintic-surface-classification/RANK_AT_MOST_THREE_COROLLARY.md",
+    "source_sha256": "2f217256604f46cad221ec9957da5721138f903e84110adf7670305685ac813e",
+    "path": "research/hm/rank-four/quintic-surface-classification/RANK_AT_MOST_THREE_COROLLARY.md",
+    "sha256": "c1d97d7eb16b920931e6b8dbab9b93303839d7e7e4bd8ab6039f0c3cc1338e07"
+  },
+  {
+    "source": "quintic-surface-classification/RATIONAL_ACTION.md",
+    "source_sha256": "2e328258b48e7094846cb7779d4b7068dcdeca144f01838c919bdd53d995fd56",
+    "path": "research/hm/rank-four/quintic-surface-classification/RATIONAL_ACTION.md",
+    "sha256": "2e328258b48e7094846cb7779d4b7068dcdeca144f01838c919bdd53d995fd56"
+  },
+  {
+    "source": "quintic-surface-classification/ROOT_CHECK.md",
+    "source_sha256": "b9aa211f2d1e317c902ff5ebbc7b106e36868053b0251c0cc08cf94120482392",
+    "path": "research/hm/rank-four/quintic-surface-classification/ROOT_CHECK.md",
+    "sha256": "4b4dd2fdfa8845058b5a66efb5495b750a3b38fd3d74a81b9cc48ec1c4fab2a9"
+  }
+]
