@@ -1,0 +1,22 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "same-carrier-jet-collapse-20261018/PROOF.md",
+      "source_sha256": "2e1d0c5e43302f66bedb114a0676d3fa928e73882498d21c54f9a7feab710901",
+      "public_path": "research/hm/structural-boundaries/same-carrier-jet-collapse/PROOF.md",
+      "public_sha256": "260081cce38a073cffd5dd4ddb9bcf82cb0ff6661464138dbb27079e67810429",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "same-carrier-jet-collapse-20261018/REVIEW.md",
+      "source_sha256": "8710c594cb7b90a1045a01a993eaed2f7425f7cf4d43fef1c52f5f05b89431a0",
+      "public_path": "research/hm/structural-boundaries/same-carrier-jet-collapse/REVIEW.md",
+      "public_sha256": "d5ad39da9ad653a4ca1061cddbe9f4dc805a66d01cf2a3987c5fdc041accea2e",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
