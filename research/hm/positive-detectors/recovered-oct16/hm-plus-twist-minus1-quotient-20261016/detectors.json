@@ -1,0 +1,278 @@
+[
+  {
+    "detector": "h",
+    "transported": false,
+    "positive_projected_cycle": [
+      [
+        69,
+        "-2"
+      ],
+      [
+        99,
+        "2"
+      ],
+      [
+        162,
+        "2"
+      ]
+    ],
+    "coordinates": [
+      [
+        1,
+        "-2"
+      ]
+    ],
+    "boundary_lift": [
+      [
+        19,
+        "-2"
+      ],
+      [
+        28,
+        "-2"
+      ],
+      [
+        105,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "h",
+    "transported": true,
+    "positive_projected_cycle": [
+      [
+        69,
+        "-2"
+      ],
+      [
+        99,
+        "2"
+      ],
+      [
+        162,
+        "2"
+      ]
+    ],
+    "coordinates": [
+      [
+        1,
+        "-2"
+      ]
+    ],
+    "boundary_lift": [
+      [
+        19,
+        "-2"
+      ],
+      [
+        28,
+        "-2"
+      ],
+      [
+        105,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "j",
+    "transported": false,
+    "positive_projected_cycle": [
+      [
+        84,
+        "2"
+      ],
+      [
+        119,
+        "-2"
+      ],
+      [
+        167,
+        "2"
+      ]
+    ],
+    "coordinates": [],
+    "boundary_lift": [
+      [
+        22,
+        "2"
+      ],
+      [
+        106,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "j",
+    "transported": true,
+    "positive_projected_cycle": [
+      [
+        84,
+        "2"
+      ],
+      [
+        119,
+        "-2"
+      ],
+      [
+        167,
+        "2"
+      ]
+    ],
+    "coordinates": [],
+    "boundary_lift": [
+      [
+        22,
+        "2"
+      ],
+      [
+        106,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "p",
+    "transported": false,
+    "positive_projected_cycle": [
+      [
+        42,
+        "2"
+      ],
+      [
+        52,
+        "2"
+      ],
+      [
+        138,
+        "2"
+      ]
+    ],
+    "coordinates": [],
+    "boundary_lift": [
+      [
+        1,
+        "-2"
+      ],
+      [
+        71,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "p",
+    "transported": true,
+    "positive_projected_cycle": [
+      [
+        42,
+        "2"
+      ],
+      [
+        52,
+        "2"
+      ],
+      [
+        138,
+        "2"
+      ]
+    ],
+    "coordinates": [],
+    "boundary_lift": [
+      [
+        1,
+        "-2"
+      ],
+      [
+        71,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "r",
+    "transported": false,
+    "positive_projected_cycle": [
+      [
+        12,
+        "2"
+      ],
+      [
+        47,
+        "2"
+      ],
+      [
+        143,
+        "2"
+      ]
+    ],
+    "coordinates": [
+      [
+        3,
+        "-2"
+      ]
+    ],
+    "boundary_lift": [
+      [
+        51,
+        "2"
+      ],
+      [
+        59,
+        "-2"
+      ],
+      [
+        67,
+        "2"
+      ],
+      [
+        114,
+        "2"
+      ]
+    ]
+  },
+  {
+    "detector": "r",
+    "transported": true,
+    "positive_projected_cycle": [
+      [
+        12,
+        "2"
+      ],
+      [
+        47,
+        "2"
+      ],
+      [
+        143,
+        "2"
+      ]
+    ],
+    "coordinates": [
+      [
+        3,
+        "-2"
+      ]
+    ],
+    "boundary_lift": [
+      [
+        51,
+        "2"
+      ],
+      [
+        59,
+        "-2"
+      ],
+      [
+        67,
+        "2"
+      ],
+      [
+        114,
+        "2"
+      ]
+    ]
+  }
+]
