@@ -1,0 +1,38 @@
+[
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/AUDIT.md",
+    "original_sha256": "c200f6594ac799764c22164b92f8e12cca90ca436a77251d4b34800d73b3154e",
+    "published_sha256": "f550cc78a89405261c0e04194dc5dbbc7fffcdebe4001dbc30a589d3047c624f",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/FIVE_POINT_RESIDUAL.md",
+    "original_sha256": "4a0c3f7bdeb5b5fd2064d0d777f4999606155b4b5fe1563791c51e7560c146c7",
+    "published_sha256": "f26dcc5e823e0c16efe46afb4cfd6b626235d8f3da54b83f4116f08c4683b96a",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/FIVE_POINT_RESIDUAL.md"
+  },
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/FIVE_POINT_RESIDUAL_AUDIT.md",
+    "original_sha256": "1ebfe0e96e40b1caa9191dae7046981fdc8af77e8d165559036ee69aee23c06c",
+    "published_sha256": "b1eac456a312a8e4fe04e261bbd47465c3eb21b6967ef1cde5495535f11aabc4",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/FIVE_POINT_RESIDUAL_AUDIT.md"
+  },
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/PROOF.md",
+    "original_sha256": "07605019a53802d973c71feb8ea885858aa32f92ccdddb702464a1e601df86f9",
+    "published_sha256": "b552de67f08dc6519cf52ffa44db1d3be8034bf3be2be20c90df8c377c86067f",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/PROOF.md"
+  },
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/TWO_LENGTH_AUDIT.md",
+    "original_sha256": "2113e8d39e96666c61f3d76705dab58b41f8b5f8c604893b30d17952d1ca46a4",
+    "published_sha256": "1757bb34bc5aefd174fb1441216b10c39b8ae1ecfde501e131166d45b1902ce6",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/TWO_LENGTH_AUDIT.md"
+  },
+  {
+    "artifact": "degree-fifteen-quintic-obstruction/TWO_LENGTH_COROLLARY.md",
+    "original_sha256": "332e9a4c583ff66c7ec2f17504f69426d50dd427e56d5dfd9b86e82312a0b0d6",
+    "published_sha256": "fa82934f8f409f88b929a64209ae7a8a0fdfbeeff1b4bc849965e7af47065121",
+    "path": "research/hm/local-defect/degree-fifteen-quintic-obstruction/TWO_LENGTH_COROLLARY.md"
+  }
+]
