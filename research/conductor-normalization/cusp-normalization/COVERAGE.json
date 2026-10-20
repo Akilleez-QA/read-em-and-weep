@@ -1,0 +1,36 @@
+[
+  {
+    "manuscript_id": "S194",
+    "cluster": "nullcone-normalization",
+    "unit": "03",
+    "additional_application_units": [],
+    "inventory_proof": "nullcone-normalization/PROOF.md",
+    "inventory_sha256": "74157d8baab2b705d378e5a3586ad6c5ef90bab7c7b8c845019aa6c8a6caa865",
+    "actual_proof_sha256": "74157d8baab2b705d378e5a3586ad6c5ef90bab7c7b8c845019aa6c8a6caa865",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "No hold on cusp geometry. Its fourth-power/HM interpretation is the explicitly stated application of unit04."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S184",
+    "cluster": "normalization-module-resolution",
+    "unit": "03",
+    "additional_application_units": [],
+    "inventory_proof": "normalization-module-resolution/PROOF.md",
+    "inventory_sha256": "d8a549c07515eef785c13f634e8dadd45bb0c37e20daf437a2f8e5c04de4035b",
+    "actual_proof_sha256": "d8a549c07515eef785c13f634e8dadd45bb0c37e20daf437a2f8e5c04de4035b",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Strict numerical E0 realization needs normalized-restriction-complex; actual Gysin rank remains unevaluated. The geometric resolution itself is independent."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
