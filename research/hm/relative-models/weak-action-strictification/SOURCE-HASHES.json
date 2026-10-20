@@ -1,0 +1,32 @@
+[
+  {
+    "source": "weak-action-strictification/AUDIT.md",
+    "source_sha256": "930c81398942006f666e750ed495445e066e642f9d4a07723e863b4eb8da09c6",
+    "public_path": "research/hm/relative-models/weak-action-strictification/AUDIT.md",
+    "public_sha256": "930c81398942006f666e750ed495445e066e642f9d4a07723e863b4eb8da09c6"
+  },
+  {
+    "source": "weak-action-strictification/PROOF.md",
+    "source_sha256": "555727fdd4032e669d532a77736c8600fb5f67787ab5329a3c2bdfacb6a584cb",
+    "public_path": "research/hm/relative-models/weak-action-strictification/PROOF.md",
+    "public_sha256": "9ee3f7b3c4ac977b0dc42f7dbddcdc8722cc7ff190a8edad1da63c42af6af69f"
+  },
+  {
+    "source": "weak-action-strictification/SCALAR_INERTIA.md",
+    "source_sha256": "ec7765c41796bcc20f6fd6777b3e915dd3fb4329dd48fbb60ba22cb8da7e04d8",
+    "public_path": "research/hm/relative-models/weak-action-strictification/SCALAR_INERTIA.md",
+    "public_sha256": "d24ddd4f84a5cd9005dd9d02d7c9d7706c731e06257ff70036c8c0651500ab85"
+  },
+  {
+    "source": "weak-action-strictification/SCALAR_INERTIA_AUDIT.md",
+    "source_sha256": "6787af615f603cf507799101ccff75ce99b41e9349d500b5d14b4d35f6828bb2",
+    "public_path": "research/hm/relative-models/weak-action-strictification/SCALAR_INERTIA_AUDIT.md",
+    "public_sha256": "5c786a19a5ccb0e0e49b40a08315f756fae9e377663f86c161aaa84aee431fb5"
+  },
+  {
+    "source": "weak-action-strictification/SOURCE_UPDATE_AUDIT.md",
+    "source_sha256": "c8f73bf1bf2394e1e39c1afa0abf92e3f96eea736f2f89c6b598c7e1ae51cb5e",
+    "public_path": "research/hm/relative-models/weak-action-strictification/SOURCE_UPDATE_AUDIT.md",
+    "public_sha256": "aced80fbcee3e3e7d2222dceaa9d38a50fd3f003b2b73c516abc2651adc26ff5"
+  }
+]
