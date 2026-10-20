@@ -1,0 +1,69 @@
+{
+  "primary_historical_sha256": "5879ec13f7dfabdb6448792c95c5054a9fdf2f2eba248004105d01c7f3677705",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "role": "primary proof",
+      "historical_sha256": "5879ec13f7dfabdb6448792c95c5054a9fdf2f2eba248004105d01c7f3677705",
+      "public_sha256": "24659b92e74022fce37bd0066b686b4556c0a1aaea9e6df77ad32621f34376e8",
+      "presentation_changes": true
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "historical scientific audit",
+      "historical_sha256": "86e82389f6e041fad0d066cae1cf7b35d9bdf7978b0a5f7b08915151d780bbd4",
+      "public_sha256": "0c9d6d142bb758c657cc57b17e9c541dc24c083e4af42bfcedecd2737c6a3853",
+      "presentation_changes": true
+    }
+  ],
+  "supporting_inputs": [
+    {
+      "source_artifact": "structural-A-PROOF.md",
+      "sha256": "bbb71d8eeb7dcb3e83ce333ac685c6ad64133c96e1703053273e2256800e6565",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "homogeneous-PROOF.md",
+      "sha256": "b8d85b3adb79b69953a6ac1d13e69d9aa2e0b679653822af6bd6834cffedb18b",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "structural-A-REVIEW.md",
+      "sha256": "b4f47fe274e0eca4f0f8f117b6503025f36057cca93f9875f0ec65a72a2c3b5e",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "raw-domain-REVIEW.md",
+      "sha256": "86e82389f6e041fad0d066cae1cf7b35d9bdf7978b0a5f7b08915151d780bbd4",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "product-root-REVIEW.md",
+      "sha256": "1b88fe1bdcf399fb6158984692925fcc84c3afd25a17cb60ddbe5148fa8f8bb0",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "homogeneous-REVIEW.md",
+      "sha256": "7eb64a97a1b86996c0d5aa7e6dee1aadaa3a08f240bc4688683cb132658628d9",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "raw-domain-PROOF.md",
+      "sha256": "5879ec13f7dfabdb6448792c95c5054a9fdf2f2eba248004105d01c7f3677705",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "product-root-PROOF.md",
+      "sha256": "8dea4aa63017a52441b7e1e1f22b6886754a0030b1dfe9932e005b11d8ab5342",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    }
+  ]
+}
