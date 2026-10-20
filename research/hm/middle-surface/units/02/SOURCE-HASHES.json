@@ -1,0 +1,80 @@
+[
+  {
+    "source": "rank-one-metric-radical-constraint/INDEPENDENT_AUDIT.md",
+    "source_sha256": "ddf88ccdb7814eb9caa411417fdd1a3bc71b503e65f52bc45330a8ffe19c9124",
+    "public_path": "research/hm/middle-surface/rank-one-metric-radical-constraint/INDEPENDENT_AUDIT.md",
+    "public_sha256": "49e9eab30528d2ac35dd23b750adf90b5a515f41584cb379f3bca099426baffd"
+  },
+  {
+    "source": "rank-one-metric-radical-constraint/INTRINSIC_METRIC_EXTENSION.md",
+    "source_sha256": "9eb779597d910df495ef9d5faa4b14f0acdb7b50debf4cafd74f1ded5293146b",
+    "public_path": "research/hm/middle-surface/rank-one-metric-radical-constraint/INTRINSIC_METRIC_EXTENSION.md",
+    "public_sha256": "198bc9f04308d6311b6c4ab35697e82d1cf1c14606ddf638585ae35d36465421"
+  },
+  {
+    "source": "rank-one-metric-radical-constraint/PROOF.md",
+    "source_sha256": "f147c2cb3ba01fb9a4067e715f741619bd7d63977f178b3dde49536cb65b5578",
+    "public_path": "research/hm/middle-surface/rank-one-metric-radical-constraint/PROOF.md",
+    "public_sha256": "0d58313e09044ba0724e78a6239dea3e68e789133c25c3b554156fa7c758cc4d"
+  },
+  {
+    "source": "rank-one-metric-radical-constraint/ROOT_CHECK.md",
+    "source_sha256": "50d4d691cd42705d958a567c816633eb6deb24a09224ffed7f3ae497af111939",
+    "public_path": "research/hm/middle-surface/rank-one-metric-radical-constraint/ROOT_CHECK.md",
+    "public_sha256": "50d4d691cd42705d958a567c816633eb6deb24a09224ffed7f3ae497af111939"
+  },
+  {
+    "source": "intrinsic-ternary-metric-extension/INDEPENDENT_AUDIT.md",
+    "source_sha256": "651ad1220e39e3312155e694dbb2e3c9bfc5113454a077b561f993b85e4d088d",
+    "public_path": "research/hm/middle-surface/intrinsic-ternary-metric-extension/INDEPENDENT_AUDIT.md",
+    "public_sha256": "8f25070456df730d96be81ece6691fcf4f87c3d02920b8dec719a59783d6bca6"
+  },
+  {
+    "source": "rank-one-surface-constraints-audit/AUDIT.md",
+    "source_sha256": "75abb531bf527dd0b1061d8f8b9ac6a8a967dffd19374a5ad38976068f41c65e",
+    "public_path": "research/hm/middle-surface/rank-one-surface-constraints-audit/AUDIT.md",
+    "public_sha256": "4d3c8df25f9a0e12b31da46972b8e62bccb72289d8aba4e5d7413b89223822dd"
+  },
+  {
+    "source": "rank-one-ternary-surface-constraints/PROOF.md",
+    "source_sha256": "927e4da906a493be68a7eae846e017f29c549855bb6ca209f869d7a8febb22cc",
+    "public_path": "research/hm/middle-surface/rank-one-ternary-surface-constraints/PROOF.md",
+    "public_sha256": "8e2c329e3c2d4bb100cbe21c25ba1d6487219ad7c19aedc940cc56cb7053ed9e"
+  },
+  {
+    "source": "rank-one-ternary-surface-constraints/ROOT_CHECK.md",
+    "source_sha256": "51342f7a68228c14bc51b0e8a1892e0e15789e819d5a9e76b3396799cc64ffb4",
+    "public_path": "research/hm/middle-surface/rank-one-ternary-surface-constraints/ROOT_CHECK.md",
+    "public_sha256": "ab53ff01827df50d8b7e95ef79d8643dbeba0a68179fab77d0ea9942bf31ce14"
+  },
+  {
+    "source": "ternary-metric-boundary/AUDIT.md",
+    "source_sha256": "6984e46a3682e6042dbb2ab43d6a2065752dd92d6a5ae56c1ab7e527860ca3f1",
+    "public_path": "research/hm/middle-surface/ternary-metric-boundary/AUDIT.md",
+    "public_sha256": "eb087e9f6172d3885eec634b946a7679ac165f28ef650095efcc0fb7c492f304"
+  },
+  {
+    "source": "ternary-metric-boundary/PROOF.md",
+    "source_sha256": "cd0be4013b9994ca30c7dfb8a07f20880718ffdb9e20f8eefa7527346e2135b4",
+    "public_path": "research/hm/middle-surface/ternary-metric-boundary/PROOF.md",
+    "public_sha256": "123b6c54e055bbb02e2555d539ee2fcf2d30a49ed00ca342ac218d0ce633cfd1"
+  },
+  {
+    "source": "ternary-metric-boundary/ROOT_CHECK.md",
+    "source_sha256": "7484dcea9777f620b6c92d987011f6d57a907a6f1f0f6312051bb48cba2c2293",
+    "public_path": "research/hm/middle-surface/ternary-metric-boundary/ROOT_CHECK.md",
+    "public_sha256": "01a72ec6c68181be7dc45e5eb6a929de350f84e4852d8d292efc152f24167b5a"
+  },
+  {
+    "source": "degenerate-ternary-surface-constraints/PROOF.md",
+    "source_sha256": "14076dc2332eba2bf3840881222ba48761b9509614ac0acc531b7307e796e793",
+    "public_path": "research/hm/middle-surface/degenerate-ternary-surface-constraints/PROOF.md",
+    "public_sha256": "a646055158f1c41d6debea4b6f3a6e024478c4c0dbc71e0b88cf01205d9de096"
+  },
+  {
+    "source": "degenerate-ternary-surface-constraints/ROOT_CHECK.md",
+    "source_sha256": "3a1c8d3400cb25bea2550ae13869f4302b9ab88ba8d61373b757dcf26ad2a8c1",
+    "public_path": "research/hm/middle-surface/degenerate-ternary-surface-constraints/ROOT_CHECK.md",
+    "public_sha256": "9a9538765f3c042522a442689790baf4ad6dedcb9d18f3a4a10cc0d635dbe900"
+  }
+]
