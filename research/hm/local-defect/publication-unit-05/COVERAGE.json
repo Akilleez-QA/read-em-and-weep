@@ -1,0 +1,17 @@
+{
+  "unit": "05",
+  "clusters": [
+    "length-nine-local-defect",
+    "length-ten-local-defect",
+    "rank-eight-defect-300"
+  ],
+  "core_predecessors": [
+    "04"
+  ],
+  "external_inputs": [
+    "normalizer-300-point-orbits",
+    "rank-eight-finite-image-defect"
+  ],
+  "later_contextual_units": [],
+  "scope": "Length-nine exclusion and an abstract length-ten wedge module attaining the scalar Betti bound. A finite module is constructed, not a rank-two reflexive realization. This rigorously limits the scalar-only method."
+}
