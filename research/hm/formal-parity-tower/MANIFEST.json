@@ -1,0 +1,23 @@
+{
+  "scope": "Exact published mathematical files; source-proof review, not formal machine verification.",
+  "base_pr": 425,
+  "base_commit": "df433cdd359fa9c7750bf9c8b9765229eac534f6",
+  "files": {
+    "INDEPENDENT-REVIEW.md": {
+      "sha256": "0738d64a7b0c65eea394fc92b66c22373e29fc2596af2ad5a496e1515bbfa3f7",
+      "bytes": 5333
+    },
+    "PROOF.md": {
+      "sha256": "8a85cf0bee9cc3f4c2accd19f5f92de8a101caca431b01378f214017cff2e25a",
+      "bytes": 20816
+    },
+    "README.md": {
+      "sha256": "431b25e613fe84ddb74901b3fb0c7b059c9db6c806d3d0ca8bf496bbc239fc67",
+      "bytes": 2888
+    },
+    "ROOT-REVIEW.md": {
+      "sha256": "fdb7b4da7d6a968186b86f70a1e42112993a6d07507eefcf419db2176fb313fd",
+      "bytes": 2916
+    }
+  }
+}
