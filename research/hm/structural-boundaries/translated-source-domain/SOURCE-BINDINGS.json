@@ -1,0 +1,36 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "translation-source-domain-20261018/PROOF.md",
+      "source_sha256": "e9e6d9f66de06e32cc7f6ab56baacbfc86df8f7986a9f42fc7af40fa27527ece",
+      "public_path": "research/hm/structural-boundaries/translated-source-domain/PROOF.md",
+      "public_sha256": "248b8545f631594ec04f317c31188508b28ccb2c1b52bf5a8dc72bfd25ec7f43",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "translation-source-domain-20261018/REVIEW.md",
+      "source_sha256": "482b6dd2eb42e234f9301cc3fdc089facd087a9794c8f96653077ac551eaf456",
+      "public_path": "research/hm/structural-boundaries/translated-source-domain/REVIEW.md",
+      "public_sha256": "151d322d9f2b87705bc10ab2fdfd248ba140d6c2cfe61a8b4d1221dd45a8e47c",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "translation-source-domain-20261018/SOURCES.md",
+      "source_sha256": "b1b6c1abb657a7076aae8df0721dde2440dcce884d4edf408522a1293b1c9f71",
+      "public_path": "research/hm/structural-boundaries/translated-source-domain/SOURCES.md",
+      "public_sha256": "8fab1cafce3339f4c71f76f1da99290c0e683100ad5f5977511a093ced3ec8ea",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [
+    {
+      "artifact": "translation-source-domain-20261018/check_metadata.py",
+      "sha256": "2f4dbc69e6c4159b98d04fbef55bd91a497e7f1ae4038d6499f795e579abdb41",
+      "reason": "Historical replay/source-manifest wrapper; not a standalone mathematical control. Its original edition is not reproduced as a runnable entry point."
+    }
+  ],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
