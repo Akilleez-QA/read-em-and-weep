@@ -1,0 +1,14 @@
+{
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/AccumulationBound.lean": "58089d8f62351afd200362e136710bb2dcd3cc785b1f7e7bf27df976166c5745",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/ResidueBridge.lean": "f90f3b54a4e9f97d9109bdb67decb4ef9c881704c80d7b6cec5cf8ed52923846",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/recheck.sh": "b1c7f790950c8df037501f376784ad00929c93d7f8d03b4203e4b7fc1fb21770",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/README.md": "c1020222069b4d698484bd8e848019948f248ced9cc76dc4143a64db797fd690",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/audit/rebuild.sh": "e688b5ac58a223803a181184ca03aadfbad47108cff436a911653b4f7f8c81a0",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/audit/AuditChecks.lean": "982c2d2d063949d51ff327fa85b5a98ad92c74027e6333019bb390942d78378e",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/audit/independent-rebuild.log": "23aa610ea8aeb8c9c2e1bfbfe3d8179137648fe6e121e9a868e944f4ba4f31de",
+  "${ARTIFACT_ROOT}/selector-accumulation-bound/audit/independent-rebuild.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "${ARTIFACT_ROOT}/selector-laurent-bridge/ResidueBridge.lean": "f90f3b54a4e9f97d9109bdb67decb4ef9c881704c80d7b6cec5cf8ed52923846",
+  "${ARTIFACT_ROOT}/vermilion-tooling/vermilion/lean-toolchain": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
+  "${ARTIFACT_ROOT}/vermilion-tooling/vermilion/lake-manifest.json": "1855c8d7909390a1e52c6622f3bb8252f75a2ec918241bf80dab3dcc8673d41c",
+  "${ARTIFACT_ROOT}/vermilion-tooling/toolchain/lean-4.33.0-linux/bin/lean": "e8baaa71855a616dc351028f3ad2200051b0671f423a1696a100e809302d5550"
+}

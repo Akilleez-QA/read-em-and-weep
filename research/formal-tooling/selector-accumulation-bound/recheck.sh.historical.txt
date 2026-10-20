@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+HERE="$(cd "$(dirname "$0")" && pwd)"
+source ${ARTIFACT_ROOT}/vermilion-tooling/env.sh
+export LEAN_PATH="$HERE:${LEAN_PATH:-}"
+cd ${ARTIFACT_ROOT}/vermilion-tooling/vermilion
+cmp "$HERE/ResidueBridge.lean" ${ARTIFACT_ROOT}/selector-laurent-bridge/ResidueBridge.lean
+for module in ResidueBridge AccumulationBound; do
+  lake env lean "$HERE/$module.lean" -R "$HERE" -o "$HERE/$module.olean"
+done
