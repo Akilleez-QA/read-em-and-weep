@@ -1,0 +1,72 @@
+{
+  "audit_sha256": "f355f438afb806229b2c14ded06a47aa9f525a3ca6944c0f05442df3771f900f",
+  "reviewed_payload": [
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+      "sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+      "bytes": 19376
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/REVIEW.md",
+      "sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "bytes": 15674
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/REVIEW.md",
+      "sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "bytes": 15674
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/check_controls.py",
+      "sha256": "3e6c940bda552e25958f6ff749e858a3d4877c8f211f28a93adc088f5692adf5",
+      "bytes": 6103
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/check_independent.py",
+      "sha256": "2312d4f137b58c1f15c73140cb946ba490255ca3e6d51adc041d72db395c72ee",
+      "bytes": 6482
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PUBLICATION.md",
+      "sha256": "221f9bbda6b936c12926eb6f607fb53cab8c9404a9f5404423b2d73743bde8e6",
+      "bytes": 288
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/DEPENDENCIES.md",
+      "sha256": "28baabcddc0db1c7b7ca83a1702b030bb9f04cb9511225917148d5fa778e34f2",
+      "bytes": 1005
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/SOURCE-BINDINGS.json",
+      "sha256": "badb68ec7ecb6097777977bc5a9f2bfa9ba8af4d87fc30dfd1b3f88f7ccacad5",
+      "bytes": 3703
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "2583e7ddaf86a52dc7fc37f823fc1c42afd2dde51a0c323625a65de951562145",
+      "bytes": 16027
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-PROOF.md",
+      "sha256": "a6d670ac8a69927dcd72dd3cbe0a7004fd2acc6395084c5e128b6c036f0ce6d0",
+      "bytes": 15571
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-REVIEW.md",
+      "sha256": "f3b34c4a47a24015f455beb837551c23b6cc6fa2de79039a21ac689053b9e214",
+      "bytes": 11860
+    }
+  ],
+  "review_scope": "00A-03"
+}
