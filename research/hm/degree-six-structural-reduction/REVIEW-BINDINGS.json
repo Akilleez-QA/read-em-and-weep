@@ -1,0 +1,17 @@
+{
+  "review_date": "2026-10-20",
+  "status": "Two scoped mathematical reviews passed for the exact proof edition. This is not formal verification or an evaluated HM multiplication map.",
+  "sha256": {
+    "PROOF.md": "3a1550676140a8558c417838a017488bf9d45c100e125f8b487ffadd533df3eb",
+    "README.md": "eb7e2037d6dc18159f91ca4016880c3850c922faac1cdba8699de051509b702f",
+    "INDEPENDENT-REVIEW.md": "bfc7dd854ad929d8f0de8b3f1746e1c46c65085f259c8d47660266df73249d23",
+    "ROOT-REVIEW.md": "bb3dfcc1ba6f9e5f26bb4a0f6b30d5cd1ddc5f6f52da254bf965a247b86f56ec"
+  },
+  "base_and_endpoint_dependency": {
+    "commit": "bf6ce91fd73fbc96cb8ede65448dfedbc0328c7b",
+    "path": "research/hm/paired-collision-endpoint/PROOF.md",
+    "git_blob_sha1": "8b420be9fd49374981a7dfc59058483a4ae4dbfa"
+  },
+  "other_public_dependency_bindings": "Exact immutable commit URLs and Git blob identifiers appear in PROOF.md and INDEPENDENT-REVIEW.md.",
+  "unresolved": "The transgression, surface H1, primary quotient dimension and induced differential rank remain unevaluated. Neither Q=0 nor order-six sufficiency is proved."
+}
