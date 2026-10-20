@@ -1,0 +1,62 @@
+[
+  {
+    "source": "rank-four-line-component-exclusion/AUDIT.md",
+    "source_sha256": "735215905e1c7ce699ba906fce396e7f8252a68c212695e9596f93a705abf9c6",
+    "path": "research/hm/rank-four/rank-four-line-component-exclusion/AUDIT.md",
+    "sha256": "97e5e7182495fa7dad1b58f1376068811363bfc1d596c0c5847bffe8dbe70006"
+  },
+  {
+    "source": "rank-four-line-component-exclusion/PROOF.md",
+    "source_sha256": "e3d53ac26a4169cd49228e425302a4a7e521ff35faf72234c7366b614ed8b98f",
+    "path": "research/hm/rank-four/rank-four-line-component-exclusion/PROOF.md",
+    "sha256": "e3d53ac26a4169cd49228e425302a4a7e521ff35faf72234c7366b614ed8b98f"
+  },
+  {
+    "source": "rank-four-conic-component-classification/AUDIT.md",
+    "source_sha256": "b78f44aa9ecbd45663e0f278a3c25ada5ccad90e8444888432495d3325c97f64",
+    "path": "research/hm/rank-four/rank-four-conic-component-classification/AUDIT.md",
+    "sha256": "b78f44aa9ecbd45663e0f278a3c25ada5ccad90e8444888432495d3325c97f64"
+  },
+  {
+    "source": "rank-four-conic-component-classification/INDEPENDENT_AUDIT.md",
+    "source_sha256": "5fdf29eededbac73a3cb387cb1c2fe14df5677d7de42bee3fa277f6174f37cdc",
+    "path": "research/hm/rank-four/rank-four-conic-component-classification/INDEPENDENT_AUDIT.md",
+    "sha256": "b0ed71803942fb2ce89993d5d4bbb2db1aae03d39902e3fb0bee6beda28cf901"
+  },
+  {
+    "source": "rank-four-conic-component-classification/PROOF.md",
+    "source_sha256": "72c92e0a14c8f5e9965fe0f0493c11b0776f0b360177f9492fbc9f1ef9e35fe6",
+    "path": "research/hm/rank-four/rank-four-conic-component-classification/PROOF.md",
+    "sha256": "42449e427a8422986f74ccc87fed28a644b7dd428df1ecc53a523ed7527b046a"
+  },
+  {
+    "source": "rank-four-canonical-conic-exclusion/INDEPENDENT_AUDIT.md",
+    "source_sha256": "a13dd6d1b8c92b5a666ffd7dfca3663d2a2de5bd2f60e13d71bcae5bece7c5ec",
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/INDEPENDENT_AUDIT.md",
+    "sha256": "261c0b272e5e654097e557dcffaf63ff45e31b64c857574dc316ac419b481b11"
+  },
+  {
+    "source": "rank-four-canonical-conic-exclusion/LINE_ADDENDUM.md",
+    "source_sha256": "428e53fc9d29d56af58c7a00e2e8d55b90b39da684c5c350ec96686011997cda",
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/LINE_ADDENDUM.md",
+    "sha256": "428e53fc9d29d56af58c7a00e2e8d55b90b39da684c5c350ec96686011997cda"
+  },
+  {
+    "source": "rank-four-canonical-conic-exclusion/POINTWISE_ADDENDUM.md",
+    "source_sha256": "c7667697e7c5f33e4bf9a52b1b7644784531f2388fb2271070ae595b58c27133",
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/POINTWISE_ADDENDUM.md",
+    "sha256": "c7667697e7c5f33e4bf9a52b1b7644784531f2388fb2271070ae595b58c27133"
+  },
+  {
+    "source": "rank-four-canonical-conic-exclusion/PROOF.md",
+    "source_sha256": "f2f079b08a80d62a96a84483d8181bc15c20558247f83dbf973324d62415f9be",
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/PROOF.md",
+    "sha256": "f2f079b08a80d62a96a84483d8181bc15c20558247f83dbf973324d62415f9be"
+  },
+  {
+    "source": "rank-four-canonical-conic-exclusion/SELF_AUDIT.md",
+    "source_sha256": "27249cfe8f4e8453c01a0e198d8997d52b63822d27a0da5e4b1ee3ba2daf53a8",
+    "path": "research/hm/rank-four/rank-four-canonical-conic-exclusion/SELF_AUDIT.md",
+    "sha256": "04ac6241fd4a74189ca10c63eb2dc15e12222e113dd0bc55007183f336bde62b"
+  }
+]
