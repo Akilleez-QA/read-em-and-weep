@@ -1,0 +1,30 @@
+[
+  {
+    "public_path": "research/conductor-normalization/nullcone-normalization/PROOF.md",
+    "public_sha256": "1ce2497b0985d2aa6b45101f88fcc74c680bf27f3a2ccdde4bf9debce332627a",
+    "source": "nullcone-normalization/PROOF.md",
+    "source_sha256": "74157d8baab2b705d378e5a3586ad6c5ef90bab7c7b8c845019aa6c8a6caa865",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/nullcone-normalization/AUDIT.md",
+    "public_sha256": "451d32fc84fb0bd6539e2eae0a43b1efdca7e8d98deda36f2308ed5aaa3ee044",
+    "source": "nullcone-normalization/AUDIT.md",
+    "source_sha256": "ae228c01a9e6d9d1c2b861b1dcc86eb5ea5bb1ed46b6ba9de04f404ddf2c3fef",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/normalization-module-resolution/PROOF.md",
+    "public_sha256": "5f0d6168142987c91d120746c34b4568598b32f8fb99770e1ed3c3c984b60c33",
+    "source": "normalization-module-resolution/PROOF.md",
+    "source_sha256": "d8a549c07515eef785c13f634e8dadd45bb0c37e20daf437a2f8e5c04de4035b",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/normalization-module-resolution/AUDIT.md",
+    "public_sha256": "748bd72a374734d2b2904d822b9c436b11910b437fc134bbbdef6a9565e83b41",
+    "source": "normalization-module-resolution/AUDIT.md",
+    "source_sha256": "7aaec5e7aaf28b06df1abba2561f82f05a0bcb830ee4f13af67f143b59999d86",
+    "treatment": "complete"
+  }
+]
