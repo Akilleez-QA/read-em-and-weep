@@ -1,0 +1,26 @@
+[
+  {
+    "artifact": "rank-one-even-length-spectrum/AUDIT.md",
+    "original_sha256": "32afc678ab2a752b7edfcbf13484a5d6a90979b72757efde86fa08f28ad824e7",
+    "published_sha256": "c60540198fab6dbe25b72aed8181fb903aff3ca8de5c7065e3b982d30e104870",
+    "path": "research/hm/local-defect/rank-one-even-length-spectrum/AUDIT.md"
+  },
+  {
+    "artifact": "rank-one-even-length-spectrum/PROOF.md",
+    "original_sha256": "8079a62ac3993de1f110fe647433956a0dd58fec1d1eba9e542d17df6dcebeb6",
+    "published_sha256": "822252e270587622ded5b0d90905296e50288c83f6a663fed7eea502fc771b35",
+    "path": "research/hm/local-defect/rank-one-even-length-spectrum/PROOF.md"
+  },
+  {
+    "artifact": "rank-one-even-sharpened-spectrum/AUDIT.md",
+    "original_sha256": "e2190226e6b18d127172c98b4a84e101e616cda1a57093e22340b1e50af084a8",
+    "published_sha256": "7d2700294739053398fbb1cf2f6d569166bdfbf16074f0fb49ab83bd2f064de3",
+    "path": "research/hm/local-defect/rank-one-even-sharpened-spectrum/AUDIT.md"
+  },
+  {
+    "artifact": "rank-one-even-sharpened-spectrum/PROOF.md",
+    "original_sha256": "3de040e53058f66484c43b1816d0308796b14122d917229d5d0a80931df88b3c",
+    "published_sha256": "7ba074b2f3b78915a29e0cb3204d421029fa9e8b36451c88dfd1f5b702c619f4",
+    "path": "research/hm/local-defect/rank-one-even-sharpened-spectrum/PROOF.md"
+  }
+]
