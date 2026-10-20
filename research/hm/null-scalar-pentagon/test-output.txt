@@ -1,0 +1,4 @@
+PASS: free-bracket delta C = {b012,b234}; hence delta Psi = 0.
+PASS: ordinary cubic exponential terms cancel under delta b = 0.
+PASS: scalar weights of Psi lie in P/Q, excluding full-sign P xor Q.
+Scope: symbolic scalar identities only; no geometric/model evaluation or extension existence claim.
