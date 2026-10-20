@@ -1,0 +1,17 @@
+{
+  "unit": "04",
+  "clusters": [
+    "length-seven-local-defect",
+    "length-eight-local-defect",
+    "rank-eight-defect-270"
+  ],
+  "core_predecessors": [
+    "03"
+  ],
+  "external_inputs": [
+    "normalizer-250-simple-defect",
+    "rank-eight-finite-image-defect"
+  ],
+  "later_contextual_units": [],
+  "scope": "Exclusions of lengths seven and eight under the stated order-twenty cotangent representation; conditional global lower bound270 is an intermediate consequence, not the final frontier."
+}

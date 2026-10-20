@@ -1,0 +1,111 @@
+Publication context: this retained proof or audit may describe an intermediate bound or then-open branch. Read the unit overview for the current scope and later implications. Historical mathematical review is not a new formal verification.
+
+# Exclusion of a local defect of length seven
+
+## Statement and scope
+
+Let R be a regular local complex ring of dimension four, with residue field C. Let M be an equivariant rank-two reflexive R-module, free away from the closed point and with equivariantly trivial determinant. Suppose the stabilizer contains G=C5⋊C4, with clock Z and order-four multiplier g, and W=m/m² has each nontrivial clock character once, permuted transitively by g. Then
+
+    length_R Ext²_R(M,R) ≠ 7.
+
+Only universal local algebra and abstract representations are used. No physical source/model matrix, operation, chosen input, rank instance, jet, or residue is evaluated. This proof imposes a necessary exclusion, not existence at any other length.
+
+## 1. Necessary Betti inequality and representation facts
+
+Put Q=Ext²_R(M,R), and β_i=dim_C Tor_i^R(Q,C). The local self-duality and generator inequality proved in ../length-five-local-defect/PROOF.md, Section 1, give
+
+    β2−β4 ≤ 2+β1−β0.
+
+Here finite-length duality identifies μ(Ext⁴_R(Q,R)) with β4. The alternating rank identity β0−β1+β2−β3+β4=0 rewrites this as
+
+    β3(Q) ≤ 2β4(Q)+2.                         (1)
+
+In particular Q=k^n has β3=4n and β4=n, so semisimple defects require n≤1.
+
+We may faithfully flatly complete R, preserving the quantities involved. Averaging supplies a G-invariant parameter space lifting W, identifying the completion with C[[x1,x2,x3,x4]] with linear G-action on the parameters. The irreducible G-representations are its one-dimensional characters (all clock-trivial) and a unique four-dimensional representation V with the four nontrivial clock weights. This is proved by taking the g-orbit of a nontrivial clock eigenvector; see the length-five proof, Section 2. In particular W≅V.
+
+At length seven the underlying G-module Q is either clock-trivial or V⊕U, where U has dimension three and is clock-trivial. In the first case multiplication by every parameter is zero, so Q is semisimple and excluded. If mQ=0 in either representation case, the underlying module is k^7 and violates (1). Hence assume Q=V⊕U and mQ≠0.
+
+## 2. Exhaustive Loewy possibilities
+
+Each nonzero layer L_i=m^iQ/m^(i+1)Q is a G-representation, and multiplication gives a surjection W⊗L_i→L_(i+1). Exactly one layer contains V, unless Q is clock-trivial. If two consecutive layers were both clock-trivial, their multiplication map would vanish by clock weights, contrary to surjectivity and nonvanishing. Because the total multiplicity of V is one, there are at most three nonzero layers.
+
+If there are three layers, V must occur in the middle. The top and bottom are clock-trivial, and the surjection W⊗L_0→L_1 implies the middle has no clock-trivial summand. Therefore the only possibilities with m²Q≠0 are
+
+    (dim L_0, dim L_1, dim L_2)=(1,4,2) or (2,4,1),
+    and m³Q=0.                                (2)
+
+All other nonsemisimple possibilities have m²Q=0. This argument also permits arbitrary character multiplicities and semisimple summands; none have been discarded.
+
+## 3. Square-zero modules
+
+Suppose m²Q=0. Set a=dim(Q/mQ), b=dim mQ, so a+b=7 and a,b≥1. Choose a vector-space splitting Q=T⊕B with B=mQ. In the parameter Koszul complex the only nonzero differential components are
+
+    δ_i:T⊗Λ^iW → B⊗Λ^(i−1)W.
+
+Write r_i=rank δ_i and s=r4. Then
+
+    β3=28−r3−s,    β4=7−s.
+
+Thus (1) would require
+
+    r3−s ≥ 12.                                (3)
+
+The kernel of δ4 identifies with the common annihilator of W on T, tensored with Λ⁴W. Consequently the active quotient of T has dimension s≤a, and δ3 factors through its tensor product with Λ³W. Hence
+
+    r3≤min(4s,6b),   r3−s≤min(3s,6b−s).
+
+Maximizing this last integer bound over 0≤s≤a gives, for a=1,2,3,4,5,6 respectively, the bounds 3,6,9,12,9,4. Only a=4,b=3,s=4 can satisfy (3).
+
+In that case the top must be V and the radical clock-trivial: the unique copy of V cannot fit in the three-dimensional radical. Choose a clock eigenbasis v_i of the top, indexed by nonzero i∈F5, and parameters x_j with clock weight j. Multiplication x_jv_i can be nonzero only when j=−i, because the radical is clock-trivial. Therefore
+
+    v_i ⊗ (the wedge of the three x_j with j≠−i)
+
+is a nonzero element of ker δ3. These four elements are independent, since their top factors are independent. Thus r3≤16−4=12. Since the only numerical borderline has s=4, it follows that r3−s≤8, contradicting (3). All square-zero cases are excluded.
+
+## 4. Cyclic Hilbert function (1,4,2)
+
+Suppose Q has Hilbert function (1,4,2). It is cyclic, say Q=R/I. Since its embedding dimension is four and m³Q=0,
+
+    m³ ⊂ I ⊂ m².
+
+With the chosen parameters, every quadratic relation modulo m³ is itself a relation, since m³⊂I. Thus I is generated by its homogeneous quadratic part and all cubic monomials. This proves that Q is genuinely the completion of a graded algebra B with Hilbert series 1+4t+2t²; no assumption of homogeneous degeneration or invariance of Betti numbers under degeneration is being made.
+
+The socle is exactly m²Q. Indeed the common annihilator of multiplication on the irreducible middle V is a G-invariant subspace, and is not all V because m²Q≠0, so it is zero. A socle element outside mQ would generate Q and force mQ=0. Thus β4(Q)=2.
+
+For the graded Betti numbers, the Hilbert numerator is
+
+    (1+4t+2t²)(1−t)^4
+       =1−8t²+12t³−3t⁴−4t⁵+2t⁶.
+
+The minimal ideal generators have degrees at most three. Hence β_(1,4)=β_(1,5)=0. The degree-four coefficient identity gives
+
+    −3=β_(2,4)−β_(3,4)+β_(4,4),
+
+so β_(3,4)≥3. Likewise the degree-five identity gives β_(3,5)≥4. Therefore β3(Q)≥7. Completion preserves these minimal Betti numbers. This contradicts (1), whose right side is six.
+
+We will also use the fact that any such cyclic algebra has β1≥8, because its quadratic ideal space has dimension dim Sym²W−2=10−2=8, and these quadratic relations are minimal generators.
+
+## 5. Hilbert function (2,4,1)
+
+Now suppose Q has Hilbert function (2,4,1). Write S=m²Q, of dimension one. The same irreducibility argument on the middle V proves
+
+    soc(Q)∩mQ=S.
+
+Indeed multiplication from the middle to S is nonzero, and its common kernel in V must be zero. The socle can therefore have additional vectors only through the two-dimensional top.
+
+If dim soc(Q)=1, finite-length duality D(Q)=Ext⁴_R(Q,R) is cyclic, with length seven. As an underlying module it is the C-linear dual, up to an irrelevant one-dimensional equivariant twist. It still has a single V constituent and three clock-trivial constituents. Also m²D(Q)≠0 because duality faithfully detects a nonzero multiplication by any degree-two element; and m³D(Q)=0. Section 2, together with cyclicity, gives its Hilbert function (1,4,2). By Section 4, β1(D(Q))≥8. Dualizing minimal resolutions reverses their Betti numbers, so β3(Q)≥8. But β4(Q)=1, contradicting (1).
+
+Otherwise there is a socle vector q outside mQ. A linear functional on Q/mQ taking q to 1 gives an R-linear map Q→k split by 1↦q. Thus Q≅k⊕N. There cannot be two independent socle classes in the top: they would exhaust a generating top and force mQ=0. Consequently soc(Q) has dimension two, and N has Hilbert function (1,4,1) and socle dimension one.
+
+The module N is cyclic and is a length-six local Gorenstein quotient. It is self-dual as an R-module: a C-linear functional nonzero on its one-dimensional socle induces a nondegenerate multiplication pairing, since every nonzero ideal of an Artinian local algebra meets the socle. Its quadratic relations have dimension 10−1=9 and are minimal; hence β1(N)≥9. Self-duality of its minimal resolution gives β3(N)=β1(N)≥9. Betti additivity yields
+
+    β3(Q)=4+β3(N)≥13,    β4(Q)=1+1=2.
+
+Again (1) is violated. This does not assume that a direct summand of Q is itself realizable as an Ext² defect; the necessary inequality is applied only to Q.
+
+## 6. Conclusion and dependencies
+
+The semisimple case, all square-zero cases, and both possible three-layer cases have been excluded. This proves the length-seven exclusion under the stated subgroup hypothesis. In particular it applies at the canonical stabilizer established in ../length-two-local-defect/PROOF.md.
+
+The proof depends on the isolated rank-two local duality and generator inequality in ../length-five-local-defect/PROOF.md, Section 1, and the abstract stabilizer representation described there and in ../length-two-local-defect/PROOF.md. It is independent of any length-six exclusion and does not assert a new global bound without separately combining all smaller-length exclusions.
