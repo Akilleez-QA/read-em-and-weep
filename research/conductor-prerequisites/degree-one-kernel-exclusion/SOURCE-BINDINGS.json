@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "S051",
+    "source": "degree-one-kernel-exclusion/PROOF.md",
+    "source_sha256": "bfb3c86faf2aefb94c382af2615cdcaa68e6a8d493580f10096b847b21fbdb58",
+    "source_bytes": 8199,
+    "public_path": "research/conductor-prerequisites/degree-one-kernel-exclusion/PROOF.md",
+    "public_sha256": "75a9abd681a35847713f6fbd6ae583968ed6126eccdb89d8f49fb06b431414d1",
+    "public_bytes": 8328,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S051",
+    "source": "degree-one-kernel-exclusion/AUDIT.md",
+    "source_sha256": "cc68d91b68f46fc2e7e93a52ab6e13ff2a41fb9ad267f0c4966f36cd25b34f40",
+    "source_bytes": 9691,
+    "public_path": "research/conductor-prerequisites/degree-one-kernel-exclusion/AUDIT.md",
+    "public_sha256": "e4b8e70d8ce96d923a1df19bc5d9178abe1f78f4aa6fc11f9a53cd6c691b5bef",
+    "public_bytes": 9754,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]

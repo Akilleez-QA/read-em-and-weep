@@ -1,0 +1,28 @@
+{
+  "claim_id": "S051",
+  "section_order_note": "Read §§1–2 after global-conic §§1–3, before square factorization. The a=1 contradiction uses generation of I_Z(5), h⁰=2, and complete-intersection length25 versus19. No factorization theorem is needed for this exclusion. §§3–4 additionally apply square-factorization, finite-detector and disjoint-zero results. For the actual E the only nonnegative saturated line degree is a=0; detector dimensions are zero or three, not ten. The actual branch remains undetermined.",
+  "references": {
+    "global-conic-splitting-exclusion/PROOF.md": {
+      "id": "S110",
+      "section_dependency": "See section-level dependency register"
+    },
+    "finite-square-component-detector/PROOF.md": {
+      "path": "research/conductor-normalization/finite-square-component-detector/PROOF.md",
+      "commit": "8c5988165e006d7a3863b7a6b4d2bfe443151ac3",
+      "pr": 170,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c5988165e006d7a3863b7a6b4d2bfe443151ac3/research/conductor-normalization/finite-square-component-detector/PROOF.md",
+      "public_sha256": "c921144d93c52b72cc57d163f9c416db16c3be3d7e8c3cdc3827555809df21bf"
+    },
+    "square-detector-factorization/PROOF.md": {
+      "id": "S351",
+      "section_dependency": "See section-level dependency register"
+    },
+    "disjoint-zero-extension-detector/PROOF.md": {
+      "path": "research/conductor-normalization/disjoint-zero-extension-detector/PROOF.md",
+      "commit": "8c5988165e006d7a3863b7a6b4d2bfe443151ac3",
+      "pr": 170,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c5988165e006d7a3863b7a6b4d2bfe443151ac3/research/conductor-normalization/disjoint-zero-extension-detector/PROOF.md",
+      "public_sha256": "3d94f3678b8a240c2bd1c7647f63dc33cb8730745aa85942330f4a991052fd73"
+    }
+  }
+}
