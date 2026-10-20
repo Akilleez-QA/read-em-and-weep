@@ -1,0 +1,24 @@
+[
+  {
+    "label": "sharper-hm-regularity",
+    "pr": 167,
+    "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+    "path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+    "sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067",
+    "git_blob_sha1": "58785a8799c43fd2c7da089d0ddc5e05822132a9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+    "role": "Normalized F section vanishing H0(F(u))=0 for u<3, not a claim about H2(End0F(1))",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "actual-twist-two-vanishing",
+    "pr": 94,
+    "commit": "73917b562c26be3c7999b005bf6f2514206eaf43",
+    "path": "research/hm/twist-two-vanishing/PROOF.md",
+    "sha256": "278e89116e55f35db50380b7f76336a85c6d728760995b8f782daeda9a5def6f",
+    "git_blob_sha1": "6ba5a302d49e8fda61ba39af0ab86449b83435a1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/73917b562c26be3c7999b005bf6f2514206eaf43/research/hm/twist-two-vanishing/PROOF.md",
+    "role": "Current-scope qualification only: H0(End0(F)(2))=0 makes actual k=2 branch vacuous",
+    "status": "published; local publication payload"
+  }
+]
