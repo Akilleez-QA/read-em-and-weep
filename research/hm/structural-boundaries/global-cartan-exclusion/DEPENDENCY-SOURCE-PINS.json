@@ -1,0 +1,87 @@
+{
+  "scope": "Original mathematical dependency edition hashes, not execution authentication. No local paths are disclosed. Canonical public commits must be added before claiming exact source closure.",
+  "dependencies": [
+    {
+      "source_reference": "dependencies/ext-model.md",
+      "source_sha256": "c0207babc8cdde0a29c4ee5fe1879b463785189174e12b7353879cc8d37be492",
+      "matching_staged_public_files": [
+        {
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/add03476d9055aa00e1e00778eea6332cf8e01cc/research/hm/ext-model.md",
+          "public_sha256": "c0207babc8cdde0a29c4ee5fe1879b463785189174e12b7353879cc8d37be492",
+          "status": "exact immutable public content freshly verified"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/product-root-PROOF.md",
+      "source_sha256": "8dea4aa63017a52441b7e1e1f22b6886754a0030b1dfe9932e005b11d8ab5342",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/product-root-PROOF.md",
+          "public_sha256": "5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/product-root-PROOF.md",
+          "public_sha256": "5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/product-root-REVIEW.md",
+      "source_sha256": "1b88fe1bdcf399fb6158984692925fcc84c3afd25a17cb60ddbe5148fa8f8bb0",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/product-root-REVIEW.md",
+          "public_sha256": "ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/product-root-REVIEW.md",
+          "public_sha256": "ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/same-carrier-PROOF.md",
+      "source_sha256": "2e1d0c5e43302f66bedb114a0676d3fa928e73882498d21c54f9a7feab710901",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/same-carrier-jet-collapse/PROOF.md",
+          "public_sha256": "260081cce38a073cffd5dd4ddb9bcf82cb0ff6661464138dbb27079e67810429",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/same-carrier-REVIEW.md",
+      "source_sha256": "8710c594cb7b90a1045a01a993eaed2f7425f7cf4d43fef1c52f5f05b89431a0",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/same-carrier-jet-collapse/REVIEW.md",
+          "public_sha256": "d5ad39da9ad653a4ca1061cddbe9f4dc805a66d01cf2a3987c5fdc041accea2e",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/source-diagonal-connections.md",
+      "source_sha256": "7c2ff83d57921d572e4ce2e80508a497ff58d4aca00d8f52a32185a360319fbc",
+      "matching_staged_public_files": [
+        {
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b80a710530a5d5d9b1844196bc446459daf0732f/research/hm/null-source-integration/complete-raw-remainder/source_diagonal_connections.md",
+          "public_sha256": "7c2ff83d57921d572e4ce2e80508a497ff58d4aca00d8f52a32185a360319fbc",
+          "status": "exact immutable public content freshly verified"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    }
+  ]
+}
