@@ -1,0 +1,7 @@
+Author compilation: PASS (exit 0), 2026-10-18 18:44 UTC.
+Lean: 4.19.0.
+Mathlib: v4.19.0, c44e0c8ee63ca166450922a373c7409c5d26b00b.
+Command:
+${ARTIFACT_ROOT}/lean-koszul/check-lean.sh ${ARTIFACT_ROOT}/lean-koszul/Propagation.lean -R ${ARTIFACT_ROOT}/lean-koszul -o ${ARTIFACT_ROOT}/lean-koszul/Propagation.olean
+No compiler diagnostics. Olean emitted.
+Independent axiom review belongs to AuditPropagation.lean and auditor's report.

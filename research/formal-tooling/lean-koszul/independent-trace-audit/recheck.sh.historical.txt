@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT=${ARTIFACT_ROOT}/lean-koszul
+for VER in 433 419; do
+  if [[ "$VER" == 433 ]]; then
+    BIN=${ARTIFACT_ROOT}/vermilion-tooling/toolchain/lean-4.33.0-linux/bin
+    PROJECT=${ARTIFACT_ROOT}/vermilion-tooling/vermilion
+    MATHLIB="$PROJECT/.lake/packages/mathlib"
+  else
+    BIN="$ROOT/toolchain/lean-4.19.0-linux/bin"
+    PROJECT="$ROOT/mathlib"
+    MATHLIB="$PROJECT"
+  fi
+  OUT="$ROOT/independent-trace-audit/lean$VER"
+  mkdir -p "$OUT"
+  export PATH="$BIN:$PATH"
+  lean --version > "$OUT/version.log"
+  git -C "$MATHLIB" rev-parse HEAD > "$OUT/mathlib-revision.log"
+  cd "$PROJECT"
+  ML_PATH="$(lake env printenv LEAN_PATH | python -c 'import sys,os; print(":".join(os.path.abspath(p) for p in sys.stdin.read().strip().split(":")))')"
+  cd "$ROOT"
+  LEAN_PATH="$ML_PATH" lean --root="$ROOT" -o "$OUT/TraceDetection.olean" TraceDetection.lean > "$OUT/compile.log" 2>&1
+  LEAN_PATH="$OUT:$ML_PATH" lean --root="$ROOT" AuditTraceDetection.lean > "$OUT/axioms.log" 2>&1
+  cat "$OUT/version.log" "$OUT/mathlib-revision.log" "$OUT/compile.log" "$OUT/axioms.log"
+done
+cd "$ROOT"
+sha256sum TraceDetection.lean AuditTraceDetection.lean > independent-trace-audit/SOURCE-SHA256.txt
+cat independent-trace-audit/SOURCE-SHA256.txt

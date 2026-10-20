@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PATH="$ROOT/toolchain/lean-4.19.0-linux/bin:$PATH"
+cd "$ROOT"
+export LEAN_PATH="$ROOT${LEAN_PATH:+:$LEAN_PATH}"
+VERSION="$(lean --version)"
+printf '%s\n' "$VERSION"
+[[ "$VERSION" == "Lean (version 4.19.0,"* ]] || { echo "Expected Lean 4.19.0" >&2; exit 2; }
+[[ "$(git -C "$ROOT/mathlib" rev-parse HEAD)" == c44e0c8ee63ca166450922a373c7409c5d26b00b ]] || { echo "Unexpected Mathlib revision" >&2; exit 2; }
+lean -o KoszulDimension.olean KoszulDimension.lean
+lean -o KoszulSlots.olean KoszulSlots.lean
+lean -o KoszulCombined.olean KoszulCombined.lean
+lean Audit.lean
+lean AuditCombined.lean
+cd "$ROOT/mathlib"
+ML_PATH="$(lake env printenv LEAN_PATH)"
+export LEAN_PATH="$ROOT:$ML_PATH"
+lean --root="$ROOT" -o "$ROOT/Propagation.olean" "$ROOT/Propagation.lean"
+lean --root="$ROOT" "$ROOT/AuditPropagation.lean"

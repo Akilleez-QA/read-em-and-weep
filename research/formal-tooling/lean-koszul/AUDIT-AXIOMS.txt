@@ -1,0 +1,9 @@
+'KoszulDimension.PageStep.balance' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.PageStep.nonincrease' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.PageStep.no_outgoing_bound' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.drop_budget_bound' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.zero_terminal_bound' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.ninety_leaves_thirty_five' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.page_two_dimension_if_zero' depends on axioms: [propext, Quot.sound]
+'KoszulDimension.mu32_ne_zero' depends on axioms: [propext, Quot.sound]
+'KoszulAudit.premises_inhabited' does not depend on any axioms
