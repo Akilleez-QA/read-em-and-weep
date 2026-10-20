@@ -1,0 +1,35 @@
+[
+  {
+    "label": "normalizer-250-simple-defect",
+    "pr": 212,
+    "commit": "1d6db2e95f9f7fc207a350ebc805c2ce0ae873da",
+    "path": "research/hm/normalizer-rank-five/normalizer-250-simple-defect/PROOF.md",
+    "sha256": "b613f89c653e9e26d6439d9711e7605b019d60d888ce791c4bfa0709de05ba94",
+    "git_blob_sha1": "e7528d14044fa2ea7674e58847bd8b384390bdee",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1d6db2e95f9f7fc207a350ebc805c2ce0ae873da/research/hm/normalizer-rank-five/normalizer-250-simple-defect/PROOF.md",
+    "role": "Unique 250-point orbit, Dic3 stabilizer and positive eigenspace",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "canonical-line-parity-exclusion",
+    "pr": 230,
+    "commit": "c92b59ea3aa135921f34b1842e26060a4960f1ac",
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/PROOF.md",
+    "sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0",
+    "git_blob_sha1": "eadca299572a7c67fd6435b226b92d7946b473ff",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c92b59ea3aa135921f34b1842e26060a4960f1ac/research/hm/rank-four/canonical-line-parity-exclusion/PROOF.md",
+    "role": "A5 character decompositions",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "rank-three-250-plane-exclusion",
+    "pr": 230,
+    "commit": "c92b59ea3aa135921f34b1842e26060a4960f1ac",
+    "path": "research/hm/rank-four/rank-three-250-plane-exclusion/PROOF.md",
+    "sha256": "67dc09e41063999573a9efd687d14a54970ba6f5bc7f8e55637e6543712f48cb",
+    "git_blob_sha1": "622803c73d81044cdc66a2679498014d79269c43",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c92b59ea3aa135921f34b1842e26060a4960f1ac/research/hm/rank-four/rank-three-250-plane-exclusion/PROOF.md",
+    "role": "Overlap/current scope: actual residual-rank exclusion is separate from plane interpolation",
+    "status": "published; exact local publication payload and verified receipt"
+  }
+]
