@@ -1,0 +1,2 @@
+The independent review expanded delta(q1_ij q2_ij) to check sign, checked central overlap gauge convention, delta v=A/(gA), and v_g g(v_h)=v_gh by exact cancellation. The displayed module multiplication was corrected and verified in row order G_jk star G_ij. All weighted gauges central only in stipulated quotient with complementary support. Mixed cross terms retained. No module existence, effective coarse descent, or downstairs identification follows.
+Historical result: https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6265444022 .
