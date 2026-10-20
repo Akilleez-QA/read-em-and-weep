@@ -1,0 +1,69 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "J2_deleted_face_branches": 20,
+    "all_chart_mask_direction_cases": 1024,
+    "all_chart_overlap_direction_cases": 1024,
+    "checks": 5118,
+    "direct_certificate": {
+      "carrier": [
+        26,
+        17,
+        14,
+        14,
+        5
+      ],
+      "legal": [
+        6,
+        7,
+        7,
+        7,
+        3
+      ],
+      "uniform": [
+        26,
+        7
+      ]
+    },
+    "negative_controls": [
+      "source connection plus local test derivative",
+      "local connection plus source test derivative",
+      "minus-signed test derivative",
+      "wrong test degree",
+      "wrong infinity V(t) sign",
+      "one selector block with wrong line power",
+      "isolated source term declared regular for unit f and unit clearance",
+      "drop first overlap",
+      "drop second overlap",
+      "drop varying input",
+      "freeze outer weights",
+      "replace same-owner final +5 by max",
+      "merge distinct equal-label occurrences",
+      "claim source infinity pole is owned by bit one"
+    ],
+    "product_certificate": {
+      "carrier": [
+        22,
+        22,
+        18,
+        15,
+        6
+      ],
+      "legal": [
+        6,
+        8,
+        8,
+        8,
+        4
+      ],
+      "uniform": [
+        22,
+        8
+      ]
+    },
+    "scope": "inert bytes/AST, integer exponents and valuations, abstract occurrence positions, universal ordered-word labels only",
+    "source_files_authenticated": 20,
+    "source_or_model_evaluated": false,
+    "status": "PASS"
+  }
+}

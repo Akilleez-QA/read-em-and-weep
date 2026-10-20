@@ -1,0 +1,65 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "checks": 1603,
+    "direct_certificate": {
+      "carrier": [
+        26,
+        17,
+        14,
+        14,
+        5
+      ],
+      "legal": [
+        6,
+        7,
+        7,
+        7,
+        3
+      ],
+      "uniform": [
+        26,
+        7
+      ]
+    },
+    "negative_controls": [
+      "local test derivative paired with source connection",
+      "source test derivative paired with local connection",
+      "wrong minus sign in paired test derivative",
+      "wrong dual test degree",
+      "wrong selector Hom degree",
+      "wrong infinity derivative sign",
+      "wrong infinity legal payer",
+      "source input derivative silently removed",
+      "overlap insertion silently removed",
+      "outer weight silently frozen",
+      "same-occurrence connection charge replaced by maximum",
+      "equal-label occurrences merged",
+      "branch coefficient extraction treated as division by a unit"
+    ],
+    "product_rule_certificate": {
+      "carrier": [
+        22,
+        22,
+        18,
+        15,
+        6
+      ],
+      "legal": [
+        6,
+        8,
+        8,
+        8,
+        4
+      ],
+      "uniform": [
+        22,
+        8
+      ]
+    },
+    "scope": "inert bytes/AST, formal frame/character exponents, invented monomial labels and occurrence metadata only",
+    "source_files": 20,
+    "source_or_model_evaluated": false,
+    "status": "PASS"
+  }
+}
