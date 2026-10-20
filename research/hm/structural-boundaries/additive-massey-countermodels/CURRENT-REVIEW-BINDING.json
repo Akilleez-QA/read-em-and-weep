@@ -1,0 +1,48 @@
+{
+  "audit_sha256": "4652f9c70bf810870b49e23c403334641ab7339e0c66407170bf6a7b76d6c72e",
+  "reviewed_payload": [
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/ADDITIVE-AUDIT.md",
+      "sha256": "448876a526b4b7f100b5ba7b6c4207cc64d930c703cd4ebdb21014aa6828b765",
+      "bytes": 2562
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/ADDITIVE-RECONSTRUCTION.md",
+      "sha256": "81b31f511d0192b0b7405ff1681de241ef77284aa040f625c06bc89c592e2f49",
+      "bytes": 6904
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/AUDIT.md",
+      "sha256": "086416eb92e596def84749d8e1c385c532e55b01a529314f70b6c6cad0d62138",
+      "bytes": 2695
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/DEPENDENCIES.md",
+      "sha256": "7eb72b610a401d55d18da2dc5757640fb96614c53ecfe87a227f0c20b33271c6",
+      "bytes": 1796
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/PROOF.md",
+      "sha256": "3df805735f8b7025efcc3594cbf76ddaf75022e64a04f84b23287c98044ff4f2",
+      "bytes": 8001
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/PUBLICATION.md",
+      "sha256": "11568eb69614387e64fbb31c20f29e029b07dc995d6c41aea5548cad39c487c7",
+      "bytes": 2178
+    },
+    {
+      "unit": "10",
+      "path": "research/hm/structural-boundaries/additive-massey-countermodels/SOURCE-BINDINGS.json",
+      "sha256": "787cd55d222ec94e60c7b10cc0cdefd087b6552d6571ae25b94b138f4d0bd868",
+      "bytes": 2472
+    }
+  ],
+  "review_scope": "09-10"
+}

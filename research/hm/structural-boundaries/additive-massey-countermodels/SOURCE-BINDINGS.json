@@ -1,0 +1,38 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "structural-massey-formality-boundary/ADDITIVE-AUDIT.md",
+      "source_sha256": "448876a526b4b7f100b5ba7b6c4207cc64d930c703cd4ebdb21014aa6828b765",
+      "public_path": "research/hm/structural-boundaries/additive-massey-countermodels/ADDITIVE-AUDIT.md",
+      "public_sha256": "448876a526b4b7f100b5ba7b6c4207cc64d930c703cd4ebdb21014aa6828b765",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "structural-massey-formality-boundary/ADDITIVE-RECONSTRUCTION.md",
+      "source_sha256": "32a05f0a46af1079dcb5193ce6b40730cb67dab2e917161c0370c6df469bd6ea",
+      "public_path": "research/hm/structural-boundaries/additive-massey-countermodels/ADDITIVE-RECONSTRUCTION.md",
+      "public_sha256": "81b31f511d0192b0b7405ff1681de241ef77284aa040f625c06bc89c592e2f49",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "structural-massey-formality-boundary/AUDIT.md",
+      "source_sha256": "086416eb92e596def84749d8e1c385c532e55b01a529314f70b6c6cad0d62138",
+      "public_path": "research/hm/structural-boundaries/additive-massey-countermodels/AUDIT.md",
+      "public_sha256": "086416eb92e596def84749d8e1c385c532e55b01a529314f70b6c6cad0d62138",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "structural-massey-formality-boundary/PROOF.md",
+      "source_sha256": "dbf4665153ade23034cc8dde3c9c7e0db29ad7d8fd5679b33d2c16243ea57788",
+      "public_path": "research/hm/structural-boundaries/additive-massey-countermodels/PROOF.md",
+      "public_sha256": "3df805735f8b7025efcc3594cbf76ddaf75022e64a04f84b23287c98044ff4f2",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
