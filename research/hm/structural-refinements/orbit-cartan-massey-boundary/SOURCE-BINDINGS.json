@@ -1,0 +1,18 @@
+[
+  {
+    "claim": "S196",
+    "source_file": "orbit-cartan-massey-boundary/AUDIT.md",
+    "source_sha256": "1d8384c72fa47f40379de6342e68cc9c954fca956ee0d344ea915c1e1a810412",
+    "public_path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/AUDIT.md",
+    "public_sha256": "1c680ce06ddb0e6ab01a54a560e1048b106d681d1e3bdf8f0a5b78df03b8373e",
+    "public_git_blob_sha1": "4b84e9fbd486907c8fa94ec4f89f0a09ec0a7426"
+  },
+  {
+    "claim": "S196",
+    "source_file": "orbit-cartan-massey-boundary/PROOF.md",
+    "source_sha256": "8e7c7db1bd13a1d4b2ae2350b5e5efa068220b2a52d975a1c5e4b9e8853c599a",
+    "public_path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/PROOF.md",
+    "public_sha256": "e4458c89169e811aee29f86f6926dd4e763b2fded6f42ffbfa56cbfcee637f82",
+    "public_git_blob_sha1": "92c406381b1bc41211562f7eddab8ef7c23a0d93"
+  }
+]

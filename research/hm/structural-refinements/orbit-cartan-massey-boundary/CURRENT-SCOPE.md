@@ -1,0 +1,9 @@
+# Current scope and claim coverage
+
+Distinct: §§5–6 retain all scalar primitives and remove End-valued pair primitives by an exact differential; §§1–4 exclude only the displayed first-Cartan/antisymmetric-commutator shortcuts.
+
+The historical eligible-channel language is not an assertion that all actual components remain globally undecided. Later canonical cubic nonvanishing in PR194 and the D5 mixed-component theorem are not undone. These particular formal identities do not evaluate a component or supply another vanishing equation. Scalar and derivative summands need not be closed separately. Orbit operators are not chain maps; transport is semilinear over fixed coordinates. The orbit-Kodaira–Spencer premise is bound to PR144; the canonical invariant-DGA theorem alone is not substituted for the weight-specific ordered cup hypotheses. Current independent review confirms that the historical family-extension, structural-formality and rank-two-primitive manuscripts are contextual comparisons only; no essential extra premise is imported from them. The formal derivations close using the pinned ordered cups and zero indeterminacy, the ambient orbit identification, standard holomorphic line linearizations, elementary rank-two identities and projective-space scalar vanishings. PR185 WEIGHT-TWO-TRANSFER §§2–3 is directly bound for the upper 011 cups and indeterminacy; the invariant-DGA theorem alone is not substituted for these weight-specific hypotheses. The historical-comparison dependency hold is resolved without adopting those manuscripts’ full claims.
+
+## Review state
+
+Current independent mathematical review completed on 20 October 2026: PASS for the written derivation under its stated premises. CURRENT-AUDIT.md records the checks and exact proof-byte binding. Historical audits are preserved as historical evidence. No formal verification or actual-operation evaluation is claimed.
