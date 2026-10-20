@@ -1,0 +1,5 @@
+# Current mathematical scope
+
+The universal classification concerns coefficient-free, derivative-free, bilinear gauge-natural maps sl₂×sl₂→sl₂ over commuting even-form coefficients. It is not the odd-degree Yoneda-product statement. The sole commutator channel is block-odd. The retained projection vanishes only after a specified block-equivariant coefficient transformation and the canonical block-even projector; the existence of such a transformation is not supplied. Its intrinsic coefficient bundle is Ω¹_z⊗Ω¹_h, not ω_X. Odd coefficient data can evade the parity obstruction but need not produce a nonzero retained class. C²=0 does not imply C=0 or identify C with a physical obstruction.
+
+The complete original derivations and historical mathematical audits are retained. Audit status is historical, not formal verification. These results concern respectively ordinary trace maps, target-relative trace maps, universal Atiyah expressions, derived countermodels, and pointwise identities. They do not establish a physical mixed-extension result, an all-orders result, or algebraicity.
