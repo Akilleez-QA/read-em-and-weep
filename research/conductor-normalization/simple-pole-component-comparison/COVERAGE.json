@@ -1,0 +1,36 @@
+[
+  {
+    "manuscript_id": "S342",
+    "cluster": "simple-pole-cofactor-comparison",
+    "unit": "07",
+    "additional_application_units": [],
+    "inventory_proof": "simple-pole-cofactor-comparison/PROOF.md",
+    "inventory_sha256": "d216c43924e1242670c8cd97ae945757a01e036b7822ff76ac3f582af708903b",
+    "actual_proof_sha256": "d216c43924e1242670c8cd97ae945757a01e036b7822ff76ac3f582af708903b",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "The actual cofactor matrix and its secondary connecting maps are not evaluated; geometry does not identify their rank."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S030",
+    "cluster": "conductor-double-conic-intersection",
+    "unit": "07",
+    "additional_application_units": [],
+    "inventory_proof": "conductor-double-conic-intersection/PROOF.md",
+    "inventory_sha256": "6fa35c15f46e37e72e05d52b4bf6535368475282fb8abc2e035ea2f9d1ab8fd6",
+    "actual_proof_sha256": "6fa35c15f46e37e72e05d52b4bf6535368475282fb8abc2e035ea2f9d1ab8fd6",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "No hold on universal 2C intersection. Actual component-map ranks and obstruction vanishing are not determined by the relations."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
