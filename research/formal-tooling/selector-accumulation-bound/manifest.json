@@ -1,0 +1,20 @@
+{
+  ".gitignore": "8c6c3d4952955db03abb11b0c3e3704f373186153eba60a92bbdf5383a5e93a0",
+  "AUDIT.md": "369a72e1559901e764a59ab4fffe4a9963a9f105a5aba3cc9a6f50cdc394a3f5",
+  "AccumulationBound.lean": "58089d8f62351afd200362e136710bb2dcd3cc785b1f7e7bf27df976166c5745",
+  "PUBLICATION.md": "8586127f7a7b19d973b1b2696f67e0e3d86484da619ca8645712a4cd51c592e9",
+  "README.md": "440ba34c8fec00009b5212dc5e76b8e48d198e2964b48fe920dd46bead4805c7",
+  "ResidueBridge.lean": "f90f3b54a4e9f97d9109bdb67decb4ef9c881704c80d7b6cec5cf8ed52923846",
+  "audit/AuditChecks.lean": "982c2d2d063949d51ff327fa85b5a98ad92c74027e6333019bb390942d78378e",
+  "audit/independent-rebuild.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "audit/independent-rebuild.log": "db78265aa1b409bac0c3247fdf5e7a372c860a19f0076c0aa30de2be991c968d",
+  "audit/rebuild.sh.historical.txt": "3d165e3cc2816e74a726ba5c0d191e25534c80151d2a27a326a1a436aa24bd88",
+  "audit/source-binding.json": "3acfce68b4e1048a369523419bc0961f371ebe8aefc20bc96649d21894f81210",
+  "compile.exit": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+  "compile.log": "f11871a13c3d265d5ae4e666b34f12bf5406c3def2d56cf0a52e02ade8a1cf0f",
+  "lake-manifest.json": "1855c8d7909390a1e52c6622f3bb8252f75a2ec918241bf80dab3dcc8673d41c",
+  "lean-toolchain": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
+  "publication-provenance.json": "657077ef16c115c8faa3d21433e6db41ceff1eece958d5cfddb91c899fc11b5c",
+  "recheck-public.sh": "8934a64e59fa3f6dbaa1fed9dd8bb0ab711fdfdd9a8f211d00cffe14322039fc",
+  "recheck.sh.historical.txt": "3d9fd57df1927c316a8d8d61702ef7b6ab5fb7f7bbbccc3017f5cdfaa9853874"
+}

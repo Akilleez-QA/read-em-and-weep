@@ -1,0 +1,7 @@
+*.olean
+*.ilean
+*.c
+.lake/
+.cache/
+cache/
+toolchain/
