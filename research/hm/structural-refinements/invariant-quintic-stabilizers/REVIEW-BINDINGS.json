@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "PASS under the stated premises",
+  "proof_sha256": "17b5489f297f3919200072d12c35bc2c909331fb880e8dad893758389d14c905",
+  "files": [
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/AUDIT.md",
+      "sha256": "431aa4ca5fd7b8592d285fb825159f41b4df2204fc77ab5fc9cc596bbc26a2cc",
+      "git_blob_sha1": "8a56a4c8e8d10e4bbbdac355101106ea8308903b"
+    },
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/PROOF.md",
+      "sha256": "17b5489f297f3919200072d12c35bc2c909331fb880e8dad893758389d14c905",
+      "git_blob_sha1": "1e88c38641c9b8e0e6b7209c3125bba31abafa28"
+    },
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/CURRENT-SCOPE.md",
+      "sha256": "0b46e87db9d9a80689ca3c4f65888ad99189b235582a99540fdd8ba3b00bc414",
+      "git_blob_sha1": "1b42e4040a9f9bace8306aed2d4a7363d2ea1819"
+    },
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/DEPENDENCIES.json",
+      "sha256": "72b87e67f16782fcff99b1479b93cbaacaf4c236d9a265cb10e2ca7c1e7cfdc1",
+      "git_blob_sha1": "c0370e162d491d610d8c58ea1d6905bd6d330f49"
+    },
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/SOURCE-BINDINGS.json",
+      "sha256": "d7f614cd7ae7ad6f09300ca683e463987334663197835f62d656f8821faadad6",
+      "git_blob_sha1": "e0b7be05cae6e067b0e79bfc3fe4a16a2356aa26"
+    },
+    {
+      "path": "research/hm/structural-refinements/invariant-quintic-stabilizers/CURRENT-AUDIT.md",
+      "sha256": "bd419df1bdb5bcb5c4b04c49099535745f29bbefae202bb5327b88ce04fc82a3",
+      "git_blob_sha1": "5821f4cfc5cab416f07a12d135932b5be5a3b096"
+    }
+  ]
+}

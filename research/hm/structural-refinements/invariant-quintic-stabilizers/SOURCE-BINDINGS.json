@@ -1,0 +1,18 @@
+[
+  {
+    "claim": "S131",
+    "source_file": "invariant-quintic-stabilizers/AUDIT.md",
+    "source_sha256": "86908d83ce4e87be17748c26681144dbbdd7399e7e9fcb5b82047cc439b637a5",
+    "public_path": "research/hm/structural-refinements/invariant-quintic-stabilizers/AUDIT.md",
+    "public_sha256": "431aa4ca5fd7b8592d285fb825159f41b4df2204fc77ab5fc9cc596bbc26a2cc",
+    "public_git_blob_sha1": "8a56a4c8e8d10e4bbbdac355101106ea8308903b"
+  },
+  {
+    "claim": "S131",
+    "source_file": "invariant-quintic-stabilizers/PROOF.md",
+    "source_sha256": "5de8f18428507c19bf414ff67dbafe04a7cfd0724083768d3165d81fb1a76ad2",
+    "public_path": "research/hm/structural-refinements/invariant-quintic-stabilizers/PROOF.md",
+    "public_sha256": "17b5489f297f3919200072d12c35bc2c909331fb880e8dad893758389d14c905",
+    "public_git_blob_sha1": "1e88c38641c9b8e0e6b7209c3125bba31abafa28"
+  }
+]
