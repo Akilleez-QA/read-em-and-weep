@@ -1,0 +1,32 @@
+[
+  {
+    "source": "low-metric-rank-middle-exclusion/INDEPENDENT_AUDIT.md",
+    "source_sha256": "7145e77a1bcdf257599a1d802a5d1f5d72582f59ba4cf563735a8347410fc14e",
+    "public_path": "research/hm/middle-surface/low-metric-rank-middle-exclusion/INDEPENDENT_AUDIT.md",
+    "public_sha256": "86a04b515848753f8e749a413073e48ef9e6d2c894ef62b5e55e0b9a30f237ba"
+  },
+  {
+    "source": "low-metric-rank-middle-exclusion/PROOF.md",
+    "source_sha256": "28e5e4501a98736a811ecf28ce5886426e02746a7f90202d96edd624f07026ad",
+    "public_path": "research/hm/middle-surface/low-metric-rank-middle-exclusion/PROOF.md",
+    "public_sha256": "09c293232fe632597a5b9a3ac92f7a2ed8f38b63b633f7763a6ba4bb431f47e2"
+  },
+  {
+    "source": "metric-divisor-multiplicity/AUDIT.md",
+    "source_sha256": "bc536cd6c475a0393e066ca85b5bfe20d5bb142721451760a91bcc5ccfbe7462",
+    "public_path": "research/hm/middle-surface/metric-divisor-multiplicity/AUDIT.md",
+    "public_sha256": "87b849a9db1b9b1aa365c33455530cf5770db023d046fe49b87564dd95f1ef0a"
+  },
+  {
+    "source": "metric-divisor-multiplicity/PROOF.md",
+    "source_sha256": "cae50a3bf5ce87ef42d4fa20105e4d79037b6063f3ec7df792b3925a7d3a43e0",
+    "public_path": "research/hm/middle-surface/metric-divisor-multiplicity/PROOF.md",
+    "public_sha256": "15b2519122b3ff48b0c739feb3e0a90dbd36376d04da326bcd6a6d757a9ac85e"
+  },
+  {
+    "source": "metric-divisor-multiplicity/ROOT_CHECK.md",
+    "source_sha256": "64bd8c6dc6dd19d7dff9692af2867241e3678ec97faf7f07ccdb118c17a0d7d5",
+    "public_path": "research/hm/middle-surface/metric-divisor-multiplicity/ROOT_CHECK.md",
+    "public_sha256": "b5f0758c28d326c48e98b7dda9c4a52db913ce4095255585e795bb8c72e8b55f"
+  }
+]
