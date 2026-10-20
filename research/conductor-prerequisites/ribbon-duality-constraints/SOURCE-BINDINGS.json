@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "S331",
+    "source": "ribbon-duality-constraints/AUDIT.md",
+    "source_sha256": "ccfdba6af09ad694fb1243e4c96dc09d0d7d11e824da2a369ac17b9a3ad92dea",
+    "source_bytes": 7714,
+    "public_path": "research/conductor-prerequisites/ribbon-duality-constraints/AUDIT.md",
+    "public_sha256": "7b4982e114ac18e2305cab43d53c5391e3b1976df4837f5e5b331097c37d797d",
+    "public_bytes": 8045,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S331",
+    "source": "ribbon-duality-constraints/PROOF.md",
+    "source_sha256": "847e8d71f5fa0c52ad38e6598b4210908252637f0729689b97205f14b5155010",
+    "source_bytes": 8133,
+    "public_path": "research/conductor-prerequisites/ribbon-duality-constraints/PROOF.md",
+    "public_sha256": "4abb178d3c9f2476e5adb31e47d64c051e6ab0ade7cc01d7f1001f5ac711de9f",
+    "public_bytes": 8333,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]

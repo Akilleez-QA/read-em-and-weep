@@ -1,0 +1,20 @@
+{
+  "claim_id": "S331",
+  "section_order_note": "Ribbon-local orthogonal comparison proves rank ε≤7. A determinant-correct zero-boundary model on the fixed nonsplit ribbon is not an HM realization. The cited d≤20 range is an imported application hypothesis; the proof of the seven-dimensional bound is conditional on the stated splitting.",
+  "references": {
+    "conductor-double-conic-intersection/PROOF.md": {
+      "path": "research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "commit": "21b252420c0011b2cbc119cab2983a6d4ad2e966",
+      "pr": 169,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/21b252420c0011b2cbc119cab2983a6d4ad2e966/research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "public_sha256": "ddbf23b70b22440447c38ca39ec1159d06b7d079c9a1cca2c193ef172a906426"
+    },
+    "conductor-cohomology-bounds/PROOF.md": {
+      "path": "research/conductor-normalization/conductor-cohomology-bounds/PROOF.md",
+      "commit": "f3f85ffc04213778c8c4fbd60e1e7e04b56cfd65",
+      "pr": 165,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f3f85ffc04213778c8c4fbd60e1e7e04b56cfd65/research/conductor-normalization/conductor-cohomology-bounds/PROOF.md",
+      "public_sha256": "fb6a8e3a7074abe1c240e49326b30873ba29da9bd263c4b571d1fd6cbd8ee0fd"
+    }
+  }
+}
