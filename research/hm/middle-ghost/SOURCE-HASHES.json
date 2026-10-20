@@ -1,0 +1,23 @@
+[
+  {
+    "source_artifact": "PROOF.md",
+    "source_sha256": "f56a6769c357f4bd39e6bf2b3ca5dafdeae03892388e67f20874dbb593e1d38f",
+    "public_path": "research/hm/middle-ghost/PROOF.md",
+    "public_sha256": "f56a6769c357f4bd39e6bf2b3ca5dafdeae03892388e67f20874dbb593e1d38f",
+    "normalization": "Mathematical arguments, references and historical fingerprints retained; editorial normalization of review-method prose only."
+  },
+  {
+    "source_artifact": "AUDIT.md",
+    "source_sha256": "c2f9f4fca5e58982cadbb35ba96f2ca8069ffda511259fb7b45e672c75a1a73c",
+    "public_path": "research/hm/middle-ghost/AUDIT.md",
+    "public_sha256": "701663af3945509c1316355a96f5a1f1a764d060dae308b792d7ed56d07b6b04",
+    "normalization": "Mathematical arguments, references and historical fingerprints retained; editorial normalization of review-method prose only."
+  },
+  {
+    "source_artifact": "AUDIT-PAIRING.md",
+    "source_sha256": "09f648071ed86fef96ab604f0f859dc0e8679be1acc1c0c46fe3d8c863ac0ba5",
+    "public_path": "research/hm/middle-ghost/AUDIT-PAIRING.md",
+    "public_sha256": "379a48e4c4c370a4889f93f4d263456b94b1d2bef56a8ae131286398f9692846",
+    "normalization": "Mathematical arguments, references and historical fingerprints retained; editorial normalization of review-method prose only."
+  }
+]
