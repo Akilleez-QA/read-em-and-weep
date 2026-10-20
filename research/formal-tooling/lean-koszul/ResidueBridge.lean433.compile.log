@@ -1,0 +1,5 @@
+'ResidueBridge.coefficient_interpret' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_interpret' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_predicate' depends on axioms: [Quot.sound]
+'ResidueBridge.selectSum_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_eq_zero_of_nonnegative_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]

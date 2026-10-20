@@ -1,0 +1,9 @@
+import Propagation
+#print axioms KoszulPropagation.equivariant_nonzero_surjective
+#print axioms KoszulPropagation.surjective_map_spanning
+#print axioms KoszulPropagation.coordinate_spanning
+#print axioms KoszulPropagation.coordinate_spanning_of_surjective_assembly
+#print axioms KoszulPropagation.two_mixed_channels_span
+#print axioms KoszulPropagation.subspace_and_quotient
+#print axioms KoszulPropagation.retained_twelve
+#print axioms KoszulPropagation.conditional_full_retained_span

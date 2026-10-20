@@ -1,0 +1,26 @@
+Lean (version 4.33.0, x86_64-unknown-linux-gnu, commit d8b18978322de05a8f3dba51ef03cf5461676c17, Release)
+db584cd6d46c92f209a44c0f1c829460d327499d
+'TraceDetection.injective_comp_ne_zero' depends on axioms: [propext, Quot.sound]
+'TraceDetection.trace_rankOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.exists_trace_comp_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.exists_trace_injective_comp_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.class_ne_zero_of_trace_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+TraceDetection.class_ne_zero_of_trace_pairing.{u_1, u_2, u_3, u_4, u_5} {k : Type u_1} {A : Type u_2} {C : Type u_3}
+  {W : Type u_4} [Field k] [AddCommGroup A] [Module k A] [AddCommGroup C] [Module k C] [AddCommGroup W] [Module k W]
+  [FiniteDimensional k W] {H : Type u_5} [Zero H] (r : H) (pairing : H → (C →ₗ[k] W) → k)
+  (pairing_zero : ∀ (B : C →ₗ[k] W), pairing 0 B = 0) (γ : A →ₗ[k] C) (φ : W →ₗ[k] A) (hγ : Function.Injective ⇑γ)
+  (hφ : φ ≠ 0) (pairing_trace : ∀ (B : C →ₗ[k] W), pairing r B = (LinearMap.trace k W) (B ∘ₗ γ ∘ₗ φ)) : r ≠ 0
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+c44e0c8ee63ca166450922a373c7409c5d26b00b
+'TraceDetection.injective_comp_ne_zero' depends on axioms: [propext, Quot.sound]
+'TraceDetection.trace_rankOne' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.exists_trace_comp_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.exists_trace_injective_comp_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TraceDetection.class_ne_zero_of_trace_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+TraceDetection.class_ne_zero_of_trace_pairing.{u_1, u_2, u_3, u_4, u_5} {k : Type u_1} {A : Type u_2} {C : Type u_3}
+  {W : Type u_4} [Field k] [AddCommGroup A] [Module k A] [AddCommGroup C] [Module k C] [AddCommGroup W] [Module k W]
+  [FiniteDimensional k W] {H : Type u_5} [Zero H] (r : H) (pairing : H → (C →ₗ[k] W) → k)
+  (pairing_zero : ∀ (B : C →ₗ[k] W), pairing 0 B = 0) (γ : A →ₗ[k] C) (φ : W →ₗ[k] A) (hγ : Function.Injective ⇑γ)
+  (hφ : φ ≠ 0) (pairing_trace : ∀ (B : C →ₗ[k] W), pairing r B = (LinearMap.trace k W) (B ∘ₗ γ ∘ₗ φ)) : r ≠ 0
+b2f4028caa8053cfb2ab56f7849eb99633fe1a9d1db2c1b9789695984925270b  TraceDetection.lean
+73ed88f138941b8ed8cd5098af1bc1357605d41aadb9fe5119ce7a69377057d2  AuditTraceDetection.lean

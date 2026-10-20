@@ -1,0 +1,5 @@
+'KoszulCombined.right_stable' depends on axioms: [propext, Quot.sound]
+'KoszulCombined.left_stable' depends on axioms: [propext, Quot.sound]
+'KoszulCombined.mu21_rank_ten' depends on axioms: [propext, Quot.sound]
+'KoszulCombined.rank_ten_and_mu32_ne_zero' depends on axioms: [propext, Quot.sound]
+'KoszulAudit.combinedPremisesInhabited' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export PATH="$ROOT/toolchain/lean-4.19.0-linux/bin:$PATH"
+if [[ $# -eq 0 ]]; then echo 'Usage: check-lean.sh PATH_TO_LEAN_FILE [lean options]' >&2; exit 2; fi
+FILE="$(realpath "$1")"
+shift
+cd "$ROOT/mathlib"
+exec lake env lean "$FILE" "$@"

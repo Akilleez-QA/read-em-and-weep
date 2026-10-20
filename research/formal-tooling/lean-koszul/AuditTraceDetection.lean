@@ -1,0 +1,7 @@
+import TraceDetection
+#print axioms TraceDetection.injective_comp_ne_zero
+#print axioms TraceDetection.trace_rankOne
+#print axioms TraceDetection.exists_trace_comp_ne_zero
+#print axioms TraceDetection.exists_trace_injective_comp_ne_zero
+#print axioms TraceDetection.class_ne_zero_of_trace_pairing
+#check TraceDetection.class_ne_zero_of_trace_pairing
