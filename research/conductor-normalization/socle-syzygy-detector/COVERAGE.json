@@ -1,0 +1,38 @@
+[
+  {
+    "manuscript_id": "S075",
+    "cluster": "explicit-conductor-covariant",
+    "unit": "02",
+    "additional_application_units": [
+      "09"
+    ],
+    "inventory_proof": "explicit-conductor-covariant/PROOF.md",
+    "inventory_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "actual_proof_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "pure geometric core ready; applications held as separately stated",
+    "held_actual_claims": [
+      "No hold on polynomial core. Actual module pairing, primary-defect and endpoint identifications are separate inputs in unit09."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S346",
+    "cluster": "socle-syzygy-detector",
+    "unit": "09",
+    "additional_application_units": [],
+    "inventory_proof": "socle-syzygy-detector/PROOF.md",
+    "inventory_sha256": "ab35cf0cc6eaa492e690eed33bb81f170c201ff5407fa0d7efc804b38fe01d0d",
+    "actual_proof_sha256": "ab35cf0cc6eaa492e690eed33bb81f170c201ff5407fa0d7efc804b38fe01d0d",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "The actual cofactor-loss specialization requires primary-pairing-constraints and triple-component-primary-reduction. No actual socle value is computed."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]

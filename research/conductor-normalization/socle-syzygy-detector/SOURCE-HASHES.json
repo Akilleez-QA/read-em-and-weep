@@ -1,0 +1,30 @@
+[
+  {
+    "public_path": "research/conductor-normalization/explicit-conductor-covariant/MODULE-APPLICATION.md",
+    "public_sha256": "8e29a4c0c307d8115bd07a2b295cb8208cd45b551dc93bf632b83efd2a69ed05",
+    "source": "explicit-conductor-covariant/PROOF.md",
+    "source_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "treatment": "section 5 and original dependencies"
+  },
+  {
+    "public_path": "research/conductor-normalization/explicit-conductor-covariant/MODULE-APPLICATION-AUDIT.md",
+    "public_sha256": "37d504c5656269b0d4a4a861a6702f62e8bdd82552be38c48be44c06fe41072f",
+    "source": "explicit-conductor-covariant/AUDIT.md",
+    "source_sha256": "d25680dd029852847b5c9b4cc5952610ae5473b9c65319ff6d4f2d38b25ca124",
+    "treatment": "sections 5\u20137 and final assessment"
+  },
+  {
+    "public_path": "research/conductor-normalization/socle-syzygy-detector/PROOF.md",
+    "public_sha256": "7a85311c0c7bf1173d488558bb2d89b2fc8f10209a227ffdb6d55ac4d5598bfd",
+    "source": "socle-syzygy-detector/PROOF.md",
+    "source_sha256": "ab35cf0cc6eaa492e690eed33bb81f170c201ff5407fa0d7efc804b38fe01d0d",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/socle-syzygy-detector/AUDIT.md",
+    "public_sha256": "32bb8392e62c036f11d4eee3d3bb871046d7d3d7429f9c85c9b1754640fca8d4",
+    "source": "socle-syzygy-detector/AUDIT.md",
+    "source_sha256": "a8ad46c7cc52fcc9e985e7c8b30997f9198e56a9abc1bf12dc3078086c155de6",
+    "treatment": "complete"
+  }
+]
