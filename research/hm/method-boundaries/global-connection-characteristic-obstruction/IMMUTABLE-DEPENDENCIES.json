@@ -1,0 +1,49 @@
+{
+  "scope": "Exact inspected public source editions. Premises and role distinctions are not discharged by byte authentication.",
+  "repository_sources": [
+    {
+      "role": "Conditional bundle identification and four-term physical K-class; source exactness remains imported.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-cm-global-hom/PROOF.md",
+      "git_blob": "dfdbf8be48f4c1fb32600856c7b6f1278c13c259",
+      "sha256": "36dc798044ec2ac5fd44a4de20a975472eadfde4154eed966fdfbb66c86ef408",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-cm-global-hom/PROOF.md"
+    },
+    {
+      "role": "Reused characteristic arithmetic and finite-etale global connection obstruction.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "1b2f14625a5ae47d94953e31eec2e3faed607e76",
+      "path": "research/hm/null-global-connection-obstruction/RESULT.md",
+      "git_blob": "cad680ca9c184a8aed0deafd774408cd0989cd40",
+      "sha256": "307d486140dedd0c9477b0a393379a89ed30004ac1f3bf5d0612ceb9ea9135b9",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1b2f14625a5ae47d94953e31eec2e3faed607e76/research/hm/null-global-connection-obstruction/RESULT.md"
+    },
+    {
+      "role": "Later conditional mixed-class result: scope comparison only, not a theorem premise.",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "43194f29b0f1b01dac1ef1cc92742359da5e6e34",
+      "path": "research/hm/null-dihedral-mixed-vanishing/PROOF.md",
+      "git_blob": "c6ed7f3a5bd710962c69902766407471c01862f2",
+      "sha256": "c6dad7a6548220f4f6bcd696f8c3e12755a92fcb4c26528d00adde6e37a9b405",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/43194f29b0f1b01dac1ef1cc92742359da5e6e34/research/hm/null-dihedral-mixed-vanishing/PROOF.md"
+    }
+  ],
+  "other_public_sources": [
+    {
+      "kind": "public_discussion",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6257575487",
+      "created_at": "2026-10-19T01:15:21Z",
+      "updated_at": "2026-10-19T01:15:21Z",
+      "role": "Earlier public characteristic audit and finite-etale obstruction."
+    },
+    {
+      "kind": "primary_research",
+      "url": "https://arxiv.org/pdf/2312.01399v1#page=4",
+      "title": "Principal bundles with holomorphic connections over a Kähler Calabi–Yau manifold",
+      "authors": "Indranil Biswas and Sorin Dumitrescu",
+      "locator": "Lemma 2.1, printed page 4",
+      "role": "Positive-degree real characteristic-class vanishing for holomorphic principal connections over a compact connected Kähler base. Read directly."
+    }
+  ]
+}

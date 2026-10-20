@@ -1,0 +1,33 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "scoped PASS",
+  "review_kind": "Independent static mathematical and public-source review; no source-instance evaluation or executable control rerun.",
+  "hash_algorithm": "SHA-256 over exact UTF-8 file bytes",
+  "reviewed_files": [
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/PROOF.md",
+      "sha256": "03b9f939b396e4bfffbf736577ee0e4517edd120ca4c0e3c7d354e0f1e9cad8a"
+    },
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/AUDIT.md",
+      "sha256": "21c484dcd80e02a573c5d575444d3bba7f15f6c4d6d72a55225c557a5a6af49f"
+    },
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/GENERICALLY_FINITE.md",
+      "sha256": "e2590425fbf46bb6147a2c46692d41594378844dc225b3fff58773ed59831300"
+    },
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/SCOPE.md",
+      "sha256": "8608498bba366010b8d54bde39e68aadd99636b645a8cad8aa042aa689dc18df"
+    },
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/CURRENT-INDEPENDENT-REVIEW.md",
+      "sha256": "286d9e4f351cf8d6b2b9af19acd996c446ddc36210c98b5465cbe9d0dc54b9ab"
+    },
+    {
+      "path": "research/hm/method-boundaries/global-connection-characteristic-obstruction/IMMUTABLE-DEPENDENCIES.json",
+      "sha256": "f19bc7142735c2a3660a700e274e301749a64c0379e55e5a46890292d8a2edcb"
+    }
+  ],
+  "self_binding": "This manifest omits its own hash. The enclosing Git commit binds the full manifest."
+}
