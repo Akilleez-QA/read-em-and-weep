@@ -1,0 +1,284 @@
+{
+  "status": "PASS",
+  "checks": 270,
+  "seconds": 0.00506495701847598,
+  "max_rss_kib": 11392,
+  "source_values": false,
+  "rank_rerun": false,
+  "global_generator_degrees": [
+    1,
+    2,
+    3
+  ],
+  "epsilon_twists": [
+    -3,
+    -4,
+    -5
+  ],
+  "dimensions": [
+    20,
+    10,
+    2
+  ],
+  "detector_factor": 4,
+  "beta": [
+    [
+      [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        1
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        1
+      ]
+    ],
+    [
+      [
+        [
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        1
+      ],
+      [
+        [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        -1
+      ],
+      [
+        [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        2
+      ]
+    ]
+  ],
+  "dual_cycles": {
+    "h": {
+      "dual_cycle": [
+        [
+          1,
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          2,
+          6,
+          2,
+          1
+        ],
+        [
+          0,
+          2,
+          9,
+          3,
+          1
+        ]
+      ],
+      "transported_dual_cycle": [
+        [
+          1,
+          3,
+          1,
+          4,
+          -1
+        ],
+        [
+          0,
+          2,
+          8,
+          2,
+          -1
+        ],
+        [
+          0,
+          2,
+          5,
+          1,
+          -1
+        ]
+      ]
+    },
+    "j": {
+      "dual_cycle": [
+        [
+          1,
+          3,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          2,
+          7,
+          3,
+          1
+        ],
+        [
+          0,
+          2,
+          5,
+          4,
+          1
+        ]
+      ],
+      "transported_dual_cycle": [
+        [
+          1,
+          3,
+          1,
+          3,
+          -1
+        ],
+        [
+          0,
+          2,
+          7,
+          1,
+          -1
+        ],
+        [
+          0,
+          2,
+          9,
+          0,
+          -1
+        ]
+      ]
+    },
+    "p": {
+      "dual_cycle": [
+        [
+          1,
+          3,
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          2,
+          3,
+          1,
+          -1
+        ],
+        [
+          0,
+          2,
+          2,
+          4,
+          -1
+        ]
+      ],
+      "transported_dual_cycle": [
+        [
+          1,
+          3,
+          0,
+          9,
+          -1
+        ],
+        [
+          0,
+          2,
+          1,
+          3,
+          1
+        ],
+        [
+          0,
+          2,
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    "r": {
+      "dual_cycle": [
+        [
+          1,
+          3,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          2,
+          3,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          4,
+          2,
+          -1
+        ]
+      ],
+      "transported_dual_cycle": [
+        [
+          1,
+          3,
+          0,
+          8,
+          -1
+        ],
+        [
+          0,
+          2,
+          1,
+          4,
+          1
+        ],
+        [
+          0,
+          2,
+          0,
+          2,
+          1
+        ]
+      ]
+    }
+  },
+  "derivative_kernel_dimension_from_archived_certificate": 5,
+  "derivative_kernel_involution_trace": 1,
+  "pinned_git_blobs": {
+    "Perfect-Complex-D8-F3.md": "3a8c3633e83466b29ea2e5739c6b486f856b91b2",
+    "certificate.json": "304d031083bb2a19fb9bc012cfd338bbe0129980",
+    "check_hm_p4_all_twists.js": "7adc1d6a733636204b1dd613870c168717be6277"
+  },
+  "model_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926"
+}

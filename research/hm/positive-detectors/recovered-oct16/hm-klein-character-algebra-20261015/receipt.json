@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_values_evaluated": false,
+  "basis_products_checked": 36,
+  "homogeneous_square_relation": true,
+  "character_generator_checks": 6,
+  "trace_basis_checks": 3,
+  "trace_kernel_not_ideal_control": true,
+  "field": "Q",
+  "variable_denominators_introduced": false
+}

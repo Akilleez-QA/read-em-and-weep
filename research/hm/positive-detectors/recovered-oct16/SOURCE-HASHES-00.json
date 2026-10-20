@@ -1,0 +1,152 @@
+{
+  "status": "Historical sources and final public hashes; no new source-instance computation.",
+  "files": [
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/check.py",
+      "source_sha256": "27f6fcc24fe0935f9b1a912f38b39e65d0a93a8eed550ffa48de599c8b53f027",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/check.py",
+      "public_sha256": "0726b2ba9ad52a5da01aa8e0a5dd2f9c355e2da265dad42144c14f375c01285a",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/detector-dual-cycles.json",
+      "source_sha256": "9914013e2bb6c5acf941e2a6c8ed96ecc063f1b08f316f4758c47a33df2d3013",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/detector-dual-cycles.json",
+      "public_sha256": "9914013e2bb6c5acf941e2a6c8ed96ecc063f1b08f316f4758c47a33df2d3013",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/receipt.json",
+      "source_sha256": "9424cc35ac3df3f0a8fba8a94a523ee55c91da348ac9eb8112eb67ca5f04ceec",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/receipt.json",
+      "public_sha256": "9424cc35ac3df3f0a8fba8a94a523ee55c91da348ac9eb8112eb67ca5f04ceec",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/THEOREM.md",
+      "source_sha256": "48e8b20931e2f481df4e11b3199a75a5e939a537cec772370a35099b94a8a2a7",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/THEOREM.md",
+      "public_sha256": "ad225f8932d74131e4d34274c8decc14071c936255f03ec8d25be32bdc320af8",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/pinned/Perfect-Complex-D8-F3.md",
+      "source_sha256": "66403b3a7a2f043fa1c352972a4410067f3ed6faeb1dfb38df8e0eebbe42508d",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/pinned/Perfect-Complex-D8-F3.md",
+      "public_sha256": "66403b3a7a2f043fa1c352972a4410067f3ed6faeb1dfb38df8e0eebbe42508d",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/pinned/check_hm_p4_all_twists.js",
+      "source_sha256": "c2d108576e710bd0463141c3185992547fdfb7b3a77fba39b38868ee8dcaeafd",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/pinned/check_hm_p4_all_twists.js",
+      "public_sha256": "c2d108576e710bd0463141c3185992547fdfb7b3a77fba39b38868ee8dcaeafd",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-epsilon-projective-generator-bridge-20261016/pinned/certificate.json",
+      "source_sha256": "dffcf483d09725be1fffbd5217d95f103ba80636ac3e05cc865e73d9fe9054c6",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-epsilon-projective-generator-bridge-20261016/pinned/certificate.json",
+      "public_sha256": "dffcf483d09725be1fffbd5217d95f103ba80636ac3e05cc865e73d9fe9054c6",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-factored-coefficient-action-20261014/pinned-model-input.json",
+      "source_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-factored-coefficient-action-20261014/pinned-model-input.json",
+      "public_sha256": "635bb12d9986e0dcada161d4173c773c4f134b9225354a3bc74267840ca19926",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-seed-gauge-scope-independent-20261016/PR76-NOTE.md",
+      "source_sha256": "6f2dc3ec83a4b6d96c87e94937c61d7c23012937f54974191d214a4ceaf71f5b",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-seed-gauge-scope-independent-20261016/PR76-NOTE.md",
+      "public_sha256": "3597d8e36792f139cc0b445b24b80a2bece75f3acdf286dc9906d74134067522",
+      "disposition": "prerequisite_full_proof_or_exact_input"
+    },
+    {
+      "source": "hm-twelve-dualtrace-source-recipe-20261016/THEOREM.md",
+      "source_sha256": "832a3dfe5ccd8b0a749e625349da8ddffd838ad8cf6a38e98493fa38e6c963d0",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/DUAL-TRACE-IDENTITIES.md",
+      "public_sha256": "28007e429b80e9ec08255aca3cc3816a5b80ad2e664834ed5344a442d3cb13f1",
+      "disposition": "section1_dual_trace_derivation_only_supplier_recipe_not_claimed"
+    },
+    {
+      "source": "hm-four-detector-carrier-transfer-20261015/THEOREM.md",
+      "source_sha256": "7ff9f44336d7abc9eeacaf851b1b2c1fb29fd8bbb1576c7b2726318a0b507803",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-four-detector-carrier-transfer-20261015/THEOREM.md",
+      "public_sha256": "89ee66fed48068905ba43e71e61f501a343967bcbe86be795a5d5524c9ed1009",
+      "disposition": "complete_source_row_comparison_prerequisite"
+    },
+    {
+      "source": "hm-cubic-resolvent-trace-20261015/THEOREM.md",
+      "source_sha256": "e9cfd1e5299f0aa10ab234c246dbcb40384ca1814b7db751b841fdf3ccc19a3a",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-cubic-resolvent-trace-20261015/THEOREM.md",
+      "public_sha256": "52b2d5b271c6f1ce926a19a969bd8344fa8173c8584d9cb3fb53194d33c201f9",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-cubic-resolvent-trace-20261015/check.py",
+      "source_sha256": "fab33ed20ec329ceef28ae35ee46294afe54f39a44d4085dbaf4be085890d6b8",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-cubic-resolvent-trace-20261015/check.py",
+      "public_sha256": "fab33ed20ec329ceef28ae35ee46294afe54f39a44d4085dbaf4be085890d6b8",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-cubic-resolvent-trace-20261015/receipt.json",
+      "source_sha256": "1da92a88b7f9cd5abed8fd6963abd535fc31e367935aa78370fbf506cc4fd152",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-cubic-resolvent-trace-20261015/receipt.json",
+      "public_sha256": "1da92a88b7f9cd5abed8fd6963abd535fc31e367935aa78370fbf506cc4fd152",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-klein-character-algebra-20261015/THEOREM.md",
+      "source_sha256": "22cd420239ef97207da1100e322a6b18409ccdd51310c1eb54637b0c2e444efc",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-klein-character-algebra-20261015/THEOREM.md",
+      "public_sha256": "922154141e2f05de21c01ec01b712049eba1f5d32c96a7843abc31666b539e16",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-klein-character-algebra-20261015/check.py",
+      "source_sha256": "23784b748ddf043c57beea04568609b3251ca23d4886f08ad0b17961bf7dbb0e",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-klein-character-algebra-20261015/check.py",
+      "public_sha256": "23784b748ddf043c57beea04568609b3251ca23d4886f08ad0b17961bf7dbb0e",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-klein-character-algebra-20261015/receipt.json",
+      "source_sha256": "c19d14ef9d5c55c776fbe4dad545e226633ae9fe1190cefee7154f7d083166be",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-klein-character-algebra-20261015/receipt.json",
+      "public_sha256": "c19d14ef9d5c55c776fbe4dad545e226633ae9fe1190cefee7154f7d083166be",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-finite-duality-independent-20261015/THEOREM.md",
+      "source_sha256": "1fbdf5130961c121b3430acfc2177769acfb862ba76303451f1201457c699783",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-finite-duality-independent-20261015/THEOREM.md",
+      "public_sha256": "e17acd9917208dd6eb81e43af1cfc33e45c00ce891dbfc7b0dea9ce7f2d9d69d",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-finite-duality-independent-20261015/check.py",
+      "source_sha256": "ba3406dacc62de7f9a814a98a49ef2d6f533dc832ae40fb9f8c5ba189967e53a",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-finite-duality-independent-20261015/check.py",
+      "public_sha256": "ba3406dacc62de7f9a814a98a49ef2d6f533dc832ae40fb9f8c5ba189967e53a",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-finite-duality-independent-20261015/receipt.json",
+      "source_sha256": "60d99d4a411fc80f86cbfafcb4cdcdb03750d09b785c2b074df556def49c309a",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-finite-duality-independent-20261015/receipt.json",
+      "public_sha256": "60d99d4a411fc80f86cbfafcb4cdcdb03750d09b785c2b074df556def49c309a",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    },
+    {
+      "source": "hm-terminal-demand-independent-20261015/SOURCE-ROW-AUTHENTICATION.md",
+      "source_sha256": "e8d91fb3aa780f24ea4ca6e5e8543293982e64e74b7dd20d7ec4bc9306fb1800",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-terminal-demand-independent-20261015/SOURCE-ROW-AUTHENTICATION.md",
+      "public_sha256": "86837e0cca5767d1c295d325efdcb181ee2bdf6ac5bd950ae36062be10479248",
+      "disposition": "historical_antecedent_not_new_oct16_theorem"
+    }
+  ]
+}
