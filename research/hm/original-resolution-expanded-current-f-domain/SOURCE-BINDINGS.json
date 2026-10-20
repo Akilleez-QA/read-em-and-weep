@@ -1,0 +1,170 @@
+{
+  "record": "S405",
+  "primary_original_sha256": "65bbab34799fb1d3ef6b59b77793711e1b9a790029f18fa073f5cd9fba604a63",
+  "primary_role": "original-resolution refinement",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "role": "primary proof",
+      "original_sha256": "65bbab34799fb1d3ef6b59b77793711e1b9a790029f18fa073f5cd9fba604a63",
+      "staged_sha256": "81d6149074fe1fe53a08316195752a32dbc62bc62247a3d18a98e89fe34973b0",
+      "original_bytes": 15788,
+      "staged_bytes": 16030,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "REVIEW-character-prism.md",
+      "role": "historical scientific audit",
+      "original_sha256": "366c4e12448352701c589f8bf0189308784bdab0eea410ebd01e44f93b968641",
+      "staged_sha256": "b22ebb298b036b189713866604aa151ea25c27fe6eb6a826924e3401d1e868f5",
+      "original_bytes": 9094,
+      "staged_bytes": 9332,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "REVIEW-ledger.md",
+      "role": "historical scientific audit",
+      "original_sha256": "e412b89e64a12ce9af613e73e2ef3184d222d84989cd1a86982711ac2ac33990",
+      "staged_sha256": "5fe21b05c6dee52241b64e584f96a5ba4b6315840ab5d9ed1cd6bf74b9c2d9c0",
+      "original_bytes": 8423,
+      "staged_bytes": 8512,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/endpoint.md",
+      "role": "supporting dependency",
+      "original_sha256": "799e4744e58994e1d10abaaeccffd14a5234f92cd8cb5899b389f8db588a8bf0",
+      "staged_sha256": "e960186437aa796460047799e66741f3a4c43a44e70ccb9a48d874ce9718b35f",
+      "original_bytes": 9084,
+      "staged_bytes": 9444,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/full-character-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "ce17740962e0f5e7dd23fd1bc3613704ea8d83a81d343827304338e2e686b94f",
+      "staged_sha256": "8b76a8210107a0918a9c25f3eba1567f938aff9de2b937fb42a09f943d91dce0",
+      "original_bytes": 16664,
+      "staged_bytes": 16983,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/normal-form-RESULT.md",
+      "role": "supporting dependency",
+      "original_sha256": "75f3c4fd559a9333b3252e1b1d0771a8e6f216354548df57eef60db5388af306",
+      "staged_sha256": "98978abdd3f5d9aca0757c37c2ffafbbb5bfa6b844d270ee4e0de5ec153e96ff",
+      "original_bytes": 10832,
+      "staged_bytes": 11236,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/normal-form-REVIEW.md",
+      "role": "historical scientific audit",
+      "original_sha256": "f42b602ce918ead3543980e6581059416a05e5eafdf7a824918105de4242c289",
+      "staged_sha256": "809916e2263aaf5429407a614bc1e64094e25eadd77457621a7e390fdc83766a",
+      "original_bytes": 5514,
+      "staged_bytes": 5786,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/overlap-DOMAIN.md",
+      "role": "supporting dependency",
+      "original_sha256": "0d43ee02cdef77017dbbcb70c105f45608715d0b2e9f0ce53690a758aeb8784a",
+      "staged_sha256": "67645474b722ace0ec21993176180e016a3202bab73a8af587caed2e5400de3d",
+      "original_bytes": 3446,
+      "staged_bytes": 3888,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/overlap-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "d7894a0e8697774d94df93936c10c90ee36be1c16d57356667794ee1aee042d3",
+      "staged_sha256": "b229d7ab46a075f87986cc45e5872ea3f507c87c44b95425e43cecc2da90e925",
+      "original_bytes": 7315,
+      "staged_bytes": 7719,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/ownerwise-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "8250fc413d5c640d5ec6c58380fa3b8da5a1ae216f7516d2ba32f81aba172787",
+      "staged_sha256": "300482d805b3a31f0756d433d67cce26fe346d1f2ebd2b958323fa934520ac43",
+      "original_bytes": 19174,
+      "staged_bytes": 19516,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/prism-domain.md",
+      "role": "supporting dependency",
+      "original_sha256": "1332949f74701dc95a8136f8700ce8f1ecd422fc3a84ec949dff41b8127cdb6b",
+      "staged_sha256": "1606b649f9475d3ee590367aa9fc08f7649de070043aa9352ee3c80177f29342",
+      "original_bytes": 13429,
+      "staged_bytes": 13830,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/rank-two-RESULT.md",
+      "role": "supporting dependency",
+      "original_sha256": "3617328ec484770e85da5009fd2aaf07367e544bb335b186d9a3d3b1b7773f0a",
+      "staged_sha256": "6239f976220051b6df470bc8d6b50aa8de77aec6fdfeabafa5c4d8f5d565f929",
+      "original_bytes": 6906,
+      "staged_bytes": 7310,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/structural-closure-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "50ec1df804dc461c928dfcd8bba8d4428206e36a0b7f1686a9aa2f43731db490",
+      "staged_sha256": "37ca16a78dbe9cf12c6ce0bb1af97b78feda079ee136be8def13c921d1080f9d",
+      "original_bytes": 25872,
+      "staged_bytes": 26245,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/transition-PROOF.md",
+      "role": "supporting dependency",
+      "original_sha256": "b4c3041e8f945df65518f37dd59f92e16d6cd8cc29fd9803d8576daf7c9b99c8",
+      "staged_sha256": "c55a87a15d313ea7e93b52493b89daf7cd31e7d57dbebb66e3d01cb3ee602733",
+      "original_bytes": 13327,
+      "staged_bytes": 13709,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "historical-receipts/receipt-optimized.json",
+      "role": "historical receipt only",
+      "original_sha256": "78f1222ad8e77b1ac9a20b5fcd396bc493bb32466670181a92ec7afef9182f3d",
+      "staged_sha256": "635742325a4a18e25fbfd2ff5969d760f4cd6ec228ce7aa70c0315653717c345",
+      "staged_bytes": 690
+    },
+    {
+      "path": "historical-receipts/receipt.json",
+      "role": "historical receipt only",
+      "original_sha256": "78f1222ad8e77b1ac9a20b5fcd396bc493bb32466670181a92ec7afef9182f3d",
+      "staged_sha256": "635742325a4a18e25fbfd2ff5969d760f4cd6ec228ce7aa70c0315653717c345",
+      "staged_bytes": 690
+    },
+    {
+      "path": "check_metadata.py",
+      "role": "standalone mathematical extraction, AST parsed only",
+      "original_sha256": "a450826385fd06d580a3c6d4b40f11c392bae2b5d01804d4e9879d357755ff50",
+      "staged_sha256": "2190435ded80460c0ea85d46b73ccad3b6362cd7134c356ce3ca378cbe713452",
+      "editorial_changes": "Removed only source/proof hash-binding loops and unused filesystem/hash imports; mathematical control statements retained.",
+      "staged_bytes": 1741
+    }
+  ],
+  "immutable_public_sources": [
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/491306fd2f7f8a04c29784afa48a6cb8a467f154/research/hm/null-raw-regular-extension/PROOF.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/491306fd2f7f8a04c29784afa48a6cb8a467f154/research/hm/null-raw-regular-extension/inputs/compiler.py.txt",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/491306fd2f7f8a04c29784afa48a6cb8a467f154/research/hm/null-raw-regular-extension/inputs/raw_engine.py.txt",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/4c0e965b4de72e43c39ba863f9aa8eea15571851/research/hm/null-inner-boundary-domain/PROOF.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/560645be183e1fbb1029983319295e4a77f08984/research/hm/null-complete-residual-lowering/PROOF.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/e93cf712f9da4926a8450cc870ed45a7bfc379ab/research/codex-swarm/detector-realization/raw_engine.py",
+    "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6250367808"
+  ],
+  "omitted_source_bound_code": [],
+  "holds": [
+    "Independent scientific and packaging review pending.",
+    "Historical source-bound checker reproduction is held: operational frozen-source files and old pin contracts are omitted, and editorial normalization changes proof bytes. Original receipts are not validation of this edition."
+  ],
+  "verification": "Filesystem byte/hash inspection and AST parsing only; no authored checker or actual source computation executed."
+}
