@@ -1,0 +1,37 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "primitive": [
+      [
+        39,
+        35,
+        24,
+        5
+      ],
+      [
+        12,
+        12,
+        12,
+        3
+      ]
+    ],
+    "scope": "integer occurrence vectors only",
+    "selected": [
+      [
+        35,
+        31,
+        27,
+        24,
+        5
+      ],
+      [
+        9,
+        10,
+        10,
+        10,
+        3
+      ]
+    ],
+    "status": "pass"
+  }
+}
