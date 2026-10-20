@@ -1,0 +1,50 @@
+[
+  {
+    "source": "primary-graded-geometry/GENERATORS.md",
+    "source_sha256": "24a28f61fde67deb22a95335cdb5c37203e8be537f1718fad1c4b26726a42ffc",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/GENERATORS.md",
+    "public_sha256": "24a28f61fde67deb22a95335cdb5c37203e8be537f1718fad1c4b26726a42ffc",
+    "normalizations": []
+  },
+  {
+    "source": "primary-graded-geometry/GENERATORS_AUDIT.md",
+    "source_sha256": "26083ce5e069291488635d9d54a310191cecddac3ee170ff3aa4f3ea693d6e96",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/GENERATORS_AUDIT.md",
+    "public_sha256": "ba45a63d1c98baf7a44ff0408a6b50815f7ce87703fb1741f0831f26372bf987",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "primary-graded-geometry/HILBERT.md",
+    "source_sha256": "c9f872529a4f11280019df078d73804a3abfe2c7a03a07a286e4f549df9e1980",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/HILBERT.md",
+    "public_sha256": "c9f872529a4f11280019df078d73804a3abfe2c7a03a07a286e4f549df9e1980",
+    "normalizations": []
+  },
+  {
+    "source": "primary-graded-geometry/HILBERT_AUDIT.md",
+    "source_sha256": "d7fbdf89174ddac84d9af6b90378f7edff5258f1474a8f16f34c30592c554f1d",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/HILBERT_AUDIT.md",
+    "public_sha256": "2ae8b29f8d7523b3603f97ab8babc89f911306b60ea83ff48b079f17de767d5c",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "primary-graded-geometry/VERTEX_DEPTH.md",
+    "source_sha256": "9de70dad958cdf5df76606599c57bb82c626de04ac7c9deb01fd9e4ab1c0408b",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/VERTEX_DEPTH.md",
+    "public_sha256": "9de70dad958cdf5df76606599c57bb82c626de04ac7c9deb01fd9e4ab1c0408b",
+    "normalizations": []
+  },
+  {
+    "source": "primary-graded-geometry/VERTEX_DEPTH_AUDIT.md",
+    "source_sha256": "0b3d048856c3dcec9b4b9c0469247c3670ff8da486a0a72e01378fc7cbbd6d1d",
+    "public_path": "research/hm/middle-surface/primary-graded-geometry/VERTEX_DEPTH_AUDIT.md",
+    "public_sha256": "5fd3828b9896928152bf6c6118573ef5def74ba54aee7535b869192d9b87de27",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  }
+]
