@@ -1,0 +1,18 @@
+{
+  "proof_sha256": "9827e0e8693e9d43b14d911c4ef6e33cb02eeb7ddedd0d9c2084ac222702a94b",
+  "files": {
+    "PROOF.md": "9827e0e8693e9d43b14d911c4ef6e33cb02eeb7ddedd0d9c2084ac222702a94b",
+    "README.md": "326f6d07f65352bf71c0658ee986692fc474043e3348a4f9603ac5b543734545",
+    "REVIEW-independent.md": "c277db8978e37ba605f328f237c9cf4cb86277db00dac4035bb2bd3473d1566f",
+    "REVIEW-structural.md": "361256e9444dc25b0012b3e9b55c108731d9da210d1186af70d2b960241cbfc0"
+  },
+  "review_status": "Two independent mathematical text reviews pass; not formal verification.",
+  "dependency_commits": {
+    "167": "063da90fc4543304e87e701cdefcc08225412f17",
+    "440": "829e03411d04511f6cf04860bf18db4a70b12448",
+    "442": "2072baf63868a309366a7d3ae54dc1132e56adb7",
+    "443": "bc5a8ba31104bc66b180984a1fdfc7f17ceb1eef",
+    "445": "7644e9b7e66e5d7108afccca4a76a3f7a7c5f959"
+  },
+  "scope": "Structural symbolic proof; no selected actual HM/source-instance evaluation."
+}
