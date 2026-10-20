@@ -1,0 +1,155 @@
+# Simple ternary metric degeneration: the canonical complement, elementary transform, and excess class
+
+## Scope and hypotheses
+
+This is a universal vector-bundle calculation over C, continuing the canonical-complement construction in `/research/hm/middle-surface/rank-five-middle-families/PROOF.md`. It uses no source operation instance, rank computation, numerical experiment, or existence assertion.
+
+Let U be a line subbundle of a rank-five trivial bundle V, let H be a rank-four subbundle containing U, and put E=H/U, of rank three. Let
+
+    h: Sym² E -> M
+
+be a nowhere-zero line-valued symmetric form, K=ker h, and let the correction, in local splittings H=U⊕E, be a map K -> E⊗U. With a local frame u of U this is the map v of the preceding proof, tensored with u. Changing the splitting by d:E->U changes v by q->2q(d). Assume square avoidance: for every nonzero r with h(r,r)=0, the value v(r²) is not in Cr⊗U. In applications this follows from the repeated-input hypothesis. Assume that the correction is supported in E, including at the boundary under consideration. This support condition holds by continuation from the dense good locus on the constant-rank, constant-support stratum.
+
+On the nondegenerate locus the normalized complement is the graph of
+
+    lambda = -(3/10) tau_h(v): E -> U.
+
+We analyze a simple discriminant divisor D: h has rank two along D and det(h) vanishes to order exactly one. Statements about a divisor neighborhood require these hypotheses at every point of that neighborhood; the DVR statement needs them only at its generic point.
+
+## 1. Extension-independent contraction and normalization
+
+Trivialize U and M temporarily. Since h is a surjection Sym² E -> O, any v:K->E extends locally to W:Sym² E->E. View W as a tensor in E⊗Sym² E*, and define tr(W) by contraction of the output against one input. Thus in coefficients
+
+    tr(W)_b = sum_a W^a_ab.
+
+On the nondegenerate locus the intrinsic contraction is exactly
+
+    tau_h(v) = tr(W) - (1/3) h(W(h^{-1}), -).                (1)
+
+Indeed P_h(q)=q-h(q)h^{-1}/3 is the trace-free projection onto K, and the right side is tr(W composed with P_h). This is the contraction in the earlier canonical-complement proof.
+
+If W is replaced by W+h⊗w, its trace increases by h(w,-), while W(h^{-1}) increases by 3w. These changes cancel in (1). Thus (1) is independent of extension. It is also unchanged by scaling h. For i(d):q->q(d), contraction gives tr(i(d))=2d in dimension three, and the second term contributes d/3. Consequently
+
+    tau_h(i(d))=(5/3)d,   tau_h(2i(d))=(10/3)d.
+
+This recovers the coefficient 3/10 and proves splitting invariance of the resulting complement. With the U factors restored, (1) is an E*⊗U-valued tensor. With the M factors restored, h^{-1} is M^{-1}-valued, so the second term is still E*⊗U-valued. Hence the entire calculation is intrinsic.
+
+## 2. DVR proof of the nonzero simple pole
+
+Let A be a DVR with uniformizer t and residue field of characteristic zero. Suppose E,U,M are free over A, det(h)=t epsilon with epsilon a unit, and the reduction h_0 has rank two. No diagonalization or special normal form is needed.
+
+After choosing frames write J=adj(h). Then h^{-1}=J/(t epsilon), and
+
+    t tau_h(v) mod t = -(1/(3 epsilon_0)) h_0(W_0(J_0),-).
+
+The tensor J_0 is nonzero of rank one and has image equal to the radical R_0=ker h_0. Because it is symmetric, J_0 is a nonzero scalar multiple of r² for any radical generator r (with the corresponding determinant-line factors understood). In particular J_0 belongs to K_0, and W_0(J_0)=v_0(J_0) is independent of W. Square avoidance implies
+
+    v_0(J_0) is not in R_0⊗U_0.
+
+The kernel of h_0:E_0->E_0*⊗M_0 is exactly R_0. Therefore h_0(v_0(J_0),-) is nonzero. It follows that tau_h(v) has an actual simple pole, not just a pole of order at most one. More precisely,
+
+    alpha := t lambda is regular and
+    alpha_0 = (1/(10 epsilon_0)) h_0(v_0(J_0),-) != 0.       (2)
+
+The covector alpha_0 annihilates R_0. Formula (2) supplies the exact sign and coefficient. A different uniformizer or local frames rescales its coordinate expression as required; the residue itself is canonically a surjection
+
+    rho: E|D -> U|D ⊗ O_D(D).                              (3)
+
+Regular changes of splitting do not alter (3), because they alter lambda only by a regular covector. Rescaling a local equation t changes alpha compatibly with the normal line O_D(D). Thus (3), and its kernel, are intrinsic. Its rank is one everywhere on a simple rank-two discriminant neighborhood satisfying square avoidance.
+
+## 3. The saturated graph and exact vanishing order
+
+Work first over the DVR, or locally near a point of a simple discriminant divisor. Write lambda=alpha/t where alpha:E->U is regular and has a unit component. Choose a local frame u of U, a basis e_1,e_2 of ker alpha, and e_3 with alpha(e_3)=u. For a regular splitting s:E->H, the closure of the graph of lambda is the subbundle C of H generated by
+
+    s(e_1),  s(e_2),  t s(e_3)+u.                          (4)
+
+These vectors are independent even modulo t, and generate a saturated rank-three subbundle. Away from D they span exactly the canonical complement. Thus the Grassmannian complement map extends regularly over the simple discriminant locus; no blowup is needed there. Its special fiber is
+
+    C_0 = U_0 + s(ker rho_0),                              (5)
+
+where the sum is direct in the chosen splitting. In particular C_0 contains U_0, and it also contains a lift of the radical line.
+
+Projection C->E is injective as a map of sheaves, despite having rank two on fibers over D. Its image consists of e with rho(e mod t)=0. Globally on this neighborhood there is an elementary-transform exact sequence
+
+    0 -> C -> E -> i_*(U|D ⊗ O_D(D)) -> 0.                (6)
+
+Here the first arrow is the projection from H, not the original inclusion C⊂H, and i:D->X is the divisor embedding.
+
+Since H/C is locally generated by the class of s(e_3), equation (4) gives
+
+    [u] = -t [s(e_3)] in H/C.
+
+Consequently the section U->V/C has vanishing ideal exactly (t). It vanishes to order one, and has no residual isolated zero at a point where these hypotheses hold. The inclusion H/C⊂V/C is a subbundle because V/H is locally free. In particular passing to V/C does not change this vanishing ideal.
+
+The same argument identifies, canonically via the middle-line map,
+
+    H/C ≅ U(D),
+    0 -> C -> H -> U(D) -> 0.                              (7)
+
+Determinants of (6) give c1(C)=c1(E)-D, consistent with (7).
+
+## 3A. Corank-one Cartier boundary with multiplicity
+
+There is a precise extension that does not assume the determinant divisor is reduced or smooth. Suppose det(h) defines an effective Cartier divisor D and h has rank exactly two at every geometric point of its support. Assume square avoidance there. Locally write det(h)=f epsilon, where f defines D and epsilon is a unit. Formula (1) gives a regular covector alpha=f lambda. Its value at each point of D is
+
+    alpha = h(v(adj(h)),-)/(10 epsilon),
+
+and is nonzero by exactly the radical-square argument of Section 2. Thus alpha has a unit component even when D is nonreduced. Replacing t by f in (4) proves that C is a subbundle, its projection is the elementary transform (6), H/C=U(D), and the middle section has ideal exactly (f). These are statements on the full Cartier scheme D, including its nilpotent structure; the normal-line-valued map (3) is a surjection on that scheme. Equations (8)-(11) below consequently remain valid for this possibly nonreduced divisor under the same global corank-one hypotheses.
+
+At the generic point of a component with multiplicity m, write f=t^m times a unit in the DVR. The covector lambda has pole order exactly m, and the middle section vanishes to order exactly m. The assertion “order one” is reserved for the reduced simple case. This extension makes no claim at points where h has rank at most one. Smoothness of D is unnecessary even in the reduced case.
+
+## 4. Global pure-divisor identity
+
+Suppose X is a smooth projective surface, H and E extend everywhere as above, and h is nondegenerate off a divisor D and has only simple rank-two degeneration on D. Suppose square avoidance holds on D. Then the preceding local extensions glue uniquely to the canonical C everywhere. Put
+
+    R=V/C,   N=V/H,   F=R⊗U*,   a=c1(U*),   n=c1(N).
+
+Both R and F have rank two. From (7) there is an exact sequence
+
+    0 -> U(D) -> R -> N -> 0,
+
+or, after tensoring,
+
+    0 -> O(D) -> F -> N⊗U* -> 0.                           (8)
+
+The middle-induced section of F is the canonical section of O(D), followed by the subbundle inclusion in (8). Its zero scheme is exactly D, with multiplicity one. The top Chern class is therefore
+
+    c2(F) = D·(n+a)                                       (9)
+
+in the Chow group of zero-cycles. This is the excess contribution of its divisorial zero locus, not the length of D.
+
+If X is a resolution of a middle surface B and the middle map is birational onto B, the positivity theorem from the previous proof gives
+
+    integral_X D·(n+a) = integral_X c2(F) >= degree(B)>0.    (10)
+
+For a generically finite middle map of degree d, replace degree(B) by d degree(B). Equation (10) is conditional on the stated global pure-simple-boundary hypotheses; it does not hold with D interpreted as only the simple part when other boundary occurs.
+
+For reference, if m=c1(M) and e=c1(E), the discriminant divisor has class
+
+    D = 3m - 2e = 3m + 2n - 2a,                           (11)
+
+since det(h) is a section of (det E*)²⊗M³ and det E=N^{-1}⊗U^{-1}. This is a bundle identity, not an independent positivity assertion.
+
+## 5. General excess formula on the complement-graph resolution
+
+The preceding global hypotheses need not hold in applications: residual rank may drop, support may fail to extend, the metric may have higher corank, and graph resolution can introduce exceptional divisors. A multiple discriminant by itself is covered by Section 3A when the corank-one and square-avoidance hypotheses persist. One must not discard these possibilities.
+
+Nevertheless let X be any smooth projective complement-graph resolution from the previous proof, let F=(V/C)⊗U*, and let s be its middle-induced section, which is nonzero generically. Its zero scheme has a maximal effective divisorial part A. Dividing by its local equation gives a section
+
+    s_res of F(-A)
+
+with no divisorial zeros. Its remaining zero scheme Z is finite or empty; if nonempty it is a local complete intersection on the smooth surface. The exact top-Chern identity is
+
+    c2(F) = [Z] + A·(c1(F)-A).                            (12)
+
+Indeed c2(F(-A))=[Z] and twisting a rank-two bundle gives c2(F(-A))=c2(F)-A c1(F)+A².
+
+On every open set where Section 3 applies, A is precisely the reduced discriminant D, with coefficient one, and Z is empty. Thus (12) identifies the contribution type of simple metric boundary and locates all residual isolated zeros away from this locus. Other divisorial components, including exceptional ones, retain their actual multiplicities in A. Individual terms in A·(c1(F)-A) need not be nonnegative; the established positivity controls the total:
+
+    length(Z) + integral_X A·(c1(F)-A) >= degree(B) > 0.   (13)
+
+One cannot infer a positive count of simple discriminant points or a lower bound on the naive degree of D from (13) alone.
+
+## Conclusion
+
+A simple rank-two ternary metric degeneration with square avoidance necessarily gives a genuine simple pole of the normalized contraction, but the canonical three-plane itself extends regularly. Its limiting plane contains the middle line, the middle section vanishes to first order, and projection to the ternary support is the elementary transform (6). This rigorously explains a positive-dimensional zero locus and supplies the corresponding excess-Chern identity. It neither excludes residual rank at most four nor proves the existence or nonexistence of a seven-dimensional independent-zero component.
