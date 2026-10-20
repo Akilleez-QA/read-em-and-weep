@@ -1,0 +1,61 @@
+{
+  "claim": "S081",
+  "public_inputs": [
+    {
+      "label": "coefficient",
+      "pr": 179,
+      "commit": "2b03992b32d2f5cf0509b6f4840adf08369f54b7",
+      "path": "research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2b03992b32d2f5cf0509b6f4840adf08369f54b7/research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "git_blob_sha1": "3dcb57c3e06c008ad8c9edb4364e42e18de10079",
+      "sha256": "1f29eada256898880046b273dc8b9e0f76eade6694720819cc753fd22beb5ef3",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "ordered",
+      "pr": 179,
+      "commit": "2b03992b32d2f5cf0509b6f4840adf08369f54b7",
+      "path": "research/hm/cubic-loci/foundation-p01/ORDERED-PRODUCTS.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2b03992b32d2f5cf0509b6f4840adf08369f54b7/research/hm/cubic-loci/foundation-p01/ORDERED-PRODUCTS.md",
+      "git_blob_sha1": "cb40e9d5d83226b35bb8d78dab7e4ded7269d6e8",
+      "sha256": "6aa040de32ff9bfaa4e4bb3c6c805d156bb31d78bb09ae2b73afdb6b62261dfd",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "cohomology",
+      "pr": 179,
+      "commit": "2b03992b32d2f5cf0509b6f4840adf08369f54b7",
+      "path": "research/hm/cubic-loci/foundation-p01/INVARIANT-COHOMOLOGY.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2b03992b32d2f5cf0509b6f4840adf08369f54b7/research/hm/cubic-loci/foundation-p01/INVARIANT-COHOMOLOGY.md",
+      "git_blob_sha1": "c1749c295c730dc2bedf3b07bf4d855766893162",
+      "sha256": "8c522818ea0b23164cd7f8b814ae8975dee35c77fda03abc61280a1652606cbc",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "canonical",
+      "pr": 185,
+      "commit": "721fdc556714bb40f0a805f01fae51cf6d555fd5",
+      "path": "research/hm/cubic-loci/foundation-p04/CANONICAL-MASSEY.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/721fdc556714bb40f0a805f01fae51cf6d555fd5/research/hm/cubic-loci/foundation-p04/CANONICAL-MASSEY.md",
+      "git_blob_sha1": "ee733718a335cd8944e4e40f40ff75b86a0068ef",
+      "sha256": "1887d2fa2bb470e887cd12eb34343d1bff3c4602ddf7c9adaaf6cd6ce6055415",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "relative",
+      "pr": 252,
+      "commit": "92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f",
+      "path": "research/hm/relative-models/relative-obstruction-locus/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f/research/hm/relative-models/relative-obstruction-locus/PROOF.md",
+      "git_blob_sha1": "a9a412c53bb6dd475181b68f85e86fd0497ee31e",
+      "sha256": "06926c980fa466db199d336e6e6ec02038263952350e3eca26149838a58f6d3b",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    }
+  ],
+  "local_dependency": null,
+  "scope": {
+    "disposition": "distinct second-order method exclusion, not a new cyclic identity",
+    "overlap": "PR185 outer reversal/cyclic-zero reused. PR252 P,D local-free/base-change input only; S not used.",
+    "sections_retained": "all original mathematical sections and full audit"
+  }
+}
