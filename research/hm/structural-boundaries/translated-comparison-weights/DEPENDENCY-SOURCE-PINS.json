@@ -1,0 +1,41 @@
+{
+  "scope": "Original mathematical dependency edition hashes, not execution authentication. No local paths are disclosed. Canonical public commits must be added before claiming exact source closure.",
+  "dependencies": [
+    {
+      "source_reference": "dependencies/regular-source-cover-PROOF.md",
+      "source_sha256": "1a4d478d18f564a50f4ccb82bcbdf39461da48b30e4998869a612a024a69b607",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+          "public_sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/translation-family-PROOF.md",
+      "source_sha256": "b3af7854e380197f76b0ae2beac36ff68dd4c5752afb438ce0fd9c7770219191",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+          "public_sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/translation-family-REVIEW.md",
+      "source_sha256": "a6699d37421016abb445f3b0226f3dbeae564dd13f2e2a21b9f376b048017311",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md",
+          "public_sha256": "58237dc5526184c8bd4bf05452caee06ba80029fd85f88ac1d733b6c07aca12e",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    }
+  ]
+}
