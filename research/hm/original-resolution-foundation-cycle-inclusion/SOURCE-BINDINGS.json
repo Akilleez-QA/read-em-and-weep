@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "PROOF.md",
+      "historical_sha256": "e8425c8ea279c50d5682ca30f95a9ebf45ad2dc45e45a433585f28310c4fcdbe",
+      "public_sha256": "e8425c8ea279c50d5682ca30f95a9ebf45ad2dc45e45a433585f28310c4fcdbe",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "independent-audit/REVIEW.md",
+      "historical_sha256": "7c1ba3a5547c12cee33f10c0ea3a341b3ce3f82fad3bc51205b94aa55f47cc70",
+      "public_sha256": "7c1ba3a5547c12cee33f10c0ea3a341b3ce3f82fad3bc51205b94aa55f47cc70",
+      "role": "full scientific proof or historical review"
+    }
+  ]
+}
