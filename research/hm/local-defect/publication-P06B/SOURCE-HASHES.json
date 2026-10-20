@@ -1,0 +1,26 @@
+[
+  {
+    "artifact": "rank-five-degree-two-obstruction/AUDIT.md",
+    "original_sha256": "e2e1211d08d29f161737b15952ac7bbce5f95fe3e29f2757261abfacfb8d5407",
+    "published_sha256": "26f920f5c933efabab78f2f87f5ed9fbf6c373830f500a45e397d8e8b093b30b",
+    "path": "research/hm/local-defect/rank-five-degree-two-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "rank-five-degree-two-obstruction/PROOF.md",
+    "original_sha256": "c4f9289e3fe03eebe9b2dafd93199f1a6c6a30ad22dc846433aebc7dbeb82e98",
+    "published_sha256": "c3d9a9aacea65bd4dd706d884e89c0542ec1b004e375a8da96de31f49119773c",
+    "path": "research/hm/local-defect/rank-five-degree-two-obstruction/PROOF.md"
+  },
+  {
+    "artifact": "degree-two-image-determinant-exclusion/AUDIT.md",
+    "original_sha256": "51cddebf3e29f9dc5c7560eb2c483ba23820ea884f686475bd6b2accb8f12ce5",
+    "published_sha256": "75bfe1e2fd3137fde755a105c8481fc90f294b3b7894b8ab846bd66fdae20b44",
+    "path": "research/hm/local-defect/degree-two-image-determinant-exclusion/AUDIT.md"
+  },
+  {
+    "artifact": "degree-two-image-determinant-exclusion/PROOF.md",
+    "original_sha256": "46e3e11e286e6c56b5d3d29b211fe459de3e4f2d90cb186dcdec3401e18c3093",
+    "published_sha256": "b38e0fe0baf48da4c9fdea8e86d27688c869b0ae52ece5aa7017b3a6396b54b8",
+    "path": "research/hm/local-defect/degree-two-image-determinant-exclusion/PROOF.md"
+  }
+]
