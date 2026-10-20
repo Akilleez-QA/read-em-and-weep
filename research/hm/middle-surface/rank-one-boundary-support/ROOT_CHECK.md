@@ -1,0 +1,7 @@
+# Independent mathematical check
+
+PASS, 19 October 2026 UTC. Read PROOF.md, ADDENDUM.md and their independent audits. The universal quotient covector is E -> L with L=a*O(1), so the proportionality scalar belongs to L and division leaves an untwisted E* bundle. With nonvanishing Q restriction, the scalar and divided covector are regular; completeness makes the latter constant. Shear subtraction puts the correction in a space of dimension at most two, and the height bound for three quadrics in four variables supplies a compatible square.
+
+For distinct factors Q=ab, reduction modulo the opposite factor at each exceptional support point makes multiplication by the universal covector have nonzero residue. Its product with a leading polar term cannot vanish in the polynomial domain. Hence the divided covector modulo span(a,b) is globally regular and constant. Restriction of the full quadratic identity to Sym2(ker a intersect ker b), rather than an unjustified moving-kernel inclusion, gives the common-image condition. The nonlinear case yields image dimension at most one; pencils are separately excluded. This independently verifies the distinct-factor completion.
+
+For residual rank zero, the Euler sequence gives c3(T_P3(1))=15h^3. A square-avoiding correction would give a nowhere-zero section, contradicting that Chern class. These arguments compute no physical instance and make no claim about existence of other residual ranks.
