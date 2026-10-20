@@ -1,0 +1,33 @@
+{
+  "claim_id": "S105",
+  "section_order_note": "Full-target transport is a separate theorem from ideal-power contraction and from the sharper collision-order bound. It is conditional on regular j_r class transports and constant-inclusion injectivity for r=0,1,2, plus actual regular closed representative membership. These are not proved by group characters. Historical sufficient order12 is retained; conductor05 sharper order7 does not establish the transport or actual source membership. No S374 proof is duplicated.",
+  "references": {
+    "effective-collision-bound/PROOF.md": {
+      "path": "research/conductor-normalization/effective-collision-bound/PROOF.md",
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "pr": 167,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/effective-collision-bound/PROOF.md",
+      "public_sha256": "7f1af835ff5998deb22b62c51d868c86b9a2d554c69c964ec9d05c337f58d104"
+    },
+    "sixth-ideal-pushforward/ALL-POWERS.md": {
+      "path": "research/conductor-normalization/sixth-ideal-pushforward/ALL-POWERS.md",
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "pr": 158,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/sixth-ideal-pushforward/ALL-POWERS.md",
+      "public_sha256": "72207c5217283a7f865780ccf831bbbdb41a4b7eaf45cce25ca566bdedacef03"
+    },
+    "fourth-ideal-pushforward/PROOF.md": {
+      "path": "research/conductor-normalization/fourth-ideal-pushforward/PROOF.md",
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "pr": 158,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/fourth-ideal-pushforward/PROOF.md",
+      "public_sha256": "a2a3d1f6db7265bf697f324c5c015fed915570ca4a8a1286ef040eca12c879fe"
+    },
+    "weighted-trace-filtration-audit/TRACE-CORRECTED-SQUARE.md": {
+      "status": "unresolved exact public binding; premise not asserted proved here"
+    },
+    "weighted-trace-filtration-audit/WEIGHTED-SELECTION.md": {
+      "status": "unresolved exact public binding; premise not asserted proved here"
+    }
+  }
+}
