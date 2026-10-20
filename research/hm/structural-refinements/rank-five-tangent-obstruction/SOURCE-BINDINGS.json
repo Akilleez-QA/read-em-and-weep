@@ -1,0 +1,26 @@
+[
+  {
+    "claim": "S255",
+    "source_file": "rank-five-tangent-obstruction/AUDIT.md",
+    "source_sha256": "3153322ba37d8f2de09de9cb80fb4abad478971a57477f4c9a13301755ee9a22",
+    "public_path": "research/hm/structural-refinements/rank-five-tangent-obstruction/AUDIT.md",
+    "public_sha256": "a6ea92af62c8864a9e67ab8550663f0314b82242eb9b05b11889d277c4950d8a",
+    "public_git_blob_sha1": "71b707c93f5f2b7ffa93a91075cc67176371a909"
+  },
+  {
+    "claim": "S255",
+    "source_file": "rank-five-tangent-obstruction/PROOF.md",
+    "source_sha256": "01134ea05c57760f35cbd3eb330e8a3f07149a93ba24e826880aeb0ed8369db6",
+    "public_path": "research/hm/structural-refinements/rank-five-tangent-obstruction/PROOF.md",
+    "public_sha256": "9338b901fa4dfb5e71a80dbe938e2b283d3639d7eca9ecf28b6fec5aaf3a53c1",
+    "public_git_blob_sha1": "5a800b97a04cf6c4bf43dd55463bd79103dab695"
+  },
+  {
+    "claim": "S255",
+    "source_file": "rank-five-tangent-obstruction/ROOT_CHECK.md",
+    "source_sha256": "e211a7d3cfefd54bcab6ee30c0274a68833d8c849c6439fafd691a96750771a9",
+    "public_path": "research/hm/structural-refinements/rank-five-tangent-obstruction/ROOT_CHECK.md",
+    "public_sha256": "c733deed9c96dce251827d8ed79ea82fc29c125d9536b3038105b5d2a02ef48b",
+    "public_git_blob_sha1": "93c9c482893b81c9eb4bc004d6952457ab4ac548"
+  }
+]
