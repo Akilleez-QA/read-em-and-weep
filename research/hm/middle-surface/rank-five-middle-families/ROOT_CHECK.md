@@ -1,0 +1,11 @@
+# Independent mathematical check
+
+PASS, 19 October 2026 UTC. Read the full proof, all nine sections, and the independent audit. Checked against the prior convention A_u(z)=f(u,u,z); outer symmetry then makes a splitting shear add 2q(d), exactly as used. The factor 10/3 in contraction and the coefficient -3/10 in the canonical complement follow from sum T_i^2=(5/3)Id. Scaling the conformal form cancels, while scaling u inversely scales v, so the complement is intrinsic.
+
+The outside-support reduction invokes the complete four-dimensional ternary theorem, including its reducible cases. On the rank-five locus the support cannot jump to dimension four: containment in some Sym2 of a three-plane is a closed proper-incidence condition. Dimension five of K prevents support dimension two. Proper projective fiber semicontinuity applies; the only dependent zero is the diagonal point, so a two-dimensional fiber cannot disappear solely into the dependent locus.
+
+Independently checked the projective-surface obstruction also via the exact sequence 0 -> U -> R -> L -> 0 that would hold if the incidence section were nowhere zero. R is globally generated, h=c1(U*) is nef and big, and L is a globally generated line. Then c2(R)=-h c1(L) has nonnegative degree, forcing h c1(L)=0; c1(R)=c1(L)-h would have negative intersection with h, contrary to nefness. This agrees with the proof's cleaner positive c2(R tensor U*) argument. The graph resolution makes h^2 equal degree(B). Length is asserted only when the particular zero scheme is zero-dimensional.
+
+For complete nonconstant good curves, the determinant degree a is divisible by three from the nondegenerate conformal pairing. If a=0, both the complement and its projective metric are constant: the latter maps a complete curve into the affine discriminant complement. The correction then lies in a direct sum of the negative middle tautological line and must vanish, contradicting the isotropic-square avoidance. Thus a>=3 and the stated degree gap follows.
+
+This is a necessary degeneration theorem. It does not exclude a dense open good surface whose closure has the required boundary, and gives no universal dimension-six theorem or physical source result.
