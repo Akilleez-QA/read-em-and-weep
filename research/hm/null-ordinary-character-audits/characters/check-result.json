@@ -1,0 +1,189 @@
+{
+  "status": "passed",
+  "scope": "Bounded synthetic XOR and sparse-polynomial identities only",
+  "u_squared_character_masks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12
+  ],
+  "linear_variation_character_masks": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    11,
+    12,
+    13,
+    14
+  ],
+  "HH2_character_masks": [
+    0,
+    3,
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "selection_through_total_degree": 12,
+  "selection": [
+    {
+      "total_degree": 0,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 1,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 2,
+      "full_sign_exponents": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "total_degree": 3,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 4,
+      "full_sign_exponents": [
+        [
+          1,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "total_degree": 5,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 6,
+      "full_sign_exponents": [
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          5,
+          1
+        ]
+      ]
+    },
+    {
+      "total_degree": 7,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 8,
+      "full_sign_exponents": [
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          7,
+          1
+        ]
+      ]
+    },
+    {
+      "total_degree": 9,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 10,
+      "full_sign_exponents": [
+        [
+          1,
+          9
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          1
+        ]
+      ]
+    },
+    {
+      "total_degree": 11,
+      "full_sign_exponents": []
+    },
+    {
+      "total_degree": 12,
+      "full_sign_exponents": [
+        [
+          1,
+          11
+        ],
+        [
+          3,
+          9
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          11,
+          1
+        ]
+      ]
+    }
+  ],
+  "synthetic_integer_parameter_cases": 12,
+  "unrestricted_acceleration_curvature": "alpha*beta*h^4*w",
+  "strict_equivariant_curvature": "alpha*s^3*t*w",
+  "actual_obstruction_values_computed": false,
+  "source_vanishings_recomputed": false,
+  "all_order_ambient_existence_proved": false
+}
