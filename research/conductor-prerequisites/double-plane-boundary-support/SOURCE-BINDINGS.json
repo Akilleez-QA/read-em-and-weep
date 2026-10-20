@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": "S066",
+    "source": "double-plane-boundary-support/AUDIT.md",
+    "source_sha256": "e4b5fde1a463736584bee02a42f33fae4f11a3789f1b4010a495ba517a2ef3a5",
+    "source_bytes": 6130,
+    "public_path": "research/conductor-prerequisites/double-plane-boundary-support/AUDIT.md",
+    "public_sha256": "42bb17e50b0551918fc5e0a5f11ae68b9039066237308783cdd861ae1d32f6b8",
+    "public_bytes": 6265,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S066",
+    "source": "double-plane-boundary-support/PROOF.md",
+    "source_sha256": "80642b673b4ddf25d8b8a46f8fd89d88ccc21c59cc6005054dbefa4cda85bf0c",
+    "source_bytes": 11966,
+    "public_path": "research/conductor-prerequisites/double-plane-boundary-support/PROOF.md",
+    "public_sha256": "7b0a25d031d6f9822ce4dd8cd284356fec0f15473a4091c15ea841195eaaaee7",
+    "public_bytes": 12320,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S066",
+    "source": "double-plane-boundary-support/ROOT_CHECK.md",
+    "source_sha256": "10d18d88b238b973f9f13a6f9872845c66a3f6b57338606902db9cd35fe85f84",
+    "source_bytes": 2086,
+    "public_path": "research/conductor-prerequisites/double-plane-boundary-support/ROOT_CHECK.md",
+    "public_sha256": "3860f2ec00da53a07e7bfef77cd0e8bcf1bf141364e704a1be2d3d11fd666832",
+    "public_bytes": 2221,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]

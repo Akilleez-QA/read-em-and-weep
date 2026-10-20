@@ -1,0 +1,11 @@
+> Historical mathematical review retained with the source. This is not a new independent review or a formal verification certificate.
+
+# Independent root and integration check
+
+PASS, 19 October 2026 UTC. Read the entire frozen proof and independent audit. Derived the local coefficient identities separately with a=x+b, ell=cx+d. Comparing xH and H2 terms gives d=p+b(M)-cb and cb^2=-P+bp-b(N)+b b(M), with the same polynomial normalization.
+
+If P=0, val(c)>=-k makes d regular. If P is nonzero, val(c)=-2k and uB^2=-P modulo t^k. Choosing a constant basis with first member B0, the mixed B0/complement coefficients force the complementary part of B to be divisible by t^k. This uses only units, including 2 in characteristic zero; no unjustified square-root or transversal-contact assumption enters. All branches share B0 since the fixed P has a unique square direction. Thus the appropriate quotient of ell is globally regular and constant.
+
+The common support annihilator contains x and, in the second case, the first nonzero jet B0, because the linear span of the support curve is a fixed closed linear space. Therefore the modified correction on the fixed binary plane really has its image inside that plane; its cubic has a projective root. In the P=0 case, two ternary quadrics have a common projective zero. Both roots contradict square avoidance, including singular-image, ramified and multiple-branch cases.
+
+For integration, the global support is H subset V5, with target P(V*). All limiting support fibers are finite by the earlier rank bounds plus the completed rank-one exclusions; rank zero is impossible. The proper support graph is therefore finite birational. Its normalization equals the middle surface normalization, giving a regular H-map there. The support class n now descends; the middle class h already descends. Projection formula pushes the flag divisor A to an effective Weil curve with positive intersection at least degree(B). Isolated exceptional curves cannot supply that number. Thus the bad middle locus must contain a curve under the explicitly imported generic-good and repeated-input hypotheses. No assertion excludes such boundary curves or proves a universal dimension-six theorem.
