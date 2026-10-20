@@ -1,0 +1,102 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "actual_matrix_evaluations": 0,
+    "ambient_End_multiplicities": [
+      354,
+      245,
+      80,
+      10
+    ],
+    "coefficient_multidegrees": [
+      [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      [
+        -3,
+        -3,
+        -3,
+        -3
+      ],
+      [
+        -4,
+        -4,
+        -4,
+        -4
+      ],
+      [
+        -5,
+        -5,
+        -5,
+        -5
+      ]
+    ],
+    "expanded_residual_summands_per_triple": 31,
+    "legal_mask_triples": 4096,
+    "method": "inert source AST plus independent hand-written integer metadata",
+    "negative_controls": {
+      "missing_E_slot": true,
+      "missing_G_normalization": true,
+      "missing_c_tau_factor": true,
+      "missing_derivative_character_flip": true,
+      "missing_odd_basis_transition": true,
+      "odd_homotopy": true,
+      "wrong_leaf_character": true,
+      "wrong_strict_degree": true
+    },
+    "physical_j_frame_cases": 16384,
+    "physical_source_or_polynomial_evaluations": 0,
+    "raw_scalar_parity_checks": 300,
+    "residual_parity_checks": 126976,
+    "source_imports_or_runs": 0,
+    "source_sha256": {
+      "compiler.py.txt": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+      "raw_engine.py.txt": "c9804022b362277d63217c7674c4d6d3dff5941ae4210c30f51f3b5cf3868da9"
+    },
+    "status": "PASS",
+    "strict_line_chart_coordinate_checks": 4096,
+    "support_blocks": [
+      [
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          0
+        ]
+      ]
+    ],
+    "support_multiplicities": [
+      225,
+      225,
+      80,
+      10
+    ]
+  }
+}
