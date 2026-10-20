@@ -1,0 +1,57 @@
+[
+  {
+    "label": "rank-one-normal-obstruction",
+    "pr": 231,
+    "commit": "dd7457e16b0d22ed14a9fd6761fefc432d96ac97",
+    "path": "research/hm/local-defect/rank-one-normal-obstruction/PROOF.md",
+    "sha256": "d18fb191f9e1003d6df98985a6e479a39d25020c3fb7527cbd31ae7862f7bfe9",
+    "git_blob_sha1": "cf31cf1e7a7f380882cf53bbef03e410ad28d191",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/dd7457e16b0d22ed14a9fd6761fefc432d96ac97/research/hm/local-defect/rank-one-normal-obstruction/PROOF.md",
+    "role": "Repeated-input injection and symmetric/cyclic operation identities",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "full-middle-two-zero",
+    "pr": 287,
+    "commit": "a383e3c1b82123cd5bb8f98256c6adb7a6bfa0da",
+    "path": "research/hm/incidence-foundations/full-middle-two-zero/PROOF.md",
+    "sha256": "6d72e9a3a6bd659afc91169c39d02683ff26607c604f3312652acceb0cf0ddec",
+    "git_blob_sha1": "3945a613f952981e37ebe60c12a654222ca18523",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a383e3c1b82123cd5bb8f98256c6adb7a6bfa0da/research/hm/incidence-foundations/full-middle-two-zero/PROOF.md",
+    "role": "Comparison only: middle-surviving model is not the outer-isomorphism model",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "quintic-normalizer-exclusion",
+    "pr": 277,
+    "commit": "feb2038a34949d8eddd670cde5871b639c26187d",
+    "path": "research/hm/normalizer-rank-five/quintic-normalizer-exclusion/COROLLARY.md",
+    "sha256": "04991dcfd8ec8e4d9330fb1a4e14dbbb6f6b12a8e96c82c20d364efd8f148f00",
+    "git_blob_sha1": "9f86c658133bc38117e616ac7d142cdbbabf2ebd",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/feb2038a34949d8eddd670cde5871b639c26187d/research/hm/normalizer-rank-five/quintic-normalizer-exclusion/COROLLARY.md",
+    "role": "Optional global rank-ten package, only for codimension-two closure assertion",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "rank-ten-fitting-strata",
+    "pr": 289,
+    "commit": "057792d7c964d56929f4252b2e2e3ce9f634a862",
+    "path": "research/hm/middle-surface/rank-ten-fitting-strata/PROOF.md",
+    "sha256": "56d47d4ea4a85803e22be43861afeabe9aa1f9611f6d103dee7233b27072f7a7",
+    "git_blob_sha1": "09a8903bfb140ff6b4e2538ec7d99e4597f8e725",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/057792d7c964d56929f4252b2e2e3ce9f634a862/research/hm/middle-surface/rank-ten-fitting-strata/PROOF.md",
+    "role": "Optional Fitting/codimension premise",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "outer-excerpt",
+    "pr": 224,
+    "commit": "4a65d25c01acfd503365fcac40370dbff1c3ef8c",
+    "path": "research/hm/universal-polar/rank-five-surface-countermodel/OUTER-BUNDLE-LEMMA.md",
+    "sha256": "034d7f8a2a16c8970bf63badf635a0c4bd42848b2976f6f1a8a64900c32f0389",
+    "git_blob_sha1": "98546c8f527a213473317d53c6982a2e4a7784a6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4a65d25c01acfd503365fcac40370dbff1c3ef8c/research/hm/universal-polar/rank-five-surface-countermodel/OUTER-BUNDLE-LEMMA.md",
+    "role": "Previously published \u00a76 only; this packet recovers full remaining proof",
+    "status": "published; exact local publication payload and verified receipt"
+  }
+]

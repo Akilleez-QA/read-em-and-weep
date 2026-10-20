@@ -1,0 +1,18 @@
+[
+  {
+    "claim": "S202",
+    "source_file": "outer-boundary-determinant/AUDIT.md",
+    "source_sha256": "fbe9db39e59fd0d34c28f1d67b074a9377a546e8d73d43931e29dc5eafcb86f9",
+    "public_path": "research/hm/structural-refinements/outer-boundary-determinant/AUDIT.md",
+    "public_sha256": "dff06bd25d2347df7cdf6ad0e43337adf5d38790fcc6de2bfc085ec464b440f2",
+    "public_git_blob_sha1": "637beffef735239a90ba2512a1932483353c7c83"
+  },
+  {
+    "claim": "S202",
+    "source_file": "outer-boundary-determinant/PROOF.md",
+    "source_sha256": "7704cbc3a53d4ea4796091d5b1854f27a47769827cfb5f320367095ebd6c12c2",
+    "public_path": "research/hm/structural-refinements/outer-boundary-determinant/PROOF.md",
+    "public_sha256": "81e9ceb085a7fd6fb6e557cc24e72b8173ee08a15be3d3aea5a3f54fc93d87ce",
+    "public_git_blob_sha1": "4ef8a2439fcb9618b0465e58ef194e1a21877078"
+  }
+]
