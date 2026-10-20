@@ -1,0 +1,38 @@
+[
+  {
+    "artifact": "rank-nine-kernel-splitting/ADDENDUM-AUDIT.md",
+    "original_sha256": "219256e6c548f5680ee04ded200bf2820640f9627a4120f2f7604ff92e32e2db",
+    "published_sha256": "c582dd27d2a5e4f9a6ca5481fc279057b8e4a7c7ade8b3bac19c139df2f8a263",
+    "path": "research/hm/local-defect/rank-nine-kernel-splitting/ADDENDUM-AUDIT.md"
+  },
+  {
+    "artifact": "rank-nine-kernel-splitting/ADDENDUM.md",
+    "original_sha256": "498f68d4801b6a755f4b17f998e0d84aa7bec83cdd64bb1b3c720f091b60f2fc",
+    "published_sha256": "00ffd96b889966eb7310b8c229bc5131b18ab2b18d1890e53368a4909952dec4",
+    "path": "research/hm/local-defect/rank-nine-kernel-splitting/ADDENDUM.md"
+  },
+  {
+    "artifact": "rank-nine-kernel-splitting/AUDIT.md",
+    "original_sha256": "ca44f4545d1f6d63842803197d197888f4ef6e01c5b7c07c224d3fe92d8d5ed3",
+    "published_sha256": "2d4d5d20c15318137f65c656f0363d860243dbc2b9e644e3e4a16f94b3a1789b",
+    "path": "research/hm/local-defect/rank-nine-kernel-splitting/AUDIT.md"
+  },
+  {
+    "artifact": "rank-nine-kernel-splitting/PROOF.md",
+    "original_sha256": "355907c704b854f859e462dae435092f2e382debda2c126e0200e08b1ec74154",
+    "published_sha256": "5f71745a00e099d5d797ada9b397eb55912fef4fdac9a1707d5ba0344fb0ec0f",
+    "path": "research/hm/local-defect/rank-nine-kernel-splitting/PROOF.md"
+  },
+  {
+    "artifact": "rank-nine-defect-two-sided/AUDIT.md",
+    "original_sha256": "dbe192f3fb00034effc90ea940748fab5369c9bd281b92afbefc7cf43650f87a",
+    "published_sha256": "ec3035af01ac1b6ae20346c6a26c54498e9ca8067bfa6f67791f940e2a771177",
+    "path": "research/hm/local-defect/rank-nine-defect-two-sided/AUDIT.md"
+  },
+  {
+    "artifact": "rank-nine-defect-two-sided/PROOF.md",
+    "original_sha256": "a08b69153cf718738b5723b49e83f26c5a6a439415a9a22786d6b0afcb78fab5",
+    "published_sha256": "bf3920976820dba9383579006b82c343cc1ecd169ac66cc7767668a26f5432d7",
+    "path": "research/hm/local-defect/rank-nine-defect-two-sided/PROOF.md"
+  }
+]
