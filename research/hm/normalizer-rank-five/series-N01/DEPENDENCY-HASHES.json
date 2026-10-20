@@ -1,0 +1,26 @@
+[
+  {
+    "path": "research/hm/local-defect/rank-eight-singularity-chern/PROOF.md",
+    "sha256": "f0f26b21e5ccfe3eefaac63d3994e861adac5fb42c21fd2ddd0b500879390d90",
+    "series": "publication-global-rank-ten-series",
+    "unit": "D02"
+  },
+  {
+    "path": "research/hm/full-hm-image-symmetry/PROOF.md",
+    "sha256": "0851b24926f7754ac85c58d94cf7e64a9b5141681d5731eed9e49196823d9e8e",
+    "series": "publication-pairing-series",
+    "unit": "00"
+  },
+  {
+    "path": "research/hm/rank-four/rank-three-line-rank-constancy/PROOF.md",
+    "sha256": "f5548bb476390f8f207d43f20ea35b9dcf23043d7c99a65d07f2a0e5d095a8e7",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/local-defect/minimal-local-defect-character/PROOF.md",
+    "sha256": "3dd16f57fb4238359d58f0602d7bbf3b8432d45bbadbcc62184cad6eaf6e7e0c",
+    "series": "publication-local-defect-series",
+    "unit": "02"
+  }
+]
