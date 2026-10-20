@@ -16,7 +16,7 @@ PASS for the nonzero-map implications at k=2,3,4 under the stated bundle-section
 - The roots of End0(F) are 0, alpha-beta, beta-alpha, giving c2=15H^2 and c3(End0(F)(k))=(k^3+15k)H^3. Nonzero c3 forces a zero; the three-generator height bound forces every zero component to have dimension at least one. Locally q=a^2+bc and its Jacobian ideal is contained in (a,b,c), with the correct scheme-inclusion direction.
 - The spectral algebra is finite flat of degree two and integral. The base regular parameters form an M-regular parameter sequence, so its rank-one module is MCM. A nonzero trace-free 2-by-2 matrix has a cyclic vector, proving local freeness away from the zero locus. At a zero, the residue module has dimension two, proving nonfreeness. This gives the set-theoretic nonfree locus, not an identification of nonfree scheme structures.
 - On a normal cover M is reflexive, and local factoriality would make it free. Normality is not inferred from integrality. The forced nonfree curve therefore gives the conditional nonfactoriality statement.
-- If M were the pullback of O(m), projection formula gives c1=2m-k=-1 and c2=m(m-k)=4; these equalities are incompatible. The integers 38,72,124 are degrees of the zero cycle only under expected codimension three.
+- If M were the pullback of O(m), projection formula gives c1=2m-k=-1 and c2=m(m-k)=4; these equalities are incompatible. The integers 38,72,124 are degrees of the zero-locus fundamental cycle only under expected codimension three.
 
 ## Primary-source Picard check
 
