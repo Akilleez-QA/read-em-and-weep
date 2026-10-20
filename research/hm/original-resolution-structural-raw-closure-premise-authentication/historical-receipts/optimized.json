@@ -1,0 +1,78 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "function_contracts": [
+      "Mat.D",
+      "Mat.inverse",
+      "Mat.tf",
+      "PhysicalModel.Dframe",
+      "PhysicalModel.blocks",
+      "PhysicalModel.g",
+      "PhysicalModel.leaf",
+      "PhysicalModel.nu",
+      "PhysicalModel.q",
+      "PhysicalModel.s_raw",
+      "RawSource.T",
+      "raw_scalar_formula",
+      "source_and_lift",
+      "Source.E",
+      "Source.F",
+      "Source.b",
+      "Source.g",
+      "Source.gi",
+      "Source.k",
+      "Source.mu",
+      "Source.mu2",
+      "Source.residual"
+    ],
+    "inert_files": 20,
+    "mask_cocycle_cases": 8,
+    "model_reads": 0,
+    "negative_controls": [
+      "inverse offdiagonal",
+      "raw endpoint",
+      "raw edge sign",
+      "missing I1 weight",
+      "inverse row scaling",
+      "old connection sign",
+      "mixed coefficient",
+      "right normalization",
+      "omit last gerbe",
+      "E endpoint",
+      "Fk pair",
+      "wrong extreme split factor",
+      "gerbe correction reversed",
+      "same-pair support"
+    ],
+    "ordered_cup_cases": 256,
+    "ordered_gerbe_coefficients": [
+      "15/4",
+      "0"
+    ],
+    "physical_evaluations": 0,
+    "source_imports": 0,
+    "split": {
+      "cohomology_exponents": [
+        1,
+        -1
+      ],
+      "common_pair_exponents": [
+        -1,
+        3,
+        5
+      ],
+      "identity_pair_dimensions": [
+        5,
+        8,
+        2
+      ],
+      "resolution_ranks": [
+        5,
+        15,
+        10,
+        2
+      ]
+    },
+    "status": "PASS"
+  }
+}

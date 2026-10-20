@@ -1,0 +1,10 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "status": "PASS",
+    "old_proof_sha256": "b3c50888630128fc04a784be3a5c2374da017d627c69c504fc6571211a744b5a",
+    "new_proof_sha256": "50ec1df804dc461c928dfcd8bba8d4428206e36a0b7f1686a9aa2f43731db490",
+    "original_review_sha256": "d7c02a092fc87780b6c3af89c4afb5331ae17a0fe499cfffbd4e39048ade1b41",
+    "only_change": "Restore U_r,ik to the right-hand side of the final section 6 displayed equation"
+  }
+}

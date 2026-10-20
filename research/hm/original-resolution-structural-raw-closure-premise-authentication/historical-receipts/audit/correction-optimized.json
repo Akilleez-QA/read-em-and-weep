@@ -1,0 +1,18 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "status": "PASS",
+    "checks": [
+      "left multiplication of normalized row equation",
+      "correct transition equation",
+      "omission defect exactly Uik",
+      "later formal defect retains minus Uik",
+      "exact old/new proof hashes and sole line correction"
+    ],
+    "negative_controls": [
+      "missing Uik rejected"
+    ],
+    "physical_evaluations": 0,
+    "source_imports": 0
+  }
+}
