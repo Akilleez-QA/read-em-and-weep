@@ -1,0 +1,53 @@
+[
+  {
+    "source": "rank-ten-pure-divisorial-defect/AUDIT.md",
+    "source_sha256": "7aa86d204190ae729127ddab975c6dd10da36262aa8ca558376aa5f1883eb9a7",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/AUDIT.md",
+    "public_sha256": "a84916f4afc02619c9235b07d2840a59464f9a186a7f6e8694f068f9ced06b73",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "rank-ten-pure-divisorial-defect/DEGREE_TWO_ADDENDUM.md",
+    "source_sha256": "ccac9409280369e34dc4926d79ef8df46893d8c47e95d6b684c419a397f69150",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/DEGREE_TWO_ADDENDUM.md",
+    "public_sha256": "ccac9409280369e34dc4926d79ef8df46893d8c47e95d6b684c419a397f69150",
+    "normalizations": []
+  },
+  {
+    "source": "rank-ten-pure-divisorial-defect/DEGREE_TWO_AUDIT.md",
+    "source_sha256": "51cddebf3e29f9dc5c7560eb2c483ba23820ea884f686475bd6b2accb8f12ce5",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/DEGREE_TWO_AUDIT.md",
+    "public_sha256": "eb1217657b792b474414fee948b10f092553680875a406f09f32e72812ee8ddd",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification.",
+      "Correct historical audit implication to retain the independent rank-five k=7 exclusion and spectrum premises, as required by DEGREE_TWO_ADDENDUM.md."
+    ]
+  },
+  {
+    "source": "rank-ten-pure-divisorial-defect/DUAL_DEFECT_ADDENDUM.md",
+    "source_sha256": "e43c8ff6cdd5645be9fb298765c42c21f431f024cae1537571391351ea7d0203",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/DUAL_DEFECT_ADDENDUM.md",
+    "public_sha256": "e43c8ff6cdd5645be9fb298765c42c21f431f024cae1537571391351ea7d0203",
+    "normalizations": []
+  },
+  {
+    "source": "rank-ten-pure-divisorial-defect/DUAL_DEFECT_AUDIT.md",
+    "source_sha256": "0105d20e37775971f6b58ecf42751bcf5026ed48f1bb4b0a32d7ecd1c9ffb0f6",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/DUAL_DEFECT_AUDIT.md",
+    "public_sha256": "4d98aea8b89b230907e0bddb03b9bc8e69596752b4f96c9cb2f487e29d595998",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "rank-ten-pure-divisorial-defect/PROOF.md",
+    "source_sha256": "ee685a41e647c27ec71799805a4cc37132905691be2cf6fd49e79c3619d32f5e",
+    "public_path": "research/hm/local-defect/rank-ten-pure-divisorial-defect/PROOF.md",
+    "public_sha256": "51e37c83469b1edf98ab656863736ff98cc7a00d8a450052af0b6c110c31477b",
+    "normalizations": [
+      "Remove operational no-external-state/no-evaluation report; retain mathematical scope."
+    ]
+  }
+]
