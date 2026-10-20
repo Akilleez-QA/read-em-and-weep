@@ -1,0 +1,38 @@
+{
+  "claim": "S081",
+  "source_editions": [
+    {
+      "title": "What extending every full-character Ext\u00b2 class actually implies",
+      "source_edition_sha256": "bce253daf1776bcdaca339f97d899e45809675da3c2b58da0159053b6deaed4d",
+      "role": "full proof",
+      "binds_proof_sha256": null,
+      "audit_scope": "as stated in the audit"
+    },
+    {
+      "title": "Independent audit: family extension and mixed Massey constraints",
+      "source_edition_sha256": "bffd6bd88fec90da585e4b5789ce54f859f6bb57d7c74f4a98b13018a9eacd35",
+      "role": "historical mathematical audit",
+      "binds_proof_sha256": "bce253daf1776bcdaca339f97d899e45809675da3c2b58da0159053b6deaed4d",
+      "audit_scope": "as stated in the audit"
+    }
+  ],
+  "normalization": "All mathematical proof sections are retained. Changes are exact public source-link substitution, explicit theorem-reuse and historical-current-scope qualifications. S359 additionally derives the translation tangent embedding from the already public 79-dimensional family, replacing superseded rank-count dependencies. Historical source reviews are not presented as certification of normalized bytes.",
+  "publication_files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "eb2a2e544ad563377ab8aba548a7f2cede0c268ab4f6faff361034bed5a20fed"
+    },
+    {
+      "path": "HISTORICAL-AUDIT.md",
+      "sha256": "95a676a06a2eb03b30ba6dc5352b0210b691f3416a853cfd4cd05506674a1724"
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "da2bdad3f31f9fd9a65349343baa634c9f5f1d74b5c707d2b3156289abbe9c08"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6dc905308279e7ecf433a14d0028dbaf61148aedc891dbaebe1ce2732ff747f7"
+    }
+  ]
+}
