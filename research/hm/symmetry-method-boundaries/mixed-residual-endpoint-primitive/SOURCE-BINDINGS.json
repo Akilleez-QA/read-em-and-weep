@@ -1,0 +1,38 @@
+{
+  "claim": "S171",
+  "source_editions": [
+    {
+      "title": "The actual mixed obstruction commutes with every background KS direction",
+      "source_edition_sha256": "587b02bcd991a5549f53356465513e84b4ba6317a8d6b7f9c1422275929015a6",
+      "role": "full proof",
+      "binds_proof_sha256": null,
+      "audit_scope": "as stated in the audit"
+    },
+    {
+      "title": "Independent review: mixed obstruction and background KS classes",
+      "source_edition_sha256": "b339771d0710c526feb97bcbaa942f1fa348d0e67a436ebd40c1688c181d0447",
+      "role": "historical mathematical audit",
+      "binds_proof_sha256": "587b02bcd991a5549f53356465513e84b4ba6317a8d6b7f9c1422275929015a6",
+      "audit_scope": "as stated in the audit"
+    }
+  ],
+  "normalization": "All mathematical proof sections are retained. Changes are exact public source-link substitution, explicit theorem-reuse and historical-current-scope qualifications. S359 additionally derives the translation tangent embedding from the already public 79-dimensional family, replacing superseded rank-count dependencies. Historical source reviews are not presented as certification of normalized bytes. The normalized historical review omits two nonmathematical execution-bookkeeping sentences; its mathematical content is unchanged. The companion centrality theorem is pinned to its exact public edition.",
+  "publication_files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "9c562dc7906d5b252061364346cf781fcf48c1f102b1c664640eab3988f393f4"
+    },
+    {
+      "path": "HISTORICAL-REVIEW.md",
+      "sha256": "ede990bccecbd4503d01cfe8ea54d26b931fa6a0638bf72f40973f4bb737271f"
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "e76fb4ff1186606f225bb7c7f5ea66945895970b18ef474345b19ab4aca31434"
+    },
+    {
+      "path": "README.md",
+      "sha256": "5d74cb6ede1a924da900e1c5018366e1af75702472f64497dfb48f65a7ebb228"
+    }
+  ]
+}

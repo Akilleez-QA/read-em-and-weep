@@ -1,0 +1,80 @@
+{
+  "claim": "S171",
+  "public_inputs": [
+    {
+      "label": "coefficient",
+      "pr": 179,
+      "commit": "2b03992b32d2f5cf0509b6f4840adf08369f54b7",
+      "path": "research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2b03992b32d2f5cf0509b6f4840adf08369f54b7/research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "git_blob_sha1": "3dcb57c3e06c008ad8c9edb4364e42e18de10079",
+      "sha256": "1f29eada256898880046b273dc8b9e0f76eade6694720819cc753fd22beb5ef3",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "compatible",
+      "pr": 336,
+      "commit": "e9fddf52e72d0f99918fbb03750454ec89c34dec",
+      "path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9fddf52e72d0f99918fbb03750454ec89c34dec/research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "git_blob_sha1": "c3792e2799e30b04935faa73e33d9aeb1b9c412d",
+      "sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "domain",
+      "pr": 377,
+      "commit": "340a2bf97e7cb8363ae6f4154b18411f78e1bb43",
+      "path": "research/hm/structural-boundaries/translated-source-domain/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/340a2bf97e7cb8363ae6f4154b18411f78e1bb43/research/hm/structural-boundaries/translated-source-domain/PROOF.md",
+      "git_blob_sha1": "d82461a39513d18ecad7747f0d4bed7d4ec769a0",
+      "sha256": "248b8545f631594ec04f317c31188508b28ccb2c1b52bf5a8dc72bfd25ec7f43",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "cross",
+      "pr": 385,
+      "commit": "0baa8495c3f7e0fea2d712027f217a05be928182",
+      "path": "research/hm/background-star-cross/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0baa8495c3f7e0fea2d712027f217a05be928182/research/hm/background-star-cross/PROOF.md",
+      "git_blob_sha1": "8f393723d72421cd1cfaf8f6e3033270444d382f",
+      "sha256": "1db73d68337ad4bc8ca0176a6f3dfb5f93aa78e45848b2a157d648a2dc00c276",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "closure",
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/PROOF.md",
+      "git_blob_sha1": "38668d9700086c46c8689b8745bad022b8fd0980",
+      "sha256": "dcf38a3a4ed053b0e98cfa1174d7d07b4b4f7b92982ee7fc22fc42bd5e63f26a",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "erratum",
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/ERRATUM-REVIEW.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/ERRATUM-REVIEW.md",
+      "git_blob_sha1": "a312374cecb2857c229168e2018058b0b6be1d22",
+      "sha256": "65dd00c2de2d0abaf3c64980bad4fc83005103c7c201cbe8d6b95771a4885ece",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    },
+    {
+      "label": "translation-centrality-interpretation",
+      "pr": 427,
+      "commit": "3965341008e2c93c242a47c9756236c8b3efd4c2",
+      "path": "research/hm/symmetry-method-boundaries/translation-graded-center/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3965341008e2c93c242a47c9756236c8b3efd4c2/research/hm/symmetry-method-boundaries/translation-graded-center/PROOF.md",
+      "sha256": "2f2d3df3bc8dc554e3d04e277cd7aa1d91ec92beb3157b9e8da526258a848c7a",
+      "uses": "Interpretation and rank-four subfamily only; not required for the endpoint identity."
+    }
+  ],
+  "local_dependency": null,
+  "scope": {
+    "disposition": "distinct literal-family regular endpoint derivation; cohomological conclusion subsumed by S359",
+    "overlap": "PR336 family, PR351 corrected closure, PR377 regularity, PR385 first-star derivative are reused. Serre consequence vacuous because P_W=0.",
+    "sections_retained": "1\u20136, with explicit reuse/negative-detector boundary"
+  }
+}
