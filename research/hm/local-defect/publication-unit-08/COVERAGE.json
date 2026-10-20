@@ -1,0 +1,17 @@
+{
+  "unit": "08",
+  "clusters": [
+    "squarezero-length-ten-defects",
+    "filtered-length-ten-defects",
+    "rank-eight-defect-330"
+  ],
+  "core_predecessors": [
+    "02",
+    "04",
+    "05",
+    "06"
+  ],
+  "external_inputs": [],
+  "later_contextual_units": [],
+  "scope": "Complementary square-zero and non-square-zero classifications exclude every canonical length-ten defect; the scalar-boundary module remains valid but unrealizable in the stipulated defect category."
+}
