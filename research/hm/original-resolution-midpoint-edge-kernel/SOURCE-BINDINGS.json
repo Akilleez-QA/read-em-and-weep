@@ -1,0 +1,104 @@
+{
+  "record": "S415",
+  "primary_original_sha256": "8d9f1f559272703bc6349b9a93d4325754c31a593b992ec40976df346d5990f9",
+  "primary_role": "original-resolution refinement",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "role": "primary proof",
+      "original_sha256": "8d9f1f559272703bc6349b9a93d4325754c31a593b992ec40976df346d5990f9",
+      "staged_sha256": "2c5c02d22485a343327fc79f9571a5bcb9b8ab6824f4d936be3790f2a9099761",
+      "original_bytes": 11479,
+      "staged_bytes": 11754,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "REVIEW.md",
+      "role": "historical scientific audit",
+      "original_sha256": "b93979d5df4d2dee68fa47437613b41514363969e0e22470309a0775a2287cb0",
+      "staged_sha256": "177edcfcb8dde61b18c59780a956c91fa868f8b209c255d798518bb1ad99e522",
+      "original_bytes": 9370,
+      "staged_bytes": 9594,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/common.md",
+      "role": "supporting dependency",
+      "original_sha256": "1a60ae58e110ca02393599cfd391aab9470eb5a90bb9569c8d00ab4c50651a93",
+      "staged_sha256": "f974efc411855f7a190a0b9a1cbd1ec9ca11b3100f38acedfaf3905cc303f6b6",
+      "original_bytes": 9483,
+      "staged_bytes": 9867,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/edge-domain.md",
+      "role": "supporting dependency",
+      "original_sha256": "ee04cb55f4fb7ea34f0fbec1448263e7f6cd7a3ec9147f3cd703d0e216170a5d",
+      "staged_sha256": "2cf7caa406d97e91751d11756495830c6907f75646132730bb81f471ed8ed053",
+      "original_bytes": 23385,
+      "staged_bytes": 23743,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/overlap.md",
+      "role": "supporting dependency",
+      "original_sha256": "d7894a0e8697774d94df93936c10c90ee36be1c16d57356667794ee1aee042d3",
+      "staged_sha256": "b229d7ab46a075f87986cc45e5872ea3f507c87c44b95425e43cecc2da90e925",
+      "original_bytes": 7315,
+      "staged_bytes": 7719,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/weighted-flux-review.md",
+      "role": "supporting dependency",
+      "original_sha256": "930546b2fbd9582b9ba8abbfc04fc8c90bdfed5962c88904bd7cccaeb18510a2",
+      "staged_sha256": "aba16341cc56aff4cefb303cfa64659d98b8362225380f8764636bc666f47a37",
+      "original_bytes": 8029,
+      "staged_bytes": 8472,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "dependencies/weighted-flux.md",
+      "role": "supporting dependency",
+      "original_sha256": "51697dccc19b5632b06a3d3393640d2fe585287898a23dd8e319ab8618182fa9",
+      "staged_sha256": "d3a567f88d8c3650240793cdd64ad546273e1d4db77ba2f2ed5db901fd6a8488",
+      "original_bytes": 22921,
+      "staged_bytes": 23289,
+      "editorial_changes": "Operational prose and private filesystem locators removed; mathematical text retained with historical-status labels."
+    },
+    {
+      "path": "historical-receipts/normal.json",
+      "role": "historical receipt only",
+      "original_sha256": "8a440fa49e86084d4f79dd2b8bd386511558daf473415c762fb695da1e68f9ef",
+      "staged_sha256": "65c4efaa6437666fadba91234c630ea412999851bc5615a67e6794244050b445",
+      "staged_bytes": 618
+    },
+    {
+      "path": "historical-receipts/optimized.json",
+      "role": "historical receipt only",
+      "original_sha256": "8a440fa49e86084d4f79dd2b8bd386511558daf473415c762fb695da1e68f9ef",
+      "staged_sha256": "65c4efaa6437666fadba91234c630ea412999851bc5615a67e6794244050b445",
+      "staged_bytes": 618
+    },
+    {
+      "path": "check_metadata.py",
+      "role": "standalone mathematical checker, AST parsed only",
+      "original_sha256": "3c536fcf7616ae2fe692ed01af105e145e9a67db78b086ec4c28bfe873e7adb9",
+      "staged_sha256": "3c536fcf7616ae2fe692ed01af105e145e9a67db78b086ec4c28bfe873e7adb9",
+      "staged_bytes": 1383
+    }
+  ],
+  "immutable_public_sources": [
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/4ae1ba6081db6563389d5ff78597cf2e98ecc04f/research/hm/null-common-split-connection/PROOF.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/b80a710530a5d5d9b1844196bc446459daf0732f/research/hm/null-covariant-jet-transgression/QUARTIC_ADDENDUM.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/b80a710530a5d5d9b1844196bc446459daf0732f/research/hm/null-covariant-jet-transgression/RESULT.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/blob/b80a710530a5d5d9b1844196bc446459daf0732f/research/hm/null-overlap-homotopy/PROOF.md",
+    "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6250661140"
+  ],
+  "omitted_source_bound_code": [],
+  "holds": [
+    "Independent scientific and packaging review pending.",
+    "Standalone checkers have not been run; their syntax was checked by AST parsing."
+  ],
+  "verification": "Filesystem byte/hash inspection and AST parsing only; no authored checker or actual source computation executed."
+}
