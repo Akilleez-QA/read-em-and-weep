@@ -1,0 +1,24 @@
+{
+  "claim_id": "S110",
+  "section_order_note": "Core dependency order: §§1–4 precede the degree-one kernel theorem. The higher-obstruction comparison in §5 depends separately on the higher-conic proof; it is not used to derive the regularity bounds. H¹(E(t))=0 for t≥8, H¹(End E(t))=0 for t≥14, and E(8) generation follow from the section resolution. The sufficient nonsplitting order is nine, not an identified first order and not a forced negative-root obstruction.",
+  "references": {
+    "sharper-hm-regularity/SHARPEST-BOUND.md": {
+      "path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "pr": 167,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "public_sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067"
+    },
+    "conductor-double-conic-intersection/PROOF.md": {
+      "path": "research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "commit": "21b252420c0011b2cbc119cab2983a6d4ad2e966",
+      "pr": 169,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/21b252420c0011b2cbc119cab2983a6d4ad2e966/research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "public_sha256": "ddbf23b70b22440447c38ca39ec1159d06b7d079c9a1cca2c193ef172a906426"
+    },
+    "higher-conic-lifting-obstruction/PROOF.md": {
+      "id": "S123",
+      "section_dependency": "See section-level dependency register"
+    }
+  }
+}

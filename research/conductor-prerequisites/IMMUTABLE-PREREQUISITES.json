@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "known_immutable_predecessors": [
+    {
+      "path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "pr": 167,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "public_sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067"
+    },
+    {
+      "path": "research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "commit": "21b252420c0011b2cbc119cab2983a6d4ad2e966",
+      "pr": 169,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/21b252420c0011b2cbc119cab2983a6d4ad2e966/research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+      "public_sha256": "ddbf23b70b22440447c38ca39ec1159d06b7d079c9a1cca2c193ef172a906426"
+    },
+    {
+      "path": "research/conductor-normalization/finite-square-component-detector/PROOF.md",
+      "commit": "8c5988165e006d7a3863b7a6b4d2bfe443151ac3",
+      "pr": 170,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c5988165e006d7a3863b7a6b4d2bfe443151ac3/research/conductor-normalization/finite-square-component-detector/PROOF.md",
+      "public_sha256": "c921144d93c52b72cc57d163f9c416db16c3be3d7e8c3cdc3827555809df21bf"
+    },
+    {
+      "path": "research/conductor-normalization/disjoint-zero-extension-detector/PROOF.md",
+      "commit": "8c5988165e006d7a3863b7a6b4d2bfe443151ac3",
+      "pr": 170,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c5988165e006d7a3863b7a6b4d2bfe443151ac3/research/conductor-normalization/disjoint-zero-extension-detector/PROOF.md",
+      "public_sha256": "3d94f3678b8a240c2bd1c7647f63dc33cb8730745aa85942330f4a991052fd73"
+    },
+    {
+      "path": "research/conductor-normalization/conductor-cohomology-bounds/PROOF.md",
+      "commit": "f3f85ffc04213778c8c4fbd60e1e7e04b56cfd65",
+      "pr": 165,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f3f85ffc04213778c8c4fbd60e1e7e04b56cfd65/research/conductor-normalization/conductor-cohomology-bounds/PROOF.md",
+      "public_sha256": "fb6a8e3a7074abe1c240e49326b30873ba29da9bd263c4b571d1fd6cbd8ee0fd"
+    },
+    {
+      "path": "research/conductor-normalization/effective-collision-bound/PROOF.md",
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "pr": 167,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/effective-collision-bound/PROOF.md",
+      "public_sha256": "7f1af835ff5998deb22b62c51d868c86b9a2d554c69c964ec9d05c337f58d104"
+    },
+    {
+      "path": "research/conductor-normalization/sixth-ideal-pushforward/ALL-POWERS.md",
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "pr": 158,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/sixth-ideal-pushforward/ALL-POWERS.md",
+      "public_sha256": "72207c5217283a7f865780ccf831bbbdb41a4b7eaf45cce25ca566bdedacef03"
+    },
+    {
+      "path": "research/conductor-normalization/fourth-ideal-pushforward/PROOF.md",
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "pr": 158,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/fourth-ideal-pushforward/PROOF.md",
+      "public_sha256": "a2a3d1f6db7265bf697f324c5c015fed915570ca4a8a1286ef040eca12c879fe"
+    },
+    {
+      "path": "research/hm/middle-surface/rank-one-boundary-support/PROOF.md",
+      "commit": "4dc50d6f057d1120a1c772316b2e3b961601efab",
+      "pr": 282,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4dc50d6f057d1120a1c772316b2e3b961601efab/research/hm/middle-surface/rank-one-boundary-support/PROOF.md",
+      "public_sha256": "b9c0d9f15110fd60757a6a9e2c265e2b208740ba03e50c404e53b82233e92169"
+    },
+    {
+      "path": "research/hm/middle-surface/flag-boundary-resolution/PROOF.md",
+      "commit": "4dc50d6f057d1120a1c772316b2e3b961601efab",
+      "pr": 282,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4dc50d6f057d1120a1c772316b2e3b961601efab/research/hm/middle-surface/flag-boundary-resolution/PROOF.md",
+      "public_sha256": "e78a03cfbad74d4be18c0cfd1c535c24820b2aaad5be2cf8f0e43117823b3cb0"
+    }
+  ],
+  "new_sibling_prerequisites": [
+    {
+      "claim": "S110",
+      "unit": "01",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/global-conic-splitting-exclusion/AUDIT.md",
+          "sha256": "0bde2f0e0702c88545063cb2289e0f99db90c34792086c71c01faa1a2b6734bd"
+        },
+        {
+          "path": "research/conductor-prerequisites/global-conic-splitting-exclusion/PROOF.md",
+          "sha256": "f1cbba8e542be7a3a6796231492a042c7814b8432c8565adec0572148412da37"
+        },
+        {
+          "path": "research/conductor-prerequisites/global-conic-splitting-exclusion/SOURCE_STATUS.md",
+          "sha256": "00e0c5b74ec55f5e097a82410e3f4e2b76e14fea8127f056befa76442d3cbc58"
+        }
+      ]
+    },
+    {
+      "claim": "S051",
+      "unit": "02",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/degree-one-kernel-exclusion/PROOF.md",
+          "sha256": "75a9abd681a35847713f6fbd6ae583968ed6126eccdb89d8f49fb06b431414d1"
+        },
+        {
+          "path": "research/conductor-prerequisites/degree-one-kernel-exclusion/AUDIT.md",
+          "sha256": "e4b8e70d8ce96d923a1df19bc5d9178abe1f78f4aa6fc11f9a53cd6c691b5bef"
+        }
+      ]
+    },
+    {
+      "claim": "S351",
+      "unit": "03",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/square-detector-factorization/AUDIT.md",
+          "sha256": "2f1fc1b6aa462bce5e2e79eaa199b574bcd7e2ade4cedd92704dcc7157a91114"
+        },
+        {
+          "path": "research/conductor-prerequisites/square-detector-factorization/PROOF.md",
+          "sha256": "88bddb44ce61b577e736998d2b1379ac3d4e74313c7ecd6608a55a6ee8de13f6"
+        },
+        {
+          "path": "research/conductor-prerequisites/square-detector-factorization/SUPPLEMENT.md",
+          "sha256": "d97e9e0acfe0a681de8db5eeb88064e94036517ac5ae77199a36c5179163242e"
+        }
+      ]
+    },
+    {
+      "claim": "S331",
+      "unit": "04",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/ribbon-duality-constraints/AUDIT.md",
+          "sha256": "7b4982e114ac18e2305cab43d53c5391e3b1976df4837f5e5b331097c37d797d"
+        },
+        {
+          "path": "research/conductor-prerequisites/ribbon-duality-constraints/PROOF.md",
+          "sha256": "4abb178d3c9f2476e5adb31e47d64c051e6ab0ade7cc01d7f1001f5ac711de9f"
+        }
+      ]
+    },
+    {
+      "claim": "S330",
+      "unit": "05",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/ribbon-catalecticant-classification/AUDIT.md",
+          "sha256": "13c8b24d2610c63bb8212c34f96fdc39f842b3c69abc090f3aa21a2f8eed0bc3"
+        },
+        {
+          "path": "research/conductor-prerequisites/ribbon-catalecticant-classification/PROOF.md",
+          "sha256": "2101a81016a50ee05ed4da6c0dc1faa931ca6ab89392d8fa4377122778c4b5ee"
+        }
+      ]
+    },
+    {
+      "claim": "S316",
+      "unit": "06",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/AUDIT.md",
+          "sha256": "9f5e354101aed03774233e0ee2631126afd82a50f02a0433a8e7481368afcd07"
+        },
+        {
+          "path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/PROOF.md",
+          "sha256": "17998112a43377021e367398ade74a06986cbc2d5ccb394b1ff17d271c144af8"
+        },
+        {
+          "path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/SUPPLEMENT.md",
+          "sha256": "06ac3f949000aec4bfa36d039236469abc72e5f239ecce765318f7017f85c317"
+        }
+      ]
+    },
+    {
+      "claim": "S123",
+      "unit": "07",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/higher-conic-lifting-obstruction/AUDIT.md",
+          "sha256": "7ddd8b386f9dec7cd67394473a7621784f402c95c8013217ccbfc89b6209ddfa"
+        },
+        {
+          "path": "research/conductor-prerequisites/higher-conic-lifting-obstruction/PROOF.md",
+          "sha256": "f19e6111b6021ed433e8a514cf8c74fb5bc94366ee526d6296e012e87cbbb8d0"
+        }
+      ]
+    },
+    {
+      "claim": "S105",
+      "unit": "08",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/full-target-collision-criterion/AUDIT.md",
+          "sha256": "baa2addbc5f0e1847be7dc4472f928462b3ba24537aba2bd5576cbce0102653f"
+        },
+        {
+          "path": "research/conductor-prerequisites/full-target-collision-criterion/PROOF.md",
+          "sha256": "dd2f7650c8e1a20852fa2f907aec50ab9a32f8861b146fc15ad6d238251caf57"
+        }
+      ]
+    },
+    {
+      "claim": "S066",
+      "unit": "09",
+      "public_commit": null,
+      "public_pin_status": "Not bound in this manifest; content digest is not proof of publication. Supply a verified immutable commit before treating a sibling reference as publicly closed.",
+      "scientific_files": [
+        {
+          "path": "research/conductor-prerequisites/double-plane-boundary-support/AUDIT.md",
+          "sha256": "42bb17e50b0551918fc5e0a5f11ae68b9039066237308783cdd861ae1d32f6b8"
+        },
+        {
+          "path": "research/conductor-prerequisites/double-plane-boundary-support/PROOF.md",
+          "sha256": "7b0a25d031d6f9822ce4dd8cd284356fec0f15473a4091c15ea841195eaaaee7"
+        },
+        {
+          "path": "research/conductor-prerequisites/double-plane-boundary-support/ROOT_CHECK.md",
+          "sha256": "3860f2ec00da53a07e7bfef77cd0e8bcf1bf141364e704a1be2d3d11fd666832"
+        }
+      ]
+    }
+  ],
+  "unclosed_premises": {
+    "S105": [
+      "Regular split class transports j_r for r=0,1,2, compatible with weights and finite duality",
+      "Injectivity of all three constant inclusions, not merely H2 injectivity at twist zero",
+      "Actual globally regular closed I^12 representative and equality of its class with j_0(C)",
+      "Complete exact public binding for weighted-trace-filtration-audit/WEIGHTED-SELECTION.md",
+      "Complete exact public binding for weighted-trace-filtration-audit/TRACE-CORRECTED-SQUARE.md"
+    ],
+    "S066_application": [
+      "Global repeat-injectivity",
+      "Limiting correction/support incidence in every residual rank stratum",
+      "Smooth projective full-flag resolution and descent of h",
+      "Effective A over bad locus with A·(n+h)>=deg(B)>0"
+    ]
+  },
+  "binding_rule": "Known predecessor pins identify imported propositions, not certification of actual-source membership. Pending sibling commits must not be replaced by branch-name links or inferred from a cumulative stack."
+}
