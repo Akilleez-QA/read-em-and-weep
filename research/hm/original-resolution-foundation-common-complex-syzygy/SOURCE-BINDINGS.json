@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "PROOF.md",
+      "historical_sha256": "ba370fae906f866b840defe0c93efb869a9ea55f1d4778a97a3a45d57b9e0249",
+      "public_sha256": "a1fe314b1220317e3944e8b4bdc8045f583a87b78436154549f4bbb62a798d8b",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "PARENT-REVIEW.md",
+      "historical_sha256": "3168a7bc52627cb0aaaf9b0a8f697fe4e9be3415bad163cc7eccfe9973bc6d65",
+      "public_sha256": "17fc441b653166a8fb079ee2b609188001880a34805c3fa7ebc7262987a6109b",
+      "role": "full scientific proof or historical review"
+    }
+  ]
+}
