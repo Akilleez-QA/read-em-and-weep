@@ -1,0 +1,15 @@
+{
+  "unit": "01",
+  "clusters": [
+    "representation-defect-bound"
+  ],
+  "core_predecessors": [],
+  "external_inputs": [
+    "rank-eight-isolated-singularity"
+  ],
+  "later_contextual_units": [
+    "03",
+    "06"
+  ],
+  "scope": "Universal rank inequality r \u2265 d+a_H(V), its representation cokernel budget and square-zero length \u22645r. Canonical wedge-family applications separately assume the stated stabilizer and wedge-module calculation; they are not premises of the universal proof."
+}
