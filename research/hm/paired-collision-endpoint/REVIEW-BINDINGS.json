@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-10-20",
+  "status": "Two scoped mathematical reviews passed. Independent review rebound the mechanical immutable predecessor-link update. Not formal verification or source execution.",
+  "sha256": {
+    "PROOF.md": "4ed13b7412e21665d2e102c9dbece152c47e962e3913596f5f0475e4187a7453",
+    "README.md": "d5739a97c824b1d2b40eb4051b167307f3817f93913c6fe0317d44a89b12026f",
+    "INDEPENDENT-REVIEW.md": "8aa0020d31b4fb1b9f02e9ee199e61fd1d7e02b286e64db32c65e51cf80173cd",
+    "ROOT-REVIEW.md": "0d0e2cc33e54130310cad67379ad39615fbdc9c9c83c5d9b5a26622a3c52fc56"
+  },
+  "filtration_dependency": {
+    "commit": "50e82ed233cd7729c38608194f990376eb832418",
+    "path": "research/hm/paired-collision-filtration/PROOF.md",
+    "git_blob_sha1": "9697423e880070cdf34cbc3548f5a2b32b2a40a0",
+    "sha256": "41fd8967a1bd876c0375ab35c889d3eec431e5a72cd66ca2fa74937e503cbca1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/50e82ed233cd7729c38608194f990376eb832418/research/hm/paired-collision-filtration/PROOF.md"
+  },
+  "other_public_dependency_bindings": "Exact immutable commit URLs and Git blob identifiers are recorded in PROOF.md and checked in INDEPENDENT-REVIEW.md.",
+  "publication_scope": "Complete public-only proof, summary, reviews, and byte bindings. No selected source-instance evaluation or computation is certified."
+}
