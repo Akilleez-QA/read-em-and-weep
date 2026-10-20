@@ -1,0 +1,50 @@
+[
+  {
+    "source": "smooth-normalizer-polarization-divisibility/INDEPENDENT_AUDIT.md",
+    "source_sha256": "6f262508236beb3a5765bb4f491fc4de807e5f7391ea119d7b9187b4fe828be7",
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/INDEPENDENT_AUDIT.md",
+    "sha256": "6f262508236beb3a5765bb4f491fc4de807e5f7391ea119d7b9187b4fe828be7"
+  },
+  {
+    "source": "smooth-normalizer-polarization-divisibility/PROOF.md",
+    "source_sha256": "b4aedd1e04e869d9fff3fb31c5c83ea8ef4a88964e51c9312936709080e2eaf3",
+    "path": "research/hm/rank-four/smooth-normalizer-polarization-divisibility/PROOF.md",
+    "sha256": "5d61ae9060863af29aee21286111e45755ab85c9022d63c60de36612c9022479"
+  },
+  {
+    "source": "rank-four-degree-hundred-lower-bound/PROOF.md",
+    "source_sha256": "10daceecc063c82bec8b38409fed306c58b9b0767fd31f8008a116ab1925639a",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-lower-bound/PROOF.md",
+    "sha256": "91c815c4f226a5fc9c7125473bd730ce59d1552f02ff620efe8830b224211085"
+  },
+  {
+    "source": "rank-four-degree-hundred-audit/AUDIT.md",
+    "source_sha256": "8a0a4afdd4e59b90123be1d54695023d6fa50ff58cddc38915a7066f00635a45",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-audit/AUDIT.md",
+    "sha256": "e70998aa337d3d9cf4a25a8b5a1060b35d0bb8fc8e160d70555628b11aa17e3a"
+  },
+  {
+    "source": "rank-four-degree-hundred-audit/ENDPOINT_125_EXCLUSION.md",
+    "source_sha256": "1724d59ed014b51cfe07bd3427ff0c77d5e1df64472b8590b9bbf5dfc4c819fc",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-audit/ENDPOINT_125_EXCLUSION.md",
+    "sha256": "fac736ebe7a4b093def78e577c37ee1d61da4b8e757fed6206592ebb01b23423"
+  },
+  {
+    "source": "rank-four-degree-hundred-audit/ENDPOINT_125_INDEPENDENT_AUDIT.md",
+    "source_sha256": "c1de5ccc920752a9f2bfb3061ab4ecfd2ff5befd857a65384c86e1712b09cb28",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-audit/ENDPOINT_125_INDEPENDENT_AUDIT.md",
+    "sha256": "c1de5ccc920752a9f2bfb3061ab4ecfd2ff5befd857a65384c86e1712b09cb28"
+  },
+  {
+    "source": "rank-four-degree-hundred-components/INDEPENDENT_AUDIT.md",
+    "source_sha256": "0d7a7764975f7281ce0853a4cf717bbc51fa278f6ce13a6f3625a7794dfd97ae",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-components/INDEPENDENT_AUDIT.md",
+    "sha256": "8d610b5d4c6186e6071603a6c5a64ad929400bb6f8884639d43179ef596714d8"
+  },
+  {
+    "source": "rank-four-degree-hundred-components/PROOF.md",
+    "source_sha256": "b7408067703c75f9cffe8475d6ff2a264408554bc13df127ab3c417e00b709a9",
+    "path": "research/hm/rank-four/rank-four-degree-hundred-components/PROOF.md",
+    "sha256": "594c748ec316925d4975c213c646732a05d648179b806de852a440e71361f550"
+  }
+]
