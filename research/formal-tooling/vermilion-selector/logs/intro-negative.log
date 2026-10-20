@@ -1,0 +1,24 @@
+
+[vermilion] Verus front end: elaborating examples/residue-selector/intro_wrong.rs (--no-verify)
+[vermilion] lowering SST to the textual IR
+[vermilion] preparing the Lean environment (cached unless the library changed)
+[vermilion] generating Lean obligations from the IR
+[vermilion] Lean is judging the generated obligations of examples/residue-selector/intro_wrong.rs
+[vrml-check] unit=.vermilion/check-intro_wrong-increment.lean elapsed_ms=2059
+error[vermilion]: postcondition not satisfied
+  --> examples/residue-selector/intro_wrong.rs:8:13
+   = note: Lean rejected obligation `intro_wrong.increment.ensures_2` (statement hash 2a236a9cf7f2eaac)
+        Lean says: vrml: no ladder rung closed the goal (tried [grind,
+   = help: two ways forward:
+        1. the Rust code or its specification is wrong — fix it at the span above;
+        2. the code is right but automation is too weak — write the proof yourself in
+           examples/residue-selector/proofs/intro_wrong/increment.lean (the user-owned twin: replace the tactic body after `:= by`,
+           keep the signature and markers; your proof survives regeneration while the
+           statement hash is unchanged. Helper lemmas go between `-- vrml:user:begin`
+           and `-- vrml:user:end` lines — such sections are preserved verbatim).
+
+
+warning: automation could not prove `intro_wrong.increment.ensures_2`; left as `sorry` in examples/residue-selector/proofs/intro_wrong/increment.lean — prove it manually
+proofs twins updated examples/residue-selector/proofs/intro_wrong/ (1 unit twins, 3 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+

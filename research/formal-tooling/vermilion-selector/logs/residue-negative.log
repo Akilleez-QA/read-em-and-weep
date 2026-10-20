@@ -1,0 +1,24 @@
+
+[vermilion] Verus front end: elaborating examples/residue-selector/residue_wrong.rs (--no-verify)
+[vermilion] lowering SST to the textual IR
+[vermilion] preparing the Lean environment (cached unless the library changed)
+[vermilion] generating Lean obligations from the IR
+[vermilion] Lean is judging the generated obligations of examples/residue-selector/residue_wrong.rs
+[vrml-check] unit=.vermilion/check-residue_wrong-false_residue.lean elapsed_ms=1984
+error[vermilion]: postcondition not satisfied
+  --> examples/residue-selector/residue_wrong.rs:5:13
+   = note: Lean rejected obligation `residue_wrong.false_residue.ensures_0` (statement hash 062f94c1f3f3fe66)
+        Lean says: vrml: no ladder rung closed the goal (tried [grind,
+   = help: two ways forward:
+        1. the Rust code or its specification is wrong — fix it at the span above;
+        2. the code is right but automation is too weak — write the proof yourself in
+           examples/residue-selector/proofs/residue_wrong/false_residue.lean (the user-owned twin: replace the tactic body after `:= by`,
+           keep the signature and markers; your proof survives regeneration while the
+           statement hash is unchanged. Helper lemmas go between `-- vrml:user:begin`
+           and `-- vrml:user:end` lines — such sections are preserved verbatim).
+
+
+warning: automation could not prove `residue_wrong.false_residue.ensures_0`; left as `sorry` in examples/residue-selector/proofs/residue_wrong/false_residue.lean — prove it manually
+proofs twins updated examples/residue-selector/proofs/residue_wrong/ (1 unit twins, 1 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+

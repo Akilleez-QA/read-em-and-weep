@@ -1,0 +1,3 @@
+'simple.increment.assert_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'simple.increment.assert_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'simple.increment.ensures_2' depends on axioms: [propext, Classical.choice, Quot.sound]
