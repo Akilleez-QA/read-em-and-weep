@@ -1,0 +1,38 @@
+[
+  {
+    "artifact": "full-support-equivariant-chern-congruences/AUDIT.md",
+    "original_sha256": "bf2621bbb6aa9ae2d41dfbbfc74565529df1e547f590eda396b5fe21cbe52276",
+    "published_sha256": "7c40bf2f0621d46c33a492c09792cb97b7fc3ff9a5e2e046bfcfaf61dab3eed5",
+    "path": "research/hm/local-defect/full-support-equivariant-chern-congruences/AUDIT.md"
+  },
+  {
+    "artifact": "full-support-equivariant-chern-congruences/PROOF.md",
+    "original_sha256": "182a42ed991a7ab29d3bec40e0d9f8692a1f19dec722db5b3fe01b56b70bde73",
+    "published_sha256": "c2a44c140c03f456c89f7527dc011030ec29f0f4103a544b13b6349aed75f54f",
+    "path": "research/hm/local-defect/full-support-equivariant-chern-congruences/PROOF.md"
+  },
+  {
+    "artifact": "low-degree-kernel-lifting/AUDIT.md",
+    "original_sha256": "930d7c33beec7cae8c43e67b25ce8644c0b34441fdc126170cc74ff4ce410ce2",
+    "published_sha256": "4fe510907fb46d8e1c2dfe13ca297724791ee9b368542c3ed0c24a14a2eef60d",
+    "path": "research/hm/local-defect/low-degree-kernel-lifting/AUDIT.md"
+  },
+  {
+    "artifact": "low-degree-kernel-lifting/PROOF.md",
+    "original_sha256": "62f9609b751f2c38d70a25bc81946936683f5c1fcc6e7d0f2c135549f7d6f9e6",
+    "published_sha256": "c0322f6b735fa8eac253fba189638d61413fe0e78f2951e7e74dea8db5a71009",
+    "path": "research/hm/local-defect/low-degree-kernel-lifting/PROOF.md"
+  },
+  {
+    "artifact": "rank-seven-cubic-plucker-obstruction/AUDIT.md",
+    "original_sha256": "cb9a692217fd619309ed5e4c3b5944ea3d94c01c8ee2f9c511c3793cbb696608",
+    "published_sha256": "670611ad8e5665c2607a70a64b268744f13404870bc35825ae535169c88379d5",
+    "path": "research/hm/local-defect/rank-seven-cubic-plucker-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "rank-seven-cubic-plucker-obstruction/PROOF.md",
+    "original_sha256": "e7c804c82c60514a62d1770ac26384c15a660b0caf0ae627603aef3063af1702",
+    "published_sha256": "64620486a99289be744abb325edf94ed63b2ff38dff5d4cd77dff30f2d1a90f4",
+    "path": "research/hm/local-defect/rank-seven-cubic-plucker-obstruction/PROOF.md"
+  }
+]
