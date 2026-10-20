@@ -1,0 +1,13 @@
+Publication context: this retained proof or audit may describe an intermediate bound or then-open branch. Read the unit overview for the current scope and later implications. Historical mathematical review is not a new formal verification.
+
+# Independent audit
+
+**PASS.** Independently reviewed PROOF.md Sections 1–4, including the filtered equality case and the fresh radical-layer enumeration. No outstanding correction.
+
+The square-zero Koszul estimate is correct and excludes all length-eleven square-zero modules. The non-square-zero linear relation count excludes top dimension at least five in P=D(Q). For top dimension four, equality forces Hilbert function (4,6,1) and exactly ten minimal relations. The natural initial-linear relation map is surjective by correcting in m²F and is an isomorphism by dimension. Independent linear initial forms ensure that quadratic initial relations are exactly W K1, even when the generators have higher corrections. The resulting Koszul map has one-dimensional kernel and cokernel; both are full-stabilizer characters and hence B-trivial. Its nonzero-clock weights must agree, contradicting each of the independently checked five candidate rows. This is a valid filtered argument rather than an assumed graded degeneration.
+
+For the remaining top dimensions at most three, single-V modules have bottom dimension at most two by opposite-pair commutativity and cannot have length eleven. The generalized associated-graded V-to-C-to-V argument correctly forces four independent clock-zero middle vectors: the four nonzero multiplication functionals distinguish them. Thus no such intervening layer of dimension below four is possible. Counting the two V constituents and three character dimensions then gives exactly the displayed seven shapes before cyclic exclusions, including the (2,8,1) possibility.
+
+The cyclic relation counts exclude the two four-layer shapes. For (1,4,6), equality would require precisely four quadratic generators of an m-primary ideal. They form a regular sequence and the actual homogeneous quotient has length sixteen, contradicting eleven. Hence cyclic finite duals are all excluded.
+
+The additional (2,8,1) exclusion has also been independently verified in the final revision: its first multiplication map is an isomorphism, so K is contained in m²F, and its one-dimensional quadratic layer leaves nineteen independent minimal quadratic relations. The three surviving necessary Hilbert functions are exactly (2,4,5), (2,4,4,1), and (3,4,4). Their filtered realizability is left unresolved as stated. This does not exclude local length eleven or raise the global minimum of 330. No operation-instance evaluation was used.
