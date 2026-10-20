@@ -1,0 +1,5 @@
+# Current mathematical scope
+
+Here B is exactly End₀(HM), not an auxiliary kernel or reflexive sheaf. The source text's assertion that both positive H² twists remain unproved is historical: H²(B(2))=0 is now supplied by PR167, while H²(B(1)) remains unresolved with upper bound 30. PR91's H⁰(B(1))=0 is a different cohomological degree and cannot close that gap. The complete countermodel remains valid under its explicitly granted positive-twist assumptions. It fixes primary maps in the homotopy/derived category, not the enlarged strict middle map. The cylinder realization is in bounded complexes of vector spaces, not HM bundles or normalization sheaves. Every projected rank 0–6 occurs in that abstract family; no actual geometric rank is deduced.
+
+The complete original derivations and historical mathematical audits are retained. Audit status is historical, not formal verification. These results concern respectively ordinary trace maps, target-relative trace maps, universal Atiyah expressions, derived countermodels, and pointwise identities. They do not establish a physical mixed-extension result, an all-orders result, or algebraicity.
