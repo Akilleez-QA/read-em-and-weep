@@ -40,4 +40,4 @@ The same parameter recovery persists after faithfully flat descent: if A→A' is
 
 ## Verification limits
 
-Only structural algebra and the published dependency statements were used. No selected actual HM/source instance was evaluated, no repository code was executed, no large computation was performed, and no external publication was made by this reviewer. The hash above pins the exact authored proof audited.
+Only structural algebra and the published dependency statements were used. No selected actual HM/source instance was evaluated, no repository code was executed, no large computation was performed, and no external publication was made during the mathematical review. The hash above pins the exact authored proof audited.
