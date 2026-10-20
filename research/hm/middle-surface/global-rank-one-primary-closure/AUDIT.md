@@ -1,0 +1,13 @@
+# Independent global primary-closure audit
+
+Verdict: PASS for PROOF.md, with the image statement understood as the resolved good-diagonal rank-one portion, not the entire product blowup containing other projective components.
+
+The parameter algebra is a free square-zero extension of a domain. Every element with nonzero reduced part is regular, and every element with zero reduced part is square-zero. The image subalgebra inherits this property; consequently its defining kernel is primary. Reduction is the usual rank-one parametrization, whose kernel is the determinantal prime P. This proves radical P and P² containment without assuming flatness of the image algebra.
+
+The exact Taylor criterion and radial redundancy are valid. The normalized coordinate change absorbs the radial nilpotent into the two outer scalar parameters. Setting it to zero gives the converse parameterization, and localization at u1 loses no identity because u1 is regular on the target algebra. On the generic all-nonzero chart the image recovers the four independent transverse variables and the seven reduced coordinates. Hence generic length is five. The imported exact rank-ten normal form identifies its localization with J at P, and primary contraction proves Q=J R_P∩R. This establishes the isolated primary component globally, including directions where the original cubic scheme need not coincide with it.
+
+The universal cubic containment uses only the cyclic and outer-symmetry identities. The signs in the three displayed two-by-two minor images and the certified cubic cancellations check. No quadratic equation is killed by the map; the associated exact fifty-dimensional cubic description is separately audited in LOW_DEGREE_AUDIT.md. No claim of a homogeneous generating set is made.
+
+On x1 invertible, the exact normalization yields x=av, y=b(v−q), z=c(v−2q). Thus the image is precisely A0⊕(b,c)A0^4, with square-zero second summand. The regular-sequence syzygy of b,c gives the complete displayed local presentation. At b=c=0 its nilmodule has eight minimal generators and depth six over the regular seven-dimensional reduced chart. The full algebra has dimension seven, depth six and embedding dimension fifteen. The same argument applies to each choice of the surviving column and does not require rank ten at that particular common line: it is a statement about the already identified global primary closure.
+
+This does not identify the whole original cubic scheme at the boundary or exclude its other components or embedded structure. It does prove that this isolated primary component itself is square-zero everywhere and has no embedded associated prime. No unresolved correction; no actual physical operation evaluation was used.

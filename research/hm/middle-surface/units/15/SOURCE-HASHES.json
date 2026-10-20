@@ -1,0 +1,74 @@
+[
+  {
+    "source": "full-boundary-product-blowup/AUDIT.md",
+    "source_sha256": "8b54ec29b8fafa2785e0f82f9e5b65f9271ef620e0a03764fdc9010a930ff301",
+    "public_path": "research/hm/middle-surface/full-boundary-product-blowup/AUDIT.md",
+    "public_sha256": "8b54ec29b8fafa2785e0f82f9e5b65f9271ef620e0a03764fdc9010a930ff301"
+  },
+  {
+    "source": "full-boundary-product-blowup/PROOF.md",
+    "source_sha256": "775b10bb06e4d46981c1c17c172bf0ecf9e8424c18f82bedef0f6e22247c9b61",
+    "public_path": "research/hm/middle-surface/full-boundary-product-blowup/PROOF.md",
+    "public_sha256": "33cf0d963115eab20c0566bbe265c3e0bc0625adafe65e22f772a70aed55a903"
+  },
+  {
+    "source": "projective-rank-one-thickening/AUDIT.md",
+    "source_sha256": "78a33f9a67779aaf5d8b0bf49d150258bfdcadf31f3d222d8d964c8b4c996362",
+    "public_path": "research/hm/middle-surface/projective-rank-one-thickening/AUDIT.md",
+    "public_sha256": "78a33f9a67779aaf5d8b0bf49d150258bfdcadf31f3d222d8d964c8b4c996362"
+  },
+  {
+    "source": "projective-rank-one-thickening/PROOF.md",
+    "source_sha256": "00877fd0b8a2b9e61643554cdf31e99ab8fa5d85ecd5a146360f2f2ed5e2bb8e",
+    "public_path": "research/hm/middle-surface/projective-rank-one-thickening/PROOF.md",
+    "public_sha256": "e83a41e45c67e28204f480fbcf1a98ebdaeda83eebebeb3f3b87fd3967d7a7e0"
+  },
+  {
+    "source": "global-rank-one-primary-closure/AUDIT.md",
+    "source_sha256": "525b4dbc01cd31ac724cb326a0b442746558b84cf85f53b77f1b39b0a68b112f",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/AUDIT.md",
+    "public_sha256": "525b4dbc01cd31ac724cb326a0b442746558b84cf85f53b77f1b39b0a68b112f"
+  },
+  {
+    "source": "global-rank-one-primary-closure/LOW_DEGREE.md",
+    "source_sha256": "cbb8f8a9c9482c13633a9bc112ac510eb519ae1010b81d0931dce53307282ab0",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/LOW_DEGREE.md",
+    "public_sha256": "cbb8f8a9c9482c13633a9bc112ac510eb519ae1010b81d0931dce53307282ab0"
+  },
+  {
+    "source": "global-rank-one-primary-closure/LOW_DEGREE_AUDIT.md",
+    "source_sha256": "cf961e581eae8a93a3c4d6e213621aca166abb221d62e0047da951d8064829e9",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/LOW_DEGREE_AUDIT.md",
+    "public_sha256": "cf961e581eae8a93a3c4d6e213621aca166abb221d62e0047da951d8064829e9"
+  },
+  {
+    "source": "global-rank-one-primary-closure/PROOF.md",
+    "source_sha256": "b54b2df3f25f4fa107b3fa94fcfbc28ce69f181e7b6742f500887762d1ee720d",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/PROOF.md",
+    "public_sha256": "0671e8d303252b243d081e0cc3ede22ed8f11543588f365b4d1ff9a54c935448"
+  },
+  {
+    "source": "global-rank-one-primary-closure/TWO_ZERO_LOCAL.md",
+    "source_sha256": "807ee6515aa05b9785ee0a3335e5eaacff86f374c54abbc69d7023e21e0415fe",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/TWO_ZERO_LOCAL.md",
+    "public_sha256": "84aae417b09fb0747dcf8959a0287c46b45d553dde29c1fa57e13d1ff9baf880"
+  },
+  {
+    "source": "global-rank-one-primary-closure/TWO_ZERO_LOCAL_AUDIT.md",
+    "source_sha256": "10b605de67dc8b8c1bc724df69157e8781abb115ef469dd0fbb599d13ce493fa",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/TWO_ZERO_LOCAL_AUDIT.md",
+    "public_sha256": "10b605de67dc8b8c1bc724df69157e8781abb115ef469dd0fbb599d13ce493fa"
+  },
+  {
+    "source": "global-rank-one-primary-closure/VERTEX_NILMODULE.md",
+    "source_sha256": "f3c897fcb56f15a8dd275ce4384af521dc24842d65b19c75bc81dd30039242ee",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/VERTEX_NILMODULE.md",
+    "public_sha256": "f3c897fcb56f15a8dd275ce4384af521dc24842d65b19c75bc81dd30039242ee"
+  },
+  {
+    "source": "global-rank-one-primary-closure/VERTEX_NILMODULE_AUDIT.md",
+    "source_sha256": "0f7e52ac4404fcce5407f2f5b830f7d98f25e492d00255629714cce32ebca817",
+    "public_path": "research/hm/middle-surface/global-rank-one-primary-closure/VERTEX_NILMODULE_AUDIT.md",
+    "public_sha256": "0f7e52ac4404fcce5407f2f5b830f7d98f25e492d00255629714cce32ebca817"
+  }
+]
