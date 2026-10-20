@@ -1,0 +1,808 @@
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m kernel-checking your proofs twin (sole arbiter; generated check skipped)
+[2K
+proofs twin unchanged examples/bounded-residue/proofs/bounded.lean (9 obligations, 0 sorry)
+  (generated-module check skipped: the proofs twin is current and is the sole arbiter)
+✓ proofs twin kernel-checked: examples/bounded-residue/proofs/bounded*
+
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded_wrong.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m Lean is judging the generated obligations of examples/bounded-residue/bounded_wrong.rs
+[2K[vrml-check] unit=.vermilion/check-bounded_wrong.lean elapsed_ms=18679
+error[vermilion]: postcondition not satisfied
+  --> examples/bounded-residue/bounded_wrong.rs:21:13
+   = note: Lean rejected obligation `bounded_wrong.residue_two.ensures_3` (statement hash 317219485f094080)
+        Lean says: vrml: no ladder rung closed the goal (tried [grind,
+   = help: two ways forward:
+        1. the Rust code or its specification is wrong — fix it at the span above;
+        2. the code is right but automation is too weak — write the proof yourself in
+           examples/bounded-residue/proofs/bounded_wrong.lean:371 (the user-owned twin: replace the tactic body after `:= by`,
+           keep the signature and markers; your proof survives regeneration while the
+           statement hash is unchanged. Helper lemmas go between `-- vrml:user:begin`
+           and `-- vrml:user:end` lines — such sections are preserved verbatim).
+
+
+warning: `bounded_wrong.residue_two.ensures_3` in examples/bounded-residue/proofs/bounded_wrong.lean still contains `sorry` — prove it manually
+proofs twin unchanged examples/bounded-residue/proofs/bounded_wrong.lean (9 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+
+'ResidueBridge.coefficient_interpret' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_interpret' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_predicate' depends on axioms: [Quot.sound]
+'ResidueBridge.selectSum_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ResidueBridge.residue_eq_zero_of_nonnegative_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:52:25: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p2, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:52:66: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p2, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:54:25: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p3, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:54:66: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p3, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:56:25: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p4, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:56:66: warning: This simp argument is unused:
+  clipped_minus_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp_all [p4, m]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+${ARTIFACT_ROOT}/vermilion-tooling/vermilion/examples/bounded-residue/bridge-deps/SelectorLaurentBridge.lean:58:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'SelectorLaurentBridge.accepted_postcondition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelectorLaurentBridge.returned_eq_single_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SelectorLaurentBridge.returned_eq_singleton_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem SelectorLaurentBridge.accepted_postcondition : ∀ (e0 e1 e2 e3 e4 coefficient : ℤ),
+  Vermilion.inSignedRange 64 e0 →
+    Vermilion.inSignedRange 64 e1 →
+      Vermilion.inSignedRange 64 e2 →
+        Vermilion.inSignedRange 64 e3 →
+          Vermilion.inSignedRange 64 e4 →
+            Vermilion.inSignedRange 64 coefficient →
+              SelectorLaurentBridge.returned e0 e1 e2 e3 e4 coefficient =
+                Vermilion.iteP (SelectorLaurentBridge.guard e0 e1 e2 e3 e4) coefficient 0 :=
+fun e0 e1 e2 e3 e4 coefficient h0 h1 h2 h3 h4 hc =>
+  let m := Vermilion.sclip 64 (0 - 1);
+  let p1 := e0 = m ∧ e1 = m;
+  let p2 := p1 ∧ e2 = m;
+  let p3 := p2 ∧ e3 = m;
+  let p4 := p3 ∧ e4 = m;
+  have accepted :=
+    residue.residue_term.ensures_5 e0 e1 e2 e3 e4 coefficient p1 p2 p3 p4 h0 h1 h2 h3 h4 hc
+      (of_eq_true
+        (Eq.trans
+          (Eq.trans
+            (congr
+              (congrArg And
+                (eq_true
+                  (Mathlib.Meta.NormNum.isInt_le_true
+                    (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt
+                        (Mathlib.Meta.NormNum.isNat_natCast (2 ^ (64 - 1)) 9223372036854775808
+                          (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                            (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2))
+                            (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                              (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                            (Mathlib.Meta.NormNum.IsNatPowT.run
+                              (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                  Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                  Mathlib.Meta.NormNum.IsNatPowT.bit1))))))
+                      (Eq.refl (Int.negOfNat 9223372036854775808)))
+                    (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                      (Eq.refl (Int.negOfNat 1)))
+                    (Eq.refl true))))
+              (eq_true
+                (Mathlib.Meta.NormNum.isInt_lt_true
+                  (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                    (Eq.refl (Int.negOfNat 1)))
+                  (Mathlib.Meta.NormNum.IsNat.to_isInt
+                    (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow) (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2))
+                      (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                        (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                      (Mathlib.Meta.NormNum.IsNatPowT.run
+                        (Mathlib.Meta.NormNum.IsNatPowT.trans
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                            Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                            Mathlib.Meta.NormNum.IsNatPowT.bit1)))))
+                  (Eq.refl true))))
+            (and_self True))
+          (eq_true True.intro)))
+      (fun a =>
+        of_eq_true
+          (Eq.trans
+            (Eq.trans
+              (congr
+                (congrArg And
+                  (eq_true
+                    (Mathlib.Meta.NormNum.isInt_le_true
+                      (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt
+                          (Mathlib.Meta.NormNum.isNat_natCast (2 ^ (64 - 1)) 9223372036854775808
+                            (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                              (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2))
+                              (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                                (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                              (Mathlib.Meta.NormNum.IsNatPowT.run
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                    (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                      Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1))))))
+                        (Eq.refl (Int.negOfNat 9223372036854775808)))
+                      (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                        (Eq.refl (Int.negOfNat 1)))
+                      (Eq.refl true))))
+                (eq_true
+                  (Mathlib.Meta.NormNum.isInt_lt_true
+                    (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                      (Eq.refl (Int.negOfNat 1)))
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt
+                      (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                        (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2))
+                        (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                          (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                        (Mathlib.Meta.NormNum.IsNatPowT.run
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans
+                              (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)))))
+                    (Eq.refl true))))
+              (and_self True))
+            (eq_true True.intro)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx
+            (congrArg (Eq e0)
+              (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                (Eq.trans
+                  (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                    (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                    (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                  (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+            fun a =>
+            Eq.trans
+              (congr
+                (congrArg Iff
+                  (Eq.trans
+                    (congr
+                      (congrArg And
+                        (Eq.trans
+                          (congr (congrArg Eq a)
+                            (Eq.trans
+                              (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                                (Eq.trans
+                                  (Eq.trans
+                                    (congrFun'
+                                      (congrArg GE.ge
+                                        (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                      9223372036854775808)
+                                    ge_iff_le._simp_1)
+                                  (eq_true_of_decide (Eq.refl true)))
+                                ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                                (congrFun'
+                                  (congrArg HSub.hSub
+                                    (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  18446744073709551616)
+                                ((0 - 1) % 2 ^ 64) 18446744073709551615
+                                (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))
+                          (eq_self (-1))))
+                      (congrArg (Eq e1)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (true_and (e1 = -1))))
+                (congrArg (Eq e1)
+                  (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                    (Eq.trans
+                      (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                        (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                        (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                      (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))))
+              (iff_self (e1 = -1)))
+          (implies_true (e0 = -1))))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx
+            (congrArg Not
+              (congrArg (Eq e0)
+                (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                  (Eq.trans
+                    (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                      (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                      (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                    (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))))
+            fun a =>
+            Eq.trans
+              (congrFun'
+                (congrArg Iff
+                  (Eq.trans
+                    (congr
+                      (congrArg And
+                        (Eq.trans
+                          (congrArg (Eq e0)
+                            (Eq.trans
+                              (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                                (Eq.trans
+                                  (Eq.trans
+                                    (congrFun'
+                                      (congrArg GE.ge
+                                        (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                      9223372036854775808)
+                                    ge_iff_le._simp_1)
+                                  (eq_true_of_decide (Eq.refl true)))
+                                ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                                (congrFun'
+                                  (congrArg HSub.hSub
+                                    (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  18446744073709551616)
+                                ((0 - 1) % 2 ^ 64) 18446744073709551615
+                                (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))
+                          (eq_false a)))
+                      (congrArg (Eq e1)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (false_and (e1 = -1))))
+                False)
+              (iff_self False))
+          (implies_true ¬e0 = -1)))
+      (fun a =>
+        of_eq_true
+          (Eq.trans
+            (Eq.trans
+              (congr
+                (congrArg And
+                  (eq_true
+                    (Mathlib.Meta.NormNum.isInt_le_true
+                      (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt
+                          (Mathlib.Meta.NormNum.isNat_natCast (2 ^ (64 - 1)) 9223372036854775808
+                            (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                              (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2))
+                              (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                                (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                              (Mathlib.Meta.NormNum.IsNatPowT.run
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                    (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                      Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1))))))
+                        (Eq.refl (Int.negOfNat 9223372036854775808)))
+                      (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                        (Eq.refl (Int.negOfNat 1)))
+                      (Eq.refl true))))
+                (eq_true
+                  (Mathlib.Meta.NormNum.isInt_lt_true
+                    (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                      (Eq.refl (Int.negOfNat 1)))
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt
+                      (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                        (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2))
+                        (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                          (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                        (Mathlib.Meta.NormNum.IsNatPowT.run
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans
+                              (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)))))
+                    (Eq.refl true))))
+              (and_self True))
+            (eq_true True.intro)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl p1) fun a =>
+            Eq.trans
+              (congr
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_true a))
+                      (congrArg (Eq e2)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (true_and (e2 = -1))))
+                (congrArg (Eq e2)
+                  (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                    (Eq.trans
+                      (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                        (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                        (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                      (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))))
+              (iff_self (e2 = -1)))
+          (implies_true p1)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl ¬p1) fun a =>
+            Eq.trans
+              (congrFun'
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_false a))
+                      (congrArg (Eq e2)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (false_and (e2 = -1))))
+                False)
+              (iff_self False))
+          (implies_true ¬p1)))
+      (fun a =>
+        of_eq_true
+          (Eq.trans
+            (Eq.trans
+              (congr
+                (congrArg And
+                  (eq_true
+                    (Mathlib.Meta.NormNum.isInt_le_true
+                      (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt
+                          (Mathlib.Meta.NormNum.isNat_natCast (2 ^ (64 - 1)) 9223372036854775808
+                            (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                              (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2))
+                              (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                                (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                              (Mathlib.Meta.NormNum.IsNatPowT.run
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                    (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                      Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1))))))
+                        (Eq.refl (Int.negOfNat 9223372036854775808)))
+                      (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                        (Eq.refl (Int.negOfNat 1)))
+                      (Eq.refl true))))
+                (eq_true
+                  (Mathlib.Meta.NormNum.isInt_lt_true
+                    (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                      (Eq.refl (Int.negOfNat 1)))
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt
+                      (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                        (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2))
+                        (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                          (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                        (Mathlib.Meta.NormNum.IsNatPowT.run
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans
+                              (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)))))
+                    (Eq.refl true))))
+              (and_self True))
+            (eq_true True.intro)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl p2) fun a =>
+            Eq.trans
+              (congr
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_true a))
+                      (congrArg (Eq e3)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (true_and (e3 = -1))))
+                (congrArg (Eq e3)
+                  (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                    (Eq.trans
+                      (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                        (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                        (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                      (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))))
+              (iff_self (e3 = -1)))
+          (implies_true p2)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl ¬p2) fun a =>
+            Eq.trans
+              (congrFun'
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_false a))
+                      (congrArg (Eq e3)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (false_and (e3 = -1))))
+                False)
+              (iff_self False))
+          (implies_true ¬p2)))
+      (fun a =>
+        of_eq_true
+          (Eq.trans
+            (Eq.trans
+              (congr
+                (congrArg And
+                  (eq_true
+                    (Mathlib.Meta.NormNum.isInt_le_true
+                      (Mathlib.Meta.NormNum.isInt_neg (Eq.refl Neg.neg)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt
+                          (Mathlib.Meta.NormNum.isNat_natCast (2 ^ (64 - 1)) 9223372036854775808
+                            (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                              (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 2))
+                              (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                                (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                              (Mathlib.Meta.NormNum.IsNatPowT.run
+                                (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans
+                                    (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                      Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                                  (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                    Mathlib.Meta.NormNum.IsNatPowT.bit1))))))
+                        (Eq.refl (Int.negOfNat 9223372036854775808)))
+                      (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                        (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                        (Eq.refl (Int.negOfNat 1)))
+                      (Eq.refl true))))
+                (eq_true
+                  (Mathlib.Meta.NormNum.isInt_lt_true
+                    (Mathlib.Meta.NormNum.isInt_sub (Eq.refl HSub.hSub)
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 0)))
+                      (Mathlib.Meta.NormNum.IsNat.to_isInt (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 1)))
+                      (Eq.refl (Int.negOfNat 1)))
+                    (Mathlib.Meta.NormNum.IsNat.to_isInt
+                      (Mathlib.Meta.NormNum.isNat_pow (Eq.refl HPow.hPow)
+                        (Mathlib.Meta.NormNum.isNat_ofNat ℤ (Eq.refl 2))
+                        (Mathlib.Meta.NormNum.isNat_natSub (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 64))
+                          (Mathlib.Meta.NormNum.isNat_ofNat ℕ (Eq.refl 1)) (Eq.refl 63))
+                        (Mathlib.Meta.NormNum.IsNatPowT.run
+                          (Mathlib.Meta.NormNum.IsNatPowT.trans
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans
+                              (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                                Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)
+                            (Mathlib.Meta.NormNum.IsNatPowT.trans Mathlib.Meta.NormNum.IsNatPowT.bit1
+                              Mathlib.Meta.NormNum.IsNatPowT.bit1)))))
+                    (Eq.refl true))))
+              (and_self True))
+            (eq_true True.intro)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl p3) fun a =>
+            Eq.trans
+              (congr
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_true a))
+                      (congrArg (Eq e4)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (true_and (e4 = -1))))
+                (congrArg (Eq e4)
+                  (Eq.trans (congrArg (Vermilion.sclip 64) (zero_sub 1))
+                    (Eq.trans
+                      (Vermilion.iteP.congr_simp (-1 % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                        (Eq.trans ge_iff_le._simp_1 (eq_true_of_decide (Eq.refl true))) (-1 % 2 ^ 64 - 2 ^ 64) (-1)
+                        (id (Eq.refl (-1))) (-1 % 2 ^ 64) 18446744073709551615 (id (Eq.refl 18446744073709551615)))
+                      (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615)))))
+              (iff_self (e4 = -1)))
+          (implies_true p3)))
+      (of_eq_true
+        (Eq.trans
+          (implies_congr_ctx (Eq.refl ¬p3) fun a =>
+            Eq.trans
+              (congrFun'
+                (congrArg Iff
+                  (Eq.trans
+                    (congr (congrArg And (eq_false a))
+                      (congrArg (Eq e4)
+                        (Eq.trans
+                          (Vermilion.iteP.congr_simp ((0 - 1) % 2 ^ 64 ≥ 2 ^ (64 - 1)) True
+                            (Eq.trans
+                              (Eq.trans
+                                (congrFun'
+                                  (congrArg GE.ge (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                                  9223372036854775808)
+                                ge_iff_le._simp_1)
+                              (eq_true_of_decide (Eq.refl true)))
+                            ((0 - 1) % 2 ^ 64 - 2 ^ 64) (-1)
+                            (congrFun'
+                              (congrArg HSub.hSub (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                              18446744073709551616)
+                            ((0 - 1) % 2 ^ 64) 18446744073709551615
+                            (congrFun' (congrArg HMod.hMod (zero_sub 1)) 18446744073709551616))
+                          (Vermilion.iteP_pos (of_eq_true (Eq.refl True)) (-1) 18446744073709551615))))
+                    (false_and (e4 = -1))))
+                False)
+              (iff_self False))
+          (implies_true ¬p3)));
+  id
+    (Eq.mpr
+      (eq_of_heq
+        ((fun α a a' e'_2 a_1 =>
+            Eq.casesOn (motive := fun a_2 x => a' = a_2 → e'_2 ≍ x → (a = a_1) ≍ (a' = a_1)) e'_2
+              (fun h =>
+                Eq.ndrec (motive := fun a' => ∀ (e_2 : a = a'), e_2 ≍ Eq.refl a → (a = a_1) ≍ (a' = a_1))
+                  (fun e_2 h => HEq.refl (a = a_1)) (Eq.symm h) e'_2)
+              (Eq.refl a') (HEq.refl e'_2))
+          ℤ
+          (if
+              (((e0 = Vermilion.sclip 64 (0 - 1) ∧ e1 = Vermilion.sclip 64 (0 - 1)) ∧ e2 = Vermilion.sclip 64 (0 - 1)) ∧
+                  e3 = Vermilion.sclip 64 (0 - 1)) ∧
+                e4 = Vermilion.sclip 64 (0 - 1) then
+            coefficient
+          else 0)
+          (if
+              (((e0 = Vermilion.sclip 64 (0 - 1) ∧ e1 = Vermilion.sclip 64 (0 - 1)) ∧ e2 = Vermilion.sclip 64 (0 - 1)) ∧
+                  e3 = Vermilion.sclip 64 (0 - 1)) ∧
+                e4 = Vermilion.sclip 64 (0 - 1) then
+            coefficient
+          else 0)
+          ((fun {α} c c_1 e_c =>
+              @Eq.rec Prop c
+                (fun c_2 e_c =>
+                  ∀ {h : Decidable c} {h_1 : Decidable c_2} (t t_1 : α),
+                    t = t_1 → ∀ (e e_1 : α), e = e_1 → (if c then t else e) = if c_2 then t_1 else e_1)
+                (fun {h h_1} =>
+                  Eq.ndrec (motive := fun {h_2} =>
+                    ∀ (t t_1 : α), t = t_1 → ∀ (e e_1 : α), e = e_1 → (if c then t else e) = if c then t_1 else e_1)
+                    (fun t t_1 e_t =>
+                      Eq.rec (motive := fun t_2 e_t =>
+                        ∀ (e e_1 : α), e = e_1 → (if c then t else e) = if c then t_2 else e_1)
+                        (fun e e_1 e_e => e_e ▸ Eq.refl (if c then t else e)) e_t)
+                    (Subsingleton.elim h h_1))
+                c_1 e_c)
+            ((((e0 = Vermilion.sclip 64 (0 - 1) ∧ e1 = Vermilion.sclip 64 (0 - 1)) ∧ e2 = Vermilion.sclip 64 (0 - 1)) ∧
+                e3 = Vermilion.sclip 64 (0 - 1)) ∧
+              e4 = Vermilion.sclip 64 (0 - 1))
+            ((((e0 = Vermilion.sclip 64 (0 - 1) ∧ e1 = Vermilion.sclip 64 (0 - 1)) ∧ e2 = Vermilion.sclip 64 (0 - 1)) ∧
+                e3 = Vermilion.sclip 64 (0 - 1)) ∧
+              e4 = Vermilion.sclip 64 (0 - 1))
+            (Eq.refl
+              ((((e0 = Vermilion.sclip 64 (0 - 1) ∧ e1 = Vermilion.sclip 64 (0 - 1)) ∧
+                    e2 = Vermilion.sclip 64 (0 - 1)) ∧
+                  e3 = Vermilion.sclip 64 (0 - 1)) ∧
+                e4 = Vermilion.sclip 64 (0 - 1)))
+            coefficient coefficient (Eq.refl coefficient) 0 0 (Eq.refl 0))
+          (if (((e0 = 0 - 1 ∧ e1 = 0 - 1) ∧ e2 = 0 - 1) ∧ e3 = 0 - 1) ∧ e4 = 0 - 1 then coefficient else 0)))
+      accepted)
+'SelectorLaurentBridge.first_coordinate_face_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BoundedBridge.two_term_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem BoundedBridge.two_term_residue : ∀ (a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb : ℤ),
+  Vermilion.inSignedRange 64 a0 →
+    Vermilion.inSignedRange 64 a1 →
+      Vermilion.inSignedRange 64 a2 →
+        Vermilion.inSignedRange 64 a3 →
+          Vermilion.inSignedRange 64 a4 →
+            Vermilion.inSignedRange 64 ca →
+              Vermilion.inSignedRange 64 b0 →
+                Vermilion.inSignedRange 64 b1 →
+                  Vermilion.inSignedRange 64 b2 →
+                    Vermilion.inSignedRange 64 b3 →
+                      Vermilion.inSignedRange 64 b4 →
+                        Vermilion.inSignedRange 64 cb →
+                          -4611686018427387903 ≤ ca ∧ ca ≤ 4611686018427387903 →
+                            -4611686018427387903 ≤ cb ∧ cb ≤ 4611686018427387903 →
+                              BoundedBridge.returnedTwo a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb =
+                                ResidueBridge.residue
+                                  (ResidueBridge.interpret
+                                    [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                                      (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]) :=
+fun a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb hcaBound hcbBound =>
+  have ra := BoundedBridge.selected_range a0 a1 a2 a3 a4 ca hca;
+  have rb := BoundedBridge.selected_range b0 b1 b2 b3 b4 cb hcb;
+  have safe :=
+    bounded.residue_two.assert_2 a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb
+      hcaBound hcbBound ra rb;
+  have post :=
+    bounded.residue_two.ensures_3 a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb
+      hcaBound hcbBound ra rb safe;
+  id
+    (fun post =>
+      Eq.mpr
+        (id
+          (congrArg
+            (fun _a =>
+              _a =
+                ResidueBridge.residue
+                  (ResidueBridge.interpret
+                    [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                      (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]))
+            post))
+        (Eq.mpr
+          (id
+            (congrFun'
+              (congrArg Eq
+                (congr
+                  (congrArg HAdd.hAdd
+                    (ite_congr (BoundedBridge.two_term_residue._simp_1_2 a0 a1 a2 a3 a4) (fun a => Eq.refl ca) fun a =>
+                      Eq.refl 0))
+                  (ite_congr (BoundedBridge.two_term_residue._simp_1_2 b0 b1 b2 b3 b4) (fun a => Eq.refl cb) fun a =>
+                    Eq.refl 0)))
+              (ResidueBridge.residue
+                (ResidueBridge.interpret
+                  [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                    (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]))))
+          (of_eq_true
+            (Eq.trans
+              (congrArg
+                (Eq
+                  ((if SelectorLaurentBridge.exponent a0 a1 a2 a3 a4 = ResidueBridge.residueExponent then ca else 0) +
+                    if SelectorLaurentBridge.exponent b0 b1 b2 b3 b4 = ResidueBridge.residueExponent then cb else 0))
+                (Eq.trans
+                  (congrFun'
+                    (congrArg DFunLike.coe
+                      (congrArg (HAdd.hAdd (Finsupp.single (SelectorLaurentBridge.exponent a0 a1 a2 a3 a4) ca))
+                        (add_zero (Finsupp.single (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4) cb))))
+                    ResidueBridge.residueExponent)
+                  (congr (congrArg HAdd.hAdd Finsupp.single_apply) Finsupp.single_apply)))
+              (eq_self
+                ((if SelectorLaurentBridge.exponent a0 a1 a2 a3 a4 = ResidueBridge.residueExponent then ca else 0) +
+                  if SelectorLaurentBridge.exponent b0 b1 b2 b3 b4 = ResidueBridge.residueExponent then cb else 0))))))
+    post
+'bounded_residue_term_evidence_decidable_prop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.assert_0' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.assert_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.assert_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.assert_3' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.assert_4' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_term.ensures_5' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_two.assert_2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'bounded.residue_two.ensures_3' depends on axioms: [propext, Classical.choice, Quot.sound]

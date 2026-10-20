@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+set -euo pipefail
+HERE="$(cd "$(dirname "$0")" && pwd)"
+UP=${ARTIFACT_ROOT}/vermilion-tooling/vermilion
+source ${ARTIFACT_ROOT}/vermilion-tooling/env.sh
+cd "$UP"
+./scripts/run_example.sh examples/bounded-residue bounded.rs --per-file --lib BoundedResidue --manual-proofs
+set +e
+./scripts/run_example.sh examples/bounded-residue bounded_wrong.rs --per-file
+neg=$?
+set -e
+test "$neg" -eq 1
+python3 - <<'PY'
+import json
+p=json.load(open('.vermilion/bounded_wrong-run.json'))
+assert p['phase']=='lean' and p['exit']==1, p
+PY
+source scripts/lean_env.sh
+export LEAN_PATH="$HERE/bridge-deps:$HERE/proofs:$LEAN_PATH"
+for m in ResidueBridge residue/Evidence residue/residue_term residue/missing_face_zero SelectorLaurentBridge; do
+  cmp "$HERE/bridge-deps/$m.lean" "${ARTIFACT_ROOT}/selector-laurent-bridge/$m.lean"
+  lean --plugin="$vrml_cvc5_plugin" "$HERE/bridge-deps/$m.lean" -R "$HERE/bridge-deps" -o "$HERE/bridge-deps/$m.olean"
+done
+lean --plugin="$vrml_cvc5_plugin" "$HERE/proofs/bounded.lean" -o "$HERE/proofs/bounded.olean"
+lean --plugin="$vrml_cvc5_plugin" "$HERE/BoundedBridge.lean"
+lean --plugin="$vrml_cvc5_plugin" "$HERE/Axioms.lean"

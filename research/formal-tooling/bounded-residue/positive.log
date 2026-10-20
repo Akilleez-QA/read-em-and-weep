@@ -1,0 +1,11 @@
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m kernel-checking your proofs twin (sole arbiter; generated check skipped)
+[2K
+proofs twin unchanged examples/bounded-residue/proofs/bounded.lean (9 obligations, 0 sorry)
+  (generated-module check skipped: the proofs twin is current and is the sole arbiter)
+✓ proofs twin kernel-checked: examples/bounded-residue/proofs/bounded*
+

@@ -1,0 +1,3 @@
+[vrml-check] unit=.vermilion/check-bounded.lean elapsed_ms=2370
+✓ all 9 obligations in examples/bounded-residue/generated/bounded.lean verified by Lean — 8 newly checked, 1 discharged interactively. 🎉
+  • `bounded.residue_term.evidence_decidable_prop` — examples/bounded-residue/proofs/bounded.lean:9

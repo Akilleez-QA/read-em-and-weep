@@ -1,0 +1,24 @@
+import json,re,pathlib,hashlib
+p=pathlib.Path(__file__).resolve().parent.parent
+for stem in ['bounded','bounded_wrong']:
+    manifest=json.loads((p/'generated'/f'{stem}.json').read_text())
+    gen=(p/'generated'/f'{stem}.lean').read_text()
+    twin=(p/'proofs'/f'{stem}.lean').read_text()
+    def blocks(s):
+        return {m[0]:(m[1],m[2].split(':= by',1)[0]) for m in re.findall(r'-- vrml:begin (\S+) (\S+)\n(.*?)-- vrml:end',s,re.S)}
+    gb,tb=blocks(gen),blocks(twin)
+    assert len(gb)==len(tb)==len(manifest['obligations'])==9
+    for ob in manifest['obligations']:
+        name=ob['name']
+        assert gb[name]==tb[name], name
+        assert gb[name][0]==ob['statement_hash'], name
+    print(stem, '9/9 generated/twin signatures and manifest marker hashes match')
+s=(p/'bounded.rs').read_text(); w=(p/'bounded_wrong.rs').read_text()
+assert w==s.replace('cb } else { 0 }),','cb } else { 0 }) + 1,')
+assert not re.search(r'\b(sorry|admit|axiom)\b',(p/'proofs/bounded.lean').read_text())
+assert not re.search(r'\b(sorry|admit|axiom)\b',(p/'BoundedBridge.lean').read_text())
+print('Negative source differs only by +1 postcondition; positive twin and bridge have no proof holes or added axioms.')
+for line in (p/'source-sha256.txt').read_text().splitlines():
+    h,f=line.split(maxsplit=1)
+    assert hashlib.sha256((p/f).read_bytes()).hexdigest()==h,f
+print('All source-sha256.txt entries match frozen files.')

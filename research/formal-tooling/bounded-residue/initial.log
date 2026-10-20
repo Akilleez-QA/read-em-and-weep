@@ -1,0 +1,22 @@
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m Lean is judging the generated obligations of examples/bounded-residue/bounded.rs
+[2K[vrml-check] unit=.vermilion/check-bounded.lean elapsed_ms=3051
+error[vermilion]: required Lean typeclass evidence is unresolved
+  --> examples/bounded-residue/bounded.rs:8:13
+   = note: generated evidence `bounded.residue_term.evidence_decidable_prop` is still a placeholder (statement hash 5bc1a8a63f76e1da)
+        Evidence says: the generated class dictionary has no kernel-checked twin proof
+   = help: provide the Lean class dictionary in
+           examples/bounded-residue/proofs/bounded.lean (the user-owned twin: replace the body after `:= by`;
+           keep the signature and markers). Later VCs may be checked contingently
+           using the generated placeholder, but the run cannot verify until this
+           instance itself is kernel-checked.
+
+
+warning: automation could not prove `bounded.residue_term.evidence_decidable_prop`; left as `sorry` in examples/bounded-residue/proofs/bounded.lean — prove it manually
+proofs twin updated examples/bounded-residue/proofs/bounded.lean (9 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+
