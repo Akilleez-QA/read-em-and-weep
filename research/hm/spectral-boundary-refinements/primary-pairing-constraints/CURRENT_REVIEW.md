@@ -1,0 +1,7 @@
+# Current mathematical review
+
+Reviewed 2026-10-20. The proof and retained refinements pass independent mathematical text review under the premises in DEPENDENCIES.md. This is not formal proof checking or an actual source-instance evaluation. Historical audits remain historical.
+
+Trace/Serre symmetry has even cohomological degree, so it imposes no alternating-rank rule. The correct radical is against all of T, not just K. Projection modulo the quadratic image produces the two exact defect layers; its socle formula follows from multiplication adjointness. PR160 41ed82a75476057eb1a6222390bd96ccf5f88b27 §3 and AUDIT §8 explicitly give the irreducible V4 cofactor representation and height-two ideal. Uniqueness of decomposition makes the b-coefficient map equivariant; if zero the ideal has a common quadratic factor, contradicting height two. This proves spanning without an SL2 action on HM cohomology.
+
+Both countermodels and the audit's odd-defect example were checked algebraically from their stated string/square-free descriptions, without execution. They preserve only the enumerated abstract hypotheses and do not claim to realize the actual conductor resolution or HM module. The elementary gcd and square-free coefficient arguments are sound. S213 imports only S360's CI decomposition and primary factorization, not S051 or the bound w≤3. No symmetry or self-duality for the separate secondary map is inferred.
