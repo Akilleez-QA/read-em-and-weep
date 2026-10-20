@@ -1,0 +1,42 @@
+{
+  "audit_sha256": "483cf527251d9ee341cf3368cab141cc3735833166fbb88974f8b9f43c87afa4",
+  "reviewed_payload": [
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/DEPENDENCIES.md",
+      "sha256": "cb119e8197efea889191aebf2ed9e67c2d031c43e894df5d637de4fdd58fde7b",
+      "bytes": 1861
+    },
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/PROOF.md",
+      "sha256": "e1b5121938e6b0d7647c0bb34e03d1c15529d15ece3c34c11c8404c80d34b97e",
+      "bytes": 14573
+    },
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/PUBLICATION.md",
+      "sha256": "e4ca61ee0774255ea137e9f16c1a29b4a5dfda80271a991df5cba1c2a4d4284b",
+      "bytes": 1015
+    },
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/SOURCE-BINDINGS.json",
+      "sha256": "ed6581c4ad44e2b2eddb2fa16141a4c3e0d325b1f6806f5dcecc974d04171943",
+      "bytes": 1479
+    },
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/check_controls.py",
+      "sha256": "834ae786e14ff81ef0eedb3d0e12621adf48f99b51413231e58160ba02cc7b0a",
+      "bytes": 8025
+    },
+    {
+      "unit": "05",
+      "path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "f78fddc839d48114ce8ef91cbc5bc822f63fd26eb68d3f101370ea672805d001",
+      "bytes": 3554
+    }
+  ],
+  "review_scope": "04-08"
+}

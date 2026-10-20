@@ -1,0 +1,22 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "constant-bilinear-twist-repair-exclusion-20261018/PROOF.md",
+      "source_sha256": "1b35190bf2667d14b3c4811bf7ef362d49d972c8ead351d7b347ff01fba062a0",
+      "public_path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/PROOF.md",
+      "public_sha256": "e1b5121938e6b0d7647c0bb34e03d1c15529d15ece3c34c11c8404c80d34b97e",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "constant-bilinear-twist-repair-exclusion-20261018/check_controls.py",
+      "source_sha256": "834ae786e14ff81ef0eedb3d0e12621adf48f99b51413231e58160ba02cc7b0a",
+      "public_path": "research/hm/structural-boundaries/constant-bilinear-twist-repair/check_controls.py",
+      "public_sha256": "834ae786e14ff81ef0eedb3d0e12621adf48f99b51413231e58160ba02cc7b0a",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
