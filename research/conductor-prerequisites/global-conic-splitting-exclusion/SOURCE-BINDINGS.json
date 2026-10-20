@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": "S110",
+    "source": "global-conic-splitting-exclusion/AUDIT.md",
+    "source_sha256": "56c93e8962bbf313edab42f87becd00403faff2a044e123b606caf214588365f",
+    "source_bytes": 6194,
+    "public_path": "research/conductor-prerequisites/global-conic-splitting-exclusion/AUDIT.md",
+    "public_sha256": "0bde2f0e0702c88545063cb2289e0f99db90c34792086c71c01faa1a2b6734bd",
+    "public_bytes": 6329,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S110",
+    "source": "global-conic-splitting-exclusion/PROOF.md",
+    "source_sha256": "d122aa8d8dd6dd19ba9c48f8be04266192d3189304db12f23a74beabf77b1ce2",
+    "source_bytes": 7386,
+    "public_path": "research/conductor-prerequisites/global-conic-splitting-exclusion/PROOF.md",
+    "public_sha256": "f1cbba8e542be7a3a6796231492a042c7814b8432c8565adec0572148412da37",
+    "public_bytes": 7550,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S110",
+    "source": "global-conic-splitting-exclusion/SOURCE_STATUS.md",
+    "source_sha256": "5e09384698554111a2aa65a75b462552b95b5831c1846be1f430131471b931db",
+    "source_bytes": 943,
+    "public_path": "research/conductor-prerequisites/global-conic-splitting-exclusion/SOURCE_STATUS.md",
+    "public_sha256": "00e0c5b74ec55f5e097a82410e3f4e2b76e14fea8127f056befa76442d3cbc58",
+    "public_bytes": 1113,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]

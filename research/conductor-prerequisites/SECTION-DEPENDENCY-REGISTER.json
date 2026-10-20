@@ -1,0 +1,220 @@
+[
+  {
+    "node": "S110 §§1–4",
+    "requires": [
+      "PR167 sharper-hm-regularity/SHARPEST-BOUND.md: primary normalized HM section resolution",
+      "PR169 conductor-double-conic-intersection/PROOF.md: actual square embedding and smooth conic",
+      "normalized HM rank2, c1=-H, c2=4H² and duality F*=F(1)",
+      "projective-plane line-bundle cohomology, locally split pullback, Serre duality, Pic(P²)=Z"
+    ],
+    "concludes": [
+      "E(8) globally generated",
+      "H1(E(t))=0 t>=8; H2(E(t))=0 t>=6",
+      "H1(EndE(t))=0 t>=14",
+      "restriction End algebra on nC is isomorphism n>=9; actual E|nC does not split"
+    ],
+    "does_not_require": [
+      "S051",
+      "S351",
+      "S123"
+    ]
+  },
+  {
+    "node": "S051 §§1–2",
+    "requires": [
+      "S110 §§1–3 generation and cohomology",
+      "actual rank2 E, detE=O(-2), c2=16",
+      "saturated rank1 subsheaf on smooth surface is line; quotient I_Z(-2-a)",
+      "Bezout and two-generator lci length"
+    ],
+    "concludes": [
+      "a<=0",
+      "negative endomorphism spaces only at twists-1,-2, dimensions(3,1) together or(0,0)",
+      "H2(E(t))=0 t>=0"
+    ],
+    "does_not_require": [
+      "S351 ideal-square factorization",
+      "ambient Gysin detector"
+    ]
+  },
+  {
+    "node": "S351 §§1–5 and SUPPLEMENT",
+    "requires": [
+      "S051 §§1–2 for actual a<=0 (historical weaker a<=1 follows already from S110 generation)",
+      "actual extension K→E→I_Z T, not abstract lengths",
+      "regular embedding W→P4 and actual restriction map",
+      "rank2 trace/Sym² identification, lci ideal-square syzygies, regular-embedding and Serre duality"
+    ],
+    "concludes": [
+      "actual scalar quotient I_Z²(-4) with kernel E",
+      "exact ambient Gysin factorization conditional on actual e and i",
+      "line-membership extendability; full2C extension iff Z∩C empty"
+    ],
+    "historical_only": [
+      "a=1 and ten-dimensional detector alternative",
+      "length19 and doubled length57"
+    ]
+  },
+  {
+    "node": "S331 complete",
+    "requires": [
+      "PR169 conductor ribbon geometry",
+      "PR165 conductor-cohomology-bounds line-bundle dimensions",
+      "fixed nonsplit2C, determinantO(-2 plane), even prescribed splitting gap",
+      "trace orthogonality and characteristic0"
+    ],
+    "concludes": [
+      "rankε<=min(d-3,7) with domain convention",
+      "intrinsic reduction-kernel quotient",
+      "determinant-correct ribbon-local zero-boundary models"
+    ],
+    "conditional_import": [
+      "d<=20 if claiming actual HM range"
+    ]
+  },
+  {
+    "node": "S330 complete",
+    "requires": [
+      "S331 reference model and zero reference boundary",
+      "square-zero descent and Serre-dual multiplication"
+    ],
+    "concludes": [
+      "framed local catalecticant classification",
+      "all ribbon-local ranks0..min(7,d-3)",
+      "small-gap diagonal rows retained",
+      "e=0 iff splitting for d>=4"
+    ],
+    "does_not_conclude": [
+      "HM realization",
+      "global algebraizability",
+      "actual rank"
+    ]
+  },
+  {
+    "node": "S316 complete + SUPPLEMENT",
+    "requires": [
+      "S351 actual K/zero-scheme geometry and restricted splitting",
+      "S330 full small-gap boundary/lifting classification",
+      "S051 a=0 for actual specialization"
+    ],
+    "concludes": [
+      "τ=2δ−length(Z∩2C) using I_Z",
+      "rank Cartan=min(7,τ)",
+      "d=6 full rank=τ+1, correcting earlier interval",
+      "actual reduced zeros force nonsplitting"
+    ],
+    "conditional_import": [
+      "d<=20 for δ<=8"
+    ],
+    "does_not_conclude": [
+      "actual δ or τ",
+      "ambient source value"
+    ]
+  },
+  {
+    "node": "S123 complete",
+    "requires": [
+      "S330 first-order line/splitting theorem",
+      "S331 determinant-correct reference",
+      "fixed conic square-zero layer J_m=O_P1(-4m)"
+    ],
+    "concludes": [
+      "ob_m in H1(O(-d-4m)), unique embedded lift iff zero",
+      "extension obstruction in H1(O(d-4m))/imδ_m",
+      "determinant-correct finite algebraic countermodels",
+      "formal bundle extensions without global algebraization claim"
+    ]
+  },
+  {
+    "node": "S110 §5",
+    "requires": [
+      "S110 §§1–4",
+      "S123 line-versus-extension obstruction comparison",
+      "d even>=8 when using ε=0⇒2C splitting"
+    ],
+    "concludes": [
+      "first nonsplitting order2..9; under ε=0 and gap hypothesis3..9"
+    ],
+    "does_not_conclude": [
+      "negative-root failure necessarily by9C"
+    ]
+  },
+  {
+    "node": "S051 §§3–4",
+    "requires": [
+      "S051 §§1–2",
+      "S351 exact ideal-square quotient and saturated nilpotent line",
+      "PR170 finite-square-component-detector: full8C section extension",
+      "PR170 disjoint-zero-extension-detector: actual disjoint Serre extension residue criterion",
+      "S123 distinction of lifting from splitting"
+    ],
+    "concludes": [
+      "actual detector rank<=3; target dimensions0or3",
+      "actual reduced-C line-membership extendability",
+      "disjoint first nonsplitting interval3..6"
+    ],
+    "does_not_conclude": [
+      "actual detector rank",
+      "universal full-section extension atC",
+      "universal nonsplitting before9C"
+    ]
+  },
+  {
+    "node": "S105 §§1–3",
+    "requires": [
+      "PR158 actual regular-sequence collision ideal and Vandermonde sign contraction",
+      "PR158 sixth-ideal-pushforward/ALL-POWERS.md adjacent-monomial resolution",
+      "PR167 effective-collision-bound regularity",
+      "actual coefficient E=q*End0(F)⊗A^-2 and global linearization"
+    ],
+    "concludes": [
+      "weighted sign ideal-power vanishings k>=13,14",
+      "regular I^12 source representative produces zero weighted sign classes"
+    ],
+    "does_not_require": [
+      "actual source membership to prove universal conditional implication"
+    ]
+  },
+  {
+    "node": "S105 §§4–5",
+    "requires": [
+      "S105 §§1–3",
+      "regular j_r for r=0,1,2 compatible with multiplication and finite-duality constant projector",
+      "injectivity on constant inclusions at all three twists",
+      "actual closed regular source representative R_H∈I^12E and [R_H]=j0([C])",
+      "trace-corrected coefficient complement τ=σ²−t2/6, jointly complete retained coordinates"
+    ],
+    "unclosed_premises": [
+      "regular j_r and coefficient/source comparison not established by S4 character alone",
+      "actual I^12 membership not established",
+      "exact complete public binding for TRACE-CORRECTED-SQUARE and WEIGHTED-SELECTION absent in current closure evidence"
+    ],
+    "status": "publishable only as explicit conditional theorem, not actual target vanishing"
+  },
+  {
+    "node": "S066 abstract theorem §§1–5",
+    "requires": [
+      "PR282 rank-one-boundary-support §§2–4 regular division and compatible square lemma",
+      "complete integral nonconstant support curve",
+      "Q=x² annihilator, five-plane incidence, square avoidance",
+      "normalization of curves, DVR valuation, projective completeness and algebraic closure of C"
+    ],
+    "concludes": [
+      "no such complete nonconstant support curve for double-plane annihilator"
+    ]
+  },
+  {
+    "node": "S066 final conditional integration",
+    "requires": [
+      "PR282 flag-boundary-resolution with global repeat-injectivity",
+      "limiting support incidence: residual rank>=3 unique, rank2 at most6, rank1 local hypotheses, rank0 impossible",
+      "smooth projective full-flag resolution and descent of h",
+      "effective A over bad locus with A·(n+h)>=degB>0"
+    ],
+    "concludes": [
+      "regular support on normalization and descent of n",
+      "nonzero effective boundary curve under those hypotheses"
+    ],
+    "status": "application-specific premises retained explicitly, not proved by abstract theorem or a filename"
+  }
+]
