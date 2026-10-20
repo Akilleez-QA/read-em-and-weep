@@ -1,0 +1,28 @@
+[
+  {
+    "role": "structural premise",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01c96a7e1b24685eacd5d1dc52ed0ea026490146/research/hm/relative-models/relative-chern-constraints/PROOF.md",
+    "commit": "01c96a7e1b24685eacd5d1dc52ed0ea026490146",
+    "pr": 247,
+    "uses": "Section 1: Rs_*A=D[-1], pd(D)<=1, V=D\u2228 locally free of rank12, E=V\u2297\u03c9 and T=\u2130xt1(D,O)\u2297\u03c9. Section 5: Leray sequence; the numerical h2(K)=62 is used only in Section4."
+  },
+  {
+    "role": "conditional numerical corollary",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01c96a7e1b24685eacd5d1dc52ed0ea026490146/research/hm/relative-models/relative-chern-constraints/RIGIDITY_COROLLARY.md",
+    "commit": "01c96a7e1b24685eacd5d1dc52ed0ea026490146",
+    "pr": 247,
+    "uses": "The pure-boundary cohomology input yields h0(D)=44 and h0(V)=0; these are used only in Section4. The structural theorem does not need the value44 or62."
+  },
+  {
+    "role": "additional hypothesis, not established by a predecessor",
+    "hypothesis": "The sheaf T has finite support, possibly empty.",
+    "uses": "Essential for torsion-freeness of D, punctual quotient and finite-length duality. It must not be inferred from residue-fiber dimension3."
+  },
+  {
+    "role": "context only; not a dependency on the supplementary proof",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d/research/hm/null-factor-surfaces/exceptional-surface-0514/RESULT.md",
+    "commit": "e906fb83ca5ae4f5c75e7ca7a61863b984f15a0d",
+    "pr": 116,
+    "uses": "Exceptional fiber dimensions do not determine Q_exc, its embedding in F, its length, or the global evaluation map."
+  }
+]
