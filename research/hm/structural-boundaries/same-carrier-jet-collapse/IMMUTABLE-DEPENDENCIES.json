@@ -1,0 +1,106 @@
+[
+  {
+    "source_reference": "dependencies/accepted-same-pair-PROOF.md",
+    "source_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+    "public_editions": [
+      {
+        "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROOF.md",
+        "sha": "005900636f3a325908d5949069efed8f6aeb1810",
+        "pr": 353,
+        "public_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/005900636f3a325908d5949069efed8f6aeb1810/research/hm/structural-boundaries/same-pair-ordinary-twist/PROOF.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/accepted-scalar-PROOF.md",
+    "source_sha256": "ffdcd74399b4265b126ed7ebf5530a369566f6a72d12e2912f3474f20de00601",
+    "public_editions": [
+      {
+        "path": "research/hm/original-resolution-full-source-character/dependencies/complementary-scalar-PROOF.md",
+        "sha": "b1737be2abe6a679636c358cbef8468e9cf44341",
+        "pr": 362,
+        "public_sha256": "4e4922859522471eee2cdf110d1d3104560248f1c787713ed2302c2f85405ae0",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b1737be2abe6a679636c358cbef8468e9cf44341/research/hm/original-resolution-full-source-character/dependencies/complementary-scalar-PROOF.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/compiler.py.txt",
+    "source_sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+    "public_editions": [
+      {
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/491306fd2f7f8a04c29784afa48a6cb8a467f154/research/hm/null-raw-regular-extension/inputs/compiler.py.txt",
+        "public_sha256": "28e95b87adefaba0d4ec886a7ab272f252f376bbb1fc26e0a387bc05f896a386",
+        "status": "exact immutable public content freshly verified"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/null-complete-remainder-normal-form.md",
+    "source_sha256": "75f3c4fd559a9333b3252e1b1d0771a8e6f216354548df57eef60db5388af306",
+    "public_editions": [
+      {
+        "path": "research/hm/original-resolution-weighted-jet-flux-domain/dependencies/normal-form-RESULT.md",
+        "sha": "6ad49b4d30e01e8bc716b56c32546062157196c2",
+        "pr": 369,
+        "public_sha256": "98978abdd3f5d9aca0757c37c2ffafbbb5bfa6b844d270ee4e0de5ec153e96ff",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6ad49b4d30e01e8bc716b56c32546062157196c2/research/hm/original-resolution-weighted-jet-flux-domain/dependencies/normal-form-RESULT.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/null-covariant-jet-transgression.md",
+    "source_sha256": "2b07d868ec9c1fc5e38503623a8556ff7b3c71e3df76c3550385560602584db5",
+    "public_editions": [
+      {
+        "path": "research/hm/original-resolution-ambient-midpoint-curvature/sources/null-covariant-jet-transgression-RESULT.md",
+        "sha": "36f9e6cf9cc1cd8d22222f69cf4d937e2d0756e8",
+        "pr": 372,
+        "public_sha256": "526c3a0bdfade36dc83d665ac1c1ca27bf49c501c34e8f950a1a170d48debcdd",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/36f9e6cf9cc1cd8d22222f69cf4d937e2d0756e8/research/hm/original-resolution-ambient-midpoint-curvature/sources/null-covariant-jet-transgression-RESULT.md"
+      }
+    ]
+  },
+  {
+    "source_reference": "dependencies/null-rank-two-jet-reduction.md",
+    "source_sha256": "3617328ec484770e85da5009fd2aaf07367e544bb335b186d9a3d3b1b7773f0a",
+    "public_editions": [
+      {
+        "path": "research/hm/original-resolution-expanded-current-f-domain/dependencies/rank-two-RESULT.md",
+        "sha": "fe13bf53481a42a0414701811da43fa9a23a14ec",
+        "pr": 367,
+        "public_sha256": "6239f976220051b6df470bc8d6b50aa8de77aec6fdfeabafa5c4d8f5d565f929",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fe13bf53481a42a0414701811da43fa9a23a14ec/research/hm/original-resolution-expanded-current-f-domain/dependencies/rank-two-RESULT.md"
+      }
+    ]
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-structural-a/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-structural-a/PROOF.md",
+    "sha": "d1d6d3c6413814e92a5c2a29f4359a231f42cb17",
+    "pr": 314,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1d6d3c6413814e92a5c2a29f4359a231f42cb17/research/hm/original-resolution-foundation-structural-a/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-determinant-volume/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-determinant-volume/PROOF.md",
+    "sha": "757b4c6a8449edf5bb10f7b57a31706a82262400",
+    "pr": 317,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/757b4c6a8449edf5bb10f7b57a31706a82262400/research/hm/original-resolution-foundation-determinant-volume/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-homogeneous/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-homogeneous/PROOF.md",
+    "sha": "3fb00bec06e9e87616e3cb69d2504f1be668cd81",
+    "pr": 321,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb00bec06e9e87616e3cb69d2504f1be668cd81/research/hm/original-resolution-foundation-homogeneous/PROOF.md"
+  },
+  {
+    "mathematical_prerequisite": "research/hm/original-resolution-foundation-product-root/PROOF.md",
+    "path": "research/hm/original-resolution-foundation-product-root/PROOF.md",
+    "sha": "65c2e29477d6997306ecb4d480a05e8f8c1f3fcb",
+    "pr": 322,
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c2e29477d6997306ecb4d480a05e8f8c1f3fcb/research/hm/original-resolution-foundation-product-root/PROOF.md"
+  }
+]

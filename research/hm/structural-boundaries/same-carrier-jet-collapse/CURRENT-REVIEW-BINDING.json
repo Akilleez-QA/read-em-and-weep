@@ -1,0 +1,42 @@
+{
+  "audit_sha256": "483cf527251d9ee341cf3368cab141cc3735833166fbb88974f8b9f43c87afa4",
+  "reviewed_payload": [
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/DEPENDENCIES.md",
+      "sha256": "d6c8715a8ecac2fbc8cb8387c46b52e33d7f99d9e00d51fcf1dc76ed2437296d",
+      "bytes": 1546
+    },
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/PROOF.md",
+      "sha256": "260081cce38a073cffd5dd4ddb9bcf82cb0ff6661464138dbb27079e67810429",
+      "bytes": 7837
+    },
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/PUBLICATION.md",
+      "sha256": "edce155919c03971710f1176cca7b563d75f2996e385d04022445b4df876b212",
+      "bytes": 1060
+    },
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/REVIEW.md",
+      "sha256": "d5ad39da9ad653a4ca1061cddbe9f4dc805a66d01cf2a3987c5fdc041accea2e",
+      "bytes": 4179
+    },
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/SOURCE-BINDINGS.json",
+      "sha256": "aed65695de87cc5c3b524aeced459a0f9f3c4ae0a24fd8af2bde08e67d3b5765",
+      "bytes": 1486
+    },
+    {
+      "unit": "08",
+      "path": "research/hm/structural-boundaries/same-carrier-jet-collapse/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "3402597617efd31f85a5784209c30332dcd1f06f8d79ab082cb39ac8963021df",
+      "bytes": 4571
+    }
+  ],
+  "review_scope": "04-08"
+}
