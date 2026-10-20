@@ -1,0 +1,49 @@
+{
+  "claim": "S359",
+  "source_editions": [
+    {
+      "title": "Translation KS classes are graded-central: the proposed annihilator gives no detector reduction",
+      "source_edition_sha256": "3fe35bfa87e085a47f3cfd1ea4b3631dc9da8e9704f6b26df678ba81601beaff",
+      "role": "full proof",
+      "binds_proof_sha256": null,
+      "audit_scope": "as stated in the audit"
+    },
+    {
+      "title": "Independent structural audit",
+      "source_edition_sha256": "57bb819609099deef6c802a54037fad38bd125c0ac02e1ddbc4d1362fe499781",
+      "role": "historical mathematical audit",
+      "binds_proof_sha256": null,
+      "audit_scope": "all-degree module and connecting-map argument; excludes later endpoint supplement"
+    },
+    {
+      "title": "Final exact-byte independent audit",
+      "source_edition_sha256": "39190842dd3228f3675d83c915f2e83a2d6afef4da549dd588255ce7462752d9",
+      "role": "historical mathematical audit",
+      "binds_proof_sha256": "3fe35bfa87e085a47f3cfd1ea4b3631dc9da8e9704f6b26df678ba81601beaff",
+      "audit_scope": "exact complete proof edition, including endpoint supplement"
+    }
+  ],
+  "normalization": "All mathematical proof sections are retained. Changes are exact public source-link substitution, explicit theorem-reuse and historical-current-scope qualifications. S359 additionally derives the translation tangent embedding from the already public 79-dimensional family, replacing superseded rank-count dependencies. Historical source reviews are not presented as certification of normalized bytes.",
+  "publication_files": [
+    {
+      "path": "DEPENDENCIES.json",
+      "sha256": "aca540d44ae8083d093c09be6fb66f7a8c190cb4fd3160d64bf6d2c99f62e3a8"
+    },
+    {
+      "path": "FINAL-AUDIT.md",
+      "sha256": "f865230645c660ec5c65dcd6fb3fd06713ef5c3bee05c06495691af22251dfe8"
+    },
+    {
+      "path": "INDEPENDENT-AUDIT.md",
+      "sha256": "f906065b6617a8166e6fe71373e99a6b1018713ab9820688faf6acaa89b34f84"
+    },
+    {
+      "path": "PROOF.md",
+      "sha256": "2f2d3df3bc8dc554e3d04e277cd7aa1d91ec92beb3157b9e8da526258a848c7a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ecb5ff186c6a0a21e157f09435de570394a70bea00cda48c6ebf65bcf045b3c2"
+    }
+  ]
+}

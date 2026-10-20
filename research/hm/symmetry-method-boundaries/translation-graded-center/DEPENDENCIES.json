@@ -1,0 +1,21 @@
+{
+  "claim": "S359",
+  "public_inputs": [
+    {
+      "label": "coefficient",
+      "pr": 179,
+      "commit": "2b03992b32d2f5cf0509b6f4840adf08369f54b7",
+      "path": "research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2b03992b32d2f5cf0509b6f4840adf08369f54b7/research/hm/cubic-loci/foundation-p01/COEFFICIENT-FAMILY.md",
+      "git_blob_sha1": "3dcb57c3e06c008ad8c9edb4364e42e18de10079",
+      "sha256": "1f29eada256898880046b273dc8b9e0f76eade6694720819cc753fd22beb5ef3",
+      "verified": "Exact immutable public file read back; current PR head checked 2026-10-20."
+    }
+  ],
+  "local_dependency": null,
+  "scope": {
+    "disposition": "distinct all-degree all-deck theorem and endpoint primitive",
+    "overlap": "PR179 ordered invariant-invariant vanishing reused only as comparison; insufficient for this theorem.",
+    "sections_retained": "1\u20136 plus geometric tangent embedding"
+  }
+}
