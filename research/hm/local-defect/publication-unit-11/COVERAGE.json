@@ -1,0 +1,16 @@
+{
+  "unit": "11",
+  "clusters": [
+    "length-fourteen-local-defect",
+    "length-fifteen-local-defect",
+    "rank-eight-defect-450",
+    "rank-eight-defect-480"
+  ],
+  "core_predecessors": [
+    "07",
+    "10"
+  ],
+  "external_inputs": [],
+  "later_contextual_units": [],
+  "scope": "Local lengths14 and15 are excluded; conditional global lower480 strengthens420 but is not needed for the separate420-versus390 global contradiction. No realization at16 is claimed."
+}
