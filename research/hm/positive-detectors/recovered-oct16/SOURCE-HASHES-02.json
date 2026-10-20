@@ -1,0 +1,124 @@
+{
+  "status": "Historical sources and final public hashes; no new source-instance computation.",
+  "files": [
+    {
+      "source": "hm-detector-plus-first-component-20261016/THEOREM.md",
+      "source_sha256": "75933031fcc6a8f7e6d125e85d93af3b2162325c64b0ff9e7d9a0aa097c5f6c6",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-detector-plus-first-component-20261016/THEOREM.md",
+      "public_sha256": "aae83108c3e9a0bd8f6a3791755d02e06018fb8efe4cab2b63bb6fd5835d9ddd",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-detector-plus-first-component-20261016/check.py",
+      "source_sha256": "dea3a5d5a194c7c05da89ffc9b8e2f0e584ada90d6128256d06843f5502473f9",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-detector-plus-first-component-20261016/check.py",
+      "public_sha256": "98288658e45fc01e075a8700d5991bfede8f45adc8f688f1bb7b0a47dad905c3",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-detector-plus-first-component-20261016/positive-eight-maps.json",
+      "source_sha256": "d8c174289c5cbb2da4fb4097bc6995cd07db365026cc7a3255622fc9034cdd59",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-detector-plus-first-component-20261016/positive-eight-maps.json",
+      "public_sha256": "d8c174289c5cbb2da4fb4097bc6995cd07db365026cc7a3255622fc9034cdd59",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-detector-plus-first-component-20261016/receipt.json",
+      "source_sha256": "6c895a1b61247ea24168e91fd5945b84a7a37bda7430b2676588414e1cb2e9b3",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-detector-plus-first-component-20261016/receipt.json",
+      "public_sha256": "6c895a1b61247ea24168e91fd5945b84a7a37bda7430b2676588414e1cb2e9b3",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-detector-interface-20261016/REVIEW.md",
+      "source_sha256": "e9040d082e8028f045ed7885e12b408ab296274ff19e1189821f07b50870afe3",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-detector-interface-20261016/REVIEW.md",
+      "public_sha256": "6d5cec86cf42e549ec4ae735d734e396b2d694af116bac6fdc105ae1d2af34a6",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-detector-interface-20261016/THEOREM.md",
+      "source_sha256": "d24b66afb1d6ba42ca91a05500597d4296cce6cf83cf15ba0aeeee4f6126ea3d",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-detector-interface-20261016/THEOREM.md",
+      "public_sha256": "1eb327900de17672e2a8641de47921c72f01a986043d33deaaed160501d3d518",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-detector-interface-20261016/check.py",
+      "source_sha256": "15dc1fa53caf767240ce51a89da7c8c0398f091905d0a57666c5e955c1371340",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-detector-interface-20261016/check.py",
+      "public_sha256": "12219177298f8674217f8e1760b25e5a5dd9a00f37723cff6c5dded7c03d4d2d",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-detector-interface-20261016/interface.json",
+      "source_sha256": "7469103dafab39ee6c1fa427e24bb9178de2652f04b7bd1f6fafa9d8a9b5f2c8",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-detector-interface-20261016/interface.json",
+      "public_sha256": "7469103dafab39ee6c1fa427e24bb9178de2652f04b7bd1f6fafa9d8a9b5f2c8",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-detector-interface-20261016/receipt.json",
+      "source_sha256": "47755aa992676005cf244d24c52ca8ea0156b6466b39d799132129aedf25e67f",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-detector-interface-20261016/receipt.json",
+      "public_sha256": "47755aa992676005cf244d24c52ca8ea0156b6466b39d799132129aedf25e67f",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-interface-independent-20261016/AUDIT.md",
+      "source_sha256": "5a90936475fa5e6f17fda373218597146c8deb160d402079918ad9fb6c5f19bd",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-interface-independent-20261016/AUDIT.md",
+      "public_sha256": "12283b92be00a38d52b7fd1f4de8c6a8ca77d8dddc618b6e9d0cc290a91675fa",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-interface-independent-20261016/check.py",
+      "source_sha256": "a16012ead94ba7e81e29fa9cdd958be849c0af33933e4409f4177b5e1a70df39",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-interface-independent-20261016/check.py",
+      "public_sha256": "0cd1f1c99a5be541769aa8077415dda03a7ff60e75ad7dbfcf15de7c63132c1a",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-positive-twelve-interface-independent-20261016/receipt.json",
+      "source_sha256": "48e69fef05ee022d391a15061c96b1831afe2747bebc128bcfad154a2a19f94c",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-positive-twelve-interface-independent-20261016/receipt.json",
+      "public_sha256": "48e69fef05ee022d391a15061c96b1831afe2747bebc128bcfad154a2a19f94c",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-projective-detector-dual-audit-20261016/AUDIT.md",
+      "source_sha256": "2c48e8c306e086c7d0ccbc282fd69a90b5e432fdc800c7dfb06019a91fbbfad1",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-projective-detector-dual-audit-20261016/AUDIT.md",
+      "public_sha256": "0b6f3eefcd8d6f48c2c84fc0cd40522539a304684e0716ee4b9c2160157cc609",
+      "disposition": "prerequisite_full_audit_or_control"
+    },
+    {
+      "source": "hm-projective-detector-dual-audit-20261016/check_first_component.py",
+      "source_sha256": "3df3ae8c244ed548e66662a1ef986e39aa05b4f6a427e3b9c37acc80856cc81b",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-projective-detector-dual-audit-20261016/check_first_component.py",
+      "public_sha256": "3df3ae8c244ed548e66662a1ef986e39aa05b4f6a427e3b9c37acc80856cc81b",
+      "disposition": "prerequisite_full_audit_or_control"
+    },
+    {
+      "source": "hm-projective-detector-dual-audit-20261016/first-component-receipt.json",
+      "source_sha256": "cd20a99601f4997321167d7afc1651d3b7a76141c1accf22f5aa7d2b8efd0ad6",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-projective-detector-dual-audit-20261016/first-component-receipt.json",
+      "public_sha256": "cd20a99601f4997321167d7afc1651d3b7a76141c1accf22f5aa7d2b8efd0ad6",
+      "disposition": "prerequisite_full_audit_or_control"
+    },
+    {
+      "source": "hm-projective-detector-dual-audit-20261016/check_bridge.py",
+      "source_sha256": "c927eccf560be9950eafb2d826ae5728060e79e18a872d57614bd26fcc69b5b6",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-projective-detector-dual-audit-20261016/check_bridge.py",
+      "public_sha256": "c927eccf560be9950eafb2d826ae5728060e79e18a872d57614bd26fcc69b5b6",
+      "disposition": "prerequisite_full_audit_or_control"
+    },
+    {
+      "source": "hm-projective-detector-dual-audit-20261016/bridge-receipt.json",
+      "source_sha256": "cf41e22d83cd8c620ee5a10d3ad0731d21b3e7e708f5e723be252f918e034952",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-projective-detector-dual-audit-20261016/bridge-receipt.json",
+      "public_sha256": "cf41e22d83cd8c620ee5a10d3ad0731d21b3e7e708f5e723be252f918e034952",
+      "disposition": "prerequisite_full_audit_or_control"
+    }
+  ]
+}

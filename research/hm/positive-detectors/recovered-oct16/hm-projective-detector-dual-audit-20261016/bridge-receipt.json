@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "controls": 791,
+  "groups": {
+    "epsilon_generator_character": 8,
+    "resolvent_invariant": 8,
+    "generator_reversal": 3,
+    "generator_multidegree": 24,
+    "eight_variable_trace_identity": 3,
+    "trace_multidegree": 96,
+    "beta_reversal": 3,
+    "all_16_chart_trace_restrictions": 48,
+    "invariant_graded_dimension": 9,
+    "epsilon_graded_dimension": 9,
+    "original_model_pin": 1,
+    "all_matrix_unit_supertrace_pairings": 320,
+    "original_dual_cycle_closed": 4,
+    "transported_dual_cycle_closed": 4,
+    "dual_transport_involution": 4,
+    "total_pairing_sign": 1,
+    "genuine_degrees": 1,
+    "exact_record_count": 1,
+    "unique_cycle_record": 24,
+    "ambient_dimension": 24,
+    "serre_dual_twist": 24,
+    "exact_sparse_cycle": 24,
+    "every_ambient_index": 120,
+    "global_cycle_not_only_constant_specialization": 24,
+    "positive_P4_coordinate_reversal": 1,
+    "archived_package_git_pin": 3
+  },
+  "global_trace_coefficients": [
+    "4",
+    "4 v2",
+    "4(v2^2-v1 v3+2v0 v4)"
+  ],
+  "supertrace_signs": [
+    -1,
+    1
+  ],
+  "dual_records_verified": 24,
+  "source_values_acquired": false,
+  "large_solve": false,
+  "elapsed_seconds": 0.014565819001290947,
+  "max_rss_kib": 11776
+}

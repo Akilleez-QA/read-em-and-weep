@@ -1,0 +1,1040 @@
+{
+  "scope": "Exact invariant target/detector coordinate interface; actual coordinate values remain unacquired",
+  "coordinate_order": [
+    "z0",
+    "z1",
+    "z2",
+    "z3",
+    "z4",
+    "z5",
+    "z6",
+    "z7",
+    "w0",
+    "w1",
+    "w2",
+    "w3"
+  ],
+  "coordinate_definition": "Each primal coordinate is the canonical Serre pairing with its listed global dual-cycle representative, after the specified epsilon generator splitting.",
+  "detector_order": [
+    "h",
+    "j",
+    "p",
+    "r"
+  ],
+  "detector_matrix": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      -2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -2
+    ]
+  ],
+  "positive_dual_cycles": [
+    {
+      "coordinate": "z0",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z1",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z2",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            2,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            5,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z3",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            6,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            8,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z4",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            10,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            14,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z5",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            11,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            0,
+            13,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z6",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            6,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            8,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            9,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            1,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "z7",
+      "primal_twist": -3,
+      "dual_twist": -2,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            5,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            7,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            7,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            9,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            1,
+            3,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "w0",
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            3,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "w1",
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            2,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            2,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            2,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "w2",
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            4,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    },
+    {
+      "coordinate": "w3",
+      "primal_twist": -4,
+      "dual_twist": -1,
+      "terms": [
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            1,
+            3,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "coefficient": "1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        },
+        {
+          "basis_key": [
+            0,
+            2,
+            3,
+            3,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "-1"
+        }
+      ]
+    }
+  ],
+  "rank_certificate": {
+    "columns": [
+      6,
+      7,
+      2,
+      3
+    ],
+    "minor_determinant": 16
+  },
+  "complementary_coordinate_indices": [
+    0,
+    1,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11
+  ],
+  "input_sha256": {
+    "hm-detector-plus-first-component-20261016/positive-eight-maps.json": "d8c174289c5cbb2da4fb4097bc6995cd07db365026cc7a3255622fc9034cdd59",
+    "hm-plus-twist-minus1-quotient-20261016/certificate.json": "616006681d2952a3d895e2bf369d2c5813a9091c38a490b9bd936c2299e5de3c",
+    "hm-plus-twist-minus1-quotient-20261016/detectors.json": "d7bc0439d2a865bddbecda7eddebb5ed190f7a5d8f3b9d51f1c491edc7fe1ac7",
+    "hm-epsilon-projective-generator-bridge-20261016/detector-dual-cycles.json": "9914013e2bb6c5acf941e2a6c8ed96ecc063f1b08f316f4758c47a33df2d3013"
+  },
+  "premises": [
+    "Authenticated epsilon global generator and detector bridge",
+    "Exact positive twist-minus2 quotient",
+    "Exact positive twist-minus1 quotient",
+    "Twist-minus5 has no positive cohomology",
+    "Class under evaluation is inversion invariant"
+  ]
+}
