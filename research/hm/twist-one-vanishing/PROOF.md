@@ -34,7 +34,7 @@ This is a finite flat double cover with π_*O_X=O⊕O(−1). The homomorphism φ
 
 On each linear Pn in the base we construct its spectral sheaf directly from (F|Pn, φ|Pn); its finite pushforward is F|Pn by construction. This also agrees with restriction of the global construction. Whenever the restricted q remains nonsquare, the function-field extension has degree two and the two-dimensional base-field module F_generic has rank one over that extension. Thus the restricted spectral sheaf has rank one.
 
-It is maximal Cohen–Macaulay. Indeed, at a closed base point y choose a regular system of n parameters in O_Pn,y. They form a regular sequence on the free module F_y. Under finite pushforward the same remains true after localization at any point x above y. The parameter ideal is primary to the maximal ideal there because the morphism is finite. Thus depth M_x=n=dim O_X,x at every closed point; the Cohen–Macaulay property localizes to the other points. On a normal spectral variety M is therefore rank-one reflexive. On its regular locus it is a line bundle. These assertions do not assume cyclicity at singular points.
+It is maximal Cohen–Macaulay. Indeed, at a closed base point y choose a regular system of n parameters in O_Pn,y. They form a regular sequence on the free module F_y. Under finite pushforward the same remains true after localization at any point x above y. The parameter ideal is primary to the maximal ideal there because the morphism is finite. Thus depth M_x=n=dim O_X,x at every closed point; the Cohen–Macaulay property localizes to the other points. Every spectral quadric used below is integral and has singular locus of codimension at least two: the rank-three quadric surface has only its vertex singularity, the rank-four quadric threefold likewise has a vertex, and the rank-five threefold slice is smooth. A quadric hypersurface is Cohen–Macaulay, hence S₂, and this singular-codimension check gives R₁; Serre’s criterion therefore supplies normality. On a normal spectral variety M is therefore rank-one reflexive. On its regular locus it is a line bundle. These assertions do not assume cyclicity at singular points.
 
 ## 3. Quadratic ranks four and five: smooth threefold slice
 
@@ -89,7 +89,7 @@ Take the affine vertex chart U⊂X, which is the affine cone over S in its O(1,1
 
     H¹(U*,M) = ⊕_{n∈Z} H¹(S,O_S(a+n,b+n)).       (★)
 
-The sign chosen for the tautological bundle only reverses the index n. For (a,b)=(2,−2), the n=0 summand has dimension three by the P1 Künneth formula:
+On the overlap with the positive-line-bundle description of X\{v}, fiberwise inversion identifies the nonzero fibers with those of the dual tautological line bundle. This reverses the two-sided integer grading and does not change the direct sum. The sign chosen for the tautological bundle only reverses the index n. For (a,b)=(2,−2), the n=0 summand has dimension three by the P1 Künneth formula:
 
     H¹(S,O(2,−2)) = H⁰(P1,O(2))⊗H¹(P1,O(−2)) ≠ 0.
 
