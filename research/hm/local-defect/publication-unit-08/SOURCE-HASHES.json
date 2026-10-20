@@ -1,0 +1,44 @@
+[
+  {
+    "source_artifact": "squarezero-length-ten-defects/AUDIT.md",
+    "source_sha256": "f67cc8f123554420379271da0745159cb63d2ca2224aee5adcc49516b9b13d9d",
+    "public_path": "research/hm/local-defect/squarezero-length-ten-defects/AUDIT.md",
+    "public_sha256": "18937e7bad058280ec5fa8b83781bf576bd1a687641d09a3f80eee50476db844",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "squarezero-length-ten-defects/PROOF.md",
+    "source_sha256": "09109f27d1680d1ff5b8a9a5d05bd4fee2969f4a94386cf3e1202cf490c66c42",
+    "public_path": "research/hm/local-defect/squarezero-length-ten-defects/PROOF.md",
+    "public_sha256": "03cc163045ffc831bd1b9db223747ee6f2ac392fa5b07958402a5a9fa44bdae4",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "filtered-length-ten-defects/AUDIT.md",
+    "source_sha256": "2bbcca77d4ed19955d0a5ac8ab51eaa66d90fe07bea1935ba70572dfe5f6d844",
+    "public_path": "research/hm/local-defect/filtered-length-ten-defects/AUDIT.md",
+    "public_sha256": "5ec7c8f44ae36dd6a49d51cd18822cc21394193b50d62bd090797eea6635ba39",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "filtered-length-ten-defects/PROOF.md",
+    "source_sha256": "8f6e0d19bd1c881a1b149c22442c2e8edc32bc668944242e3a8c163d5bd7fd61",
+    "public_path": "research/hm/local-defect/filtered-length-ten-defects/PROOF.md",
+    "public_sha256": "8bf0cd0486e1416b4d8409d1568e319d8b6a52eb9f00680d7810a84d975ad2c0",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "rank-eight-defect-330/AUDIT.md",
+    "source_sha256": "e5b4147674ce5e630085200b9a8e5dcfa8c92426abd0b8931aec9faa3cb7e809",
+    "public_path": "research/hm/local-defect/rank-eight-defect-330/AUDIT.md",
+    "public_sha256": "8c992da6887070e7507638f43bd6a9610972be4079262f3a91e61ae2d3887675",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-eight-defect-330/COROLLARY.md",
+    "source_sha256": "5793e202ab74d6bc290aff2ebd795276fa5db9e452d2421120b84bbd33a5bc0f",
+    "public_path": "research/hm/local-defect/rank-eight-defect-330/COROLLARY.md",
+    "public_sha256": "0041e52a965af2bff270df8720c217b99431c5055acd7003f2eafd108a2c249d",
+    "role": "mathematical_proof_or_addendum"
+  }
+]
