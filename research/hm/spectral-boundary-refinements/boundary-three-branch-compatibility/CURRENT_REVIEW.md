@@ -1,0 +1,5 @@
+# Current mathematical review
+
+Reviewed 2026-10-20. The proof and retained refinements pass independent mathematical text review under the premises in DEPENDENCIES.md. This is not formal proof checking or an actual source-instance evaluation. Historical audits remain historical.
+
+The relative construction is independently rederived. Pairwise orthogonality over Artin rings uses unit eigenvalue differences; two distinct labeled branch lifts yield the third over the same test algebra. Exact cross ideals I1=J12+J13 etc. supply a stronger statement than equal pairwise sums. In particular J12 lies in I1 intersect I2, so the triple Chinese-remainder defect Q/((I1 intersect I2)+I3) is zero. Thus the displayed ring gluing and length identity are correct; the square-zero three-line counterexample only refutes the weaker general inference. Disjoint boundary branches are distinguished from their scheme-theoretic union inside Spec A. No actual residual ideal, flatness, higher-order unobstructedness or algebraicity follows.
