@@ -1,0 +1,5 @@
+# Mathematical prerequisites
+
+The full source primitive imports ../regular-cech-tensor-comparison/PROOF.md. Full-M closure, original source definitions, determinant, homogeneous clearance, root/legal covering, ownerwise bounds, raw-block bounds, complementary scalar bounds and full-character typing remain explicit prerequisite theorems from the original-resolution series. Their immutable public source closure remains pending. This packet proves its comparison conditional on those exact hypotheses, not on a selected numerical source value.
+
+S399 full central proof and historical mathematical audit are retained in support/central-PROOF.md and support/central-REVIEW.md. The central full-character ledger and contraction are prerequisites; S399 alone does not prove an original-cover primitive. That additional conclusion uses the independent S419/S420 comparison and homotopy constructions, so no circular inference is claimed. Historical source links in S399 retain their original-edition meaning.

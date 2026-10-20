@@ -1,0 +1,60 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "regular-source-cover-comparison-20261018/PROOF.md",
+      "source_sha256": "1a4d478d18f564a50f4ccb82bcbdf39461da48b30e4998869a612a024a69b607",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+      "public_sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "operational prose removed; mathematical scope retained"
+    },
+    {
+      "artifact": "regular-source-cover-comparison-20261018/REVIEW.md",
+      "source_sha256": "42ea7d5ad5a9a3d48d38ad635e7e71be9eb42022555fc9467183da8fe1a45abc",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/REVIEW.md",
+      "public_sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "operational prose removed; mathematical scope retained"
+    },
+    {
+      "artifact": "regular-source-cover-comparison-20261018/audit/REVIEW.md",
+      "source_sha256": "42ea7d5ad5a9a3d48d38ad635e7e71be9eb42022555fc9467183da8fe1a45abc",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/REVIEW.md",
+      "public_sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "operational prose removed; mathematical scope retained"
+    },
+    {
+      "artifact": "regular-source-cover-comparison-20261018/check_controls.py",
+      "source_sha256": "3e6c940bda552e25958f6ff749e858a3d4877c8f211f28a93adc088f5692adf5",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/check_controls.py",
+      "public_sha256": "3e6c940bda552e25958f6ff749e858a3d4877c8f211f28a93adc088f5692adf5",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "regular-source-cover-comparison-20261018/audit/check_independent.py",
+      "source_sha256": "2312d4f137b58c1f15c73140cb946ba490255ca3e6d51adc041d72db395c72ee",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/check_independent.py",
+      "public_sha256": "2312d4f137b58c1f15c73140cb946ba490255ca3e6d51adc041d72db395c72ee",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "central-scalar-contraction-20261018/PROOF.md",
+      "source_sha256": "ebdf3bac0c26e93c46029ca8060e3ca354abfb95df2af48e423d00f594fecd75",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-PROOF.md",
+      "public_sha256": "a6d670ac8a69927dcd72dd3cbe0a7004fd2acc6395084c5e128b6c036f0ce6d0",
+      "role": "S399 full supporting prerequisite, not a new result",
+      "transformation": "operational prose removed; complete mathematical argument retained"
+    },
+    {
+      "artifact": "central-scalar-contraction-20261018/REVIEW.md",
+      "source_sha256": "dcab6bbbbe032f78ff083188981705a8de6b920486d378e0022251d944697888",
+      "public_path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-REVIEW.md",
+      "public_sha256": "f3b34c4a47a24015f455beb837551c23b6cc6fa2de79039a21ac689053b9e214",
+      "role": "S399 full supporting prerequisite, not a new result",
+      "transformation": "operational prose removed; complete mathematical argument retained"
+    }
+  ]
+}

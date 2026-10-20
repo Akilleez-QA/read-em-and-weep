@@ -1,0 +1,304 @@
+{
+  "dependencies": [
+    {
+      "source_reference": "dependencies/central-PROOF.md",
+      "source_sha256": "ebdf3bac0c26e93c46029ca8060e3ca354abfb95df2af48e423d00f594fecd75",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-PROOF.md",
+          "public_sha256": "a6d670ac8a69927dcd72dd3cbe0a7004fd2acc6395084c5e128b6c036f0ce6d0",
+          "status": "full supporting proof/audit staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; immutable public publication pending"
+    },
+    {
+      "source_reference": "dependencies/central-REVIEW.md",
+      "source_sha256": "dcab6bbbbe032f78ff083188981705a8de6b920486d378e0022251d944697888",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-REVIEW.md",
+          "public_sha256": "f3b34c4a47a24015f455beb837551c23b6cc6fa2de79039a21ac689053b9e214",
+          "status": "full supporting proof/audit staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; immutable public publication pending"
+    },
+    {
+      "source_reference": "dependencies/character-PROOF.md",
+      "source_sha256": "ce17740962e0f5e7dd23fd1bc3613704ea8d83a81d343827304338e2e686b94f",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/PROOF.md",
+          "public_sha256": "d675809ccf526b39c56c5db57c919a2ae52a309615dfd00d7f390b90d10205cd",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/audit/reviewed-PROOF.md",
+          "public_sha256": "8b76a8210107a0918a9c25f3eba1567f938aff9de2b937fb42a09f943d91dce0",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-weighted-jet-flux-domain/dependencies/full-character-PROOF.md",
+          "public_sha256": "8b76a8210107a0918a9c25f3eba1567f938aff9de2b937fb42a09f943d91dce0",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/character-REVIEW.md",
+      "source_sha256": "5324afc08f842c61c690bcc64a4d759adbfe35268afb3a61f5040db5f0cfb643",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/REVIEW.md",
+          "public_sha256": "988efd361f2a9e913f7b8a71041d63780e45bf01966aae3e1a74e8bfbddcd3fb",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/audit/REVIEW.md",
+          "public_sha256": "988efd361f2a9e913f7b8a71041d63780e45bf01966aae3e1a74e8bfbddcd3fb",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-test-selector-pair-domain/dependencies/full-character-REVIEW.md",
+          "public_sha256": "988efd361f2a9e913f7b8a71041d63780e45bf01966aae3e1a74e8bfbddcd3fb",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/closure-PROOF.md",
+      "source_sha256": "b3c50888630128fc04a784be3a5c2374da017d627c69c504fc6571211a744b5a",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/audit/reviewed-PROOF-v1.md",
+          "public_sha256": "b39c775c2c33c0634174a5dfa52aeae2f80e7cb227a1e4cd4935274073de3160",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/provenance/v1-PROOF.md",
+          "public_sha256": "b39c775c2c33c0634174a5dfa52aeae2f80e7cb227a1e4cd4935274073de3160",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/provenance/v1-audit/reviewed-PROOF.md",
+          "public_sha256": "b39c775c2c33c0634174a5dfa52aeae2f80e7cb227a1e4cd4935274073de3160",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/closure-REVIEW.md",
+      "source_sha256": "d7c02a092fc87780b6c3af89c4afb5331ae17a0fe499cfffbd4e39048ade1b41",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/audit/v1-REVIEW.md",
+          "public_sha256": "9b78e7eb6305321fa582bc0d19805a3707f50f0b54ba5d2284bcc465f5a1fc54",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/provenance/v1-REVIEW.md",
+          "public_sha256": "9b78e7eb6305321fa582bc0d19805a3707f50f0b54ba5d2284bcc465f5a1fc54",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/provenance/v1-audit/REVIEW.md",
+          "public_sha256": "9b78e7eb6305321fa582bc0d19805a3707f50f0b54ba5d2284bcc465f5a1fc54",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/complementary-scalar-PROOF.md",
+      "source_sha256": "ffdcd74399b4265b126ed7ebf5530a369566f6a72d12e2912f3474f20de00601",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/complementary-scalar-PROOF.md",
+          "public_sha256": "4e4922859522471eee2cdf110d1d3104560248f1c787713ed2302c2f85405ae0",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-test-selector-pair-domain/dependencies/complementary-scalar-PROOF.md",
+          "public_sha256": "4e4922859522471eee2cdf110d1d3104560248f1c787713ed2302c2f85405ae0",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/complementary-scalar-REVIEW.md",
+      "source_sha256": "ffe82e9f0f2fe548311867b7979baec2d3bb4c560ade29ba5a420b3599d6e8be",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/complementary-scalar-REVIEW.md",
+          "public_sha256": "4b7cd0ed3f4d139fd486977652fa04678b2bad228273df44b50ffb326b332f1a",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/legal-PROOF.md",
+      "source_sha256": "b4c3041e8f945df65518f37dd59f92e16d6cd8cc29fd9803d8576daf7c9b99c8",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-weighted-jet-flux-domain/dependencies/transition-PROOF.md",
+          "public_sha256": "c55a87a15d313ea7e93b52493b89daf7cd31e7d57dbebb66e3d01cb3ee602733",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-expanded-current-f-domain/dependencies/transition-PROOF.md",
+          "public_sha256": "c55a87a15d313ea7e93b52493b89daf7cd31e7d57dbebb66e3d01cb3ee602733",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/legal-REVIEW.md",
+      "source_sha256": "d7b6387aecaa3c953ab8558d01d166e82a3411c21ade20a0534abbb5faf5be3e",
+      "matching_staged_public_files": [],
+      "status": "exact source binding unresolved"
+    },
+    {
+      "source_reference": "dependencies/ordinary-PROOF.md",
+      "source_sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/PROOF.md",
+          "public_sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/ordinary-REVIEW.md",
+      "source_sha256": "512dbcd60c3a8aa9c9b37a8041ff6b12d43a34d077fdf19b4f7819b73c1f89fc",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/REVIEW.md",
+          "public_sha256": "512dbcd60c3a8aa9c9b37a8041ff6b12d43a34d077fdf19b4f7819b73c1f89fc",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/ownerwise-PROOF.md",
+      "source_sha256": "8250fc413d5c640d5ec6c58380fa3b8da5a1ae216f7516d2ba32f81aba172787",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/ownerwise-PROOF.md",
+          "public_sha256": "300482d805b3a31f0756d433d67cce26fe346d1f2ebd2b958323fa934520ac43",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-weighted-jet-flux-domain/dependencies/ownerwise-PROOF.md",
+          "public_sha256": "300482d805b3a31f0756d433d67cce26fe346d1f2ebd2b958323fa934520ac43",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-expanded-current-f-domain/dependencies/ownerwise-PROOF.md",
+          "public_sha256": "300482d805b3a31f0756d433d67cce26fe346d1f2ebd2b958323fa934520ac43",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/ownerwise-REVIEW.md",
+      "source_sha256": "bb22c0921f46d233cd98aab8b5a661fde1021a38c29f91009b83cb77a7514d1a",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-test-selector-pair-domain/dependencies/ownerwise-REVIEW.md",
+          "public_sha256": "f8ce438c24b114b389370785c307c9287dc6dd0f7391db304f2b49872b393fa9",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/raw-block-PROOF.md",
+      "source_sha256": "7fe40702b668068a85e3e7639b3c1b99dc80476c0778aa94592df0b516d1add9",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/raw-block-PROOF.md",
+          "public_sha256": "81b3599c1d49cb2cce226f51e2846edd0dc618d8e124271fec2f268ddd8ee327",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/raw-block-PROOF.md",
+          "public_sha256": "81b3599c1d49cb2cce226f51e2846edd0dc618d8e124271fec2f268ddd8ee327",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-test-selector-pair-domain/dependencies/raw-block-PROOF.md",
+          "public_sha256": "81b3599c1d49cb2cce226f51e2846edd0dc618d8e124271fec2f268ddd8ee327",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/raw-block-REVIEW.md",
+      "source_sha256": "2671f397b9772a65d437af680d56de42b778d814ecda4ce5d88d08ede5b325ad",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/raw-block-REVIEW.md",
+          "public_sha256": "960628537adf40f73733393b2d3be40d3677e0e1ff90f1dfc00f1b714d538590",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/raw-block-REVIEW.md",
+          "public_sha256": "960628537adf40f73733393b2d3be40d3677e0e1ff90f1dfc00f1b714d538590",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-test-selector-pair-domain/dependencies/raw-block-REVIEW.md",
+          "public_sha256": "960628537adf40f73733393b2d3be40d3677e0e1ff90f1dfc00f1b714d538590",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/root-PROOF.md",
+      "source_sha256": "8dea4aa63017a52441b7e1e1f22b6886754a0030b1dfe9932e005b11d8ab5342",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/product-root-PROOF.md",
+          "public_sha256": "5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/product-root-PROOF.md",
+          "public_sha256": "5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/root-REVIEW.md",
+      "source_sha256": "1b88fe1bdcf399fb6158984692925fcc84c3afd25a17cb60ddbe5148fa8f8bb0",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-full-source-character/dependencies/product-root-REVIEW.md",
+          "public_sha256": "ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/dependencies/product-root-REVIEW.md",
+          "public_sha256": "ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    }
+  ]
+}
