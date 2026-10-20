@@ -1,0 +1,42 @@
+{
+  "audit_sha256": "f355f438afb806229b2c14ded06a47aa9f525a3ca6944c0f05442df3771f900f",
+  "reviewed_payload": [
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/DEPENDENCIES.md",
+      "sha256": "2ccdd3543b768423ffff50b82c31fd2093065d8c13ee4dcf16feacb607e02fe2",
+      "bytes": 1519
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+      "bytes": 11312
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/PUBLICATION.md",
+      "sha256": "5118ac9d86e8ef9b5db66c9e603f49229e20005fd33ae96619aa30ced964c47c",
+      "bytes": 1081
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SOURCE-BINDINGS.json",
+      "sha256": "5a23fef2b05f4dc42b06269d5fb701fea141f204aa572505be1fa9250ed5756c",
+      "bytes": 1994
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SOURCES.md",
+      "sha256": "29972a1928601c27f426328ba1abac948f40903c3e9b60fa1a250ccbdc39de76",
+      "bytes": 1702
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md",
+      "sha256": "58237dc5526184c8bd4bf05452caee06ba80029fd85f88ac1d733b6c07aca12e",
+      "bytes": 4882
+    }
+  ],
+  "review_scope": "00A-03"
+}
