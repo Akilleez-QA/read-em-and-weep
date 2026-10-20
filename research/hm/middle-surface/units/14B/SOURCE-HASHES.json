@@ -1,0 +1,50 @@
+[
+  {
+    "source": "rank-one-open-thickening/AUDIT.md",
+    "source_sha256": "7f3271b21175178cc21e18f2f531f9e035c20455453a98978ef26d7da800b59b",
+    "public_path": "research/hm/middle-surface/rank-one-open-thickening/AUDIT.md",
+    "public_sha256": "609891300e3e400aa48da56eed83b23decbb057a3893579d5740bd6f03670e9e"
+  },
+  {
+    "source": "rank-one-open-thickening/PROOF.md",
+    "source_sha256": "f16de1836f273a5b02aac948315323a8fab1fe9416656dd89fd76a81d94944fd",
+    "public_path": "research/hm/middle-surface/rank-one-open-thickening/PROOF.md",
+    "public_sha256": "4f64dfff75f4f05d3c966ea76a63655ac9931663ca3ced0cbc6f86dd5b52f008"
+  },
+  {
+    "source": "zero-input-rank-one-boundary/AUDIT.md",
+    "source_sha256": "e19cd70e69a6743a958530c0885084df20175482a2c25a2bdefab0054a43706a",
+    "public_path": "research/hm/middle-surface/zero-input-rank-one-boundary/AUDIT.md",
+    "public_sha256": "e19cd70e69a6743a958530c0885084df20175482a2c25a2bdefab0054a43706a"
+  },
+  {
+    "source": "zero-input-rank-one-boundary/PROOF.md",
+    "source_sha256": "421e09a917b48edb5c718b41252998f63ecb49dc1267964f377c6f388b5ba8b9",
+    "public_path": "research/hm/middle-surface/zero-input-rank-one-boundary/PROOF.md",
+    "public_sha256": "bcaa0201f604f850cd5328e90824e4181c1b4e5820be1b9cb503a169ccee9b26"
+  },
+  {
+    "source": "boundary-primary-extraction/AUDIT.md",
+    "source_sha256": "ef753c793d1f7c20dd7b0af0df3a4d7b241367653c517882f7c151fb3fb7194a",
+    "public_path": "research/hm/middle-surface/boundary-primary-extraction/AUDIT.md",
+    "public_sha256": "15abf47b4ba61b1218ea351aafdd09db2a68e948444aa4f71a040c36556d12b3"
+  },
+  {
+    "source": "boundary-primary-extraction/PROOF.md",
+    "source_sha256": "86e42ac59f0218076be70cce734439891909defaf8933f2170d2bb13b8934e1b",
+    "public_path": "research/hm/middle-surface/boundary-primary-extraction/PROOF.md",
+    "public_sha256": "00c2be1fe8383259846dac1acb491f2ca0c68837918c24f2796fcb0f5bb16607"
+  },
+  {
+    "source": "two-zero-boundary/AUDIT.md",
+    "source_sha256": "f3139d498b26ca62546dafd970c5da7235a6b6adf8ecc9695e5b9842b90822e8",
+    "public_path": "research/hm/middle-surface/two-zero-boundary/AUDIT.md",
+    "public_sha256": "09761b6525756fbaa9d914b13b7b00fe600a3295c053be7d2ec8057c69801dca"
+  },
+  {
+    "source": "two-zero-boundary/PROOF.md",
+    "source_sha256": "5f6094d5f5692a7d7dd2cd0a6773f8e9a0a4257d443eb0f383528d657b7725a3",
+    "public_path": "research/hm/middle-surface/two-zero-boundary/PROOF.md",
+    "public_sha256": "43ccb26c749a6afd3b7d1528b86fa39afce885c16e65fd306823e1aa5388a409"
+  }
+]
