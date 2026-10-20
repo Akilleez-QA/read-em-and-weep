@@ -1,0 +1,20 @@
+[
+  {
+    "source": "mixed-ambient-rigidity/AUDIT.md",
+    "source_sha256": "6d520906d0eee62f6afa0981b746422706d9d725b2713e83780637b260d6a863",
+    "public_path": "research/hm/relative-models/mixed-ambient-rigidity/AUDIT.md",
+    "public_sha256": "6d520906d0eee62f6afa0981b746422706d9d725b2713e83780637b260d6a863"
+  },
+  {
+    "source": "mixed-ambient-rigidity/PROOF.md",
+    "source_sha256": "1df22e5a1740203d6939ecc4a5a9cd7c1c7353e3123daa5e597825fa87901c7f",
+    "public_path": "research/hm/relative-models/mixed-ambient-rigidity/PROOF.md",
+    "public_sha256": "4ff98cc61050ae309fdec152d3ee5b47d745ff0814cfe38b74b90aebf0b2fa06"
+  },
+  {
+    "source": "mixed-ambient-rigidity/ROOT_CHECK.md",
+    "source_sha256": "458530d8d47ac34720155ffca6cb6cd816c7185cf709249c7f40c8055d632c6b",
+    "public_path": "research/hm/relative-models/mixed-ambient-rigidity/INDEPENDENT-ASSEMBLY-CHECK.md",
+    "public_sha256": "62c9e421f991e64a48ca8c9130c8827a483caadcfbe5cd254af0fd198b0c9a6f"
+  }
+]

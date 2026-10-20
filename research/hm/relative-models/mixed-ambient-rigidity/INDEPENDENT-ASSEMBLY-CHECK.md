@@ -1,0 +1,3 @@
+# Independent assembly check
+
+PASS with the stated markings, 19 October 2026 UTC. The nine summands H^q(Lambda^p T tensor omega) have p+q=4 and multiplicities 1,2,3,2,1. Thus degrees zero through three vanish. The proof explicitly freezes operations involving positive coefficient ideals, so all variable differences factor through classical inputs and land in the central mixed ideal. This is the condition needed for the classical Hochschild complex to control the exact comparison. The Ore family shows why forgetting it is invalid. Conditional existence requires compatible preliminary coefficient data; the actual external model is already supplied independently. Nothing here forces module Ext2 to vanish.
