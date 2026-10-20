@@ -1,0 +1,38 @@
+[
+  {
+    "path": "research/hm/cubic-loci/canonical-cubic-extension/cubic-massey-module-reduction/PROOF.md",
+    "sha256": "333ba355b1aff7c5cf409c57efd02965731b5f661d5bf7c88a874fbd4eea416b",
+    "series": "publication-cubic-locus-series",
+    "unit": "unit04"
+  },
+  {
+    "path": "research/hm/full-hm-image-symmetry/PROOF.md",
+    "sha256": "0851b24926f7754ac85c58d94cf7e64a9b5141681d5731eed9e49196823d9e8e",
+    "series": "publication-pairing-series",
+    "unit": "00"
+  },
+  {
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/AUDIT.md",
+    "sha256": "18be382fd6d697cf8f32fa2b2f362760aa73bd07d02aac36c23315dd8637942f",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/PROOF.md",
+    "sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/AUDIT.md",
+    "sha256": "df51c3a4006aa48f4c1a236bb6b453290487b048ec0dcd1c1174a0295a7c7250",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/PROOF.md",
+    "sha256": "a529f7596eee619dde6e94d9f418f709289ecd2d689004fced54280c0ff656fa",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  }
+]

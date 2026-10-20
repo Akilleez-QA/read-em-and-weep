@@ -1,0 +1,93 @@
+[
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-parity/AUDIT.md",
+    "original_sha256": "7253861c144a9071d9b96c7e7888235170afb464586f296916b3d34fcff09e9c",
+    "public_sha256": "7253861c144a9071d9b96c7e7888235170afb464586f296916b3d34fcff09e9c",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-parity/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-parity/PROOF.md",
+    "original_sha256": "4ef63cbe66b0153e9210d545c92fcc6af524d2a0e7663d03e28c15b76ed6a74f",
+    "public_sha256": "4ef63cbe66b0153e9210d545c92fcc6af524d2a0e7663d03e28c15b76ed6a74f",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-parity/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-six/AUDIT.md",
+    "original_sha256": "6319104afc3338ca4895fda6bbbea131a4e929c7d00ea30063bee6f8d4a6849e",
+    "public_sha256": "6319104afc3338ca4895fda6bbbea131a4e929c7d00ea30063bee6f8d4a6849e",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-six/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-six/INDEPENDENT_AUDIT.md",
+    "original_sha256": "d6096ff9dcd35d17da1df0c7d770d9b7aeebe511ca7986ac61014dd9937065b5",
+    "public_sha256": "d6096ff9dcd35d17da1df0c7d770d9b7aeebe511ca7986ac61014dd9937065b5",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-six/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-six/PAIR-LINES.md",
+    "original_sha256": "799968ab7e865d1f8b9a354efd2383fa87ac2df76c322c5218ff72a4a0310776",
+    "public_sha256": "799968ab7e865d1f8b9a354efd2383fa87ac2df76c322c5218ff72a4a0310776",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-six/PAIR-LINES.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "heisenberg-eigenpoint-rank-six/PROOF.md",
+    "original_sha256": "584ca4a65ababdf77b2d9e9d6ae6c0ed8a5fc84ab5a1783cdeba9d7f01fad39e",
+    "public_sha256": "391d4c7a5be5bdf0cf188a8e80b9326af0da4b60d196d9be8f61546129db672a",
+    "path": "research/hm/normalizer-rank-five/heisenberg-eigenpoint-rank-six/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "heisenberg-universal-rank-four/AUDIT.md",
+    "original_sha256": "74760740220bf7b73fb01f1d2ba2e2369186ba0377a14246228f2015db83b8dc",
+    "public_sha256": "74760740220bf7b73fb01f1d2ba2e2369186ba0377a14246228f2015db83b8dc",
+    "path": "research/hm/normalizer-rank-five/heisenberg-universal-rank-four/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "heisenberg-universal-rank-four/PROOF.md",
+    "original_sha256": "3f3d0e67addbf9c1e1d19c60585beb1d26a62279c8142bef01c9d6c84c718f6e",
+    "public_sha256": "597d82e59acb03769349ec61e2d0b39ddb919ec94a28ab3f17034520388cce5a",
+    "path": "research/hm/normalizer-rank-five/heisenberg-universal-rank-four/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "line-projected-rank-five-reduction/INDEPENDENT_AUDIT.md",
+    "original_sha256": "370bf01044037adf3c4f2eed37b019e43a704eadc3585037d2c7771f1cbce4f3",
+    "public_sha256": "370bf01044037adf3c4f2eed37b019e43a704eadc3585037d2c7771f1cbce4f3",
+    "path": "research/hm/normalizer-rank-five/line-projected-rank-five-reduction/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "line-projected-rank-five-reduction/PROOF.md",
+    "original_sha256": "8a7035bc93fa968e7260867f92a6be22cf13c2a6c04141f48b33d8eb3a085543",
+    "public_sha256": "8a7035bc93fa968e7260867f92a6be22cf13c2a6c04141f48b33d8eb3a085543",
+    "path": "research/hm/normalizer-rank-five/line-projected-rank-five-reduction/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "line-projected-rank-five-reduction/QUARTIC_REALIZATION.md",
+    "original_sha256": "a936cf1c9c5e7eb5b02be061854c4e2be3cec3167eae55adddd0a3472b4d15f6",
+    "public_sha256": "a936cf1c9c5e7eb5b02be061854c4e2be3cec3167eae55adddd0a3472b4d15f6",
+    "path": "research/hm/normalizer-rank-five/line-projected-rank-five-reduction/QUARTIC_REALIZATION.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "line-projected-rank-five-reduction/QUARTIC_REALIZATION_AUDIT.md",
+    "original_sha256": "ef64652cb93392b99680091545d11e23c375e8e7cb0a73b68097a53cfcd47642",
+    "public_sha256": "ef64652cb93392b99680091545d11e23c375e8e7cb0a73b68097a53cfcd47642",
+    "path": "research/hm/normalizer-rank-five/line-projected-rank-five-reduction/QUARTIC_REALIZATION_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "line-projected-rank-five-reduction/ROOT_CHECK.md",
+    "original_sha256": "d615823f935f54a511c64b9bda3c5224221ae48ef70376e70e0828addf74707d",
+    "public_sha256": "dfb6157c2298418ae5c519b98d7f4e8ff8c75c3cb9eaef98f098fa5f9c1b3beb",
+    "path": "research/hm/normalizer-rank-five/line-projected-rank-five-reduction/ROOT_CHECK.md",
+    "role": "proof_or_control"
+  }
+]
