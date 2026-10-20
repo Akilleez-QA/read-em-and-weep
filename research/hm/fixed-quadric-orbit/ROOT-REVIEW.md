@@ -1,0 +1,13 @@
+# Second mathematical review
+
+Reviewed proof SHA-256: e85b89c73c1a354721d053190d6b4455754146bc92e3060951bba8363b5ec55b.
+
+Verdict: PASS relative to the stated invariant-pair and pinned cohomological inputs. Mathematical review, not formal verification.
+
+The invariant cubic has nonzero class modulo uS1: divisibility would produce an SL2-invariant linear form, which the irreducible Sym4 representation does not possess. The Lie algebra decomposition into Sym6 and Sym2 is dimensionally and weight-wise correct. The embedded sl2 occupies the unique Sym2. Its annihilation of the invariant cubic line and irreducibility of Sym6 leave tangent rank zero or seven. Rank zero would make that line stable under connected SO5; the absence of characters then forces an invariant section. Transitivity on the quadric and nontriviality of O_Q(3) rule out such a section. This establishes the projective orbit dimension seven, not eight.
+
+Every orbit-map fiber is a stabilizer coset of dimension three. Intersecting the seven-dimensional orbit with the fixed closed bad-factor locus of dimension at most five yields a closed preimage of dimension at most eight in the ten-dimensional group. No invariance of the HM bundle or the quintic subspace is used. Outside this containing exceptional set, nonzero restriction ensures coprimality; the no-contained-line and primary-good hypotheses apply PR458 to the full quotient. The identity is not shown to lie outside the exceptional set.
+
+The Cayley maps are mutually inverse on the indicated principal opens and preserve the bilinear form exactly. Similarity of A to minus its transpose gives equality of the two determinant polynomials and determinant one. The pulled-back exceptional set has dimension at most eight inside the ten-dimensional Lie algebra chart. Radial projection away from zero cannot increase dimension, so its image closure is proper in P9. A direction outside that closure has no nonzero multiple in the exceptional set. The resulting curve is therefore good at EVERY nonzero parameter in its determinant-invertibility domain, which contains zero and omits only finitely many determinant roots. The argument does not require this direction to pass through a previously chosen good point. It establishes no first-order derivative or torsion-length bound, and no good-special-fiber conclusion at zero.
+
+This extends simultaneous coordinate-orbit genericity to the fixed-quadratic orthogonal family under the explicit u-in-O hypotheses. It does not verify those hypotheses or vanishing at the original pair, and it has no asserted consequence for actual retained source values, pure conditions, module lifting or quantization algebraicity.
