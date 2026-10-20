@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-10-20",
+  "status": "Two scoped mathematical reviews passed and bind the final proof and summary bytes. This is not formal verification or selected HM/source execution.",
+  "sha256": {
+    "PROOF.md": "781f5a0b2d48f86d3120f423bf9eb766dbdbec759849d7810f7e32c42fcc5faf",
+    "README.md": "813b53869abcf152552ed4e102d78a2b896935b1ec9c1e4655e5064f6f3a2cea",
+    "INDEPENDENT-REVIEW.md": "5dec0bd75fde284ffe301e1a6ce40c48a93b49147f73d6a4f35c4f186bb476c6",
+    "ROOT-REVIEW.md": "dde0ffd3dc3169e0454e41d6da9545917257b9550102b8e4c078d7456542928f"
+  },
+  "public_dependencies": {
+    "primary_resolution": "PR167 at 063da90fc4543304e87e701cdefcc08225412f17",
+    "nondegenerate_quadratic_and_translated_geometry": "PR441 at 6d81d9500f42ae31bef6d3150cf3ba513c28502b",
+    "length_two_primary_pencil": "PR442 at 2072baf63868a309366a7d3ae54dc1132e56adb7",
+    "natural_primary_quotient": "PR440 at 829e03411d04511f6cf04860bf18db4a70b12448",
+    "paired_endpoint": "PR439 at bf6ce91fd73fbc96cb8ede65448dfedbc0328c7b",
+    "paired_filtration": "PR437 at 50e82ed233cd7729c38608194f990376eb832418"
+  },
+  "scope": "For a finitely generated graded polynomial module over C, generated in degree zero, with dim M_d=2 and d>=2, a general linear form ell makes ell^(d-1):M_1 -> M_d surjective. A good square gives an explicit algebraic rank-one target-automorphism family through the original coefficient geometry after a degree-two parameter change. The polynomial endpoint quotient has global length at most 60 and support at at most four parameters. On the automorphism locus its local length is at most 30 and its local torsion exponent is at most two; the completed original fiber is reconstructed from the first auxiliary-parameter jet. The fixed quotient is not evaluated, no relative higher-direct-image identification is made, and source membership, pure-six conditions, module lifting, and algebraicity of a formal quantization or module remain unresolved."
+}
