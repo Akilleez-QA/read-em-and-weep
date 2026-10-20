@@ -1,0 +1,87 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "status": "PASS",
+    "scope": "integer owner vectors, character/frame labels only",
+    "T_phi": [
+      [
+        22,
+        18,
+        15,
+        15,
+        5
+      ],
+      [
+        7,
+        9,
+        9,
+        9,
+        3
+      ]
+    ],
+    "T_vphi": [
+      [
+        23,
+        19,
+        16,
+        16,
+        6
+      ],
+      [
+        8,
+        10,
+        10,
+        10,
+        4
+      ]
+    ],
+    "T_commutator": [
+      [
+        27,
+        23,
+        20,
+        20,
+        5
+      ],
+      [
+        10,
+        12,
+        12,
+        12,
+        3
+      ]
+    ],
+    "T_Q4_C4": [
+      [
+        31,
+        32,
+        32,
+        32,
+        15
+      ],
+      [
+        12,
+        18,
+        18,
+        18,
+        9
+      ]
+    ],
+    "T_M2": [
+      [
+        27,
+        24,
+        24,
+        24,
+        11
+      ],
+      [
+        10,
+        14,
+        14,
+        14,
+        7
+      ]
+    ]
+  }
+}
