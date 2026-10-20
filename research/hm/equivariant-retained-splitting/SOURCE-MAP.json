@@ -1,0 +1,206 @@
+{
+  "scope": "Exact proof-text bindings and direct public source closure. Commit-pinned file bodies are bound by both Git blob SHA-1 and UTF-8 SHA-256. Mutable public comments are bound by comment ID, update timestamp and body SHA-256. Bibliographic references retain precise public locations rather than claiming immutable content hashes. This records the cited inputs; it does not re-prove their source-specific premises or recursively certify all of their dependencies.",
+  "public_dependencies": [
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder"
+    },
+    {
+      "commit": "c5fb4a0bcc3c8e35093fcfcff9a73a79a45a18e5",
+      "path": "research/hm/cubic-reconstruction",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/c5fb4a0bcc3c8e35093fcfcff9a73a79a45a18e5/research/hm/cubic-reconstruction"
+    },
+    {
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "path": "research/conductor-normalization/ideal-power-contractions",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/ideal-power-contractions"
+    },
+    {
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "path": "research/conductor-normalization/sharper-hm-regularity",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity"
+    },
+    {
+      "commit": "e276e0e181e62a60c3ae24759b8bfed746f2492b",
+      "path": "research/regular-trace-transport",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/e276e0e181e62a60c3ae24759b8bfed746f2492b/research/regular-trace-transport"
+    },
+    {
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-second-order-raw-closure",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure"
+    },
+    {
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-alternating-primitive",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-alternating-primitive"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-residual-attribution",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/tree/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution"
+    }
+  ],
+  "retained_documents": [
+    {
+      "file": "PROOF.md",
+      "mathematical_source_sha256": "b456765dca538272dc5cd11e62837ff759b5248921111902d7ca45e49959ecd4",
+      "publication_text_sha256": "903836ffa1a4c83bb6824a005b405c56ed47e4b68a5ec836558d55bcb5ce7c6f"
+    },
+    {
+      "file": "REVIEW.md",
+      "mathematical_source_sha256": "ca81d7bccc0d7b7200f1c06fa8c64fec30ad2e10ca0328c205d60c10f426d0cb",
+      "publication_text_sha256": "aaf2a0e021b5ee8994e9e329c733a5036ab1a9a91f591fff2725cf3746eb4de1"
+    }
+  ],
+  "public_file_bindings": [
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder/FILTRATION-AUDIT.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/FILTRATION-AUDIT.md",
+      "git_blob_sha1": "fd6bd62b2e6cd37c21e18715908d914ab7e82e29",
+      "content_sha256": "2076b1f7403b0e87b180e0d2a8c58a656a9ebd65f6a74821122eff39acf3ae90",
+      "use": "supporting complete PR137 filtration/remainder proof and audit"
+    },
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder/FILTRATION-RESULT.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/FILTRATION-RESULT.md",
+      "git_blob_sha1": "d9e7033d7a79c69b8907291a470b3a5530795b89",
+      "content_sha256": "1c7079294f028ba63d60c5d175af5de691dffe6a5ed7eb50891a2a36f795f8ec",
+      "use": "supporting complete PR137 filtration/remainder proof and audit"
+    },
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder/WEIGHTED-AUDIT.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/WEIGHTED-AUDIT.md",
+      "git_blob_sha1": "2f58ea619e742686a9d1b3f41c40d3d8d66ccb10",
+      "content_sha256": "c816c6bbeb583bf32099d4ea08521f2affad0136a142a931b29c519d5f238003",
+      "use": "supporting complete PR137 filtration/remainder proof and audit"
+    },
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder/WEIGHTED-RESULT.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/WEIGHTED-RESULT.md",
+      "git_blob_sha1": "169213763680e0380c1f282f7a22dd4942625fa2",
+      "content_sha256": "98ad7c2d48fae5586ce138b1832c8f3533b1707cceb2902c0005bb16eeb2c761",
+      "use": "supporting complete PR137 filtration/remainder proof and audit"
+    },
+    {
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-alternating-primitive/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-alternating-primitive/PROOF.md",
+      "git_blob_sha1": "cbf430ace19fce3fd08dad43c6bdf8174d2d2e12",
+      "content_sha256": "e43de2abc2838f2d5e31c3fd45fc9517c963e3ad9c8a605f00ec62b50263bab9",
+      "use": "directly cited"
+    },
+    {
+      "commit": "08b73637d4136f91606aad332c46cafd064417f8",
+      "path": "research/hm/current-scalar-residual-attribution/closure-and-characters.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/closure-and-characters.md",
+      "git_blob_sha1": "946f96670ecb8152eaae16195329f9eb1243b7ae",
+      "content_sha256": "434aa106d0780f6eeef956335cc207a8b436d35db52f515f52bb5d49204292a2",
+      "use": "directly cited"
+    },
+    {
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-HISTORICAL-AUDIT.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-HISTORICAL-AUDIT.md",
+      "git_blob_sha1": "a511fbca9d2cadb938ef661c0a3f72e09d4c1a98",
+      "content_sha256": "d09cd45ad8647af239830572b26a0a91d61cff0c5c3415325249a2f4b193f60e",
+      "use": "directly cited"
+    },
+    {
+      "commit": "4edb97ceeb159778fa20ffd33c0e540af1292e06",
+      "path": "research/hm/null-retained-weighted-remainder/README.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/README.md",
+      "git_blob_sha1": "5c6a7fe560b2e7f0cd0e9e857a4c896c2501f488",
+      "content_sha256": "caad2153899d45b0ad8085331453d3f293e65698bc1d7cfb521243bd7e7b4035",
+      "use": "directly cited"
+    },
+    {
+      "commit": "c5fb4a0bcc3c8e35093fcfcff9a73a79a45a18e5",
+      "path": "research/hm/cubic-reconstruction/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c5fb4a0bcc3c8e35093fcfcff9a73a79a45a18e5/research/hm/cubic-reconstruction/PROOF.md",
+      "git_blob_sha1": "daf01b27c34233f81aa2f2a2eae0f4f90827ef89",
+      "content_sha256": "bc6b3fb7756cecba34a679ea603478021c0bbe89fff40d2e8a96a30e16278122",
+      "use": "directly cited"
+    },
+    {
+      "commit": "aab61d34a84c9b8b5a908606a7beb7212d45fe7c",
+      "path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md",
+      "git_blob_sha1": "507b5281144debc5395f88ac605e5a89c4867b87",
+      "content_sha256": "f73a87ff5c6bc452f994b7731c891079d256def07273148517f26b59acacf992",
+      "use": "directly cited"
+    },
+    {
+      "commit": "063da90fc4543304e87e701cdefcc08225412f17",
+      "path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+      "git_blob_sha1": "58785a8799c43fd2c7da089d0ddc5e05822132a9",
+      "content_sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067",
+      "use": "directly cited"
+    },
+    {
+      "commit": "e276e0e181e62a60c3ae24759b8bfed746f2492b",
+      "path": "research/regular-trace-transport/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e276e0e181e62a60c3ae24759b8bfed746f2492b/research/regular-trace-transport/PROOF.md",
+      "git_blob_sha1": "35c0afd278af0d6a106e3514239080d4a3576953",
+      "content_sha256": "01ad7f584508a466c97b35902de56205f9e90b1701c980a13e0c4f5db117d70c",
+      "use": "directly cited"
+    },
+    {
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-second-order-raw-closure/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/PROOF.md",
+      "git_blob_sha1": "a3894976f186b3f3bfb4d4953497c468ae041b3b",
+      "content_sha256": "d5440277a5c914b6769ce1c80623d4237a952ad5e262169dd913186dbf1f0620",
+      "use": "directly cited"
+    }
+  ],
+  "public_comment_bindings": [
+    {
+      "comment_id": 6271101716,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6271101716",
+      "updated_at": "2026-10-19T15:38:36Z",
+      "body_sha256": "f257e57443e22c860e63c41575dc343602a2d910c682858af7e3659e01337775",
+      "binding": "Exact UTF-8 comment body read on 2026-10-20; the live comment URL is mutable."
+    },
+    {
+      "comment_id": 6272324961,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6272324961",
+      "updated_at": "2026-10-19T16:45:14Z",
+      "body_sha256": "cd495da5988f8c98a966eb0bee617937b35d30e5cceae90e63c7354f2df02190",
+      "binding": "Exact UTF-8 comment body read on 2026-10-20; the live comment URL is mutable."
+    },
+    {
+      "comment_id": 6274541018,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6274541018",
+      "updated_at": "2026-10-19T18:39:40Z",
+      "body_sha256": "fd547b21484d22860bf24c1ac81516184d2cdb813964a89224c2852d8815ffe4",
+      "binding": "Exact UTF-8 comment body read on 2026-10-20; the live comment URL is mutable."
+    },
+    {
+      "comment_id": 6276362114,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6276362114",
+      "updated_at": "2026-10-19T20:15:18Z",
+      "body_sha256": "b77db945f95077324d0dc599261c8330d90274b0cecb95cfac4f0d97c828ebb1",
+      "binding": "Exact UTF-8 comment body read on 2026-10-20; the live comment URL is mutable."
+    }
+  ],
+  "bibliographic_references": [
+    {
+      "title": "Brian Conrad, Reductive Group Schemes",
+      "url": "https://math.stanford.edu/~conrad/papers/luminysga3.pdf",
+      "locator": "Proof of Proposition 5.4.1, printed pp. 173–174; Exercise 1.6.11(ii); Appendix B.2.",
+      "binding": "Public PDF and exact printed-page locator, independently read on 2026-10-20; no immutable PDF content hash asserted."
+    }
+  ],
+  "premise_boundary": [
+    "Actual raw-source regularity, character realization and equality [R]=j(C) remain imported in their admitted source domain.",
+    "No closed regular I_D^7 E representative, historical I_D^12 E representative, or actual source kernel membership is supplied.",
+    "The HM twist dimensions remain imported; no source, detector, matrix or rank computation was performed."
+  ]
+}
