@@ -1,0 +1,42 @@
+{
+  "predecessor_bindings": [
+    {
+      "unit": "01",
+      "pr": 368,
+      "commit": "21238e1bc33b4df6391c29c9127379667b56aafd",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/368",
+      "proof_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/21238e1bc33b4df6391c29c9127379667b56aafd/research/conductor-prerequisites/global-conic-splitting-exclusion/PROOF.md"
+    },
+    {
+      "unit": "02",
+      "pr": 371,
+      "commit": "1d60973dd27a921a43bf6d9e71a06caa0cca0350",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/371",
+      "proof_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1d60973dd27a921a43bf6d9e71a06caa0cca0350/research/conductor-prerequisites/degree-one-kernel-exclusion/PROOF.md"
+    },
+    {
+      "unit": "03",
+      "pr": 373,
+      "commit": "4d5a80fc19f12d78d13addc912a0775810dc5613",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/373",
+      "proof_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d5a80fc19f12d78d13addc912a0775810dc5613/research/conductor-prerequisites/square-detector-factorization/PROOF.md"
+    },
+    {
+      "unit": "04",
+      "pr": 376,
+      "commit": "318535b5edd5fc2587babed4bcfdb488acd87f0a",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/376",
+      "proof_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/318535b5edd5fc2587babed4bcfdb488acd87f0a/research/conductor-prerequisites/ribbon-duality-constraints/PROOF.md"
+    },
+    {
+      "unit": "05",
+      "pr": 378,
+      "commit": "533201310f388bd1a1b4b4498e9f3c79daa84dd9",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/pull/378",
+      "proof_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/533201310f388bd1a1b4b4498e9f3c79daa84dd9/research/conductor-prerequisites/ribbon-catalecticant-classification/PROOF.md"
+    }
+  ],
+  "section_register": "../SECTION-DEPENDENCY-REGISTER.json",
+  "current_review": "../CURRENT-MATHEMATICAL-REVIEW.md",
+  "qualification": "Only the section prerequisites named in the register are mathematical imports. Forward application sections remain conditional until their exact proof pins are supplied; stack ancestry is not proof. S105 transports, constant injectivity and actual regular I^12 class comparison are premises of its stated theorem, not conclusions of weight geometry. S066 geometric realization premises remain conditional."
+}

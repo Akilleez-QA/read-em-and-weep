@@ -1,0 +1,14 @@
+{
+  "claim_id": "S123",
+  "section_order_note": "This theorem distinguishes negative-root line-lifting obstructions, diagonal Picard choices, and positive extension classes modulo im δ_m. First-order vanishing does not imply third-order splitting or global algebraicity. The actual HM higher obstruction is not evaluated. Read after the ribbon classification; global-conic §5 uses this comparison but its cohomology proof does not.",
+  "references": {
+    "ribbon-catalecticant-classification/PROOF.md": {
+      "id": "S330",
+      "section_dependency": "See section-level dependency register"
+    },
+    "ribbon-duality-constraints/PROOF.md": {
+      "id": "S331",
+      "section_dependency": "See section-level dependency register"
+    }
+  }
+}
