@@ -1,0 +1,12 @@
+# Mathematical review of the complete relation bound
+
+Reviewed proof SHA256: `0d689ed7b56cffedbffed05d594dd45cdd9b582332fc4802e632426277038f33`.
+
+The argument is accepted conditional on the explicitly pinned actual-module inputs in PR475–PR479. This review independently checks the new deductions, not a fresh certification of every earlier HM theorem.
+
+1. The two short exact sequences of the monad identify primary cohomology with the stated cokernel in every degree: the needed line-bundle intermediate groups and H^1 of all twists of Omega^2 vanish. The polynomial exterior Euler complex generates the entire source section module in degree one. Thus generation of the relation image, rather than its degree-one dimension alone, proves the complete linear presentation. The twenty source sections have five-dimensional kernel from H^0(F(1))=0, giving fifteen relations with the asserted unique representation.
+2. In the first extension, Tor_2 of the shifted residue module is concentrated in degree three; therefore Tor_1(N) vanishes in every degree at least four. In the second extension, Tor_1(L) is concentrated in degree four. These supports give the all-degree bound on Tor_1(K), without any assumption about higher syzygies or splitting of modules.
+3. The quartic source calculation checks both neighboring terms: Tor_3(P)_4=0 and Tor_2 of the shifted residue module in degree four is zero. The resulting short exact sequence has dimensions sixty and ten. Its representation character is A tensor (U'+T_4+J_5+W'), while the target has the first three summands only. Semisimplicity is used solely for representations. Schur's lemma determines possible channels but not their scalar values or their vanishing independence.
+4. The degree-five and degree-six formulas use homogeneous lifts of minimal relations. Graded Nakayama makes these lifts generate the whole relation module. Their product sums are not asserted direct or canonical; polynomial quotient formulas do not need a regular sequence. The squared quadratic is retained, and the primary Tor correction is not discarded.
+
+The result removes the possibility of new defining relations in degree five or higher and isolates the remaining quartic dependency. It does not determine the original fixed-pair quotient, a source-class value, higher-order lifting, or algebraicity. This is mathematical review, not formal proof-assistant verification; no selected HM/source-instance evaluation or numerical rank computation was used.
