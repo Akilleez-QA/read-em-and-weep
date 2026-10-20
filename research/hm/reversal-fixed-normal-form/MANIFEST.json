@@ -1,0 +1,28 @@
+{
+  "scope": "Exact mathematical documents; source-proof review, not formal machine verification.",
+  "base_pr": 438,
+  "base_commit": "971c16a67b1e7d12fce0a8e2d2165ca4839911de",
+  "proof_sha256": "148dd88be35ab5bce6b95005ebef8a9425dbe92bfa8a457dc05f9ce635dfb34f",
+  "review_bindings": {
+    "INDEPENDENT-REVIEW.md": "148dd88be35ab5bce6b95005ebef8a9425dbe92bfa8a457dc05f9ce635dfb34f",
+    "ROOT-REVIEW.md": "148dd88be35ab5bce6b95005ebef8a9425dbe92bfa8a457dc05f9ce635dfb34f"
+  },
+  "files": {
+    "INDEPENDENT-REVIEW.md": {
+      "sha256": "c35016eca55d691a99d07a42ce51e7851eadf2d486664a23da193520c5a8c1b5",
+      "bytes": 7798
+    },
+    "PROOF.md": {
+      "sha256": "148dd88be35ab5bce6b95005ebef8a9425dbe92bfa8a457dc05f9ce635dfb34f",
+      "bytes": 21951
+    },
+    "README.md": {
+      "sha256": "f3991cae8fbb02024d48b71b99381f307a1b1b0e7ec9fd62bd5c02be4e19440e",
+      "bytes": 4240
+    },
+    "ROOT-REVIEW.md": {
+      "sha256": "74353bb9c0090f02eaffff8a0fac1f2c93d567bcaf46f249ca50cb7e8be66a00",
+      "bytes": 2717
+    }
+  }
+}
