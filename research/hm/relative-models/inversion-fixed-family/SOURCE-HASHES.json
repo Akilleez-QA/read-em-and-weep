@@ -1,0 +1,26 @@
+[
+  {
+    "source": "inversion-fixed-family/PROOF.md",
+    "source_sha256": "30bdaf228961d6634793277161b95e947e1bdc22c7f4c400c7a1e45be9439906",
+    "public_path": "research/hm/relative-models/inversion-fixed-family/PROOF.md",
+    "public_sha256": "571f779419c09e732868824c32e9dc4eb4c5beb39807f65ac910aa6000110070"
+  },
+  {
+    "source": "inversion-fixed-family/AUDIT.md",
+    "source_sha256": "77262e58d17eb6cf039861ee15c56020f4b00f93c986adff73fcc7f017d81695",
+    "public_path": "research/hm/relative-models/inversion-fixed-family/AUDIT.md",
+    "public_sha256": "7400feaac12c33ef1f115503118c4f578ae64e81be716e7be6e8a14d1d63b301"
+  },
+  {
+    "source": "inversion-projective-lift/ROOT-GERBE-TRANSPORT.md",
+    "source_sha256": "a13e062c949b5a1629d0753cd645b02850c4a44f4dde92e7f043ff9e1b0f1172",
+    "public_path": "research/hm/relative-models/inversion-fixed-family/ROOT-GERBE-TRANSPORT.md",
+    "public_sha256": "6b5c9cfdaf8cd53a78f91c80cd1afe669aac99a4551239a3cfc3f3d6500a43bc"
+  },
+  {
+    "source": "inversion-projective-lift/ROOT-GERBE-AUDIT.md",
+    "source_sha256": "1126f2361bcd520af97c69faa36ed6d8debe511f2ebc26fc024461f807c51d31",
+    "public_path": "research/hm/relative-models/inversion-fixed-family/ROOT-GERBE-AUDIT.md",
+    "public_sha256": "317c77494fc8d4b0bfd94eab5cad66a241dbeabca9a3416c40b6dc0b747b34c6"
+  }
+]
