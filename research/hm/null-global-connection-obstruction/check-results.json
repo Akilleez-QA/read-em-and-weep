@@ -1,0 +1,48 @@
+{
+  "ring": "Q[t]/(t^5); t represents theta in H^2",
+  "signed_multiplicity_and_power": [
+    [
+      -5,
+      -1
+    ],
+    [
+      15,
+      1
+    ],
+    [
+      -10,
+      3
+    ],
+    [
+      2,
+      5
+    ]
+  ],
+  "ch_F": [
+    "2",
+    "0",
+    "-15",
+    "0",
+    "75/4"
+  ],
+  "total_c_F": [
+    "1",
+    "0",
+    "15",
+    "0",
+    "0"
+  ],
+  "ch_End_F": [
+    "4",
+    "0",
+    "-60",
+    "0",
+    "300"
+  ],
+  "discriminant_theta2": 60,
+  "theta4_integral": 24,
+  "HRR_End": 7200,
+  "discriminant_theta2_pairing": 1440,
+  "arbitrary_line_twist_discriminant_invariant": true,
+  "scope": "Only universal truncated scalar polynomial arithmetic; no source matrices or actual jets."
+}
