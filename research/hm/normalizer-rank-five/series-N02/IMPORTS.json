@@ -1,0 +1,34 @@
+[
+  {
+    "source_artifact": "canonical-line-parity-exclusion/AUDIT.md",
+    "source_sha256": "18be382fd6d697cf8f32fa2b2f362760aa73bd07d02aac36c23315dd8637942f",
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/AUDIT.md",
+    "sha256": "18be382fd6d697cf8f32fa2b2f362760aa73bd07d02aac36c23315dd8637942f",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "canonical-line-parity-exclusion/PROOF.md",
+    "source_sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0",
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/PROOF.md",
+    "sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "canonical-line-rank-five-strengthening/AUDIT.md",
+    "source_sha256": "3619466f3dfd85b69ee5bc6e9403f7f0882f5244554d682c8871297a7c4ddbd5",
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/AUDIT.md",
+    "sha256": "df51c3a4006aa48f4c1a236bb6b453290487b048ec0dcd1c1174a0295a7c7250",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  },
+  {
+    "source_artifact": "canonical-line-rank-five-strengthening/PROOF.md",
+    "source_sha256": "f5324e40657845d11408162d408ad9164fd32e11ef07ea52aab900ad44fb8b4e",
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/PROOF.md",
+    "sha256": "a529f7596eee619dde6e94d9f418f709289ecd2d689004fced54280c0ff656fa",
+    "series": "publication-rank-four-series",
+    "unit": "01"
+  }
+]

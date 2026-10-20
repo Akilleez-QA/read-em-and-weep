@@ -1,0 +1,15 @@
+# Independent audit of global quartic realization
+
+PASS for the independent-zero locus, with two scope wording corrections incorporated and verified in Section 4 on 2026-10-19: use “projective independent-zero locus,” and acknowledge that two zero residual outer factors give a collinear triple, excluded from that locus. The full zero locus necessarily contains the collinear diagonal P(V) and is not claimed to have dimension two.
+
+Both explicit squarefree K have exact everywhere-rank-two kernel pencils. Every rank-two tensor in K has a factor in X, because its factor images have zero product in the integral domain Sym(E/X). Thus P(W) maps onto the entire rank-two locus. The map is finite and generically birational, and its hyperplane self-intersection is four, proving the degree-four claim without a smoothness assertion about the image.
+
+The ordered-factor incidence P(W) is a closed embedded projective subbundle of P(X) times P(E). It and its swap exhaust the ordered locus. Each is smooth: P1 times P1 for O(-1)^2, and F2 for O direct-sum O(-2). Their set-theoretic intersection consists exactly of (x,y) and (y,x), since K intersect Sym²X=Cxy. Neither disjointness nor smoothness of the union follows, and neither is claimed. No scheme-theoretic intersection multiplicity is needed.
+
+The universal quotient argument imports no additional realization assumption. T has dimension forty; F_a has dimension fourteen and its repeated subspace dimension four. For L=B0_u(K), squarefreeness guarantees tensor rank at least two for every nonzero graph member. The second-support argument correctly shows L intersect F_a=0 away from u. In T/L, the Grassmannian Gr(15,35) has dimension 300, and the unwanted incidence away from u has dimension at most 4+13+280=297. Its closure therefore misses a nonempty open, which can be intersected with the nonempty open avoiding the nine-dimensional F_u/L. A chosen twenty-plane N consequently meets F_u exactly in L and all other F_a trivially. It avoids every repeated rank-one tensor.
+
+The quotient J=T/N has dimension twenty. All repeated-input maps remain injective; the residual ranks are exactly five at u and ten everywhere else. At u the correction is zero. For residual independent outer factors l,m, the lift equation is A_u(beta l+alpha m)=0, which forces alpha=beta=0. Squarefreeness excludes nonzero dependent residual factors, and repeated injection excludes exactly one zero residual factor. Both zero residual factors belong only to the excluded collinear stratum.
+
+Hence the exact separately projectivized independent-zero locus is the stated two-surface union over u, of dimension two. Restoring the three independent nonzero input scalings gives affine independent-zero dimension five. This is an abstract isolated-middle existence construction, not a positive-dimensional-middle or dimension-seven counterexample and not a realization in a specified physical operation.
+
+The review used local mathematical proofs and symbolic identities only. No source operation, physical input or value, external write, or numerical rank computation was performed.
