@@ -1,0 +1,18 @@
+[
+  {
+    "source": "primary-blowup-pushforward/AUDIT.md",
+    "source_sha256": "eba8c8c11ca959e7485da1a7e5051d6905c1bf37600a82d237dc84f276e55502",
+    "public_path": "research/hm/middle-surface/primary-blowup-pushforward/AUDIT.md",
+    "public_sha256": "df584eba0d6756ab8856c7bc1c36a8b537efbf6b2773d1d89c335ffab468b83e",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "primary-blowup-pushforward/PROOF.md",
+    "source_sha256": "3bed46c628264d27f0ed1dd38b362f426a0ac60e26fbc658ba251e027ab3e116",
+    "public_path": "research/hm/middle-surface/primary-blowup-pushforward/PROOF.md",
+    "public_sha256": "3bed46c628264d27f0ed1dd38b362f426a0ac60e26fbc658ba251e027ab3e116",
+    "normalizations": []
+  }
+]
