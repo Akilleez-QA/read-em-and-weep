@@ -1,0 +1,44 @@
+[
+  {
+    "source": "polar-rank-two-net-exclusion/INDEPENDENT_AUDIT.md",
+    "source_sha256": "ce8b48f232dbe6eedd9e74434e409a150f2540e73463c49b4a65e282f798008f",
+    "public_path": "research/hm/middle-surface/polar-rank-two-net-exclusion/INDEPENDENT_AUDIT.md",
+    "public_sha256": "706a6861583808a367f4c686783f9529e88509453e0a48d3a0967e0fb44af085"
+  },
+  {
+    "source": "polar-rank-two-net-exclusion/PROOF.md",
+    "source_sha256": "907bf3f8dafd6747312eff075768dae5c77f17a05a715f5e353fc9bde23de7a5",
+    "public_path": "research/hm/middle-surface/polar-rank-two-net-exclusion/PROOF.md",
+    "public_sha256": "7d3c935ea4f1629152383d21da9244d6c0b364a4b241a60bfbd81d48c0c81a5d"
+  },
+  {
+    "source": "polar-rank-two-net-exclusion/ROOT_CHECK.md",
+    "source_sha256": "8066c4207d12fd36f3fee07b029b57e0314a8492856c1208f2cd1125a770ecae",
+    "public_path": "research/hm/middle-surface/polar-rank-two-net-exclusion/ROOT_CHECK.md",
+    "public_sha256": "8066c4207d12fd36f3fee07b029b57e0314a8492856c1208f2cd1125a770ecae"
+  },
+  {
+    "source": "quadric-polar-rank-drop-exclusion/AUDIT.md",
+    "source_sha256": "a4867fb7412531f03b9c7c4ed8811b0e124ea0db1d8c3bb243ce6bef0a1891b9",
+    "public_path": "research/hm/middle-surface/quadric-polar-rank-drop-exclusion/AUDIT.md",
+    "public_sha256": "a4867fb7412531f03b9c7c4ed8811b0e124ea0db1d8c3bb243ce6bef0a1891b9"
+  },
+  {
+    "source": "quadric-polar-rank-drop-exclusion/DOMINANT_GRAPH_COROLLARY.md",
+    "source_sha256": "312f3f4f55d5a966c74b196beecaeac343f5fd0e19c3dacabd119ad71ec842d0",
+    "public_path": "research/hm/middle-surface/quadric-polar-rank-drop-exclusion/DOMINANT_GRAPH_COROLLARY.md",
+    "public_sha256": "312f3f4f55d5a966c74b196beecaeac343f5fd0e19c3dacabd119ad71ec842d0"
+  },
+  {
+    "source": "quadric-polar-rank-drop-exclusion/PROOF.md",
+    "source_sha256": "acb740cd574409f916e21ebb37876e372d28cdb52b48aa142a922664841c0556",
+    "public_path": "research/hm/middle-surface/quadric-polar-rank-drop-exclusion/PROOF.md",
+    "public_sha256": "073c6e0b404ea402191b317dad1872a66ab7467d3dce0ff48026e9b0c1242187"
+  },
+  {
+    "source": "two-square-net-and-two-surface-exclusion/PROOF.md",
+    "source_sha256": "c27593a4a9def45f4a9fb4b662b2cdaa09e510b2410176cf4a8162df68723212",
+    "public_path": "research/hm/middle-surface/two-square-net-and-two-surface-exclusion/PROOF.md",
+    "public_sha256": "d6a1cec19b67819527e077cb868a28d85a94d1612eb353016c8b9ddb27fe4507"
+  }
+]
