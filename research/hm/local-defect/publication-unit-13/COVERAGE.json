@@ -1,0 +1,13 @@
+{
+  "unit": "13",
+  "clusters": [
+    "heisenberg-defect-hilbert-congruence"
+  ],
+  "core_predecessors": [],
+  "external_inputs": [
+    "rank-four-global-determinant",
+    "rank-nine-defect-two-sided"
+  ],
+  "later_contextual_units": [],
+  "scope": "For an H5-equivariant coherent sheaf on P4 with support dimension\u22643, every Euler characteristic and integral-binomial Hilbert coefficient is divisible by5. The old rank-nine application requires its separately stated geometric inputs and is not a generic-rank conclusion."
+}
