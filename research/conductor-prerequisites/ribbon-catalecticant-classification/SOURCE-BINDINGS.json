@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "S330",
+    "source": "ribbon-catalecticant-classification/AUDIT.md",
+    "source_sha256": "9e63917c7dbbfd7f608324347d240e813fced69d7569c8c5112ee4a35c83dbcc",
+    "source_bytes": 16422,
+    "public_path": "research/conductor-prerequisites/ribbon-catalecticant-classification/AUDIT.md",
+    "public_sha256": "13c8b24d2610c63bb8212c34f96fdc39f842b3c69abc090f3aa21a2f8eed0bc3",
+    "public_bytes": 16557,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S330",
+    "source": "ribbon-catalecticant-classification/PROOF.md",
+    "source_sha256": "0645f79ecc202273095218e630ed9eef0687277a853d1a883882bcab0cb382fc",
+    "source_bytes": 13139,
+    "public_path": "research/conductor-prerequisites/ribbon-catalecticant-classification/PROOF.md",
+    "public_sha256": "2101a81016a50ee05ed4da6c0dc1faa931ca6ab89392d8fa4377122778c4b5ee",
+    "public_bytes": 13085,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]

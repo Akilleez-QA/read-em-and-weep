@@ -1,0 +1,10 @@
+{
+  "claim_id": "S330",
+  "section_order_note": "Full framed ribbon-local rank classification. For d≥8, ε is the Cartan catalecticant and ε=0 is equivalent to splitting. At d=4,6, the diagonal h row matters: split does not imply ε=0. Local model realization is not global algebraicity or actual HM realization.",
+  "references": {
+    "ribbon-duality-constraints/PROOF.md": {
+      "id": "S331",
+      "section_dependency": "See section-level dependency register"
+    }
+  }
+}
