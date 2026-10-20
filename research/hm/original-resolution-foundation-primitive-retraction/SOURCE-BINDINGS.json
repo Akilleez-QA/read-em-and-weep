@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "PROOF.md",
+      "historical_sha256": "c4ac035e0a50bcb449e0ee151910c1ffa3bda9b297e38d95dd63ab5e8ea84841",
+      "public_sha256": "b383f9080da0249c3d53505d694d21b503545b4603a21dfe6fc1797729694e7e",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "RETRACTION-REVIEW.md",
+      "historical_sha256": "2ccbc6317d4fcbae6b0a86c098cdbb312d9a487b007edd7ae6d57ff8a47b0d32",
+      "public_sha256": "2ccbc6317d4fcbae6b0a86c098cdbb312d9a487b007edd7ae6d57ff8a47b0d32",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "independent-audit/REVIEW.md",
+      "historical_sha256": "d303ece6096240cb68650053abaa648784c530c7d8e76e4a9291696bec172290",
+      "public_sha256": "c1cb63d5e7ccb62dfd6ced34a6debf0565361ed9bf9fbf844366e88a80005b12",
+      "role": "full scientific proof or historical review"
+    },
+    {
+      "path": "check_invented_controls.py",
+      "historical_sha256": "381c528f1c67f14cceefae77f72f8978605be9af4f66fe918dc10de30f70920a",
+      "public_sha256": "381c528f1c67f14cceefae77f72f8978605be9af4f66fe918dc10de30f70920a",
+      "role": "standalone invented control; not executed"
+    }
+  ]
+}
