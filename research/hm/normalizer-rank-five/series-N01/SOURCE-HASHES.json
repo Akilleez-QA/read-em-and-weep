@@ -1,0 +1,79 @@
+[
+  {
+    "source_artifact": "normalizer-minimal-point-orbit/AUDIT.md",
+    "original_sha256": "d9e7fd97bdaf11f70bbe624549da1a3dab3fa63c7f2d32d8112ffb455bb88c6d",
+    "public_sha256": "d9e7fd97bdaf11f70bbe624549da1a3dab3fa63c7f2d32d8112ffb455bb88c6d",
+    "path": "research/hm/normalizer-rank-five/normalizer-minimal-point-orbit/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-minimal-point-orbit/PROOF.md",
+    "original_sha256": "17ce89cc8a4425a92fc137f0683d8677391772ca4f1ceeb57513c66ee4588ad1",
+    "public_sha256": "d1d93b1a281a5146990434c599f5ea37866dcda0fbe471cbefe62c833c9bf8a8",
+    "path": "research/hm/normalizer-rank-five/normalizer-minimal-point-orbit/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "small-normalizer-point-orbits/PROOF.md",
+    "original_sha256": "27d47a930df224900031f395b1826adf492db06b569bce85231fabe026a2b25a",
+    "public_sha256": "f58d65fac436818d341fa70abb5620f1ee4be03531c0b38ab169a86ed5a666e9",
+    "path": "research/hm/normalizer-rank-five/small-normalizer-point-orbits/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-refined-point-gap/AUDIT.md",
+    "original_sha256": "f553b6d92517ee4be4bcb121e27074964a7367d1e11467699264f02c33861f76",
+    "public_sha256": "f553b6d92517ee4be4bcb121e27074964a7367d1e11467699264f02c33861f76",
+    "path": "research/hm/normalizer-rank-five/normalizer-refined-point-gap/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-refined-point-gap/PROOF.md",
+    "original_sha256": "9cd9fd040898092779637c811fceb707131ca86c29106a211e6ca510001f9db6",
+    "public_sha256": "9cd9fd040898092779637c811fceb707131ca86c29106a211e6ca510001f9db6",
+    "path": "research/hm/normalizer-rank-five/normalizer-refined-point-gap/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-300-point-orbits/AUDIT.md",
+    "original_sha256": "ad6df942148e5e083c5700cd607bbc51ebe1b223d9cdb50ada03bf511d651fba",
+    "public_sha256": "ad6df942148e5e083c5700cd607bbc51ebe1b223d9cdb50ada03bf511d651fba",
+    "path": "research/hm/normalizer-rank-five/normalizer-300-point-orbits/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-300-point-orbits/PROOF.md",
+    "original_sha256": "0ece3a7be4fc9748fb0e6a096cb2aae8d7041fc22836f39e4dde75e2c0fc3c17",
+    "public_sha256": "ca31f89de9595c8832d2e3f58616df0d9bc6779322282a5790e03df36e16d9a8",
+    "path": "research/hm/normalizer-rank-five/normalizer-300-point-orbits/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-375-point-orbit/AUDIT.md",
+    "original_sha256": "fa2bdb2453e73b381cc0e7dab34ca2f46541b244f4f2eb480e68d0078feb4f0b",
+    "public_sha256": "fa2bdb2453e73b381cc0e7dab34ca2f46541b244f4f2eb480e68d0078feb4f0b",
+    "path": "research/hm/normalizer-rank-five/normalizer-375-point-orbit/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-375-point-orbit/PROOF.md",
+    "original_sha256": "399ed76f24892efb680cac22c844adec5d3f07a2c4ed288522a33e7a05bbf351",
+    "public_sha256": "9ee8e5d34e2f57f7cfe9d2fc7645c23139f9c5c29ed7521ac6444f4b92d051e0",
+    "path": "research/hm/normalizer-rank-five/normalizer-375-point-orbit/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-500-point-orbits/AUDIT.md",
+    "original_sha256": "460ddffd18a47404a358b541d3d12096b3445014a8d7641fcd309d60a503df90",
+    "public_sha256": "460ddffd18a47404a358b541d3d12096b3445014a8d7641fcd309d60a503df90",
+    "path": "research/hm/normalizer-rank-five/normalizer-500-point-orbits/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-500-point-orbits/PROOF.md",
+    "original_sha256": "5d68590bffa7d3c4ec6cfd6e4df4b54af5ed5144beb218357ae3730b8ebdc904",
+    "public_sha256": "76b00288075965cb8c8c591a9062162874fc13e792d276392803a7a7d707ca0c",
+    "path": "research/hm/normalizer-rank-five/normalizer-500-point-orbits/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
