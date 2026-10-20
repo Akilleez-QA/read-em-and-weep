@@ -1,0 +1,14 @@
+{
+  "unit": "12",
+  "clusters": [
+    "length-sixteen-local-defect"
+  ],
+  "core_predecessors": [
+    "01",
+    "07",
+    "11"
+  ],
+  "external_inputs": [],
+  "later_contextual_units": [],
+  "scope": "The isolated-defect necessary conditions reduce length16 to the stated homogeneous family. CANDIDATE constructs an abstract finite module meeting those necessary conditions, not an isolated reflexive Ext\u00b2 realization or an actual HM instance."
+}
