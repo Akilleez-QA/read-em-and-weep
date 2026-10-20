@@ -1,0 +1,18 @@
+[
+  {
+    "claim": "S065",
+    "source_file": "double-250-plane-interpolation/AUDIT.md",
+    "source_sha256": "8384201106e6296b3b5e38f000956285c63383ffd29f4b82c4c9d653190a88bd",
+    "public_path": "research/hm/structural-refinements/double-250-plane-interpolation/AUDIT.md",
+    "public_sha256": "22eaa917824ecb2bb1fd2981c91f2d4db0c1c27c91be7d121668a65a35ac8314",
+    "public_git_blob_sha1": "431d30abea9993b19c59aa734a45e41792df19af"
+  },
+  {
+    "claim": "S065",
+    "source_file": "double-250-plane-interpolation/PROOF.md",
+    "source_sha256": "24e6fab4baa4fcc418044fd3a33ff2717336eeb35d915e2ba9dd4782e2592286",
+    "public_path": "research/hm/structural-refinements/double-250-plane-interpolation/PROOF.md",
+    "public_sha256": "5850b9a99d9e68d287b27dc611232fefd2ced59443da264bbf7063016356d906",
+    "public_git_blob_sha1": "74a73edcd859b13dddf72dc738d7bf9c6d5c283d"
+  }
+]
