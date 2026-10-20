@@ -1,0 +1,11 @@
+# Second mathematical review
+
+Reviewed PROOF.md, SHA256 e05d41c601aac6d89b427b4ed036e8b83a400375a53504d96a605d35646143e6. The new argument is valid relative to the listed pinned inputs.
+
+1. The rightmost edge at twist minus one and global cokernel at twist zero identify actual H^2 multiplication with a quotient map. This proves its surjectivity before representation theory identifies the nonzero evaluation scalar. It is not an inferred rank from characters alone.
+2. In the Koszul spectral sequence for B(2), E_2^(0,1) is exactly the desired multiplication cokernel. The incoming row map onto Lambda^2 T tensor H^2(B) is universal contraction, making E_2^(-2,2) zero. The d_3 and d_4 source groups vanish as stated, and q>=5 is absent on P^4. There is no outgoing differential from the right boundary. The zero abutment therefore proves the cokernel zero.
+3. The negative-tail check is sound: for J(r) with r>=0 the listed total-degree-three groups vanish, including the central tensor-square term by the two-step exterior Euler resolution. The omitted central line-bundle summand also has zero H^3. Combining this with PR466 at twist minus two and Serre duality covers all H^1 twists below minus one. The positive generation and vanishing pins then cover every degree, not merely a truncation.
+4. Actual Euler multiplication and the nonzero graph scalar give one minimal linear relation and fifteen minimal quadratic relations in the five-generator cover. The forty-five quadratic relations of the larger Rao-dual presentation are correctly kept separate. Higher relations are explicitly left undetermined.
+5. The fixed-pair presentations have correct shifts: K_j=H^1(B(j-1)), so Q_4 uses degree five, Q_5 and P_5 use degree six, and u^2 multiplies degree two in the latter. These are exact quotient presentations, not evaluations or vanishing claims.
+
+This review does not reprove every imported HM result and is not formal proof-assistant verification. No selected-instance coefficients, numerical matrix ranks, generators/checkers or large computation were evaluated. Aggregate generation does not establish surjectivity for a fixed form or settle source membership, higher-order lifting or algebraicity.
