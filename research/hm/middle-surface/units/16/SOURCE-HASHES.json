@@ -1,0 +1,32 @@
+[
+  {
+    "source": "mixed-serre-duality-update/AUDIT.md",
+    "source_sha256": "02e8111ab78ab1513b6033d2f48f7f3d65069c206808edbac58812b9bce2b734",
+    "public_path": "research/hm/middle-surface/mixed-serre-duality-update/AUDIT.md",
+    "public_sha256": "8071e672a93b3365731ff673f01ad69aab2b82ace695a7d1915866aefbd29dab"
+  },
+  {
+    "source": "mixed-serre-duality-update/INDEPENDENT-AUDIT.md",
+    "source_sha256": "5405a8aa4a646205763e6f53bdb3a7faf17d4f625f9f8bbe11291d20a1dbfc7e",
+    "public_path": "research/hm/middle-surface/mixed-serre-duality-update/INDEPENDENT-AUDIT.md",
+    "public_sha256": "5405a8aa4a646205763e6f53bdb3a7faf17d4f625f9f8bbe11291d20a1dbfc7e"
+  },
+  {
+    "source": "mixed-serre-duality-update/PROOF.md",
+    "source_sha256": "37e29e35f74c15cde983723d84ea845b9f8ce4089c52939ea487f454ab28aa3b",
+    "public_path": "research/hm/middle-surface/mixed-serre-duality-update/PROOF.md",
+    "public_sha256": "37e29e35f74c15cde983723d84ea845b9f8ce4089c52939ea487f454ab28aa3b"
+  },
+  {
+    "source": "geometric-return-sign-barrier/AUDIT.md",
+    "source_sha256": "f4a45c0c88ca3b35fb8316388afa326bdd902ea3963c558c8f8c614b2e8e2246",
+    "public_path": "research/hm/middle-surface/geometric-return-sign-barrier/AUDIT.md",
+    "public_sha256": "b61762b977703e9041ee7e84f19209d7124f1636201cedc21f1003e75cd40e63"
+  },
+  {
+    "source": "geometric-return-sign-barrier/PROOF.md",
+    "source_sha256": "4adde672925ebd5080ac2fd212f4b6549d1ae21b8fd8186054b9b621c70c11d2",
+    "public_path": "research/hm/middle-surface/geometric-return-sign-barrier/PROOF.md",
+    "public_sha256": "8cb5ce33b8a4ef67f2bfb7137719325628987bf504d99df01c4e73e3a30cc227"
+  }
+]
