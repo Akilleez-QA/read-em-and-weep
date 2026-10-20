@@ -1,0 +1,5 @@
+# Current mathematical scope
+
+The controlling theorem is rank zero, not the historical bound rank≤8. The projective contraction maps vanish for every integer twist and every rank-two bundle on P⁴. On the stated product-cover geometry, the target-relative first and second trace maps vanish on the entire full-deck Ext² sector by Euler/Künneth and the Atiyah Cayley–Hamilton identity. The optional 8-dimensional bound and numerical sector dimensions are not inputs to this stronger zero theorem. All identities concern cohomology, not arbitrary raw Čech representatives. Neither actual source membership nor actual obstruction values are determined.
+
+The complete original derivations and historical mathematical audits are retained. Audit status is historical, not formal verification. These results concern respectively ordinary trace maps, target-relative trace maps, universal Atiyah expressions, derived countermodels, and pointwise identities. They do not establish a physical mixed-extension result, an all-orders result, or algebraicity.
