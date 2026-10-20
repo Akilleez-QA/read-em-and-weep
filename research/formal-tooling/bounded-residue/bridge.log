@@ -1,0 +1,73 @@
+'BoundedBridge.two_term_residue' depends on axioms: [propext, Classical.choice, Quot.sound]
+theorem BoundedBridge.two_term_residue : ∀ (a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb : ℤ),
+  Vermilion.inSignedRange 64 a0 →
+    Vermilion.inSignedRange 64 a1 →
+      Vermilion.inSignedRange 64 a2 →
+        Vermilion.inSignedRange 64 a3 →
+          Vermilion.inSignedRange 64 a4 →
+            Vermilion.inSignedRange 64 ca →
+              Vermilion.inSignedRange 64 b0 →
+                Vermilion.inSignedRange 64 b1 →
+                  Vermilion.inSignedRange 64 b2 →
+                    Vermilion.inSignedRange 64 b3 →
+                      Vermilion.inSignedRange 64 b4 →
+                        Vermilion.inSignedRange 64 cb →
+                          -4611686018427387903 ≤ ca ∧ ca ≤ 4611686018427387903 →
+                            -4611686018427387903 ≤ cb ∧ cb ≤ 4611686018427387903 →
+                              BoundedBridge.returnedTwo a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb =
+                                ResidueBridge.residue
+                                  (ResidueBridge.interpret
+                                    [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                                      (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]) :=
+fun a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb hcaBound hcbBound =>
+  have ra := BoundedBridge.selected_range a0 a1 a2 a3 a4 ca hca;
+  have rb := BoundedBridge.selected_range b0 b1 b2 b3 b4 cb hcb;
+  have safe :=
+    bounded.residue_two.assert_2 a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb
+      hcaBound hcbBound ra rb;
+  have post :=
+    bounded.residue_two.ensures_3 a0 a1 a2 a3 a4 ca b0 b1 b2 b3 b4 cb ha0 ha1 ha2 ha3 ha4 hca hb0 hb1 hb2 hb3 hb4 hcb
+      hcaBound hcbBound ra rb safe;
+  id
+    (fun post =>
+      Eq.mpr
+        (id
+          (congrArg
+            (fun _a =>
+              _a =
+                ResidueBridge.residue
+                  (ResidueBridge.interpret
+                    [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                      (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]))
+            post))
+        (Eq.mpr
+          (id
+            (congrFun'
+              (congrArg Eq
+                (congr
+                  (congrArg HAdd.hAdd
+                    (ite_congr (BoundedBridge.two_term_residue._simp_1_2 a0 a1 a2 a3 a4) (fun a => Eq.refl ca) fun a =>
+                      Eq.refl 0))
+                  (ite_congr (BoundedBridge.two_term_residue._simp_1_2 b0 b1 b2 b3 b4) (fun a => Eq.refl cb) fun a =>
+                    Eq.refl 0)))
+              (ResidueBridge.residue
+                (ResidueBridge.interpret
+                  [(SelectorLaurentBridge.exponent a0 a1 a2 a3 a4, ca),
+                    (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4, cb)]))))
+          (of_eq_true
+            (Eq.trans
+              (congrArg
+                (Eq
+                  ((if SelectorLaurentBridge.exponent a0 a1 a2 a3 a4 = ResidueBridge.residueExponent then ca else 0) +
+                    if SelectorLaurentBridge.exponent b0 b1 b2 b3 b4 = ResidueBridge.residueExponent then cb else 0))
+                (Eq.trans
+                  (congrFun'
+                    (congrArg DFunLike.coe
+                      (congrArg (HAdd.hAdd (Finsupp.single (SelectorLaurentBridge.exponent a0 a1 a2 a3 a4) ca))
+                        (add_zero (Finsupp.single (SelectorLaurentBridge.exponent b0 b1 b2 b3 b4) cb))))
+                    ResidueBridge.residueExponent)
+                  (congr (congrArg HAdd.hAdd Finsupp.single_apply) Finsupp.single_apply)))
+              (eq_self
+                ((if SelectorLaurentBridge.exponent a0 a1 a2 a3 a4 = ResidueBridge.residueExponent then ca else 0) +
+                  if SelectorLaurentBridge.exponent b0 b1 b2 b3 b4 = ResidueBridge.residueExponent then cb else 0))))))
+    post

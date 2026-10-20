@@ -1,0 +1,24 @@
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded_wrong.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m Lean is judging the generated obligations of examples/bounded-residue/bounded_wrong.rs
+[2K[vrml-check] unit=.vermilion/check-bounded_wrong.lean elapsed_ms=18964
+error[vermilion]: postcondition not satisfied
+  --> examples/bounded-residue/bounded_wrong.rs:21:13
+   = note: Lean rejected obligation `bounded_wrong.residue_two.ensures_3` (statement hash 317219485f094080)
+        Lean says: vrml: no ladder rung closed the goal (tried [grind,
+   = help: two ways forward:
+        1. the Rust code or its specification is wrong — fix it at the span above;
+        2. the code is right but automation is too weak — write the proof yourself in
+           examples/bounded-residue/proofs/bounded_wrong.lean:371 (the user-owned twin: replace the tactic body after `:= by`,
+           keep the signature and markers; your proof survives regeneration while the
+           statement hash is unchanged. Helper lemmas go between `-- vrml:user:begin`
+           and `-- vrml:user:end` lines — such sections are preserved verbatim).
+
+
+warning: `bounded_wrong.residue_two.ensures_3` in examples/bounded-residue/proofs/bounded_wrong.lean still contains `sorry` — prove it manually
+proofs twin unchanged examples/bounded-residue/proofs/bounded_wrong.lean (9 obligations, 1 sorry)
+✗ verification failed — see the report above for next steps
+

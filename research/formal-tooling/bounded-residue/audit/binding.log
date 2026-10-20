@@ -1,0 +1,4 @@
+bounded 9/9 generated/twin signatures and manifest marker hashes match
+bounded_wrong 9/9 generated/twin signatures and manifest marker hashes match
+Negative source differs only by +1 postcondition; positive twin and bridge have no proof holes or added axioms.
+All source-sha256.txt entries match frozen files.

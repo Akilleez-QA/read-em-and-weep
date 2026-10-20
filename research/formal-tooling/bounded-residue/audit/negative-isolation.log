@@ -1,0 +1,1 @@
+PASS: negative Lean-phase exit 1. Exactly one uncovered diagnostic: bounded_wrong.residue_two.ensures_3, hash 317219485f094080. Decision evidence diagnostic is covered_by_twin=true.

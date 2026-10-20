@@ -1,0 +1,12 @@
+
+[2K[36m[vermilion][0m Verus front end: elaborating examples/bounded-residue/bounded.rs (--no-verify)
+[2K[36m[vermilion][0m lowering SST to the textual IR
+[2K[36m[vermilion][0m preparing the Lean environment (cached unless the library changed)
+[2K[36m[vermilion][0m generating Lean obligations from the IR
+[2K[36m[vermilion][0m Lean is judging the generated obligations of examples/bounded-residue/bounded.rs
+[2K[vrml-check] unit=.vermilion/check-bounded.lean elapsed_ms=2370
+✓ all 9 obligations in examples/bounded-residue/generated/bounded.lean verified by Lean — 8 newly checked, 1 discharged interactively. 🎉
+  • `bounded.residue_term.evidence_decidable_prop` — examples/bounded-residue/proofs/bounded.lean:9
+
+proofs twin unchanged examples/bounded-residue/proofs/bounded.lean (9 obligations, 0 sorry)
+
