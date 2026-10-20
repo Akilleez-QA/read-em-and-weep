@@ -1,0 +1,9 @@
+# Immutable prerequisite editions
+
+- 00-S428: [proof edition](https://github.com/Akilleez-QA/read-em-and-weep/blob/01126436f1ee87bcb454143aec222a26018da5d5/research/hm/original-resolution-transition-legal-bound/PROOF.md), commit 01126436f1ee87bcb454143aec222a26018da5d5 ([draft PR 330](https://github.com/Akilleez-QA/read-em-and-weep/pull/330)).
+- 01-S413: [proof edition](https://github.com/Akilleez-QA/read-em-and-weep/blob/62b9c64114249fcbc49f56982fc543f7e37f10b0/research/hm/original-resolution-legal-free-homotopy/PROOF.md), commit 62b9c64114249fcbc49f56982fc543f7e37f10b0 ([draft PR 352](https://github.com/Akilleez-QA/read-em-and-weep/pull/352)).
+- 03-S418: [proof edition](https://github.com/Akilleez-QA/read-em-and-weep/blob/b3c3fca8a9fcbbd91a3dfdbbd8de775952499540/research/hm/original-resolution-raw-block-chart-bound/PROOF.md), commit b3c3fca8a9fcbbd91a3dfdbbd8de775952499540 ([draft PR 333](https://github.com/Akilleez-QA/read-em-and-weep/pull/333)).
+- 05-S402: [proof edition](https://github.com/Akilleez-QA/read-em-and-weep/blob/8999abac277fe36249007187d772bbd2d1674a60/research/hm/original-resolution-complementary-scalar-derivative/PROOF.md), commit 8999abac277fe36249007187d772bbd2d1674a60 ([draft PR 356](https://github.com/Akilleez-QA/read-em-and-weep/pull/356)).
+- 16-S411: [proof edition](https://github.com/Akilleez-QA/read-em-and-weep/blob/b1737be2abe6a679636c358cbef8468e9cf44341/research/hm/original-resolution-full-source-character/PROOF.md), commit b1737be2abe6a679636c358cbef8468e9cf44341 ([draft PR 362](https://github.com/Akilleez-QA/read-em-and-weep/pull/362)).
+
+These are theorem inputs, not consequences of branch ancestry. The hypotheses, localizations, source-model identifications and frame assumptions in each proof remain required. Source authentication does not discharge those hypotheses, rerun historical checks, or imply higher-order lifting or algebraicity. Historical receipts remain receipts for their identified editions.
