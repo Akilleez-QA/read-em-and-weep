@@ -1,0 +1,13 @@
+# Root mathematical review
+
+Reviewed proof SHA256: `16c97b425ef751e376db5a7247307e74f2b3ed86df1a5d0a7aee96abaa6ce60b`.
+
+Accepted conditional on the pinned HM module, representation and multiplication inputs. This review checks the following new deductions independently.
+
+1. The S-compatible Serre pairing makes the final two aggregate multiplication maps nonzero because the corresponding first two maps are nonzero. Their targets are irreducible normalizer representations, so both maps are onto. Together with the three pinned earlier maps this proves generation in every degree. The duality between the socle and the quotient by S_+ then places the entire socle in degree five, with dimension two; Hilbert-function symmetry alone would not establish this.
+2. The degree-ten, homological-degree-five Tor duality follows from the actual perfect pairing and the five-variable Koszul complex. The two adjacent identifications in PR479 give both cubic Tor groups of H as the duals of the corresponding cubic K groups. The optional type A tensor U' is therefore correct for both groups, with the same zero-or-fifteen alternative.
+3. For B(1) and B(0), the spectral position (-4,2) has internal H degrees six and five. No incoming differential can reach it. Its only possible outgoing d_2 targets are Tor_2(K)_2 and Tor_2(K)_1. Injectivity of the Euler relation and independence of the fifteen quadratic lifts modulo its products prove the former is zero; the latter vanishes by degree. The d_3 target vanishes from H^0(B)=0 or H^0(B(-1))=0. The resulting zero abutment excludes quartic and quintic minimal H relations. This argument does not use the later vanishing of quartic K relations.
+4. A minimal resolution of a degree-zero-generated module without linear relations has its fourth free module starting no earlier than degree five. This follows successively from positive-degree matrix entries and the fact that a minimal generator of a syzygy module cannot have zero differential. The Tor duality then excludes every defining relation of H in degree six or above.
+5. Graded Nakayama yields the stated complete presentation. The argument does not determine the optional cubic scalar or the full higher Betti table. In particular a level module of this Hilbert function is not being identified with a complete-intersection model.
+
+No selected HM/source-instance evaluation, numerical matrix computation or coefficient search is used. This is mathematical review of the deductions, not formal proof-assistant checking or a recertification of every pinned antecedent result. The original fixed-pair quotient, source membership, higher-order lifting and algebraicity remain unresolved.
