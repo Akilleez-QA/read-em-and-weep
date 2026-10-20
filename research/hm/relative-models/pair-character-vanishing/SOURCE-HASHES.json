@@ -1,0 +1,26 @@
+[
+  {
+    "source": "pair-character-vanishing/PROOF.md",
+    "source_sha256": "0242f767b032d85ea29c255a0fd6c952fccacdcff3a8a6375bdf5c0471d38db9",
+    "public_path": "research/hm/relative-models/pair-character-vanishing/PROOF.md",
+    "public_sha256": "543e5a605f45b2c18c0dba2d9b30743c88c64b6bd7b336cb76e781bad1931a04"
+  },
+  {
+    "source": "pair-character-vanishing/INDEPENDENT-AUDIT.md",
+    "source_sha256": "03a07884325280feb3dcc19f099649446cf053d3bd4468f71269b6578eeb909e",
+    "public_path": "research/hm/relative-models/pair-character-vanishing/INDEPENDENT-AUDIT.md",
+    "public_sha256": "d62ce187d4cb28841772bcbd89ad854f7de9569c85585b06a85efcfa5e5e5565"
+  },
+  {
+    "source": "pair-character-vanishing/MIXED-DESCENT-AUDIT.md",
+    "source_sha256": "eca45f8b3747fd3d67aa442c2e98f8714f52486ffbc2641cbddeb25696fd9cb4",
+    "public_path": "research/hm/relative-models/pair-character-vanishing/MIXED-DESCENT-AUDIT.md",
+    "public_sha256": "3e203dffa238e60ce52419f2c9d0ffe4e091058476bbfeff26d9a82a5eb992de"
+  },
+  {
+    "source": "pair-character-vanishing/MIXED-GAUGE-DESCENT.md",
+    "source_sha256": "fa5055404741a4479cadf343935a2e6b1b3b5dcdc70f59855751089bbbdd81ed",
+    "public_path": "research/hm/relative-models/pair-character-vanishing/MIXED-GAUGE-DESCENT.md",
+    "public_sha256": "d6dc2530f06d68a00165ed5d40eb473894b76ad6d01a23e8c20d65b51487d5eb"
+  }
+]
