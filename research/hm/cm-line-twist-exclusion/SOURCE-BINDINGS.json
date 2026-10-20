@@ -1,0 +1,20 @@
+{
+  "source_edition": "S024",
+  "source_files": [
+    {
+      "source_id": "S024",
+      "source_name": "PROOF.md",
+      "sha256": "c87b7281e2333999a27a1e8928cf66ac56895fce83467783ac47982fbf147cf9",
+      "bytes": 11764
+    },
+    {
+      "source_id": "S024",
+      "source_name": "AUDIT.md",
+      "sha256": "fdaea902025e8fd00bf3b2c031ec1a52d394c3d23af64a2db841befc2b0f2e0c",
+      "bytes": 5640
+    }
+  ],
+  "editing": "T01 narrows S024 to section 5 with complete hypotheses and proof. T02 preserves the complete subgroup deduction. Public operational narration removed; immutable dependency links substituted. Historical audits are explicitly historical.",
+  "fresh_independent_review": "pending",
+  "formal_check": "none"
+}
