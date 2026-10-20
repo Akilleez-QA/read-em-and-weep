@@ -1,0 +1,16 @@
+[
+  {
+    "source_artifact": "heisenberg-defect-hilbert-congruence/AUDIT.md",
+    "source_sha256": "071fad371a469bf6bc110531034ffaf31e0e3ef5a172db7b93c6c64b33c716ce",
+    "public_path": "research/hm/local-defect/heisenberg-defect-hilbert-congruence/AUDIT.md",
+    "public_sha256": "ac611fe76095f070d20e2299f2f6359d382237cbc3904027e7e758667f87de52",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "heisenberg-defect-hilbert-congruence/PROOF.md",
+    "source_sha256": "8571b871293dddc96fefe000f7a153795fa3078b160362c2455a6495b6d16385",
+    "public_path": "research/hm/local-defect/heisenberg-defect-hilbert-congruence/PROOF.md",
+    "public_sha256": "d6eff049275c3c052e8477e7578915ce61baa6d0c92d5b52bac243f8fff5c876",
+    "role": "mathematical_proof_or_addendum"
+  }
+]
