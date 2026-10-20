@@ -1,0 +1,14 @@
+[
+  {
+    "artifact": "global-isolated-defect-bound/AUDIT.md",
+    "original_sha256": "3936b91e2b43aec1d8eb3bc8a953f062cc4f80ab1e518e92d04d58d55a065612",
+    "published_sha256": "c00a7419794e330f900b1324af91e4a0452436a6eaa7f8f1bf3469c594140be7",
+    "path": "research/hm/local-defect/global-isolated-defect-bound/AUDIT.md"
+  },
+  {
+    "artifact": "global-isolated-defect-bound/PROOF.md",
+    "original_sha256": "0379ce6390dac6f180d63d89836420f0bf0d77be1340f0e6a738466c11cc0aaa",
+    "published_sha256": "f4b1a89ca216680405dafa60118a872f577ddcd349b584a206eeab0b478d7d33",
+    "path": "research/hm/local-defect/global-isolated-defect-bound/PROOF.md"
+  }
+]
