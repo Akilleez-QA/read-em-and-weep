@@ -1,0 +1,31 @@
+[
+  {
+    "unit": "02",
+    "source": "exceptional-punctual-modification/PROOF.md",
+    "source_sha256": "8b34d63e3762899a5334572729e822345556b84fe9193c39f489223f74e3d359",
+    "source_bytes": 8558,
+    "public_path": "research/hm/relative-models/exceptional-punctual-modification/PROOF.md",
+    "public_sha256": "bc04adb299d5aad676ed7abccd860a97a8f485afc147356388cbdf46defad392",
+    "public_bytes": 9073,
+    "transformations": [
+      "pin exact predecessor proofs and define multiplication map",
+      "make sheaf Ext notation explicit",
+      "limit rigidity inputs to numerical corollary",
+      "replace execution/process sentence with mathematical scope; retain full derivation"
+    ]
+  },
+  {
+    "unit": "02",
+    "source": "exceptional-punctual-modification/AUDIT.md",
+    "source_sha256": "e2856783185a9d208e9dd5f8e8008375b22e091dfd33200a78faff73f6853d41",
+    "source_bytes": 2266,
+    "public_path": "research/hm/relative-models/exceptional-punctual-modification/HISTORICAL-AUDIT.md",
+    "public_sha256": "77ef01a86db86e53a435b93262374fceab60fecbd8d05c092027876f30952ba5",
+    "public_bytes": 2344,
+    "transformations": [
+      "label historical review",
+      "remove transport and execution details",
+      "preserve every mathematical check and limitation"
+    ]
+  }
+]
