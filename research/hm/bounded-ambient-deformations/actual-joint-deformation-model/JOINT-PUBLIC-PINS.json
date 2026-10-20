@@ -1,0 +1,335 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "scope": "Exact public antecedents of the bounded joint Cech model. Pins authenticate editions, not additional source execution.",
+  "pins": [
+    {
+      "pr": 114,
+      "commit": "d1422e5f9137ae64ec207c496a0391712ce93263",
+      "path": "research/hm/null-module-boundary-audits/semiregularity-sector/RESULT.md",
+      "git_blob": "0a11c092d1eb9a14026a6e51dcd67976e102bd91",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1422e5f9137ae64ec207c496a0391712ce93263/research/hm/null-module-boundary-audits/semiregularity-sector/RESULT.md"
+    },
+    {
+      "pr": 120,
+      "commit": "d414e705d0f79102dce6977b39a5edda9c555ac8",
+      "path": "research/hm/null-corrected-pure-lift/corrected-relative-lift/RESULT.md",
+      "git_blob": "eb18ed70a2ac3cddd5784369652aaf623aac4cad",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d414e705d0f79102dce6977b39a5edda9c555ac8/research/hm/null-corrected-pure-lift/corrected-relative-lift/RESULT.md"
+    },
+    {
+      "pr": 121,
+      "commit": "22f26a82569150204b04ce5ef18de788f43478a5",
+      "path": "research/hm/null-pure-lift-uniqueness/pure-lift-uniqueness/RESULT.md",
+      "git_blob": "8a0345f07ae9305cfd6cce5ba6e51ab1ba9ddfd7",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/22f26a82569150204b04ce5ef18de788f43478a5/research/hm/null-pure-lift-uniqueness/pure-lift-uniqueness/RESULT.md"
+    },
+    {
+      "pr": 123,
+      "commit": "711c6bf8c6248f46d73661be8a42ede671a3712b",
+      "path": "research/hm/null-root-morita-inertia/root-morita-0719/RESULT.md",
+      "git_blob": "79d9bd69832ab2a6d5d158a6f731becad993a4c0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/711c6bf8c6248f46d73661be8a42ede671a3712b/research/hm/null-root-morita-inertia/root-morita-0719/RESULT.md"
+    },
+    {
+      "pr": 127,
+      "commit": "0050df8fa957b9f7f5e1b21137c63bffc646a1eb",
+      "path": "research/hm/null-pair-swap-coherence/RESULT.md",
+      "git_blob": "9ef2da7a816fced04c8e5f0162291489d4ed181f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0050df8fa957b9f7f5e1b21137c63bffc646a1eb/research/hm/null-pair-swap-coherence/RESULT.md"
+    },
+    {
+      "pr": 128,
+      "commit": "64b6c62a23db6189186896285c956133608ad3c7",
+      "path": "research/hm/null-invariant-coefficient-ideal/RESULT.md",
+      "git_blob": "325f60e9a058f6cfc3923f3f1cfba56b58379ec8",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64b6c62a23db6189186896285c956133608ad3c7/research/hm/null-invariant-coefficient-ideal/RESULT.md"
+    },
+    {
+      "pr": 130,
+      "commit": "d8d4a4a096431ad1506b0b847b72b0aeeeceda7f",
+      "path": "research/hm/null-effective-atlas/RESULT.md",
+      "git_blob": "8660381cde6436991e22c5e47448f534b97cffeb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d8d4a4a096431ad1506b0b847b72b0aeeeceda7f/research/hm/null-effective-atlas/RESULT.md"
+    },
+    {
+      "pr": 131,
+      "commit": "1c5ccbd7e2e5e1532fdcdd13ba4734ab65247252",
+      "path": "research/hm/null-actual-pair-comparison/RESULT.md",
+      "git_blob": "f1e7339fe885d2427aa52204911f5e1f6a61161e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c5ccbd7e2e5e1532fdcdd13ba4734ab65247252/research/hm/null-actual-pair-comparison/RESULT.md"
+    },
+    {
+      "pr": 132,
+      "commit": "a4697a27a8077cdc16e917aebca468dfa6277738",
+      "path": "research/hm/null-mixed-module-equation/RESULT.md",
+      "git_blob": "6c2bb127efbaf0f1aba18639db5e7ff99994615d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a4697a27a8077cdc16e917aebca468dfa6277738/research/hm/null-mixed-module-equation/RESULT.md"
+    },
+    {
+      "pr": 133,
+      "commit": "d4577a8299d00721aa8eacb3ec82e621b827820c",
+      "path": "research/hm/null-mixed-duality-reversal/DUALITY-RESULT.md",
+      "git_blob": "4946434f5480bb95fcfd33cdbfc673731245d524",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d4577a8299d00721aa8eacb3ec82e621b827820c/research/hm/null-mixed-duality-reversal/DUALITY-RESULT.md"
+    },
+    {
+      "pr": 134,
+      "commit": "ff241cdfd7c7606f5dcb17cb1fd1282e61c73994",
+      "path": "research/hm/null-canonical-alternating-transfer/RESULT.md",
+      "git_blob": "37bf609b5453ad050a89fc81ddb1369dbadf482e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ff241cdfd7c7606f5dcb17cb1fd1282e61c73994/research/hm/null-canonical-alternating-transfer/RESULT.md"
+    },
+    {
+      "pr": 232,
+      "commit": "6920f9061a2366cdd649c350ee9b8855eab48b3d",
+      "path": "research/hm/relative-models/global-equivariant-module-descent/PROOF.md",
+      "git_blob": "a48e70d3dd5846269ca3fba64709be51ee2ae570",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6920f9061a2366cdd649c350ee9b8855eab48b3d/research/hm/relative-models/global-equivariant-module-descent/PROOF.md"
+    },
+    {
+      "pr": 235,
+      "commit": "01247d95275c87f7b35a121a3a67f4d96375c41c",
+      "path": "research/hm/relative-models/external-morita-descent/PROOF.md",
+      "git_blob": "ce321c8fcb51f690a1b3966d396b30c01cc62779",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01247d95275c87f7b35a121a3a67f4d96375c41c/research/hm/relative-models/external-morita-descent/PROOF.md"
+    },
+    {
+      "pr": 237,
+      "commit": "f5f0114aad2f76e1f1db7bd503440007b814c0ae",
+      "path": "research/hm/relative-models/equivariant-module-lift-effectivity/PROOF.md",
+      "git_blob": "1fc3f476abdd1937956d1d4786b268bf0740d40f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f5f0114aad2f76e1f1db7bd503440007b814c0ae/research/hm/relative-models/equivariant-module-lift-effectivity/PROOF.md"
+    },
+    {
+      "pr": 239,
+      "commit": "ee894fc160cfc686bfa3c6e6376ea05be43ed3cc",
+      "path": "research/hm/relative-models/pure-deck-structure/PROOF.md",
+      "git_blob": "5d3e0c0a4199d979ee7673416d7077d8142a43e0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ee894fc160cfc686bfa3c6e6376ea05be43ed3cc/research/hm/relative-models/pure-deck-structure/PROOF.md"
+    },
+    {
+      "pr": 239,
+      "commit": "ee894fc160cfc686bfa3c6e6376ea05be43ed3cc",
+      "path": "research/hm/relative-models/pure-deck-structure/INTEGRATION.md",
+      "git_blob": "98f932d387f99430046d78c4435de9c17c569d01",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ee894fc160cfc686bfa3c6e6376ea05be43ed3cc/research/hm/relative-models/pure-deck-structure/INTEGRATION.md"
+    },
+    {
+      "pr": 241,
+      "commit": "293fc8e7a36d77caf972e680e2444654a528fa80",
+      "path": "research/hm/relative-models/mixed-ambient-rigidity/PROOF.md",
+      "git_blob": "e913fcc43760f4256ca5740d4f8f51ab964c8112",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/293fc8e7a36d77caf972e680e2444654a528fa80/research/hm/relative-models/mixed-ambient-rigidity/PROOF.md"
+    },
+    {
+      "pr": 250,
+      "commit": "f1de2347c471c572cc074383d96409cdf68fc585",
+      "path": "research/hm/relative-models/pair-character-vanishing/PROOF.md",
+      "git_blob": "4f2db0bc6095d6c9950fbd8a2d227cff626f8212",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f1de2347c471c572cc074383d96409cdf68fc585/research/hm/relative-models/pair-character-vanishing/PROOF.md"
+    },
+    {
+      "pr": 252,
+      "commit": "92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f",
+      "path": "research/hm/relative-models/relative-mixed-character-purity/PROOF.md",
+      "git_blob": "4859980da2e994385563eb8445213f2f089e4bae",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f/research/hm/relative-models/relative-mixed-character-purity/PROOF.md"
+    },
+    {
+      "pr": 252,
+      "commit": "92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f",
+      "path": "research/hm/relative-models/relative-mixed-character-purity/dependencies/FIRST-LIFT-STRUCTURAL.md",
+      "git_blob": "28e7663fe49a681bb701ccbccf9736f5a3167f26",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/92ccceb1a023dd86bf4d17f4b86b779cc1b7c44f/research/hm/relative-models/relative-mixed-character-purity/dependencies/FIRST-LIFT-STRUCTURAL.md"
+    },
+    {
+      "pr": 79,
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-second-order-raw-closure/PROOF.md",
+      "git_blob": "a3894976f186b3f3bfb4d4953497c468ae041b3b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/PROOF.md"
+    },
+    {
+      "pr": 79,
+      "commit": "4659e4425c6b5ab6b1899e6af93656ac03ff0862",
+      "path": "research/hm/null-second-order-raw-closure/pins.json",
+      "git_blob": "0068dbd7e9eda443a0dc8c67f7ba9a1d91a01991",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/pins.json"
+    },
+    {
+      "pr": 314,
+      "commit": "d1d6d3c6413814e92a5c2a29f4359a231f42cb17",
+      "path": "research/hm/original-resolution-foundation-structural-a/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "d08514de26b2d439d1ce242d066035bd57379cbe",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1d6d3c6413814e92a5c2a29f4359a231f42cb17/research/hm/original-resolution-foundation-structural-a/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 314,
+      "commit": "d1d6d3c6413814e92a5c2a29f4359a231f42cb17",
+      "path": "research/hm/original-resolution-foundation-structural-a/PROOF.md",
+      "git_blob": "e1e004ffd184e6e983a79a3810af7ca9759d3079",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1d6d3c6413814e92a5c2a29f4359a231f42cb17/research/hm/original-resolution-foundation-structural-a/PROOF.md"
+    },
+    {
+      "pr": 314,
+      "commit": "d1d6d3c6413814e92a5c2a29f4359a231f42cb17",
+      "path": "research/hm/original-resolution-foundation-structural-a/SOURCE-CLOSURE.md",
+      "git_blob": "d2e92e466d160045d6ba1aa0708a210198880c67",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1d6d3c6413814e92a5c2a29f4359a231f42cb17/research/hm/original-resolution-foundation-structural-a/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 317,
+      "commit": "757b4c6a8449edf5bb10f7b57a31706a82262400",
+      "path": "research/hm/original-resolution-foundation-determinant-volume/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "1980f17585bafb25d7ce86d1b66fd5efdea56df3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/757b4c6a8449edf5bb10f7b57a31706a82262400/research/hm/original-resolution-foundation-determinant-volume/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 317,
+      "commit": "757b4c6a8449edf5bb10f7b57a31706a82262400",
+      "path": "research/hm/original-resolution-foundation-determinant-volume/PROOF.md",
+      "git_blob": "d20834ebe8933bfb82907d3e0fbb96a675d2d53f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/757b4c6a8449edf5bb10f7b57a31706a82262400/research/hm/original-resolution-foundation-determinant-volume/PROOF.md"
+    },
+    {
+      "pr": 317,
+      "commit": "757b4c6a8449edf5bb10f7b57a31706a82262400",
+      "path": "research/hm/original-resolution-foundation-determinant-volume/SOURCE-CLOSURE.md",
+      "git_blob": "76aa6c5d0a6d0b84d2f6e58d9d8ffa079eceda1c",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/757b4c6a8449edf5bb10f7b57a31706a82262400/research/hm/original-resolution-foundation-determinant-volume/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 321,
+      "commit": "3fb00bec06e9e87616e3cb69d2504f1be668cd81",
+      "path": "research/hm/original-resolution-foundation-homogeneous/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "d9d2c94255100e1b510fe5830b5fdc89f31efc09",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb00bec06e9e87616e3cb69d2504f1be668cd81/research/hm/original-resolution-foundation-homogeneous/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 321,
+      "commit": "3fb00bec06e9e87616e3cb69d2504f1be668cd81",
+      "path": "research/hm/original-resolution-foundation-homogeneous/PROOF.md",
+      "git_blob": "16fad14f3738f334ab08e5fd4b6eff0c35faed10",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb00bec06e9e87616e3cb69d2504f1be668cd81/research/hm/original-resolution-foundation-homogeneous/PROOF.md"
+    },
+    {
+      "pr": 321,
+      "commit": "3fb00bec06e9e87616e3cb69d2504f1be668cd81",
+      "path": "research/hm/original-resolution-foundation-homogeneous/SOURCE-CLOSURE.md",
+      "git_blob": "c2acb3930852e52f31440f9cf451b8e105a87d2d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb00bec06e9e87616e3cb69d2504f1be668cd81/research/hm/original-resolution-foundation-homogeneous/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 322,
+      "commit": "65c2e29477d6997306ecb4d480a05e8f8c1f3fcb",
+      "path": "research/hm/original-resolution-foundation-product-root/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "5d9b12d3fac0a16d648082a59ca1d6414db03cad",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c2e29477d6997306ecb4d480a05e8f8c1f3fcb/research/hm/original-resolution-foundation-product-root/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 322,
+      "commit": "65c2e29477d6997306ecb4d480a05e8f8c1f3fcb",
+      "path": "research/hm/original-resolution-foundation-product-root/PROOF.md",
+      "git_blob": "8e2f5f67f0c9de34d2fb1dbce8d2a00e1f6676de",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c2e29477d6997306ecb4d480a05e8f8c1f3fcb/research/hm/original-resolution-foundation-product-root/PROOF.md"
+    },
+    {
+      "pr": 322,
+      "commit": "65c2e29477d6997306ecb4d480a05e8f8c1f3fcb",
+      "path": "research/hm/original-resolution-foundation-product-root/SOURCE-CLOSURE.md",
+      "git_blob": "0cb0cde3c7299a50689900eaaea7748b4c26e98a",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c2e29477d6997306ecb4d480a05e8f8c1f3fcb/research/hm/original-resolution-foundation-product-root/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 333,
+      "commit": "b3c3fca8a9fcbbd91a3dfdbbd8de775952499540",
+      "path": "research/hm/original-resolution-raw-block-chart-bound/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "386be3c3740ed7a1fc1d0657880c78c0f9f92f29",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b3c3fca8a9fcbbd91a3dfdbbd8de775952499540/research/hm/original-resolution-raw-block-chart-bound/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 333,
+      "commit": "b3c3fca8a9fcbbd91a3dfdbbd8de775952499540",
+      "path": "research/hm/original-resolution-raw-block-chart-bound/PROOF.md",
+      "git_blob": "d5e40ddb0bfee06dbb07f751963f5fd802d628c6",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b3c3fca8a9fcbbd91a3dfdbbd8de775952499540/research/hm/original-resolution-raw-block-chart-bound/PROOF.md"
+    },
+    {
+      "pr": 333,
+      "commit": "b3c3fca8a9fcbbd91a3dfdbbd8de775952499540",
+      "path": "research/hm/original-resolution-raw-block-chart-bound/SOURCE-CLOSURE.md",
+      "git_blob": "44b646da8356f3662e3c47282fb3ef819a95316b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b3c3fca8a9fcbbd91a3dfdbbd8de775952499540/research/hm/original-resolution-raw-block-chart-bound/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/ERRATUM.md",
+      "git_blob": "10de794a125d7b9fa0902c2f6ff96d040c67b015",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/ERRATUM.md"
+    },
+    {
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "81abf19fdb640e7d5c5206f640fd503c5613ad79",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/PROOF.md",
+      "git_blob": "38668d9700086c46c8689b8745bad022b8fd0980",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/PROOF.md"
+    },
+    {
+      "pr": 351,
+      "commit": "40773089230854495edbf697f1838c181867496a",
+      "path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/SOURCE-CLOSURE.md",
+      "git_blob": "c2afc942342cbaf36ea946306562853d4f42aa88",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/40773089230854495edbf697f1838c181867496a/research/hm/original-resolution-structural-raw-closure-premise-authentication/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 362,
+      "commit": "b1737be2abe6a679636c358cbef8468e9cf44341",
+      "path": "research/hm/original-resolution-full-source-character/IMMUTABLE-PREREQUISITES.md",
+      "git_blob": "a198f2964c9abce41cef6b8337b7f111bbfe376f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b1737be2abe6a679636c358cbef8468e9cf44341/research/hm/original-resolution-full-source-character/IMMUTABLE-PREREQUISITES.md"
+    },
+    {
+      "pr": 362,
+      "commit": "b1737be2abe6a679636c358cbef8468e9cf44341",
+      "path": "research/hm/original-resolution-full-source-character/PROOF.md",
+      "git_blob": "1fd863feb756e6d51b7c0c68b235e3ff1fb5a104",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b1737be2abe6a679636c358cbef8468e9cf44341/research/hm/original-resolution-full-source-character/PROOF.md"
+    },
+    {
+      "pr": 362,
+      "commit": "b1737be2abe6a679636c358cbef8468e9cf44341",
+      "path": "research/hm/original-resolution-full-source-character/SOURCE-CLOSURE.md",
+      "git_blob": "2c477a9f01673be1df8b3e4235b6b01659ef996f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b1737be2abe6a679636c358cbef8468e9cf44341/research/hm/original-resolution-full-source-character/SOURCE-CLOSURE.md"
+    },
+    {
+      "pr": 404,
+      "commit": "831c290c4d5b212232e4b332e6c96cd8cd667a91",
+      "path": "research/hm/coarse-atlas-refinement/PROOF.md",
+      "git_blob": "233bdde0580cf631c9d69a87e71ba15e93b23db7",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/831c290c4d5b212232e4b332e6c96cd8cd667a91/research/hm/coarse-atlas-refinement/PROOF.md"
+    },
+    {
+      "pr": 402,
+      "commit": "1b840f681c0947ed9fc908aa80ccd4a33668a4d1",
+      "path": "research/hm/detector-exclusions/characteristic-trace-route/PROOF.md",
+      "git_blob": "68f7213a45f4d37d55ebd0c409f67ef8c660ba0d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1b840f681c0947ed9fc908aa80ccd4a33668a4d1/research/hm/detector-exclusions/characteristic-trace-route/PROOF.md"
+    },
+    {
+      "pr": 406,
+      "commit": "e0fe559f37b740bd5a5703df45a93d7228bc5cf9",
+      "path": "research/hm/detector-exclusions/mixed-atiyah-constraints/PROOF.md",
+      "git_blob": "00a121e49bdc6b34cc4ab6de346d5482c613cf94",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e0fe559f37b740bd5a5703df45a93d7228bc5cf9/research/hm/detector-exclusions/mixed-atiyah-constraints/PROOF.md"
+    }
+  ]
+}
