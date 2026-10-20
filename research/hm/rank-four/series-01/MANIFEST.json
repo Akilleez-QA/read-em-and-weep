@@ -1,0 +1,92 @@
+[
+  {
+    "source": "normalizer-small-curve-exclusion/ADDENDUM_DEGREE_30.md",
+    "source_sha256": "32927ab8d3d7acd4d29bb1a47c886b23f3e468d1a8c834402f97ab0a024568ed",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/ADDENDUM_DEGREE_30.md",
+    "sha256": "32927ab8d3d7acd4d29bb1a47c886b23f3e468d1a8c834402f97ab0a024568ed"
+  },
+  {
+    "source": "normalizer-small-curve-exclusion/AUDIT.md",
+    "source_sha256": "22695f184d86f5eb8eed21e52a7d7a8cba0c324d05b447ff4791139de6ab1596",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/AUDIT.md",
+    "sha256": "22695f184d86f5eb8eed21e52a7d7a8cba0c324d05b447ff4791139de6ab1596"
+  },
+  {
+    "source": "normalizer-small-curve-exclusion/DEGREE_30_AUDIT.md",
+    "source_sha256": "3d93c8aa74487c7be060b7529f49b20da1541226bdf932f933cb88edb0dcde54",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/DEGREE_30_AUDIT.md",
+    "sha256": "3d93c8aa74487c7be060b7529f49b20da1541226bdf932f933cb88edb0dcde54"
+  },
+  {
+    "source": "normalizer-small-curve-exclusion/PROOF.md",
+    "source_sha256": "59cc51fa0a3b8fe205b2aeb9a7591d1ab47ebdbd728badf8cc36bc705e6c6e2d",
+    "path": "research/hm/rank-four/normalizer-small-curve-exclusion/PROOF.md",
+    "sha256": "59cc51fa0a3b8fe205b2aeb9a7591d1ab47ebdbd728badf8cc36bc705e6c6e2d"
+  },
+  {
+    "source": "rank-three-curve-constraints/AUDIT.md",
+    "source_sha256": "750c6ce9bfe75fc88384feb671e7a811ab26fb6d15355c89817832bb8cfc884c",
+    "path": "research/hm/rank-four/rank-three-curve-constraints/AUDIT.md",
+    "sha256": "750c6ce9bfe75fc88384feb671e7a811ab26fb6d15355c89817832bb8cfc884c"
+  },
+  {
+    "source": "rank-three-curve-constraints/PROOF.md",
+    "source_sha256": "b758defff0a4652f9e8237c4738736b49980f7becdec8e0701f9562d847bd2ea",
+    "path": "research/hm/rank-four/rank-three-curve-constraints/PROOF.md",
+    "sha256": "b758defff0a4652f9e8237c4738736b49980f7becdec8e0701f9562d847bd2ea"
+  },
+  {
+    "source": "rank-three-line-rank-constancy/AUDIT.md",
+    "source_sha256": "7ecb463e227236bb994dab970d1d9ed8e704db16693d6e6530e2e4220623c55c",
+    "path": "research/hm/rank-four/rank-three-line-rank-constancy/AUDIT.md",
+    "sha256": "7ecb463e227236bb994dab970d1d9ed8e704db16693d6e6530e2e4220623c55c"
+  },
+  {
+    "source": "rank-three-line-rank-constancy/PROOF.md",
+    "source_sha256": "f5548bb476390f8f207d43f20ea35b9dcf23043d7c99a65d07f2a0e5d095a8e7",
+    "path": "research/hm/rank-four/rank-three-line-rank-constancy/PROOF.md",
+    "sha256": "f5548bb476390f8f207d43f20ea35b9dcf23043d7c99a65d07f2a0e5d095a8e7"
+  },
+  {
+    "source": "canonical-line-parity-exclusion/AUDIT.md",
+    "source_sha256": "18be382fd6d697cf8f32fa2b2f362760aa73bd07d02aac36c23315dd8637942f",
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/AUDIT.md",
+    "sha256": "18be382fd6d697cf8f32fa2b2f362760aa73bd07d02aac36c23315dd8637942f"
+  },
+  {
+    "source": "canonical-line-parity-exclusion/PROOF.md",
+    "source_sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0",
+    "path": "research/hm/rank-four/canonical-line-parity-exclusion/PROOF.md",
+    "sha256": "8274eb77ca4ab61f35632f994a8d3c0eaf9d4b260f42513c2e41bff3c7d564e0"
+  },
+  {
+    "source": "rank-three-250-plane-exclusion/ADDENDUM.md",
+    "source_sha256": "44476fd9a1bd1030d3edccd1676920617c4e4b3b6b7d13bda1cf2275f354c1df",
+    "path": "research/hm/rank-four/rank-three-250-plane-exclusion/ADDENDUM.md",
+    "sha256": "44476fd9a1bd1030d3edccd1676920617c4e4b3b6b7d13bda1cf2275f354c1df"
+  },
+  {
+    "source": "rank-three-250-plane-exclusion/AUDIT.md",
+    "source_sha256": "deae62827dd8cffd476a2dae9e9e20fa7b42ec436fa736b40ea685f0ccef4b08",
+    "path": "research/hm/rank-four/rank-three-250-plane-exclusion/AUDIT.md",
+    "sha256": "10a7bbdd6177c18c44a9bc79012925007174da60874da377c72e0964274edfe2"
+  },
+  {
+    "source": "rank-three-250-plane-exclusion/PROOF.md",
+    "source_sha256": "67dc09e41063999573a9efd687d14a54970ba6f5bc7f8e55637e6543712f48cb",
+    "path": "research/hm/rank-four/rank-three-250-plane-exclusion/PROOF.md",
+    "sha256": "67dc09e41063999573a9efd687d14a54970ba6f5bc7f8e55637e6543712f48cb"
+  },
+  {
+    "source": "canonical-line-rank-five-strengthening/AUDIT.md",
+    "source_sha256": "3619466f3dfd85b69ee5bc6e9403f7f0882f5244554d682c8871297a7c4ddbd5",
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/AUDIT.md",
+    "sha256": "df51c3a4006aa48f4c1a236bb6b453290487b048ec0dcd1c1174a0295a7c7250"
+  },
+  {
+    "source": "canonical-line-rank-five-strengthening/PROOF.md",
+    "source_sha256": "f5324e40657845d11408162d408ad9164fd32e11ef07ea52aab900ad44fb8b4e",
+    "path": "research/hm/rank-four/canonical-line-rank-five-strengthening/PROOF.md",
+    "sha256": "a529f7596eee619dde6e94d9f418f709289ecd2d689004fced54280c0ff656fa"
+  }
+]
