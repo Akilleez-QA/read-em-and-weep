@@ -1,0 +1,36 @@
+[
+  {
+    "manuscript_id": "S067",
+    "cluster": "effective-collision-bound",
+    "unit": "05",
+    "additional_application_units": [],
+    "inventory_proof": "effective-collision-bound/PROOF.md",
+    "inventory_sha256": "026d9a0c21227a9120f9fc4e392a54f7786d2bec1b7f01a6557093783a67d7c9",
+    "actual_proof_sha256": "026d9a0c21227a9120f9fc4e392a54f7786d2bec1b7f01a6557093783a67d7c9",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "No actual source ideal membership is proved. Bound thirteen is conservative and superseded as a sufficient threshold by the sharper supporting result."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S085",
+    "cluster": "finite-collision-detection",
+    "unit": "05",
+    "additional_application_units": [],
+    "inventory_proof": "finite-collision-detection/PROOF.md",
+    "inventory_sha256": "2b0871fa33f6daf51c6c5abd62cc249f5ff60c94c12cc71e2a437391b0b03c97",
+    "actual_proof_sha256": "2b0871fa33f6daf51c6c5abd62cc249f5ff60c94c12cc71e2a437391b0b03c97",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "The regular exhaustive three-coordinate transport and injective constant comparisons from full-target-collision-criterion remain explicit source-identification premises."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
