@@ -1,0 +1,30 @@
+[
+  {
+    "public_path": "research/conductor-normalization/discriminant-normalization-conductor/PROOF.md",
+    "public_sha256": "c4512e49823fd3f21a85202568bdfd6f1292d03aefb7183610945a9264b45264",
+    "source": "discriminant-normalization-conductor/PROOF.md",
+    "source_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "treatment": "core through section 4"
+  },
+  {
+    "public_path": "research/conductor-normalization/discriminant-normalization-conductor/AUDIT.md",
+    "public_sha256": "5036abd3d560630d61ea1947333fe29ee2d784a40d388fd18408ac3773446f66",
+    "source": "discriminant-normalization-conductor/AUDIT.md",
+    "source_sha256": "260e2d3f2badefc567505b7f25809004000d45b7d9f5f2ada58e37e796776ba8",
+    "treatment": "geometric audit; polar application separated"
+  },
+  {
+    "public_path": "research/conductor-normalization/explicit-conductor-covariant/PROOF.md",
+    "public_sha256": "d9a2bc898582a4118c4d83748f650ef4800b3720cbba62199e32dd0586f03986",
+    "source": "explicit-conductor-covariant/PROOF.md",
+    "source_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "treatment": "core through section 4"
+  },
+  {
+    "public_path": "research/conductor-normalization/explicit-conductor-covariant/AUDIT.md",
+    "public_sha256": "22132b9c087b38c567bd359b7a3302b107071f4dbfdd65201784f9314cec93aa",
+    "source": "explicit-conductor-covariant/AUDIT.md",
+    "source_sha256": "d25680dd029852847b5c9b4cc5952610ae5473b9c65319ff6d4f2d38b25ca124",
+    "treatment": "geometric review through section 4; application verdict relocated"
+  }
+]

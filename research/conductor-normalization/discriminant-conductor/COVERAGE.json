@@ -1,0 +1,40 @@
+[
+  {
+    "manuscript_id": "S062",
+    "cluster": "discriminant-normalization-conductor",
+    "unit": "02",
+    "additional_application_units": [
+      "06"
+    ],
+    "inventory_proof": "discriminant-normalization-conductor/PROOF.md",
+    "inventory_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "actual_proof_sha256": "24e74d9ae3ef9d6400812fda64ad2ed2d7b2df041534b6360f48eb7b658d7509",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "pure geometric core ready; applications held as separately stated",
+    "held_actual_claims": [
+      "No hold on geometric core. Separate polar application requires its principal-parts framework; source identification is not part of the theorem."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S075",
+    "cluster": "explicit-conductor-covariant",
+    "unit": "02",
+    "additional_application_units": [
+      "09"
+    ],
+    "inventory_proof": "explicit-conductor-covariant/PROOF.md",
+    "inventory_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "actual_proof_sha256": "b2c2e2abcdf6dd53ab1f06e120a7563804acbb755db0e109722cb3e4b8ef4db4",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "pure geometric core ready; applications held as separately stated",
+    "held_actual_claims": [
+      "No hold on polynomial core. Actual module pairing, primary-defect and endpoint identifications are separate inputs in unit09."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
