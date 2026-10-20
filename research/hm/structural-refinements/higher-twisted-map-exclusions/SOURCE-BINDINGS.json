@@ -1,0 +1,34 @@
+[
+  {
+    "claim": "S124",
+    "source_file": "higher-twisted-map-exclusions/AUDIT.md",
+    "source_sha256": "3975cc5301ae79c353ad2738298ae1157a2f432791f9e936b069d89fb54b1e95",
+    "public_path": "research/hm/structural-refinements/higher-twisted-map-exclusions/AUDIT.md",
+    "public_sha256": "4ef227d7b846c644c079fe1bb7917b4308a48a9dcd49bca1a6fca8ea79cbe7c8",
+    "public_git_blob_sha1": "593408b7ded0c4464ee26ecb1376c05c4929dbcc"
+  },
+  {
+    "claim": "S124",
+    "source_file": "higher-twisted-map-exclusions/PROOF.md",
+    "source_sha256": "65ff943a2803afa8680e31d6a8bb963d917d7a30cef663de9c2bd4eadff4d6c4",
+    "public_path": "research/hm/structural-refinements/higher-twisted-map-exclusions/PROOF.md",
+    "public_sha256": "978deeedef0688991a5304a6fcf50fdc206ad58bbbae3f67c23aa9afabf149bb",
+    "public_git_blob_sha1": "2996b13c361253107b3885d30859b20120a71dd8"
+  },
+  {
+    "claim": "S124",
+    "source_file": "higher-twisted-map-exclusions/README.md",
+    "source_sha256": "7a199dd42ac6a73dde794da9e572c8c60ab0e51d8242da6a6c419bb8e67b3755",
+    "public_path": "research/hm/structural-refinements/higher-twisted-map-exclusions/README.md",
+    "public_sha256": "7a199dd42ac6a73dde794da9e572c8c60ab0e51d8242da6a6c419bb8e67b3755",
+    "public_git_blob_sha1": "786d1da80caa4b907a4e0c388d051bb473aea787"
+  },
+  {
+    "claim": "S124",
+    "source_file": "higher-twisted-map-exclusions/SOURCE_STATUS.md",
+    "source_sha256": "e845412f160b0b249059a73cd4cc69c81b7510f317042df764ed83997dd84634",
+    "public_path": "research/hm/structural-refinements/higher-twisted-map-exclusions/SOURCE_STATUS.md",
+    "public_sha256": "c1266fbbbeb478c267269112976a0d8c548f129d1f87f16f134288e67d80b17b",
+    "public_git_blob_sha1": "8021059457e1a129f771feb6015706c225135830"
+  }
+]
