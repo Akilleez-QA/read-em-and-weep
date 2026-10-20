@@ -1,0 +1,119 @@
+{
+  "records": [
+    {
+      "path": "README.md",
+      "original_sha256": "e51c78ead7c4d2addae47cda82f1db500db1c1b56fdf14da9b00da48e52c4b47",
+      "public_sha256": "a34d3d2546778a8b54f45266deb726535846debaafbb3f31e00eabd596ebe5ac",
+      "path_normalized": true
+    },
+    {
+      "path": "recheck.sh",
+      "original_sha256": "428a205fd88d90e5fe69e143bb101ad9f4ae98961d4bd10c620293b78d65e574",
+      "public_sha256": "422ed81111467b39d27a7692421694296e87f974d0b7d87a797b8aaebd0dd8ed",
+      "path_normalized": true
+    },
+    {
+      "path": "AUDIT.md",
+      "original_sha256": "031098b7722520dff714bdee2f3cb6558d7d8d1b0a2144885e9f94911bf05838",
+      "public_sha256": "031098b7722520dff714bdee2f3cb6558d7d8d1b0a2144885e9f94911bf05838",
+      "path_normalized": false
+    },
+    {
+      "path": "bridge.compile.exit",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "public_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path_normalized": false
+    },
+    {
+      "path": "SelectorLaurentBridge.lean",
+      "original_sha256": "6d0a2b06c7ccc5eb52b8321364e27a4bfea4e20aad61501e077842b101732cac",
+      "public_sha256": "6d0a2b06c7ccc5eb52b8321364e27a4bfea4e20aad61501e077842b101732cac",
+      "path_normalized": false
+    },
+    {
+      "path": "recheck.exit",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "public_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path_normalized": false
+    },
+    {
+      "path": "ResidueBridge.lean",
+      "original_sha256": "f90f3b54a4e9f97d9109bdb67decb4ef9c881704c80d7b6cec5cf8ed52923846",
+      "public_sha256": "f90f3b54a4e9f97d9109bdb67decb4ef9c881704c80d7b6cec5cf8ed52923846",
+      "path_normalized": false
+    },
+    {
+      "path": "model.compile.log",
+      "original_sha256": "9dfc2cc9a468c5f35ab8ca27ea9735e49a5607ea7605dd663a720003f9f88ef6",
+      "public_sha256": "9dfc2cc9a468c5f35ab8ca27ea9735e49a5607ea7605dd663a720003f9f88ef6",
+      "path_normalized": false
+    },
+    {
+      "path": "recheck.log",
+      "original_sha256": "66e449bb5d7e0e1b1e9556ad49bff5c3c01fb4eb879e2dcf70d1150ef38e7eea",
+      "public_sha256": "7c3c43393a3d7b4986646d22710f9381220cd16326af108a44abd086e43db5dc",
+      "path_normalized": true
+    },
+    {
+      "path": "bridge.compile.log",
+      "original_sha256": "a67b26267100274d5f70b5fcc79ccf4b78c6f42d9655b69ec4ae6ad85357baf4",
+      "public_sha256": "0c05a1763de6c1daa8bd2ce8276bf28839b959d7a1c84eafe1becc8d71d72a4a",
+      "path_normalized": true
+    },
+    {
+      "path": "residue/Evidence.lean",
+      "original_sha256": "5e752ceab64d47b0275a46ed11aac4ab9eb29868591d9d36b2fe2a3c76c5dd52",
+      "public_sha256": "5e752ceab64d47b0275a46ed11aac4ab9eb29868591d9d36b2fe2a3c76c5dd52",
+      "path_normalized": false
+    },
+    {
+      "path": "residue/residue_term.lean",
+      "original_sha256": "4c48ba3cb4be80affa460bc725281e289ed1fb8f26d21fd93c94a819b4ccccf2",
+      "public_sha256": "4c48ba3cb4be80affa460bc725281e289ed1fb8f26d21fd93c94a819b4ccccf2",
+      "path_normalized": false
+    },
+    {
+      "path": "residue/missing_face_zero.lean",
+      "original_sha256": "d0158da3218a964f10c8aa98c43c7dab734ea0eadb6b50bea99ef26351fb9c3b",
+      "public_sha256": "d0158da3218a964f10c8aa98c43c7dab734ea0eadb6b50bea99ef26351fb9c3b",
+      "path_normalized": false
+    },
+    {
+      "path": "audit/independent-rebuild.exit",
+      "original_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "public_sha256": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "path_normalized": false
+    },
+    {
+      "path": "audit/independent-rebuild.log",
+      "original_sha256": "b1e39d7ed6dae6bc1252b81e72e0e17333e8b9abf7b7928d28bdbf24e619c893",
+      "public_sha256": "e8e13993f599bdb2c0e3c33bd71d311160aab57c32052c8e57ad87fb97bd1fc4",
+      "path_normalized": true
+    },
+    {
+      "path": "audit/rebuild.sh",
+      "original_sha256": "0da7f353b0717761129b18f6280ea82aea0c4c2149f3c9e503aeac61a8da9926",
+      "public_sha256": "85adc5ce1b24762336bd67e20eada627a17dc5b597921c4975a5710587e7460f",
+      "path_normalized": true
+    },
+    {
+      "path": "audit/source-binding.json",
+      "original_sha256": "10e28750cff610514c9d9002977aba34eb495d761d52521a851addb234afbca9",
+      "public_sha256": "d9afe601fbcc73116026e16232132fc05eddc7f0bcf5608313858bd27ff73194",
+      "path_normalized": true
+    },
+    {
+      "path": "lean-toolchain",
+      "original_sha256": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
+      "public_sha256": "302cd63c54178885b89e669f33b38f12f4dd7ae7e5cac537b3203e3768d8fb2b",
+      "path_normalized": false
+    },
+    {
+      "path": "lake-manifest.json",
+      "original_sha256": "1855c8d7909390a1e52c6622f3bb8252f75a2ec918241bf80dab3dcc8673d41c",
+      "public_sha256": "1855c8d7909390a1e52c6622f3bb8252f75a2ec918241bf80dab3dcc8673d41c",
+      "path_normalized": false
+    }
+  ],
+  "note": "Original/public_sha256 records bind first path-normalized copies. README receives a publication banner and shell-script filenames receive .historical.txt suffixes. manifest.json is authoritative for final published paths and bytes. Lean source bytes are unchanged."
+}
