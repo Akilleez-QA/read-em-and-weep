@@ -1,0 +1,30 @@
+[
+  {
+    "public_path": "research/conductor-normalization/simple-pole-cofactor-comparison/PROOF.md",
+    "public_sha256": "81866eb7a296519854effdd593130a58c364170008a8579d3be282267656c876",
+    "source": "simple-pole-cofactor-comparison/PROOF.md",
+    "source_sha256": "d216c43924e1242670c8cd97ae945757a01e036b7822ff76ac3f582af708903b",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/simple-pole-cofactor-comparison/AUDIT.md",
+    "public_sha256": "01eacb26799831a398ff1038b1d90cac1abc9cc65b8940fd66622147b798f508",
+    "source": "simple-pole-cofactor-comparison/AUDIT.md",
+    "source_sha256": "f90e3ab85e1d0686ad9735af667354458f153bc58276e29ba1e8b8bc0396ec5b",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/conductor-double-conic-intersection/PROOF.md",
+    "public_sha256": "ddbf23b70b22440447c38ca39ec1159d06b7d079c9a1cca2c193ef172a906426",
+    "source": "conductor-double-conic-intersection/PROOF.md",
+    "source_sha256": "6fa35c15f46e37e72e05d52b4bf6535368475282fb8abc2e035ea2f9d1ab8fd6",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/conductor-double-conic-intersection/AUDIT.md",
+    "public_sha256": "bb61ce13b267a992890386e2a66dc2827a32029ef705a63fe157880aefd23ca4",
+    "source": "conductor-double-conic-intersection/AUDIT.md",
+    "source_sha256": "c6f43e88a759a4b2c4ebd741a23ba4e2e44627d33fa3dae233b70366e646487a",
+    "treatment": "complete"
+  }
+]
