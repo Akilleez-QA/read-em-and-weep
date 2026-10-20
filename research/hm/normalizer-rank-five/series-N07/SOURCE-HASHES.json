@@ -1,0 +1,51 @@
+[
+  {
+    "source_artifact": "exceptional-sylow-kernel-constraint/AUDIT.md",
+    "original_sha256": "3e3294d816ded244d43d93dec1a51aa5fa916cc77881ac782778f10044464bb4",
+    "public_sha256": "3e3294d816ded244d43d93dec1a51aa5fa916cc77881ac782778f10044464bb4",
+    "path": "research/hm/normalizer-rank-five/exceptional-sylow-kernel-constraint/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "exceptional-sylow-kernel-constraint/PROOF.md",
+    "original_sha256": "ea1ac73d281bec77ac6f7485147d43530a8f8bb4fc5aed14aba7415d9f453fd8",
+    "public_sha256": "ea1ac73d281bec77ac6f7485147d43530a8f8bb4fc5aed14aba7415d9f453fd8",
+    "path": "research/hm/normalizer-rank-five/exceptional-sylow-kernel-constraint/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "exceptional-incidence-dependency/AUDIT.md",
+    "original_sha256": "b6a1db341c9474dd052154e68998136f0d1a368f50d64e25db31c5d362abd957",
+    "public_sha256": "b6a1db341c9474dd052154e68998136f0d1a368f50d64e25db31c5d362abd957",
+    "path": "research/hm/normalizer-rank-five/exceptional-incidence-dependency/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "exceptional-incidence-dependency/INDEPENDENT_AUDIT.md",
+    "original_sha256": "d6cba1729c39747fe030eb39bd3cca45b610f5448db4ad513ca794d8dd421847",
+    "public_sha256": "4a670b042e8cfe68a10e2a0b75e8d8f137932c272a6ba2c48e5238280598ee32",
+    "path": "research/hm/normalizer-rank-five/exceptional-incidence-dependency/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "exceptional-incidence-dependency/PROOF.md",
+    "original_sha256": "6fa8a0753823a372383ffebb5385efaa38bdc2e80bb279b6899b59d201cc37ec",
+    "public_sha256": "bbf80eda8ccce73c3d394951cb8f91bfd27b575ea5bda607f56f881c4d7f6c1f",
+    "path": "research/hm/normalizer-rank-five/exceptional-incidence-dependency/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "rank-five-local-sharpness/INDEPENDENT_AUDIT.md",
+    "original_sha256": "d312e3f24963d7bf58aab254ba7d7ade3be4b47995f7d4a2b639045763260d1e",
+    "public_sha256": "d312e3f24963d7bf58aab254ba7d7ade3be4b47995f7d4a2b639045763260d1e",
+    "path": "research/hm/normalizer-rank-five/rank-five-local-sharpness/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-five-local-sharpness/PROOF.md",
+    "original_sha256": "a64c9b8685fce7c8858e3bc756cae6a33709a566c7c1358e93ea4be42b955ef6",
+    "public_sha256": "2ef816aa3754f75f529a370d930890eff164dc493286133e9993494425050eb2",
+    "path": "research/hm/normalizer-rank-five/rank-five-local-sharpness/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
