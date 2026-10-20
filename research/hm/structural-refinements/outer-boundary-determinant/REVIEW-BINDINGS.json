@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "PASS under the stated premises",
+  "proof_sha256": "81e9ceb085a7fd6fb6e557cc24e72b8173ee08a15be3d3aea5a3f54fc93d87ce",
+  "files": [
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/AUDIT.md",
+      "sha256": "dff06bd25d2347df7cdf6ad0e43337adf5d38790fcc6de2bfc085ec464b440f2",
+      "git_blob_sha1": "637beffef735239a90ba2512a1932483353c7c83"
+    },
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/PROOF.md",
+      "sha256": "81e9ceb085a7fd6fb6e557cc24e72b8173ee08a15be3d3aea5a3f54fc93d87ce",
+      "git_blob_sha1": "4ef8a2439fcb9618b0465e58ef194e1a21877078"
+    },
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/CURRENT-SCOPE.md",
+      "sha256": "eb8d58ae062d05a4a41fecd9a62a1286982b12430b296713ffd8d0c451fb023b",
+      "git_blob_sha1": "9527c4a10a1bad40de654a08ce58b474ca052179"
+    },
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/DEPENDENCIES.json",
+      "sha256": "f5e41c8abc11a70eecd115ffc46039b8ebb997e36648a2a2ec2ef592d0ca8658",
+      "git_blob_sha1": "db9f35e328045c0467b8fedbfba94ce6e168df3d"
+    },
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/SOURCE-BINDINGS.json",
+      "sha256": "646d00f397a8e1264315d19211dcc486559e54f80944d9d016bc906b8679b6dc",
+      "git_blob_sha1": "09b4ee8d4760fb4c05c95a7a29b1b5f8cbc18a9b"
+    },
+    {
+      "path": "research/hm/structural-refinements/outer-boundary-determinant/CURRENT-AUDIT.md",
+      "sha256": "8ef82602d1a16d9b1d9c5b246aeffc77d27b34d3b46a2692e36709baa21bc3bb",
+      "git_blob_sha1": "71d3c938cf1973beed586fd42f80b213ad8e200a"
+    }
+  ]
+}
