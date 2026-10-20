@@ -1,0 +1,60 @@
+{
+  "audit_sha256": "483cf527251d9ee341cf3368cab141cc3735833166fbb88974f8b9f43c87afa4",
+  "reviewed_payload": [
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/CLEAN-EXTRACTION.md",
+      "sha256": "5a009f3036c3eb6049ddc7183952bfaa3fdb333c2c6b33ac877e918775b186d3",
+      "bytes": 1518
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/DEPENDENCIES.md",
+      "sha256": "90597a11a44eb6807adaf2b5cbd11548759de40418337f7836986f05847c5213",
+      "bytes": 1768
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROOF.md",
+      "sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+      "bytes": 13265
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROVENANCE.md",
+      "sha256": "cb93de0c879b8ca6f2d68c85e960dd1605680d39d97c8ed5390e4b70665f9faa",
+      "bytes": 2239
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PUBLICATION.md",
+      "sha256": "e19e6e4978a003b57a323e19bce2daf3abc3c299c33fba2e4e880891bf37dcab",
+      "bytes": 1039
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/REVIEW.md",
+      "sha256": "cea080d567494984ae41a88a57bcb5741e781065d8289e37422b202e5664e44a",
+      "bytes": 8769
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/SOURCE-BINDINGS.json",
+      "sha256": "ef45a56502bb269d393f1a8a031dba10945ecaa14cab5ee2f15aa839c9e3fade",
+      "bytes": 3280
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/check_freeword.py",
+      "sha256": "373a0ceb33df0a0b7331aa5d20dd9081433378df4b3d63fa0d593e9ff6170f71",
+      "bytes": 6364
+    },
+    {
+      "unit": "04",
+      "path": "research/hm/structural-boundaries/same-pair-ordinary-twist/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "ef3f3103d8f5a95743290faac9e625d9b28fab220fc10d203dd24b50de5d124d",
+      "bytes": 15554
+    }
+  ],
+  "review_scope": "04-08"
+}
