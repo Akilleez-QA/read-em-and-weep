@@ -1,0 +1,38 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "same-pair-scalar-twist-side-exclusion-20261018/PROOF.md",
+      "source_sha256": "bf370e58da16c4458e1635869c0f0480b88a2b46e0c969d30da43b8021b254e7",
+      "public_path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/PROOF.md",
+      "public_sha256": "bf370e58da16c4458e1635869c0f0480b88a2b46e0c969d30da43b8021b254e7",
+      "role": "primary_proof",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "same-pair-scalar-twist-side-exclusion-20261018/REVIEW.md",
+      "source_sha256": "5ab5b1f3b6392e25b650857fa42ef43bc0a3c24afd4b966d1b6ca566ffbc5d40",
+      "public_path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/REVIEW.md",
+      "public_sha256": "749be2d8502b74dfab1abba7782e23068fb98254bd04bd57ae9c3e1926ad69df",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "same-pair-scalar-twist-side-exclusion-20261018/check_formal_controls.py",
+      "source_sha256": "73a7446b3bc7a2d3b957e17981970cf098bfae2fa2354899f40b7861d370c913",
+      "public_path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/check_formal_controls.py",
+      "public_sha256": "73a7446b3bc7a2d3b957e17981970cf098bfae2fa2354899f40b7861d370c913",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "same-pair-scalar-twist-side-exclusion-20261018/check_review_controls.py",
+      "source_sha256": "e46528d81e6552a905ae79a1d2fa57b5f2b2bbf9fd6f371537e53b76ed78479d",
+      "public_path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/check_review_controls.py",
+      "public_sha256": "0a62e58dbd838a181799ddaf0f4959897f4e829790e53610df66b96c0425c138",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
