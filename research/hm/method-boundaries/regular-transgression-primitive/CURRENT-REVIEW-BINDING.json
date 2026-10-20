@@ -1,0 +1,29 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "scoped PASS",
+  "review_kind": "Independent static mathematical and public-source review; no source-instance evaluation or executable control rerun.",
+  "hash_algorithm": "SHA-256 over exact UTF-8 file bytes",
+  "reviewed_files": [
+    {
+      "path": "research/hm/method-boundaries/regular-transgression-primitive/PROOF.md",
+      "sha256": "eb8c025d5c9c06ea259d95fefd9b2de13945b98586a0f91f7587373ce8a07d4c"
+    },
+    {
+      "path": "research/hm/method-boundaries/regular-transgression-primitive/AUDIT.md",
+      "sha256": "077387e8064fca50f66ed635c097df90e136c91b0d501a7b332f6e210879c011"
+    },
+    {
+      "path": "research/hm/method-boundaries/regular-transgression-primitive/SCOPE.md",
+      "sha256": "b952ed976676382899462f44fefae052bb3e1fc4c74974a86ca7053e371c5a7c"
+    },
+    {
+      "path": "research/hm/method-boundaries/regular-transgression-primitive/CURRENT-INDEPENDENT-REVIEW.md",
+      "sha256": "45ebdf6c52c58c0dfca5f60c6bb5ff672370092eb6ef2d43751b494318213d3f"
+    },
+    {
+      "path": "research/hm/method-boundaries/regular-transgression-primitive/IMMUTABLE-DEPENDENCIES.json",
+      "sha256": "76c8ae34537b1187d9a4f8ea603cac4d265b0d0ee66bc0a9f628c0defb60566c"
+    }
+  ],
+  "self_binding": "This manifest omits its own hash. The enclosing Git commit binds the full manifest."
+}
