@@ -1,0 +1,99 @@
+{
+  "primary_historical_sha256": "8250fc413d5c640d5ec6c58380fa3b8da5a1ae216f7516d2ba32f81aba172787",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "role": "primary proof",
+      "historical_sha256": "8250fc413d5c640d5ec6c58380fa3b8da5a1ae216f7516d2ba32f81aba172787",
+      "public_sha256": "1feda07561501493ececefac5fce12ade6e514e4ef68e69c71dbeb16ae032e88",
+      "presentation_changes": true
+    },
+    {
+      "path": "audit/REVIEW.md",
+      "role": "historical scientific audit",
+      "historical_sha256": "bb22c0921f46d233cd98aab8b5a661fde1021a38c29f91009b83cb77a7514d1a",
+      "public_sha256": "b63a7cf634ac183698408212225ee3f8b7d0108b1c2aeb957d3af79a14865c3a",
+      "presentation_changes": true
+    }
+  ],
+  "supporting_inputs": [
+    {
+      "source_artifact": "source-pins.json",
+      "sha256": "ed4fb54823d24fd4ae21a9848771817a5a98767cbf7f06970e9a0cd6071eef0b",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "check_owner_ledger.py",
+      "sha256": "5ec5f6a400e201a22b76c814bd99d9b3c22adeb239d0391f85cb96c1bd9f7005",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/homogeneous-PROOF.md",
+      "sha256": "b8d85b3adb79b69953a6ac1d13e69d9aa2e0b679653822af6bd6834cffedb18b",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/homotopy-REVIEW.md",
+      "sha256": "bddb9efb9c76fe4fbfad47f972ebbd0713b19ebace5d7b80b5c5b15f901f8bc7",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/homotopy-PROOF.md",
+      "sha256": "d3b1471814a153f931eedc2309e162195fe3fdbe649dacd6d74ebf85cddd01c3",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/raw-block-PROOF.md",
+      "sha256": "87bad077574e6bedf725c6ef607123ae79a504f212ee66be161fc958fe452cdc",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/transition-REVIEW.md",
+      "sha256": "c71fb3a73fb2b40fe0662e19a82b57df6962c5f264de7d524c8bd7d0b40f5956",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/cancellation-free-PROOF.md",
+      "sha256": "5879ec13f7dfabdb6448792c95c5054a9fdf2f2eba248004105d01c7f3677705",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "dependencies/transition-PROOF.md",
+      "sha256": "b4c3041e8f945df65518f37dd59f92e16d6cd8cc29fd9803d8576daf7c9b99c8",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "audit/check_independent_owner_paths.py",
+      "sha256": "90b840db98f1d2e3233ff429520ad1d796bdcf6cc0d1167bfdffb1964ea0babc",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "audit/normal.json",
+      "sha256": "aef746effc20d78e9dfba1a6707a7497a1011acf1b314ec7d0be3d9f1d5054eb",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "audit/optimized.json",
+      "sha256": "aef746effc20d78e9dfba1a6707a7497a1011acf1b314ec7d0be3d9f1d5054eb",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    },
+    {
+      "source_artifact": "audit/inputs/reviewed-PROOF.md",
+      "sha256": "8250fc413d5c640d5ec6c58380fa3b8da5a1ae216f7516d2ba32f81aba172787",
+      "role": "supporting historical input; not a new theorem",
+      "status": "public source binding or separate prerequisite required"
+    }
+  ]
+}
