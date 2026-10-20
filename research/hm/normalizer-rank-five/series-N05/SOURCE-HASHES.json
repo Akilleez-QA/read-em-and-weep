@@ -1,0 +1,16 @@
+[
+  {
+    "source_artifact": "quaternion-rank-five-coupling-constraint/AUDIT.md",
+    "original_sha256": "acf73a6c2658e32b50cdeaefe85ab358a1f398b7ac8f988cf0a670d8df05a8f1",
+    "public_sha256": "acf73a6c2658e32b50cdeaefe85ab358a1f398b7ac8f988cf0a670d8df05a8f1",
+    "path": "research/hm/normalizer-rank-five/quaternion-rank-five-coupling-constraint/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "quaternion-rank-five-coupling-constraint/PROOF.md",
+    "original_sha256": "8e8a343cecfb092cc65afc65add2a1c19d900206014eb2be94460d77f66ef541",
+    "public_sha256": "8e8a343cecfb092cc65afc65add2a1c19d900206014eb2be94460d77f66ef541",
+    "path": "research/hm/normalizer-rank-five/quaternion-rank-five-coupling-constraint/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
