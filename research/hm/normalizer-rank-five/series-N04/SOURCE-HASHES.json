@@ -1,0 +1,79 @@
+[
+  {
+    "source_artifact": "order-four-rank-five-exclusion/INDEPENDENT_AUDIT.md",
+    "original_sha256": "96afc5585645b46b4d5c07129b1e895582a7d5c00e10e8185cc922eedb4a5c5c",
+    "public_sha256": "df38763052fb29f8b548e8402087b0e0e488ed80472029f1cc3ce744a190d03b",
+    "path": "research/hm/normalizer-rank-five/order-four-rank-five-exclusion/INDEPENDENT_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-four-rank-five-exclusion/PROOF.md",
+    "original_sha256": "f14b82248533531630ab409b9c56545d92aabf0a9ee18c576dadf061d2754166",
+    "public_sha256": "7d8799a102f03b467710bfc2f6531fc859610a841015c09ba78de4521c8c8dab",
+    "path": "research/hm/normalizer-rank-five/order-four-rank-five-exclusion/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "order-three-parity-pencil-rigidity/AUDIT.md",
+    "original_sha256": "68daa9a0a07441d24e3c92bcce69b78dbb2fbcb7fe80f9dab05eb0d7ce64a530",
+    "public_sha256": "68daa9a0a07441d24e3c92bcce69b78dbb2fbcb7fe80f9dab05eb0d7ce64a530",
+    "path": "research/hm/normalizer-rank-five/order-three-parity-pencil-rigidity/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-three-parity-pencil-rigidity/NEXT-STEP.md",
+    "original_sha256": "5916f0fc42f28ad3e3af28447665af11bffdbfc227029bfbb32af247b41d1850",
+    "public_sha256": "5916f0fc42f28ad3e3af28447665af11bffdbfc227029bfbb32af247b41d1850",
+    "path": "research/hm/normalizer-rank-five/order-three-parity-pencil-rigidity/NEXT-STEP.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "order-three-parity-pencil-rigidity/PROOF.md",
+    "original_sha256": "f6bdbe57a267fb7f3b27f69d095c80124a40187fcb55f10559a357ec89e5fc47",
+    "public_sha256": "40a41085c674bedaf6c30f61e4cd7e2b077bf1e58c2bed18edc6019e8e8b9ba0",
+    "path": "research/hm/normalizer-rank-five/order-three-parity-pencil-rigidity/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "order-three-parity-pencil-rigidity/TARGET-AUDIT.md",
+    "original_sha256": "08d3016b93c97f1d21a608ee56fb09e82469858ea1e1a45670951ec3087cfd09",
+    "public_sha256": "15d4c7a439293ddf98e368f94a4e5cbbac99016bf1f1da4ad79da25da4223bb5",
+    "path": "research/hm/normalizer-rank-five/order-three-parity-pencil-rigidity/TARGET-AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-three-parity-pencil-rigidity/TARGET-STRENGTHENING.md",
+    "original_sha256": "c938f9e28986a3e366bd83789cd1b74be35c75e50b91116c4e4f1d827eec7746",
+    "public_sha256": "08cd4d0db00bd1429f02a4ec75dcbaa74ed2f49c70c6f1cae42ae4713d7164f3",
+    "path": "research/hm/normalizer-rank-five/order-three-parity-pencil-rigidity/TARGET-STRENGTHENING.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "order-three-rank-point-bound/AUDIT.md",
+    "original_sha256": "5381544872e718188c7308c4f762ba9093d6b236d4c23810b88c84802e934d4e",
+    "public_sha256": "5381544872e718188c7308c4f762ba9093d6b236d4c23810b88c84802e934d4e",
+    "path": "research/hm/normalizer-rank-five/order-three-rank-point-bound/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-three-rank-point-bound/PROOF.md",
+    "original_sha256": "ae87c7b6d91989af4e1d3da6fab0145e8b83e34918255bb15cced3234c8e6ee4",
+    "public_sha256": "bfac1dab8abf7e5b2a5b570422333f91a7a058ba787572b1e32a4b090d3942f0",
+    "path": "research/hm/normalizer-rank-five/order-three-rank-point-bound/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "order-three-local-coupling-counterconfiguration/AUDIT.md",
+    "original_sha256": "47246426d1dc6c68766757d47fa0c4c0525abee18d0a36f7f7b7ba0c01ac03fe",
+    "public_sha256": "47246426d1dc6c68766757d47fa0c4c0525abee18d0a36f7f7b7ba0c01ac03fe",
+    "path": "research/hm/normalizer-rank-five/order-three-local-coupling-counterconfiguration/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-three-local-coupling-counterconfiguration/PROOF.md",
+    "original_sha256": "0b1f0fe1d9ca4d692f73b4b11b4ec717f8745404455bc7257baa1a13b297b12a",
+    "public_sha256": "0b1f0fe1d9ca4d692f73b4b11b4ec717f8745404455bc7257baa1a13b297b12a",
+    "path": "research/hm/normalizer-rank-five/order-three-local-coupling-counterconfiguration/PROOF.md",
+    "role": "proof_or_control"
+  }
+]

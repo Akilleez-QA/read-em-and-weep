@@ -1,0 +1,42 @@
+[
+  {
+    "source_artifact": "rank-five-curve-classification/PROOF.md",
+    "source_sha256": "e87c7a1a8b3bd572af131eaf4fcf22a73f90393351d5c1af278537f676ed01a2",
+    "path": "research/hm/rank-four/rank-five-curve-classification/PROOF.md",
+    "sha256": "6d5ebb020d120c37c49fed674b718fda85cf4b0080a3ebcdd462f7d70add173a",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "source_artifact": "rank-five-canonical-conic-exclusion/INDEPENDENT_AUDIT.md",
+    "source_sha256": "3e0ce8d43fd28c298e1f7db8f5ff0063d4e2498c540f00bc5c666102f74508ad",
+    "path": "research/hm/rank-four/rank-five-canonical-conic-exclusion/INDEPENDENT_AUDIT.md",
+    "sha256": "48fea5cf18e44a5c6cff032a6831a4b4002fdd83eea70b1af70421aed6c0ec7c",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "source_artifact": "rank-five-canonical-conic-exclusion/PROOF.md",
+    "source_sha256": "d785ba79e0a3847184d9b381755807dd55a55fc7e174d9cc852454e3ab45ebcd",
+    "path": "research/hm/rank-four/rank-five-canonical-conic-exclusion/PROOF.md",
+    "sha256": "e798fe85ed1429085bdf45493a9f87fddecdd5b87732bf7d7ab59ddcf4362203",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "source_artifact": "rank-five-finite-support-constraints/INDEPENDENT_AUDIT.md",
+    "source_sha256": "d8ea7536f35e40268e6afb02d674f96594a2e228cb121b4e9ce47e6ee8f771f5",
+    "path": "research/hm/rank-four/rank-five-finite-support-constraints/INDEPENDENT_AUDIT.md",
+    "sha256": "2eb07a490741af5077ecf1505d0cdce9c8649602d507a9c9a193051c5ea304e5",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  },
+  {
+    "source_artifact": "rank-five-finite-support-constraints/PROOF.md",
+    "source_sha256": "4e738e328a50598202d99fd21c5da1e94c9c706507f98a11c1d89386454c0a80",
+    "path": "research/hm/rank-four/rank-five-finite-support-constraints/PROOF.md",
+    "sha256": "34437b514c96f0a3d011606b69538a66c993f08bcec2b9c237f408dfd83f8125",
+    "series": "publication-rank-four-series",
+    "unit": "10"
+  }
+]
