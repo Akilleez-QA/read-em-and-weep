@@ -1,0 +1,10 @@
+{
+  "proof_sha256": "156551583b7c47d774d9fe7265d6c08dd212652cf28c2624d4395acb60fe5725",
+  "review_status": "Two scoped mathematical reviews pass; not formal verification.",
+  "files": {
+    "INDEPENDENT-REVIEW.md": "78b3d119eef7cee91468a426309512155082ce46aaa050397b137c20f2718eb5",
+    "PROOF.md": "156551583b7c47d774d9fe7265d6c08dd212652cf28c2624d4395acb60fe5725",
+    "README.md": "8fbc943a87c41de0902ea5061372bb586276a07eae699bccdb0e527eba600de9",
+    "ROOT-REVIEW.md": "418cca0efa2957b5c0288e41955ed9a5b413ce2743e040fef035ad5a65c929e8"
+  }
+}
