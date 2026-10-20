@@ -1,0 +1,72 @@
+[
+  {
+    "public_path": "research/conductor-normalization/fourth-ideal-pushforward/PROOF.md",
+    "public_sha256": "a2a3d1f6db7265bf697f324c5c015fed915570ca4a8a1286ef040eca12c879fe",
+    "source": "fourth-ideal-pushforward/PROOF.md",
+    "source_sha256": "9ce10b76777c65cef689dd1fae40b2cd2e2a4452472fe91ec63d8586de9eaf9d",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/fourth-ideal-pushforward/INDEPENDENT-AUDIT.md",
+    "public_sha256": "7fb7a48ab8b31e49e0b738a24b111d6063cdea478ef0903c0815080a4ae7638f",
+    "source": "fourth-ideal-pushforward/INDEPENDENT-AUDIT.md",
+    "source_sha256": "7ee4f2bddbb284050ff907c634e589d6ab8bc68cc31118e4180844cbc308657e",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/fourth-ideal-pushforward/COHOMOLOGY-INDEPENDENT-AUDIT.md",
+    "public_sha256": "9d82aca927dafde34dd117ceddb123d44945e15afae3dfb9774f5773dd64ab28",
+    "source": "fourth-ideal-pushforward/COHOMOLOGY-INDEPENDENT-AUDIT.md",
+    "source_sha256": "1b9e3c7cc98f3295dab038581078343c9ecdd04ab7c9d4a8d070e7544742d7da",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/sixth-ideal-pushforward/PROOF.md",
+    "public_sha256": "faa01bd996132d30437b5894912a4b576e254a7587284dc81e5cf07f84a7627b",
+    "source": "sixth-ideal-pushforward/PROOF.md",
+    "source_sha256": "a04a8ec97cd1257348e55e0ddd1323837dfd4034c2970a30aa33c6998a99a671",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/sixth-ideal-pushforward/ALL-POWERS.md",
+    "public_sha256": "72207c5217283a7f865780ccf831bbbdb41a4b7eaf45cce25ca566bdedacef03",
+    "source": "sixth-ideal-pushforward/ALL-POWERS.md",
+    "source_sha256": "f29d5882d6adcb74e1cc0491aa550df01cd729041112ea0efcc4daddb5a6a301",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/sixth-ideal-pushforward/INDEPENDENT-AUDIT.md",
+    "public_sha256": "ba19c977e7f45ffd6bfe06ce65d9a01faa74d7022c623d615905cf7d0f8771c2",
+    "source": "sixth-ideal-pushforward/INDEPENDENT-AUDIT.md",
+    "source_sha256": "140573bab01a070553580b8f118aa06070015b9f260234a4a5d367771e958ea1",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md",
+    "public_sha256": "f73a87ff5c6bc452f994b7731c891079d256def07273148517f26b59acacf992",
+    "source": "weighted-trace-filtration-audit/WEIGHT-DIFFERENCE-LOCUS.md",
+    "source_sha256": "9427dc3379df904c64a741273dd415065ff117e67966c7184d7a2bffcdb28085",
+    "treatment": "selected existing geometric lemma excerpts; identical public combined file"
+  },
+  {
+    "public_path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md",
+    "public_sha256": "f73a87ff5c6bc452f994b7731c891079d256def07273148517f26b59acacf992",
+    "source": "weighted-koszul-cohomology/PROOF.md",
+    "source_sha256": "1a322e20fbf4e63d8aba46db1119958c58654cd4da3261bef5bee6cf3118b426",
+    "treatment": "selected existing geometric lemma excerpts; identical public combined file"
+  },
+  {
+    "public_path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md",
+    "public_sha256": "f73a87ff5c6bc452f994b7731c891079d256def07273148517f26b59acacf992",
+    "source": "weighted-trace-filtration-audit/TRACE-CORRECTED-SQUARE.md",
+    "source_sha256": "ddbe25c2caf271becf27910c14545f8d4c37e07ff89ad7443c6517ba21d9ac70",
+    "treatment": "selected existing geometric lemma excerpts; identical public combined file"
+  },
+  {
+    "public_path": "research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-HISTORICAL-AUDIT.md",
+    "public_sha256": "d09cd45ad8647af239830572b26a0a91d61cff0c5c3415325249a2f4b193f60e",
+    "source": "weighted-trace-filtration-audit/WEIGHT-DIFFERENCE-LOCUS-INDEPENDENT-AUDIT.md",
+    "source_sha256": "c49edf1a4ea83e62c606a452028bbb4fe4a14cc90250c64b74721f1f579ddc5b",
+    "treatment": "complete"
+  }
+]
