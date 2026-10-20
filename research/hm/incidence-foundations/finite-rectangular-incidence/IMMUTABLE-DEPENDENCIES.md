@@ -1,0 +1,9 @@
+# Immutable mathematical dependency register
+
+This register identifies theorem inputs, not merely Git ancestry. The accompanying proof bytes are unchanged from their reviewed payload. Global dimension conclusions retain H as an additional premise; no actual HM/source-instance evaluation, higher-order lifting, formal verification or algebraicity claim is added.
+
+- fixed-splitting-curve-exclusion/STRONGER.md: [PR 284](https://github.com/Akilleez-QA/read-em-and-weep/pull/284), commit 6a3943c7b75d857d7641511f7dd07b92fb7eae40. [Exact file](https://github.com/Akilleez-QA/read-em-and-weep/blob/6a3943c7b75d857d7641511f7dd07b92fb7eae40/research/hm/incidence-foundations/fixed-splitting-curve-exclusion/STRONGER.md). SHA-256 eba6d92f55030edd310d42077b51d994c4a5c8fd6c594ab3882181c136098e51.
+- extremal-surface-geometry/PROOF.md: [PR 310](https://github.com/Akilleez-QA/read-em-and-weep/pull/310), commit 7f62d4535d0bfca8b2be93b0b4068cfd06fec717. [Exact file](https://github.com/Akilleez-QA/read-em-and-weep/blob/7f62d4535d0bfca8b2be93b0b4068cfd06fec717/research/hm/middle-surface/extremal-surface-geometry/PROOF.md). SHA-256 36ff448834264ee770f5f2c6f18eb9357ae55b46ec84b76fd5ad73441e95d4e6.
+- squarefree-scroll-middle-families/PROOF.md: [PR 323](https://github.com/Akilleez-QA/read-em-and-weep/pull/323), commit 0d5f754e660ee75d1f0bcb1da7fbf383c93e21eb. [Exact file](https://github.com/Akilleez-QA/read-em-and-weep/blob/0d5f754e660ee75d1f0bcb1da7fbf383c93e21eb/research/hm/middle-surface/squarefree-scroll-middle-families/PROOF.md). SHA-256 074c838f786493805a9625c5305cc0da3d14dc64128136f82cb6b4b237344d30.
+
+The antecedents are STRONGER Section 5.1 and extremal-surface-geometry PROOF Sections 1–3. The scroll classification is only the later Section 5 identification, not an input to universal finite polar-pair finiteness.
