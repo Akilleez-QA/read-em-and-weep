@@ -1,0 +1,58 @@
+[
+  {
+    "source_artifact": "length-eleven-local-defect/AUDIT.md",
+    "source_sha256": "2fd4296d460c4055ec689564eef02efd6f60699e0457138867da622ad4efd2f9",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/AUDIT.md",
+    "public_sha256": "6ec77622244775f35a20d017a0164aa6f4612a27b8d01745925901b8f11c8512",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "length-eleven-local-defect/PROOF.md",
+    "source_sha256": "b439298ec8134789f738b56af3c44e18a7c970f3984a7ba6fce36a15ba7bb7f5",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/PROOF.md",
+    "public_sha256": "c7994269180d6abea90ec42f102f3c4bc2cadc00261db440b9982124010460f8",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "length-eleven-local-defect/TOP_THREE.md",
+    "source_sha256": "7d12af6aa93c43b793dd84bb88a32ada6af92b209b678f3bd6a8e2a40bf95e88",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/TOP_THREE.md",
+    "public_sha256": "f0c822d6610a5d87fdfbdd82df5519f7702a69e8b8bca67cdd521c496401c645",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "length-eleven-local-defect/TOP_THREE_AUDIT.md",
+    "source_sha256": "e6d298b61556e71f219614f7dac1fd6b1d669e0b720357445f2e64d253022b6a",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/TOP_THREE_AUDIT.md",
+    "public_sha256": "3c22998e39bcff888591dc25109de875442d36e884585a8c4711188d76ae9e08",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "length-eleven-local-defect/TOP_TWO.md",
+    "source_sha256": "bf6e1c8c8676151ca3150f386c0dd37097e4d0f1fa3bdad24464179b4e1211f1",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/TOP_TWO.md",
+    "public_sha256": "f956b623b8bc2974c853ab19280ca9c809bacb6bdc428ddc9f91035a3c71dbaa",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "length-eleven-local-defect/TOP_TWO_AUDIT.md",
+    "source_sha256": "8c910b247a291f0d6a65fc6ba739d6731f805bd19553fb69ab338d27536f706a",
+    "public_path": "research/hm/local-defect/length-eleven-local-defect/TOP_TWO_AUDIT.md",
+    "public_sha256": "ff13fabb042c20bd4e651b061bc26a5e430584680fbf91e63f2005955a709bde",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-eight-local-structure/AUDIT.md",
+    "source_sha256": "e2acc615ceb1a19daaf46e515e044a920f1d6a041afdade77ea0bfa8783239fd",
+    "public_path": "research/hm/local-defect/rank-eight-local-structure/AUDIT.md",
+    "public_sha256": "8e0d19906e1d59e1f305e537872ce282ffc0c95d25d9f946e6e9f429f03c9ae1",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "rank-eight-local-structure/COROLLARY.md",
+    "source_sha256": "ce0342e4bd35a0b5d38241540239f9dc2802397d3e018b31eed1148ce584ffc8",
+    "public_path": "research/hm/local-defect/rank-eight-local-structure/COROLLARY.md",
+    "public_sha256": "c4cb39980eb0f26936050bd253c2c3b398eacda0d0181e63125d550a35b35129",
+    "role": "mathematical_proof_or_addendum"
+  }
+]

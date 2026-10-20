@@ -1,0 +1,15 @@
+{
+  "unit": "09",
+  "clusters": [
+    "length-eleven-local-defect",
+    "rank-eight-local-structure"
+  ],
+  "core_predecessors": [
+    "01",
+    "07",
+    "08"
+  ],
+  "external_inputs": [],
+  "later_contextual_units": [],
+  "scope": "PROOF reduces to three filtered families; TOP_THREE and TOP_TWO exhaustively exclude all three. Both addenda and their audits are included. It is incorrect to retain the initial three-family list as the present result."
+}
