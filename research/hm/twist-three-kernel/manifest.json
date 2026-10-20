@@ -1,0 +1,13 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "HISTORICAL-AUDIT.md": "95f962b6669b0a618c7f1b41877a88cd1fc524958048b71e9f0f5abc99079bde",
+    "PLUCKER-LEMMA.md": "250d11cede78b7cfa0647f9e63f33100e11c5b3f20adfbd5a679819efa035ecb",
+    "PROOF.md": "3c79b91763608c78e3e50a38cdfe6d753cd73583f85613dd8d4df48b74a308b6",
+    "PROVENANCE.md": "3b6df6b8435c3bc0f9ba373f2545fb6da2f9f1bf08dc57adb1e5f07d24e1357e",
+    "PUBLICATION-CHECK.md": "4af1e5fc7fc0697a9292e11f4d8a70d6e73aeb542a1d36b933e26a77f4ba3f37",
+    "README.md": "f26bc7b86a7b481b32d7dca7760ce84a98451e644ea8d644818461dc1c36638d",
+    "audit_arithmetic.py": "d51f90560428fd2277cde5bd557f36451908a2847a4fd88f263024c488bbfd18",
+    "hn_arithmetic.py": "8edfe95e0e6864e7bec762ba695ec19a29cf20fdfc08ee4deb8b025988a86830"
+  }
+}
