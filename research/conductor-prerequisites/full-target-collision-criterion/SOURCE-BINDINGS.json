@@ -1,0 +1,32 @@
+[
+  {
+    "claim_id": "S105",
+    "source": "full-target-collision-criterion/AUDIT.md",
+    "source_sha256": "dcdad910e0cd5d6b17261a9cc56c8d0cdf412e431846ebbba707171cd3f5753c",
+    "source_bytes": 13566,
+    "public_path": "research/conductor-prerequisites/full-target-collision-criterion/AUDIT.md",
+    "public_sha256": "baa2addbc5f0e1847be7dc4472f928462b3ba24537aba2bd5576cbce0102653f",
+    "public_bytes": 13577,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S105",
+    "source": "full-target-collision-criterion/PROOF.md",
+    "source_sha256": "c58698dd95b29e1adef0d7f9e3e8a948224b5e6e22db4994f6094bccbe10b935",
+    "source_bytes": 12755,
+    "public_path": "research/conductor-prerequisites/full-target-collision-criterion/PROOF.md",
+    "public_sha256": "dd2f7650c8e1a20852fa2f907aec50ab9a32f8861b146fc15ad6d238251caf57",
+    "public_bytes": 13036,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]
