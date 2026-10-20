@@ -1,0 +1,10 @@
+# Second mathematical review
+
+Reviewed PROOF.md, SHA256 f8214c36c5ba583e2138d910736495a366ff9f22aab7a0e54d1b3954b7a83040. The exclusion is valid relative to the pinned actual multiplication and cohomology premises.
+
+1. The bottom H multiplication is the transpose of the actual endpoint evaluation, and the next two surjections are the stated pinned maps. Thus the two-generator cover really is onto through degree three. Its relation dimensions are ten and fifty, with no linear relations.
+2. The first spectral-sequence argument uses positions (-4,2) and (-2,1), hence Tor_4(H)_7 and Tor_2(K)_3. All possible competing differentials are accounted for. The positive H^0 vanishings follow from the displayed Riemann--Roch calculation and established cohomology, not stability alone. Complementary Koszul degrees and the shift-five self-duality of H identify the source dual with Tor_1(H)_3. This gives r=50-dim(T R_2).
+3. The ten-monomial lex shadow has twenty-eight distinct cubics, counted as fifteen, ten and three. Existence of a lex submodule with the same Hilbert function yields the bound for any ten-dimensional quadratic relation space in a two-generator free module. This is not a rank-adjusted persistence assertion. The bound r<=22 rules out the twenty-five alternative from PR478.
+4. The independent argument uses the adjacent positions (-3,2) and (-1,1), not those of item 2. Its vanishings give Tor_1(K)_3 dual to Tor_2(H)_3. The latter embeds in T tensor R_2=A tensor (R_6+1+U'), which has no J_5 summand. The actual quadratic relation type R_2=A* tensor W' follows from the already proved surjection to H_2, rather than an assumption on a scalar. This independently excludes the same actual ghost channel.
+
+The conclusion is r in {0,15} and nonvanishing of the J_5 scalar. No conclusion about the remaining U' scalar, any one fixed polynomial, source membership, higher-order lifting or algebraicity follows. No selected HM coefficients, numerical ranks or formal proof assistant were used.
