@@ -1,0 +1,72 @@
+[
+  {
+    "public_path": "research/conductor-normalization/effective-collision-bound/PROOF.md",
+    "public_sha256": "7f1af835ff5998deb22b62c51d868c86b9a2d554c69c964ec9d05c337f58d104",
+    "source": "effective-collision-bound/PROOF.md",
+    "source_sha256": "026d9a0c21227a9120f9fc4e392a54f7786d2bec1b7f01a6557093783a67d7c9",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/effective-collision-bound/AUDIT.md",
+    "public_sha256": "42e1949fa1da21dbc7d406e3f6e0ec4f1dee21de30e6a44556fe6d739f274361",
+    "source": "effective-collision-bound/AUDIT.md",
+    "source_sha256": "4947f29cbddf8d967cfe2760ab685d7e915a80215fdfdfff6b880dcda9a82fbb",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/finite-collision-detection/PROOF.md",
+    "public_sha256": "b4504eb3b68ff928b71030b36942f152b6a40457aeacb2aaaba2fc753ac043e9",
+    "source": "finite-collision-detection/PROOF.md",
+    "source_sha256": "2b0871fa33f6daf51c6c5abd62cc249f5ff60c94c12cc71e2a437391b0b03c97",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/finite-collision-detection/AUDIT.md",
+    "public_sha256": "e0c34f2ca8d56c2738fc4d78c6177ce17d7de9f18ab1ea61285137f36c6cde74",
+    "source": "finite-collision-detection/AUDIT.md",
+    "source_sha256": "3e1f3f23be5b16e0f43afecd4a3ffd4039f560d804004d40e95b1c35b521efad",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/finite-collision-detection/DOWNSTAIRS-DETECTORS.md",
+    "public_sha256": "0b17409603d0d6e7b98b727c9be1b2875885e307b7c9aadba47905543fb4a401",
+    "source": "finite-collision-detection/DOWNSTAIRS-DETECTORS.md",
+    "source_sha256": "9ae9fadff28099d6fd2239b7c58726f5e5c7098822d69bee7ba6b5e28b72b06f",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/sharper-hm-regularity/DETECTOR-COROLLARY.md",
+    "public_sha256": "e7be648e5c44f6fe83607b91b56d78744be31a0524de2d3badfff2dfaeb9b650",
+    "source": "sharper-hm-regularity/DETECTOR-COROLLARY.md",
+    "source_sha256": "cde69bfbf0df4bb073082c9f38beb2a60602d7cff61f348068bc8725f0395916",
+    "treatment": "existing supporting input; not counted as selected manuscript"
+  },
+  {
+    "public_path": "research/conductor-normalization/sharper-hm-regularity/PROOF.md",
+    "public_sha256": "996e42cc441a21aef8636f1ff7e808a25c07baf504d4111b3810da1209d0262a",
+    "source": "sharper-hm-regularity/PROOF.md",
+    "source_sha256": "c7643fdd3f420d7bb5d2f54e97a8bf01cdb31779db13cfe6e7f9c3c5c6026bd9",
+    "treatment": "existing supporting input; not counted as selected manuscript"
+  },
+  {
+    "public_path": "research/conductor-normalization/sharper-hm-regularity/AUDIT.md",
+    "public_sha256": "a41aad455856da2bb2987079fa68601c90621c90b679bf2aacae7bcf7b1b9490",
+    "source": "sharper-hm-regularity/AUDIT.md",
+    "source_sha256": "23e5ea5ad1d5963b0bd8586c0385f54a0a355c6bd898a080c47c11b1063d94e4",
+    "treatment": "existing supporting input; not counted as selected manuscript"
+  },
+  {
+    "public_path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+    "public_sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067",
+    "source": "sharper-hm-regularity/SHARPEST-BOUND.md",
+    "source_sha256": "afc9f8a76484933f161592841c80175a072d95ca535bee0ff64489d75f542cd1",
+    "treatment": "existing supporting input; not counted as selected manuscript"
+  },
+  {
+    "public_path": "research/conductor-normalization/sharper-hm-regularity/MONAD-H2-IMPROVEMENT.md",
+    "public_sha256": "8fa92d22fd0f741d731e95b0d66582e420fe3bf8c7807c19a8ccb600316bb8a9",
+    "source": "sharper-hm-regularity/MONAD-H2-IMPROVEMENT.md",
+    "source_sha256": "180babb765266b0c760f1d0670d794f5907efee85d30ffbd61e2b12ada165d8f",
+    "treatment": "existing supporting input; not counted as selected manuscript"
+  }
+]
