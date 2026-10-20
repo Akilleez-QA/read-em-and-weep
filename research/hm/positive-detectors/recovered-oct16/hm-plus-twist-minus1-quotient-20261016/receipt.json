@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "dimensions": [
+    123,
+    196,
+    72
+  ],
+  "ranks": [
+    120,
+    72
+  ],
+  "cohomology": [
+    3,
+    4,
+    0
+  ],
+  "quotient_cycles": 4,
+  "checks": "full signed reversal inclusion; BA=0; Bcycles=0; image lift identities; identity=Alift+cycle*coordinate on kernel basis; coordinate(cycles)=I; coordinate(A)=0",
+  "seconds": 0.03485121298581362,
+  "maxrss_KiB": 13440,
+  "generator_sha256": "c2d108576e710bd0463141c3185992547fdfb7b3a77fba39b38868ee8dcaeafd",
+  "scope": "Exact positive twist−1 symbolic quotient only; no source values.",
+  "tracked_sparse_peak": 2361
+}

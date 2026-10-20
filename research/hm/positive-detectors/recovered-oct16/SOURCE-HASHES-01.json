@@ -1,0 +1,61 @@
+{
+  "status": "Historical sources and final public hashes; no new source-instance computation.",
+  "files": [
+    {
+      "source": "hm-plus-minus1-quotient-independent-20261016/AUDIT.md",
+      "source_sha256": "6e94feb9cd00c8701c9ab4d5896887e71f67102966c6f759eb8c7621624ce521",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-minus1-quotient-independent-20261016/AUDIT.md",
+      "public_sha256": "b96b8bbd2ccd3c5d435fe0d77f78f5dc957f8b1eaa3fd3d35a480eb4ef74cb71",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-minus1-quotient-independent-20261016/check.py",
+      "source_sha256": "7add6fff00fad7ef0600d2f0014cc5ffe5c18d156c67d26096b51149d4d8d8cd",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-minus1-quotient-independent-20261016/check.py",
+      "public_sha256": "ea1d49fe3107b7098041e28938028cccfb2c56782025f973cf43a409e3e05fb9",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-minus1-quotient-independent-20261016/receipt.json",
+      "source_sha256": "fbfef4da80ef4de7b5661da41af09b09742bb423338eb29b8a26b8e047fcf12a",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-minus1-quotient-independent-20261016/receipt.json",
+      "public_sha256": "fbfef4da80ef4de7b5661da41af09b09742bb423338eb29b8a26b8e047fcf12a",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-twist-minus1-quotient-20261016/THEOREM.md",
+      "source_sha256": "9a2d06f037c3525de6cdcf3ac245a1be9e93ea6fd40512fd290261858cf40080",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-twist-minus1-quotient-20261016/THEOREM.md",
+      "public_sha256": "6a8c9eba5a0c375ebe59e9f9103ea7aa699a052d04dcd3630d390981a1a1b4bd",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-twist-minus1-quotient-20261016/build.py",
+      "source_sha256": "97fe6ee8c449b89410f1bcc17557b26a1df495e916b2a11a22be06e0935679d1",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-twist-minus1-quotient-20261016/build.py",
+      "public_sha256": "4c079845be53955dd349b49915420c773eb2f93fd9cde978d18fff47da5d9286",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-twist-minus1-quotient-20261016/certificate.json",
+      "source_sha256": "616006681d2952a3d895e2bf369d2c5813a9091c38a490b9bd936c2299e5de3c",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-twist-minus1-quotient-20261016/certificate.json",
+      "public_sha256": "616006681d2952a3d895e2bf369d2c5813a9091c38a490b9bd936c2299e5de3c",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-twist-minus1-quotient-20261016/detectors.json",
+      "source_sha256": "d7bc0439d2a865bddbecda7eddebb5ed190f7a5d8f3b9d51f1c491edc7fe1ac7",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-twist-minus1-quotient-20261016/detectors.json",
+      "public_sha256": "d7bc0439d2a865bddbecda7eddebb5ed190f7a5d8f3b9d51f1c491edc7fe1ac7",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-plus-twist-minus1-quotient-20261016/receipt.json",
+      "source_sha256": "7905a45f385cb1aaf73e428673a3d3453153778d991f03654205cd8e3064538d",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-plus-twist-minus1-quotient-20261016/receipt.json",
+      "public_sha256": "9b7c73979069aae455a9b9ed6e38f9ae417f25de95a80025086fa61295c97bad",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    }
+  ]
+}

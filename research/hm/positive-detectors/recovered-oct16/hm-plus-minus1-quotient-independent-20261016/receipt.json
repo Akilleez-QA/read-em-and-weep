@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "checks": 1094,
+  "detectors": [
+    [
+      "h",
+      false,
+      [
+        [
+          1,
+          "-2"
+        ]
+      ]
+    ],
+    [
+      "h",
+      true,
+      [
+        [
+          1,
+          "-2"
+        ]
+      ]
+    ],
+    [
+      "j",
+      false,
+      []
+    ],
+    [
+      "j",
+      true,
+      []
+    ],
+    [
+      "p",
+      false,
+      []
+    ],
+    [
+      "p",
+      true,
+      []
+    ],
+    [
+      "r",
+      false,
+      [
+        [
+          3,
+          "-2"
+        ]
+      ]
+    ],
+    [
+      "r",
+      true,
+      [
+        [
+          3,
+          "-2"
+        ]
+      ]
+    ]
+  ],
+  "certificate_sha256": "616006681d2952a3d895e2bf369d2c5813a9091c38a490b9bd936c2299e5de3c",
+  "seconds": 0.024904052988858894,
+  "max_rss_kib": 12032,
+  "rank_elimination": false,
+  "source_values": false
+}
