@@ -1,0 +1,30 @@
+[
+  {
+    "source_artifact": "cyclic-dual-defect-constraint/AUDIT.md",
+    "source_sha256": "b9d095011ad43515ecb61d273e26803a1c744773d1a595cf0c9e79b804356d72",
+    "public_path": "research/hm/local-defect/cyclic-dual-defect-constraint/AUDIT.md",
+    "public_sha256": "4be8424889f5f27364a5686f7ecb8e4c7157dcb3284216ed4521fe2046d9869c",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "cyclic-dual-defect-constraint/PROOF.md",
+    "source_sha256": "2e3cfb840d611f6c0253ab918b6869e2746d50f18ec3bf01a61cda4d36027a9b",
+    "public_path": "research/hm/local-defect/cyclic-dual-defect-constraint/PROOF.md",
+    "public_sha256": "3b544a3d9b5cf0d46a78871cc574d813823ed750f29bfcd2d57fc7e6bb4f972e",
+    "role": "mathematical_proof_or_addendum"
+  },
+  {
+    "source_artifact": "cyclic-defect-further-bound/AUDIT.md",
+    "source_sha256": "374d7833bd63f2d673825b48d97754529379d081d774031c4b9e5393602dbf26",
+    "public_path": "research/hm/local-defect/cyclic-defect-further-bound/AUDIT.md",
+    "public_sha256": "4668957bd9982b384f939a6a766d7771f12603d43ec3e3c50a6ab830dacaccb0",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "cyclic-defect-further-bound/PROOF.md",
+    "source_sha256": "b67ce7f46ada59d23c6dbc63258ee3eaae0cdd49be97ec4e2e56d677ba81154c",
+    "public_path": "research/hm/local-defect/cyclic-defect-further-bound/PROOF.md",
+    "public_sha256": "d3070c6f2f2634f7b0ef1d3b3b68504a46dc58ecdf66c8d99958c6ecc198b6b7",
+    "role": "mathematical_proof_or_addendum"
+  }
+]
