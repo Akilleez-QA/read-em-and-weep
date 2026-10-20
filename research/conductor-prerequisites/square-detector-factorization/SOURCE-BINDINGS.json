@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": "S351",
+    "source": "square-detector-factorization/AUDIT.md",
+    "source_sha256": "b8deca6ff2142f2798335fd18fd5790130e591acf0fde99ce67f256797e727d8",
+    "source_bytes": 5981,
+    "public_path": "research/conductor-prerequisites/square-detector-factorization/AUDIT.md",
+    "public_sha256": "2f1fc1b6aa462bce5e2e79eaa199b574bcd7e2ade4cedd92704dcc7157a91114",
+    "public_bytes": 6310,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S351",
+    "source": "square-detector-factorization/PROOF.md",
+    "source_sha256": "e4d625d54e28f29435a5686fcfeee17302cd19c38eb66c705f5ca5849f3e406b",
+    "source_bytes": 8593,
+    "public_path": "research/conductor-prerequisites/square-detector-factorization/PROOF.md",
+    "public_sha256": "88bddb44ce61b577e736998d2b1379ac3d4e74313c7ecd6608a55a6ee8de13f6",
+    "public_bytes": 8746,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S351",
+    "source": "square-detector-factorization/SUPPLEMENT.md",
+    "source_sha256": "d297ff5f1cba674681c85a93ef74308f2c60b557d9a43cfa18800b4f3ffec450",
+    "source_bytes": 4476,
+    "public_path": "research/conductor-prerequisites/square-detector-factorization/SUPPLEMENT.md",
+    "public_sha256": "d97e9e0acfe0a681de8db5eeb88064e94036517ac5ae77199a36c5179163242e",
+    "public_bytes": 4670,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]
