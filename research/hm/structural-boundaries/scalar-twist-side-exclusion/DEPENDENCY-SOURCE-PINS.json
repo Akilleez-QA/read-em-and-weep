@@ -1,0 +1,68 @@
+{
+  "scope": "Original mathematical dependency edition hashes, not execution authentication. No local paths are disclosed. Canonical public commits must be added before claiming exact source closure.",
+  "dependencies": [
+    {
+      "source_reference": "dependencies/same-pair-PROOF.md",
+      "source_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/PROOF.md",
+          "public_sha256": "587f953427e40b33c2758e221dfb4f7cdde1798c9ab9bb09a180c78ba4b127cc",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/same-pair-REVIEW.md",
+      "source_sha256": "a447aae9a755beb46823dbeb7d324b4475599a392d572e1560e1b1c053828fae",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/structural-boundaries/same-pair-ordinary-twist/REVIEW.md",
+          "public_sha256": "cea080d567494984ae41a88a57bcb5741e781065d8289e37422b202e5664e44a",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/structural-closure-v2-ERRATUM-REVIEW.md",
+      "source_sha256": "87f657c3aea84f8c9fd04d9a7055fbb5b519da218088baa352fda5c0fc8d3712",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/ERRATUM-REVIEW.md",
+          "public_sha256": "65dd00c2de2d0abaf3c64980bad4fc83005103c7c201cbe8d6b95771a4885ece",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/audit/ERRATUM-REVIEW.md",
+          "public_sha256": "65dd00c2de2d0abaf3c64980bad4fc83005103c7c201cbe8d6b95771a4885ece",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    },
+    {
+      "source_reference": "dependencies/structural-closure-v2-PROOF.md",
+      "source_sha256": "50ec1df804dc461c928dfcd8bba8d4428206e36a0b7f1686a9aa2f43731db490",
+      "matching_staged_public_files": [
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/PROOF.md",
+          "public_sha256": "dcf38a3a4ed053b0e98cfa1174d7d07b4b4f7b92982ee7fc22fc42bd5e63f26a",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-structural-raw-closure-premise-authentication/audit/reviewed-PROOF.md",
+          "public_sha256": "37ca16a78dbe9cf12c6ce0bb1af97b78feda079ee136be8def13c921d1080f9d",
+          "status": "staged; immutable public commit pending"
+        },
+        {
+          "repository_path": "research/hm/original-resolution-expanded-current-f-domain/dependencies/structural-closure-PROOF.md",
+          "public_sha256": "37ca16a78dbe9cf12c6ce0bb1af97b78feda079ee136be8def13c921d1080f9d",
+          "status": "staged; immutable public commit pending"
+        }
+      ],
+      "status": "exact source bytes resolved; public closure conditional where staged"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "audit_sha256": "483cf527251d9ee341cf3368cab141cc3735833166fbb88974f8b9f43c87afa4",
+  "reviewed_payload": [
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/DEPENDENCIES.md",
+      "sha256": "a8f1b1c10a0b9344be19931d7076a497b869cf5e439142c3addda35f5041a427",
+      "bytes": 1940
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/PROOF.md",
+      "sha256": "bf370e58da16c4458e1635869c0f0480b88a2b46e0c969d30da43b8021b254e7",
+      "bytes": 16968
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/PUBLICATION.md",
+      "sha256": "981bd6a7f813d06f1ae5414147a1eaba2e8226543d53f0936f9ce5017dd78f8b",
+      "bytes": 1058
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/REVIEW.md",
+      "sha256": "749be2d8502b74dfab1abba7782e23068fb98254bd04bd57ae9c3e1926ad69df",
+      "bytes": 10162
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/SOURCE-BINDINGS.json",
+      "sha256": "dfef4a211f4a1301c77f86a8d78e43064973651bcf1d12890b9a5f0baf94a096",
+      "bytes": 2516
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/check_formal_controls.py",
+      "sha256": "73a7446b3bc7a2d3b957e17981970cf098bfae2fa2354899f40b7861d370c913",
+      "bytes": 10033
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/check_review_controls.py",
+      "sha256": "0a62e58dbd838a181799ddaf0f4959897f4e829790e53610df66b96c0425c138",
+      "bytes": 5074
+    },
+    {
+      "unit": "06",
+      "path": "research/hm/structural-boundaries/scalar-twist-side-exclusion/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "f78fddc839d48114ce8ef91cbc5bc822f63fd26eb68d3f101370ea672805d001",
+      "bytes": 3554
+    }
+  ],
+  "review_scope": "04-08"
+}
