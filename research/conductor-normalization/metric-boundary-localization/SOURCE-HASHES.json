@@ -1,0 +1,23 @@
+[
+  {
+    "public_path": "research/conductor-normalization/metric-discriminant-localization/PROOF.md",
+    "public_sha256": "db886657af2dceef09e405f9f976ab1bb02bfa4cb09438f478abc9699c11cb84",
+    "source": "metric-discriminant-localization/PROOF.md",
+    "source_sha256": "f8ac5112de68ef9ebadb90bb1cbd109145e57008aea4c9da2aa7b918fbde9346",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/metric-discriminant-localization/AUDIT.md",
+    "public_sha256": "7b56f53f12198bfe1b6e5d973c7bc34e1c900302873b9509e217cd53bb6aa435",
+    "source": "metric-discriminant-localization/AUDIT.md",
+    "source_sha256": "070b93163d2c686ad2eb790c23037be137daf0bf39671ac92e438c6da3ef0187",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/metric-discriminant-localization/ROOT_CHECK.md",
+    "public_sha256": "2002f9aca25518c0936b5f7b7c65246d15326ac25c8559978179a681064b6d5e",
+    "source": "metric-discriminant-localization/ROOT_CHECK.md",
+    "source_sha256": "2ada85f75352c593cb44e972ae6e9541b424f7c496798ed33f0ba23a75bc6661",
+    "treatment": "complete"
+  }
+]

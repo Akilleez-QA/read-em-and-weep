@@ -1,0 +1,19 @@
+[
+  {
+    "manuscript_id": "S162",
+    "cluster": "metric-discriminant-localization",
+    "unit": "10",
+    "additional_application_units": [],
+    "inventory_proof": "metric-discriminant-localization/PROOF.md",
+    "inventory_sha256": "f8ac5112de68ef9ebadb90bb1cbd109145e57008aea4c9da2aa7b918fbde9346",
+    "actual_proof_sha256": "f8ac5112de68ef9ebadb90bb1cbd109145e57008aea4c9da2aa7b918fbde9346",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual good-general family, global repeated-input injectivity, supported correction and support-map extension are hypotheses from the separate middle-family branch."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
