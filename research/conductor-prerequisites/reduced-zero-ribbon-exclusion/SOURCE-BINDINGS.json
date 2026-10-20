@@ -1,0 +1,47 @@
+[
+  {
+    "claim_id": "S316",
+    "source": "reduced-zero-ribbon-exclusion/AUDIT.md",
+    "source_sha256": "13794406a9ee09844fe2930aa00cba256001e035c9f3b609772cfeb2ce4dde45",
+    "source_bytes": 8457,
+    "public_path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/AUDIT.md",
+    "public_sha256": "9f5e354101aed03774233e0ee2631126afd82a50f02a0433a8e7481368afcd07",
+    "public_bytes": 8725,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S316",
+    "source": "reduced-zero-ribbon-exclusion/PROOF.md",
+    "source_sha256": "97fa73bbf5d89d17d7229acfe1c44a7e78f0122fe37c2fd22ac456c249a3398d",
+    "source_bytes": 10589,
+    "public_path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/PROOF.md",
+    "public_sha256": "17998112a43377021e367398ade74a06986cbc2d5ccb394b1ff17d271c144af8",
+    "public_bytes": 10742,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  },
+  {
+    "claim_id": "S316",
+    "source": "reduced-zero-ribbon-exclusion/SUPPLEMENT.md",
+    "source_sha256": "c9b57bd481737cadf5cd90402d08fe0a6b02189b94776f895710cc788d35c685",
+    "source_bytes": 4215,
+    "public_path": "research/conductor-prerequisites/reduced-zero-ribbon-exclusion/SUPPLEMENT.md",
+    "public_sha256": "06ac3f949000aec4bfa36d039236469abc72e5f239ecce765318f7017f85c317",
+    "public_bytes": 4409,
+    "transformations": [
+      "remove process-only sentences",
+      "pin identified public predecessors",
+      "preserve full mathematical text and qualifications",
+      "label historical review and superseded conditional branches where applicable"
+    ]
+  }
+]
