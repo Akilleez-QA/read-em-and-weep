@@ -1,0 +1,20 @@
+{
+  "scientific_delivery_date": "2026-10-18",
+  "files": [
+    {
+      "source_title": "INVARIANT-FORMAL-SMOOTHNESS.md",
+      "source_sha256": "945e7982a0d10870d896a0ec4004408ce7beb2d7b16664c7a696c506eb296e46",
+      "public_path": "research/hm/invariant-formal-hull/PROOF.md",
+      "public_sha256": "7ef7d8a4efc9a2db7e2573e32d9c29bafbb75fef6dfadabfc49e0a6a91c9b44f",
+      "normalization": "Immutable public prerequisite links; final operational-method paragraph removed. All mathematical statements and audit reasoning retained. Historical premise labels retained; current premise closure is separately described in README."
+    },
+    {
+      "source_title": "INVARIANT-FORMAL-SMOOTHNESS-AUDIT.md",
+      "source_sha256": "2b9c3870581de0872f0236025b1dd64a762603efa7b11167415393796310280a",
+      "public_path": "research/hm/invariant-formal-hull/INDEPENDENT-AUDIT.md",
+      "public_sha256": "73c8fcca6ba7ea43d8e51d45c7e309c27b44af30255e21ab8841ad2725dfd501",
+      "normalization": "Immutable public prerequisite links; final operational-method paragraph removed. All mathematical statements and audit reasoning retained. Historical premise labels retained; current premise closure is separately described in README."
+    }
+  ],
+  "scope": "Full mathematical proof and full claim-bearing audit, with editorial normalization only."
+}
