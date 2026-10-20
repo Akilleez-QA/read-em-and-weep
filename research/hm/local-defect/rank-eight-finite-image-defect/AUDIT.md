@@ -1,0 +1,14 @@
+> Publication scope: preserved mathematical proof/audit. Historical statements that rank eight remains open are superseded only after the final assembly and all its prerequisites. No source-instance evaluation or formal verification is claimed here.
+
+# Independent audit
+
+**PASS.** Reviewed PROOF.md Sections 1–6, including all sheaf-Ext indices, twists, depth arguments, and equivariant qualifications. No outstanding correction.
+
+1. The effective codimension-two cycle of D has degree zero, so it is empty; divisorial vanishing therefore gives support in codimension at least three. This uses effectivity and does not discard a nonzero cycle by formal cancellation.
+2. Away from Sing(B), the square-line extension makes Ktilde locally free. The resulting length-one resolution makes G satisfy depth at least two in codimension at least three. In codimension two the necessary stronger conclusion follows instead from G=F. Thus G is reflexive on this open set, and its inclusion into reflexive F extends uniquely from their common complement. D is consequently supported on the finite singular locus.
+3. Reflexivity of F on the smooth fourfold gives Ext3(F,O)=Ext4(F,O)=0. The three exact sequences yield, respectively, Ext4(D,O)=Ext3(G,O)=Ext2(Ktilde(-1),O)=Ext2(B(-3),O)=T(3). These are canonical connecting/tensor-Hom identifications. The positive Ext terms of the square line vanish at the indicated indices.
+4. Finite-length duality over each regular four-dimensional local ring preserves length and detects support. The isolated determinant-trivial rank-two self-duality lemma forces Ext2(B,O) to be nonzero at every nonfree point. Therefore D and T have the same local lengths and common support Sing(B); the established non-local-freeness makes them nonzero.
+5. The canonical-bundle version is correct: D-dual = T(3) tensor omega and D = T-dual(-3) tensor omega-inverse. For the lines convention omega = O(-5) tensor det(V)*, yielding the stated determinant characters. Equivariance of the connecting maps does not require an equivariant splitting or a chosen self-duality of B.
+6. The audited normalizer orbit theorem applies to this actual finite equivariant sheaf. Its positive length is 30, 60, 90, 120, or at least 125. Below 125 its support is the unique thirty-point orbit and its local lengths are constant. Length thirty gives the reduced structure sheaf only after forgetting the equivariant structure.
+
+The finiteness hypothesis is explicitly conditional in this artifact. It is now discharged in the intended application by the independently passed degree-thirty curve exclusion together with the previously audited effective singularity-cycle theorem. This combination proves a nonzero finite saturation defect, but does not choose a length alternative or resolve rank eight. No operation-instance evaluation was used.
