@@ -1,0 +1,36 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "regular-cech-tensor-comparison-20261018/PROOF.md",
+      "source_sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+      "public_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/PROOF.md",
+      "public_sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "regular-cech-tensor-comparison-20261018/REVIEW.md",
+      "source_sha256": "512dbcd60c3a8aa9c9b37a8041ff6b12d43a34d077fdf19b4f7819b73c1f89fc",
+      "public_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/REVIEW.md",
+      "public_sha256": "512dbcd60c3a8aa9c9b37a8041ff6b12d43a34d077fdf19b4f7819b73c1f89fc",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "regular-cech-tensor-comparison-20261018/check_controls.py",
+      "source_sha256": "64437ba72954a12aa02cdf75bc8eb523588d017ec49e685aae69ab24376c6b7c",
+      "public_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/check_controls.py",
+      "public_sha256": "64437ba72954a12aa02cdf75bc8eb523588d017ec49e685aae69ab24376c6b7c",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "regular-cech-tensor-comparison-20261018/review_audit.py",
+      "source_sha256": "378f499e16ad8f1c9696f1d4aec728953476cec1c220d912eb6063ae378de321",
+      "public_path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/review_audit.py",
+      "public_sha256": "378f499e16ad8f1c9696f1d4aec728953476cec1c220d912eb6063ae378de321",
+      "role": "full proof, historical audit or reproducible formal control",
+      "transformation": "unchanged"
+    }
+  ]
+}

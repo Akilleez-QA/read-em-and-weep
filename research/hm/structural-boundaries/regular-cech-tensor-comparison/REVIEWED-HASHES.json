@@ -1,0 +1,273 @@
+{
+  "manifest_sha256": "09873b5f70cea5c432c582b981c0efc3b556ed8685cfbe44d1f19f7adef37378",
+  "full_proofs_reviewed": [
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/PROOF.md",
+      "sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+      "bytes": 19879
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+      "sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+      "bytes": 19376
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-PROOF.md",
+      "sha256": "a6d670ac8a69927dcd72dd3cbe0a7004fd2acc6395084c5e128b6c036f0ce6d0",
+      "bytes": 15571
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+      "bytes": 11312
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/PROOF.md",
+      "sha256": "19fb87e079e0b7e278743eace189f8e90c85ac7fad9224ea462b66b935fb2469",
+      "bytes": 9477
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/PROOF.md",
+      "sha256": "248b8545f631594ec04f317c31188508b28ccb2c1b52bf5a8dc72bfd25ec7f43",
+      "bytes": 17050
+    }
+  ],
+  "payload_hashes_checked": [
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/PROOF.md",
+      "sha256": "7ec48fb142cb5ee319a39507889aa01ed8588549e6af11239024f9ab1628893f",
+      "bytes": 19879
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/REVIEW.md",
+      "sha256": "512dbcd60c3a8aa9c9b37a8041ff6b12d43a34d077fdf19b4f7819b73c1f89fc",
+      "bytes": 7146
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/check_controls.py",
+      "sha256": "64437ba72954a12aa02cdf75bc8eb523588d017ec49e685aae69ab24376c6b7c",
+      "bytes": 13381
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/review_audit.py",
+      "sha256": "378f499e16ad8f1c9696f1d4aec728953476cec1c220d912eb6063ae378de321",
+      "bytes": 5142
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/PUBLICATION.md",
+      "sha256": "221f9bbda6b936c12926eb6f607fb53cab8c9404a9f5404423b2d73743bde8e6",
+      "bytes": 288
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/DEPENDENCIES.md",
+      "sha256": "2d7e711ab9cc786c36a9399b25c5b2c1d4deafb4b3e225a17c0c7434356c91fe",
+      "bytes": 163
+    },
+    {
+      "unit": "00A",
+      "path": "research/hm/structural-boundaries/regular-cech-tensor-comparison/SOURCE-BINDINGS.json",
+      "sha256": "db0bee45526b0a5ecdc9292c06593270d201fd8c198e3dca6b1e86eefcfef674",
+      "bytes": 1968
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PROOF.md",
+      "sha256": "e373b9d13dad17a489341d0164b9fc55c21803e0d3efe914f49e16fef2c455aa",
+      "bytes": 19376
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/REVIEW.md",
+      "sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "bytes": 15674
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/REVIEW.md",
+      "sha256": "32f69160c77a7070dbc080bb497732d1f5580a79788cc39c6a350f7bfd4439f4",
+      "bytes": 15674
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/check_controls.py",
+      "sha256": "3e6c940bda552e25958f6ff749e858a3d4877c8f211f28a93adc088f5692adf5",
+      "bytes": 6103
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/audit/check_independent.py",
+      "sha256": "2312d4f137b58c1f15c73140cb946ba490255ca3e6d51adc041d72db395c72ee",
+      "bytes": 6482
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/PUBLICATION.md",
+      "sha256": "221f9bbda6b936c12926eb6f607fb53cab8c9404a9f5404423b2d73743bde8e6",
+      "bytes": 288
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/DEPENDENCIES.md",
+      "sha256": "28baabcddc0db1c7b7ca83a1702b030bb9f04cb9511225917148d5fa778e34f2",
+      "bytes": 1005
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/SOURCE-BINDINGS.json",
+      "sha256": "badb68ec7ecb6097777977bc5a9f2bfa9ba8af4d87fc30dfd1b3f88f7ccacad5",
+      "bytes": 3703
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "2583e7ddaf86a52dc7fc37f823fc1c42afd2dde51a0c323625a65de951562145",
+      "bytes": 16027
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-PROOF.md",
+      "sha256": "a6d670ac8a69927dcd72dd3cbe0a7004fd2acc6395084c5e128b6c036f0ce6d0",
+      "bytes": 15571
+    },
+    {
+      "unit": "00B",
+      "path": "research/hm/structural-boundaries/regular-source-cover-comparison/support/central-REVIEW.md",
+      "sha256": "f3b34c4a47a24015f455beb837551c23b6cc6fa2de79039a21ac689053b9e214",
+      "bytes": 11860
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/DEPENDENCIES.md",
+      "sha256": "2ccdd3543b768423ffff50b82c31fd2093065d8c13ee4dcf16feacb607e02fe2",
+      "bytes": 1519
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+      "bytes": 11312
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/PUBLICATION.md",
+      "sha256": "5118ac9d86e8ef9b5db66c9e603f49229e20005fd33ae96619aa30ced964c47c",
+      "bytes": 1081
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SOURCE-BINDINGS.json",
+      "sha256": "5a23fef2b05f4dc42b06269d5fb701fea141f204aa572505be1fa9250ed5756c",
+      "bytes": 1994
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SOURCES.md",
+      "sha256": "29972a1928601c27f426328ba1abac948f40903c3e9b60fa1a250ccbdc39de76",
+      "bytes": 1702
+    },
+    {
+      "unit": "01",
+      "path": "research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md",
+      "sha256": "58237dc5526184c8bd4bf05452caee06ba80029fd85f88ac1d733b6c07aca12e",
+      "bytes": 4882
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/DEPENDENCIES.md",
+      "sha256": "c337b6ace50fba3c8ff2cbe2d5cfb23530908481e74de7297c7dd8d027174c97",
+      "bytes": 1839
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/PROOF.md",
+      "sha256": "19fb87e079e0b7e278743eace189f8e90c85ac7fad9224ea462b66b935fb2469",
+      "bytes": 9477
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/PUBLICATION.md",
+      "sha256": "9b876622ba0027856c79f6025858d0e5370ca7cde0f94ce7e3673e49d3b8c440",
+      "bytes": 1055
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/REVIEW.md",
+      "sha256": "18de9ccd3f9e6023b39c14858f605b4fe7e2fc615f645142005014922f7b0b31",
+      "bytes": 7214
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/SOURCE-BINDINGS.json",
+      "sha256": "0b7e720e0ab95180840f934410c255264968be9df093d9349d31593491fd2d8d",
+      "bytes": 1502
+    },
+    {
+      "unit": "02",
+      "path": "research/hm/structural-boundaries/translated-comparison-weights/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "fd3da580a65bba51ced30db42cce5c7060260d346b9c9024ad73b6f781388d3a",
+      "bytes": 2021
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/DEPENDENCIES.md",
+      "sha256": "713ad8d853fa1018d65c853e6128b20bd0a8562f3c791d8f660f483d3cc0c98b",
+      "bytes": 2179
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/PROOF.md",
+      "sha256": "248b8545f631594ec04f317c31188508b28ccb2c1b52bf5a8dc72bfd25ec7f43",
+      "bytes": 17050
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/PUBLICATION.md",
+      "sha256": "935156e2973e256a4aa63f4005260d34fdd321cf1db6c2e895ea67796995b280",
+      "bytes": 1051
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/REVIEW.md",
+      "sha256": "151d322d9f2b87705bc10ab2fdfd248ba140d6c2cfe61a8b4d1221dd45a8e47c",
+      "bytes": 4546
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/SOURCE-BINDINGS.json",
+      "sha256": "fc9b862828a2e87dcacdf0cab5f1fc941ae6e4f105969f00e2d6ce066dfaa93b",
+      "bytes": 2344
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/SOURCES.md",
+      "sha256": "8fab1cafce3339f4c71f76f1da99290c0e683100ad5f5977511a093ced3ec8ea",
+      "bytes": 1279
+    },
+    {
+      "unit": "03",
+      "path": "research/hm/structural-boundaries/translated-source-domain/DEPENDENCY-SOURCE-PINS.json",
+      "sha256": "45c968ed4a3e685c8c97a401271c950137c54d49195776e9874f4abfe4c3a503",
+      "bytes": 11143
+    }
+  ],
+  "tree_payload_hashes": {
+    "00A": "02c991db104c23e9c9b8e11f6fae7fbf6ef27bf68601616c20fee943f79fccbf",
+    "00B": "5365b4bebf2b39ef97e811937a19d4cd71587956c7c260a64a1bec299e2a54df",
+    "01": "1ed6ab5d05c0fcdc4e21a152bb913ef29b022540f9e61be130b4ad67a48167ab",
+    "02": "71d869d31c387a533173a86317ede620cc019e791fcd114fb2ba47a2e91e4f2f",
+    "03": "be852f69dc83cdd2639d61f06ee762874a8061104e929da0857011ea4fbd6750"
+  },
+  "review_sha256": "f355f438afb806229b2c14ded06a47aa9f525a3ca6944c0f05442df3771f900f"
+}
