@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "path": "PROOF.md",
+      "historical_sha256": "bbb71d8eeb7dcb3e83ce333ac685c6ad64133c96e1703053273e2256800e6565",
+      "public_sha256": "bbb71d8eeb7dcb3e83ce333ac685c6ad64133c96e1703053273e2256800e6565",
+      "role": "supporting full proof"
+    },
+    {
+      "path": "REVIEW.md",
+      "historical_sha256": "b4f47fe274e0eca4f0f8f117b6503025f36057cca93f9875f0ec65a72a2c3b5e",
+      "public_sha256": "4bc468f49806bd9eb5340c336d162435ab4ad2bba694c3ab96cecdaaa7132e8e",
+      "role": "historical scientific review"
+    }
+  ]
+}
