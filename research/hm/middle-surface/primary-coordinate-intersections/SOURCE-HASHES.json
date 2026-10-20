@@ -1,0 +1,18 @@
+[
+  {
+    "source": "primary-coordinate-intersections/AUDIT.md",
+    "source_sha256": "65fa4a3c7fcc25ad5aac4b473bd743bdbec16b483b5a4ce117812d5815c46931",
+    "public_path": "research/hm/middle-surface/primary-coordinate-intersections/AUDIT.md",
+    "public_sha256": "97b9a20484d0196d25597f24b3233900c917fb3592f5284376b7d729ef2c792b",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "primary-coordinate-intersections/PROOF.md",
+    "source_sha256": "494d005adc340104d44ccdadc35a75676370cb7f4862dd39f9d467a8570a8ce8",
+    "public_path": "research/hm/middle-surface/primary-coordinate-intersections/PROOF.md",
+    "public_sha256": "494d005adc340104d44ccdadc35a75676370cb7f4862dd39f9d467a8570a8ce8",
+    "normalizations": []
+  }
+]
