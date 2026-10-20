@@ -1,0 +1,18 @@
+[
+  {
+    "source": "primary-minimal-presentation/AUDIT.md",
+    "source_sha256": "2c11ec6841302db7a4b14589e7b246b9942deab02197d047562e0be73e0677a6",
+    "public_path": "research/hm/middle-surface/primary-minimal-presentation/AUDIT.md",
+    "public_sha256": "ecae5add593980f819c545fb1bd4118a3c8ee11087b13e3779d164266e328c00",
+    "normalizations": [
+      "Label source audit as historical rather than a new formal verification."
+    ]
+  },
+  {
+    "source": "primary-minimal-presentation/PROOF.md",
+    "source_sha256": "e31b42beb912ad38cd46e2aed55f42b9ee9df6aedd10e79e5311accf21f86723",
+    "public_path": "research/hm/middle-surface/primary-minimal-presentation/PROOF.md",
+    "public_sha256": "e31b42beb912ad38cd46e2aed55f42b9ee9df6aedd10e79e5311accf21f86723",
+    "normalizations": []
+  }
+]
