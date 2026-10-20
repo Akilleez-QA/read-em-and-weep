@@ -1,0 +1,17 @@
+# Universal eight-kernel compatible-fiber bound
+
+## Scope
+Universal complex linear algebra/algebraic geometry or abstract cyclic-tensor construction. No actual canonical-HM occurrence, specified normalizer equivariance, higher-order integration, or algebraicity beyond the stated scheme constructions is inferred.
+
+## Dependencies
+- 01
+- 02
+
+## Claim status
+Source proof and prior audit are preserved separately. No formal proof-assistant verification is claimed. Later canonical global rank-at-least-five exclusions do not invalidate universal countermodels with no normalizer equivariance.
+
+## Reconstruction input
+The universal repeated-input independence, dependent-zero exclusion, square avoidance, and unique residual reconstruction are proved in diagonal-hartogs-fiber-bound/RECONSTRUCTION.md (unit01). No global K5 dimension theorem is needed for these identities.
+
+## Global corollary boundary
+The pointwise K8 bound is discharged by units01–03. The final all-ranks global corollary additionally assumes the cited rank-at-least-six, rank-four, rank-five bounds and (H); those are not proved by this unit. The earlier COROLLARIES.md remaining-pencil sentence is superseded by UNSQUARED_PENCIL.md.
