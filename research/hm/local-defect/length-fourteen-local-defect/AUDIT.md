@@ -1,0 +1,14 @@
+Publication context: this retained proof or audit may describe an intermediate bound or then-open branch. Read the unit overview for the current scope and later implications. Historical mathematical review is not a new formal verification.
+
+# Independent audit: PASS
+
+Reviewed PROOF.md on 2026-10-19, importing the audited representation budget, square-zero bound, cyclic-family bound and prior local exclusions.
+
+1. The numerical reduction s<=5 and exclusion of s=5 are correct. For tops two and three the first radical layer is a sum of four-dimensional orbits; the h1=8 estimates exceed the relation budget. The representation-imbalance argument for top two forces the stated O0 linear relation orbit and O1 first layer.
+2. The new three-orbit cases are explicitly covered. With top two they exhaust all clock-trivial dimensions in the top, forcing (2,4,4,4). The wrong-top linear relations and the two opposite quadratic relations have no matching weights in their possible higher images, so are exact. The six-generator relation budget makes their quotient the two infinite-length opposite-pair hypersurface modules. The one- and two-orbit alternatives are excluded by the available quadratic/cubic weights and the intervening-layer commutativity bound. No filtered case is omitted.
+3. For top three, equality forces the sole previous linear action; its quadratic quotient is O3 plus two clock-trivial weights and has dimension six. The remaining one-dimensional cubic layer cannot occur in the polynomial-plane cubic quotient. This argument only uses initial relations and is valid for filtered modules.
+4. For top four, the bounds exclude h1=8,9 and clock-trivial tops. The h1=7 orbit and character calculation leaves c=2 and then requires at least eight cokernel dimensions. For h1=6, independently checked the five source/target multiplicity rows and the two surviving kernel/cokernel possibilities. The clock-trivial terminal case is excluded, leaving exactly A and B.
+5. In A and B the linear relation weights are disjoint from the entire second radical layer, so equivariant lifts give exact linear relations. Their ten independent classes exhaust beta1 and therefore generate the whole kernel. Completion and this argument legitimately remove every possible higher correction.
+6. Case B has the displayed free one-variable quotient. In case A, the weight pairing x_i*t_i with x_-i*t_3i is correct. After killing x2,x3 exactly at most five linear relations remain among four generators over two variables. The degree-three lower bound 16-15=1 is valid regardless of coefficients or syzygies. It contradicts m3 P=0, and does not rely on an experimental graph check.
+
+Thus every canonical local length-fourteen case is excluded. Together with the accepted previous exclusions the canonical minimum becomes fifteen, contribution at least 450. No existence at fifteen, actual rank choice or detector value is implied. No outstanding correction.
