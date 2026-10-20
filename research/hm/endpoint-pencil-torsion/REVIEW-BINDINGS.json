@@ -1,0 +1,17 @@
+{
+  "review_date": "2026-10-20",
+  "status": "Two scoped mathematical reviews passed. The independent review binds the final proof and summary bytes. This is not formal verification or source execution.",
+  "sha256": {
+    "PROOF.md": "09afafe82fbbb5187bdbcfd46a1a73afd8d82e37eea0dfc6418195a40876f27b",
+    "README.md": "3601034e8527a35b9f7a701b9b5ee7c6ee0634bc49f8ffa2088b4a8564eddbfb",
+    "INDEPENDENT-REVIEW.md": "2ca629db3de42a4ad8d06506d60361fa9153aed749497e5c5b7e6143bb2c8888",
+    "ROOT-REVIEW.md": "92461d2ed4ac04e94118bf01649a34b246ddf04f55666b6679db8e463d75e5b0"
+  },
+  "public_dependencies": {
+    "good_quadratic_and_translated_geometry": "PR441 at 6d81d9500f42ae31bef6d3150cf3ba513c28502b",
+    "natural_primary_quotient": "PR440 at 829e03411d04511f6cf04860bf18db4a70b12448",
+    "paired_endpoint": "PR439 at bf6ce91fd73fbc96cb8ede65448dfedbc0328c7b",
+    "paired_filtration": "PR437 at 50e82ed233cd7729c38608194f990376eb832418"
+  },
+  "scope": "A quadratic pencil through the original endpoint has primary module length at most two, endpoint module length at most thirty, a common quadratic annihilator, at most two exceptional parameters, and exact original special fiber. The formal translated-root realization is controlled by its first auxiliary parameter jet. The fixed quotient is not evaluated, and no relative higher-direct-image identification, source membership, pure-condition result, module lift, or algebraicity conclusion is established."
+}
