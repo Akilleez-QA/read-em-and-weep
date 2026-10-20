@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "scope": "H0(P4, End_0(F)(2)) = 0; h1 = 85; Hi = 0 for i >= 2",
+  "prerequisite_commit": "ee7c4d4627c2efa07ea167a535cf1582002ef335",
+  "files": {
+    "AUDIT.md": {
+      "sha256": "815ffa44dfe5c6c0e50a8bfcb0ed3197bb3d11f8f793ce5058b3fc4c73f70554",
+      "git_blob_sha1": "171d73b64c81b01264c732495e42d79e829d958b",
+      "bytes": 6386
+    },
+    "PROOF.md": {
+      "sha256": "278e89116e55f35db50380b7f76336a85c6d728760995b8f782daeda9a5def6f",
+      "git_blob_sha1": "6ba5a302d49e8fda61ba39af0ab86449b83435a1",
+      "bytes": 11373
+    },
+    "PROVENANCE.md": {
+      "sha256": "25ae82b1e91c409f37abc056086449a8288f296a36139bc284bf072624b5b56e",
+      "git_blob_sha1": "4a504c44b883180dc6d86b5ab20b91b0cc07d9a4",
+      "bytes": 1949
+    },
+    "README.md": {
+      "sha256": "44df347ce19ff6a8ac3b9c57cc4a72157237c8f78d1456bfc93a0a7d6757d671",
+      "git_blob_sha1": "1055a5be91f898af99f15900546f17e6d77beca7",
+      "bytes": 1869
+    },
+    "SOURCES.md": {
+      "sha256": "766176af0d1fe90b275bcca8ffa4f90cdbf3a03d57196bcede932d497f5baedb",
+      "git_blob_sha1": "6495b12ff86cb8f7c91c72e43ed088443e89a6f0",
+      "bytes": 2902
+    }
+  }
+}
