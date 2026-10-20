@@ -1,0 +1,68 @@
+{
+  "status": "Historical sources and final public hashes; no new source-instance computation.",
+  "files": [
+    {
+      "source": "hm-second-kappa-independent-20261016/AUDIT.md",
+      "source_sha256": "796bcb61b64ac96b69be9762243f109cb0b24ae0894a0fef0bcfe01d8055f87e",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-second-kappa-independent-20261016/AUDIT.md",
+      "public_sha256": "15bbada1825c8c2fb3ee68619f9c4f8d1c1cd7cebe5a7d170fb47db338b6e3f4",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-second-kappa-independent-20261016/MINIMAL-TWELVE.md",
+      "source_sha256": "9706c182e70e547cd25f0acc02e8b6593fb0d7b387518b6ea1c18a2a1ca253b8",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-second-kappa-independent-20261016/MINIMAL-TWELVE.md",
+      "public_sha256": "0f2d1799772a2a108ad0a34b42e0cbc1997a1954bfef96583461952a919ca041",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-second-kappa-independent-20261016/check.py",
+      "source_sha256": "06b123029afe8a8077abde54fcb9a0ab8512919bffe0153ec5818286217e1b96",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-second-kappa-independent-20261016/check.py",
+      "public_sha256": "a2536d47b7a69a032ae28804fbe61e3769f75e164adbb4c4cb79be08abf3cf36",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-second-kappa-independent-20261016/receipt.json",
+      "source_sha256": "66107028ee2ac0e0059f8b5a45969a07d5d0425e4f19d5f81a29cd8022c343d8",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-second-kappa-independent-20261016/receipt.json",
+      "public_sha256": "8c8e87ffa1fff43dbbd75f4046ef646c1f2ce4c058a996ed918f4226e0cdbdb1",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-two-position-positive-completeness-20261016/REVIEW.md",
+      "source_sha256": "e5427c519c99188e151f8fadf6917f80b531664714fd018142d2d8fc59b8c4a7",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-two-position-positive-completeness-20261016/REVIEW.md",
+      "public_sha256": "916fbdc9ce7c8b3d3815bbe8289b8c1eccfd4ab8154c320e0cc9e4293a2ed1ce",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-two-position-positive-completeness-20261016/THEOREM.md",
+      "source_sha256": "d76dd3481144c354520ce785f242661f55c12bb17cc67e4c94ce3197a068b800",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-two-position-positive-completeness-20261016/THEOREM.md",
+      "public_sha256": "7091ec8cea74ac8338ae33bdba0a3e434c8661c2ccfb7a2f2c26d8a4a54608ab",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-two-position-positive-completeness-20261016/check_v0.py",
+      "source_sha256": "3de524299f69df7a97ea6e66b12febd79bcab04f990dc07e6a85c4454bf4d25f",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-two-position-positive-completeness-20261016/check_v0.py",
+      "public_sha256": "efc1c81cee04911a3437d3b71b56406b3eb6aab5483dd048c1c9fd1f30e80b16",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-two-position-positive-completeness-20261016/twelve-tests.json",
+      "source_sha256": "cc7d7e3e97525e47ba167ad15c8c0a9c2681ea4826d30155bb7b4d7f632b61b6",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-two-position-positive-completeness-20261016/twelve-tests.json",
+      "public_sha256": "29dc0e84cacd91dd39fc038a0a2f881a16dedb51d3864d4cd7e1a5f602280171",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-two-position-positive-completeness-20261016/v0-map.json",
+      "source_sha256": "d0fe1426ff300e9b4f5fd2f4c6ec2e9d4e32eb08a89528e4b50008f2fb10be7c",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-two-position-positive-completeness-20261016/v0-map.json",
+      "public_sha256": "8b6ec90d69b8775907fbe692208f3f3c0ed3c7d03dfb12b23ce6e9f4121a62d4",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    }
+  ]
+}
