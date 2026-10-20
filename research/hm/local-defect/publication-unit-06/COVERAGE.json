@@ -1,0 +1,20 @@
+{
+  "unit": "06",
+  "clusters": [
+    "wedge-defect-equivariant-obstruction",
+    "rank-eight-defect-below-600"
+  ],
+  "core_predecessors": [
+    "01",
+    "02",
+    "05"
+  ],
+  "external_inputs": [
+    "normalizer-250-double-defect",
+    "normalizer-375-point-orbit",
+    "normalizer-500-point-orbits",
+    "rank-eight-isolated-singularity"
+  ],
+  "later_contextual_units": [],
+  "scope": "The equality-case representation condition excludes the wedge finite dual and character twists as canonical rank-two defects. Separate conditional orbit inputs yield noncanonical support contribution at least600. The retained earlier bound300 is superseded by later local exclusions."
+}
