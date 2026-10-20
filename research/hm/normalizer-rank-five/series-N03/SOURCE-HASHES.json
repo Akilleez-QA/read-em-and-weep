@@ -1,0 +1,58 @@
+[
+  {
+    "source_artifact": "degree-fifteen-normalizer/AUDIT.md",
+    "original_sha256": "eca9c5b53d3bf6803dae61657f0c0ddcde3cb4c8240546ead97aea083ce3524c",
+    "public_sha256": "eca9c5b53d3bf6803dae61657f0c0ddcde3cb4c8240546ead97aea083ce3524c",
+    "path": "research/hm/normalizer-rank-five/degree-fifteen-normalizer/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "degree-fifteen-normalizer/IRREDUCIBILITY.md",
+    "original_sha256": "fad8efcc9fc6da30c410e1f0fec86be8159925f200b0f4d90243ec48682f5422",
+    "public_sha256": "fad8efcc9fc6da30c410e1f0fec86be8159925f200b0f4d90243ec48682f5422",
+    "path": "research/hm/normalizer-rank-five/degree-fifteen-normalizer/IRREDUCIBILITY.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "degree-fifteen-normalizer/IRREDUCIBILITY_AUDIT.md",
+    "original_sha256": "b2e546c2f060724951c2aad0e664a71ebc2308501fb6f785dacaf0474ecbbaf6",
+    "public_sha256": "b2e546c2f060724951c2aad0e664a71ebc2308501fb6f785dacaf0474ecbbaf6",
+    "path": "research/hm/normalizer-rank-five/degree-fifteen-normalizer/IRREDUCIBILITY_AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "degree-fifteen-normalizer/PROOF.md",
+    "original_sha256": "c5e20462c7f8815f009d4b4da05277948a35e00bff10de78830dcde9f50502b0",
+    "public_sha256": "146798c41a9ea5aed7b308b022f62a0bae1f0c02be6a0a79ba5a39c6ae79d2e8",
+    "path": "research/hm/normalizer-rank-five/degree-fifteen-normalizer/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "quintic-normalizer-exclusion/AUDIT.md",
+    "original_sha256": "72744aa94a89e54374da564f9cfb64fed41c8bf42b64aaf9623a0e55522ea49e",
+    "public_sha256": "72744aa94a89e54374da564f9cfb64fed41c8bf42b64aaf9623a0e55522ea49e",
+    "path": "research/hm/normalizer-rank-five/quintic-normalizer-exclusion/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "quintic-normalizer-exclusion/COROLLARY-AUDIT.md",
+    "original_sha256": "086a0f3b558127bdc48154955d43717acf2dd5ec305f04fec12b55006899fd06",
+    "public_sha256": "086a0f3b558127bdc48154955d43717acf2dd5ec305f04fec12b55006899fd06",
+    "path": "research/hm/normalizer-rank-five/quintic-normalizer-exclusion/COROLLARY-AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "quintic-normalizer-exclusion/COROLLARY.md",
+    "original_sha256": "3945037cf86661a59fb5957ad4fec7d8c77fb3b5d3b759829e4a383b7daceb1d",
+    "public_sha256": "04991dcfd8ec8e4d9330fb1a4e14dbbb6f6b12a8e96c82c20d364efd8f148f00",
+    "path": "research/hm/normalizer-rank-five/quintic-normalizer-exclusion/COROLLARY.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "quintic-normalizer-exclusion/PROOF.md",
+    "original_sha256": "618ab611aa2142c19ced7104736c5c816e033f4bb8d4934d6bd89b646ad1545b",
+    "public_sha256": "618ab611aa2142c19ced7104736c5c816e033f4bb8d4934d6bd89b646ad1545b",
+    "path": "research/hm/normalizer-rank-five/quintic-normalizer-exclusion/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
