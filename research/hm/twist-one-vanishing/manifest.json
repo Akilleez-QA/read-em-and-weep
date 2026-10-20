@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "scope": "H0(P4, End_0(F)(1)) = 0 only",
+  "files": {
+    "AUDIT.md": {
+      "sha256": "f9a8989d37417270c7cb8d1f8fbd89b7fd5ef86570b3d666ef13d650c898be46",
+      "git_blob_sha1": "03e3977cd3044520cea19b75e0cf55f474e419a5",
+      "bytes": 8793
+    },
+    "PROOF.md": {
+      "sha256": "16b368ac93ae42eb14098644aaccf19df07f19360338992cd8040e9645b188ee",
+      "git_blob_sha1": "8e2baea02ee346493388fb2db8bf355c5f6a53b5",
+      "bytes": 8366
+    },
+    "README.md": {
+      "sha256": "0ee9a7e90bd334c53672b2065a7e533baec9270ee09e83ef5f25b48af58a2cc8",
+      "git_blob_sha1": "078dfbd594aa8ee115c2de678359404f8cf6539b",
+      "bytes": 1568
+    },
+    "SOURCES.md": {
+      "sha256": "2b0fcfce046c97e1898d6b84589b2d173d5106476e371e565bf71f27c57c7d61",
+      "git_blob_sha1": "e15a09ae1cc9f2660b71373bddd9ef0184a3133a",
+      "bytes": 1938
+    }
+  }
+}
