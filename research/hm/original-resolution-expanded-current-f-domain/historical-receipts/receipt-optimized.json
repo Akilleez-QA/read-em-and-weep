@@ -1,0 +1,48 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "C": [
+      14,
+      8
+    ],
+    "Q": [
+      35,
+      17
+    ],
+    "T": [
+      30,
+      16
+    ],
+    "first_cup": [
+      [
+        5,
+        10,
+        6,
+        5
+      ],
+      [
+        3,
+        6,
+        4,
+        3
+      ]
+    ],
+    "physical_evaluations": 0,
+    "scope": "integer owner metadata and hashes only",
+    "second_cup": [
+      [
+        9,
+        6,
+        14,
+        5
+      ],
+      [
+        5,
+        4,
+        8,
+        3
+      ]
+    ],
+    "status": "pass"
+  }
+}
