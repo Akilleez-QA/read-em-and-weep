@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "source_artifact": "quadratic-yoneda-exclusion/PROOF.md",
+      "source_sha256": "a058c6b37bbc421f7767fb187a4a9856f1e3d35758516727b5567a5fb91cdb73",
+      "public_path": "research/hm/quadratic-yoneda-character-exclusion/PROOF.md",
+      "public_sha256": "a058c6b37bbc421f7767fb187a4a9856f1e3d35758516727b5567a5fb91cdb73",
+      "treatment": "complete unchanged historical scientific manuscript"
+    },
+    {
+      "source_artifact": "quadratic-yoneda-exclusion/AUDIT.md",
+      "source_sha256": "4123df03bdbcc49c961eca35d66fb5bb9e6f66d189726abbe2483bb92d0aa51c",
+      "public_path": "research/hm/quadratic-yoneda-character-exclusion/AUDIT.md",
+      "public_sha256": "4123df03bdbcc49c961eca35d66fb5bb9e6f66d189726abbe2483bb92d0aa51c",
+      "treatment": "complete unchanged historical scientific manuscript"
+    },
+    {
+      "source_artifact": "quadratic-yoneda-exclusion/INDEPENDENT-AUDIT.md",
+      "source_sha256": "ced6459146bb2aef318453c760d083ef7a73be80e3711f45fc2c214cd1e904be",
+      "public_path": "research/hm/quadratic-yoneda-character-exclusion/INDEPENDENT-AUDIT.md",
+      "public_sha256": "ced6459146bb2aef318453c760d083ef7a73be80e3711f45fc2c214cd1e904be",
+      "treatment": "complete unchanged historical scientific manuscript"
+    }
+  ]
+}
