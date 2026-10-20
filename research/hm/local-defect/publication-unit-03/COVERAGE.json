@@ -1,0 +1,16 @@
+{
+  "unit": "03",
+  "clusters": [
+    "length-five-local-defect",
+    "length-six-local-defect"
+  ],
+  "core_predecessors": [
+    "01",
+    "02"
+  ],
+  "external_inputs": [
+    "rank-eight-isolated-singularity"
+  ],
+  "later_contextual_units": [],
+  "scope": "Universal isolated self-dual Betti inequality and order-twenty stabilizer exclusions of lengths five and six."
+}
