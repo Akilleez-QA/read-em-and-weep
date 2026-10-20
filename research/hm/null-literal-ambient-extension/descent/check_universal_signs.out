@@ -1,0 +1,9 @@
+PASS Delta S = -bu
+PASS Delta H = delta u - bv
+PASS Delta K = delta v + ba
+PASS Delta P = -delta a
+PASS bS=0
+PASS delta S+bH=0
+PASS delta H+bK=0
+PASS delta K+bP=0
+PASS delta P=0
