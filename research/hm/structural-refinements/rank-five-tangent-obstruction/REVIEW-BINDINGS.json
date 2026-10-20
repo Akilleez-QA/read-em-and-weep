@@ -1,0 +1,42 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "PASS under the stated premises",
+  "proof_sha256": "9338b901fa4dfb5e71a80dbe938e2b283d3639d7eca9ecf28b6fec5aaf3a53c1",
+  "files": [
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/AUDIT.md",
+      "sha256": "a6ea92af62c8864a9e67ab8550663f0314b82242eb9b05b11889d277c4950d8a",
+      "git_blob_sha1": "71b707c93f5f2b7ffa93a91075cc67176371a909"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/PROOF.md",
+      "sha256": "9338b901fa4dfb5e71a80dbe938e2b283d3639d7eca9ecf28b6fec5aaf3a53c1",
+      "git_blob_sha1": "5a800b97a04cf6c4bf43dd55463bd79103dab695"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/ROOT_CHECK.md",
+      "sha256": "c733deed9c96dce251827d8ed79ea82fc29c125d9536b3038105b5d2a02ef48b",
+      "git_blob_sha1": "93c9c482893b81c9eb4bc004d6952457ab4ac548"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/CURRENT-SCOPE.md",
+      "sha256": "45927e6446f55d11e3899a2c0c231acc8b5c93ce05a2eb0c5e0b3e60281905ef",
+      "git_blob_sha1": "e9637c7ebb1f032b7d56cbd1ee5045a6530c96fc"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/DEPENDENCIES.json",
+      "sha256": "5311851ac23d25a73f1a4a10d4b0560a3bd9e01906b2bc430e48033ed70d03d1",
+      "git_blob_sha1": "9b331dfb222ff97f3eb22e4cf1c718ea0a365c08"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/SOURCE-BINDINGS.json",
+      "sha256": "3762dabcee23aeaa4070e0b490a224dbe064f2d0243ab65f5ebda6223b4c73d6",
+      "git_blob_sha1": "63c04c51fee418d1b56539969adad7c48f4a6fae"
+    },
+    {
+      "path": "research/hm/structural-refinements/rank-five-tangent-obstruction/CURRENT-AUDIT.md",
+      "sha256": "19e8c54e974efee194904a735d166aefcf81179df3a3b3d38c7bd0c30f635167",
+      "git_blob_sha1": "31131468eee3ebfa0a1a80872dd2058197894317"
+    }
+  ]
+}
