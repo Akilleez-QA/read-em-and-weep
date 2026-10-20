@@ -1,0 +1,11 @@
+# Independent audit
+
+Status: PASS for the main proof and ADDENDUM.md. No corrections remain; this audit is frozen.
+
+The rank-ten quotient has a length-one bundle resolution, so the displayed dual sequence and vanishing of higher Ext sheaves are correct. Locally the established rank-four subbundle splits off from the injection G→O20: its inclusion into G is fiberwise injective because its composite into O20 is a subbundle. The remaining rank-ten domain identifies with L⊗Sym²U. Block elimination therefore gives the Q presentation, the Fitting ideal equalities, and fiber dimension 10−rank Q.
+
+At a nonfree localization the projective dimension is exactly one, and Auslander–Buchsbaum gives depth c−1. Together with torsion-freeness, this proves reflexivity precisely when the nonfree locus has no codimension-two component. Over a codimension-two regular local ring, the reflexive hull is free and its quotient has finite length. The long Ext sequence identifies Ext1(R,O) with Ext2 of that quotient, whose length agrees by local duality. Hence the two codimension-two cycles coincide.
+
+The Veronese span bound follows from linear Noether normalization and injectivity of its quadratic polynomial subspace. It gives the stated corank thresholds for positive-dimensional and surface fibers. Three distinct Veronese points are not collinear, including when their original points are collinear, so the rank-nine and rank-eight geometric point bounds are valid. Properness plus quasi-finiteness yields the asserted finiteness over the rank-at-least-eight open. These are support and dimension statements, not reduced-fiber claims.
+
+In the addendum, Chern-character additivity gives c2(R**)=75−delta. Generation in codimension one and the audited positivity lemma make this nonnegative; equality would split the reflexive hull and produce five invariant constant sections in irreducible J*, so it is strictly positive. The Ext sheaf is equivariant with support dimension at most two, so its surface degree is divisible by five. Thus delta is one of 0,5,...,70. Delta zero is equivalent to absence of codimension-two singularities, hence to reflexivity by the preceding projective-dimension-one criterion. It then forces R=R** everywhere, but not local freeness.
