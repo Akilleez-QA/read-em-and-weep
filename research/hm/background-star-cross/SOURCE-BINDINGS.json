@@ -1,0 +1,19 @@
+{
+  "scientific_delivery_date": "2026-10-18",
+  "files": [
+    {
+      "source_title": "background-star-cross/PROOF.md",
+      "source_sha256": "4c3b7c2de2be7b25e164b9387a91b91bf22174ccffaa00b43b572efd9134c191",
+      "public_path": "research/hm/background-star-cross/PROOF.md",
+      "public_sha256": "1db73d68337ad4bc8ca0176a6f3dfb5f93aa78e45848b2a157d648a2dc00c276",
+      "editorial_changes": "Prerequisite navigation and final operational-method text only. Complete mathematical proof and audit retained."
+    },
+    {
+      "source_title": "background-star-cross/REVIEW.md",
+      "source_sha256": "5df6cae21ee1219849a2100db36b780f60c8a73762ba7ed15a12926ff04bc09d",
+      "public_path": "research/hm/background-star-cross/INDEPENDENT-AUDIT.md",
+      "public_sha256": "5df6cae21ee1219849a2100db36b780f60c8a73762ba7ed15a12926ff04bc09d",
+      "editorial_changes": "Prerequisite navigation and final operational-method text only. Complete mathematical proof and audit retained."
+    }
+  ]
+}
