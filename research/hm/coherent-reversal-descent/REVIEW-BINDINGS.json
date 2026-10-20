@@ -1,0 +1,23 @@
+{
+  "proof_sha256": "2153ca56b24eb11ab9391d47c742942feda48b6c436af23d6eae9f6acf4e752b",
+  "review_status": "Two scoped mathematical reviews pass; not formal verification.",
+  "files": {
+    "PROOF.md": {
+      "sha256": "2153ca56b24eb11ab9391d47c742942feda48b6c436af23d6eae9f6acf4e752b",
+      "bytes": 15140
+    },
+    "README.md": {
+      "sha256": "0065a200d7892c684b43e775e44c96425a8b8eec6ef4ac72b4589550f88b7799",
+      "bytes": 1844
+    },
+    "INDEPENDENT-REVIEW.md": {
+      "sha256": "64fd0f49ad3b8e9dcd93b264e5ac8682b9be88c9d2ea6d26042757a8770a60c8",
+      "bytes": 13407
+    },
+    "ROOT-REVIEW.md": {
+      "sha256": "48c304493f23aa46089800d62c14508e2887feb9ade6c1a7b94d9d0578ec448b",
+      "bytes": 1528
+    }
+  },
+  "base_commit": "49ea1a16791fabbbfd6f8642854405446e98b2bd"
+}
