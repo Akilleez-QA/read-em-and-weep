@@ -1,0 +1,97 @@
+{
+  "evidence_status": "Historical receipt only; not rerun for this edition; source or proof hashes refer to original inputs unless explicitly marked staged.",
+  "report": {
+    "active_negative_controls": [
+      "omitted outer adjugate",
+      "noncomplementary pair",
+      "missing derivative flip",
+      "one wrong physical leaf character",
+      "odd homotopy",
+      "wrong block degree",
+      "missing c frame multiplier",
+      "omitted odd-basis transition",
+      "branch-unit division",
+      "repeated scalar directions"
+    ],
+    "actual_source_model_matrix_polynomial_jet_evaluations": 0,
+    "all_residual_characters": 15,
+    "complete_function_AST_contracts": 28,
+    "full_character_coefficient_multidegrees": [
+      [
+        -2,
+        -2,
+        -2,
+        -2
+      ],
+      [
+        -3,
+        -3,
+        -3,
+        -3
+      ],
+      [
+        -4,
+        -4,
+        -4,
+        -4
+      ],
+      [
+        -5,
+        -5,
+        -5,
+        -5
+      ]
+    ],
+    "kinetic_gerbe_Fk_E_slots": [
+      7,
+      3,
+      2,
+      8
+    ],
+    "legal_mask_triples_checked": 4096,
+    "lift_block_support": [
+      [
+        [
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      [
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      [
+        [
+          3,
+          0
+        ]
+      ]
+    ],
+    "residual_slots_per_triple": 20,
+    "source_and_dependency_files_authenticated": 12,
+    "source_imports": 0,
+    "standard_chart_pair_stage_checks": 1024,
+    "strict_End_degrees": [
+      0,
+      -1,
+      -2,
+      -3
+    ]
+  }
+}
