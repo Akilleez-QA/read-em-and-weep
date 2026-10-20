@@ -1,0 +1,26 @@
+[
+  {
+    "artifact": "quartic-surface-section-bounds/AUDIT.md",
+    "original_sha256": "795a5560e5cf956cbc534ef9c8568b578ac4d45918615392e628f4e15d0652b4",
+    "published_sha256": "401ba0b33ad4203bb954c781dd94db09ca55471f3a2f7a2c6d01b662ae5f565b",
+    "path": "research/hm/local-defect/quartic-surface-section-bounds/AUDIT.md"
+  },
+  {
+    "artifact": "quartic-surface-section-bounds/PROOF.md",
+    "original_sha256": "a1beb2a1dcd6d9e6ac5abc8a4b5744122071ebbb797e589cecf0c1e15bbd110f",
+    "published_sha256": "9c8f9e6ad4daa43d32ba60fb5c744d71a9bc28563011f48cca0786af51207a6d",
+    "path": "research/hm/local-defect/quartic-surface-section-bounds/PROOF.md"
+  },
+  {
+    "artifact": "rank-nine-quartic-exclusion/AUDIT.md",
+    "original_sha256": "140c1607ba71ec553a7aa3445a40e37bb828974ebdebf515d0968cefc60e16b2",
+    "published_sha256": "5713586f432cf402a7b78e7d1131fcce59d36098ef3ad51d332b1c2231261b17",
+    "path": "research/hm/local-defect/rank-nine-quartic-exclusion/AUDIT.md"
+  },
+  {
+    "artifact": "rank-nine-quartic-exclusion/PROOF.md",
+    "original_sha256": "ec381aea2e7dc04d91704536645ce8e59691f6c8dfb26056f02472fd511719c8",
+    "published_sha256": "29eab8bc11bfdd36c9745a38c1d8332265619acc024b4b4dde6e27fedc34f28a",
+    "path": "research/hm/local-defect/rank-nine-quartic-exclusion/PROOF.md"
+  }
+]
