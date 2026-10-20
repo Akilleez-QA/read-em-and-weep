@@ -1,0 +1,6 @@
+# Independent cone review
+
+Independently checked GLOBAL-CONE.md SHA256 0a1569ed51c4a8a9b8f0434a61f3e19f095ada88c83ed29e340ffe8e92ad8897. Homogenization has rank-drop locus only the vertex because the affine presentation has finite support; the local proof thus applies there and the complex is a symplectic bundle monad elsewhere. Independent linear columns imply H0(F(-d))=0 for d>=0 using intermediate line-bundle acyclicity. A saturated rank-one subsheaf of reflexive F is reflexive and hence O(d), establishing slope stability. On P3 the same argument and acyclic twist(-2) give the usual charge-four instanton conditions. The K-class correction has the positive sign +[Ptilde]; its length16 gives ch4=47/3, c4=-86 and chi=6. The changed c2=4 and singleton singular orbit expressly prevent interpreting this example as the hypothetical c2=5 full-normalizer HM kernel.
+
+Global-cone clarification reviewed at updated SHA256 ad1e77531d8dd6b90cc07b4440435595d87a488010c503caf124446a6b241e51: the algebraic stalk at the vertex completes to the formal local module, rather than being literally equal to the formal power-series module. The construction and depth/Ext arguments hold before completion as stated, with the formal comparison by faithful flatness. This correction preserves the preceding verdict.
+
