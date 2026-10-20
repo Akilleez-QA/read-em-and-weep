@@ -1,0 +1,44 @@
+[
+  {
+    "public_path": "research/conductor-normalization/fourth-power-cohomology/PROOF.md",
+    "public_sha256": "17cace9ed1f356cd14b0306ccf6d0f23b8e40db9b0bac4c6a7c41a6bc3851988",
+    "source": "fourth-power-cohomology/PROOF.md",
+    "source_sha256": "455c07aad8e90ede5b9c3d6274c2aeedb6e2dcc179454c2917551ab54765de04",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/fourth-power-cohomology/AUDIT.md",
+    "public_sha256": "6c68c5227c45d5d20933675925e9a37694815c98c786a7c1b9c50caa99e8d23d",
+    "source": "fourth-power-cohomology/AUDIT.md",
+    "source_sha256": "9180bf550a154730a927a8cc405d912a8a9d3927cab59188d9d75ca0217105e5",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/conductor-cohomology-bounds/PROOF.md",
+    "public_sha256": "fb6a8e3a7074abe1c240e49326b30873ba29da9bd263c4b571d1fd6cbd8ee0fd",
+    "source": "conductor-cohomology-bounds/PROOF.md",
+    "source_sha256": "267e959669a95c7919c1ed6ef0807242f63c7d858c395518c7b4aee61066967d",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/conductor-cohomology-bounds/AUDIT.md",
+    "public_sha256": "093e9d7f71bba86b467b94b11addc8f4a72d27e7946cfcf308864b6f1e7a0bd2",
+    "source": "conductor-cohomology-bounds/AUDIT.md",
+    "source_sha256": "ee354a13cf3dfb6e8eaded557cd5aae11a0264a55dc70f50d78ec99ec5642771",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/normalization-gysin-factorization/PROOF.md",
+    "public_sha256": "9a63323605ed5f2a0574b5e8a31c2b145fb710d46fae4c587670d777e9a4d10c",
+    "source": "normalization-gysin-factorization/PROOF.md",
+    "source_sha256": "0e29fd1ead0112aa0838c3e676cf210ed77b5dd96feffefb9c13d822faa1e9f9",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/normalization-gysin-factorization/AUDIT.md",
+    "public_sha256": "ff3d5d5ea302c823756dde40ce77b73164aa4edafd106ba05a4272d7fc9039aa",
+    "source": "normalization-gysin-factorization/AUDIT.md",
+    "source_sha256": "c2e8d713f53bcca22b41ce762b5991c02999715e19915395c20f7219cca8196d",
+    "treatment": "complete"
+  }
+]

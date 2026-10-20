@@ -1,0 +1,53 @@
+[
+  {
+    "manuscript_id": "S096",
+    "cluster": "fourth-power-cohomology",
+    "unit": "04",
+    "additional_application_units": [],
+    "inventory_proof": "fourth-power-cohomology/PROOF.md",
+    "inventory_sha256": "455c07aad8e90ede5b9c3d6274c2aeedb6e2dcc179454c2917551ab54765de04",
+    "actual_proof_sha256": "455c07aad8e90ede5b9c3d6274c2aeedb6e2dcc179454c2917551ab54765de04",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual boundary rank and source membership are not evaluated. Historical unverified-positive-H2 language is not the current frontier: stronger positive-H2 input is included in unit05."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S029",
+    "cluster": "conductor-cohomology-bounds",
+    "unit": "04",
+    "additional_application_units": [],
+    "inventory_proof": "conductor-cohomology-bounds/PROOF.md",
+    "inventory_sha256": "267e959669a95c7919c1ed6ef0807242f63c7d858c395518c7b4aee61066967d",
+    "actual_proof_sha256": "267e959669a95c7919c1ed6ef0807242f63c7d858c395518c7b4aee61066967d",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual splitting type and derivative/Gysin ranks are not evaluated; no sharper actual splitting claim is made."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S183",
+    "cluster": "normalization-gysin-factorization",
+    "unit": "04",
+    "additional_application_units": [],
+    "inventory_proof": "normalization-gysin-factorization/PROOF.md",
+    "inventory_sha256": "0e29fd1ead0112aa0838c3e676cf210ed77b5dd96feffefb9c13d822faa1e9f9",
+    "actual_proof_sha256": "0e29fd1ead0112aa0838c3e676cf210ed77b5dd96feffefb9c13d822faa1e9f9",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 1,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual normalized restriction and residual cusp-map ranks remain undetermined; their tests are not assertions of vanishing."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
