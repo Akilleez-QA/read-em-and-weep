@@ -1,0 +1,51 @@
+[
+  {
+    "public_path": "research/conductor-normalization/finite-square-component-detector/PROOF.md",
+    "public_sha256": "c921144d93c52b72cc57d163f9c416db16c3be3d7e8c3cdc3827555809df21bf",
+    "source": "finite-square-component-detector/PROOF.md",
+    "source_sha256": "4b2d3cf6169e9f7088e578fa098df6b66a4c0d4ef5a9da1b74537ce7365f8f36",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/finite-square-component-detector/AUDIT.md",
+    "public_sha256": "1bd32742626ba5fe189bdd200d7eda10f331c88effe34cb20655a448c0c24729",
+    "source": "finite-square-component-detector/AUDIT.md",
+    "source_sha256": "a977aa032b379a90e4b4697aa58876759ca75b89cd43f283d7e96afdb2ac130f",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/zero-scheme-line-lift-tower/PROOF.md",
+    "public_sha256": "b45ff7c05cd6c8d6aef8745b268986484025e52a29c534379270b2562243e494",
+    "source": "zero-scheme-line-lift-tower/PROOF.md",
+    "source_sha256": "0f2e025d9d6c4cb7f546e1ff6af816a3bc353d6c507cd734b766a34744c8e1fe",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/zero-scheme-line-lift-tower/AUDIT.md",
+    "public_sha256": "16e2ee1d75364d7bacaa365f86d33544b9f2be23e6f121d8548f6d42a1c163f3",
+    "source": "zero-scheme-line-lift-tower/AUDIT.md",
+    "source_sha256": "5e5d43e1ac57de4ff1b1787b7889080809af2f555bf1de5f9ef51febe5cd2dea",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/zero-scheme-line-lift-tower/RESULT.md",
+    "public_sha256": "6d8066e9e1d84b4b6ec7dd411dc8635274fabda8cdb68359be2792a073e300ed",
+    "source": "zero-scheme-line-lift-tower/RESULT.md",
+    "source_sha256": "0206e3bd02057699e7aef5ccbb663aac16ce5de2a40569cf0a741c8c871988ee",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/disjoint-zero-extension-detector/PROOF.md",
+    "public_sha256": "3d94f3678b8a240c2bd1c7647f63dc33cb8730745aa85942330f4a991052fd73",
+    "source": "disjoint-zero-extension-detector/PROOF.md",
+    "source_sha256": "db24f443c26076199bcf7c4ed93aaa00ee524dde24209c3ab8284ff4959ca649",
+    "treatment": "complete"
+  },
+  {
+    "public_path": "research/conductor-normalization/disjoint-zero-extension-detector/AUDIT.md",
+    "public_sha256": "6d67fdb17b475323b45b948214f89fc7a26752dfe2022c1e6da38867e65ce2fa",
+    "source": "disjoint-zero-extension-detector/AUDIT.md",
+    "source_sha256": "c3f215b8f032affd7877bd05e3d3d0117c3543801355a42571b3b09963eea11c",
+    "treatment": "complete"
+  }
+]

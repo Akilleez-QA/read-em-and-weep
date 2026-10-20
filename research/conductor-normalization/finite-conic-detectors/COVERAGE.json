@@ -1,0 +1,53 @@
+[
+  {
+    "manuscript_id": "S087",
+    "cluster": "finite-square-component-detector",
+    "unit": "08",
+    "additional_application_units": [],
+    "inventory_proof": "finite-square-component-detector/PROOF.md",
+    "inventory_sha256": "4b2d3cf6169e9f7088e578fa098df6b66a4c0d4ef5a9da1b74537ce7365f8f36",
+    "actual_proof_sha256": "4b2d3cf6169e9f7088e578fa098df6b66a4c0d4ef5a9da1b74537ce7365f8f36",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "The global-plane End(E) bounds, actual-section dimension classification and component-gluing comparison are explicit external inputs; actual detector/Gysin rank is not determined."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S381",
+    "cluster": "zero-scheme-line-lift-tower",
+    "unit": "08",
+    "additional_application_units": [],
+    "inventory_proof": "zero-scheme-line-lift-tower/RESULT.md",
+    "inventory_sha256": "0206e3bd02057699e7aef5ccbb663aac16ce5de2a40569cf0a741c8c871988ee",
+    "actual_proof_sha256": "0f2e025d9d6c4cb7f546e1ff6af816a3bc353d6c507cd734b766a34744c8e1fe",
+    "inventory_hash_note": "Inventory hash selects RESULT.md; full PROOF.md and RESULT.md are both included.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "An actual saturated section and lci zero scheme with c2=16 are assumed; maximal-line identification and any optional d<=20 input must be supplied. No actual zero scheme is evaluated."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  },
+  {
+    "manuscript_id": "S064",
+    "cluster": "disjoint-zero-extension-detector",
+    "unit": "08",
+    "additional_application_units": [],
+    "inventory_proof": "disjoint-zero-extension-detector/PROOF.md",
+    "inventory_sha256": "db24f443c26076199bcf7c4ed93aaa00ee524dde24209c3ab8284ff4959ca649",
+    "actual_proof_sha256": "db24f443c26076199bcf7c4ed93aaa00ee524dde24209c3ab8284ff4959ca649",
+    "inventory_hash_note": "Inventory proof hash matches the original full proof.",
+    "all_substantive_markdown_included": true,
+    "omitted_provenance_only_record_count": 0,
+    "actual_identification_status": "conditional on the exact assumptions in INPUTS.md; no actual-instance evaluation",
+    "held_actual_claims": [
+      "Actual section/zero-scheme data, disjointness and H1(E(u))=0 for u>=8 remain explicit branch hypotheses; no first nonzero extension order is selected."
+    ],
+    "core_publication_status": "staged with exact proof and mathematical audit; conditional applications explicitly separated or qualified"
+  }
+]
