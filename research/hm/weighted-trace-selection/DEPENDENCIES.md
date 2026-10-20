@@ -1,0 +1,21 @@
+# Mathematical dependencies and exact boundaries
+
+## Public coefficient and cochain foundations
+
+- [Retained filtration and weighted remainder, PR137](https://github.com/Akilleez-QA/read-em-and-weep/blob/4edb97ceeb159778fa20ffd33c0e540af1292e06/research/hm/null-retained-weighted-remainder/README.md): canonical quotient direction, trace normalization, exact coset/Leibniz remainder and comparison-boundary signs.
+- [Canonical cubic complement and reconstruction, PR139](https://github.com/Akilleez-QA/read-em-and-weep/blob/c5fb4a0bcc3c8e35093fcfcff9a73a79a45a18e5/research/hm/cubic-reconstruction/PROOF.md): global complement τ, the two evaluation coordinates and conditional regular reconstruction. This existing theorem is not recounted as a new result.
+- [Ordered-root geometry, PR158](https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-INPUTS.md): reduced complete-intersection weight ideal, Koszul determinant character, regular Vandermonde division, all-degree sign blindness through I_D³ and sharp universal local order three. The [full historical geometric review](https://github.com/Akilleez-QA/read-em-and-weep/blob/aab61d34a84c9b8b5a908606a7beb7212d45fe7c/research/conductor-normalization/ideal-power-contractions/WEIGHT-GEOMETRY-HISTORICAL-AUDIT.md) also proves closure of the combined ideal-valued remainder.
+- [Normalized finite-flat transport, PR387](https://github.com/Akilleez-QA/read-em-and-weep/blob/e276e0e181e62a60c3ae24759b8bfed746f2492b/research/regular-trace-transport/PROOF.md): j_r(φ)=φ∘Tr_(R/A)/4, its restriction splitting, the Tr_(A/Y)/6 constant inclusion, twist/weight compatibility and canonical-form/sign conversion. These are geometric coefficient maps, not an actual-source equality.
+- [Raw closure](https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-second-order-raw-closure/PROOF.md) and [unweighted alternating primitive](https://github.com/Akilleez-QA/read-em-and-weep/blob/4659e4425c6b5ab6b1899e6af93656ac03ff0862/research/hm/null-alternating-primitive/PROOF.md): retain their complete source, genuine transported action and regularity premises.
+- [Root coefficient and character proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/08b73637d4136f91606aad332c46cafd064417f8/research/hm/current-scalar-residual-attribution/closure-and-characters.md): all-four-odd coefficient A⁻² and normalized End character conventions in their admitted source domain.
+- [Specified raw-to-canonical comparison](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6274541018) and [complete normalized mixed source](https://github.com/Akilleez-QA/read-em-and-weep/pull/1#issuecomment-6271101716): source-specific hypotheses, not consequences of the abstract representation or coefficient theorems.
+
+## Collision-order boundary
+
+[PR167, SHARPEST-BOUND.md §4](https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md) proves sufficient coefficient orders 7,8,9 for unweighted, first-weight and second-weight recipients. A common closed regular unweighted representative R₀∈I_D⁷E with [R₀]=j₀(C) therefore suffices, with the stated transport and weight premises. The older order-twelve condition is a weaker sufficient hypothesis, not an optimum. Neither order is a deformation order.
+
+None of these weighted selection or Koszul arguments constructs the required I_D⁷E representative, the historical I_D¹²E representative, or its actual raw-source class comparison. Automatic I_D³ membership for the fully sign-projected EA recipient cannot be substituted for high-order membership of an H-sign or unweighted E representative.
+
+## Distinct logical questions
+
+Coefficient splitting, existence of a regular lift in a split Koszul complex, and actual mixed obstruction exactness are different assertions. A primitive for a target cochain must retain all source-to-canonical comparison boundaries. First-order existence, higher-order lifting, formal integrability and algebraicity are not identified with one another. No evaluation of the actual weighted coordinate classes is supplied by this packet.
