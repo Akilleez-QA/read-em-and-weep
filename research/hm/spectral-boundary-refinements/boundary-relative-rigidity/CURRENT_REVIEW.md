@@ -1,0 +1,9 @@
+# Current mathematical review
+
+Reviewed 2026-10-20. The proof and retained refinements pass independent mathematical text review under the premises in DEPENDENCIES.md. This is not formal proof checking or an actual source-instance evaluation. Historical audits remain historical.
+
+Global repeated-input injectivity, outer symmetry and cyclic zero imply independent polar values, nonvanishing of the descended vector quadratic on every nonzero diagonal, and the scalar nondegenerate-member lemma. The maximal-rank minor argument works also at rank zero. Common eigenlines are nonisotropic, pairwise orthogonal and have distinct joint tuples; two force a third without assuming commuting operators. The determinant and rectangular minors in S015 are essential: unit minors reduce the actual matrices to constant-rank normal forms over nilpotents. The functorial inverse-image construction identifies exact fibers, not only points. Vertical tangent injectivity, Nakayama and properness give finite unramified fibers and local quotient rings A/I; reduced fibers do not imply flatness or total reducedness.
+
+The finite-support premise is PR310 7f62d4535d0bfca8b2be93b0b4068cfd06fec717. PR338 85402222aca57fa071310a21f421755ecf35fe42 §1 provides the pointwise rectangular exclusions on all limits. These are stated under the same global tensor hypotheses. The length bound concerns the determinant boundary B, not the whole rectangle scheme R.
+
+The shared simple-spectrum supplement supplies a proof valid even with no boundary branch: a basepoint-free scalar system on the smooth conic has a separable degree-four pencil with simple general zeros. A repeated selfadjoint eigenvalue yields an isotropic eigenvector and contradicts transverse conic intersection. Artin simple roots, unit differences and projectors give three exact spectral candidate sections. Their cross-coordinate ideals can be units; three candidates are not three actual branches.
