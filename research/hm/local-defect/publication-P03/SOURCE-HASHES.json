@@ -1,0 +1,26 @@
+[
+  {
+    "artifact": "rank-four-global-determinant/AUDIT.md",
+    "original_sha256": "1781a9d04ae122d44a13dc8c8af8be1cd6bd6b9a12bf2038ac29f043b4e85a74",
+    "published_sha256": "733c2a2dc66abbc99563dac9c90d0dd47065c330ec8665c3b6e87517d0b169cd",
+    "path": "research/hm/local-defect/rank-four-global-determinant/AUDIT.md"
+  },
+  {
+    "artifact": "rank-four-global-determinant/PROOF.md",
+    "original_sha256": "c353b446588e9328912a4b1597774f37cb6cd7c9126b12e4ac9f53204414d13a",
+    "published_sha256": "8b919a7587a0bfa273db4dcf08f27751df43dc6025fd9b94e4aa18863692fc22",
+    "path": "research/hm/local-defect/rank-four-global-determinant/PROOF.md"
+  },
+  {
+    "artifact": "global-linear-image-plucker/AUDIT.md",
+    "original_sha256": "6fffe67d35d31b72a28ea819bb9c14ff1ea21454471911584420809c8b1713e8",
+    "published_sha256": "967bdf54d1ed8310de29c8ff83e89e4277246bd47b1135f941ca91046bae8b37",
+    "path": "research/hm/local-defect/global-linear-image-plucker/AUDIT.md"
+  },
+  {
+    "artifact": "global-linear-image-plucker/PROOF.md",
+    "original_sha256": "f2e265849267104c3764c54833ee206dc0e503850588c6e0f26974220c6efc30",
+    "published_sha256": "f61873c55c63f0ff320392f409268a2ca1ea6cb6f92df093160126889a53c26d",
+    "path": "research/hm/local-defect/global-linear-image-plucker/PROOF.md"
+  }
+]
