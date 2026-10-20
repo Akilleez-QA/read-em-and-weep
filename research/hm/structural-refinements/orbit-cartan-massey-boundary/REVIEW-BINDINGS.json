@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-20",
+  "verdict": "PASS under the stated premises",
+  "proof_sha256": "e4458c89169e811aee29f86f6926dd4e763b2fded6f42ffbfa56cbfcee637f82",
+  "files": [
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/AUDIT.md",
+      "sha256": "1c680ce06ddb0e6ab01a54a560e1048b106d681d1e3bdf8f0a5b78df03b8373e",
+      "git_blob_sha1": "4b84e9fbd486907c8fa94ec4f89f0a09ec0a7426"
+    },
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/PROOF.md",
+      "sha256": "e4458c89169e811aee29f86f6926dd4e763b2fded6f42ffbfa56cbfcee637f82",
+      "git_blob_sha1": "92c406381b1bc41211562f7eddab8ef7c23a0d93"
+    },
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/CURRENT-SCOPE.md",
+      "sha256": "e2f6d106c17b70ada8fc30637f4deb03297f317046dd63872b508f40d4cf794a",
+      "git_blob_sha1": "5a24e9db6773ec019fe7df0af2fffbc8368da259"
+    },
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/DEPENDENCIES.json",
+      "sha256": "bc6340aabab993d481662f07b88f23432bc9060f4ee56c79f5838aa1a4c81654",
+      "git_blob_sha1": "e8827ee100cd9bf2bb5d53522100454e85720695"
+    },
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/SOURCE-BINDINGS.json",
+      "sha256": "471be30230fbe347bb4c26bf1b6f02a992493dcfcc649ca8d741448eb895fdd5",
+      "git_blob_sha1": "7d08d9189d869025246b66ad89b62870e53174c4"
+    },
+    {
+      "path": "research/hm/structural-refinements/orbit-cartan-massey-boundary/CURRENT-AUDIT.md",
+      "sha256": "951a7ab659cbd8d05faebf4506ad5b4ffbd8f69652ac81a868bc96af3f672032",
+      "git_blob_sha1": "f01a729b172e7b68d6601ffd32de51e2d928f095"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "label": "lower-weight-image-symmetry",
+    "pr": 190,
+    "commit": "292d59b1e28c33968537a5f13700e7c45dc9214f",
+    "path": "research/hm/cubic-loci/foundation-p05b/LOWER-TRANSFER.md",
+    "sha256": "897e3ebeeacca60280c19aa6caf57631a9b6c48ae6610fcc195fbba5cbfb6976",
+    "git_blob_sha1": "63bd41691fe91a5a63209fc4a167956eddc5d9cd",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/292d59b1e28c33968537a5f13700e7c45dc9214f/research/hm/cubic-loci/foundation-p05b/LOWER-TRANSFER.md",
+    "role": "Lower ordered cups, zero indeterminacy and symmetry",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "equivariant-massey-multiplicity",
+    "pr": 187,
+    "commit": "1260bfd20b6680dc2ce66088c19ae6431b347ab0",
+    "path": "research/hm/cubic-loci/foundation-p05/ELIGIBLE-MULTIPLICITY.md",
+    "sha256": "e77874885e8896809bb950889c01827d0e4464f6f3283dd90b8f7d4888d3d5ea",
+    "git_blob_sha1": "8bd2f29855f3eb6087e938f896393e427e2774aa",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1260bfd20b6680dc2ce66088c19ae6431b347ab0/research/hm/cubic-loci/foundation-p05/ELIGIBLE-MULTIPLICITY.md",
+    "role": "Eligible representation channels, not actual values",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "cech-transgression-primitives",
+    "pr": 187,
+    "commit": "1260bfd20b6680dc2ce66088c19ae6431b347ab0",
+    "path": "research/hm/cubic-loci/foundation-p05/CECH-PRIMITIVES.md",
+    "sha256": "587824c6dde3e1cadf6b63b4f996e2f7b61cf0aa527287543a9f2f6625d37bb4",
+    "git_blob_sha1": "ba5b12753c0d048ed124d9105a3645174f99c9e2",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1260bfd20b6680dc2ce66088c19ae6431b347ab0/research/hm/cubic-loci/foundation-p05/CECH-PRIMITIVES.md",
+    "role": "Twisted cochain construction",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "canonical-massey-detector",
+    "pr": 185,
+    "commit": "721fdc556714bb40f0a805f01fae51cf6d555fd5",
+    "path": "research/hm/cubic-loci/foundation-p04/CANONICAL-MASSEY.md",
+    "sha256": "1887d2fa2bb470e887cd12eb34343d1bff3c4602ddf7c9adaaf6cd6ce6055415",
+    "git_blob_sha1": "ee733718a335cd8944e4e40f40ff75b86a0068ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/721fdc556714bb40f0a805f01fae51cf6d555fd5/research/hm/cubic-loci/foundation-p04/CANONICAL-MASSEY.md",
+    "role": "Canonical singleton Massey convention and cyclic identity; weight-specific assumptions retained separately",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "upper-transfer",
+    "pr": 190,
+    "commit": "292d59b1e28c33968537a5f13700e7c45dc9214f",
+    "path": "research/hm/cubic-loci/foundation-p05b/UPPER-TRANSFER.md",
+    "sha256": "a0079802c874b7d9cfc5522fe6aff1d548e1737cd3fb57fd058d0cd323faf6a1",
+    "git_blob_sha1": "19eaab135748b07ad711b563402df072f6f2e41b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/292d59b1e28c33968537a5f13700e7c45dc9214f/research/hm/cubic-loci/foundation-p05b/UPPER-TRANSFER.md",
+    "role": "Upper image/lift theorem; imports canonical operation and indeterminacy from the directly bound weight-two-massey source",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "generic-restriction-deformations",
+    "pr": 144,
+    "commit": "5d517ce3c7e528195c80541fd2d27e8037d315aa",
+    "path": "research/hm/generic-restriction-deformations/PROOF.md",
+    "sha256": "261c57bde9ce8bad8b04e511a08dc3eae40d4746c34592e4195979f4d64ef21f",
+    "git_blob_sha1": "383b35689ee820059905dd2f586ea18cae92e0a4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5d517ce3c7e528195c80541fd2d27e8037d315aa/research/hm/generic-restriction-deformations/PROOF.md",
+    "role": "Ambient orbit Kodaira\u2013Spencer isomorphism; restrictions need their stated smooth/quadratic hypotheses",
+    "status": "published; exact local publication payload and verified receipt"
+  },
+  {
+    "label": "weight-two-massey",
+    "pr": 185,
+    "commit": "721fdc556714bb40f0a805f01fae51cf6d555fd5",
+    "path": "research/hm/cubic-loci/foundation-p04/WEIGHT-TWO-TRANSFER.md",
+    "sha256": "7c2d6c63d4580a30452f98d52f57ca05afd9cceffaad1104434d9fa362fb91bb",
+    "git_blob_sha1": "6f340b7a7c64bb43c208711cabf65b3e5b4101c5",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/721fdc556714bb40f0a805f01fae51cf6d555fd5/research/hm/cubic-loci/foundation-p04/WEIGHT-TWO-TRANSFER.md",
+    "role": "Direct source for all ordered U0/U1 cup vanishings, upper 011 zero indeterminacy, and H1(End H(-2))=0; \u00a7\u00a72\u20133",
+    "status": "published; exact public file read back and Git blob matched during current review"
+  }
+]
