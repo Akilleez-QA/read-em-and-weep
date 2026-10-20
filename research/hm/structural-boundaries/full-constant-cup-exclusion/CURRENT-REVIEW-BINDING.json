@@ -1,0 +1,42 @@
+{
+  "audit_sha256": "483cf527251d9ee341cf3368cab141cc3735833166fbb88974f8b9f43c87afa4",
+  "reviewed_payload": [
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/DEPENDENCIES.md",
+      "sha256": "72b250fab88807e1ccba6f9f08bcd0afa5ace53be3d2cf8e9f6edf72897a307d",
+      "bytes": 1806
+    },
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/PROOF.md",
+      "sha256": "384f9fdb789308fc718ca076804906ca5c0d107def08426f36b125b6afdec25d",
+      "bytes": 10131
+    },
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/PUBLICATION.md",
+      "sha256": "f97db5152ef605e80c98a680abc5c67a15415af98091e559d5f9055759f46356",
+      "bytes": 1146
+    },
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/REVIEW.md",
+      "sha256": "e345c764f25326acfaaf5137b6fa63e828879c6a7e1db594e8412a0bc0c83dc3",
+      "bytes": 3847
+    },
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/SOURCE-BINDINGS.json",
+      "sha256": "793f751695a746c80e9bd8b465c7f50702b10492d8d50b4fad1fd480e2818c58",
+      "bytes": 1945
+    },
+    {
+      "unit": "07",
+      "path": "research/hm/structural-boundaries/full-constant-cup-exclusion/check_mask_metadata.py",
+      "sha256": "683b04df79ee28627a2acdc7aa040c35a43f618cc4b3ce485e73d5db5eab7412",
+      "bytes": 1911
+    }
+  ],
+  "review_scope": "04-08"
+}
