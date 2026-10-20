@@ -1,0 +1,26 @@
+[
+  {
+    "source": "rank-one-middle-curve-constraints/INDEPENDENT_AUDIT.md",
+    "source_sha256": "a35b21a684554e62bf45317afdb7619661e88209208c8da4d15eab479d233b10",
+    "public_path": "research/hm/middle-surface/rank-one-middle-curve-constraints/INDEPENDENT_AUDIT.md",
+    "public_sha256": "4f6933aa8ecc50a87adb5b7bbb24844fdb8bc5aaf6d18346c10294b30b99f92b"
+  },
+  {
+    "source": "rank-one-middle-curve-constraints/PROOF.md",
+    "source_sha256": "58a4cc0ef2bdef455be0e09b518c1c7e9d3bd40ae0ff8d1562cea8649faf750a",
+    "public_path": "research/hm/middle-surface/rank-one-middle-curve-constraints/PROOF.md",
+    "public_sha256": "4f315f07be7fec0e50ca676e70ce0170b8bafd836de81b9ad7cec69d8af44dcc"
+  },
+  {
+    "source": "rank-one-middle-curve-exclusion/INDEPENDENT_AUDIT.md",
+    "source_sha256": "420c8f07040c46438c9cec7c50380b4b76323b667bee79cb2f6e521fe0b8281b",
+    "public_path": "research/hm/middle-surface/rank-one-middle-curve-exclusion/INDEPENDENT_AUDIT.md",
+    "public_sha256": "47f9c1e2b333edf1a8fe9884a0063a5e95c79888bc4bbbe8308d65fb11e790c2"
+  },
+  {
+    "source": "rank-one-middle-curve-exclusion/PROOF.md",
+    "source_sha256": "a1dbb0020d8e0303605f0b1ea967ef55a9cea27144160d21aab599560a6f48c4",
+    "public_path": "research/hm/middle-surface/rank-one-middle-curve-exclusion/PROOF.md",
+    "public_sha256": "ce7def9c0ad02099a048cee0b7a27dc2621e9ad0171347e777d7b1ba116519bc"
+  }
+]
