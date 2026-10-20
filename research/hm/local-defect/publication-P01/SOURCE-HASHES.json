@@ -1,0 +1,38 @@
+[
+  {
+    "artifact": "rank-one-normal-obstruction/AUDIT.md",
+    "original_sha256": "1c1602e95171680d3e72177c5f44810d0e1e550f690acc5606fff9dbf3dc62a2",
+    "published_sha256": "0a7e216e0ff73f57e9eb3c58de38a4bf187fa494920745acc9d9260c098fa5f1",
+    "path": "research/hm/local-defect/rank-one-normal-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "rank-one-normal-obstruction/PROOF.md",
+    "original_sha256": "1a8fb8b04d800a1704ce678fc5b7078e8c13c0efb18172c3d9233da16c179db8",
+    "published_sha256": "d18fb191f9e1003d6df98985a6e479a39d25020c3fb7527cbd31ae7862f7bfe9",
+    "path": "research/hm/local-defect/rank-one-normal-obstruction/PROOF.md"
+  },
+  {
+    "artifact": "rank-one-quadratic-flag-nef/AUDIT-GEOMETRY.md",
+    "original_sha256": "93b2b9e86e74ef5eca8a63110573844b60dc05e6217954ffbd4a3a169bfa1543",
+    "published_sha256": "e897641b071f512f97afb4cce5721adc78668b399128e402437df1aeddb40d4f",
+    "path": "research/hm/local-defect/rank-one-quadratic-flag-nef/AUDIT-GEOMETRY.md"
+  },
+  {
+    "artifact": "rank-one-quadratic-flag-nef/PROOF.md",
+    "original_sha256": "30acd9e5985bc78057cbf8609f86d0f763d619c7fa9229e15353538111d3a8f6",
+    "published_sha256": "6c165314713eb3b3b111db1f2528d0a27f570590f4c905796462b4fac3e4be3f",
+    "path": "research/hm/local-defect/rank-one-quadratic-flag-nef/PROOF.md"
+  },
+  {
+    "artifact": "rank-one-even-normal-form/AUDIT.md",
+    "original_sha256": "4dbcf51ba87131d66bd2b652a1e3792c2b63717aa818ae8e9ae507c3531cae56",
+    "published_sha256": "db4d8b60ccbc83eaf227c30a5489286c8d5ffa2db65c9ca1bec558e6bd1c0ab9",
+    "path": "research/hm/local-defect/rank-one-even-normal-form/AUDIT.md"
+  },
+  {
+    "artifact": "rank-one-even-normal-form/PROOF.md",
+    "original_sha256": "d27a2f4799a03a75aadf984f3ccc5c853fe85995f6a6eab207f26a846daf4371",
+    "published_sha256": "b736d613eb171d1161ad18dc0ceff90f622ae01599c2c0c20a6833bce33d00ac",
+    "path": "research/hm/local-defect/rank-one-even-normal-form/PROOF.md"
+  }
+]
