@@ -1,0 +1,30 @@
+[
+  {
+    "source_artifact": "normalizer-250-simple-defect/AUDIT.md",
+    "original_sha256": "052dbac70c6e52c9db2dc94398c9693077d448b6c0c83649e49071032822f1cb",
+    "public_sha256": "052dbac70c6e52c9db2dc94398c9693077d448b6c0c83649e49071032822f1cb",
+    "path": "research/hm/normalizer-rank-five/normalizer-250-simple-defect/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "normalizer-250-simple-defect/PROOF.md",
+    "original_sha256": "95a7e84881d1fd4a899933a310b21c9b40e8d691cda4457433ea73664e45413c",
+    "public_sha256": "b613f89c653e9e26d6439d9711e7605b019d60d888ce791c4bfa0709de05ba94",
+    "path": "research/hm/normalizer-rank-five/normalizer-250-simple-defect/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-250-double-defect/PROOF.md",
+    "original_sha256": "23718a8a90e76cbccf74428aef1927a6df9628d87b2d3bd469dde9b34b3435ff",
+    "public_sha256": "b73ab3a86b6d9000042498d368e1dcb3444a25ffccff9ba86590d675620d7d88",
+    "path": "research/hm/normalizer-rank-five/normalizer-250-double-defect/PROOF.md",
+    "role": "proof_or_control"
+  },
+  {
+    "source_artifact": "normalizer-250-double-defect/AUDIT.md",
+    "original_sha256": "6036311483c1c1682cda1a82630e88556b2778d9371b62f78498e332755d6964",
+    "public_sha256": "6036311483c1c1682cda1a82630e88556b2778d9371b62f78498e332755d6964",
+    "path": "research/hm/normalizer-rank-five/normalizer-250-double-defect/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  }
+]
