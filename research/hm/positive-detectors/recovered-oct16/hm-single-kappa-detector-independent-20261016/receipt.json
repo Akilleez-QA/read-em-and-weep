@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": 263,
+  "seconds": 0.017696333990897983,
+  "maximum_rss_kib": 10112,
+  "rank_eliminations": 0,
+  "source_coefficients_acquired": 0,
+  "actual_multiplication_matrices_computed": false,
+  "scope": "Exact quotient/involution certificate products and a manufactured graph-pairing control; theorem supplies global descent and rank by identity first component.",
+  "input_sha256": {
+    "hm-single-kappa-detector-independent-20261016/structural-relations.md": "6b93b4142cc79cd70c05234bb90f28edd04a2364d474529c96f2e72fe1c2c5f3",
+    "hm-detector-plus-first-component-20261016/positive-eight-maps.json": "d8c174289c5cbb2da4fb4097bc6995cd07db365026cc7a3255622fc9034cdd59",
+    "hm-epsilon-projective-generator-bridge-20261016/THEOREM.md": "48e8b20931e2f481df4e11b3199a75a5e939a537cec772370a35099b94a8a2a7",
+    "hm-positive-twelve-detector-interface-20261016/THEOREM.md": "d24b66afb1d6ba42ca91a05500597d4296cce6cf83cf15ba0aeeee4f6126ea3d",
+    "hm-detector-plus-first-component-20261016/THEOREM.md": "75933031fcc6a8f7e6d125e85d93af3b2162325c64b0ff9e7d9a0aa097c5f6c6",
+    "hm-projective-detector-dual-audit-20261016/AUDIT.md": "2c48e8c306e086c7d0ccbc282fd69a90b5e432fdc800c7dfb06019a91fbbfad1"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "Historical sources and final public hashes; no new source-instance computation.",
+  "files": [
+    {
+      "source": "hm-pr80-scalar-completeness-independent-20261016/AUDIT.md",
+      "source_sha256": "4d70025c09459576c19b4e760c33343e00e6704a6ec63e0a62ab8147cf31dbe0",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-pr80-scalar-completeness-independent-20261016/AUDIT.md",
+      "public_sha256": "99cab4f7a43a2ed49c7b33b6e0d5796161fecacbf3f07607bf3ebe7b7774401e",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-pr80-scalar-completeness-independent-20261016/THEOREM.md",
+      "source_sha256": "3fd40d936719d809a3481b4f5c3c93a7ea79a57b0c9615067bdc518735bff49a",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-pr80-scalar-completeness-independent-20261016/THEOREM.md",
+      "public_sha256": "31fffc49c33a50e394be0d8813e18586d6376b75c094507389151413f9d1380f",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-single-kappa-detector-independent-20261016/AUDIT.md",
+      "source_sha256": "04248cf8dbb35fc5d51f90f94cd9c7eb39aae075f3caa84a4c754f2b22f9a6e3",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-single-kappa-detector-independent-20261016/AUDIT.md",
+      "public_sha256": "5df4d0c7051471ab3fa7cac74067683bfee19bbe3c45e68db51b620e22d6fa8e",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-single-kappa-detector-independent-20261016/check.py",
+      "source_sha256": "8bff7864698d9f11a0941e46ef94f7978e6cf29d9193f4fc0c0b14865143cd55",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-single-kappa-detector-independent-20261016/check.py",
+      "public_sha256": "ad376d5b241e9dc9fb0d597bb6a1a974fee814f1175c4f528bc3bf0385b6ee3d",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-single-kappa-detector-independent-20261016/receipt.json",
+      "source_sha256": "0c38f539595153b6b1e50a4b52de5ff524a7f90f1f636ee502ad9e20992e755f",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-single-kappa-detector-independent-20261016/receipt.json",
+      "public_sha256": "0c38f539595153b6b1e50a4b52de5ff524a7f90f1f636ee502ad9e20992e755f",
+      "disposition": "retained_full_scientific_record_with_publication_annotation"
+    },
+    {
+      "source": "hm-single-kappa-detector-independent-20261016/structural-relations.md",
+      "source_sha256": "6b93b4142cc79cd70c05234bb90f28edd04a2364d474529c96f2e72fe1c2c5f3",
+      "public_path": "research/hm/positive-detectors/recovered-oct16/hm-single-kappa-detector-independent-20261016/structural-relations.md",
+      "public_sha256": "6b93b4142cc79cd70c05234bb90f28edd04a2364d474529c96f2e72fe1c2c5f3",
+      "disposition": "verbatim_public_dependency_not_new_claim"
+    }
+  ]
+}
