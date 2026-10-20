@@ -1,0 +1,50 @@
+[
+  {
+    "artifact": "rank-eight-kernel-chern/AUDIT.md",
+    "original_sha256": "486cc33d0d9006330a507eb0938f99a22245f5aa73d322956913c7e82912cbd0",
+    "published_sha256": "84d90a24976661d1f0f6c3592d52090ab0fec03b3023873141ca440a94f56524",
+    "path": "research/hm/local-defect/rank-eight-kernel-chern/AUDIT.md"
+  },
+  {
+    "artifact": "rank-eight-kernel-chern/PROOF.md",
+    "original_sha256": "23e793c89840ec7f94ee21394d62c54dd432f318aef056b1fca62c066095708f",
+    "published_sha256": "0a709ea25595f8d89500fca68087ce7d5b31f7f6e9a1f012b8c92a625436dd1f",
+    "path": "research/hm/local-defect/rank-eight-kernel-chern/PROOF.md"
+  },
+  {
+    "artifact": "rank-eight-flat-kernel-exclusion/AUDIT.md",
+    "original_sha256": "364d30a1f52619ade542e761d98906ef654f1b650d9690dcf6825ece18a4e8bf",
+    "published_sha256": "76dc5aaabeeed3349a3d7a7fea0001fedeed1e91d81e81e762e6c1ab2c0bf1fe",
+    "path": "research/hm/local-defect/rank-eight-flat-kernel-exclusion/AUDIT.md"
+  },
+  {
+    "artifact": "rank-eight-flat-kernel-exclusion/PROOF.md",
+    "original_sha256": "af3ca83e75dcdcd3e1e58814b9442fecaf1a81d7158e715eb95291329d30e764",
+    "published_sha256": "8f93bd037b57772f0a6b11bb45628796982824a47003fc8e6bc0f0d357a9cabb",
+    "path": "research/hm/local-defect/rank-eight-flat-kernel-exclusion/PROOF.md"
+  },
+  {
+    "artifact": "rank-eight-flat-kernel-exclusion/STABILITY.md",
+    "original_sha256": "bc35118c585dc49ad411a0b88c195ac2e346637e459735ce056ab08a93f8bafc",
+    "published_sha256": "92e8de6288424cf7d66657d325b1ff08bc86e30e6697855903d7a2be6c1aa59e",
+    "path": "research/hm/local-defect/rank-eight-flat-kernel-exclusion/STABILITY.md"
+  },
+  {
+    "artifact": "rank-eight-flat-kernel-exclusion/STABILITY_AUDIT.md",
+    "original_sha256": "a3f234d8154f99405bef6ad49ade7f1717ebcf0a59bde25a3c1b193616d413ae",
+    "published_sha256": "c664980acddd27a55dde1e8329d152c77e26a50e29cb1e60fdc0aaf8cc5522ae",
+    "path": "research/hm/local-defect/rank-eight-flat-kernel-exclusion/STABILITY_AUDIT.md"
+  },
+  {
+    "artifact": "rank-eight-pencil-discriminant/AUDIT.md",
+    "original_sha256": "923e0cb8667671f48a1e13d8f8d5adcaee24038727c5ce12591b8eeaa24a029c",
+    "published_sha256": "bb48bba6653bef49c7e8ff6183642b1d2da2067512799fd6b02b88ffb78d3e82",
+    "path": "research/hm/local-defect/rank-eight-pencil-discriminant/AUDIT.md"
+  },
+  {
+    "artifact": "rank-eight-pencil-discriminant/PROOF.md",
+    "original_sha256": "e5a90cfd0a75aa35f201ceee1c4e5b438bcda4db468adfec33a2992de0b1c04b",
+    "published_sha256": "75eddebeddc5d723ed119a599a79771f2976c37a26521f55be26ef4cac47e513",
+    "path": "research/hm/local-defect/rank-eight-pencil-discriminant/PROOF.md"
+  }
+]
