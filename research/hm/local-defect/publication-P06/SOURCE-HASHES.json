@@ -1,0 +1,38 @@
+[
+  {
+    "artifact": "cubic-section-scheme-obstruction/AUDIT.md",
+    "original_sha256": "7f5e9f62510885101a30b4828a5c760b07c1a3aa65b565fd15330bec250025a1",
+    "published_sha256": "1670a7ff5e697b34c1aa84102bd68f00b7e99493ed17ed976ff784f505742880",
+    "path": "research/hm/local-defect/cubic-section-scheme-obstruction/AUDIT.md"
+  },
+  {
+    "artifact": "cubic-section-scheme-obstruction/PROOF.md",
+    "original_sha256": "bebcc8d054e5f16264a80d57e0e6428483f811b8dd4f74cb0c56b67045fd0617",
+    "published_sha256": "45f4c9517f7b1428f5400e258c4d2fb682242ab5880f18c8d9e5a62ba9f91738",
+    "path": "research/hm/local-defect/cubic-section-scheme-obstruction/PROOF.md"
+  },
+  {
+    "artifact": "rank-seven-degree-four-surface-exclusion/AUDIT.md",
+    "original_sha256": "42f58ede328bbb8827f45bc2901dfff58b794e46e9c1688d3979a0f8c0089301",
+    "published_sha256": "cc2ee49d48e528f0aa1623c37c58d1dd276eff7f35596e787f25a435934a314e",
+    "path": "research/hm/local-defect/rank-seven-degree-four-surface-exclusion/AUDIT.md"
+  },
+  {
+    "artifact": "rank-seven-degree-four-surface-exclusion/GENERAL_SURFACE_ADDENDUM.md",
+    "original_sha256": "f9f0acff2409d2fcd246002b321d0616858f55f19e1ce669716bbd9fd0a66952",
+    "published_sha256": "232c09e0aa773fd89b49c0a3cd05c99ce2f85fd86fd97c6dc5a18d1ef797c401",
+    "path": "research/hm/local-defect/rank-seven-degree-four-surface-exclusion/GENERAL_SURFACE_ADDENDUM.md"
+  },
+  {
+    "artifact": "rank-seven-degree-four-surface-exclusion/GENERAL_SURFACE_AUDIT.md",
+    "original_sha256": "1a313be841ff932ee15b6e1a0e6927598d80a7f40515aefb694a667667d2cad0",
+    "published_sha256": "1b12eaef26e71fb318495673803c4c48bb7336e97a87ac590542116fc1781fa0",
+    "path": "research/hm/local-defect/rank-seven-degree-four-surface-exclusion/GENERAL_SURFACE_AUDIT.md"
+  },
+  {
+    "artifact": "rank-seven-degree-four-surface-exclusion/PROOF.md",
+    "original_sha256": "93b052c605120ae0089ae84b92b4ffe1881eab028288ed2fc4f28e98ebb769dd",
+    "published_sha256": "d8b82e9b7e805bd9fe2b9adfc93e2a55692305e712698cdca0cba6cc8142fb6e",
+    "path": "research/hm/local-defect/rank-seven-degree-four-surface-exclusion/PROOF.md"
+  }
+]

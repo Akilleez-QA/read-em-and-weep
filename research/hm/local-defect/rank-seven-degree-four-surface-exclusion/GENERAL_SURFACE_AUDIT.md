@@ -1,0 +1,15 @@
+> Publication scope: preserved mathematical proof/audit. Historical statements that rank eight remains open are superseded only after the final assembly and all its prerequisites. No source-instance evaluation or formal verification is claimed here.
+
+# Independent audit: general surface addendum
+
+Status: PASS. Reviewed GENERAL_SURFACE_ADDENDUM.md, including the imported general-section quotient argument. No outstanding corrections.
+
+1. **Shared-line local length.** For independent quadrics with common line, write their ideal as l(a,b). When p=V(a,b) lies on l, the kernel of A/(l m,C) -> A/(l,C) is a quotient of (l)/(l m). Since A is a regular local domain and l is nonzero, multiplication by l identifies this last module with A/m, of length one. Thus the overlapping contribution is at most one, in addition to the total intersection length three of (l,C). This also covers nonreduced intersections and embedded structure. When p is off l, its contribution is separately at most one. Consequently a finite plane scheme with two independent quadrics and no fixed cubic curve has length at most four.
+
+2. **Plane Hilbert function.** For length at least five the preceding result gives at most one quadric, and no linear equation. A linear form avoiding the finite support is regular on the saturated coordinate ring. Its Hilbert function is nondecreasing, so H_D(3) >= H_D(2) >= 5 and h0(I_D(3)) <= 5.
+
+3. **Non-ACM hyperplane sections.** Successive general hyperplanes can avoid all associated points, including the isolated supports, while the resulting plane meets the cubic base scheme finitely. Successive Hilbert-polynomial differences give section length equal to the surface degree even in the presence of embedded or lower-dimensional components. The ideal restriction sequences are exact because the chosen equations are regular on the structure sheaves. Only inequalities on global sections are used; neither surjectivity nor intermediate-cohomology vanishing is assumed. They give h0(I_Z(3)) <= 2 h0(I_D(2)) + h0(I_D(3)) <= 7.
+
+4. **Alternate rank-seven contradiction.** In the remaining determinant-three branch, E=F* and R have ranks eleven and nine, both c1=3, strictly positive second Chern classes summing to nine, and at least twenty global sections by the established irreducibility argument. One second Chern class is therefore at least five. The torsion-free general-section quotient lemma applies to both sheaves, including E generated only outside codimension two. The resulting ideal sheaf has a surface of that degree, a cubic system without a fixed divisor, and at least ten or twelve cubic sections. This contradicts the bound seven. No equivariant RR congruence is needed for this alternate exclusion.
+
+Scope: universal scheme, Hilbert-function, local-length, and sheaf arguments only, with previously established canonical equivariance inputs. No actual operation or HM instance was evaluated. The result strengthens the earlier non-ACM necessary-condition argument to an unconditional geometric bound under its stated hypotheses.
