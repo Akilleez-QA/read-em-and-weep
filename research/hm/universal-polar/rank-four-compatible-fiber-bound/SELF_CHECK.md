@@ -1,0 +1,15 @@
+# Prior mathematical audit
+
+This audit concerns the source manuscript. It is not a formal verification or a review of later normalized publication bytes.
+
+# Logical checks
+
+1. Dimension conventions: residual rank four means dim K=6 because dim Sym²(C⁴)=10. Projective rank-two tensor/factor loci have equal dimension because factorization is finite. Lift reconstruction is unique; three input scales add three dimensions.
+2. Ternary branch: six dimensions force the full Sym²E0. The relevant eigenline bundle is Q⊗O(2), not Q(1); its top Chern number is 1+2+4=7. The normal map must be nonzero, hence its kernel has precisely dimension five. It is not assumed to be an actual residual kernel; the imported four-space theorem is explicitly about arbitrary K and v.
+3. Full-support hyperplane: two exceptional five-spaces with different supports would intersect in dimension four inside a three-dimensional space, contradiction. Same-support exceptional five-spaces span the six-space, contradicting full support.
+4. Five-space dependency checked directly: https://github.com/Akilleez-QA/read-em-and-weep/blob/3109756417e62b91a092b5a89ee412089322a986/research/hm/incidence-foundations/fullsupport-rank-five-surface-exclusion/PROOF.md states the pointwise theorem for arbitrary K,v with square avoidance. Its nonplanar and planar subsidiary arguments use these same or weaker hypotheses. The five-space dimension proof Section 4 is likewise pointwise. Finite-middle consequences requiring the actual f are not imported after slicing.
+5. A general finite-multiplication hyperplane section retains dense rank-two compatibility. The boundary cannot swallow a general hyperplane section. With both factor images at least two-dimensional, both section images are two-dimensional by ampleness on one-dimensional fibers or by meeting the generically finite open.
+6. Important correction from independent auditor: general fibers over an integral curve may be geometrically reducible. The proof now uses a finite cover Γ parametrizing their plane components; the general-pair argument works on Γ×Γ and never assumes descent before the line-pencil makes the generic plane unique.
+7. Curve step: an intersecting pair of ruling three-spaces intersects only in C(ab). General pair intersection would force the entire curve into a fixed Ua, including its own a, contradicting square avoidance. Once a disjoint pair exists, it spans all six dimensions; no unproved assumption that the product family spans K is used.
+8. Line step: dim LE=7, so K is exactly a hyperplane there. The binary diagonal quadratic has a projective zero over C. A zero row is explicitly handled using symmetry B(a1,a0)=B(a0,a1). Compatibility is specialized only at rank-two points using its wedge equation; the rank-one limit is reached later along two fixed planes. Thus there is no illicit extension of the image bundle across a square.
+9. No result claimed for K of dimension seven or greater. No proof of fiber≤1, no finite-middle theorem for rank four, and no exclusion of affine dimension seven is claimed.
