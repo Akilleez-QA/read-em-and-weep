@@ -1,0 +1,16 @@
+[
+  {
+    "source_artifact": "order-five-rank-three-classification/AUDIT.md",
+    "original_sha256": "d27125168eb5e685f9e24e2847094bff30f1cad3619f2909842167827f44c1c1",
+    "public_sha256": "bf7c4b29f0fea1365062e41ff5e720d3bfdb3a5b4f480f39f659faa34ec3ffe6",
+    "path": "research/hm/normalizer-rank-five/order-five-rank-three-classification/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "order-five-rank-three-classification/PROOF.md",
+    "original_sha256": "9c49938927ee10851f1cc40e86a3448f08f94cd4366fd657eab6dc37b104e1ff",
+    "public_sha256": "902082541c6c41e27c85d77ebb08a6c52af03ba4a69d02e834cbcc57acdd05dc",
+    "path": "research/hm/normalizer-rank-five/order-five-rank-three-classification/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
