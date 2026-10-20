@@ -1,0 +1,43 @@
+# Derived source and prerequisite closure
+
+This is a newly derived publication index, not a reconstruction or replacement of the original source-pins.json or dependency-pins.json. Those historical filenames, input-copy statements and reproduction commands refer to the original editions. Missing historical check scripts are not supplied as runnable entry points here. No source, model, checker, matrix, jet or selected HM instance was executed for this index.
+
+## Mathematical source identity
+
+The immutable sources below were read directly and their bytes hashed. Source authentication does not by itself prove any mathematical premise.
+The complete [immutable source registry](../original-resolution-source-closure/PUBLIC-SOURCES.json) records every retrieved source.
+
+## Exact staged mathematical prerequisites
+
+The following complete manuscripts are the cited proof prerequisites, not their historical execution receipts. Relative links identify the canonical publication locations; SHA256 binds the exact reviewed text. Their immutable publication commits must be supplied by the publishing stack before treating them as published dependencies. The theorem remains conditional on every premise expressly retained in its proof.
+- [F01-structural-A](../original-resolution-foundation-structural-a/PROOF.md), SHA256 `bbb71d8eeb7dcb3e83ce333ac685c6ad64133c96e1703053273e2256800e6565`.
+- [P06-determinant-volume](../original-resolution-foundation-determinant-volume/PROOF.md), SHA256 `aadaccbf0d214a264936fd5d5b987abbab19a952de1d26d25c637376ad813609`.
+- [F02-homogeneous](../original-resolution-foundation-homogeneous/PROOF.md), SHA256 `fc6a3a21580148c151f623eabfc07a4f1a5b0e2508971afa4d70ad184be5109a`.
+- [F03-product-root](../original-resolution-foundation-product-root/PROOF.md), SHA256 `4179d9723c46b1a4f1c74e769a010b31ff51b0faddf963baa1805e9728782033`.
+
+## Historical alias resolution
+
+- `normal.json` (historical SHA256 `674463f31016ec1f7736ef8ffe1ee990b1d34094a9810d682d9c908d7142d74d`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `optimized.json` (historical SHA256 `674463f31016ec1f7736ef8ffe1ee990b1d34094a9810d682d9c908d7142d74d`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `source-pins.json` (historical SHA256 `9ecc5a1138ab0242cd55988275dc4d827f484c1f1575e4e0cb050ed24abd770b`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `check_frame_metadata.py` (historical SHA256 `f532951d116b5da5618eea69da9bad6df53b4beec854b41c3855b29bc000e783`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `second-audit/normal.json` (historical SHA256 `0c375e7bf1fc3d38b4b904e269709e0ef9f66b81d2c055e8ff120fcaaf879d74`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `second-audit/optimized.json` (historical SHA256 `0c375e7bf1fc3d38b4b904e269709e0ef9f66b81d2c055e8ff120fcaaf879d74`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `second-audit/check_independent_metadata.py` (historical SHA256 `2c97c9ca8b278b9f3d351f6f290ab422118ff61d833e84b14128a848e779ad5d`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `second-audit/source-pins.json` (historical SHA256 `b43e2e67f38fa50aa2a9a9a624f2e6b0f8311e7297fd972339af93172a4994d4`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `inputs/homogeneous-PROOF.md` (historical SHA256 `b8d85b3adb79b69953a6ac1d13e69d9aa2e0b679653822af6bd6834cffedb18b`) resolves to [research/hm/original-resolution-foundation-homogeneous/PROOF.md](../original-resolution-foundation-homogeneous/PROOF.md), public SHA256 `fc6a3a21580148c151f623eabfc07a4f1a5b0e2508971afa4d70ad184be5109a`.
+- `inputs/product-root-REVIEW.md` (historical SHA256 `1b88fe1bdcf399fb6158984692925fcc84c3afd25a17cb60ddbe5148fa8f8bb0`) resolves to [research/hm/original-resolution-full-source-character/dependencies/product-root-REVIEW.md](../original-resolution-full-source-character/dependencies/product-root-REVIEW.md), public SHA256 `ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3`.
+- `inputs/homogeneous-REVIEW.md` (historical SHA256 `7eb64a97a1b86996c0d5aa7e6dee1aadaa3a08f240bc4688683cb132658628d9`) resolves to [research/hm/original-resolution-foundation-homogeneous/REVIEW.md](../original-resolution-foundation-homogeneous/REVIEW.md), public SHA256 `2ee027ca66da216c98594ec7a133a76e70832233f5de0b84ba6c3b5e72e95477`.
+- `inputs/product-root-PROOF.md` (historical SHA256 `8dea4aa63017a52441b7e1e1f22b6886754a0030b1dfe9932e005b11d8ab5342`) resolves to [research/hm/original-resolution-full-source-character/dependencies/product-root-PROOF.md](../original-resolution-full-source-character/dependencies/product-root-PROOF.md), public SHA256 `5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4`.
+- `audit/normal.json` (historical SHA256 `562fd92779af47777cdc581030f3a572c217bf5c80e3faebff93296edd1e8bad`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `audit/optimized.json` (historical SHA256 `562fd92779af47777cdc581030f3a572c217bf5c80e3faebff93296edd1e8bad`) is an omitted historical receipt, checker or source-index artifact, not an additional mathematical theorem. No fresh reproduction or inclusion is claimed.
+- `second-audit/inputs/homogeneous-PROOF.md` (historical SHA256 `b8d85b3adb79b69953a6ac1d13e69d9aa2e0b679653822af6bd6834cffedb18b`) resolves to [research/hm/original-resolution-foundation-homogeneous/PROOF.md](../original-resolution-foundation-homogeneous/PROOF.md), public SHA256 `fc6a3a21580148c151f623eabfc07a4f1a5b0e2508971afa4d70ad184be5109a`.
+- `second-audit/inputs/reviewed-PROOF.md` (historical SHA256 `b4c3041e8f945df65518f37dd59f92e16d6cd8cc29fd9803d8576daf7c9b99c8`) resolves to [research/hm/original-resolution-weighted-jet-flux-domain/dependencies/transition-PROOF.md](../original-resolution-weighted-jet-flux-domain/dependencies/transition-PROOF.md), public SHA256 `c55a87a15d313ea7e93b52493b89daf7cd31e7d57dbebb66e3d01cb3ee602733`.
+- `second-audit/inputs/product-root-REVIEW.md` (historical SHA256 `1b88fe1bdcf399fb6158984692925fcc84c3afd25a17cb60ddbe5148fa8f8bb0`) resolves to [research/hm/original-resolution-full-source-character/dependencies/product-root-REVIEW.md](../original-resolution-full-source-character/dependencies/product-root-REVIEW.md), public SHA256 `ba4ca5d153082164b818d9747ecf138859519d3bbed21dcc8be3b2f467ffdbd3`.
+- `second-audit/inputs/homogeneous-REVIEW.md` (historical SHA256 `7eb64a97a1b86996c0d5aa7e6dee1aadaa3a08f240bc4688683cb132658628d9`) resolves to [research/hm/original-resolution-foundation-homogeneous/REVIEW.md](../original-resolution-foundation-homogeneous/REVIEW.md), public SHA256 `2ee027ca66da216c98594ec7a133a76e70832233f5de0b84ba6c3b5e72e95477`.
+- `second-audit/inputs/product-root-PROOF.md` (historical SHA256 `8dea4aa63017a52441b7e1e1f22b6886754a0030b1dfe9932e005b11d8ab5342`) resolves to [research/hm/original-resolution-full-source-character/dependencies/product-root-PROOF.md](../original-resolution-full-source-character/dependencies/product-root-PROOF.md), public SHA256 `5109d6e46883d693d44ce2a2eac277a842a336f047a0fdad931e0ee5c699afc4`.
+- `audit/inputs/reviewed-PROOF.md` (historical SHA256 `b4c3041e8f945df65518f37dd59f92e16d6cd8cc29fd9803d8576daf7c9b99c8`) resolves to [research/hm/original-resolution-weighted-jet-flux-domain/dependencies/transition-PROOF.md](../original-resolution-weighted-jet-flux-domain/dependencies/transition-PROOF.md), public SHA256 `c55a87a15d313ea7e93b52493b89daf7cd31e7d57dbebb66e3d01cb3ee602733`.
+
+## Limits
+
+This index closes source navigation and byte identity only. It does not turn old receipts into fresh checks, certify omitted executable reproduction, infer geometric identities from hashes, or discharge an actual-source evaluation. Physical-source identification, exact arithmetic semantics, all stated localization/regularity hypotheses and higher-order assumptions remain where used.
