@@ -1,0 +1,16 @@
+[
+  {
+    "source_artifact": "dicubic-rank-five-axis-constraint/AUDIT.md",
+    "original_sha256": "a4e9a30d5abd0acb8b0e05a84fff4fc0924f60e2b2a2b0cfbc91337150f2b925",
+    "public_sha256": "a4e9a30d5abd0acb8b0e05a84fff4fc0924f60e2b2a2b0cfbc91337150f2b925",
+    "path": "research/hm/normalizer-rank-five/dicubic-rank-five-axis-constraint/AUDIT.md",
+    "role": "historical_mathematical_audit"
+  },
+  {
+    "source_artifact": "dicubic-rank-five-axis-constraint/PROOF.md",
+    "original_sha256": "858164b1bc0a50cfd8590a7d9b2b84aed58609413e58c3f1060d6a63de7bcafe",
+    "public_sha256": "3e23ad3eae2a3f9f680e497a9ba7cf6b8b805945536469e715a1aedbbf649f60",
+    "path": "research/hm/normalizer-rank-five/dicubic-rank-five-axis-constraint/PROOF.md",
+    "role": "proof_or_control"
+  }
+]
