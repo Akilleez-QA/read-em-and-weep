@@ -1,0 +1,38 @@
+[
+  {
+    "source": "linear-graph-surface-exclusion/AUDIT.md",
+    "source_sha256": "95d54a924c9fd448a4a17412ea52576251b942ae81552bde3155f3d9e87164d3",
+    "public_path": "research/hm/middle-surface/linear-graph-surface-exclusion/AUDIT.md",
+    "public_sha256": "041491f7f8bbe983d539be85c2212b5a103e2f79a5f6f7b7b66175575e2eafed"
+  },
+  {
+    "source": "linear-graph-surface-exclusion/COINCIDENT_PLANES.md",
+    "source_sha256": "8e032694aad437e1f5cfe29ba5357a26c13298b4fd1356dfb3ec337524077326",
+    "public_path": "research/hm/middle-surface/linear-graph-surface-exclusion/COINCIDENT_PLANES.md",
+    "public_sha256": "d8871a56c196c5a8aca336ae10fa6e258dacc87a48f5b980a20232a3538d4f2b"
+  },
+  {
+    "source": "linear-graph-surface-exclusion/PROOF.md",
+    "source_sha256": "b19433e403a96a79e043eae5ef31ed4f357ff8dcd91abd64cd1ea4686812f610",
+    "public_path": "research/hm/middle-surface/linear-graph-surface-exclusion/PROOF.md",
+    "public_sha256": "a432411c58e2fa7771ddbb3f94d3490b0eb3ce5742c9a2dec82fc94f1e094338"
+  },
+  {
+    "source": "linear-graph-surface-exclusion/ROOT_CHECK.md",
+    "source_sha256": "a4e20e5c5c7aa4e9279c002139a5dbf56509914d7f1876008b03f9798c8e6af0",
+    "public_path": "research/hm/middle-surface/linear-graph-surface-exclusion/ROOT_CHECK.md",
+    "public_sha256": "a4e20e5c5c7aa4e9279c002139a5dbf56509914d7f1876008b03f9798c8e6af0"
+  },
+  {
+    "source": "quadric-involution-bidegree-constraints/INDEPENDENT_AUDIT.md",
+    "source_sha256": "a894a896dfaae3e7ff05d5ed8338cf133b9ce1ee86388f1017bf23f4bb253526",
+    "public_path": "research/hm/middle-surface/quadric-involution-bidegree-constraints/INDEPENDENT_AUDIT.md",
+    "public_sha256": "bf8c37d2516a7a6ab9efa75f4bde5ee95070b67e79e32147ea0b1ea9b709a638"
+  },
+  {
+    "source": "quadric-involution-bidegree-constraints/PROOF.md",
+    "source_sha256": "0fb6ff0972d3ffe30971be67d2317fe3b5425714a615ec0f5d079f3078fbe740",
+    "public_path": "research/hm/middle-surface/quadric-involution-bidegree-constraints/PROOF.md",
+    "public_sha256": "70e87614039fbcaa33cce836f4e37637595dc344b981567b1c7be45785975846"
+  }
+]

@@ -1,0 +1,11 @@
+# Root independent verification
+
+The structural reduction applies to the same closed integral ordered-factor surface dominating both planes. The product-map kernel for distinct U,W is wedge-square(U intersect W), dimension one. A span of dimension at most five therefore supplies at least three independent bilinear equations. Generic matrix rank one is excluded by the common-row/common-column classification of rank-one linear spaces, respectively contradicting second-plane dominance or independence of equations. Selecting three rows with generic rank two preserves independence over C.
+
+The rank-one quadratic adjugate factors in the polynomial UFD as h c r-transpose with primitive homogeneous vectors. Kernel degree zero would contradict second-plane dominance; cokernel degree zero would give a constant row relation. Their degrees therefore both equal one, and the common factor is constant. The kernel map is a linear isomorphism, so the closed ordered surface is its graph. Passing to the closure is important for the square contacts.
+
+The span-loss calculation is correct: a kernel exists exactly when T preserves U intersect W and its invertible two-dimensional restriction has trace zero. Its two eigenvalues are opposite and nonzero, giving the unique displayed normal form and exactly five-dimensional product span. At the square x², the two rank-two paths have limiting support planes span(x,y) and span(x,z-w); their intersection is Cx. Dense compatibility extends by the polynomial wedge identity and forces a forbidden compatible square.
+
+The general diagonal-contact derivative also checks. At a=b=e, differentiating v(ab) wedge a wedge b leaves only v(e²) wedge e wedge (db-da). Two independent difference directions modulo e therefore force v(e²) proportional to e. This is a necessary contact condition, not a proof that a suitable diagonal contact exists for arbitrary nonlinear surfaces.
+
+For coincident planes, the span-three bounded-rank plane alternatives force a compatible square, span four is excluded by the previously proved abstract ternary-web theorem with v restricted rather than extended, and span five contradicts full support. Thus both planar images are excluded. At least one nonplanar surface image remains necessary in the unresolved moving-middle full-support surface case; no larger conclusion is made.
