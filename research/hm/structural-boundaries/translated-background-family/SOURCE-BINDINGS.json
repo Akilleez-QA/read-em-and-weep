@@ -1,0 +1,30 @@
+{
+  "source_bindings": [
+    {
+      "artifact": "compatible-translation-family-20261018/PROOF.md",
+      "source_sha256": "b3af7854e380197f76b0ae2beac36ff68dd4c5752afb438ce0fd9c7770219191",
+      "public_path": "research/hm/structural-boundaries/translated-background-family/PROOF.md",
+      "public_sha256": "b0e689c446f9891578f2796cde9e614095f579c8023499b57aecf34c72a34a32",
+      "role": "primary_proof",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    },
+    {
+      "artifact": "compatible-translation-family-20261018/SOURCES.md",
+      "source_sha256": "29972a1928601c27f426328ba1abac948f40903c3e9b60fa1a250ccbdc39de76",
+      "public_path": "research/hm/structural-boundaries/translated-background-family/SOURCES.md",
+      "public_sha256": "29972a1928601c27f426328ba1abac948f40903c3e9b60fa1a250ccbdc39de76",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "unchanged"
+    },
+    {
+      "artifact": "compatible-translation-family-20261018/SUPPLEMENTARY_REVIEW.md",
+      "source_sha256": "a6699d37421016abb445f3b0226f3dbeae564dd13f2e2a21b9f376b048017311",
+      "public_path": "research/hm/structural-boundaries/translated-background-family/SUPPLEMENTARY_REVIEW.md",
+      "public_sha256": "58237dc5526184c8bd4bf05452caee06ba80029fd85f88ac1d733b6c07aca12e",
+      "role": "candidate_audit_or_control_requires_scope_review",
+      "transformation": "operational prose removed; mathematical statements and formulas retained"
+    }
+  ],
+  "omitted_historical_wrappers": [],
+  "source_edition_note": "Historical reviews and control receipts refer to their source editions and source hashes, not to a fresh rerun. Source-relative commands, input-copy statements, source-pins.json and manifest.json references inside retained manuscripts describe those original editions. Only explicitly included standalone controls are provided as runnable files. No controls were executed during staging."
+}
