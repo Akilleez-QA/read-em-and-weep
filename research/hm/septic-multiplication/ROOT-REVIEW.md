@@ -1,0 +1,19 @@
+# Second mathematical review
+
+Reviewed proof SHA-256: 49e1cd6d0db85e093a087d6023823d91bd8c72cd166fa60b6e3f4c609d818f75.
+
+Verdict: PASS relative to the primary character identities and pinned geometric/cohomological maps. Mathematical review, not formal verification.
+
+The Galois and dual conventions consistently give U6=V* tensor W' and S1 tensor U6=A* tensor (W' plus Q4 plus T4). The two four-dimensional quotient types are distinct, and their parity distinction is retained. The determinant of the four-dimensional section representation is trivial because it factors through the perfect quotient group. Equivariant duality therefore gives the stated target types without an untracked determinant twist.
+
+The injected monad source in PR466 occupies the unique A tensor W summand of A tensor (W plus Q4). Its cokernel is A tensor Q4. Duality and the EN sequence give target A* tensor T4 plus A* tensor Q4. Since these summands are inequivalent, Maschke splitting is unique. No representation is assigned on dimension alone.
+
+The new-sextic multiplication is equivariant between multiplicity-free modules. Schur's lemma kills the ten-dimensional source type and reduces the two remaining restrictions to independent scalar tests. Each contributes either zero or twenty to the rank. Consequently g7 can only be zero, twenty or forty, and the exact kernel/cokernel types follow. At this representation-only stage neither scalar is known nonzero; section 6 supplies the additional proof for the quotient scalar.
+
+The quotient test is genuinely the multiplication map on H2B(-4), by naturality of the EN boundary maps. Its dual is the displayed adjoint into S1* tensor H2B(-1). It is not the same as the differential whose nonvanishing was proved in PR466. The primary EN submodule restriction is a separate test. This distinction prevents an unsupported rank conclusion.
+
+For full syzygies, the old-product map factors through the standard symmetric multiplication S1 tensor S1 to S2: its kernel is Lambda2S1 tensor H0I_C(5), dimension sixty, using injectivity of quadratic quintic products. It surjects onto that old image, so every element of ker(m) has a cancelling old-product lift. The short exact syzygy sequence and dimension 70+g7 are correct; no unique splitting of that sequence is asserted.
+
+The strengthened universal Euler comparison checks directly. For 0 to K to L tensor O to R to 0, the complex Sym2K to K tensor L to Lambda2L resolves Lambda2R in degree two. Its right edge at twist zero is an isomorphism because K and Sym2K are acyclic. Multiplication of its hypercohomology is surjective onto the irreducible 45-dimensional H0K(2), since the corresponding ordinary section product is nonzero. Every restricted right monad arrow q_w extends uniquely to c_w on L, by acyclicity of Q(-1). The three stated component maps commute with the symmetric and exterior differentials, including the zero additional central component. Negative target degrees impose no additional condition. Naturality identifies the right edge map with Lambda2c_w. Hypothetical vanishing of actual H2 multiplication then forces every Lambda2c_w to vanish. Two basis vectors of W would force the right monad image into a constant space of dimension at most two, contradicting sheaf-surjectivity to rank five. This is a structural contradiction, not an evaluated selected rank. It proves the required secondary multiplication nonzero, unlike the earlier first-differential argument. Schur and duality then give the quotient-channel isomorphism claimed.
+
+The proof resolves representation channels and then forces the quotient scalar nonzero, excluding g7=40 and leaving only zero or twenty. It leaves the primary scalar, the fixed-pair intersections, source membership, pure conditions, higher-order lifting and algebraicity open.
