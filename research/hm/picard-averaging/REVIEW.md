@@ -1,0 +1,23 @@
+# Independent mathematical review
+
+Result: PASS, subject to the explicit global-versus-local scope clarification incorporated in the proof. This is mathematical review, not formal proof-assistant verification. No selected actual HM/source coefficient, matrix, rank, or numerical instance was evaluated.
+
+## Dependencies checked
+
+The actual conductor pinching and H¹(X,O_X)=0 are supplied by PR574 at 3c92fdc469f6870520e7a9d905b5ab9199a5bf37. The five-to-one grouping over the residual curve nodes is PR577 at 563fc7036faa4965e55bda3bec5b82ae5360fa6c. The actual fiberwise translation action is PR571 at 25afc8bfce079492b6b06bb6f52489f8d481c2aa, its coordinate dictionary and Section 1. The relevant PR571 and PR577 texts were read directly. The Picard-functor statement was checked in Michel Brion, *Which algebraic groups are Picard varieties?*, [arXiv:1310.0186v2](https://arxiv.org/pdf/1310.0186v2), Corollary 2.3 and Proposition 2.4(iii), printed pages 5–6. Their hypotheses hold for the projective geometrically integral normalization and the finite reduced conductor schemes. This audit does not independently reconstruct the complete HM foundation.
+
+## Checks
+
+1. **Picard group schemes, not just points.** The finite pinching sequence has kernel equal to the quotient of the sixty-point unit torus by the thirty-point diagonal unit torus. Global constant units contribute no additional quotient: they already lie in the latter diagonal subgroup. The kernel is connected and is Gm^30. Since the normalization's identity Picard component has zero tangent space and is a point, this kernel is exactly Pic⁰(S). The same argument on the rational curve normalization gives Pic⁰(Γ)=Gm^6.
+
+2. **Actual pullback and intrinsic norm.** Orienting each cusp pair induces consistent orientations on its five surface pairs. Pullback repeats its gluing ratio five times. Reversing the base orientation inverts both the five source coordinates and their target coordinate, so the block product defines the same intrinsic norm map. This does not invoke a finite-flat norm for g, which is neither finite nor flat. The norm composed with pullback is multiplication by five.
+
+3. **Kernel and isogeny.** A product map Gm^5→Gm has connected kernel Gm^4; hence the six-block norm kernel has dimension 24. The multiplication map from Pic⁰(Γ) times this kernel onto Pic⁰(S) has kernel exactly {(a,j(a)^{-1}):a∈Pic⁰(Γ)[5]}. It is the finite étale isogeny of degree 5^6 claimed in the proof. Its distinguished factors therefore do not give an isomorphism, although an unrelated abstract torus splitting exists.
+
+4. **Actual symmetry.** PR571 identifies the actual projective Heisenberg translation subgroup with the modular translations and proves that it fixes the base and rotates each pentagon graph transitively. Rotation is transitive on vertices as well as components. PR577 identifies those five vertices equivariantly with the five surface nodes above each base node. Thus the group permutes each block transitively, preserving branch orientation. No stronger symmetric-group action or independent action on the six blocks is needed.
+
+5. **Integral obstruction.** A torus homomorphism is given by integer Laurent-monomial exponents. Invariance under the actual transitive action forces constant exponents within each five-element block, even allowing arbitrary mixing between the six target coordinates. Restriction to the pullback torus then has exponent matrix divisible by five and cannot be the identity. The proof correctly retains non-equivariant retractions obtained by choosing one coordinate in each block.
+
+6. **Formal and global distinction.** In characteristic zero the formal logarithm turns the prescribed average into a unique formal group homomorphism. Its exponential is the fifth root of the norm with constant term one, and it retracts the formal diagonal at every infinitesimal order. No global algebraic torus homomorphism has this differential, whose own-block entries are 1/5 rather than integers. Importantly this does not exclude local algebraization: the formal root satisfies y^5=N, and the derivative with respect to y at the identity is 5. It therefore comes from the pointed étale cover defined by that equation. The nonexistence assertion is global and concerns the prescribed group homomorphism, not arbitrary étale-local maps or the algebraicity of its power series.
+
+The result proves a specific integral-character obstruction to globally integrating canonical averaging, with an explicit finite isogeny measuring the discrepancy. It makes no identification with the full-adjoint boundary or the original HM deformation/lifting problem.
