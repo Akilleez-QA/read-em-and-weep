@@ -16,7 +16,7 @@ On P(V), wedge the universal line O(-xi) in K with u. The resulting section has 
 
 Its zero divisor is precisely the closure J_P of the graph section. Over a zero of u the entire projective-line fiber is included, but these are curves, not additional divisor components. Therefore J_P is an irreducible effective Cartier divisor of the stated exact class, with no extra vertical divisorial component.
 
-Put J_W=J_P intersect W. Over each of the finitely many cusp parameters J_P has only finitely many curve components. A general Q contains the image of none of these curves (and avoids any point images), so J_W has no vertical curve component. This assertion uses the globally defined basepoint-free w-map, not the rational first-row presentation.
+Put J_W=J_P intersect W. A general Q contains no image of any smooth modular graph fiber: these form a one-parameter family of integral curves, each imposing at least three independent quadratic conditions, so the bad incidence has dimension at most twelve in P14. (For the elliptic normal quintics the sharper bound is five.) This excludes horizontal-family graph fibers uniformly, not just the cusps. Over each of the finitely many cusp parameters J_P has only finitely many curve components. A general Q contains the image of none of these curves (and avoids any point images), so J_W has no vertical curve component. This assertion uses the globally defined basepoint-free w-map, not the rational first-row presentation.
 
 ## 2. The fifty marked points and strict transform
 
