@@ -1,0 +1,144 @@
+# Reciprocal homology and canonical top defects of the generalized Eagon–Northcott family
+
+## Setup and precise statement
+
+Let k have characteristic zero, let S=Sym(T) with dim(T)=5, and let
+
+phi: F=S(-2) tensor U -> G=S tensor W,
+
+where dim(U)=10 and dim(W)=2, be the established quadratic presentation of the finite-length module H. Put D=I_2(phi), Q=S/D, I=Ann_S(H), and R=S/I. All duals M^vee below are graded k-duals, (M^vee)_d=Hom_k(M_(-d),k), and M(b)_d=M_(b+d).
+
+For each integer a with 0<=a<=8, let C^a be the classical generalized Eagon–Northcott complex with the following normalization, in homological degrees 0 through 9:
+
+- C^a_i = Lambda^i F tensor Sym^(a-i) G for 0<=i<=a;
+- C^a_i = Lambda^(i+1) F tensor D_(i-a-1)(G*) tensor det(G*) for a+1<=i<=9.
+
+Here D_j denotes divided powers, not the determinantal ideal D. The ordinary differential on the first part is Koszul contraction using phi followed by multiplication in Sym(G); on the second part it is contraction using phi on divided powers. The joining differential C^a_(a+1) -> C^a_a is the maximal-minor contraction. Thus C^0 is the ordinary Eagon–Northcott complex of PR505, C^1 is the Buchsbaum–Rim complex, and
+
+H_0(C^0)=Q, while H_0(C^a)=Sym^a_S H for 1<=a<=8.
+
+Define the one-dimensional orientation representation
+
+Omega = det(U) tensor det(W)* tensor det(T)*.
+
+There are graded S-module isomorphisms
+
+H_i(C^a) = H_(4-i)(C^(8-a))^vee(-15) tensor Omega  (0<=i<=4),
+
+and H_i(C^a)=0 for i>4. These isomorphisms come from natural duality of complexes and graded local duality; no symmetry sign for a middle self-pairing is asserted.
+
+In particular,
+
+- H_4(C^a) = (Sym^(8-a)_S H)^vee(-15) tensor Omega for 0<=a<=7;
+- H_4(C^8) = Q^vee(-15) tensor Omega.
+
+The a=8 endpoint is Q, not Sym^0 H=S. This distinction is essential.
+
+## 1. Chain-level duality, including the joining differential
+
+Write L=det(F)* tensor det(G)=S(20) tensor det(U)* tensor det(W). Reversing homological degrees gives a termwise identification
+
+Hom_S(C^a_(9-j),S) = C^(8-a)_j tensor L,  0<=j<=9.
+
+For 9-j>=a+1, dualizing the right-hand divided-power term uses
+
+(Lambda^(10-j) F)* = Lambda^j F tensor det(F)*
+
+and (D_(8-a-j)(G*))*=Sym^(8-a-j)G. This produces the first part of C^(8-a), tensor L.
+
+For 9-j<=a, dualizing the symmetric term uses
+
+(Lambda^(9-j) F)* = Lambda^(j+1) F tensor det(F)*
+
+and (Sym^(a-9+j)G)*=D_(a-9+j)(G*). Inserting det(G*) and canceling it against det(G) produces the second part of C^(8-a), tensor L.
+
+Under exterior-complement pairing, divided-power contraction and symmetric multiplication are transposes. The joining map is also sent to the joining map: both pair a selected pair of F factors via Lambda^2(phi):Lambda^2 F -> det(G) and pair the remaining exterior factors to det(F). Exchanging complementary exterior blocks introduces only the standard homological signs, which can be absorbed by the usual degreewise signs in the reversed dual complex. This checks the map, not just the ranks or shifts of its terms. Consequently
+
+H^n(Hom_S(C^a,S)) = H_(9-n)(C^(8-a)) tensor L.
+
+This statement is valid for the given presentation; it makes no generic-matrix acyclicity assertion.
+
+## 2. Finite-length duality shifts homological degree by five
+
+Outside the homogeneous maximal ideal m, the cokernel H vanishes. The map phi is then a split surjection. The generalized Eagon–Northcott complexes in the range 0<=a<=8 are split exact for a split surjection. Explicitly, write F=K direct-sum G after localization, with phi the projection. The symmetric-side homogeneous Koszul strands contract except for Lambda^a K at the joining position. The divided-power side is the complementary dual strand calculation, with the corresponding remaining Lambda^a K tensor det(G) tensor det(G*) at the other joining position. The maximal-minor joining map identifies these two survivors. This proves split exactness in the range at hand. Therefore every H_i(C^a), including H_0, has finite length.
+
+For a finite-length module M over this five-variable polynomial ring, Ext^p_S(M,S) vanishes unless p=5. The hyper-Ext spectral sequence for C^a has one nonzero row, giving
+
+H^n(Hom_S(C^a,S)) = Ext^5_S(H_(n-5)(C^a),S).
+
+Since the dual complex has no terms above cohomological degree 9, faithful finite-length duality implies H_i(C^a)=0 for i>4. Equivariant graded local duality reads
+
+Ext^5_S(M,S) = M^vee(5) tensor det(T)*.
+
+Combining this with Section 1 at n=5+i yields
+
+H_i(C^a)^vee(5) tensor det(T)*
+  = H_(4-i)(C^(8-a))(20) tensor det(U)* tensor det(W).
+
+Dualizing and collecting shifts and determinant factors proves the announced reciprocity. In particular the identification of each top defect uses the known zeroth homology of the complementary complex. It is an S-module identification, not merely an equality of Hilbert functions.
+
+For an additional endpoint check, the final map for a=8 is the joining map
+
+Lambda^10 F tensor det(G*) -> Lambda^8 F.
+
+Its transpose has image generated by the 2x2 minors of phi inside the rank-one module det(F)* tensor det(G). Hence its cokernel is Q tensor L, confirming the Q endpoint directly. For a<=7 the transposed last differential instead presents Sym^(8-a)H tensor L.
+
+## 3. Three canonical top defects and their invariants
+
+The following ordinary graded-module statements suppress the one-dimensional orientation factors. They also use the established identifications Sym^2_S H=R^vee(-5) and H^vee=H(5). No new equivariant trivialization of these identifications is presumed.
+
+### a=6: the scalar algebra itself
+
+H_4(C^6) = R(-10).
+
+It is cyclic, generated in degree 10, with annihilator I. Its Hilbert function in degrees 10,11,12,13,14,15 is
+
+(1,5,15,25,15,3).
+
+It is level, with three-dimensional socle in degree 15. The full minimal resolution of this defect is exactly the established resolution of R shifted by -10; in particular it has ten degree-13 and fifteen degree-14 minimal first relations.
+
+### a=7: the original quadratic module
+
+H_4(C^7) = H(-10).
+
+It has two generators in degree 10, annihilator I, Hilbert function
+
+(2,10,20,20,10,2)
+
+in degrees 10 through 15, and two-dimensional socle in degree 15. Its minimal resolution is the pure resolution of H shifted by -10. Thus its successive free terms have ranks 2,10,20,20,10,2 and shifts 10,12,14,16,18,20.
+
+### a=8: the determinantal canonical dual
+
+H_4(C^8) = Q^vee(-15).
+
+It has annihilator D, Hilbert function
+
+(3,35,35,15,5,1)
+
+in degrees 10 through 15, and one-dimensional socle in degree 15. Since Soc(Q) has dimensions 20 in degree 4 and 3 in degree 5, this defect has exactly three generators in degree 10 and twenty generators in degree 11. The generator conclusion uses the standard duality between the socle of a finite-length module and minimal generators of its graded dual, not only the displayed Hilbert function.
+
+These three descriptions are independent of the unresolved connecting-map parameter k in the resolution of Q. They determine actual nonzero top homology modules and show that the vanishing above degree 4 is sharp throughout this range.
+
+## 4. A next structural consequence for the middle defects
+
+The same proof, without further presentation evaluation, gives
+
+H_1(C^a) = H_3(C^(8-a))^vee(-15) tensor Omega,
+H_2(C^a) = H_2(C^(8-a))^vee(-15) tensor Omega.
+
+Thus the middle defects of complementary complexes are dual problems rather than unrelated unknowns. In particular H_2(C^4) is self-dual with this twist and orientation. This does not determine its length, nonvanishing, decomposition, or pairing symmetry. It also does not calculate either of the two degree-six connecting channels in PR503. Those remain separate questions.
+
+## Sources, exact dependencies, and verification scope
+
+The classical construction, split-surjection exactness, and complementary-index duality can be compared with Andrew R. Kustin, “Canonical complexes associated to a matrix,” Section 3: https://arxiv.org/abs/1509.04367 . The indexing and determinant shifts needed here are derived explicitly above. No grade-nine hypothesis is imposed; the determinantal ideal here has grade five.
+
+Pinned mathematical inputs:
+
+- PR505, ordinary top defect and finite-length duality argument, commit e18c763aa6ffdab1b8bff8a2853100424b8c0e8c: https://github.com/Akilleez-QA/read-em-and-weep/blob/e18c763aa6ffdab1b8bff8a2853100424b8c0e8c/research/hm/en-top-defect/PROOF.md
+- PR491, Sym^2 H=R^vee(-5) and the recalled compatible total-degree-five perfect pairing of H, commit e9ed26058f69f3b96bdcdf920cb638e9dd68def8: https://github.com/Akilleez-QA/read-em-and-weep/blob/e9ed26058f69f3b96bdcdf920cb638e9dd68def8/research/hm/endomorphism-rigidity/INDEPENDENT-DERIVATION.md
+- PR499, pure resolution of H, commit 1112189481554b0353c64178e3adc0dede2c3fbe: https://github.com/Akilleez-QA/read-em-and-weep/blob/1112189481554b0353c64178e3adc0dede2c3fbe/research/hm/middle-euler-ghost-exclusion/PROOF.md
+- PR500, full scalar algebra resolution, commit 86d7e1b5d3aee770ea3e7652c950b29bca1aba10: https://github.com/Akilleez-QA/read-em-and-weep/blob/86d7e1b5d3aee770ea3e7652c950b29bca1aba10/research/hm/scalar-last-ghost-exclusion/PROOF.md
+- PR495, Q Hilbert function and socle, commit b972aa22b72658b419e2c8948a56e0eec7f59e13: https://github.com/Akilleez-QA/read-em-and-weep/blob/b972aa22b72658b419e2c8948a56e0eec7f59e13/research/hm/fitting-thickening/PROOF.md
+- PR503, unresolved determinantal connecting parameter, commit c56c902d227f6205cf132897dd66cf2070f05b4a: https://github.com/Akilleez-QA/read-em-and-weep/blob/c56c902d227f6205cf132897dd66cf2070f05b4a/research/hm/determinantal-resolution-constraints/PROOF.md
+
+Authored structural argument, conditional on these pinned inputs; awaiting independent mathematical review and not formally checked. No selected actual HM/source-instance evaluation, numerical multiplication matrices or ranks, coefficient searches, generators/checkers, or large computation were used. The conclusions concern these auxiliary graded-module complexes; they do not establish fixed-source first-order vanishing, higher-order lifting, or algebraicity.
