@@ -6,7 +6,9 @@ After fixing the first eight double points on Gamma and removing their double-ze
 
     W=span{a^2,ab,b^2,c} inside H^0(P^1,O(8)),
 
-where a,b are coprime binary quartics and the four displayed sections are independent. The exceptional block relation restricts the last quadratic factor f to a projective line (a pencil) in P(H^0(O(2))). When this pencil is base-point-free it defines a degree-two map P^1 -> P^1, hence a deck involution T. A general member has roots p and Tp. No genericity of T relative to W is assumed.
+where a,b are coprime binary quartics and the four displayed sections are independent. These are conditional hypotheses for this lemma, not established assertions about the actual residual system. In particular, removing the first eight roots from the actual quadratic restrictions has not yet been shown to leave coprime a,b. The exceptional block relation restricts the last quadratic factor f to a projective line (a pencil) in P(H^0(O(2))). When this pencil is base-point-free it defines a degree-two map P^1 -> P^1, hence a deck involution T. A general member has roots p and Tp. No genericity of T relative to W is assumed.
+
+Let V_8 denote the ambient quartics double at the first eight marked points. Its restriction to Gamma can have a kernel consisting of quartics containing Gamma. The space W here is the restriction image after dividing by the eight double base zeros, not automatically an isomorphic copy of V_8. Vanishing of a restriction twice at a point is necessary for ambient double vanishing, but does not impose its normal derivatives. Neither that restriction kernel nor the normal-jet conditions are addressed by this determinant lemma.
 
 ## 1. The intrinsic obstruction has degree ten
 
@@ -20,7 +22,7 @@ Multiplication by a nonzero quadratic squared is injective on binary quartics, s
 
 The map W tensor O -> E therefore has a determinant Delta_W, a homogeneous degree-ten polynomial in the three coefficients of f, up to a nonzero scalar depending on the chosen basis of W. It vanishes exactly when a nonzero element of W is divisible by f^2. For a reduced factor with roots p,Tp, this says exactly that some W-section vanishes doubly at both points. Repeated-root factors are also treated correctly: then divisibility means a quadruple zero.
 
-Restricting Delta_W to the actual last-factor pencil gives a binary degree-ten polynomial. If it is not identically zero, only finitely many (at most ten, counting multiplicity) members of that pencil permit the double pair. Thus nonidentity of this explicitly specified polynomial suffices to exclude a general last pair. Identity is a genuine possibility, as Section 4 shows.
+Restricting Delta_W to the actual last-factor pencil gives a binary degree-ten polynomial. If it is not identically zero, only finitely many (at most ten, counting multiplicity) members of that pencil permit the double pair. Thus nonidentity of this explicitly specified polynomial excludes, for a general last pair, every candidate with NONZERO restriction in this four-dimensional W. To exclude ambient candidates as well, one also needs injectivity of V_8 -> W or a separate exclusion of its Gamma-containing kernel by normal-jet conditions. Identity is a genuine possibility, as Section 4 shows.
 
 ## 2. Explicit rational-function identity
 
@@ -75,6 +77,12 @@ The quartics a and b have no common zero. The four sections a^2,ab,b^2,c are lin
 
 In this example u=x/(1+x^4) is nonconstant and T-anti-invariant, not T-invariant, while v=x^8/(1+x^4)^2 is even and not in span{1,u,u^2}. Thus the proposed implication that identity forces invariant u or redundant c is false even with coprime quartics of the required degree.
 
+## 5. Lower-dimensional restriction images
+
+If the actual restriction image W has dimension r<4, its map W tensor O -> E is represented locally by a 4 by r matrix. The condition for a nonzero restricted section divisible by f^2 is rank less than r, defined by its maximal r by r minors. One cannot use a 4 by 4 determinant by adding dependent or nonexistent sections. The same distinction between nonzero restrictions and ambient Gamma-containing candidates remains necessary.
+
 ## Conclusion and remaining actual input
 
-The exceptional-block quartic question reduces exactly to whether the degree-ten determinant Delta_W restricts nontrivially to the actual last-factor pencil. If nontrivial, a general member is excluded. Degree data, coprimeness of a,b, and four-dimensionality of W do not prove nontriviality: the counterexample shows genuine involution-compatible special systems. One must use additional actual geometry of W and the block involution, rather than treating their relative position as generic.
+Under the displayed four-dimensional hypotheses, the restriction-level double-pair question is equivalent to vanishing of the degree-ten determinant Delta_W on the last-factor pencil. If its restriction to that pencil is nonzero, it excludes nonzero restricted candidates for a general pair. This alone does NOT exclude ambient quartics containing Gamma. An ambient exclusion additionally requires injectivity of V_8 restriction, or a separate normal-jet exclusion for its kernel. No actual coprimeness of the residual quartics a,b is claimed here.
+
+Even within the conditional coprime, four-dimensional setting, nontriviality does not follow from the degree data: the counterexample exhibits an involution-compatible system with identically zero determinant. Additional actual geometry of the restriction image and the block involution is needed, and the normal-jet issue is separate. This note proves no exceptional-block geometric exclusion.
