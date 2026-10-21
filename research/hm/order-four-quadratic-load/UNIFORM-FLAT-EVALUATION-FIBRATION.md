@@ -26,7 +26,7 @@ It follows that every f-fiber has dimension exactly one. There are no isolated i
 
 Put S_Gamma=f^{-1}(Gamma). Since Gamma is a smooth curve regularly embedded in P3 in codimension two, flat pullback gives a regular sequence on Xhat. Thus S_Gamma is a locally complete-intersection Cohen–Macaulay surface, flat over Gamma.
 
-For a general modular parameter B, X_B is the integral degree-fifteen scroll. A general quadric cuts an integral curve by Bertini; the incidence and quotient description identifies the generic f-fiber with this curve away from finitely many marked parameters. This generic-integrality condition holds on a nonempty open set of choices of Q, so may be imposed along with Section1's uniform avoidance condition.
+For a general modular parameter B, X_B is the integral degree-fifteen scroll. A general quadric cuts an integral curve by Bertini; the incidence and quotient description identifies the generic fiber of the restriction over Gamma with this curve away from finitely many marked parameters. This generic-integrality condition holds on a nonempty open set of choices of Q, so may be imposed along with Section1's uniform avoidance condition.
 
 A finite-type flat scheme over an integral smooth curve with integral generic fiber is integral here. Explicitly flatness makes every nonzero base parameter a non-zero-divisor; hence all associated primes dominate the base. Generic reducedness and absence of embedded primes imply reducedness, and distinct irreducible components would give distinct components in the generic fiber. Therefore S_Gamma is integral. In particular there are no additional raw components supported over cusp parameters.
 
