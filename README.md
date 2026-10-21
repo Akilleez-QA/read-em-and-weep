@@ -1,51 +1,65 @@
-# Readme
+# Proof repair: current progress and remaining obstruction
 
-This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. 
+**Craig Ward** · Working paper v0.3 · 21 October 2026  
+Adjoint theorem cutoff: 22:57 UTC. V51 comparison: PR634.
 
-As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing mathematical evaluations saturated. Some outputs build upon earlier results produced by the models.
+## The problem
 
-This collection includes results at different stages of verification. Not all have accompanying Lean formalizations. We will continue to update this repository with Lean formalizations as we obtain them. 
+This repository develops a proof-repair program in the Horrocks-Mumford setting. The immediate problem is to determine the sections of the trace-free adjoint bundle B = End₀(F), restricted to a general smooth inversion-even quadric Q. The broader source-recovery, lifting, and Weil-class algebraicity objectives remain open. Narrowing the possible maps and eliminating incorrect routes is part of the mathematical result, not a substitute for a completed proof.
 
-Some of the unformalized results could have issues. We will endeavor to fix any such issues quickly.
-We are also exploring community-hosted repositories for these materials. 
+## Main result so far
 
-## Navigating the collection
+For general smooth Q in the specified family,
 
-The current catalogue contains 719 manuscripts organized into 372 families. A family groups related papers, which may include a principal result, companion arguments, consequences, or alternative proofs. Each family is classified by mathematical discipline.
+    h⁰(B_Q(4))₋ = 0,
+    h⁰(B_Q(4))₊ ∈ {4, 5},
+    h⁰(B_Q(4)) ∈ {4, 5}.
 
-- Start with the [overview](overview.pdf) for descriptions of the families.
-- Use the [manuscript map](CONTENTS.md) to find individual papers and their supporting materials.
-- The [`preprints/`](preprints/) directory contains PDFs, source files, and manuscript-specific citation and build instructions.
-- The [Lean library](lean/README.md) and [formalization catalogue](lean/formalization.yaml) describe the available formal proofs, their associated papers, and verification configurations. See the [Comparator instructions](lean/ComparatorChallenges/README.md) for additional checking instructions. The repository has ~42% top-line results formalized.
-- Updates to the repo are described in the [history](history.md).
+The subscripts are the physical inversion eigenspaces. “General” means a nonempty Zariski-open set, not every quadric or special fiber. The current proof does **not** decide between four and five. [Integrated theorem][G].
 
-### Reasoning summaries
+## Why the search space is smaller
 
-We are also releasing abridged summaries of the model's reasoning, covering the following results:
+1. **Odd sector closed.** The last special D5 octic nonextension excludes the remaining residual rank-two branch. The actual six-to-ten smoothing map is injective, giving generic odd vanishing. [Proof][O].
+2. **Positive cone rank fixed.** At the invariant rank-three cone q₀, the actual positive map has source dimension 41, target dimension 37, rank 33, kernel A ⊕ D5 of dimension eight, and cokernel P4 of dimension four. [Proof][R].
+3. **The first-order route is excluded.** The cyclic Rao identity aξ = q₀ζₐ makes the entire first Bockstein zero. The former scalar γ is zero, not unknown; nonzero individual linear legs do not imply a nonzero composite. [Proof][F].
+4. **Second order advances three ranks, not four.** The square filtration kills D5. The remaining A-to-P4 quadratic family has a nonzero actual scalar by Atiyah differentiation of the nonsplit quintic extension, and its universal symbol has generic rank three. Hence generic positive rank is at least 36. [Filtration][S]; [actual nonvanishing][N]; [rank consequence][G].
 
-| Family | Subject |
-|---|---|
-| 007 | [Ordinary two-point correlations of multiplicative functions](reasoning_traces/ordinary-two-point-correlations.pdf) |
-| 017 | [The irrationality exponent of π](reasoning_traces/irrationality-exponent-of-pi.pdf) |
-| 087 | [Symmetric and general Mahler conjectures](reasoning_traces/symmetric-and-general-mahler-conjectures.pdf) |
-| 102 | [Ordinary NP-hardness at the basic semidefinite threshold](reasoning_traces/basic-semidefinite-threshold-np-hardness.pdf) |
-| 159 | [Quasipolynomial bounds for arithmetic progressions](reasoning_traces/quasipolynomial-arithmetic-progressions.pdf) |
-| 197 | [Kaplansky's direct-finiteness conjecture in characteristic two](reasoning_traces/kaplansky-direct-finiteness-characteristic-two.pdf) |
-| 221 | [The Mézard–Parisi formula for diluted spin glasses](reasoning_traces/mezard-parisi-formula.pdf) |
-| 271 | [Spontaneous magnetization in the quantum Heisenberg ferromagnet](reasoning_traces/spontaneous-magnetization-quantum-heisenberg-ferromagnet.pdf) |
-| 287 | [Isomorphism of free group factors](reasoning_traces/free-group-factor-isomorphism.pdf) |
-| 362 | [The three-dimensional relativistic Vlasov–Maxwell system](reasoning_traces/relativistic-vlasov-maxwell.pdf) |
+## Earlier reduction on the full quadratic family
+
+On the full P¹⁴ of quadrics, the actual primary map is generically injective and the actual residual map is generically surjective on a common dense open containing smooth quadrics. The section reductions a = 0, b ≤ 1 and the unique-cubic normal-jet argument establish the required square Rao injectivity. What remains there is a canonical 20-to-20 extension boundary δ; good flanks do not prove δ invertible. A specific Segre family of decomposable representation tensors is provably bad for full invertibility. These full-family statements must be distinguished from the later inversion-even analysis. [Primary and Rao reductions](paper/07-primary-and-rao-reductions.md).
+
+## The remaining gate
+
+After second order in a general negative direction, the surviving source is D5, of dimension five, and the remaining target is a line. A nonzero third or later Bockstein would give rank 37 and four sections. If the last target survives all higher obstructions along the pencil, the rank stays 36 and the section count stays five. No higher nonvanishing is claimed here. Closing this gate would still not automatically solve the original source or algebraicity problem.
+
+## Read the working paper
+
+- [Paper index and abstract](paper/README.md)
+- [Current theorem and notation](paper/01-current-status.md)
+- [Completed exclusions and superseded routes](paper/02-completed-exclusions.md)
+- [Odd-sector proof](paper/03-odd-sector.md)
+- [Positive-sector proof](paper/04-positive-sector.md)
+- [Separate V51 deformation geometry](paper/05-v51-comparison.md)
+- [Dependencies, reproducible checks, and change log](paper/06-dependencies-and-changelog.md)
+
+The V51 comparison reports the separately attributed construction of 636/576-dimensional algebraic slices whose completions represent marked polarized/abstract Artin deformation classes. It is not an input proving the remaining adjoint obstruction, groupoid representability, or algebraicity of arbitrary formal arcs.
+
+## Repository layout and provenance
+
+- **This README** is the current progress paper; [paper/](paper/README.md) holds its focused sections.
+- **[upstream/openai-math/](upstream/openai-math/README.md)** preserves the original OpenAI/math snapshot unchanged, including manuscripts, Lean sources, reasoning traces and licenses. See [archive provenance](upstream/README.md).
+- **Research proofs and verifiers remain in their existing pull requests and immutable commits.** This reorganization does not merge or certify every research branch. [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543) contains the current adjoint proof chain; [PR1](https://github.com/Akilleez-QA/read-em-and-weep/pull/1) records mathematical coordination.
+
+## Evidence and version policy
+
+These are authored mathematical arguments with supplementary universal identity checks, not proof-assistant certificates. The references below pin immutable source versions because the research pull requests remain in development. No selected Horrocks-Mumford coefficient or actual matrix-rank experiment is used in the results summarized here. The paper is maintained in modular Markdown; a PDF is not part of this working edition.
+
+## Pinned source references
 
 
-## How the results were produced
-
-The vast majority of results were obtained with the same procedure using an unreleased internal OpenAI model. On average, each result used three hours of ChatGPT Pro thinking compute with that model. Over the course of the evaluation, the model was posed approximately 4,000 problems. Aggregating the output into result families and manuscripts and requiring an appropriate level of significance led to the catalog outlined above.
-
-Exceptions to this fixed procedure include work on a zero-free region for the Riemann zeta function and proof of the Hodge Conjecture for CM abelian varieties. Additionally, the writeup for the Re(s) > 11/12 zero-free region for the Riemann zeta function was human edited for readability. 
-
-
-## Versions and citations
-
-We will preserve the public release history of this collection. Corrections and revisions will be recorded as new versions, with previously released versions remaining accessible. 
-
-To cite the individual manuscript, use the BibTeX block in its directory. 
+[O]: https://github.com/Akilleez-QA/read-em-and-weep/blob/ec080c229105457eafcd2583c8a47b362627a62e/research/hm/order-four-quadratic-load/SPECIAL-D5-OCTIC-NONEXTENSION-EXCLUDES-A12.md
+[R]: https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md
+[F]: https://github.com/Akilleez-QA/read-em-and-weep/blob/846968261441fef2cad247d22b66d37aed3f0f8f/research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md
+[S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md
+[N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9f28cb10c38d7a0e29c1eb994594325fea7f22bf/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md
+[G]: https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md
