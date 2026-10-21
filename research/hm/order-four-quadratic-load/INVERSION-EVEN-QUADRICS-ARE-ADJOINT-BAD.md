@@ -18,7 +18,7 @@ The required source input is stronger than polarization type alone. ADHPR, Syzyg
 
 Fix the linearization induced by the actual ambient action on H and by the canonical invariant section of O(C). On C00=P(V_-), iota fixes the line pointwise and acts by -1 on O(H). On the exceptional curve over0, inversion has normal character -1, so it also acts by -1 on O(C)|C00. Thus P has fiber character +1 at0. This fixes the common sign in the cited all-even assertion: every P fiber over A[2] has character +1. Every positive power P^n has the same +1 fiber characters there.
 
-The actual four-dimensional U=H0(F(3)) is scalar under iota, say with eigenvalue epsilon in {+1,-1}. Indeed wedge^2 U identifies equivariantly with the six invariant quintics, all of which are iota-even (ADHPR Section3). Since every pairwise product of the four eigenvalues is +1, all four eigenvalues coincide. No choice epsilon=+1 is needed below. In particular every B is fixed, det B has character epsilon, and det U has character +1.
+The actual four-dimensional U=H0(F(3)) is scalar under iota, say with eigenvalue epsilon in {+1,-1}. Indeed the determinant map identifies wedge^2 U with the six invariant quintics, all of which are iota-even under the standard ambient linearization (ADHPR Section3). Allow initially a possible character chi on the identification det(E)=O(5). Every pairwise product of the four eigenvalues of U then equals chi. Comparing the products among any three eigenvalues forces chi=+1, and all four eigenvalues coincide. Thus det(E)=O(5) has the standard involution sign as well. No choice epsilon=+1 is needed below. In particular every B is fixed, det B has character epsilon, and det U has character +1.
 
 ## 2. Actual abelian jet parities
 
