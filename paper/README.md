@@ -1,0 +1,41 @@
+# Narrowing the search space in a proof-repair program
+
+## Adjoint restrictions, exact exclusions, and a remaining higher obstruction
+
+**Craig Ward**  
+Working edition **v0.3** | Mathematical cutoff: **21 October 2026, 22:57 UTC**  
+Separate V51 comparison checked through PR634, 21 October 2026.
+
+### Abstract
+
+This working paper organizes a coefficient-free proof-repair program around statements that can be proved, excluded, or left explicitly open. For the adjoint bundle B = End₀(F) in the Horrocks-Mumford setting, the odd part of H⁰(B_Q(4)) vanishes for a general smooth inversion-even quadric Q. The positive multiplication map has rank 33 at the invariant rank-three cone. Its first Bockstein vanishes identically; its second Bockstein kills a five-dimensional summand and is a nonzero quadratic channel of generic rank three on the remaining three-dimensional summand. It follows that the general total section count is either four or five. The distinction is a genuinely higher obstruction, not a missing first-order scalar. We give the dependency chain, explain the exclusions that make it shorter, and distinguish these results from a separate deformation-theoretic construction for V51. Neither the original source-recovery problem nor Weil-class algebraicity is claimed to be solved.
+
+### Reading order
+
+1. [Current theorem and notation](01-current-status.md)
+2. [Completed exclusions and superseded routes](02-completed-exclusions.md)
+3. [Odd-sector vanishing](03-odd-sector.md)
+4. [Positive-sector obstruction calculation](04-positive-sector.md)
+5. [Separate V51 deformation geometry](05-v51-comparison.md)
+6. [Dependencies, reproducibility, and change log](06-dependencies-and-changelog.md)
+
+The files are sections of one paper, not independent claims of completion. Immutable public source links identify the mathematical versions summarized. The proofs are mathematical arguments with supplementary universal checks, not proof-assistant certificates. This edition is maintained in Markdown; no PDF is part of this edition.
+
+### Central result
+
+For a general smooth inversion-even quadric Q in the specified family,
+
+    h⁰(B_Q(4))₋ = 0,
+    4 ≤ h⁰(B_Q(4))₊ ≤ 5,
+    4 ≤ h⁰(B_Q(4)) ≤ 5.
+
+The possible values are integers, so the last two quantities are four or five. The argument does not select one of the two alternatives. See the [integrated theorem][G] and the proofs below.
+
+## Pinned source references
+
+[O]: https://github.com/Akilleez-QA/read-em-and-weep/blob/ec080c229105457eafcd2583c8a47b362627a62e/research/hm/order-four-quadratic-load/SPECIAL-D5-OCTIC-NONEXTENSION-EXCLUDES-A12.md
+[R]: https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md
+[F]: https://github.com/Akilleez-QA/read-em-and-weep/blob/846968261441fef2cad247d22b66d37aed3f0f8f/research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md
+[S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md
+[N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9f28cb10c38d7a0e29c1eb994594325fea7f22bf/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md
+[G]: https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md
