@@ -1,0 +1,7 @@
+# Root mathematical review
+
+Checked the universal module presentation at the level of relations. For p>=1 the binary generator is a buffer: each defining relation transfers one exponent between a quadratic factor and that buffer. The stated algorithm connects every assignment with the same E-index multiset and total binary exponent. Distinct data map to distinct monomials, so this proves injectivity as well as surjectivity. The excluded p=0 case is essential.
+
+Symmetric powers commute with the actual scalar extension, and the parity decomposition is a direct sum of P-modules, not a flatness assumption. Therefore the canonical tensor product is exactly the odd part of Sym8(H), with combined shift minus eight. Published higher symmetric-power vanishing makes that odd part concentrated in original degree one, dimension45, and positive P action zero. The ambient duality shift plus fifteen followed by graded duality gives forty-five residue-field copies in degree seven.
+
+The even canonical base change and its two-layer multiplication map follow from the same presentation, not just equal Hilbert functions. No identification with k is asserted. Root and independent mathematical review are conditional on pinned inputs and not formal verification. No selected HM/source evaluation, numerical rank experiment, coefficient search or large computation. Remaining intermediate Tor, original fixed-pair, higher-order and algebraicity questions are separate.
