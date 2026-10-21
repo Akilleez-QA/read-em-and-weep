@@ -53,3 +53,21 @@ print('PASS: unknown U sign cancels; ordinary/equivariant adjoint indices0/8')
 print('PASS: actual even Euler index4 forces at least four invariant sections')
 print('PASS: one-point defects3/8 and4/10 recover the25-point parity after tensoring')
 print('BOUNDARY: universal characters only; no chosen coefficients, matrices, or ranks')
+
+# Full ambient85 pencil, using actual tail-boundary exact sequences.
+assert 20+100-35==85
+assert 40+50-5==85
+assert parity(20,4)==(12,8)
+assert parity(40,-8)==(16,24)
+assert parity(85,4-4-3)==(41,44)
+assert parity(85,-8-2-1)==(37,48)
+assert min(41,37)+min(44,48)==81
+assert min(41,48)+min(44,37)==78
+assert (-1)**44==(-1)**48==1
+assert 11-3==8
+print('PASS: full ambient85 parities41/44 ->37/48, even/odd corank bounds4/7')
+
+bidegrees=[(85-k,k) for k in range(4,79,2)]
+assert bidegrees[0]==(81,4) and bidegrees[-1]==(7,78)
+assert len(bidegrees)==38 and all(a+b==85 and a>=7 and b>=4 for a,b in bidegrees)
+print('PASS: only38 permitted determinant bidegrees, from81/4 through7/78')
