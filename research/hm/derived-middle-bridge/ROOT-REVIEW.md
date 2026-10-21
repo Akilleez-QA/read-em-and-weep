@@ -1,0 +1,7 @@
+# Root mathematical review
+
+Checked the universal maximal-minor grade: the actual universal quotient is the six-dimensional Cohen-Macaulay Segre-Veronese ring in fifteen variables, so ordinary EN resolves it before specialization. Even projection of the base-changed complex is exact as a direct-sum operation; no flatness is assumed. Reversing the dual resolution and applying the canonical shifts gives the odd bridge with shift seven.
+
+Independently verified the support exclusions used at S degrees eight and ten. The free-term Euler coefficients are 315 and minus91. With the stated vanished homology terms, these give respectively dim M2_8=315+x and dim M3_10=91+y. The known components10,225 and85 then determine every listed intermediate Hilbert function. This proves nonvanishing in all intermediate Tor degrees, unlike the earlier top-only claim. No assertion that x or y is a particular value follows.
+
+The parity bridge is a derived realization of the earlier reciprocity, not itself a new independent nonvanishing theorem. The new numerical consequences and exact module identification are distinguished from that reformulation. Root and independent mathematical review are conditional on pinned inputs, not formal verification. No selected HM/source evaluation, numerical rank experiment, coefficient search or large computation. Original fixed-pair residual, higher-order lifting and algebraicity remain open.
