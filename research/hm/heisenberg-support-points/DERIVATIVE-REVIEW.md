@@ -1,0 +1,11 @@
+# Independent review of local transversality
+
+Reviewed LOCAL-TRANSVERSALITY.md, SHA256 ac1db39d1adda677e09b6528532ac1a8dfa3fa9fb0fdd4dd5ffbaa6cfdd2f470. The universal symbolic argument passes without correction.
+
+The Heisenberg generators can be normalized with unit shift coefficients because they have order five. On V the shift by two is exactly the square central character required by exterior^2 A. Weight preservation fixes the target index i+j, while simultaneous translation of i,j fixes their difference; therefore the displayed w_(j-i) normal form follows for every equivariant intertwiner. Each weight space has two wedge basis vectors with difference classes {+/-1} and {+/-2}; isomorphism of phi forces w1,w2 independent.
+
+On the chart x=e0+sum(t_c e_c), the classes of e_b for b nonzero form a local frame of Q, and x trivializes the tautological factor. Thus differentiating phi(x wedge e_b) gives exactly v_(b+c) tensor w_(b-c). Restriction to the four kernel lines and projection to the missing v0 line leaves only b=-c, with coefficient lambda_(-c)(w_(-2c)). Multiplication by two exchanges the two nonzero difference classes modulo sign, so all four surviving coefficients are nonzero. The normal derivative is consequently an isomorphism between two four-dimensional spaces; no actual coefficient values are needed.
+
+Near a rank-four point, a nonzero four-by-four minor reduces the rank-eight to rank-five map to an identity block and a one-by-four Schur-complement row. These four entries generate the local determinantal ideal. Their independent differentials generate the maximal ideal modulo its square, and Nakayama's lemma gives the maximal ideal itself. This proves a reduced isolated scheme point, not merely set-theoretic isolation. Repeating for every cyclic direction proves the assertion at all thirty eigenlines.
+
+The file correctly retains the possibility of other positive-dimensional components elsewhere and keeps global equality with the thirty-point scheme conditional on finiteness. The result concerns the support-drop scheme, not an unproved identification with the primary-evaluation determinantal scheme. This is independent structural mathematical review, not formal verification, and no selected actual HM/source matrix, coefficient or numerical rank was evaluated.
