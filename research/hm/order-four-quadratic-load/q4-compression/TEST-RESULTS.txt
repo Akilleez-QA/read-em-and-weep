@@ -1,0 +1,11 @@
+test_all_base_changes_with_commuting_certificates (test_q4_compression.ToyCompressionTests.test_all_base_changes_with_commuting_certificates) ... ok
+test_invalid_inputs_and_tampering (test_q4_compression.ToyCompressionTests.test_invalid_inputs_and_tampering) ... ok
+test_non_split_lift_cancellation (test_q4_compression.ToyCompressionTests.test_non_split_lift_cancellation) ... ok
+test_rank_drop (test_q4_compression.ToyCompressionTests.test_rank_drop) ... ok
+test_representative_independence (test_q4_compression.ToyCompressionTests.test_representative_independence) ... ok
+test_zero_and_extreme_dimensions (test_q4_compression.ToyCompressionTests.test_zero_and_extreme_dimensions) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.050s
+
+OK
