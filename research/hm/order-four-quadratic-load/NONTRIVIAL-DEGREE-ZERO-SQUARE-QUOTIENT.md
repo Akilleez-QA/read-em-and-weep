@@ -95,4 +95,4 @@ and has no higher direct images. On the rank-one locus of the determinant surfac
 
 Consequently this cokernel cannot simply be replaced by a line sheaf on the reduced three-plane determinant surface. Its nonreduced structure and the loci where the original evaluation has rank zero remain relevant to any more explicit description of J.
 
-Companion verify_square_quotient_character_obstruction.py checks (8), the actual character difference used in (9), and the forced dimensions using only the established universal binary-group character helper. It evaluates no actual HM coefficients or multiplication matrices.
+The standalone companion verify_square_quotient_character_obstruction.py checks (8), the actual character difference used in (9), and the forced dimensions using exact universal binary-group characters over Q(sqrt(5)). It evaluates no actual HM coefficients or multiplication matrices.
