@@ -73,7 +73,7 @@ The other projection eta:Z->T is a P1 bundle: at a fixed root, quadratics vanish
 
 ## 3. A uniform conductor sequence, including double roots
 
-Let D subset P4 x P be the universal negative quadric, and put X_Z=X x_T Z. The natural map p_Z:X_Z->D is finite. Away from R it is an isomorphism. Over R its fibers are the length-two root schemes. Locally it is the finite algebra map
+Let D subset P4 x P be the universal negative quadric, and put X_Z=X x_T Z. The natural map p_Z:X_Z->D is finite. Away from R it is an isomorphism. Over R its fibers are the length-two root schemes. On a root chart it is described by the algebra map
 
     A[u,v]/(q(u,v)) -> A[u,z]/(q(1,z)),  v |-> uz,
 
