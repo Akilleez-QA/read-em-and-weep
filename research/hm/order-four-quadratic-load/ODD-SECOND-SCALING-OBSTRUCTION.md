@@ -29,7 +29,7 @@ where K has rank nine and degree minus twelve. If Z(q_-) is the reduced divisor 
 
 Thus it is the direct sum of two actual nine-to-fifteen secondary root maps. These maps depend on the actual fourth normal neighborhood of F. They do not discard its nonlinear quartic transition term. The resulting root operator is independent of the positive equation q_+: that equation affects only lower harmonic corrections, which disappear in the correct quotient.
 
-No rank of beta is asserted. If its generic rank on P(W*) is r, the actual generic odd-section bound improves to 18-2r; proving r=9 would prove generic odd vanishing in the even quadric family. This note constructs the exact test but does not establish that additional assertion.
+Correction from HYPERPLANE-SQUARE-SURVIVORS.md: beta has a forced rank-three square subbundle in its kernel, so its rank is at most six at EVERY direction. Thus the earlier conditional rank-nine route is impossible. If its generic rank is r, the actual generic odd-section upper bound remains 18-2r, but at least six two-root secondary survivors remain. They are not thereby global odd sections on Q; further compatibility can still eliminate them.
 
 ## 1. The full secondary quotient and even parameter
 
@@ -175,7 +175,7 @@ The torsion-free pushforward lattice of the finite scaling family maps into both
 
     h0(B_Q(4))_- <= 18-2r
 
-on the corresponding generic even-quadric open. No value of r, and no nonzero minor of beta, is proved here. If r=9, odd vanishing would follow; if r<9, further actual normal and parameter obstructions may still kill survivors.
+on the corresponding generic even-quadric open. The later exact hyperplane-square theorem proves 0<=r<=6: beta cannot be injective, and Delta_q has at least six surviving directions. No exact value of r is proved. These are finite secondary survivors, not guaranteed global quadric sections; further actual normal and parameter obstructions may still kill them.
 
 The new result is an exact quartic-neighborhood operator and its two-root reduction. It preserves the nonlinear fourth normal term, its interaction with the first correction, all evaluation-line twists, and the finite-neighborhood versus global distinction.
 
@@ -208,7 +208,7 @@ has H0(E(-m))=H1(E(-m))=0 for m sufficiently large, by negative absence of secti
 
     H0(H_lambda,B|H_lambda(3))_+ = ker(gamma_lambda).   (15)
 
-This proves that beta and the one subsequent normal-degree-six boundary form a finite exact section test for the actual hyperplane restriction. It does not assert hyperplane vanishing and does not identify it with the global odd quadric problem.
+This proves that beta and the one subsequent normal-degree-six boundary form a finite exact section test for the actual hyperplane restriction. HYPERPLANE-SQUARE-SURVIVORS.md now proves that its final kernel has dimension at least three on every hyperplane: three independent squares of the two actual F|H(2) sections survive both boundaries. Thus hyperplane vanishing is false. This remains distinct from the global odd quadric problem.
 
 There is also an independent ambient description of the same endpoint. If ell is the odd linear equation of H_lambda, the actual sequence
 
@@ -219,7 +219,7 @@ and H0(B(2))=H0(B(3))=0 identify (15) with the kernel of the actual odd-linear m
     H1(B(2))_- tensor <ell> -> H1(B(3))_+,
     dimensions 44 -> 46.                              (16)
 
-The defining-line character is retained in (16); it is what turns the negative source parity into positive parity. No injectivity of this actual pencil is assumed.
+The defining-line character is retained in (16); it is what turns the negative source parity into positive parity. The square-section theorem shows that this actual pencil has kernel dimension at least three at every parameter, so injectivity is ruled out.
 
 ## Dependencies
 
