@@ -1,0 +1,23 @@
+# Independent review: conductor blowup and determinantal defect
+
+Verdict: **PASS**, relative to the three pinned geometric and algebraic inputs in PROOF.md. This is an independent mathematical review, not formal proof verification.
+
+The review used the local copies of the pinned conductor, linear-adjugate, and primary-syzygy proofs. It did not use selected actual HM/source coefficients, an actual coefficient matrix, point evaluations, numerical rank tests, numerical search, or large computation.
+
+## Independently derived checks
+
+1. **Conductor blowup.** If A is a domain, B its finite birational normalization, and a is a nonzero ideal of both rings, then their positive Rees pieces agree. More decisively, for any nonzero a_i in a the two standard blowup chart rings agree inside their common fraction field: every b in B equals (ba_i)/a_i with ba_i in a. These actual chart equalities glue. Thus the argument does not rely on algebraizing a formal isomorphism or on an unsupported general statement about changing degree zero in Proj. The pinned identity c O_X=I_W gives precisely Bl_c S=Bl_W X.
+
+2. **Exceptional geometry.** In the formal two-branch model, the u-charts kill the v-branch and the v-charts kill the u-branch. Mixed chart intersections are empty because the corresponding product of homogeneous Rees generators is zero. Each branch blowup has one reduced exceptional projective line. The associated graded ring independently verifies that the entire fiber is the reduced disjoint union of those two lines. The presentation C[[u1,u2]][a]/(u2-u1 a) is justified by its absence of u1-torsion; the proof correctly avoids identifying it with C[[u1]][a]. Only its completed local ring at a closed exceptional point is identified with a two-variable formal power series ring.
+
+3. **Algebraic descent and smoothness.** The global conductor-chart isomorphism is already algebraic. Completion is used only to check the pulled conductor ideal and local embedded identities. Faithful flatness, finite-module ideal equality, and flat base change for Rees powers suffice for those checks. Smoothness also follows directly from blowing up the smooth surface X at sixty distinct reduced points. There is no inference that every conductor blowup is smooth.
+
+4. **Strict versus total transform.** The ambient-to-surface Rees map is surjective, giving the required closed immersion in Bl_Z P4. The integral blowup is the scheme-theoretic closure of S minus Z. This proves the strict-transform assertion without incorrectly asserting that blowup commutes with arbitrary nonflat closed base change. On the u1-chart the actual extended ideals are u1^2(b,c) for S and u1^3(b,c) for D. Saturation gives (b,c) in both cases, while the total transforms retain multiplicities two and three. The other charts and faithful-flat descent give the global ideal equalities stated in (12) and (16). The exceptional projective lines are disjoint complementary-coordinate lines in P3, hence skew.
+
+5. **Center-annihilated extension.** For B to A=B/T and bT=0, the Rees-kernel component in degree n is exactly (T intersect b^n)t^n, including T in degree zero. Every positive-degree Rees element annihilates this kernel. Inverting a degree-one generator therefore kills the kernel, and the localized surjection becomes an isomorphism. If its image generator is zero, both localizations are zero; there is no omitted chart. The resulting Proj isomorphism is canonical and its structure map factors through A. Neither square-zero structure alone nor nilpotence alone would prove this result, and the proof correctly uses bT=0. In the actual application that hypothesis is supplied by J E=0.
+
+6. **Resolved cubic system.** Pullback of the actual ten-generator surjection onto c(3), followed by passage to the image ideal on Y, gives a basepoint-free line bundle M_c=3b*H-sum(E_w). The intersection computation is 9(15)-60=75. A morphism associated to this line bundle cannot have a point or curve as image; it is generically finite onto its integral surface image. The degree-product formula is then the projection formula. The proof correctly refrains from claiming birationality, very ampleness, image normality, or an individually determined mapping degree.
+
+## Boundary and conclusion
+
+All scheme identifications, the removal of the entire length-120 defect, the exceptional fibers, the ambient regular embedding, the two total-transform multiplicities, and the cubic-system degree product follow from the stated inputs. No substantive correction is required. The limitations stated in Section 7 are appropriate: this result does not settle the separate full-adjoint/primitive-four, prescribed-source, connecting-map, higher-lifting, or algebraicity questions.
