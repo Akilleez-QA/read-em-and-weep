@@ -110,7 +110,7 @@ Inversion-equivariant local frames can be chosen even along R. Their projective 
 
 initially a class in H1(B_R) tensor Sym^4 W. Changing frames changes this cocycle by a coboundary, so (9) is the actual deformation boundary, not a chosen representative-dependent map.
 
-The target on the fixed quadric is NOT the full quartic space. A term divisible by q_- becomes a multiple of -q_+. Its cohomology factors through H1(B_R(2)) or H1(B_R(4)), both zero. Thus (9) factors through
+The target on the fixed quadric is NOT the full quartic space. Decompose a quartic into harmonic degrees four, two, and zero, with respective factors 1, q_-, and q_- squared. The latter two terms become multiples of -q_+ and q_+ squared. In the harmonic-index-zero summand of I^2, one q_+ factor is already built into its identification with O_R(-2). Consequently both lower harmonic components induce multiplication by q_+ from H1(B_R) through H1(B_R(2)), which is zero. Thus (9) factors through
 
     L_q:S tensor Sym^2 W
         -> H1(B_R) tensor (Sym^4 W / q_- Sym^2 W).      (10)
