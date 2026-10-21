@@ -1,3 +1,5 @@
+> Mathematical update: BEILINSON-AMBIENT-RESTRICTION-ISOMORPHISM.md at8b35dbc5359e69c9317cedf3c9a452b533dbe05a proves H1(M4 I_S)=0 and that restriction on sections is an isomorphism. The extension boundary below is therefore zero, not an additional open gate. The cubic and Rao calculations remain valid.
+
 # Actual ambient extension reduces uniquely to a cubic containing Gamma
 
 ## Scope and notation
