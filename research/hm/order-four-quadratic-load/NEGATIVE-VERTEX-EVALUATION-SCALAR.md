@@ -1,4 +1,8 @@
-# The actual negative-vertex evaluation is one unresolved scalar
+# Reduction of negative-vertex evaluation to one scalar
+
+## Subsequent resolution
+
+NONZERO-VERTEX-EVALUATION.md at commit c779b2919a36b9d45a6319d46551bd6380154bba proves this scalar is nonzero by reduced-section classification and factor descent. Vertex evaluation has rank one everywhere, and the actual multiplicity map d_W has rank two. The reduction and failed dimension-only arguments below remain valid; statements that the scalar is unresolved describe the endpoint of this earlier argument.
 
 ## Checked conclusions
 
