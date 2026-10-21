@@ -1,0 +1,35 @@
+# Independent review: relative middle obstruction
+
+Reviewed `PROOF.md` SHA256 `8e4cb445b627246791917d7ae2876937c66cbc873c23f38bff3986b9c2628d44`.
+
+## Verdict
+
+No mathematical blocker found. Conditional on the pinned original-module inputs, the argument establishes the displayed relative Tor bundle, symmetric obstruction degrees, trivial-block dichotomy, forced middle degeneration on the exceptional orbit, and generic-value restriction `b in {0,2,24,26}`. This is an independent mathematical review, not formal verification and not a determination of which generic value occurs.
+
+## Checks of actual constructions
+
+1. **The quotient twist is essential and correct.** The quotient of the degree-zero generator bundle by the tautological line is `W O / O(-1) = O(1)` with the invariant determinant identification. Tensoring the original quadratic presentation by the universal column evaluation makes its relation ideal precisely the column ideal of PR512. Thus the entire quotient is `C=A tensor O(1)`, not merely a bundle with the same Hilbert function. The orthogonal identification is `B=D5(C)` for the fixed trace pairing; its parameter twist is consequently negative.
+
+2. **The relative Tor calculation uses the differential, not ranks alone.** PR513 proves that the kernel of the middle differential in the degree-five column Koszul complex is exactly the scalar boundary at every geometric parameter. Therefore the induced map from `End_0(T) O` is a subbundle injection. Its cokernel F is locally free and base-change compatible. The nontrivial character components have the exact sequence `0 -> O -> 2O(2) -> F_chi -> 0`, giving degree four. The trivial component has zero source and is exactly `W0 O(2)`. No equivariant splitting of the nontrivial character lines is asserted or needed.
+
+3. **Duality and connecting map.** Wedge duality in five variables pairs the internal-degree-five Tor spaces of C and D5(C) in complementary homological degrees three and two. Its determinant line is trivial here. Hence `V=(F tensor O(1))*`, with nontrivial character lines of degree -5 and trivial part `W0* O(-3)`. Duality interchanges a character with its inverse, which does not alter these degrees. Acyclicity of the actual H strand gives the claimed connecting isomorphism. The two exact sequences used in PR516 then identify the fiber kernel and cokernel with the two middle Betti spaces of the coisotropic quotient. Twisting that quotient by a parameter line does not change fiber Betti numbers.
+
+4. **Symmetry and linearizations.** In the chain-level proof of PR518 the lifts have Koszul degree three, their boundaries degree two. The differential identity gives `<dz,t>=<z,dt>`, while swapping exterior degrees two and three contributes sign +1. This yields a symmetric form, and the argument works over parameter local rings. The trace pairing and Serre duality are compatible with the actual normalizer action. The inspected PR464 review explains the absence of an extra character: the normalizer is perfect, and its ambient determinant is trivial. The HM primary text also explicitly supplies the compatible exterior pairing and determinant-one representation conventions. Thus the invariant trivial-character block can be treated as a genuine G-equivariant map, not merely a projectively equivariant one.
+
+5. **Block degrees.** A nontrivial inverse pair is a symmetric off-diagonal block on two degree -5 lines, so its entry has degree ten. The two-dimensional trivial block has entries of degree six and determinant degree twelve. Identifying W0 with its dual by its invariant alternating form does not change the intrinsic symmetry statement `V -> V*`; symmetry is asserted for that intrinsic map, not for an arbitrarily transformed matrix.
+
+## Rank and orbit arguments
+
+6. **Generic rank one is excluded rigorously.** The common-entry zero divisor of a nonzero rank-one trivial block is invariant and is bounded by a degree-six entry divisor. The orbit minimum twelve therefore forces constant rank one. Its image I is then saturated. Symmetry places I in the annihilator of the kernel, and equality follows fiberwise because both are rank-one subbundles. Since that annihilator is `(V1/K)*=I*`, degree(I)=0. The inherited G-linearization of this degree-zero line differs from the standard one only by a character, necessarily trivial. An inclusion into `W0* O(3)` would therefore require an invariant in `W0* tensor Sym^3(W')`. The binary character table, or its formula `chi_Sym3(g)=chi_W'(g)^3-2chi_W'(g)`, identifies Sym^3(W') with the irreducible spin representation of dimension four, so no such invariant exists.
+
+7. **Simple exceptional degeneration.** A nonzero determinant is an invariant degree-twelve section and consequently has the reduced orbit Omega as its divisor. A simple determinant zero for a two-by-two matrix over a smooth curve has exactly one positive Smith exponent, equal to one. The corank is therefore one on Omega and zero elsewhere. If the block is identically zero, its corank is two everywhere. Both alternatives force at least one middle ghost on Omega. Nontrivial inverse pairs always contribute even corank, establishing all four stated parity consequences.
+
+8. **Transitivity is used at the correct level.** The SL2(F5) action is transitive on the nonzero vectors of the dual of the Heisenberg quotient and hence on the twelve inverse pairs. Equivariance transports zero sections to zero sections. Thus one identically zero pair entry forces all twelve to vanish identically; otherwise each entry is a nonzero section with finitely many zeros. The complement of their finite union is nonempty. This proves generic nontrivial-character corank zero or twenty-four. It does not assert simultaneous pointwise vanishing of all entries at an arbitrary parameter. Combining this with the two possible generic trivial coranks gives exactly the stated four-value restriction.
+
+9. **Full determinant bookkeeping.** The degree of V is -126 and the determinant of `V -> V*` has degree 252. Twelve degree-ten pair entries contribute degree 240 after squaring; the trivial determinant contributes twelve. This is correctly conditional on the full determinant being nonzero.
+
+## Source and verification boundary
+
+I inspected the local proof texts corresponding to PR512, PR513, PR516, PR518, PR519 and PR520, the PR490 tensor bridge, the PR464 linearization review, and the local text of the public Horrocks--Mumford paper, including its compatible pairing and binary character table. This is a scoped audit of the argument and its declared premises, not a fresh verification of every upstream theorem or independent authentication of every remote Git object.
+
+For editorial completeness, the sentence correlating this result with the quartic jump theorem should link PR524 at its exact commit; the middle parity proof itself does not depend on that theorem. No selected HM/source-instance evaluation, coefficient search, numerical rank experiment, or large computation was performed. No conclusion about the original fixed-pair first-order residual, higher-order lifting, or algebraicity is established.
