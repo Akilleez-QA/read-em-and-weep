@@ -76,3 +76,49 @@ This separates the actual conductor target into value matching and derivative ma
 The finite-flat algebra B=p_*O_J has rank four and degree -60, since it is O_Y plus the value bundle V. Its trace pairing is generically nondegenerate in characteristic zero. Taking its determinant therefore gives a nonzero discriminant section of (det B)^{-2}, whose degree is exactly120. Its zero divisor on the smooth curve Y has length120, counted with multiplicity.
 
 Over the smooth modular locus the graph-to-singular-elliptic-curve map is multiplication by two in an elliptic family, hence etale; restricting by Q preserves etaleness. Thus this discriminant divisor is supported above cusp parameters. This is an exact discriminant-degree statement for a finite-flat algebra. It does not assume J smooth, identify individual ramification indices, or replace the arithmetic genus calculation by an unjustified smooth-curve Riemann--Hurwitz formula.
+
+## 6. Exact derivative line from finite duality
+
+The degree -70 calculation can be upgraded to an actual identification. Put I=I_Y in O_S and Abar=nu_*O_Wtilde(-J), regarded as a fractional ideal. Then O_S intersect Abar=I and there is an exact sequence
+
+    0 -> I -> Abar -> i_*Dline -> 0.
+
+Finite Gorenstein duality and conductor O(-2J) give Hom_S(Abar,O_S)=Abar. The sheaf Abar is maximal Cohen--Macaulay, so its positive Ext into O_S vanishes. Dualizing the displayed sequence yields
+
+    I^dual / Abar = Ext^1_S(i_*Dline,O_S)
+                 = i_*(Dline^dual tensor omega_Y tensor omega_S^{-1}|Y).
+
+The intersection identity gives an injection O_Y=(O_S+Abar)/Abar into the line bundle on the right. Its degree is zero: Dline has degree -70, and omega_Y tensor omega_S^{-1}|Y also has degree -70. Therefore this injection is an isomorphism. This proves the canonical identification
+
+    Dline = omega_Y tensor omega_S^{-1}|Y.
+
+Since Y avoids the ambient exceptional divisors, adjunction gives omega_S|Y=O_Y(10F+2H), whereas omega_Y=O_Y(3F+2H). Hence
+
+    Dline = O_Y(-7F),
+    Dline tensor A_k = O_Y(5F+(k-5)H).
+
+No assumption that the cusp singularities share the smooth-fiber local analytic model was used.
+
+## 7. Both twisted derivative layers have no global sections
+
+For k=3 the last line bundle has degree -10, so has no sections. For k=4 it is O_Y(5F-H), of degree20; its vanishing requires an actual argument, not its degree.
+
+Let f_S:S(5)->P1. The bundle E=f_{S*}O(3I) has rank15 and degree -55, and R1 f_{S*}O(3I)=0. Indeed each smooth elliptic fiber has degree15, while every component of an I5 fiber has positive degree3, which also gives H1=0 by duality. Surface Riemann--Roch gives chi O(3I)=-40 and thus deg E=-55.
+
+The actual Heisenberg linearization on O(H) induces one on O(3I)=O(3H-6F), with nontrivial central character. The group acts trivially on the modular parameter line. The unique irreducible representation with this central character has dimension five. Therefore E is its tensor product with a rank-three bundle on P1. In particular its splitting degrees occur in blocks of five; write the three degrees as a,b,c, with a+b+c=-11.
+
+There are no sections of O(3I+2F). Its intersection with each of the twenty-five torsion sections is -1, so any effective representative would contain their entire sum, of class5I. Subtracting leaves -2I+2F, of negative fiber degree, impossible. Hence H0(P1,E(2))=0, forcing a,b,c<=-3. Their sum then forces every degree to be at least -5. Equivalently the only possible unordered triples are (-5,-3,-3) and (-4,-4,-3). In either case H1(P1,E(4))=0, and thus
+
+    H1(S(5),O(3I+4F))=0.
+
+Now use the divisor sequence for Y in |2H|:
+
+    0 -> O(5F-3H) -> O(5F-H) -> O_Y(5F-H) -> 0.
+
+The middle term has no sections by negative fiber degree. By Serre duality the H1 of the first term is dual to H1(O(3H-2F))=H1(O(3I+4F)), already zero. Therefore H0(Y,O_Y(5F-H))=0.
+
+It follows that H0(Gamma,P_3)=H0(Gamma,P_4)=0 for the derivative subbundles in Section4. Consequently the map H0(E_k)->H0(V_k) is injective. For k=3,4,
+
+    ker[H0(G_k)->H0(E_k)] = ker[H0(G_k)->H0(V_k)].
+
+Thus for global normalized candidate sections, matching the actual values along the reduced conductor already forces the derivative condition. This is a genuine simplification of the sufficient actual-vanishing gate to the rank-thirty value target. It does not assert that the remaining value map is injective, nor that arbitrary fixed-fiber values satisfy the derivative condition.
