@@ -10,7 +10,7 @@ with dimension eight. The source has dimension41, so the rank is41-8=33.
 
 Subtracting this kernel from the source character A+2V+3P4+4D5 gives image 2V+3P4+3D5. The target is 2V+4P4+3D5, so the cokernel is exactly P4, dimension four.
 
-Thus the rank hypothesis in POSITIVE-INVARIANT-VERTEX-ONE-SCALAR-GATE.md and POSITIVE-GAMMA-TWO-LINEAR-STEP-CRITERION.md is now established, not assumed. The remaining first-smoothing map is the scalar gamma times the universal A tensor D5 -> P4 channel. The uniform multiplicity-leg theorem proves its two selected legs are nonzero, but their pairing remains unproved. If gamma is nonzero, the prior smoothing theorem gives positive generic surjectivity and exactly four positive sections. This note does not claim gamma nonzero or generic positive surjectivity.
+Thus the rank hypothesis in POSITIVE-INVARIANT-VERTEX-ONE-SCALAR-GATE.md and POSITIVE-GAMMA-TWO-LINEAR-STEP-CRITERION.md is now established, not assumed. The subsequent theorem POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md proves that the entire actual first-smoothing map is zero, including gamma. Its nonzero individual linear legs therefore pair to zero. The remaining gate is higher order: the canonical second obstruction is -[a h zeta_a] in P4, where q0 zeta_a=a xi and xi=delta(N). Generic positive surjectivity and exactly four positive sections are not yet proved.
 
 The generic odd sector is separately proved to vanish by SPECIAL-D5-OCTIC-NONEXTENSION-EXCLUDES-A12.md. Neither that theorem nor this invariant-vertex theorem alone completes the original source/lifting/Weil-class algebraicity objective.
 
