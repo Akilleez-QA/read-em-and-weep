@@ -1,0 +1,7 @@
+# Root mathematical review
+
+Checked the relative internal-degree-five Koszul segment: removing the scalar boundary leaves the rank24 injection into rank50, and the characterwise quotient degrees are four for the nontrivial characters and two for the trivial two-dimensional coefficient representation. The actual quotient of H by its tautological cyclic image is the column family twisted by O(1). Duality consequently gives obstruction-source degrees minus five and minus three, not the untwisted alternatives.
+
+The symmetric rank-one trivial-block hypothesis forces its saturated image to be self-dual in degree, hence degree zero. The resulting equivariant inclusion requires W0 in Sym3(W'), which is absent. Thus its only patterns are zero or simple degeneration on the twelve-point orbit. The paired blocks contribute even corank. Normalizer transitivity applies to identical vanishing of sections, not all their individual zero sets, and correctly restricts the generic value to 0,2,24,26. The full conditional determinant degree is 252.
+
+The independent review requested an exact link for the final comparison with PR524; root supplied that link without changing the mathematical content. Root and independent mathematical reviews are conditional on pinned inputs, not formal proof-assistant checking. No selected-source evaluation, numerical rank experiment, coefficient search or large computation. The actual generic middle rank and original fixed-pair, higher-order and algebraicity questions remain unresolved.
