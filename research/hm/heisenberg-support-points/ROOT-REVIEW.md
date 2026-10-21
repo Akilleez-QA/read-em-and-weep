@@ -1,0 +1,7 @@
+# Root mathematical check
+
+The six projective cyclic directions give disjoint sets of five eigenlines because independent directions have nontrivial central commutator. At every eigenline the four star-weight lines map injectively to four distinct V-weight lines tensor W; applying sl(W) fills each W factor. This proves support four and primary rank eight without determining any intertwiner coefficient.
+
+For local transversality, the chart x=e0+sum(t_c e_c) admits the constant quotient basis [e_b], b nonzero. Weight preservation and shift equivariance give the universal formula with w_(j-i); isomorphism forces w1,w2 independent. Restricting the derivative to the kernel and projecting to the missing weight-zero cokernel leaves precisely lambda_(-c)(w_(-2c)), nonzero for every c. The resulting permutation pairing is invertible. The four local Schur-complement equations therefore generate the maximal ideal, proving reduced isolated points of the support-drop scheme.
+
+These checks agree with the independent reviews. Additional positive-dimensional components are not excluded, and equality with the entire thirty-point scheme still requires global finiteness. The assertions concern the support-drop determinantal scheme, not an asserted equality with the scheme structure of the original evaluation minors. No selected actual source evaluation, Q4 conclusion, higher lifting, algebraicity, or formal verification is claimed.
