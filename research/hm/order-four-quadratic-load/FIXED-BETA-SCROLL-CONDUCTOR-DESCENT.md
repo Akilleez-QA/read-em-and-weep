@@ -14,7 +14,7 @@ The graph's numerical class is J=C0+12f: it is a section, and h.J=20 because J -
 
 Take a general ambient quadric Q avoiding P. The normalized section Ybar=R intersect nu^{-1}Q is smooth, meets J transversely, and maps finitely to Y=X intersect Q. It is the normalization of Y. The ten points Q intersect E have four distinct preimages each, since J -> E is etale. Conductor formation here is compatible with this transverse Cartier cut. One precise justification is that nu_*O_R is maximal Cohen--Macaulay over the Gorenstein surface Xcirc, so its positive Ext into O_X vanishes; tensoring the duality description with O_Y therefore commutes with Hom. Equivalently, use finite curve duality and the compatible adjunction identifications for omega_Y and omega_Ybar. The resulting conductor on Ybar is O_Ybar(-2J|Ybar), with order exactly two on each of the forty branch points.
 
-The genus calculations are p_a(Y)=56 and g(Ybar)=16. Indeed deg omega_Y=(C+2h).2h=110, while (K_R+2h).2h=30. The conductor has degree 2J.2h=80, and total delta is forty. Each of the ten singularities has delta four.
+The genus calculations are p_a(Y)=56 and g(Ybar)=16. Indeed deg omega_Y=(C+2h).2h=110, while (K_R+2h).2h=30. The conductor has degree 2J.2h=80, and total delta is forty. At each of the ten singularities the normalization conductor colength is eight. For an integral Gorenstein curve this colength is twice the local delta invariant, so each local delta is exactly four.
 
 ## 2. The completed local ring and its exact four conditions
 
