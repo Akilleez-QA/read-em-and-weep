@@ -10,6 +10,8 @@
 6. **Generic total section count four or five.** The universal symbol is generically injective on A; combine positive rank at least 36 with odd vanishing. Main source [G].
 7. **Separate marked V51 formal universality.** The 636/576 algebraic slices represent marked Artin classes after completion. See Section 5; not an input to items 1–6.
 
+8. **Earlier full-family reduction.** General hyperplane sections have a = 0 and b ≤ 1. The unique-cubic square-jet argument gives generic square Rao injectivity. Together with generic primary injectivity, this gives a common smooth open of good flanks and an exact remaining 20-to-20 boundary. Section 7 includes the pinned case-exclusion chain and the specific Segre failure family; it does not assert full-family invertibility or identify representation tensors with polynomial products.
+
 The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying the separate odd closure. Each source also lists its finer geometric dependencies. A citation to a source means the stated result is used with those hypotheses, not that every intermediate result has been restated in this paper.
 
 ## 6.2 Reproducible supplementary checks

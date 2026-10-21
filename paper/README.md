@@ -39,3 +39,7 @@ The possible values are integers, so the last two quantities are four or five. T
 [S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md
 [N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9f28cb10c38d7a0e29c1eb994594325fea7f22bf/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md
 [G]: https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md
+
+7. [Earlier primary and Rao reductions](07-primary-and-rao-reductions.md)
+
+The earlier full-family reduction is retained in Section 7: both actual quadratic flanks are generically good, but their canonical 20-to-20 extension boundary remains a separate condition. This is logically distinct from the inversion-even four-or-five theorem.

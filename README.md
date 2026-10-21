@@ -24,6 +24,10 @@ The subscripts are the physical inversion eigenspaces. “General” means a non
 3. **The first-order route is excluded.** The cyclic Rao identity aξ = q₀ζₐ makes the entire first Bockstein zero. The former scalar γ is zero, not unknown; nonzero individual linear legs do not imply a nonzero composite. [Proof][F].
 4. **Second order advances three ranks, not four.** The square filtration kills D5. The remaining A-to-P4 quadratic family has a nonzero actual scalar by Atiyah differentiation of the nonsplit quintic extension, and its universal symbol has generic rank three. Hence generic positive rank is at least 36. [Filtration][S]; [actual nonvanishing][N]; [rank consequence][G].
 
+## Earlier reduction on the full quadratic family
+
+On the full P¹⁴ of quadrics, the actual primary map is generically injective and the actual residual map is generically surjective on a common dense open containing smooth quadrics. The section reductions a = 0, b ≤ 1 and the unique-cubic normal-jet argument establish the required square Rao injectivity. What remains there is a canonical 20-to-20 extension boundary δ; good flanks do not prove δ invertible. A specific Segre family of decomposable representation tensors is provably bad for full invertibility. These full-family statements must be distinguished from the later inversion-even analysis. [Primary and Rao reductions](paper/07-primary-and-rao-reductions.md).
+
 ## The remaining gate
 
 After second order in a general negative direction, the surviving source is D5, of dimension five, and the remaining target is a line. A nonzero third or later Bockstein would give rank 37 and four sections. If the last target survives all higher obstructions along the pencil, the rank stays 36 and the section count stays five. No higher nonvanishing is claimed here. Closing this gate would still not automatically solve the original source or algebraicity problem.
