@@ -156,12 +156,12 @@ and H0(B(2))=H0(B(4))=0. The actual restriction sequence therefore identifies
     H1(B_D(4))_- = coker mu_q-,
     mu_q-: C^44 -> C^48.
 
-Its kernel has dimension six, so its rank is38 and its cokernel has dimension ten. The first obstruction to smoothing a section is the actual induced multiplication map
+Its kernel has dimension six, so its rank is38 and its cokernel has dimension ten. The actual positive multiplication map induced on the kernel and cokernel is
 
-    d_gl: ker mu_q- -> coker mu_q-,
+    m_qplus: ker mu_q- -> coker mu_q-,
     a |-> [mu_q+(a)].                                 (9)
 
-Equivalently (9) is the first Bockstein of the restriction complex for q_-+s q_+. This is the natural six-to-ten global gate, not a matrix chosen from its dimensions.
+For exact operator comparisons, retain the gluing convention in GLOBAL-SMOOTHING-TO-WEIGHTED-THIRD.md, Section 3: T_ij a_j-a_i=q_- c_ij, and substitution q_-=-s q_+ gives the deformation obstruction -q_+ c_ij. With that connecting identification the named global smoothing map is d_gl=-m_qplus, not m_qplus. Thus the signed first deformation/Bockstein operator is the negative of (9); changing an overall cochain convention changes both compared operators together. This agrees with TWO-ROOT-DIVIDED-DIFFERENCE-SMOOTHING-FORMULA.md: m_qplus=-delta(q_+H) and d_gl=+delta(q_+H). The two maps have identical kernels, ranks, and six-to-ten dimensions. No dimension or vanishing conclusion changes. This is the actual global gate, not a matrix chosen from its dimensions.
 
 The ambient H2 vanishing used here is the actual PR167 result at [pin063da90](https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md); its proof uses the primary HM resolution. The ambient parities and the functorial comparison with weighted third-normal obstructions are recorded in GLOBAL-SMOOTHING-TO-WEIGHTED-THIRD.md, [pin f8725aa](https://github.com/Akilleez-QA/read-em-and-weep/blob/f8725aa205bb400d9431d33049c2ffa117f90126/research/hm/order-four-quadratic-load/GLOBAL-SMOOTHING-TO-WEIGHTED-THIRD.md).
 
