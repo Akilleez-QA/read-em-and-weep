@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-**Published-source cutoff: 09:08 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
+**Published-source cutoff: 09:40 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
 
 ## The problem and current theorem
 
@@ -19,11 +19,14 @@ The positive cohomology map has source dimension 41 and target dimension 37. Its
 
 ## What changed at this cutoff
 
-[Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) adds three bounded advances:
+[Chapter 26](paper/26-asymmetric-quotients-and-coupled-cartan-frontier.md) adds four bounded advances:
 
-1. **The entire (2,2) maximal rank-three profile is excluded.** Endpoint rank drop closes the last three necessary pairs. Six of nine profiles are now excluded; (1,1), (1,2), and (2,1) remain possible. SF≥3 and square rank≥27 do not improve.
-2. **The existing corrected J3 is square-zero on actual 3Q.** This is proved for the indicated actual global primitives, with the conic determinant unit retained. It neither computes the primitive nor constructs a 3Q midpoint bundle or evaluates the fourth gate.
-3. **The remaining (1,2) profile has bounded degrees and defect.** The original defect is zero or twelve; the twelve-defect branch has just two necessary degree pairs and saturated second dual quotient. Neither is excluded or realized.
+1. **The (1,2) necessary list is refined from 25 to fourteen to ten quotient pairs.** There remain 38 endpoint/defect records and 52 inherited compatible pair/E-type records, all with original defect zero. These are separate denominators, neither realizations nor a profile exclusion.
+2. **Mr. Slop proves the profile-independent bound a≥−4.** Its (1,2) defect-zero corollary overlaps the independent five-case certificate and is not counted twice. His initial table retains the distinct second-dual length twenty at a=−4; the subsequent endpoint/orbit theorem excludes every such branch, leaving 23 endpoint records with defect zero and fifteen with defect twelve.
+3. **The next division has an explicit positive-Atiyah partial primitive and exact higher-Cartan multiplication corrections.** Restricted Cartan constructions are excluded, including the common Cartan-action comparison with all four source blocks retained, not unrestricted division. Complementary spin or mixed middle transport is required; the fourth value remains unevaluated.
+4. **A separate normal-enhanced blowup resolves the canonical adjoint line.** This is an invertible abstract subsheaf on the modification, not a line subbundle, spinor kernel, or 3Q extension.
+
+[Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) retains the complete (2,2) exclusion and actual corrected J3 square-zero theorem. The latter does not compute its primitive. Six of nine maximal rank-three profiles remain excluded; (1,1), (1,2), and (2,1) remain possible. SF≥3 and square rank≥27 do not improve.
 
 The [whole-project progress map](paper/progress-map.md) retains separate fixed denominators: nine profiles, 35 pairs and 2,947 records. The (2,2) histories are 35→34→24→7→3→0 pairs and 2,947→1,880→1,221→723→354→0 records. The 27 scoped inventory universes overlap and are not a global family count. Completed early lanes distinguish excluded from passed cases. There is no overall completion percentage.
 
@@ -63,11 +66,13 @@ The finite normal-extension tower, its two-root structure and the monad-family t
 
 ## Attribution, reading order and evidence
 
-The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–670 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
+The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–674 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
 
-Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) for the latest bounded update. The [twenty-five-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
+Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 26](paper/26-asymmetric-quotients-and-coupled-cartan-frontier.md) for the latest bounded update. The [twenty-six-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
 
-The latest included PR543 sources are 914f839bc525a1edf52d9734e9844950647419e0 (seven-pair and three-pair refinements), bcb820f06b0d3df35c96f928360f1e973e552c65 (asymmetric degree bounds), 2bd41cac562738b3c526f529d51c56f8b6010632 (actual J3 square-zero), and c8975a41912b28938bc5b912e6637698a9652195 (complete (2,2) exclusion). [Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) links each immutable proof and verifier. Earlier chapters preserve their source ledgers. Later unreviewed work is excluded.
+The latest included PR543 source is 857cd414252618a53a79ddce72982c6d91341db9 (endpoint/orbit refinement, full spin interface and all-four-source complementary-middle theorem), following c0b88ea01fa4e0ca57d8e289b236aece9258670b (finite asymmetric pairs and restricted Cartan exclusions) and b2c4239ab1f72b94c2630fb16dcb3665d7d47fdb (positive-Atiyah and higher-Cartan interfaces). Mr. Slop's PR674 at 2516a879b4b1469da1a29eaefafcfddf4e171a0d and PR673 at c7e43fc22249bce7cd2abad0551c5173ed831404 are separately attributed. [Chapter 26](paper/26-asymmetric-quotients-and-coupled-cartan-frontier.md) links the immutable proofs and verifiers. Earlier chapters preserve their source ledgers. Later unreviewed work is excluded.
+
+The [qualified related-work comparison](paper/related-work-horrocks-mumford.md) places the marked results alongside established monad, cohomology, nilpotent and Gauss-geometry methods. It is a bounded literature comparison, not a novelty or priority certificate.
 
 These are authored mathematical arguments with supplementary universal identity and character checks, not proof-assistant certificates. No selected Horrocks-Mumford coefficients or actual matrix-rank experiments are used for the summarized conclusions. This working edition is modular Markdown; no PDF is part of it.
 

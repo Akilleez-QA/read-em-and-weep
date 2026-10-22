@@ -1,14 +1,16 @@
 # 6. Dependencies, reproducibility, and change log
 
-**Current cutoff: 22 October 2026, 09:08 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
+**Current cutoff: 22 October 2026, 09:40 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
 
 [Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) adds actual coherence and c_+=κ, an exact actual 5Q boundary comparison, and the 24-pair top-kernel refinement. The [progress map](progress-map.md) supplies separately scaled visual inventories, not a global completion percentage.
 
 [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) now closes all of (2,2), adds the bounded (1,2) frontier, and proves square-zero for the existing actual J3 without evaluating its primitive or the fourth gate.
 
+[Chapter 26](26-asymmetric-quotients-and-coupled-cartan-frontier.md) adds the 25-pair/155-record asymmetric list, profile-independent a≥−4, two restricted Cartan exclusions, partial-primitive interfaces, and the separate adjoint-line modification. Its immutable ledger supersedes the original twelve-defect branch and records the further endpoint/orbit exclusion of second-dual length twenty.
+
 ## 6.1 Claim register
 
-**Historical register through 06:18 UTC; current additions are items 63–85 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Historical register through 06:18 UTC; current additions are items 63–92 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -177,6 +179,22 @@ All new proof and companion-script links are in [Chapter 22's immutable ledger](
 84. **Actual corrected J3 square-zero.** At 2bd41cac562738b3c526f529d51c56f8b6010632, the full actual square-ideal argument and unit-retaining conic coherence prove J3²=0 on actual 3Q for the indicated primitives. Neither the primitive, midpoint 3Q extension nor fourth value is supplied. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
 
 85. **Entire (2,2) exclusion.** At c8975a41912b28938bc5b912e6637698a9652195, both endpoint Euler twists and rank-drop flags close all three remaining pairs. Rank-seven endpoint degrees are −36 for a=0 and −32 for a=2; the sole rank-two branch has rank-five kernel degree −30. Six of nine profiles are excluded; (1,1),(1,2),(2,1) remain possible. SF≥3 and square rank≥27 are unchanged. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
+
+86. **Finite asymmetric quotient list.** PR543 at c0b88ea01fa4e0ca57d8e289b236aece9258670b gives 25 necessary (A,B) pairs, 155 compatible pair/E-type records and original defect zero. These are necessary only; no (1,2) exclusion or improved rank follows. [Chapter 26.1](26-asymmetric-quotients-and-coupled-cartan-frontier.md#261-twenty-five-necessary-quotient-pairs-not-realizations).
+
+87. **Profile-independent primal bound.** Mr. Slop's PR674 at 2516a879b4b1469da1a29eaefafcfddf4e171a0d proves a≥−4. Its original-defect-zero corollary overlaps item 86, not an additional elimination. Second-dual s=20 at a=−4 remains. [Chapter 26.2](26-asymmetric-quotients-and-coupled-cartan-frontier.md#262-mr-slops-independent-degree-bound-and-the-distinct-second-dual-defect).
+
+88. **Partial primitive and nonmultiplicative higher lifts.** PR543 at b2c4239ab1f72b94c2630fb16dcb3665d7d47fdb proves the nonzero actual off-diagonal P4 coefficient tensor, supplies G_(a,h) and its exact residual, and identifies the square-zero higher-Cartan multiplication correction. These do not supply the remaining J_h,V_h or fourth value. [Chapter 26](26-asymmetric-quotients-and-coupled-cartan-frontier.md).
+
+89. **Two restricted Cartan exclusions.** PR543 at c0b88ea01fa4e0ca57d8e289b236aece9258670b excludes the pure right-factor construction and the broader annihilating-principal-symbol construction with only AA and A→U source blocks. The missing spin interface and coupled neighboring bidegrees are retained. These are nested ansatz restrictions, not division impossibility. [Chapter 26.5](26-asymmetric-quotients-and-coupled-cartan-frontier.md#265-two-restricted-cartan-constructions-are-excluded).
+
+90. **Separate normal-enhanced adjoint-line resolution.** Mr. Slop's PR673 at c7e43fc22249bce7cd2abad0551c5173ed831404 proves nonextension of the invertible abstract line over 2Q, failure of Bl_(s,t), and extension with its embedding on Bl_((s,t)²+(q)). No line subbundle, spinor kernel, 3Q extension or fourth value is claimed. [Chapter 26.6](26-asymmetric-quotients-and-coupled-cartan-frontier.md#266-separate-geometry-the-normal-enhanced-blowup).
+
+
+91. **Endpoint/orbit refinement to ten pairs.** PR543 at 857cd414252618a53a79ddce72982c6d91341db9 uses PR674's initial defect table to refine 25→14→10 necessary pairs, leaving 38 endpoint records (23 with s=0, fifteen with s=12) and 52 inherited pair/E records. Every second-dual s=20 branch is now excluded. These remain separate necessary overlists, not realizations or a profile closure. [Chapter 26.8](26-asymmetric-quotients-and-coupled-cartan-frontier.md#268-endpoint-and-orbit-constraints-refine-the-asymmetric-overlist).
+
+92. **All-four-source complementary-middle requirement.** At the same pin, the full spin interface and stronger Cartan comparison retain every source block. A common Cartan action cannot solve the next division; the exact complementary value retains k and b_m/a_m. Spin-VV→Cartan-VV and mixed-form→Cartan-VV are both possible mechanisms. No fourth value or unrestricted division obstruction follows. [Chapter 26.5](26-asymmetric-quotients-and-coupled-cartan-frontier.md#265-two-restricted-cartan-constructions-are-excluded).
+
 
 ## 6.2 Reproducible supplementary checks
 
@@ -496,3 +514,20 @@ See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the imm
 - The existing actual J3 is square-zero without computing its primitive or extending the midpoint bundle. The fourth value, section count four versus five, stronger SF/square bounds and original source/lifting/algebraicity objectives remain open.
 - Updated the 27-universe whole-project inventory and four editable SVG panels to the same cutoff. Only SVG figure files are retained for publication; no PNG binaries are added. No overlapping universes are summed and no overall completion percentage is asserted.
 - This is local preparation only. Publication is reserved to the root. Archive, LICENSE and frozen upstream material remain unchanged.
+
+
+## 22 October 2026, 09:31 UTC: asymmetric finite list and coupled Cartan frontier
+
+- Added Chapter 26 and updated current README/index navigation and the claim register to items 86–90. Earlier mathematical chapters and dated historical entries remain unchanged.
+- Integrated checked PR543 c0b88ea and b2c4239 sources with separately credited PR674 and PR673 immutable proofs. The profile-independent a≥−4 result and the independent five-case t=0 certificate are overlapping, not additive exclusions.
+- Preserved the 25 necessary pair / 155 compatible record distinction, second-dual s=20 at a=−4, six-of-nine profile status and all original-repair boundaries. No later preliminary pruning is included.
+- Added a qualified related-work comparison with primary-source links and explicit reading-depth limits; no certified novelty or priority claim is made.
+- Diagram and inventory updates are separate from this text edition. Original archive, licenses and frozen source material are unchanged.
+
+
+## 22 October 2026, 09:40 UTC: endpoint/orbit refinement and complementary middle transport
+
+- Extended Chapter 26 within the same preparation cycle using checked PR543 857cd414252618a53a79ddce72982c6d91341db9. Updated current navigation without replacing the initial 25-pair theorem or PR674's historically valid second-dual table.
+- Recorded 25→14→10 pairs, 53→38 endpoint records, and the separate 52 inherited pair/E records. The 38 endpoint records split into 23 with second-dual defect zero and fifteen with defect twelve; every twenty-defect branch is excluded by these additional constraints.
+- Correctly pinned the full spin-interface files at their published commit. Added the stronger common Cartan-action exclusion with all four source blocks, the exact k-retaining complementary value, and both spin and mixed-transport alternatives.
+- No profile closure, realization, improved section count, fourth-value evaluation, or original-repair completion is claimed. Figures, inventory data, original archive, licenses and frozen sources are unchanged by this text update.
