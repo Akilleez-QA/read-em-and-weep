@@ -2,6 +2,8 @@
 
 **Checked-source cutoff: 22 October 2026, 08:15 UTC.** This chapter adds the actual first-normal square-zero lift of the multiplied nilpotent, the fixed-boundary consequence of the Cartan–Koszul multiplier, and the published necessary (2,2) quotient list. The general section count remains four or five. The third Bockstein is zero and all four actual fourth coefficients remain unevaluated.
 
+**Supersession:** [Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) now includes the published coherence and exact actual 5Q boundary comparison, and refines the necessary list to 24 pairs/1,221 records. This chapter preserves the 08:15 source frontier; its exclusion of later coherence work is historical.
+
 ## 23.1 The actual endpoint and the precise lift
 
 Retain B=End₀(F), the physical equation q=q₀, Q=(q=0), and 2Q=(q²=0) for the actual marked bundle. Let N be its fixed invariant nilpotent, ξ=δ_q(N), and ζ_a=k At_F(D_a), with aξ=qζ_a. Put

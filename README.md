@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-**Published-source cutoff: 08:15 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
+**Published-source cutoff: 08:30 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
 
 ## The problem and current theorem
 
@@ -19,14 +19,13 @@ The positive cohomology map has source dimension 41 and target dimension 37. Its
 
 ## What changed at this cutoff
 
-[Chapter 23](paper/23-canonical-multiplied-lift-and-endpoint-scale.md) adds three bounded advances:
+[Chapter 24](paper/24-multiplied-coherence-and-fifth-neighborhood-boundary.md) adds three bounded advances:
 
-1. **The multiplied nilpotent aN has a canonical square-zero lift on the actual 2Q.** Its equivariant linear physical-positive section family is explicit. The proof retains the natural source gauge, both monad arrows and full supertrace. This does not lift N itself, extend to 3Q, or perform the next division.
-2. **The endpoint scale is now explicit in the fixed markings:** c_+/k=2ρ_C g_L/(θχr) and k=θ C_ap χ/(4C_res K_cup g_L), with r=a_m/b_m. Positive-transition versus bracket signs and physical-equation covariance remain essential. The source-parametrized second-normal operator class has twelve-dimensional target and ten formal channels, canonically split five plus five; its actual coefficients and next-division comparison remain uncomputed.
-3. **The (2,2) necessary quotient list narrows from 35 to 34 pairs**, with 1,880 compatible formal records and defect zero or twelve. Exact cohomology excludes one pair; a defect-twelve cokernel is O_D(2) or O_D(6). These are not realizations and do not exclude (2,2) or improve SF ≥ 3 or square rank ≥ 27.
+1. **Actual multiplied-lift coherence fixes c_+=κ=−(χ/g_L)(a_m/b_m).** Pairwise products U_aU_b and U_bU_a are zero on actual 2Q. The alternating coherence is nonzero and prevents interpreting this as a globally framed lift of N. The full actual boundary comparison retains every scale and sign.
+2. **The fourth gate is the second-symbol quotient of an exact actual 4Q-to-5Q adjoint boundary.** Global primitives exist and give a precise differential ladder, but their evaluation and the boundary value remain open. Raw-boundary zero is stronger than fourth-quotient zero.
+3. **The (2,2) necessary list narrows to 24 pairs and 1,221 records.** Top-kernel multiplicity excludes ten further pairs and 659 records. The retained defect counts are 1,064 zero and 157 twelve. No realization or full (2,2) exclusion follows; SF≥3 and square rank≥27 remain unchanged.
 
-[Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) retains the full (1,3) exclusion, C_mult=−χ/g_L, leading affine gluing and Mr. Slop’s sixteen-axis detection and residue reconstruction. None evaluates the fourth.
-
+The new [whole-project progress map](paper/progress-map.md) includes four visual panels and a source-pinned inventory of 26 scoped universes. Completed early lanes distinguish exclusions from passed cases: Rao 10+2 of 12; odd 2+5 of 7. Gauss bars retain fixed, separate denominators: nine profiles, 35 pairs and 2,947 records. There is no natural global family total or percentage completion.
 ## The exact remaining obstruction
 
 After second order in a general negative direction, the surviving source is D5, dimension five, and the remaining target is a line. Since the actual third vanishes, a nonzero fourth or later Bockstein would give rank 37 and four sections. If the last cokernel survives every higher obstruction along the pencil, the rank remains 36 and the count remains five. The last generic finite Smith exponent is **4 ≤ e ≤ 31**, or the cokernel is permanent.
@@ -39,7 +38,7 @@ There are four allowed channels, two visible on squares and two divisible by the
 
 Marked exchange of the two actual ambient endpoints now sends one fourth gate to the negative of the other in the same actual second-symbol cokernel. Both gates therefore have the same vanishing locus, but neither value is determined. The endpoints are distinct; odd exchange does not make either a fixed point and force zero. No fourth operation on a midpoint affine line is introduced. [Marked comparison](paper/21-gauss-closure-and-second-normal-residue.md#213-marked-endpoint-exchange-constrains-but-does-not-evaluate-the-fourth-gate).
 
-The next normal calculation must assemble the higher-weight actual affine error and endpoint comparison before ambient division and the final quotient can be evaluated. One nonzero local summand, a nonzero lower source, and the now-determined multiplier do not establish nonzero fourth value. The leading weight-four correction retains both affine terms and the scalar trace; it does not construct a global square-zero midpoint on a third neighborhood. [Exact current boundary](paper/22-full-saturation-and-cartan-koszul-multiplier.md#227-evidence-and-the-remaining-frontier).
+The next normal calculation must assemble the higher-weight actual affine error and endpoint comparison before ambient division and the final quotient can be evaluated. Chapter 24 now establishes global primitive existence and an exact actual 5Q boundary target, not their explicit evaluation. One nonzero local summand, a nonzero lower source, and the now-determined multiplier do not establish nonzero fourth value. The leading weight-four correction retains both affine terms and the scalar trace; it does not construct a global square-zero midpoint on a third neighborhood. [Exact current boundary](paper/22-full-saturation-and-cartan-koszul-multiplier.md#227-evidence-and-the-remaining-frontier).
 
 ## What the lower-source results do establish
 
@@ -65,9 +64,9 @@ The finite normal-extension tower, its two-root structure and the monad-family t
 
 The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–670 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
 
-Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 23](paper/23-canonical-multiplied-lift-and-endpoint-scale.md) for the latest bounded update. The [twenty-three-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
+Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 24](paper/24-multiplied-coherence-and-fifth-neighborhood-boundary.md) for the latest bounded update. The [twenty-four-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
 
-The latest included PR543 source is 10df28e8c87f5c9d156e394f235f6b00e34144d0; the canonical lift and scale are pinned at 3333cce744b3bd8e4472969f599588fec3e20d52, and the base (2,2) theorem at fa239126cdfe19839a54e89a3d2911e5be476fcb. Chapter 23 gives each immutable proof, verifier and compact distribution. Chapter 22 preserves the earlier pins, including Mr. Slop’s checked PR668–670. Later unpublished lift-coherence work is excluded.
+The latest included PR543 sources are `2e20281e6eb850904093af3a6c737f3ee0ed28f2` (actual coherence, endpoint normalization and fifth-neighborhood comparison) and `1c00faf07673db5b2e1cf2cbf23984f4a31503b1` (top-kernel multiplicity). Chapter 24 links each immutable proof, verifier and compact distribution. Chapter 23 preserves the earlier canonical-lift, scale and exact-kernel sources; Chapter 22 preserves Mr. Slop’s checked PR668–670. Later unreviewed work is excluded.
 
 These are authored mathematical arguments with supplementary universal identity and character checks, not proof-assistant certificates. No selected Horrocks-Mumford coefficients or actual matrix-rank experiments are used for the summarized conclusions. This working edition is modular Markdown; no PDF is part of it.
 

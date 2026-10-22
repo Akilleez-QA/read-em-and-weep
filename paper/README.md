@@ -3,13 +3,13 @@
 ## Adjoint restrictions, exact exclusions, and a remaining higher obstruction
 
 **Craig Ward** · Working edition **v0.3**  
-Section-count theorem cutoff: **21 October 2026, 22:57 UTC**. Living-paper source cutoff: **22 October 2026, 08:15 UTC**.
+Section-count theorem cutoff: **21 October 2026, 22:57 UTC**. Living-paper source cutoff: **22 October 2026, 08:30 UTC**.
 
 ### Abstract
 
-For B=End₀(F) in the Horrocks-Mumford setting, the general smooth inversion-even quadric has no odd sections and four or five positive sections. At the invariant cone the positive map has rank 33; its first Bockstein vanishes, the second gains three ranks, and the actual third vanishes, including specialized directions. The fourth-or-later gate remains open. The final finite Smith exponent is 4–31, or the last cokernel is permanent. The complete (3,1) and (1,3) Gauss profiles are now excluded, without improving SF ≥ 3 or square rank ≥ 27. A canonical nonzero scalar residue obstructs extension of the fixed midpoint nilpotent pair; the complete leading affine law closes weight-four gluing, while the full affine R2 comparison and fourth gate remain open. The complete Cartan–Koszul homotopy determines C_mult=−χ/g_L. The multiplied nilpotent now has a canonical actual square-zero 2Q lift, with exact marked endpoint scale. The (2,2) overlist has 34 necessary pairs; source-dependent operator transport has a canonical five-plus-five channel split, but no actual next-division value. Original source recovery, higher lifting and algebraicity remain open.
+For B=End₀(F) in the Horrocks-Mumford setting, the general smooth inversion-even quadric has no odd sections and four or five positive sections. At the invariant cone the positive map has rank 33; its first Bockstein vanishes, the second gains three ranks, and the actual third vanishes, including specialized directions. The fourth-or-later gate remains open. The final finite Smith exponent is 4–31, or the last cokernel is permanent. The complete (3,1) and (1,3) Gauss profiles are now excluded, without improving SF ≥ 3 or square rank ≥ 27. A canonical nonzero scalar residue obstructs extension of the fixed midpoint nilpotent pair; the complete leading affine law closes weight-four gluing, while the full affine R2 comparison and fourth gate remain open. The complete Cartan–Koszul homotopy determines C_mult=−χ/g_L. The multiplied nilpotent now has a canonical actual square-zero 2Q lift, with exact marked endpoint scale. Actual coherence now fixes c_+=κ and proves pairwise zero products; an exact actual 5Q boundary represents the fourth gate without evaluating it. The (2,2) overlist has 24 necessary pairs and 1,221 records; source-dependent operator transport has a canonical five-plus-five channel split, but no actual next-division value. Original source recovery, higher lifting and algebraicity remain open.
 
-See the [root status paper](../README.md) for the readable current synthesis and [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) for the latest proofs, exact source pins and limitations.
+See the [root status paper](../README.md) for the readable current synthesis and [Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) for the latest proofs, exact source pins and limitations.
 
 ### Reading order
 
@@ -40,9 +40,13 @@ See the [root status paper](../README.md) for the readable current synthesis and
 
 23. [Canonical multiplied lift, endpoint scale and exact channel frontier](23-canonical-multiplied-lift-and-endpoint-scale.md)
 
+24. [Multiplied coherence, actual fifth-neighborhood boundary, and top-kernel pruning](24-multiplied-coherence-and-fifth-neighborhood-boundary.md)
+
+[Whole-project visual progress map and scoped inventory](progress-map.md)
+
 ### Reading the historical chapters
 
-These are chapters of one paper, not separate claims of completion. Chapters 1 and 23 state the current frontier. Chapters 2–22 retain the earlier arguments, with supersession notes where necessary; their dated open questions should not override the latest result. Chapter 6 contains the detailed dependency register, immutable source references, reproduction instructions and dated history.
+These are chapters of one paper, not separate claims of completion. Chapters 1 and 24 state the current frontier. Chapters 2–23 retain the earlier arguments, with supersession notes where necessary; their dated open questions should not override the latest result. Chapter 6 contains the detailed dependency register, immutable source references, reproduction instructions and dated history.
 
 The actual lower endpoint is reconstructed, and Mr. Slop's PR667 now determines its fixed square-secant rank and sextic factor. PR668–670 now determine the universal detection scheme as sixteen reduced axes and give exact residue and channel reconstruction tests; these remain distinct from the rank of a fixed map. Neither evaluates a fourth coefficient. The ambient ratio law now has C_mult=−χ/g_L. The leading weight-four affine gluing is uniquely solved with both inhomogeneous terms and the scalar trace retained; higher weights and the full actual affine transport remain unresolved.
 

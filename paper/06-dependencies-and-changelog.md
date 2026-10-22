@@ -1,10 +1,12 @@
 # 6. Dependencies, reproducibility, and change log
 
-**Current cutoff: 22 October 2026, 08:15 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
+**Current cutoff: 22 October 2026, 08:30 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
+
+[Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) adds actual coherence and c_+=κ, an exact actual 5Q boundary comparison, and the 24-pair top-kernel refinement. The [progress map](progress-map.md) supplies separately scaled visual inventories, not a global completion percentage.
 
 ## 6.1 Claim register
 
-**Historical register through 06:18 UTC; current additions are items 63–77 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Historical register through 06:18 UTC; current additions are items 63–80 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -156,6 +158,13 @@ All new proof and companion-script links are in [Chapter 22's immutable ledger](
 76. **Actual source-dependent operator class.** At 10df28e8c87f5c9d156e394f235f6b00e34144d0, fixed first-normal data and symbol/scalar completion define the second-normal coefficient class in H¹(P4 O_L(−4))=V⊕P4⊕D5. It is trace-blind and independent of second-normal transition lifts, but its actual coefficients remain uncomputed. Raw cone-centralizer shifts are not automatically zero in the final quotient.
 
 77. **Canonical Euler–Koszul channel splitting.** At the same pin, ten cubic vector channels split canonically into five gradient and five contraction-zero Koszul channels. The final quotient kernel is five plus one, with the sixth given by the actual second-symbol factoring line. This does not identify the operator class with the actual next division. [Full proofs and immutable verifier ledger](23-canonical-multiplied-lift-and-endpoint-scale.md).
+
+78. **Actual multiplied coherence and endpoint normalization.** At 2e20281e6eb850904093af3a6c737f3ee0ed28f2, aU_b−bU_a=−(κ/2)q{a,b}N and both ordered products vanish on actual 2Q. The full actual boundary and support-cohomology comparison fixes c_+=κ, C_ap/K_cup=−2χ/g_L and k=−θχ²/(2C_res g_L²). These are not fourth values.
+
+79. **Exact actual fifth-neighborhood boundary.** At the same pin, global primitive existence yields J3,J4 with dJ3=q³(V_h−bZ_a), dJ4=q⁴W_h. The boundary of aJ4 from actual 4Q to 5Q represents β4 modulo the actual second symbol. Raw boundary vanishing and quotient vanishing are distinct; explicit primitive and boundary evaluations remain open.
+
+80. **Top-kernel multiplicity refinement.** At 1c00faf07673db5b2e1cf2cbf23984f4a31503b1, necessary global-section injection at each kernel's actual top degree excludes ten more (2,2) pairs. There remain 24 pairs/1,221 records, with 1,064 defect zero and 157 defect twelve. The surviving profiles and rank bounds are unchanged. [Proofs and immutable verifier ledger](24-multiplied-coherence-and-fifth-neighborhood-boundary.md).
+
 
 ## 6.2 Reproducible supplementary checks
 
@@ -457,3 +466,12 @@ See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the imm
 - Included the source-dependent operator class and canonical Euler–Koszul splitting at the latter pin. Neither actual coefficients nor the comparison with the next division is computed. The raw five-dimensional Koszul kernel and one-dimensional second-symbol factoring direction remain distinct.
 - Full source reading, independent audits, passing universal verifiers and exact published readbacks preceded integration. No actual-instance rank experiments, fourth values, full (2,2) exclusion or complete proof repair are claimed. The generic count remains four or five; exponent remains 4–31 or permanent cokernel; SF≥3 and square rank≥27 are unchanged.
 - Later unpublished lift-coherence work is excluded. This preparation makes no external commit or post. Archive, LICENSE and frozen upstream tree objects remain unchanged and must be preserved at publication.
+
+
+## 22 October 2026, 08:30 UTC: actual coherence, 5Q boundary and scaled progress inventory
+
+- Added Chapter 24 and updated current summaries and the twenty-four-chapter index. Published sources are precisely the two pins in claims 78–80. Full source reading, independent audits, passing companion checks and exact published readbacks preceded integration.
+- The exact positive endpoint scalar and pairwise zero products are proved on actual 2Q. The actual 5Q boundary comparison retains global primitive existence, actual ambient neighborhoods, source corrections and the raw-boundary versus second-symbol-quotient distinction. No fourth value or explicit further primitive is evaluated.
+- The Gauss history is 35→34→24 pairs and 2,947→1,880→1,221 formal records. Necessary conditions do not become realized geometries. Generic sections remain four or five; finite exponent 4–31 or permanent cokernel, SF≥3 and square rank≥27 are unchanged.
+- Added four editable SVGs with PNG alternatives and a source-pinned inventory of 26 scoped universes. Completed Rao and odd lanes have zero unresolved bad cases, not all cases excluded. Bars preserve separate fixed denominators; nested cases, overlapping routes and the editorial core-objective ledger are not added into a global family total or percentage complete.
+- Original source recovery, higher lifting and Weil-class algebraicity remain unresolved. Archive, LICENSE and frozen upstream objects are unchanged. This local preparation makes no external commit or post.
