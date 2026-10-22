@@ -1,0 +1,367 @@
+{
+  "scope": "Six necessary residual bundle types and exact ordinary equivariant quotient-map parameter spaces; no descended connection or realization; zero label exclusions.",
+  "source_hashes": {
+    "EQUALITY-GAUSS-ENVELOPES-FORCE-RATIONAL-NORMAL-SUBBUNDLES.md": "cc64326df0b4c5d3b35a195a994f1faf397cac88ec377d608aac56b29f4fb9db",
+    "equality-gauss-rational-normal-subbundles.json": "c1930c3f8977515f75fc9359866dd9a143e2101322a3fd80a352a8357d15377f",
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  "labels": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9",
+    "G3.21.45ca6278cbfc"
+  ],
+  "starting_E_type_count": 28,
+  "remaining_E_type_count": 6,
+  "records": [
+    {
+      "type": 1,
+      "E_parameter_tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      "residual_blocks": [
+        [
+          -2,
+          "D"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 4,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 0,
+          "source_degree": -2,
+          "source_rep": "D",
+          "polynomial_degree": 4
+        },
+        {
+          "target_degree": 2,
+          "source_index": 3,
+          "source_degree": -10,
+          "source_rep": "one",
+          "polynomial_degree": 12
+        },
+        {
+          "target_degree": -8,
+          "source_index": 1,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        },
+        {
+          "target_degree": -8,
+          "source_index": 2,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        }
+      ],
+      "surjectivity_condition": "alpha != 0 and (a,b) != (0,0)",
+      "admissible_zero_nonzero_support_count": 6
+    },
+    {
+      "type": 2,
+      "E_parameter_tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "residual_blocks": [
+        [
+          -3,
+          "T"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 3,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 0,
+          "source_degree": -3,
+          "source_rep": "T",
+          "polynomial_degree": 5
+        },
+        {
+          "target_degree": 2,
+          "source_index": 2,
+          "source_degree": -10,
+          "source_rep": "one",
+          "polynomial_degree": 12
+        },
+        {
+          "target_degree": -8,
+          "source_index": 1,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        }
+      ],
+      "surjectivity_condition": "alpha*a != 0",
+      "admissible_zero_nonzero_support_count": 2
+    },
+    {
+      "type": 3,
+      "E_parameter_tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "residual_blocks": [
+        [
+          -2,
+          "D"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -9,
+          "W"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 4,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 0,
+          "source_degree": -2,
+          "source_rep": "D",
+          "polynomial_degree": 4
+        },
+        {
+          "target_degree": 2,
+          "source_index": 2,
+          "source_degree": -9,
+          "source_rep": "W",
+          "polynomial_degree": 11
+        },
+        {
+          "target_degree": -8,
+          "source_index": 1,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        },
+        {
+          "target_degree": -8,
+          "source_index": 2,
+          "source_degree": -9,
+          "source_rep": "W",
+          "polynomial_degree": 1
+        }
+      ],
+      "surjectivity_condition": "(a,b) != (0,0) and (alpha != 0 or a*beta != 0)",
+      "admissible_zero_nonzero_support_count": 8
+    },
+    {
+      "type": 4,
+      "E_parameter_tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "residual_blocks": [
+        [
+          -3,
+          "T"
+        ],
+        [
+          -9,
+          "W"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 3,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 0,
+          "source_degree": -3,
+          "source_rep": "T",
+          "polynomial_degree": 5
+        },
+        {
+          "target_degree": 2,
+          "source_index": 1,
+          "source_degree": -9,
+          "source_rep": "W",
+          "polynomial_degree": 11
+        },
+        {
+          "target_degree": -8,
+          "source_index": 1,
+          "source_degree": -9,
+          "source_rep": "W",
+          "polynomial_degree": 1
+        }
+      ],
+      "surjectivity_condition": "alpha*b != 0",
+      "admissible_zero_nonzero_support_count": 2
+    },
+    {
+      "type": 5,
+      "E_parameter_tuple": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "residual_blocks": [
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "P"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 3,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 0,
+          "source_degree": -4,
+          "source_rep": "V",
+          "polynomial_degree": 6
+        },
+        {
+          "target_degree": 2,
+          "source_index": 1,
+          "source_degree": -4,
+          "source_rep": "P",
+          "polynomial_degree": 6
+        },
+        {
+          "target_degree": -8,
+          "source_index": 2,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        }
+      ],
+      "surjectivity_condition": "a != 0 and (alpha,beta) != (0,0)",
+      "admissible_zero_nonzero_support_count": 3
+    },
+    {
+      "type": 6,
+      "E_parameter_tuple": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "residual_blocks": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "rank": 8,
+      "degree": -36,
+      "Hom_dimension": 3,
+      "Hom_channels": [
+        {
+          "target_degree": 2,
+          "source_index": 1,
+          "source_degree": -4,
+          "source_rep": "V",
+          "polynomial_degree": 6
+        },
+        {
+          "target_degree": 2,
+          "source_index": 2,
+          "source_degree": -5,
+          "source_rep": "Wp",
+          "polynomial_degree": 7
+        },
+        {
+          "target_degree": -8,
+          "source_index": 3,
+          "source_degree": -8,
+          "source_rep": "one",
+          "polynomial_degree": 0
+        }
+      ],
+      "surjectivity_condition": "a != 0 and (alpha,beta) != (0,0)",
+      "admissible_zero_nonzero_support_count": 3
+    }
+  ],
+  "excluded_label_count": 0
+}
