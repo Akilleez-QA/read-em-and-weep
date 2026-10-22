@@ -1,8 +1,7 @@
 {
   "scope": "One necessary quotient pair excluded, no actual map evaluation or realization claim.",
   "source_hashes": {
-    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
-    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16"
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad"
   },
   "id": "G3.21.bf8462f3a0d7",
   "profile": "21",
@@ -26,17 +25,7 @@
       "Wp"
     ]
   ],
-  "s": 0,
-  "J": [
-    [
-      -7,
-      "Wp"
-    ],
-    [
-      14,
-      "one"
-    ]
-  ],
+  "second_defect": "arbitrary torsion",
   "twist": -2,
   "character_order": [
     "one",
@@ -82,7 +71,7 @@
     6,
     0
   ],
-  "H1_J": [
+  "H1_A_minus_four": [
     1,
     0,
     0,

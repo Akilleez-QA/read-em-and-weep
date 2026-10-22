@@ -2,7 +2,6 @@
 """One quotient exclusion from an impossible H1 surjection; abstract characters only."""
 from pathlib import Path
 from fractions import Fraction as F
-from collections import Counter
 import hashlib, json
 ROOT=Path(__file__).resolve().parent
 
@@ -44,7 +43,7 @@ def decompose(a):
  return tuple(int(x)for x,b in out)
 M3=linear([(3,'Wp'),(3,'S'),(6,'T')])
 M4=linear([(2,'V'),(4,'P'),(3,'D')])
-PINNED={'rank-three-quotient-frontier-144.json': 'a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad', 'two-one-rank-eleven-endpoint-splittings.json': '4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16'}
+PINNED={'rank-three-quotient-frontier-144.json': 'a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad'}
 
 assert all(hashlib.sha256((ROOT/f).read_bytes()).hexdigest()==h for f,h in PINNED.items())
 data={f:json.loads((ROOT/f).read_text())for f in PINNED}
@@ -52,11 +51,8 @@ front=data['rank-three-quotient-frontier-144.json']
 ID='G3.21.bf8462f3a0d7'
 f=next(c for c in front['cases']if c['id']==ID)
 assert f['status']=='not_excluded' and f['profile']=='21' and f['source_index']==11
-A=((-5,'Wp'),(16,'one'));B=((-18,'one'),(3,'Wp'));J=((-7,'Wp'),(14,'one'))
+A=((-5,'Wp'),(16,'one'));B=((-18,'one'),(3,'Wp'))
 assert f['A']==[list(x)for x in A] and f['B']==[list(x)for x in B]
-p=data['two-one-rank-eleven-endpoint-splittings.json']['pairs'][11]
-assert p['source_pair_index']==11 and p['A']==f['A'] and p['B']==f['B']
-assert p['retained_second_defects']==[0]
 # E embeds in M3 O(-1), and K embeds in E: H0(K(-2))=0.
 # Thus H1(K(-2))=-chi(K(-2))=chi(A(-2))-chi(E(-2)).
 # Euler formula: chi(O(d))=Sym^d W for d>=0, -Sym^(-d-2) W for d<=-2.
@@ -69,10 +65,11 @@ assert e==(0,0,0,-3,-4,-5,0,-6,0)
 assert k==(0,0,0,3,5,5,0,6,0)
 assert j==(1,0,0,1,1,1,0,1,0)
 assert k[0]==0 and j[0]==1
-# H1(K(-2)) -> H1(J(-2)) must be onto since H2(M(-2))=0.
+# The maps H1(K(-2))->H1(J(-2))->H1(A(-4)) are onto:
+# H2(M(-2))=0 and H1(T_def(-2))=0 for every torsion defect.
 assert any(x<y for x,y in zip(k,j))
 assert front['not_excluded']==144 and front['remaining_by_profile']=={'11':122,'12':10,'21':12}
-certificate=dict(scope='One necessary quotient pair excluded, no actual map evaluation or realization claim.',source_hashes=PINNED,id=ID,profile='21',A=A,B=B,s=0,J=J,twist=-2,character_order=names,chi_E=e,chi_A=a,H1_K=k,H1_J=j,obstruction='An equivariant surjection cannot map zero trivial multiplicity onto one trivial multiplicity.',previous_frontier=144,new_frontier=143,remaining_by_profile={'11':122,'12':10,'21':11})
+certificate=dict(scope='One necessary quotient pair excluded, no actual map evaluation or realization claim.',source_hashes=PINNED,id=ID,profile='21',A=A,B=B,second_defect='arbitrary torsion',twist=-2,character_order=names,chi_E=e,chi_A=a,H1_K=k,H1_A_minus_four=j,obstruction='An equivariant surjection cannot map zero trivial multiplicity onto one trivial multiplicity.',previous_frontier=144,new_frontier=143,remaining_by_profile={'11':122,'12':10,'21':11})
 (ROOT/'two-one-wprime-sixteen-quotient-exclusion.json').write_text(json.dumps(certificate,indent=2)+'\n')
 print('PASS:',ID,'excluded; trivial multiplicity 0 cannot surject onto 1 at twist -2.')
 print('Frontier 144 -> 143; profile counts 122, 10, 11. No actual realization claimed.')

@@ -16,13 +16,17 @@ Use the established actual presentation
     M3 = 3Wprime + 3S + 6T,
     M4 = 2V + 4P + 3D.
 
-These are the source characters used in TWO-ONE-RANK-ELEVEN-ENDPOINT-SPLITTINGS.md and its published checker. In the profile (2,1) flag, write K=E^-, M=K^-, J=K/M. The exact sequences are
+These are the established actual source characters, also recorded in the published rank-eleven endpoint proof. In the profile (2,1) flag, write K=E^-, M=K^-, J=K/M. The exact sequences are
 
     0 -> K -> E -> A -> 0,
     0 -> M -> K -> J -> 0,
     0 -> J -> A(-2) -> T_def -> 0.
 
-The published rank-eleven endpoint theorem (commit 0b55b844) forces the second defect length s=length(T_def) to be zero for this A. Its source pair index 11 has retained_second_defects=[0]. Hence **J=A(-2)** here. This identification is not asserted for positive defects.
+Here T_def is any torsion defect sheaf. No zero-defect restriction or endpoint splitting enumeration is required. For every twist r the last two sequences give surjections
+
+    H1(K(r)) -> H1(J(r)) -> H1(A(r-2)) -> 0,
+
+since H2(M(r))=0 on P1 and H1(T_def(r))=0 for torsion. Thus the composite is onto even for positive second defect. We never identify J with A(-2).
 
 ## The obstruction at twist -2
 
@@ -43,25 +47,25 @@ Thus
 
     H1(K(-2)) = 3A_std +5V +5P +6D.                 (1)
 
-On the other hand, J= Wprime O(-7)+O(14), so
+On the other hand, A(-4)= Wprime O(-9)+O(12), so
 
-    H1(J(-2)) = Wprime tensor Sym^7 W
+    H1(A(-4)) = Wprime tensor Sym^7 W
                = one + A_std + V + P + D.          (2)
 
-The second exact sequence would require a surjection
+The composite surjection above would require
 
-    H1(K(-2)) -> H1(J(-2)) -> 0,
+    H1(K(-2)) -> H1(A(-4)) -> 0,
 
-because H2(M(-2))=0 on P1. Equivariant representations in characteristic zero are semisimple. The trivial multiplicity in (1) is zero; that in (2) is one. Such a surjection is impossible.
+for every possible torsion defect. Equivariant representations in characteristic zero are semisimple. The trivial multiplicity in (1) is zero; that in (2) is one. Such a surjection is impossible.
 
-This proves the claim without choosing any K or M splitting, any source type E, or any coefficients or points. The contradiction is independent of B after the published profile and defect identification have been made.
+This proves the claim without choosing any K or M splitting, any source type E, or any coefficients or points. The contradiction is independent of B once the profile (2,1) interior flag is established.
 
 ## Reproduction and scope
 
 Run `python3 verify_two_one_wprime_sixteen_quotient_exclusion.py`.
 
-The 78-line checker independently reconstructs the binary-icosahedral character ring in Q(sqrt(5)), verifies irreducible orthogonality, computes the four displayed characters, checks the exact stable ID and published zero-defect prerequisite using pinned input hashes, and writes only `two-one-wprime-sixteen-quotient-exclusion.json`. It neither imports nor executes old checkers and does not read the unpublished first-kernel coupling dataset. The JSON is a small character certificate, not an edited old frontier.
+The small checker independently reconstructs the binary-icosahedral character ring in Q(sqrt(5)), verifies irreducible orthogonality, computes the four displayed characters, checks the exact stable ID using the pinned frontier hash, and writes only `two-one-wprime-sixteen-quotient-exclusion.json`. It neither imports nor executes old checkers and does not read the unpublished first-kernel coupling dataset. The JSON is a small character certificate, not an edited old frontier.
 
 Only universal finite character arithmetic is used. There are no selected actual coefficients or points, actual matrices or rank tests, scans, spikes, or consumed experiments.
 
-Immutable inputs: [rank-eleven endpoint proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/0b55b84466c62c24f05f7e691f3e7a3d528b7ebf/research/hm/order-four-quadratic-load/TWO-ONE-RANK-ELEVEN-ENDPOINT-SPLITTINGS.md), [endpoint records](https://github.com/Akilleez-QA/read-em-and-weep/blob/0b55b84466c62c24f05f7e691f3e7a3d528b7ebf/research/hm/order-four-quadratic-load/two-one-rank-eleven-endpoint-splittings.json), and [frozen 144-label frontier](https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-144.json).
+Published presentation and exact-sequence reference: [rank-eleven endpoint proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/0b55b84466c62c24f05f7e691f3e7a3d528b7ebf/research/hm/order-four-quadratic-load/TWO-ONE-RANK-ELEVEN-ENDPOINT-SPLITTINGS.md), and [frozen 144-label frontier](https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-144.json).
