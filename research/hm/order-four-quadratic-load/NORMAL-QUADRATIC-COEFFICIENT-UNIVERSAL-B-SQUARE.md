@@ -2,7 +2,7 @@
 
 ## Statement
 
-Retain the universal three-channel monad parameters (a,b,c) from UNIVERSAL-THREE-CHANNEL-MONAD-ISOTROPY.md. On the subbundle locus abc!=0, normalize the invariant class beta in H2(B(-4)) using the leftmost symmetric-monad cohomology line, and normalize eta by
+Retain the universal three-channel monad parameters (a,b,c) from [the three-channel monad-family theorem, PR643](https://github.com/Akilleez-QA/read-em-and-weep/blob/356a3b8d2da36f5b3e2034cc5c6adf82757a33cc/research/hm/three-channel-monad-family/PROOF.md). On the subbundle locus abc!=0, normalize the invariant class beta in H2(B(-4)) using the leftmost symmetric-monad cohomology line, and normalize eta by
 
     delta_q0(eta)=beta.
 
@@ -97,4 +97,8 @@ A determination of kappa must keep the symplectic dg Lie product and the hyperco
 
 ## Inputs and reproducibility
 
-UNIVERSAL-THREE-CHANNEL-MONAD-ISOTROPY.md gives the three channels, their weights, the subbundle-open locus, and transitivity. NEGATIVE-MONAD-INVARIANT-SCALAR-IS-NONZERO.md supplies the invariant connecting isomorphism. FIRST-NORMAL-NONUNIQUENESS-INDEPENDENT-MONAD-CHECK.md supplies the negative symmetric-monad cohomology. The ambient monad is pinned in PR455 at 8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4, research/hm/twist-one-structural-vanishing/PROOF.md. The companion verifier checks the complete integral weight system and its unique solution; this is universal representation arithmetic, not a multiplication evaluation.
+[the three-channel monad-family theorem, PR643](https://github.com/Akilleez-QA/read-em-and-weep/blob/356a3b8d2da36f5b3e2034cc5c6adf82757a33cc/research/hm/three-channel-monad-family/PROOF.md) gives the three channels, their weights, the subbundle-open locus, and transitivity. NEGATIVE-MONAD-INVARIANT-SCALAR-IS-NONZERO.md supplies the invariant connecting isomorphism. FIRST-NORMAL-NONUNIQUENESS-INDEPENDENT-MONAD-CHECK.md supplies the negative symmetric-monad cohomology. The ambient monad is pinned in PR455 at 8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4, research/hm/twist-one-structural-vanishing/PROOF.md. The companion verifier checks the complete integral weight system and its unique solution; this is universal representation arithmetic, not a multiplication evaluation.
+
+## Public dependency pin update
+
+The three-channel family input is pinned above to the standalone proof in PR643. This replaces the unpublished local filename cited by the earlier version. The replacement proves the exhaustive channels, exact subbundle locus abc!=0, determinant-compatible block weights, and torus transitivity without selected-instance evaluations. The mathematical conclusions and their remaining-obstruction limitations are unchanged.
