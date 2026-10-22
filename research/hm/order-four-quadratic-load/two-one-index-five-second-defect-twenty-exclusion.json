@@ -1,0 +1,63 @@
+{
+  "scope": "Whole index5 second-defect20 exclusion; quotient labels unchanged.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16",
+    "TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843"
+  },
+  "id": "G3.21.ed1df480d8d2",
+  "source_pair_index": 5,
+  "excluded_second_defect": 20,
+  "torsion": [
+    [
+      20,
+      2
+    ]
+  ],
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "min_J": -27,
+  "high_zero_middle_nonzero_H1_K_two": [
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    0,
+    0,
+    0
+  ],
+  "high_zero_middle_nonzero_H1_J_two": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    2,
+    0,
+    1,
+    0
+  ],
+  "high_nonzero_H0_J_two_embeds_into": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+  ],
+  "each_published_M_has_V_in_H0_M_four": true
+}
