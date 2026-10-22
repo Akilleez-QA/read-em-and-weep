@@ -1,0 +1,704 @@
+{
+  "scope": "Seven equality flags rigidify; two height patterns are impossible; no quotient label excluded. Geometry proved in accompanying note.",
+  "source_hashes": {
+    "all-profile-iterated-section-envelope.json": "280654f6fa7c82483bee82cf31865e8a561facab82a8456d8666616778762cef",
+    "maximal-profile-degree-envelope-refinement.json": "002cee319e88fb83039efca5d2816bdb93f578ba9a5a60d6fd44725edf5de94d",
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "NEGATIVE-GAUSS-FLAGS-HAVE-A-FINITE-DEGREE-ENVELOPE.md": "90aa42a0eded9cd3118d086a4ebf82ce98ff4e4c3682e1baaea61e5928f94088",
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  "orientation_count": 52,
+  "equality_label_count": 7,
+  "excluded_height_count": 2,
+  "excluded_label_count": 0,
+  "remaining_label_count": 26,
+  "records": [
+    {
+      "id": "G3.11.6795493ae8cd",
+      "side": "B",
+      "profile": "11",
+      "target_degrees_descending": [
+        6,
+        -4,
+        -18
+      ],
+      "rank_F": 10,
+      "degree_F": -38,
+      "capacity": -38,
+      "flags": [
+        {
+          "heights": [
+            7,
+            3,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0,
+              -10
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ]
+          ],
+          "terminal_line_degree": -8,
+          "polynomial_span_dimension": 9,
+          "proper_equivariant_span_dimension_max": 5,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -1,
+            "coefficient_character": {
+              "Wp": 1,
+              "T": 1
+            },
+            "rank": 8
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        },
+        {
+          "heights": [
+            8,
+            2,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.11.a5d4e292b34e",
+      "side": "B",
+      "profile": "11",
+      "target_degrees_descending": [
+        6,
+        -4,
+        -18
+      ],
+      "rank_F": 10,
+      "degree_F": -38,
+      "capacity": -38,
+      "flags": [
+        {
+          "heights": [
+            7,
+            3,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0,
+              -10
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ]
+          ],
+          "terminal_line_degree": -8,
+          "polynomial_span_dimension": 9,
+          "proper_equivariant_span_dimension_max": 5,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -1,
+            "coefficient_character": {
+              "Wp": 1,
+              "T": 1
+            },
+            "rank": 8
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        },
+        {
+          "heights": [
+            8,
+            2,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.11.942927348917",
+      "side": "A",
+      "profile": "11",
+      "target_degrees_descending": [
+        6,
+        2,
+        -8
+      ],
+      "rank_F": 14,
+      "degree_F": -54,
+      "capacity": -54,
+      "flags": [
+        {
+          "heights": [
+            8,
+            6,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              -2
+            ],
+            [
+              0,
+              -4
+            ],
+            [
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -8
+            ],
+            [
+              -6,
+              -10
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "E",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.11.cce6e3ba4eeb",
+      "side": "B",
+      "profile": "11",
+      "target_degrees_descending": [
+        6,
+        -4,
+        -18
+      ],
+      "rank_F": 10,
+      "degree_F": -38,
+      "capacity": -38,
+      "flags": [
+        {
+          "heights": [
+            7,
+            3,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0,
+              -10
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ]
+          ],
+          "terminal_line_degree": -8,
+          "polynomial_span_dimension": 9,
+          "proper_equivariant_span_dimension_max": 5,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -1,
+            "coefficient_character": {
+              "Wp": 1,
+              "T": 1
+            },
+            "rank": 8
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        },
+        {
+          "heights": [
+            8,
+            2,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.12.8e9af2d08af9",
+      "side": "A",
+      "profile": "12",
+      "target_degrees_descending": [
+        6,
+        2,
+        -8
+      ],
+      "rank_F": 14,
+      "degree_F": -54,
+      "capacity": -54,
+      "flags": [
+        {
+          "heights": [
+            8,
+            6,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              0
+            ],
+            [
+              2,
+              -2
+            ],
+            [
+              0,
+              -4
+            ],
+            [
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -8
+            ],
+            [
+              -6,
+              -10
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "E",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.21.45ca6278cbfc",
+      "side": "A",
+      "profile": "21",
+      "target_degrees_descending": [
+        6,
+        2,
+        -8
+      ],
+      "rank_F": 14,
+      "degree_F": -54,
+      "capacity": -54,
+      "flags": [
+        {
+          "heights": [
+            7,
+            6,
+            1
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              0,
+              -10
+            ],
+            [
+              2,
+              -2
+            ],
+            [
+              0,
+              -4
+            ],
+            [
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -8
+            ],
+            [
+              -6,
+              -10
+            ],
+            [
+              -8
+            ]
+          ],
+          "terminal_line_degree": -8,
+          "polynomial_span_dimension": 9,
+          "proper_equivariant_span_dimension_max": 5,
+          "forced_saturated_subbundle": {
+            "central_bundle": "E",
+            "twist": -1,
+            "coefficient_character": {
+              "Wp": 1,
+              "T": 1
+            },
+            "rank": 8
+          },
+          "height_excluded_by_central_twist_one_vanishing": true
+        },
+        {
+          "heights": [
+            8,
+            5,
+            1
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              0,
+              -10
+            ],
+            [
+              2,
+              -2
+            ],
+            [
+              0,
+              -4
+            ],
+            [
+              -2,
+              -6
+            ],
+            [
+              -4,
+              -8
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "E",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    },
+    {
+      "id": "G3.21.d610e381ed75",
+      "side": "B",
+      "profile": "21",
+      "target_degrees_descending": [
+        6,
+        -4,
+        -18
+      ],
+      "rank_F": 10,
+      "degree_F": -38,
+      "capacity": -38,
+      "flags": [
+        {
+          "heights": [
+            7,
+            3,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0,
+              -10
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ]
+          ],
+          "terminal_line_degree": -8,
+          "polynomial_span_dimension": 9,
+          "proper_equivariant_span_dimension_max": 5,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -1,
+            "coefficient_character": {
+              "Wp": 1,
+              "T": 1
+            },
+            "rank": 8
+          },
+          "height_excluded_by_central_twist_one_vanishing": true
+        },
+        {
+          "heights": [
+            8,
+            2,
+            0
+          ],
+          "graded_degrees_by_step": [
+            [
+              4,
+              -6
+            ],
+            [
+              2,
+              -8
+            ],
+            [
+              0
+            ],
+            [
+              -2
+            ],
+            [
+              -4
+            ],
+            [
+              -6
+            ],
+            [
+              -8
+            ],
+            [
+              -10
+            ]
+          ],
+          "terminal_line_degree": -10,
+          "polynomial_span_dimension": 11,
+          "proper_equivariant_span_dimension_max": 8,
+          "forced_saturated_subbundle": {
+            "central_bundle": "Q*",
+            "twist": -2,
+            "coefficient_character": {
+              "P": 1,
+              "D": 1
+            },
+            "rank": 9
+          },
+          "height_excluded_by_central_twist_one_vanishing": false
+        }
+      ]
+    }
+  ]
+}
