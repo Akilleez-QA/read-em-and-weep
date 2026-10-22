@@ -38,7 +38,7 @@ In particular E is locally free, including at Sigma. The extension group in (1) 
 
     E is isomorphic to P4 tensor Omega_P^1(1) plus A O_P(-1).
 
-Again, no canonical splitting is asserted. The intrinsic object is the sheaf-theoretic pullback kernel. Its inclusion into the trivial twelve-bundle is not a subbundle at Sigma: its fiber there must not be identified with the pointwise inverse image of the degenerate second-symbol fiber. Its Chern classes are c1(E)=-7H and c2(E)=25H^2, consistent with c2(I_Sigma(7))=24H^2.
+This splitting is in fact unique equivariantly relative to the actual second symbol, as proved independently in [PR651](https://github.com/Akilleez-QA/read-em-and-weep/blob/b19ee9b0c995c037b37bfe6e71a51f95847cac11/research/hm/negative-sector-operator/PROOF.md). Differences of equivariant splittings belong to Hom_G(A,P4 tensor H0(Omega_P^1(2))) = Hom_G(A,P4 tensor A)=0, since P4 tensor A=V+P4+D5 and V is not A. Explicitly the lift is L(a,b)(v)=(1/2) partial_v beta(a,b), holding b fixed before substituting any b=B(a,h). Euler's identity gives L(a,b)(a)=beta(a,b). This does not make arbitrary nonequivariant splittings unique, or assert uniqueness of the different full-C splitting in Section 1. The intrinsic object is the sheaf-theoretic pullback kernel. Its inclusion into the trivial twelve-bundle is not a subbundle at Sigma: its fiber there must not be identified with the pointwise inverse image of the degenerate second-symbol fiber. Its Chern classes are c1(E)=-7H and c2(E)=25H^2, consistent with c2(I_Sigma(7))=24H^2.
 
 ## 3. Exact reduction of universal operator coefficients
 
@@ -58,7 +58,7 @@ For completeness, H0(Omega_P^1(3)) has character A+D5. Thus
 
     H0(E(2)) = P4 tensor (A+D5) plus A tensor A*,
 
-with three D5 copies in the first term and one in the second. Their roles are distinct: the first three are invisible already under contraction; the last is removed by the second-symbol image. This decomposition uses a splitting of (1), while the four-dimensional kernel itself is canonical.
+with three D5 copies in the first term and one in the second. Their roles are distinct: the first three are invisible already under contraction; the last is removed by the second-symbol image. The unique equivariant splitting of (1) makes this decomposition canonical for the equivariant whole family, with the actual second symbol fixed. PR651 also gives its explicit unique polynomial normal form; it does not evaluate the actual family.
 
 Before quotienting by the common nine-space in Cminus, the equivariant quadratic operator-family space has dimension eleven. Five dimensions land in that common kernel. Hence the exact coefficient reductions have dimensions
 

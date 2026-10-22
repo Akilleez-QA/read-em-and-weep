@@ -42,3 +42,6 @@ def ham(q,f):return sp.diff(q,s)*sp.diff(f,t)-sp.diff(q,t)*sp.diff(f,s)
 for x in (s,t):
     assert sp.expand(qs[0]*ham(qs[2],x)+qs[2]*ham(qs[0],x)-2*qs[1]*ham(qs[1],x))==0
 print('PASS: actual trace-free factorization identity and5→2 surjectivity normalization, kernel3.')
+
+assert r['inner'](A,mul(P,A))==r['z'](0)
+print('PASS: equivariant splitting ambiguity vanishes, as in PR651.')

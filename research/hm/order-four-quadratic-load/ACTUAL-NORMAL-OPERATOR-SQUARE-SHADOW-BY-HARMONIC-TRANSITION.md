@@ -16,7 +16,7 @@ where A is tracefree, D=D_a, and all determinant-line actions have the conventio
 
     P=[[1,p],[0,1]] transposed = [[1,0],[p,1]].
 
-The actual p is a positive binary quadratic with its base line factor retained. Put A11=b, A12=c, A21=d. The transported cone connection is
+The actual p is a positive binary quadratic with its base line factor retained. Put A11=b, A12=c, A21=d for the SOURCE connection A=A_i. These source coefficients occur in formulas (1)-(2), although K and the trace pairing are in the target j-frame. The transported cone connection is
 
     A'=P A P^-1-H(DP)P^-1,
 
@@ -46,12 +46,12 @@ Since p is quadratic, its lift is linear in x,y,z and P is an exact determinant-
 
 The term B(p,p)c must be retained: the ordinary square of L(p) is not L(p^2). All B terms in (1) use their respective input degrees; no common denominator is substituted incorrectly.
 
-For N=[[fg,-f^2],[g^2,-fg]], the square-ideal shadow is therefore
+The discrepancy K is in the TARGET j-frame: K=L(A_j)-transport(L(A_i)). Accordingly the matrix paired with it is N_j=[[f g_j,-f^2],[g_j^2,-f g_j]], where g_j=g_i+p f. In equation(2) the symbol g means g_j, not g_i. The square-ideal shadow is therefore
 
-    trace(NK)=2fg B(p,c)
+    trace(N_j K)=2f g_j B(p,c)
       -f^2[-2B(p,b)+B(p^2,c)+B(p,p)c+B(H,Dp)].     (2)
 
-Relative to the actual equation q0 the coefficient is (2)/nu. It has cover degree8 and belongs to the actual I_Z^2(4)_8=P4 O_L(-4). Its cohomology class is the lower normal operator obstruction after the actual trace/square-ideal map. Multiplication by a then gives the third-value target, subject to the fixed boundary sign and the actual second-symbol quotient.
+Writing the same formula using g_i instead requires the extra term 2p f^2 K11; it cannot be silently omitted. Relative to the actual equation q0 the coefficient is (2)/nu. It has cover degree8 and belongs to the actual I_Z^2(4)_8=P4 O_L(-4). Its cohomology class is the lower normal operator obstruction after the actual trace/square-ideal map. Multiplication by a then gives the third-value target, subject to the fixed boundary sign and the actual second-symbol quotient.
 
 ## 3. Why a matched nilpotent symbol suffices for this shadow
 
