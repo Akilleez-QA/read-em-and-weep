@@ -1,5 +1,7 @@
 # 6. Dependencies, reproducibility, and change log
 
+**Current cutoff: 22 October 2026, 07:09 UTC.** Older entries retain their historical frontier and exclusions; [Chapter 21](21-gauss-closure-and-second-normal-residue.md) supersedes statements that (3,1) remains open.
+
 ## 6.1 Claim register
 
 **Current cutoff: 22 October 2026, 06:18 UTC.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
@@ -391,3 +393,13 @@ Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of t
 - The fourth value, whole (3,1) profile and original source/lifting/algebraicity goals remain open. Generic sections remain four or five, finite exponent 4–31 or permanent cokernel, SF≥3 and square rank≥27. Later unpublished scale reductions, marked exchange and further rank-one exclusions are outside this cutoff. Archive, LICENSE and frozen source material are unchanged.
 
 See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the immutable proof links, explicit formulas and their limits.
+
+## 22 October 2026, 07:09 UTC: whole-profile closure and second-normal residue
+
+- Added Chapter 21, preserving the earlier chapter bodies and adding supersession notes to Chapters 4 and 17–20. Updated current summaries and condensed the root status paper around the current theorem, distinctions and unresolved gates.
+- PR543 at 28c2e5ff0e7454942220d0edec9a710b5f90f2f5: κ=C_mult a_m/b_m with C_mult unevaluated and the remaining global monad homotopy; one nonzero local old-K summand; odd marked exchange of the actual fourth gates, with no value.
+- PR543 at b0e71c4430049509a7a90168aaa1ebe7ab3146cc excludes seven of the ten rank-one quotients; at 93f99e65a95583d8bf083ae5b0169ed9a5411f6c it excludes the last three and the entire (3,1) profile. Five possible maximal profiles remain, not realized geometries. SF ≥ 3 and square rank ≥ 27 do not improve.
+- PR543 at eaf7bb8b1bf01b1e350e22c7b4c39c0692f52b63 gives the genuine midpoint pair's global nonzero scalar residue and exact normalization −Bλ/(4ν²)n_ap. This obstructs the specified nilpotent extension across the vertex locus, not arbitrary local nilpotents or the fourth gate.
+- PR543 at a648e97659121a924dcbb4586b9ecaadc2dd9e35 (tree a2431fad1490bd0212994e6d06d2fef1b0e3bcfa) gives the associated-graded E4 trace sequence with acyclic W′ O(−1). Full actual affine R2 transport remains open.
+- Separately attributed Mr. Slop PR667 at 7d53ea234b99b75e89a29c4caba7ec564e134410 gives the actual fixed square-secant rank stratification, saturation and unique sextic factor, not an ambient Smith exponent. PR666 at 0fc85f297a62c7be473a8da9ad992bb84706f8f2 gives bound eighteen and necessary nonempty lengths 6,10,15,16,18, only eighteen potentially nonreduced. Universal detection, fixed-channel zero schemes and actual fixed-map ranks stay distinct.
+- The actual third gate remains zero; the fourth is unevaluated. Generic sections remain four or five, with finite exponent 4–31 or permanent cokernel. No unpublished later affine transport or new (1,3) reductions are included. The original archive, LICENSE and nonpaper files are unchanged.

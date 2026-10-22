@@ -1,5 +1,7 @@
 # 19. Actual endpoint values and the last Gauss quotient
 
+> **Current-status note (22 October 2026, 07:09 UTC):** The historical Gauss frontier below is superseded by [Chapter 21](21-gauss-closure-and-second-normal-residue.md): the entire (3,1) profile is excluded. Its five remaining possible profiles are not realizations, and SF ≥ 3 / square rank ≥ 27 remain unchanged. Chapter 21 also records the exact midpoint residue, associated-graded tangent acyclicity and the still-open affine R2/fourth comparison. Earlier proof bodies are preserved.
+
 **Later status:** [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) reconstructs the entire endpoint family and excludes the last rank-two Gauss quotient at the 06:38 UTC cutoff. The historical 06:18 UTC argument below is retained unchanged.
 
 The lower endpoint contribution is now evaluated on two canonical inputs: one gives zero and the other gives a nonzero global cohomology class. This proves that the actual invariant normal line maps injectively into the two-dimensional space of quadratic endpoint families. It does not evaluate a fourth Bockstein. Separately, four of the five rank-two Gauss quotient shapes are excluded; the last shape has eleven necessary splittings left after a further nine-case exclusion.

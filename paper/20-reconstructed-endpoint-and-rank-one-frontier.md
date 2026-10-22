@@ -1,5 +1,7 @@
 # 20. Reconstructed endpoint and the rank-one Gauss frontier
 
+> **Current-status note (22 October 2026, 07:09 UTC):** The historical Gauss frontier below is superseded by [Chapter 21](21-gauss-closure-and-second-normal-residue.md): the entire (3,1) profile is excluded. Its five remaining possible profiles are not realizations, and SF ≥ 3 / square rank ≥ 27 remain unchanged. Chapter 21 also records the exact midpoint residue, associated-graded tangent acyclicity and the still-open affine R2/fourth comparison. Earlier proof bodies are preserved.
+
 The complete quadratic lower endpoint family is now reconstructed from two actual evaluations. Its canonical P4 residue is explicit, and both involution components of the corrected detecting input are nonzero. Separately, the entire rank-two dual-image branch of the extremal (3,1) Gauss profile is excluded. Ten necessary first quotients remain in its rank-one branch.
 
 This chapter records published results through **22 October 2026, 06:38 UTC (02:38 EDT)**. It supersedes Chapter 19's endpoint and Gauss frontiers, not its proofs. The fourth Bockstein, the four-or-five section alternative, and the complete original proof repair remain open.

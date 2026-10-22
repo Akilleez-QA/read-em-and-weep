@@ -1,5 +1,7 @@
 # 4. Positive-sector obstruction calculation
 
+> **Current-status note (22 October 2026, 07:09 UTC):** The historical Gauss frontier below is superseded by [Chapter 21](21-gauss-closure-and-second-normal-residue.md): the entire (3,1) profile is excluded. Its five remaining possible profiles are not realizations, and SF ≥ 3 / square rank ≥ 27 remain unchanged. Chapter 21 also records the exact midpoint residue, associated-graded tangent acyclicity and the still-open affine R2/fourth comparison. Earlier proof bodies are preserved.
+
 ## 4.1 Rank 33 at the invariant cone
 
 The cone-spinor construction provides an invariant nilpotent adjoint N. The actual moving-line theorem makes every positive adjoint preserve its saturated spinor; the Ext-annihilator argument identifies every preserving adjoint with a polynomial multiple of N. Therefore

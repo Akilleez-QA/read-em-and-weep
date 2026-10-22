@@ -1,5 +1,7 @@
 # 17. Absolute lower sources and the remaining secondary endpoint
 
+> **Current-status note (22 October 2026, 07:09 UTC):** The historical Gauss frontier below is superseded by [Chapter 21](21-gauss-closure-and-second-normal-residue.md): the entire (3,1) profile is excluded. Its five remaining possible profiles are not realizations, and SF ≥ 3 / square rank ≥ 27 remain unchanged. Chapter 21 also records the exact midpoint residue, associated-graded tangent acyclicity and the still-open affine R2/fourth comparison. Earlier proof bodies are preserved.
+
 **Historical frontier.** This chapter retains its earlier source scope. [Chapter 19](19-actual-endpoint-values-and-last-gauss-quotient.md) supersedes its open-endpoint and Gauss status with actual endpoint values, the complete (6,2) exclusion and eleven remaining necessary K splittings in (8,2). The fourth obstruction remains open.
 
 The corrected C5-square lower source is now proved nonzero, already on the reduced genus-four cubic. This is not a nonzero fourth Bockstein. The absolute midpoint and Atiyah representatives recover information lost in the effective vector quotient; the endpoint variation remains an unevaluated secondary P4 residue. The distinction between these three statements is essential throughout this chapter.

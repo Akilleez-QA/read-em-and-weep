@@ -1,5 +1,7 @@
 # 18. Actual cone lift and nonzero nilpotent trace
 
+> **Current-status note (22 October 2026, 07:09 UTC):** The historical Gauss frontier below is superseded by [Chapter 21](21-gauss-closure-and-second-normal-residue.md): the entire (3,1) profile is excluded. Its five remaining possible profiles are not realizations, and SF ≥ 3 / square rank ≥ 27 remain unchanged. Chapter 21 also records the exact midpoint residue, associated-graded tangent acyclicity and the still-open affine R2/fourth comparison. Earlier proof bodies are preserved.
+
 **Historical frontier.** This chapter retains its earlier source scope. [Chapter 19](19-actual-endpoint-values-and-last-gauss-quotient.md) supersedes its open-endpoint and Gauss status with actual endpoint values, the complete (6,2) exclusion and eleven remaining necessary K splittings in (8,2). The fourth obstruction remains open.
 
 Through the 22 October 2026, 05:54 UTC cutoff, the actual cone lift is explicit and global, and both components of the normal trace shadow are nonzero. These are advances in the input and lift comparison, not evaluations of the endpoint P4 or fourth Bockstein. The separate rank-two Gauss branch now has two necessary quotient shapes and 42 quotient/type pairs. The general section count remains four or five.
