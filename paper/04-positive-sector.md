@@ -241,9 +241,38 @@ Both pairing branches are needed. For nonzero B_pair, its complete evaluation on
 
 For B_pair=0, saturation and degree inequalities similarly reduce the rank-two cubic-image branch to those two endpoint shapes. Only X admits a rank-one cubic image. There the forced line quotient O(−12) is inaccessible to the next kernel: its degree excess and parity leave only low-degree coefficient blocks whose Hom spaces or section multiplicities are impossible. This separate argument is essential; exclusion of the nonzero-pairing branch alone would not exclude the three types. [Zero-pairing branch][P4Z].
 
-The fifteen disjoint exclusions leave **at most 13 of the original 28 formal primal types**. This remains a necessary-type bound, not a realization theorem; the zero-quadratic case remains open.
+The three remaining double-P4 quadratic types are also excluded:
+
+    X₂ = 2P4 O(−2) ⊕ T6 O(−3) ⊕ W′ O(−5) ⊕ O(−10),
+    Y₂ = 2P4 O(−2) ⊕ (V⊕P4) O(−4) ⊕ W′ O(−5),
+    Z₂ = 2P4 O(−2) ⊕ W′ O(−3) ⊕ V O(−4) ⊕ 2W′ O(−5).
+
+Their quadratic derivative cannot have rank one: no eligible line's sections contain 2P4. For nonzero pairing, section injectivity forces quadratic/cubic derivative ranks three and two. The same exact first quotients and invariant colength gap reduce to the two impossible endpoint splittings already described. For zero pairing, only X₂ admits the required rank-one cubic image O(11). Its quadratic image is necessarily 2O(6), O(6)⊕O(8), or W O(7), and the colength bound makes it saturated. The next derivative would require a nonzero quotient to O(−12). Degree excess, parity and exact Hom constraints leave a single possible kernel, (2W′⊕T6)O(−3)⊕V O(−4)⊕O(−12), whose twist-three Euler character contradicts every forced quotient. Both pairing branches are therefore excluded. [Double-P4 exclusion][P4D].
+
+The remaining single-D5 type
+
+    E=D5 O(−2)⊕(W′⊕T6)O(−3)⊕V O(−4)⊕O(−8)
+
+is excluded too. Its cubic pairing is zero. Rank-two cubic images reduce to incompatible section multiplicities or the frozen rank-one endpoint. In the rank-one branch, exhaustive necessary kernel/quotient splittings leave ten pairs; two further rank-three derivatives force a degree −52 second kernel with section module 2V⊕P4, which cannot inject into a target containing only one V. [Single-D5 exclusion][D5S].
+
+All four mixed P4⊕D5 quadratic types are excluded by a two-stage argument. Their common quadratic part is (P4⊕D5)O(−2); their respective remaining parts are
+
+    T6 O(−3)⊕O(−8)⊕O(−10),
+    T6 O(−3)⊕W O(−9),
+    (V⊕P4)O(−4)⊕O(−8),
+    W′ O(−3)⊕V O(−4)⊕W′ O(−5)⊕O(−8).
+
+The [first stage][MD1] forces zero cubic pairing and complete quadratic evaluation onto the saturated octic O(8), with kernel (W′⊕T6)O(−1). This necessary reduction alone does not exclude a type. The [closure][MD2] handles both remaining cubic-image ranks. For rank two, section persistence bounds the saturated image degree by eight and its defect by four, forcing saturation even in the high-line case. The remaining W′ O(2) and W′ O(4) images give the frozen endpoint or a V-multiplicity contradiction. For rank one, dimension inequalities exclude negative quotient degrees before any splitting assumption. The three positive possibilities have zero colength; two fail a low-degree bottleneck and the last again requires 2V⊕P4 to inject into V⊕P4⊕D5. This closes all four mixed types.
+
+The twenty-three disjoint exclusions leave **at most 5 of the original 28 formal primal types**. This remains a necessary-type bound, not a realization theorem; the zero-quadratic case remains open.
 
 None of these results excludes the entire (3,2) profile or every rank-three case. The numerical statements remain generic SF ≥ 3, positive-square rank ≥ 27, and generic total section count four or five.
 
 [P4N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/15adb8e5ea61f07e87df6a0044b7375e580fe7f3/research/hm/order-four-quadratic-load/THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md
 [P4Z]: https://github.com/Akilleez-QA/read-em-and-weep/blob/15adb8e5ea61f07e87df6a0044b7375e580fe7f3/research/hm/order-four-quadratic-load/P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md
+
+[P4D]: https://github.com/Akilleez-QA/read-em-and-weep/blob/bdc66692b5814b65e568615639cd86a2b0cd5d0c/research/hm/order-four-quadratic-load/THREE-DOUBLE-P4-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md
+
+[D5S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md
+[MD1]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/MIXED-P4-D5-FORCED-OCTIC-EVALUATION.md
+[MD2]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/FOUR-MIXED-P4-D5-TYPES-EXCLUDED-BY-OCTIC-EVALUATION.md

@@ -28,6 +28,12 @@ Mr. Slop's complementary [PR653][RS] identifies the geometric sheet lost at thes
 
 Thus the determinant pullbacks have common reduced support of length twenty-four, not disjoint support. An exceptional p₂-fiber is 2r+s, with r∈R₂ and s∈R₁. Multiplication by κ is a unit on the double sheet 2r and zero on the simple sheet s; its completed-base elementary divisors are (1,1,t). The exceptional vector equation n_h(ℓ)=0 is exactly the condition that h have a double root at p₁(r), rather than a condition on the nilpotent direction of 2r. For nonzero h it holds at at most two of the twelve exceptional base points. A nonzero a can kill at most two further points, so the actual upper entry is nonzero at at least eight of them. This excludes orbit-wide upper-entry disappearance, not cancellation in the full normal class.
 
+Mr. Slop's [PR654][SG] constructs a distinct spectral curve S→L from the twisted Gram endomorphism M:V O_L→V O_L(4), with equation λ³=det M. It is smooth of genus ten, totally ramified at the twelve determinant zeros, and is not the genus-four cubic support D. The actual spectral line ℒ has π_*ℒ=V O_L and ℒ²=π^*O_L(8). Consequently ℒ⊗π^*O_L(−4) has exact order two, while Θ=ℒ⊗π^*O_L(−1) is an ineffective theta characteristic. The complete centralizer is
+
+    Cent(M)=O_L⊕O_L(−4)⊕O_L(−8).
+
+In particular there is no nonzero trace-free commuting operator of degree below four. These constraints apply to commuting corrections only: no commutation of the actual R with M has been proved, and the spectral construction does not evaluate its class.
+
 ## 13.2 The diagonal is fixed by the canonical residue inverse
 
 Normalize D_a=a_s∂_t−a_t∂_s, retaining the actual nonzero Atiyah scalar k. Let 𝒬 denote the actual quartic quotient D5 O_L→V O_L(2), identified through the socle pairing. Its induced map on sections after twisting by two is an isomorphism. The [canonical diagonal theorem][D] defines the global scalar correction u uniquely by
@@ -122,9 +128,91 @@ Restricting to K puts z in the kernel of the transposed second fundamental map. 
 
 Surjectivity of this factor does not evaluate the full vector cochain R: the quintic-extension correction and final second-symbol quotient remain. In particular it is not a proof that the third shadow is nonzero.
 
-## 13.6 What is not yet evaluated
+## 13.6 The actual quintic scalar cup is an isomorphism
 
-The actual Gram primitive and the canonical diagonal now specify the vector cochain, including the scalar-extension correction. Neither the a² terms nor the last τ(p,Γ_sc) term can be discarded independently; their combined global class and possible cancellation remain uncomputed. The nonzero Gram composite and its exceptional nilpotent fibers do not imply a nonzero third gate.
+Let p represent the actual nonzero quintic extension e∈H¹(V O_L(−8)). The [swapped-quotient theorem][SC] identifies the actual cup map
+
+    C_e: H⁰(D5 O_L(2)) → H¹(V O_L(−6)),
+    u ↦ [τ(p,u)]
+
+as an isomorphism of fifteen-dimensional representations, each with character A⊕V⊕P4⊕D5. It therefore surjects onto the reduced twelve-dimensional source after quotienting by the actual connecting A. Subsequent multiplication by every a≠0 is onto P4. These statements concern a factor of the tied vector cochain.
+
+To identify that factor, swap the two projections of the actual cubic D and use the inverse of its nowhere-zero quintic trivialization, rather than a new unrelated section. The resulting complete intersection has degree-six socle O(2); its perfect degree-four/degree-two pairing gives the actual quotient on P(W′),
+
+    0 → W O(−3) → D5_negative O → A_negative O(2) → 0.
+
+After twisting by two, its section map is an isomorphism. Its coefficient tensor is proportional to the polarized actual e tensor in the one-dimensional invariant space V⊗A⊗D5_negative. This tensor comparison occurs before taking fifteen-dimensional section spaces; their four-dimensional equivariant Hom space alone would not identify the map. The swapped socle functional is used here, not the swapped quintic extension class.
+
+Transposing via apolar forms and Serre duality gives C_e, up to a nonzero scalar. With the source's convention the universal positive identity is
+
+    ⟨τ(r,u),v⟩₂ = 24⟨u,rv⟩₄.
+
+Combining this isomorphism with Section 13.5 proves that the isolated polarized u term fills the fifteen-space. Its reduced image is V⊕P4⊕D5, with kernel 1⊕A⊕P4⊕D5 in D5_positive⊗D5_negative. The prescribed affine-frame scalar and a² terms in R are still tied to u; their sum and final second-symbol quotient are not evaluated.
+
+## 13.7 A twelve-point polar representative
+
+Twist the quintic inclusion and write i:V O_L(−2)→P4 O_L. The [polar-normal-form theorem][PN] proves a second actual Gram identity
+
+    N=𝒬𝒬ᵗ=d iᵗi,        d≠0.
+
+Its nonzeroness is geometric: a three-dimensional subspace of the nondegenerate symmetric five-space D5 cannot be totally isotropic. The one-dimensional quartic Hom space then identifies N with the already known Gram map. Its degeneracy orbit E consists of the same twelve reduced points.
+
+On L∖E the orthogonal right inverse is S=𝒬ᵗN²/det N, with exactly twelve simple poles and rank-one residues in ker 𝒬. If F=k a Lie_(D_a)(𝒬h), the global scalar is
+
+    u=S(2)F−jw,
+
+where j:W′ O_L(−1)→D5 O_L(2) is the actual kernel inclusion. The unique meromorphic w matches the principal parts of S(2)F. Acyclicity of W′ O_L(−1) gives uniqueness, not w=0; the extension correction remains.
+
+The actual sextic evaluation q:P4 O_L→O_L(6) has orthogonal lift qᵗ/(qqᵗ). Its corresponding meromorphic quintic generator g_⊥ has simple poles on E and canonical Gram primitive v_⊥=0. For a regular target generator g_x=g_⊥+p_xf, write p_x=r_x/z+O(1). The source remains g_⊥, so m_⊥=m_x+n_hp_x. Self-adjoint regular nilpotence gives τ(r_x,r_x)=τ(r_x,n_h(x))=0. Substitution into the full source-frame formula yields the exact double term
+
+    R=(k/15)a(x)²τ(h,r_x)z⁻²+O(z⁻¹).
+
+All other possible double contributions cancel; the global scalar correction contributes to the simple layer. The twelve nonzero isotropic r_x give twelve distinct square lines ℓ_x². The map h↦τ(h,r_x) is onto V with kernel ℓ_x³W′. Thus for nonzero a,h at least nine double coefficients are nonzero. This local statement has no direct cohomological nonvanishing consequence, as the next reduction shows.
+
+## 13.8 Removable double layers and the final residue test
+
+Put F_low=V O_L(−6). Since F_low(E)=V O_L(6) has no H¹, global meromorphic sections of F_low(2E) surject onto its whole second-principal-part layer. Every double layer can therefore be removed, including the preceding nonzero coefficients. The resulting simple-layer class is canonical modulo the global simple-pole sections:
+
+    H¹(V O_L(−6)) = H⁰(F_low(E)/F_low)/H⁰(F_low(E)),
+    dim = 36−21=15.
+
+At the upper twist the analogous quotient has dimension 36−27=9. Multiplication by a respects these sequences, carrying the actual connecting A below into the connecting D5 above. Their further quotients have dimensions twelve and four. No elimination of the double layer determines the remaining simple-layer class. [Exact polar reduction][PN].
+
+In compatible local Serre frames write the physical representative as
+
+    R/ν=D_x/z²+B_x/z.
+
+For c∈P4* annihilating im β₂,ₐ, put ζ=a iᵗc∈H⁰(V O_L(4)). The actual final class vanishes exactly when, for every such c,
+
+    Σ_(x∈E) [⟨D_x,ζ′(x)⟩+⟨B_x,ζ(x)⟩]=0.
+
+The actual dual sequences ensure that these tests annihilate both connecting subspaces as well as the second-symbol image. **For a outside the second-symbol degeneracy scheme Σ, the annihilator is one-dimensional.** Every square direction satisfies this condition, since Σ is disjoint from the discriminant conic. On Σ the criterion uses its full, possibly larger annihilator.
+
+The formula is a coordinate-independent residue in transported frames, not a selected point evaluation. If D_x,B_x instead denote raw R coefficients, the physical coefficients are D_x/ν(x) and B_x/ν(x)−D_xν′(x)/ν(x)². Thus the nonconstant physical normalization also changes the simple layer. Neither these sums nor their vanishing has been computed.
+
+## 13.9 A uniform C5 simple root and a nonzero opposite-pole contribution
+
+Fix any x in the twelve-point polar orbit E, and let y∈E be the other fixed point of its order-five projective stabilizer. Take a≠0 square with divisor 2x, and h≠0 in the unique positive-quartic character detectable by the final third quotient at a. These hypotheses are essential; the theorem is uniform over this stabilizer orbit, not an assertion for arbitrary h. The [C5 correction theorem][C5] proves that the actual vector-valued scalar u has exactly one common zero, of order one, at x. In particular u(y)≠0 and u is not divisible by a.
+
+In an arbitrary stabilizer eigenbasis, with a=t² and h=X⁴, the weight constraints and actual quotient kernels give
+
+    u=b₀ XY³t²+b₁ X³Yst,        b₀b₁≠0.
+
+The nonvanishing at y follows from the actual twist-one connecting map: the would-be quotient after division by s has a nonzero boundary. The other coefficient cannot vanish without contradicting the cubic kernel at x. Thus Γ_sc also has exact order one at x, although 𝒬(Γ_sc) has exact order five. Restriction to the cubic hides a lower-order extension contribution.
+
+In the polar representative, R is regular at x and has zero double coefficient at y. The **full** opposite-pole contribution, not just its isolated scalar summand, is nevertheless nonzero. In the volume-compatible coordinate v=−s/t with a=1, let m_y be the regular target coefficient. The exact ratio and residue are
+
+    u(y)=−8k m_y(y),
+    Res_y(R/ν)=−τ(r_y,u(y))/(60ν(y))
+              =(2k/(15ν(y)))τ(r_y,m_y(y))≠0.
+
+The ratio comes from the symplectic pairing of the two actual cubic representations and the actual socle-annihilation identities. In abstract coefficient-line notation the symplectic relation is AD+BC=0. This is a universal tensor identity, not chosen numerical HM data. Retaining the source relation m_⊥=m_y+n_hp and the oriented coordinate is necessary for the sign and factor. Since the double coefficient at y is zero, the physical normalization contributes no derivative correction there.
+
+This contribution pairs nontrivially with the local final test ζ=a iᵗc. It does **not** evaluate the global residue sum: the contributions from the other ten poles and meromorphic coboundary cancellation remain unresolved. Hence neither Ψ nor the four-or-five theorem is settled.
+
+## 13.10 What is not yet evaluated
+
+The actual Gram primitive and the canonical diagonal now specify the vector cochain, including the scalar-extension correction. Neither the a² terms nor the last τ(p,Γ_sc) term can be discarded independently; their combined global class and possible cancellation remain uncomputed. The nonzero Gram composite, scalar-cup isomorphism and nonzero double coefficients do not imply a nonzero third gate: every double layer is removable. The C5 calculation also gives a nonzero full local simple residue, but the tied global sum remains to be tested.
 
 These published geometric comparisons and universal checks retain the actual bundle, nonsplit quintic relation and physical equation frame. No selected HM coefficients, actual-instance matrices or numerical ranks are evaluated. The generic four-or-five theorem and original repair status are unchanged.
 
@@ -136,3 +224,9 @@ These published geometric comparisons and universal checks retain the actual bun
 
 [GS]: https://github.com/Akilleez-QA/read-em-and-weep/blob/15adb8e5ea61f07e87df6a0044b7375e580fe7f3/research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-SCALAR-CORRECTION-SURJECTS-ONTO-FIFTEEN-SPACE.md
 [RS]: https://github.com/Akilleez-QA/read-em-and-weep/blob/348954d279e0acae8ef75d0dd5eab58c5eae8928/research/hm/cubic-ramification-signature/PROOF.md
+
+[SC]: https://github.com/Akilleez-QA/read-em-and-weep/blob/bdc66692b5814b65e568615639cd86a2b0cd5d0c/research/hm/order-four-quadratic-load/ACTUAL-QUINTIC-SCALAR-CUP-IS-A-SWAPPED-QUOTIENT-ISOMORPHISM.md
+[PN]: https://github.com/Akilleez-QA/read-em-and-weep/blob/bdc66692b5814b65e568615639cd86a2b0cd5d0c/research/hm/order-four-quadratic-load/ACTUAL-VECTOR-SHADOW-HAS-A-TWELVE-POINT-POLAR-NORMAL-FORM.md
+
+[C5]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/ACTUAL-C5-SQUARE-CORRECTION-HAS-A-SIMPLE-ROOT.md
+[SG]: https://github.com/Akilleez-QA/read-em-and-weep/blob/f0c94ff7979652c094da3efaa11fea4629dbf59a/research/hm/gram-spectral-geometry/PROOF.md
