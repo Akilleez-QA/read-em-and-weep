@@ -1,0 +1,21 @@
+# Independent mathematical review
+
+Reviewed: final `PROOF.md`, SHA-256 `c294ef83d260d6872b4c7d4e39ecd1ce039c68e6cfc70a30d9bbb4143ce6cbeb`.
+
+## Verdict
+
+The mathematical argument proves the stated rank-one and nonvanishing conclusions, conditional on the explicitly pinned PR661/PR662 interface and representation decompositions. No substantive mathematical gap remains. No HM endpoint or source-instance coefficients were evaluated, and no GitHub writes were performed. The minor intrinsic-target correction identified during review has been applied and verified.
+
+## Checks
+
+1. **Wronskian, including base points.** Here `k = dim_C U`, so the associated projective linear series has dimension `k−1`. The adapted vanishing orders are indexed `0,…,k−1`; characteristic zero gives a nonzero Wronskian with exact local order `sum(alpha_i−i)` and total degree `kn−k(k−1) = k(n−k+1)`. If the common base divisor has degree `b`, factoring it out subtracts `b` from each local vanishing order, while the Wronskian acquires the factor of order `kb`; equivalently its remaining degree is `k(n−b−k+1)`. Thus base points are genuinely included, not silently omitted. The lower bound `max(0,m−k+1)` and both numerical contradictions are correct. Calling this a “k-dimensional space of sections (projective dimension k−1)” would remove a conventional terminology ambiguity.
+
+2. **Root and transvectant conventions.** The invariant alternating form identifies `W` with `W*` equivariantly, so a factor determines a root whose orbit has the same size. Either usual factor/root convention gives multiplicities six for `u^6 v^2` and five for `u^5 v`; only these multiplicities and the uniform orbit bound matter. A finite point stabilizer in projective `A5` is cyclic, so every orbit has at least `60/5 = 12` points. For independent `u,v`, the first transvectant is a nonzero multiple of `u^5 v`, with coefficient `−8` in the displayed symplectic convention. One may rescale the representative of the projective quadratic to normalize `u,v` symplectically; this changes neither rank nor nonvanishing. Consequently neither complementary summand can contain the displayed monomial, and both parity restrictions are nonzero.
+
+3. **Axes and characters.** Preserving `[uv]` is equivalent to preserving its unordered pair of roots. Its stabilizer is the normalizer of the corresponding maximal cyclic subgroup, of order ten or six. Distinct subgroups give distinct axes; an order-three and order-five subgroup cannot preserve the same pair, since the pointwise stabilizer of that pair is cyclic and `A5` has no element of order fifteen. Hence the six and ten axes are disjoint. A binary reflection sends `uv` to `−uv`, but its action on the dual square `O(2)_a` is trivial. The center also acts trivially on all relevant even-degree modules. No reflection-sign twist remains in the evaluation target.
+
+4. **Multiplicity one and exact rank.** The two rotation eigenvalues on `K_a` are distinct and are exchanged by a reflection, proving irreducibility. The four-dimensional `A5` representation is the five-letter permutation representation minus the trivial line. On `D10` its restriction is `E_1 + E_2`; on `S3` its character `(4,0,1)` is `1 + epsilon + E`. Thus `K_a` occurs exactly once in each case. Equivariance bounds the evaluation rank above by one. The parity nonvanishing proved earlier supplies the lower bound one, so all sixteen ranks are exactly one. The same nonvanishing excludes rank zero everywhere, using the pinned square-conic injectivity premise for square directions.
+
+## Intrinsic-target correction verified
+
+Section 4 now correctly defines `L_a = Hom_H(K_a, P tensor O(2)_a)` and explicitly chooses no trivialization of the twist. A trivial stabilizer character on `O(2)_a` would not itself choose a canonical trivialization of that fiber. With the twisted target retained, both restriction maps and their composite `e_-^{-1} e_+` are literally intrinsic. The graph formula, its mixed-parity nature, and constancy of the kernel along each group orbit are all correct. No relationship between the two orbits' kernel lines, exhaustion, scheme multiplicity, or actual endpoint position follows from the proof, and none is claimed.
