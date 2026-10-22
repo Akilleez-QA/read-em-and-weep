@@ -1,0 +1,598 @@
+{
+  "scope": "Three actual-image scalar strata; eight same-stratum/endpoint combinations pruned, no torsion-branch or quotient-label exclusion.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16",
+    "TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843",
+    "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08",
+    "NEGATIVE-GAUSS-FLAGS-HAVE-A-FINITE-DEGREE-ENVELOPE.md": "90aa42a0eded9cd3118d086a4ebf82ce98ff4e4c3682e1baaea61e5928f94088"
+  },
+  "id": "G3.21.d610e381ed75",
+  "source_pair_index": 2,
+  "second_defect": 12,
+  "torsion": [
+    [
+      12,
+      0
+    ]
+  ],
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "strata": [
+    {
+      "stratum": "low_only",
+      "J": [
+        [
+          -22,
+          "one"
+        ],
+        [
+          0,
+          "one"
+        ],
+        [
+          14,
+          "one"
+        ]
+      ],
+      "twist_six_target": [
+        1,
+        0,
+        0,
+        3,
+        3,
+        4,
+        0,
+        5,
+        0
+      ],
+      "maximal_endpoint_degree_capacity": 30,
+      "remaining_endpoint_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "stratum": "middle_only",
+      "J": [
+        [
+          -12,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ],
+        [
+          14,
+          "one"
+        ]
+      ],
+      "twist_six_target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "maximal_endpoint_degree_capacity": 22,
+      "remaining_endpoint_indices": [
+        0,
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "stratum": "mixed",
+      "J": [
+        [
+          -11,
+          "W"
+        ],
+        [
+          14,
+          "one"
+        ]
+      ],
+      "twist_six_target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "maximal_endpoint_degree_capacity": 22,
+      "remaining_endpoint_indices": [
+        0,
+        1,
+        2,
+        6
+      ]
+    }
+  ],
+  "removed_combinations": [
+    {
+      "stratum": "middle_only",
+      "published_endpoint_index": 3,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -9,
+          "W"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "D"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "middle_only",
+      "published_endpoint_index": 4,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "D"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "middle_only",
+      "published_endpoint_index": 5,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -7,
+          "Wp"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "P"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "middle_only",
+      "published_endpoint_index": 7,
+      "M": [
+        [
+          -5,
+          "T"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "mixed",
+      "published_endpoint_index": 3,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -9,
+          "W"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "D"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "mixed",
+      "published_endpoint_index": 4,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "D"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "mixed",
+      "published_endpoint_index": 5,
+      "M": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -7,
+          "Wp"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "P"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "stratum": "mixed",
+      "published_endpoint_index": 7,
+      "M": [
+        [
+          -5,
+          "T"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "H0_M_six": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "target": [
+        0,
+        0,
+        0,
+        2,
+        3,
+        4,
+        0,
+        4,
+        0
+      ],
+      "difference": [
+        -1,
+        0,
+        0,
+        2,
+        2,
+        2,
+        0,
+        2,
+        0
+      ]
+    }
+  ],
+  "initial_combinations": 24,
+  "remaining_combinations": 16,
+  "realization_claimed": false
+}
