@@ -2,16 +2,28 @@
 
 ## Verdict and exact object
 
-**PASS, conditional on the stated pinned geometric inputs.** No blocking
+**PASS for the revised proof, conditional on the stated pinned geometric inputs.** No blocking
 mathematical error was found in the ideal-valued norm construction or its
 second-symbol quotient. This is an independent deductive review, not a
 proof-assistant check and not an independent reproving of all upstream HM
 theorems.
 
-- Reviewed: `PROOF.md`, 7,673 bytes.
-- SHA-256: `23794c5f293659d888f7284c7f6e6ee8727ae04175c3bd385594ae0c1afc85e8`.
+- Reviewed: revised `PROOF.md`.
+- SHA-256: `2d7ebcf1cf63abe9d15d6a4f46704cb683119a0c97b9a7ce3714ea318a02ee68`.
 - Review date: 2026-10-22 UTC.
-- The reviewed proof was not modified during this review.
+- The author revised the proof during this review; this verdict applies
+  only to the final hash above.
+
+This supersedes the initial review of hash
+`23794c5f293659d888f7284c7f6e6ee8727ae04175c3bd385594ae0c1afc85e8`.
+The initial review missed the distinction between an ordinary square on
+the smooth weighted stack and the square of an ideal on the singular
+coarse quadric. The revised proof now defines and consistently uses
+`Qsq = pi_*(I_Z^2(6))`, where `I_Z` is the stack Serre ideal. This is
+the correct coarse trace image. It is not the square of the coarse
+Ext-annihilator ideal. The initial review also incorrectly called the
+trace-kernel cohomology unresolved; the weighted-stack input already
+proves its relevant vanishings, as detailed below.
 
 The conclusion is a canonical scalar/ideal-valued shadow of the actual
 boundary class, not a nonvanishing theorem, an adjoint extension theorem,
@@ -33,11 +45,11 @@ identifiers, distinct from the SHA-256 of the reviewed local proof above.
 2. [Fourth-square invariance](https://github.com/Akilleez-QA/read-em-and-weep/blob/2874402c884a6b426cfd521a674c962a738f84a6/research/hm/fourth-square-invariance/PROOF.md),
    commit `2874402c884a6b426cfd521a674c962a738f84a6`,
    blob `d773154ee28fac80a2f01225fd6c9b3c40e20762`.
-   Section 3, equation (5), identifies the image sheaf of `tr(N-)`
-   exactly with the square of the actual Serre ideal, `I_Z^2(6)`.
-   Thus the map is surjective onto that sheaf, not necessarily on global
-   sections or on first cohomology. The proof under review needs only
-   sheaf surjectivity.
+   Section 3, equation (5), describes the image sheaf of `tr(N-)`
+   using square-ideal notation. That notation must be interpreted
+   through the weighted-stack theorem below: the actual coarse target
+   is `Qsq`, not the square of a coarse ideal. The norm construction
+   needs only this sheaf surjectivity, not cohomological surjectivity.
 
 3. [Third-lift uniqueness and boundary variation](https://github.com/Akilleez-QA/read-em-and-weep/blob/449a8df60662bd7a1d93e318ea4f7e6dab28e5ad/research/hm/third-lift-uniqueness/PROOF.md),
    commit `449a8df60662bd7a1d93e318ea4f7e6dab28e5ad`,
@@ -56,8 +68,27 @@ identifiers, distinct from the SHA-256 of the reviewed local proof above.
    provenance of the square-ideal image. It states that image directly
    in section 1. The generic Serre-pair trace formula has coefficients
    `2fg`, `g^2`, and `-f^2`; over characteristic zero their generated ideal
-   is `(f,g)^2`. This is a universal local identity, not an evaluation
-   of an actual HM coefficient or matrix.
+   is `(f,g)^2` on a smooth stack chart. Passing to the coarse space
+   requires taking invariant sections of this square; it is not taking
+   the square of the invariant ideal. This is a universal local identity,
+   not an evaluation of an actual HM coefficient or matrix.
+
+5. [Weighted-stack square shadow and primary scalar](https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/WEIGHTED-STACK-SQUARE-SHADOW-AND-PRIMARY-SCALAR.md),
+   commit `8d8b5be4ce62c3055bb53be9e16d29cc63072f04`,
+   blob `9f88079c090bd4bd95ea44f37433ebe296e79689`.
+   Sections 1 and 2 give the stack exact sequence and exact coarse
+   pushforward, hence the coarse trace sequence
+
+       0 -> P -> B_Q(4) -> Qsq -> 0,
+       P = F_Q tensor S(3),  Qsq = pi_*(I_Z^2(6)).
+
+   Section 2 expressly warns that `pi_*(I_Z^2)` is generally larger
+   than the square `I_e^2` of the coarse Ext-annihilator. Sections 3
+   and 4 give `H^1(P)=H^2(P)=0`, using the independently established
+   cone closure. Therefore the actual trace map induces an isomorphism
+   on `H^1`, including its physical-even summand. This is already a
+   pinned theorem, not new unresolved kernel cohomology. Its cone-rank
+   input was read as an established dependency, not recomputed.
 
 These checks verify that the cited files say the inputs used. They do not
 claim an independent audit of every geometric theorem on which those
@@ -128,7 +159,7 @@ With the stated positive coboundary convention,
 Thus the classes of `w_i` glue in `C_f`. The connecting homomorphism
 from `H^0(C_f)` sends that glued section to the same positive cocycle
 `f tau(c_ij)`, not its negative. Under the identification of `J_f` with
-`I_Z^2(6)`, its class is precisely `tau_*(delta_5 K)`.
+`Qsq`, its class is precisely `tau_*(delta_5 K)`.
 
 ### 5. Independence of choices and divisors
 
@@ -139,11 +170,15 @@ the quotient section by the negative image of `r`, exactly the
 ambiguity divided out in equation (6). Refining the cover changes
 neither the glued quotient section nor its connecting class.
 
-Multiplication by nonzero `f` is injective on the ideal sheaf because
-`Q` is integral and `I_Z^2` is a subsheaf of `O_Q`. It is therefore an
+Multiplication by nonzero `f` is injective on `Qsq` because
+`Q` is integral and `Qsq` is a subsheaf of the line bundle `O_Q(6)`.
+It is therefore an
 isomorphism onto `J_f`, including along the zero divisor of `f`. No
-inverse of `f` is being asserted in `O_Q`, and no reduced-support or
-saturation replacement of `I_Z^2` occurs.
+inverse of `f` is being asserted in `O_Q`. Exact coarse pushforward
+and projection formula place `Qsq` in `O_Q(6)`; there is no reduced
+support, saturation, or coarse-square substitution. The construction
+uses this already-pushed-forward sheaf on the coarse neighborhoods,
+not a hypothetical lift of the weighted stack to `5Q`.
 
 The long exact sequence for `0 -> J_f -> O_Q(16) -> C_f -> 0`, together
 with `H^1(O_Q(16))=0`, gives exactly the quotient isomorphism (7).
@@ -170,10 +205,19 @@ In particular the exact kernel of the induced quotient map is
     ker(bar_tau_a) = (im H^1(C_N) + V_a)/V_a.
 
 Equivalently it is `im H^1(C_N)` modulo its intersection with `V_a`.
-This confirms the proof's statement: if the shadow vanishes, subtracting
-some element of `V_a` leaves a trace-kernel class, not necessarily zero.
-The shadow is faithful precisely if `im H^1(C_N)` is contained in
-`V_a`. No surjectivity of the trace map on `H^1` is needed.
+At the general exact-sequence level alone, a zero shadow leaves a
+trace-kernel class after subtracting a member of `V_a`. Faithfulness
+requires `im H^1(C_N)` to be contained in `V_a`; this does not follow
+from sheaf surjectivity alone.
+
+For the actual pinned weighted-stack sequence, however, `C_N` is `P`
+and `H^1(P)=H^2(P)=0`. Thus `tau_*` is an isomorphism and its induced
+map modulo `V_a` and `tau_*(V_a)` is an isomorphism as well. The revised
+proof correctly limits its sentence to what the trace-image theorem
+alone justifies and reserves integration of these extra cohomology
+inputs for a separate follow-up. It does not contradict the already
+available faithful criterion. This review does not describe the
+kernel vanishing as unresolved.
 
 ### 7. Ordinary scalar loss and limited conclusions
 
@@ -195,8 +239,12 @@ fifth-neighborhood adjoint boundary.
 - No blocking correction is required for the reviewed argument.
 - The scope of “classified changes” remains the fixed `a,h,b,U_a`
   scope of the pinned theorem, not arbitrary normalization changes.
-- The actual value of the norm coset, its class modulo `tau_*(V_a)`,
-  and the trace-kernel cohomology remain unresolved.
+- The stack/coarse target distinction is now explicit and correct.
+- The actual value of the norm coset and its class modulo `tau_*(V_a)`
+  remain unresolved. The relevant trace-kernel cohomology does not:
+  its vanishing is already proved in the pinned weighted-stack source.
+  Incorporating that input into a faithful norm criterion is reserved
+  for a separate follow-up.
 - Verification consisted of reading the proof and pinned dependencies,
   checking the universal identities, sheaf exact sequences, twists,
   signs, and logical implications, and hashing the reviewed bytes.

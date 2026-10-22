@@ -6,8 +6,15 @@ Work over C with the actual locally free rank-two bundle F on X=P4,
 B=End_0(F), the integral quadric Q=(q=0), and rQ=(q^r=0).
 Retain the fixed marking and physical-center-even sector. Fix nonzero
 sources a in A and h in D5. Each has twist two. Let N have twist two,
-and let I_Z denote its actual Serre zero-scheme ideal, not its reduced
-support. All cohomology and images below may be taken in the even sector.
+and let pi: X_stack=P_stack(1,1,2,2) -> Q be the weighted-stack coarse
+map. Let I_Z denote the ideal of the regular Serre zero scheme ON THE
+SMOOTH STACK. Define the coarse trace-image sheaf
+
+      Qsq=pi_*(I_Z^2(6)) subset O_Q(6).
+
+The square here is the ordinary ideal square on the stack. Qsq must NOT
+be replaced by the square of the coarse Ext-annihilator ideal I_e.
+All cohomology and images below may be taken in the even sector.
 
 The inputs are:
 
@@ -18,11 +25,14 @@ The inputs are:
       beta4_a(h)=[delta_5 K] modulo im(beta2_a).
 
   Its boundary convention is the positive coboundary divided by q^4.
+- [The weighted-stack square-shadow theorem, at 8d8b5be4ce62c3055bb53be9e16d29cc63072f04](https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/WEIGHTED-STACK-SQUARE-SHADOW-AND-PRIMARY-SCALAR.md), sections 1-2: the exact coarse trace-image sheaf is Qsq as defined above. Coarse pushforward is exact in characteristic zero, but does not commute with taking the square of the coarse annihilator ideal.
 - [PR687, 2874402c884a6b426cfd521a674c962a738f84a6, section 3](https://github.com/Akilleez-QA/read-em-and-weep/blob/2874402c884a6b426cfd521a674c962a738f84a6/research/hm/fourth-square-invariance/PROOF.md): the exact trace image is
 
-      tau=tr(N-): B_Q(4) -> I_Z^2(6),                 (2)
+      tau=tr(N-): B_Q(4) -> Qsq,                 (2)
 
-  and this map is surjective as a sheaf map. The square ideal is essential.
+  and this map is surjective as a sheaf map, with its square-image notation
+  interpreted by the pinned weighted-stack theorem above. That distinction
+  is essential at the singular vertex.
 - [PR685, 449a8df60662bd7a1d93e318ea4f7e6dab28e5ad](https://github.com/Akilleez-QA/read-em-and-weep/blob/449a8df60662bd7a1d93e318ea4f7e6dab28e5ad/research/hm/third-lift-uniqueness/PROOF.md): classified completion changes alter the raw fifth boundary by a second-symbol value. Thus its class modulo im(beta2_a), rather than its raw representative, is intrinsic for the stated source data.
 
 Put f=a^4 h, a nonzero section of O_Q(10), so K|Q=fN.
@@ -70,7 +80,7 @@ for the norm. Define local sections w_i of O_Q(16) uniquely by
 
 By (5), w_j-w_i=f tau(c_ij). Let
 
-      J_f=f I_Z^2(6) subset O_Q(16),
+      J_f=f Qsq subset O_Q(16),
       C_f=O_Q(16)/J_f.
 
 The images of w_i therefore glue to a global section chi_P of C_f.
@@ -83,12 +93,12 @@ norm coset
       nu(K) in H^0(C_f)/im H^0(O_Q(16)).              (6)
 
 Integrality of Q and f!=0 make multiplication by f an isomorphism
-I_Z^2(6) -> J_f onto its image. Applying the connecting map to
+Qsq -> J_f onto its image. Applying the connecting map to
 0 -> J_f -> O_Q(16) -> C_f -> 0 and using H^1(O_Q(16))=0 yields a
 canonical isomorphism
 
       H^0(C_f)/im H^0(O_Q(16))  ~=  H^1(J_f)
-                                  ~=  H^1(I_Z^2(6)). (7)
+                                  ~=  H^1(Qsq). (7)
 
 Under (7), formula (5) proves the exact identity
 
@@ -105,7 +115,7 @@ Write V_a=im(beta2_a) subset H^1(B_Q(4)) for the actual fixed-direction
 second-symbol image. Functoriality gives a well-defined linear map
 
       bar_tau_a: H^1(B_Q(4))/V_a
-                    -> H^1(I_Z^2(6))/tau_*(V_a).     (9)
+                    -> H^1(Qsq)/tau_*(V_a).     (9)
 
 The image of beta4_a(h) under (9) is precisely the class of the norm
 coset (6), interpreted by (7), modulo tau_*(V_a). PR685 ensures that
@@ -115,16 +125,19 @@ It applies on rank-drop directions as well: no inverse or constant rank
 for beta2_a is used.
 
 A nonzero class in the right side of (9) would prove beta4_a(h)!=0.
-A zero class does not prove beta4_a(h)=0. More explicitly, put
+The trace-image theorem alone does not justify inferring beta4_a(h)=0
+from a zero shadow. More explicitly, put
 C_N=ker(tau). Exactness of
 
-      0 -> C_N -> B_Q(4) -> I_Z^2(6) -> 0
+      0 -> C_N -> B_Q(4) -> Qsq -> 0
 
-gives ker(tau_*:H^1(B_Q(4))->H^1(I_Z^2(6))) equal to the image of
+gives ker(tau_*:H^1(B_Q(4))->H^1(Qsq)) equal to the image of
 H^1(C_N). If the shadow vanishes, one can subtract a member of V_a
 from delta_5 K so that the remainder lies in this image. Therefore
 faithfulness of the shadow modulo V_a requires controlling that image;
-it is not provided by the trace-image theorem alone.
+it is not provided by the trace-image theorem alone. The additional
+pinned weighted-stack kernel cohomology, beyond this general logic, is
+addressed in a separate follow-up; no faithfulness theorem is asserted here.
 
 ## 4. What ordinary scalar cohomology forgets
 
@@ -151,9 +164,10 @@ identified with a nonzero fifth-neighborhood adjoint boundary.
 The construction gives an explicit, source-divisor-compatible scalar
 representative of the image of the actual beta4 obstruction under the
 Serre-ideal trace map, with its full second-symbol indeterminacy.
-The remaining mathematical dependency is either to determine this norm
-coset modulo tau_*(V_a), or to control the trace-kernel cohomology if one
-wants a sufficient criterion. Neither dependency is resolved here.
+Determining this norm coset modulo tau_*(V_a) remains a mathematical
+dependency. The general argument also identifies the trace-kernel
+cohomology needed for a sufficient criterion; its additional pinned
+weighted-stack input is addressed in a separate follow-up, not here.
 
 This is an authored deductive reduction. Its checks are the exact
 rank-two polarization identity, q-adic orders, twists, and the connecting
