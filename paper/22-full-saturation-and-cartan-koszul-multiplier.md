@@ -1,5 +1,7 @@
 # 22. Full (1,3) exclusion and the Cartan–Koszul multiplier
 
+**Later bounded update:** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical multiplied actual 2Q lift, exact endpoint scale, 34-pair (2,2) refinement and source-dependent operator-channel interface. Its actual coefficients, next-division comparison and fourth values remain open. This chapter retains its dated cutoff.
+
 **Checked-source cutoff: 22 October 2026, 08:05 UTC.** This chapter supersedes Chapter 21's open (1,3) profile, unevaluated C_mult, and unresolved leading weight-four affine transport. It does not supersede the higher-weight or fourth-obstruction boundaries.
 
 The general section count remains **four or five**, the finite last Smith exponent remains **4–31** (or the cokernel is permanent), and **SF ≥ 3** and positive-square rank **≥ 27** are unchanged. The original source-recovery, lifting, and algebraicity goals remain open.

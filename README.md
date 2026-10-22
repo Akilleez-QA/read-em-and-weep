@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-**Published-source cutoff: 08:05 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
+**Published-source cutoff: 08:15 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
 
 ## The problem and current theorem
 
@@ -19,13 +19,13 @@ The positive cohomology map has source dimension 41 and target dimension 37. Its
 
 ## What changed at this cutoff
 
-[Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) records four new conclusions and their limits:
+[Chapter 23](paper/23-canonical-multiplied-lift-and-endpoint-scale.md) adds three bounded advances:
 
-1. **The entire (1,3) Gauss profile is excluded**, using the full saturated derivative image, not an assumption that its cubic subimage has rank three. Together with (3,1) and earlier exclusions, only (1,1), (1,2), (2,1), (2,2) remain possible. These are not realized geometries; SF ≥ 3 and square rank ≥ 27 are unchanged.
-2. **The ambient multiplier is determined:** C_mult=−χ/g_L and κ=−(χ/g_L)(a_m/b_m). A complete polynomial Cartan–Koszul homotopy solves all five coupled equations and both monad arrows. The fixed Clifford, full-trace volume, determinant and physical-equation markings are retained; no actual source coefficients are assigned values.
-3. **The leading weight-four affine error has a unique compatible gluing.** Its full transition law includes harmonic transport of the first error and the nonzero midpoint mismatch. Scalar compatibility and acyclicity close this leading problem. The next-weight midpoint normalization is now separated from endpoint transport: possible Z6, the complete η terms and the second-normal operator defect remain. Neither the full actual error nor the fourth is computed.
+1. **The multiplied nilpotent aN has a canonical square-zero lift on the actual 2Q.** Its equivariant linear physical-positive section family is explicit. The proof retains the natural source gauge, both monad arrows and full supertrace. This does not lift N itself, extend to 3Q, or perform the next division.
+2. **The endpoint scale is now explicit in the fixed markings:** c_+/k=2ρ_C g_L/(θχr) and k=θ C_ap χ/(4C_res K_cup g_L), with r=a_m/b_m. Positive-transition versus bracket signs and physical-equation covariance remain essential. The source-parametrized second-normal operator class has twelve-dimensional target and ten formal channels, canonically split five plus five; its actual coefficients and next-division comparison remain uncomputed.
+3. **The (2,2) necessary quotient list narrows from 35 to 34 pairs**, with 1,880 compatible formal records and defect zero or twelve. Exact cohomology excludes one pair; a defect-twelve cokernel is O_D(2) or O_D(6). These are not realizations and do not exclude (2,2) or improve SF ≥ 3 or square rank ≥ 27.
 
-4. **Mr. Slop’s universal family-detection scheme is exactly sixteen reduced axes.** The two exceptional channels vanish on the six C5 and ten C3 axes. The exact ideal image gives a rank-six torsion-free quotient, a sign-twisted residue lifting test, and division-free channel reconstruction. None identifies the actual source with an exceptional channel or evaluates the fourth.
+[Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) retains the full (1,3) exclusion, C_mult=−χ/g_L, leading affine gluing and Mr. Slop’s sixteen-axis detection and residue reconstruction. None evaluates the fourth.
 
 ## The exact remaining obstruction
 
@@ -55,7 +55,7 @@ The new normalization χ̄=−Bλ/(4ν²)n_ap belongs to the fixed midpoint pair
 
 ## Gauss geometry and separate comparison problems
 
-The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), (3,1), and now (1,3) maximal profiles. This narrows the rank-three geometry but does not exclude every remaining profile or prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [full (1,3) closure](paper/22-full-saturation-and-cartan-koszul-multiplier.md#222-full-saturation-excludes-the-entire-13-profile).
+The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), (3,1), and now (1,3) maximal profiles. The remaining possible profiles are (1,1), (1,2), (2,1), (2,2), not realized geometries. This does not prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [full (1,3) closure](paper/22-full-saturation-and-cartan-koszul-multiplier.md#222-full-saturation-excludes-the-entire-13-profile).
 
 On the full P¹⁴ of quadrics, the actual primary and residual flanks are generically good on a common dense open containing smooth quadrics. A canonical 20-to-20 extension boundary remains; good flanks do not prove it invertible. This full-family problem is distinct from the inversion-even theorem. [Primary and Rao reductions](paper/07-primary-and-rao-reductions.md).
 
@@ -65,9 +65,9 @@ The finite normal-extension tower, its two-root structure and the monad-family t
 
 The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–670 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
 
-Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) for the latest bounded update. The [twenty-two-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
+Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 23](paper/23-canonical-multiplied-lift-and-endpoint-scale.md) for the latest bounded update. The [twenty-three-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
 
-The latest included PR543 source is 3d21e93865152ec961ceaf32d48f845399158b69. Chapter 22 pins each new proof and verifier, including the whole-profile exclusion, leading affine closure and independent Cartan–Koszul audit. PR666 remains pinned to 0fc85f297a62c7be473a8da9ad992bb84706f8f2 and PR667 to 7d53ea234b99b75e89a29c4caba7ec564e134410. Mr. Slop’s checked PR668–670 are pinned in Chapter 22: reduced detection, C2 exclusion, and exact residue/reconstruction theorems. The next-weight midpoint/endpoint interface is included at 3d21e93865152ec961ceaf32d48f845399158b69; later unaudited lift/operator notes are not included.
+The latest included PR543 source is 10df28e8c87f5c9d156e394f235f6b00e34144d0; the canonical lift and scale are pinned at 3333cce744b3bd8e4472969f599588fec3e20d52, and the base (2,2) theorem at fa239126cdfe19839a54e89a3d2911e5be476fcb. Chapter 23 gives each immutable proof, verifier and compact distribution. Chapter 22 preserves the earlier pins, including Mr. Slop’s checked PR668–670. Later unpublished lift-coherence work is excluded.
 
 These are authored mathematical arguments with supplementary universal identity and character checks, not proof-assistant certificates. No selected Horrocks-Mumford coefficients or actual matrix-rank experiments are used for the summarized conclusions. This working edition is modular Markdown; no PDF is part of it.
 
