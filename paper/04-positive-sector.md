@@ -69,7 +69,120 @@ At a direction where β₂ has rank three, its surviving source is D5 and its ta
 
     (q₀ + ta)(hξ − thζₐ + t²vₕ) = t³avₕ.
 
-The next class is [avₕ] modulo im β₂. Changing the second correction affects the q₀-cokernel through β₁ = 0; changing the first correction accounts for the quotient by im β₂. This explains the next canonical gate but does not prove it nonzero. The paper stops at the established four-or-five theorem.
+The next class is [avₕ] modulo im β₂. Changing the second correction affects the q₀-cokernel through β₁ = 0; changing the first correction accounts for the quotient by im β₂. This explains the next canonical gate but does not prove it nonzero. The section-count conclusion remains the established four-or-five theorem; the following reductions do not strengthen that bound.
+
+## 4.7 The third obstruction as an actual secondary multiplication tensor
+
+Put M_j = H¹(B(j))₊, K = ker(q₀:M₂→M₄), P = coker(q₀:M₂→M₄), and C = coker(q₀:M₀→M₂). Here P is the four-dimensional cokernel representation, not projective space; C is a lower cokernel, not the line configuration of Section 7.
+
+The cone square-filtration theorem has the ambient consequence
+
+    hM₂ ⊂ q₀M₂   for every h ∈ D5.
+
+Indeed restriction commutes with multiplication, the product vanishes on the cone, and exactness identifies the kernel of restriction from M₄ with q₀M₂. No surjectivity of the lower restriction is needed. This defines a canonical actual tensor
+
+    Ψ: A ⊗ D5 ⊗ C → P,
+    Ψ(a,h,[x]) = [av],   where q₀v = hx.
+
+Changing v by k ∈ K changes the output by [ak] = 0, using first-Bockstein vanishing. Changing x by q₀y changes it by [ahy] = 0, using hM₂ ⊂ q₀M₂. These are separate independence checks. The operation uses division in the actual ambient module, not just the cone's ordinary-square ideal.
+
+The third obstruction is consequently
+
+    β₃,ₐ(hξ) = Ψ(a,h,[aζₐ]) modulo im β₂,ₐ.
+
+The quadratic family a ↦ [aζₐ] has no invariant component because C = V ⊕ 3P4 ⊕ 3D5 has no trivial constituent. It probes a particular actual D5-valued family inside C, not an arbitrary class. Nonvanishing of its square-boundary image does not prove that Ψ detects it. This is a reduction of the actual third gate, not its solution. [Secondary multiplication theorem][T].
+
+## 4.8 A distinct endpoint: squares as a Gauss derivative
+
+Let T = P(W*) parametrize negative hyperplanes H_ℓ. The uniform hyperplane results give actual multiplication maps
+
+    M₂,₊ → M₃,₋ → M₄,₊,
+    dimensions 41 → 54 → 37,
+
+where both arrows multiply by ℓ, the first is injective, and the second is surjective. The actual plane-restriction sequence is
+
+    0 → E → V₃₀ ⊗ O_T → D_lin(1) → 0,
+    rank E = 17,  deg E = −54,
+    rank D_lin = 13,  deg D_lin = 41.
+
+Here V₃₀ denotes the constant thirty-dimensional plane-section space, not the representation V used earlier. Its second fundamental form is SF:E→D_lin(−1), because Ω_T = O_T(−2).
+
+The comparison is an identity of actual maps. Locally ℓ = u + zv, and a section k with ℓk = 0 represents the plane-section class (k,zk) in the Koszul quotient. The quotient map is [(x,y)] ↦ [y−zx] modulo ℓM₂,₊. Applying it to the derivative of (k,zk) gives [k]. This is exactly the middle map ker(ℓ:M₃,₋→M₄,₊) → coker(ℓ:M₂,₊→M₃,₋) in the composition exact sequence. Therefore, with natural parameter-line factors understood,
+
+    rank(ℓ²:M₂,₊→M₄,₊) = 24 + rank SF_ℓ.
+
+This endpoint map ℓ² is different from the invariant-cone smoothing map q₀ + tℓ². A bound for one must not be substituted for a bound for the other. [Actual Gauss comparison][A].
+
+## 4.9 A saturated flag excludes generic Gauss rank one
+
+Two actual presentations give H⁰(E) = 0 and H⁰((D_lin(1))*) = 0. Thus E contains no nonzero constant subbundle, and its fibers span the entire constant thirty-space.
+
+Suppose SF had generic rank one. Taking sheaf kernels backward and saturated derivative images forward constructs a complete flag F_i of subbundles of V₃₀ ⊗ O_T, with rank F_i = i and F₁₇ = E. It cannot terminate early: a derivative-invariant saturated subbundle is constant in characteristic zero, contradicting one of the two preceding vanishings. Every adjacent derivative is a nonzero regular map
+
+    L_i → L_(i+1) ⊗ O_T(−2),   L_i = F_i/F_(i−1).
+
+Writing d_i = deg L_i, its zero divisor has degree δ_i = d_(i+1) − d_i − 2 ≥ 0. The identity Σd_i = 0 then gives, in general ambient rank N and intermediate rank r,
+
+    N deg F_r = −Nr(N−r)
+      −(N−r) Σ_(j<r) jδ_j − r Σ_(j≥r) (N−j)δ_j.
+
+Hence deg F_r ≤ −r(N−r). For N = 30 and r = 17, rank one would force deg E ≤ −221, contradicting deg E = −54. Rank zero would make E constant and is also impossible. Therefore SF has generic rank at least two, so the actual square endpoint has generic rank at least 26. Equivalently, its positive kernel has dimension at most fifteen and cokernel at most eleven. Saturation ensures that ramification contributes nonnegative zero-divisor terms, not hidden poles. These are generic bounds; rank may drop at special parameters. [Flag-degree proof][L].
+
+This new square-endpoint bound does **not** improve the established rank-36 smoothing bound or the four-or-five section theorem. Rank thirteen for SF would suffice for positive endpoint surjectivity and hence generic surjectivity of the smoothing pencil, but rank thirteen is not proved. The tensor formula likewise does not establish third-Bockstein nonvanishing. Both are additional exact routes to the still-open final rank.
+
+## 4.10 Complete rank-two exclusion by endpoint flags
+
+Suppose provisionally that SF has generic rank two. Its maximal saturated rank-two plateau has k blocks below E and l above it, with 1 ≤ k ≤ 8 and 1 ≤ l ≤ 6. The lower endpoint rank and upper endpoint codimension are p = 17−2k and q = 13−2l. These are conditional invariants of a hypothetical rank-two case, not measured ranks of a chosen instance.
+
+The projective A₅ action on the parameter line has exceptional orbit lengths 12, 20 and 30; ordinary orbits have length 60. Consequently every effective invariant derivative-determinant divisor has degree in the semigroup generated by 12, 20 and 30. Saturated endpoint spans and the rank-one flag inequality strengthen the plateau bound to
+
+    54 ≥ 17l + 13k − 2kl.
+
+Only (1,1), (1,2), (2,1), (2,2) and (3,1) survive this inequality. The orbit divisors then exclude (2,2): its lower endpoint would require ramification weight 34, whereas the least positive permitted weight is 48. For (3,1), the endpoint flag is forced unramified; projection to its constant span gives a rank-fourteen kernel of degree at least −18. The actual vanishing H⁰(E(1)) = 0 instead forces that kernel's degree to be at most −28, a contradiction. The projection argument allows torsion between an image and its saturation; it does not assume a horizontal splitting.
+
+The earlier orbit-ramification theorem reduces the necessary list to
+
+    (k,l) ∈ {(1,1), (1,2), (2,1)}.
+
+The [earlier theorem][O2] stops at this list. The [completed endpoint-flag theorem][E2] now excludes all three profiles, as follows.
+
+Let U and Z be the constant spans of the lower endpoint and upper dual endpoint. A diagonal-contact lemma for their complete rank-one flags proves that either U and Z are orthogonal with the minimum possible dimensions, or both first-line degrees exceed a large contact threshold. The nonorthogonal alternative contradicts the plateau degree identity and the complete-flag ramification arithmetic in each of the three profiles. In particular the argument retains both the weighted ramification equation and the even-integral first-line degree condition, rather than using dimensions alone.
+
+In the orthogonal alternative, saturation and the absence of constant subbundles give exact intersections between each plateau stage and U. The resulting projection of E has a saturated image P and an actual image I. Its torsion length τ belongs to ⟨12,20,30⟩, and the degree identity is
+
+    54 = D_C + D_B + τ.
+
+For (2,1), the lower bound from H⁰(E(1)) = 0 forces equality in the upper rank-one degree bound. The upper flag would then have odd line degrees, contradicting its center-even linearization. For (1,1) and (1,2), τ is smaller than 12, so τ = 0. This gives an actual equivariant exact sequence, not a claimed horizontal or direct-sum splitting.
+
+For (1,1), the five remaining pairs (D_C,D_B) are (32,22), (34,20), (36,18), (38,16), and (42,12). The required injections W ⊗ U → Sym^(D_C+1)W and Z → Sym^D_B W impose disjoint exact character conditions on every possible dimension-seventeen submodule U of the actual constant representation. All five pairs are impossible.
+
+For (1,2), only (38,16) and (42,12) remain. The upper line quotient determines U, while the final two lower flag lines determine its twisted quotient cohomology. The exact sequence would give, respectively,
+
+    H¹(E(1)) = W + W′ + S₄ + 2T₆,
+    H¹(E(1)) = W + 3S₄ + T₆.
+
+Neither equals the independently established actual character W′ + 3T₆. This excludes the last two possibilities without assuming the numerical flag data are geometrically realizable.
+
+Combining these exclusions with the rank-zero and rank-one arguments gives the generic bounds
+
+    rank SF ≥ 3,
+    rank(ℓ²:M₂,₊→M₄,₊) ≥ 27.
+
+Thus the square-endpoint positive kernel has dimension at most fourteen and its cokernel at most ten. Rank thirteen for SF, positive-square surjectivity, and the last smoothing obstruction remain unproved. **The generic section-count theorem remains four or five.** The [reproduction script][E2V] checks bounded flag arithmetic and exact representation characters; the geometric diagonal-contact, saturation, and projection arguments remain mathematical proofs in the cited text, not claims of formal verification.
+
+## 4.11 The fixed actual cubic probe has zero normal variation
+
+Hold the actual probe t(a) = [aζ_a] fixed while varying the first-normal extension in its affine torsor. The exact first-normal-to-cubic variation map L is zero; its kernel is the entire one-dimensional normal direction. This holds already for the unquotiented variation of Ψ(a,h,t(a)) in P, before passing to the quotient by the actual second-symbol image. [Fixed-probe variation theorem][CV].
+
+The Serre symmetry of Section 8.8 exchanges the two extendable normal points and acts on the affine torsor by J(s) = s_* − s. Its action on P is +1: the intrinsic cover-degree-eight square-filtration character and the adjoint-quotient character are both −1, and cancel. The fixed actual probe t(a) instead has character −1. Indeed the scalar block transformation commutes with the orbit-tangent field D_a, so naturality fixes its restricted Atiyah class ζ_a; the negative quadratic multiplier a has character −1. The positive quadratic h is fixed.
+
+Naturality and trilinearity therefore give
+
+    Ψ_s(a,h,t(a)) = Ψ_(s_*−s)(a,h,t(a)).
+
+The independently established dependence on s is affine, even before quotienting. Writing it as V₀+sV₁ forces V₁=0 in characteristic zero. The target action preserves the actual second-symbol quotient, so L=0 follows there too. The [symbolic verifier][CVV] checks these sign and affine identities, not the geometric identifications.
+
+**Zero variation is not zero actual cubic.** Its absolute value is constant along this auxiliary torsor when this fixed actual probe is used, but that constant remains unknown. Separately normalized probes for the two ambient bundles are not silently identified. Consequently injectivity of this particular variation map is now excluded as a route to actual cubic nonvanishing. An absolute secondary multiplication argument or a different geometric exclusion is still required; the four-or-five theorem is unchanged.
 
 ## Pinned source references
 
@@ -79,3 +192,15 @@ The next class is [avₕ] modulo im β₂. Changing the second correction affect
 [S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md
 [N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9f28cb10c38d7a0e29c1eb994594325fea7f22bf/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md
 [G]: https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md
+
+[T]: https://github.com/Akilleez-QA/read-em-and-weep/blob/09b0018bf1f36bcea641c115558ba637f6d63075/research/hm/order-four-quadratic-load/POSITIVE-THIRD-SECONDARY-MULTIPLICATION-TENSOR.md
+[A]: https://github.com/Akilleez-QA/read-em-and-weep/blob/02ed933bc3474804560159a71f3a3df5b3b76177/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md
+[L]: https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md
+
+[O2]: https://github.com/Akilleez-QA/read-em-and-weep/blob/59d0962d952fe2dd9d381c06d47361a469fe68f2/research/hm/order-four-quadratic-load/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md
+
+[E2]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md
+[E2V]: https://github.com/Akilleez-QA/read-em-and-weep/blob/162850b7cf3b00b4bc0edff002bcdaceb321515f/research/hm/order-four-quadratic-load/verify_rank_two_gauss_exclusion.py
+
+[CV]: https://github.com/Akilleez-QA/read-em-and-weep/blob/94ba164f156d712d251655f386a173d84ae04b35/research/hm/order-four-quadratic-load/POSITIVE-CUBIC-NORMAL-VARIATION-VANISHES-BY-SERRE-INVOLUTION.md
+[CVV]: https://github.com/Akilleez-QA/read-em-and-weep/blob/03c106e8bc2508eb8ea6cfa94d33be6fbe44926e/research/hm/order-four-quadratic-load/verify_positive_cubic_normal_involution.py
