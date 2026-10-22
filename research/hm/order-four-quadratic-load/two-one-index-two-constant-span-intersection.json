@@ -1,0 +1,490 @@
+{
+  "scope": "Source2 constant-span intersection and genuine constant-quotient residual; no label exclusion.",
+  "id": "G3.21.d610e381ed75",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "EQUALITY-GAUSS-ENVELOPES-FORCE-RATIONAL-NORMAL-SUBBUNDLES.md": "cc64326df0b4c5d3b35a195a994f1faf397cac88ec377d608aac56b29f4fb9db",
+    "TWO-ONE-INDEX-TWO-DUAL-RANK-FOUR-RESIDUAL.md": "12a381971cc8b418212dd627fc875aeff7d3000de93c9a8f3a64569ba1cedb6f"
+  },
+  "equality_commit": "3349988b5c3fc82dbca0741fc1b5fe70af1c7d0d",
+  "dual_residual_commit": "92c1580998dd5476458e32d8d6c2ca14a9c55edb",
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "E_degree_window": [
+    -22,
+    -2
+  ],
+  "H1_E_minus_one": [
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    3,
+    0,
+    6
+  ],
+  "H1_E": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    4,
+    0,
+    3,
+    0
+  ],
+  "all_eligible_E_blocks": [
+    {
+      "degree": -18,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -10,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 1
+    },
+    {
+      "degree": -9,
+      "irrep": "W",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 1
+    },
+    {
+      "degree": -8,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -8,
+      "irrep": "A",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        3
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -7,
+      "irrep": "W",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -6,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -5,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -4,
+      "irrep": "V",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -4,
+      "irrep": "P",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -3,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -3,
+      "irrep": "T",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "V",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "P",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "D",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_W_minus_nine": 0
+    }
+  ],
+  "only_nonzero_Hom_support": [
+    [
+      -10,
+      "one",
+      1
+    ],
+    [
+      -9,
+      "W",
+      1
+    ]
+  ],
+  "forced_E_summand": [
+    -9,
+    "W"
+  ],
+  "E_projection_kernel": {
+    "rank": 15,
+    "degree": -36,
+    "degree_window": [
+      -8,
+      -2
+    ]
+  },
+  "intersection": "Qstar intersect V0=Sym8 W O(-2)=U",
+  "constant_quotient_residual": {
+    "rank": 4,
+    "degree": -36,
+    "saturated": true,
+    "ambient_rank": 19,
+    "contains_projected_L_rank": 2
+  },
+  "no_identification_of_projected_L_with_Gauss_kernel": true,
+  "realization_claimed": false
+}
