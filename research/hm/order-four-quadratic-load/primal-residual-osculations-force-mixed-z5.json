@@ -1,0 +1,787 @@
+{
+  "scope": "Actual residual osculation forces only mixed Z5 for both remaining primal equality labels; no label exclusion or realization.",
+  "source_hashes": {
+    "PRIMAL-EQUALITY-CONSTANT-SPAN-INTERSECTION.md": "fab32f62c3979dbdea775b6de48e2f98912cbc32577576333e8e609da2e104f0",
+    "primal-equality-constant-span-intersection.json": "c6b91aa7361eee65687875acb4fc771463e49b31c52981b0120747519358a543",
+    "PRIMAL-EQUALITY-RESIDUAL-FILTRATIONS-REMOVE-BOUNDARY-STRATA.md": "c96492d46c900920337d2622cfa69e04c352ed77bf23c9d9e60de7a2720768c0",
+    "EQUALITY-GAUSS-ENVELOPES-FORCE-RATIONAL-NORMAL-SUBBUNDLES.md": "cc64326df0b4c5d3b35a195a994f1faf397cac88ec377d608aac56b29f4fb9db",
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "PRIMAL-EQUALITY-HAS-SIX-RESIDUAL-QUOTIENT-PARAMETER-SPACES.md": "de06847ba55aae35effb6ad394de4792b5c8813d48dbee35b4c1bed79935afa6"
+  },
+  "ids": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9"
+  ],
+  "Qprime_H1_minus_one": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    4
+  ],
+  "Qprime_H1_zero": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    3,
+    0
+  ],
+  "complete_Qprime_block_overlist": [
+    {
+      "degree": -18,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "degree": -16,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -11,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "degree": -10,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -8,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -7,
+      "irrep": "W",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -6,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -6,
+      "irrep": "A",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -5,
+      "irrep": "W",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -5,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -4,
+      "irrep": "one",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -4,
+      "irrep": "V",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -4,
+      "irrep": "P",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -3,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -3,
+      "irrep": "T",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -2,
+      "irrep": "V",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -2,
+      "irrep": "P",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -2,
+      "irrep": "D",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "degree": -1,
+      "irrep": "Wp",
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -1,
+      "irrep": "S",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "degree": -1,
+      "irrep": "T",
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "Qprime_minimum_degree": -18,
+  "actual_projected_filtration": [
+    {
+      "j": 0,
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "j": 1,
+      "rank": 5,
+      "degree": -30
+    },
+    {
+      "j": 2,
+      "rank": 4,
+      "degree": -28
+    },
+    {
+      "j": 3,
+      "rank": 3,
+      "degree": -24
+    },
+    {
+      "j": 4,
+      "rank": 2,
+      "degree": -18
+    },
+    {
+      "j": 5,
+      "rank": 1,
+      "degree": -10
+    },
+    {
+      "j": 6,
+      "rank": 0,
+      "degree": 0
+    }
+  ],
+  "actual_descended_symbols": [
+    {
+      "source_quotient_j": 2,
+      "target_quotient_j": 1,
+      "source_degree": -2,
+      "target_degree_with_Omega": -2,
+      "isomorphism_from_equality": true
+    },
+    {
+      "source_quotient_j": 3,
+      "target_quotient_j": 2,
+      "source_degree": -4,
+      "target_degree_with_Omega": -4,
+      "isomorphism_from_equality": true
+    },
+    {
+      "source_quotient_j": 4,
+      "target_quotient_j": 3,
+      "source_degree": -6,
+      "target_degree_with_Omega": -6,
+      "isomorphism_from_equality": true
+    },
+    {
+      "source_quotient_j": 5,
+      "target_quotient_j": 4,
+      "source_degree": -8,
+      "target_degree_with_Omega": -8,
+      "isomorphism_from_equality": true
+    },
+    {
+      "source_quotient_j": 6,
+      "target_quotient_j": 5,
+      "source_degree": -10,
+      "target_degree_with_Omega": -10,
+      "isomorphism_from_equality": true
+    }
+  ],
+  "osculations": [
+    {
+      "order": 0,
+      "rank": 1,
+      "degree": -10,
+      "identified_with": "N5"
+    },
+    {
+      "order": 1,
+      "rank": 2,
+      "degree": -18,
+      "identified_with": "N4"
+    },
+    {
+      "order": 2,
+      "rank": 3,
+      "degree": -24,
+      "identified_with": "N3"
+    },
+    {
+      "order": 3,
+      "rank": 4,
+      "degree": -28,
+      "identified_with": "N2"
+    },
+    {
+      "order": 4,
+      "rank": 5,
+      "degree": -30,
+      "identified_with": "N1"
+    },
+    {
+      "order": 5,
+      "rank": 6,
+      "degree": -30,
+      "identified_with": "N0"
+    },
+    {
+      "order": 6,
+      "rank": 7,
+      "degree": -28,
+      "identified_with": "Y=preimage of O2"
+    }
+  ],
+  "constant_span_alternatives": [
+    {
+      "irreps": [
+        "A",
+        "D"
+      ],
+      "dimension": 8
+    },
+    {
+      "irreps": [
+        "V",
+        "D"
+      ],
+      "dimension": 8
+    },
+    {
+      "irreps": [
+        "A",
+        "V",
+        "D"
+      ],
+      "dimension": 11
+    }
+  ],
+  "proper_eight_dimensional_span_excluded_by_annihilator_degree": -28,
+  "forced_constant_span": [
+    "A",
+    "V",
+    "D"
+  ],
+  "forced_residual_Z": [
+    [
+      -4,
+      "V"
+    ],
+    [
+      -4,
+      "P"
+    ],
+    [
+      -8,
+      "one"
+    ]
+  ],
+  "forced_N": [
+    [
+      -5,
+      "T"
+    ]
+  ],
+  "forced_E": [
+    [
+      -2,
+      "P"
+    ],
+    [
+      -2,
+      "D"
+    ],
+    [
+      -4,
+      "V"
+    ],
+    [
+      -4,
+      "P"
+    ],
+    [
+      -8,
+      "one"
+    ]
+  ],
+  "retained_residual_type": "Z5",
+  "retained_scalar_condition": "a != 0 and alpha*beta != 0",
+  "removed_residual_types": [
+    "Z1",
+    "Z2",
+    "Z3",
+    "Z4"
+  ],
+  "no_identification_N_equals_Z_Gauss_kernel": true,
+  "no_new_label_exclusions": true,
+  "realization_claimed": false
+}
