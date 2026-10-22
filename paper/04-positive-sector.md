@@ -292,3 +292,6 @@ At the 05:54 UTC cutoff, the rank-two dual-image branch has only (6,2) and (8,2)
 
 
 At the 06:18 UTC cutoff, the complete (6,2) exclusion leaves only (8,2) in the rank-two branch. Its exact positive-tail reduction gives twenty necessary K splittings, and the doubled-Wprime descent excludes nine, leaving eleven. This is a different counting unit from the earlier quotient/type pairs. The rank-one branch, entire (3,1) profile, SF≥3 and positive-square rank≥27 are unchanged. [Chapter 19.6–19.7](19-actual-endpoint-values-and-last-gauss-quotient.md#196-four-quotient-shapes-excluded).
+
+
+At the 06:38 UTC cutoff, all five rank-two dual-image quotient shapes are excluded. The rank-one branch has ten necessary first quotients, seven with e=9 and three with e=11. The whole (3,1) profile remains open, with no improvement to SF≥3 or square rank≥27. [Chapter 20.6–20.7](20-reconstructed-endpoint-and-rank-one-frontier.md#206-the-entire-rank-two-gauss-branch-is-excluded).

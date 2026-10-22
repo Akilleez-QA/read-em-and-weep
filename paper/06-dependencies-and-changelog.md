@@ -380,3 +380,14 @@ Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of t
 - Applied the actual nonzero result to Mr. Slop’s PR662 whole-fiber theorem and PR661 square-secant detection. The all-direction actual corollary is pinned at 229e621948e9f6d80902080ad227993da3f0dced. Individual source values and nonsquare secant restrictions are not asserted nonzero.
 - Integrated the whole (6,2) exclusion and the twenty-splitting reduction at fb574c01, followed by the nine-case doubled-sector exclusion at 229e621948e9f6d80902080ad227993da3f0dced. Only (8,2) with eleven necessary K splittings remains in the rank-two branch. Earlier pair counts and current splitting counts are explicitly distinguished.
 - The actual third Bockstein remains zero, the fourth remains unevaluated, generic sections remain four or five and the exponent remains 4–31 or permanent cokernel. The rank-one Gauss branch and original source/lifting/algebraicity goals remain open. Later normal-scale and higher-division work is outside this cutoff. Archive and licensing remain unchanged.
+
+
+## 22 October 2026, 06:38 UTC: complete lower endpoint and rank-one frontier
+
+- Added Chapter 20, bringing the paper to twenty modular Markdown chapters under Craig Ward's authorship. Updated current navigation; preserved historical chapter bodies with a Chapter 19 supersession link.
+- Integrated the canonical P4 residue, complete two-tensor endpoint reconstruction, both nonzero corrected involution components, parity nonvanishing, apolar Euler coefficient, retained first-normal error and actual scale/sign comparison at 32159567cda4d4ec0d5540eb36fe335001436b61. The ambient κ remains unevaluated. Lower endpoint P4 is not the higher-obstruction target.
+- Credited Mr. Slop's independent PR665 parity-position and intrinsic reconstruction at 1cc13d0bf21abc6553c51a48c72896758cbc333a, separately from the explicit tensor calibration.
+- Integrated the complete last rank-two Gauss exclusion and ten necessary rank-one first quotients at 140e6d8a7654017188eb2aeaf3cc294ec3b6495c. Five rank-two quotient shapes are now excluded; seven e=9 and three e=11 rank-one shapes remain necessary, not realized.
+- The fourth value, whole (3,1) profile and original source/lifting/algebraicity goals remain open. Generic sections remain four or five, finite exponent 4–31 or permanent cokernel, SF≥3 and square rank≥27. Later unpublished scale reductions, marked exchange and further rank-one exclusions are outside this cutoff. Archive, LICENSE and frozen source material are unchanged.
+
+See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the immutable proof links, explicit formulas and their limits.

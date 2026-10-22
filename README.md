@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 06:18 UTC (22 October, 02:18 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35, canonical fourth-input results at 4e16e69 and lower comparison/test at c85c756, absolute lower sources at a90d2ddd and trace/reconstruction/envelopes at c9c54d50 and smallest Gauss quotient exclusion at 0a95ace9, actual nilpotent trace/wedge results at 74feee62 and actual cone lift/last-low Gauss exclusion at 30bed21a, actual endpoint values and (6,2) exclusion at fb574c01, all-direction endpoint corollary and doubled-sector exclusion at 229e621948e9f6d80902080ad227993da3f0dced; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–662; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 06:38 UTC (22 October, 02:38 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35, canonical fourth-input results at 4e16e69 and lower comparison/test at c85c756, absolute lower sources at a90d2ddd and trace/reconstruction/envelopes at c9c54d50 and smallest Gauss quotient exclusion at 0a95ace9, actual nilpotent trace/wedge results at 74feee62 and actual cone lift/last-low Gauss exclusion at 30bed21a, actual endpoint values and (6,2) exclusion at fb574c01, all-direction endpoint corollary and doubled-sector exclusion at 229e621948e9f6d80902080ad227993da3f0dced; reconstructed endpoint and scale at 32159567cda4d4ec0d5540eb36fe335001436b61, complete rank-two Gauss exclusion and rank-one ten-quotient reduction at 140e6d8a7654017188eb2aeaf3cc294ec3b6495c, parallel intrinsic endpoint reconstruction PR665 at 1cc13d0bf21abc6553c51a48c72896758cbc333a; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–662; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -42,7 +42,7 @@ The entire fourth D5 family is determined by its first ideal-sheaf jet at one se
 
 The full corrected C5-square lower source is nonzero, already in the canonical realization Cminus≅H⁰(D,O_D(−2,10)). Absolute midpoint and Atiyah sections recover the previously lost polynomial-nine data. A global trace null-homotopy isolates the secondary endpoint P4, whose actual normal variation is now nonzero; its nilpotent square-shadow component must still be retained in the adjoint lift. Secant restriction plus parameter trace reconstructs lower families as 13→11+2, while the two endpoint channels restrict isomorphically as 2→2. None of these results evaluates a fourth coefficient.
 
-Mr. Slop’s PR659 gives a complementary secant-plus-C5-square 3+1 fourth-family test, distinct from the axis ideal-jet test. Separately, exact Gauss kernels now exclude four of the five rank-two quotient shapes: (4,2),(6,4),(8,4),(6,2). Only (8,2) remains, with eleven necessary K splittings after its twenty-case reduction and nine-case exclusion. These are necessary configurations, not realized geometries or an overall completion percentage. The rank-one branch remains open. [Current endpoint and Gauss results](paper/19-actual-endpoint-values-and-last-gauss-quotient.md).
+Mr. Slop’s PR659 gives a complementary secant-plus-C5-square 3+1 fourth-family test, distinct from the axis ideal-jet test. Separately, the entire rank-two dual-image Gauss branch is now excluded. Ten necessary first quotients survive in the rank-one branch; the whole (3,1) profile remains open. [Current endpoint and Gauss results](paper/20-reconstructed-endpoint-and-rank-one-frontier.md).
 
 ## Actual cone lift and nonzero nilpotent trace
 
@@ -53,6 +53,10 @@ Mr. Slop’s PR660 replaces the full axis jet supplement to secant fourth-family
 ## Actual endpoint values and all-direction detection
 
 For a=t², the actual lower endpoint sends X⁴ to zero and XY³ to c_eta·3k/(Bc)[Y/z], a nonzero global class with its unknown nonzero normal scale retained. Full trace lifts and a global dual residue establish these values. The invariant normal line therefore injects into the two-dimensional endpoint-family space. Combining this actual nonzero result with Mr. Slop’s PR662 excludes a zero entire endpoint map at every nonzero parameter direction; PR661 gives nonzero square-secant restriction at every square. This does not assert nonzero values on every source vector or nonsquare secant, and it is not the fourth obstruction. [Actual endpoint theorem and limits](paper/19-actual-endpoint-values-and-last-gauss-quotient.md).
+
+## Complete endpoint reconstruction and current Gauss frontier
+
+The complete actual quadratic lower endpoint family is now reconstructed, with its canonical P4 residue and a common nonzero but unevaluated normal scale retained. At the detecting input both corrected lower involution components are nonzero, and both parity coefficients occur. The absolute scale comparison retains the unevaluated ambient κ and opposite bracket/positive-transition signs. These are lower-source results, not a fourth Bockstein value. The entire rank-two dual-image Gauss branch is excluded; its rank-one branch has ten necessary first quotients, seven with e=9 and three with e=11. They are not realized geometries. The whole (3,1) profile, fourth value and original repair remain open; SF≥3 and square rank≥27 are unchanged. [Chapter 20](paper/20-reconstructed-endpoint-and-rank-one-frontier.md).
 
 ## New higher-obstruction reductions
 
@@ -114,6 +118,7 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Absolute lower source and secondary endpoint](paper/17-absolute-lower-source-and-secondary-endpoint.md)
 - [Actual cone lift and nonzero nilpotent trace](paper/18-actual-cone-lift-and-nilpotent-trace.md)
 - [Actual endpoint values and last Gauss quotient](paper/19-actual-endpoint-values-and-last-gauss-quotient.md)
+- [Reconstructed endpoint and rank-one Gauss frontier](paper/20-reconstructed-endpoint-and-rank-one-frontier.md)
 
 ## Repository layout and provenance
 
