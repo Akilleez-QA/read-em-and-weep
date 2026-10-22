@@ -1,5 +1,7 @@
 # 14. Conditional square-gate osculation and vertex geometry
 
+**Current status.** [Section 15](15-third-vanishing-and-fourth-frontier.md) proves the actual square third channel zero. Section 14.1 preserves a valid conditional theorem with an excluded antecedent, not a degree-eighteen curve constructed from the actual gate. The local vertex calculation remains unconditional.
+
 ## 14.1 A degree-eighteen series, conditional on a nonzero square channel
 
 Let Δ=P(W) be the discriminant conic under the quadratic Veronese Δ→P(A). Here O_Δ(1) means O_(P(W))(1), not the plane hyperplane restriction. The second symbol has rank three everywhere on Δ, and the actual third gate restricts to
@@ -25,7 +27,7 @@ All five vanishing orders are at most five, so the fifth-principal-parts evaluat
 
     0 → D5 O_Δ → J⁵(O_Δ(18)) → O_Δ(78) → 0.
 
-The quotient degree is 18+16+14+12+10+8=78. Any independently established excess ramification, basepoint or failure of immersion would therefore force b=0. None is supplied here. Nor would b=0 eliminate the discriminant-divisible cubic channel or later Bocksteins. Compare the conditional plane fixed-divisor classification in [Section 12.7](12-harmonic-cochain-and-family-gate.md#127-conditional-fixed-divisor-classification-for-a-nonzero-third-gate).
+The quotient degree is 18+16+14+12+10+8=78. Any independently established excess ramification, basepoint or failure of immersion would therefore force b=0. No such osculation contradiction is supplied here. Instead Section 15 proves b=0 by the actual cup calculation and basepoint argument, and separately kills the discriminant-divisible channel. Later Bocksteins remain open. Compare the conditional plane fixed-divisor classification in [Section 12.7](12-harmonic-cochain-and-family-gate.md#127-conditional-fixed-divisor-classification-for-a-nonzero-third-gate).
 
 ## 14.2 The vertex double point contributes no missing local term
 
@@ -41,7 +43,7 @@ This does not decide whether there is a fifth section. The missing question is a
 
 Inversion has determinant −1 on the nondegenerate four-space at this vertex and exchanges the two cone rulings, hence the two small resolutions. A calculation on a single ruling is not automatically a positive-parity calculation. The vertex is also constrained to the distinguished jumping line, so generic-translate avoidance results for general cones do not apply without a new argument.
 
-Moreover every cone in this square family is inversion-even and has positive index four. A general full-adjoint balancedness statement cannot replace the desired vanishing of h¹(B_Q(4))₊. The osculation constraints, node calculation and unchanged index leave the actual third value and the four-or-five alternative open.
+Moreover every cone in this square family is inversion-even and has positive index four. A general full-adjoint balancedness statement cannot replace the desired vanishing of h¹(B_Q(4))₊. The osculation constraints, node calculation and unchanged index alone do not decide the third value. Its later vanishing still leaves the four-or-five alternative open.
 
 ## Pinned source reference
 

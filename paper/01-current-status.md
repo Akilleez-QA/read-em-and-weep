@@ -23,7 +23,7 @@ Its source and target dimensions are 41 and 37. The ambient section vanishings u
 
 ## 1.3 What remains open
 
-After the generic second-stage calculation, the surviving positive source is five-dimensional and the remaining target is one-dimensional. The next possible obstruction is the third Bockstein, with later Bocksteins relevant if it vanishes. A nonzero higher obstruction would force rank 37 and four sections. Persistence of the final cokernel would instead give rank 36 and five sections along that pencil. Neither alternative is decided by the results collected here.
+After the generic second-stage calculation, the surviving positive source is five-dimensional and the remaining target is one-dimensional. The actual third Bockstein is identically zero, including the extra specialized kernel line at each of the six second-symbol axes. The next possible obstruction is fourth order; if the last generic Smith factor has finite exponent e, then 4 ≤ e ≤ 31. See [Section 15](15-third-vanishing-and-fourth-frontier.md). A nonzero higher obstruction would force rank 37 and four sections. Persistence of the final cokernel would instead give rank 36 and five sections along that pencil. Neither alternative is decided by the results collected here.
 
 Even a proof of the four-section alternative would close only this adjoint gate. It would not by itself identify the required original source, construct the necessary lifting data, or prove the intended Weil class algebraic. Those require their own mathematical bridges.
 

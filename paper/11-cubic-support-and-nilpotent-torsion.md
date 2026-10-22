@@ -110,7 +110,7 @@ has exact order five and restricts to T. It is the unique five-torsion line-bund
 
 The support geometry, both split square-boundary channels, and the intrinsic nilpotent boundary provide additional structure for calculating the actual corrected residue. No comparison identifies the nonzero Picard class e or its derivative with the positive cubic value. In particular, none of these nonzero auxiliary maps proves that the specified residue survives the 32-dimensional kernel, avoids cancellation, or survives the actual second-symbol quotient.
 
-The absolute Ψ value, four-versus-five decision, and original repair remain open. The support and torsion sources are pinned to PR543; the corrected extractor is separately attributed and pinned to PR650. Their geometric proofs have independent mathematical checks, with universal verifiers for the PR543 inputs; these are not proof-assistant certificates or selected-instance coefficient/rank tests.
+The final third class is now zero by [Section 15](15-third-vanishing-and-fourth-frontier.md), while lower classes need not be zero. The fourth-or-later obstruction, four-versus-five decision, and original repair remain open. The support and torsion sources are pinned to PR543; the corrected extractor is separately attributed and pinned to PR650. Their geometric proofs have independent mathematical checks, with universal verifiers for the PR543 inputs; these are not proof-assistant certificates or selected-instance coefficient/rank tests.
 
 ## Pinned source references
 

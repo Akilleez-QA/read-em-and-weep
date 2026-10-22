@@ -147,7 +147,7 @@ Transposing via apolar forms and Serre duality gives C_e, up to a nonzero scalar
 
     ⟨τ(r,u),v⟩₂ = 24⟨u,rv⟩₄.
 
-Combining this isomorphism with Section 13.5 proves that the isolated polarized u term fills the fifteen-space. Its reduced image is V⊕P4⊕D5, with kernel 1⊕A⊕P4⊕D5 in D5_positive⊗D5_negative. The prescribed affine-frame scalar and a² terms in R are still tied to u; their sum and final second-symbol quotient are not evaluated.
+Combining this isomorphism with Section 13.5 proves that the isolated polarized u term fills the fifteen-space. Its reduced image is V⊕P4⊕D5, with kernel 1⊕A⊕P4⊕D5 in D5_positive⊗D5_negative. The prescribed affine-frame scalar and a² terms in R are still tied to u; this scalar-factor argument does not evaluate their sum or final quotient. The latter is now zero by Section 15.
 
 ## 13.7 A twelve-point polar representative
 
@@ -188,7 +188,7 @@ For c∈P4* annihilating im β₂,ₐ, put ζ=a iᵗc∈H⁰(V O_L(4)). The actu
 
 The actual dual sequences ensure that these tests annihilate both connecting subspaces as well as the second-symbol image. **For a outside the second-symbol degeneracy scheme Σ, the annihilator is one-dimensional.** Every square direction satisfies this condition, since Σ is disjoint from the discriminant conic. On Σ the criterion uses its full, possibly larger annihilator.
 
-The formula is a coordinate-independent residue in transported frames, not a selected point evaluation. If D_x,B_x instead denote raw R coefficients, the physical coefficients are D_x/ν(x) and B_x/ν(x)−D_xν′(x)/ν(x)². Thus the nonconstant physical normalization also changes the simple layer. Neither these sums nor their vanishing has been computed.
+The formula is a coordinate-independent residue in transported frames, not a selected point evaluation. If D_x,B_x instead denote raw R coefficients, the physical coefficients are D_x/ν(x) and B_x/ν(x)−D_xν′(x)/ν(x)². Thus the nonconstant physical normalization also changes the simple layer. Their global vanishing in the final third quotient is now established in [Section 15](15-third-vanishing-and-fourth-frontier.md) by an exact change of meromorphic source and the six-axis argument, rather than by discarding individual polar terms.
 
 ## 13.9 A uniform C5 simple root and a nonzero opposite-pole contribution
 
@@ -208,11 +208,11 @@ In the polar representative, R is regular at x and has zero double coefficient a
 
 The ratio comes from the symplectic pairing of the two actual cubic representations and the actual socle-annihilation identities. In abstract coefficient-line notation the symplectic relation is AD+BC=0. This is a universal tensor identity, not chosen numerical HM data. Retaining the source relation m_⊥=m_y+n_hp and the oriented coordinate is necessary for the sign and factor. Since the double coefficient at y is zero, the physical normalization contributes no derivative correction there.
 
-This contribution pairs nontrivially with the local final test ζ=a iᵗc. It does **not** evaluate the global residue sum: the contributions from the other ten poles and meromorphic coboundary cancellation remain unresolved. Hence neither Ψ nor the four-or-five theorem is settled.
+This contribution pairs nontrivially with the local final test ζ=a iᵗc. It does **not by itself** evaluate the global residue sum. [Section 15](15-third-vanishing-and-fourth-frontier.md) now proves that sum zero in the final quotient by an exact meromorphic-source comparison. The nonzero full local residue remains valid: the other contributions cancel it globally. This does not settle the four-or-five theorem.
 
-## 13.10 What is not yet evaluated
+## 13.10 What the later vanishing does and does not say
 
-The actual Gram primitive and the canonical diagonal now specify the vector cochain, including the scalar-extension correction. Neither the a² terms nor the last τ(p,Γ_sc) term can be discarded independently; their combined global class and possible cancellation remain uncomputed. The nonzero Gram composite, scalar-cup isomorphism and nonzero double coefficients do not imply a nonzero third gate: every double layer is removable. The C5 calculation also gives a nonzero full local simple residue, but the tied global sum remains to be tested.
+The actual Gram primitive and the canonical diagonal now specify the vector cochain, including the scalar-extension correction. Neither the a² terms nor the last τ(p,Γ_sc) term can be discarded independently. [Section 15](15-third-vanishing-and-fourth-frontier.md) evaluates their final third class as zero using the full formula and transported frames. The nonzero Gram composite, scalar-cup isomorphism and nonzero double coefficients do not imply a nonzero third gate: every double layer is removable. The C5 calculation also gives a nonzero full local simple residue, but its tied global sum in the final third quotient is now zero. The detecting square input even has a nonzero lower class modulo A whose cup by a is exact; zero final obstruction is not zero lower cochain.
 
 These published geometric comparisons and universal checks retain the actual bundle, nonsplit quintic relation and physical equation frame. No selected HM coefficients, actual-instance matrices or numerical ranks are evaluated. The generic four-or-five theorem and original repair status are unchanged.
 

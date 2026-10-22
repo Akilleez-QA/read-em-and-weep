@@ -1,4 +1,6 @@
-# 12. The explicit harmonic cochain and the remaining two-gate coefficient problem
+# 12. The explicit harmonic cochain and the two-gate coefficient reduction
+
+**Current status.** The reductions below retain their stated scope. [Section 15](15-third-vanishing-and-fourth-frontier.md) now evaluates both actual cubic channels as zero; the two-dimensional space of allowed channels is not itself zero.
 
 ## 12.1 What is now explicit
 
@@ -69,7 +71,7 @@ Its effect on the final gate must be kept separate. Let T:D5→P4⊗A be the uni
 
     K_T(a,h) = a⊗⟨a,T(h)⟩ − ⟨a,a⟩T(h)
 
-has zero contraction with a, but quadratic parameter trace −2T(h). Adding a suitable multiple removes any trace coefficient without changing the cubic output. Thus the five-dimensional trace-free reduced family still maps onto the same two-dimensional cubic-gate space, with a three-dimensional kernel. No actual coefficient is evaluated and neither final channel is proved zero.
+has zero contraction with a, but quadratic parameter trace −2T(h). Adding a suitable multiple removes any trace coefficient without changing the cubic output. Thus the five-dimensional trace-free reduced family still maps onto the same two-dimensional cubic-gate space, with a three-dimensional kernel. This trace-free normalization evaluates no actual coefficient and proves neither final channel zero on its own; the later evaluation is in Section 15.
 
 ## 12.5 The actual family kernel and exact coefficient reductions
 
@@ -119,7 +121,7 @@ where B_par∈A and S∈P4⊗Λ²A* are linear in a and h. Uniqueness of the ske
 
 The B_par channel is one-dimensional, represented by the second binary transvectant (a,h)₂; the skew part supplies three channels invisible under contraction. Their free scalars are not actual operator values. At a second-symbol fiber of rank r, the image of 𝒠 in the twelve-space has dimension 8+r, not necessarily eleven. The canonical bundle splitting therefore does not remove the earlier degeneracy qualification.
 
-This normal form identifies precisely the four-dimensional ineffective subspace of the six-space. The two remaining cubic coefficients were already known; neither is evaluated or eliminated. Its application to the operator retains the corrected reduced-part subtraction of [Section 11.4](11-cubic-support-and-nilpotent-torsion.md#114-corrected-first-normal-extraction-equals-the-last-vertex-jet).
+This normal form identifies precisely the four-dimensional ineffective subspace of the six-space. The two remaining allowed cubic coefficients were already known; this normal-form result evaluates or eliminates neither. Section 15 now proves both actual coefficients zero. Its application to the operator retains the corrected reduced-part subtraction of [Section 11.4](11-cubic-support-and-nilpotent-torsion.md#114-corrected-first-normal-extraction-equals-the-last-vertex-jet).
 
 ## 12.7 Conditional fixed-divisor classification for a nonzero third gate
 
@@ -137,11 +139,11 @@ The last bounds are excess lengths, including additional thickness at Σ, not le
 
 For the bound, two general primitive sections form a degree-(d,d) complete intersection. Residual duality and the five independent sections force its residual scheme to have length at least d+2. Equality at the preceding bound d+1 would force that residual scheme into a line; both degree-d equations would then contain the line, contradicting their choice with no common component. This argument retains nonreduced finite schemes. The primitive evaluation kernel is locally free of rank four, with c₁=−dH and c₂=d²−length(B_base), but its inclusion is not a subbundle at basepoints.
 
-Applied to the actual third gate, all these geometric consequences remain conditional on its nonvanishing. At points of Σ the target is an ideal sheaf, not a line bundle; no fiber rank is inferred there. The theorem neither evaluates either coefficient nor resolves the four-versus-five alternative.
+For the actual third gate, this nonvanishing antecedent is now excluded by [Section 15](15-third-vanishing-and-fourth-frontier.md). The classification remains valid for nonzero elements of the allowed equivariant space, not for an actual constructed failure locus. At points of Σ the target is an ideal sheaf, not a line bundle; no fiber rank is inferred there. The theorem neither evaluates either coefficient nor resolves the four-versus-five alternative.
 
 ## 12.8 Remaining task and evidence
 
-The actual leading cochain, squared upper factor, exact coefficient reductions and conditional fixed-divisor classification are now available. Section 13 gives the canonical diagonal and vector representative. The unresolved step is to evaluate that cochain's global class, including cancellation with the diagonal and scalar terms, and then its image modulo the actual second symbol. The nonzero quintic extension, nonzero quartic map and surjective lower multiplication do not supply that evaluation.
+The actual leading cochain, squared upper factor, exact coefficient reductions and conditional fixed-divisor classification are now available. Section 13 gives the canonical diagonal and vector representative. The formerly unresolved final class is now proved zero in [Section 15](15-third-vanishing-and-fourth-frontier.md), retaining cancellation with the diagonal and scalar terms and the actual second-symbol quotient. The remaining task is fourth and later order, not the third residue sum. The nonzero quintic extension, nonzero quartic map and surjective lower multiplication do not supply that evaluation.
 
 The published sources below have independent geometric and actual-frame audits, with universal verifiers for identities, characters and degree arithmetic. They do not use selected HM coefficients or actual-instance rank evaluations and are not proof-assistant certificates. Generic SF ≥ 3, square rank ≥ 27 and the four-or-five section theorem remain unchanged; the separate formal-type frontier is updated in Section 4.13.
 

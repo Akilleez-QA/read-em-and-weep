@@ -22,6 +22,10 @@ The existence and uniqueness up to scalar of a G-equivariant channel do not prov
 
 The separate V51 construction realizes universal marked formal germs within algebraic families. This does not mean every formal arc into a completed base is algebraic or convergent. Nor does a statement about marked isomorphism classes represent a deformation groupoid or construct unmarked global moduli. Section 5 preserves these distinctions.
 
+## 2.6 Third order cannot supply the missing rank
+
+The actual cubic third gate vanishes identically, not merely on squares or at ordinary polynomial values on the degeneracy scheme. The specialized third differential also kills the extra kernel line at each of the six axes. [Section 15](15-third-vanishing-and-fourth-frontier.md) proves these distinctions and advances the remaining generic finite Smith exponent to 4–31. The earlier conditional nonzero square curve is therefore not realized by the actual gate. Nonzero local residues and lower cohomology classes remain compatible with this global vanishing.
+
 ## Pinned source references
 
 [O]: https://github.com/Akilleez-QA/read-em-and-weep/blob/ec080c229105457eafcd2583c8a47b362627a62e/research/hm/order-four-quadratic-load/SPECIAL-D5-OCTIC-NONEXTENSION-EXCLUDES-A12.md

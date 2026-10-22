@@ -3,12 +3,12 @@
 ## Adjoint restrictions, exact exclusions, and a remaining higher obstruction
 
 **Craig Ward**  
-Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper draft through **22 October 2026, 03:50 UTC**  
+Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper draft through **22 October 2026, 04:21 UTC**  
 Separate V51 comparison includes PR641 and PR644; three-channel family dependency pinned to PR643, 22 October 2026.
 
 ### Abstract
 
-This working paper organizes a coefficient-free proof-repair program around statements that can be proved, excluded, or left explicitly open. For the adjoint bundle B = End₀(F) in the Horrocks-Mumford setting, the odd part of H⁰(B_Q(4)) vanishes for a general smooth inversion-even quadric Q. The positive multiplication map has rank 33 at the invariant rank-three cone. Its first Bockstein vanishes identically; its second Bockstein kills a five-dimensional summand and is a nonzero quadratic channel of generic rank three on the remaining three-dimensional summand. It follows that the general total section count is either four or five. The distinction is a genuinely higher obstruction, not a missing first-order scalar. We give the dependency chain, explain the exclusions that make it shorter, and distinguish these results from a separate deformation-theoretic construction for V51. Neither the original source-recovery problem nor Weil-class algebraicity is claimed to be solved.
+This working paper organizes a coefficient-free proof-repair program around statements that can be proved, excluded, or left explicitly open. For the adjoint bundle B = End₀(F) in the Horrocks-Mumford setting, the odd part of H⁰(B_Q(4)) vanishes for a general smooth inversion-even quadric Q. The positive multiplication map has rank 33 at the invariant rank-three cone. Its first Bockstein vanishes identically; its second Bockstein kills a five-dimensional summand and is a nonzero quadratic channel of generic rank three on the remaining three-dimensional summand. It follows that the general total section count is either four or five. The actual third Bockstein now vanishes identically, including at every specialized direction. The remaining generic finite Smith exponent is 4–31, or the last cokernel is permanent. The distinction is a fourth-or-later obstruction, not a missing first- or third-order coefficient. We give the dependency chain, explain the exclusions that make it shorter, and distinguish these results from a separate deformation-theoretic construction for V51. Neither the original source-recovery problem nor Weil-class algebraicity is claimed to be solved.
 
 ### Reading order
 
@@ -21,21 +21,20 @@ This working paper organizes a coefficient-free proof-repair program around stat
 7. [Earlier primary and Rao reductions](07-primary-and-rao-reductions.md)
 8. [Finite normal-extension tower](08-finite-normal-extension-tower.md)
 9. [Actual Atiyah factor and six exceptional directions](09-actual-atiyah-factor.md)
-10. [Midpoint operator residue and remaining global value](10-midpoint-operator-residue.md)
+10. [Midpoint operator residue and global quotient](10-midpoint-operator-residue.md)
 11. [Cubic support and nonreduced torsion](11-cubic-support-and-nilpotent-torsion.md)
-12. [Explicit harmonic cochain and remaining family gate](12-harmonic-cochain-and-family-gate.md)
+12. [Explicit harmonic cochain and family reduction](12-harmonic-cochain-and-family-gate.md)
 13. [Canonical diagonal and actual vector cochain](13-canonical-diagonal-and-vector-cochain.md)
 14. [Conditional square-gate osculation and vertex geometry](14-square-gate-osculation-and-vertex-geometry.md)
+15. [Actual third vanishing and the fourth-order frontier](15-third-vanishing-and-fourth-frontier.md)
 
 The files are sections of one paper, not independent claims of completion. Immutable public source links identify the mathematical versions summarized. The proofs are mathematical arguments with supplementary universal checks, not proof-assistant certificates. This edition is maintained in Markdown; no PDF is part of this edition.
 
-### Higher-obstruction update
+### Current obstruction and Gauss status
 
-Section 4 now includes the actual secondary multiplication tensor for β₃ and a distinct square-endpoint Gauss comparison. Saturated-flag geometry gives generic square-endpoint rank at least 27, without improving the rank-36 smoothing bound or deciding the four-or-five alternative.
+[Section 15](15-third-vanishing-and-fourth-frontier.md) proves zero for the actual third gate through exact meromorphic-source comparison, square-channel vanishing, actual cokernel-fiber vanishing at six axes, and the septic-conic argument. The extra specialized kernel line is checked separately. The six second-symbol degeneracy points are length-four complete intersections (x²,y²). Nonzero lower classes and the full local opposite-pole residue in Section 13 coexist with global final cancellation. Section 15.7 adds the corrected fourth representative B₄|D5−B₃|A L and four allowed channels, two square-visible and two discriminant-divisible. Fourth coefficients remain unevaluated.
 
-### Finite normal-extension update
-
-Section 8 classifies exactly two marked G-equivariant fixed-determinant formal-extension isomorphism classes, both represented by ambient bundles; both later scalar gates vanish. Section 4 excludes all rank-two Gauss plateaux, proving generic SF ≥ 3 and positive-square rank ≥ 27. Neither result changes the main section-count theorem. The normalized normal quadratic coefficient is κb² on abc ≠ 0, with κ now proved nonzero geometrically and no parameter-specific cancellation locus. Its numerical value is not computed.
+Section 4.13 excludes all 28 formal types in the entire (3,2) Gauss profile. Every hypothetical maximal rank-three plateau satisfies k+l ≤ 4; not every rank-three case is excluded. Generic SF ≥ 3 and positive-square rank ≥ 27 remain unchanged.
 
 ### Central result
 
@@ -62,54 +61,10 @@ The V51 comparison now includes the exact nonreduced section-jump schemes: the p
 
 Section 8.7 replaces the missing historical three-channel-family citation with PR643's standalone proof of the exact subbundle torus and its gauge/coordinate transitivity. The replacement supports the normal coefficient and two-extension chain without computing the positive cubic.
 
-The fixed actual cubic probe has zero first-normal variation (Section 4.11), not a known zero value. The midpoint square-zero adjoint exists on 2Q but its nonzero scalar obstruction blocks extension to 3Q (Section 8.9).
+### Structural chapters and preserved conditional results
 
-### Actual lower-factor update
+Sections 9–13 retain the actual Atiyah input, corrected midpoint operator boundary, cubic support and torsion, harmonic cochain, canonical diagonal, vector representative and polar residue test. Their nonzero factors do not imply nonzero composites. Section 15 supplies the later actual third evaluation; it does not declare every lower cohomology class or unquotiented P4 value zero.
 
-Section 9 proves the actual nine-dimensional image, classifies the six exceptional fixed directions, and describes the full parameter-family cokernel as a six-point elementary modification. Every square direction is injective for this lower map. Its subsequent annihilating multiplication and normal operator lift remain distinct; no composite nonvanishing is inferred.
+Mr. Slop's complementary PR646–654 remain separately attributed: marked-pair and equation-complex comparisons, the global restriction and last-jet quotients, corrected extractor, unique equivariant normal form, conditional fixed divisors, ramification sheets and distinct Gram spectral geometry. The nonzero-gate antecedents in Sections 12.7 and 14.1 are now excluded for the actual operator; the conditional degree-eighteen square curve is not an actual construction. The unconditional vertex no-Tor statement remains valid.
 
-### Actual midpoint operator update
-
-Section 10 identifies the fixed actual secondary value with the global boundary of a corrected midpoint operator residue. The corrected Hessian symbol now matches the actual midpoint lift; the canonical harmonic constants are 1/112, −1/20 and 1/144, and the conic boundary vanishes. The vertex quotient is now the exact 32 → 36 → P4 sequence, with M₈ = A O(6)⊕V O(4), and both split square-boundary channels are nonzero. The actual residue still must be inserted and taken through the actual second-symbol quotient.
-
-Section 4.13 adds the (2,3) Gauss exclusion, all three two-D5, six further large quadratic-section, single-V, all three single-P4, all three double-P4, the single-D5 and all four mixed-P4⊕D5 quadratic exclusions in (3,2), and the bound of two for its restricted cubic pairing. Together with the prior two exclusions, at most 5 of 28 formal primal types remain, with no improved numerical rank bound. Section 10 also attributes the distinct existing-pair rigidity and classical equation-complex acyclicity to Mr. Slop's PR646–647, without transferring their invariant vanishings to the positive operator. The four-or-five theorem remains unchanged.
-
-
-### Cubic-support update
-
-Section 11 identifies the actual smooth genus-four support with exact order-five T, the intrinsic 9 → 36 → 27 residue filtration, and the nilpotent boundary with kernel D5 and quotient P4. The ambient line O_(2D)(1,-1) is not five-torsion: its fifth power is the actual nonzero quintic-relation class. A unique nilpotent correction produces the torsion lift. These results structure the residue calculation without determining the corrected operator's value. These cubic-support and degree-eight results are pinned to PR543 commit 14fc90d90f74998c10ea9f2b45cf5b8aeac96bae.
-
-
-### Uniform lower multiplication and the canonical last jet
-
-Section 10.8 adds the actual negative-Serre-sector quotient at PR543 commit 6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0: the lower multiplication has rank four for every nonzero negative quadratic, an eighteen-dimensional common kernel on C, and a canonical 9/21/12 quotient on C⁻. Section 10.9 separately attributes PR648–649's 35/31 global restriction quotient and canonical deepest-quintic P4 slice. Neither route computes the actual corrected operator class or Ψ; the four-or-five theorem is unchanged. The subsequent single-V, single-P4, double-P4, single-D5 and mixed-P4⊕D5 exclusions reduce the formal Gauss frontier to at most five.
-
-
-### Explicit cochain and family normalization
-
-Section 12 gives the accepted harmonic formula for the actual leading square-ideal cochain, keeping the local equation-frame scalar r₀ and effective connection scalar Λ. The upper connection has a² times one actual quartic map, whose determinant has twelve simple zeros. The exact family coefficient reductions 11 → 6 → 2 and trace-free 9 → 5 → 2 organize the remaining evaluation, but do not reduce the previously known two-dimensional cubic gate. These operator results are pinned to d7a6ad65f2142d39fbacc01784b7620fc3a9e42c. The single-V exclusion at 4ac12f3ec8f465ef8dcbb1b6a17698fc674afe80, three single-P4 exclusions at 15adb8e5ea61f07e87df6a0044b7375e580fe7f3, three double-P4 exclusions at bdc66692b5814b65e568615639cd86a2b0cd5d0c, and the single-D5/four mixed-P4⊕D5 exclusions at 5e1d5ab619dfb2e765232d021be0373d9d2bed19 leave at most 5 of 28 formal primal types; numerical bounds and the original repair status remain unchanged.
-
-
-### Corrected extractor and unique equivariant normal form
-
-Section 11.4 adds Mr. Slop's PR650 map-level bridge: remove an actual reduced kernel lift before taking the first-normal quintic remainder. Section 12.6 adds PR651's uniquely equivariant splitting of the rank-eleven second-symbol kernel and unique polynomial normal form for a whole equivariant family with zero third class. The full rank-twenty-six lower-kernel splitting remains noncanonical. Neither result computes an actual coefficient; the two final gates remain open, independently of the later reduction to at most 5/28 formal types.
-
-
-### Canonical diagonal, vector representative and conditional failure loci
-
-Section 13 identifies the actual upper quartic as a Gram composite, proves regular nilpotence at its twelve simple exceptional fibers, fixes the diagonal by the canonical residue inverse, and retains the full source/target-frame distinction in a vector-cochain representative. The scalar-extension correction remains; no global class is evaluated. These sources and the harmonic-frame clarification are pinned to ebc38deccf2d0abcdd7b185c73dd57bae8682f59. Section 12.7 attributes PR652's fixed-divisor classification and finite base-length bounds 70/40, excess 46/16, entirely conditional on a nonzero actual third gate.
-
-
-### Scalar surjectivity and conditional square osculation
-
-Section 13.5 proves the actual canonical scalar map surjects onto the fifteen-space, with kernel 1⊕P4⊕D5, without inferring nonvanishing of the final shadow. Section 13.1 attributes to Mr. Slop's PR653 the ramification-sheet distinction and exceptional double-root criterion. Section 14 separates the conditional degree-eighteen square series, exact ramification B₂+2B₃ and fifth-jet quotient O(78), from the unconditional local calculation that the vertex double point adds no Tor. The Gaussian, both-branch three-type Gauss exclusion and square-osculation sources are pinned to 15adb8e5ea61f07e87df6a0044b7375e580fe7f3. The cutoff is 03:50 UTC; the generic four-or-five theorem is unchanged.
-
-
-### Actual scalar cup and the twelve-point polar form
-
-Sections 13.6–13.8 identify the actual scalar cup as a swapped-quotient isomorphism on fifteen dimensions, give the exact double-pole formula at the twelve Gram points, and remove the entire double layer to leave the canonical simple-layer quotients of dimensions fifteen and nine. The actual residue test uses ζ=a iᵗc with c in the full annihilator of the second symbol; that annihilator is a line only outside Σ, including square directions. These results and the three double-P4 Gauss exclusions are pinned to bdc66692b5814b65e568615639cd86a2b0cd5d0c. The tied final class, numerical rank bounds and four-or-five theorem remain unchanged.
-
-
-### Uniform C5 local residue and the five-type frontier
-
-Section 13.9 proves the actual scalar correction has a simple root for every C5 square direction in its detectable positive-quartic character, and computes a nonzero full opposite-pole residue. The other ten poles are not evaluated, so no global Ψ value follows. Section 13.1 separately attributes PR654's genus-ten spectral curve, nontrivial two-torsion, ineffective theta characteristic and centralizer to the Gram operator; commutation of R is not assumed. The latest accepted pin 5e1d5ab619dfb2e765232d021be0373d9d2bed19 also excludes the single-D5 and all four mixed-P4⊕D5 formal types, leaving at most five of twenty-eight. The cutoff is 03:50 UTC and the main theorem remains four or five.
+The current source pins are [86e5aed779f0ff64a83cf9dbe169cb2e7283b346](https://github.com/Akilleez-QA/read-em-and-weep/tree/86e5aed779f0ff64a83cf9dbe169cb2e7283b346/research/hm/order-four-quadratic-load) for third vanishing and [dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b](https://github.com/Akilleez-QA/read-em-and-weep/tree/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load) for the completed adjacent-profile exclusion. The [dependency register and dated history](06-dependencies-and-changelog.md) retain the earlier stages, their evidence and supersession. The fourth-order structural reduction is pinned separately to [2f81e3510505ad842fb9bb00ff3a667cd36ea17f](https://github.com/Akilleez-QA/read-em-and-weep/tree/2f81e3510505ad842fb9bb00ff3a667cd36ea17f/research/hm/order-four-quadratic-load). The snapshot cutoff is 04:21 UTC; no unpublished fourth-order work is included.

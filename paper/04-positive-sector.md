@@ -69,7 +69,7 @@ At a direction where β₂ has rank three, its surviving source is D5 and its ta
 
     (q₀ + ta)(hξ − thζₐ + t²vₕ) = t³avₕ.
 
-The next class is [avₕ] modulo im β₂. Changing the second correction affects the q₀-cokernel through β₁ = 0; changing the first correction accounts for the quotient by im β₂. This explains the next canonical gate but does not prove it nonzero. The section-count conclusion remains the established four-or-five theorem; the following reductions do not strengthen that bound.
+The next class is [avₕ] modulo im β₂. Changing the second correction affects the q₀-cokernel through β₁ = 0; changing the first correction accounts for the quotient by im β₂. This explains the canonical third gate. Its actual value is now proved zero in [Section 15](15-third-vanishing-and-fourth-frontier.md); a fourth or later obstruction is needed. The section-count conclusion remains the established four-or-five theorem; the following reductions do not strengthen that bound.
 
 ## 4.7 The third obstruction as an actual secondary multiplication tensor
 
@@ -90,7 +90,7 @@ The third obstruction is consequently
 
     β₃,ₐ(hξ) = Ψ(a,h,[aζₐ]) modulo im β₂,ₐ.
 
-The quadratic family a ↦ [aζₐ] has no invariant component because C = V ⊕ 3P4 ⊕ 3D5 has no trivial constituent. It probes a particular actual D5-valued family inside C, not an arbitrary class. Nonvanishing of its square-boundary image does not prove that Ψ detects it. This is a reduction of the actual third gate, not its solution. [Secondary multiplication theorem][T].
+The quadratic family a ↦ [aζₐ] has no invariant component because C = V ⊕ 3P4 ⊕ 3D5 has no trivial constituent. It probes a particular actual D5-valued family inside C, not an arbitrary class. Nonvanishing of its square-boundary image does not prove that Ψ detects it. This tensor construction alone is a reduction, not an evaluation. [Section 15](15-third-vanishing-and-fourth-frontier.md) now proves the actual third gate zero; it does not assert that the entire trilinear tensor on arbitrary C inputs is zero. [Secondary multiplication theorem][T].
 
 ## 4.8 A distinct endpoint: squares as a Gauss derivative
 
@@ -128,7 +128,7 @@ Writing d_i = deg L_i, its zero divisor has degree δ_i = d_(i+1) − d_i − 2 
 
 Hence deg F_r ≤ −r(N−r). For N = 30 and r = 17, rank one would force deg E ≤ −221, contradicting deg E = −54. Rank zero would make E constant and is also impossible. Therefore SF has generic rank at least two, so the actual square endpoint has generic rank at least 26. Equivalently, its positive kernel has dimension at most fifteen and cokernel at most eleven. Saturation ensures that ramification contributes nonnegative zero-divisor terms, not hidden poles. These are generic bounds; rank may drop at special parameters. [Flag-degree proof][L].
 
-This new square-endpoint bound does **not** improve the established rank-36 smoothing bound or the four-or-five section theorem. Rank thirteen for SF would suffice for positive endpoint surjectivity and hence generic surjectivity of the smoothing pencil, but rank thirteen is not proved. The tensor formula likewise does not establish third-Bockstein nonvanishing. Both are additional exact routes to the still-open final rank.
+This new square-endpoint bound does **not** improve the established rank-36 smoothing bound or the four-or-five section theorem. Rank thirteen for SF would suffice for positive endpoint surjectivity and hence generic surjectivity of the smoothing pencil, but rank thirteen is not proved. The tensor formula alone does not establish third-Bockstein nonvanishing, which is now excluded by Section 15. These reductions distinguish the endpoint-rank problem from the remaining fourth-or-later smoothing obstruction.
 
 ## 4.10 Complete rank-two exclusion by endpoint flags
 
@@ -182,7 +182,7 @@ Naturality and trilinearity therefore give
 
 The independently established dependence on s is affine, even before quotienting. Writing it as V₀+sV₁ forces V₁=0 in characteristic zero. The target action preserves the actual second-symbol quotient, so L=0 follows there too. The [symbolic verifier][CVV] checks these sign and affine identities, not the geometric identifications.
 
-**Zero variation is not zero actual cubic.** Its absolute value is constant along this auxiliary torsor when this fixed actual probe is used, but that constant remains unknown. Separately normalized probes for the two ambient bundles are not silently identified. Consequently injectivity of this particular variation map is now excluded as a route to actual cubic nonvanishing. The absolute value is now represented by the actual midpoint operator boundary, with corrected Hessian-symbol matching and zero conic contribution, as detailed in [Section 10](10-midpoint-operator-residue.md). Its remaining vertex value is still uncomputed; the four-or-five theorem is unchanged.
+**Zero variation alone is not zero actual cubic.** Its absolute value is constant along this auxiliary torsor when this fixed actual probe is used. The separate proof in [Section 15](15-third-vanishing-and-fourth-frontier.md) now makes its final second-symbol quotient zero; no unquotiented value is inferred from variation alone. Separately normalized probes for the two ambient bundles are not silently identified. Consequently injectivity of this particular variation map is now excluded as a route to actual cubic nonvanishing. The absolute value is now represented by the actual midpoint operator boundary, with corrected Hessian-symbol matching and zero conic contribution, as detailed in [Section 10](10-midpoint-operator-residue.md). The lower residue need not vanish, but its final third class is now zero; the four-or-five theorem is unchanged.
 
 ## Pinned source references
 
@@ -207,7 +207,7 @@ The independently established dependence on s is affine, even before quotienting
 
 ## 4.12 Actual Atiyah input and the six-axis family
 
-The actual lower factor h ↦ h At_F(D_a)|_Q₀ now has a complete rank classification: rank five except on six reduced nonsquare axes, rank four there, and injectivity in every square direction. Its nine-dimensional image and complete parameter-family cokernel are proved in [Section 9](09-actual-atiyah-factor.md). The normal extension of the corrected cone operator is now measured by the exact global boundary Ψ = δ(r), and its corrected midpoint nilpotent symbol is identified in [Section 10](10-midpoint-operator-residue.md). The actual residue value in that quotient is still unresolved, so the lower-factor results do not settle the third Bockstein.
+The actual lower factor h ↦ h At_F(D_a)|_Q₀ now has a complete rank classification: rank five except on six reduced nonsquare axes, rank four there, and injectivity in every square direction. Its nine-dimensional image and complete parameter-family cokernel are proved in [Section 9](09-actual-atiyah-factor.md). The normal extension of the corrected cone operator is now measured by the exact global boundary Ψ = δ(r), and its corrected midpoint nilpotent symbol is identified in [Section 10](10-midpoint-operator-residue.md). These lower-factor results alone do not settle the third Bockstein. Its final quotient is now zero by [Section 15](15-third-vanishing-and-fourth-frontier.md), not by injectivity or surjectivity of either factor.
 
 ## 4.13 Further rank-three Gauss configurations and pairings are excluded
 
@@ -215,7 +215,7 @@ The saturated-flag argument bounds both rank-three plateau lengths by three. The
 
 The adjacent profile (2,3) is also excluded. For l=3 and k≥2, the actual derivative image, after the specified twist, must have degree at least thirteen. Equivariant image and section-persistence constraints then exclude all 37 formal dual splitting types. Thus generic SF rank three with l=3 forces k=1. The same argument excludes the two (3,2) primal types with quadratic section module 2V or 3P4. [Adjacent-profile theorem](https://github.com/Akilleez-QA/read-em-and-weep/blob/7d4e3e6d960438e3000f33d0e68b9e2b970129fa/research/hm/order-four-quadratic-load/ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md).
 
-All three further (3,2) primal types whose quadratic section module contains 2D5 are now excluded. Their forced restricted derivative image O(4)⊕O(8) determines the next quotient; complete evaluation kernels and ordinary degree bounds leave a negative line inaccessible to a required rank-three backward derivative. Together with the earlier two exclusions, this step reduced the formal list from 28 to at most 23; the further reduction below supersedes that intermediate bound. The exceptional type with no quadratic sections is not excluded. [Two-D5 exclusion](https://github.com/Akilleez-QA/read-em-and-weep/blob/a42749caf8c5c1b087e60857748360487badcf13/research/hm/order-four-quadratic-load/TWO-D5-BACKWARD-GAUSS-EXCLUSION.md).
+All three further (3,2) primal types whose quadratic section module contains 2D5 are now excluded. Their forced restricted derivative image O(4)⊕O(8) determines the next quotient; complete evaluation kernels and ordinary degree bounds leave a negative line inaccessible to a required rank-three backward derivative. Together with the earlier two exclusions, this step reduced the formal list from 28 to at most 23; the further reduction below supersedes that intermediate bound. The exceptional type with no quadratic sections was not excluded by that step; the terminal exclusion below now closes it. [Two-D5 exclusion](https://github.com/Akilleez-QA/read-em-and-weep/blob/a42749caf8c5c1b087e60857748360487badcf13/research/hm/order-four-quadratic-load/TWO-D5-BACKWARD-GAUSS-EXCLUSION.md).
 
 There is also a type-independent restriction inside (3,2). The cubic pairing
 
@@ -264,9 +264,15 @@ All four mixed P4⊕D5 quadratic types are excluded by a two-stage argument. The
 
 The [first stage][MD1] forces zero cubic pairing and complete quadratic evaluation onto the saturated octic O(8), with kernel (W′⊕T6)O(−1). This necessary reduction alone does not exclude a type. The [closure][MD2] handles both remaining cubic-image ranks. For rank two, section persistence bounds the saturated image degree by eight and its defect by four, forcing saturation even in the high-line case. The remaining W′ O(2) and W′ O(4) images give the frozen endpoint or a V-multiplicity contradiction. For rank one, dimension inequalities exclude negative quotient degrees before any splitting assumption. The three positive possibilities have zero colength; two fail a low-degree bottleneck and the last again requires 2V⊕P4 to inject into V⊕P4⊕D5. This closes all four mixed types.
 
-The twenty-three disjoint exclusions leave **at most 5 of the original 28 formal primal types**. This remains a necessary-type bound, not a realization theorem; the zero-quadratic case remains open.
+The twenty-three preceding disjoint exclusions left five necessary formal types. The [terminal plateau theorem][P3] now excludes all five: three with quadratic module V⊕P4, one with V⊕D5, and the zero-quadratic type. Both cubic-pairing branches are treated for V⊕P4, retaining saturation even in the high-line case. For V⊕D5, the parity-improved quadratic-kernel degree bound forces the low-line quotient and final multiplicity contradiction. In the zero-quadratic case, a rank-three cubic image contradicts persistence; the rank-two case forces three quotients, eliminated by two representation contradictions and the previously proved rank-one ramification obstruction.
 
-None of these results excludes the entire (3,2) profile or every rank-three case. The numerical statements remain generic SF ≥ 3, positive-square rank ≥ 27, and generic total section count four or five.
+Thus **all 28 necessary primal types are excluded, and the entire (3,2) profile is impossible**. Combining this with 1 ≤ k,l ≤ 3 and the exclusions of (3,3) and (2,3) gives
+
+    k+l ≤ 4.
+
+The surviving necessary list is (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), without any realization claim. In particular this is not exclusion of every generic rank-three case. The numerical bounds remain generic SF ≥ 3, positive-square rank ≥ 27, and generic total section count four or five.
+
+[P3]: https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md
 
 [P4N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/15adb8e5ea61f07e87df6a0044b7375e580fe7f3/research/hm/order-four-quadratic-load/THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md
 [P4Z]: https://github.com/Akilleez-QA/read-em-and-weep/blob/15adb8e5ea61f07e87df6a0044b7375e580fe7f3/research/hm/order-four-quadratic-load/P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md

@@ -1,4 +1,6 @@
-# 10. The midpoint operator residue and its remaining global value
+# 10. The midpoint operator residue and its global quotient
+
+**Current status.** This chapter constructs the unquotiented boundary and its supporting maps. [Section 15](15-third-vanishing-and-fourth-frontier.md) now proves zero after the actual second-symbol quotient; no blanket vanishing of lower or unquotiented classes is asserted.
 
 ## 10.1 The actual third value has a global boundary description
 
@@ -195,7 +197,7 @@ These contributions concern invariant groups at negative and twist-two degrees. 
 
 ## 10.11 Remaining value and evidence boundary
 
-The actual operator-boundary comparison, corrected symbol matching, harmonic multiplication, zero conic boundary, exact 32-to-36-to-P4 quotient, its nonzero split boundary channels, uniform lower rank four, and the complementary canonical last-jet quotient are established at the source pins below. [Section 12](12-harmonic-cochain-and-family-gate.md) now gives the explicit leading actual cochain, its a² upper factor, and exact family coefficient reductions. It retains the diagonal and frame corrections and does not evaluate their combined class. The absolute value δ(r_v), and then its class modulo the actual second symbol, remain uncomputed. The numerical results remain generic SF ≥ 3, positive-square rank ≥ 27, and total section count four or five. The original repair and algebraicity questions remain open.
+The actual operator-boundary comparison, corrected symbol matching, harmonic multiplication, zero conic boundary, exact 32-to-36-to-P4 quotient, its nonzero split boundary channels, uniform lower rank four, and the complementary canonical last-jet quotient are established at the source pins below. [Section 12](12-harmonic-cochain-and-family-gate.md) now gives the explicit leading actual cochain, its a² upper factor, and exact family coefficient reductions. It retains the diagonal and frame corrections and does not evaluate their combined class. The later proof in [Section 15](15-third-vanishing-and-fourth-frontier.md) establishes zero after the actual second-symbol quotient, without asserting that every lower class or unquotiented δ(r_v) is zero. The numerical results remain generic SF ≥ 3, positive-square rank ≥ 27, and total section count four or five. The original repair and algebraicity questions remain open.
 
 The sources provide authored geometric proofs and supplementary universal verifiers, not proof-assistant certificates. The verifiers test identities, characters and degree bookkeeping; no selected actual HM coefficients or actual-instance rank tests are used. The separate adjacent Gauss exclusions and cubic-pairing bound are recorded in [Section 4.13](04-positive-sector.md#413-further-rank-three-gauss-configurations-and-pairings-are-excluded).
 

@@ -6,7 +6,7 @@ Work over C with the binary icosahedral group G. Let Q = Q₀ be the actual inva
 
 **Theorem.** There are exactly two marked G-equivariant fixed-determinant formal-extension isomorphism classes of the actual cone bundle. Both are restrictions of ambient bundles F_r and F_(−r), where r = a/b is the nonzero monad channel ratio. The first-normal torsor is an affine line; exactly two points extend to Q₃. Each has a unique formal continuation, and both scalar gates to Q₄ and Q₅ vanish on both points. All transitions from Q₅ onward are uniquely liftable and unobstructed. [Finite upper bound][T]; [exact-two theorem][N2].
 
-This classifies the specified marked formal extensions, not all global bundles. No general algebraization theorem is invoked: the two formal objects are explicitly supplied by ambient bundles. The positive cubic Bockstein remains undetermined.
+This classifies the specified marked formal extensions, not all global bundles. No general algebraization theorem is invoked: the two formal objects are explicitly supplied by ambient bundles. The positive cubic Bockstein is a distinct problem, now resolved as zero in [Section 15](15-third-vanishing-and-fourth-frontier.md).
 
 ## 8.2 Why the first scalar has a nonzero derivative
 
@@ -110,7 +110,7 @@ The determinant character is essential to the proof. The natural symplectic pair
 
 The function b² has exactly these weights. Since the established source-gauge and coordinate transformations act transitively on abc ≠ 0, their invariant ratio d/b² is constant. Dropping the determinant character would fail even the consistency check for scalar coordinate changes. This is a naturality and weight argument, not a selected coefficient evaluation.
 
-Consequently the quadratic coefficient vanishes throughout this subbundle family or nowhere on it. There is no parameter-specific cancellation locus involving a or c inside abc ≠ 0. The geometric theorem rules out universal cancellation and constructs ambient representatives for both roots. Thus both later gates vanish as well. This additional conclusion uses the actual scheme and Serre-residue geometry, not the weight calculation alone. The positive cubic obstruction remains unresolved.
+Consequently the quadratic coefficient vanishes throughout this subbundle family or nowhere on it. There is no parameter-specific cancellation locus involving a or c inside abc ≠ 0. The geometric theorem rules out universal cancellation and constructs ambient representatives for both roots. Thus both later gates vanish as well. This additional conclusion uses the actual scheme and Serre-residue geometry, not the weight calculation alone. The positive cubic obstruction vanishes by the separate proof in [Section 15](15-third-vanishing-and-fourth-frontier.md), not by this formal-extension classification.
 
 The [companion verifier][UV] checks the integral weight system and that b² is its unique monomial solution. It does not determine κ or establish the geometric inputs by computation.
 
