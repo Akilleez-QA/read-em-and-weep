@@ -1,0 +1,64 @@
+{
+  "scope": "Necessary strict-slope refinement: six residual types become five, Z3 loses its alpha=0 stratum, no quotient label excluded, no quotient connection asserted.",
+  "source_hashes": {
+    "PRIMAL-EQUALITY-HAS-SIX-RESIDUAL-QUOTIENT-PARAMETER-SPACES.md": "de06847ba55aae35effb6ad394de4792b5c8813d48dbee35b4c1bed79935afa6",
+    "primal-equality-six-residual-quotients.json": "56174a13450e9b9e40ca7ab69ca52445cd9dabbbac5ad782ce4845405ac8570e",
+    "equality-gauss-rational-normal-subbundles.json": "c1930c3f8977515f75fc9359866dd9a143e2101322a3fd80a352a8357d15377f",
+    "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  "labels": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9",
+    "G3.21.45ca6278cbfc"
+  ],
+  "excluded_residual_types": [
+    6
+  ],
+  "excluded_parameter_stratum": {
+    "type": 3,
+    "condition": "alpha=0 and a*beta!=0"
+  },
+  "surviving_type_count": 5,
+  "surviving_types": [
+    {
+      "type": 1,
+      "necessary_scalar_condition": "alpha != 0 and (a,b) != (0,0)",
+      "admissible_zero_nonzero_support_count": 6,
+      "H0_N_twist2": {},
+      "H0_N_twist3": {
+        "S": 1
+      }
+    },
+    {
+      "type": 2,
+      "necessary_scalar_condition": "alpha*a != 0",
+      "admissible_zero_nonzero_support_count": 2,
+      "H0_N_twist2": {},
+      "H0_N_twist3": {}
+    },
+    {
+      "type": 3,
+      "necessary_scalar_condition": "alpha != 0 and (a,b) != (0,0)",
+      "admissible_zero_nonzero_support_count": 6,
+      "H0_N_twist2": {},
+      "H0_N_twist3": {
+        "S": 1
+      }
+    },
+    {
+      "type": 4,
+      "necessary_scalar_condition": "alpha*b != 0",
+      "admissible_zero_nonzero_support_count": 2,
+      "H0_N_twist2": {},
+      "H0_N_twist3": {}
+    },
+    {
+      "type": 5,
+      "necessary_scalar_condition": "a != 0 and (alpha,beta) != (0,0)",
+      "admissible_zero_nonzero_support_count": 3,
+      "H0_N_twist2": {},
+      "H0_N_twist3": {}
+    }
+  ],
+  "excluded_label_count": 0
+}
