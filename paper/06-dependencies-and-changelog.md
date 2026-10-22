@@ -2,7 +2,7 @@
 
 ## 6.1 Claim register
 
-**Current cutoff: 22 October 2026, 05:54 UTC.** Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Current cutoff: 22 October 2026, 06:18 UTC.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -112,6 +112,16 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 56. **Endpoint detection on one square secant fiber.** Mr. Slop’s PR661 at 1325647fd916bf2daa71b11efeae6d52cfefa2cd identifies the two-dimensional C5-square secant allowed fiber with the two endpoint channels, and the two forbidden components of the full allowed square fiber. The all-square corollary asserts injectivity, not the same target dimension or surjectivity. No actual endpoint value is computed. Chapter 18.9.
 
 57. **Middle and last-low Gauss quotients excluded.** At 74feee62 and 30bed21a respectively, complete actual-kernel arguments exclude (6,4) and (8,4). The historical necessary-pair sequence is 140→77→73→63→42, leaving only (6,2),(8,2), twenty-one pairs each, in the rank-two dual-image branch. This is not an overall completion percentage; the rank-one branch and whole (3,1) profile remain unresolved. Chapter 18.10.
+
+58. **Actual endpoint quotient and operators.** At fb574c01207099eeb63960da5cb23ad2f2498a84, restriction followed by the lowest quotient identifies Cplus/J with H¹(Wprime O(−3)). Full restriction remains injective. Actual two-input operator comparison and the apolar normal representative retain the equation-unit and trace-lift corrections. Chapter 19.1–19.2.
+
+59. **Actual nonzero endpoint normal variation.** At the same pin, X⁴ has endpoint zero and XY³ has endpoint c_eta·3k/(Bc)[Y/z]≠0 for a=t², with unknown nonzero actual scale retained. The fixed source identification places these on the mixed and pure kernel lines. The invariant normal line maps injectively to the two-dimensional quadratic endpoint-family space. This is lower P4, not a third or fourth value. Chapter 19.3–19.4.
+
+60. **Actual endpoint has no whole-direction zero.** At 229e621948e9f6d80902080ad227993da3f0dced, the actual nonzero theorem and Mr. Slop’s PR662 at f75a18fd411350adda35dedf18751eee002a39bc imply that q_eta(a,−) is nonzero for every nonzero η in the invariant normal line and every nonzero a. PR661 gives nonzero actual square-secant restrictions. No individual-input or all-direction nonsquare secant claim is made. Chapter 19.5.
+
+61. **Complete (6,2) exclusion.** At fb574c01207099eeb63960da5cb23ad2f2498a84, actual saturated-kernel descent closes the entire first remaining quotient. Only (8,2) remains in the rank-two branch. The next quotient after a line-supported map is the actual source line, including its target zeros. Chapter 19.6.
+
+62. **Twenty K splittings reduced to eleven.** The exact positive-tail reduction at fb574c01207099eeb63960da5cb23ad2f2498a84 gives twenty necessary splittings. At 229e621948e9f6d80902080ad227993da3f0dced, all nine doubled-Wprime cases are excluded, leaving eleven single-Wprime cases. These are K splittings, not the same objects as the historical quotient/type pairs. Neither (8,2), rank-one dual image nor the full (3,1) profile is excluded. Chapter 19.7.
 
 ## 6.2 Reproducible supplementary checks
 
@@ -361,3 +371,12 @@ Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of t
 - Updated current navigation and Gauss status to two shapes and 42 necessary pairs while preserving the historical 140→77→73→63→42 sequence.
 - No actual endpoint or fourth coefficient is evaluated. Generic sections remain four or five and exponent 4–31 or permanent cokernel remains unchanged. Later endpoint-lowest-cohomology, apolar and further Gauss work is excluded from this cutoff.
 - Craig Ward authorship, archive, licensing and the frozen upstream snapshot remain unchanged.
+
+
+## 22 October 2026, 06:18 UTC: actual endpoint values and eleven remaining Gauss splittings
+
+- Added Chapter 19 and updated current navigation while retaining the historical Chapter 17 and 18 text with explicit supersession notices. There are nineteen modular chapters under Craig Ward's authorship.
+- Integrated the actual endpoint package at fb574c01207099eeb63960da5cb23ad2f2498a84: lowest quotient, actual apolar input, complete operator and trace-lift comparisons, zero mixed input and nonzero pure input, with the common unknown nonzero scale retained.
+- Applied the actual nonzero result to Mr. Slop’s PR662 whole-fiber theorem and PR661 square-secant detection. The all-direction actual corollary is pinned at 229e621948e9f6d80902080ad227993da3f0dced. Individual source values and nonsquare secant restrictions are not asserted nonzero.
+- Integrated the whole (6,2) exclusion and the twenty-splitting reduction at fb574c01, followed by the nine-case doubled-sector exclusion at 229e621948e9f6d80902080ad227993da3f0dced. Only (8,2) with eleven necessary K splittings remains in the rank-two branch. Earlier pair counts and current splitting counts are explicitly distinguished.
+- The actual third Bockstein remains zero, the fourth remains unevaluated, generic sections remain four or five and the exponent remains 4–31 or permanent cokernel. The rank-one Gauss branch and original source/lifting/algebraicity goals remain open. Later normal-scale and higher-division work is outside this cutoff. Archive and licensing remain unchanged.

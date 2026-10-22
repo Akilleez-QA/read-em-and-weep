@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 05:54 UTC (22 October, 01:54 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35, canonical fourth-input results at 4e16e69 and lower comparison/test at c85c756, absolute lower sources at a90d2ddd and trace/reconstruction/envelopes at c9c54d50 and smallest Gauss quotient exclusion at 0a95ace9, actual nilpotent trace/wedge results at 74feee62 and actual cone lift/last-low Gauss exclusion at 30bed21a; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–661; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 06:18 UTC (22 October, 02:18 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35, canonical fourth-input results at 4e16e69 and lower comparison/test at c85c756, absolute lower sources at a90d2ddd and trace/reconstruction/envelopes at c9c54d50 and smallest Gauss quotient exclusion at 0a95ace9, actual nilpotent trace/wedge results at 74feee62 and actual cone lift/last-low Gauss exclusion at 30bed21a, actual endpoint values and (6,2) exclusion at fb574c01, all-direction endpoint corollary and doubled-sector exclusion at 229e621948e9f6d80902080ad227993da3f0dced; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–662; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -34,21 +34,25 @@ After second order in a general negative direction, the surviving source is D5, 
 
 ## New fourth-input results and complete test
 
-The canonical raw cubic is nonzero and fills the second-symbol image in every direction, despite its zero final third quotient. Its unique canonical correction L_can is nonzero and onto A; arbitrary Schur gauges require comparison. The corrected fourth source has a forced nonzero parameter trace. The vector cochain R retains only the effective twelve-space, not the full lower class: an exact 13 → 25 → 12 comparison identifies the missing data, and keeping the full homogeneous normal matrix still loses the polynomial nine-space. The missing positive P4 contains normal variation, but is not proved filled or nonzero.
+The canonical raw cubic is nonzero and fills the second-symbol image in every direction, despite its zero final third quotient. Its unique canonical correction L_can is nonzero and onto A; arbitrary Schur gauges require comparison. The corrected fourth source has a forced nonzero parameter trace. The vector cochain R retains only the effective twelve-space, not the full lower class: an exact 13 → 25 → 12 comparison identifies the missing data, and keeping the full homogeneous normal matrix still loses the polynomial nine-space. The missing positive P4 contains actual nonzero normal variation, now computed in Chapter 19; it is not a fourth-value calculation.
 
 The entire fourth D5 family is determined by its first ideal-sheaf jet at one semisimple axis and one C5-square fiber, with test dimensions 3+1. This is not ordinary derivative evaluation, and the C5 fiber alone detects only one of two square channels. Mr. Slop’s PR658 supplies the preceding square-plus-fiber kernel and full-square-plus-jet criterion. All four actual fourth coefficients remain unevaluated. [Canonical fourth input and complete test](paper/16-canonical-fourth-input-and-complete-test.md).
 
 ## Absolute lower source and secondary endpoint
 
-The full corrected C5-square lower source is nonzero, already in the canonical realization Cminus≅H⁰(D,O_D(−2,10)). Absolute midpoint and Atiyah sections recover the previously lost polynomial-nine data. A global trace null-homotopy leaves a precise but unevaluated secondary endpoint P4; its nilpotent square-shadow component must still be retained in the adjoint lift. Secant restriction plus parameter trace reconstructs lower families as 13→11+2, while the two endpoint channels restrict isomorphically as 2→2. None of these results evaluates a fourth coefficient.
+The full corrected C5-square lower source is nonzero, already in the canonical realization Cminus≅H⁰(D,O_D(−2,10)). Absolute midpoint and Atiyah sections recover the previously lost polynomial-nine data. A global trace null-homotopy isolates the secondary endpoint P4, whose actual normal variation is now nonzero; its nilpotent square-shadow component must still be retained in the adjoint lift. Secant restriction plus parameter trace reconstructs lower families as 13→11+2, while the two endpoint channels restrict isomorphically as 2→2. None of these results evaluates a fourth coefficient.
 
-Mr. Slop’s PR659 gives a complementary secant-plus-C5-square 3+1 fourth-family test, distinct from the axis ideal-jet test. Separately, section envelopes first reduce the five rank-two Gauss quotient overlists from 140 to 77 necessary quotient/type pairs. Exact derivative kernels successively exclude (4,2), (6,4) and (8,4), giving 140→77→73→63→42 necessary pairs. Only (6,2) and (8,2) remain in the rank-two branch, not realized geometries or an exclusion of the (3,1) profile. [Absolute lower source and remaining endpoint](paper/17-absolute-lower-source-and-secondary-endpoint.md).
+Mr. Slop’s PR659 gives a complementary secant-plus-C5-square 3+1 fourth-family test, distinct from the axis ideal-jet test. Separately, exact Gauss kernels now exclude four of the five rank-two quotient shapes: (4,2),(6,4),(8,4),(6,2). Only (8,2) remains, with eleven necessary K splittings after its twenty-case reduction and nine-case exclusion. These are necessary configurations, not realized geometries or an overall completion percentage. The rank-one branch remains open. [Current endpoint and Gauss results](paper/19-actual-endpoint-values-and-last-gauss-quotient.md).
 
 ## Actual cone lift and nonzero nilpotent trace
 
-The actual normal trace has both α≠0 and β≠0, with β proved nonzero by restriction to 2C. Global wedge cancellation fixes γ=−1/(12ν) in the shared normalization. The nonzero conic Euler cocycle completes the homogeneous pair to a genuine global G(4) section, with full root/triangular gluing and Hartogs extension. The lowest η diagonal is nonzero. A regular scalar-lift commutator correction contributes to the displayed old-K terms in degree twelve, not four; the full actual normal-K comparison and endpoint value remain open. [Actual cone lift and nonzero nilpotent trace](paper/18-actual-cone-lift-and-nilpotent-trace.md).
+The actual normal trace has both α≠0 and β≠0, with β proved nonzero by restriction to 2C. Global wedge cancellation fixes γ=−1/(12ν) in the shared normalization. The nonzero conic Euler cocycle completes the homogeneous pair to a genuine global G(4) section, with full root/triangular gluing and Hartogs extension. The lowest η diagonal is nonzero. A regular scalar-lift commutator correction contributes to the displayed old-K terms in degree twelve, not four; the full actual normal-K comparison remains open, while Chapter 19 now evaluates the lower endpoint on two canonical inputs. [Actual cone lift and nonzero nilpotent trace](paper/18-actual-cone-lift-and-nilpotent-trace.md).
 
 Mr. Slop’s PR660 replaces the full axis jet supplement to secant fourth-family restriction by one intrinsic cubic-symbol channel. PR661 detects both endpoint channels on one C5-square secant fiber. These are distinct detection theorems, not actual endpoint or fourth-value calculations. Generic sections remain four or five, with exponent 4–31 or permanent cokernel.
+
+## Actual endpoint values and all-direction detection
+
+For a=t², the actual lower endpoint sends X⁴ to zero and XY³ to c_eta·3k/(Bc)[Y/z], a nonzero global class with its unknown nonzero normal scale retained. Full trace lifts and a global dual residue establish these values. The invariant normal line therefore injects into the two-dimensional endpoint-family space. Combining this actual nonzero result with Mr. Slop’s PR662 excludes a zero entire endpoint map at every nonzero parameter direction; PR661 gives nonzero square-secant restriction at every square. This does not assert nonzero values on every source vector or nonsquare secant, and it is not the fourth obstruction. [Actual endpoint theorem and limits](paper/19-actual-endpoint-values-and-last-gauss-quotient.md).
 
 ## New higher-obstruction reductions
 
@@ -109,6 +113,7 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Canonical fourth input and complete test](paper/16-canonical-fourth-input-and-complete-test.md)
 - [Absolute lower source and secondary endpoint](paper/17-absolute-lower-source-and-secondary-endpoint.md)
 - [Actual cone lift and nonzero nilpotent trace](paper/18-actual-cone-lift-and-nilpotent-trace.md)
+- [Actual endpoint values and last Gauss quotient](paper/19-actual-endpoint-values-and-last-gauss-quotient.md)
 
 ## Repository layout and provenance
 

@@ -1,5 +1,7 @@
 # 17. Absolute lower sources and the remaining secondary endpoint
 
+**Historical frontier.** This chapter retains its earlier source scope. [Chapter 19](19-actual-endpoint-values-and-last-gauss-quotient.md) supersedes its open-endpoint and Gauss status with actual endpoint values, the complete (6,2) exclusion and eleven remaining necessary K splittings in (8,2). The fourth obstruction remains open.
+
 The corrected C5-square lower source is now proved nonzero, already on the reduced genus-four cubic. This is not a nonzero fourth Bockstein. The absolute midpoint and Atiyah representatives recover information lost in the effective vector quotient; the endpoint variation remains an unevaluated secondary P4 residue. The distinction between these three statements is essential throughout this chapter.
 
 ## 17.1 The absolute midpoint and Atiyah sections

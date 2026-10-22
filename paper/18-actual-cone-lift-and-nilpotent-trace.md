@@ -1,5 +1,7 @@
 # 18. Actual cone lift and nonzero nilpotent trace
 
+**Historical frontier.** This chapter retains its earlier source scope. [Chapter 19](19-actual-endpoint-values-and-last-gauss-quotient.md) supersedes its open-endpoint and Gauss status with actual endpoint values, the complete (6,2) exclusion and eleven remaining necessary K splittings in (8,2). The fourth obstruction remains open.
+
 Through the 22 October 2026, 05:54 UTC cutoff, the actual cone lift is explicit and global, and both components of the normal trace shadow are nonzero. These are advances in the input and lift comparison, not evaluations of the endpoint P4 or fourth Bockstein. The separate rank-two Gauss branch now has two necessary quotient shapes and 42 quotient/type pairs. The general section count remains four or five.
 
 The sources in this chapter are PR543 at 74feee620e0027d567df88d964e76cb9d7209c0c and 30bed21aac919087a4b40f4d1079997eb21d1390, with Mr. Slop’s complementary PR660 and PR661 pinned below. No later endpoint-cohomology identification, apolar representative or further Gauss reduction is included.
