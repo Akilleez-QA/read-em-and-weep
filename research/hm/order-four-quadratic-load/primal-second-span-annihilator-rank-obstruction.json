@@ -1,0 +1,766 @@
+{
+  "scope": "Universal second-span annihilator rank contradiction excludes both remaining primal equality labels; no actual-instance evaluation.",
+  "source_hashes": {
+    "PRIMAL-RESIDUAL-OSCULATIONS-FORCE-MIXED-Z5.md": "79cd9b45c9d50e808af5d1723282ac4d99b98dce26acfc803f982508cf799b56",
+    "primal-residual-osculations-force-mixed-z5.json": "0a446dde188819b24acdbfe49d8c171582b66880668d2249082dc55a552a6114",
+    "PRIMAL-EQUALITY-CONSTANT-SPAN-INTERSECTION.md": "fab32f62c3979dbdea775b6de48e2f98912cbc32577576333e8e609da2e104f0",
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  "excluded_ids": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9"
+  ],
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "H1_Qprime_minus_one": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    2,
+    0,
+    4
+  ],
+  "H1_Qprime": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    3,
+    0
+  ],
+  "complete_Qprime_block_overlist": [
+    {
+      "degree": -18,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -16,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -11,
+      "irrep": "Wp",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -10,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -8,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -7,
+      "irrep": "W",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -6,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -6,
+      "irrep": "A",
+      "rank": 3,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -5,
+      "irrep": "W",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -5,
+      "irrep": "Wp",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -4,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -4,
+      "irrep": "V",
+      "rank": 3,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -4,
+      "irrep": "P",
+      "rank": 4,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -3,
+      "irrep": "Wp",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -3,
+      "irrep": "T",
+      "rank": 6,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "V",
+      "rank": 3,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "P",
+      "rank": 4,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -2,
+      "irrep": "D",
+      "rank": 5,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -1,
+      "irrep": "Wp",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -1,
+      "irrep": "S",
+      "rank": 4,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    },
+    {
+      "degree": -1,
+      "irrep": "T",
+      "rank": 6,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Hom_to_S_minus_seven": 0
+    }
+  ],
+  "only_Hom_support_to_S_minus_seven": [
+    {
+      "degree": -18,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -16,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -11,
+      "irrep": "Wp",
+      "rank": 2,
+      "H1_minus_one": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        0,
+        2,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    },
+    {
+      "degree": -10,
+      "irrep": "one",
+      "rank": 1,
+      "H1_minus_one": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "H1_zero": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "Hom_to_S_minus_seven": 1
+    }
+  ],
+  "P_budget": 1,
+  "P_cost_each_supported_copy": 1,
+  "maximum_number_supported_copies": 1,
+  "maximum_restriction_rank": 2,
+  "second_constant_span_dimension": 11,
+  "Z_rank": 8,
+  "minimum_actual_restriction_rank": 3,
+  "annihilator_target": [
+    [
+      -7,
+      "S"
+    ]
+  ],
+  "no_second_exact_intersection_or_surjectivity_assumed": true,
+  "no_N_equals_Z_Gauss_kernel_assumed": true,
+  "realization_claimed": false
+}
