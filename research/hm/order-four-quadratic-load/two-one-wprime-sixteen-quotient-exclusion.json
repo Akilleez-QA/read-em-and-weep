@@ -1,0 +1,93 @@
+{
+  "scope": "One necessary quotient pair excluded, no actual map evaluation or realization claim.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad"
+  },
+  "id": "G3.21.bf8462f3a0d7",
+  "profile": "21",
+  "A": [
+    [
+      -5,
+      "Wp"
+    ],
+    [
+      16,
+      "one"
+    ]
+  ],
+  "B": [
+    [
+      -18,
+      "one"
+    ],
+    [
+      3,
+      "Wp"
+    ]
+  ],
+  "second_defect": "arbitrary torsion",
+  "twist": -2,
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "chi_E": [
+    0,
+    0,
+    0,
+    -3,
+    -4,
+    -5,
+    0,
+    -6,
+    0
+  ],
+  "chi_A": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "H1_K": [
+    0,
+    0,
+    0,
+    3,
+    5,
+    5,
+    0,
+    6,
+    0
+  ],
+  "H1_A_minus_four": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0
+  ],
+  "obstruction": "An equivariant surjection cannot map zero trivial multiplicity onto one trivial multiplicity.",
+  "previous_frontier": 144,
+  "new_frontier": 143,
+  "remaining_by_profile": {
+    "11": 122,
+    "12": 10,
+    "21": 11
+  }
+}
