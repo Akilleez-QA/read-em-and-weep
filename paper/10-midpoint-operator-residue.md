@@ -170,7 +170,7 @@ The source is vertex-supported, with character A⊕2V⊕4P4⊕2D5 and dimension 
 
 Uniform cohomological lifting through transverse degree three makes K map isomorphically to the thirty-one-dimensional lower-jet quotient. Consequently a given v has a unique global-restriction image k with the same lower jets, and d(v)=(d|_(T_last))(v−k). A global section lifting k need not be unique; its restriction is. This canonical projection is not an arbitrary splitting into irreducibles, nor does it automatically kill a chosen homogeneous middle P4 component.
 
-This is a complementary actual-global route to the residue calculation, alongside Section 10.6 and the nilpotent boundary in Section 11.3. The actual operator's highest-jet remainder v−k is still uncomputed. Neither the 35/31 quotient nor its canonical P4 slice is an additional nonzero value of Ψ.
+This is a complementary actual-global route to the residue calculation, alongside Section 10.6 and the nilpotent boundary in Section 11.3. PR650 now identifies these actual maps through the corrected first-normal quintic extractor, after subtracting a reduced kernel lift; see [Section 11.4](11-cubic-support-and-nilpotent-torsion.md#114-corrected-first-normal-extraction-equals-the-last-vertex-jet). The actual operator's highest-jet remainder v−k is still uncomputed. Neither the 35/31 quotient nor its canonical P4 slice is an additional nonzero value of Ψ.
 
 ## 10.10 Separate pair rigidity and the classical equation complex
 
@@ -195,7 +195,7 @@ These contributions concern invariant groups at negative and twist-two degrees. 
 
 ## 10.11 Remaining value and evidence boundary
 
-The actual operator-boundary comparison, corrected symbol matching, harmonic multiplication, zero conic boundary, exact 32-to-36-to-P4 quotient, its nonzero split boundary channels, uniform lower rank four, and the complementary canonical last-jet quotient are established at the source pins below. The absolute value δ(r_v), and then its class modulo the actual second symbol, remain uncomputed. The numerical results remain generic SF ≥ 3, positive-square rank ≥ 27, and total section count four or five. The original repair and algebraicity questions remain open.
+The actual operator-boundary comparison, corrected symbol matching, harmonic multiplication, zero conic boundary, exact 32-to-36-to-P4 quotient, its nonzero split boundary channels, uniform lower rank four, and the complementary canonical last-jet quotient are established at the source pins below. [Section 12](12-harmonic-cochain-and-family-gate.md) now gives the explicit leading actual cochain, its a² upper factor, and exact family coefficient reductions. It retains the diagonal and frame corrections and does not evaluate their combined class. The absolute value δ(r_v), and then its class modulo the actual second symbol, remain uncomputed. The numerical results remain generic SF ≥ 3, positive-square rank ≥ 27, and total section count four or five. The original repair and algebraicity questions remain open.
 
 The sources provide authored geometric proofs and supplementary universal verifiers, not proof-assistant certificates. The verifiers test identities, characters and degree bookkeeping; no selected actual HM coefficients or actual-instance rank tests are used. The separate adjacent Gauss exclusions and cubic-pairing bound are recorded in [Section 4.13](04-positive-sector.md#413-further-rank-three-gauss-configurations-and-pairings-are-excluded).
 

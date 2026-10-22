@@ -51,7 +51,38 @@ It follows that H⁰(N₈) = D5⊕P4. Comparison with the actual gauge extension
 
 The D5 injection is the already proved nonzero extension boundary, so this P4 channel is genuinely nonzero. It is not inferred from an allowed representation type. Nevertheless, the actual corrected operator residue is not shown to lie in N₈ or to have a nonzero P4 component there. [Intrinsic boundary theorem][C].
 
-## 11.4 The ambient five-torsion relation fails on the double curve
+## 11.4 Corrected first-normal extraction equals the last vertex jet
+
+Mr. Slop's [PR650][EX] gives an actual map-level bridge from this nilpotent boundary to the canonical last jet of Section 10.9. Write R₈=π_*O_D(−2,12), let C_sc=O_L(4) be the scalar subbundle of N₈, and put K₈=im H⁰(E₈)⊂H⁰(M₈). Then
+
+    0 → H⁰(C_sc) → K₈ → H⁰(R₈) → 0
+         dimension 5     32           27
+
+is exact. Indeed multiplication by the nowhere-zero g_D identifies R₈ with π_*O_D(3,7); its cubic restriction sequence has kernel O_L(4). The acyclicity of T6 O_L(−1) identifies the actual tangent coefficient sections with this cubic source. The five-dimensional kernel is the actual scalar class, not merely an abstract D5 summand.
+
+For m∈H⁰(M₈), choose k∈K₈ with the same reduced restriction to D. Then m−k lies in H⁰(N₈), and its image modulo C_sc is independent of k. This defines the canonical surjection
+
+    Q:H⁰(M₈) → H⁰(N₈/C_sc)=H⁰(W′ O_L(1)),
+    ker Q=K₈.
+
+No preferred splitting of the 32-to-27 map is required. Every reduced residue can be removed, but its actual global kernel lift must be subtracted before extracting the first-normal coefficient.
+
+Locally m=r/g² and a compatible tangent lift has k=(fu+gv)/g². The corrected coefficient is
+
+    β_corr = [(r−fu−gv)/(f g²)]|_D ∈ O_D(−5,9).
+
+Division by f is the conormal identification, not a chosen retraction of 2D. Multiplication by g_D² and passage modulo the actual quintic relation subbundle gives the intrinsic output
+
+    [(r−fu−gv)/f] modulo (f,g)
+      in Sym⁵(W′) O_L(−1)/K5(−1)=W′ O_L(1).
+
+The numerator is divisible by f only after reduced-part correction. The quotient retains the nonsplit changes g↦g+fp; it does not choose a global quintic generator.
+
+Pure-u tangent normalization identifies this quotient with the actual deepest quintic subsheaf of G|_Z(4). The intrinsic restriction map from the global defect makes the degree-eight boundary equal to the last-jet boundary after Q. This is equality of the actual maps under their fixed connecting conventions, not a representation-theoretic scalar guess. The factor two in the scalar identity τ(σ)=2N contributes no extra factor after the scalar quotient. Neither the 32-dimensional K₈ nor its scalar five-space is being identified with the distinct 31-dimensional full restriction image of Section 10.9.
+
+Thus the operator problem can be evaluated by its corrected quintic remainder. That remainder is still uncomputed; taking the raw normal coefficient before subtracting the reduced lift would not compute it.
+
+## 11.5 The ambient five-torsion relation fails on the double curve
 
 The [nilpotent Picard comparison][P] proves
 
@@ -75,13 +106,15 @@ If K(c) denotes the nilpotent line-bundle class for c ∈ H¹(D,J), then
 
 has exact order five and restricts to T. It is the unique five-torsion line-bundle isomorphism class with that restriction. This is uniqueness of a line-bundle class on the double cubic, not a canonical trivialization, an identification of normal bundles, or a lift of the midpoint to the next ambient thickening.
 
-## 11.5 What remains open
+## 11.6 What remains open
 
 The support geometry, both split square-boundary channels, and the intrinsic nilpotent boundary provide additional structure for calculating the actual corrected residue. No comparison identifies the nonzero Picard class e or its derivative with the positive cubic value. In particular, none of these nonzero auxiliary maps proves that the specified residue survives the 32-dimensional kernel, avoids cancellation, or survives the actual second-symbol quotient.
 
-The absolute Ψ value, four-versus-five decision, and original repair remain open. All sources below are pinned to the accepted public PR543 commit. Their geometric proofs have independent checks and universal verifiers; these are not proof-assistant certificates or selected-instance coefficient/rank tests.
+The absolute Ψ value, four-versus-five decision, and original repair remain open. The support and torsion sources are pinned to PR543; the corrected extractor is separately attributed and pinned to PR650. Their geometric proofs have independent mathematical checks, with universal verifiers for the PR543 inputs; these are not proof-assistant certificates or selected-instance coefficient/rank tests.
 
 ## Pinned source references
 
 [C]: https://github.com/Akilleez-QA/read-em-and-weep/blob/14fc90d90f74998c10ea9f2b45cf5b8aeac96bae/research/hm/order-four-quadratic-load/ACTUAL-CUBIC-SUPPORT-IS-GENUS-FOUR-WITH-EXACT-FIVE-TORSION.md
 [P]: https://github.com/Akilleez-QA/read-em-and-weep/blob/14fc90d90f74998c10ea9f2b45cf5b8aeac96bae/research/hm/order-four-quadratic-load/ACTUAL-CUBIC-FIVE-TORSION-FAILS-ON-ITS-DOUBLE.md
+
+[EX]: https://github.com/Akilleez-QA/read-em-and-weep/blob/389d5488257348d7bd57ceb1b81cdb8f1b916ce8/research/hm/last-jet-double-cubic/PROOF.md

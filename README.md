@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 02:21 UTC (21 October, 22:21 EDT). Positive operator sources: PR543 through 6c724c3; complementary global-restriction results: PR648–649; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 03:14 UTC (21 October, 23:14 EDT). Positive operator sources: PR543 through 15adb8e; complementary extractor, normal-form, divisor and ramification results: PR648–653; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -48,11 +48,15 @@ The fixed actual secondary value now has the exact description Ψ = δ(r), where
 
 The actual cubic support is a smooth genus-four curve D with exact five-torsion T = O_D(1,-1). Its double gives an intrinsic 9 → 36 → 27 residue filtration and a nonzero nilpotent boundary onto P4. The ambient torsion relation fails on 2D by the actual nonzero quintic-extension class, although a uniquely corrected five-torsion lift exists. None of these nonzero auxiliary classes has been identified with Ψ. [Cubic geometry and precise limit](paper/11-cubic-support-and-nilpotent-torsion.md).
 
-The separate Gauss analysis excludes (2,3) and eleven formal primal types in (3,2), including the three two-D5 types and six further large quadratic-section types. At most 17 of the original 28 formal primal types remain. The cubic pairing in (3,2) has rank at most two. Neither the entire (3,2) profile nor generic SF rank three is excluded. [Exact scope](paper/04-positive-sector.md#413-further-rank-three-gauss-configurations-and-pairings-are-excluded).
+The leading actual operator cochain is now explicit in harmonic-transition form, with its local equation-frame and effective-scalar corrections retained. Its upper connection has an a² factor multiplying one actual quartic map. That quartic factor has rank three away from twelve simple exceptional points and rank two there. The family coefficient reductions are 11 → 6 → 2, or 9 → 5 → 2 in trace-free normal form. The final two-dimensional gate was already known; normalization removes no cubic channel. The diagonal is now fixed by the canonical residue inverse, and the Gram primitive gives an actual vector-cochain representative in the fifteen-to-twelve quotient. Source connection and target trace frames remain distinct. The actual scalar correction surjects onto its fifteen-dimensional target, with kernel 1⊕P4⊕D5. This does not determine the combined global class, including scalar-extension cancellation, which remains unevaluated. [Harmonic cochain and family gate](paper/12-harmonic-cochain-and-family-gate.md); [canonical diagonal and vector cochain](paper/13-canonical-diagonal-and-vector-cochain.md).
 
-Mr. Slop's complementary PR648–649 results remove the entire scalar-rescaling layer and identify the global restriction defect as a 35/31 quotient with a canonical deepest-quintic P4 slice. This gives another actual-global route, not a computed operator value. [Canonical last-jet route](paper/10-midpoint-operator-residue.md#109-a-complementary-global-restriction-and-canonical-last-jet-route).
+The separate Gauss analysis excludes (2,3) and fifteen formal primal types in (3,2), including the three two-D5 types, six further large quadratic-section types, the single-V type and all three single-P4 types. At most 13 of the original 28 formal primal types remain. The cubic pairing in (3,2) has rank at most two. Neither the entire (3,2) profile nor generic SF rank three is excluded. [Exact scope](paper/04-positive-sector.md#413-further-rank-three-gauss-configurations-and-pairings-are-excluded).
+
+Mr. Slop's complementary PR648–649 results remove the entire scalar-rescaling layer and identify the global restriction defect as a 35/31 quotient with a canonical deepest-quintic P4 slice. PR650 identifies this route with the double-cubic nilpotent boundary by corrected reduced-part subtraction and quintic extraction. PR651 makes the second-symbol kernel splitting uniquely equivariant and supplies an exact no-obstruction normal form, without evaluating its actual coefficients. PR652 conditionally classifies the fixed divisor of any nonzero third gate: none off the discriminant-divisible line, and exactly one discriminant factor on it. The finite primitive base schemes have length at most 70 or 40, with excess at most 46 or 16 beyond the second-symbol scheme. No nonzero actual third gate is assumed. These are structural reductions, not a computed operator value. [Canonical last-jet route](paper/10-midpoint-operator-residue.md#109-a-complementary-global-restriction-and-canonical-last-jet-route).
 
 Mr. Slop's distinct PR646–647 results give rigidity of existing marked first-normal pairs and invariant acyclicity of the classical equation complex. Their negative and twist-two groups differ from the positive operator target; they do not determine Ψ or lift the midpoint to 3Q. [Comparison and attribution](paper/10-midpoint-operator-residue.md#1010-separate-pair-rigidity-and-the-classical-equation-complex).
+
+If the actual square third channel is nonzero, it is a basepoint-free degree-eighteen series with exact ramification B₂+2B₃, an immersive birational parametrization and fifth-jet quotient O(78). The vertex double point on a square cone contributes no additional Tor term. These conditional and local results do not establish nonvanishing. [Square-gate geometry](paper/14-square-gate-osculation-and-vertex-geometry.md).
 
 ## Exact auxiliary normal-extension classification
 
@@ -80,6 +84,9 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Actual Atiyah factor and six exceptional directions](paper/09-actual-atiyah-factor.md)
 - [Midpoint operator residue and remaining global value](paper/10-midpoint-operator-residue.md)
 - [Cubic support and nonreduced torsion](paper/11-cubic-support-and-nilpotent-torsion.md)
+- [Explicit harmonic cochain and remaining family gate](paper/12-harmonic-cochain-and-family-gate.md)
+- [Canonical diagonal and actual vector cochain](paper/13-canonical-diagonal-and-vector-cochain.md)
+- [Conditional square-gate osculation and vertex geometry](paper/14-square-gate-osculation-and-vertex-geometry.md)
 
 ## Repository layout and provenance
 
