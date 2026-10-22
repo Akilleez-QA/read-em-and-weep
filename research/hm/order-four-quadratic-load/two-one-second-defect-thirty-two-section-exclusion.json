@@ -1,0 +1,75 @@
+{
+  "scope": "One whole second-defect32 branch excluded; quotient case and frontier143 unchanged.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16",
+    "TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843"
+  },
+  "id": "G3.21.1c43993b4f83",
+  "source_pair_index": 9,
+  "A": [
+    [
+      -8,
+      "one"
+    ],
+    [
+      6,
+      "one"
+    ],
+    [
+      16,
+      "one"
+    ]
+  ],
+  "B": [
+    [
+      -18,
+      "one"
+    ],
+    [
+      -8,
+      "one"
+    ],
+    [
+      6,
+      "one"
+    ]
+  ],
+  "excluded_second_defect": 32,
+  "remaining_second_defects": [
+    0,
+    12,
+    20,
+    24
+  ],
+  "torsion": [
+    [
+      12,
+      4
+    ],
+    [
+      20,
+      2
+    ]
+  ],
+  "C_degrees": [
+    -10,
+    4,
+    14
+  ],
+  "C10_weights": [
+    0,
+    4,
+    4
+  ],
+  "C6_weights": [
+    2,
+    4,
+    2
+  ],
+  "J_minimum_degree": -29,
+  "forbidden_split_low_degree": -30,
+  "high_restriction_kernel_degree": -4,
+  "H0_J_two_upper_bound": 7,
+  "H0_M_four": 11
+}
