@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 04:21 UTC (22 October, 00:21 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–654; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 04:51 UTC (22 October, 00:51 EDT). Positive operator sources: PR543 third vanishing at 86e5aed, fourth reduction at 2f81e35, canonical fourth-input results at 4e16e69 and lower comparison/test at c85c756; Gauss plateau closure through dfbdd9f; complementary extractor, normal-form, divisor, ramification and spectral results: PR648–658; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -31,6 +31,12 @@ On the full P¹⁴ of quadrics, the actual primary map is generically injective 
 ## The remaining gate
 
 After second order in a general negative direction, the surviving source is D5, of dimension five, and the remaining target is a line. The actual third Bockstein now vanishes identically, including the extra specialized kernel line at the six axes. A nonzero fourth or later Bockstein would give rank 37 and four sections. If the last target survives all higher obstructions along the pencil, the rank stays 36 and the section count stays five. The last generic finite Smith exponent is therefore 4 ≤ e ≤ 31, or the cokernel is permanent. The corrected fourth representative is B₄|D5−B₃|A L, with four allowed channels; none of its coefficients has been evaluated. No higher nonvanishing is claimed here. [Third-vanishing theorem and proof](paper/15-third-vanishing-and-fourth-frontier.md). Closing this gate would still not automatically solve the original source or algebraicity problem.
+
+## New fourth-input results and complete test
+
+The canonical raw cubic is nonzero and fills the second-symbol image in every direction, despite its zero final third quotient. Its unique canonical correction L_can is nonzero and onto A; arbitrary Schur gauges require comparison. The corrected fourth source has a forced nonzero parameter trace. The vector cochain R retains only the effective twelve-space, not the full lower class: an exact 13 → 25 → 12 comparison identifies the missing data, and keeping the full homogeneous normal matrix still loses the polynomial nine-space. The missing positive P4 contains normal variation, but is not proved filled or nonzero.
+
+The entire fourth D5 family is determined by its first ideal-sheaf jet at one semisimple axis and one C5-square fiber, with test dimensions 3+1. This is not ordinary derivative evaluation, and the C5 fiber alone detects only one of two square channels. Mr. Slop’s PR658 supplies the preceding square-plus-fiber kernel and full-square-plus-jet criterion. All four actual fourth coefficients remain unevaluated. [Canonical fourth input and complete test](paper/16-canonical-fourth-input-and-complete-test.md).
 
 ## New higher-obstruction reductions
 
@@ -88,6 +94,7 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Canonical diagonal and actual vector cochain](paper/13-canonical-diagonal-and-vector-cochain.md)
 - [Conditional square-gate osculation and vertex geometry](paper/14-square-gate-osculation-and-vertex-geometry.md)
 - [Actual third vanishing and the fourth-order frontier](paper/15-third-vanishing-and-fourth-frontier.md)
+- [Canonical fourth input and complete test](paper/16-canonical-fourth-input-and-complete-test.md)
 
 ## Repository layout and provenance
 

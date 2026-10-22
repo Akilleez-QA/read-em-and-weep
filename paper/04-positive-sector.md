@@ -282,3 +282,8 @@ The surviving necessary list is (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), withou
 [D5S]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md
 [MD1]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/MIXED-P4-D5-FORCED-OCTIC-EVALUATION.md
 [MD2]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/FOUR-MIXED-P4-D5-TYPES-EXCLUDED-BY-OCTIC-EVALUATION.md
+
+
+### Later extremal (3,1) restriction
+
+At the 04:51 UTC cutoff, the separate extremal (3,1) dual cubic image is proved to have rank at most two, and rank one forces O(9) or O(11). The profile itself is not excluded. [Section 16.8](16-canonical-fourth-input-and-complete-test.md#168-unchanged-theorem-and-evidence-boundary) gives the immutable source and unchanged numerical bounds.

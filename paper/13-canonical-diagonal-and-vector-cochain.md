@@ -34,6 +34,14 @@ Mr. Slop's [PR654][SG] constructs a distinct spectral curve S→L from the twist
 
 In particular there is no nonzero trace-free commuting operator of degree below four. These constraints apply to commuting corrections only: no commutation of the actual R with M has been proved, and the spectral construction does not evaluate its class.
 
+Mr. Slop's [PR655][SD] shows that the nontrivial spectral two-torsion is not invariant under the cubic deck transformation. Neither the spectral module nor its theta characteristic admits a nonidentity deck lift, even after a base-line twist. Its conjugates generate a connected étale Klein-four cover of S; the composite over L has A4 group and genus 37. An order-three quotient is a genus-nine tetragonal curve C with balanced direct image O_L⊕V O_L(−4).
+
+[PR656][TC] identifies C with the actual smooth (4,4) Gram curve b(v,v)=b(v,Mv)=0 on the fixed Gram conic times L. It has canonical line O_C(2,2), two degree-four projections, and gonality exactly four. This is an actual curve construction, unlike the excluded conditional degree-eighteen third-gate curve in Chapter 14.
+
+[PR657][TRC] proves that the two reduced twelve-point ramification orbits R₁,R₂ are disjoint, with Ram(pᵢ)=2Rᵢ, pullbacks 3R₁+R₂ and R₁+3R₂, and A5 quotient signature (3,5,5). The ruling difference O_C(1,−1) has exact order five; it gives a connected étale genus-41 cyclic cover with commuting A5 action and quotient signature (3,3,3,3,3). This genus-nine five-torsion, the genus-ten spectral two-torsion, and the genus-four support five-torsion are different classes on different curves. No torsion transfer or fourth-obstruction value is inferred.
+
+The vector-cochain statements below concern the effective twelve-dimensional lower quotient, not the full C/J₀ class. [Chapter 16](16-canonical-fourth-input-and-complete-test.md) gives the exact thirteen-dimensional information loss and explains why keeping the full homogeneous normal matrix does not recover it.
+
 ## 13.2 The diagonal is fixed by the canonical residue inverse
 
 Normalize D_a=a_s∂_t−a_t∂_s, retaining the actual nonzero Atiyah scalar k. Let 𝒬 denote the actual quartic quotient D5 O_L→V O_L(2), identified through the socle pairing. Its induced map on sections after twisting by two is an isomorphism. The [canonical diagonal theorem][D] defines the global scalar correction u uniquely by
@@ -85,7 +93,7 @@ The unique Gram lift in Section 13.1 supplies the compatible local primitive v_i
 
     v_j−v_i=τ(p_ij,n_h).
 
-The [vector-cochain theorem][V] then represents the actual lower class by R/ν, where
+The [vector-cochain theorem][V] then represents the actual lower class in the effective twelve-dimensional quotient by R/ν, where
 
     R_ij=−K₂₁+(2k/3)a²p_ij v_i.
 
@@ -230,3 +238,7 @@ These published geometric comparisons and universal checks retain the actual bun
 
 [C5]: https://github.com/Akilleez-QA/read-em-and-weep/blob/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load/ACTUAL-C5-SQUARE-CORRECTION-HAS-A-SIMPLE-ROOT.md
 [SG]: https://github.com/Akilleez-QA/read-em-and-weep/blob/f0c94ff7979652c094da3efaa11fea4629dbf59a/research/hm/gram-spectral-geometry/PROOF.md
+
+[SD]: https://github.com/Akilleez-QA/read-em-and-weep/blob/b33a4f9c86a370ad4e96ba3cc1843ed9ef70bfe7/research/hm/spectral-deck-obstruction/PROOF.md
+[TC]: https://github.com/Akilleez-QA/read-em-and-weep/blob/561f4cf5e4ad23a9f384936816d7a6ef0bd07dd6/research/hm/tetragonal-canonical-model/PROOF.md
+[TRC]: https://github.com/Akilleez-QA/read-em-and-weep/blob/d55aa293629c54036d47da439fc1e1bf99e2f941/research/hm/tetragonal-ramification-constraints/PROOF.md

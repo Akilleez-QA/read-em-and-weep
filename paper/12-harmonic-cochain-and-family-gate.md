@@ -2,6 +2,8 @@
 
 **Current status.** The reductions below retain their stated scope. [Section 15](15-third-vanishing-and-fourth-frontier.md) now evaluates both actual cubic channels as zero; the two-dimensional space of allowed channels is not itself zero.
 
+The trace-free family normal form in this chapter concerns the preceding uncorrected input. It must not be imposed on the corrected fourth source, whose parameter trace is forced nonzero. See [Chapter 16](16-canonical-fourth-input-and-complete-test.md).
+
 ## 12.1 What is now explicit
 
 The global operator quotient and lower multiplication were identified in Section 10. The next accepted results give an explicit leading actual normal cochain and a smaller coefficient problem. They do not evaluate its cohomology class. The two-dimensional final cubic-gate space was already known; neither the new formula nor trace-free normalization removes one of its channels.

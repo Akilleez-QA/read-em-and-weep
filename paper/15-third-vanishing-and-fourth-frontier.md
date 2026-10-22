@@ -19,7 +19,7 @@ The [source-change theorem][SC] proves both the complete finite cocycle identity
 
 The derivative of the transition coefficient contributes another inhomogeneous term. In the complete vector formula, its contribution together with that of m is exactly canceled by the affine Γ contribution. Thus R_y=z⁶R_x, the transition of V O_L(−6). The nonzero Atiyah scalar, Gram primitive, and source-versus-target convention are all retained.
 
-If two global meromorphic normalized quintic generators differ by ℓf, their source coefficients differ by −ℓn and their Gram primitives by τ(ℓ,n). The finite cocycle identity says their vector principal parts differ by those of one global meromorphic section of V O_L(−6). They therefore give the same actual lower class, even before the connecting A quotient. This is not an assertion that arbitrary local scalar differentials glue globally.
+If two global meromorphic normalized quintic generators differ by ℓf, their source coefficients differ by −ℓn and their Gram primitives by τ(ℓ,n). The finite cocycle identity says their vector principal parts differ by those of one global meromorphic section of V O_L(−6). They therefore give the same vector-cohomology class in H¹(V O_L(−6)), even before its connecting A quotient. This effective comparison does not identify the full lower C/J₀ class; see [Section 16.3](16-canonical-fourth-input-and-complete-test.md#163-what-the-lower-vector-shadow-actually-retains). This is not an assertion that arbitrary local scalar differentials glue globally.
 
 In a fixed global positive Gram identification, q₀=ν₀q with one nonzero constant ν₀. Both equations acquire the same factor in induced relative frames. The physical representative R/ν₀ is retained; an arbitrary nonconstant equation factor cannot be inserted without transporting the numerator and bundle frame too.
 
@@ -83,7 +83,7 @@ The actual second symbol β:A O(−2)→P4 O is injective as a sheaf, despite it
 
     L:D5 O(−3)→A O(−2),       B₃|D5=βL.
 
-Its equivariant coefficient space is one-dimensional relative to the fixed reduction. This lifting correction is distinct from the first-normal variation map called L in Section 4.11. Its scalar is not evaluated, no nonzero L is claimed in this snapshot, and independence from changes of Schur reduction is not asserted. Correcting the source by h−tL(a)h gives the fourth representative
+Its equivariant coefficient space is one-dimensional relative to the fixed reduction. This lifting correction is distinct from the first-normal variation map called L in Section 4.11. The later canonical raw-cubic theorem proves a nonzero L_can for the fixed actual probe; [Chapter 16](16-canonical-fourth-input-and-complete-test.md) supplies that normalization and its comparison boundary. The arbitrary Schur correction L must be transported before identifying it with L_can; independence from changes of Schur reduction is not asserted. Correcting the source by h−tL(a)h gives the fourth representative
 
     W₄(a)h = B₄(a)h−B₃(a)|A L(a)h
 
