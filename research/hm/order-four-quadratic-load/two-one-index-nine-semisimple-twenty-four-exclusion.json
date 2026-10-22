@@ -1,0 +1,29 @@
+{
+  "scope": "Only source9 semisimple2O4|D12 alternative excluded; cyclicO4|2D12 and whole s24 branch not excluded.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16",
+    "TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843"
+  },
+  "id": "G3.21.1c43993b4f83",
+  "source_pair_index": 9,
+  "second_defect": 24,
+  "excluded_torsion": [
+    [
+      12,
+      4
+    ],
+    [
+      12,
+      4
+    ]
+  ],
+  "forced_J_degrees": [
+    -10,
+    -8,
+    2
+  ],
+  "H0_J_two": "D",
+  "every_endpoint_H0_M_four_contains": "P",
+  "quotient_labels_unchanged": 143
+}
