@@ -1,0 +1,65 @@
+{
+  "scope": "Two positive-defect branches excluded by a stabilizer-fiber quotient obstruction; neither quotient pair excluded.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16"
+  },
+  "stabilizer_order": 10,
+  "O_one_fiber_weight": 1,
+  "Wprime_weights": [
+    3,
+    7
+  ],
+  "cyclic_generator_weight": 6,
+  "cyclic_socle_weight": 4,
+  "cases": [
+    {
+      "id": "G3.21.d610e381ed75",
+      "source_pair_index": 2,
+      "excluded_second_defect": 24,
+      "remaining_second_defects": [
+        0,
+        12,
+        20
+      ],
+      "source_fiber_weights": [
+        0,
+        0,
+        4
+      ],
+      "torsion_top_weights": [
+        [
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "G3.21.d41783aef00b",
+      "source_pair_index": 10,
+      "excluded_second_defect": 24,
+      "remaining_second_defects": [
+        0,
+        12,
+        20
+      ],
+      "source_fiber_weights": [
+        0,
+        0,
+        4
+      ],
+      "torsion_top_weights": [
+        [
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ]
+    }
+  ]
+}
