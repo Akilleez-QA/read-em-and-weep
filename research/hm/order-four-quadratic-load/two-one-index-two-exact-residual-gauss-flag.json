@@ -1,0 +1,120 @@
+{
+  "scope": "Exact actual projected residual Gauss flag; no quotient-label exclusion or realization.",
+  "id": "G3.21.d610e381ed75",
+  "source_hashes": {
+    "TWO-ONE-INDEX-TWO-RESIDUAL-FULL-SPAN.md": "f7621cc508b76f8c12e52a0c5eddf067e18688a174265d930403fc8a69641026",
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad"
+  },
+  "full_span_commit": "e21d50b6bd7d124dc419beeb8c27fa3b9ef3e169",
+  "constant_quotient_rank": 10,
+  "saturated_final_line_degree": -18,
+  "universal_degree_eight_osculations": [
+    {
+      "j": 0,
+      "rank": 1,
+      "degree": -8,
+      "backward_rank": 0,
+      "backward_degree": 0,
+      "nonzero_universal_symbol_coefficient": 8,
+      "quotient_line_degree": -8
+    },
+    {
+      "j": 1,
+      "rank": 2,
+      "degree": -14,
+      "backward_rank": 1,
+      "backward_degree": -8,
+      "nonzero_universal_symbol_coefficient": 7,
+      "quotient_line_degree": -6
+    },
+    {
+      "j": 2,
+      "rank": 3,
+      "degree": -18,
+      "backward_rank": 2,
+      "backward_degree": -14,
+      "nonzero_universal_symbol_coefficient": 6,
+      "quotient_line_degree": -4
+    }
+  ],
+  "actual_R_flag": [
+    {
+      "rank": 4,
+      "degree": -36,
+      "splitting": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "A"
+        ]
+      ]
+    },
+    {
+      "rank": 2,
+      "degree": -14,
+      "splitting": [
+        [
+          -7,
+          "W"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "degree": -8,
+      "splitting": [
+        [
+          -8,
+          "one"
+        ]
+      ]
+    },
+    {
+      "rank": 0,
+      "degree": 0,
+      "splitting": []
+    }
+  ],
+  "actual_quotients": [
+    {
+      "rank": 2,
+      "degree": -22,
+      "splitting": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "degree": -6,
+      "splitting": [
+        [
+          -6,
+          "one"
+        ]
+      ]
+    },
+    {
+      "rank": 1,
+      "degree": -8,
+      "splitting": [
+        [
+          -8,
+          "one"
+        ]
+      ]
+    }
+  ],
+  "projection_kernel_lemma": "If F projects to saturated C in a constant quotient and C^-=0, then F^-=(F intersect V)^-.",
+  "actual_source_parameter_assigned": false,
+  "realization_claimed": false
+}
