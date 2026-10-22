@@ -3,8 +3,8 @@
 ## Adjoint restrictions, exact exclusions, and a remaining higher obstruction
 
 **Craig Ward**  
-Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper update **22 October 2026, 00:16 UTC**  
-Separate V51 comparison checked through PR640, 22 October 2026.
+Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper update **22 October 2026, 00:58 UTC**  
+Separate V51 comparison includes PR641 and PR644; three-channel family dependency pinned to PR643, 22 October 2026.
 
 ### Abstract
 
@@ -20,12 +20,13 @@ This working paper organizes a coefficient-free proof-repair program around stat
 6. [Dependencies, reproducibility, and change log](06-dependencies-and-changelog.md)
 7. [Earlier primary and Rao reductions](07-primary-and-rao-reductions.md)
 8. [Finite normal-extension tower](08-finite-normal-extension-tower.md)
+9. [Actual Atiyah factor and six exceptional directions](09-actual-atiyah-factor.md)
 
 The files are sections of one paper, not independent claims of completion. Immutable public source links identify the mathematical versions summarized. The proofs are mathematical arguments with supplementary universal checks, not proof-assistant certificates. This edition is maintained in Markdown; no PDF is part of this edition.
 
 ### Higher-obstruction update
 
-Section 4 now includes the actual secondary multiplication tensor for β₃ and a distinct square-endpoint Gauss comparison. Saturated-flag geometry gives generic square-endpoint rank at least 26, without improving the rank-36 smoothing bound or deciding the four-or-five alternative.
+Section 4 now includes the actual secondary multiplication tensor for β₃ and a distinct square-endpoint Gauss comparison. Saturated-flag geometry gives generic square-endpoint rank at least 27, without improving the rank-36 smoothing bound or deciding the four-or-five alternative.
 
 ### Finite normal-extension update
 
@@ -50,11 +51,14 @@ The possible values are integers, so the last two quantities are four or five. T
 [N]: https://github.com/Akilleez-QA/read-em-and-weep/blob/9f28cb10c38d7a0e29c1eb994594325fea7f22bf/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md
 [G]: https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md
 
-7. [Earlier primary and Rao reductions](07-primary-and-rao-reductions.md)
-8. [Finite normal-extension tower](08-finite-normal-extension-tower.md)
-
 The earlier full-family reduction is retained in Section 7: both actual quadratic flanks are generically good, but their canonical 20-to-20 extension boundary remains a separate condition. This is logically distinct from the inversion-even four-or-five theorem.
 
-The V51 comparison is updated through PR640: exact order-five U-obstruction, algebraic conductor gluing, and twelve reduced positive-section axes. The full nonreduced jump scheme is not identified.
+The V51 comparison now includes the exact nonreduced section-jump schemes: the positive-section ideal is J⁵, with generic transverse length 1365 along the twelve axes and an embedded identity. Full Γ-linearizability holds exactly for polarization powers divisible by five, with a unique action on each admissible fixed line bundle. These are separate comparison results, not a solution of the adjoint gate.
+
+Section 8.7 replaces the missing historical three-channel-family citation with PR643's standalone proof of the exact subbundle torus and its gauge/coordinate transitivity. The replacement supports the normal coefficient and two-extension chain without computing the positive cubic.
 
 The fixed actual cubic probe has zero first-normal variation (Section 4.11), not a known zero value. The midpoint square-zero adjoint exists on 2Q but its nonzero scalar obstruction blocks extension to 3Q (Section 8.9).
+
+### Actual lower-factor update
+
+Section 9 proves the actual nine-dimensional image, classifies the six exceptional fixed directions, and describes the full parameter-family cokernel as a six-point elementary modification. Every square direction is injective for this lower map. Its subsequent annihilating multiplication and normal operator lift remain distinct; no composite nonvanishing is inferred.

@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper update: 22 October, 00:16 UTC (21 October, 20:16 EDT). V51 comparison: PR640.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper update: 22 October, 00:58 UTC (21 October, 20:58 EDT). V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -38,17 +38,21 @@ The actual third Bockstein is now expressed by a canonical secondary multiplicat
 
 The fixed actual cubic probe has zero first-normal variation: L = 0, even before the second-symbol quotient. This closes the variation-injectivity route negatively, but does not determine the absolute cubic value. [Exact scope](paper/04-positive-sector.md#411-the-fixed-actual-cubic-probe-has-zero-normal-variation).
 
+## Actual lower-map classification
+
+The lower Atiyah multiplication now surjects onto its actual nine-dimensional target. In a fixed direction it is injective except at exactly six nonsquare C5 axes, where it loses one rank; every square direction is injective. Its entire parameter-family cokernel is a specific six-point modification of a split vector bundle. These resolve the input map, not the absolute secondary operation applied afterward. [Proof and precise boundary](paper/09-actual-atiyah-factor.md).
+
 ## Exact auxiliary normal-extension classification
 
 With fixed determinant, G-equivariance, and marked reduction to the actual bundle on Q₀, there are exactly two formal-extension isomorphism classes, both represented by ambient bundles F_r and F_(−r). The first scalar gate has two distinct roots; the gates to 4Q and 5Q vanish on both, and all later steps are uniquely liftable and unobstructed. The actual invariant map q₀:H¹(B(3))ᴳ→H¹(B(5))ᴳ is zero. No general algebraization theorem is used, and the positive cubic Bockstein remains undecided. [Full statement and proof chain](paper/08-finite-normal-extension-tower.md).
 
-The canonically normalized normal quadratic coefficient is now reduced to d = κb² throughout the monad subbundle locus abc ≠ 0. The actual scheme and Serre-residue double-cover argument proves κ ≠ 0 without computing its numerical value. This closes the auxiliary formal classification, not the positive cubic or original repair. [Coefficient reduction](paper/08-finite-normal-extension-tower.md#87-the-quadratic-coefficient-has-one-universal-scalar).
+The canonically normalized normal quadratic coefficient is now reduced to d = κb² throughout the monad subbundle locus abc ≠ 0. The actual scheme and Serre-residue double-cover argument proves κ ≠ 0 without computing its numerical value. PR643 supplies the verified standalone three-channel-family premise, replacing the missing historical citation. This closes that dependency in the auxiliary formal classification, not the positive cubic or original repair. [Coefficient reduction and family proof](paper/08-finite-normal-extension-tower.md#87-the-quadratic-coefficient-has-one-universal-scalar).
 
 The midpoint of the two extendable points has a unique invariant square-zero adjoint lift on 2Q, but the obstruction −c²/(4d) ≠ 0 blocks 3Q. No flat kernel or spinor-line lift is inferred. [Midpoint theorem](paper/08-finite-normal-extension-tower.md#89-the-midpoint-has-a-square-zero-adjoint-but-cannot-extend-to-q₃).
 
 ## Separate V51 comparison
 
-The independent primary-geometry line attributed to Mr. Slop supplies 636/576-dimensional algebraic slices, formal symmetry breaking, and equivariant polarization-class splitting. Its latest results through PR640 establish the order-five U-linearization obstruction and the exact reduced positive-section support: twelve one-dimensional conductor-gluing axes, with section counts 10 at the identity, 5 on one active axis, and 0 when at least two coordinates are active. The nonreduced jump scheme and full-Γ sufficiency remain open; these results do not close the adjoint problem. [V51 comparison](paper/05-v51-comparison.md#58-the-central-obstruction-is-now-computed).
+The independent primary-geometry line attributed to Mr. Slop supplies 636/576-dimensional algebraic slices, formal symmetry breaking, and equivariant polarization-class splitting. Its conductor-gluing family has section counts 10 at the identity, 5 on one active axis, and 0 when at least two coordinates are active. PR641 determines the nonreduced positive-section ideal J⁵: twelve axes with generic transverse length 1365 and an embedded identity. PR644 proves that L₀ᵐ is fully Γ-linearizable exactly when 5 divides m, with a unique action on each admissible fixed line bundle. Neither comparison result closes the adjoint problem. [Section-jump schemes](paper/05-v51-comparison.md#510-every-determinantal-section-threshold-and-the-embedded-identity); [full-group criterion](paper/05-v51-comparison.md#511-full-γ-linearization-has-exactly-the-same-divisibility-criterion).
 
 ## Read the working paper
 
@@ -61,6 +65,7 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Dependencies, reproducible checks, and change log](paper/06-dependencies-and-changelog.md)
 - [Earlier primary and Rao reductions](paper/07-primary-and-rao-reductions.md)
 - [Finite normal-extension tower](paper/08-finite-normal-extension-tower.md)
+- [Actual Atiyah factor and six exceptional directions](paper/09-actual-atiyah-factor.md)
 
 ## Repository layout and provenance
 

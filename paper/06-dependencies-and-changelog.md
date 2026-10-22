@@ -8,7 +8,7 @@
 4. **Second positive Bockstein kills D5.** Ordinary-square filtration leaves only the three-dimensional A input. Main source [S]. Its undecided-scalar boundary is superseded by [N].
 5. **Actual second scalar nonzero.** Atiyah differentiation and the nonsplit quintic extension identify and prove nonvanishing of the actual channel. Main source [N].
 6. **Generic total section count four or five.** The universal symbol is generically injective on A; combine positive rank at least 36 with odd vanishing. Main source [G].
-7. **Separate marked V51 formal universality.** The 636/576 algebraic slices represent marked Artin classes after completion. PR635 adds formal symmetry and delayed breaking; PR637 adds equivariant polarization-class splitting, six 116-dimensional cyclic fixed pair germs with common 12-dimensional U-fixed germ, and the separate unresolved central linearization obstruction. See Section 5; not an input to items 1–6.
+7. **Separate marked V51 formal universality.** The 636/576 algebraic slices represent marked Artin classes after completion. PR635 adds formal symmetry and delayed breaking; PR637 adds equivariant polarization-class splitting and six 116-dimensional cyclic fixed pair germs with common 12-dimensional U-fixed germ. PR638–641 determine the U-obstruction, conductor-gluing sections and exact nonreduced Fitting schemes; PR644 proves full Γ-linearizability exactly for powers divisible by five. See Section 5; not an input to items 1–6.
 
 8. **Earlier full-family reduction.** General hyperplane sections have a = 0 and b ≤ 1. The unique-cubic square-jet argument gives generic square Rao injectivity. Together with generic primary injectivity, this gives a common smooth open of good flanks and an exact remaining 20-to-20 boundary. Section 7 includes the pinned case-exclusion chain and the specific Segre failure family; it does not assert full-family invertibility or identify representation tensors with polynomial products.
 
@@ -22,6 +22,8 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 12. **Universal normal quadratic coefficient.** After canonical edge normalization, d(a,b,c) = κb² on abc ≠ 0. There is no parameter-specific cancellation locus. The actual Serre-residue double cover proves κ ≠ 0 and realizes both formal branches, without determining the positive cubic. See Sections 8.7–8.8 and their immutable proof/verifier links.
 
 13. **Fixed-probe variation and midpoint.** The actual fixed cubic probe has zero first-normal variation; its constant value remains open. At the midpoint there is a unique invariant square-zero adjoint lift on 2Q, but the obstruction −c²/(4d) blocks 3Q. No flat kernel or spinor-line lift follows. See Sections 4.11 and 8.9 for immutable proofs and universal verifiers.
+
+14. **Repaired three-channel family dependency.** PR643 proves that the equivariant arrow space has exactly three channels, that its everywhere-subbundle locus is exactly abc ≠ 0, and that source gauges plus block coordinate pullbacks act transitively there. Isotropy extends to the boundary by density; injectivity does not. Section 8.7 pins the actual proof and review as the replacement for the missing historical family filename. This family theorem does not itself determine κ or the positive cubic.
 
 ## 6.2 Reproducible supplementary checks
 
@@ -91,6 +93,14 @@ To reproduce an individual check, retrieve the script at its exact commit, inspe
 - Added the unique square-zero midpoint adjoint on 2Q and the nonzero obstruction to 3Q, without flat-kernel or spinor-lift claims.
 - Main count remains four or five; original repair and algebraicity remain open.
 
+### Verified dependency and V51 update, 22 October 2026, 00:56 UTC
+
+- Read the actual PR641, PR643 and PR644 proofs at their stated heads, checked their proof hashes against the independent reviews, and traced PR643's actual-monad and representation inputs.
+- Replaced the missing public three-channel-family dependency with PR643 at 356a3b8d2da36f5b3e2034cc5c6adf82757a33cc, explicitly distinguishing coordinate pullback from isomorphism over the identity.
+- Added all intrinsic section-jump ideals from PR641, including the five retained H¹(M,D) rows, positive-section ideal J⁵, generic transverse length 1365 and embedded identity.
+- Replaced the open full-Γ sufficiency boundary with PR644's exact divisibility-by-five criterion, canonical normalization action, scalar-alignment descent and unique action on admissible fixed line bundles.
+- Preserved Artin section-functor and scalar-automorphism qualifications. These source and comparison improvements do not decide the positive cubic, change the four-or-five theorem, or complete the original repair.
+
 ## 6.4 Standard for future revisions
 
 A new theorem enters this paper only with its exact hypotheses, actual-map argument, and immutable public source. An allowed channel is not promoted to an actual nonzero map without the missing scalar argument. Special-fiber bounds are not promoted to uniform statements without the needed semicontinuity or base-change argument. When a later proof resolves a previously conditional branch, both the current statement and the register of superseded alternatives should change together.
@@ -109,3 +119,7 @@ The next substantive revision should decide the remaining higher positive obstru
 [T]: https://github.com/Akilleez-QA/read-em-and-weep/blob/09b0018bf1f36bcea641c115558ba637f6d63075/research/hm/order-four-quadratic-load/POSITIVE-THIRD-SECONDARY-MULTIPLICATION-TENSOR.md
 [A]: https://github.com/Akilleez-QA/read-em-and-weep/blob/02ed933bc3474804560159a71f3a3df5b3b76177/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md
 [L]: https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md
+
+## 22 October 2026, 00:58 UTC: actual lower-map geometry
+
+Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of the Atiyah input onto P4⊕D5, its six reduced exceptional directions, the complete-quintic sequence on square directions, and the unique nonzero equivariant extension describing its family cokernel. Section 4.13 records the excluded (3,3) Gauss corner. The absolute positive cubic and four-versus-five alternative remain open. Public pins in the coefficient and two-extension notes now directly cite PR643 rather than the unpublished historical filename.

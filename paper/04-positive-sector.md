@@ -204,3 +204,11 @@ The independently established dependence on s is affine, even before quotienting
 
 [CV]: https://github.com/Akilleez-QA/read-em-and-weep/blob/94ba164f156d712d251655f386a173d84ae04b35/research/hm/order-four-quadratic-load/POSITIVE-CUBIC-NORMAL-VARIATION-VANISHES-BY-SERRE-INVOLUTION.md
 [CVV]: https://github.com/Akilleez-QA/read-em-and-weep/blob/03c106e8bc2508eb8ea6cfa94d33be6fbe44926e/research/hm/order-four-quadratic-load/verify_positive_cubic_normal_involution.py
+
+## 4.12 Actual Atiyah input and the six-axis family
+
+The actual lower factor h ↦ h At_F(D_a)|_Q₀ now has a complete rank classification: rank five except on six reduced nonsquare axes, rank four there, and injectivity in every square direction. Its nine-dimensional image and complete parameter-family cokernel are proved in [Section 9](09-actual-atiyah-factor.md). The normal extension of the corrected cone operator is still unresolved, so these results do not settle the absolute secondary value.
+
+## 4.13 One further rank-three Gauss configuration is excluded
+
+The saturated-flag argument bounds both rank-three plateau lengths by three. The simultaneous corner (k,l)=(3,3) is now excluded by an exact five-type dual classification, a projection-saturation bound, and section persistence for the next derivative. This does not exclude every rank-three case or raise the square-endpoint lower bound beyond 27. [Corner exclusion](https://github.com/Akilleez-QA/read-em-and-weep/blob/e6e83a1fafea726c4767322056084d34565bc027/research/hm/order-four-quadratic-load/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md).
