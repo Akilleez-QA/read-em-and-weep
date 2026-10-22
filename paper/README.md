@@ -3,7 +3,7 @@
 ## Adjoint restrictions, exact exclusions, and a remaining higher obstruction
 
 **Craig Ward**  
-Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper update **22 October 2026, 00:58 UTC**  
+Working edition **v0.3** | Section-count theorem cutoff: **21 October 2026, 22:57 UTC**; living-paper draft through **22 October 2026, 02:21 UTC**  
 Separate V51 comparison includes PR641 and PR644; three-channel family dependency pinned to PR643, 22 October 2026.
 
 ### Abstract
@@ -21,6 +21,8 @@ This working paper organizes a coefficient-free proof-repair program around stat
 7. [Earlier primary and Rao reductions](07-primary-and-rao-reductions.md)
 8. [Finite normal-extension tower](08-finite-normal-extension-tower.md)
 9. [Actual Atiyah factor and six exceptional directions](09-actual-atiyah-factor.md)
+10. [Midpoint operator residue and remaining global value](10-midpoint-operator-residue.md)
+11. [Cubic support and nonreduced torsion](11-cubic-support-and-nilpotent-torsion.md)
 
 The files are sections of one paper, not independent claims of completion. Immutable public source links identify the mathematical versions summarized. The proofs are mathematical arguments with supplementary universal checks, not proof-assistant certificates. This edition is maintained in Markdown; no PDF is part of this edition.
 
@@ -62,3 +64,19 @@ The fixed actual cubic probe has zero first-normal variation (Section 4.11), not
 ### Actual lower-factor update
 
 Section 9 proves the actual nine-dimensional image, classifies the six exceptional fixed directions, and describes the full parameter-family cokernel as a six-point elementary modification. Every square direction is injective for this lower map. Its subsequent annihilating multiplication and normal operator lift remain distinct; no composite nonvanishing is inferred.
+
+### Actual midpoint operator update
+
+Section 10 identifies the fixed actual secondary value with the global boundary of a corrected midpoint operator residue. The corrected Hessian symbol now matches the actual midpoint lift; the canonical harmonic constants are 1/112, −1/20 and 1/144, and the conic boundary vanishes. The vertex quotient is now the exact 32 → 36 → P4 sequence, with M₈ = A O(6)⊕V O(4), and both split square-boundary channels are nonzero. The actual residue still must be inserted and taken through the actual second-symbol quotient.
+
+Section 4.13 adds the (2,3) Gauss exclusion, all three two-D5 and six further large quadratic-section exclusions in (3,2), and the bound of two for its restricted cubic pairing. Together with the prior two exclusions, at most 17 of 28 formal primal types remain, with no improved numerical rank bound. Section 10 also attributes the distinct existing-pair rigidity and classical equation-complex acyclicity to Mr. Slop's PR646–647, without transferring their invariant vanishings to the positive operator. The four-or-five theorem remains unchanged.
+
+
+### Cubic-support update
+
+Section 11 identifies the actual smooth genus-four support with exact order-five T, the intrinsic 9 → 36 → 27 residue filtration, and the nilpotent boundary with kernel D5 and quotient P4. The ambient line O_(2D)(1,-1) is not five-torsion: its fifth power is the actual nonzero quintic-relation class. A unique nilpotent correction produces the torsion lift. These results structure the residue calculation without determining the corrected operator's value. These cubic-support and degree-eight results are pinned to PR543 commit 14fc90d90f74998c10ea9f2b45cf5b8aeac96bae.
+
+
+### Uniform lower multiplication and the canonical last jet
+
+Section 10.8 adds the actual negative-Serre-sector quotient at PR543 commit 6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0: the lower multiplication has rank four for every nonzero negative quadratic, an eighteen-dimensional common kernel on C, and a canonical 9/21/12 quotient on C⁻. Section 10.9 separately attributes PR648–649's 35/31 global restriction quotient and canonical deepest-quintic P4 slice. Neither route computes the actual corrected operator class or Ψ; the four-or-five theorem and at-most-seventeen Gauss frontier are unchanged.

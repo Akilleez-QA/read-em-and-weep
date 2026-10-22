@@ -25,6 +25,22 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 
 14. **Repaired three-channel family dependency.** PR643 proves that the equivariant arrow space has exactly three channels, that its everywhere-subbundle locus is exactly abc ≠ 0, and that source gauges plus block coordinate pullbacks act transitively there. Isotropy extends to the boundary by density; injectivity does not. Section 8.7 pins the actual proof and review as the replacement for the missing historical family filename. This family theorem does not itself determine κ or the positive cubic.
 
+15. **Actual lower Atiyah factor.** The physical-positive space has its actual Serre-involution 9/21 decomposition. The lower multiplication surjects onto P4⊕D5, drops rank only on six reduced nonsquare axes, and has the specified six-point elementary-transform cokernel over the parameter plane. Every square direction is injective. Section 9 records these input-map results separately from the higher operation.
+
+16. **Actual midpoint operator boundary and corrected symbol.** The fixed actual secondary value is Ψ = δ(r), with r in H⁰(ω_(2Z)(5))₊ and kernel equal to the global G(4) image. Invariant acyclicity in the negative twist, full-frame covariance and the unique quintic-generator primitive identify the corrected Hessian symbol with the actual midpoint lift modulo normal conjugation. The harmonic constants are 1/112, −1/20 and 1/144. The positive conic boundary is zero, so only the actual vertex residue remains. Section 10 pins the accepted PR543 sources at 8c26de8e5e68fd41945373ac1f6ee280f109d716. This is a reduction of the actual value, not its evaluation.
+
+17. **Further Gauss restrictions.** The (2,3) profile is excluded, as are all three two-D5 types in (3,2). Six further large quadratic-section types are excluded at 14fc90d90f74998c10ea9f2b45cf5b8aeac96bae. Together with two prior primal exclusions and the three two-D5 exclusions, at most 17 of 28 formal primal types remain. In (3,2), the restricted cubic pairing has rank at most two; its only possible nonzero image is W′ O(1). Section 4.13 gives the immutable pins and distinguishes necessary types from realizations. Neither the full (3,2) profile nor generic SF rank three is excluded; SF ≥ 3 and square rank ≥ 27 are unchanged.
+
+18. **Distinct pair and equation comparisons.** Mr. Slop's PR646, at 9945accf7172732a6fe1754c95187e97ce6f2845, gives the explicit unique marked-isomorphism comparison of existing equivariant first-normal square-zero pairs and the residual classical-equation term O_(2Z)(2)[−2]. PR647, at 19982af9a6356cbf99d5d7e5307f31f9ac4d0af9, proves that term invariantly acyclic, hence the stated classical equation complex is invariantly acyclic. Neither is claimed to be the full derived theory or the positive operator complex. PR645 overlaps item 16's negative-defect foundation and is not counted again. See Section 10.10.
+
+19. **Exact degree-eight quotient and split boundary channels.** The intrinsic wedge diagram gives 0 → H⁰(E₈) → H⁰(M₈) → P4 → 0, with dimensions 32, 36 and 4. The actual double-cubic description identifies M₈ = A O(6)⊕V O(4). Dividing by the scalar class gives Q4(6) = W O(7)⊕V O(4), with actual boundary nonzero on each summand. Global representatives are asserted for kernel classes, not for arbitrary polynomial tangent representatives. See Sections 10.6–10.7; the particular operator residue and its possible cancellation remain uncomputed.
+
+20. **Actual cubic support and nilpotent torsion.** The actual (3,3) support D is smooth integral of genus four, with exact order-five T = O_D(1,-1). Its double-cubic residue line has the intrinsic 9/36/27 filtration, whose nine-dimensional nilpotent part has actual boundary kernel D5 and quotient P4. The ambient O_(2D)(5,-5) has the nonzero nilpotent Picard class equal to the actual quintic extension; the uniquely corrected five-torsion lift is distinct from the ambient line. Section 11 pins these results, together with item 19, to accepted public commit 14fc90d90f74998c10ea9f2b45cf5b8aeac96bae. No comparison to the actual Ψ value is asserted.
+
+21. **Whole actual lower multiplication.** At PR543 commit 6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0, the actual negative Serre eigenspace is ε H⁰(Q4(4)), with canonical 9/21/12 quotient. Every nonzero negative quadratic gives rank four on C → P4; the common kernel has dimension eighteen. The actual wedge/trace diagram and perfect Serre pairing, not a character guess, identify the map. Section 10.8 retains the distinction from the Atiyah factor and from the uncomputed operator input.
+
+22. **Complementary global restriction and last-jet quotient.** Mr. Slop's PR648 at 83eb365e87fe3aef3488aa339b73636fa845f630 kills the entire scalar layer and gives the actual 35/31 restriction quotient onto P4. PR649 at d46dafc564e1ba97b0813491d16c32bd2e73e12f identifies a canonical deepest-quintic P4 complement by uniform lower-jet lifting. Section 10.9 distinguishes these full-source spaces from the degree-eight quotient and the arbitrary choice of an abstract irreducible summand. The particular highest-jet remainder, Ψ and its second-symbol class remain open.
+
 ## 6.2 Reproducible supplementary checks
 
 The following public scripts check universal identities or formal expansions supporting the argument. They do not evaluate chosen Horrocks-Mumford coefficients and are not substitutes for the geometric proofs.
@@ -32,6 +48,21 @@ The following public scripts check universal identities or formal expansions sup
 - [First Bockstein verifier at 4213c50826febe60979eee2848a1030a56e7867f](https://github.com/Akilleez-QA/read-em-and-weep/blob/4213c50826febe60979eee2848a1030a56e7867f/research/hm/order-four-quadratic-load/verify_positive_first_bockstein_vanishing.py).
 - [Second square-filtration verifier at 6edf99859f79409b0cee5d9b9588f65e24318869](https://github.com/Akilleez-QA/read-em-and-weep/blob/6edf99859f79409b0cee5d9b9588f65e24318869/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_square_filtration.py).
 - [Actual Atiyah/quintic verifier at 7581ad74cbe8b68e795463ef1e814ad02cf51dda](https://github.com/Akilleez-QA/read-em-and-weep/blob/7581ad74cbe8b68e795463ef1e814ad02cf51dda/research/hm/order-four-quadratic-load/verify_actual_second_bockstein_atiyah_quintic.py).
+
+The Section 10 integration additionally checked the following universal scripts at the accepted [PR543 source head](https://github.com/Akilleez-QA/read-em-and-weep/tree/8c26de8e5e68fd41945373ac1f6ee280f109d716/research/hm/order-four-quadratic-load):
+
+- verify_first_normal_defect_acyclicity.py, for invariant characters and exact-sequence dimensions after the geometric nonzero bracket input.
+- verify_midpoint_dualizing_operator_defect.py, for physical twists and the class-of-N identity.
+- verify_midpoint_hessian_frame_covariance.py, for determinant/equation covariance and the primitive's coefficient line.
+- verify_harmonic_hessian_nilpotent.py, for the universal constants with every cubic and quintic coefficient symbolic.
+- verify_positive_operator_conic_boundary.py, for the degree-eight vertex vanishing and quartic-to-octic surjection.
+- verify_adjacent_cubic_pairing_rank.py, for representation identities and the two persistence contradictions.
+
+All six passed locally. Seven underlying proof files were also compared by Git blob SHA against that immutable public head and matched exactly. This source-integrity and supplementary-check statement is not a new formal certification of their geometric premises.
+
+The later accepted source audit also records PASS for these six checks at [14fc90d90f74998c10ea9f2b45cf5b8aeac96bae](https://github.com/Akilleez-QA/read-em-and-weep/tree/14fc90d90f74998c10ea9f2b45cf5b8aeac96bae/research/hm/order-four-quadratic-load): verify_degree_eight_operator_quotient.py, verify_double_cubic_defect_pushforward.py, verify_square_quotient_boundary_channels.py, verify_cubic_genus_four_five_torsion.py, verify_cubic_double_picard_class.py, and verify_six_large_quadratic_gauss_exclusions.py. Their scope is universal identities, exact characters, degrees and sequence arithmetic. The actual-map and geometric comparisons remain arguments in the cited proofs.
+
+The [negative-sector square-quotient verifier](https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_negative_sector_square_quotient.py) also passed locally, and its proof and script blobs match the immutable public files. It checks the absent cross-Hom, scalar quotient, 9/21/12 characters and universal perfect-pairing identity. Uniform rank four follows from the geometric actual-map argument, not an evaluated instance.
 
 To reproduce an individual check, retrieve the script at its exact commit, inspect its imports and documented input assumptions, and run it with Python 3 from the source directory, supplying any listed dependencies. These checks concern finite representation identities and formal identities. This edition does not introduce new selected-instance rank or coefficient experiments. A passing script is not a formal verification certificate for an entire proof.
 
@@ -123,3 +154,28 @@ The next substantive revision should decide the remaining higher positive obstru
 ## 22 October 2026, 00:58 UTC: actual lower-map geometry
 
 Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of the Atiyah input onto P4⊕D5, its six reduced exceptional directions, the complete-quintic sequence on square directions, and the unique nonzero equivariant extension describing its family cokernel. Section 4.13 records the excluded (3,3) Gauss corner. The absolute positive cubic and four-versus-five alternative remain open. Public pins in the coefficient and two-extension notes now directly cite PR643 rather than the unpublished historical filename.
+
+
+## 22 October 2026, 01:50 UTC: midpoint operator and adjacent Gauss draft
+
+- Added focused Section 10 instead of enlarging the lower-factor chapter: actual Ψ = δ(r), invariant negative-defect acyclicity, complete-frame matching of the corrected Hessian symbol, harmonic constants, and zero conic boundary.
+- Updated Sections 4.11–4.13 and 9.4 so the actual operator comparison and symbol matching are no longer listed as missing; the actual global residue value remains missing.
+- Added the (2,3) Gauss exclusion, all three two-D5 exclusions in (3,2), and the type-independent cubic-pairing rank-at-most-two theorem. At that draft stage, at most 23 of 28 formal primal types remained; the 02:10 update below supersedes this intermediate bound. No numerical rank or section-count improvement was inferred.
+- Read and separately attributed PR646's existing-pair rigidity and classical equation triangle, and PR647's twist-two invariant vanishing. Did not count the overlapping PR645 negative-defect result as additional progress or transfer these vanishings to the positive operator target.
+- Retained Craig Ward's author credit, partial-proof status, unchanged archive/license material, and Markdown-only format. No merge, publication, frozen-source edit or selected-instance rank experiment forms part of this local draft.
+
+
+## 22 October 2026, 02:10 UTC: accepted quotient and cubic-support integration
+
+- Integrated the six accepted proof files from public commit 14fc90d90f74998c10ea9f2b45cf5b8aeac96bae. Local proof blobs were checked against the immutable public files and matched exactly. Their six supplementary verifiers passed the independent source audit.
+- Expanded Section 10 with the intrinsic 32 → 36 → P4 quotient, the actual M₈ double-cubic splitting, and nonvanishing of both square-boundary channels. Retained the distinction between global kernel classes and specified polynomial representatives.
+- Added focused Section 11 for the actual smooth genus-four support, exact five-torsion on D, the 9/36/27 section filtration, and the onto nilpotent boundary. Distinguished the nontrivial ambient fifth power on 2D from its uniquely corrected torsion lift.
+- Updated every active Gauss frontier to at most 17 of 28 formal primal types after six additional exclusions. The historical 23-type stage is explicitly marked as superseded.
+- The actual operator residue, possible cancellation, second-symbol quotient, four-versus-five alternative and original repair remain unresolved. No frozen source, archive, license, main-branch or publication change was made by this paper integration.
+
+
+## 22 October 2026, 02:21 UTC: whole lower map and complementary global route
+
+- Added the accepted negative-Serre-sector theorem at 6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0, including the actual 9/21/12 quotient, uniform rank four for every nonzero direction, and eighteen-dimensional common kernel. Checked both public file blobs and reran the universal verifier successfully.
+- Read and integrated the full PR648–649 proofs at their immutable heads, separately attributing the 35/31 global restriction quotient and its canonical deepest-quintic P4 slice. Distinguished the canonical actual lower-jet subtraction from an arbitrary representation projection.
+- Reconciled the summary, index, lower-map cross-references and claim register. The actual corrected operator class and its value are still missing. No additional Ψ value, stronger Gauss bound, improved section count or completed repair is claimed.

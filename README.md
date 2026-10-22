@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper update: 22 October, 00:58 UTC (21 October, 20:58 EDT). V51 comparison: PR641 and PR644; family dependency: PR643.
+Section-count theorem cutoff: 21 October, 22:57 UTC; living-paper draft through: 22 October, 02:21 UTC (21 October, 22:21 EDT). Positive operator sources: PR543 through 6c724c3; complementary global-restriction results: PR648–649; distinct equation comparisons: PR646–647. V51 comparison: PR641 and PR644; family dependency: PR643.
 
 ## The problem
 
@@ -40,7 +40,19 @@ The fixed actual cubic probe has zero first-normal variation: L = 0, even before
 
 ## Actual lower-map classification
 
-The lower Atiyah multiplication now surjects onto its actual nine-dimensional target. In a fixed direction it is injective except at exactly six nonsquare C5 axes, where it loses one rank; every square direction is injective. Its entire parameter-family cokernel is a specific six-point modification of a split vector bundle. These resolve the input map, not the absolute secondary operation applied afterward. [Proof and precise boundary](paper/09-actual-atiyah-factor.md).
+The lower Atiyah multiplication now surjects onto its actual nine-dimensional target. In a fixed direction it is injective except at exactly six nonsquare C5 axes, where it loses one rank; every square direction is injective. Its entire parameter-family cokernel is a specific six-point modification of a split vector bundle. These resolve the Atiyah input map, not the absolute secondary operation applied afterward. [Proof and precise boundary](paper/09-actual-atiyah-factor.md). The subsequent multiplication from the thirty-dimensional lower cohomology to P4 is now determined too: it has rank four for every nonzero negative quadratic, with an eighteen-dimensional common kernel and a canonical 9 → 21 → 12 description on the negative Serre eigenspace. The actual corrected operator class remains unknown. [Uniform lower multiplication](paper/10-midpoint-operator-residue.md#108-the-whole-lower-multiplication-has-uniform-rank-four).
+
+## Actual midpoint operator residue
+
+The fixed actual secondary value now has the exact description Ψ = δ(r), where r is the corrected midpoint operator defect in H⁰(ω_(2Z)(5))₊ and ker δ is the image of global H⁰(G(4))₊. Full-frame covariance and invariant negative-defect acyclicity match the corrected Hessian symbol with the actual midpoint lift. The harmonic constants are 1/112, −1/20 and 1/144; the required generator primitive and equation factors remain part of the correction. The conic contribution to δ is zero. On the degree-eight vertex part, the exact global quotient is 32 → 36 → P4, with M₈ = A O(6)⊕V O(4). After dividing by the scalar nilpotent class, both split boundary channels are nonzero. The actual residue value and possible cancellation remain uncomputed. [Midpoint operator calculation](paper/10-midpoint-operator-residue.md).
+
+The actual cubic support is a smooth genus-four curve D with exact five-torsion T = O_D(1,-1). Its double gives an intrinsic 9 → 36 → 27 residue filtration and a nonzero nilpotent boundary onto P4. The ambient torsion relation fails on 2D by the actual nonzero quintic-extension class, although a uniquely corrected five-torsion lift exists. None of these nonzero auxiliary classes has been identified with Ψ. [Cubic geometry and precise limit](paper/11-cubic-support-and-nilpotent-torsion.md).
+
+The separate Gauss analysis excludes (2,3) and eleven formal primal types in (3,2), including the three two-D5 types and six further large quadratic-section types. At most 17 of the original 28 formal primal types remain. The cubic pairing in (3,2) has rank at most two. Neither the entire (3,2) profile nor generic SF rank three is excluded. [Exact scope](paper/04-positive-sector.md#413-further-rank-three-gauss-configurations-and-pairings-are-excluded).
+
+Mr. Slop's complementary PR648–649 results remove the entire scalar-rescaling layer and identify the global restriction defect as a 35/31 quotient with a canonical deepest-quintic P4 slice. This gives another actual-global route, not a computed operator value. [Canonical last-jet route](paper/10-midpoint-operator-residue.md#109-a-complementary-global-restriction-and-canonical-last-jet-route).
+
+Mr. Slop's distinct PR646–647 results give rigidity of existing marked first-normal pairs and invariant acyclicity of the classical equation complex. Their negative and twist-two groups differ from the positive operator target; they do not determine Ψ or lift the midpoint to 3Q. [Comparison and attribution](paper/10-midpoint-operator-residue.md#1010-separate-pair-rigidity-and-the-classical-equation-complex).
 
 ## Exact auxiliary normal-extension classification
 
@@ -66,6 +78,8 @@ The independent primary-geometry line attributed to Mr. Slop supplies 636/576-di
 - [Earlier primary and Rao reductions](paper/07-primary-and-rao-reductions.md)
 - [Finite normal-extension tower](paper/08-finite-normal-extension-tower.md)
 - [Actual Atiyah factor and six exceptional directions](paper/09-actual-atiyah-factor.md)
+- [Midpoint operator residue and remaining global value](paper/10-midpoint-operator-residue.md)
+- [Cubic support and nonreduced torsion](paper/11-cubic-support-and-nilpotent-torsion.md)
 
 ## Repository layout and provenance
 
