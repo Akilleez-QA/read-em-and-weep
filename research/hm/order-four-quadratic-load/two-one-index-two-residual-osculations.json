@@ -1,0 +1,170 @@
+{
+  "scope": "Four necessary dual source types reduced to one; no stable-label exclusion or realization.",
+  "id": "G3.21.d610e381ed75",
+  "source_hashes": {
+    "TWO-ONE-INDEX-TWO-DUAL-RANK-FOUR-RESIDUAL.md": "12a381971cc8b418212dd627fc875aeff7d3000de93c9a8f3a64569ba1cedb6f",
+    "TWO-ONE-INDEX-TWO-CONSTANT-SPAN-INTERSECTION.md": "f72531663c01cb681e56500f578d595355cab384c9bb96b1ea120012ff4671b7",
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad"
+  },
+  "intersection_commit": "2348d4b6fb2afd67d66b15aad6037ab92c94f076",
+  "residual_source_commit": "92c1580998dd5476458e32d8d6c2ca14a9c55edb",
+  "input_R_types": [
+    [
+      [
+        -18,
+        "one"
+      ],
+      [
+        -8,
+        "one"
+      ],
+      [
+        -6,
+        "one"
+      ],
+      [
+        -4,
+        "one"
+      ]
+    ],
+    [
+      [
+        -18,
+        "one"
+      ],
+      [
+        -8,
+        "one"
+      ],
+      [
+        -5,
+        "W"
+      ]
+    ],
+    [
+      [
+        -18,
+        "one"
+      ],
+      [
+        -7,
+        "W"
+      ],
+      [
+        -4,
+        "one"
+      ]
+    ],
+    [
+      [
+        -18,
+        "one"
+      ],
+      [
+        -6,
+        "A"
+      ]
+    ]
+  ],
+  "input_S_types": [
+    [
+      [
+        -8,
+        "one"
+      ],
+      [
+        -6,
+        "one"
+      ]
+    ],
+    [
+      [
+        -7,
+        "W"
+      ]
+    ]
+  ],
+  "derivative_target": [
+    [
+      -20,
+      "one"
+    ],
+    [
+      -6,
+      "one"
+    ]
+  ],
+  "forced_C": [
+    [
+      -8,
+      "one"
+    ]
+  ],
+  "first_osculating_source": [
+    [
+      -7,
+      "W"
+    ]
+  ],
+  "second_osculating_source": [
+    [
+      -6,
+      "A"
+    ]
+  ],
+  "excluded_R_indices": [
+    1,
+    2,
+    3
+  ],
+  "forced_R": [
+    [
+      -18,
+      "one"
+    ],
+    [
+      -6,
+      "A"
+    ]
+  ],
+  "forced_Qstar": [
+    [
+      -2,
+      "P"
+    ],
+    [
+      -2,
+      "D"
+    ],
+    [
+      -18,
+      "one"
+    ],
+    [
+      -6,
+      "A"
+    ]
+  ],
+  "forced_L": [
+    [
+      -3,
+      "Wp"
+    ],
+    [
+      -3,
+      "T"
+    ],
+    [
+      -7,
+      "W"
+    ]
+  ],
+  "forced_second_osculating_subbundle": [
+    [
+      -6,
+      "A"
+    ]
+  ],
+  "R_minus_equals_S_claimed": false,
+  "realization_claimed": false
+}
