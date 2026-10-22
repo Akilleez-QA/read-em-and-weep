@@ -1,0 +1,5 @@
+PASS: scalar-U/traceless-W kernel has explicit arbitrary-K inverse, dimension9.
+PASS: each traceless-U/traceless-W kernel is Q=lambda(H)I, K=sI, dimension6.
+PASS: explicit left inverse for final positive contraction, for every free symmetric/skew linear matrix.
+PASS: traceless648->567 kernel81; marked195->171 kernel24; joint259->226 kernel33.
+No source coefficient assignments, source solve, numerical scans or matrix ranks used.
