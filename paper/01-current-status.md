@@ -27,6 +27,10 @@ After the generic second-stage calculation, the surviving positive source is fiv
 
 The canonical raw cubic and its unique canonical correction L_can are nonzero, but their final third quotient is zero. The corrected fourth source has nonzero parameter trace; its full lower input cannot be reconstructed from the effective vector shadow alone. A complete test uses the entire D5-family first ideal-sheaf jet at one axis and one C5-square fiber. All actual fourth coefficients remain unevaluated. See [Chapter 16](16-canonical-fourth-input-and-complete-test.md).
 
+The full corrected C5-square lower source is nonzero, already in the canonical realization Cminus≅H⁰(D,O_D(−2,10)). Absolute midpoint and Atiyah sections recover the previously lost polynomial-nine data. A global trace null-homotopy leaves a precise but unevaluated secondary endpoint P4; its nilpotent square-shadow component must still be retained in the adjoint lift. Secant restriction plus parameter trace reconstructs lower families as 13→11+2, while the two endpoint channels restrict isomorphically as 2→2. None of these results evaluates a fourth coefficient. See [Chapter 17](17-absolute-lower-source-and-secondary-endpoint.md). Nonzero lower source is not nonzero fourth value; the required ambient division and final quotient remain.
+
+Separately, the Gauss (3,1) rank-two dual-image branch now has four necessary quotient shapes and 73 quotient/type pairs after exclusion of the smallest shape. This does not exclude the whole profile or alter the section-count theorem. [Chapter 17.7](17-absolute-lower-source-and-secondary-endpoint.md#177-from-five-gauss-quotient-shapes-to-four-and-73-necessary-pairs).
+
 Even a proof of the four-section alternative would close only this adjoint gate. It would not by itself identify the required original source, construct the necessary lifting data, or prove the intended Weil class algebraic. Those require their own mathematical bridges.
 
 ## Pinned source references

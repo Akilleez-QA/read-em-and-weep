@@ -115,6 +115,8 @@ The separate [extremal Gauss result][GAUSS] restricts a hypothetical (3,1) rank-
 
 The cited proofs give actual-map comparisons and geometric arguments. Their companion verifiers check universal identities, characters, degrees and finite arithmetic, not selected actual coefficient matrices or proof-assistant certificates.
 
+The subsequent [absolute-source chapter](17-absolute-lower-source-and-secondary-endpoint.md) proves nonzero corrected lower source on the reduced cubic, identifies the remaining secondary endpoint P4, and records the complementary secant-plus-square test. It does not evaluate the fourth gate.
+
 ## Pinned source references
 
 [RAW]: https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md

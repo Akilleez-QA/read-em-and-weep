@@ -2,7 +2,7 @@
 
 ## 6.1 Claim register
 
-**Current cutoff: 22 October 2026, 04:51 UTC.** Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Current cutoff: 22 October 2026, 05:24 UTC.** Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -87,6 +87,18 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 
 44. **Separate Gram-cover geometry.** Mr. Slop's PR655–657 prove the spectral deck-lift obstruction, A4 closure, actual smooth genus-nine (4,4) Gram curve of gonality four, and exact five-torsion ruling difference with connected étale genus-41 cover. Section 13.1 pins each proof and separates these from the genus-four support and genus-ten spectral torsions. These results do not evaluate a fourth coefficient.
 
+45. **Absolute midpoint and Atiyah representatives.** PR543 at a90d2ddd38f9ed8c28fcd8ca965f2479a12c9bf2 fixes the full Cminus representatives, including the polynomial nine-space and physical equation factor. Chapter 17.1 gives immutable links and distinguishes the midpoint from the endpoint.
+
+46. **Nonzero corrected lower source.** The same pin canonically identifies Cminus with H⁰(D,O_D(−2,10)) and proves the corrected C5-square source nonzero by incompatible symbolic remainder ratios. This is not a fourth-value calculation. Chapter 17.2–17.3.
+
+47. **Trace null-homotopy and full-family reconstruction.** At c9c54d50c94fc17cad7a14fce93b31bb22b9ea5f, the actual scalar αu null-homotopes the normal trace with both square-shadow components retained. The endpoint is a precise secondary P4 residue, not evaluated. Secant restriction plus parameter trace is 13→11+2, with endpoint restriction 2→2. Chapter 17.4–17.5.
+
+48. **Complementary secant-plus-square test.** Mr. Slop's PR659 at f4f2a5d4e3351da91796b9e7af78707150eac878 separates the factoring line from the square-plus-axis invisible line and gives a complete secant-restriction plus C5-square scalar test, 3+1. This differs from the axis ideal-sheaf-jet plus square test. No actual test datum is evaluated. Chapter 17.6.
+
+49. **Five Gauss shapes and section envelopes.** The five necessary rank-two quotient shapes at a90d2ddd are refined at c9c54d50 to 77 of 140 necessary quotient/primal-type pairs, with counts 4,21,21,10,21. That envelope stage alone excludes no whole shape. Item 50 supplies the subsequent exclusion; the (3,1) profile remains unresolved and SF≥3 and square rank≥27 are unchanged. Chapter 17.7.
+
+50. **Smallest Gauss quotient excluded.** At 0a95ace992688a278ef211d981e2fdef1bd5f1ad, forced splittings and exact polynomial-evaluation kernels exclude the entire (n,e)=(4,2) shape: the next derivative would have rank at most one rather than three. Four shapes and 73 necessary quotient/type pairs remain, following the preceding 140→77 envelope stage. The rank-one branch, whole (3,1) profile and all fourth coefficients remain unresolved. Chapter 17.7 gives the immutable proof link.
+
 ## 6.2 Reproducible supplementary checks
 
 The following public scripts check universal identities or formal expansions supporting the argument. They do not evaluate chosen Horrocks-Mumford coefficients and are not substitutes for the geometric proofs.
@@ -121,6 +133,8 @@ All eight new Gaussian, two-branch Gauss and square-osculation proof/verifier bl
 All six new proof/verifier blobs at [bdc66692b5814b65e568615639cd86a2b0cd5d0c](https://github.com/Akilleez-QA/read-em-and-weep/tree/bdc66692b5814b65e568615639cd86a2b0cd5d0c/research/hm/order-four-quadratic-load) match the local files. All three proofs were read in full. The supporting scripts are verify_double_p4_backward_gauss.py, verify_swapped_quotient_scalar_cup.py and verify_twelve_point_polar_vector_shadow.py. All three passed locally. Their checks are universal character, degree, apolar, Gram and transvectant identities; the actual-map conclusions remain the cited geometric proofs.
 
 The eight new proof/verifier blobs at [5e1d5ab619dfb2e765232d021be0373d9d2bed19](https://github.com/Akilleez-QA/read-em-and-weep/tree/5e1d5ab619dfb2e765232d021be0373d9d2bed19/research/hm/order-four-quadratic-load) match the local files, and all four proofs were read in full. Their scripts are verify_single_d5_backward_gauss.py, verify_mixed_p4_d5_gauss_reduction.py, verify_mixed_p4_d5_octic_exclusion.py and verify_c5_square_correction_simple_root.py. All four passed locally. The full PR654 proof was also read at its stated pin, Git blob 46821106970defdb9dc340728ded9e648843b7b8. These structural arguments do not evaluate the final global residue sum.
+
+For Chapter 17, all seven PR543 proof texts were retrieved at the immutable a90d2ddd and c9c54d50 pins and matched the local source texts exactly. The PR659 proof was also retrieved at f4f2a5d4 and its SHA-256 matches the independently reviewed text. The local supplementary checks verify_normal_variation_trace_nullhomotopy.py, verify_lower_family_secant_trace.py, verify_corrected_square_source_reduced_cubic.py and verify_extremal_31_five_quotient_section_envelopes.py passed. These checks do not evaluate the endpoint P4 or any fourth coefficient.
 
 To reproduce an individual check, retrieve the script at its exact commit, inspect its imports and documented input assumptions, and run it with Python 3 from the source directory, supplying any listed dependencies. These checks concern finite representation identities and formal identities. This edition does not introduce new selected-instance rank or coefficient experiments. A passing script is not a formal verification certificate for an entire proof.
 
@@ -309,3 +323,17 @@ Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of t
 - Included the separate extremal (3,1) dual-image restriction and bounded PR655–657 Gram-cover developments. Kept distinct the three curves and their torsion classes.
 - The ten new proof files were fetched at immutable 4e16e69 and c85c756 pins and matched the read local files by Git blob SHA; the full PR655–658 proofs were read at their stated pins. All ten local companion verifiers passed. The companion scripts supplement actual-map and geometric proofs, not source-instance evaluations or formal certification.
 - The paper now has sixteen modular chapters. The section count remains four or five and the generic finite Smith exponent remains 4–31, or permanent cokernel. All four actual fourth coefficients remain unevaluated. Craig Ward authorship, archive, LICENSE and frozen source material remain unchanged. No later unpublished absolute-error or Hessian work is part of this snapshot.
+
+## 22 October 2026, 05:18 UTC: absolute lower source and secondary endpoint
+
+- Added Chapter 17 and updated the index, current-status summary, README and dependency register. The paper now has seventeen modular chapters under Craig Ward's authorship.
+- Integrated the absolute midpoint, absolute Atiyah and reduced-cubic nonvanishing results at a90d2ddd38f9ed8c28fcd8ca965f2479a12c9bf2. Nonzero corrected lower source is explicitly separated from fourth nonvanishing.
+- Integrated trace null-homotopy, lower-family secant-plus-trace reconstruction and the 77-pair Gauss envelopes at c9c54d50c94fc17cad7a14fce93b31bb22b9ea5f. The endpoint P4 is still unevaluated; the nilpotent shadow remains in the secondary lift.
+- Integrated Mr. Slop's complementary PR659 secant-plus-square test at f4f2a5d4e3351da91796b9e7af78707150eac878, distinct from Chapter 16's axis ideal-jet test.
+- Generic sections remain four or five; the generic finite Smith exponent is 4–31, or permanent cokernel. All four actual fourth coefficients and the original source/lifting/algebraicity goals remain open. Later unpublished first-error or stronger Gauss work is outside this snapshot. Archive, LICENSE and frozen source material are unchanged.
+
+## 22 October 2026, 05:24 UTC: smallest Gauss quotient excluded
+
+- Integrated the complete (n,e)=(4,2) quotient exclusion at 0a95ace992688a278ef211d981e2fdef1bd5f1ad into Chapter 17.7 and current navigation. Exact derivative kernels eliminate its four surviving pairs, giving 140→77→73 with four quotient shapes remaining.
+- The immutable proof matches the local text exactly; verify_extremal_31_small_quotient_exclusion.py passes, including its existing envelope checks. These checks supplement, rather than replace, the actual sheaf-kernel argument.
+- All section-count, fourth-coefficient, endpoint P4 and original-proof boundaries remain unchanged. Unpublished global wedge cancellation and new full-frame work are excluded. This is the frozen seventeen-chapter snapshot for publication.
