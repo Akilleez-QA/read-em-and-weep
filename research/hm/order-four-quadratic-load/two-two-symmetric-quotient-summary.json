@@ -1,0 +1,986 @@
+{
+  "kind": "necessary formal splitting overlist, not realizability",
+  "record_count": 2947,
+  "pair_count": 35,
+  "defect_counts": {
+    "0": 2688,
+    "12": 259
+  },
+  "sha256": {
+    "verify_two_two_symmetric_quotient_constraints.py": "fd362df7d9ef1156e8c086695279c37700b7e359845e62a2676bdcccd2b4e155",
+    "verify_adjacent_rank_three_gauss.py": "8a20af9052cd0a56fef4b3debdfc0c8dfc41a58f48083820ff2c1fc688edfdd9",
+    "verify_exceptional_cubic_gauss_corner.py": "0f03bb913016fe4a7cb12222810ac9f97bf27f6e9f00efc72d2f5e93a7ac29f9",
+    "verify_equivariant_splitting_gauss_persistence.py": "1e5c10ffaa2d01eb8446d2889fba2e2a846e8fba1da1e3587a79bf6ffca6f02c",
+    "verify_negative_vertex_scalar.py": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  },
+  "pairs": [
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -4,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 117
+    },
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 156
+    },
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 56
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 18
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 24
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 68
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 27
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 68
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 85
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 63
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 105
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 45
+    },
+    {
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          1,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 136
+    },
+    {
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          1,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 81
+    },
+    {
+      "A": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 54
+    },
+    {
+      "A": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 100
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 78
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 48
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 208
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 96
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 72
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 208
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 45
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 70
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 60
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 120
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 230
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 26
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 120
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          9,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 117
+    },
+    {
+      "A": [
+        [
+          -9,
+          "W"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "compatible_records": 36
+    },
+    {
+      "A": [
+        [
+          -9,
+          "W"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          7,
+          "W"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 80
+    },
+    {
+      "A": [
+        [
+          0,
+          "V"
+        ]
+      ],
+      "B": [
+        [
+          -2,
+          "V"
+        ]
+      ],
+      "defect": 0,
+      "compatible_records": 90
+    }
+  ]
+}

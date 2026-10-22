@@ -1,0 +1,1086 @@
+{
+  "input_sha256": "86c4e65c5a31050eb97d7fdab26d2152abeb69e6734f9e0815cf368a1505431f",
+  "before_records": 1880,
+  "after_records": 1221,
+  "before_pairs": 34,
+  "after_pairs": 24,
+  "defect_counts": {
+    "0": 1064,
+    "12": 157
+  },
+  "failed_record_sides": {
+    "L": 659
+  },
+  "splitting_counts": {
+    "K_before": 5478,
+    "L_before": 4266,
+    "K_after": 5318,
+    "L_after": 2455
+  },
+  "removed_pairs": [
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 68,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 27,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 68,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 35,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 63,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 91,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 10,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          1,
+          "Wp"
+        ]
+      ],
+      "records": 102,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          1,
+          "Wp"
+        ]
+      ],
+      "records": 54,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    },
+    {
+      "A": [
+        [
+          0,
+          "V"
+        ]
+      ],
+      "B": [
+        [
+          -2,
+          "V"
+        ]
+      ],
+      "records": 40,
+      "failure_certificates": {
+        "K": [],
+        "L": [
+          {
+            "irrep": "V",
+            "multiplicity": 2,
+            "target_multiplicity": 1,
+            "top_degree": -4
+          },
+          {
+            "irrep": "one",
+            "multiplicity": 1,
+            "target_multiplicity": 0,
+            "top_degree": -4
+          }
+        ]
+      }
+    }
+  ],
+  "pairs": [
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -4,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "records": 55
+    },
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "records": 26
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 18
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "records": 24
+    },
+    {
+      "A": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "records": 48
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 78
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 42
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 182
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 84
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 21
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 112
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 6
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 10
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 30
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 110
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 160
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 26
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          9,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 39
+    },
+    {
+      "A": [
+        [
+          -9,
+          "W"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "records": 30
+    },
+    {
+      "A": [
+        [
+          -9,
+          "W"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          7,
+          "W"
+        ]
+      ],
+      "records": 40
+    }
+  ]
+}

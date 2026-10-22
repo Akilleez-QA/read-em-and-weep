@@ -1,0 +1,189 @@
+# One axis jet and one C5-square fiber detect all four fourth channels
+
+## Scope, attribution, and the new point
+
+Work over C with the notation of Mr. Slop's PR658, at commit
+95004606fb8b2ec51ecd97e2fde0d6d0ff328407:
+
+https://github.com/Akilleez-QA/read-em-and-weep/blob/95004606fb8b2ec51ecd97e2fde0d6d0ff328407/research/hm/fourth-gate-geometric-constraints/FOURTH-GATE-SIX-AXIS-INVISIBLE-CHANNEL.md
+
+That contribution proves that full square restriction together with one first
+ideal-sheaf jet detects the fourth family. This separate addendum sharpens its
+square datum to a SINGLE C5-square fiber. Its proof concerns the complete
+equivariant family, not any chosen source vector, coefficient, or actual fourth
+value. No frozen predecessor file is changed.
+
+Let G=SL2(F5); all representations below factor through A5. Let A be the
+three-dimensional parameter representation, D5 its five-dimensional irreducible,
+and Delta the discriminant conic in P(A), with invariant equation delta. The six
+semisimple axes p1,...,p6 are in the general position proved in PR658. Write C_i
+for the smooth conic through the other five axes. Its equation c_i is uniquely
+normalized by c_i(p_i)=delta(p_i), as an equality in O(2)|p_i. Consequently G
+permutes the c_i exactly, without scalar factors. These are inputs from PR658.
+
+The second-symbol scheme Sigma is disjoint from Delta and has local ideal
+I_Sigma,p=(x^2,y^2). The fourth family belongs to the four-dimensional space
+
+    Q4 = Hom_G(D5,H0(I_Sigma(10))).
+
+Let p be any one of the six axes and let q be either C5-fixed square associated
+with ANY one of the six axes. In particular q need not be associated with p.
+Put N=Stab_A5(p), the dihedral group of order10, and K=Stab_A5(q), cyclic of
+order5. Consider the entire-family evaluation maps
+
+    J_p: Q4 -> Hom_N(D5,(I_Sigma/m_p^2 I_Sigma)(10)|p),
+    E_q: Q4 -> Hom_K(D5,O(10)|q).
+
+Here the stalk quotient in the first line is the first IDEAL-SHEAF jet,
+not the ordinary first jet of a polynomial. The notation |p denotes this
+supported quotient with its line-bundle twist, not a further tensor with k(p).
+
+## Theorem
+
+The jet target has dimension3, the square target has dimension1, and
+
+    (J_p,E_q): Q4 -> jet target direct-sum square target
+
+is an isomorphism. In particular J_p has a unique one-dimensional kernel,
+and E_q is nonzero on that kernel. A single C5-square scalar, together with
+the entire D5-family first ideal-sheaf jet at one axis, suffices to detect all
+four quartic channels. Neither datum alone suffices.
+
+## 1. The quadruple-axis decics form the six-axis permutation module
+
+Let Z4 be the ordinary quadruple fat-point scheme at the six axes. Since
+
+    m_p^2 I_Sigma,p = (x,y)^2(x^2,y^2) = m_p^4,
+
+equivariance and transitivity identify
+
+    ker J_p = Hom_G(D5,H0(I_Z4(10))).
+
+There is no square-vanishing assumption here, and no division by delta.
+
+We first calculate the entire linear series. Apply the residual exact
+sequence along C6,C5,C4,C3,C2, in that order. The degree and six multiplicities
+are successively
+
+    (10;4,4,4,4,4,4)
+    ( 8;3,3,3,3,3,4)
+    ( 6;2,2,2,2,3,3)
+    ( 4;1,1,1,2,2,2)
+    ( 2;0,0,1,1,1,1)
+    ( 0;0,0,0,0,0,0).
+
+Zero multiplicities remain zero under residual. At each of the five stages,
+the restriction line bundle on the smooth conic has degree
+
+    2d - sum of multiplicities on that conic = 0.
+
+Thus each restriction contributes h0=1 and has H1=0. The terminal space is
+the constants on P2, with h0=1 and H1=0. Reading the exact sequences backwards
+gives H1(I_Z4(10))=0 and h0(I_Z4(10))=6. This is a uniform residual-sequence
+argument, not a numerical rank test or a very-general-point assertion.
+
+Put P=product_{i=1}^6 c_i and
+
+    F_i=P/c_i=product_{j != i} c_j.
+
+At p_i the multiplicity is at least5, and at each other p_j it is at least4;
+therefore all six F_i belong to the series. They are independent: restriction
+of a relation to C_i kills every F_j with j != i, while F_i|C_i is not
+identically zero because no one of its five distinct irreducible conic factors
+is C_i. Consequently the F_i form a basis.
+
+Exact permutation of the normalized c_i identifies this representation with
+the permutation module on the six axes. Its character on A5 classes
+(1,2,3,5a,5b) is (6,2,0,1,1), namely 1+D5. Its D5 subspace is exactly
+
+    {sum a_i F_i : sum a_i=0}.
+
+Hence ker J_p has dimension1.
+
+## 2. Every C5-square fiber detects that jet-invisible line
+
+The stabilizer of p_i contains a cyclic group K_i of order5, fixing two
+points q_i^+,q_i^- on Delta. The normalized equation c_i is K_i-invariant.
+Its restriction to Delta is a nonzero binary quartic: if it were zero, C_i
+would equal Delta, impossible because C_i contains semisimple axes and Delta
+contains none.
+
+Choose eigen-coordinates s,t on the square parameter line for K_i. Among the
+five binary-quartic weights 4,2,0,-2,-4, only weight0 is divisible by5.
+Thus the invariant quartic line is generated by s^2 t^2, and
+
+    div(c_i|Delta)=2q_i^+ + 2q_i^-.
+
+This argument uses only weights and the nonzero restriction, not a coefficient
+evaluation. The six pairs are disjoint and constitute the twelve-point C5
+orbit E12. Indeed a nontrivial finite stabilizer of a point of P1 in this
+finite group is cyclic; two distinct Sylow-five groups cannot fix the same
+point. Equivalently a point stabilizer is conjugate to a finite subgroup of
+the affine group and hence cyclic in characteristic zero.
+
+At q=q_i^+ or q_i^-, it follows that F_i(q) is nonzero whereas F_j(q)=0
+for every j != i. Evaluation is therefore nonzero on the sum-zero D5
+submodule: for any j != i, the section F_i-F_j belongs to it and has
+nonzero value at q. This is a geometric proof of nonvanishing on the
+abstract irreducible submodule, not evaluation of an actual gate family.
+
+A nonzero map in ker J_p has image precisely that D5 submodule. Its
+evaluation at q cannot be zero as a map on the entire source D5. Hence
+ker J_p intersects ker E_q trivially, proving combined injectivity.
+
+## 3. Exact target dimensions and the four-dimensional test
+
+Write rho1 and rho2 for the two-dimensional irreducible representations of
+N with order-five rotation weights respectively (+1,-1) and (+2,-2),
+after a choice of primitive fifth root. The cotangent space at p is rho1.
+Changing the primitive root merely relabels the two representations, without
+changing any multiplicity below.
+
+The image I_Sigma,p/m_p^3 in m_p^2/m_p^3 has dimension2. It is N-stable,
+and Sym^2(rho1)=1+rho2. Since rho2 is irreducible and the trivial summand
+has dimension1, this image must be rho2. This also avoids requiring a
+particular equivariant choice of the regular parameters x,y.
+
+The exact sequence
+
+    0 -> m_p^3/m_p^4 -> I_Sigma,p/m_p^4
+      -> I_Sigma,p/m_p^3 -> 0
+
+splits as an N-representation in characteristic zero. Its left term is
+Sym^3(rho1)=rho1+rho2. The O(10) twist is trivial on N: rotations act by1
+on the semisimple axis, and a normalizer involution acts there by -1,
+whose inverse tenth power is1. Hence the jet module is rho1+2rho2.
+
+The restriction of D5 to N is 1+rho1+rho2. One can check this from its
+character: dimension5, trace0 on nonidentity rotations and trace1 on
+reflections. Thus
+
+    dim Hom_N(D5,jet module)=1+2=3.
+
+At q the O(10) fiber is trivial under K: the eigenvalue of A on the square
+line has fifth power1, so its inverse tenth power is1. D5 restricted to K
+contains each fifth-root character once. Therefore
+
+    dim Hom_K(D5,O(10)|q)=1.
+
+The square test is the invariant source-character channel, conventionally
+the h-character0 channel (represented by X^2Y^2 in eigen-coordinates).
+This specifies the character, not a selected or computed actual source.
+Since Q4 has dimension4 by the reviewed fourth reduction, combined
+injectivity between two four-dimensional spaces proves the claimed
+isomorphism. In particular the first test is surjective onto its
+three-dimensional target.
+
+## What this does and does not settle
+
+PR658 needs the two-channel full square restriction in its sufficient test.
+The present result replaces that datum by one C5-square scalar, using the
+different linear series of quadruple-axis DECICS. It does not duplicate the
+triple-axis OCTIC computation of PR658. Nor does it claim that the actual
+corrected fourth family vanishes at the chosen fiber or jet. Those actual
+data remain to be calculated. No fourth value, Smith bound, higher-order
+vanishing, or algebraicity conclusion is asserted.
+
+The companion verify_fourth_one_axis_jet_one_square.py checks only the finite
+degree, multiplicity, and representation arithmetic of this proof. The
+geometric exact sequences and nonvanishing arguments are proved above.

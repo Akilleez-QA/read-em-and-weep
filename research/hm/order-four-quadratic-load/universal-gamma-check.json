@@ -1,0 +1,46 @@
+{
+  "standard_A5_symmetric_cube_character": [
+    20,
+    0,
+    2,
+    0,
+    0
+  ],
+  "invariant_cubic_dimension": 1,
+  "possible_invariant_effective_degrees_le18": [
+    0,
+    12
+  ],
+  "coordinate_Hilbert_function_degrees_0_to_7": [
+    1,
+    4,
+    10,
+    19,
+    25,
+    31,
+    37,
+    43
+  ],
+  "coordinate_Hilbert_numerator": [
+    1,
+    0,
+    0,
+    -1,
+    -6,
+    9,
+    -3
+  ],
+  "minimal_ideal_resolution": {
+    "generators": {
+      "degree3": 1,
+      "degree4": 6
+    },
+    "first_syzygies": {
+      "degree5": 9
+    },
+    "second_syzygies": {
+      "degree6": 3
+    }
+  },
+  "actual_HM_coefficients_or_rank_evaluations": false
+}

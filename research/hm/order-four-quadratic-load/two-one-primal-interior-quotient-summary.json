@@ -1,0 +1,493 @@
+{
+  "scope": "Necessary (2,1) quotient pairs only, not realizability or exclusion.",
+  "record_count": 877,
+  "E_type_count": 22,
+  "Q_type_count": 24,
+  "original_defects": {
+    "0": 837,
+    "12": 40
+  },
+  "pairs": [
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 2,
+      "b": -8,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 10
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 0,
+      "b": -6,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 96
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 10,
+      "b": -16,
+      "second_primal_defects": [
+        0,
+        12,
+        20,
+        24
+      ],
+      "records": 78
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 12,
+      "original_orbit_line": 6,
+      "a": 2,
+      "b": -20,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 2,
+      "b": -8,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 120
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 12,
+      "b": -18,
+      "second_primal_defects": [
+        0,
+        12,
+        20,
+        24
+      ],
+      "records": 30
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 12,
+      "original_orbit_line": 6,
+      "a": 2,
+      "b": -20,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 2,
+      "b": -8,
+      "second_primal_defects": [
+        0
+      ],
+      "records": 230
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 4,
+      "b": -10,
+      "second_primal_defects": [
+        0,
+        12
+      ],
+      "records": 20
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 14,
+      "b": -20,
+      "second_primal_defects": [
+        0,
+        12,
+        20,
+        24,
+        30,
+        32
+      ],
+      "records": 26
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          9,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 10,
+      "b": -16,
+      "second_primal_defects": [
+        0,
+        12,
+        20,
+        24
+      ],
+      "records": 117
+    },
+    {
+      "A": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 6,
+      "b": -12,
+      "second_primal_defects": [
+        0,
+        12
+      ],
+      "records": 54
+    },
+    {
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "original_defect": 0,
+      "original_orbit_line": null,
+      "a": 4,
+      "b": -10,
+      "second_primal_defects": [
+        0,
+        12
+      ],
+      "records": 56
+    }
+  ],
+  "dependencies": {
+    "verify_adjacent_rank_three_gauss.py": "8a20af9052cd0a56fef4b3debdfc0c8dfc41a58f48083820ff2c1fc688edfdd9",
+    "verify_exceptional_cubic_gauss_corner.py": "0f03bb913016fe4a7cb12222810ac9f97bf27f6e9f00efc72d2f5e93a7ac29f9",
+    "verify_equivariant_splitting_gauss_persistence.py": "1e5c10ffaa2d01eb8446d2889fba2e2a846e8fba1da1e3587a79bf6ffca6f02c",
+    "verify_negative_vertex_scalar.py": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  }
+}
