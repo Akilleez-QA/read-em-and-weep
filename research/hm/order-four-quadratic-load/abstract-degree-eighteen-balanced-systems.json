@@ -1,0 +1,149 @@
+{
+  "scope": "Abstract balanced degree18 systems exist on P1 minus two points; not a realization of the fixed source.",
+  "source_hashes": {
+    "TWO-ONE-INDEX-TWO-RESIDUAL-FULL-SPAN.md": "f7621cc508b76f8c12e52a0c5eddf067e18688a174265d930403fc8a69641026"
+  },
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "Sym18": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    2,
+    0,
+    1,
+    0
+  ],
+  "Sym17": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+  ],
+  "Sym19": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    2
+  ],
+  "H_character": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "embedding_parameter": "P1 of P multiplicity lines in Sym18",
+  "A_to_S_universal_image": [
+    [
+      [
+        18,
+        1,
+        3,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        19,
+        0,
+        2,
+        1
+      ],
+      -1
+    ]
+  ],
+  "kernel_T_to_D_universal_image": [
+    [
+      [
+        18,
+        0,
+        3,
+        1
+      ],
+      -4
+    ],
+    [
+      [
+        17,
+        1,
+        4,
+        0
+      ],
+      4
+    ]
+  ],
+  "exceptional_points": [
+    {
+      "name": "T",
+      "description": "P_line=f12 P6",
+      "linear_syzygy_character": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "determinant_multiplicity": 6
+    },
+    {
+      "name": "Wp",
+      "description": "unique zero of Wp multiplication linear form; distinct from f12 P6",
+      "linear_syzygy_character": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "determinant_multiplicity": 2
+    }
+  ],
+  "balanced_parameter_locus": "P1 minus these two distinct points",
+  "balanced_kernel": [
+    [
+      -2,
+      "P"
+    ],
+    [
+      -2,
+      "D"
+    ]
+  ],
+  "actual_fixed_source_feasibility_claimed": false,
+  "actual_instance_evaluations": false
+}
