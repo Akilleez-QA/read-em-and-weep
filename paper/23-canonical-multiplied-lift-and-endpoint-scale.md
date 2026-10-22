@@ -1,5 +1,8 @@
 # 23. Canonical multiplied nilpotent lift and fixed endpoint scale
 
+**Current supersession (09:08 UTC):** [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) closes the entire (2,2) profile and proves square-zero for the existing actual J3 on 3Q. Dated candidate counts and open (2,2) statements below are historical. The fourth value, stronger global rank bounds, midpoint 3Q extension and original repair are not established.
+
+
 **Checked-source cutoff: 22 October 2026, 08:15 UTC.** This chapter adds the actual first-normal square-zero lift of the multiplied nilpotent, the fixed-boundary consequence of the Cartan–Koszul multiplier, and the published necessary (2,2) quotient list. The general section count remains four or five. The third Bockstein is zero and all four actual fourth coefficients remain unevaluated.
 
 **Supersession:** [Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) now includes the published coherence and exact actual 5Q boundary comparison, and refines the necessary list to 24 pairs/1,221 records. This chapter preserves the 08:15 source frontier; its exclusion of later coherence work is historical.

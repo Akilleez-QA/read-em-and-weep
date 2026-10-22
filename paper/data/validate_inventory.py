@@ -48,8 +48,20 @@ def validate(data):
             copies[leaf['id']] = signature
         for key, value in universe.get('counts', {}).items():
             require(type(value) is int and value >= 0, f'{name}: invalid count {key}')
-            expected = sum(statuses.values()) if key == 'total' else sum(
-                statuses[status] for status in aliases.get(key, (key,)))
+            if key == 'historical_formal_records':
+                require(all(type(x.get('historical_formal_record_count')) is int and x['historical_formal_record_count'] >= 0 for x in leaves), f'{name}: missing historical record count')
+                expected = sum(x['historical_formal_record_count'] for x in leaves)
+                parent_universe = by_id[universe['nested_do_not_add_to']]
+                require(expected in parent_universe['records']['record_history'], f'{name}: historical count absent from parent history')
+                require(all(x['status'] == 'excluded' and x['formal_record_count'] == 0 for x in leaves), f'{name}: historical eliminated records misreported as current')
+            elif key == 'formal_records':
+                require(all(type(x.get('formal_record_count')) is int and x['formal_record_count'] >= 0 for x in leaves), f'{name}: missing or invalid leaf record count')
+                expected = sum(x['formal_record_count'] for x in leaves)
+                parent_universe = by_id[universe['nested_do_not_add_to']]
+                require(expected == parent_universe['records']['remaining'], f'{name}: detailed records disagree with parent')
+            else:
+                expected = sum(statuses.values()) if key == 'total' else sum(
+                    statuses[status] for status in aliases.get(key, (key,)))
             require(value == expected, f'{name}: {key}={value}, expected {expected}')
         if 'nested_do_not_add_to' in universe:
             require(universe['nested_do_not_add_to'] in by_id, f'{name}: unknown nesting universe')
@@ -61,6 +73,10 @@ def validate(data):
                     f'{name}: record history is not decreasing')
             require(records['remaining'] == records['remaining_defect_zero'] + records['remaining_defect_twelve'],
                     f'{name}: defect counts do not partition remaining records')
+            rh = records.get('record_history', [])
+            if rh:
+                require(rh[0] == records['baseline'] and rh[-1] == records['remaining'], f'{name}: record history endpoints drift')
+                require(all(a >= b >= 0 for a,b in zip(rh,rh[1:])), f'{name}: record history increases')
             history = records['pair_history']
             require(history[0] == universe['counts']['total'] and history[-1] == universe['counts']['not_excluded'],
                     f'{name}: pair history disagrees with fixed denominator')

@@ -1,5 +1,8 @@
 # 24. Multiplied coherence, actual fifth-neighborhood boundary, and top-kernel pruning
 
+**Current supersession (09:08 UTC):** [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) closes the entire (2,2) profile and proves square-zero for the existing actual J3 on 3Q. Dated candidate counts and open (2,2) statements below are historical. The fourth value, stronger global rank bounds, midpoint 3Q extension and original repair are not established.
+
+
 **Checked-source cutoff: 22 October 2026, 08:30 UTC.** This chapter adds the published actual multiplied-lift coherence, its exact endpoint normalization, an actual-neighborhood interpretation of the fourth gate, and a further necessary (2,2) exclusion. The fourth value is not computed. General sections remain four or five; the original source, higher-lifting and Weil-class algebraicity goals remain open.
 
 ## 24.1 Coherence determines the positive endpoint scalar

@@ -1,5 +1,8 @@
 # 21. Complete (3,1) exclusion and the second-normal residue
 
+**Current supersession (09:08 UTC):** [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) closes the entire (2,2) profile and proves square-zero for the existing actual J3 on 3Q. Dated candidate counts and open (2,2) statements below are historical. The fourth value, stronger global rank bounds, midpoint 3Q extension and original repair are not established.
+
+
 **Supersession note.** [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) excludes (1,3), determines C_mult=−χ/g_L, and closes the leading weight-four affine gluing. This chapter preserves its 07:09 historical frontier; higher-weight transport and the fourth value remain open.
 
 This chapter records published results through **22 October 2026, 07:09 UTC**. It supersedes the open (3,1) frontier in Chapters 17–20 and sharpens the normal comparison without evaluating the fourth Bockstein. The generic section count remains **four or five**; the finite last Smith exponent remains **4–31**, or the cokernel is permanent. Generic **SF ≥ 3** and positive-square rank **≥ 27** are unchanged.

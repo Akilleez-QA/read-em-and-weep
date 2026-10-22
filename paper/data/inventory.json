@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "title": "Original HM proof-repair branch inventory",
-  "cutoff": "2026-10-22T08:30:00Z",
-  "base_modular_paper_cutoff": "2026-10-22T08:15:00Z",
+  "cutoff": "2026-10-22T09:08:00Z",
+  "base_modular_paper_cutoff": "2026-10-22T08:30:00Z",
   "scope": "Modular published-source living paper; V51 comparison explicitly excluded from original-repair totals",
   "global_geometric_total": null,
   "global_eliminated_total": null,
@@ -199,7 +199,7 @@
         },
         {
           "id": "G.3.22",
-          "status": "not_excluded",
+          "status": "excluded",
           "label": "SF rank 3, profile (2,2)"
         },
         {
@@ -228,12 +228,13 @@
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md",
-        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md"
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
       ],
       "counts": {
         "total": 22,
-        "excluded": 8,
-        "unresolved_rank_three_profiles": 4,
+        "excluded": 9,
+        "unresolved_rank_three_profiles": 3,
         "compatible_higher_rank_outcomes": 10
       },
       "overlap_with": [
@@ -272,7 +273,7 @@
         },
         {
           "id": "G.3.22",
-          "status": "not_excluded",
+          "status": "excluded",
           "label": "(2,2)"
         },
         {
@@ -301,12 +302,13 @@
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md",
-        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md"
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
       ],
       "counts": {
         "total": 9,
-        "excluded": 5,
-        "not_excluded": 4
+        "excluded": 6,
+        "not_excluded": 3
       },
       "nested_do_not_add_to": "U.GAUSS"
     },
@@ -331,22 +333,39 @@
           "multiplicity": 10
         },
         {
+          "id": "P22.interior_excluded",
+          "status": "excluded",
+          "label": "Seventeen second-interior Euler excluded pairs",
+          "multiplicity": 17
+        },
+        {
+          "id": "P22.endpoint_excluded",
+          "status": "excluded",
+          "label": "Four endpoint top-slope excluded pairs",
+          "multiplicity": 4
+        },
+        {
           "id": "P22.remaining",
-          "status": "not_excluded",
-          "label": "Latest necessary quotient pairs",
-          "multiplicity": 24
+          "status": "excluded",
+          "label": "Last three formerly surviving pairs, now excluded by endpoint rank-drop theorem",
+          "multiplicity": 3
         }
       ],
       "public_source_pins": [
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-SEVEN-W-QUOTIENT-IS-EXCLUDED-BY-EXACT-COHOMOLOGY.md",
-        "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md"
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-second-interior-euler-summary.json",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-endpoint-top-slope-summary.json"
       ],
       "counts": {
         "total": 35,
-        "excluded": 11,
-        "not_excluded": 24
+        "excluded": 35,
+        "not_excluded": 0
       },
       "atomic_enumeration_in_this_file": false,
       "realizations_claimed": false,
@@ -355,17 +374,30 @@
       "records": {
         "baseline": 2947,
         "intermediate": 1880,
-        "remaining": 1221,
-        "removed": 1726,
-        "remaining_defect_zero": 1064,
-        "remaining_defect_twelve": 157,
+        "remaining": 0,
+        "removed": 2947,
+        "remaining_defect_zero": 0,
+        "remaining_defect_twelve": 0,
         "pair_history": [
           35,
           34,
-          24
+          24,
+          7,
+          3,
+          0
         ],
-        "note": "Stable baseline; proof, verifier and summary matched exact published readbacks and independent checks passed. Records are formal compatibility records, not realizations."
-      }
+        "record_history": [
+          2947,
+          1880,
+          1221,
+          723,
+          354,
+          0
+        ],
+        "note": "Stable baseline; root reports proof/verifier/summary exact readbacks and fresh audit PASS. Records are formal compatibility records, not realizations."
+      },
+      "torsion_status": "Before closure, all original and second-interior determinant torsion in the final three pairs was proved zero; those pairs are now excluded.",
+      "warning": "The entire (2,2) profile is excluded by a family-wide endpoint contradiction, not a numerical scan. Three other rank-three profiles remain: (1,1), (1,2), (2,1). No stronger SF bound, fourth value, or original proof repair follows."
     },
     {
       "id": "U.SMITH",
@@ -1378,7 +1410,8 @@
         }
       ],
       "public_source_pins": [
-        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md"
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
       ],
       "counts": {
         "total": 4,
@@ -1553,6 +1586,131 @@
       },
       "same_problem_as": "U.ODD.TARGET",
       "do_not_add": true
+    },
+    {
+      "id": "U.P22.REMAINING",
+      "parent_id": "P22.remaining",
+      "universe_definition": "Historical final three ordered quotient pairs from 08:52 UTC, all excluded at 09:08 UTC. Their historical records total 354; current remaining records are zero.",
+      "counting_unit": "formal quotient pair",
+      "exhaustive": true,
+      "disjoint": true,
+      "leaves": [
+        {
+          "id": "P22.remaining.1",
+          "status": "excluded",
+          "label": "A=O(-8)+O(2)+O(6); B=O(-8)+O(-4)+O(6)",
+          "formal_record_count": 0,
+          "historical_formal_record_count": 84,
+          "historical_cutoff": "2026-10-22T08:52:00Z",
+          "A": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              2,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "P22.remaining.2",
+          "status": "excluded",
+          "label": "A=O(-8)+O(4)+O(6); B=O(-8)+O(-6)+O(6)",
+          "formal_record_count": 0,
+          "historical_formal_record_count": 110,
+          "historical_cutoff": "2026-10-22T08:52:00Z",
+          "A": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ]
+        },
+        {
+          "id": "P22.remaining.3",
+          "status": "excluded",
+          "label": "A=O(-8)+W O(5); B=W O(-7)+O(6)",
+          "formal_record_count": 0,
+          "historical_formal_record_count": 160,
+          "historical_cutoff": "2026-10-22T08:52:00Z",
+          "A": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              5,
+              "W"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ]
+        }
+      ],
+      "public_source_pins": [
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-endpoint-top-slope-summary.json",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
+      ],
+      "counts": {
+        "total": 3,
+        "excluded": 3,
+        "not_excluded": 0,
+        "formal_records": 0,
+        "historical_formal_records": 354
+      },
+      "nested_do_not_add_to": "U.P22",
+      "realizations_claimed": false,
+      "warning": "These three necessary pairs are now excluded; 84, 110 and 160 are historical record counts, not current remaining counts. Their parent (2,2) profile is closed."
     }
   ],
   "auxiliary_milestones": [
@@ -1685,7 +1843,7 @@
     "Original source-recovery, required higher-lifting and Weil-class algebraicity bridges are named open goals, without exhaustive branch classifications or a proved equivalence to the adjoint gate.",
     "Full-space 20-to-20 boundary and inversion-even parity analysis overlap but are not interchangeable; no partition relating their remaining cases is supplied.",
     "Historical Rao numerical and odd-target baselines are now recovered (12 and 7 respectively); their nested detailed proof subdivisions are not a further additive global count.",
-    "Gauss necessary splitting records do not classify realized maps or sheaf extensions; 24 pairs/1,221 records do not establish an actual moduli cardinality.",
+    "The entire (2,2) necessary overlist is now excluded. This closes that profile but does not classify realized maps or sheaf extensions in the three other surviving rank-three profiles.",
     "Rank-four through rank-thirteen Gauss cases lack a comparable plateau/type classification in this paper.",
     "The actual fourth value is unknown; 4-channel and 10-channel linear algebra does not determine which nonzero/zero outcomes occur."
   ],
@@ -1701,7 +1859,7 @@
     {
       "chapter": "01",
       "filename": "01-current-status.md",
-      "sha256": "90f6e6bddc1da0b30509d7f394d2b4250d242e536bb8a7840698f75d1b011aef",
+      "sha256": "50134dc363b1af4b480c4fe15b2ae76c4244e496574a84aeaeb43218c7060b64",
       "immutable_public_pins": [
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md",
@@ -1800,7 +1958,7 @@
     {
       "chapter": "06",
       "filename": "06-dependencies-and-changelog.md",
-      "sha256": "80061e536d1a714dd197a91cc8e1d6ff07a25540e01560ce9315e87b7cfc67d8",
+      "sha256": "a38b45c3fe85c10e824e30f39808459f6663dd919cd148d6f354bbc8cadeafee",
       "immutable_public_pins": [
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/02ed933bc3474804560159a71f3a3df5b3b76177/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/04fb081d710f1d7e175f252601b96dddcd93106e/research/hm/order-four-quadratic-load/POSITIVE-SECOND-BOCKSTEIN-SQUARE-FILTRATION.md",
@@ -2124,7 +2282,7 @@
     {
       "chapter": "23",
       "filename": "23-canonical-multiplied-lift-and-endpoint-scale.md",
-      "sha256": "44ad0b30b42f8c2c809e1b24f6b3566501dbe197128fb458ff2b82210949bbd6",
+      "sha256": "2bf40502633424736b495e216035885adefa5a7e281e82353681227709f26295",
       "immutable_public_pins": [
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/ACTUAL-SECOND-NORMAL-OPERATOR-TRANSPORT-HAS-A-SOURCE-PARAMETRIZED-CLASS.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/ACTUAL-TRANSPORT-CHANNEL-KERNEL-HAS-AN-EULER-KOSZUL-SPLITTING.md",
@@ -2144,6 +2302,20 @@
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/two-two-symmetric-quotient-summary.json",
         "https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/verify_two_two_symmetric_quotient_constraints.py"
+      ]
+    },
+    {
+      "chapter": "24",
+      "filename": "24-multiplied-coherence-and-fifth-neighborhood-boundary.md",
+      "sha256": "af42d2b720554e99304c53ebac56d7744c6dc2449a73cc22a541bdd246346451",
+      "immutable_public_pins": [
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/two-two-kernel-top-multiplicity-summary.json",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/verify_two_two_kernel_top_multiplicity.py",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e20281e6eb850904093af3a6c737f3ee0ed28f2/research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e20281e6eb850904093af3a6c737f3ee0ed28f2/research/hm/order-four-quadratic-load/ACTUAL-MULTIPLIED-NILPOTENT-COHERENCE-FIXES-ENDPOINT-SCALE.md",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e20281e6eb850904093af3a6c737f3ee0ed28f2/research/hm/order-four-quadratic-load/verify_actual_fourth_normal_neighborhood_boundary.py",
+        "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e20281e6eb850904093af3a6c737f3ee0ed28f2/research/hm/order-four-quadratic-load/verify_actual_multiplied_nilpotent_endpoint_coherence.py"
       ]
     }
   ]

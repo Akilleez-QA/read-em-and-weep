@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-**Published-source cutoff: 08:30 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
+**Published-source cutoff: 09:08 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
 
 ## The problem and current theorem
 
@@ -19,13 +19,14 @@ The positive cohomology map has source dimension 41 and target dimension 37. Its
 
 ## What changed at this cutoff
 
-[Chapter 24](paper/24-multiplied-coherence-and-fifth-neighborhood-boundary.md) adds three bounded advances:
+[Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) adds three bounded advances:
 
-1. **Actual multiplied-lift coherence fixes c_+=κ=−(χ/g_L)(a_m/b_m).** Pairwise products U_aU_b and U_bU_a are zero on actual 2Q. The alternating coherence is nonzero and prevents interpreting this as a globally framed lift of N. The full actual boundary comparison retains every scale and sign.
-2. **The fourth gate is the second-symbol quotient of an exact actual 4Q-to-5Q adjoint boundary.** Global primitives exist and give a precise differential ladder, but their evaluation and the boundary value remain open. Raw-boundary zero is stronger than fourth-quotient zero.
-3. **The (2,2) necessary list narrows to 24 pairs and 1,221 records.** Top-kernel multiplicity excludes ten further pairs and 659 records. The retained defect counts are 1,064 zero and 157 twelve. No realization or full (2,2) exclusion follows; SF≥3 and square rank≥27 remain unchanged.
+1. **The entire (2,2) maximal rank-three profile is excluded.** Endpoint rank drop closes the last three necessary pairs. Six of nine profiles are now excluded; (1,1), (1,2), and (2,1) remain possible. SF≥3 and square rank≥27 do not improve.
+2. **The existing corrected J3 is square-zero on actual 3Q.** This is proved for the indicated actual global primitives, with the conic determinant unit retained. It neither computes the primitive nor constructs a 3Q midpoint bundle or evaluates the fourth gate.
+3. **The remaining (1,2) profile has bounded degrees and defect.** The original defect is zero or twelve; the twelve-defect branch has just two necessary degree pairs and saturated second dual quotient. Neither is excluded or realized.
 
-The new [whole-project progress map](paper/progress-map.md) includes four visual panels and a source-pinned inventory of 26 scoped universes. Completed early lanes distinguish exclusions from passed cases: Rao 10+2 of 12; odd 2+5 of 7. Gauss bars retain fixed, separate denominators: nine profiles, 35 pairs and 2,947 records. There is no natural global family total or percentage completion.
+The [whole-project progress map](paper/progress-map.md) retains separate fixed denominators: nine profiles, 35 pairs and 2,947 records. The (2,2) histories are 35→34→24→7→3→0 pairs and 2,947→1,880→1,221→723→354→0 records. The 27 scoped inventory universes overlap and are not a global family count. Completed early lanes distinguish excluded from passed cases. There is no overall completion percentage.
+
 ## The exact remaining obstruction
 
 After second order in a general negative direction, the surviving source is D5, dimension five, and the remaining target is a line. Since the actual third vanishes, a nonzero fourth or later Bockstein would give rank 37 and four sections. If the last cokernel survives every higher obstruction along the pencil, the rank remains 36 and the count remains five. The last generic finite Smith exponent is **4 ≤ e ≤ 31**, or the cokernel is permanent.
@@ -54,7 +55,7 @@ The new normalization χ̄=−Bλ/(4ν²)n_ap belongs to the fixed midpoint pair
 
 ## Gauss geometry and separate comparison problems
 
-The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), (3,1), and now (1,3) maximal profiles. The remaining possible profiles are (1,1), (1,2), (2,1), (2,2), not realized geometries. This does not prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [full (1,3) closure](paper/22-full-saturation-and-cartan-koszul-multiplier.md#222-full-saturation-excludes-the-entire-13-profile).
+The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), (3,1), (1,3), and now (2,2) maximal profiles. The remaining possible profiles are (1,1), (1,2), (2,1), not realized geometries. This does not prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [full (1,3) closure](paper/22-full-saturation-and-cartan-koszul-multiplier.md#222-full-saturation-excludes-the-entire-13-profile).
 
 On the full P¹⁴ of quadrics, the actual primary and residual flanks are generically good on a common dense open containing smooth quadrics. A canonical 20-to-20 extension boundary remains; good flanks do not prove it invertible. This full-family problem is distinct from the inversion-even theorem. [Primary and Rao reductions](paper/07-primary-and-rao-reductions.md).
 
@@ -64,9 +65,9 @@ The finite normal-extension tower, its two-root structure and the monad-family t
 
 The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–670 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
 
-Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 24](paper/24-multiplied-coherence-and-fifth-neighborhood-boundary.md) for the latest bounded update. The [twenty-four-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
+Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) for the latest bounded update. The [twenty-five-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
 
-The latest included PR543 sources are `2e20281e6eb850904093af3a6c737f3ee0ed28f2` (actual coherence, endpoint normalization and fifth-neighborhood comparison) and `1c00faf07673db5b2e1cf2cbf23984f4a31503b1` (top-kernel multiplicity). Chapter 24 links each immutable proof, verifier and compact distribution. Chapter 23 preserves the earlier canonical-lift, scale and exact-kernel sources; Chapter 22 preserves Mr. Slop’s checked PR668–670. Later unreviewed work is excluded.
+The latest included PR543 sources are 914f839bc525a1edf52d9734e9844950647419e0 (seven-pair and three-pair refinements), bcb820f06b0d3df35c96f928360f1e973e552c65 (asymmetric degree bounds), 2bd41cac562738b3c526f529d51c56f8b6010632 (actual J3 square-zero), and c8975a41912b28938bc5b912e6637698a9652195 (complete (2,2) exclusion). [Chapter 25](paper/25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) links each immutable proof and verifier. Earlier chapters preserve their source ledgers. Later unreviewed work is excluded.
 
 These are authored mathematical arguments with supplementary universal identity and character checks, not proof-assistant certificates. No selected Horrocks-Mumford coefficients or actual matrix-rank experiments are used for the summarized conclusions. This working edition is modular Markdown; no PDF is part of it.
 

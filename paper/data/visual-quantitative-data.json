@@ -1,0 +1,49 @@
+{
+  "cutoff": "2026-10-22T09:08:00Z",
+  "latest_source_pin": "c8975a41912b28938bc5b912e6637698a9652195",
+  "universes_do_not_sum": true,
+  "gauss_rank_three_profiles": {
+    "initial": 9,
+    "excluded": 6,
+    "open": 3
+  },
+  "two_two_records": {
+    "initial": 2947,
+    "stages": [
+      2947,
+      1880,
+      1221,
+      723,
+      354,
+      0
+    ],
+    "removed": 2947,
+    "remaining": 0
+  },
+  "two_two_pairs": {
+    "initial": 35,
+    "stages": [
+      35,
+      34,
+      24,
+      7,
+      3,
+      0
+    ],
+    "removed": 35,
+    "remaining": 0
+  },
+  "rao_after_a_le_1": {
+    "initial": 12,
+    "excluded": 10,
+    "passed": 2,
+    "unresolved": 0
+  },
+  "odd_target_types": {
+    "initial": 7,
+    "excluded": 2,
+    "passed": 5,
+    "unresolved": 0
+  },
+  "final_two_two_step": "Family-wide endpoint contradiction; not a numerical scan."
+}

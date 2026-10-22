@@ -1,5 +1,8 @@
 # 22. Full (1,3) exclusion and the Cartan–Koszul multiplier
 
+**Current supersession (09:08 UTC):** [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) closes the entire (2,2) profile and proves square-zero for the existing actual J3 on 3Q. Dated candidate counts and open (2,2) statements below are historical. The fourth value, stronger global rank bounds, midpoint 3Q extension and original repair are not established.
+
+
 **Later bounded update:** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical multiplied actual 2Q lift, exact endpoint scale, 34-pair (2,2) refinement and source-dependent operator-channel interface. Its actual coefficients, next-division comparison and fourth values remain open. This chapter retains its dated cutoff.
 
 **Checked-source cutoff: 22 October 2026, 08:05 UTC.** This chapter supersedes Chapter 21's open (1,3) profile, unevaluated C_mult, and unresolved leading weight-four affine transport. It does not supersede the higher-weight or fourth-obstruction boundaries.

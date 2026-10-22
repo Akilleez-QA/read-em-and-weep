@@ -1,12 +1,14 @@
 # 6. Dependencies, reproducibility, and change log
 
-**Current cutoff: 22 October 2026, 08:30 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
+**Current cutoff: 22 October 2026, 09:08 UTC.** [Chapter 23](23-canonical-multiplied-lift-and-endpoint-scale.md) adds the canonical actual multiplied lift, exact endpoint scale and the newest necessary Gauss/operator refinements. Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
 
 [Chapter 24](24-multiplied-coherence-and-fifth-neighborhood-boundary.md) adds actual coherence and c_+=κ, an exact actual 5Q boundary comparison, and the 24-pair top-kernel refinement. The [progress map](progress-map.md) supplies separately scaled visual inventories, not a global completion percentage.
 
+[Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md) now closes all of (2,2), adds the bounded (1,2) frontier, and proves square-zero for the existing actual J3 without evaluating its primitive or the fourth gate.
+
 ## 6.1 Claim register
 
-**Historical register through 06:18 UTC; current additions are items 63–80 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Historical register through 06:18 UTC; current additions are items 63–85 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -165,6 +167,16 @@ All new proof and companion-script links are in [Chapter 22's immutable ledger](
 
 80. **Top-kernel multiplicity refinement.** At 1c00faf07673db5b2e1cf2cbf23984f4a31503b1, necessary global-section injection at each kernel's actual top degree excludes ten more (2,2) pairs. There remain 24 pairs/1,221 records, with 1,064 defect zero and 157 defect twelve. The surviving profiles and rank bounds are unchanged. [Proofs and immutable verifier ledger](24-multiplied-coherence-and-fifth-neighborhood-boundary.md).
 
+
+81. **Second-interior Euler refinement.** At 914f839bc525a1edf52d9734e9844950647419e0, original determinant defect vanishes and exact Euler constraints reduce (2,2) to seven pairs/723 records. Interior ranks are not imposed on endpoints. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
+
+82. **Endpoint top-slope refinement.** At the same pin, four negative-V certificates leave three pairs/354 records, with all three determinant defects zero. Both endpoint ranks remain unassumed. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
+
+83. **Asymmetric (1,2) bounds.** At bcb820f06b0d3df35c96f928360f1e973e552c65, −8≤a≤6, −12≤b≤2 and original defect is zero or twelve. The twelve-defect branch leaves degree pairs (−8,−10),(−6,−12), with saturated second dual quotient. These are necessary only. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
+
+84. **Actual corrected J3 square-zero.** At 2bd41cac562738b3c526f529d51c56f8b6010632, the full actual square-ideal argument and unit-retaining conic coherence prove J3²=0 on actual 3Q for the indicated primitives. Neither the primitive, midpoint 3Q extension nor fourth value is supplied. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
+
+85. **Entire (2,2) exclusion.** At c8975a41912b28938bc5b912e6637698a9652195, both endpoint Euler twists and rank-drop flags close all three remaining pairs. Rank-seven endpoint degrees are −36 for a=0 and −32 for a=2; the sole rank-two branch has rank-five kernel degree −30. Six of nine profiles are excluded; (1,1),(1,2),(2,1) remain possible. SF≥3 and square rank≥27 are unchanged. [Chapter 25](25-complete-two-two-exclusion-and-actual-third-neighborhood-square.md).
 
 ## 6.2 Reproducible supplementary checks
 
@@ -475,3 +487,12 @@ See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the imm
 - The Gauss history is 35→34→24 pairs and 2,947→1,880→1,221 formal records. Necessary conditions do not become realized geometries. Generic sections remain four or five; finite exponent 4–31 or permanent cokernel, SF≥3 and square rank≥27 are unchanged.
 - Added four editable SVGs with PNG alternatives and a source-pinned inventory of 26 scoped universes. Completed Rao and odd lanes have zero unresolved bad cases, not all cases excluded. Bars preserve separate fixed denominators; nested cases, overlapping routes and the editorial core-objective ledger are not added into a global family total or percentage complete.
 - Original source recovery, higher lifting and Weil-class algebraicity remain unresolved. Archive, LICENSE and frozen upstream objects are unchanged. This local preparation makes no external commit or post.
+
+## 22 October 2026, 09:08 UTC: complete (2,2) closure and actual J3 square-zero
+
+- Added Chapter 25 and updated the current status, index, README, historical supersession and claims 81–85. The paper has twenty-five modular chapters under Craig Ward’s existing authorship.
+- Integrated the four exact published pins in Chapter 25 after complete source reading, independent audits, passing companion checks and exact published readbacks by the root integrator. The final actual-square proof retains the conic determinant unit.
+- Closed (2,2), leaving three of nine maximal rank-three profiles possible. Preserved the fixed 35-pair and 2,947-record baselines, with intermediate seven/723 and three/354 stages before zero. The endpoint overlists require twists four and five, not one Euler identity alone.
+- The existing actual J3 is square-zero without computing its primitive or extending the midpoint bundle. The fourth value, section count four versus five, stronger SF/square bounds and original source/lifting/algebraicity objectives remain open.
+- Updated the 27-universe whole-project inventory and four editable SVG panels to the same cutoff. Only SVG figure files are retained for publication; no PNG binaries are added. No overlapping universes are summed and no overall completion percentage is asserted.
+- This is local preparation only. Publication is reserved to the root. Archive, LICENSE and frozen upstream material remain unchanged.

@@ -1,6 +1,6 @@
 # Original HM proof-repair inventory
 
-Base modular-paper cutoff: 22 October 2026, 08:15 UTC. Updated through checked immutable publications at 08:30 UTC, including 1c00faf and 2e20281.
+Base modular-paper cutoff: 22 October 2026, 08:30 UTC. Inventory updated through root-verified immutable publication c8975a41912b28938bc5b912e6637698a9652195 at 09:08 UTC. Frozen paper publication 11eae1d2c9890a50d2e2ba66cdc0d153eb61b816 is unchanged.
 
 ## Bottom line
 
@@ -25,7 +25,7 @@ The source, lifting and algebraicity statuses are explicit scope boundaries in c
 Possible generic ranks of the actual Gauss second fundamental form (17 to 13), with rank three refined by maximal plateau lengths 1<=k,l<=3.
 
 Exhaustive in stated scope: True. Mutually exclusive: True.
-Counts: {"total": 22, "excluded": 8, "unresolved_rank_three_profiles": 4, "compatible_higher_rank_outcomes": 10}.
+Counts: {"total": 22, "excluded": 9, "unresolved_rank_three_profiles": 3, "compatible_higher_rank_outcomes": 10}.
 - SF rank 0: excluded.
 - SF rank 1: excluded.
 - SF rank 2: excluded.
@@ -43,41 +43,46 @@ Counts: {"total": 22, "excluded": 8, "unresolved_rank_three_profiles": 4, "compa
 - SF rank 3, profile (1,2): not_excluded.
 - SF rank 3, profile (1,3): excluded.
 - SF rank 3, profile (2,1): not_excluded.
-- SF rank 3, profile (2,2): not_excluded.
+- SF rank 3, profile (2,2): excluded.
 - SF rank 3, profile (2,3): excluded.
 - SF rank 3, profile (3,1): excluded.
 - SF rank 3, profile (3,2): excluded.
 - SF rank 3, profile (3,3): excluded.
-[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md)
+[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md)
 
 ### U.GAUSS3 — maximal profile
 The rank-three branch only, all nine bounded maximal plateau profiles.
 
 Exhaustive in stated scope: True. Mutually exclusive: True.
-Counts: {"total": 9, "excluded": 5, "not_excluded": 4}.
+Counts: {"total": 9, "excluded": 6, "not_excluded": 3}.
 - (1,1): not_excluded.
 - (1,2): not_excluded.
 - (1,3): excluded.
 - (2,1): not_excluded.
-- (2,2): not_excluded.
+- (2,2): excluded.
 - (2,3): excluded.
 - (3,1): excluded.
 - (3,2): excluded.
 - (3,3): excluded.
 Nested do not add to: U.GAUSS.
-[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md)
+[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/f60e8b675110220b1ce7cc0e4c760ed4f32c8b20/research/hm/order-four-quadratic-load/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/9328f0db5536fe16ccd8ea556919847e5c1e8956/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/dfbdd9f5e18e0a2506d2ea30b01f58f6b21f570b/research/hm/order-four-quadratic-load/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/93f99e65a95583d8bf083ae5b0169ed9a5411f6c/research/hm/order-four-quadratic-load/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md)
 
 ### U.P22 — formal quotient pair
 The 35 ordered full derivative quotient splitting pairs in the published necessary (2,2) overlist, before exact-kernel refinement.
 
 Exhaustive in stated scope: True. Mutually exclusive: True.
-Counts: {"total": 35, "excluded": 11, "not_excluded": 24}.
+Counts: {"total": 35, "excluded": 35, "not_excluded": 0}.
+Formal-record history: {"baseline": 2947, "intermediate": 1880, "remaining": 0, "removed": 2947, "remaining_defect_zero": 0, "remaining_defect_twelve": 0, "pair_history": [35, 34, 24, 7, 3, 0], "record_history": [2947, 1880, 1221, 723, 354, 0], "note": "Stable baseline; root reports proof/verifier/summary exact readbacks and fresh audit PASS. Records are formal compatibility records, not realizations."}.
+Before closure, all original and second-interior determinant torsion in the final three pairs was proved zero; those pairs are now excluded.
 - Exact-cohomology excluded pair: excluded. Multiplicity 1.
 - Ten additional top-kernel-multiplicity excluded pairs: excluded. Multiplicity 10.
-- Latest necessary quotient pairs: not_excluded. Multiplicity 24.
+- Seventeen second-interior Euler excluded pairs: excluded. Multiplicity 17.
+- Four endpoint top-slope excluded pairs: excluded. Multiplicity 4.
+- Last three formerly surviving pairs, now excluded by endpoint rank-drop theorem: excluded. Multiplicity 3.
+Warning: The entire (2,2) profile is excluded by a family-wide endpoint contradiction, not a numerical scan. Three other rank-three profiles remain: (1,1), (1,2), (2,1). No stronger SF bound, fourth value, or original proof repair follows..
 Exhaustive scope: Only the fixed necessary overlist, not all conceivable bundle geometries.
 Nested do not add to: U.GAUSS3.
-[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-SEVEN-W-QUOTIENT-IS-EXCLUDED-BY-EXACT-COHOMOLOGY.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md)
+[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/fa239126cdfe19839a54e89a3d2911e5be476fcb/research/hm/order-four-quadratic-load/TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/10df28e8c87f5c9d156e394f235f6b00e34144d0/research/hm/order-four-quadratic-load/TWO-TWO-SEVEN-W-QUOTIENT-IS-EXCLUDED-BY-EXACT-COHOMOLOGY.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/1c00faf07673db5b2e1cf2cbf23984f4a31503b1/research/hm/order-four-quadratic-load/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-second-interior-euler-summary.json) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-endpoint-top-slope-summary.json)
 
 ### U.SMITH — Smith outcome
 Last generic positive Smith factor after 33 units and three valuation-two factors: finite exponent e=4,...,31, or persistent zero row.
@@ -352,7 +357,7 @@ Counts: {"total": 4, "excluded": 4}.
 - Wprime O + O(19): excluded.
 - Wprime O(2)+O(7): excluded.
 Nested do not add to: U.GAUSS3.
-[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md)
+[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/4341dcd851b3d449db31a9e59af400ac20677c5d/research/hm/order-four-quadratic-load/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md)
 
 ### U.RAO.NUMERICAL — numerical section-dimension pair
 Historical fixed baseline AFTER a<=1 reduction: a=0,b=0..7 or a=1,b=4..7 for generic hyperplane sections of the 25 lines.
@@ -398,6 +403,18 @@ Counts: {"total": 2, "excluded": 1, "proved": 1}.
 - Rank four: proved.
 [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/ec080c229105457eafcd2583c8a47b362627a62e/research/hm/order-four-quadratic-load/SPECIAL-D5-OCTIC-NONEXTENSION-EXCLUDES-A12.md)
 
+### U.P22.REMAINING — formal quotient pair
+Historical final three ordered quotient pairs from 08:52 UTC, all excluded at 09:08 UTC. Their historical records total 354; current remaining records are zero.
+
+Exhaustive in stated scope: True. Mutually exclusive: True.
+Counts: {"total": 3, "excluded": 3, "not_excluded": 0, "formal_records": 0, "historical_formal_records": 354}.
+- A=O(-8)+O(2)+O(6); B=O(-8)+O(-4)+O(6): excluded. Historical records 84; current remaining records 0.
+- A=O(-8)+O(4)+O(6); B=O(-8)+O(-6)+O(6): excluded. Historical records 110; current remaining records 0.
+- A=O(-8)+W O(5); B=W O(-7)+O(6): excluded. Historical records 160; current remaining records 0.
+Warning: These three necessary pairs are now excluded; 84, 110 and 160 are historical record counts, not current remaining counts. Their parent (2,2) profile is closed..
+Nested do not add to: U.P22.
+[Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/914f839bc525a1edf52d9734e9844950647419e0/research/hm/order-four-quadratic-load/two-two-endpoint-top-slope-summary.json) [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/c8975a41912b28938bc5b912e6637698a9652195/research/hm/order-four-quadratic-load/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md)
+
 ## Auxiliary results: not extra top-level geometric branches
 
 - Exactly two marked formal extensions: proved. [Source](https://github.com/Akilleez-QA/read-em-and-weep/blob/a0ccfe44a4d2b528622d591888b8cc1cddb47792/research/hm/order-four-quadratic-load/NORMAL-QUADRATIC-NONZERO-BY-SERRE-RESIDUE-DOUBLE-COVER.md)
@@ -419,7 +436,7 @@ Counts: {"total": 2, "excluded": 1, "proved": 1}.
 2. Original source-recovery, required higher-lifting and Weil-class algebraicity bridges are named open goals, without exhaustive branch classifications or a proved equivalence to the adjoint gate.
 3. Full-space 20-to-20 boundary and inversion-even parity analysis overlap but are not interchangeable; no partition relating their remaining cases is supplied.
 4. Historical Rao numerical and odd-target baselines are now recovered (12 and 7 respectively); their nested detailed proof subdivisions are not a further additive global count.
-5. Gauss necessary splitting records do not classify realized maps or sheaf extensions; 24 pairs/1,221 records do not establish an actual moduli cardinality.
+5. The entire (2,2) necessary overlist is now excluded. This closes that profile but does not classify realized maps or sheaf extensions in the three other surviving rank-three profiles.
 6. Rank-four through rank-thirteen Gauss cases lack a comparable plateau/type classification in this paper.
 7. The actual fourth value is unknown; 4-channel and 10-channel linear algebra does not determine which nonzero/zero outcomes occur.
 
