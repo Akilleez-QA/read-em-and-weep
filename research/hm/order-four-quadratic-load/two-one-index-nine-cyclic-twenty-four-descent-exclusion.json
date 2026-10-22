@@ -1,0 +1,216 @@
+{
+  "scope": "Source9 cyclicO4|2D12 excluded by further endpoint descent;143 quotient labels unchanged.",
+  "source_hashes": {
+    "rank-three-quotient-frontier-144.json": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad",
+    "two-one-rank-eleven-endpoint-splittings.json": "4704e794183cb1a2b0bf5069e3baedafeedc9ae186c40dea2917766100d23a16",
+    "TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843",
+    "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  "id": "G3.21.1c43993b4f83",
+  "source_pair_index": 9,
+  "second_defect": 24,
+  "excluded_torsion": [
+    [
+      24,
+      4
+    ]
+  ],
+  "character_order": [
+    "one",
+    "W",
+    "Wp",
+    "A",
+    "V",
+    "P",
+    "S",
+    "D",
+    "T"
+  ],
+  "rank_two_overlist": [
+    [
+      [
+        -20,
+        "one"
+      ],
+      [
+        14,
+        "one"
+      ]
+    ],
+    [
+      [
+        -18,
+        "one"
+      ],
+      [
+        12,
+        "one"
+      ]
+    ],
+    [
+      [
+        -16,
+        "one"
+      ],
+      [
+        10,
+        "one"
+      ]
+    ],
+    [
+      [
+        -14,
+        "one"
+      ],
+      [
+        8,
+        "one"
+      ]
+    ],
+    [
+      [
+        -12,
+        "one"
+      ],
+      [
+        6,
+        "one"
+      ]
+    ],
+    [
+      [
+        -10,
+        "one"
+      ],
+      [
+        4,
+        "one"
+      ]
+    ],
+    [
+      [
+        -8,
+        "one"
+      ],
+      [
+        2,
+        "one"
+      ]
+    ],
+    [
+      [
+        -6,
+        "one"
+      ],
+      [
+        0,
+        "one"
+      ]
+    ],
+    [
+      [
+        -4,
+        "one"
+      ],
+      [
+        -2,
+        "one"
+      ]
+    ],
+    [
+      [
+        -3,
+        "W"
+      ]
+    ],
+    [
+      [
+        -3,
+        "Wp"
+      ]
+    ]
+  ],
+  "Euler_matched": [
+    [
+      [
+        -20,
+        "one"
+      ],
+      [
+        14,
+        "one"
+      ]
+    ],
+    [
+      [
+        -16,
+        "one"
+      ],
+      [
+        10,
+        "one"
+      ]
+    ],
+    [
+      [
+        -10,
+        "one"
+      ],
+      [
+        4,
+        "one"
+      ]
+    ],
+    [
+      [
+        -3,
+        "Wp"
+      ]
+    ]
+  ],
+  "forced_J": [
+    [
+      -10,
+      "one"
+    ],
+    [
+      -10,
+      "one"
+    ],
+    [
+      4,
+      "one"
+    ]
+  ],
+  "H1_K_two": [
+    0,
+    0,
+    0,
+    1,
+    2,
+    3,
+    0,
+    1,
+    0
+  ],
+  "H1_rejected_J_two": [
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    0,
+    2,
+    0
+  ],
+  "M_endpoint_degree_minima": [
+    -7,
+    -8
+  ],
+  "H0_M_four": 7,
+  "H0_M_five": 16,
+  "forced_M_over_Mminus": "O2",
+  "H0_Mminus_five_lower_bound": 8,
+  "next_derivative_target_H0_five": 6
+}
