@@ -1,7 +1,7 @@
 # Proof repair: current progress and remaining obstruction
 
 **Craig Ward** · Working paper v0.3 · 22 October 2026  
-**Published-source cutoff: 07:09 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
+**Published-source cutoff: 08:05 UTC.** The section-count theorem dates to 21 October, 22:57 UTC; subsequent results sharpen its obstruction and geometry, not its numerical conclusion.
 
 ## The problem and current theorem
 
@@ -19,14 +19,13 @@ The positive cohomology map has source dimension 41 and target dimension 37. Its
 
 ## What changed at this cutoff
 
-[Chapter 21](paper/21-gauss-closure-and-second-normal-residue.md) records the new results and their precise boundaries:
+[Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) records four new conclusions and their limits:
 
-1. **The entire extremal (3,1) Gauss profile is excluded.** The earlier ten necessary rank-one first quotients are all eliminated, completing the previously closed rank-two and rank-three branches. The remaining possible maximal profiles are (1,1), (1,2), (1,3), (2,1), (2,2). They are not realized geometries. Generic SF ≥ 3 and positive-square rank ≥ 27 remain unchanged.
-2. **The ambient multiplier is a monad ratio:** κ=C_mult a_m/b_m, with C_mult nonzero but unevaluated. Its missing determination is reduced to a global degree-two determinant-valued monad homotopy, with no hidden higher Čech correction.
-3. **The genuine midpoint pair has a canonical nonzero scalar residue:** χ̄=−Bλ/(4ν²)n_ap. It obstructs the fixed nilpotent's square-zero extension across the vertex locus. It is not a fourth Bockstein or an assertion about every arbitrary local nilpotent.
-4. **The lowest tangent coefficient is acyclic:** an associated-graded E4 trace sequence has kernel W′ O(−1), with H⁰=H¹=0. The full actual affine R2 transport, with its lower-error terms, remains unresolved.
-5. **Mr. Slop's PR667 determines the actual square-secant restriction:** rank two except at twelve reduced C5 square points, rank one there, with saturation W′ O(−1) and a unique equivariant sextic factor up to scalar. This is not an ambient Smith-exponent calculation.
-6. **Mr. Slop's PR666 sharpens the universal fixed-channel zero-scheme bound to eighteen.** Its necessary nonempty lengths are 6,10,15,16,18; only eighteen can be nonreduced. Universal detection, fixed-channel zeros and the rank of one actual fixed map remain different questions.
+1. **The entire (1,3) Gauss profile is excluded**, using the full saturated derivative image, not an assumption that its cubic subimage has rank three. Together with (3,1) and earlier exclusions, only (1,1), (1,2), (2,1), (2,2) remain possible. These are not realized geometries; SF ≥ 3 and square rank ≥ 27 are unchanged.
+2. **The ambient multiplier is determined:** C_mult=−χ/g_L and κ=−(χ/g_L)(a_m/b_m). A complete polynomial Cartan–Koszul homotopy solves all five coupled equations and both monad arrows. The fixed Clifford, full-trace volume, determinant and physical-equation markings are retained; no actual source coefficients are assigned values.
+3. **The leading weight-four affine error has a unique compatible gluing.** Its full transition law includes harmonic transport of the first error and the nonzero midpoint mismatch. Scalar compatibility and acyclicity close this leading problem. The next-weight midpoint normalization is now separated from endpoint transport: possible Z6, the complete η terms and the second-normal operator defect remain. Neither the full actual error nor the fourth is computed.
+
+4. **Mr. Slop’s universal family-detection scheme is exactly sixteen reduced axes.** The two exceptional channels vanish on the six C5 and ten C3 axes. The exact ideal image gives a rank-six torsion-free quotient, a sign-twisted residue lifting test, and division-free channel reconstruction. None identifies the actual source with an exceptional channel or evaluates the fourth.
 
 ## The exact remaining obstruction
 
@@ -40,7 +39,7 @@ There are four allowed channels, two visible on squares and two divisible by the
 
 Marked exchange of the two actual ambient endpoints now sends one fourth gate to the negative of the other in the same actual second-symbol cokernel. Both gates therefore have the same vanishing locus, but neither value is determined. The endpoints are distinct; odd exchange does not make either a fixed point and force zero. No fourth operation on a midpoint affine line is introduced. [Marked comparison](paper/21-gauss-closure-and-second-normal-residue.md#213-marked-endpoint-exchange-constrains-but-does-not-evaluate-the-fourth-gate).
 
-The next normal calculation must assemble the complete affine error R2, rather than isolate a nonzero local summand or discard the scalar trace. One old-K quartic contribution is explicitly nonzero, but other terms may cancel it. The associated-graded acyclicity gives a unique matrix lift only for a compatible global scalar datum; it does not say that arbitrary local quartics vanish or that the full R2 is tangent. The fixed midpoint nilpotence residue is nonzero, and both lower-error terms remain in the differentiated-square constraint. Full conic transport, endpoint gluing defects and higher weights must still be compared before the actual ambient division and final quotient can be evaluated. [Exact boundary](paper/21-gauss-closure-and-second-normal-residue.md#216-lowest-tangent-acyclicity-is-associated-graded-only).
+The next normal calculation must assemble the higher-weight actual affine error and endpoint comparison before ambient division and the final quotient can be evaluated. One nonzero local summand, a nonzero lower source, and the now-determined multiplier do not establish nonzero fourth value. The leading weight-four correction retains both affine terms and the scalar trace; it does not construct a global square-zero midpoint on a third neighborhood. [Exact current boundary](paper/22-full-saturation-and-cartan-koszul-multiplier.md#227-evidence-and-the-remaining-frontier).
 
 ## What the lower-source results do establish
 
@@ -52,11 +51,11 @@ The full corrected C5-square lower source is nonzero. Absolute midpoint and Atiy
 
 Two canonical endpoint evaluations then reconstruct the complete quadratic lower normal-variation family, including both parity components and a common nonzero scale. Every nonzero parameter gives a nonzero entire endpoint map; this does not mean every source vector has nonzero image. Mr. Slop's intrinsic reconstruction and square-secant factorization refine that lower map. The sextic's twelve simple determinant zeros describe saturation on the square conic, not the ambient smoothing pencil. [Actual values](paper/19-actual-endpoint-values-and-last-gauss-quotient.md); [reconstruction and scale](paper/20-reconstructed-endpoint-and-rank-one-frontier.md); [latest fixed-map theorem](paper/21-gauss-closure-and-second-normal-residue.md#217-mr-slop-the-actual-square-secant-map-and-its-sextic-factor).
 
-The new normalization χ̄=−Bλ/(4ν²)n_ap belongs to the fixed midpoint pair's scalar square obstruction. It does not evaluate the independent constant C_mult or erase the normal scale comparisons in the earlier endpoint theorem. Keeping the equation q₀=νq, apolar marking and positive-transition versus bracket sign is essential.
+The new normalization χ̄=−Bλ/(4ν²)n_ap belongs to the fixed midpoint pair's scalar square obstruction. It is distinct from the independent constant C_mult, now determined by the complete homotopy, and does not erase the normal scale markings in the earlier endpoint theorem. Keeping the equation q₀=νq, apolar marking and positive-transition versus bracket sign is essential.
 
 ## Gauss geometry and separate comparison problems
 
-The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), and now (3,1) maximal profiles. This narrows the rank-three geometry but does not exclude every remaining profile or prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [complete (3,1) closure](paper/21-gauss-closure-and-second-normal-residue.md#211-the-entire-extremal-31-gauss-profile-is-excluded).
+The square specialization has rank(ℓ²)=24+rank SF. Saturated-flag degree and endpoint arguments exclude SF ranks one and two, establishing SF ≥ 3 and square rank ≥ 27. Later exclusions remove the entire (3,3), (2,3), (3,2), (3,1), and now (1,3) maximal profiles. This narrows the rank-three geometry but does not exclude every remaining profile or prove SF ≥ 4. It does not improve the generic smoothing rank bound. [Gauss argument](paper/04-positive-sector.md); [full (1,3) closure](paper/22-full-saturation-and-cartan-koszul-multiplier.md#222-full-saturation-excludes-the-entire-13-profile).
 
 On the full P¹⁴ of quadrics, the actual primary and residual flanks are generically good on a common dense open containing smooth quadrics. A canonical 20-to-20 extension boundary remains; good flanks do not prove it invertible. This full-family problem is distinct from the inversion-even theorem. [Primary and Rao reductions](paper/07-primary-and-rao-reductions.md).
 
@@ -64,11 +63,11 @@ The finite normal-extension tower, its two-root structure and the monad-family t
 
 ## Attribution, reading order and evidence
 
-The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–667 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
+The proof chain and its verifiers are developed in [PR543](https://github.com/Akilleez-QA/read-em-and-weep/pull/543). Mr. Slop's complementary PR646–670 results are attributed individually in the relevant chapters; map detection, equation-complex comparisons, lower reconstruction and actual rank conclusions are not collapsed into one claim. Earlier conditional divisor and ramification routes remain in [Chapter 14](paper/14-square-gate-osculation-and-vertex-geometry.md); their nonzero actual third-gate antecedent was later excluded. The paper does not present those conditional curves as actual constructions.
 
-Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 21](paper/21-gauss-closure-and-second-normal-residue.md) for the latest bounded update. The [twenty-one-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
+Start with [current theorem and notation](paper/01-current-status.md), then [Chapter 22](paper/22-full-saturation-and-cartan-koszul-multiplier.md) for the latest bounded update. The [twenty-two-chapter index](paper/README.md) supplies the full reading order. The [dependency register and dated change log](paper/06-dependencies-and-changelog.md) preserve intermediate frontiers, exact source links and reproduction instructions. Earlier chapter bodies remain intact with supersession notes; a dated historical “open” statement does not override the current closure.
 
-The latest included PR543 source is a648e97659121a924dcbb4586b9ecaadc2dd9e35, tree a2431fad1490bd0212994e6d06d2fef1b0e3bcfa. Chapter 21 pins each new proof and companion verifier to its appropriate immutable commit, including the earlier seven-case and final three-case Gauss exclusions. PR666 is pinned to 0fc85f297a62c7be473a8da9ad992bb84706f8f2 and PR667 to 7d53ea234b99b75e89a29c4caba7ec564e134410. No unpublished later affine-transport or new (1,3) reductions are included.
+The latest included PR543 source is 3d21e93865152ec961ceaf32d48f845399158b69. Chapter 22 pins each new proof and verifier, including the whole-profile exclusion, leading affine closure and independent Cartan–Koszul audit. PR666 remains pinned to 0fc85f297a62c7be473a8da9ad992bb84706f8f2 and PR667 to 7d53ea234b99b75e89a29c4caba7ec564e134410. Mr. Slop’s checked PR668–670 are pinned in Chapter 22: reduced detection, C2 exclusion, and exact residue/reconstruction theorems. The next-weight midpoint/endpoint interface is included at 3d21e93865152ec961ceaf32d48f845399158b69; later unaudited lift/operator notes are not included.
 
 These are authored mathematical arguments with supplementary universal identity and character checks, not proof-assistant certificates. No selected Horrocks-Mumford coefficients or actual matrix-rank experiments are used for the summarized conclusions. This working edition is modular Markdown; no PDF is part of it.
 

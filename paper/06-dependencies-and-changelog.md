@@ -1,10 +1,10 @@
 # 6. Dependencies, reproducibility, and change log
 
-**Current cutoff: 22 October 2026, 07:09 UTC.** Older entries retain their historical frontier and exclusions; [Chapter 21](21-gauss-closure-and-second-normal-residue.md) supersedes statements that (3,1) remains open.
+**Current cutoff: 22 October 2026, 08:05 UTC.** Older entries retain their historical frontier. [Chapter 22](22-full-saturation-and-cartan-koszul-multiplier.md) supersedes the open (1,3), unevaluated multiplier and leading affine frontier; Chapter 21 already closed (3,1).
 
 ## 6.1 Claim register
 
-**Current cutoff: 22 October 2026, 06:18 UTC.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Historical register through 06:18 UTC; current additions are items 63–72 and the later dated entries.** Items 58–62 add the actual lower endpoint values, all-direction whole-fiber detection and the current eleven-splitting Gauss frontier. Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -124,6 +124,28 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 61. **Complete (6,2) exclusion.** At fb574c01207099eeb63960da5cb23ad2f2498a84, actual saturated-kernel descent closes the entire first remaining quotient. Only (8,2) remains in the rank-two branch. The next quotient after a line-supported map is the actual source line, including its target zeros. Chapter 19.6.
 
 62. **Twenty K splittings reduced to eleven.** The exact positive-tail reduction at fb574c01207099eeb63960da5cb23ad2f2498a84 gives twenty necessary splittings. At 229e621948e9f6d80902080ad227993da3f0dced, all nine doubled-Wprime cases are excluded, leaving eleven single-Wprime cases. These are K splittings, not the same objects as the historical quotient/type pairs. Neither (8,2), rank-one dual image nor the full (3,1) profile is excluded. Chapter 19.7.
+
+63. **Strict negative Gauss descent and conditional exact quotients.** At 3165561818b782a97baa0b29443d6fdf7ce1129c, highest splitting degree drops under every nonzero backward kernel. The three-quotient reduction is conditional on cubic-image rank three; the next item removes that hypothesis.
+
+64. **Entire (1,3) profile excluded.** At 4341dcd851b3d449db31a9e59af400ac20677c5d, full-source saturation reduces every cubic-image rank to the same three exact quotients, all excluded by top multiplicity. Only (1,1), (1,2), (2,1), (2,2) remain possible; SF≥3 and square rank≥27 do not improve.
+
+65. **Canonical leading affine gluing.** At ec48bfc075f6cfcb001fd7c7c8b50fc6513e0839, the complete weight-four transition law, nonzero mismatch, scalar compatibility and cocycle proof combine with acyclic W′ O(−1) to give a unique affine family. Higher weights, full actual R2 and the fourth remain open.
+
+66. **Complete five-equation ansatz.** At f366c7e78511942f974072e76c4834e29a9146f9, parameter weights and determinant duality give all middle/source channels, retaining the reverse source block and both arrows. Fourteen/eight/twelve are intertwiner dimensions, not actual ranks.
+
+67. **Gradient/Fierz normalization constraint.** At 5f0ab21fa3b4c46d27d1e7b8b02c6d22275ecc94, the full compression fixes Q_b=(−1−C_mult g_L/(2χ))a I_U within the gradient partial ansatz. It alone does not solve the multiplier or prove the ansatz without loss.
+
+68. **Complete actual multiplier.** At 6ebbf04da44a2b1b1a4e3b7659d519cfad6c0884, the global polynomial Cartan–Koszul construction solves every coupled channel and both arrows. The actual uniqueness theorem identifies C_mult=−χ/g_L and κ=−(χ/g_L)(a_m/b_m). The arbitrary-End(P) lift, regular reverse source, common sextic normalization, spin cancellation and independent audit are retained. No actual fourth value follows.
+
+69. **Mr. Slop PR668.** Exterior septics exclude fat C5 zeros and coincident C3/C5 channels; the stabilizer tangent criterion proves reduced detection. [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/ca3c34c40363bde6315a0797eb66a5d3ea68c104/research/hm/reduced-channel-degeneracy/PROOF.md). These are universal endpoint-family results, not actual source membership or fourth values.
+
+70. **Mr. Slop PR669.** Six polar lines and the nondegenerate wedge pairing on the unique A summand exclude the C2 channel. The detection scheme is exactly sixteen reduced axes, with two exceptional channels of lengths six and ten. [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/8c17fe9c5736d657cf07f894b24917ec301e09af/research/hm/involution-channel-exclusion/PROOF.md). These are universal endpoint-family results, not actual source membership or fourth values.
+
+71. **Mr. Slop PR670.** The dual image is the orbit-separated ideal sum. The rank-six torsion-free quotient has a sign-twisted sixteen-residue completion, exact lifting tests, and Hartogs-extended wedge reconstruction. Even invariant twists lift; odd twists have two orbitwise tests, independently realized for odd n≥−1. [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/d71dbafcca050adadd353d6a417f23c527948f64/research/hm/endpoint-detection-resolution/PROOF.md). These are universal endpoint-family results, not actual source membership or fourth values.
+
+72. **Next-weight midpoint/endpoint interface.** At 3d21e93865152ec961ceaf32d48f845399158b69, the midpoint Z4 class has a unique partial normalization, with nonzero Z0 retained and possible Z6 from arbitrary q² transition repairs. Endpoint η terms, full first-error transport and Op2 survive. Global conic regularity excludes global K4 ambiguities, not existence or the selected coefficient's value. The exact E4→E12→V O(4) sequence does not evaluate the actual section. [Proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/3d21e93865152ec961ceaf32d48f845399158b69/research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md); [verifier](https://github.com/Akilleez-QA/read-em-and-weep/blob/3d21e93865152ec961ceaf32d48f845399158b69/research/hm/order-four-quadratic-load/verify_next_weight_midpoint_endpoint_interfaces.py).
+
+All new proof and companion-script links are in [Chapter 22's immutable ledger](22-full-saturation-and-cartan-koszul-multiplier.md#immutable-source-ledger-and-reproduction).
 
 ## 6.2 Reproducible supplementary checks
 
@@ -403,3 +425,16 @@ See [Chapter 20](20-reconstructed-endpoint-and-rank-one-frontier.md) for the imm
 - PR543 at a648e97659121a924dcbb4586b9ecaadc2dd9e35 (tree a2431fad1490bd0212994e6d06d2fef1b0e3bcfa) gives the associated-graded E4 trace sequence with acyclic W′ O(−1). Full actual affine R2 transport remains open.
 - Separately attributed Mr. Slop PR667 at 7d53ea234b99b75e89a29c4caba7ec564e134410 gives the actual fixed square-secant rank stratification, saturation and unique sextic factor, not an ambient Smith exponent. PR666 at 0fc85f297a62c7be473a8da9ad992bb84706f8f2 gives bound eighteen and necessary nonempty lengths 6,10,15,16,18, only eighteen potentially nonreduced. Universal detection, fixed-channel zero schemes and actual fixed-map ranks stay distinct.
 - The actual third gate remains zero; the fourth is unevaluated. Generic sections remain four or five, with finite exponent 4–31 or permanent cokernel. No unpublished later affine transport or new (1,3) reductions are included. The original archive, LICENSE and nonpaper files are unchanged.
+
+## 22 October 2026, 08:05 UTC: full saturation, leading affine closure and complete multiplier
+
+- Added Chapter 22, updated current summaries and the twenty-two-chapter index, and marked Chapter 21's dated frontier as superseded. The root README stays a condensed synthesis, with proof details in the chapter.
+- Incorporated exactly the six PR543 pins in items 63–68 and Chapter 22's immutable ledger. The full (1,3) exclusion does not assume cubic-image rank three. Four maximal profiles remain possible.
+- The leading affine closure uses both inhomogeneous terms, the nonzero mismatch, full scalar compatibility and a genuine cocycle, not acyclicity alone.
+- The complete Cartan–Koszul homotopy determines C_mult=−χ/g_L with all geometric markings retained. Root proof reading, independent audits, companion checks and exact source readbacks passed before integration. Both complete and independent Cartan–Koszul verifiers passed; universal checks remain supplementary to the mathematical proof.
+- The actual third remains zero and all fourth coefficients remain unevaluated. Sections remain four or five; finite exponent remains 4–31 or permanent cokernel; SF≥3 and square rank≥27 remain unchanged. Original source recovery, lifting and algebraicity remain unresolved.
+- Mr. Slop’s PR668–670 are included at their exact checked pins; the checked next-weight interface is included, while later unaudited lift/operator notes are excluded. No external commit or post is made by this local preparation. Archive, LICENSE and frozen upstream sources remain unchanged.
+
+- Complementary checked additions: PR668 at ca3c34c40363bde6315a0797eb66a5d3ea68c104, PR669 at 8c17fe9c5736d657cf07f894b24917ec301e09af, and PR670 at d71dbafcca050adadd353d6a417f23c527948f64. All three full proofs were read at their immutable pins for this integration; the root independently checked the substantive arguments. Earlier source statements that these separate papers do not settle the monad or Gauss questions are not current open-problem claims.
+
+- The next-weight pair at 3d21e93865152ec961ceaf32d48f845399158b69 was independently audited and matched by exact immutable readbacks before integration. Its corrected scope allows Z6, retains endpoint η and Op2, and distinguishes K4 uniqueness from existence/value. Later multiplied square-zero and operator-class notes remain excluded.
