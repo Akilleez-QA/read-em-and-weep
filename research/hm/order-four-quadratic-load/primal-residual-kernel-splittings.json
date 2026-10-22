@@ -1,0 +1,166 @@
+{
+  "scope": "Complete equivariant bundle kernel splittings for five necessary ordinary quotient families; eight scalar strata and six distinct kernels; no later Gauss compatibility or realization claimed.",
+  "source_hashes": {
+    "PRIMAL-EQUALITY-HAS-SIX-RESIDUAL-QUOTIENT-PARAMETER-SPACES.md": "de06847ba55aae35effb6ad394de4792b5c8813d48dbee35b4c1bed79935afa6",
+    "primal-equality-six-residual-quotients.json": "56174a13450e9b9e40ca7ab69ca52445cd9dabbbac5ad782ce4845405ac8570e",
+    "PRIMAL-RESIDUAL-STRICT-SLOPES-REMOVE-ONE-TYPE-AND-ONE-STRATUM.md": "263e4a4689c327309a82559380120993797ffc0d7050d50305508a6142af03cf",
+    "primal-residual-strict-slope-cuts.json": "e025a325502387ea63ee4931817ccda805e692d7b5a1fa223afa4117dd8ba14e"
+  },
+  "labels": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9",
+    "G3.21.45ca6278cbfc"
+  ],
+  "scalar_stratum_count": 8,
+  "distinct_kernel_type_count": 6,
+  "records": [
+    {
+      "residual_type": 1,
+      "scalar_stratum": "all permitted scalars",
+      "kernel_blocks": [
+        [
+          -3,
+          "S"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 2,
+      "scalar_stratum": "all permitted scalars",
+      "kernel_blocks": [
+        [
+          -4,
+          "D"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 3,
+      "scalar_stratum": "a != 0",
+      "kernel_blocks": [
+        [
+          -3,
+          "S"
+        ],
+        [
+          -9,
+          "W"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 3,
+      "scalar_stratum": "a = 0; b != 0",
+      "kernel_blocks": [
+        [
+          -3,
+          "S"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 4,
+      "scalar_stratum": "all permitted scalars",
+      "kernel_blocks": [
+        [
+          -4,
+          "D"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 5,
+      "scalar_stratum": "alpha*beta != 0",
+      "kernel_blocks": [
+        [
+          -5,
+          "T"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 5,
+      "scalar_stratum": "alpha = 0; beta != 0",
+      "kernel_blocks": [
+        [
+          -4,
+          "V"
+        ],
+        [
+          -6,
+          "V"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    },
+    {
+      "residual_type": 5,
+      "scalar_stratum": "beta = 0; alpha != 0",
+      "kernel_blocks": [
+        [
+          -4,
+          "P"
+        ],
+        [
+          -7,
+          "Wp"
+        ]
+      ],
+      "rank": 6,
+      "degree": -30
+    }
+  ],
+  "lifting_H1_line_degrees": {
+    "O-10_to_S-3": 7,
+    "O-10_to_D-4": 6,
+    "W-9_to_S-3": 6
+  },
+  "rank_two_degree_minus14_candidates": [
+    [
+      -7,
+      -7
+    ],
+    [
+      -6,
+      -8
+    ]
+  ],
+  "excluded_label_count": 0
+}
