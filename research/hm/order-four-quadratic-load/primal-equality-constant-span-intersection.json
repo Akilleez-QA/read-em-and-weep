@@ -1,0 +1,112 @@
+{
+  "scope": "Exact primal constant-span intersection and genuine projected residual for surviving profile11/12 equalities; no further label exclusion.",
+  "source_hashes": {
+    "PRIMAL-EQUALITY-ANNIHILATOR-FORCES-DUAL-DEGREE-ONE-SECTIONS.md": "a8b4e3fe6c1dfa48c56b7f62d2f185b5e3285feb90c5407ec21db42222a0280d",
+    "primal-equality-annihilator-forces-dual-degree-one-sections.json": "af4351a0016bea94a4f62e2fd2784b60d7fc083535645f7afe059561727024cc",
+    "EQUALITY-GAUSS-ENVELOPES-FORCE-RATIONAL-NORMAL-SUBBUNDLES.md": "cc64326df0b4c5d3b35a195a994f1faf397cac88ec377d608aac56b29f4fb9db",
+    "PRIMAL-EQUALITY-HAS-SIX-RESIDUAL-QUOTIENT-PARAMETER-SPACES.md": "de06847ba55aae35effb6ad394de4792b5c8813d48dbee35b4c1bed79935afa6"
+  },
+  "annihilator_commit": "4c6b0ab0eccb2d2df524f7f529e26f2771a91111",
+  "ids": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9"
+  ],
+  "hypothetical_O_minus_28": {
+    "residual_H1_minus_one": [
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      1,
+      0,
+      3
+    ],
+    "residual_H1_zero": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      2,
+      0
+    ],
+    "all_co_blocks_and_Hom_to_O_minus_eight": [
+      {
+        "degree": -10,
+        "irrep": "one",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -6,
+        "irrep": "one",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -4,
+        "irrep": "V",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -3,
+        "irrep": "Wp",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -2,
+        "irrep": "P",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -2,
+        "irrep": "D",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -1,
+        "irrep": "Wp",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -1,
+        "irrep": "S",
+        "Hom_to_O_minus_eight": 0
+      },
+      {
+        "degree": -1,
+        "irrep": "T",
+        "Hom_to_O_minus_eight": 0
+      }
+    ],
+    "own_Hom_to_O_minus_eight": 1,
+    "own_map_polynomial_degree": 20,
+    "impossible_due_to_required_surjection": true
+  },
+  "forced_projection_block": [
+    -9,
+    "W"
+  ],
+  "forced_projection_block_multiplicity": 1,
+  "projection_kernel_Qprime": {
+    "rank": 11,
+    "degree": -36
+  },
+  "intersection": "E intersect V0=C8=Sym8 W O(-2)",
+  "projected_residual_Z": {
+    "rank": 8,
+    "degree": -36,
+    "ambient_constant_rank": 19,
+    "saturated": true
+  },
+  "projected_kernel_N": {
+    "rank": 6,
+    "degree": -30,
+    "contained_in_actual_Z_Gauss_kernel": true,
+    "equality_asserted": false
+  },
+  "no_new_label_exclusions": true,
+  "realization_claimed": false
+}
