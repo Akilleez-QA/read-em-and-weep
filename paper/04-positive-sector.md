@@ -287,3 +287,5 @@ The surviving necessary list is (1,1), (1,2), (1,3), (2,1), (2,2), (3,1), withou
 ### Later extremal (3,1) restriction
 
 At the 04:51 UTC cutoff, the separate extremal (3,1) dual cubic image is proved to have rank at most two, and rank one forces O(9) or O(11). The profile itself is not excluded. [Section 16.8](16-canonical-fourth-input-and-complete-test.md#168-unchanged-theorem-and-evidence-boundary) gives the immutable source and unchanged numerical bounds.
+
+At the 05:54 UTC cutoff, the rank-two dual-image branch has only (6,2) and (8,2), with 42 necessary quotient/type pairs after the complete (4,2), (6,4) and (8,4) exclusions. The historical count is 140→77→73→63→42, not an overall search percentage. The rank-one branch and entire (3,1) profile remain unresolved. [Chapter 18.10](18-actual-cone-lift-and-nilpotent-trace.md#1810-two-gauss-quotient-shapes-and-the-unchanged-frontier) gives the new proofs.

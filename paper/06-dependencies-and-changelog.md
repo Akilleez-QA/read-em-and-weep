@@ -2,7 +2,7 @@
 
 ## 6.1 Claim register
 
-**Current cutoff: 22 October 2026, 05:24 UTC.** Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
+**Current cutoff: 22 October 2026, 05:54 UTC.** Items 51–57 add the actual trace, cone lift, bounded normal corrections, complementary tests and two further Gauss exclusions. Item 50 adds the complete smallest Gauss quotient exclusion. Items 45–49 add absolute lower sources, the secondary endpoint, reconstruction, complementary detection and Gauss envelopes. Items 39–44 add the canonical fourth input, its exact lower comparison, and the complete test. Items 36–38 record the completed third vanishing, entire adjacent-profile exclusion, and corrected fourth-order reduction. Earlier items retain the scope of their individual source results; statements that a particular source does not evaluate a class are not current open-third claims. The dated change log below is historical, with earlier frontiers superseded by the final entry.
 
 1. **Generic odd vanishing.** The final octic nonextension excludes the last residual branch, completing the actual six-to-ten injectivity argument. Main source [O].
 2. **Invariant positive rank 33.** The spinor centralizer and moving-line closure identify the eight-dimensional cone kernel. Main source [R]. The cited updated source records first-scalar vanishing, proved in [F].
@@ -97,7 +97,21 @@ The principal chain is [R] → [F] → [S] → [N] → [G], with [O] supplying t
 
 49. **Five Gauss shapes and section envelopes.** The five necessary rank-two quotient shapes at a90d2ddd are refined at c9c54d50 to 77 of 140 necessary quotient/primal-type pairs, with counts 4,21,21,10,21. That envelope stage alone excludes no whole shape. Item 50 supplies the subsequent exclusion; the (3,1) profile remains unresolved and SF≥3 and square rank≥27 are unchanged. Chapter 17.7.
 
-50. **Smallest Gauss quotient excluded.** At 0a95ace992688a278ef211d981e2fdef1bd5f1ad, forced splittings and exact polynomial-evaluation kernels exclude the entire (n,e)=(4,2) shape: the next derivative would have rank at most one rather than three. Four shapes and 73 necessary quotient/type pairs remain, following the preceding 140→77 envelope stage. The rank-one branch, whole (3,1) profile and all fourth coefficients remain unresolved. Chapter 17.7 gives the immutable proof link.
+50. **Smallest Gauss quotient excluded.** At 0a95ace992688a278ef211d981e2fdef1bd5f1ad, forced splittings and exact polynomial-evaluation kernels exclude the entire (n,e)=(4,2) shape: the next derivative would have rank at most one rather than three. That stage left four shapes and 73 necessary quotient/type pairs, following the preceding 140→77 envelope stage; item 57 updates the current count. The rank-one branch, whole (3,1) profile and all fourth coefficients remain unresolved. Chapter 17.7 gives the immutable proof link.
+
+51. **Actual nilpotent trace and duality correction.** At 74feee620e0027d567df88d964e76cb9d7209c0c, restriction to 2C proves β≠0 in q(η)=δ(αe_v+βn₈). The dual section-line residue explains why the Serre quotient alone cannot determine this shadow. The ratio β/α is not evaluated. Chapter 18.1–18.2.
+
+52. **Actual global wedge cancellation and local second-normal product.** At the same pin, global double-cubic matching fixes γ=−1/(12ν). The universal B₂ formula retains the first-error terms and old K; it does not extend the midpoint to 3Q or supply actual second-normal data. Chapter 18.3–18.4.
+
+53. **Nonzero conic cocycle and full actual cone lift.** At 30bed21aac919087a4b40f4d1079997eb21d1390, the actual conic residue forces the nonzero Euler cocycle. Exact root/triangular transition checks and Hartogs complete the displayed pair to an actual global G(4) section. This resolves the cone lift, not the full actual normal K. Chapter 18.5–18.6.
+
+54. **Lowest actual diagonal and bounded scalar correction.** At the same pin, the actual lowest η diagonal is nonzero. The added scalar lift has a regular commutator preimage whose contribution to the displayed old-K second-normal terms is degree twelve, not four, including its syzygy ambiguity. No global endpoint or fourth-value claim follows. Chapter 18.7–18.8.
+
+55. **Secant fourth family plus one intrinsic cubic jet.** Mr. Slop’s PR660 at fe195ead045076fc27bfa95686fe13d738df694f gives the canonical 3+1 secant/cubic-symbol test and two compatibility equations for the full jet. It does not evaluate the actual fourth family. Chapter 18.9.
+
+56. **Endpoint detection on one square secant fiber.** Mr. Slop’s PR661 at 1325647fd916bf2daa71b11efeae6d52cfefa2cd identifies the two-dimensional C5-square secant allowed fiber with the two endpoint channels, and the two forbidden components of the full allowed square fiber. The all-square corollary asserts injectivity, not the same target dimension or surjectivity. No actual endpoint value is computed. Chapter 18.9.
+
+57. **Middle and last-low Gauss quotients excluded.** At 74feee62 and 30bed21a respectively, complete actual-kernel arguments exclude (6,4) and (8,4). The historical necessary-pair sequence is 140→77→73→63→42, leaving only (6,2),(8,2), twenty-one pairs each, in the rank-two dual-image branch. This is not an overall completion percentage; the rank-one branch and whole (3,1) profile remain unresolved. Chapter 18.10.
 
 ## 6.2 Reproducible supplementary checks
 
@@ -137,6 +151,8 @@ The eight new proof/verifier blobs at [5e1d5ab619dfb2e765232d021be0373d9d2bed19]
 For Chapter 17, all seven PR543 proof texts were retrieved at the immutable a90d2ddd and c9c54d50 pins and matched the local source texts exactly. The PR659 proof was also retrieved at f4f2a5d4 and its SHA-256 matches the independently reviewed text. The local supplementary checks verify_normal_variation_trace_nullhomotopy.py, verify_lower_family_secant_trace.py, verify_corrected_square_source_reduced_cubic.py and verify_extremal_31_five_quotient_section_envelopes.py passed. These checks do not evaluate the endpoint P4 or any fourth coefficient.
 
 To reproduce an individual check, retrieve the script at its exact commit, inspect its imports and documented input assumptions, and run it with Python 3 from the source directory, supplying any listed dependencies. These checks concern finite representation identities and formal identities. This edition does not introduce new selected-instance rank or coefficient experiments. A passing script is not a formal verification certificate for an entire proof.
+
+The Chapter 18 integration compared all eleven new PR543 proof texts and their eleven verifier texts against the immutable commit patches at 74feee620e0027d567df88d964e76cb9d7209c0c and 30bed21aac919087a4b40f4d1079997eb21d1390; every text matched. All eleven universal verifiers passed: verify_actual_normal_trace_nilpotent_nonzero.py, verify_normal_trace_section_line_residue.py, verify_actual_multiplied_source_global_wedge.py, verify_second_normal_harmonic_product_and_defect.py, verify_extremal_31_middle_quotient_exclusion.py, verify_conic_residue_vertex_serre_cocycle.py, verify_actual_serre_lift_from_conic_cocycle.py, verify_normal_class_lowest_vertex_diagonal.py, verify_conic_scalar_commutator_preimage.py, verify_homogeneous_first_normal_connection_cancellation.py and verify_extremal_31_last_low_quotient_exclusion.py. The pinned PR660 verify_secant_jet_channels.py and PR661 verify.py also passed. These thirteen checks certify their stated universal identities, characters and degree arithmetic, not actual endpoint values or proof-assistant formalization. The geometric gluing, exactness, residue and Hartogs arguments remain the mathematical proofs cited in Chapter 18.
 
 ## 6.3 Change log for v0.3
 
@@ -337,3 +353,11 @@ Section 9 adds the actual Serre-involution 9/21 decomposition, surjectivity of t
 - Integrated the complete (n,e)=(4,2) quotient exclusion at 0a95ace992688a278ef211d981e2fdef1bd5f1ad into Chapter 17.7 and current navigation. Exact derivative kernels eliminate its four surviving pairs, giving 140→77→73 with four quotient shapes remaining.
 - The immutable proof matches the local text exactly; verify_extremal_31_small_quotient_exclusion.py passes, including its existing envelope checks. These checks supplement, rather than replace, the actual sheaf-kernel argument.
 - All section-count, fourth-coefficient, endpoint P4 and original-proof boundaries remain unchanged. Unpublished global wedge cancellation and new full-frame work are excluded. This is the frozen seventeen-chapter snapshot for publication.
+
+## 22 October 2026, 05:54 UTC: actual cone lift and nonzero nilpotent trace
+
+- Added Chapter 18 with PR543 pins 74feee620e0027d567df88d964e76cb9d7209c0c and 30bed21aac919087a4b40f4d1079997eb21d1390; added bounded PR660/661 results at the immutable pins in items 55–56.
+- Distinguished the actual global cone G(4) lift from the unresolved full normal-K comparison, the universal second-normal formula from a forbidden global midpoint 3Q extension, and degree-twelve scalar correction from any degree-four endpoint conclusion.
+- Updated current navigation and Gauss status to two shapes and 42 necessary pairs while preserving the historical 140→77→73→63→42 sequence.
+- No actual endpoint or fourth coefficient is evaluated. Generic sections remain four or five and exponent 4–31 or permanent cokernel remains unchanged. Later endpoint-lowest-cohomology, apolar and further Gauss work is excluded from this cutoff.
+- Craig Ward authorship, archive, licensing and the frozen upstream snapshot remain unchanged.

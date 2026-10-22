@@ -70,7 +70,7 @@ Its invariant square shadow has two components, not one:
 
     q(η)=δ(αe_v+βn₈),       α≠0.
 
-The component-idempotent coefficient α is fixed by the actual Serre marking; β is not known to vanish. The full block torus does not provide a global marking that permits setting β=0.
+The component-idempotent coefficient α is fixed by the actual Serre marking. At the source stage recorded here β was not evaluated; [Chapter 18.1](18-actual-cone-lift-and-nilpotent-trace.md#181-the-actual-nilpotent-trace-coefficient-is-nonzero) now proves β≠0 by actual restriction to 2C. The full block torus does not provide a global marking that permits setting β=0.
 
 For the actual first-normal variation b₁ and the corrected scalar inverse u, the operator diagram is
 
@@ -144,7 +144,7 @@ Here S4=Sym³W. The actual derivative K→A₀(−2)=O⊕W′O(−3) is an isomo
 
 In both cases the first derivative is sheaf-surjective and K/K₂=O⊕W′O(−3). The next derivative must have rank three but maps to O(−2)⊕W′O(−5). Its component into W′O(−5) is zero by degree and Hom_G(S4,W′)=Hom_G(W′,S4)=0. It therefore has rank at most one, a contradiction. This computes the actual derivative kernel; it does not assume a horizontal splitting or lift through a proposed extension.
 
-Thus the progression is 140→77→73 necessary quotient/type pairs. Four quotient shapes remain, with counts 21,21,10,21 in the order (6,2),(8,2),(6,4),(8,4). The entire (3,1) profile and the rank-one dual-image branch remain unresolved. Generic SF≥3 and positive-square rank≥27 are unchanged.
+At this historical stage the progression was 140→77→73 necessary quotient/type pairs, with counts 21,21,10,21 in the order (6,2),(8,2),(6,4),(8,4). [Chapter 18.10](18-actual-cone-lift-and-nilpotent-trace.md#1810-two-gauss-quotient-shapes-and-the-unchanged-frontier) subsequently excludes the whole (6,4) and (8,4) shapes, extending the progression to 140→77→73→63→42. Only (6,2) and (8,2) remain in the rank-two branch at the current cutoff. The entire (3,1) profile and the rank-one dual-image branch remain unresolved. Generic SF≥3 and positive-square rank≥27 are unchanged.
 
 ## 17.8 Evidence and unchanged frontier
 
