@@ -1,0 +1,10 @@
+PASS: Koszul relation and all three exterior-product identities
+PASS: symmetric-square chain relations and polynomial gauge kernel
+PASS: double-curl reconstruction in degrees 2 and 3 with all coefficients free
+PASS: universal Euler contraction coefficient d(d+1)
+PASS: cubic alternating-sector polynomial extraction and product lift
+PASS: universal source symmetric-presentation differential squares to zero
+PASS: all symbolic maximal minors and the exact ideal equality I3(R)=m^3
+PASS: exact Hilbert-series defect is 3t, and cubic quotient has rank 30
+PASS: degree-three sheaf obstruction vanishes; degree-one defect is three
+ALL CHECKS PASSED (symbolic identities only; no specialization or rank experiment)

@@ -1,0 +1,10 @@
+PASS: symmetric right inverse for every formal quadratic vector
+PASS: skew right inverse, including the complete off-kernel correction
+PASS: C-source cross-block scalar Euler lift
+PASS: four conic legs and both exact matrix-factorization identities
+PASS: polynomial Koszul homotopy with the stated cross-product sign
+PASS: complete three-A-channel cubic adapter on all formal potentials
+PASS: change of polynomial representative leaves only q*H_1 ambiguity
+PASS: H^1(H~(1)) vanishes from the O(-2),O(-1),O resolution
+PASS: exact cubic sequence has R-ranks 3 -> 108 -> 105
+ALL CHECKS PASSED: no points, numerical assignments, ranks, or coefficient solve

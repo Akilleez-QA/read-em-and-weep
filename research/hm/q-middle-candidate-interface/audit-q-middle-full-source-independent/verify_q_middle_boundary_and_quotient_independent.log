@@ -1,0 +1,4 @@
+PASS: normalized C-source factor is S(c,ell Lq+q Lh)/4; full boundary has both prescribed negative-dual endpoints and every physical scale.
+PASS: regular qB subtraction retains arbitrary fixed source ends/targets and both full differential components; divided quotients differ by dB only when division exists.
+PASS: quotient 234=135+99, kernel 2*1+5A+6V+6P4+8D5, harmonic 96=55+41 and trace18=10+8; no operator independence is inferred.
+PASS: all frozen manifests still match.

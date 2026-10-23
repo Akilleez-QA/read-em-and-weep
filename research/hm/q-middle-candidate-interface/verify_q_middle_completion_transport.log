@@ -1,0 +1,7 @@
+PASS: all36 linear-leg and6 multiplier coefficients free: Z3(pY)-pZ1(Y)=(J grad(p) rY-2pZ1(Y))/3.
+PASS: Z2(qg)=p(J grad(q) r_g/2) is a nonzero positive-linear partner; it is not q-divisible.
+PASS: Z1(ell g)=p(J grad(ell) r_g), retaining the scalar/K derivative term.
+PASS: arbitrary degree-one and q-times-constant degree-two legs balance the entire U arrow with independent am,bm.
+The qB completion retains grad(q), coefficient derivatives, T2/T4 and their C residuals. It is not identified with another completion or a pure q-cochain.
+No actual coefficient/point/marking assignments, rank calls, broad source solves, frozen changes or external writes.
+PASS: exported qB completion balances both entire U columns with all234 symmetric-linear middle coefficients free.

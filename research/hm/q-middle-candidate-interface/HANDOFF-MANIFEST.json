@@ -1,0 +1,940 @@
+{
+  "schema": "q-middle-candidate-interface-handoff-v1",
+  "destination": "research/hm/q-middle-candidate-interface/",
+  "proposed_base_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb",
+  "proposed_base_tree": "08e6aaa9e4788dd81984b67a9cd97d952093ecd4",
+  "claimed_campaign_lineage": {
+    "pr": 805,
+    "commit": "d79b4ed8263076476296066def7f0c5be7752707",
+    "status": "provided by coordinating task; not independently fetched"
+  },
+  "validation": "static text/AST and file-byte hashing only; no imports, tests, source systems or jobs executed",
+  "entrypoints": [
+    "universal_q_middle_quotient_coefficients.py",
+    "verify_q_middle_quotient_coefficients.py",
+    "verify_q_middle_quotient_boundary.py",
+    "universal_sparse_q_middle_source_adapter.py",
+    "verify_sparse_q_middle_source_adapter.py",
+    "verify_q_middle_source_extension_bridge.py"
+  ],
+  "external_python_dependency": "sympy; runtime versions not pinned or validated",
+  "minimal_closure_files": 67,
+  "minimal_closure_bytes": 390192,
+  "payload_files": 80,
+  "payload_bytes": 433182,
+  "files": [
+    {
+      "path": "COMPLETE-55-HARMONIC-Q-MIDDLE-QUOTIENT-COEFFICIENTS.md",
+      "bytes": 9248,
+      "sha256": "3cb57cfeaa7526ebbb7e7bea9206ddc483816cea7ec093347907b277ef2619ed",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "FULL-GRADED-C-ORTHOGONAL-LEG-RESOLUTION-AND-CUBIC-SATURATION.md",
+      "bytes": 15126,
+      "sha256": "66f12a5fe2ea577a8ffdc798ee7c818c6b4f60983715f0f3c708aec9b0e4617f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "GRADED-C-ORTHOGONAL-MODULE.sha256",
+      "bytes": 1336,
+      "sha256": "f6daefe42915ce4603ef3b6e61502ef9e1670a40d922b8f351b2cfc4dc129c5e",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256",
+      "bytes": 3791,
+      "sha256": "8a51729d04e922910d8b5e61e7651fbc7b006ae2a0f6a5597335660e3636e2d2",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_sparse_q_middle_source_adapter.py byte hash / receipt provenance input; referenced manifest contents are not recursively executed or required"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-DIVISIBLE-CUBIC-MIDDLES-HAVE-EXACT-C-REPRESENTATIVES.md",
+      "bytes": 16002,
+      "sha256": "56ae001faa6738549104a452ce9349171ffbef1bf35a6a69f1db8fac58fb8895",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-LOWER-MIDDLE-HIGHER-WEIGHT-NORMAL-FORM.sha256",
+      "bytes": 373,
+      "sha256": "08f71bb924254fb34fce3e35acd5b723b4be9c384371dfa2625cf682fd75447f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-MIDDLE-55-PLUS-10-AUDIT-INPUT.sha256",
+      "bytes": 2389,
+      "sha256": "a05dd6e00a203cafa908b611c002824072d3109da16b3103ac1c038eb1ecdb56",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-MIDDLE-CANONICAL-INTERFACE-SOURCE-DIVISION-BRIDGE.md",
+      "bytes": 4732,
+      "sha256": "633a0a9a8543e70ca505ad353954aea12174031d69ba3d601002c129515e99d6",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "Q-MULTIPLIED-LOWER-MIDDLE-COMPLETION-HAS-A-HIGHER-WEIGHT-NORMAL-FORM.md",
+      "bytes": 4572,
+      "sha256": "8fd5fba7823d837a6f4f4c32dedf8a111489d4af526a5bd609d96d9c1645737c",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "SPARSE-Q-ORTHOGONAL8-ADDITIVE-SOURCE-ADAPTER.md",
+      "bytes": 8549,
+      "sha256": "c978fcfde2520f524c33c9092f50f0dc3fef33ec0ad759e757556343c5d31b26",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "SPARSE-Q-ORTHOGONAL8-ADDITIVE-SOURCE-ADAPTER.sha256",
+      "bytes": 55264,
+      "sha256": "b82f4a53c708ae106b98f516882b473d67b7c8ed3d4a1ac8bbfd5eaa4c76354d",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_sparse_q_middle_source_adapter.py byte hash / receipt provenance input; referenced manifest contents are not recursively executed or required"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "audit-q-middle-full-source-independent/AUDIT-Q-MIDDLE-FULL-SOURCE.md",
+      "bytes": 10357,
+      "sha256": "df1e6f4f2f98b79128cf7f3d3f7f4809275187cfb07c092c653f96a7716dc1f5",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "audit-q-middle-full-source-independent/INDEPENDENT-AUDIT.sha256",
+      "bytes": 1482,
+      "sha256": "7368cbcd8ecb9134dbd3f448ab2343ba3e508c41175106879bce8f5e61cb5bd7",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_sparse_q_middle_source_adapter.py byte hash / receipt provenance input; referenced manifest contents are not recursively executed or required"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "audit-q-middle-full-source-independent/verify_q_middle_boundary_and_quotient_independent.log",
+      "bytes": 477,
+      "sha256": "13e5092847af09bc8d9e6a65c03e2f02d80e7855a072e4d9b372e5314791cb26",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "audit-q-middle-full-source-independent/verify_q_middle_full_source_independent.log",
+      "bytes": 546,
+      "sha256": "eb50e168bd997256828a5e3a1d65c991fef77f445432aa97a7f958eb9c6cc653",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "derive_c_only140_unfiltered_principal_quotient.py",
+      "bytes": 6451,
+      "sha256": "302a4198d813b89c1dcfb871154bbb057d36cec58e845e83a2cfba6c280cf9a9",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "universal_unconditional216_source_map.py SourceMap.__init__: exec only prefix before rq_symbols,rh_symbols,Theta assignment"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/conic_kernel_lifting.log",
+      "bytes": 653,
+      "sha256": "0917db5f83d682f8cca0f94595e5bf32d3d825cb7bc6d1e2a30ce42259ef667f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/conic_kernel_lifting.md",
+      "bytes": 9547,
+      "sha256": "fcdc245a3ec48ec14cbc8de7eced4083bbc45059d9fc1a66281d6297bef60665",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/conic_kernel_lifting.py",
+      "bytes": 4149,
+      "sha256": "a3eb28a82711594ab5413527c4625e74672710e319dd0459b9a77c9539e47e5d",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/conic_verify_kernel_lifting.py",
+      "bytes": 4117,
+      "sha256": "b7d78841734e0124a19e7ff5faa93bd599bdc8033f64f2552da0ed6730a0b262",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/symmetric_kernel_saturation.md",
+      "bytes": 10778,
+      "sha256": "27e1713742255dca307ec26b06ff822f68e035288a9d7d3bc9d3d2f48b9ea040",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/verify_symmetric_kernel_saturation.log",
+      "bytes": 710,
+      "sha256": "f734f286f85a75210384540f60017fa40e4b2af44bddcecb241fa81d689ffa5f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "graded-leg-module/verify_symmetric_kernel_saturation.py",
+      "bytes": 6126,
+      "sha256": "034db0fc16cf9072ca2acdc4e17f335f3010dbb338846d2a70ec7e360a6fb93d",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "unconditional216-source-map-cache/joint_error_rows_summary.json",
+      "bytes": 7809,
+      "sha256": "eac1a7ab8321e228f42573eee0b1d176803e65630775116ffc414e0f00f764b2",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "universal_sparse_orthogonal_c_source_extension.py: reads only error_schemas (26 sectors)"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_c_orthogonal_mixed_leg.py",
+      "bytes": 866,
+      "sha256": "76c9261fdbc465945ab1ccd8481ec1b646cc75ce37984bcd85f11fabee1c00de",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_degree_one_c_orthogonal_module.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_cached_lex_module.py",
+      "bytes": 2245,
+      "sha256": "454c5440f440c1a4758618be68356170b689168bcb10e0ec060ace9b78050ed0",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_laurent_lex_module.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_complete_identity_w_coefficients.py",
+      "bytes": 2994,
+      "sha256": "fe72704531b5afd2b14362bfb29574962837eb044fed942313062ab20e4ca619",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_orthogonal_leg_coefficients.py",
+        "imported by universal_complete_traceless_w_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_complete_identity_w_spin_symbols.py",
+      "bytes": 2858,
+      "sha256": "a1090c13b7e86a3eed9641197eb263339556dcc65f7c79ac81692667e002abd8",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_complete_identity_w_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_complete_traceless_w_coefficients.py",
+      "bytes": 8896,
+      "sha256": "1827db7b38d2ee62e6b8b3534f5581bcc02a77e5e562616feb55409c8d58821e",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_minimal_traceless_w_target_routes.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_complete_w_action_symbols.py",
+      "bytes": 5050,
+      "sha256": "ba1f6793a586485afbcbf358b274e63b3102be9b1b7f40ead2204ab0c67cb304",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "derive_c_only140_unfiltered_principal_quotient.py: full exec into ns"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_degree_one_c_orthogonal_module.py",
+      "bytes": 7314,
+      "sha256": "b059c747a36cda5850f037b895bf9d6d64330cb1579161bf59cf320d485219a4",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_orthogonal_leg_completion.py",
+        "imported by universal_graded_c_orthogonal_module.py",
+        "imported by universal_new_d5_leg_coefficients.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_graded_c_orthogonal_module.py",
+      "bytes": 5603,
+      "sha256": "21a3d7c3ca808c0574c9078e701b6dacde46aad74c714fa2e2673fced328f2be",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_cubic_kernel_lift.py",
+        "imported by verify_q_middle_quotient_boundary.py",
+        "imported by universal_q_middle_quotient_coefficients.py",
+        "imported by verify_q_middle_quotient_coefficients.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_laurent_lex_module.py",
+      "bytes": 3371,
+      "sha256": "a8ee1b8b6a8f265fe9a0a528c8a2a024ecda9761285aa9d81b90b62dadbf32bd",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_unconditional216_source_map.py",
+        "imported by universal_sparse_positive_cubic_fischer.py",
+        "imported by universal_sparse_double_fischer_rows.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_minimal_traceless_w_target_routes.py",
+      "bytes": 2459,
+      "sha256": "38fd4147e0c206eafa40ad39997a7e1b71473e177c8effe4c8a5dead026dc7f0",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_new_d5_leg_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_new_d5_leg_coefficients.py",
+      "bytes": 7443,
+      "sha256": "5b7929304e78b370e4fadd60acab2ca632c94b8eeafbccba49d3bd094222d45b",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_orthogonal_leg_coefficients.py",
+        "imported by verify_q_middle_quotient_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_orthogonal_leg_source_map_extension.py",
+      "bytes": 3642,
+      "sha256": "8b23436e1513b6f0ab788c313812830e62dfe48d7434424c42c4ab6f9b16cded",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by verify_q_middle_source_extension_bridge.py",
+        "imported by universal_q_middle_C_interface.py",
+        "imported by universal_q_orthogonal_leg_completion.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_physical_mixed_leg_foundation.py",
+      "bytes": 2768,
+      "sha256": "45f2405983bdbddeb9414abcf2b8c86309fd1aa237acb1b31ae4a56676c375ed",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_orthogonal_leg_source_map_extension.py",
+        "imported by universal_c_orthogonal_mixed_leg.py",
+        "imported by universal_new_d5_leg_coefficients.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_cubic_kernel_lift.py",
+      "bytes": 4422,
+      "sha256": "83b79e039fb3e482ca85608369c70a3d376116be02078524d7fccdce8d26465c",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_middle_completion_transport.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_leg_equivariant_labeling.py",
+      "bytes": 1485,
+      "sha256": "bf52b62c3a5761659a5896747817c74629a2ee03038295d64b6e162abd307917",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_orthogonal_leg_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_middle_C_interface.py",
+      "bytes": 3868,
+      "sha256": "ef6f637c8d0c13d74a5f6b0e7c42c70c3e3b5743f0df0024b93c297723179ab5",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by verify_q_middle_source_extension_bridge.py",
+        "imported by verify_sparse_q_middle_source_adapter.py",
+        "imported by universal_sparse_q_middle_source_adapter.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_middle_completion_transport.py",
+      "bytes": 2267,
+      "sha256": "78ac1fb5ece9c5586ea6992ffa318872eb1afe765f465e948c656267085a7f0e",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_middle_C_interface.py",
+        "imported by verify_q_middle_quotient_boundary.py",
+        "imported by universal_q_middle_quotient_coefficients.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_middle_quotient_coefficients.py",
+      "bytes": 9930,
+      "sha256": "303200e58b5aafd6fd7cd6f7eeafaba1b43094c281214706eb247da37cc9fb1a",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by verify_q_middle_quotient_boundary.py",
+        "imported by verify_q_middle_quotient_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_orthogonal_leg_coefficients.py",
+      "bytes": 11287,
+      "sha256": "0749a26922669b57e2a3d15c46f1e549fae06d9e6f96fabb3e65f5f3386b144f",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_middle_quotient_coefficients.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_q_orthogonal_leg_completion.py",
+      "bytes": 5417,
+      "sha256": "3864e8a3c291c0ac8e918fb88604fa5033524d999043cf35cc71fec3c71d1ecd",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_q_middle_C_interface.py",
+        "imported by universal_sparse_q_orthogonal_c_source_adapter.py",
+        "imported by universal_q_orthogonal_leg_coefficients.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_regular_negative_ell_inverse.py",
+      "bytes": 2710,
+      "sha256": "08d417dbdca1c4327aca308439f42645e491f72826f9d5a7f2e38b532f363b7a",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_orthogonal_leg_source_map_extension.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_source_balance_helpers.py",
+      "bytes": 5754,
+      "sha256": "15069fcc8138d2742bfdebd3db650efb84bd74abf1c2909585d2b6e988b276c3",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_physical_mixed_leg_foundation.py",
+        "imported by universal_complete_identity_w_spin_symbols.py",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_sparse_double_fischer_rows.py",
+      "bytes": 3923,
+      "sha256": "1e6512cfdebbd650ae0fce971cab5eefa6ef75d551a9d2223f5f2da8f91c1103",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_sparse_positive_cubic_fischer.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_sparse_orthogonal_c_source_extension.py",
+      "bytes": 7373,
+      "sha256": "dc51cfa322fb00f08e0eb6d7971598cbeacfe76bd55c6b1f987d6fc96e348610",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_sparse_q_orthogonal_c_source_adapter.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_sparse_positive_cubic_fischer.py",
+      "bytes": 2299,
+      "sha256": "164158f8359eb069c8f39bf1213abc5394229e8d7097bb668bd33def0ee194cb",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_unconditional216_source_map.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_sparse_q_middle_source_adapter.py",
+      "bytes": 7415,
+      "sha256": "2913780fa66b0c781b97de9d2cb2fa36a1e81e77c1b5c11fdb8322a102cd3496",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by verify_sparse_q_middle_source_adapter.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_sparse_q_orthogonal_c_source_adapter.py",
+      "bytes": 13882,
+      "sha256": "46c189d089baaee0cee49c5797195cadc011a36434b4f18f76b0cefe450750b4",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by verify_sparse_q_middle_source_adapter.py",
+        "imported by universal_sparse_q_middle_source_adapter.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "universal_unconditional216_source_map.py",
+      "bytes": 19886,
+      "sha256": "53001573b7b8c585256d6283ece7f68eac9a7ce1304e11be938764541d7c5d04",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_sparse_orthogonal_c_source_extension.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_full_six_space_vertex_correction.py",
+      "bytes": 7754,
+      "sha256": "f696bee747599e97e1abc00a91c704d8d3bafc38538476b5dc1fa267c79485ed",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_w_action_mixed_interface_one_ninth.py: exec prefix before R6=s.Matrix"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_graded_c_orthogonal_module.log",
+      "bytes": 3101,
+      "sha256": "3309e6b83ddfb41eb74ce2c3e4cadc44f4dae18c9aae5955a5e79cbc208de0d0",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_graded_c_orthogonal_module.py",
+      "bytes": 4602,
+      "sha256": "18d8563f0297269a0a3beddc5b821db733cdd9eefab60f9bc2ff0f2afc9e015f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_cubic_actual_leg_bridge.log",
+      "bytes": 552,
+      "sha256": "6453f1b8c5de13f81509bc680b6bcb5a018f47583968e6d852b3cd29b314292f",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_cubic_actual_leg_bridge.py",
+      "bytes": 2181,
+      "sha256": "c99ceaae5c015490ff253d39457327b7a02c60fa28cf723d287372065c52579e",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_cubic_kernel_lift.log",
+      "bytes": 834,
+      "sha256": "385edaad60986b105cb7054097161dbd0acc44392762d6508fabe98e43050a29",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_cubic_kernel_lift.py",
+      "bytes": 2819,
+      "sha256": "2d2392a93d75b588aac4bb7fbf2979530f608e9b55cb78547ecb5c3703358227",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_C_interface.log",
+      "bytes": 597,
+      "sha256": "cc553988aa85dd8dd15ae4c530664597dc083fc954cc491a9f550686580c1429",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_C_interface.py",
+      "bytes": 1939,
+      "sha256": "9974ac06a70ef84fd7cddd2709874af378f35f28ebfddb2adb44457937696ad0",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_C_source_factor.log",
+      "bytes": 470,
+      "sha256": "11d039ea549d21665f390d580e7cc8313fc9b3fdaeaca0db8eddb4675b2f6e13",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_C_source_factor.py",
+      "bytes": 2105,
+      "sha256": "407216ecb502354e861ba53071dae8aa5cfe163701bb2e1d58a15938a08c39fb",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_completion_transport.log",
+      "bytes": 769,
+      "sha256": "1050e5bc61634c44691ec37e4fa6e6b97fa89e46a1c962fdf7239a10efe23c8b",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_completion_transport.py",
+      "bytes": 3283,
+      "sha256": "cafaefd7f5974c96b3bfc00e649aab7bb1a880094e05940a097a501b8a8299a2",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_quotient_boundary.log",
+      "bytes": 737,
+      "sha256": "174b6d20ff121ead2f6f3848fc191e381127ca222d007419e41787a9c9b0e05d",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_quotient_boundary.py",
+      "bytes": 3737,
+      "sha256": "4202c5a363274f8005de8315da3dbe4f5eff563e7326674e69ef3d71d82f4f48",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "explicit candidate entrypoint"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_quotient_coefficients.log",
+      "bytes": 2754,
+      "sha256": "c6f9186df81b8a9d199987becd0e9e3329d3e72d71d66955ecd45963fe1c6ba1",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_quotient_coefficients.py",
+      "bytes": 10216,
+      "sha256": "cee8781a4b9419d9fcc9cdd4c06e284356ad719f517025e5a55300c3e7424745",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "explicit candidate entrypoint"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_source_extension_bridge.log",
+      "bytes": 295,
+      "sha256": "cc9e9275f8daa6c5fa9894f230f9818255c8a95e4a5fa67deece5c303df06479",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_source_extension_bridge.py",
+      "bytes": 2729,
+      "sha256": "8ddec08f94ac8381be571c24313f7a6a30c301c3e99e8134416bf54b710a2b25",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "explicit candidate entrypoint"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_source_extension_polar_bridge.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_q_middle_source_extension_polar_bridge.py",
+      "bytes": 2906,
+      "sha256": "9e6fdd312a63f815430fb687872e894b09573877f6fbff800f68122318319297",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_sparse_q_full_cochain_external_duality.log",
+      "bytes": 384,
+      "sha256": "e837726c51e43f48e16b3403fd2a602febc7751083ab4a98676f027b947d36f5",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_sparse_q_middle_source_adapter.py byte hash / receipt provenance input; referenced manifest contents are not recursively executed or required"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_sparse_q_full_cochain_external_duality.py",
+      "bytes": 2174,
+      "sha256": "d747e403bcd67a5ba47eca3c2db599c9c170f65fb0aa45952fe7e7d475b2c7bf",
+      "role": "required hash input",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "verify_sparse_q_middle_source_adapter.py byte hash / receipt provenance input; referenced manifest contents are not recursively executed or required"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_sparse_q_middle_source_adapter.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "selected evidence/documentation",
+      "minimal_entrypoint_closure": false,
+      "dependency_origins": [
+        "selected supporting evidence; not required to run candidate entrypoints"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_sparse_q_middle_source_adapter.py",
+      "bytes": 12812,
+      "sha256": "07acc6ef811ec69a90cc8889a215ba8721ff1bee22470c7305a769ed14bfd3ed",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "explicit candidate entrypoint"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_true_lex_curve_normal_form_audit.py",
+      "bytes": 11019,
+      "sha256": "a3dc7a4970d264713450ad53e8ecc6d93b66b25d27368b2f47b598e447b1fcdf",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "imported by universal_cached_lex_module.py"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_universal_monad_clifford_homotopy.py",
+      "bytes": 5257,
+      "sha256": "4e71b3c14ad9a85b099a9ee4261e4ebccd61e5aca1760462069bfe939982317b",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "universal_source_balance_helpers.py and verify_full_six_space_vertex_correction.py: full exec",
+        "direct byte-hash input of Q-CUBIC-KERNEL-LIFT-AND-FULL-COMPLETION.sha256; required by verify_q_middle_quotient_coefficients.py; not necessarily imported"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    },
+    {
+      "path": "verify_w_action_mixed_interface_one_ninth.py",
+      "bytes": 5145,
+      "sha256": "3fe772f53a934f05cca5d2845e23aa5102781e6b575742298f73b63bf41153db",
+      "role": "runtime source/schema",
+      "minimal_entrypoint_closure": true,
+      "dependency_origins": [
+        "derive_c_only140_unfiltered_principal_quotient.py: exec prefix before newline R6=s.Matrix"
+      ],
+      "origin_status": "verified current local bytes; remote presence and originating commit not verified"
+    }
+  ]
+}
