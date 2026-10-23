@@ -1,0 +1,51 @@
+[
+  {
+    "file": "inputs/pr1124-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/48396766d4e61a9de2455b1d068ba8abe09e05f3/research/hm/primary-negative-summand/PROOF.md",
+    "git_blob_sha1": "e92d95b31d70fb54cf53200bde3dc5a14e73000c",
+    "bytes": 8173,
+    "sha256": "7f45763ca0ec815b12e8934478e4105e4a3f837c68dca39e31f922166fcb1add"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  {
+    "file": "inputs/ambient-gauss-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "bytes": 5414,
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  {
+    "file": "inputs/character-reference.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/verify_negative_vertex_scalar.py",
+    "git_blob_sha1": "9eb58f03edde15dd612087440d8180e9e16d1755",
+    "bytes": 3298,
+    "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  },
+  {
+    "file": "inputs/frontier182.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-182.json",
+    "git_blob_sha1": "7e733f9543651b00b309cd56804ddd0a2eaef517",
+    "bytes": 38248,
+    "sha256": "d4cdaa4dfd29b185d74f7ab34978df834aa39a60d96b339f7b0043c0fc4a2792"
+  },
+  {
+    "file": "inputs/cover182-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/RANK-THREE-QUOTIENT-FRONTIER-182-CASES.md",
+    "git_blob_sha1": "4afcfab4047e1563a2655a0f362a70ea103ea93a",
+    "bytes": 3913,
+    "sha256": "b2e9a34b2f59ac2dc1445cc660733ce3988d15aefdf46e0b9123db159e927d2a"
+  }
+]
