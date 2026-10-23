@@ -1,0 +1,58 @@
+[
+  {
+    "file": "inputs/apolar.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/PROOF.md",
+    "bytes": 16005,
+    "sha256": "47ce243076419081917682b9ab78990e7cf8066598d8eae1f4a175e80ab91b98",
+    "git_blob_sha1": "357b420e0254de52a3ae5d4510744478159a1a10"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3"
+  },
+  {
+    "file": "inputs/four-sources.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef"
+  },
+  {
+    "file": "inputs/sextic-net.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/176645bb2f022b68f86414ced87667a45e4930e2/research/hm/balanced-sextic-syzygies/PROOF.md",
+    "bytes": 7134,
+    "sha256": "2ea61681c18105cbba37e7135fc968aa9052e14eff71d963e8c374f55f041122",
+    "git_blob_sha1": "9bf944c40951a06378c48b743157ed0c1710aead"
+  },
+  {
+    "file": "inputs/coefficient-span.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9e166d866f6eb7e0154e4f3f42f543986778ce8/research/hm/sextic-channel-classification/PROOF.md",
+    "bytes": 12014,
+    "sha256": "cb771135ef4cdb9a8f290d31c702c97f6b57c5d385bbc343040e3ac189fc00c6",
+    "git_blob_sha1": "becdab721c338ef3957afb767496af5281309b80"
+  },
+  {
+    "file": "inputs/jet-bound.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2cc35efc270f6105c1aa4f2d0bf99c1bbc4af867/research/hm/dual-kernel-jet-bound/PROOF.md",
+    "bytes": 9120,
+    "sha256": "43d63c033c75942d3fc1e5346a34ea239b9b41c9b9f67148738dc8ae88c9fcb7",
+    "git_blob_sha1": "c8106a1be97e994e9d24c1b73437caf46c6b3fb2"
+  },
+  {
+    "file": "inputs/characters-public.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b97c71dace666dd5bf39e0128abbe7b01a2f056/research/hm/p-type-cubic-image/characters.py",
+    "bytes": 1776,
+    "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1",
+    "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9"
+  }
+]

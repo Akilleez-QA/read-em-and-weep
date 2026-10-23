@@ -1,0 +1,11 @@
+{
+  "checks": 36,
+  "pins": {
+    "INPUTS.json": "1ff429f45d8bc9cd3a23ff9d65f1564add97fe50a13a644d9a7359f673f1f1ae",
+    "PROOF.md": "590dfb8da397d866059bf341b66eca2c7e408819fbf3fa2d7257313ab1f5d619",
+    "RESULT.json": "6ae1126050a074efcc989a7b7536ca8bb230078f9ce9167e553144d75278d5ea",
+    "verify.py": "1098eec3826a8bb35afc523cc93ba3be1116e31d5837b9a069855317547ce98f"
+  },
+  "source_count": 8,
+  "status": "PASS"
+}
