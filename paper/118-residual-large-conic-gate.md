@@ -1,5 +1,7 @@
 # Residual-large endpoint sixteen forces the conic lift line
 
+**23 October 2026 update:** PR1102 now gives the surviving residual-positive Smith criterion: α≠0 iff maximal-minor order ten. If α=0 the last pivot may occur later or be absent; PR1103 now sharpens the earlier finite bound to5–24 generically and5–21 on squares. Rank loss is not implied.
+
 **23 October 2026 · PR1097, full immutable proof read**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/2ddc4b01fa96e7ce7830b093f4df5a29dafd2187/research/hm/source2-pure-v-residual-conic-gate/PROOF.md), blob `990fa9adedade88b951b805aed94e6a395a7d71b`.

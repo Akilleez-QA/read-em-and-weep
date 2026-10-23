@@ -1,8 +1,22 @@
-# Living research paper · v0.47
+# Living research paper · v0.49
 
-**Craig Ward · 23 October 2026 · Structural update through PR1097; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1104; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Sharper bounds and the actual fifth gate through PR1104
+
+[PR1103](123-negative-rank-and-smith-bounds.md) bounds rank T_a by thirty globally and twenty-seven on squares, using genuine negative-module arrows without Q-stability. Original maximal-minor degrees have the same bounds. In residual-large α=0, finite final exponents are now 5–24 generically and 5–21 on every square, or the pivot is absent. PR1102's earlier 5–31 bound remains historical. For α≠0 the twelve conic exceptional points have range5–21 or absence; no formula is asserted at the six second-rank drops.
+
+[PR1104](124-original-fifth-gate.md) constructs the canonical global quotient-fourth map s4:P O(−4)→J when R=0 and proves iota β5=−s4L. Its actual equivariant target has dimension two; cubic lifts have one-dimensional gauge. Nonzero s4 gives generic last exponent five/minor order eleven; zero gives exponent at least six or absence. Neither coefficient is selected, and nonzero globally does not imply a nonzero fifth at every specialized direction. No positive/full-adjoint completion or source selection follows.
+
+## Two gate mechanisms and surviving positive Smith criterion through PR1104
+
+[Separated channels](119-separated-gate-channels.md) identify the exact lines R1−4R2 and 3R1+2R2, including the actual terminal graph. [Corrected factorization](120-corrected-factorization-and-zero-graph.md) proves Θ=aj3+ℓQ3 on all M3. In nonzero-N0, τ=0 forces R≠0; for τ≠0 zero requires the unique graph g=−τ⁻¹ℓ0. Neither incidence is selected. Residual-large retains R=0 iff its τ=0; no scalar is transported across source instances.
+
+[The surviving residual-positive theorem](121-residual-positive-smith-criterion.md) proves α≠0 iff maximal-minor ideal (t¹⁰), with exact Smith profile (0×33,2,2,2,4) for the original positive41→37 map. If α=0, the final pivot is absent or has exponent5–31: rank loss does not follow. No profile is asserted at the 28 exceptional directions, for the other mechanism or for the full adjoint.
+
+[Mr. slop's PR1098 source report](122-opposite-nonzero-core-source-report.md) gives conditional intrinsic channel criteria for rows9/10/14/15, complementing the zero-gate rows17/18/20. No gate or C row is selected. Four necessary pairs and endpoint-sixteen's two mechanisms remain.
 
 ## Surviving residual-large conic restriction through PR1097
 

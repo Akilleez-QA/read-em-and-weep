@@ -1,6 +1,6 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1097**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1104**
 
 **The nine-dimensional generated endpoint is excluded under actual source2 pure-V compatible-radical hypotheses. Endpoint sixteen is now necessary, with two projection mechanisms still unresolved.** This is not a source2 exclusion or complete repair. Four necessary source-dual pairs across three stable labels remain. Residual-large now forces a zero-or-conic gate; the other mechanism and surviving positive component remain unresolved.
 
@@ -24,17 +24,17 @@ Universal strata need not remain available within each mechanism. The length-46 
 
 The zero pair has whole-plane base scheme, with no finite length. Residual-large permits only zero or the conic line; nonzero-N0 still has an unselected two-dimensional coefficient space. No completion percentage follows.
 
-## Actual branch elimination and new odd-map structure
+## Current gate and positive-map restrictions
 
-[Actual Q commutation](paper/109-small-branch-exclusion.md) excludes P_h⊂NC2, hence endpoint nine. The surviving endpoint sixteen has Q(NC2)∩NC4=0 in both mechanisms. No source or coefficient is selected.
+[Actual Q commutation](paper/109-small-branch-exclusion.md) excludes endpoint nine; Q(NC2)∩NC4=0 in both remaining mechanisms. The odd Q3 has rank18, combined T-rank four and κ=0. B is symmetric, determined by R. The [full-domain correction](paper/120-corrected-factorization-and-zero-graph.md) is Θ=aj3+ℓQ3, not Θ=ℓQ3 outside ker j3.
 
-[The actual odd quadratic](paper/111-actual-odd-quadratic-rank.md) has rank **18**, image the full 3T in M5₋=W′+3T, and cokernel W′. [Residual Koszul lifts](paper/112-global-alternating-vanishing.md) prove **combined T-multiplicity rank four** for (Q3,j3), j3(ker Q3)=I3 and **κ=0**. Thus the odd radical has no nullhomotopy, while the bilinear transfer B is symmetric and determined by its diagonal R.
+**Residual-large:** [R=αR1](paper/118-residual-large-conic-gate.md), with α possibly zero. The [new original-positive criterion](paper/121-residual-positive-smith-criterion.md) proves **α≠0 iff maximal 37-minor ideal (t¹⁰)**, equivalently Smith profile 33 unit pivots, three t² pivots and one t⁴ pivot. It holds generically and, when α≠0, outside the length-46 scheme's 28 support points. This gives maximal row rank37 for the rectangular 41→37 component, not full adjoint invertibility.
 
-[The middle pairing](paper/114-exact-middle-pairing.md) gives an exact twelve-dimensional radical and marked four-dimensional S complement on K3/F3, not an ambient module splitting. [The new terminal criterion](paper/115-terminal-transfer-incidence.md) constructs a canonical nonzero ℓ:3T→T. Writing C_term=ker ℓ, **R=0 iff ℓ(F5)=0**: residual-large requires NR5⊂C_term; nonzero-N0 requires F5=C_term, retaining its possible terminal graph. Neither incidence is selected. C_term is not the opposite-pencil cokernel C. Zero R and B remain unexcluded; no surviving positive-component solution follows.
+If α=0, [sharper degree bounds](paper/123-negative-rank-and-smith-bounds.md) give exponent **5–24 generically**, **5–21 on squares**, or absence. The [actual fifth gate](paper/124-original-fifth-gate.md) is two-dimensional and unselected: nonzero means generic exponent five and minor order eleven; zero means exponent at least six or absence. Fourth vanishing does not imply rank loss.
 
-[The full odd operator Θ](paper/116-full-koszul-homotopy-operator.md) has rank twelve on M3 and a canonical complementary T image on ker Q3. Its two-generator square-zero operator structure is not a global module action or a gate selection.
+**Nonzero-N0:** [two exact terminal channels](paper/119-separated-gate-channels.md) give R=A(R1−4R2)+B(3R1+2R2). They span the formal coefficient plane, not a freely realizable family. Writing ℓ=(ℓ0,τ) and F5=graph(g), **R=0 iff ℓ0+τg=0**. Thus τ=0 forces R≠0; if τ≠0, zero requires the unique graph g=−τ⁻¹ℓ0. Neither condition is selected. Residual-large instead has R=0 iff τ=0, for its own retained object.
 
-[PR1097 now restricts residual-large](paper/118-residual-large-conic-gate.md) to **R=−30ητR1**, with η≠0 and τ possibly zero: β=0, but no nonvanishing conclusion. This is a new surviving-mechanism result, not the historical excluded-nine theorem. Nonzero-N0 receives no such restriction.
+The [terminal incidence](paper/115-terminal-transfer-incidence.md), [12+4 middle pairing](paper/114-exact-middle-pairing.md), and [two-generator odd action](paper/116-full-koszul-homotopy-operator.md) retain actual maps and quotient-only splitting limits. They do not select a gate or source.
 
 ## Two surviving actual negative modules
 
@@ -51,7 +51,7 @@ Earlier endpoint-nine length-32, nonzero-conic and positive Smith/maximal-row-ra
 
 The table covers nonic and determinant-fourth D projective ideal sheaves, not raw ideals, lift degeneracy or extra specialized A-kernel classes. [Exact transfer](paper/84-pure-v-fourth-ideal-transfer.md)
 
-[New opposite-pencil source reports](paper/117-opposite-small-cores-source-report.md) give a common rank-six target and, conditionally on the old zero gate, a one-source core with exact row17/18/20 channel criteria. No row or gate is selected; these are not the im h endpoint spaces.
+[Opposite-pencil source reports](paper/122-opposite-nonzero-core-source-report.md) now give intrinsic criteria for all seven necessary rows across the old zero/nonzero gate. No row or gate is selected; these are not im h endpoint spaces.
 
 ## Fixed source frontier
 

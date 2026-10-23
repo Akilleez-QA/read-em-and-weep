@@ -1,5 +1,7 @@
 # The symmetric lift vanishes exactly at an actual terminal incidence
 
+**23 October 2026 update:** PR1101 refines the separated test: τ=0 forces R≠0; if τ≠0, zero requires the unique actual graph g=−τ⁻¹ℓ0. Neither incidence is selected.
+
 **23 October 2026 · PR1094, read in full**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/79b84d3b21cdbc76bb19d3a973e09981936dda32/research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md), blob `dd21bc9302ea9ffcd84dddf72ce7a676c326600d`.
