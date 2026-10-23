@@ -1,0 +1,114 @@
+{
+  "status": "pass",
+  "checks": 837,
+  "mutation_controls": [
+    "omitting H1 quotient condition changes exact cover",
+    "seven-W obstruction reappears without H1 condition",
+    "double-octic obstruction reappears without H1 condition",
+    "omitting endpoint inequalities changes exact cover",
+    "incorrect cotangent twist changes exact cover",
+    "missing terminal pair fails exact equality",
+    "swapping physically marked doublets fails exact equality"
+  ],
+  "source_types": [
+    "D",
+    "P",
+    "V",
+    "Z"
+  ],
+  "intrinsic_A_window": [
+    -8,
+    20
+  ],
+  "degree_A": [
+    -2,
+    0,
+    2,
+    4
+  ],
+  "survivors": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ]
+    }
+  ],
+  "scope": "Necessary abstract equivariant quotient cover only, conditional on the pinned actual four-source theorem and maximal profile (2,2). Not a realization, actual rank computation or standalone global SF bound."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "comparison_checks": 291,
+  "shape_count": 1130,
+  "stage_counts": [
+    134,
+    25,
+    23,
+    10,
+    3,
+    3
+  ],
+  "products_compared": 279,
+  "counterfactual_controls_replayed": 7,
+  "wider_window": [
+    -10,
+    26
+  ],
+  "scope": "Equality of complete abstract domains, every filter-stage set, tensor products, and ordered survivor pairs; not an actual-map rank calculation."
+}

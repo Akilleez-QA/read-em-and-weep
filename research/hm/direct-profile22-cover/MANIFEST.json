@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-23",
+  "scope": "Conditional direct maximal-profile (2,2) necessary cover; not a new rank bound, actual-map calculation, or complete repair.",
+  "files": [
+    {
+      "path": "CROSSCHECK-RESULT.json",
+      "bytes": 413,
+      "sha256": "2be2a4ea795087d33ebc9034ec5d880145a89fc9b71f2aa8cd17b17e68bbc001",
+      "git_blob": "f7733311588179fc8b83124942986488d342d579"
+    },
+    {
+      "path": "INDEPENDENT-RESULT.json",
+      "bytes": 1121,
+      "sha256": "a0c2160c5291449b008f91f30b31bf96f0c95919d8d5a63474044d37e1b53947",
+      "git_blob": "026b95fcd8ca52053debbfee10b9dbe3166464eb"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 11212,
+      "sha256": "b8a8795dcc08e4f34cedd82ef27013bf9f76c6c263d0c6d15b2974ef39e07a28",
+      "git_blob": "2e2734b4c62693315d00e86d9e94b07c2b09e49f"
+    },
+    {
+      "path": "PUBLIC-INDEPENDENT-REVIEW.md",
+      "bytes": 5973,
+      "sha256": "ab7f462202723dfbb4a41a4125daa1b161c87cd966813259c98bd98eba4c0429",
+      "git_blob": "f75b567af53b9073d78947ab384765f48de0951c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2850,
+      "sha256": "bf06066d8c92c2d47fcb14889a4b1a237a0ec01f3ceb0b3915a25e7931819538",
+      "git_blob": "7935c9919411089f31f3b23f2fe764c3ab5f9a3f"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 1835,
+      "sha256": "3fd9a374b2844857ec1b080b8bc19f8cf2697e0629ca117d8462b3c363106466",
+      "git_blob": "f1beb7bb66d349d04c04400c0d15ec1276afc39e"
+    },
+    {
+      "path": "RUN-normal.txt",
+      "bytes": 1835,
+      "sha256": "3fd9a374b2844857ec1b080b8bc19f8cf2697e0629ca117d8462b3c363106466",
+      "git_blob": "f1beb7bb66d349d04c04400c0d15ec1276afc39e"
+    },
+    {
+      "path": "RUN-optimized.txt",
+      "bytes": 1835,
+      "sha256": "3fd9a374b2844857ec1b080b8bc19f8cf2697e0629ca117d8462b3c363106466",
+      "git_blob": "f1beb7bb66d349d04c04400c0d15ec1276afc39e"
+    },
+    {
+      "path": "SOURCE-PINS.json",
+      "bytes": 3465,
+      "sha256": "7084f7bb34cd097f27122e0c57e29492d870fef9683e3e73f7febf47f92708d7",
+      "git_blob": "ff7dbfd05736e1c07482f2909f79590baa587329"
+    },
+    {
+      "path": "independent_mckay_replay.py",
+      "bytes": 4207,
+      "sha256": "511b276d18ac83d8d1fd929fa8a501d77493bbdf483e888be01e5980159a8a08",
+      "git_blob": "308786da33d2b4f9397acafb15fe6ee1df1e8050"
+    },
+    {
+      "path": "test_compare_replays.py",
+      "bytes": 2313,
+      "sha256": "dafd114ad0239769c80ae708916ddadf25952c4e36566fb23a40c3b87b8b0120",
+      "git_blob": "0076f52e30cc215529719c6d4c0c4fa2af87ff0f"
+    },
+    {
+      "path": "verify_direct22_cover.py",
+      "bytes": 8029,
+      "sha256": "42799b7364cea236e2dd90020d471628bfad48b987fff4e53b4bc9f091405ace",
+      "git_blob": "40d9c42c0e5ad89ea2d0a5bf80fa9989d64b7e66"
+    }
+  ]
+}
