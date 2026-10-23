@@ -1,0 +1,41 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "inputs": [
+    {
+      "local": "inputs/normalization866.md",
+      "commit": "25b1d2927294fffbc393e6ac2285f5a58cfd6c60",
+      "path": "research/hm/physical-source-normalization/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/25b1d2927294fffbc393e6ac2285f5a58cfd6c60/research/hm/physical-source-normalization/PROOF.md",
+      "bytes": 12197,
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14",
+      "git_blob_sha1": "d6430f3ea8ee841278ed4ce815721b61bf2fdc3d"
+    },
+    {
+      "local": "inputs/pr815.md",
+      "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+      "path": "research/hm/affine-square-source-response/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42/research/hm/affine-square-source-response/PROOF.md",
+      "bytes": 18996,
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236",
+      "git_blob_sha1": "bef4e26574b3085616c22d5fdaae4e808e3767e4"
+    },
+    {
+      "local": "inputs/calibration889.md",
+      "commit": "72ac7ecc5447415fa8452f12ed6ec16921a600f4",
+      "path": "research/hm/physical-normalization-symmetry/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/72ac7ecc5447415fa8452f12ed6ec16921a600f4/research/hm/physical-normalization-symmetry/PROOF.md",
+      "bytes": 14873,
+      "sha256": "cf85d577d57f3b08369045b99599738498f0caf1fc0e45009a6d2bf227c95b22",
+      "git_blob_sha1": "4c44d68b60ace05607bb08cc4b4b5fee438ea3ad"
+    },
+    {
+      "local": "inputs/torsor904.md",
+      "commit": "b5999dfd50f8469a5d686f331fdf653cbb3be785",
+      "path": "research/hm/physical-compatible-torsor/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b5999dfd50f8469a5d686f331fdf653cbb3be785/research/hm/physical-compatible-torsor/PROOF.md",
+      "bytes": 13116,
+      "sha256": "ba6c3b70f54275292b3324960f2698f9cab807d87c65bd02048fcb4738152ffd",
+      "git_blob_sha1": "7e2e4a9866e416c78a096e936a54e15e2a52dc4d"
+    }
+  ]
+}
