@@ -1,0 +1,8 @@
+module
+
+public import OAI.AlgebraicGeometry.HorrocksMumford.MultiplicityFreeCyclicSupport
+
+#print axioms OAI.HorrocksMumford.multiplicityFree_hom_eq_zero
+#print axioms OAI.HorrocksMumford.multiplicityFree_endomorphism_coordinate
+#print axioms OAI.HorrocksMumford.mem_cyclicSpan_iff_coordinate_support
+#print axioms OAI.HorrocksMumford.cyclicSpan_eq_top_iff
