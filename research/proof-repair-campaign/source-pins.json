@@ -1,0 +1,34 @@
+{
+  "pr798": {
+    "commit": "2bbf244bafc380cf5b0ce1114f86fcd8053e4e55",
+    "path": "research/hm/profile12-backward-plateau-exclusion/PROOF.md",
+    "git_blob_sha1": "835404ada200cea294aa0cf0b13d962bd604cdc0",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2bbf244bafc380cf5b0ce1114f86fcd8053e4e55/research/hm/profile12-backward-plateau-exclusion/PROOF.md",
+    "local_file": "inputs/pr798-proof.md",
+    "role": "Written geometric theorem; not machine-certified by this verifier"
+  },
+  "pr799": {
+    "commit": "2172e4a7abbbe232f9f448bea6fa01dee7927460",
+    "path": "research/hm/profile11-quadratic-polar-obstruction/PROOF.md",
+    "git_blob_sha1": "a62a56f6b8f97e02b3eab6fe3a47ec3bedb6c6b1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2172e4a7abbbe232f9f448bea6fa01dee7927460/research/hm/profile11-quadratic-polar-obstruction/PROOF.md",
+    "local_file": "inputs/pr799-proof.md",
+    "role": "Written geometric theorem; not machine-certified by this verifier"
+  },
+  "pr800": {
+    "commit": "e900d2acfd99609493771db2dc7856eb1b0e689b",
+    "path": "research/hm/profile11-o14-endpoint-intersection/PROOF.md",
+    "git_blob_sha1": "9fb1792c231a775de4babaefcddb1cacd177da73",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e900d2acfd99609493771db2dc7856eb1b0e689b/research/hm/profile11-o14-endpoint-intersection/PROOF.md",
+    "local_file": "inputs/pr800-proof.md",
+    "role": "Written geometric theorem; not machine-certified by this verifier"
+  },
+  "pr796": {
+    "commit": "d2b43060c83328dd5118aee6b9288fcfa0c873ac",
+    "path": "research/hm/profile12-quadratic-block-exclusion/PROOF.md",
+    "git_blob_sha1": "46a0de762000f21182f6d3168f3ecfd63adaf75f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d2b43060c83328dd5118aee6b9288fcfa0c873ac/research/hm/profile12-quadratic-block-exclusion/PROOF.md",
+    "local_file": "inputs/pr796-pinned-quadratic-block-proof.md",
+    "role": "Written geometric theorem; not machine-certified by this verifier"
+  }
+}
