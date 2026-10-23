@@ -1,0 +1,4 @@
+'OAI.HorrocksMumford.referenceFrame_mul_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.referenceFrame_inv_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.conjugated_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.trace_mul_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]

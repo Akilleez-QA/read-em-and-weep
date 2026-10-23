@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Supporting algebra only; no geometric realization or original theorem repair",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "dependency_pins_match_repository_manifest": true,
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean",
+  "source_sha256": "5b4929d3149af4c38d70b2336f947f10fab5cfbca5805fdc06f6856faa5349d9",
+  "check_sha256": "785f024d6fa4b69cc714d1147b5ba2c2dc7092fd6f7644de87ed83ae984cd27b",
+  "published_source_input": {
+    "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+    "path": "research/hm/affine-square-source-response/PROOF.md",
+    "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236"
+  },
+  "exported_theorem_count": 4,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-normal",
+        "OAI.AlgebraicGeometry.HorrocksMumford.FirstNormalCorrection",
+        "module"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 2.447160125,
+      "child_cpu_seconds": 2.338994,
+      "sampled_group_peak_rss_bytes": 982433792,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 3366,
+            "path": "${WORKSPACE}/work/swarm/lean-normal/lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean",
+            "sha256": "5b4929d3149af4c38d70b2336f947f10fab5cfbca5805fdc06f6856faa5349d9"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "38880b258312ab3c87ee951eb8a423ba0ee21ddd3f218873636fc8b625cea654",
+      "original_receipt_name": "compile-0002.json",
+      "stdout": "${WORKSPACE}/work/swarm/lean-normal/lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean:44:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n${WORKSPACE}/work/swarm/lean-normal/lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean:52:24: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice\n\nNote: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    },
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-normal",
+        "OAI.AlgebraicGeometry.HorrocksMumford.FirstNormalCorrection",
+        "check"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 1.224321792,
+      "child_cpu_seconds": 1.1624919999999999,
+      "sampled_group_peak_rss_bytes": 926810112,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 428,
+            "path": "${WORKSPACE}/work/swarm/lean-normal/Check.lean",
+            "sha256": "785f024d6fa4b69cc714d1147b5ba2c2dc7092fd6f7644de87ed83ae984cd27b"
+          },
+          {
+            "bytes": 80296,
+            "path": "${WORKSPACE}/work/swarm/lean-normal/build/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.olean",
+            "sha256": "2c6ba516c6d5dfec92cd83fc81aff035a3829dbdda813a43616f0e57134f7698"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "0d5ead077be6b809296c81b543e818432389a0d6239d32ef7616029f29528212",
+      "original_receipt_name": "axioms-0001.json",
+      "stdout": "'OAI.HorrocksMumford.referenceFrame_mul_inv' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.referenceFrame_inv_mul' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.conjugated_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.trace_mul_commutator' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    }
+  ]
+}
