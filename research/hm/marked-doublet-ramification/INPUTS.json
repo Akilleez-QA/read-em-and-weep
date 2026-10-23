@@ -1,0 +1,26 @@
+[
+  {
+    "pr": 1127,
+    "file": "inputs/PR1127.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/60dda5a940d5ba7ee081a86cd1b1a783a5952a39/research/hm/primary-quotient-composition/PROOF.md",
+    "git_blob": "80faeb68639dc5f644397a54d5ca7a12009f616f",
+    "sha256": "3101157347802226a3b2638e76375854944d7a41d503b75b1591bc3eb66b1577",
+    "bytes": 12014
+  },
+  {
+    "pr": 1129,
+    "file": "inputs/PR1129.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1238732f42df5c70ba4430e230428d2cf699bbe/research/hm/primary-gauss-visibility/PROOF.md",
+    "git_blob": "c8094f1a85b48094a7538230db1f92acfd7929d0",
+    "sha256": "f7f267098d561de91e216f34588d1ab983947c2363b5a2dd4b0bd59104b39eed",
+    "bytes": 7259
+  },
+  {
+    "pr": 1135,
+    "file": "inputs/PR1135.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/24e713fe352f4ff8f70cd2e86940afa70df99c5c/research/hm/gauss-two-shape-exclusion/PROOF.md",
+    "git_blob": "ec61e817722ea5363199c1c54be275b80c9779f0",
+    "sha256": "a3c6a5ca199edd50e09268a605cee536e43a2233571e14e43e18e7c031aacdb0",
+    "bytes": 9354
+  }
+]

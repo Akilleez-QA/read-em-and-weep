@@ -1,0 +1,25 @@
+{
+  "status": "pass",
+  "checks": [
+    "bound PROOF.md",
+    "bound verify.py",
+    "bound INPUTS.json",
+    "bound RESULT.json",
+    "public original matches PR1127",
+    "public original matches PR1129",
+    "public original matches PR1135",
+    "151 checks identical normal optimized recorded",
+    "SL2F5 order",
+    "SL2F5 perfect by commutator closure",
+    "dual-number simple determinant implies residue rank one"
+  ],
+  "simple_determinant_controls": 1728,
+  "matrix_controls": 6561,
+  "scope": "Independent abstract finite group and local algebra controls, plus public source authentication and packet reproduction; no actual HM/source instances",
+  "bound_packet_sha256": {
+    "PROOF.md": "e374e3cb656f64f408832557369e9d5b1cf2bc34efc612820641b99dd81cf4e7",
+    "verify.py": "94cf9a481c517e6dbc15b724048144312395aeabef6082bb3b13eb80c21883b3",
+    "INPUTS.json": "0f6bda3f423438e1c9b34a6a525b835c5e112209dbe740cbbc67bbdd5079d137",
+    "RESULT.json": "05e69682736f49f437a5e47929434c0652be361c83ab015ba4909e20c45e0b80"
+  }
+}
