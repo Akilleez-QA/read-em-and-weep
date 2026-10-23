@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-23",
+  "status": "independently_reviewed_bounded_written_theorem_not_Lean",
+  "result": "all compatible positive W torsor directions have zero actual weight-four response; norm invariant on4Q and rho onQ; physical row descends on cone restrictions of certified exact sources",
+  "compatible_W_cohomology_family_dimension": 7,
+  "actual_K_vector_dimension": 8,
+  "actual_weight_four_variation_map": "zero on all K",
+  "normal_order_scope": "norm equality on actual4Q only; no ambient or q4 norm coefficient conclusion",
+  "source_domain": "D=dC04; descent to res_Q(D)=D/(D intersect qC12), not arbitrary ambient sources",
+  "unchanged_preconditions": [
+    "PR894 full-source membership for each supplied W",
+    "fixed lower V,b,Z,J3 and physical normalization",
+    "authenticated physical contractions and full lower projection y",
+    "PR866 compatible contraction normalization"
+  ],
+  "checks": {
+    "commands": [
+      "python verify_compatible_torsor.py",
+      "python -O verify_compatible_torsor.py"
+    ],
+    "exact_qadic_character_weight_checks": 66,
+    "negative_controls": 8,
+    "independently_replayed": true
+  },
+  "actual_HM_evaluations_performed": false,
+  "actual_physical_source_row_constructed": false,
+  "actual_calibration_performed": false,
+  "publication_by_worker": false,
+  "PR889_unchanged": true,
+  "PR894_unchanged": true,
+  "artifacts": [
+    {
+      "path": "PROOF.md",
+      "bytes": 13116,
+      "sha256": "ba6c3b70f54275292b3324960f2698f9cab807d87c65bd02048fcb4738152ffd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2179,
+      "sha256": "33b573f55728054ba5a287880e9667b7b50bd3ce5c28c009e918cb6f6413c616"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 6259,
+      "sha256": "85e086872779a6b588c6c4f18c206e085a14417c61626330e74d2636b8c8f471"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 4166,
+      "sha256": "e1b7284e6b5b945e7e62196a75bc725bba40171429db578ecf54b113d01466fe"
+    },
+    {
+      "path": "inputs/ladder.md",
+      "bytes": 5709,
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d"
+    },
+    {
+      "path": "inputs/membership894.md",
+      "bytes": 13529,
+      "sha256": "74d801f850d281658955f7583a838c90ff49fa2f9122dea8a2391e01a71dcc0b"
+    },
+    {
+      "path": "inputs/next_weight.md",
+      "bytes": 19929,
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492"
+    },
+    {
+      "path": "inputs/normalization866.md",
+      "bytes": 12197,
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14"
+    },
+    {
+      "path": "inputs/pr815.md",
+      "bytes": 18996,
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236"
+    },
+    {
+      "path": "inputs/q_exact.md",
+      "bytes": 2352,
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276"
+    },
+    {
+      "path": "inputs/spinor.md",
+      "bytes": 8977,
+      "sha256": "3f8afaf56f930078799aae1999b3752a1e5335594a07012c7c061537ea4d2728"
+    },
+    {
+      "path": "verification-optimized.log",
+      "bytes": 315,
+      "sha256": "ee64766b7063f0dd17a2384174486e095ca87eb9167ec8dfc05c0120073ad49e"
+    },
+    {
+      "path": "verification.log",
+      "bytes": 315,
+      "sha256": "ee64766b7063f0dd17a2384174486e095ca87eb9167ec8dfc05c0120073ad49e"
+    },
+    {
+      "path": "verify_compatible_torsor.py",
+      "bytes": 8189,
+      "sha256": "b84d58cc3565a473ce038e45e9052b5ffe9f4a9eb473172108edefdde98c2880"
+    }
+  ]
+}

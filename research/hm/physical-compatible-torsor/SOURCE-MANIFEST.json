@@ -1,0 +1,76 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "date": "2026-10-23",
+  "inputs": [
+    {
+      "name": "membership894",
+      "commit": "c963b48d8bd28eaac1dc2db1116fc1c430ba18b4",
+      "path": "research/hm/physical-source-membership/PROOF.md",
+      "git_blob": "df79b594b96b9618d3bed72da00d8292d2e6fcaf",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c963b48d8bd28eaac1dc2db1116fc1c430ba18b4/research/hm/physical-source-membership/PROOF.md",
+      "bytes": 13529,
+      "sha256": "74d801f850d281658955f7583a838c90ff49fa2f9122dea8a2391e01a71dcc0b",
+      "git_blob_verified": true
+    },
+    {
+      "name": "spinor",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/INVARIANT-CONE-SPINOR-FILTRATION-AND-NILPOTENT.md",
+      "git_blob": "9c514ff7c0b6fd72537b758aab108cbddef4f064",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/INVARIANT-CONE-SPINOR-FILTRATION-AND-NILPOTENT.md",
+      "bytes": 8977,
+      "sha256": "3f8afaf56f930078799aae1999b3752a1e5335594a07012c7c061537ea4d2728",
+      "git_blob_verified": true
+    },
+    {
+      "name": "q_exact",
+      "commit": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+      "path": "research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "git_blob": "019c1f31773476f0a4877d88632ce5d46fbd4b9f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276",
+      "bytes": 2352,
+      "git_blob_verified": true
+    },
+    {
+      "name": "ladder",
+      "commit": "8d8b5be4ce62c3055bb53be9e16d29cc63072f04",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "git_blob": "81e4b7ddf79d2c4e26ac0c99517117fe2ca63133",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d",
+      "bytes": 5709,
+      "git_blob_verified": true
+    },
+    {
+      "name": "pr815",
+      "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+      "path": "research/hm/affine-square-source-response/PROOF.md",
+      "git_blob": "bef4e26574b3085616c22d5fdaae4e808e3767e4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42/research/hm/affine-square-source-response/PROOF.md",
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236",
+      "bytes": 18996,
+      "git_blob_verified": true
+    },
+    {
+      "name": "next_weight",
+      "commit": "3d21e93865152ec961ceaf32d48f845399158b69",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "git_blob": "d041cc5cf01440e7d78cf22d194ab044d6f237dc",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d21e93865152ec961ceaf32d48f845399158b69/research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492",
+      "bytes": 19929,
+      "git_blob_verified": true
+    },
+    {
+      "name": "normalization866",
+      "commit": "25b1d2927294fffbc393e6ac2285f5a58cfd6c60",
+      "path": "research/hm/physical-source-normalization/PROOF.md",
+      "git_blob": "d6430f3ea8ee841278ed4ce815721b61bf2fdc3d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/25b1d2927294fffbc393e6ac2285f5a58cfd6c60/research/hm/physical-source-normalization/PROOF.md",
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14",
+      "bytes": 12197,
+      "git_blob_verified": true
+    }
+  ]
+}

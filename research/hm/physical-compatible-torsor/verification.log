@@ -1,0 +1,4 @@
+PASS: 66 exact q-adic/character/weight checks; 8 negative controls
+PASS: all7 compatible family directions miss weight16; norm equal on4Q
+PASS: q4 coefficient remains uncontrolled; representatives agree only at stated order
+SCOPE: universal diagnostics, not actual HM evaluation, physical-row construction, or Lean
