@@ -1,0 +1,54 @@
+[
+  {
+    "local_path": "inputs/1031.md",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "sha256": "7afb4f1c03d2077e158aaa5be9570cfc9d28f1f8b631d610b2fcca07c135e446",
+    "git_blob": "0694e96e2d17a53b68d625ec6065f8bf513cd083",
+    "label": "1031"
+  },
+  {
+    "local_path": "inputs/model.py",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/model.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "label": "model1031"
+  },
+  {
+    "label": "1094",
+    "commit": "79b84d3b21cdbc76bb19d3a973e09981936dda32",
+    "path": "research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md",
+    "local_path": "inputs/1094.md",
+    "git_blob": "dd21bc9302ea9ffcd84dddf72ce7a676c326600d",
+    "sha256": "32de2ab5c3988c6a571cb1ceb2ec76031c5d3cf311ca51c33b528e9c337e9675",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/79b84d3b21cdbc76bb19d3a973e09981936dda32/research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md"
+  },
+  {
+    "label": "1036",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "local_path": "inputs/1036.md",
+    "git_blob": "718f987511b5bf6144a85fc14e8ef343612a4491",
+    "sha256": "f2a8368fc6abd45eb5120078b608af566539e5df70d66381acf939ac62ce81dd",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/PROOF.md"
+  },
+  {
+    "label": "1081",
+    "commit": "411b644cdc12938c35b7fedac5bb92664bfc1a47",
+    "path": "research/hm/source2-pure-v-separated-terminal/PROOF.md",
+    "local_path": "inputs/1081.md",
+    "sha256": "8ad27aec10fff6d135b6893806f59ad19a5c5ea15eca06fa2bf055d81a870bd5",
+    "git_blob": "3aa53fa809fa82cef18629cc040cf61fe4eb0a90"
+  },
+  {
+    "label": "1036-verifier",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/verify.py",
+    "local_path": "inputs/1036-verifier.py",
+    "sha256": "86afb7dc8dc5c66be1520274fa706c513bce3ec9af701ba7d3f0cdb0d3b1d484",
+    "git_blob": "e4fc685ce1a2f6e5eafbba385dcf5ec9c8ceae62"
+  }
+]
