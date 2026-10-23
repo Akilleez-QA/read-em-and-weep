@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: conditional radical filtrations through PR1132**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: direct Gauss profile cuts through PR1135**
 
-**The complete actual source2 nonzero pure-V Q-compatible radical package is now excluded.** Its two endpoint-sixteen mechanisms share a contradictory antecedent; this result does not choose a fourth/fifth value. It is not a blanket exclusion of every abstract source2 model, a coverage theorem for every actual source, or a complete repair.
+**Maximal profile (1,2) is excluded under the pinned profile-specific necessity theorem. Profile (2,1) now requires D-type and retains four necessary original rows: 2, 5, 9, 10. Profile (1,1) and the broader maximal-profile coverage bridge remain open; there is no global rank-three exclusion or complete repair.**
 
-[Latest theorem and scope](paper/131-primary-terminal-conditional-exclusion.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/135-actual-gauss-profile-cuts.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Direct actual Gauss visibility and profile cuts through PR1135
+
+[The Gauss-profile chapter](paper/135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. Profile (2,1) forces D-type, and two further quotient-shape exclusions leave original indices **2, 5, 9, 10**. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+
+The four residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
 
 ## Conditional intrinsic radical filtrations
 
@@ -24,7 +30,9 @@ This is a canonical partial splitting, not a canonical complement to the whole p
 
 The actual primary image E_prim=(W′+T6)O(-3) is canonical and saturated. Its canonical quotient has rank 9, degree −30 and an everywhere-exact 21→12 negative terminal pencil. Equivariant vector-bundle complements exist but form an affine space of dimension 2: no canonical complement, positive/Q preservation or full-module splitting follows. See the immutable proofs of [PR1123](https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md) and [PR1124](https://github.com/Akilleez-QA/read-em-and-weep/blob/48396766d4e61a9de2455b1d068ba8abe09e05f3/research/hm/primary-negative-summand/PROOF.md).
 
-## The decisive obstruction
+## The earlier source2 package obstruction
+
+**The complete actual source2 nonzero pure-V Q-compatible radical package is now excluded.** Its two endpoint-sixteen mechanisms share a contradictory antecedent; this result does not choose a fourth/fifth value. It is not a blanket exclusion of every abstract source2 model, a coverage theorem for every actual source, or a complete repair.
 
 The actual primary module injects into the adjoint module and its terminal positive-to-negative multiplication is an everywhere-surjective **16→8 evaluation pencil**, with kernel **8O(-2)**. Parity and levelness prove this using actual maps, not a selected numerical example.
 
