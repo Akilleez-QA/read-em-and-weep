@@ -1,5 +1,7 @@
 # The full Koszul-homotopy operator on odd degree three
 
+**23 October 2026 update:** PR1101 now supplies the corrected full-domain identity Θ=aj3+ℓQ3; the warning below against the uncorrected Θ=ℓQ3 remains essential.
+
 **23 October 2026 · PR1096, full proof read**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/36f7231633a84971dfd865eaf4803727f1edd73d/research/hm/source2-pure-v-full-theta/PROOF.md), blob `24df79d14846fd9d942eae8bb0772b3859f49849`.

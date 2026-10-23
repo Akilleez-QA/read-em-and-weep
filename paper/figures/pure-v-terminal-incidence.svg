@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="475" viewBox="0 0 1200 475" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" role="img" aria-labelledby="title desc">
 <title id="title">Conditional terminal incidence tests</title><desc id="desc">Actual terminal T multiplicity space has dimension three. A canonical nonzero functional defines a dimension two kernel plane. The residual mechanism requires its dimension one terminal multiplicity line to lie in that plane for the fourth lift to vanish. The separated mechanism requires equality of its dimension two terminal plane with the canonical plane. These are unselected incidence tests, not selected positions or completion fractions.</desc>
-<rect width="1200" height="475" fill="white"/>
+<rect width="1200" height="510" fill="white"/>
 <g font-family="Arial, Helvetica, sans-serif" fill="#101820">
 <text x="40" y="42" font-size="26" font-weight="700">Terminal incidence detects R = 0</text>
 <text x="40" y="76" font-size="18">T-multiplicity ambient space: C³ · canonical nonzero ℓ · C_term = ker ℓ (plane, dimension 2)</text>
@@ -19,5 +19,6 @@
 <text x="635" y="307" font-size="18">Projectively in P²: equality of lines</text>
 <text x="40" y="371" font-size="19" font-weight="700">Neither incidence is selected. These are tests, not actual plotted positions or probabilities.</text>
 <text x="40" y="406" font-size="17">PR1097: residual-large has β = 0, α possibly zero; no analogous nonzero-N0 restriction.</text>
-<text x="40" y="445" font-size="16">PR1094 · No completion percentage. C_term is unrelated to the opposite-pencil cokernel C.</text>
+<text x="40" y="440" font-size="17">PR1101: separated τ = 0 forces R ≠ 0; if τ ≠ 0, zero requires the unique graph −τ⁻¹ℓ0.</text>
+<text x="40" y="480" font-size="16">PR1094 · No completion percentage. C_term is unrelated to the opposite-pencil cokernel C.</text>
 </g></svg>
