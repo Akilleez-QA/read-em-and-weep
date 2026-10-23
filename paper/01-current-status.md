@@ -2,13 +2,25 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Duality shortcut excluded through PR1008
+
+[PR1008](https://github.com/Akilleez-QA/read-em-and-weep/blob/18a22f8d8fecf4c321a247c44fe1f0f411115957/research/hm/cdf-duality-complement-barrier/PROOF.md) identifies the actual Serre transpose in H³ twists -9→-7, not the original H¹ window. One-sided preservation transfers to an annihilator inclusion, not automatically to complementary preservation. A character-faithful Laurent counterfamily retains the required kernel/cokernel characters, one-sided preservation, perfect graded adjunction and scalar compatible algebra while violating complementary preservation. It is not an actual HM realization and does not enforce the full multiplication or Bockstein relations. Thus additional actual geometry, not duality alone, is needed for that route. The conditional cubic and four-pair/three-label frontier are unchanged. [Precise boundary](60-cdf-duality-complement-barrier.md).
+
+## Current extensions through PR1006
+
+[PR1005](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a50853a6b6a4f18f1a7aac06a90e33e78e7787e/research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md) computes the **whole canonical octic generator**: six triple fat points with completed ideal (u,v)³ and ten reduced simple points, total length46. Both factors are nonzero on the square conic. Its actual scalar remains unselected; a zero scalar would make the actual symbol identically zero. The target factor's length34 below remains correct but is no longer the whole extent of the available calculation. [Full scheme](58-full-octic-generator-zero-scheme.md).
+
+[PR1006](https://github.com/Akilleez-QA/read-em-and-weep/blob/ce6aa25acadc7d00de1e9f072f1cb7b3485cf14f/research/hm/cdf-preserved-b-cubic/PROOF.md) proves global internal-second vanishing under one-sided c-d-f preservation and constructs its canonical internal cubic in a **raw three-dimensional** space. Its nonvanishing is equivalent to generic original-fourth nonvanishing. Neither is selected, preservation itself remains unproved, and no rκ=0 or secondary ν is established. This is distinct from the source126 two-dimensional cubic gate. [Conditional theorem](59-cdf-preserved-b-cubic.md).
+
+Four necessary pairs and three labels remain. No actual source occurrence, octic scalar, or complete repair is asserted.
+
 ## c-d-f one-sided preserved-block interface through PR1001
 
 [PR1001](https://github.com/Akilleez-QA/read-em-and-weep/blob/a7aa990e7705dd9dbf3d0fd34e437fa735c9e0f1/research/hm/cdf-preserved-b-symbol/PROOF.md) assumes only Q(X_B)⊂Y_B. It then forces the entire actual kernel A+D into X_B, restricted Q-image V+2P+D of dimension16, restricted cokernel D, and quotient cohomology D/P with connecting isomorphism. The internal first is nonzero multiplication on A and zero on D; the quotient first is the nonzero multiplication-to-P channel. No complementary preservation, projector or proof of the preservation hypothesis is supplied. Four source-dual pairs and three labels remain. [Precise scope](57-cdf-preserved-b-interface.md).
 
 ## Octic target-factor zero scheme through PR1000
 
-[PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) determines the canonical invariant target section σ∈H⁰(E(4)) up to its exact zero scheme: length34, supported on six order-five axes with completed ideal (u²,v²) and ten simple order-three axes. It is nowhere zero on the square conic. A minimal ideal resolution and Hilbert function certify the length. This is the target factor only; source-row zeros and the actual octic scalar remain uncomputed here. [Details](56-octic-target-zero-scheme.md).
+[PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) determines the canonical invariant target section σ∈H⁰(E(4)) up to its exact zero scheme: length34, supported on six order-five axes with completed ideal (u²,v²) and ten simple order-three axes. It is nowhere zero on the square conic. A minimal ideal resolution and Hilbert function certify the length. This is the target factor only; source-row zeros are now computed by PR1005 above, while the actual octic scalar remains unselected. [Details](56-octic-target-zero-scheme.md).
 
 The [collaborator report](55-opposite-bundle-seven-types.md) separately records seven necessary opposite-bundle types and the canonical quotient C→O(2), without selecting the actual row or vertex scalar. Its top-polar σ is unrelated to the invariant target section denoted σ above. The four-pair/three-label source frontier is unchanged.
 

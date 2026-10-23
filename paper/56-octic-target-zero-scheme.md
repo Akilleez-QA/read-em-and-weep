@@ -2,6 +2,8 @@
 
 **Craig Ward · 23 October 2026 · Update through PR1000**
 
+**Subsequent update.** PR1005 now computes the whole generator in [chapter 58](58-full-octic-generator-zero-scheme.md): length46, not the target factor’s length34. The target theorem and its historical scope below remain intact; the actual scalar is still unselected.
+
 [PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) studies the universal invariant target section σ:O(-4)→E in the canonical octic generator σψ4. It proves that its zero scheme Zσ is finite of length34, disjoint from the discriminant conic of squares. This σ is **not** the top-polar obstruction in the opposite-bundle/vertex problem. The actual octic scalar remains unselected; four necessary source-dual pairs and three labels remain.
 
 ## 1. Exact support and local structure

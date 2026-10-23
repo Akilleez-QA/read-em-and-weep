@@ -1,6 +1,6 @@
-# Living research paper · v0.22
+# Living research paper · v0.24
 
-**Craig Ward · 23 October 2026 · Structural update through PR1001; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1008; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
@@ -40,39 +40,48 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [Why the secondary octic test cannot decide the scalar](54-secondary-octic-zero-test.md) proves an exact zero restriction on all quartic covectors, using the absence of degree-nine plane invariants and an independent polynomial certificate. It does not force the octic scalar to vanish, even when ν is nonzero.
 
-[Seven necessary opposite-bundle types](55-opposite-bundle-seven-types.md) reports PR994/996, with the actual row and vertex scalar still open. [The octic target zero scheme](56-octic-target-zero-scheme.md) proves the invariant target section has length34, with exact six-axis local schemes, ten reduced zeros, no square-conic zeros and a minimal ideal resolution. It does not compute the whole generator's zero scheme or select its scalar.
+[Seven necessary opposite-bundle types](55-opposite-bundle-seven-types.md) reports PR994/996, with the actual row and vertex scalar still open. [The octic target zero scheme](56-octic-target-zero-scheme.md) proves the invariant target section has length34, with exact six-axis local schemes, ten reduced zeros, no square-conic zeros and a minimal ideal resolution. That target-only result is now extended by PR1005 below; neither theorem selects the actual scalar.
 
-[The c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md) derives the actual internal/quotient first symbols from one-sided preservation alone. Preservation is unproved, and no complementary projector or later cubic conclusion is imported.
+[The c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md) derives the actual internal/quotient first symbols from one-sided preservation alone. Preservation is unproved, and no complementary projector is assumed. PR1006 below now supplies the bounded cubic extension.
+
+[The full octic zero scheme](58-full-octic-generator-zero-scheme.md) separates the whole generator's length46 from the target factor's length34, including the six reduced source-row zeros. The actual scalar remains unselected.
+
+[The one-sided c-d-f cubic gate](59-cdf-preserved-b-cubic.md) proves the internal quadratic zero and a raw three-dimensional cubic space equivalent to the generic original-fourth test. No κ restriction, secondary scalar or actual preservation is asserted.
+
+[The c-d-f duality boundary](60-cdf-duality-complement-barrier.md) proves that the stated duality, character and scalar-commutant conditions alone do not force complementary preservation. Its formal counterfamily is not an actual HM or full multiplication model; the one-sided hypothesis and cubic value remain open.
 
 ## Current reading order
 
 1. [Root status paper](../README.md)
-2. [c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md)
-3. [Octic target zero scheme](56-octic-target-zero-scheme.md)
-4. [Opposite-bundle source report](55-opposite-bundle-seven-types.md)
-5. [Secondary octic zero test](54-secondary-octic-zero-test.md)
-6. [Internal octic gate](53-internal-octic-gate.md)
-7. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
-8. [Single compatible-line footprints](50-compatible-line-footprints.md)
-9. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
-10. [Collective radical images and generic rank](48-collective-radical-images.md)
-11. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
-12. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
-13. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
-14. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
-15. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
-16. [Compatibility exclusions](42-polar-integrability.md)
-17. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
-18. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
-19. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
-20. [Source2 compatibility](38-source2-compatibility.md)
-21. [Compatibility and torsion update](37-compatibility-and-torsion.md)
-22. [Source126 quotient specialization](36-source126-dual-specialization.md)
-23. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
-24. [Current progress map](progress-map.md)
-25. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
-26. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
-27. [Execution and supporting formalization](32-burn-execution-and-verification.md)
-28. [Physical construction chain](33-burn-physical-construction.md)
+2. [c-d-f duality boundary](60-cdf-duality-complement-barrier.md)
+3. [c-d-f cubic gate](59-cdf-preserved-b-cubic.md)
+4. [Full octic generator zero scheme](58-full-octic-generator-zero-scheme.md)
+5. [c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md)
+6. [Octic target zero scheme](56-octic-target-zero-scheme.md)
+7. [Opposite-bundle source report](55-opposite-bundle-seven-types.md)
+8. [Secondary octic zero test](54-secondary-octic-zero-test.md)
+9. [Internal octic gate](53-internal-octic-gate.md)
+10. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
+11. [Single compatible-line footprints](50-compatible-line-footprints.md)
+12. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
+13. [Collective radical images and generic rank](48-collective-radical-images.md)
+14. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
+15. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
+16. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
+17. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
+18. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
+19. [Compatibility exclusions](42-polar-integrability.md)
+20. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
+21. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
+22. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
+23. [Source2 compatibility](38-source2-compatibility.md)
+24. [Compatibility and torsion update](37-compatibility-and-torsion.md)
+25. [Source126 quotient specialization](36-source126-dual-specialization.md)
+26. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
+27. [Current progress map](progress-map.md)
+28. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
+29. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
+30. [Execution and supporting formalization](32-burn-execution-and-verification.md)
+31. [Physical construction chain](33-burn-physical-construction.md)
 
 Earlier chapters and figures are dated snapshots, not live counters. The historical burn endpoint remains three labels and 146 pairs; its figure is preserved. Supporting formalization remains 66 declarations in 13 draft packages, not a formal proof of the complete repair. Markdown is the maintained paper source.
