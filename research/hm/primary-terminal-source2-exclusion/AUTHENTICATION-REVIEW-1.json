@@ -1,0 +1,49 @@
+{
+  "PR477": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ff87076794e97238150485b12183c3cd0f4711e4/research/hm/adjoint-primary-extension/PROOF.md",
+    "git_blob": "1cb91b7f5b7da08b6653c7fa48487ff7c3fd7198",
+    "sha256": "0325c7b3cf237e27d4466e17c50cdb7f1a5cd874c310f32c03516acc250a2a38",
+    "bytes": 10321,
+    "fresh_connector_bytes_matched": true
+  },
+  "PR486": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0de9b4b71cbbf3c4492871d9835952a0dcb41e12/research/hm/level-section-resolution/PROOF.md",
+    "git_blob": "93a379dc422c45b4fad210d782169abc3583c286",
+    "sha256": "0e7df08243d9cd60c812d29f57a88edd8bd87880670f640f7e6ac4562d740e41",
+    "bytes": 10493,
+    "fresh_connector_bytes_matched": true
+  },
+  "PR1120": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/62587a0adde566cac718ee13c28ee13c239389e5/research/hm/scalar-cyclic-module/PROOF.md",
+    "git_blob": "af00766042cdc7e100731aa69b9ad8d32db0209f",
+    "sha256": "b47031d81c8c138aa5f1b4c4cee992f9ae04ee74adb8c403cedd2e74c51a2d2e",
+    "bytes": 10894,
+    "fresh_connector_bytes_matched": true
+  },
+  "PR1121": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1b1c33a6a348a31e00d7b322a43ecd6d4a8cea7a/research/hm/scalar-channel-projector/PROOF.md",
+    "git_blob": "719ba5260fa9d0d1b548c867c2504d627552ba24",
+    "sha256": "9e9fdc021f3c9dbec4f09dad1c0aa3e4a4a634227d6d65e50de7ac56fb88581b",
+    "bytes": 12423,
+    "fresh_connector_bytes_matched": true
+  },
+  "PR1072": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d03beb727c7e778026dcceb3555c899a0808e093/research/hm/terminal-pencil-quotient/PROOF.md",
+    "git_blob": "65dda3e16ded2b79ad84c583f248b09c425e9881",
+    "sha256": "deed62f4bb764abe7d1e819b780a09dfbbe0a36f8fdb608cba24c0b0187e6735",
+    "bytes": 9164,
+    "fresh_connector_bytes_matched": true
+  },
+  "PR1056": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md",
+    "git_blob": "29cadd1739c37309b31192beef30007acf14e8ef"
+  },
+  "PR795": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656"
+  },
+  "PR1068": {
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/05e8b33eb87e9f36aa30500145cc42bc0ea00df8/research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "git_blob": "5ae07c02624d70c0ccd33d7ec34202504173ff83"
+  }
+}
