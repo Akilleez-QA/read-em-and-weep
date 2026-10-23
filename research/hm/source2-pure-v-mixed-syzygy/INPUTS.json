@@ -1,0 +1,42 @@
+[
+  {
+    "local_path": "inputs/1048.md",
+    "commit": "9eaed2dfadf9c4877327d21db5974b6c94d3863d",
+    "path": "research/hm/source2-pure-v-polarized-sandwich/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9eaed2dfadf9c4877327d21db5974b6c94d3863d/research/hm/source2-pure-v-polarized-sandwich/PROOF.md",
+    "sha256": "8ef5300690ee419123a318c6ede034cfedb2da20bff3b20cec23a07326918f66",
+    "git_blob": "0710577541a79a5d8d56e5aa693a8fc01c559112"
+  },
+  {
+    "local_path": "inputs/1054.md",
+    "commit": "8732cb65fe0e72da59e785f3f85ad197a7092e6c",
+    "path": "research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8732cb65fe0e72da59e785f3f85ad197a7092e6c/research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "sha256": "f788da29035b564f6f544629f724b90ceae5d975273eb15f0df9ac71fd4c643b",
+    "git_blob": "64e6bf9f1bf46440700ebab7c90a18f9d8155fd8"
+  },
+  {
+    "local_path": "inputs/1068.md",
+    "commit": "05e8b33eb87e9f36aa30500145cc42bc0ea00df8",
+    "path": "research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/05e8b33eb87e9f36aa30500145cc42bc0ea00df8/research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "sha256": "4b027c735a5f46c1a293aace296d36b25699614997a64567dbc7994e5456d415",
+    "git_blob": "5ae07c02624d70c0ccd33d7ec34202504173ff83"
+  },
+  {
+    "local_path": "inputs/1069.md",
+    "commit": "41bc20cade3198306c492c0c46399d71eb0d51c4",
+    "path": "research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/41bc20cade3198306c492c0c46399d71eb0d51c4/research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "sha256": "05554bd1bd93401fd77f6430cd93318cc81413665e029d03af173cd8fb3883d9",
+    "git_blob": "827cd956e2eb574fd7d40d408e0450c8581fd7d2"
+  },
+  {
+    "local_path": "inputs/1071.md",
+    "commit": "ad1653dd81f23d604bbd99820897c6145e1993c8",
+    "path": "research/hm/source2-pure-v-alternating-normalization/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ad1653dd81f23d604bbd99820897c6145e1993c8/research/hm/source2-pure-v-alternating-normalization/PROOF.md",
+    "sha256": "ae1701aa293132a5268021a8bc529409de8af87feb55503138142949d8751335",
+    "git_blob": "7198f55b877a604ade7c1759799b84bd3885d2c5"
+  }
+]
