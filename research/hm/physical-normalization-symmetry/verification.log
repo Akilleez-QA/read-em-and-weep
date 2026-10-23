@@ -1,0 +1,4 @@
+PASS: 122 exact character/degree/coefficient checks; 5 negative controls
+PASS: U=Wprime; 13 traces / 12 nontrivial outputs / 10 equivariant family parameters
+PASS: axis kernel4 image6; square kernel3 image7; varying-source multiplier injectivity
+SCOPE: universal diagnostics, not Lean, actual equivariance authentication, or calibration
