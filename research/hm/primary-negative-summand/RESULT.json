@@ -1,0 +1,24 @@
+{
+  "actual_instance_evaluation": false,
+  "canonical_primary_bundle": {
+    "degree": -24,
+    "rank": 8,
+    "type": "(Wp+T) O(-3)"
+  },
+  "canonical_quotient": {
+    "degree": -30,
+    "rank": 9,
+    "terminal_dimensions": [
+      21,
+      12
+    ],
+    "terminal_source_character": "V+2P+2D",
+    "terminal_target_character": "2T"
+  },
+  "checks": 70,
+  "complement_canonical": false,
+  "equivariant_splittings": "nonempty affine space of dimension2",
+  "horizontal_or_full_module_splitting_claimed": false,
+  "input_count": 2,
+  "status": "PASS"
+}
