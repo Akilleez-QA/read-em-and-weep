@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "count": 39,
+  "checks": [
+    "sha256 792",
+    "git blob 792",
+    "sha256 794",
+    "git blob 794",
+    "sha256 1054",
+    "git blob 1054",
+    "sha256 universal-symbols",
+    "git blob universal-symbols",
+    "sha256 1059",
+    "git blob 1059",
+    "apolar P6 inclusion rank",
+    "P16 transvectant embedding rank",
+    "P16 first multiplication injective",
+    "full polynomial quadratic descendants injective",
+    "P projection rank4",
+    "adjoint P inclusion rank4",
+    "polynomial P descendant nonzero",
+    "P descendant first multiplication rank6",
+    "P descendant first kernel dimension2",
+    "image P and descendant P are distinct",
+    "pinned P6 intertwiner 0",
+    "apolar invariance 0",
+    "f12 invariant 0",
+    "pinned P6 intertwiner 1",
+    "apolar invariance 1",
+    "f12 invariant 1",
+    "pinned P6 intertwiner 2",
+    "apolar invariance 2",
+    "f12 invariant 2",
+    "pinned P6 intertwiner 3",
+    "apolar invariance 3",
+    "f12 invariant 3",
+    "literal four Koszul relations",
+    "eight linear multiples independent",
+    "minimal quadratic relation dimension",
+    "first two graded dimensions",
+    "Hilbert numerator",
+    "linear and cubic relation character",
+    "quadratic relation character"
+  ],
+  "polynomial_descendant_dimensions": [
+    4,
+    6
+  ],
+  "minimal_betti_degrees": {
+    "generators": {
+      "0": 9
+    },
+    "relations": {
+      "1": 4,
+      "2": 10,
+      "3": 4
+    },
+    "second_syzygies": {
+      "4": 9
+    }
+  },
+  "scope": "universal polynomial certificate; truncation only; no endpoint or graph coefficient selected"
+}
