@@ -1,0 +1,41 @@
+{
+  "character_module_checks": 81,
+  "checks": 400,
+  "historical_labels_only": {
+    "10": [
+      116
+    ],
+    "4": [
+      86,
+      87,
+      88,
+      89,
+      96
+    ]
+  },
+  "result": "two actual quotient shapes excluded when k=1",
+  "scope": "No profile closure, live-count assertion or original repair",
+  "targets": [
+    {
+      "e": 4,
+      "envelope": {
+        "V": -1
+      },
+      "next_kernel_degree": -50,
+      "next_kernel_rank": 12,
+      "required_upper_bound": -60
+    },
+    {
+      "e": 10,
+      "envelope": {
+        "A": 2,
+        "D": 1,
+        "V": -1,
+        "one": 1
+      },
+      "next_kernel_degree": -56,
+      "next_kernel_rank": 12,
+      "required_upper_bound": -60
+    }
+  ]
+}

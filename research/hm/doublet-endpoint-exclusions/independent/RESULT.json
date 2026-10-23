@@ -1,0 +1,41 @@
+{
+  "checks": 1601,
+  "rows": [
+    {
+      "degree_second_kernel": -50,
+      "e": 4,
+      "quartic_envelope": {
+        "A": 0,
+        "D": 0,
+        "P": 0,
+        "S": 0,
+        "T": 0,
+        "V": -1,
+        "W": 0,
+        "Wp": 0,
+        "one": 0
+      },
+      "rank_second_kernel": 12,
+      "required_degree_upper_bound": -60
+    },
+    {
+      "degree_second_kernel": -56,
+      "e": 10,
+      "quartic_envelope": {
+        "A": 2,
+        "D": 1,
+        "P": 0,
+        "S": 0,
+        "T": 0,
+        "V": -1,
+        "W": 0,
+        "Wp": 0,
+        "one": 1
+      },
+      "rank_second_kernel": 12,
+      "required_degree_upper_bound": -60
+    }
+  ],
+  "scope": "universal exact algebra supporting, not replacing, written actual geometric proof",
+  "status": "PASS"
+}
