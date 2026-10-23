@@ -1,0 +1,27 @@
+[
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py"
+  },
+  {
+    "label": "1005",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4a50853a6b6a4f18f1a7aac06a90e33e78e7787e",
+    "path": "research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md",
+    "local_path": "inputs/1005.md",
+    "sha256": "4e39ef95d7127490044c79f6a69f4e91a21080dd46d29848b92642b08dfcdb49",
+    "git_blob": "ba88e70e50342eef9c92db9053789cb238802dee"
+  },
+  {
+    "local_path": "inputs/1025.md",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md"
+  }
+]
