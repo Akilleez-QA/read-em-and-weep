@@ -1,10 +1,26 @@
-# Living research paper · v0.30
+# Living research paper · v0.32
 
-**Craig Ward · 23 October 2026 · Structural update through PR1037; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1046; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
-## Latest checkpoint through PR1037
+## Exact original-fourth transfer through PR1046
+
+[The original-fourth component-ideal bridge](84-pure-v-fourth-ideal-transfer.md) proves (FL)~=(F)~ for the determinant-embedded surviving D row, including the ten order-three rank-drop axes. Hence the complete nonic five-stratum classification transfers unchanged: −2,−1,0,+2 give 54,49,46,46 and every other nonzero ratio gives Z of length 34. Zero remains separate and the actual coefficient unselected.
+
+This supersedes the earlier pending local-comparison boundary. It does not claim raw graded-ideal equality, injectivity after tensoring the singular ideal-sheaf target with a residue field, additional specialized A-kernel conclusions, or equality with the quadratic-lift degeneracy scheme. The original repair and four-pair source frontier remain open.
+
+## Latest checkpoint through PR1044: universal nonic classification complete
+
+[The complete five-stratum theorem](82-pure-v-complete-nonic-classification.md) determines the entire component ideal sheaf for every nonzero coefficient pair. Ratios β/α=−2,−1,0,+2 have exact schemes of lengths 54,49,46,46; every other ratio, including [0:1], has exactly Z of length 34. The two length 46 schemes differ. The zero pair is separate, with whole-plane base scheme and no finite length. Actual coefficients and compatible-source occurrence remain unselected.
+
+The final ingredients are [fifteen-axis occurrence and ambient reducedness](79-pure-v-fifteen-axis-scheme.md), [exclusion of all thirty-point orbits](80-pure-v-no-thirty-orbit.md), and [ambient reducedness of all twelve conic points](81-pure-v-conic-ambient-scheme.md). The earlier nine-length necessary list and unresolved conic-thickness statements below are historical checkpoints, now superseded for this universal nonic scheme question. No hidden coefficient exception remains in the open stratum.
+
+At the PR1044 checkpoint this did not yet identify local component ideals of the original fourth composition at the ten order-three rank-drop axes of L; the PR1046 bridge above now does. Identical-vanishing equivalence on surviving D remains, but scheme transfer and lift-matrix degeneracy are distinct questions. The original repair and four-pair/three-label source frontier remain open.
+
+[The global-to-ninth source report](83-global-ninth-bridge-source-report.md) records mr. slop's actual restriction sequences and rank 13, degree 28 Steiner bundle Jg. It differs from the rank 13, degree 20 finite residual; an actual determinant constraint forces nonzero intersection with the selected finite summands. Parity and nonsplitting limits are retained, and the report is not an independent reproof.
+
+## Historical checkpoint through PR1037
 
 [Exact exceptional local ideals](78-pure-v-exact-jet-lengths.md) now give total lengths 46 and 54 on ℓ₅ and ℓ₃, respectively, with support exactly the sixteen prescribed axes. Whole-orbit ideal equalities and Nakayama upgrade the previous lower bounds; no actual coefficient is selected.
 
@@ -74,11 +90,11 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 [Why the secondary octic test cannot decide the scalar](54-secondary-octic-zero-test.md) proves an exact zero restriction on all quartic covectors, using the absence of degree-nine plane invariants and an independent polynomial certificate. It does not force the octic scalar to vanish, even when ν is nonzero.
 
-[Seven necessary opposite-bundle types](55-opposite-bundle-seven-types.md) reports PR994/996, with the actual row and vertex scalar still open. [The octic target zero scheme](56-octic-target-zero-scheme.md) proves the invariant target section has length34, with exact six-axis local schemes, ten reduced zeros, no square-conic zeros and a minimal ideal resolution. That target-only result is now extended by PR1005 below; neither theorem selects the actual scalar.
+[Seven necessary opposite-bundle types](55-opposite-bundle-seven-types.md) reports PR994/996, with the actual row and vertex scalar still open. [The octic target zero scheme](56-octic-target-zero-scheme.md) proves the invariant target section has length 34, with exact six-axis local schemes, ten reduced zeros, no square-conic zeros and a minimal ideal resolution. That target-only result is now extended by PR1005 below; neither theorem selects the actual scalar.
 
 [The c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md) derives the actual internal/quotient first symbols from one-sided preservation alone. Preservation is unproved, and no complementary projector is assumed. PR1006 below now supplies the bounded cubic extension.
 
-[The full octic zero scheme](58-full-octic-generator-zero-scheme.md) separates the whole generator's length 46 from the target factor's length34, including the six reduced source-row zeros. The actual scalar remains unselected.
+[The full octic zero scheme](58-full-octic-generator-zero-scheme.md) separates the whole generator's length 46 from the target factor's length 34, including the six reduced source-row zeros. The actual scalar remains unselected.
 
 [The one-sided c-d-f cubic gate](59-cdf-preserved-b-cubic.md) proves the internal quadratic zero and a raw three-dimensional cubic space equivalent to the generic original-fourth test. No κ restriction, secondary scalar or actual preservation is asserted.
 
@@ -92,7 +108,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 ## Current reading order
 
-Start with the [root status paper](../README.md), then chapters [75](75-pure-v-finite-support.md), [76](76-pure-v-four-lines.md), [77](77-ninth-forced-summands-source-report.md) and [78](78-pure-v-exact-jet-lengths.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
+Start with the [root status paper](../README.md) and [complete classification](82-pure-v-complete-nonic-classification.md), followed by [the original-fourth transfer](84-pure-v-fourth-ideal-transfer.md), then the new proofs [79](79-pure-v-fifteen-axis-scheme.md), [80](80-pure-v-no-thirty-orbit.md), [81](81-pure-v-conic-ambient-scheme.md) and [global bridge report](83-global-ninth-bridge-source-report.md), then chapters [75](75-pure-v-finite-support.md), [76](76-pure-v-four-lines.md), [77](77-ninth-forced-summands-source-report.md) and [78](78-pure-v-exact-jet-lengths.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
 
 1. [Root status paper](../README.md)
 2. [Even c-d-f algebra](63-cdf-even-algebra-and-split-alternative.md)

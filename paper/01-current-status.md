@@ -2,7 +2,23 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
-## Latest checkpoint through PR1037
+## Exact original-fourth transfer through PR1046
+
+[The original-fourth component-ideal bridge](84-pure-v-fourth-ideal-transfer.md) proves (FL)~=(F)~ for the determinant-embedded surviving D row, including the ten order-three rank-drop axes. Hence the complete nonic five-stratum classification transfers unchanged: −2,−1,0,+2 give 54,49,46,46 and every other nonzero ratio gives Z of length 34. Zero remains separate and the actual coefficient unselected.
+
+This supersedes the earlier pending local-comparison boundary. It does not claim raw graded-ideal equality, injectivity after tensoring the singular ideal-sheaf target with a residue field, additional specialized A-kernel conclusions, or equality with the quadratic-lift degeneracy scheme. The original repair and four-pair source frontier remain open.
+
+## Latest checkpoint through PR1044: universal nonic classification complete
+
+[The complete five-stratum theorem](82-pure-v-complete-nonic-classification.md) determines the entire component ideal sheaf for every nonzero coefficient pair. Ratios β/α=−2,−1,0,+2 have exact schemes of lengths 54,49,46,46; every other ratio, including [0:1], has exactly Z of length 34. The two length 46 schemes differ. The zero pair is separate, with whole-plane base scheme and no finite length. Actual coefficients and compatible-source occurrence remain unselected.
+
+The final ingredients are [fifteen-axis occurrence and ambient reducedness](79-pure-v-fifteen-axis-scheme.md), [exclusion of all thirty-point orbits](80-pure-v-no-thirty-orbit.md), and [ambient reducedness of all twelve conic points](81-pure-v-conic-ambient-scheme.md). The earlier nine-length necessary list and unresolved conic-thickness statements below are historical checkpoints, now superseded for this universal nonic scheme question. No hidden coefficient exception remains in the open stratum.
+
+At the PR1044 checkpoint this did not yet identify local component ideals of the original fourth composition at the ten order-three rank-drop axes of L; the PR1046 bridge above now does. Identical-vanishing equivalence on surviving D remains, but scheme transfer and lift-matrix degeneracy are distinct questions. The original repair and four-pair/three-label source frontier remain open.
+
+[The global-to-ninth source report](83-global-ninth-bridge-source-report.md) records mr. slop's actual restriction sequences and rank 13, degree 28 Steiner bundle Jg. It differs from the rank 13, degree 20 finite residual; an actual determinant constraint forces nonzero intersection with the selected finite summands. Parity and nonsplitting limits are retained, and the report is not an independent reproof.
+
+## Historical checkpoint through PR1037
 
 [Exact exceptional local ideals](78-pure-v-exact-jet-lengths.md) now give total lengths 46 and 54 on ℓ₅ and ℓ₃, respectively, with support exactly the sixteen prescribed axes. Whole-orbit ideal equalities and Nakayama upgrade the previous lower bounds; no actual coefficient is selected.
 
@@ -44,7 +60,7 @@ Under additional one-sided B preservation it is impossible, so the even Q-compat
 
 ## Normal lift and constant-map boundary through PR1013
 
-[PR1013](https://github.com/Akilleez-QA/read-em-and-weep/blob/9f3509ff76b9f1fbb5d61288aa0ae036b5c16aca/research/hm/source126-typeII-octic-normal-lift/PROOF.md) supplies the canonical polynomial lift R=κψ, its sixteen reduced zeros, and the unique normal form L=BU+αR. This differs from the projected map's length 46 and target section's length34. In the pinned homogeneous coordinates α=−27[p⁰q⁸t⁰]L₀₀ is gauge-independent. **The actual L is missing and its coefficient is not computed.** Square-zero behavior of R does not descend automatically to E or force α=0. [Full scope](62-octic-normal-lift-and-scalar-address.md).
+[PR1013](https://github.com/Akilleez-QA/read-em-and-weep/blob/9f3509ff76b9f1fbb5d61288aa0ae036b5c16aca/research/hm/source126-typeII-octic-normal-lift/PROOF.md) supplies the canonical polynomial lift R=κψ, its sixteen reduced zeros, and the unique normal form L=BU+αR. This differs from the projected map's length 46 and target section's length 34. In the pinned homogeneous coordinates α=−27[p⁰q⁸t⁰]L₀₀ is gauge-independent. **The actual L is missing and its coefficient is not computed.** Square-zero behavior of R does not descend automatically to E or force α=0. [Full scope](62-octic-normal-lift-and-scalar-address.md).
 
 [PR1011](https://github.com/Akilleez-QA/read-em-and-weep/blob/446dbfd04f6fb689c30975174dcc23d6f4c88c64/research/hm/cdf-quadratic-reverse-map-vanishing/PROOF.md) classifies the negative-quadratic reverse Hom as three-dimensional and target-only, then uses actual generation to prove its joint-Q subspace is zero under one-sided preservation. This rules out fixed parameter-independent reverse maps, not direction-dependent or deformation-dependent maps. The c-d-f cubic remains a raw three-dimensional unselected gate. [Precise reconstruction](61-cdf-constant-reverse-map.md).
 
@@ -56,7 +72,7 @@ The necessary frontier remains four pairs across three labels.
 
 ## Current extensions through PR1006
 
-[PR1005](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a50853a6b6a4f18f1a7aac06a90e33e78e7787e/research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md) computes the **whole canonical octic generator**: six triple fat points with completed ideal (u,v)³ and ten reduced simple points, total length 46. Both factors are nonzero on the square conic. Its actual scalar remains unselected; a zero scalar would make the actual symbol identically zero. The target factor's length34 below remains correct but is no longer the whole extent of the available calculation. [Full scheme](58-full-octic-generator-zero-scheme.md).
+[PR1005](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a50853a6b6a4f18f1a7aac06a90e33e78e7787e/research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md) computes the **whole canonical octic generator**: six triple fat points with completed ideal (u,v)³ and ten reduced simple points, total length 46. Both factors are nonzero on the square conic. Its actual scalar remains unselected; a zero scalar would make the actual symbol identically zero. The target factor's length 34 below remains correct but is no longer the whole extent of the available calculation. [Full scheme](58-full-octic-generator-zero-scheme.md).
 
 [PR1006](https://github.com/Akilleez-QA/read-em-and-weep/blob/ce6aa25acadc7d00de1e9f072f1cb7b3485cf14f/research/hm/cdf-preserved-b-cubic/PROOF.md) proves global internal-second vanishing under one-sided c-d-f preservation and constructs its canonical internal cubic in a **raw three-dimensional** space. Its nonvanishing is equivalent to generic original-fourth nonvanishing. Neither is selected, preservation itself remains unproved, and no rκ=0 or secondary ν is established. This is distinct from the source126 two-dimensional cubic gate. [Conditional theorem](59-cdf-preserved-b-cubic.md).
 
@@ -68,7 +84,7 @@ Four necessary pairs and three labels remain. No actual source occurrence, octic
 
 ## Octic target-factor zero scheme through PR1000
 
-[PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) determines the canonical invariant target section σ∈H⁰(E(4)) up to its exact zero scheme: length34, supported on six order-five axes with completed ideal (u²,v²) and ten simple order-three axes. It is nowhere zero on the square conic. A minimal ideal resolution and Hilbert function certify the length. This is the target factor only; source-row zeros are now computed by PR1005 above, while the actual octic scalar remains unselected. [Details](56-octic-target-zero-scheme.md).
+[PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) determines the canonical invariant target section σ∈H⁰(E(4)) up to its exact zero scheme: length 34, supported on six order-five axes with completed ideal (u²,v²) and ten simple order-three axes. It is nowhere zero on the square conic. A minimal ideal resolution and Hilbert function certify the length. This is the target factor only; source-row zeros are now computed by PR1005 above, while the actual octic scalar remains unselected. [Details](56-octic-target-zero-scheme.md).
 
 The [collaborator report](55-opposite-bundle-seven-types.md) separately records seven necessary opposite-bundle types and the canonical quotient C→O(2), without selecting the actual row or vertex scalar. Its top-polar σ is unrelated to the invariant target section denoted σ above. The four-pair/three-label source frontier is unchanged.
 

@@ -4,6 +4,8 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/6effcd9b61b1942447a2c3f136a6776dda213c15/research/hm/source2-pure-v-finite-base-support/PROOF.md).
 
+**Historical necessary bounds, now superseded:** [PR1044](82-pure-v-complete-nonic-classification.md) gives the complete five-stratum scheme classification. No thirty-orbit or ambient double fifteen-axis point occurs; the conic points are ambient-reduced. The nine-length list below records the earlier one-way bounds, not the current possibilities.
+
 Retain the nonzero universal pure-V nonic gate and its finite base scheme B_s. The actual conditional gate could still be zero; no occurrence is selected by these universal restrictions.
 
 ## 1. Additional support is tightly bounded
