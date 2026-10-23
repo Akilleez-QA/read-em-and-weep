@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: actual P-type cubic kernel and Euler image**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: two actual terminal-doublet quotient shapes excluded**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/140-p-type-cubic-euler-image.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/141-terminal-doublet-two-shape-exclusion.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Two actual terminal-doublet quotient shapes excluded
+
+[The new endpoint theorem](paper/141-terminal-doublet-two-shape-exclusion.md) excludes A=W′ O(-1)+O(4) and A=W′ O(-1)+O(10) for all four actual source types when the backward plateau length is one, hence in maximal profile (1,1), independently of B and determinant defect. A forced exact doublet derivative image and a second strict-top step give twelve degrees at most -5; their required totals -50 and -56 are impossible.
+
+This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. Profile (1,1), other-profile exhaustion and the original repair remain open; the preceding chapter and PDF are preserved.
 
 ## Actual P-type cubic kernel and Euler image
 
