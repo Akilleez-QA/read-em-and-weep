@@ -1,0 +1,98 @@
+{
+  "support_strata": [
+    {
+      "alpha_nonzero": false,
+      "beta_nonzero": false,
+      "gamma_nonzero": false,
+      "generic_rank": 8,
+      "y_zero_rank": 3,
+      "x_zero_rank": 5,
+      "distinct_third_rank": null,
+      "jordan_twos": 8,
+      "jordan_ones": 14
+    },
+    {
+      "alpha_nonzero": false,
+      "beta_nonzero": false,
+      "gamma_nonzero": true,
+      "generic_rank": 12,
+      "y_zero_rank": 3,
+      "x_zero_rank": 9,
+      "distinct_third_rank": null,
+      "jordan_twos": 12,
+      "jordan_ones": 6
+    },
+    {
+      "alpha_nonzero": false,
+      "beta_nonzero": true,
+      "gamma_nonzero": false,
+      "generic_rank": 11,
+      "y_zero_rank": 3,
+      "x_zero_rank": 8,
+      "distinct_third_rank": null,
+      "jordan_twos": 11,
+      "jordan_ones": 8
+    },
+    {
+      "alpha_nonzero": false,
+      "beta_nonzero": true,
+      "gamma_nonzero": true,
+      "generic_rank": 15,
+      "y_zero_rank": 3,
+      "x_zero_rank": 12,
+      "distinct_third_rank": null,
+      "jordan_twos": 15,
+      "jordan_ones": 0
+    },
+    {
+      "alpha_nonzero": true,
+      "beta_nonzero": false,
+      "gamma_nonzero": false,
+      "generic_rank": 11,
+      "y_zero_rank": 6,
+      "x_zero_rank": 5,
+      "distinct_third_rank": null,
+      "jordan_twos": 11,
+      "jordan_ones": 8
+    },
+    {
+      "alpha_nonzero": true,
+      "beta_nonzero": false,
+      "gamma_nonzero": true,
+      "generic_rank": 15,
+      "y_zero_rank": 6,
+      "x_zero_rank": 9,
+      "distinct_third_rank": null,
+      "jordan_twos": 15,
+      "jordan_ones": 0
+    },
+    {
+      "alpha_nonzero": true,
+      "beta_nonzero": true,
+      "gamma_nonzero": false,
+      "generic_rank": 11,
+      "y_zero_rank": 6,
+      "x_zero_rank": 8,
+      "distinct_third_rank": 8,
+      "jordan_twos": 11,
+      "jordan_ones": 8
+    },
+    {
+      "alpha_nonzero": true,
+      "beta_nonzero": true,
+      "gamma_nonzero": true,
+      "generic_rank": 15,
+      "y_zero_rank": 6,
+      "x_zero_rank": 12,
+      "distinct_third_rank": 12,
+      "jordan_twos": 15,
+      "jordan_ones": 0
+    }
+  ],
+  "negative_control": {
+    "generic_rank": 1,
+    "common_kernel_dimension": 28
+  },
+  "scope": "universal formal identities only; no selected geometric parameter or actual HM evaluation"
+}
+PASS: eight formal support strata, complete rank-jump formulas, Jordan dimensions, and square-zero negative control.

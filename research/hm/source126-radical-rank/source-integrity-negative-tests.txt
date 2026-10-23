@@ -1,0 +1,5 @@
+PASS: appended-newline corruption rejected for separation856.md
+PASS: appended-newline corruption rejected for profile11-degree28-residual-templates.md
+PASS: appended-newline corruption rejected for profile11-degree28-pencil-algebra.md
+PASS: appended-newline corruption rejected for family869.md
+PASS: incorrect Git blob pin rejected independently of SHA256
