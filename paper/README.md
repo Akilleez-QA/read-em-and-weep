@@ -1,20 +1,34 @@
-# Living research paper · v0.52
+# Living research paper · v0.54
 
-**Craig Ward · 23 October 2026 · Structural update through PR1115; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Current checkpoint through PR1124**
 
-The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+[The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
+
+Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
+
+The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Canonical quotient and formal-type reduction through PR1124
+
+[The canonical-primary chapter](132-canonical-primary-quotient-and-four-types.md) records an actual, source2-independent inclusion W′+T6↪R3. This reduces the specified 28 necessary bundle types to exactly 4 formal types, none asserted realized. E10,E13,E14 are incompatible, so the historical four source pairs below are not an active compatible frontier. A global rank-three exclusion still requires the separate geometric coverage and actual-source transfer bridge.
+
+The actual primary image E_prim=(W′+T6)O(-3) is canonical and saturated. Its canonical quotient has rank 9, degree −30 and an everywhere-exact 21→12 negative terminal pencil. Equivariant vector-bundle complements exist but form an affine space of dimension 2: no canonical complement, positive/Q preservation or full-module splitting follows. See the immutable proofs of [PR1123](https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md) and [PR1124](https://github.com/Akilleez-QA/read-em-and-weep/blob/48396766d4e61a9de2455b1d068ba8abe09e05f3/research/hm/primary-negative-summand/PROOF.md).
+
+## Historical checkpoint narrative below
+
+All statements below describing a branch as “remaining,” “surviving,” “unselected,” or “active” are statements at their explicitly dated checkpoint. In particular their source2 pure-V occurrence premise is superseded by PR1122. Use the new chapter for current scope, not a lower historical paragraph.
 
 ## Residual-large: fourth, fifth or no remaining pivot through PR1115
 
-[The residual all-orders theorem](130-residual-fifth-and-all-orders.md) gives exactly three conditional generic outcomes: R≠0 gives last exponent4/rank37; R=0 with nonzero fifth gives exponent5/rank37; both zero give every higher obstruction zero and rank36. Thus finite exponents6–24 are excluded in residual-large. No actual outcome or source is selected. [Three-outcome diagram](figures/pure-v-residual-three-outcomes.svg)
+[The residual all-orders theorem](130-residual-fifth-and-all-orders.md) gives exactly three conditional generic outcomes: R≠0 gives last exponent 4/rank 37; R=0 with nonzero fifth gives exponent 5/rank 37; both zero give every higher obstruction zero and rank 36. Thus finite exponents 6–24 are excluded in residual-large. No actual outcome or source is selected. [Three-outcome diagram](figures/pure-v-residual-three-outcomes.svg)
 
 Under R=0, the actual inverse separated-image isomorphism Ξ has three nonzero Schur coordinates. Fifth zero is exactly the alternating ratio (D:P:V)=(−1:1:1). A fixed canonical-A normalization propagates polynomial corrected strings to every order. In that zero case all maximal minors vanish identically, giving rank≤36 everywhere on the fixed Q+tT_a slice, not all quadratic directions or the full adjoint.
 
-Earlier residual generic5–24 and fifth-zero≥6 bounds below are historical and superseded by this theorem. The general finite21-stage criterion remains valid and relevant to nonzero-N0; its higher outcomes are not removed by the residual proof. Direction-specific exceptional-point bounds when the global fourth is nonzero are not replaced by a claim of uniform exponent4 or5. Neither endpoint-sixteen mechanism is selected; four necessary source pairs remain.
+Earlier residual generic 5–24 and fifth-zero≥6 bounds below are historical and superseded by this theorem. The general finite 21-stage criterion remains valid and relevant to nonzero-N0; its higher outcomes are not removed by the residual proof. Direction-specific exceptional-point bounds when the global fourth is nonzero are not replaced by a claim of uniform exponent 4 or 5. Neither endpoint-sixteen mechanism is selected; four necessary source pairs remain.
 
 ## Forced correction placement and bounded checking through PR1113
 
-[The full common homotopy kernel](127-common-quadratic-homotopy-kernel.md) has residual degree-two dimension17 and full dimension21. Under residual-large R=0, the actual first correction's P channel necessarily projects isomorphically onto separated (N0,2)_P; its V and D channels remain residual. This is forced placement, not an exclusion or a fifth value. The degree-two K_(R,2) must not be confused with older degree-four K_R of dimension16. [The earlier V alignment](127-common-quadratic-homotopy-kernel.md#earlier-canonical-v-alignment) remains canonical under the same hypothesis.
+[The full common homotopy kernel](127-common-quadratic-homotopy-kernel.md) has residual degree-two dimension 17 and full dimension 21. Under residual-large R=0, the actual first correction's P channel necessarily projects isomorphically onto separated (N0,2)_P; its V and D channels remain residual. This is forced placement, not an exclusion or a fifth value. The degree-two K_(R,2) must not be confused with older degree-four K_R of dimension 16. [The earlier V alignment](127-common-quadratic-homotopy-kernel.md#earlier-canonical-v-alignment) remains canonical under the same hypothesis.
 
 [The bounded rational checker](128-bounded-certificate-checker.md) verifies supplied polynomial correction identities and optional supplied-action equivariance. All examples are synthetic; actual-map authentication and actual positive rank remain undetermined. [Mr. slop's source reports](129-positive-contraction-source-reports.md) identify the marked transgression detector and constrain the actual positive contraction to at least two effective channels. Neither detector nor mechanism is selected.
 
@@ -22,7 +36,7 @@ The finite sequential criterion, completed universal component-scheme classifica
 
 ## Finite sequential positive criterion and canonical terminal sextet through PR1107
 
-[PR1107](126-finite-sequential-obstruction.md) proves the original positive generic rank is37 iff the sequential gates s3,…,s23 first become nonzero. These are original orders4–24, not independent parameters. Allzero forces rank36: a later pivot would require maximal-minor order≥31, exceeding degree30. The global two-stage gauge update retains κ remainders and continues polynomially at every order. No actual class or rank outcome is selected; no full-adjoint or square-base-change recursion is asserted. [Finite-stage visual](figures/pure-v-finite-obstruction.svg)
+[PR1107](126-finite-sequential-obstruction.md) proves the original positive generic rank is 37 iff the sequential gates s3,…,s23 first become nonzero. These are original orders 4–24, not independent parameters. All-zero forces rank 36: a later pivot would require maximal-minor order≥31, exceeding degree 30. The global two-stage gauge update retains κ remainders and continues polynomially at every order. No actual class or rank outcome is selected; no full-adjoint or square-base-change recursion is asserted. [Finite-stage visual](figures/pure-v-finite-obstruction.svg)
 
 [PR1106](125-canonical-q-terminal.md) constructs actual T_Q=Q3(NC3)=WQ2(V_C)≅T with a saturated Euler subpencil. In residual-large it complements C_term via ℓ. If τ=0, its first-block projection specifically identifies the nonzero Q2 channel onto (N0,4)_V and the terminal T it generates. This is not the earlier degree-four U_Q, a positive-module splitting or a computed fifth class.
 
@@ -30,7 +44,7 @@ Endpoint sixteen, two unselected mechanisms and four necessary source pairs rema
 
 ## Sharper bounds and the actual fifth gate through PR1104
 
-[PR1103](123-negative-rank-and-smith-bounds.md) bounds rank T_a by thirty globally and twenty-seven on squares, using genuine negative-module arrows without Q-stability. Original maximal-minor degrees have the same bounds. In residual-large α=0, finite final exponents are now 5–24 generically and 5–21 on every square, or the pivot is absent. PR1102's earlier 5–31 bound remains historical. For α≠0 the twelve conic exceptional points have range5–21 or absence; no formula is asserted at the six second-rank drops.
+[PR1103](123-negative-rank-and-smith-bounds.md) bounds rank T_a by thirty globally and twenty-seven on squares, using genuine negative-module arrows without Q-stability. Original maximal-minor degrees have the same bounds. In residual-large α=0, finite final exponents are now 5–24 generically and 5–21 on every square, or the pivot is absent. PR1102's earlier 5–31 bound remains historical. For α≠0 the twelve conic exceptional points have range 5–21 or absence; no formula is asserted at the six second-rank drops.
 
 [PR1104](124-original-fifth-gate.md) constructs the canonical global quotient-fourth map s4:P O(−4)→J when R=0 and proves iota β5=−s4L. Its actual equivariant target has dimension two; cubic lifts have one-dimensional gauge. Nonzero s4 gives generic last exponent five/minor order eleven; zero gives exponent at least six or absence. Neither coefficient is selected, and nonzero globally does not imply a nonzero fifth at every specialized direction. No positive/full-adjoint completion or source selection follows.
 
@@ -38,9 +52,9 @@ Endpoint sixteen, two unselected mechanisms and four necessary source pairs rema
 
 [Separated channels](119-separated-gate-channels.md) identify the exact lines R1−4R2 and 3R1+2R2, including the actual terminal graph. [Corrected factorization](120-corrected-factorization-and-zero-graph.md) proves Θ=aj3+ℓQ3 on all M3. In nonzero-N0, τ=0 forces R≠0; for τ≠0 zero requires the unique graph g=−τ⁻¹ℓ0. Neither incidence is selected. Residual-large retains R=0 iff its τ=0; no scalar is transported across source instances.
 
-[The surviving residual-positive theorem](121-residual-positive-smith-criterion.md) proves α≠0 iff maximal-minor ideal (t¹⁰), with exact Smith profile (0×33,2,2,2,4) for the original positive41→37 map. If α=0, the final pivot is absent or has exponent5–31: rank loss does not follow. No profile is asserted at the 28 exceptional directions, for the other mechanism or for the full adjoint.
+[The surviving residual-positive theorem](121-residual-positive-smith-criterion.md) proves α≠0 iff maximal-minor ideal (t¹⁰), with exact Smith profile (0×33,2,2,2,4) for the original positive 41→37 map. If α=0, the final pivot is absent or has exponent 5–31: rank loss does not follow. No profile is asserted at the 28 exceptional directions, for the other mechanism or for the full adjoint.
 
-[Mr. slop's PR1098 source report](122-opposite-nonzero-core-source-report.md) gives conditional intrinsic channel criteria for rows9/10/14/15, complementing the zero-gate rows17/18/20. No gate or C row is selected. Four necessary pairs and endpoint-sixteen's two mechanisms remain.
+[Mr. slop's PR1098 source report](122-opposite-nonzero-core-source-report.md) gives conditional intrinsic channel criteria for rows 9/10/14/15, complementing the zero-gate rows 17/18/20. No gate or C row is selected. Four necessary pairs and endpoint-sixteen's two mechanisms remain.
 
 ## Surviving residual-large conic restriction through PR1097
 
@@ -52,7 +66,7 @@ The nonzero-N0 mechanism still has an unselected two-dimensional coefficient spa
 
 [The full-domain Koszul-homotopy operator](116-full-koszul-homotopy-operator.md) has rank twelve, image (F3)_T and square-zero products with j3. On ker Q3 both operators have rank six, common kernel K3 and distinct canonical T images. The resulting two-generator algebra-module isomorphism type requires a noncanonical cyclic lift. Its restricted factorization through Q3 must not be extended to all M3. The full-domain theorem is pinned at PR1096.
 
-[Mr. slop's full-source reports](117-opposite-small-cores-source-report.md) give actual rank-two/rank-three source cores sharing a rank-six target, and in the zero-μ branch a one-source core with three exact intrinsic channel criteria for rows17/18/20. No branch or row is selected; these opposite spaces and scalars are separate from the pure-V lift. Terminal incidence and both endpoint-sixteen mechanisms remain unresolved.
+[Mr. slop's full-source reports](117-opposite-small-cores-source-report.md) give actual rank-two/rank-three source cores sharing a rank-six target, and in the zero-μ branch a one-source core with three exact intrinsic channel criteria for rows 17/18/20. No branch or row is selected; these opposite spaces and scalars are separate from the pure-V lift. Terminal incidence and both endpoint-sixteen mechanisms remain unresolved.
 
 ## Terminal incidence criterion through PR1096
 
@@ -268,11 +282,13 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 [The constant reverse-map theorem](61-cdf-constant-reverse-map.md) distinguishes the three-dimensional negative-only ambiguity from its zero joint-Q subspace. It does not classify parameter-dependent maps or select the c-d-f cubic.
 
-[The octic normal lift and scalar address](62-octic-normal-lift-and-scalar-address.md) gives sixteen reduced lift zeros, a unique BU+αR normal form, and an explicit gauge-independent coefficient functional. The actual lift and scalar remain unknown; lengths16,34,46 refer to different objects.
+[The octic normal lift and scalar address](62-octic-normal-lift-and-scalar-address.md) gives sixteen reduced lift zeros, a unique BU+αR normal form, and an explicit gauge-independent coefficient functional. The actual lift and scalar remain unknown; lengths 16,34,46 refer to different objects.
 
 [The even c-d-f algebra and split alternative](63-cdf-even-algebra-and-split-alternative.md) classifies the eight-dimensional quadratic-only algebra and its scalar-or-C² invariant-compatible possibilities. The nonscalar footprint implies all-orders D persistence; extra one-sided preservation excludes that footprint. Neither actual algebra alternative is selected.
 
-## Current reading order
+## Historical dependency reading order
+
+For the current checkpoint, first read [Chapter 131](131-primary-terminal-conditional-exclusion.md) and [Chapter 132](132-canonical-primary-quotient-and-four-types.md). The older order below is preserved for dependencies.
 
 Start with the [root status paper](../README.md) and [complete classification](82-pure-v-complete-nonic-classification.md), followed by [the original-fourth transfer](84-pure-v-fourth-ideal-transfer.md), then the new proofs [79](79-pure-v-fifteen-axis-scheme.md), [80](80-pure-v-no-thirty-orbit.md), [81](81-pure-v-conic-ambient-scheme.md) and [global bridge report](83-global-ninth-bridge-source-report.md), then chapters [75](75-pure-v-finite-support.md), [76](76-pure-v-four-lines.md), [77](77-ninth-forced-summands-source-report.md) and [78](78-pure-v-exact-jet-lengths.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
 
