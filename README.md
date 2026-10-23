@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: balanced sextic net and sharp apolar codimension bound**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: complete sextic-channel and coefficient-span classification**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/138-balanced-net-and-sharp-apolar-bound.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/139-complete-sextic-channel-classification.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Complete sextic-channel and coefficient-span classification
+
+[The new universal classification](paper/139-complete-sextic-channel-classification.md) covers all three equivariant sextic systems V, P and V+P, with multiplier thresholds 2, 1 and 0 and quotient lengths 27, 24 and 21. In the apolar setting it proves that the coefficient image equals the active-channel multiplier span. A nonzero map on the full system need not activate both constituents; inactive source blocks remain in the kernel and strengthen the codimension bound.
+
+The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; profile (1,1), other-profile exhaustion and the original repair remain open.
 
 ## Balanced net and sharp apolar codimension criterion
 
