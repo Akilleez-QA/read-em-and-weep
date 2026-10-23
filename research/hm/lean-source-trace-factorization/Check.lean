@@ -1,0 +1,13 @@
+module
+
+import OAI.AlgebraicGeometry.HorrocksMumford.SourceTraceFactorization
+
+set_option autoImplicit false
+
+#print axioms OAI.HorrocksMumford.sourceTraceResponse_apply
+#print axioms OAI.HorrocksMumford.sourceTraceFactorization_iff
+#print axioms OAI.HorrocksMumford.sourceTrace_ker_le_of_exact
+#print axioms OAI.HorrocksMumford.sourceTraceFactorization_of_exact
+#print axioms OAI.HorrocksMumford.sourceTrace_same_source
+#print axioms OAI.HorrocksMumford.correctedResponse_factorization
+#print axioms OAI.HorrocksMumford.correctedResponse_same_source
