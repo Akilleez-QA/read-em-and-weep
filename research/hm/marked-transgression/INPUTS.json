@@ -1,0 +1,56 @@
+[
+  {
+    "label": "BRIDGE",
+    "ref": "e567a431830f6dd37fe5fd2a65e24fc1210eedb3",
+    "path": "research/hm/global-ninth-bridge/PROOF.md",
+    "blob": "39917a2134137802c06c395931839f76ccbaef1f"
+  },
+  {
+    "label": "STEINER",
+    "ref": "47d2832dd306f26eabcfa2a57450cea982c5a153",
+    "path": "research/hm/global-steiner-reduction/PROOF.md",
+    "blob": "098af4cb145229e6c450dbe863eda8a01a2cace5"
+  },
+  {
+    "label": "MARKED",
+    "ref": "13acb1a85a38e9d236069f41b21dd4cef70ab056",
+    "path": "research/hm/positive-joint-embedding/PROOF.md",
+    "blob": "790c9b90937ab6e435c2f0691ca2ccd9e94795fb"
+  },
+  {
+    "label": "BLOCK",
+    "ref": "2a7565f5828447907ad860c861891ec2fdb4f7cb",
+    "path": "research/hm/double-mixed-block/PROOF.md",
+    "blob": "b46262931cf6d34dfd86abd1a73a7c2b91698298"
+  },
+  {
+    "label": "INCIDENCE",
+    "ref": "0201d67280fbfe0f87c84e7e726c3dc6c12bbecb",
+    "path": "research/hm/weighted-incidence-line/PROOF.md",
+    "blob": "7020da20437d326f2e4fdce32312a79aba770cad"
+  },
+  {
+    "label": "KERNEL",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/EXACT-HYPERPLANE-ADJOINT-SYZYGY-BUNDLE.md",
+    "blob": "c9af11e07dd1c4535d9afee94a3c134607d534a3"
+  },
+  {
+    "label": "SOURCE",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "blob": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3"
+  },
+  {
+    "label": "VANISH",
+    "ref": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+    "blob": "019c1f31773476f0a4877d88632ce5d46fbd4b9f"
+  },
+  {
+    "label": "SQUARES",
+    "ref": "089003175d9e31a7cf6288ab7a9e3ac4d66a3e63",
+    "path": "research/hm/exceptional-adjoint-exhaustion/PROOF.md",
+    "blob": "5764f52494dc8d6a1bfcb5a78bf9f60e42bbc1a4"
+  }
+]
