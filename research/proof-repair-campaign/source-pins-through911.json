@@ -1,0 +1,30 @@
+{
+  "PROOF.md": {
+    "local_file": "inputs/pr911_proof.md",
+    "path": "research/hm/profile11-source125-label-exclusion/PROOF.md",
+    "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+    "git_blob_sha1": "bdc939d768847dafc3978f244283d99fc644caaa",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/PROOF.md"
+  },
+  "REVIEW.md": {
+    "local_file": "inputs/pr911_review.md",
+    "path": "research/hm/profile11-source125-label-exclusion/REVIEW.md",
+    "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+    "git_blob_sha1": "3fe591d9539c68a18123c0da95de7dd3331ccfe4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/REVIEW.md"
+  },
+  "COVERAGE.json": {
+    "local_file": "inputs/pr911_coverage.json",
+    "path": "research/hm/profile11-source125-label-exclusion/COVERAGE.json",
+    "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+    "git_blob_sha1": "3cc8c3edc56851feaf368c6dab1614ec18a530a9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/COVERAGE.json"
+  },
+  "original_endpoint": {
+    "local_file": "inputs/pr911_original_endpoint_necessity.md",
+    "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md"
+  }
+}

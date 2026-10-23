@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "catalog_commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+  "source_index": 125,
+  "stable_label": "G3.11.ea6bced3bddf",
+  "A_q": [
+    [
+      -10,
+      "one"
+    ],
+    [
+      4,
+      "one"
+    ],
+    [
+      16,
+      "one"
+    ]
+  ],
+  "B_q": [
+    [
+      -18,
+      "one"
+    ],
+    [
+      -6,
+      "one"
+    ],
+    [
+      8,
+      "one"
+    ]
+  ],
+  "original_defect": 0,
+  "closure_state": "exact_ten_row_dependencies_complete",
+  "proofs": {
+    "ee": {
+      "status": "published",
+      "pr": 846,
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "git_blob": "c62eb6cc2e5368f9a5364121fd9df4e67198f8d0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "audit_file": "ee.md",
+      "scope_markers": [
+        "- G3.11.ea6bced3bddf, source index125: tuple (0,0,0,0,2,0,0,1).",
+        "## 6. The ee source of index125 is impossible",
+        "E=3P O(-2)+2Wp O(-5)+O(-10),"
+      ]
+    },
+    "ef": {
+      "status": "published",
+      "pr": 860,
+      "commit": "cdf1d9ae5e477ef5f541d92888059ceedb4fd9b4",
+      "path": "research/hm/profile11-source125-ef-exclusion/PROOF.md",
+      "git_blob": "75e46cbd8c56a9a969691663d34587825cb8eb71",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cdf1d9ae5e477ef5f541d92888059ceedb4fd9b4/research/hm/profile11-source125-ef-exclusion/PROOF.md",
+      "audit_file": "ef.md",
+      "scope_markers": [
+        "(a,b,c,d,e,f,g,h) = (0,0,0,0,1,1,0,1)",
+        "E = (2P+D) O(-2) + Wp O(-5) + O(-8) + O(-10),",
+        "This proves the stated ef source exclusion."
+      ]
+    },
+    "bf": {
+      "status": "published",
+      "pr": 875,
+      "commit": "01f835fda6e771351555f0af1fa11647c27eb01e",
+      "path": "research/hm/profile11-source125-bf-exclusion/PROOF.md",
+      "git_blob": "5c0ec54ce5d234780f16c20d41134c18a32e6417",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01f835fda6e771351555f0af1fa11647c27eb01e/research/hm/profile11-source125-bf-exclusion/PROOF.md",
+      "audit_file": "bf.md",
+      "scope_markers": [
+        "This proof excludes exactly source125 tuple (0,1,0,0,0,1,0,1) for G3.11.ea6bced3bddf:",
+        "E=(P+D) O(-2)+T O(-3)+O(-8)+O(-10),",
+        "This eliminates the last first-span case and proves the bf source exclusion."
+      ]
+    },
+    "cf": {
+      "status": "published",
+      "pr": 882,
+      "commit": "ef8ed8d457494608472a2c07de776e9162b2c20f",
+      "path": "research/hm/profile11-source125-cf-exclusion/PROOF.md",
+      "git_blob": "b4ccaf9d3e5a77f0069664e86ae303a962e39442",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef8ed8d457494608472a2c07de776e9162b2c20f/research/hm/profile11-source125-cf-exclusion/PROOF.md",
+      "audit_file": "cf.md",
+      "scope_markers": [
+        "The single original source under consideration is tuple (0,0,1,0,0,1,0,1) at source index125 for label G3.11.ea6bced3bddf:",
+        "E=(V+P+D) O(-2)+V O(-4)+O(-8)+O(-10),",
+        "proving the whole-source cf exclusion."
+      ]
+    },
+    "be": {
+      "status": "published",
+      "pr": 887,
+      "commit": "3ab2f311ed2e87828d42c7c0ce0124bcd6e35771",
+      "path": "research/hm/profile11-source125-be-exclusion/PROOF.md",
+      "git_blob": "139ed6f19e5ab2ead6c9029e95e751ea132a0a49",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3ab2f311ed2e87828d42c7c0ce0124bcd6e35771/research/hm/profile11-source125-be-exclusion/PROOF.md",
+      "audit_file": "be.md",
+      "scope_markers": [
+        "The single original source is tuple (0,1,0,0,1,0,0,1), source index125, label G3.11.ea6bced3bddf:",
+        "E=2P O(-2)+T O(-3)+Wp O(-5)+O(-10),",
+        "This proves the be source exclusion."
+      ]
+    },
+    "ce": {
+      "status": "published",
+      "pr": 893,
+      "commit": "7645e2458c3b85c5d814c22255dae8cabc7226bc",
+      "path": "research/hm/profile11-source125-ce-exclusion/PROOF.md",
+      "git_blob": "fba1eb60737405f3ced37ab2d5542ca17eef20cb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7645e2458c3b85c5d814c22255dae8cabc7226bc/research/hm/profile11-source125-ce-exclusion/PROOF.md",
+      "audit_file": "ce.md",
+      "scope_markers": [
+        "The source is index125 tuple (0,0,1,0,1,0,0,1), label G3.11.ea6bced3bddf:",
+        "E=(V+2P) O(-2)+V O(-4)+Wp O(-5)+O(-10),",
+        "this proves the entire original ce source exclusion."
+      ]
+    },
+    "cc": {
+      "status": "published",
+      "pr": 895,
+      "commit": "f720acbe80547fd1bccd5ff54e6b62a4daa41834",
+      "path": "research/hm/profile11-source125-cc-exclusion/PROOF.md",
+      "git_blob": "d997b3822a32f33ab63ad8e3db27fcf043528bf7",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f720acbe80547fd1bccd5ff54e6b62a4daa41834/research/hm/profile11-source125-cc-exclusion/PROOF.md",
+      "audit_file": "cc.md",
+      "scope_markers": [
+        "This proof concerns exactly source index125, tuple (0,0,2,0,0,0,0,1), for the original label G3.11.ea6bced3bddf:",
+        "E=(2V+P) O(-2)+2V O(-4)+O(-10),",
+        "This proves the cc source exclusion."
+      ]
+    },
+    "bb_bc": {
+      "status": "published",
+      "pr": 906,
+      "commit": "d679aa09811f821505254572a51e65b2904d03c9",
+      "path": "research/hm/profile11-source125-bb-bc-exclusion/PROOF.md",
+      "git_blob": "2d6256b9b3350c0cecfadd022cdd302c216b37cb",
+      "sha256": "9d0ac1a9bfbd0bb1f30b42721d456f0ee7776b215c07b52648e62f416f90758c",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d679aa09811f821505254572a51e65b2904d03c9/research/hm/profile11-source125-bb-bc-exclusion/PROOF.md",
+      "audit_file": "bb_bc.md",
+      "review_audit_file": "bb_bc-review.md",
+      "review_sha256": "4cdb87817e8722602ce01ebf5db793b8db3e90b1fd9644941ed35e86626fe0d1",
+      "scope_markers": [
+        "This excludes exactly two original source tuples at index125, stable label G3.11.ea6bced3bddf:",
+        "bb=(0,2,0,0,0,0,0,1): E=P(-2)+2T(-3)+O(-10),",
+        "bc=(0,1,1,0,0,0,0,1): E=(V+P)(-2)+T(-3)+V(-4)+O(-10).",
+        "This proves exactly the two displayed original bb and bc exclusions."
+      ],
+      "review_path": "research/hm/profile11-source125-bb-bc-exclusion/REVIEW.md",
+      "review_git_blob": "31fc9e225dc0c2201ba88520ff7b01d794a76b6b"
+    }
+  },
+  "rows": [
+    {
+      "name": "ff",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          2
+        ],
+        [
+          8,
+          "one",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "direct_ff"
+    },
+    {
+      "name": "ef",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "ef"
+    },
+    {
+      "name": "ee",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          3
+        ],
+        [
+          5,
+          "Wp",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "ee"
+    },
+    {
+      "name": "cf",
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "cf"
+    },
+    {
+      "name": "ce",
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "ce"
+    },
+    {
+      "name": "cc",
+      "tuple": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "V",
+          2
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          4,
+          "V",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "cc"
+    },
+    {
+      "name": "bf",
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "bf"
+    },
+    {
+      "name": "be",
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "be"
+    },
+    {
+      "name": "bc",
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "bb_bc"
+    },
+    {
+      "name": "bb",
+      "tuple": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          3,
+          "T",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "proof": "bb_bc"
+    }
+  ]
+}

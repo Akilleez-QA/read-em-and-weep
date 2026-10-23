@@ -1,0 +1,2275 @@
+{
+  "boundary": {
+    "PR869": "Nonempty abstract degree28 family; no HM realization or exclusion.",
+    "PR876": "Nonempty abstract source127 cdf family; no HM realization or exclusion.",
+    "all_other_results": "Deferred; no inference from abstracts or conditional branches.",
+    "necessary_relation_not_realizability": true,
+    "no_actual_instance_computation": true,
+    "not_Lean_certified": true
+  },
+  "checkpoint": "whole-label-through911",
+  "complete_original_source_coverage": [
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          2
+        ],
+        [
+          8,
+          "one",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "strict_top_D_multiplicity2_gt1_not_fiber_injectivity",
+      "name": "ff",
+      "proof": "direct_ff",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "lowerPzero_included_three_kernels_all_four_internal_images",
+      "name": "ef",
+      "proof": "ef",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          3
+        ],
+        [
+          5,
+          "Wp",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "forced_twoP_kernel_both_kernels_all_internalzero",
+      "name": "ee",
+      "proof": "ee",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "lowerPzero_excluded_both_highD_spans_all_scalar_component_cases",
+      "name": "cf",
+      "proof": "cf",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "both_lowerV_rows_highP_onto_or_divisor12_both_restricted_q_cases",
+      "name": "ce",
+      "proof": "ce",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "V",
+          2
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          4,
+          "V",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "two_targetV_not_strict_top_raw_divisor_and_coherent_tail",
+      "name": "cc",
+      "proof": "cc",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          2,
+          "D",
+          1
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          8,
+          "one",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "lowerP_nonzero_all_highD_images_scalar_and_T_cases",
+      "name": "bf",
+      "proof": "bf",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          2
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          5,
+          "Wp",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "both_lowerrow_and_divisor_alternatives_three_kernels_negative_residual",
+      "name": "be",
+      "proof": "be",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "V",
+          1
+        ],
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          3,
+          "T",
+          1
+        ],
+        [
+          4,
+          "V",
+          1
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "scalarO10_retained_quartic_zero_and_nonzero_actual_quotients",
+      "name": "bc",
+      "proof": "bb_bc",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "bundle": [
+        [
+          2,
+          "P",
+          1
+        ],
+        [
+          3,
+          "T",
+          2
+        ],
+        [
+          10,
+          "one",
+          1
+        ]
+      ],
+      "complete_scope": "scalarO10_retained_actual_constantA_P_linearT_excluded",
+      "name": "bb",
+      "proof": "bb_bc",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "fixed_campaign805_comparison": {
+    "baseline_file": "frontier.json",
+    "baseline_labels": 17,
+    "baseline_necessary_pairs": 1790,
+    "baseline_sha256": "3315d80f651911f87e8b12006263994cd591a4b5938e621fcf6bda111332b77c",
+    "final_labels": 3,
+    "final_necessary_pairs": 146,
+    "labels_removed": 14,
+    "necessary_pairs_removed": 1644,
+    "remaining_ids_subset_of_original": true
+  },
+  "new_full_label_exclusion_ledger": [
+    {
+      "actual_additional_pair_count": 0,
+      "complete_original_source_count": 10,
+      "id": "G3.11.ea6bced3bddf",
+      "kind": "whole_label",
+      "original_source_index": 125,
+      "proof_commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+      "removed_pairs": []
+    }
+  ],
+  "new_source_edge_exclusions": [],
+  "pair_accounting": {
+    "additional_removed_pairs": 0,
+    "input_necessary_pairs": 146,
+    "remaining_necessary_pairs": 146
+  },
+  "previous_checkpoint": {
+    "file": "frontier-source-through907.json",
+    "necessary_pairs": 146,
+    "sha256": "f7b9a00a617792d9127c787e386ab7ab46933e78b94fe2d5340b7368aa60deda"
+  },
+  "profile_counts": {
+    "11": 2,
+    "12": 0,
+    "21": 1
+  },
+  "records": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          26,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -28,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.8ae96830fd21",
+      "input_necessary_pair_count": 4,
+      "profile": "11",
+      "relation_empty": false,
+      "remaining_source_pair_count": 4,
+      "remaining_source_pairs": [
+        [
+          10,
+          129
+        ],
+        [
+          10,
+          157
+        ],
+        [
+          10,
+          231
+        ],
+        [
+          10,
+          249
+        ]
+      ],
+      "removed_pair_count": 0,
+      "removed_source_pairs": []
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.cce6e3ba4eeb",
+      "input_necessary_pair_count": 96,
+      "profile": "11",
+      "relation_empty": false,
+      "remaining_source_pair_count": 64,
+      "remaining_source_pairs": [
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          14,
+          35
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          14,
+          38
+        ],
+        [
+          14,
+          40
+        ],
+        [
+          14,
+          41
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          14,
+          82
+        ],
+        [
+          14,
+          83
+        ],
+        [
+          14,
+          105
+        ],
+        [
+          14,
+          107
+        ],
+        [
+          14,
+          108
+        ],
+        [
+          14,
+          109
+        ],
+        [
+          14,
+          117
+        ],
+        [
+          14,
+          123
+        ],
+        [
+          14,
+          142
+        ],
+        [
+          14,
+          143
+        ],
+        [
+          14,
+          145
+        ],
+        [
+          14,
+          146
+        ],
+        [
+          14,
+          148
+        ],
+        [
+          14,
+          150
+        ],
+        [
+          14,
+          153
+        ],
+        [
+          14,
+          154
+        ],
+        [
+          14,
+          158
+        ],
+        [
+          14,
+          159
+        ],
+        [
+          14,
+          160
+        ],
+        [
+          14,
+          161
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          24,
+          35
+        ],
+        [
+          24,
+          36
+        ],
+        [
+          24,
+          38
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          24,
+          41
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          24,
+          82
+        ],
+        [
+          24,
+          83
+        ],
+        [
+          24,
+          105
+        ],
+        [
+          24,
+          107
+        ],
+        [
+          24,
+          108
+        ],
+        [
+          24,
+          109
+        ],
+        [
+          24,
+          117
+        ],
+        [
+          24,
+          123
+        ],
+        [
+          24,
+          142
+        ],
+        [
+          24,
+          143
+        ],
+        [
+          24,
+          145
+        ],
+        [
+          24,
+          146
+        ],
+        [
+          24,
+          148
+        ],
+        [
+          24,
+          150
+        ],
+        [
+          24,
+          153
+        ],
+        [
+          24,
+          154
+        ],
+        [
+          24,
+          158
+        ],
+        [
+          24,
+          159
+        ],
+        [
+          24,
+          160
+        ],
+        [
+          24,
+          161
+        ]
+      ],
+      "removed_pair_count": 32,
+      "removed_source_pairs": [
+        [
+          21,
+          18
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          21,
+          36
+        ],
+        [
+          21,
+          38
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          21,
+          82
+        ],
+        [
+          21,
+          83
+        ],
+        [
+          21,
+          105
+        ],
+        [
+          21,
+          107
+        ],
+        [
+          21,
+          108
+        ],
+        [
+          21,
+          109
+        ],
+        [
+          21,
+          117
+        ],
+        [
+          21,
+          123
+        ],
+        [
+          21,
+          142
+        ],
+        [
+          21,
+          143
+        ],
+        [
+          21,
+          145
+        ],
+        [
+          21,
+          146
+        ],
+        [
+          21,
+          148
+        ],
+        [
+          21,
+          150
+        ],
+        [
+          21,
+          153
+        ],
+        [
+          21,
+          154
+        ],
+        [
+          21,
+          158
+        ],
+        [
+          21,
+          159
+        ],
+        [
+          21,
+          160
+        ],
+        [
+          21,
+          161
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.21.d610e381ed75",
+      "input_necessary_pair_count": 78,
+      "profile": "21",
+      "relation_empty": false,
+      "remaining_source_pair_count": 78,
+      "remaining_source_pairs": [
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "removed_pair_count": 0,
+      "removed_source_pairs": []
+    }
+  ],
+  "remaining_ids": [
+    "G3.11.8ae96830fd21",
+    "G3.11.cce6e3ba4eeb",
+    "G3.21.d610e381ed75"
+  ],
+  "remaining_label_count": 3,
+  "residual_source_summary": [
+    {
+      "id": "G3.11.8ae96830fd21",
+      "necessary_pair_count": 4,
+      "profile": "11",
+      "remaining_source_definitions": [
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -9,
+              "W"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "necessary_pair_count": 4
+        }
+      ]
+    },
+    {
+      "id": "G3.11.cce6e3ba4eeb",
+      "necessary_pair_count": 64,
+      "profile": "11",
+      "remaining_source_definitions": [
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -4,
+              "P"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 32
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              -3,
+              "T"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 32
+        }
+      ]
+    },
+    {
+      "id": "G3.21.d610e381ed75",
+      "necessary_pair_count": 78,
+      "profile": "21",
+      "remaining_source_definitions": [
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            1
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -5,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "V"
+            ],
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "T"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -9,
+              "W"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -5,
+              "Wp"
+            ],
+            [
+              -9,
+              "W"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "V"
+            ],
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -9,
+              "W"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "T"
+            ],
+            [
+              -9,
+              "W"
+            ]
+          ],
+          "coefficients": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -4,
+              "P"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "D"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -8,
+              "one"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "P"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -5,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "V"
+            ],
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            1,
+            0,
+            2,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 6
+        },
+        {
+          "blocks": [
+            [
+              -2,
+              "D"
+            ],
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              -3,
+              "T"
+            ],
+            [
+              -4,
+              "V"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "coefficients": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "necessary_pair_count": 6
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Only original source125 label gate closes. Source2, index127 and8ae remain. Necessary pairs are not realizations. No formal proof or actual-instance claim.",
+  "source_pins": {
+    "COVERAGE.json": {
+      "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+      "git_blob_sha1": "3cc8c3edc56851feaf368c6dab1614ec18a530a9",
+      "local_file": "inputs/pr911_coverage.json",
+      "path": "research/hm/profile11-source125-label-exclusion/COVERAGE.json",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/COVERAGE.json"
+    },
+    "PROOF.md": {
+      "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+      "git_blob_sha1": "bdc939d768847dafc3978f244283d99fc644caaa",
+      "local_file": "inputs/pr911_proof.md",
+      "path": "research/hm/profile11-source125-label-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/PROOF.md"
+    },
+    "REVIEW.md": {
+      "commit": "64945ab759c313f1aa35611f91236ee7deb387dd",
+      "git_blob_sha1": "3fe591d9539c68a18123c0da95de7dd3331ccfe4",
+      "local_file": "inputs/pr911_review.md",
+      "path": "research/hm/profile11-source125-label-exclusion/REVIEW.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64945ab759c313f1aa35611f91236ee7deb387dd/research/hm/profile11-source125-label-exclusion/REVIEW.md"
+    },
+    "original_endpoint": {
+      "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+      "local_file": "inputs/pr911_original_endpoint_necessity.md",
+      "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md"
+    }
+  },
+  "source_pins_sha256": "70367df9c1b804d08180ddd708d85df81e3509e02453962409471ba744413196"
+}
