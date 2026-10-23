@@ -2,6 +2,16 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## c-d-f one-sided preserved-block interface through PR1001
+
+[PR1001](https://github.com/Akilleez-QA/read-em-and-weep/blob/a7aa990e7705dd9dbf3d0fd34e437fa735c9e0f1/research/hm/cdf-preserved-b-symbol/PROOF.md) assumes only Q(X_B)⊂Y_B. It then forces the entire actual kernel A+D into X_B, restricted Q-image V+2P+D of dimension16, restricted cokernel D, and quotient cohomology D/P with connecting isomorphism. The internal first is nonzero multiplication on A and zero on D; the quotient first is the nonzero multiplication-to-P channel. No complementary preservation, projector or proof of the preservation hypothesis is supplied. Four source-dual pairs and three labels remain. [Precise scope](57-cdf-preserved-b-interface.md).
+
+## Octic target-factor zero scheme through PR1000
+
+[PR1000](https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md) determines the canonical invariant target section σ∈H⁰(E(4)) up to its exact zero scheme: length34, supported on six order-five axes with completed ideal (u²,v²) and ten simple order-three axes. It is nowhere zero on the square conic. A minimal ideal resolution and Hilbert function certify the length. This is the target factor only; source-row zeros and the actual octic scalar remain uncomputed here. [Details](56-octic-target-zero-scheme.md).
+
+The [collaborator report](55-opposite-bundle-seven-types.md) separately records seven necessary opposite-bundle types and the canonical quotient C→O(2), without selecting the actual row or vertex scalar. Its top-polar σ is unrelated to the invariant target section denoted σ above. The four-pair/three-label source frontier is unchanged.
+
 ## Secondary octic test ruled out through PR998
 
 [PR998](https://github.com/Akilleez-QA/read-em-and-weep/blob/76d415dc9d6c6dda782d5de3f87fca82a4a2d258/research/hm/source126-secondary-octic/PROOF.md) proves ψρκ=0 for every equivariant quartic covector ψ: the composition would be a degree-nine invariant polynomial on the three-dimensional parameter representation A, whose invariant space is zero. Thus νr8ρκ=0 is automatic on the canonical octic line and imposes no condition on its scalar, even if ν≠0. A different actual relation is required. This is a new exact negative result about the test, not a newly vanishing obstruction. Counts remain four pairs and three labels. [Details and certificate](54-secondary-octic-zero-test.md).
