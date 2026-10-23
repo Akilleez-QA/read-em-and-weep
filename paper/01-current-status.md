@@ -2,6 +2,20 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Even c-d-f algebra through PR1015
+
+[PR1015](https://github.com/Akilleez-QA/read-em-and-weep/blob/e6cdc5c10d2cb1aed27eb76ff44d0b4aa652bdce/research/hm/cdf-even-commutant-split-line/PROOF.md) classifies the eight-dimensional negative-quadratic endpoint algebra, with four square-zero arrows, separately from the four-dimensional full-linear algebra. Actual Q generation leaves either scalars or C². The unique nonscalar idempotent footprint puts L_V on the F side and L_P on the B side, retaining two unselected graph shears. Its onto F block lifts the original D formally to all orders, forcing generic original rank36 and later original generic Bocksteins zero. This alternative is not asserted to occur.
+
+Under additional one-sided B preservation it is impossible, so the even Q-compatible algebra is scalar. The one-sided raw cubic remains unselected and three-dimensional; no source pair is removed. [Exact conditional statements](63-cdf-even-algebra-and-split-alternative.md).
+
+## Normal lift and constant-map boundary through PR1013
+
+[PR1013](https://github.com/Akilleez-QA/read-em-and-weep/blob/9f3509ff76b9f1fbb5d61288aa0ae036b5c16aca/research/hm/source126-typeII-octic-normal-lift/PROOF.md) supplies the canonical polynomial lift R=κψ, its sixteen reduced zeros, and the unique normal form L=BU+αR. This differs from the projected map's length46 and target section's length34. In the pinned homogeneous coordinates α=−27[p⁰q⁸t⁰]L₀₀ is gauge-independent. **The actual L is missing and its coefficient is not computed.** Square-zero behavior of R does not descend automatically to E or force α=0. [Full scope](62-octic-normal-lift-and-scalar-address.md).
+
+[PR1011](https://github.com/Akilleez-QA/read-em-and-weep/blob/446dbfd04f6fb689c30975174dcc23d6f4c88c64/research/hm/cdf-quadratic-reverse-map-vanishing/PROOF.md) classifies the negative-quadratic reverse Hom as three-dimensional and target-only, then uses actual generation to prove its joint-Q subspace is zero under one-sided preservation. This rules out fixed parameter-independent reverse maps, not direction-dependent or deformation-dependent maps. The c-d-f cubic remains a raw three-dimensional unselected gate. [Precise reconstruction](61-cdf-constant-reverse-map.md).
+
+The necessary frontier remains four pairs across three labels.
+
 ## Duality shortcut excluded through PR1008
 
 [PR1008](https://github.com/Akilleez-QA/read-em-and-weep/blob/18a22f8d8fecf4c321a247c44fe1f0f411115957/research/hm/cdf-duality-complement-barrier/PROOF.md) identifies the actual Serre transpose in H³ twists -9→-7, not the original H¹ window. One-sided preservation transfers to an annihilator inclusion, not automatically to complementary preservation. A character-faithful Laurent counterfamily retains the required kernel/cokernel characters, one-sided preservation, perfect graded adjunction and scalar compatible algebra while violating complementary preservation. It is not an actual HM realization and does not enforce the full multiplication or Bockstein relations. Thus additional actual geometry, not duality alone, is needed for that route. The conditional cubic and four-pair/three-label frontier are unchanged. [Precise boundary](60-cdf-duality-complement-barrier.md).

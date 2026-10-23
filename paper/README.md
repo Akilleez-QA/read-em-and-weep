@@ -1,6 +1,6 @@
-# Living research paper · v0.24
+# Living research paper · v0.26
 
-**Craig Ward · 23 October 2026 · Structural update through PR1008; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1015; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
@@ -50,38 +50,47 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [The c-d-f duality boundary](60-cdf-duality-complement-barrier.md) proves that the stated duality, character and scalar-commutant conditions alone do not force complementary preservation. Its formal counterfamily is not an actual HM or full multiplication model; the one-sided hypothesis and cubic value remain open.
 
+[The constant reverse-map theorem](61-cdf-constant-reverse-map.md) distinguishes the three-dimensional negative-only ambiguity from its zero joint-Q subspace. It does not classify parameter-dependent maps or select the c-d-f cubic.
+
+[The octic normal lift and scalar address](62-octic-normal-lift-and-scalar-address.md) gives sixteen reduced lift zeros, a unique BU+αR normal form, and an explicit gauge-independent coefficient functional. The actual lift and scalar remain unknown; lengths16,34,46 refer to different objects.
+
+[The even c-d-f algebra and split alternative](63-cdf-even-algebra-and-split-alternative.md) classifies the eight-dimensional quadratic-only algebra and its scalar-or-C² invariant-compatible possibilities. The nonscalar footprint implies all-orders D persistence; extra one-sided preservation excludes that footprint. Neither actual algebra alternative is selected.
+
 ## Current reading order
 
 1. [Root status paper](../README.md)
-2. [c-d-f duality boundary](60-cdf-duality-complement-barrier.md)
-3. [c-d-f cubic gate](59-cdf-preserved-b-cubic.md)
-4. [Full octic generator zero scheme](58-full-octic-generator-zero-scheme.md)
-5. [c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md)
-6. [Octic target zero scheme](56-octic-target-zero-scheme.md)
-7. [Opposite-bundle source report](55-opposite-bundle-seven-types.md)
-8. [Secondary octic zero test](54-secondary-octic-zero-test.md)
-9. [Internal octic gate](53-internal-octic-gate.md)
-10. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
-11. [Single compatible-line footprints](50-compatible-line-footprints.md)
-12. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
-13. [Collective radical images and generic rank](48-collective-radical-images.md)
-14. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
-15. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
-16. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
-17. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
-18. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
-19. [Compatibility exclusions](42-polar-integrability.md)
-20. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
-21. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
-22. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
-23. [Source2 compatibility](38-source2-compatibility.md)
-24. [Compatibility and torsion update](37-compatibility-and-torsion.md)
-25. [Source126 quotient specialization](36-source126-dual-specialization.md)
-26. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
-27. [Current progress map](progress-map.md)
-28. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
-29. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
-30. [Execution and supporting formalization](32-burn-execution-and-verification.md)
-31. [Physical construction chain](33-burn-physical-construction.md)
+2. [Even c-d-f algebra](63-cdf-even-algebra-and-split-alternative.md)
+3. [Octic normal lift and scalar address](62-octic-normal-lift-and-scalar-address.md)
+4. [Constant c-d-f reverse maps](61-cdf-constant-reverse-map.md)
+5. [c-d-f duality boundary](60-cdf-duality-complement-barrier.md)
+6. [c-d-f cubic gate](59-cdf-preserved-b-cubic.md)
+7. [Full octic generator zero scheme](58-full-octic-generator-zero-scheme.md)
+8. [c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md)
+9. [Octic target zero scheme](56-octic-target-zero-scheme.md)
+10. [Opposite-bundle source report](55-opposite-bundle-seven-types.md)
+11. [Secondary octic zero test](54-secondary-octic-zero-test.md)
+12. [Internal octic gate](53-internal-octic-gate.md)
+13. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
+14. [Single compatible-line footprints](50-compatible-line-footprints.md)
+15. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
+16. [Collective radical images and generic rank](48-collective-radical-images.md)
+17. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
+18. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
+19. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
+20. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
+21. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
+22. [Compatibility exclusions](42-polar-integrability.md)
+23. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
+24. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
+25. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
+26. [Source2 compatibility](38-source2-compatibility.md)
+27. [Compatibility and torsion update](37-compatibility-and-torsion.md)
+28. [Source126 quotient specialization](36-source126-dual-specialization.md)
+29. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
+30. [Current progress map](progress-map.md)
+31. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
+32. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
+33. [Execution and supporting formalization](32-burn-execution-and-verification.md)
+34. [Physical construction chain](33-burn-physical-construction.md)
 
 Earlier chapters and figures are dated snapshots, not live counters. The historical burn endpoint remains three labels and 146 pairs; its figure is preserved. Supporting formalization remains 66 declarations in 13 draft packages, not a formal proof of the complete repair. Markdown is the maintained paper source.
