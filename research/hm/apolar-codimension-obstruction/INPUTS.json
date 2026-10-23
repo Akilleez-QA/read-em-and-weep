@@ -1,0 +1,23 @@
+[
+  {
+    "file": "inputs/balanced-sextic-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/176645bb2f022b68f86414ced87667a45e4930e2/research/hm/balanced-sextic-syzygies/PROOF.md",
+    "bytes": 7134,
+    "sha256": "2ea61681c18105cbba37e7135fc968aa9052e14eff71d963e8c374f55f041122",
+    "git_blob_sha1": "9bf944c40951a06378c48b743157ed0c1710aead"
+  },
+  {
+    "file": "inputs/profile11-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/PROOF.md",
+    "bytes": 16005,
+    "sha256": "47ce243076419081917682b9ab78990e7cf8066598d8eae1f4a175e80ab91b98",
+    "git_blob_sha1": "357b420e0254de52a3ae5d4510744478159a1a10"
+  },
+  {
+    "file": "characters.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/characters.py",
+    "bytes": 1776,
+    "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1",
+    "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9"
+  }
+]

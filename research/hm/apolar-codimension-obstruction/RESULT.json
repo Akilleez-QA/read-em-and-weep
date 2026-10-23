@@ -1,0 +1,230 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_inputs": 3,
+  "checks": 11736,
+  "degree_range": [
+    {
+      "d": 2,
+      "general_bound": 6,
+      "k": 1,
+      "n": 8,
+      "nonzero_high_bound": 7
+    },
+    {
+      "d": 3,
+      "general_bound": 7,
+      "k": 2,
+      "n": 9,
+      "nonzero_high_bound": 8
+    },
+    {
+      "d": 4,
+      "general_bound": 8,
+      "k": 3,
+      "n": 10,
+      "nonzero_high_bound": 9
+    },
+    {
+      "d": 5,
+      "general_bound": 9,
+      "k": 4,
+      "n": 11,
+      "nonzero_high_bound": 10
+    },
+    {
+      "d": 6,
+      "general_bound": 10,
+      "k": 5,
+      "n": 12,
+      "nonzero_high_bound": 11
+    },
+    {
+      "d": 7,
+      "general_bound": 11,
+      "k": 6,
+      "n": 13,
+      "nonzero_high_bound": 12
+    },
+    {
+      "d": 8,
+      "general_bound": 12,
+      "k": 7,
+      "n": 14,
+      "nonzero_high_bound": 13
+    },
+    {
+      "d": 9,
+      "general_bound": 13,
+      "k": 8,
+      "n": 15,
+      "nonzero_high_bound": 14
+    },
+    {
+      "d": 10,
+      "general_bound": 14,
+      "k": 9,
+      "n": 16,
+      "nonzero_high_bound": 15
+    },
+    {
+      "d": 11,
+      "general_bound": 15,
+      "k": 10,
+      "n": 17,
+      "nonzero_high_bound": 16
+    },
+    {
+      "d": 12,
+      "general_bound": 16,
+      "k": 11,
+      "n": 18,
+      "nonzero_high_bound": 17
+    },
+    {
+      "d": 13,
+      "general_bound": 17,
+      "k": 12,
+      "n": 19,
+      "nonzero_high_bound": 18
+    },
+    {
+      "d": 14,
+      "general_bound": 18,
+      "k": 13,
+      "n": 20,
+      "nonzero_high_bound": 19
+    },
+    {
+      "d": 15,
+      "general_bound": 19,
+      "k": 14,
+      "n": 21,
+      "nonzero_high_bound": 20
+    },
+    {
+      "d": 16,
+      "general_bound": 20,
+      "k": 15,
+      "n": 22,
+      "nonzero_high_bound": 21
+    },
+    {
+      "d": 17,
+      "general_bound": 21,
+      "k": 16,
+      "n": 23,
+      "nonzero_high_bound": 22
+    },
+    {
+      "d": 18,
+      "general_bound": 22,
+      "k": 17,
+      "n": 24,
+      "nonzero_high_bound": 23
+    },
+    {
+      "d": 19,
+      "general_bound": 23,
+      "k": 18,
+      "n": 25,
+      "nonzero_high_bound": 24
+    },
+    {
+      "d": 20,
+      "general_bound": 24,
+      "k": 19,
+      "n": 26,
+      "nonzero_high_bound": 25
+    },
+    {
+      "d": 21,
+      "general_bound": 25,
+      "k": 20,
+      "n": 27,
+      "nonzero_high_bound": 26
+    },
+    {
+      "d": 22,
+      "general_bound": 26,
+      "k": 21,
+      "n": 28,
+      "nonzero_high_bound": 27
+    },
+    {
+      "d": 23,
+      "general_bound": 27,
+      "k": 22,
+      "n": 29,
+      "nonzero_high_bound": 28
+    },
+    {
+      "d": 24,
+      "general_bound": 28,
+      "k": 23,
+      "n": 30,
+      "nonzero_high_bound": 29
+    },
+    {
+      "d": 25,
+      "general_bound": 29,
+      "k": 24,
+      "n": 31,
+      "nonzero_high_bound": 30
+    },
+    {
+      "d": 26,
+      "general_bound": 30,
+      "k": 25,
+      "n": 32,
+      "nonzero_high_bound": 31
+    },
+    {
+      "d": 27,
+      "general_bound": 31,
+      "k": 26,
+      "n": 33,
+      "nonzero_high_bound": 32
+    },
+    {
+      "d": 28,
+      "general_bound": 32,
+      "k": 27,
+      "n": 34,
+      "nonzero_high_bound": 33
+    },
+    {
+      "d": 29,
+      "general_bound": 33,
+      "k": 28,
+      "n": 35,
+      "nonzero_high_bound": 34
+    },
+    {
+      "d": 30,
+      "general_bound": 34,
+      "k": 29,
+      "n": 36,
+      "nonzero_high_bound": 35
+    },
+    {
+      "d": 31,
+      "general_bound": 35,
+      "k": 30,
+      "n": 37,
+      "nonzero_high_bound": 36
+    },
+    {
+      "d": 32,
+      "general_bound": 36,
+      "k": 31,
+      "n": 38,
+      "nonzero_high_bound": 37
+    }
+  ],
+  "formal_apolar_parameter_sampled": false,
+  "general_bound": "codimension >= n-2",
+  "new_actual_profile_exclusion": false,
+  "nonzero_high_bound": "codimension >= n-1",
+  "scope": "Universal sharp sextic-channel apolar codimension obstruction",
+  "sharp_abstract_models": true
+}
