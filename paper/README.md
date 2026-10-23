@@ -1,8 +1,17 @@
-# Living research paper · v0.32
+# Living research paper · v0.33
 
-**Craig Ward · 23 October 2026 · Structural update through PR1046; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1049; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Actual-map extensions through PR1049
+
+The completed five-stratum component-scheme classification and its original-fourth D transfer remain unchanged. The next two results refine actual maps and their kernel sheaves without selecting a coefficient or source.
+
+- [Polarized sandwich identities](85-pure-v-polarized-sandwich.md): under actual nonzero Q-compatible pure-V radical, hTₐh=0 and KₐKᵦ=0 for independent negative quadratics. The middle products vanish with all four linear factors restricted to the same negative W. The alternating cross-direction defect is not proved zero; it factors through the stated 29→28 interface. No full-pencil commutation or coefficient equation follows.
+- [Kernel bridge](86-pure-v-kernel-bridge.md): for each nonzero universal member, 0→O(-4)→K_H→K_F(1)→C_L→0 is exact, with C_L of length ten. Both kernels are bundles, but the intermediate sheaf E is locally R²⊕m at every order-three axis, including the jet line. Its double dual is K_F(1), its defect has length ten, and the Koszul extension is nontrivial. The O(-4) injection is not a subbundle there. The Chern correction and fiber-image distinctions retain this singularity.
+
+These statements do not assert new submodule consequences, cross-direction commutation, additional specialized A-kernel classes or actual coefficient selection. The zero gate is outside the finite-base kernel theorem. Four necessary pairs across three labels and the open original repair remain unchanged.
 
 ## Exact original-fourth transfer through PR1046
 
