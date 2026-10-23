@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.11 · 23 October 2026**  
+**Craig Ward · Working edition v0.12 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -28,7 +28,15 @@ See the [new source126 specialization](paper/36-source126-dual-specialization.md
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
 
-## Collaborator update through PR975
+## Internal second vanishing and secondary homotopy through PR980
+
+Under actual Type II and full-radical Q compatibility, [PR979](https://github.com/Akilleez-QA/read-em-and-weep/blob/db4c20c05f18d5e2494d99eb4c359828446919c9/research/hm/source126-typeII-internal-second/PROOF.md) proves **zero internal second Bockstein** on the surviving D. This is a new internal comparison result using the **already known original third vanishing**, not a new proof of that older theorem. The first unresolved internal symbol is now of order at least three; original fourth and later behavior remain unresolved.
+
+[PR980](https://github.com/Akilleez-QA/read-em-and-weep/blob/3dd68c99b9dfd85fe10cc327c2fa95c24bc185f5/research/hm/source126-typeII-secondary-homotopy/PROOF.md) constructs a unique equivariant homotopy for the canonical radical kernel line. Its secondary A channel and entire secondary cokernel channel vanish. Only a D-to-D transvectant channel with scalar **ν** remains, and ν is unselected. Any higher-naturality comparison applies only to cycles surviving the preceding differentials, not indiscriminately to all D.
+
+The full-radical occurrence hypothesis remains unproved. **Four pairs and three labels remain; no duplicate six-axis or local-square result is counted as new progress.** See [the internal-symbol update](paper/45-internal-second-and-secondary-homotopy.md).
+
+## Collaborator checkpoint through PR975
 
 The [pinned source report](paper/44-secondary-geometry-source-report.md) records mr. slop's selection of **normal order four** for the invariant B(4) candidate, superseding the former order-four-or-six alternative. It also reports a distinct uniform **order-two** obstruction for B|H_λ(2), a refined nonsplit secondary extension, and two possible first-cup kernel types with the actual type still unselected. Full proof texts were read; this is not an independent reproof. None changes the source-pair count.
 
