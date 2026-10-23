@@ -1,0 +1,37 @@
+{
+  "review": {
+    "local_file": "inputs/pr842-review.md",
+    "path": "research/hm/profile11-balanced-label-exhaustion/BALANCED-LABEL-EXHAUSTION-REVIEW.md",
+    "commit": "101a101234f3464f5d07a15669e4805cc46de3a7",
+    "git_blob_sha1": "1d05e581cb1555edcea913fd266a2110caeb712e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/101a101234f3464f5d07a15669e4805cc46de3a7/research/hm/profile11-balanced-label-exhaustion/BALANCED-LABEL-EXHAUSTION-REVIEW.md"
+  },
+  "proof": {
+    "local_file": "inputs/pr842-proof.md",
+    "path": "research/hm/profile11-balanced-label-exhaustion/BALANCED-LABEL-TEN-SOURCE-EXHAUSTION.md",
+    "commit": "101a101234f3464f5d07a15669e4805cc46de3a7",
+    "git_blob_sha1": "9e70982c71c5759d1126cc60d55d9189035391b2",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/101a101234f3464f5d07a15669e4805cc46de3a7/research/hm/profile11-balanced-label-exhaustion/BALANCED-LABEL-TEN-SOURCE-EXHAUSTION.md"
+  },
+  "original_frontier": {
+    "local_file": "inputs/pr842-original_frontier.json",
+    "path": "research/hm/order-four-quadratic-load/rank-three-quotient-frontier-144.json",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "8b5971092f9ef762584912609fd5e9301c4e271d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-144.json"
+  },
+  "original_splitting": {
+    "local_file": "inputs/pr842-original_splitting.md",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+  },
+  "original_completeness": {
+    "local_file": "inputs/pr842-original_completeness.md",
+    "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md"
+  }
+}
