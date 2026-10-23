@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "count": 27,
+  "checks": [
+    "1031 sha256",
+    "1031 git blob",
+    "model1031 sha256",
+    "model1031 git blob",
+    "1094 sha256",
+    "1094 git blob",
+    "1036 sha256",
+    "1036 git blob",
+    "1081 sha256",
+    "1081 git blob",
+    "1036-verifier sha256",
+    "1036-verifier git blob",
+    "Sym5 channel exact gate coefficients",
+    "Spencer rank24",
+    "Spencer full coefficient inverse 0",
+    "Spencer full coefficient inverse 1",
+    "Spencer full coefficient inverse 2",
+    "Spencer full coefficient inverse 3",
+    "Sym7 T channel exact gate coefficients",
+    "invariant f12 is exact pinned Wronskian",
+    "nonzero equivariant P8 inclusion rank4",
+    "Sym7 to T projection rank6",
+    "individual cubic channel ranks6",
+    "joint cubic channel rank12",
+    "channel line determinant14",
+    "all36 octavic Spencer transvectant identities",
+    "gate basis is independent"
+  ],
+  "Sym5_line": [
+    1,
+    -4
+  ],
+  "Sym7_line": [
+    3,
+    2
+  ],
+  "Sym5_factor": "6131220480*sqrt(5)",
+  "Sym7_factor": "-78316384529940480000",
+  "scope": "Universal full coefficients; actual graph and row scalars unselected"
+}
