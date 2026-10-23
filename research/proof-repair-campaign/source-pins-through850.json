@@ -1,0 +1,37 @@
+{
+  "proof": {
+    "local_file": "inputs/pr850-proof.md",
+    "path": "research/hm/profile11-o26-twenty-orbit-tail-exclusion/PROOF.md",
+    "commit": "eed466e78efb572db42ebbe76bd0176cd47efe3a",
+    "git_blob_sha1": "4636036019a87370b61118980c3ea740116eee3e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eed466e78efb572db42ebbe76bd0176cd47efe3a/research/hm/profile11-o26-twenty-orbit-tail-exclusion/PROOF.md"
+  },
+  "review": {
+    "local_file": "inputs/pr850-review.md",
+    "path": "research/hm/profile11-o26-twenty-orbit-tail-exclusion/REVIEW.md",
+    "commit": "eed466e78efb572db42ebbe76bd0176cd47efe3a",
+    "git_blob_sha1": "58954f649f58db1b214142534e9e449c4b6566d3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eed466e78efb572db42ebbe76bd0176cd47efe3a/research/hm/profile11-o26-twenty-orbit-tail-exclusion/REVIEW.md"
+  },
+  "pr840": {
+    "local_file": "inputs/pr840-proof.md",
+    "path": "research/hm/profile11-o26-basepoint-free-pd-exclusion/PROOF.md",
+    "commit": "a69b5a8b9a7c4cb673a89c6465e152fcf699840a",
+    "git_blob_sha1": "1577481b2aa8d837a0a22794db128cf8c4386e4b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a69b5a8b9a7c4cb673a89c6465e152fcf699840a/research/hm/profile11-o26-basepoint-free-pd-exclusion/PROOF.md"
+  },
+  "pr845": {
+    "local_file": "inputs/pr845-proof.md",
+    "path": "research/hm/profile11-o26-cubic-residual/PROOF.md",
+    "commit": "3078ec876065f772aa10ef9d8478505035f71db8",
+    "git_blob_sha1": "3b6842a1d4ba33dd902ab52466e0d78ede175569",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3078ec876065f772aa10ef9d8478505035f71db8/research/hm/profile11-o26-cubic-residual/PROOF.md"
+  },
+  "pr825": {
+    "local_file": "inputs/pr825-proof.md",
+    "path": "research/hm/profile11-o26-degree10-endpoint/PROOF.md",
+    "commit": "ea94799a3b1e1c18a4d83061b92d7e7e2f1c631e",
+    "git_blob_sha1": "41acb092b2db47d0070e6e85e8a2c87ea552e478",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea94799a3b1e1c18a4d83061b92d7e7e2f1c631e/research/hm/profile11-o26-degree10-endpoint/PROOF.md"
+  }
+}
