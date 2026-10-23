@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "count": 16,
+  "checks": [
+    "sha256 square-restriction",
+    "git blob square-restriction",
+    "sha256 nonic-base",
+    "git blob nonic-base",
+    "binary invariant degrees0..18 even",
+    "odd binary degrees central parity excludes invariants",
+    "unique degree-six P system",
+    "two degree-eighteen P systems",
+    "only positive invariant gcd degree at most18",
+    "residual degree is six",
+    "residual no possible positive invariant gcd",
+    "f12 cannot have doubled divisor",
+    "degree12 orbit multiplicity one",
+    "exceptional conic base length12",
+    "divisible subspace dimension one",
+    "old fourth invisible line degree8 D multiplicity1"
+  ],
+  "scope": "all nonzero universal gate elements; actual gate and line relationships unselected"
+}
