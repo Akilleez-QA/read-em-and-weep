@@ -1,5 +1,8 @@
 # The remaining scalar detects an actual Q-image incidence
 
+**23 October 2026, PR1082 update:** [Actual quadratic commutation excludes endpoint nine](109-small-branch-exclusion.md) under the full source2 pure-V compatible-radical hypotheses. Any endpoint-nine conclusions below remain valid conditional deductions with an excluded antecedent, not active results for the surviving endpoint sixteen. In particular the nonzero-conic and positive Smith/maximal-row-rank implications do not solve its positive component. The universal component-scheme classification is unchanged.
+
+
 **Craig Ward · 23 October 2026 · PR1074**
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/7b7d6aad86dbd99ab476a1aa1fb7f43ec62afec3/research/hm/source2-pure-v-transfer-incidence/PROOF.md).

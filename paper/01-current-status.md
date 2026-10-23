@@ -2,7 +2,17 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
-## Positive Smith profile and residual-large module through PR1079
+## Actual endpoint-nine exclusion and two surviving modules through PR1082
+
+[Actual quadratic commutation](109-small-branch-exclusion.md) excludes endpoint nine under the full source2 pure-V compatible-radical hypotheses. Hence F4 has dimension sixteen and P_h is not contained in NC2. This is a branch elimination, not a source2 exclusion or an actual realization. Four necessary pairs across three labels remain.
+
+Two projection mechanisms remain: nonzero N0 projection gives dimensions (9,14,16,12), length 51 and terminal 2T, by [PR1081](108-separated-terminal-module.md); zero N0 projection with nonzero N8 projection gives (9,14,16,6), length 45 and the marked residual T, by [PR1079](107-actual-residual-large-module.md). Both have socle I4 plus their terminal piece, exact minimal equivariant resolutions and annihilator (W)⁴. In the former, the actual terminal graph into NR5 is unspecified. Neither mechanism is selected or asserted realized.
+
+The earlier endpoint-nine nonzero-conic, length-32 and positive Smith/maximal-row-rank implications now have an excluded antecedent under these full hypotheses. **They do not solve the surviving positive component.** The universal five-stratum component-ideal classification remains complete; endpoint sixteen's actual coefficient and zero/nonzero status remain unselected. Q(NC2) is transverse to NC4 in both surviving mechanisms, without a claim that Q preserves NR or h extends to a module map.
+
+All earlier checkpoint sections below are dated history. Their then-open 9/16 choice is superseded by PR1082; their conditional proofs are not rewritten or treated as actual realizations.
+
+## Historical positive Smith profile and residual-large module through PR1079
 
 [The positive-component Smith theorem](106-positive-component-smith-profile.md) proves, conditionally in endpoint nine, the exact profile (1 repeated 33 times, t²,t²,t²,t⁴) with four zero columns outside the 28-point support of the length-46 component scheme, and for the symbolic generic direction. The positive 41→37 component has maximal generic row rank 37, free formal kernel rank four, cokernel length ten and maximal-minor ideal (t¹⁰). No exceptional-support profile, full adjoint invertibility or other-parity conclusion follows.
 
@@ -10,7 +20,7 @@ This page supersedes earlier current-status summaries, not their dated proofs.
 
 Endpoint nine versus sixteen and source occurrence remain unselected; four necessary source-dual pairs remain. The diagram's forced nonzero conic stratum in endpoint nine and the universal five-stratum classification remain unchanged.
 
-## Forced nonzero conic gate and all-large transversality through PR1075
+## Historical forced nonzero conic gate and all-large transversality through PR1075
 
 [The no-D-incidence theorem](105-nonzero-small-transfer.md) proves D_C is not contained in Q(NC2) in either endpoint branch. Consequently Q(NC2)∩NC4 is I4 in endpoint nine and zero in every endpoint-sixteen branch, including nonzero N0 projection. This supersedes the former residual-large-only transversality boundary.
 

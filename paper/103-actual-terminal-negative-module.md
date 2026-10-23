@@ -1,5 +1,8 @@
 # Promotion to the actual terminal negative submodule
 
+**23 October 2026, PR1082 update:** [Actual quadratic commutation excludes endpoint nine](109-small-branch-exclusion.md) under the full source2 pure-V compatible-radical hypotheses. Any endpoint-nine conclusions below remain valid conditional deductions with an excluded antecedent, not active results for the surviving endpoint sixteen. In particular the nonzero-conic and positive Smith/maximal-row-rank implications do not solve its positive component. The universal component-scheme classification is unchanged.
+
+
 **Craig Ward · 23 October 2026 · PR1073**
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/134a5b5bd392c7af3eb46db77832cf3fa64e879f/research/hm/source2-pure-v-actual-small-module/PROOF.md).

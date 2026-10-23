@@ -1,5 +1,8 @@
 # The alternating transfer has the same small-branch scalar
 
+**23 October 2026, PR1082 update:** [Actual quadratic commutation excludes endpoint nine](109-small-branch-exclusion.md) under the full source2 pure-V compatible-radical hypotheses. Any endpoint-nine conclusions below remain valid conditional deductions with an excluded antecedent, not active results for the surviving endpoint sixteen. In particular the nonzero-conic and positive Smith/maximal-row-rank implications do not solve its positive component. The universal component-scheme classification is unchanged.
+
+
 **Craig Ward · 23 October 2026 · PR1071**
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/ad1653dd81f23d604bbd99820897c6145e1993c8/research/hm/source2-pure-v-alternating-normalization/PROOF.md).
