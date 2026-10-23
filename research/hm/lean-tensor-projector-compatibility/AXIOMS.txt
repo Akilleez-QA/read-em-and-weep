@@ -1,0 +1,5 @@
+'OAI.HorrocksMumford.tensorProjector_idempotent' depends on axioms: [propext, Quot.sound]
+'OAI.HorrocksMumford.tensorProjectorCompatibility_iff_slices' depends on axioms: [propext, Quot.sound]
+'OAI.HorrocksMumford.tensorProjectorCompatibility_iff_crossTerms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
