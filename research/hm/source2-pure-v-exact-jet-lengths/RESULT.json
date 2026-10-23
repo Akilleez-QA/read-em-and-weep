@@ -1,0 +1,97 @@
+{
+  "status": "pass",
+  "count": 26,
+  "checks": [
+    "sha256 inputs/1030.md",
+    "git_blob inputs/1030.md",
+    "sha256 model.py",
+    "git_blob model.py",
+    "sha256 inputs/1035.md",
+    "git_blob inputs/1035.md",
+    "sha256 inputs/placement.md",
+    "git_blob inputs/placement.md",
+    "determinant cokernel map",
+    "homogeneous nonic rows",
+    "C5 exact reduced orbit basis",
+    "C5 whole orbit length",
+    "C5 target power length",
+    "C5 bounded truncation length",
+    "C5 every component in target ideal power",
+    "C5 EXACT Nakayama ideal equality",
+    "C5 quotient dimension",
+    "C3 exact reduced orbit basis",
+    "C3 whole orbit length",
+    "C3 target power length",
+    "C3 bounded truncation length",
+    "C3 every component in target ideal power",
+    "C3 EXACT Nakayama ideal equality",
+    "C3 quotient dimension",
+    "ell5 total length",
+    "ell3 total length"
+  ],
+  "results": {
+    "C5": {
+      "order": 3,
+      "orbit_size": 6,
+      "local_length": 6,
+      "truncation_length": 60,
+      "quotient_length": 36,
+      "target_leading_monomials": [
+        [
+          6,
+          0
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    },
+    "C3": {
+      "order": 2,
+      "orbit_size": 10,
+      "local_length": 3,
+      "truncation_length": 60,
+      "quotient_length": 30,
+      "target_leading_monomials": [
+        [
+          4,
+          0
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          0,
+          12
+        ]
+      ]
+    }
+  },
+  "total_lengths": {
+    "ell5": 46,
+    "ell3": 54
+  },
+  "scope": "universal special gate lines only; no actual gate selected"
+}
