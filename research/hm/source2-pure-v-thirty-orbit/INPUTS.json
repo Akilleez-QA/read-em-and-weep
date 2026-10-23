@@ -1,0 +1,34 @@
+[
+  {
+    "local_path": "model.py",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/model.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056"
+  },
+  {
+    "local_path": "inputs/1035.md",
+    "commit": "6effcd9b61b1942447a2c3f136a6776dda213c15",
+    "path": "research/hm/source2-pure-v-finite-base-support/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6effcd9b61b1942447a2c3f136a6776dda213c15/research/hm/source2-pure-v-finite-base-support/PROOF.md",
+    "sha256": "5bdd5fecb8a680946604394d3ef3f15c953517b920840dd8eeaa4582d9a31fb7",
+    "git_blob": "eb0b5dc78615331526b679eea952e4a46f7d01ea"
+  },
+  {
+    "local_path": "inputs/placement.md",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "sha256": "f2a8368fc6abd45eb5120078b608af566539e5df70d66381acf939ac62ce81dd",
+    "git_blob": "718f987511b5bf6144a85fc14e8ef343612a4491"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py"
+  }
+]
