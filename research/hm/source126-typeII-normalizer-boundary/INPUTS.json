@@ -1,0 +1,52 @@
+[
+  {
+    "label": "INVERSION-EVEN-QUADRICS-ARE-ADJOINT-BAD.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/INVERSION-EVEN-QUADRICS-ARE-ADJOINT-BAD.md",
+    "local_path": "inputs/INVERSION-EVEN-QUADRICS-ARE-ADJOINT-BAD.md",
+    "git_blob": "831f5b3d89aa3fd91941b89cccbc7c58ce0bb9f0",
+    "sha256": "c9aae2b6785c1abc651d7594d71cdb6738d10d6e5e8bf82c7ed5ffde68868c6e"
+  },
+  {
+    "label": "ACTUAL-THETA-KERNEL-INTERPOLATION.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-THETA-KERNEL-INTERPOLATION.md",
+    "local_path": "inputs/ACTUAL-THETA-KERNEL-INTERPOLATION.md",
+    "git_blob": "758e55454cd5c4a0e814e659337fa34820b54765",
+    "sha256": "9defc2e97f66ce9580c408628a30328c1e502ea3b90d2f215a99b9adc6aa43c3"
+  },
+  {
+    "label": "EXACT-AMBIENT-ADJOINT-DEFORMATIONS.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/EXACT-AMBIENT-ADJOINT-DEFORMATIONS.md",
+    "local_path": "inputs/EXACT-AMBIENT-ADJOINT-DEFORMATIONS.md",
+    "git_blob": "0bc22c6b72725ef55664779e5b04e19079f36802",
+    "sha256": "a3238aa093457dd6d84b13d9f86bcbaf8a67d671eca99057b101203f5ccb71b2"
+  },
+  {
+    "label": "NORMAL-QUADRATIC-NONZERO-BY-SERRE-RESIDUE-DOUBLE-COVER.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/NORMAL-QUADRATIC-NONZERO-BY-SERRE-RESIDUE-DOUBLE-COVER.md",
+    "local_path": "inputs/NORMAL-QUADRATIC-NONZERO-BY-SERRE-RESIDUE-DOUBLE-COVER.md",
+    "git_blob": "8ae5352503fa5b42022f2c2eabf344a8b7f89e5f",
+    "sha256": "58d20121562ed04df7e87df613318fd75173987fb5c062584772c28b36a73878"
+  },
+  {
+    "label": "INVARIANT-CONE-DEGREE-SEVEN-DEFECT-IS-VERTEX-SUPPORTED.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/INVARIANT-CONE-DEGREE-SEVEN-DEFECT-IS-VERTEX-SUPPORTED.md",
+    "local_path": "inputs/INVARIANT-CONE-DEGREE-SEVEN-DEFECT-IS-VERTEX-SUPPORTED.md",
+    "git_blob": "d123601d7824f968dedcdf88c82aae4cd51d6842",
+    "sha256": "2221715c82459a4a49cefb8743a4c0aaed365d1810f950202970bb5f11393f1c"
+  },
+  {
+    "label": "995",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "f9435fa37c78e86391fd1a773a039dd646a05e53",
+    "path": "research/hm/source126-typeII-internal-octic-gate/PROOF.md",
+    "local_path": "inputs/995.md",
+    "sha256": "8f75112f5dcc7bb57efb24d9abc0bf7b33fbbcc6b128569eea8576bcf90699cd",
+    "git_blob": "0e63a5cc5a209939c29de8aa2df272cc249814d6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f9435fa37c78e86391fd1a773a039dd646a05e53/research/hm/source126-typeII-internal-octic-gate/PROOF.md"
+  }
+]

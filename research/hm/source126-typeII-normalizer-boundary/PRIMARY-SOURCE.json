@@ -1,0 +1,16 @@
+{
+  "author": "Wolfram Decker",
+  "title": "Das Horrocks-Mumford-Bündel und das Modul-Schema für stabile 2-Vektorbündel über P4 mit c1=-1, c2=4",
+  "journal": "Mathematische Zeitschrift 188 (1984), 101–110",
+  "doi": "10.1007/BF01163877",
+  "doi_url": "https://doi.org/10.1007/BF01163877",
+  "primary_scan_url": "https://gdz.sub.uni-goettingen.de/download/pdf/PPN266833020_0188/PPN266833020_0188.pdf",
+  "volume_pdf_sha256": "b151a38d279eaa771478f78bdcb890f5b99d3e6c74fb7458e1000626d1a97b95",
+  "normalized_HM_identification": {"section": "2.1", "printed_page": 103, "pdf_page_one_based": 112},
+  "full_stabilizer_definition": {"section": "4.1", "printed_page": 106, "pdf_page_one_based": 115},
+  "normalizer_definition": {"section": "4.2", "printed_page": 107, "pdf_page_one_based": 116},
+  "full_group_theorem": {"section": "4.2.3", "printed_page": 109, "pdf_page_one_based": 118},
+  "brief_original_quote": "Es ist S(𝓕(E))=N_HB.",
+  "read_method": "Primary scan pages visually inspected; OCR used only for navigation",
+  "primary_scan_redistributed": false
+}

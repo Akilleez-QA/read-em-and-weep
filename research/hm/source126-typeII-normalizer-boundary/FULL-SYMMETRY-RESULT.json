@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 19,
+  "primary_theorem": "Decker (1984), Theorem4.2.3",
+  "full_projective_HM_group": "N5/mu5",
+  "full_projective_HM_group_order": 3000,
+  "full_fixed_Q0_stabilizer": "existing SL2(F5)",
+  "outside_normalizer_loophole_closed": true,
+  "additional_ambient_character_on_octic_line": false,
+  "primary_pdf_digest_checked_this_run": true,
+  "actual_octic_scalar": "unselected",
+  "actual_HM_evaluation": false,
+  "source_or_pair_removed": false
+}
