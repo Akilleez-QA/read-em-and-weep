@@ -48,7 +48,10 @@ The [composed certificate in PR940](https://github.com/Akilleez-QA/read-em-and-w
 
 Its integration verifier authenticates the pinned 114-pair checkpoint and the two specialization outputs, proves their cuts are label-disjoint, preserves every unrelated pair, and tests consistent catalogue reindexing. It rejects duplicated, missing, mis-scoped and double-applied cuts. **18 integration tests pass in ordinary and optimized Python modes**, with both prerequisite checkers separately replayed. This is a reproducible composition certificate, not a further geometric exclusion theorem. The previous published checkpoint is [PR919](https://github.com/Akilleez-QA/read-em-and-weep/pull/919).
 
-## Recent collaborator results do not remove another label
+## Recent collaborator results at this historical checkpoint
+
+**Supersession notice:** the PR936 statement below records the earlier 0/12/24 alternatives. [PR945](https://github.com/Akilleez-QA/read-em-and-weep/blob/089003175d9e31a7cf6288ab7a9e3ac4d66a3e63/research/hm/exceptional-adjoint-exhaustion/PROOF.md) subsequently proves that the actual torsion is zero. Its nonzero-torsion branches are no longer candidates for this actual cokernel under the pinned inputs. See [the update through PR946](37-compatibility-and-torsion.md). PR935's scalar-compatibility statement remains as recorded; neither update changes the pair count.
+
 
 [PR935's complete pinned proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/a7707ba3e25592023eb69cc15686aa4ee1fdcb7c/research/hm/profile11-source127-cdf-bockstein-rigidity/PROOF.md) proves that, conditional on an actual c-d-f occurrence, the fixed negative-pencil algebra compatible with the single invariant product is scalar. A hypothetical remaining invariant block would be surjective for Q and stable under every negative quadratic; formal kernel lifting would then force the actual second Bockstein to vanish on its unique A summand, contradicting the imported nonvanishing theorem. Both nonscalar idempotent types are excluded. **Scalar compatibility is consistent with c-d-f occurrence**. This resolves the former residual idempotent question, not source realization or a source-dual pair.
 

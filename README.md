@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.5 · 23 October 2026**  
+**Craig Ward · Working edition v0.6 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -27,6 +27,16 @@ The original proof repair remains open. Four is a count in a fixed necessary rel
 See the [new source126 specialization](paper/36-source126-dual-specialization.md) and [six-pair checkpoint addendum](paper/35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
+
+## New structural restrictions through PR946
+
+**The necessary frontier is unchanged: four pairs across three stable labels.** Progress since the four-pair checkpoint concerns additional compatibility and geometry, not another catalogue cut.
+
+- [PR944](https://github.com/Akilleez-QA/read-em-and-weep/blob/84d7c9b3ee57c0a12c9e99816ec690cd8ea7ffbc/research/hm/source126-invariant-compatibility/PROOF.md) eliminates every nontrivial idempotent compatible with the invariant positive product in source126. The compatible algebra is scalars plus a square-zero radical of dimension at most two; scalarity is not established.
+- [PR946](https://github.com/Akilleez-QA/read-em-and-weep/blob/893e14c2aee0391cdc881679c5015a8aac48ac24/research/hm/source126-nilpotent-generation/PROOF.md) makes its action on the first endpoint faithful. In Type III, it excludes the pure X radical arrow, bounds the compatible radical dimension by one, and proves that the X-target projection of the invariant product is onto V+P. A possible mixed radical line remains unresolved.
+- [PR945](https://github.com/Akilleez-QA/read-em-and-weep/blob/089003175d9e31a7cf6288ab7a9e3ac4d66a3e63/research/hm/exceptional-adjoint-exhaustion/PROOF.md) proves exceptional adjoint exhaustion and **zero actual opposite-pencil torsion**. This supersedes the earlier unresolved 0/12/24 torsion alternatives. The reduced 26-to-31 pencil is injective on every fiber; the distinct vertex-restricted 40-to-43 pencil retains exactly its two-dimensional vertex-product kernel.
+
+See [the structural update](paper/37-compatibility-and-torsion.md). These are written results over pinned geometric premises, not a complete repair or proof-assistant verification of the entire chain. The splitting of the rank-five opposite-pencil bundle, remaining mixed multiplication constraints, source realization and lifting/algebraicity remain open.
 
 ## Historical burn closeout
 
