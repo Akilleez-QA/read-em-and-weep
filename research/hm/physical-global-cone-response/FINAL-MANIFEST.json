@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-23",
+  "status": "independently_reviewed_bounded_written_theorem_not_Lean",
+  "result": "global cone source-response construction without choosing W; exact global complex comparison, noncircular canonical source membership, and constructive recovery of closed W",
+  "source_domain": "im(d_Q:C_Q^0->C_Q^1)=res_Q(im(d_4:C_4^0->C_4^1)); equal to PR904 domain, not an enlargement",
+  "canonical_source_premise": "fixed or independently compared coherent V,b probes satisfying the pinned raw-cubic quotient identity, with canonical Z and q[v]=a h zeta_a",
+  "constructive_recovery": "d_Q e_Q=res S; lift e_Q globally to E; unique W=(S-dE)/q is closed and dE=S-qW",
+  "positive_cone_H0_dimension": 8,
+  "positive_cone_H1_representation": "P4",
+  "positive_cone_H1_dimension": 4,
+  "equivariant_cubic_a_linear_h_obstruction_dimension": 3,
+  "compatible_W_cohomology_family_dimension": 7,
+  "unchanged_preconditions": [
+    "PR894 compatibility for every unrelated supplied W",
+    "actual physical cone contraction and its matching with the ambient contraction used for y",
+    "full ambient lower projection y and complete affine lower data",
+    "physical frame, marking, harmonic and contraction-normalization certificates"
+  ],
+  "checks": {
+    "commands": [
+      "python verify_global_cone_response.py",
+      "python -O verify_global_cone_response.py",
+      "sha256sum -c SHA256SUMS"
+    ],
+    "exact_integrity_character_qcochain_checks": 108,
+    "negative_controls": 8,
+    "independently_replayed": true
+  },
+  "immutable_sources": {
+    "count": 8,
+    "fresh_exact_commit_GitHub_reads": true,
+    "independent_local_hash_review": true
+  },
+  "actual_HM_evaluations_performed": false,
+  "actual_physical_source_row_constructed": false,
+  "actual_primitive_constructed": false,
+  "actual_calibration_performed": false,
+  "publication_by_worker": false,
+  "PR889_unchanged": true,
+  "PR894_unchanged": true,
+  "PR904_unchanged": true,
+  "artifacts": [
+    {
+      "path": "PROOF.md",
+      "bytes": 13973,
+      "sha256": "aafd5ee2b8a0a1d0876886b4db361c05d2a34cc41ab59e44ecec54580061cfcc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2624,
+      "sha256": "7376fefd3420bc3c060e59fe2670f749b85e26449443e86addb10c4ded6958db"
+    },
+    {
+      "path": "REMOTE-AUTHENTICATION.json",
+      "bytes": 3559,
+      "sha256": "e37536754c031eb5794fee324ffb0c669298db418b608d903af8b8143f5f2a0b"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 8868,
+      "sha256": "5a0ad304c4063e7d9424459d4db55ae08c76369d513403cbf89defe5b772c6e4"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 4883,
+      "sha256": "7c8d36fd483dc1d00cfc345c8006bc7d3436d3327f4a31bd7c7e56548dd0d977"
+    },
+    {
+      "path": "TEST-NORMAL.txt",
+      "bytes": 154,
+      "sha256": "5b24b6045ca1d1d49e56a2f15e44d954f0609dc7d1bfa4bc2baa82ea266f1f77"
+    },
+    {
+      "path": "TEST-OPTIMIZED.txt",
+      "bytes": 154,
+      "sha256": "5b24b6045ca1d1d49e56a2f15e44d954f0609dc7d1bfa4bc2baa82ea266f1f77"
+    },
+    {
+      "path": "inputs/ambient_cohomology.md",
+      "bytes": 8440,
+      "sha256": "a1aac107838f647cd66b78a1b88a4ab39fea35afbe72d70214d40a9c141189de"
+    },
+    {
+      "path": "inputs/canonical_correction.md",
+      "bytes": 12572,
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab"
+    },
+    {
+      "path": "inputs/canonical_division.md",
+      "bytes": 5735,
+      "sha256": "fbe769ab1e929005377bf684940f83990156654c8e9a3675eb7e9649ed21a180"
+    },
+    {
+      "path": "inputs/ladder.md",
+      "bytes": 5709,
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d"
+    },
+    {
+      "path": "inputs/next_weight.md",
+      "bytes": 19929,
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492"
+    },
+    {
+      "path": "inputs/pr815.md",
+      "bytes": 18996,
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236"
+    },
+    {
+      "path": "inputs/q_exact.md",
+      "bytes": 2352,
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276"
+    },
+    {
+      "path": "inputs/torsor904.md",
+      "bytes": 13116,
+      "sha256": "ba6c3b70f54275292b3324960f2698f9cab807d87c65bd02048fcb4738152ffd"
+    },
+    {
+      "path": "verify_global_cone_response.py",
+      "bytes": 9418,
+      "sha256": "0b0346434133e56bea2ca95f1fd71cf6f804bf4cd3cd5bce2598ee1558b49116"
+    }
+  ]
+}
