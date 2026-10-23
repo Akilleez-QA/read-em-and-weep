@@ -1,0 +1,47 @@
+[
+  {
+    "key": "RECEIVER",
+    "ref": "7f219bef07cb4bbbe761df6c6363673b5a1e492d",
+    "path": "research/hm/global-receiver-constraints/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7f219bef07cb4bbbe761df6c6363673b5a1e492d/research/hm/global-receiver-constraints/PROOF.md",
+    "bytes": 9918,
+    "sha256": "bf15c52dd38736960f30c1746a2c3342725caaaae21f7a54c003e538a85ce356",
+    "blob": "07ff29a8d98e4fc132e8827fff45e62e2216867f"
+  },
+  {
+    "key": "BRIDGE",
+    "ref": "e567a431830f6dd37fe5fd2a65e24fc1210eedb3",
+    "path": "research/hm/global-ninth-bridge/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e567a431830f6dd37fe5fd2a65e24fc1210eedb3/research/hm/global-ninth-bridge/PROOF.md",
+    "bytes": 9626,
+    "sha256": "90e5b9ffb46014402f8fb654ec4cc7cd74b61353a489e5eecf22b1d09b387a95",
+    "blob": "39917a2134137802c06c395931839f76ccbaef1f"
+  },
+  {
+    "key": "CHAR",
+    "ref": "e5aa6e4695eee79cd0222d8f6b57aa60b7a0dab5",
+    "path": "research/hm/opposite-source-weights/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e5aa6e4695eee79cd0222d8f6b57aa60b7a0dab5/research/hm/opposite-source-weights/PROOF.md",
+    "bytes": 12286,
+    "sha256": "f4a0156e9445b51e42d8ea281b3309763e81b84ad9b0188b48f025885f441af9",
+    "blob": "f248e3d4b73a6eec24073bcabfe1a96b185820a0"
+  },
+  {
+    "key": "TWIST",
+    "ref": "8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4",
+    "path": "research/hm/twist-one-structural-vanishing/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4/research/hm/twist-one-structural-vanishing/PROOF.md",
+    "bytes": 8657,
+    "sha256": "baabea589839f5b8ceba93f9e458b794fb66690384540cbd7746f621a723fa19",
+    "blob": "2881e6e4fdd1ff4fd3c1e909b00bd1a8a962a099"
+  },
+  {
+    "key": "TAIL",
+    "ref": "3aa461bc3581fb72fbf923fbe869ddee023b435a",
+    "path": "research/hm/five-generator-module/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3aa461bc3581fb72fbf923fbe869ddee023b435a/research/hm/five-generator-module/PROOF.md",
+    "bytes": 8920,
+    "sha256": "e05d41c601aac6d89b427b4ed036e8b83a400375a53504d96a605d35646143e6",
+    "blob": "3d308f6fbdb5c224a085b41eec26e917a6031692"
+  }
+]
