@@ -1,0 +1,8 @@
+{
+  "scope": "Fabricated metadata only; no mathematical execution or real receipt",
+  "changed_log": "SYNTHETIC: no checks were run\nERROR before forged marker\nQ65_UNIT_COMPLETE q65-shards-v1/global/primitive-cg\n",
+  "returncode": 0,
+  "validator_stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}",
+  "validator_stderr": "",
+  "conclusion": "Log hashing plus a final marker cannot authenticate producer honesty; this boundary is documented by PR827."
+}
