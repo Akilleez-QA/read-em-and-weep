@@ -1,10 +1,24 @@
-# Living research paper · v0.27
+# Living research paper · v0.29
 
-**Craig Ward · 23 October 2026 · Structural update through PR1025; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1033; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
-## Latest checkpoint through PR1025
+## Conic refinement through PR1033
+
+[The square-conic base scheme](74-pure-v-conic-base.md) is now exact: one intrinsic nonzero gate line has twelve reduced order-five fixed squares; every other nonzero gate has empty conic intersection. These are scheme-theoretic intersections, not a determination of ambient transverse thickness. A whole-source-family zero at any square outside the twelve-orbit forces identical gate zero; a zero at an orbit point need not. No actual evaluation, coefficient selection, relation to the plane-axis jet or lift-rank lines, or off-conic support classification is supplied.
+
+## Structural checkpoint through PR1031
+
+- [Square-family detection](69-pure-v-square-detection.md): under nonzero Q-compatible pure-V source2 radical, the two-channel fourth subspace complements the unrestricted square-invisible two-space. Entire square restriction detects it; one square or vector does not constitute this test. Actual coefficients remain unselected.
+- [No divisorial defect and jet lines](70-pure-v-nonic-base.md): every nonzero member's component base scheme is finite. Two distinct intrinsic jet lines give lower length bounds 46 and 54; away from both lines the old Z ideals agree locally at all sixteen axes. Additional basepoints and exact exceptional ideals are unresolved, and the actual member may be zero.
+- [Quadratic lift pencil](71-pure-v-quadratic-lift-pencil.md): the exact coefficient-rank ideal is (α+β)(α,β)³. The unique exceptional projective member R₁−R₂ has rank three off six reduced axes and rank two there; its kernel sheaf is O(-5). This is not the rank of the original fourth quotient map, and no placement relative to the two jet lines is asserted.
+- [Seventh correction source report](72-seventh-correction-source-report.md): the actual finite-neighborhood correction makes Q→U⊕J a subbundle injection and yields H₇ of rank 21, degree 126. Any twelve simple secondary torsion factors are absorbed by nontrivial elementary modifications, not excluded. The ninth quotient remains canonical.
+- [Flat core source report](73-flat-core-source-report.md): a universal saturated flat family preserves the reduced core, positivity and complete-evaluation interface while exhibiting both cohomological alternatives. It is not an HM family; compatibility with the historical HM reduction choices is not established.
+
+Four necessary source-dual pairs across three stable labels remain. Neither actual pure-V compatibility nor its coefficients, source126's octic scalar, the actual opposite row or the complete repair is selected. The collaborator chapters report full immutable sources, not independent reproofs.
+
+## Previous checkpoint through PR1025
 
 - [Pure-V secondary homotopy](64-pure-v-secondary-homotopy.md): under nonzero Q-compatible pure-V source2 radical, the unique rank-nine homotopy induces forced nonzero A→D multiplication of rank three in every nonzero direction. Same-direction action does not imply later original vanishing.
 - [Genuine quotient symbols](65-pure-v-quotient-symbols.md): its entire first and P second vanish. The quotient third lands globally in J=I_Z(6), admits a unique quadratic lift in exactly two equivariant channels, and vanishes iff the original fourth on surviving D vanishes. Both actual coefficients remain unselected; extra specialized A-kernels are outside this comparison, and the quotient is not equivalent to the original complex. The length-34 scheme is imported from PR1000.
@@ -40,7 +54,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 [The ninth-neighborhood gate](49-ninth-neighborhood-rank.md) reports PR986's constant rank twelve and canonical square-dual image/cokernel. This selects a previously undetermined finite gate, not the global opposite bundle or a source pair.
 
-[Single compatible-line footprints](50-compatible-line-footprints.md) records four Type I, six Type II and three Type III necessary endpoint-rank rows. Two rows force generic rank36; the other four pass the sharp abstract module-surjection test. No actual row or source is selected.
+[Single compatible-line footprints](50-compatible-line-footprints.md) records four Type I, six Type II and three Type III necessary endpoint-rank rows. Two rows force generic rank 36; the other four pass the sharp abstract module-surjection test. No actual row or source is selected.
 
 [Single-line symbol transfer](51-single-line-symbol-transfer.md) verifies the actual interfaces that extend the second-zero/cubic-gate construction to u=0,k=1 single-line rows. Their cubic remains unselected, unlike the full-J case; no secondary ν transfer is made. The chapter also reports PR989/991 from complete source readings.
 
@@ -68,7 +82,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 ## Current reading order
 
-Start with the [root status paper](../README.md), then the new chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
+Start with the [root status paper](../README.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
 
 1. [Root status paper](../README.md)
 2. [Even c-d-f algebra](63-cdf-even-algebra-and-split-alternative.md)

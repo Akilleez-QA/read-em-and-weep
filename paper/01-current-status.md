@@ -2,7 +2,21 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
-## Latest checkpoint through PR1025
+## Conic refinement through PR1033
+
+[The square-conic base scheme](74-pure-v-conic-base.md) is now exact: one intrinsic nonzero gate line has twelve reduced order-five fixed squares; every other nonzero gate has empty conic intersection. These are scheme-theoretic intersections, not a determination of ambient transverse thickness. A whole-source-family zero at any square outside the twelve-orbit forces identical gate zero; a zero at an orbit point need not. No actual evaluation, coefficient selection, relation to the plane-axis jet or lift-rank lines, or off-conic support classification is supplied.
+
+## Structural checkpoint through PR1031
+
+- [Square-family detection](69-pure-v-square-detection.md): under nonzero Q-compatible pure-V source2 radical, the two-channel fourth subspace complements the unrestricted square-invisible two-space. Entire square restriction detects it; one square or vector does not constitute this test. Actual coefficients remain unselected.
+- [No divisorial defect and jet lines](70-pure-v-nonic-base.md): every nonzero member's component base scheme is finite. Two distinct intrinsic jet lines give lower length bounds 46 and 54; away from both lines the old Z ideals agree locally at all sixteen axes. Additional basepoints and exact exceptional ideals are unresolved, and the actual member may be zero.
+- [Quadratic lift pencil](71-pure-v-quadratic-lift-pencil.md): the exact coefficient-rank ideal is (α+β)(α,β)³. The unique exceptional projective member R₁−R₂ has rank three off six reduced axes and rank two there; its kernel sheaf is O(-5). This is not the rank of the original fourth quotient map, and no placement relative to the two jet lines is asserted.
+- [Seventh correction source report](72-seventh-correction-source-report.md): the actual finite-neighborhood correction makes Q→U⊕J a subbundle injection and yields H₇ of rank 21, degree 126. Any twelve simple secondary torsion factors are absorbed by nontrivial elementary modifications, not excluded. The ninth quotient remains canonical.
+- [Flat core source report](73-flat-core-source-report.md): a universal saturated flat family preserves the reduced core, positivity and complete-evaluation interface while exhibiting both cohomological alternatives. It is not an HM family; compatibility with the historical HM reduction choices is not established.
+
+Four necessary source-dual pairs across three stable labels remain. Neither actual pure-V compatibility nor its coefficients, source126's octic scalar, the actual opposite row or the complete repair is selected. The collaborator chapters report full immutable sources, not independent reproofs.
+
+## Previous checkpoint through PR1025
 
 - [Pure-V secondary homotopy](64-pure-v-secondary-homotopy.md): under nonzero Q-compatible pure-V source2 radical, the unique rank-nine homotopy induces forced nonzero A→D multiplication of rank three in every nonzero direction. Same-direction action does not imply later original vanishing.
 - [Genuine quotient symbols](65-pure-v-quotient-symbols.md): its entire first and P second vanish. The quotient third lands globally in J=I_Z(6), admits a unique quadratic lift in exactly two equivariant channels, and vanishes iff the original fourth on surviving D vanishes. Both actual coefficients remain unselected; extra specialized A-kernels are outside this comparison, and the quotient is not equivalent to the original complex. The length-34 scheme is imported from PR1000.
@@ -14,7 +28,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 ## Even c-d-f algebra through PR1015
 
-[PR1015](https://github.com/Akilleez-QA/read-em-and-weep/blob/e6cdc5c10d2cb1aed27eb76ff44d0b4aa652bdce/research/hm/cdf-even-commutant-split-line/PROOF.md) classifies the eight-dimensional negative-quadratic endpoint algebra, with four square-zero arrows, separately from the four-dimensional full-linear algebra. Actual Q generation leaves either scalars or C². The unique nonscalar idempotent footprint puts L_V on the F side and L_P on the B side, retaining two unselected graph shears. Its onto F block lifts the original D formally to all orders, forcing generic original rank36 and later original generic Bocksteins zero. This alternative is not asserted to occur.
+[PR1015](https://github.com/Akilleez-QA/read-em-and-weep/blob/e6cdc5c10d2cb1aed27eb76ff44d0b4aa652bdce/research/hm/cdf-even-commutant-split-line/PROOF.md) classifies the eight-dimensional negative-quadratic endpoint algebra, with four square-zero arrows, separately from the four-dimensional full-linear algebra. Actual Q generation leaves either scalars or C². The unique nonscalar idempotent footprint puts L_V on the F side and L_P on the B side, retaining two unselected graph shears. Its onto F block lifts the original D formally to all orders, forcing generic original rank 36 and later original generic Bocksteins zero. This alternative is not asserted to occur.
 
 Under additional one-sided B preservation it is impossible, so the even Q-compatible algebra is scalar. The one-sided raw cubic remains unselected and three-dimensional; no source pair is removed. [Exact conditional statements](63-cdf-even-algebra-and-split-alternative.md).
 
