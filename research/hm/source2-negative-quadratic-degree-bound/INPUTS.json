@@ -1,0 +1,43 @@
+[
+  {
+    "local_path": "inputs/790.md",
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md"
+  },
+  {
+    "label": "795",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "local_path": "inputs/795.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656"
+  },
+  {
+    "local_path": "inputs/third-zero.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "sha256": "243e242a15ff2bb678b6c1c3cb33f203bbbed5b8bb0c23d8564e14536d9075cd",
+    "git_blob": "7c09fe95015d7c8d932b3a27be302ca09888112d"
+  },
+  {
+    "local_path": "inputs/1102.md",
+    "commit": "ef9149e72db4ff501ff969d736660e8aa2aa32bd",
+    "path": "research/hm/source2-pure-v-residual-positive-smith/PROOF.md",
+    "git_blob": "bf15288e0cbcc78f5ea81eda4af6f577996f88ed",
+    "sha256": "07fba65d999d06ff9e96f761975a9980e2b1f5934e24ea0edcc1ae6b05241ffa",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef9149e72db4ff501ff969d736660e8aa2aa32bd/research/hm/source2-pure-v-residual-positive-smith/PROOF.md"
+  },
+  {
+    "local_path": "inputs/1044.md",
+    "commit": "bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4",
+    "path": "research/hm/source2-pure-v-complete-base-classification/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4/research/hm/source2-pure-v-complete-base-classification/PROOF.md",
+    "sha256": "a68ae2b4ca0b212ab442ad252ed23d0b26c3462d2774eb826ba8d10bbd5be658",
+    "git_blob": "516408c24d036634f0e03e29350815c2442d2880"
+  }
+]
