@@ -1,0 +1,163 @@
+{
+  "status": "pass",
+  "checks": 129,
+  "rows": [
+    {
+      "r": 1,
+      "epsilon": 0,
+      "d": 0,
+      "U": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "Z": [
+        0,
+        2,
+        3,
+        2
+      ],
+      "dimensions": [
+        27,
+        28
+      ],
+      "restricted_cokernel": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "quotient_kernel": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "quotient_cokernel": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "r": 1,
+      "epsilon": 0,
+      "d": 1,
+      "U": [
+        1,
+        2,
+        2,
+        3
+      ],
+      "Z": [
+        0,
+        2,
+        3,
+        2
+      ],
+      "dimensions": [
+        32,
+        28
+      ],
+      "restricted_cokernel": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "quotient_kernel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "quotient_cokernel": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "r": 1,
+      "epsilon": 1,
+      "d": 0,
+      "U": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "Z": [
+        0,
+        2,
+        3,
+        2
+      ],
+      "dimensions": [
+        31,
+        28
+      ],
+      "restricted_cokernel": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "quotient_kernel": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "quotient_cokernel": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "r": 2,
+      "epsilon": 0,
+      "d": 0,
+      "U": [
+        1,
+        2,
+        2,
+        2
+      ],
+      "Z": [
+        0,
+        2,
+        2,
+        2
+      ],
+      "dimensions": [
+        27,
+        24
+      ],
+      "restricted_cokernel": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "quotient_kernel": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "quotient_cokernel": [
+        0,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "note": "Conditional footprints and synthetic diagnostics only; no actual occurrence or source cut"
+}
