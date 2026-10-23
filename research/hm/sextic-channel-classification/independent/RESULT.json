@@ -1,0 +1,27 @@
+{
+  "authenticated_originals": [
+    {
+      "exact": true,
+      "file": "pr1147.md",
+      "sha256": "2ea61681c18105cbba37e7135fc968aa9052e14eff71d963e8c374f55f041122"
+    },
+    {
+      "exact": true,
+      "file": "pr1150.md",
+      "sha256": "226ec41be2adb15161a42f243c4c2546ea0da1229f7a5134da1c92d1665c8f4a"
+    },
+    {
+      "exact": true,
+      "file": "pr1148.md",
+      "sha256": "18ad6a68fdc672e505d2c9e607152dbe7e6a6d42c20898acbafbd807aaf78fd5"
+    },
+    {
+      "exact": true,
+      "file": "characters.py",
+      "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1"
+    }
+  ],
+  "checks": 4475,
+  "formal_apolar_identities": 2100,
+  "scope": "Universal support and coefficient-span controls, not actual HM instances or a proof assistant"
+}

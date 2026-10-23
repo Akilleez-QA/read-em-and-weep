@@ -1,0 +1,116 @@
+{
+  "actual_instance_evaluated": false,
+  "checks": 10131,
+  "exact_d1_strata": [
+    {
+      "active": "V",
+      "ambient_Wp_T_codim": [
+        [
+          0,
+          1,
+          3
+        ]
+      ],
+      "source": "V"
+    },
+    {
+      "active": "P",
+      "ambient_Wp_T_codim": [
+        [
+          1,
+          1,
+          4
+        ]
+      ],
+      "source": "P"
+    },
+    {
+      "active": "V",
+      "ambient_Wp_T_codim": [
+        [
+          0,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          7
+        ]
+      ],
+      "source": "VP"
+    },
+    {
+      "active": "P",
+      "ambient_Wp_T_codim": [
+        [
+          1,
+          2,
+          7
+        ]
+      ],
+      "source": "VP"
+    },
+    {
+      "active": "VP",
+      "ambient_Wp_T_codim": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          2,
+          7
+        ]
+      ],
+      "source": "VP"
+    }
+  ],
+  "formal_apolar_pairings": 5740,
+  "new_actual_profile_exclusion": false,
+  "quotient_lengths": {
+    "P": 24,
+    "V": 27,
+    "VP": 21
+  },
+  "source_inputs": 4,
+  "support_strata": [
+    {
+      "active": "V",
+      "inactive": "",
+      "rank": 3,
+      "source": "V"
+    },
+    {
+      "active": "P",
+      "inactive": "",
+      "rank": 4,
+      "source": "P"
+    },
+    {
+      "active": "P",
+      "inactive": "V",
+      "rank": 4,
+      "source": "V+P"
+    },
+    {
+      "active": "V",
+      "inactive": "P",
+      "rank": 3,
+      "source": "V+P"
+    },
+    {
+      "active": "V+P",
+      "inactive": "",
+      "rank": 7,
+      "source": "V+P"
+    }
+  ],
+  "thresholds": {
+    "P": 1,
+    "V": 2,
+    "VP": 0
+  }
+}
