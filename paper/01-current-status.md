@@ -2,6 +2,26 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Surviving residual-large conic restriction through PR1097
+
+[Actual residual cubic multiplication](118-residual-large-conic-gate.md) forces β=0 in R=αR1+βR2, specifically for residual-large endpoint sixteen. In fixed conventions R=−30ητR1, η≠0 and τ possibly zero. If nonzero, its component scheme is the conic length-46 stratum; zero remains unexcluded. This new surviving-mechanism argument does not use the excluded endpoint-nine nonzero-conic implication.
+
+The nonzero-N0 mechanism still has an unselected two-dimensional coefficient space. Neither terminal incidence nor mechanism is selected; no positive Smith consequence is transferred. Four necessary source pairs remain. The universal coefficient figure now distinguishes these active restrictions from excluded-branch history.
+
+## Full odd operator and separate opposite cores
+
+[The full-domain Koszul-homotopy operator](116-full-koszul-homotopy-operator.md) has rank twelve, image (F3)_T and square-zero products with j3. On ker Q3 both operators have rank six, common kernel K3 and distinct canonical T images. The resulting two-generator algebra-module isomorphism type requires a noncanonical cyclic lift. Its restricted factorization through Q3 must not be extended to all M3. The full-domain theorem is pinned at PR1096.
+
+[Mr. slop's full-source reports](117-opposite-small-cores-source-report.md) give actual rank-two/rank-three source cores sharing a rank-six target, and in the zero-μ branch a one-source core with three exact intrinsic channel criteria for rows17/18/20. No branch or row is selected; these opposite spaces and scalars are separate from the pure-V lift. Terminal incidence and both endpoint-sixteen mechanisms remain unresolved.
+
+## Terminal incidence criterion through PR1096
+
+[The actual terminal criterion](115-terminal-transfer-incidence.md) constructs a canonical nonzero ℓ:V5=3T→I3=T, with C_term=ker ℓ=Q3(ker A_h). Its actual dimension is twelve; on T multiplicities it is a dimension-two plane in C³. The quadratic fourth lift satisfies R=0 iff ℓ(F5)=0.
+
+Residual-large requires the marked NR5=T to lie in C_term; projectively this is a point-on-line test in P². Nonzero-N0 requires equality of the actual F5≅2T with C_term; projectively this is equality of lines, not replacement of a graph by its projection. Neither test is selected, and zero R remains unexcluded. The [schematic](figures/pure-v-terminal-incidence.svg) distinguishes vector, multiplicity and projective dimensions; it plots no selected positions or probabilities. This C_term is unrelated to the opposite cokernel C.
+
+Endpoint sixteen, both mechanisms and four necessary source pairs remain. No positive/full-adjoint conclusion is supplied.
+
 ## Exact middle pairing through PR1091
 
 [PR1091](114-exact-middle-pairing.md) proves A_h:ker j3→W*⊗I2 is onto. On K3/F3 it has exactly S image and actual radical R_pair≅2W′+2S of dimension twelve. The coherent marked S_can provides a canonical four-dimensional complement **on this quotient**, giving K3/F3=R_pair⊕S̄_can. Its uncurried quotient pencil is cubic-to-quartic multiplication with cokernel O(4), up to an unselected nonzero scalar.
