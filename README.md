@@ -1,8 +1,8 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1104**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1107**
 
-**The nine-dimensional generated endpoint is excluded under actual source2 pure-V compatible-radical hypotheses. Endpoint sixteen is now necessary, with two projection mechanisms still unresolved.** This is not a source2 exclusion or complete repair. Four necessary source-dual pairs across three stable labels remain. Residual-large now forces a zero-or-conic gate; the other mechanism and surviving positive component remain unresolved.
+**The original positive 41→37 component now has a proved finite sequential rank criterion through order24. Its actual gate values remain unknown.** The first nonzero class gives generic rank37; allzero gives rank36. This is not full-adjoint invertibility or a complete repair. Endpoint nine is excluded; endpoint sixteen has two unselected mechanisms. Four necessary source-dual pairs across three labels remain.
 
 [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
@@ -24,17 +24,17 @@ Universal strata need not remain available within each mechanism. The length-46 
 
 The zero pair has whole-plane base scheme, with no finite length. Residual-large permits only zero or the conic line; nonzero-N0 still has an unselected two-dimensional coefficient space. No completion percentage follows.
 
-## Current gate and positive-map restrictions
+## Finite sequential criterion and remaining actual data
 
-[Actual Q commutation](paper/109-small-branch-exclusion.md) excludes endpoint nine; Q(NC2)∩NC4=0 in both remaining mechanisms. The odd Q3 has rank18, combined T-rank four and κ=0. B is symmetric, determined by R. The [full-domain correction](paper/120-corrected-factorization-and-zero-graph.md) is Θ=aj3+ℓQ3, not Θ=ℓQ3 outside ker j3.
+[PR1107](paper/126-finite-sequential-obstruction.md) constructs canonical global gates **s3,…,s23**, reached only when preceding classes vanish. They correspond to original orders **4–24**, not independent parameters. The first nonzero s_n gives last Smith exponent n+1 and generic Laurent rank37. If all vanish, any later pivot would force maximal-minor order≥31, contradicting degree≤30; rank is exactly36, with kernel dimension five.
 
-**Residual-large:** [R=αR1](paper/118-residual-large-conic-gate.md), with α possibly zero. The [new original-positive criterion](paper/121-residual-positive-smith-criterion.md) proves **α≠0 iff maximal 37-minor ideal (t¹⁰)**, equivalently Smith profile 33 unit pivots, three t² pivots and one t⁴ pivot. It holds generically and, when α≠0, outside the length-46 scheme's 28 support points. This gives maximal row rank37 for the rectangular 41→37 component, not full adjoint invertibility.
+The global recursion updates two consecutive corrections and retains the κ remainder. Its first equivariant κ gauge occurs at original order9. No actual gate is evaluated. The result concerns this rectangular positive component, not the full adjoint, and does not assert a square-conic base-change recursion.
 
-If α=0, [sharper degree bounds](paper/123-negative-rank-and-smith-bounds.md) give exponent **5–24 generically**, **5–21 on squares**, or absence. The [actual fifth gate](paper/124-original-fifth-gate.md) is two-dimensional and unselected: nonzero means generic exponent five and minor order eleven; zero means exponent at least six or absence. Fourth vanishing does not imply rank loss.
+[The canonical terminal sextet T_Q](paper/125-canonical-q-terminal.md) is the actual image Q3(NC3)=WQ2(V_C). In residual-large ℓ|T_Q is an isomorphism, complementing C_term. If τ=0, its first-block projection forces the specific Q2 channel onto (N0,4)_V. This supplies an actual target for further comparison, not a fifth value or source selection.
 
-**Nonzero-N0:** [two exact terminal channels](paper/119-separated-gate-channels.md) give R=A(R1−4R2)+B(3R1+2R2). They span the formal coefficient plane, not a freely realizable family. Writing ℓ=(ℓ0,τ) and F5=graph(g), **R=0 iff ℓ0+τg=0**. Thus τ=0 forces R≠0; if τ≠0, zero requires the unique graph g=−τ⁻¹ℓ0. Neither condition is selected. Residual-large instead has R=0 iff τ=0, for its own retained object.
+**Residual-large:** R=αR1. α≠0 iff maximal-minor ideal (t¹⁰), with 33 unit pivots, three t² and one t⁴, outside the known 28-point support. If α=0, the unselected two-dimensional fifth class gives exponent5 iff nonzero. A later finite exponent is ≤24 generically and ≤21 on squares; absence is possible. [Smith and fifth details](paper/121-residual-positive-smith-criterion.md)
 
-The [terminal incidence](paper/115-terminal-transfer-incidence.md), [12+4 middle pairing](paper/114-exact-middle-pairing.md), and [two-generator odd action](paper/116-full-koszul-homotopy-operator.md) retain actual maps and quotient-only splitting limits. They do not select a gate or source.
+**Nonzero-N0:** R=A(R1−4R2)+B(3R1+2R2). For actual row ℓ=(ℓ0,τ) and terminal graph g, zero requires ℓ0+τg=0. Thus τ=0 forces nonzero R; otherwise its zero graph is uniquely −τ⁻¹ℓ0. Neither row nor graph is selected. [Exact channels and corrected factorization](paper/120-corrected-factorization-and-zero-graph.md)
 
 ## Two surviving actual negative modules
 

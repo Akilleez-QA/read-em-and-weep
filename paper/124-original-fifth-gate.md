@@ -1,5 +1,7 @@
 # A two-dimensional actual original-fifth gate when the fourth lift vanishes
 
+**PR1107 update:** [The global recursion now continues through a finite criterion at original order24](126-finite-sequential-obstruction.md), retaining the κ gauge. This fifth gate is its second sequential test; its actual value remains unselected.
+
 **23 October 2026 · PR1104, full immutable proof read**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/287a94911cdfec629529490e5c1642ddbe610b31/research/hm/source2-pure-v-fifth-gate/PROOF.md), blob `cf560b059d337f64a79a3f39ee7a962c27143843`.

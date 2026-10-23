@@ -2,6 +2,14 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Finite sequential positive criterion and canonical terminal sextet through PR1107
+
+[PR1107](126-finite-sequential-obstruction.md) proves the original positive generic rank is37 iff the sequential gates s3,…,s23 first become nonzero. These are original orders4–24, not independent parameters. Allzero forces rank36: a later pivot would require maximal-minor order≥31, exceeding degree30. The global two-stage gauge update retains κ remainders and continues polynomially at every order. No actual class or rank outcome is selected; no full-adjoint or square-base-change recursion is asserted. [Finite-stage visual](figures/pure-v-finite-obstruction.svg)
+
+[PR1106](125-canonical-q-terminal.md) constructs actual T_Q=Q3(NC3)=WQ2(V_C)≅T with a saturated Euler subpencil. In residual-large it complements C_term via ℓ. If τ=0, its first-block projection specifically identifies the nonzero Q2 channel onto (N0,4)_V and the terminal T it generates. This is not the earlier degree-four U_Q, a positive-module splitting or a computed fifth class.
+
+Endpoint sixteen, two unselected mechanisms and four necessary source pairs remain. Earlier fifth and degree bounds are now parts of the proved finite criterion, not evaluated outcomes.
+
 ## Sharper bounds and the actual fifth gate through PR1104
 
 [PR1103](123-negative-rank-and-smith-bounds.md) bounds rank T_a by thirty globally and twenty-seven on squares, using genuine negative-module arrows without Q-stability. Original maximal-minor degrees have the same bounds. In residual-large α=0, finite final exponents are now 5–24 generically and 5–21 on every square, or the pivot is absent. PR1102's earlier 5–31 bound remains historical. For α≠0 the twelve conic exceptional points have range5–21 or absence; no formula is asserted at the six second-rank drops.
