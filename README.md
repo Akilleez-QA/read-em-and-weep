@@ -1,8 +1,14 @@
 # Proof repair: status paper and spike-burn closeout
 
 **Craig Ward · Working edition v0.4 · 23 October 2026**  
-**Research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
+**Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
+
+## Post cutoff structural update
+
+[PR913](https://github.com/Akilleez-QA/read-em-and-weep/pull/913) sharpens the surviving source127 a-b-c-f alternatives: its low D row is nonzero, and the high row gives either a standard osculating flag or two possible exact kernel types. [PR914](https://github.com/Akilleez-QA/read-em-and-weep/pull/914) permits conditional source-trace matching for an independently authenticated cone contraction without assuming ambient extendability. Full physical data and scalar gluing remain required.
+
+Neither result excludes a whole source or label. **The frontier remains three labels and 146 necessary pairs.** These additions are recorded separately from the closed burn inventory in the [post-burn structural update](paper/34-post-burn-structural-update.md), with immutable proof links and explicit remaining conditions.
 
 ## Bottom line
 
@@ -57,6 +63,7 @@ The earlier Python runtime track completed bounded initialization and one primit
 - [Spike-burn report and assessment](paper/31-spike-burn-closeout.md)
 - [Execution, verification, failures and Lean inventory](paper/32-burn-execution-and-verification.md)
 - [Physical construction and normalization dependencies](paper/33-burn-physical-construction.md)
+- [Post-burn structural update through PR914](paper/34-post-burn-structural-update.md)
 - [Final mathematical frontier and exact source lists](research/proof-repair-campaign/FRONTIER-THROUGH911.md)
 - [Campaign status and next-work gates](research/proof-repair-campaign/README.md)
 - [Updated progress map](paper/progress-map.md)
