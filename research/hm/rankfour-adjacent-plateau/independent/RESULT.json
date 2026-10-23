@@ -1,0 +1,106 @@
+{
+  "F0_twist4_Euler": {
+    "1": -1
+  },
+  "actual_chi_E2": {
+    "V": -1
+  },
+  "actual_instance_evaluations": 0,
+  "checks": 222,
+  "defect_weights": [
+    3,
+    6,
+    4,
+    2
+  ],
+  "degrees": [
+    -46,
+    -54,
+    -54,
+    -46,
+    -30,
+    -6
+  ],
+  "determinant_defects": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "exact_Euler_identity": "chi F1(4) + chi F1(2) = chi F0(4) + chi E(2)",
+  "persistence_top_degrees": [
+    -5,
+    -4,
+    -3,
+    -2,
+    -1
+  ],
+  "quotient_degrees": [
+    -8,
+    0,
+    8,
+    16,
+    24
+  ],
+  "quotient_shape_enumerations": 0,
+  "ranks": [
+    9,
+    13,
+    17,
+    21,
+    25,
+    29
+  ],
+  "scope": "Conditional exclusion of actual generic-rank-four maximal plateau (2,3) only.",
+  "source_sha256": {
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  "status": "PASS",
+  "tails": [
+    {
+      "left": {
+        "1": -1,
+        "A": -1
+      },
+      "left_minus_right": {
+        "A": -1,
+        "V": 1
+      },
+      "right": {
+        "1": -1,
+        "V": -1
+      },
+      "tail": "W"
+    },
+    {
+      "left": {
+        "P": -1
+      },
+      "left_minus_right": {
+        "1": 1,
+        "P": -1,
+        "V": 1
+      },
+      "right": {
+        "1": -1,
+        "V": -1
+      },
+      "tail": "W'"
+    },
+    {
+      "left": {
+        "1": -1,
+        "A": -1
+      },
+      "left_minus_right": {
+        "A": -1,
+        "V": 1
+      },
+      "right": {
+        "1": -1,
+        "V": -1
+      },
+      "tail": "line"
+    }
+  ]
+}

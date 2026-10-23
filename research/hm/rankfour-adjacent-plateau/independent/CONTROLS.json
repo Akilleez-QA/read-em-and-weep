@@ -1,0 +1,13 @@
+{
+  "controls": {
+    "baseline": "PASS",
+    "baseline_optimized": "PASS",
+    "defect_weight": "REJECTED",
+    "endpoint_parity": "REJECTED",
+    "line_tail_h1": "REJECTED",
+    "physical_marking": "REJECTED",
+    "quotient_twist": "REJECTED",
+    "source_bytes": "REJECTED"
+  },
+  "status": "PASS"
+}

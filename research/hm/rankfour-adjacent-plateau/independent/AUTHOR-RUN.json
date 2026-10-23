@@ -1,0 +1,147 @@
+{
+  "F0_deficit_partitions": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  ],
+  "F1_deficit_partitions": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  ],
+  "actual_E2_Euler": {
+    "V": -1
+  },
+  "authenticated_originals": 1,
+  "checks": 724,
+  "defect_weights": [
+    3,
+    6,
+    4,
+    2
+  ],
+  "determinant_defects": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "endpoint_degrees": [
+    -46,
+    -6
+  ],
+  "exact_two_sequence_identity": "chi(F1(4))+chi(F1(2))=chi(F0(4))+chi(E(2))=-1-V",
+  "mutation_rejections": 142,
+  "plateau_degrees": [
+    -46,
+    -54,
+    -54,
+    -46,
+    -30,
+    -6
+  ],
+  "plateau_ranks": [
+    9,
+    13,
+    17,
+    21,
+    25,
+    29
+  ],
+  "quotient_degrees": [
+    -8,
+    0,
+    8,
+    16,
+    24
+  ],
+  "rank_four_quotient_enumeration_used": false,
+  "remaining_tail_types": 0,
+  "scope": "Excludes only actual rank-four maximal ordered plateau (2,3), conditional on the pinned actual geometry.",
+  "status": "PASS",
+  "tail_obstructions": [
+    {
+      "chi_F1_4_plus_chi_F1_2": {
+        "1": -1,
+        "A": -1
+      },
+      "ordinary_residual_dimension": 0,
+      "required": {
+        "1": -1,
+        "V": -1
+      },
+      "residual": {
+        "A": -1,
+        "V": 1
+      },
+      "tail": "W"
+    },
+    {
+      "chi_F1_4_plus_chi_F1_2": {
+        "P": -1
+      },
+      "ordinary_residual_dimension": 0,
+      "required": {
+        "1": -1,
+        "V": -1
+      },
+      "residual": {
+        "1": 1,
+        "P": -1,
+        "V": 1
+      },
+      "tail": "W'"
+    },
+    {
+      "chi_F1_4_plus_chi_F1_2": {
+        "1": -1,
+        "A": -1
+      },
+      "ordinary_residual_dimension": 0,
+      "required": {
+        "1": -1,
+        "V": -1
+      },
+      "residual": {
+        "A": -1,
+        "V": 1
+      },
+      "tail": "line"
+    }
+  ]
+}
