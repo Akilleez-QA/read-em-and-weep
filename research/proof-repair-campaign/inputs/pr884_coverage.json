@@ -1,0 +1,179 @@
+{
+  "original_commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+  "source_index": 113,
+  "stable_label": "G3.11.ad509d55173f",
+  "coverage": [
+    {
+      "name": "ff",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 848,
+      "commit": "77ef1c43e58ca05937ad878f81840274a3a9c064",
+      "path": "research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md"
+    },
+    {
+      "name": "ef",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 846,
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "name": "ee",
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ],
+      "kind": "strict_top"
+    },
+    {
+      "name": "cf",
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 868,
+      "commit": "fb398486839583f8fbd561d6dfaa6ab7b9d3ad67",
+      "path": "research/hm/profile11-source113-cf-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fb398486839583f8fbd561d6dfaa6ab7b9d3ad67/research/hm/profile11-source113-cf-exclusion/PROOF.md"
+    },
+    {
+      "name": "ce",
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 846,
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "name": "cc",
+      "tuple": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "kind": "strict_top"
+    },
+    {
+      "name": "bf",
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 881,
+      "commit": "4234903e84705791da6772ef85085509bd08ef2d",
+      "path": "research/hm/profile11-source113-bf-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4234903e84705791da6772ef85085509bd08ef2d/research/hm/profile11-source113-bf-exclusion/PROOF.md"
+    },
+    {
+      "name": "be",
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 846,
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "name": "bc",
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 874,
+      "commit": "cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0",
+      "path": "research/hm/profile11-source113-bc-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0/research/hm/profile11-source113-bc-exclusion/PROOF.md"
+    },
+    {
+      "name": "bb",
+      "tuple": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "kind": "whole_source",
+      "pr": 877,
+      "commit": "ea4facd73aa88c321adbbf4d7a4f30511c6e7592",
+      "path": "research/hm/profile11-source113-bb-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea4facd73aa88c321adbbf4d7a4f30511c6e7592/research/hm/profile11-source113-bb-exclusion/PROOF.md"
+    }
+  ]
+}

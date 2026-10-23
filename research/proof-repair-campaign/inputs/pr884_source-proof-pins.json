@@ -1,0 +1,37 @@
+{
+  "PR846.md": {
+    "git_blob": "c62eb6cc2e5368f9a5364121fd9df4e67198f8d0",
+    "sha256": "e1c5bdad0cfe1f989ba1d325d35cd80d69dafc961da7710691a173c235b0af9a",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+  },
+  "PR848-FF.md": {
+    "git_blob": "b9bf6e58a2a6e4f0e80797c33a38573276b68da3",
+    "sha256": "70a85a7fc501598cfd81d8ee91a4c3244cb195a463a05eaf2a3a43ff93f17ca4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md"
+  },
+  "PR868-CF.md": {
+    "git_blob": "21323a3f529022473920aad34a9224c91d7b2848",
+    "sha256": "2c9faa4394d96c158530f90bbccd586d0685b47da63c34ad4c66b7fb65ad5553",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fb398486839583f8fbd561d6dfaa6ab7b9d3ad67/research/hm/profile11-source113-cf-exclusion/PROOF.md"
+  },
+  "PR874-BC.md": {
+    "git_blob": "3a0635e53042a4afe4072186a70830ef56f256d4",
+    "sha256": "6816de6aa8f051b3de04f73f06c5d5583024aebe2b4aec66ec02967525f635ad",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0/research/hm/profile11-source113-bc-exclusion/PROOF.md"
+  },
+  "PR877-BB.md": {
+    "git_blob": "fe5bd227d98063af437107291d85c044226d8915",
+    "sha256": "33e9195434e1c57b8d33fcec2bd6e80f76daf4cf4cd77092c93dfff4f1b42e3e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea4facd73aa88c321adbbf4d7a4f30511c6e7592/research/hm/profile11-source113-bb-exclusion/PROOF.md"
+  },
+  "PR861-CF-REDUCTION.md": {
+    "git_blob": "4fc16219d5646979fac1e408f5b9d5a2f2ec922f",
+    "sha256": "8157ffa4a39882a8bc4a0b2f1c5200d01e1fc8d9d336904fce63464e672d2204",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7b5b3371a82cb92f46ea60895e45617d0891a5b0/research/hm/profile11-source113-cf-reduction/PROOF.md"
+  },
+  "PR881-BF.md": {
+    "git_blob": "207831458536fcb06afd1a58c391fccb43830df6",
+    "sha256": "f900fa54aa5ad18adc94bd7552b94891d77ccf1c5797af05414dbd8b851b4f63",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4234903e84705791da6772ef85085509bd08ef2d/research/hm/profile11-source113-bf-exclusion/PROOF.md"
+  }
+}
