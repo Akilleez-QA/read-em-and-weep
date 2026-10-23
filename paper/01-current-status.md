@@ -2,6 +2,16 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Latest checkpoint through PR1037
+
+[Exact exceptional local ideals](78-pure-v-exact-jet-lengths.md) now give total lengths 46 and 54 on ℓ₅ and ℓ₃, respectively, with support exactly the sixteen prescribed axes. Whole-orbit ideal equalities and Nakayama upgrade the previous lower bounds; no actual coefficient is selected.
+
+[Finite support bounds](75-pure-v-finite-support.md) classify necessary extra support off the jet lines and retain ambient conic multiplicity bounds rather than assuming reducedness. The length list is necessary, not realized. [Four-line placement](76-pure-v-four-lines.md) identifies [1:2], [1:−2], [1:0], [1:−1] as the two jet lines, conic line and rank-three lift line. The exact-ratio figure labels the actual coefficient unknown and does not treat intervals as branches or progress measures.
+
+[The ninth-neighborhood source report](77-ninth-forced-summands-source-report.md) records mr. slop's actual W/A summands and a rank 13 residual, with all filtered-map and non-global scope retained. This is a complete immutable source reading, not an independent reproof.
+
+Four necessary source-dual pairs across three stable labels remain. Source occurrence, actual obstruction values, off-jet occurrence and the complete repair remain open. No unpublished support or coefficient calculation is included.
+
 ## Conic refinement through PR1033
 
 [The square-conic base scheme](74-pure-v-conic-base.md) is now exact: one intrinsic nonzero gate line has twelve reduced order-five fixed squares; every other nonzero gate has empty conic intersection. These are scheme-theoretic intersections, not a determination of ambient transverse thickness. A whole-source-family zero at any square outside the twelve-orbit forces identical gate zero; a zero at an orbit point need not. No actual evaluation, coefficient selection, relation to the plane-axis jet or lift-rank lines, or off-conic support classification is supplied.
@@ -34,7 +44,7 @@ Under additional one-sided B preservation it is impossible, so the even Q-compat
 
 ## Normal lift and constant-map boundary through PR1013
 
-[PR1013](https://github.com/Akilleez-QA/read-em-and-weep/blob/9f3509ff76b9f1fbb5d61288aa0ae036b5c16aca/research/hm/source126-typeII-octic-normal-lift/PROOF.md) supplies the canonical polynomial lift R=κψ, its sixteen reduced zeros, and the unique normal form L=BU+αR. This differs from the projected map's length46 and target section's length34. In the pinned homogeneous coordinates α=−27[p⁰q⁸t⁰]L₀₀ is gauge-independent. **The actual L is missing and its coefficient is not computed.** Square-zero behavior of R does not descend automatically to E or force α=0. [Full scope](62-octic-normal-lift-and-scalar-address.md).
+[PR1013](https://github.com/Akilleez-QA/read-em-and-weep/blob/9f3509ff76b9f1fbb5d61288aa0ae036b5c16aca/research/hm/source126-typeII-octic-normal-lift/PROOF.md) supplies the canonical polynomial lift R=κψ, its sixteen reduced zeros, and the unique normal form L=BU+αR. This differs from the projected map's length 46 and target section's length34. In the pinned homogeneous coordinates α=−27[p⁰q⁸t⁰]L₀₀ is gauge-independent. **The actual L is missing and its coefficient is not computed.** Square-zero behavior of R does not descend automatically to E or force α=0. [Full scope](62-octic-normal-lift-and-scalar-address.md).
 
 [PR1011](https://github.com/Akilleez-QA/read-em-and-weep/blob/446dbfd04f6fb689c30975174dcc23d6f4c88c64/research/hm/cdf-quadratic-reverse-map-vanishing/PROOF.md) classifies the negative-quadratic reverse Hom as three-dimensional and target-only, then uses actual generation to prove its joint-Q subspace is zero under one-sided preservation. This rules out fixed parameter-independent reverse maps, not direction-dependent or deformation-dependent maps. The c-d-f cubic remains a raw three-dimensional unselected gate. [Precise reconstruction](61-cdf-constant-reverse-map.md).
 
@@ -46,7 +56,7 @@ The necessary frontier remains four pairs across three labels.
 
 ## Current extensions through PR1006
 
-[PR1005](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a50853a6b6a4f18f1a7aac06a90e33e78e7787e/research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md) computes the **whole canonical octic generator**: six triple fat points with completed ideal (u,v)³ and ten reduced simple points, total length46. Both factors are nonzero on the square conic. Its actual scalar remains unselected; a zero scalar would make the actual symbol identically zero. The target factor's length34 below remains correct but is no longer the whole extent of the available calculation. [Full scheme](58-full-octic-generator-zero-scheme.md).
+[PR1005](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a50853a6b6a4f18f1a7aac06a90e33e78e7787e/research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md) computes the **whole canonical octic generator**: six triple fat points with completed ideal (u,v)³ and ten reduced simple points, total length 46. Both factors are nonzero on the square conic. Its actual scalar remains unselected; a zero scalar would make the actual symbol identically zero. The target factor's length34 below remains correct but is no longer the whole extent of the available calculation. [Full scheme](58-full-octic-generator-zero-scheme.md).
 
 [PR1006](https://github.com/Akilleez-QA/read-em-and-weep/blob/ce6aa25acadc7d00de1e9f072f1cb7b3485cf14f/research/hm/cdf-preserved-b-cubic/PROOF.md) proves global internal-second vanishing under one-sided c-d-f preservation and constructs its canonical internal cubic in a **raw three-dimensional** space. Its nonvanishing is equivalent to generic original-fourth nonvanishing. Neither is selected, preservation itself remains unproved, and no rκ=0 or secondary ν is established. This is distinct from the source126 two-dimensional cubic gate. [Conditional theorem](59-cdf-preserved-b-cubic.md).
 

@@ -1,6 +1,6 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1033**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1037**
 
 **The original proof repair remains open. Four necessary source-dual pairs across three stable labels remain.** Recent results constrain the conditional source2 obstruction space and its universal geometry. They neither select its actual coefficients nor establish an actual surviving source or complete higher lifting/algebraicity.
 
@@ -8,17 +8,21 @@
 
 ## Latest mathematical results
 
-- **The entire square family detects the conditional source2 fourth gate.** Under a nonzero Q-compatible pure-V radical, its two-dimensional original-fourth subspace complements the old two-dimensional discriminant-divisible subspace of the unrestricted four-channel gate. Restriction to square directions is an isomorphism on the conditional space. Thus a nonzero conditional gate cannot vanish on the whole square conic. Neither actual coefficient is selected. [Exact restriction and complement](paper/69-pure-v-square-detection.md)
+- **The two exceptional nonic base schemes are now exact.** On the order-five jet line [1:2], the six axis ideals are m³ and the ten other axes are reduced, giving length 46. On the order-three jet line [1:−2], the six ideals are the prescribed (u²,v²) and the ten are m², giving length 54. Both schemes have exactly the sixteen prescribed axes and no extra support. These universal gate members are not selected as actual coefficients. [Exact ideals and proof](paper/78-pure-v-exact-jet-lengths.md)
 
-- **Square-conic basepoints are now classified.** Exactly one intrinsic nonzero gate line meets the conic in twelve reduced order-five fixed squares; every other nonzero gate has no conic basepoints. Ambient transverse thickness remains undetermined. A whole-family zero outside those twelve squares would force the gate to vanish, but a zero on one source vector does not. [Conic scheme and scope](paper/74-pure-v-conic-base.md)
+- **Four distinct geometric coefficient lines are located.** In R=αR₁+βR₂, the C₃ jet, rank-three lift, conic-base and C₅ jet lines have β/α=−2,−1,0,+2. Both jet lines have generic lift rank 4. The rank-three member's nonic ideals equal Z locally at the sixteen axes, but this does not exclude other basepoints. Lift rank and original-fourth quotient-map rank remain different. [Placement and scope](paper/76-pure-v-four-lines.md)
 
-- **Every nonzero conditional nonic system has finite base scheme.** There is no common divisorial factor. Two distinct intrinsic jet lines control the six order-five and ten order-three axes. Away from both lines, the local ideals there equal the old length-34 scheme's ideals. On the respective lines total base length is at least 46 or54. These are lower bounds, not exact exceptional lengths; additional finite basepoints remain unresolved. [No-divisor theorem and jet lines](paper/70-pure-v-nonic-base.md)
+![Exact universal coefficient ratios and the separate point at infinity; actual coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
 
-- **The quadratic lift pencil has one exceptional projective member.** In the bilinear-adjoint basis R₁=ρ_D L* and R₂=L*ρ_P, its full maximal-minor coefficient ideal is (α+β)(α,β)³. Every other nonzero member has generic rank 4. R₁−R₂ has rank 3 away from six reduced order-five axes and rank 2 exactly there, with kernel sheaf O(-5). Its rank is not the rank of the original fourth quotient map; the actual lift may still be zero. [Exact pencil and degeneracy](paper/71-pure-v-quadratic-lift-pencil.md)
+- **Off-jet support has rigorous necessary bounds.** Extra off-conic support is empty, the unique fifteen-axis orbit, or one thirty-point orbit; the latter two cannot coexist. No free sixty-orbit occurs. Off both jet lines the necessary total-length list is 34,46,49,58,61,64,70,73,76, not an occurrence list. Simple conic intersection does not force ambient reducedness: its possible uniform local length remains 1–3. [Orbit support and local budgets](paper/75-pure-v-finite-support.md)
 
-- **Seventh-neighborhood geometry, source-reported:** mr. slop constructs the actual sixth-normal correction and a fiberwise injection of the square quotient into a rank 27 target. The seventh R¹ bundle has rank 21 and degree 126. Any twelve simple secondary torsion factors are absorbed by forced nontrivial elementary modifications, not ruled out. An actual ninth-neighborhood quotient is retained. [Finite-neighborhood report](paper/72-seventh-correction-source-report.md)
+- **Ninth-neighborhood splitting, source-reported:** mr. slop forces H₉=WO(3)⊕AO(4)⊕R₁₃ and ker Θ=WO(5)⊕AO(4)⊕R₁₃*O(8). The residual has rank 13, degree 84 in H₉ and degree 20 after dual twist. The two selected summands come from actual filtered maps; the remaining map and coefficients are unknown. This is not global cohomology or a source exclusion. [Full-source report](paper/77-ninth-forced-summands-source-report.md)
 
-- **Positivity alone cannot select the opposite core, source-reported:** mr. slop constructs a flat saturated universal family with both relevant cohomological alternatives, retaining the complete-evaluation interface. It is not an HM family, and compatibility with the historical HM reduction choices is not established. Further actual-map information is needed. [Counterfamily and exact boundary](paper/73-flat-core-source-report.md)
+## Important preceding conclusions
+
+Square restriction detects the entire conditional two-channel gate. Exactly one nonzero coefficient line, [1:0], has conic basepoints: twelve reduced order-five fixed squares as an intersection scheme. Every other nonzero gate has none. A whole-family zero at a square outside that orbit forces identical vanishing; a zero on one source vector does not. The conic line's ambient transverse thickness remains unresolved. [Conic theorem](paper/74-pure-v-conic-base.md)
+
+The actual seventh correction absorbs possible secondary torsion by nontrivial elementary modifications without selecting its zero-or-twelve alternative. A flat saturated universal opposite-core counterfamily shows that the reduced core, positivity and complete-evaluation interface alone do not choose the actual opposite row; it is not an HM family. [Seventh correction](paper/72-seventh-correction-source-report.md) · [Counterfamily](paper/73-flat-core-source-report.md)
 
 ## Earlier results still governing these statements
 

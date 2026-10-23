@@ -1,8 +1,18 @@
-# Living research paper · v0.29
+# Living research paper · v0.30
 
-**Craig Ward · 23 October 2026 · Structural update through PR1033; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1037; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Latest checkpoint through PR1037
+
+[Exact exceptional local ideals](78-pure-v-exact-jet-lengths.md) now give total lengths 46 and 54 on ℓ₅ and ℓ₃, respectively, with support exactly the sixteen prescribed axes. Whole-orbit ideal equalities and Nakayama upgrade the previous lower bounds; no actual coefficient is selected.
+
+[Finite support bounds](75-pure-v-finite-support.md) classify necessary extra support off the jet lines and retain ambient conic multiplicity bounds rather than assuming reducedness. The length list is necessary, not realized. [Four-line placement](76-pure-v-four-lines.md) identifies [1:2], [1:−2], [1:0], [1:−1] as the two jet lines, conic line and rank-three lift line. The exact-ratio figure labels the actual coefficient unknown and does not treat intervals as branches or progress measures.
+
+[The ninth-neighborhood source report](77-ninth-forced-summands-source-report.md) records mr. slop's actual W/A summands and a rank 13 residual, with all filtered-map and non-global scope retained. This is a complete immutable source reading, not an independent reproof.
+
+Four necessary source-dual pairs across three stable labels remain. Source occurrence, actual obstruction values, off-jet occurrence and the complete repair remain open. No unpublished support or coefficient calculation is included.
 
 ## Conic refinement through PR1033
 
@@ -68,7 +78,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 [The c-d-f preserved B-block interface](57-cdf-preserved-b-interface.md) derives the actual internal/quotient first symbols from one-sided preservation alone. Preservation is unproved, and no complementary projector is assumed. PR1006 below now supplies the bounded cubic extension.
 
-[The full octic zero scheme](58-full-octic-generator-zero-scheme.md) separates the whole generator's length46 from the target factor's length34, including the six reduced source-row zeros. The actual scalar remains unselected.
+[The full octic zero scheme](58-full-octic-generator-zero-scheme.md) separates the whole generator's length 46 from the target factor's length34, including the six reduced source-row zeros. The actual scalar remains unselected.
 
 [The one-sided c-d-f cubic gate](59-cdf-preserved-b-cubic.md) proves the internal quadratic zero and a raw three-dimensional cubic space equivalent to the generic original-fourth test. No κ restriction, secondary scalar or actual preservation is asserted.
 
@@ -82,7 +92,7 @@ Four necessary source-dual pairs across three stable labels remain. The collabor
 
 ## Current reading order
 
-Start with the [root status paper](../README.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
+Start with the [root status paper](../README.md), then chapters [75](75-pure-v-finite-support.md), [76](76-pure-v-four-lines.md), [77](77-ninth-forced-summands-source-report.md) and [78](78-pure-v-exact-jet-lengths.md), then [the conic refinement](74-pure-v-conic-base.md), followed by chapters [69](69-pure-v-square-detection.md), [70](70-pure-v-nonic-base.md), [71](71-pure-v-quadratic-lift-pencil.md), [72](72-seventh-correction-source-report.md) and [73](73-flat-core-source-report.md). The preceding update is in chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
 
 1. [Root status paper](../README.md)
 2. [Even c-d-f algebra](63-cdf-even-algebra-and-split-alternative.md)

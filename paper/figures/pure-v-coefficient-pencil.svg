@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+<title id="title">Four distinguished points of the universal pure-V coefficient pencil</title>
+<desc id="desc">On the finite coordinate t equals beta divided by alpha, the C3 jet line is minus two, the rank-three lift is minus one, the conic-base line is zero, and the C5 jet line is plus two. The separate projective point at infinity is zero colon one. The actual coefficient is unknown. Axis intervals do not denote mathematical branches or completion progress.</desc>
+<rect width="1200" height="440" fill="#ffffff"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#101820">
+<text x="48" y="47" font-size="27" font-weight="700">The universal coefficient pencil: R = αR₁ + βR₂</text>
+<text x="48" y="80" font-size="18">Conditional pure-V gate · actual coefficient unknown · not a completion percentage</text>
+<text x="48" y="122" font-size="17" font-weight="700">Finite coordinate t = β/α  (α ≠ 0)</text>
+<path d="M130 204 H970" stroke="#101820" stroke-width="3" fill="none"/>
+<path d="M130 204 l10 -6 M130 204 l10 6 M970 204 l-10 -6 M970 204 l-10 6" stroke="#101820" stroke-width="2" fill="none"/>
+<g stroke="#101820" stroke-width="2"><path d="M250 193 V215 M400 193 V215 M550 193 V215 M700 197 V211 M850 193 V215"/></g>
+<g font-size="18" text-anchor="middle"><text x="250" y="240">−2</text><text x="400" y="240">−1</text><text x="550" y="240">0</text><text x="700" y="240">1</text><text x="850" y="240">2</text></g>
+<g stroke="#005a75" stroke-width="3" fill="#ffffff">
+<circle cx="250" cy="204" r="8"/><path d="M400 194 L410 204 L400 214 L390 204 Z"/><rect x="542" y="196" width="16" height="16"/><path d="M850 194 L860 212 H840 Z"/>
+</g>
+<g stroke="#53606b" stroke-width="1.5" fill="none"><path d="M250 193 V182 M400 215 V220 M400 250 V284 M550 193 V182 M850 215 V220 M850 250 V284"/></g>
+<g text-anchor="middle" font-size="18" font-weight="700"><text x="250" y="145">C₃ jet line · length 54</text><text x="550" y="145">Conic-base line</text><text x="400" y="311">Rank-three lift</text><text x="850" y="311">C₅ jet line · length 46</text></g>
+<g text-anchor="middle" font-size="16"><text x="250" y="174">[α:β] = [1:−2]</text><text x="550" y="174">[1:0]</text><text x="400" y="337">[1:−1]</text><text x="850" y="337">[1:2]</text></g>
+<rect x="1010" y="147" width="145" height="113" rx="8" fill="#eef3f5" stroke="#101820" stroke-width="2"/>
+<text x="1082" y="178" text-anchor="middle" font-size="16">Separate point</text><text x="1082" y="214" text-anchor="middle" font-size="27" font-weight="700">∞  [0:1]</text><text x="1082" y="242" text-anchor="middle" font-size="15">α = 0</text>
+<text x="48" y="380" font-size="17">Exact ratio positions only. Intervals do not denote branches or measure the remaining search space.</text>
+<text x="48" y="410" font-size="15">Sources: PR1031, PR1036, PR1037. Exact nonic lengths shown; actual coefficient remains unknown.</text>
+</g>
+</svg>
