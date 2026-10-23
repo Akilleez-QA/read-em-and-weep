@@ -1,0 +1,42 @@
+[
+  {
+    "local_path": "inputs/1030.md",
+    "commit": "418a7d9ebedaae9b5d00db9f69e449b5d8767108",
+    "path": "research/hm/source2-pure-v-nonic-base/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/418a7d9ebedaae9b5d00db9f69e449b5d8767108/research/hm/source2-pure-v-nonic-base/PROOF.md",
+    "sha256": "6c6f88789501483d4ae738894f68afbf9b3d95a6d850d1cee51ea7ebd256a1bb",
+    "git_blob": "aec4e3f550d3dc4bedb2911019de65e61852c436"
+  },
+  {
+    "local_path": "inputs/1031.md",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "sha256": "7afb4f1c03d2077e158aaa5be9570cfc9d28f1f8b631d610b2fcca07c135e446",
+    "git_blob": "0694e96e2d17a53b68d625ec6065f8bf513cd083"
+  },
+  {
+    "local_path": "inputs/1025.md",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7"
+  },
+  {
+    "local_path": "model.py",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/model.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056"
+  },
+  {
+    "local_path": "inputs/1033.md",
+    "commit": "7065160df56ffa7de1bea7e02c01dd98a6219781",
+    "path": "research/hm/source2-pure-v-conic-base/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7065160df56ffa7de1bea7e02c01dd98a6219781/research/hm/source2-pure-v-conic-base/PROOF.md",
+    "sha256": "c5c00f73f82e2e47803b7ca71bb1953dcacf9ca015f15ca8c4dc7ccea8c90f5c",
+    "git_blob": "5625cb9e0a6ee2a53470616b82b3c93d76f0042b"
+  }
+]
