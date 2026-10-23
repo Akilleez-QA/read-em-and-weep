@@ -1,0 +1,114 @@
+# The full canonical octic generator has six triple points and ten simple zeros
+
+## Statement and boundary
+
+Retain the representation identifications of PR995. On X=P(A), with A=Sym²W and D=Sym⁴W, the canonical nonzero octic generator is
+
+    g8=σψ4:D O_X(−8)→E,
+    ψ4(a)(h)=⟨cP(a),b_T,a(h)⟩_P,
+    0→A O_X(−1)→D O_X→E→0.
+
+Here σ spans H0(E(4))^G, cP is the unique nonzero P-valued cubic on A, and b_T:D O(−1)→P O is the quotient multiplication family from PR973.
+
+The zero scheme of the FULL generator g8 has length46 and is precisely:
+
+- Six triple fat points at the order-five axes, each with completed ideal m³=(u,v)³ and local length6.
+- Ten reduced simple points at the order-three axes, each of local length1.
+
+There are no other zeros, in particular none on the discriminant conic of square quadratics. In contrast, PR1000's target factor σ alone has local ideal (u²,v²) at the six axes and total zero length34. The present statement is NOT that older target-factor result.
+
+The actual internal eighth symbol is an unselected scalar multiple of g8. If that scalar is nonzero, it has the same zero scheme; if it is zero, the actual map is identically zero. This theorem selects neither alternative. It performs no actual HM coefficient, parameter, direction, matrix or rank evaluation, excludes no source or pair, and claims no full repair.
+
+## 1. Exact inputs and novelty boundary
+
+INPUTS.json pins the following immutable proofs in Akilleez-QA/read-em-and-weep:
+
+- PR995 at f9435fa37c78e86391fd1a773a039dd646a05e53: the canonical octic factorization and uniqueness of cP.
+- PR1000 at 260cd6a777b23dc7ccd5ed956fcf65e17ff56145: the exact σ zero scheme, six length-four C5 axes and ten simple C3 axes, with no conic zeros.
+- PR973 at f48c517d776b7f82ee1f96787da722223431a565: the actual quotient first symbol is nonzero scalar times ordinary multiplication D→Sym⁶W/V6=P, and the original β2 is a nonzero equivariant family in Hom_G(Sym² A⊗A,P).
+- PR966 at 4d0a6713a9c81fe669967e1d23838bdc8f4162b6: b_T has rank4 off exactly the ten C3 axes and rank3 there; all squares have rank4.
+- The OLD six-axis theorem THIRD-GATE-VANISHING-AT-SIX-AXES-KILLS-RESIDUAL-CHANNEL.md at db51525015bb7c5e825833d550d08dedf6f6ea96: §2 proves β2 has rank2 at the six C5 axes, with its entire rank-drop scheme supported there. Thus its rank is3 elsewhere.
+
+All retained premises of these inputs remain in force. The old rank-drop theorem is imported, not claimed as a new calculation. A search of the source126 and generic-beta packets found no prior length46 full-generator zero scheme or proof that ψ4 has exactly six reduced zeros. No source2 occurrence is imported when using PR966's universal multiplication family.
+
+## 2. The cubic P-covariant has exactly six reduced basepoints
+
+Since A is self-dual, plane polynomial degree is measured by Sym^n A. The exact character identities give
+
+    dim Hom_G(Sym³ A,P)=1,
+    dim Hom_G(Sym² A⊗A,P)=1.
+
+The derivative dcP is a nonzero member of the second Hom space. Indeed a nonzero homogeneous cubic in characteristic zero cannot have every first derivative zero. The nonzero original β2 belongs to the same one-dimensional space by PR973. After the fixed equivariant source/target identifications, therefore
+
+    dcP(a)(h)=λ β2,a(h),  λ≠0.                         (1)
+
+This identifies the WHOLE quadratic family, not a numerical rank analogy.
+
+If cP(a)=0 for nonzero a, Euler's identity gives dcP(a)(a)=3cP(a)=0. Equation(1) makes a a nonzero β2,a-kernel vector. The old six-axis theorem therefore implies [a] is one of the six C5 axes.
+
+Conversely, at any C5 axis the rotation subgroup fixes a vector a representing the axis, while P has no fixed vector under that cyclic subgroup. For example the eigencharacters of P are the four nontrivial fifth-root characters, each once; this follows from χP(1)=4 and χP(g)=−1 for every nonidentity g in that subgroup. Equivariance forces cP(a)=0. Thus the set of basepoints is exactly the six axes.
+
+At each such point, β2 has rank2, hence dcP has rank2. Its radial kernel contains a by Euler, and its domain has dimension3, so that kernel is precisely C·a. The induced derivative on the projective tangent plane is therefore injective of rank2. At a zero of a section, this is the intrinsic first derivative independent of a local line-bundle trivialization. The component linear terms consequently span the two-dimensional cotangent space. Nakayama's lemma shows that the local base ideal is the full maximal ideal m. Thus the base scheme of cP consists of SIX REDUCED points, not the length24 degeneracy scheme of its derivative β2.
+
+## 3. Away from the ten C3 axes, ψ4 has the same ideal as cP
+
+On the open locus where b_T is onto, its dual is a split injective map of vector bundles. After local trivialization it has a left inverse. The invariant perfect pairing identifies the P-valued cubic cP with its covector, and
+
+    ψ4=b_T^*(cP).
+
+Thus the ideal generated by the components of ψ4 equals the ideal generated by the components of cP there: one inclusion follows from the displayed composition, and the left inverse gives the reverse. In particular ψ4 vanishes simply at each C5 axis and nowhere else outside the ten C3 axes. The two axis orbits are disjoint.
+
+This ideal equality is stronger than equality of zero supports and will be needed for the product scheme.
+
+## 4. At the ten exceptional C3 axes, the parameter-line sign is essential
+
+Fix an ARBITRARY C3 axis [a], with its projective stabilizer H≅S3. Let χ be the sign character of H. In binary eigen-coordinates write a=xy. A cyclic rotation fixes a, while a normalizer involution interchanging the two eigenlines sends a to−a. Thus the actual parameter line C·a has character χ. In particular the fiber O_X(−1)|_[a] is χ, NOT the trivial representation.
+
+Because cP is cubic, equivariance and homogeneity give cP(a) in the χ-isotypical line of P. It is nonzero by §2, because this point is not a C5 axis.
+
+Write ρ for the standard two-dimensional representation of S3. Restricting the A5 characters to H gives
+
+    D|H = 1⊕2ρ,
+    P|H = 1⊕χ⊕ρ.
+
+For example, on the classes(identity, transposition, three-cycle) their characters are respectively(5,1,−1) and(4,0,1). The fixed-axis map b_T,a is H-equivariant as
+
+    D⊗χ→P,                                           (2)
+
+since the parameter line is the sign representation. Equivalently b_T(ha)(hv)=h b_T(a)v and ha=χ(h)a. Thus its source has representation χ⊕2ρ, with NO trivial constituent. By PR966 its rank is3 here. Semisimplicity and the target multiplicities force
+
+    image(b_T,a)=χ⊕ρ ⊂ P.                             (3)
+
+In particular it contains the unique χ line, rather than missing it. Omitting the parameter-line twist would give the wrong conclusion.
+
+The invariant pairing on P is nondegenerate on that χ line. Indeed it pairs this line only with itself, because the other irreducible summands are nonisomorphic, and the full pairing is perfect. Since cP(a) is a nonzero vector in that line, pairing it with image(b_T,a) is not zero. Hence ψ4(a)≠0 at EVERY one of the ten axes.
+
+Combined with §3, the zero scheme of ψ4 is exactly the six reduced C5 axes, with no hidden points at the rank-drop locus and no conic zeros. This proof is uniform in each orbit and uses no selected instance evaluation.
+
+## 5. The full zero ideal is the product of the two factor ideals
+
+Choose arbitrary local bundle frames and a trivialization of the intermediate line O(−4). If σ has components(s1,s2) and ψ4 has components(p1,...,p5), then the full generator has entries si pj. Therefore its zero ideal is exactly
+
+    I_g8 = I_σ I_ψ4.                                  (4)
+
+This is frame-independent and applies scheme-theoretically, not merely to sets of zeros.
+
+At a C5 axis, PR1000 gives I_σ=(u²,v²), and §3 gives I_ψ4=m=(u,v). Their product is
+
+    (u²,v²)(u,v)=(u³,u²v,uv²,v³)=m³.
+
+The completed quotient has basis1,u,v,u²,uv,v² and length6. These are triple fat points, distinct from PR1000's quadratic complete intersections of length4.
+
+At a C3 axis, I_σ=m by PR1000, while §4 gives I_ψ4=O locally. Hence I_g8=m, a simple point. Elsewhere both factors are nowhere simultaneously obstructive: σ is nonzero and ψ4 has no additional zeros. Thus there are no further points in the zero scheme. Its total length is
+
+    6·6+10·1=46.
+
+In particular σ and ψ4 are BOTH nowhere zero on the discriminant conic, so the full generator has no square-direction zero. This latter conclusion is now justified for the whole map, unlike the target-factor statement alone.
+
+## 6. Exact remaining boundary
+
+The result describes the canonical universal nonzero generator of the one-dimensional octic gate. It does not decide the scalar of the actual internal eighth symbol. It does not produce a nonzero original higher Bockstein; PR985's all-orders original generic vanishing remains intact. No ninth or higher internal symbol, source occurrence, or source-dual pair is decided.
+
+## Verification scope
+
+The checker authenticates all pinned inputs; verifies the plane Hom multiplicities, derivative/Euler identities, cyclic C5 fixed-space calculation, and the SIGN-TWISTED S3 restrictions; enumerates the possible rank3 image; and checks the local product ideal and length46. These are universal representation and local-algebra certificates. The old β2 ranks and the σ/quotient-symbol geometries remain imported exact theorems, not recomputed actual HM evaluations.
