@@ -2,6 +2,10 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Secondary octic test ruled out through PR998
+
+[PR998](https://github.com/Akilleez-QA/read-em-and-weep/blob/76d415dc9d6c6dda782d5de3f87fca82a4a2d258/research/hm/source126-secondary-octic/PROOF.md) proves ψρκ=0 for every equivariant quartic covector ψ: the composition would be a degree-nine invariant polynomial on the three-dimensional parameter representation A, whose invariant space is zero. Thus νr8ρκ=0 is automatic on the canonical octic line and imposes no condition on its scalar, even if ν≠0. A different actual relation is required. This is a new exact negative result about the test, not a newly vanishing obstruction. Counts remain four pairs and three labels. [Details and certificate](54-secondary-octic-zero-test.md).
+
 ## Internal octic gate through PR995
 
 Under actual full-radical Type II compatibility, [PR995](https://github.com/Akilleez-QA/read-em-and-weep/blob/f9435fa37c78e86391fd1a773a039dd646a05e53/research/hm/source126-typeII-internal-octic-gate/PROOF.md) proves that the internal fourth through seventh symbols vanish globally. Its actual eighth symbol lies in a canonical one-dimensional rank-one line satisfying quotient-kernel naturality; its scalar is unselected. Rank-one exclusion alone kills orders four and five. Orders six and seven require additional actual-cycle naturality, which excludes their otherwise possible rank-one lines.
