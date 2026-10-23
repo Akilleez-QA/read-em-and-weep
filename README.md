@@ -1,36 +1,48 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1037**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1046**
 
-**The original proof repair remains open. Four necessary source-dual pairs across three stable labels remain.** Recent results constrain the conditional source2 obstruction space and its universal geometry. They neither select its actual coefficients nor establish an actual surviving source or complete higher lifting/algebraicity.
+**The universal pure-V component-scheme classification is complete, and now transfers to the determinant-embedded original fourth D row. The original proof repair is not.** Four necessary source-dual pairs across three stable labels remain. No actual compatible pure-V source, nonzero gate or coefficient ratio is selected.
 
 [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
-## Latest mathematical results
+## Complete universal classification
 
-- **The two exceptional nonic base schemes are now exact.** On the order-five jet line [1:2], the six axis ideals are m³ and the ten other axes are reduced, giving length 46. On the order-three jet line [1:−2], the six ideals are the prescribed (u²,v²) and the ten are m², giving length 54. Both schemes have exactly the sixteen prescribed axes and no extra support. These universal gate members are not selected as actual coefficients. [Exact ideals and proof](paper/78-pure-v-exact-jet-lengths.md)
+In the pinned quadratic-lift basis R=αR₁+βR₂, every nonzero coefficient pair belongs to exactly one of these five strata. Z denotes the six prescribed length-four order-five ideals (u²,v²) and ten reduced order-three axes, of total length 34.
 
-- **Four distinct geometric coefficient lines are located.** In R=αR₁+βR₂, the C₃ jet, rank-three lift, conic-base and C₅ jet lines have β/α=−2,−1,0,+2. Both jet lines have generic lift rank 4. The rank-three member's nonic ideals equal Z locally at the sixteen axes, but this does not exclude other basepoints. Lift rank and original-fourth quotient-map rank remain different. [Placement and scope](paper/76-pure-v-four-lines.md)
+| Ratio β/α | Complete nonic component scheme | Length |
+|---|---|---:|
+| −2 | Six Z ideals; m² at ten order-three axes | 54 |
+| −1 | Z plus fifteen reduced order-two axes | 49 |
+| 0 | Z plus twelve reduced conic points | 46 |
+| +2 | m³ at six order-five axes; ten reduced axes | 46 |
+| Every other ratio, including infinity [0:1] | Exactly Z | 34 |
 
-![Exact universal coefficient ratios and the separate point at infinity; actual coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
+This describes the component **ideal sheaf**, equivalently the saturated homogeneous ideal. There are no extra support points, hidden local thicknesses or divisorial components in any nonzero stratum. Equality with Z holds for **every** member outside the four special ratios, not merely a generic member. The two length 46 cases are different schemes, not interchangeable outcomes. [Complete theorem](paper/82-pure-v-complete-nonic-classification.md)
 
-- **Off-jet support has rigorous necessary bounds.** Extra off-conic support is empty, the unique fifteen-axis orbit, or one thirty-point orbit; the latter two cannot coexist. No free sixty-orbit occurs. Off both jet lines the necessary total-length list is 34,46,49,58,61,64,70,73,76, not an occurrence list. Simple conic intersection does not force ambient reducedness: its possible uniform local length remains 1–3. [Orbit support and local budgets](paper/75-pure-v-finite-support.md)
+![Complete universal nonic coefficient strata; zero gate separate and actual coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
 
-- **Ninth-neighborhood splitting, source-reported:** mr. slop forces H₉=WO(3)⊕AO(4)⊕R₁₃ and ker Θ=WO(5)⊕AO(4)⊕R₁₃*O(8). The residual has rank 13, degree 84 in H₉ and degree 20 after dual twist. The two selected summands come from actual filtered maps; the remaining map and coefficients are unknown. This is not global cohomology or a source exclusion. [Full-source report](paper/77-ninth-forced-summands-source-report.md)
+The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Whether the actual conditional gate is zero remains unknown. The figure locates exact ratios, not mathematical branches between them, fractions of search space or completion percentages.
 
-## Important preceding conclusions
+## What closed the remaining scheme questions
 
-Square restriction detects the entire conditional two-channel gate. Exactly one nonzero coefficient line, [1:0], has conic basepoints: twelve reduced order-five fixed squares as an intersection scheme. Every other nonzero gate has none. A whole-family zero at a square outside that orbit forces identical vanishing; a zero on one source vector does not. The conic line's ambient transverse thickness remains unresolved. [Conic theorem](paper/74-pure-v-conic-base.md)
+- **Fifteen-axis occurrence and reducedness:** that orbit occurs exactly at β=−α. Whole-orbit remainder and Nakayama certificates give ambient maximal ideals, so this full scheme has length 49. The earlier possible fifteen-axis double points never occur. [Occurrence theorem](paper/79-pure-v-fifteen-axis-scheme.md)
+- **No thirty-point orbit:** an exact homogeneous mirror resultant and all exceptional gcds exclude this support for every nonzero coefficient pair, including coefficient infinity. [Whole-pencil exclusion](paper/80-pure-v-no-thirty-orbit.md)
+- **Conic thickness resolved:** at β=0, all twelve conic basepoints are reduced in the ambient plane, not just on the conic. Its complete scheme is Z plus that reduced orbit, length 46. [Ambient local ideals](paper/81-pure-v-conic-ambient-scheme.md)
 
-The actual seventh correction absorbs possible secondary torsion by nontrivial elementary modifications without selecting its zero-or-twelve alternative. A flat saturated universal opposite-core counterfamily shows that the reduced core, positivity and complete-evaluation interface alone do not choose the actual opposite row; it is not an HM family. [Seventh correction](paper/72-seventh-correction-source-report.md) · [Counterfamily](paper/73-flat-core-source-report.md)
+Together with the exact jet cases, these replace the older necessary nine-length list by an exhaustive scheme theorem. This completes the stated universal question, not the actual-source problem.
 
-## Earlier results still governing these statements
+## Global geometry, source-reported
 
-The source2 genuine quotient has zero first symbol and second [B,0]. Its third s:P(-3)→J=I_Z(6) has a unique quadratic lift R in two channels. Corrected lifts give ιβ₄|D=−sL, hence identical fourth vanishing on surviving D iff s=R=0. Additional specialized A-kernels are outside the comparison. The quotient is not equivalent to the original complex. Its separate secondary A→D scalar is forced nonzero, not an evaluation of s. [Interfaces](paper/65-pure-v-quotient-symbols.md)
+mr. slop establishes actual restriction sequences 0→Jg→ker Θ→C*O(8)→0 and 0→C→H₉→Jg*O(8)→0. Jg has an actual 28→41 Steiner presentation, rank 13 and degree 28. It is **not** the rank 13, degree 20 residual of the finite splitting. A determinant of degree −8 forces a nonzero intersection with the selected A(4)⊕W(5) subbundle; it does not choose either component map. The sequences are not asserted split. [Full-source report and parity](paper/83-global-ninth-bridge-source-report.md)
 
-The source126 octic scalar and applicable single-line cubics remain unknown. Decker's full ambient stabilizer theorem closes the extra ambient-symmetry route, not that scalar; lift/target/projected zero-scheme lengths 16/34/46 describe different objects. The c-d-f even algebra remains scalar or C², with the nonscalar persistence alternative unselected; one-sided preservation retains a raw three-dimensional cubic. [Symmetry](paper/66-full-ambient-symmetry-boundary.md) · [Octic](paper/62-octic-normal-lift-and-scalar-address.md) · [c-d-f](paper/63-cdf-even-algebra-and-split-alternative.md)
+## Original-fourth bridge and retained boundaries
 
-## Fixed necessary frontier
+The new exact bridge proves equality of projective component ideal sheaves for the nonic F and determinant-embedded original-fourth D row H=FL, including all ten order-three axes where L loses surjectivity. Whole-orbit certificates give m off the C₃ jet line and m² on it. The five-stratum table therefore transfers unchanged. [Exact local comparison](paper/84-pure-v-fourth-ideal-transfer.md)
+
+This is not equality of raw graded ideals, quadratic-lift rank-drop schemes or singular-target fiber maps. Additional specialized A-kernel classes remain outside the comparison. Actual coefficients and source occurrence remain unknown.
+
+## Fixed source frontier
 
 | Source | Stable label | Catalogue pairs (E,Q*) |
 |---|---|---|
@@ -38,8 +50,6 @@ The source126 octic scalar and applicable single-line cubics remain unknown. Dec
 | Source127 c-d-f | G3.11.cce6e3ba4eeb | (14,148) |
 | Source2 | G3.21.d610e381ed75 | (13,21) |
 
-These pinned indices give **2+1+1 pairs**, profiles **2/0/1**, not actual realizations or proof-completion percentages. Source2's earlier 78→1 was overdue ledger propagation, not 77 new geometric discoveries. Seven opposite-bundle types are a separate catalogue. [Accounting](paper/36-source126-dual-specialization.md)
-
-Actual compatibility, obstruction values, physical mixed multiplication and higher lifting/algebraicity remain open. The broader established section count remains four or five on a general smooth inversion-even quadric, with no odd sections. [Detailed evidence](paper/01-current-status.md)
+These are **2+1+1 necessary pairs**, not actual realizations. Source126's octic scalar, applicable single-line cubics, c-d-f alternatives, actual compatibility and physical higher lifting/algebraicity remain unresolved. Seven opposite-bundle types are a separate catalogue. [Earlier results and limits](paper/01-current-status.md)
 
 Exact checks support written proofs over pinned premises, not formal certification of the entire repair. Collaborator reports are full-source readings, not independent reproofs. Draft PRs are not merges.
