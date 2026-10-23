@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: actual profile-(2,1) closure through PR1138**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: cubic visibility and ambient reduction through PR1145**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/136-actual-profile21-closure.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/137-cubic-visibility-and-ambient-reduction.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Stronger cubic conditions and actual ambient reduction through PR1145
+
+[The new structural chapter](paper/137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; the whole profile is not closed.
+
+Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. Profile (1,1), other-profile exhaustion and the original repair remain open at this checkpoint.
 
 ## Actual maximal profile (2,1) closure through PR1138
 

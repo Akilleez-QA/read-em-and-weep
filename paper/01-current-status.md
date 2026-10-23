@@ -1,12 +1,18 @@
 # Current mathematical status
 
-**Craig Ward · 23 October 2026 · Current checkpoint: actual profile-(2,1) closure through PR1138**
+**Craig Ward · 23 October 2026 · Current checkpoint: cubic visibility and ambient reduction through PR1145**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Stronger cubic conditions and actual ambient reduction through PR1145
+
+[The new structural chapter](137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; the whole profile is not closed.
+
+Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. Profile (1,1), other-profile exhaustion and the original repair remain open at this checkpoint.
 
 ## Actual maximal profile (2,1) closure through PR1138
 
