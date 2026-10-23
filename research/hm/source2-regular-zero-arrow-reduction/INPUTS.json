@@ -1,0 +1,42 @@
+[
+  {
+    "local_path": "inputs/790.md",
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md"
+  },
+  {
+    "local_path": "inputs/794.md",
+    "commit": "7fd254100b83bb03f41b776ea3119690aa51f671",
+    "path": "research/hm/source2-radical-rank-locus/PROOF.md",
+    "git_blob": "3ad30b9aa1920408cc34778e78405f544b5adc8e",
+    "sha256": "a256ec6cc92b1151a6551e6692cfa32cac02bceaad34c60746f51f249256cf4c",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7fd254100b83bb03f41b776ea3119690aa51f671/research/hm/source2-radical-rank-locus/PROOF.md"
+  },
+  {
+    "local_path": "inputs/795.md",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md"
+  },
+  {
+    "local_path": "inputs/950.md",
+    "commit": "54c7e78bd5351b3ecbdcc4b3b558a0012eb79566",
+    "path": "research/hm/source2-radical-image-reduction/PROOF.md",
+    "git_blob": "da574749b93a49264aa52ec2fd8d5a04c4cce214",
+    "sha256": "d86b7ebf11aa7684a522f408a641b2a0d74c239d521ef9bf829815ae58551fb4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54c7e78bd5351b3ecbdcc4b3b558a0012eb79566/research/hm/source2-radical-image-reduction/PROOF.md"
+  },
+  {
+    "local_path": "inputs/953.md",
+    "commit": "9c12c02a601cc380e2e2cf233e7b37dddd46d563",
+    "path": "research/hm/source2-radical-quotient-normal-form/PROOF.md",
+    "git_blob": "59a90175ce3ff15b5510a9e9ca598a24d4ffd392",
+    "sha256": "73d463dbd0e88e34e87b73c1cc49c4c98887d1d124bdea692a24ee1d6b144ce1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9c12c02a601cc380e2e2cf233e7b37dddd46d563/research/hm/source2-radical-quotient-normal-form/PROOF.md"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "active_dimensions_rank3": [
+    24,
+    25
+  ],
+  "active_dimensions_rank8": [
+    24,
+    20
+  ],
+  "actual_source_instances_evaluated": 0,
+  "checks": 244,
+  "original_41_to_37_family_rank_bound_rank3": 36,
+  "permanent_kernel_dimension_rank3": 5,
+  "restriction_ranks": [
+    3,
+    8
+  ],
+  "scope": "Conditional regular compatible radical line; no source or pair cut.",
+  "status": "PASS"
+}
