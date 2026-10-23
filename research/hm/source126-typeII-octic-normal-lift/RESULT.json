@@ -1,0 +1,32 @@
+{
+  "pinned_extraction_pivot": {
+    "entry": [
+      0,
+      0
+    ],
+    "monomial_q_t": [
+      11,
+      0
+    ],
+    "denominator": "1/27"
+  },
+  "status": "PASS",
+  "checks": 186,
+  "normalized_target_factor": "sigma = pi(kappa)",
+  "lift_identities": [
+    "C R = 0",
+    "R^2 = 0",
+    "trace R = 0",
+    "rank R <= 1",
+    "pi R = g8"
+  ],
+  "lift_zero_scheme": "six plus ten reduced axes",
+  "lift_zero_length": 16,
+  "projected_zero_length": 46,
+  "normal_form_dimension": 541,
+  "ambient_dimension": 1125,
+  "scalar_extraction": "quotient remainder coefficient, invariant under every B U gauge",
+  "actual_scalar_evaluated": false,
+  "actual_HM_instance_evaluated": false,
+  "source_or_pair_removed": false
+}
