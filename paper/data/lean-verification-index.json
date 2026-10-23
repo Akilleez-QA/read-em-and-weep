@@ -1,0 +1,278 @@
+{
+  "scope": "Publication byte/receipt inspection; no independent Lean execution in closeout",
+  "packages": [
+    {
+      "pr": 852,
+      "commit": "4829a53c90f5e9213d7fd197e781acb1649a6e7c",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceTraceFactorization.lean",
+          "sha256": "cccb896a48cb8226a5c7ba68d16cee21f5786d1521263329fd8fa4a17e24da7c",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4829a53c90f5e9213d7fd197e781acb1649a6e7c/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceTraceFactorization.lean"
+        },
+        {
+          "path": "research/hm/lean-source-trace-factorization/AXIOMS.txt",
+          "sha256": "2f80bc609e4b40b15cdcd356404286fd135818641e746016c8cb84aae0346dba",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4829a53c90f5e9213d7fd197e781acb1649a6e7c/research/hm/lean-source-trace-factorization/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-source-trace-factorization/VERIFICATION.json",
+          "sha256": "333d667f39dd0a332f99491735c37bcc936b2d3655d05aa7f3e726d9e66a467d",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4829a53c90f5e9213d7fd197e781acb1649a6e7c/research/hm/lean-source-trace-factorization/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 853,
+      "commit": "a0834508e3a1772763f28ca88edd98e3d161319c",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/Source2TraceKernel.lean",
+          "sha256": "e580dbcf59da2cb4af5b25793b2f22027935f92d42b27c05a6a298ca1a15f38f",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a0834508e3a1772763f28ca88edd98e3d161319c/lean/OAI/AlgebraicGeometry/HorrocksMumford/Source2TraceKernel.lean"
+        },
+        {
+          "path": "research/hm/lean-source2-trace-kernel/AXIOMS.txt",
+          "sha256": "3cf4d1853504a509576da83fd66d33a2e4193e06931361b8a39c182ed73e68d7",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a0834508e3a1772763f28ca88edd98e3d161319c/research/hm/lean-source2-trace-kernel/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-source2-trace-kernel/VERIFICATION.json",
+          "sha256": "ab8dbe589eec508151fbb41f695c6d3a32a7e2a12e6cc2c6406ef4199473e214",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a0834508e3a1772763f28ca88edd98e3d161319c/research/hm/lean-source2-trace-kernel/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 864,
+      "commit": "827c5300d377ff59a64c01f34ba4d409975e22b5",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean",
+          "sha256": "5b4929d3149af4c38d70b2336f947f10fab5cfbca5805fdc06f6856faa5349d9",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/827c5300d377ff59a64c01f34ba4d409975e22b5/lean/OAI/AlgebraicGeometry/HorrocksMumford/FirstNormalCorrection.lean"
+        },
+        {
+          "path": "research/hm/lean-first-normal-correction/AXIOMS.txt",
+          "sha256": "9b5e691767eb10e003e120cece7ab7e48a75de748abac52cdfba727926c7261c",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/827c5300d377ff59a64c01f34ba4d409975e22b5/research/hm/lean-first-normal-correction/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-first-normal-correction/VERIFICATION.json",
+          "sha256": "bf87eea1f5bc3947387854a9e3c6429fbe2228e1f87f8114aa023dcfb386be97",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/827c5300d377ff59a64c01f34ba4d409975e22b5/research/hm/lean-first-normal-correction/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 865,
+      "commit": "80f241711bcd3a053268de6a83c8aee68403ebbf",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/QuadraticProjectorCompatibility.lean",
+          "sha256": "1bc07ce1ca444f822abc5a6c344d099475c9b6e45cc024ae2985878bb5b7ba32",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/80f241711bcd3a053268de6a83c8aee68403ebbf/lean/OAI/AlgebraicGeometry/HorrocksMumford/QuadraticProjectorCompatibility.lean"
+        },
+        {
+          "path": "research/hm/lean-quadratic-projector-compatibility/AXIOMS.txt",
+          "sha256": "ef5224a1abeb62de34fdd7883425d2e0b18c4659087fbbbef98b14cd859001d6",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/80f241711bcd3a053268de6a83c8aee68403ebbf/research/hm/lean-quadratic-projector-compatibility/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-quadratic-projector-compatibility/VERIFICATION.json",
+          "sha256": "5736d288a98cf318b6e6d86557884a3e5379059e699e87738eec6cc6ac84a6a4",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/80f241711bcd3a053268de6a83c8aee68403ebbf/research/hm/lean-quadratic-projector-compatibility/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 871,
+      "commit": "ef90f1edc66488be999ff85e69c6fd8409045f85",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.lean",
+          "sha256": "9fd1bfdae44e2edc2e7f83838d97d150b75d3f5a7fb870b9038866f193ee5c0f",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef90f1edc66488be999ff85e69c6fd8409045f85/lean/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.lean"
+        },
+        {
+          "path": "research/hm/lean-nonclosed-frame-transfer/AXIOMS.txt",
+          "sha256": "5b4f6b4385e19dae3cf528081ce7e2b030b592629307c46ff0cb6f12c461a7b7",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef90f1edc66488be999ff85e69c6fd8409045f85/research/hm/lean-nonclosed-frame-transfer/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-nonclosed-frame-transfer/VERIFICATION.json",
+          "sha256": "ee36f34a51e342dcc13c0fe9a2459a18fa09aa41274d8a69c5fa144a22bf032b",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef90f1edc66488be999ff85e69c6fd8409045f85/research/hm/lean-nonclosed-frame-transfer/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 872,
+      "commit": "4f10e244cb4dc28438ed1fcba7877df79e83d465",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/FrameTransferCocycle.lean",
+          "sha256": "18c6271fd13b70806e15ce0a71bb80ebbfbc778c0ea38178a98236a1ecc97e35",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4f10e244cb4dc28438ed1fcba7877df79e83d465/lean/OAI/AlgebraicGeometry/HorrocksMumford/FrameTransferCocycle.lean"
+        },
+        {
+          "path": "research/hm/lean-frame-transfer-cocycle/AXIOMS.txt",
+          "sha256": "c1bc2d74f5456bc9c20087fef481ac25a040e6ee6f1fb8d01ea5d6fc714d5f12",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4f10e244cb4dc28438ed1fcba7877df79e83d465/research/hm/lean-frame-transfer-cocycle/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-frame-transfer-cocycle/VERIFICATION.json",
+          "sha256": "ded05e35b4dfa6644ace7608d78f91fceb7a9fb7b2024ffe4407705c020e47cb",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4f10e244cb4dc28438ed1fcba7877df79e83d465/research/hm/lean-frame-transfer-cocycle/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 873,
+      "commit": "73359dd41f3729cfb6da2207b6d282a3489294f2",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/HeterogeneousAffineSourceResponse.lean",
+          "sha256": "8d0e2257a05d2c88b3414edf588e93ca6f98277b665f912b2772342fafa39ac3",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/73359dd41f3729cfb6da2207b6d282a3489294f2/lean/OAI/AlgebraicGeometry/HorrocksMumford/HeterogeneousAffineSourceResponse.lean"
+        },
+        {
+          "path": "research/hm/lean-heterogeneous-affine-source-response/AXIOMS.txt",
+          "sha256": "b404d9d6391e6cb0d034984cd165068a1d73e4bc2bd61f62fae98ded3268ecb8",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/73359dd41f3729cfb6da2207b6d282a3489294f2/research/hm/lean-heterogeneous-affine-source-response/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-heterogeneous-affine-source-response/VERIFICATION.json",
+          "sha256": "9900d9c40b6c1e7f0c22569f363fe18c86f559ade81c2470c43318bb5f92185f",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/73359dd41f3729cfb6da2207b6d282a3489294f2/research/hm/lean-heterogeneous-affine-source-response/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 878,
+      "commit": "5af660702fafabb26c8f7897b1c4ba5caa7d590e",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/TensorProjectorCompatibility.lean",
+          "sha256": "eee485ec9987c5d63d0528987737fff4af8e0f01ef13df870ad3aed9eef579cf",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5af660702fafabb26c8f7897b1c4ba5caa7d590e/lean/OAI/AlgebraicGeometry/HorrocksMumford/TensorProjectorCompatibility.lean"
+        },
+        {
+          "path": "research/hm/lean-tensor-projector-compatibility/AXIOMS.txt",
+          "sha256": "8e4710d5841487915ee7d77714bb0c473752a8c4f0b14a189e973087a2f0277d",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5af660702fafabb26c8f7897b1c4ba5caa7d590e/research/hm/lean-tensor-projector-compatibility/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-tensor-projector-compatibility/VERIFICATION.json",
+          "sha256": "5d1fd679636fd4fcc6966425361ff947d2964ce97f7c6339b293653cfb598e78",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5af660702fafabb26c8f7897b1c4ba5caa7d590e/research/hm/lean-tensor-projector-compatibility/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 879,
+      "commit": "634ca192ab8f64cf3d779a9194382e1458cdad7a",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.lean",
+          "sha256": "71ed8339d4ffa55cbc0a6d22e488cd1f0e411a065ede0eb938e365a30443eeda",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/634ca192ab8f64cf3d779a9194382e1458cdad7a/lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.lean"
+        },
+        {
+          "path": "research/hm/lean-pencil-commutant/AXIOMS.txt",
+          "sha256": "685fd3b20eadf2c39a6d62f31479213e100c4963499243adb030e9a2565511a0",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/634ca192ab8f64cf3d779a9194382e1458cdad7a/research/hm/lean-pencil-commutant/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-pencil-commutant/VERIFICATION.json",
+          "sha256": "db7af77a3d59825e0648a74aaebc76ff6023f6f965142e78b55bad48f36e0c05",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/634ca192ab8f64cf3d779a9194382e1458cdad7a/research/hm/lean-pencil-commutant/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 880,
+      "commit": "a2bfde025e55aca072366e1b565af761293bcac5",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/MixedNormalizationAdapter.lean",
+          "sha256": "af884b6f80630db9702d92573b57e832c96e9f1224c63d4e5596056a37430963",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a2bfde025e55aca072366e1b565af761293bcac5/lean/OAI/AlgebraicGeometry/HorrocksMumford/MixedNormalizationAdapter.lean"
+        },
+        {
+          "path": "research/hm/lean-mixed-normalization/AXIOMS.txt",
+          "sha256": "d277c817e6dedb95695f7e509b80059092ff5b75deaf8bac6cc1d3daa6bf509a",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a2bfde025e55aca072366e1b565af761293bcac5/research/hm/lean-mixed-normalization/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-mixed-normalization/VERIFICATION.json",
+          "sha256": "265de1c3ba85db0e9396b2edad43db1931e5d8a977ff895c1120b1adfc717379",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a2bfde025e55aca072366e1b565af761293bcac5/research/hm/lean-mixed-normalization/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 883,
+      "commit": "4b9baa6d39e32fe4cfec59a65ced59cb93186847",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean",
+          "sha256": "5d600bdb6b31365e19e9fa4f9731873df33858792eaf0bb7e905af524ba77f56",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b9baa6d39e32fe4cfec59a65ced59cb93186847/lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean"
+        },
+        {
+          "path": "research/hm/lean-pencil-commutant-equivariant/AXIOMS.txt",
+          "sha256": "eb720f607440ea14173da76588bd657e21532621eab40f2326040b0a8aa65d3f",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b9baa6d39e32fe4cfec59a65ced59cb93186847/research/hm/lean-pencil-commutant-equivariant/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-pencil-commutant-equivariant/VERIFICATION.json",
+          "sha256": "99dca6d6d81a28fa9795f451e538c00c644feb52e21ab3df8c8846e194b135ee",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b9baa6d39e32fe4cfec59a65ced59cb93186847/research/hm/lean-pencil-commutant-equivariant/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 896,
+      "commit": "979b82f3ddac3bf291685523b0b61d8e6d7b02e8",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean",
+          "sha256": "3debef659b6085e55da8701490c05fde148f21a88961c48d5b7ff89a233a3be6",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/979b82f3ddac3bf291685523b0b61d8e6d7b02e8/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean"
+        },
+        {
+          "path": "research/hm/lean-source-family-multiplier/AXIOMS.txt",
+          "sha256": "a6e23418cc3926fb00cffc430951b71d7732981900e0d1139e7c11aa71b2121a",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/979b82f3ddac3bf291685523b0b61d8e6d7b02e8/research/hm/lean-source-family-multiplier/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-source-family-multiplier/VERIFICATION.json",
+          "sha256": "00aa3d3d77bd1d6dd406a7d644d45c8728f591f6e1ae69f68774b7861e038e94",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/979b82f3ddac3bf291685523b0b61d8e6d7b02e8/research/hm/lean-source-family-multiplier/VERIFICATION.json"
+        }
+      ]
+    },
+    {
+      "pr": 902,
+      "commit": "68d7daa27700918702c395cf788caeaa7ae83d3e",
+      "files": [
+        {
+          "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean",
+          "sha256": "0ade8cbc9c112b3f16cfc32a64adb8913ec8ab705264500c9a2d087bc9fa6ae0",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/68d7daa27700918702c395cf788caeaa7ae83d3e/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean"
+        },
+        {
+          "path": "research/hm/lean-multiplicity-free-cyclic-support/AXIOMS.txt",
+          "sha256": "5104647528d71d5daa3ca78b0163c677c3d6b43514eaec17133244fe63529bda",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/68d7daa27700918702c395cf788caeaa7ae83d3e/research/hm/lean-multiplicity-free-cyclic-support/AXIOMS.txt"
+        },
+        {
+          "path": "research/hm/lean-multiplicity-free-cyclic-support/VERIFICATION.json",
+          "sha256": "fd79d62d907ba7e55b27ef528b2a90bd1a42a21674a48dbe64a55f94c7bc297c",
+          "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/68d7daa27700918702c395cf788caeaa7ae83d3e/research/hm/lean-multiplicity-free-cyclic-support/VERIFICATION.json"
+        }
+      ]
+    }
+  ]
+}

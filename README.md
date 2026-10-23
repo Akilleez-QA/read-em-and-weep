@@ -1,51 +1,64 @@
-# Readme
+# Proof repair: status paper and spike-burn closeout
 
-This repository contains mathematical manuscripts and supporting proof artifacts produced by an internal OpenAI model. 
+**Craig Ward · Working edition v0.4 · 23 October 2026**  
+**Research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
+**Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
-As part of model development, we evaluate our models on open research problems. We expanded these evaluations after performance on our existing mathematical evaluations saturated. Some outputs build upon earlier results produced by the models.
+## Bottom line
 
-This collection includes results at different stages of verification. Not all have accompanying Lean formalizations. We will continue to update this repository with Lean formalizations as we obtain them. 
+The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. The reconciled written-proof frontier has **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
 
-Some of the unformalized results could have issues. We will endeavor to fix any such issues quickly.
-We are also exploring community-hosted repositories for these materials. 
+| Fixed quantity | Campaign baseline | Closeout | Change |
+|---|---:|---:|---:|
+| Necessary quotient labels | 17 | 3 | 14 excluded |
+| Restricted historical necessary pairs | 1,790 | 146 | 1,644 removed |
+| Indexed profile counts (11 / 12 / 21) | 16 / 0 / 1 | 2 / 0 / 1 | Separate profiles retained |
 
-## Navigating the collection
+The baseline is the immutable 00:07 UTC snapshot in [PR805](https://github.com/Akilleez-QA/read-em-and-weep/pull/805), not the number of live jobs at startup. The final [certificate in PR912](https://github.com/Akilleez-QA/read-em-and-weep/pull/912) separates source cuts from whole-label exhaustion and passes **339 cumulative regression tests**. These are accounting/scope tests, not formal proofs of all geometric dependencies. The reductions are approximately **82.4% of the baseline labels** and **91.8% of its paired relation**. Neither is a proof-completion percentage, probability of success, difficulty estimate, or count of actual realizations.
 
-The current catalogue contains 719 manuscripts organized into 372 families. A family groups related papers, which may include a principal result, companion arguments, consequences, or alternative proofs. Each family is classified by mathematical discipline.
+![High-contrast fixed-snapshot reduction chart](paper/figures/spike-burn-frontier.svg)
 
-- Start with the [overview](overview.pdf) for descriptions of the families.
-- Use the [manuscript map](CONTENTS.md) to find individual papers and their supporting materials.
-- The [`preprints/`](preprints/) directory contains PDFs, source files, and manuscript-specific citation and build instructions.
-- The [Lean library](lean/README.md) and [formalization catalogue](lean/formalization.yaml) describe the available formal proofs, their associated papers, and verification configurations. See the [Comparator instructions](lean/ComparatorChallenges/README.md) for additional checking instructions. The repository has ~42% top-line results formalized.
-- Updates to the repo are described in the [history](history.md).
+## What remains
 
-### Reasoning summaries
+| Stable label | Original source index | Remaining source types | Necessary pairs |
+|---|---:|---|---:|
+| G3.11.8ae96830fd21 | 126 | E10: (0,0,0,0,0,1,1,0) | 4 |
+| G3.11.cce6e3ba4eeb | 127 | c-d-f and a-b-c-f | 64 |
+| G3.21.d610e381ed75 | source2 | Thirteen original tuples | 78 |
 
-We are also releasing abridged summaries of the model's reasoning, covering the following results:
+Nonempty abstract families exist for the degree-28 branch and source127 c-d-f. They show that the already imposed abstract conditions alone cannot eliminate those cases; they do **not** identify an actual HM realization. See [PR869](https://github.com/Akilleez-QA/read-em-and-weep/pull/869), [PR876](https://github.com/Akilleez-QA/read-em-and-weep/pull/876), and the [exact residual record](research/proof-repair-campaign/FRONTIER-THROUGH911.md).
 
-| Family | Subject |
-|---|---|
-| 007 | [Ordinary two-point correlations of multiplicative functions](reasoning_traces/ordinary-two-point-correlations.pdf) |
-| 017 | [The irrationality exponent of π](reasoning_traces/irrationality-exponent-of-pi.pdf) |
-| 087 | [Symmetric and general Mahler conjectures](reasoning_traces/symmetric-and-general-mahler-conjectures.pdf) |
-| 102 | [Ordinary NP-hardness at the basic semidefinite threshold](reasoning_traces/basic-semidefinite-threshold-np-hardness.pdf) |
-| 159 | [Quasipolynomial bounds for arithmetic progressions](reasoning_traces/quasipolynomial-arithmetic-progressions.pdf) |
-| 197 | [Kaplansky's direct-finiteness conjecture in characteristic two](reasoning_traces/kaplansky-direct-finiteness-characteristic-two.pdf) |
-| 221 | [The Mézard–Parisi formula for diluted spin glasses](reasoning_traces/mezard-parisi-formula.pdf) |
-| 271 | [Spontaneous magnetization in the quantum Heisenberg ferromagnet](reasoning_traces/spontaneous-magnetization-quantum-heisenberg-ferromagnet.pdf) |
-| 287 | [Isomorphism of free group factors](reasoning_traces/free-group-factor-isomorphism.pdf) |
-| 362 | [The three-dimensional relativistic Vlasov–Maxwell system](reasoning_traces/relativistic-vlasov-maxwell.pdf) |
+The [last established section-count conclusion](https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md) remains four or five sections on a general smooth inversion-even quadric, with no odd sections. This burn did not evaluate the decisive fourth/higher boundary or turn the three surviving labels into an actual solution.
 
+## The construction advance
 
-## How the results were produced
+The new chain separates tasks that were previously easy to conflate:
 
-The vast majority of results were obtained with the same procedure using an unreleased internal OpenAI model. On average, each result used three hours of ChatGPT Pro thinking compute with that model. Over the course of the evaluation, the model was posed approximately 4,000 problems. Aggregating the output into result families and manuscripts and requiring an appropriate level of significance led to the catalog outlined above.
+1. [PR816](https://github.com/Akilleez-QA/read-em-and-weep/pull/816): exact typed nonclosed frame-transfer defect, retaining both homotopy terms.
+2. [PR866](https://github.com/Akilleez-QA/read-em-and-weep/pull/866): mixing independently normalized lower projection and source row introduces a precise scalar error. Abstract gluing alone leaves a thirteen-dimensional trace ambiguity.
+3. [PR889](https://github.com/Akilleez-QA/read-em-and-weep/pull/889): with separately authenticated coherent symmetry and polynomial-family hypotheses, the calibration problem has ten family parameters and a two-family separating test. The varying source multiplier is retained.
+4. [PR894](https://github.com/Akilleez-QA/read-em-and-weep/pull/894): a supplied compatible source must pass a sharp 27-slot cohomology condition after canonical correction. Smaller trace tests do not certify membership. [PR903](https://github.com/Akilleez-QA/read-em-and-weep/pull/903) extends that limitation to regular algebraic nonlinear zero-tests.
+5. [PR904](https://github.com/Akilleez-QA/read-em-and-weep/pull/904): all seven compatible W-family directions leave the physical response unchanged on the stated fourth-neighborhood calculation. This does not extend to ambient or fifth-order norm equality.
+6. [PR908](https://github.com/Akilleez-QA/read-em-and-weep/pull/908): solve the canonical source on the global cone, lift, then recover a closed compatible W rather than guessing it first. The actual physical row and full ambient lower projection still have to be constructed and matched.
+7. [PR909](https://github.com/Akilleez-QA/read-em-and-weep/pull/909): for the additionally authenticated full-cover, regular, all-twist-compatible subclass, a realized normalization defect is divisible by the negative quadratic and gluing forces it to vanish. This does not erase the unrestricted abstract thirteen-space or supply the missing physical hypotheses.
 
-Exceptions to this fixed procedure include work on a zero-free region for the Riemann zeta function and proof of the Hodge Conjecture for CM abelian varieties. Additionally, the writeup for the Re(s) > 11/12 zero-free region for the Riemann zeta function was human edited for readability. 
+These are independently reviewed written deductions over pinned premises. Their bounded Python diagnostics are supporting checks, not Lean certification.
 
+## Formalization and execution evidence
 
-## Versions and citations
+The burn published **13 focused draft Lean packages with 66 distinct checked supporting declarations**, using Lean 4.34.1 and pinned mathlib. Publication evidence records successful compilation and separate importing axiom checks; the audited closures list only propext, Classical.choice and Quot.sound. Four dependency rechecks are not counted as new declarations. The source/receipt audit is not a second independent kernel run.
 
-We will preserve the public release history of this collection. Corrections and revisions will be recorded as new versions, with previously released versions remaining accessible. 
+These packages formalize conditional algebra, frame transfer, trace coordinates, tensor/projector compatibility, source-dependent polynomial observation, and cyclic support. They do not formalize the whole geometric exclusion chain, construct the actual HM tensors/physical rows, or prove the original theorem.
 
-To cite the individual manuscript, use the BibTeX block in its directory. 
+The earlier Python runtime track completed bounded initialization and one primitive-CG global unit. It did **not** complete the full 65-map q65 aggregate. Partial legacy logs remain partial. Resource receipts distinguish sampled process-group RSS from a hard address-space bound. No total cost, energy use or aggregate CPU figure is inferred from selected receipts.
+
+## Read the detailed report
+
+- [Spike-burn report and assessment](paper/31-spike-burn-closeout.md)
+- [Execution, verification, failures and Lean inventory](paper/32-burn-execution-and-verification.md)
+- [Physical construction and normalization dependencies](paper/33-burn-physical-construction.md)
+- [Final mathematical frontier and exact source lists](research/proof-repair-campaign/FRONTIER-THROUGH911.md)
+- [Campaign status and next-work gates](research/proof-repair-campaign/README.md)
+- [Updated progress map](paper/progress-map.md)
+
+All results remain in research/draft branches. A published PR is not a merge, and an independent written review is not a proof-assistant certificate. The upstream OpenAI collection remains separately attributed; its [original README](upstream/openai-math/README.md) is preserved. This documentation update does not move the original manuscript/Lean directories or merge the separate repository-reorganization proposal.
