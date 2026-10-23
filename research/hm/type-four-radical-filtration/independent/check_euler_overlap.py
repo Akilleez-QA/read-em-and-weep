@@ -35,13 +35,20 @@ for exponent in range(-20,21):
     if exponent==-1:continue
     monomial=poly((exponent,1))
     require('coboundary support '+str(exponent),(-1 not in monomial) and (exponent>=0 or exponent<=-2))
-# The overlap class is -Id_V, so its connecting map has rank 2 dim(V)=6.
+# The overlap class is -Id on two copies of V, so its connecting map has rank 2 dim(V)=6.
 matrix=[[-int(i==j) for j in range(6)] for i in range(6)]
-determinant=0
-for perm in permutations(range(6)):
-    term=(-1)**sum(perm[i]>perm[j] for i in range(6) for j in range(i+1,3))
-    for i in range(6):term*=matrix[i][perm[i]]
-    determinant+=term
+def exact_determinant(matrix):
+    """Leibniz determinant of a square exact-number matrix (small sizes only)."""
+    n=len(matrix)
+    if any(len(row)!=n for row in matrix):
+        raise ValueError('matrix must be square')
+    determinant=0
+    for perm in permutations(range(n)):
+        term=(-1)**sum(perm[i]>perm[j] for i in range(n) for j in range(i+1,n))
+        for i in range(n):term*=matrix[i][perm[i]]
+        determinant+=term
+    return determinant
+determinant=exact_determinant(matrix)
 require('Euler Cech coefficient matrix determinant plus1',determinant==1)
 def h0(degrees,twist): return sum(n*max(d+twist+1,0) for d,n in degrees.items())
 def h1(degrees,twist): return sum(n*max(-d-twist-1,0) for d,n in degrees.items())

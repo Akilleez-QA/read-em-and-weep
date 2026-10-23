@@ -1,0 +1,8 @@
+{
+  "checks": 746,
+  "old_implementation_mismatches": 360,
+  "original_minus_identity_determinant": 1,
+  "permutation_matrices": 720,
+  "scope": "Synthetic exact determinant regressions only; no geometric instance data.",
+  "status": "PASS"
+}
