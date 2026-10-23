@@ -28,6 +28,10 @@ Snapshot: 23 October 2026, 00:07 UTC.
 
 [Frontier certificate](FRONTIER-CERTIFICATE.md), [machine-readable frontier](frontier.json), and [source pins](source-pins.json) preserve the exact starting labels and the distinction between label exclusions and source-witness pruning. The 1,790 paired witnesses are a restriction of a specified older necessary relation, not a claim to encode every subsequently proved geometric condition.
 
+## Current route disposition
+
+Read the [00:47 UTC checkpoint](CHECKPOINT-20261023-0047.md) before assigning work. PR818 closes the full-module projector/radical extension route negatively; that nonextension is not a source2 contradiction. PR815/816 isolate the remaining physical source-response input.
+
 ## Campaign map
 
 | Lane | Target | New output required | Independent cross-check |
