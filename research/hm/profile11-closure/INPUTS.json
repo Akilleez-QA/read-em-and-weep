@@ -1,0 +1,146 @@
+[
+  {
+    "file": "inputs/actual-gauss.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "bytes": 5414,
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2",
+    "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3"
+  },
+  {
+    "file": "inputs/pr1123-proof.md",
+    "ref": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+    "path": "research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705"
+  },
+  {
+    "file": "inputs/profile11-pairs.json",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "bytes": 58635,
+    "sha256": "6002ad138a41d98c351130a29703722979f31b8da90d7c75a120f28bf89480eb",
+    "git_blob_sha1": "fe0afa410d89340d3082dc814277f89fbb582c19"
+  },
+  {
+    "file": "inputs/profile11-proof.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "bytes": 8356,
+    "sha256": "8d3f7f9f0492484edc104cf070ed72be4b969545a1e4b184be37a00dc5e7cac0",
+    "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef"
+  },
+  {
+    "file": "inputs/p-PROOF.md",
+    "ref": "0dfc26b49b18fb60dce58e95f1d74c7d06d16378",
+    "path": "research/hm/p-source-profile11-closure/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0dfc26b49b18fb60dce58e95f1d74c7d06d16378/research/hm/p-source-profile11-closure/PROOF.md",
+    "bytes": 9852,
+    "sha256": "d3e4714dc5808474ae664824c36a2d81975e29d40a6f2c99309542afdba8713a",
+    "git_blob_sha1": "8ec40c1c02bb20d96282c5c88f0d8718da32f010"
+  },
+  {
+    "file": "inputs/p-RESULT.json",
+    "ref": "0dfc26b49b18fb60dce58e95f1d74c7d06d16378",
+    "path": "research/hm/p-source-profile11-closure/RESULT.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0dfc26b49b18fb60dce58e95f1d74c7d06d16378/research/hm/p-source-profile11-closure/RESULT.json",
+    "bytes": 202118,
+    "sha256": "bf1474124d411dc5c417613bcb74932de0214b085551005b587d6c2e00bca997",
+    "git_blob_sha1": "641751c15d12217c78ebe6f121f0d20273577378"
+  },
+  {
+    "file": "inputs/vz-PROOF.md",
+    "ref": "49c8d0226a7e79928a016783553fa8c29c2c6b9a",
+    "path": "research/hm/v-z-profile11-closure/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/49c8d0226a7e79928a016783553fa8c29c2c6b9a/research/hm/v-z-profile11-closure/PROOF.md",
+    "bytes": 9746,
+    "sha256": "b344bb861ac283d1f997de2ac7d281938913a4a9e471a0c7545e81ed2e6d8e61",
+    "git_blob_sha1": "d0df93a8cf6d74aa215b59643889e5a2078f51c2"
+  },
+  {
+    "file": "inputs/vz-RESULT.json",
+    "ref": "49c8d0226a7e79928a016783553fa8c29c2c6b9a",
+    "path": "research/hm/v-z-profile11-closure/RESULT.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/49c8d0226a7e79928a016783553fa8c29c2c6b9a/research/hm/v-z-profile11-closure/RESULT.json",
+    "bytes": 126853,
+    "sha256": "c651d43d108b882267b9f749ed2c0b02f59837350a8026f2e9da81469b9dfca4",
+    "git_blob_sha1": "787d1361a735daaffa5d04be81c1397e1e9cca0a"
+  },
+  {
+    "file": "inputs/d-PROOF.md",
+    "ref": "54f5a5b76932e56714dfc74730e175271701dfc2",
+    "path": "research/hm/d-source-profile11-frontier/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54f5a5b76932e56714dfc74730e175271701dfc2/research/hm/d-source-profile11-frontier/PROOF.md",
+    "bytes": 9642,
+    "sha256": "7a21b3efdd1326266623093f3b1d2c6f95c13027c73c8d3ccb005134b9ed443e",
+    "git_blob_sha1": "0b8602c79942c71fecefa8442ff9bf04bccde9dc"
+  },
+  {
+    "file": "inputs/d-RESULT.json",
+    "ref": "54f5a5b76932e56714dfc74730e175271701dfc2",
+    "path": "research/hm/d-source-profile11-frontier/RESULT.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54f5a5b76932e56714dfc74730e175271701dfc2/research/hm/d-source-profile11-frontier/RESULT.json",
+    "bytes": 255886,
+    "sha256": "bd593940ff604883e2293f2609b04654050a70b0d7a26c36048ccbd93d6420f3",
+    "git_blob_sha1": "c102745d9bcea1e8410fb71839f14c4097ba5d42"
+  },
+  {
+    "file": "inputs/two-PROOF.md",
+    "ref": "d80532ed02932af6b3ea5fb0b159d985f98fdfba",
+    "path": "research/hm/d-two-endpoint-exclusions/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d80532ed02932af6b3ea5fb0b159d985f98fdfba/research/hm/d-two-endpoint-exclusions/PROOF.md",
+    "bytes": 12859,
+    "sha256": "fcc0f3479a921935e68738856bf50178bf91d822087f708ee1636f262c02e6ae",
+    "git_blob_sha1": "18e4c655daf492aeff7fe0e0d5646dbbddeab2e9"
+  },
+  {
+    "file": "inputs/two-RESULT.json",
+    "ref": "d80532ed02932af6b3ea5fb0b159d985f98fdfba",
+    "path": "research/hm/d-two-endpoint-exclusions/RESULT.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d80532ed02932af6b3ea5fb0b159d985f98fdfba/research/hm/d-two-endpoint-exclusions/RESULT.json",
+    "bytes": 500,
+    "sha256": "21b3e2fbd935ee1708326a39f443e3af4e6b359d65b52b259822e067c80b6ca4",
+    "git_blob_sha1": "d8536e3c89e94a7b8e67c6cecc7caaa33a0fd63d"
+  },
+  {
+    "file": "inputs/last-PROOF.md",
+    "ref": "06ad9fa84964e0c803a09106a581baeb46ee987d",
+    "path": "research/hm/d-last-scalar-pair/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/06ad9fa84964e0c803a09106a581baeb46ee987d/research/hm/d-last-scalar-pair/PROOF.md",
+    "bytes": 13351,
+    "sha256": "590dfb8da397d866059bf341b66eca2c7e408819fbf3fa2d7257313ab1f5d619",
+    "git_blob_sha1": "565eca172dc411c8c2a5f2342773f863488f467f"
+  },
+  {
+    "file": "inputs/last-RESULT.json",
+    "ref": "06ad9fa84964e0c803a09106a581baeb46ee987d",
+    "path": "research/hm/d-last-scalar-pair/RESULT.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/06ad9fa84964e0c803a09106a581baeb46ee987d/research/hm/d-last-scalar-pair/RESULT.json",
+    "bytes": 3178,
+    "sha256": "6ae1126050a074efcc989a7b7536ca8bb230078f9ce9167e553144d75278d5ea",
+    "git_blob_sha1": "878183a1cf8fc0b4847f03818750a467ab5e66a9"
+  }
+]

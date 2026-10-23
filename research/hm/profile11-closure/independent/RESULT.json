@@ -1,0 +1,13 @@
+{
+  "boundary": "Conditional maximal profile11 integration only; no actual-instance evaluation or historical list generation.",
+  "checks": 1612,
+  "direct_public_inputs": 16,
+  "mutations_rejected": 244,
+  "result": "PASS",
+  "source_compatible_counts": {
+    "D": 102,
+    "P": 35,
+    "V": 34,
+    "Z": 34
+  }
+}

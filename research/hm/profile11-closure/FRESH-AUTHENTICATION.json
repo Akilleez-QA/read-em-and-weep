@@ -1,0 +1,98 @@
+[
+  {
+    "file": "inputs/actual-gauss.md",
+    "sha": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "expected": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "match": true
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "sha": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "expected": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "match": true
+  },
+  {
+    "file": "inputs/pr1123-proof.md",
+    "sha": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "expected": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "match": true
+  },
+  {
+    "file": "inputs/profile11-pairs.json",
+    "sha": "fe0afa410d89340d3082dc814277f89fbb582c19",
+    "expected": "fe0afa410d89340d3082dc814277f89fbb582c19",
+    "match": true
+  },
+  {
+    "file": "inputs/profile11-proof.md",
+    "sha": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+    "expected": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+    "match": true
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "sha": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "expected": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "match": true
+  },
+  {
+    "file": "inputs/p-PROOF.md",
+    "sha": "8ec40c1c02bb20d96282c5c88f0d8718da32f010",
+    "expected": "8ec40c1c02bb20d96282c5c88f0d8718da32f010",
+    "match": true
+  },
+  {
+    "file": "inputs/p-RESULT.json",
+    "sha": "641751c15d12217c78ebe6f121f0d20273577378",
+    "expected": "641751c15d12217c78ebe6f121f0d20273577378",
+    "match": true
+  },
+  {
+    "file": "inputs/vz-PROOF.md",
+    "sha": "d0df93a8cf6d74aa215b59643889e5a2078f51c2",
+    "expected": "d0df93a8cf6d74aa215b59643889e5a2078f51c2",
+    "match": true
+  },
+  {
+    "file": "inputs/vz-RESULT.json",
+    "sha": "787d1361a735daaffa5d04be81c1397e1e9cca0a",
+    "expected": "787d1361a735daaffa5d04be81c1397e1e9cca0a",
+    "match": true
+  },
+  {
+    "file": "inputs/d-PROOF.md",
+    "sha": "0b8602c79942c71fecefa8442ff9bf04bccde9dc",
+    "expected": "0b8602c79942c71fecefa8442ff9bf04bccde9dc",
+    "match": true
+  },
+  {
+    "file": "inputs/d-RESULT.json",
+    "sha": "c102745d9bcea1e8410fb71839f14c4097ba5d42",
+    "expected": "c102745d9bcea1e8410fb71839f14c4097ba5d42",
+    "match": true
+  },
+  {
+    "file": "inputs/two-PROOF.md",
+    "sha": "18e4c655daf492aeff7fe0e0d5646dbbddeab2e9",
+    "expected": "18e4c655daf492aeff7fe0e0d5646dbbddeab2e9",
+    "match": true
+  },
+  {
+    "file": "inputs/two-RESULT.json",
+    "sha": "d8536e3c89e94a7b8e67c6cecc7caaa33a0fd63d",
+    "expected": "d8536e3c89e94a7b8e67c6cecc7caaa33a0fd63d",
+    "match": true
+  },
+  {
+    "file": "inputs/last-PROOF.md",
+    "sha": "565eca172dc411c8c2a5f2342773f863488f467f",
+    "expected": "565eca172dc411c8c2a5f2342773f863488f467f",
+    "match": true
+  },
+  {
+    "file": "inputs/last-RESULT.json",
+    "sha": "878183a1cf8fc0b4847f03818750a467ab5e66a9",
+    "expected": "878183a1cf8fc0b4847f03818750a467ab5e66a9",
+    "match": true
+  }
+]
