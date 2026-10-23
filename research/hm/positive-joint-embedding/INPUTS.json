@@ -1,0 +1,31 @@
+[
+  {
+    "key": "STEINER",
+    "ref": "47d2832dd306f26eabcfa2a57450cea982c5a153",
+    "path": "research/hm/global-steiner-reduction/PROOF.md",
+    "blob": "098af4cb145229e6c450dbe863eda8a01a2cace5",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/47d2832dd306f26eabcfa2a57450cea982c5a153/research/hm/global-steiner-reduction/PROOF.md"
+  },
+  {
+    "key": "QUADRIC",
+    "ref": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+    "blob": "019c1f31773476f0a4877d88632ce5d46fbd4b9f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md"
+  },
+  {
+    "key": "CHAR",
+    "ref": "e5aa6e4695eee79cd0222d8f6b57aa60b7a0dab5",
+    "path": "research/hm/opposite-source-weights/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e5aa6e4695eee79cd0222d8f6b57aa60b7a0dab5/research/hm/opposite-source-weights/PROOF.md",
+    "bytes": 12286,
+    "sha256": "f4a0156e9445b51e42d8ea281b3309763e81b84ad9b0188b48f025885f441af9",
+    "blob": "f248e3d4b73a6eec24073bcabfe1a96b185820a0"
+  },
+  {
+    "key": "KERNEL",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/EXACT-HYPERPLANE-ADJOINT-SYZYGY-BUNDLE.md",
+    "blob": "c9af11e07dd1c4535d9afee94a3c134607d534a3"
+  }
+]
