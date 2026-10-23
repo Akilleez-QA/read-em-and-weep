@@ -1,0 +1,133 @@
+{
+  "checks": 468,
+  "status": "pass",
+  "proper_subsets": [
+    {
+      "mode": "zero",
+      "bits": [
+        0,
+        0,
+        1
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    },
+    {
+      "mode": "zero",
+      "bits": [
+        0,
+        1,
+        0
+      ],
+      "bound": [
+        0,
+        2,
+        3,
+        3
+      ],
+      "dimension": 33,
+      "exclusion": "second Bockstein"
+    },
+    {
+      "mode": "zero",
+      "bits": [
+        0,
+        1,
+        1
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    },
+    {
+      "mode": "zero",
+      "bits": [
+        1,
+        0,
+        0
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    },
+    {
+      "mode": "zero",
+      "bits": [
+        1,
+        0,
+        1
+      ],
+      "bound": [
+        0,
+        2,
+        3,
+        3
+      ],
+      "dimension": 33,
+      "exclusion": "second Bockstein"
+    },
+    {
+      "mode": "zero",
+      "bits": [
+        1,
+        1,
+        0
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    },
+    {
+      "mode": "nonzero",
+      "bits": [
+        0,
+        1
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    },
+    {
+      "mode": "nonzero",
+      "bits": [
+        1,
+        0
+      ],
+      "bound": [
+        0,
+        1,
+        3,
+        3
+      ],
+      "dimension": 30,
+      "exclusion": "missing V"
+    }
+  ],
+  "result": "D_Q=C1+J_Q, J_Q\u00b2=0, dim J_Q\u22641; no source/pair cut"
+}
