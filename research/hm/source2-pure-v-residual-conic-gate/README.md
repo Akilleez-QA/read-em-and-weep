@@ -1,0 +1,1 @@
+Read PROOF.md for the actual residual-large conic-line constraint. Run python verify.py and python -O verify.py; outputs match RESULT.json. INPUTS.json authenticates nine public originals. The historical model is retained for provenance and not executed. All coefficient calculations are universal; the actual residual scalar remains unselected and may vanish.
