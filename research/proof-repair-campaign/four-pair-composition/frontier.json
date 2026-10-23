@@ -1,0 +1,153 @@
+{
+  "actual_instance_evaluated": false,
+  "complete_proof": false,
+  "historical_six_preserved": true,
+  "kind": "composed_necessary_pair_ledger",
+  "pair_accounting": {
+    "after": 4,
+    "before": 6,
+    "removed": 2
+  },
+  "profile_counts": {
+    "11": 2,
+    "12": 0,
+    "21": 1
+  },
+  "records": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          26,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -28,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.8ae96830fd21",
+      "profile": "11",
+      "remaining_source_pair_count": 2,
+      "remaining_source_pairs": [
+        [
+          10,
+          129
+        ],
+        [
+          10,
+          157
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.cce6e3ba4eeb",
+      "profile": "11",
+      "remaining_source_pair_count": 1,
+      "remaining_source_pairs": [
+        [
+          14,
+          148
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.21.d610e381ed75",
+      "profile": "21",
+      "remaining_source_pair_count": 1,
+      "remaining_source_pairs": [
+        [
+          13,
+          21
+        ]
+      ]
+    }
+  ],
+  "remaining_label_count": 3,
+  "removed_pairs": [
+    [
+      "G3.11.8ae96830fd21",
+      10,
+      231
+    ],
+    [
+      "G3.11.8ae96830fd21",
+      10,
+      249
+    ]
+  ],
+  "restriction_kind": "new_source126_quotient_deduction"
+}

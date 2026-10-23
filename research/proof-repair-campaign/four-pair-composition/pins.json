@@ -1,0 +1,14 @@
+{
+  "catalog": {
+    "git_blob": "605094dfdb6968a78f2a57c110a41586a8e79939",
+    "sha256": "7c085250359b5445e8ef8da3f35763d495d5319660ca34c63aaf447078658bd5"
+  },
+  "restriction": {
+    "git_blob": "df12ec46f7bc97e712a813027f7a359c9631c887",
+    "sha256": "72f7eb59a8d16582a151f230198db634389086b2315138437cdc6689871d54a5"
+  },
+  "six": {
+    "git_blob": "fd04d0a8de24f72f259712e08e9582a5d7c6e5bf",
+    "sha256": "9042fa6453037f77b0bff5765e04a92b4f596c85575f4f7d63866db5aa6d8677"
+  }
+}

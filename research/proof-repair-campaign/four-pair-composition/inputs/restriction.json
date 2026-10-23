@@ -1,0 +1,50 @@
+{
+  "checks": 288,
+  "starting_pairs": [
+    [
+      10,
+      129
+    ],
+    [
+      10,
+      157
+    ],
+    [
+      10,
+      231
+    ],
+    [
+      10,
+      249
+    ]
+  ],
+  "retained_pairs": [
+    [
+      10,
+      129
+    ],
+    [
+      10,
+      157
+    ]
+  ],
+  "removed_pairs": [
+    [
+      10,
+      231
+    ],
+    [
+      10,
+      249
+    ]
+  ],
+  "template_assignment": {
+    "I": 129,
+    "II": 129,
+    "III": 157
+  },
+  "stable_label": "G3.11.8ae96830fd21",
+  "labels_removed": 0,
+  "actual_HM_realization": "not proved",
+  "scope": "universal symbolic identity and exact candidate verification only"
+}
