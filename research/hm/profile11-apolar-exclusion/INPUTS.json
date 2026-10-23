@@ -1,0 +1,51 @@
+[
+  {
+    "file": "inputs/pr1123-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  {
+    "file": "inputs/ambient-gauss-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "bytes": 5414,
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  {
+    "file": "inputs/character-reference.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/verify_negative_vertex_scalar.py",
+    "git_blob_sha1": "9eb58f03edde15dd612087440d8180e9e16d1755",
+    "bytes": 3298,
+    "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  },
+  {
+    "file": "inputs/profile11-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "bytes": 8356,
+    "sha256": "8d3f7f9f0492484edc104cf070ed72be4b969545a1e4b184be37a00dc5e7cac0",
+    "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e"
+  },
+  {
+    "file": "inputs/profile11-pairs.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "bytes": 58635,
+    "sha256": "6002ad138a41d98c351130a29703722979f31b8da90d7c75a120f28bf89480eb",
+    "git_blob_sha1": "fe0afa410d89340d3082dc814277f89fbb582c19"
+  }
+]

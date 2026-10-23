@@ -1,0 +1,116 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_originals": 7,
+  "checks": 194,
+  "full_profile11_excluded": false,
+  "global_rank3_excluded": false,
+  "historical_enumeration_rerun": false,
+  "historical_rows": [
+    {
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -16,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "defect": 12,
+      "degree_L": -26,
+      "original_index": 119
+    },
+    {
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "defect": 0,
+      "degree_L": -38,
+      "original_index": 127
+    }
+  ],
+  "proper_polynomial_quotient_dimensions": {
+    "10": [
+      0,
+      3,
+      5,
+      6,
+      8
+    ],
+    "8": [
+      0,
+      4,
+      5
+    ]
+  },
+  "residual_quotient_degrees": [
+    -6,
+    -8,
+    -10
+  ],
+  "scope": "Actual maximal-profile11 A=O(-8)+O2+O16 exclusion only",
+  "sextic_net_controls": [
+    {
+      "a": 1,
+      "b": 5,
+      "multiplication_rank": 11,
+      "twisted_H1": 0
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "multiplication_rank": 11,
+      "twisted_H1": 0
+    },
+    {
+      "a": 3,
+      "b": 3,
+      "multiplication_rank": 11,
+      "twisted_H1": 0
+    },
+    {
+      "a": 4,
+      "b": 2,
+      "multiplication_rank": 11,
+      "twisted_H1": 0
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "multiplication_rank": 11,
+      "twisted_H1": 0
+    }
+  ]
+}
