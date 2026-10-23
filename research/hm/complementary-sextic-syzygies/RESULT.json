@@ -1,0 +1,66 @@
+{
+  "actual_instance_evaluated": false,
+  "actual_profile_exclusion": false,
+  "authenticated_inputs": 3,
+  "checks": 3879,
+  "codimension_bounds": {
+    "general": "n-3",
+    "nonzero_high": "n-2",
+    "nonzero_high_requires_d_at_least": 2
+  },
+  "formal_apolar_zero_identities": 2100,
+  "hilbert_vector": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    3
+  ],
+  "kernel_bundle": "V O(-2)",
+  "minimal_surjective_multiplier_degree": 1,
+  "multiplier_controls": [
+    {
+      "cokernel": {
+        "V": 1
+      },
+      "d": 0,
+      "kernel": {},
+      "rank": 4
+    },
+    {
+      "cokernel": {},
+      "d": 1,
+      "kernel": {},
+      "rank": 8
+    },
+    {
+      "cokernel": {},
+      "d": 2,
+      "kernel": {
+        "V": 1
+      },
+      "rank": 9
+    },
+    {
+      "cokernel": {},
+      "d": 3,
+      "kernel": {
+        "T": 1
+      },
+      "rank": 10
+    },
+    {
+      "cokernel": {},
+      "d": 4,
+      "kernel": {
+        "D": 1,
+        "P": 1
+      },
+      "rank": 11
+    }
+  ],
+  "quotient_length": 24,
+  "scope": "Universal complementary P sextic syzygies and apolar criterion only"
+}
