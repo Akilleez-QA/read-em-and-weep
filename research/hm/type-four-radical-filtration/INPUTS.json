@@ -1,0 +1,14 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "inputs": [
+    {
+      "pr": 1127,
+      "commit": "60dda5a940d5ba7ee081a86cd1b1a783a5952a39",
+      "repository_path": "research/hm/primary-quotient-composition/PROOF.md",
+      "local_path": "inputs/PR1127-PROOF.md",
+      "git_blob": "80faeb68639dc5f644397a54d5ca7a12009f616f",
+      "sha256": "3101157347802226a3b2638e76375854944d7a41d503b75b1591bc3eb66b1577",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/60dda5a940d5ba7ee081a86cd1b1a783a5952a39/research/hm/primary-quotient-composition/PROOF.md"
+    }
+  ]
+}
