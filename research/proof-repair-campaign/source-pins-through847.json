@@ -1,0 +1,16 @@
+{
+  "review": {
+    "local_file": "inputs/pr847-review.md",
+    "path": "research/hm/profile11-split-label-exhaustion/SPLIT-LABEL-EXHAUSTION-REVIEW.md",
+    "commit": "6529c3d4e513bb1958ba57b20262e06d35000f77",
+    "git_blob_sha1": "f1d0b67b66bfd8a10b69abf8d2a5cb7f7c3d14e1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6529c3d4e513bb1958ba57b20262e06d35000f77/research/hm/profile11-split-label-exhaustion/SPLIT-LABEL-EXHAUSTION-REVIEW.md"
+  },
+  "proof": {
+    "local_file": "inputs/pr847-proof.md",
+    "path": "research/hm/profile11-split-label-exhaustion/SPLIT-LABEL-TEN-SOURCE-EXHAUSTION.md",
+    "commit": "6529c3d4e513bb1958ba57b20262e06d35000f77",
+    "git_blob_sha1": "e6899f4e0a3e05e8e84f2472abbc27f37f680a8e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6529c3d4e513bb1958ba57b20262e06d35000f77/research/hm/profile11-split-label-exhaustion/SPLIT-LABEL-TEN-SOURCE-EXHAUSTION.md"
+  }
+}
