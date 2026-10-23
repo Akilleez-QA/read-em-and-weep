@@ -1,0 +1,16 @@
+{
+  "canonical_naturality_kernel_dimension": 2,
+  "checks": 48,
+  "conclusion": "Under full-J Type II, the global internal third lies in a canonical two-dimensional space and is nonzero exactly when the generic original fourth is nonzero.",
+  "cubic_equivariant_hom_dimension": 3,
+  "limitations": "Neither actual nonvanishing nor a pair exclusion is asserted; universal and synthetic checks do not evaluate an actual HM instance.",
+  "rank_one_source_multiplicities_for_k_minus3_through1": [
+    0,
+    0,
+    1,
+    0,
+    2
+  ],
+  "restriction_invariant_dimension": 1,
+  "status": "pass"
+}
