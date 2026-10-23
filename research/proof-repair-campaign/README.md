@@ -1,3 +1,23 @@
+# Proof-repair campaign: burn closeout
+
+**Execution phase closed. Research cutoff:23 October2026,04:52:27 UTC, through PR911.**
+The original proof repair remains open. This record does not launch or authorize a new burn.
+
+## Final checked state
+
+Three necessary labels remain, profiles2/0/1, with146 historical necessary pairs. The fixed17-label/1790-pair starting snapshot is preserved below. [Final original-universe reconciliation](FRONTIER-THROUGH911.md) and [PR912](https://github.com/Akilleez-QA/read-em-and-weep/pull/912) separate source cuts from whole-label retirement;339 cumulative tests pass.
+
+- [Detailed closeout report](../../paper/31-spike-burn-closeout.md)
+- [Execution and Lean inventory](../../paper/32-burn-execution-and-verification.md)
+- [Physical construction chain](../../paper/33-burn-physical-construction.md)
+- [Current root status paper](../../README.md)
+
+Supporting Lean totals66 declarations in13 draft packages, not an end-to-end repair. The physical row/marking/lower-projection certificates and actual fourth/higher value remain open. PR909 can remove a calibration dependency only under its explicit realized regularity/all-twist/gluing hypotheses.
+
+## Historical plan, preserved for provenance
+
+Everything below is the pre-closeout plan and its dated checkpoints, not a live queue or permission to restart execution. Its old9-label counter and planning status are historical and superseded above.
+
 # Parallel proof-repair campaign
 
 Status: planning and readiness gates. A research plan is not a theorem, an executed experiment, or a completed repair.

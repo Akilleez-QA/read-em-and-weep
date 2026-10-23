@@ -1,0 +1,50 @@
+{
+  "research_cutoff_utc": "2026-10-23T04:52:27Z",
+  "baseline_snapshot_utc": "2026-10-23T00:07:00Z",
+  "baseline_pr": 805,
+  "final_research_pr": 911,
+  "accounting_pr": 912,
+  "labels": {
+    "before": 17,
+    "after": 3,
+    "removed": 14,
+    "profiles_before": [
+      16,
+      0,
+      1
+    ],
+    "profiles_after": [
+      2,
+      0,
+      1
+    ]
+  },
+  "necessary_pairs": {
+    "before": 1790,
+    "after": 146,
+    "removed": 1644
+  },
+  "proof_completion_percentage": null,
+  "lean": {
+    "draft_packages": 13,
+    "distinct_declarations": 66,
+    "dependency_rechecks": 4,
+    "independent_kernel_rerun": false
+  },
+  "remaining": [
+    {
+      "id": "G3.11.8ae96830fd21",
+      "pairs": 4
+    },
+    {
+      "id": "G3.11.cce6e3ba4eeb",
+      "pairs": 64
+    },
+    {
+      "id": "G3.21.d610e381ed75",
+      "pairs": 78
+    }
+  ],
+  "execution_phase": "closed",
+  "original_repair": "open"
+}
