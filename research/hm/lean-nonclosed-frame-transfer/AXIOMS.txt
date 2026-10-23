@@ -1,0 +1,38 @@
+OAI.HorrocksMumford.nonclosedFrameTransfer.{u_1, u_2, u_3, u_4, u_5, u_6, u_7, u_8, u_9, u_10, u_11} {R : Type u_1}
+  [Ring R] {Cminus : Type u_2} {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5} {Dzero : Type u_6}
+  {Dplus : Type u_7} {HCa : Type u_8} {HCb : Type u_9} {HDa : Type u_10} {HDb : Type u_11} [AddCommGroup Cminus]
+  [Module R Cminus] [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus] [AddCommGroup Dminus]
+  [Module R Dminus] [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup Dplus] [Module R Dplus] [AddCommGroup HCa]
+  [Module R HCa] [AddCommGroup HCb] [Module R HCb] [AddCommGroup HDa] [Module R HDa] [AddCommGroup HDb] [Module R HDb]
+  (dCm : Cminus →ₗ[R] Czero) (dC0 : Czero →ₗ[R] Cplus) (dDm : Dminus →ₗ[R] Dzero) (dD0 : Dzero →ₗ[R] Dplus)
+  (hCb0 : Czero →ₗ[R] Cminus) (hCb1 : Cplus →ₗ[R] Czero) (hDa0 : Dzero →ₗ[R] Dminus) (hDa1 : Dplus →ₗ[R] Dzero)
+  (iCa : HCa →ₗ[R] Czero) (iCb : HCb →ₗ[R] Czero) (pCb : Czero →ₗ[R] HCb) (iDa : HDa →ₗ[R] Dzero)
+  (pDa : Dzero →ₗ[R] HDa) (pDb : Dzero →ₗ[R] HDb) (Em : Cminus →ₗ[R] Dminus) (E0 : Czero →ₗ[R] Dzero)
+  (Ep : Cplus →ₗ[R] Dplus) (hC : dCm ∘ₗ hCb0 + hCb1 ∘ₗ dC0 = LinearMap.id - iCb ∘ₗ pCb)
+  (hD : dDm ∘ₗ hDa0 + hDa1 ∘ₗ dD0 = LinearMap.id - iDa ∘ₗ pDa) (hCi : dC0 ∘ₗ iCa = 0) (hDp : pDb ∘ₗ dDm = 0) :
+  ((pDb ∘ₗ E0) ∘ₗ iCb) ∘ₗ pCb ∘ₗ iCa - (pDb ∘ₗ iDa) ∘ₗ (pDa ∘ₗ E0) ∘ₗ iCa =
+    (pDb ∘ₗ ((dDm ∘ₗ Em - E0 ∘ₗ dCm) ∘ₗ hCb0 + hDa1 ∘ₗ (dD0 ∘ₗ E0 - Ep ∘ₗ dC0))) ∘ₗ iCa
+OAI.HorrocksMumford.nonclosedFrameTransfer_closed.{u_1, u_2, u_3, u_4, u_5, u_6, u_7, u_8, u_9, u_10, u_11}
+  {R : Type u_1} [Ring R] {Cminus : Type u_2} {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5}
+  {Dzero : Type u_6} {Dplus : Type u_7} {HCa : Type u_8} {HCb : Type u_9} {HDa : Type u_10} {HDb : Type u_11}
+  [AddCommGroup Cminus] [Module R Cminus] [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus]
+  [AddCommGroup Dminus] [Module R Dminus] [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup Dplus] [Module R Dplus]
+  [AddCommGroup HCa] [Module R HCa] [AddCommGroup HCb] [Module R HCb] [AddCommGroup HDa] [Module R HDa]
+  [AddCommGroup HDb] [Module R HDb] (dCm : Cminus →ₗ[R] Czero) (dC0 : Czero →ₗ[R] Cplus) (dDm : Dminus →ₗ[R] Dzero)
+  (dD0 : Dzero →ₗ[R] Dplus) (hCb0 : Czero →ₗ[R] Cminus) (hCb1 : Cplus →ₗ[R] Czero) (hDa0 : Dzero →ₗ[R] Dminus)
+  (hDa1 : Dplus →ₗ[R] Dzero) (iCa : HCa →ₗ[R] Czero) (iCb : HCb →ₗ[R] Czero) (pCb : Czero →ₗ[R] HCb)
+  (iDa : HDa →ₗ[R] Dzero) (pDa : Dzero →ₗ[R] HDa) (pDb : Dzero →ₗ[R] HDb) (Em : Cminus →ₗ[R] Dminus)
+  (E0 : Czero →ₗ[R] Dzero) (Ep : Cplus →ₗ[R] Dplus) (hC : dCm ∘ₗ hCb0 + hCb1 ∘ₗ dC0 = LinearMap.id - iCb ∘ₗ pCb)
+  (hD : dDm ∘ₗ hDa0 + hDa1 ∘ₗ dD0 = LinearMap.id - iDa ∘ₗ pDa) (hCi : dC0 ∘ₗ iCa = 0) (hDp : pDb ∘ₗ dDm = 0)
+  (hTm : dDm ∘ₗ Em - E0 ∘ₗ dCm = 0) (hT0 : dD0 ∘ₗ E0 - Ep ∘ₗ dC0 = 0) :
+  ((pDb ∘ₗ E0) ∘ₗ iCb) ∘ₗ pCb ∘ₗ iCa = (pDb ∘ₗ iDa) ∘ₗ (pDa ∘ₗ E0) ∘ₗ iCa
+OAI.HorrocksMumford.nonclosedFrameTransfer_exactProjection.{u_1, u_3, u_4, u_5, u_6, u_8, u_11} {R : Type u_1} [Ring R]
+  {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5} {Dzero : Type u_6} {HCa : Type u_8} {HDb : Type u_11}
+  [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus] [AddCommGroup Dminus] [Module R Dminus]
+  [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup HCa] [Module R HCa] [AddCommGroup HDb] [Module R HDb]
+  (dC0 : Czero →ₗ[R] Cplus) (dDm : Dminus →ₗ[R] Dzero) (iCa : HCa →ₗ[R] Czero) (pDb : Dzero →ₗ[R] HDb)
+  (K0 : Czero →ₗ[R] Dminus) (K1 : Cplus →ₗ[R] Dzero) (hCi : dC0 ∘ₗ iCa = 0) (hDp : pDb ∘ₗ dDm = 0) :
+  (pDb ∘ₗ (dDm ∘ₗ K0 + K1 ∘ₗ dC0)) ∘ₗ iCa = 0
+'OAI.HorrocksMumford.nonclosedFrameTransfer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.nonclosedFrameTransfer_closed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.nonclosedFrameTransfer_exactProjection' depends on axioms: [propext, Quot.sound]
