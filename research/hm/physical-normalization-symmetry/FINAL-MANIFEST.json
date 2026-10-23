@@ -1,0 +1,91 @@
+{
+  "status": "independently_reviewed_conditional_written_theorem_not_Lean",
+  "date": "2026-10-23",
+  "new_result": "coherent cubic/linear equivariant normalization family: ten Hom parameters, invariant output zero, two-orbit full-source calibration with varying multiplier retained",
+  "unconstrained_trace_dimension": 13,
+  "universal_equivariant_output_span_dimension": 12,
+  "universal_equivariant_family_dimension": 10,
+  "axis_kernel_dimension": 4,
+  "square_kernel_dimension": 3,
+  "actual_coherent_equivariance_authenticated": false,
+  "actual_calibration_performed": false,
+  "actual_HM_evaluations_performed": false,
+  "tests": {
+    "commands": [
+      "python verify_symmetry_calibration.py",
+      "python -O verify_symmetry_calibration.py"
+    ],
+    "exact_character_degree_coefficient_checks": 122,
+    "negative_controls": 5,
+    "independently_replayed": true
+  },
+  "publication_by_worker": false,
+  "frozen_866_unchanged": true,
+  "artifacts": [
+    {
+      "path": "PROOF.md",
+      "bytes": 14873,
+      "sha256": "cf85d577d57f3b08369045b99599738498f0caf1fc0e45009a6d2bf227c95b22"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2659,
+      "sha256": "6bcce1ccf21390434bf321101b984f718704a0b080b7051622624203651e156d"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 10050,
+      "sha256": "b1b96dc7f0380756cfade3803e780e1f81189b3c2531a68958f5b8d1e154b614"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 3710,
+      "sha256": "09d9c776843bd07f7b9ffda5d77d423287aa330bae31a887153ee2c2184fb2f8"
+    },
+    {
+      "path": "inputs/axis_geometry.md",
+      "bytes": 10945,
+      "sha256": "70067578d36093d07b2cfb90948014bd226bc77250f3f67f7cc79b9030deb1d8"
+    },
+    {
+      "path": "inputs/linear_correction.md",
+      "bytes": 12572,
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab"
+    },
+    {
+      "path": "inputs/linear_source.md",
+      "bytes": 10040,
+      "sha256": "22689c8c4c2776b454298699848b51e5c2f0105ea455504d22b9b995b9288d00"
+    },
+    {
+      "path": "inputs/next_weight.md",
+      "bytes": 19929,
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492"
+    },
+    {
+      "path": "inputs/normalization866.md",
+      "bytes": 12197,
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14"
+    },
+    {
+      "path": "inputs/pr815.md",
+      "bytes": 18996,
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236"
+    },
+    {
+      "path": "verification-optimized.log",
+      "bytes": 337,
+      "sha256": "ffc140aa70704ac16f6bba579d8df89c3de7be773457f1f9e48d3186bf366ff5"
+    },
+    {
+      "path": "verification.log",
+      "bytes": 337,
+      "sha256": "ffc140aa70704ac16f6bba579d8df89c3de7be773457f1f9e48d3186bf366ff5"
+    },
+    {
+      "path": "verify_symmetry_calibration.py",
+      "bytes": 6998,
+      "sha256": "1da0bb9fec2aff05d8b30a43fd7bc257ddfa6ee6c109699916fff83f252c5f8e"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "date": "2026-10-23",
+  "inputs": [
+    {
+      "name": "next_weight",
+      "commit": "3d21e93865152ec961ceaf32d48f845399158b69",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "git_blob": "d041cc5cf01440e7d78cf22d194ab044d6f237dc",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d21e93865152ec961ceaf32d48f845399158b69/research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492",
+      "bytes": 19929,
+      "git_blob_verified": true
+    },
+    {
+      "name": "linear_source",
+      "commit": "3333cce744b3bd8e4472969f599588fec3e20d52",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-MULTIPLIED-NILPOTENT-HAS-A-CANONICAL-SQUARE-ZERO-LIFT.md",
+      "git_blob": "240b39cc35b02287fb135a39a1b056a05e9cfb20",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3333cce744b3bd8e4472969f599588fec3e20d52/research/hm/order-four-quadratic-load/ACTUAL-MULTIPLIED-NILPOTENT-HAS-A-CANONICAL-SQUARE-ZERO-LIFT.md",
+      "sha256": "22689c8c4c2776b454298699848b51e5c2f0105ea455504d22b9b995b9288d00",
+      "bytes": 10040,
+      "git_blob_verified": true
+    },
+    {
+      "name": "linear_correction",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "git_blob": "e2c4ae916ed77ee529ae87224c675a01567abeaa",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab",
+      "bytes": 12572,
+      "git_blob_verified": true
+    },
+    {
+      "name": "axis_geometry",
+      "commit": "95004606fb8b2ec51ecd97e2fde0d6d0ff328407",
+      "path": "research/hm/fourth-gate-geometric-constraints/FOURTH-GATE-SIX-AXIS-INVISIBLE-CHANNEL.md",
+      "git_blob": "d3325e1f5e285c1d7d59e2d01f62d39b6d90ccfd",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/95004606fb8b2ec51ecd97e2fde0d6d0ff328407/research/hm/fourth-gate-geometric-constraints/FOURTH-GATE-SIX-AXIS-INVISIBLE-CHANNEL.md",
+      "sha256": "70067578d36093d07b2cfb90948014bd226bc77250f3f67f7cc79b9030deb1d8",
+      "bytes": 10945,
+      "git_blob_verified": true
+    },
+    {
+      "name": "normalization866",
+      "commit": "25b1d2927294fffbc393e6ac2285f5a58cfd6c60",
+      "path": "research/hm/physical-source-normalization/PROOF.md",
+      "git_blob": "d6430f3ea8ee841278ed4ce815721b61bf2fdc3d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/25b1d2927294fffbc393e6ac2285f5a58cfd6c60/research/hm/physical-source-normalization/PROOF.md",
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14",
+      "bytes": 12197,
+      "git_blob_verified": true
+    },
+    {
+      "name": "pr815",
+      "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+      "path": "research/hm/affine-square-source-response/PROOF.md",
+      "git_blob": "bef4e26574b3085616c22d5fdaae4e808e3767e4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42/research/hm/affine-square-source-response/PROOF.md",
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236",
+      "bytes": 18996,
+      "git_blob_verified": true
+    }
+  ]
+}
