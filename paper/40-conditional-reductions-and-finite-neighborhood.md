@@ -1,5 +1,7 @@
 # Conditional reductions and finite-neighborhood obstruction
 
+**Supersession through PR970:** full-radical Type I compatibility is now impossible; neither its historical 36→32 nor 32→28 branch remains live. Under full-radical Type II compatibility, only (2,0,0), with annihilator 27→24 and non-acyclic quotient, remains. The earlier conditional tables below are retained as dated history. See [chapter42](42-polar-integrability.md).
+
 **Craig Ward · 23 October 2026 · Update through PR961**
 
 The necessary catalogue frontier remains **four pairs across three stable labels**, distributed **2 + 1 + 1**. This chapter records tighter conditional structures, not new pair exclusions, actual realization, or completion of the original proof repair. Historical figures and counts are unchanged.
