@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "count": 20,
+  "checks": [
+    "inputs/1031.md SHA256",
+    "inputs/1031.md Git blob",
+    "inputs/1069.md SHA256",
+    "inputs/1069.md Git blob",
+    "formal bracket coefficients",
+    "full formal sextic alternating identity",
+    "apolar multiplication adjoint is transvectant over60",
+    "quotient pairing is nondegenerate",
+    "orthogonal inclusion splits projection",
+    "inclusion and quotient pairing normalization",
+    "pinned P adjoint transvectant normalization",
+    "exact pinned alternating difference coefficient minus2",
+    "alternating half coefficient minus1",
+    "symmetric channel formula",
+    "pinned alternating channel nonzero polynomial",
+    "bilinear diagonal equals R1",
+    "R1 nonzero polynomial",
+    "alternating channel diagonal zero",
+    "full B recovery from diagonal and bracket",
+    "same scalar in diagonal and alternating channel"
+  ],
+  "identity": "rho_D(a)L_b* - rho_D(b)L_a* = -2 L_[a,b]*",
+  "adjoint_factor": "1/60 for unnormalized second transvectant",
+  "boundary": "All quadratic and sextic coefficients formal; endpoint-nine interpretation conditional on canonical-transfer theorem."
+}
