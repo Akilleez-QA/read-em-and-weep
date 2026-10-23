@@ -1,0 +1,26 @@
+{
+  "pr802": {
+    "commit": "e484640a6565c278321bf6557860262c1ac1b7df",
+    "path": "research/hm/profile11-o16-constant-span-exclusion/PROOF.md",
+    "git_blob_sha1": "98a1bd6123e148476da0b997d879aecbf885ec97",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e484640a6565c278321bf6557860262c1ac1b7df/research/hm/profile11-o16-constant-span-exclusion/PROOF.md",
+    "local_file": "inputs/pr802-proof.md",
+    "role": "Written geometric theorem supplied as an input, not machine-certified or independently reviewed here"
+  },
+  "pr803": {
+    "commit": "68bb934a4fb7b059168d4081763a274e651c3a0b",
+    "path": "research/hm/profile11-defect12-endpoint-exclusion/PROOF.md",
+    "git_blob_sha1": "a74fc01da4fb4b81b3db497790207c3fc98a32ec",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/68bb934a4fb7b059168d4081763a274e651c3a0b/research/hm/profile11-defect12-endpoint-exclusion/PROOF.md",
+    "local_file": "inputs/pr803-proof.md",
+    "role": "Written geometric theorem supplied as an input, not machine-certified or independently reviewed here"
+  },
+  "pr804": {
+    "commit": "ae34a9403c0c2abf00516ca35dd494723034c38a",
+    "path": "research/hm/profile11-degree28-simple-polar-exclusion/PROOF.md",
+    "git_blob_sha1": "5c12041ebd5282024aa994062232e781242ca535",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ae34a9403c0c2abf00516ca35dd494723034c38a/research/hm/profile11-degree28-simple-polar-exclusion/PROOF.md",
+    "local_file": "inputs/pr804-proof.md",
+    "role": "Written geometric theorem supplied as an input, not machine-certified or independently reviewed here"
+  }
+}
