@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": 92,
+  "sigma_zero_length": 34,
+  "minimal_ideal_resolution": "0 -> 3O(-8)+O(-11) -> 5O(-7) -> I_Z -> 0",
+  "sigma_nonzero_on_square_conic": true,
+  "zero_orbits": {
+    "order5_axes": {
+      "points": 6,
+      "local_length": 4,
+      "completed_ideal": "(u^2,v^2)"
+    },
+    "order3_axes": {
+      "points": 10,
+      "local_length": 1
+    }
+  },
+  "actual_octic_scalar": "not evaluated",
+  "source_covector_additional_zeros": "not computed",
+  "actual_instance_evaluated": false,
+  "source_pair_removed": false
+}
