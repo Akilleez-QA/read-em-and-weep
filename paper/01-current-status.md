@@ -26,6 +26,14 @@ See the [new source126 specialization](36-source126-dual-specialization.md) and 
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](figures/current-four-pair-frontier.svg)
 
+## Structural reductions through PR954
+
+**Four necessary pairs and three stable labels remain.** [PR953](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c12c02a601cc380e2e2cf233e7b37dddd46d563/research/hm/source2-radical-quotient-normal-form/PROOF.md) identifies the full negative-pencil quotient for regular source2 radical directions as N0 ⊕ N8 ⊕ (V+D)[2], independent of endpoint and residual coupling. Pure V and the exceptional mixed direction are excluded from this statement. No compatible line is selected, and an induced Q may still mix the summands.
+
+[PR954](https://github.com/Akilleez-QA/read-em-and-weep/blob/1dfd8f6b2b7d39d41de2619737b6cf4cfb951e75/research/hm/source126-typeI-joint-annihilator/PROOF.md) gives a conditional Type I source126 gate: if the whole radical is Q-compatible, its joint P-row determinant must vanish. Only annihilator footprints **32→28 or 36→32** remain; an acyclic quotient can be removed while preserving the specified formal Bocksteins. It does not prove that whole-radical compatibility is impossible or extend to Types II/III.
+
+The [latest addendum](39-normal-forms-and-joint-row-gate.md) also reports the complete pinned PR948/952 texts: at most one vertex-extension scalar remains after an actual nonzero two-space obstruction. The actual bundle row, obstruction rank and scalar remain unselected. Those collaborator summaries are source readings, not an independent reproof here. No completion percentage is inferred.
+
 ## Source2 compatibility and conditional quotients through PR950
 
 [PR949](https://github.com/Akilleez-QA/read-em-and-weep/blob/e8d9943ed8402be90a6f249a1ad3dd51dcc3c628/research/hm/source2-invariant-compatibility/PROOF.md) proves that source2's negative-pencil algebra compatible with the invariant positive product is **C·1 ⊕ J_Q, with J_Q² = 0 and dim J_Q ≤ 1**. Every nontrivial compatible idempotent is excluded. Compatibility of the entire two-dimensional radical is also impossible: its actual 32-to-24 annihilator subpencil would be Q-surjective and force the same actual second Bockstein to vanish, contradicting its pinned nonvanishing theorem.
