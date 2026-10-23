@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.6 · 23 October 2026**  
+**Craig Ward · Working edition v0.7 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -27,6 +27,14 @@ The original proof repair remains open. Four is a count in a fixed necessary rel
 See the [new source126 specialization](paper/36-source126-dual-specialization.md) and [six-pair checkpoint addendum](paper/35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
+
+## Source2 compatibility and conditional quotients through PR950
+
+[PR949](https://github.com/Akilleez-QA/read-em-and-weep/blob/e8d9943ed8402be90a6f249a1ad3dd51dcc3c628/research/hm/source2-invariant-compatibility/PROOF.md) proves that source2's negative-pencil algebra compatible with the invariant positive product is **C·1 ⊕ J_Q, with J_Q² = 0 and dim J_Q ≤ 1**. Every nontrivial compatible idempotent is excluded. Compatibility of the entire two-dimensional radical is also impossible: its actual 32-to-24 annihilator subpencil would be Q-surjective and force the same actual second Bockstein to vanish, contradicting its pinned nonvanishing theorem.
+
+[PR950](https://github.com/Akilleez-QA/read-em-and-weep/blob/54c7e78bd5351b3ecbdcc4b3b558a0012eb79566/research/hm/source2-radical-image-reduction/PROOF.md) additionally gives a conditional **32-to-28** quotient preserving the exact t-adic Bockstein problem when a non-V compatible radical line exists. The pure-V **36-to-33** quotient changes the kernel and is not an equivalent cancellation. Neither line existence nor its type is selected.
+
+A possible compatible nilpotent line remains. This does **not** prove scalarity, extend an endomorphism to the full HM module, or exclude source2. The frontier remains **four pairs across three labels**. See [source2 compatibility](paper/38-source2-compatibility.md) for the argument and verification boundary.
 
 ## New structural restrictions through PR946
 
