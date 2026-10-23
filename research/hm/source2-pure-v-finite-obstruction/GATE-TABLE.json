@@ -1,0 +1,170 @@
+[
+  {
+    "quotient_order": 3,
+    "original_order": 4,
+    "lift": 2,
+    "m_gauge": 0,
+    "kappa_gauge": 0,
+    "target": 2
+  },
+  {
+    "quotient_order": 4,
+    "original_order": 5,
+    "lift": 3,
+    "m_gauge": 1,
+    "kappa_gauge": 0,
+    "target": 2
+  },
+  {
+    "quotient_order": 5,
+    "original_order": 6,
+    "lift": 5,
+    "m_gauge": 2,
+    "kappa_gauge": 0,
+    "target": 3
+  },
+  {
+    "quotient_order": 6,
+    "original_order": 7,
+    "lift": 7,
+    "m_gauge": 3,
+    "kappa_gauge": 0,
+    "target": 4
+  },
+  {
+    "quotient_order": 7,
+    "original_order": 8,
+    "lift": 9,
+    "m_gauge": 4,
+    "kappa_gauge": 0,
+    "target": 5
+  },
+  {
+    "quotient_order": 8,
+    "original_order": 9,
+    "lift": 12,
+    "m_gauge": 5,
+    "kappa_gauge": 1,
+    "target": 6
+  },
+  {
+    "quotient_order": 9,
+    "original_order": 10,
+    "lift": 15,
+    "m_gauge": 7,
+    "kappa_gauge": 1,
+    "target": 7
+  },
+  {
+    "quotient_order": 10,
+    "original_order": 11,
+    "lift": 18,
+    "m_gauge": 9,
+    "kappa_gauge": 1,
+    "target": 8
+  },
+  {
+    "quotient_order": 11,
+    "original_order": 12,
+    "lift": 22,
+    "m_gauge": 11,
+    "kappa_gauge": 2,
+    "target": 9
+  },
+  {
+    "quotient_order": 12,
+    "original_order": 13,
+    "lift": 26,
+    "m_gauge": 13,
+    "kappa_gauge": 2,
+    "target": 11
+  },
+  {
+    "quotient_order": 13,
+    "original_order": 14,
+    "lift": 30,
+    "m_gauge": 15,
+    "kappa_gauge": 3,
+    "target": 12
+  },
+  {
+    "quotient_order": 14,
+    "original_order": 15,
+    "lift": 35,
+    "m_gauge": 18,
+    "kappa_gauge": 4,
+    "target": 13
+  },
+  {
+    "quotient_order": 15,
+    "original_order": 16,
+    "lift": 40,
+    "m_gauge": 21,
+    "kappa_gauge": 4,
+    "target": 15
+  },
+  {
+    "quotient_order": 16,
+    "original_order": 17,
+    "lift": 45,
+    "m_gauge": 24,
+    "kappa_gauge": 5,
+    "target": 16
+  },
+  {
+    "quotient_order": 17,
+    "original_order": 18,
+    "lift": 51,
+    "m_gauge": 27,
+    "kappa_gauge": 6,
+    "target": 18
+  },
+  {
+    "quotient_order": 18,
+    "original_order": 19,
+    "lift": 57,
+    "m_gauge": 30,
+    "kappa_gauge": 7,
+    "target": 20
+  },
+  {
+    "quotient_order": 19,
+    "original_order": 20,
+    "lift": 63,
+    "m_gauge": 34,
+    "kappa_gauge": 8,
+    "target": 21
+  },
+  {
+    "quotient_order": 20,
+    "original_order": 21,
+    "lift": 70,
+    "m_gauge": 38,
+    "kappa_gauge": 9,
+    "target": 23
+  },
+  {
+    "quotient_order": 21,
+    "original_order": 22,
+    "lift": 77,
+    "m_gauge": 42,
+    "kappa_gauge": 10,
+    "target": 25
+  },
+  {
+    "quotient_order": 22,
+    "original_order": 23,
+    "lift": 84,
+    "m_gauge": 46,
+    "kappa_gauge": 11,
+    "target": 27
+  },
+  {
+    "quotient_order": 23,
+    "original_order": 24,
+    "lift": 92,
+    "m_gauge": 50,
+    "kappa_gauge": 13,
+    "target": 29
+  }
+]
