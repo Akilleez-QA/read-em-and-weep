@@ -1,12 +1,18 @@
-# Living research paper · v0.55
+# Living research paper · v0.56
 
-**Craig Ward · 23 October 2026 · Current checkpoint: canonical doublet retraction through PR1127**
+**Craig Ward · 23 October 2026 · Current checkpoint: conditional radical filtrations through PR1132**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Conditional intrinsic radical filtrations
+
+[The radical-filtration chapter](134-intrinsic-radical-filtrations.md) refines all four necessary formal types without selecting or eliminating one. In types I/II, the **square** of the radical has an everywhere-saturated image of rank 3 and degree −12; the positive top-block quotients retain the separate original V source. In type III, the **first** radical image equals its common annihilator in K, of rank 6 and degree −18. In type IV, the first-radical image of rank 6 and degree −24 is properly contained in the annihilator of rank 12 and degree −36.
+
+The type III filtration and type IV middle filtration are nonsplit Euler extensions. Positive quotients are not positive subbundles. No case-count reduction, actual source choice or positive/Q/Gauss compatibility follows.
 
 ## Canonical doublet retraction and reduced negative tail
 

@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: canonical doublet retraction through PR1127**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: conditional radical filtrations through PR1132**
 
 **The complete actual source2 nonzero pure-V Q-compatible radical package is now excluded.** Its two endpoint-sixteen mechanisms share a contradictory antecedent; this result does not choose a fourth/fifth value. It is not a blanket exclusion of every abstract source2 model, a coverage theorem for every actual source, or a complete repair.
 
 [Latest theorem and scope](paper/131-primary-terminal-conditional-exclusion.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Conditional intrinsic radical filtrations
+
+[The radical-filtration chapter](paper/134-intrinsic-radical-filtrations.md) refines all four necessary formal types without selecting or eliminating one. In types I/II, the **square** of the radical has an everywhere-saturated image of rank 3 and degree −12; the positive top-block quotients retain the separate original V source. In type III, the **first** radical image equals its common annihilator in K, of rank 6 and degree −18. In type IV, the first-radical image of rank 6 and degree −24 is properly contained in the annihilator of rank 12 and degree −36.
+
+The type III filtration and type IV middle filtration are nonsplit Euler extensions. Positive quotients are not positive subbundles. No case-count reduction, actual source choice or positive/Q/Gauss compatibility follows.
 
 ## Canonical doublet retraction and reduced negative tail
 
