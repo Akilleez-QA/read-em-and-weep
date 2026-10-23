@@ -1,0 +1,56 @@
+[
+  {
+    "local_path": "inputs/950.md",
+    "commit": "54c7e78bd5351b3ecbdcc4b3b558a0012eb79566",
+    "path": "research/hm/source2-radical-image-reduction/PROOF.md",
+    "sha256": "d86b7ebf11aa7684a522f408a641b2a0d74c239d521ef9bf829815ae58551fb4",
+    "git_blob": "da574749b93a49264aa52ec2fd8d5a04c4cce214",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54c7e78bd5351b3ecbdcc4b3b558a0012eb79566/research/hm/source2-radical-image-reduction/PROOF.md"
+  },
+  {
+    "label": "third-zero",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "local_path": "inputs/third-zero.md",
+    "git_blob": "7c09fe95015d7c8d932b3a27be302ca09888112d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "sha256": "243e242a15ff2bb678b6c1c3cb33f203bbbed5b8bb0c23d8564e14536d9075cd"
+  },
+  {
+    "label": "966",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4d0a6713a9c81fe669967e1d23838bdc8f4162b6",
+    "path": "research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "local_path": "inputs/966.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md"
+  },
+  {
+    "label": "1000",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "260cd6a777b23dc7ccd5ed956fcf65e17ff56145",
+    "path": "research/hm/source126-typeII-octic-zero-scheme/PROOF.md",
+    "local_path": "inputs/1000.md",
+    "sha256": "97c734b913f4603a4bb1f34e36d66bc3dfb46929ef48ae5beeb7dce5617ee7a3",
+    "git_blob": "0ca1301de04a630cb184c4429f5b59e09698c6c9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md"
+  },
+  {
+    "local_path": "inputs/1019.md",
+    "commit": "3fb2475ffb275c5789acbaa8f9f84ed272713785",
+    "path": "research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "sha256": "42bf6d6a1934410de15829108a397180bb8493fe49798fb1b7945ce0e252f682",
+    "git_blob": "bf63c14f76933d59fa7e3ac61aecb3366ac1b442",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb2475ffb275c5789acbaa8f9f84ed272713785/research/hm/source2-pure-v-secondary-homotopy/PROOF.md"
+  },
+  {
+    "local_path": "inputs/quotient-second.md",
+    "commit": "5488bc153029391d647c3e18d9344e4e00e38a7f",
+    "path": "research/hm/source2-pure-v-quotient-second/PROOF.md",
+    "sha256": "02ebe069509e1087c5987fed757e9283d83156cd280ae27819afffc406d261e0",
+    "git_blob": "ed25430f8e5ffb0f46c2b642d8d27467db492985",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5488bc153029391d647c3e18d9344e4e00e38a7f/research/hm/source2-pure-v-quotient-second/PROOF.md"
+  }
+]
