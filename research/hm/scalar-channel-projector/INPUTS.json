@@ -1,0 +1,52 @@
+[
+  {
+    "label": "PR1118",
+    "commit": "f794fb1295693e7d2d9067013e5bd019d2a284a9",
+    "path": "research/hm/positive-middle-faithfulness/PROOF.md",
+    "git_blob": "7aecc0dee5926977f4b7ce65e3ecef78c89506a3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f794fb1295693e7d2d9067013e5bd019d2a284a9/research/hm/positive-middle-faithfulness/PROOF.md",
+    "local_path": "inputs/PR1118.md",
+    "sha256": "3e63ddf20c265068aa83dfd07db008437ca8a928e4699ce7060af281c5e668f5",
+    "bytes": 11576
+  },
+  {
+    "label": "PR477",
+    "commit": "ff87076794e97238150485b12183c3cd0f4711e4",
+    "path": "research/hm/adjoint-primary-extension/PROOF.md",
+    "git_blob": "1cb91b7f5b7da08b6653c7fa48487ff7c3fd7198",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ff87076794e97238150485b12183c3cd0f4711e4/research/hm/adjoint-primary-extension/PROOF.md",
+    "local_path": "inputs/PR477.md",
+    "sha256": "0325c7b3cf237e27d4466e17c50cdb7f1a5cd874c310f32c03516acc250a2a38",
+    "bytes": 10321
+  },
+  {
+    "label": "PR1050",
+    "commit": "ec18a0fd62c4a9495adf6aad9564d379afc42b62",
+    "path": "research/hm/canonical-negative-string/PROOF.md",
+    "git_blob": "8563bb31385dac0174b3d17bcae7bfa9dcfad716",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ec18a0fd62c4a9495adf6aad9564d379afc42b62/research/hm/canonical-negative-string/PROOF.md",
+    "local_path": "inputs/PR1050.md",
+    "sha256": "6c2f23ce2110ee91b05631e1e31932a5fe5ecb36e86731cb5e79518879f7b67d",
+    "bytes": 9452
+  },
+  {
+    "label": "PR1114",
+    "commit": "fc79bc119a251c16d386467333f55cd46dc75367",
+    "path": "research/hm/repeated-v-channel-pencil/PROOF.md",
+    "git_blob": "ef68e9d6ce7583f2f146443f157ba895e2d16925",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fc79bc119a251c16d386467333f55cd46dc75367/research/hm/repeated-v-channel-pencil/PROOF.md",
+    "local_path": "inputs/PR1114.md",
+    "sha256": "4ecb2dfce5a532932e29063a4ee79c2431ab1c74b00c8a3eee16d6b9ddbf2e87",
+    "bytes": 12440
+  },
+  {
+    "label": "PR1120",
+    "commit": "62587a0adde566cac718ee13c28ee13c239389e5",
+    "path": "research/hm/scalar-cyclic-module/PROOF.md",
+    "git_blob": "af00766042cdc7e100731aa69b9ad8d32db0209f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/62587a0adde566cac718ee13c28ee13c239389e5/research/hm/scalar-cyclic-module/PROOF.md",
+    "local_path": "inputs/PR1120.md",
+    "sha256": "b47031d81c8c138aa5f1b4c4cee992f9ae04ee74adb8c403cedd2e74c51a2d2e",
+    "bytes": 10894
+  }
+]
