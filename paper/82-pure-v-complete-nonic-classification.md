@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4/research/hm/source2-pure-v-complete-base-classification/PROOF.md).
 
+## Later refinement through PR1075
+
+PR1075 now proves γ≠0 in endpoint nine. Only the nonzero conic stratum is available there; the earlier zero-or-conic boundary below is superseded. The universal five-stratum classification remains unchanged. [Full theorem](105-nonzero-small-transfer.md).
+
 ## Later branch restriction through PR1069
 
 The [canonical-transfer theorem](99-canonical-transfer-coefficient-line.md) now forces β=0 for the actual gate in endpoint nine. If nonzero, only the conic stratum below is available there; the zero gate remains possible. This restricts a conditional actual branch, not the universal five-stratum classification. Endpoint sixteen is not selected, and the converse from the conic line to endpoint nine is not proved.

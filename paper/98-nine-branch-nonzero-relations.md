@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/638efef0469b7230f04560d0a02f3cf4d4116c0c/research/hm/source2-pure-v-small-relations/PROOF.md).
 
+## Later actual-negative promotion through PR1073
+
+[PR1073](103-actual-terminal-negative-module.md) uses the later actual joint-negative kernel theorem to prove that R·im h itself terminates in degree four in endpoint nine. Thus the resolution below, shifted by two, now describes that actual negative submodule. PR1066 alone proved only the explicitly artificial truncation recorded here. Neither theorem identifies this submodule with the full Rao module or supplies positive-coordinate stability.
+
 ## A former zero alternative is excluded
 
 Assume the unselected nine-dimensional generated-endpoint branch. Then F2=I2⊕P_h, F3=I3⊕(W⊗P_h), F4=NC4=P+D. The quadratic descendants of P_h have a **nonzero P component in I4**. The former optional-zero P graph is therefore no longer an alternative in this branch. The negative-module extension 0→I→F→F/I→0 is nonsplit, even without requiring equivariance.

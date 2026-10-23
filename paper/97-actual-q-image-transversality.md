@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/fd75633464cd587856287cc7866520fb4105ef5b/research/hm/source2-pure-v-q-transversality/PROOF.md).
 
+## Later refinement through PR1075
+
+PR1075 now proves Q(NC2)∩NC4=0 in all endpoint-sixteen branches, including nonzero N0 projection. The residual-large-only restriction below is the earlier PR1065 boundary, now superseded. No Q-preservation of NC or NR follows. [Full theorem](105-nonzero-small-transfer.md).
+
 ## A new actual image in every remaining branch
 
 Define U_Q=Q(NC2), using the invariant quadratic Q, not the negative quadratic descendants of P_h. Under compatible pure-V radical,

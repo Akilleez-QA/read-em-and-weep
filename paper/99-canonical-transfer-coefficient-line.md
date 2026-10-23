@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/41bc20cade3198306c492c0c46399d71eb0d51c4/research/hm/source2-pure-v-canonical-transfer/PROOF.md).
 
+## Later refinement through PR1075
+
+PR1075 now proves γ≠0 in endpoint nine, superseding the possibly-zero alternative below. That branch has exactly the nonzero conic stratum and length-46 scheme. The numerical scalar and endpoint choice remain unselected. [Full theorem](105-nonzero-small-transfer.md).
+
 ## New branch-to-coefficient restriction
 
 Under actual compatible pure-V hypotheses, endpoint dimension nine forces the unique quadratic lift to have the form

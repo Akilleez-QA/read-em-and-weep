@@ -1,12 +1,12 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1069**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1079**
 
-**The universal pure-V component-scheme classification is complete, and now transfers to the determinant-embedded original fourth D row. The original proof repair is not.** Four necessary source-dual pairs across three stable labels remain. No actual compatible pure-V source or nonzero gate is selected; endpoint nine now forces β=0.
+**Endpoint nine now forces maximal generic row rank 37 for the actual positive 41→37 component. This is not full adjoint invertibility or a complete proof repair.** Four necessary source-dual pairs across three stable labels remain. No actual compatible pure-V source or endpoint branch is selected; endpoint nine now forces the nonzero conic gate.
 
 [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
-## Complete universal classification
+## Complete universal component-scheme classification
 
 In the pinned quadratic-lift basis R=αR₁+βR₂, every nonzero coefficient pair belongs to exactly one of these five strata. Z denotes the six prescribed length-four order-five ideals (u²,v²) and ten reduced order-three axes, of total length 34.
 
@@ -18,31 +18,31 @@ In the pinned quadratic-lift basis R=αR₁+βR₂, every nonzero coefficient pa
 | +2 | m³ at six order-five axes; ten reduced axes | 46 |
 | Every other ratio, including infinity [0:1] | Exactly Z | 34 |
 
-This universal table is not a list of available outcomes within each endpoint branch. It describes the component **ideal sheaf**, equivalently the saturated homogeneous ideal. There is no extra support, hidden thickness or divisor. Every member outside the four special ratios gives exactly Z. The two length 46 cases are different schemes, not interchangeable outcomes. [Complete theorem](paper/82-pure-v-complete-nonic-classification.md)
+This universal ideal-sheaf table is not a list of available outcomes within each endpoint branch. Every other ratio gives exactly Z; the two length-46 schemes are distinct. [Complete theorem](paper/82-pure-v-complete-nonic-classification.md)
 
 ![Complete universal nonic coefficient strata; zero gate separate and actual coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
 
-The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Whether the actual conditional gate is zero remains unknown. The figure locates exact ratios, not mathematical branches between them, fractions of search space or completion percentages.
+The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Zero is now excluded in endpoint nine; its status in endpoint sixteen remains unselected. The figure locates exact ratios, not mathematical branches between them, fractions of search space or completion percentages.
 
-## New branch-to-coefficient restriction
+## Endpoint nine now forces a nonzero conic gate
 
-The generated endpoint is still **9 or 16**, neither selected. But endpoint nine now forces **R=γR₁**, with γ possibly zero. Its nonzero gate can lie only on **β=0**, giving exactly Z plus twelve reduced ambient conic points, length 46. The other four universal nonzero strata are unavailable in that branch. Nonzero β would force endpoint sixteen; β=0 does not conversely force nine. [Canonical transfer](paper/99-canonical-transfer-coefficient-line.md)
+The generated endpoint is still **9 or 16**, neither selected. Endpoint nine now forces **R=γR₁ with γ≠0**: exactly the conic coefficient stratum β=0. Its component scheme is Z plus twelve reduced ambient conic points, length 46. Zero and the other four universal nonzero strata are excluded in that branch. Conic membership does not conversely force nine. [Nonvanishing theorem](paper/105-nonzero-small-transfer.md)
 
-The choice-independent transfer has the canonical lift as its diagonal, with plus sign. Its endpoint-nine factorization eliminates R₂ without assuming mixed commutation or evaluating γ.
+Q(NC2)∩NC4 is I4 in endpoint nine and **zero in every endpoint-sixteen branch**. No Q-preservation or matching-character identification with NR4 follows.
 
-The nine-branch P graph is separately **forced nonzero**, with unknown ratio to Q preserved by Q-compatible normalization. This does not force γ nonzero: the transfer kills that graph's I4 target. The relation theorem's full resolution is an **artificial truncation**, not actual degree-five vanishing. [Nonzero relations](paper/98-nine-branch-nonzero-relations.md)
+## Exact positive Smith profile
 
-## Actual geometry, with source attribution
+In endpoint nine, outside the **28 support points** of the length-46 scheme, the actual positive component has Smith form with **33 unit pivots, three t² pivots and one t⁴ pivot**, plus four zero columns. Thus its formal kernel is free of rank four, its cokernel has length ten, and its maximal-minor ideal is (t¹⁰). The profile also holds for the symbolic generic direction. [Exact theorem](paper/106-positive-component-smith-profile.md)
 
-The residual canonical string and twelve-dimensional Q(NC2) image give actual embedding restrictions. Stronger transversality to NC4 holds only in residual-large; matching characters do not identify its direct sum with NR4. [Residual string](paper/96-canonical-residual-string.md) · [Q image](paper/97-actual-q-image-transversality.md)
+No profile is asserted at those 28 points. Row rank 37 holds generically in t, not at t=0 or every nonzero t. Not every maximal minor must be nonzero or have order ten. The other parity component and full adjoint problem remain outside this theorem.
 
-Separately, mr. slop proves the conditional actual string continues **W→A→S→D→T6**, terminal under all coordinates, by identifying NC4 with the joint-negative kernel. This is a new actual degree-five theorem, distinct from the artificial truncation. His opposite-pencil results retain the weighted **32-to-34** presentation and force an incidence line plus canonical cubic source directions, without choosing an opposite type or identifying these subspaces with im h. [Terminal report](paper/101-terminal-sextet-source-report.md) · [Weighted incidence](paper/100-weighted-incidence-source-report.md)
+## Two actual negative modules, with distinct hypotheses
 
-## Original-fourth bridge and retained boundaries
+Endpoint nine gives the actual negative module R·im h of length **32**, supported in degrees 2–4, with socle NC4 and annihilator (W)³. In **residual-large only** (zero N0 projection, nonzero N8 projection), it instead has length **45**, supported in degrees 2–5, socle I4 in degree four plus the marked residual T in degree five, and annihilator (W)⁴. Both have exact minimal equivariant resolutions. [Small module](paper/103-actual-terminal-negative-module.md) · [Residual-large module](paper/107-actual-residual-large-module.md)
 
-The exact bridge proves equality of projective component ideal sheaves for nonic F and determinant-embedded original-fourth D row H=FL, including all ten rank-drop axes. The five-stratum table transfers unchanged. [Exact local comparison](paper/84-pure-v-fourth-ideal-transfer.md)
+Neither is the full Rao module or asserted positive-stable. The length-45 conclusion does not cover the endpoint-sixteen branch with nonzero N0 projection. Neither branch is selected. Attributed opposite-pencil and canonical-string results remain separate. [Source reports](paper/README.md)
 
-This is not equality of raw graded ideals, quadratic-lift rank-drop schemes or singular-target fiber maps. Additional specialized A-kernel classes remain outside the comparison. Actual coefficients and source occurrence remain unknown.
+The table describes projective component ideal sheaves for both the nonic and determinant-embedded original-fourth D row, not raw graded ideals, quadratic-lift degeneracy or additional specialized A-kernel classes. [Exact transfer](paper/84-pure-v-fourth-ideal-transfer.md)
 
 ## Fixed source frontier
 
