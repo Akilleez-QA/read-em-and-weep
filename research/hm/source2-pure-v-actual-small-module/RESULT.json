@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "count": 30,
+  "checks": [
+    "sha256 1068",
+    "git blob 1068",
+    "sha256 1066",
+    "git blob 1066",
+    "sha256 1052",
+    "git blob 1052",
+    "sha256 1056",
+    "git blob 1056",
+    "sha256 795",
+    "git blob 795",
+    "endpoint twist2 generated with no H1",
+    "separated quotient twist2 has no sections",
+    "untwisted quotient has no sections",
+    "embedded endpoint cohomology dimension",
+    "endpoint next cohomology vanishes",
+    "restricted actual Koszul dimensions",
+    "universal Koszul cancellation",
+    "determinant convention invertible",
+    "full Koszul dimension compatibility",
+    "actual submodule length",
+    "shifted Hilbert numerator",
+    "free resolution rank Euler sum",
+    "free resolution degree Euler sum",
+    "free resolution length via second derivative",
+    "linear and cubic relation characters",
+    "quadratic relation character",
+    "terminal socle dimension",
+    "irreducible negative homogeneous pieces dimensions",
+    "annihilator quotient length",
+    "actual degree shift"
+  ],
+  "actual_negative_module_hilbert": [
+    0,
+    0,
+    9,
+    14,
+    9
+  ],
+  "length": 32,
+  "annihilator": "(W)^3",
+  "resolution_degrees": {
+    "generators": {
+      "2": 9
+    },
+    "relations": {
+      "3": 4,
+      "4": 10,
+      "5": 4
+    },
+    "second_syzygies": {
+      "6": 9
+    }
+  },
+  "scope": "conditional endpoint9; actual negative submodule only, not full Rao or positive action"
+}
