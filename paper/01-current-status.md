@@ -1,12 +1,18 @@
 # Current mathematical status
 
-**Craig Ward · 23 October 2026 · Current checkpoint: actual P-type cubic kernel and Euler image**
+**Craig Ward · 23 October 2026 · Current checkpoint: two actual terminal-doublet quotient shapes excluded**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Two actual terminal-doublet quotient shapes excluded
+
+[The new endpoint theorem](141-terminal-doublet-two-shape-exclusion.md) excludes A=W′ O(-1)+O(4) and A=W′ O(-1)+O(10) for all four actual source types when the backward plateau length is one, hence in maximal profile (1,1), independently of B and determinant defect. A forced exact doublet derivative image and a second strict-top step give twelve degrees at most -5; their required totals -50 and -56 are impossible.
+
+This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. Profile (1,1), other-profile exhaustion and the original repair remain open; the preceding chapter and PDF are preserved.
 
 ## Actual P-type cubic kernel and Euler image
 
