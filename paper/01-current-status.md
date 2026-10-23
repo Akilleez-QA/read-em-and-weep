@@ -2,19 +2,29 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
-## Current frontier after PR917
+## Current frontier after source126 specialization
 
-**23 October 2026: three labels, profiles 2 / 0 / 1, and 114 historical necessary pairs remain.** [PR917's pinned proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/PROOF.md) excludes the entire source127 a-b-c-f tuple. The append-only accounting removes its exact 32 pairs from the historical burn frontier of 146; it does not remove the stable label, because source127 c-d-f remains. The residual distribution is **4 + 32 + 78**.
+**23 October 2026: three stable labels and four necessary catalogue pairs remain, distributed 2 + 1 + 1.** Profiles remain **2 / 0 / 1**. The exact six-pair checkpoint establishes **114 = 77 + 31 + 6**. The subsequent source126 quotient theorem removes two of its four source126 entries, giving **6 = 2 + 4**. No whole label is removed.
 
-| Stable label | Remaining source types | Necessary pairs |
-|---|---|---:|
-| G3.11.8ae96830fd21 | Source126 E10 | 4 |
-| G3.11.cce6e3ba4eeb | Source127 c-d-f only | 32 |
-| G3.21.d610e381ed75 | Source2 thirteen tuples | 78 |
+| Stable label | Source | Retained catalogue pairs (E, Q*) | Count |
+|---|---|---|---:|
+| G3.11.8ae96830fd21 | Source126 | (10,129), (10,157) | 2 |
+| G3.11.cce6e3ba4eeb | Source127 c-d-f | (14,148) | 1 |
+| G3.21.d610e381ed75 | Source2 | (13,21) | 1 |
 
-[PR918's fixed-minor construction](https://github.com/Akilleez-QA/read-em-and-weep/blob/dec584a79547733c88c3d3aab813388532f069f2/research/hm/physical-cone-minor-certificate/PROOF.md) gives a reproducible certificate for the previously abstract global-cone source factor, with 144 checks and 17 negative controls on synthetic/universal interfaces. The actual complete differential, physical extraction, marking, full ambient lower data and normalization still have to be supplied and authenticated. No actual obstruction value or complete repair is claimed.
+These numerical indices identify entries in the pinned catalogues, not intrinsic bundle names; the certificates match their mathematical identities and test consistent reindexing.
 
-See the [post-burn structural update](34-post-burn-structural-update.md) for the arguments and exact boundaries. The closed-burn counts and chart below are historical, not the current 114-pair frontier.
+Three different advances must not be conflated:
+
+- [PR937](https://github.com/Akilleez-QA/read-em-and-weep/blob/359475bea8dced5a6b12cc008f18bd81588fce41/research/hm/source2-bundle-specialization/PROOF.md) corrects overdue propagation of already established source2 structure into an overinclusive ledger: **78 → 1**. Its 77 removed pairs are not 77 new geometric discoveries.
+- [PR939](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c43c9b3bb9cb99c809c37a8fe8f8429f4b3a79e/research/hm/cdf-quotient-specialization/PROOF.md) proves a new quotient-bundle corollary of the c-d-f normal form: **32 → 1**. Its 31 removed pairs come from the forced equivariant quotient, without claiming a horizontal or constant lift splitting.
+- [PR941](https://github.com/Akilleez-QA/read-em-and-weep/blob/c14af3d39881197edd781aa06cb1e918ef8fd42a/research/hm/source126-dual-specialization/PROOF.md) proves a new source126 quotient specialization: **4 → 2**. Residual Types I and II force Q*129; Type III forces Q*157. The abstract template families do not identify an authenticated fixed HM realization.
+
+The original proof repair remains open. Four is a count in a fixed necessary relation, not four actual realizations, four equally difficult tasks, a proof-completion percentage, or a measure of all possible proofs. Actual source compatibility, physical construction and higher lifting/algebraicity remain unresolved.
+
+See the [new source126 specialization](36-source126-dual-specialization.md) and [six-pair checkpoint addendum](35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
+
+![Current necessary relation at full scale, with a separately labeled residual zoom](figures/current-four-pair-frontier.svg)
 
 ## Historical burn closeout
 
