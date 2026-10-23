@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1124**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: canonical doublet retraction through PR1127**
 
 **The complete actual source2 nonzero pure-V Q-compatible radical package is now excluded.** Its two endpoint-sixteen mechanisms share a contradictory antecedent; this result does not choose a fourth/fifth value. It is not a blanket exclusion of every abstract source2 model, a coverage theorem for every actual source, or a complete repair.
 
 [Latest theorem and scope](paper/131-primary-terminal-conditional-exclusion.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Canonical doublet retraction and reduced negative tail
+
+[The doublet-retraction chapter](paper/133-canonical-doublet-retraction.md) constructs a unique equivariant retraction onto the actual W′O(-3) primary piece, independently of a source2 hypothesis or selection among the four formal bundle types. Its canonical complement has rank 15 and degree −48. Naturality splits the actual negative tail 54→37→20 into 6→4→2 and **48→33→18**.
+
+This is a canonical partial splitting, not a canonical complement to the whole primary summand. No extension to M2, positive or invariant-quadratic multiplication, Gauss compatibility or the full graded module is claimed. The four formal types have conditional endomorphism-algebra dimensions 9, 10, 10, 8 and radical dimensions 4, 5, 3, 2; no actual type is selected.
 
 ## Canonical quotient and formal-type reduction through PR1124
 

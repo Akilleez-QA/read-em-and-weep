@@ -1,12 +1,18 @@
 # Current mathematical status
 
-**Craig Ward · 23 October 2026 · Current checkpoint through PR1124**
+**Craig Ward · 23 October 2026 · Current checkpoint: canonical doublet retraction through PR1127**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Canonical doublet retraction and reduced negative tail
+
+[The doublet-retraction chapter](133-canonical-doublet-retraction.md) constructs a unique equivariant retraction onto the actual W′O(-3) primary piece, independently of a source2 hypothesis or selection among the four formal bundle types. Its canonical complement has rank 15 and degree −48. Naturality splits the actual negative tail 54→37→20 into 6→4→2 and **48→33→18**.
+
+This is a canonical partial splitting, not a canonical complement to the whole primary summand. No extension to M2, positive or invariant-quadratic multiplication, Gauss compatibility or the full graded module is claimed. The four formal types have conditional endomorphism-algebra dimensions 9, 10, 10, 8 and radical dimensions 4, 5, 3, 2; no actual type is selected.
 
 ## Canonical quotient and formal-type reduction through PR1124
 
