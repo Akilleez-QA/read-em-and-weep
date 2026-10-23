@@ -1,0 +1,21 @@
+{
+  "D_source": {
+    "degree": -54,
+    "dual_kernel_vanishes_at": 8,
+    "last_nonzero_index_at_most": 7,
+    "rank": 17
+  },
+  "actual_instance_evaluations": 0,
+  "formal_Leibniz_monomial_checks": 1785,
+  "formal_Taylor_coefficient_checks": 1785,
+  "formal_degree_range": [
+    0,
+    16
+  ],
+  "formal_higher_Leibniz_checks": 23409,
+  "formal_sharp_jet_pairings": 152,
+  "frontier_records_excluded": [],
+  "proof_assistant_verified": false,
+  "source_files_authenticated": 4,
+  "status": "PASS"
+}
