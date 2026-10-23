@@ -1,0 +1,23 @@
+[
+  {
+    "file": "inputs/pr1147.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/176645bb2f022b68f86414ced87667a45e4930e2/research/hm/balanced-sextic-syzygies/PROOF.md",
+    "bytes": 7134,
+    "sha256": "2ea61681c18105cbba37e7135fc968aa9052e14eff71d963e8c374f55f041122",
+    "git_blob_sha1": "9bf944c40951a06378c48b743157ed0c1710aead"
+  },
+  {
+    "file": "inputs/character-reference.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/176645bb2f022b68f86414ced87667a45e4930e2/research/hm/balanced-sextic-syzygies/characters.py",
+    "bytes": 1776,
+    "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1",
+    "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9"
+  },
+  {
+    "file": "inputs/pr1148.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cc0b79801a3e9080d1a4f1d380cfa64db776dba9/research/hm/apolar-codimension-obstruction/PROOF.md",
+    "bytes": 8485,
+    "sha256": "18ad6a68fdc672e505d2c9e607152dbe7e6a6d42c20898acbafbd807aaf78fd5",
+    "git_blob_sha1": "f8ff9012ce5cef32b6a4bb26e8baa7c37d395a72"
+  }
+]
