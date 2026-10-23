@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.15 · 23 October 2026**  
+**Craig Ward · Working edition v0.17 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -27,6 +27,18 @@ The original proof repair remains open. Four is a count in a fixed necessary rel
 See the [new source126 specialization](paper/36-source126-dual-specialization.md) and [six-pair checkpoint addendum](paper/35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
+
+## Compatible single-line footprints through PR988
+
+[PR988](https://github.com/Akilleez-QA/read-em-and-weep/blob/7ceeaa0bb1942ed628f7a25fa2f5fd3c3a1fe49d/research/hm/source126-compatible-line-ranks/PROOF.md) classifies a **single nonzero Q-compatible radical element**, without assuming compatibility of the entire radical. Its necessary endpoint-rank lists have four rows in Type I, six in Type II and three in Type III. The two rank-difference-five rows, **(9,4) and (14,9)**, force generic original rank 36 and all later original generic Bocksteins to vanish. No row is asserted to occur in the actual geometry.
+
+The other four rows admit surjections between abstract square-zero endpoint modules: endpoint-rank data alone cannot obstruct surjectivity there. The [new classification](paper/50-compatible-line-footprints.md) identifies this exact limitation rather than claiming those abstract surjections are actual multiplication maps. **Four catalogue pairs and three labels remain.**
+
+## Collaborator update: the ninth-neighborhood gate is selected
+
+Mr. slop's [PR986](https://github.com/Akilleez-QA/read-em-and-weep/blob/2f3eb11a6f55582e17f56c8bc9b310db9a37424d/research/hm/ninth-neighborhood-rank/PROOF.md) proves that the actual **30→15 ninth hyperplane-neighborhood gate has rank 12 at every parameter**, not merely generically. Its cokernel is A O(14); its kernel has rank 18 and degree 42, and its image has rank 12 and degree 78. The image is intrinsically dual to the actual square quotient, with the stated twist.
+
+The [scoped source report](paper/49-ninth-neighborhood-rank.md) distinguishes this finite hyperplane neighborhood from full ambient plane neighborhoods and from the global opposite-pencil bundle. Its full proof was read, not independently reproved here. **Four pairs and three labels remain.**
 
 ## Full-radical Type II: cubic gate zero and generic rank 36 through PR985
 

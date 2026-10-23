@@ -1,5 +1,7 @@
 # Collaborator source report: normal order and secondary geometry
 
+**Ninth-gate update through PR986:** the previously unselected 30→15 gate now has constant rank twelve, with canonical square-dual cokernel A O(14). This does not identify the global opposite bundle. See [chapter 49](49-ninth-neighborhood-rank.md).
+
 **Subsequent update through PR982:** PR976 now selects K=T6 O(-1)⊕A O(-2), superseding the two still-unselected types reported here. PR978 also proves full ambient B(3) section vanishing from 4R. These do not identify the secondary boundary rank. See [chapter 46](46-internal-cubic-gate-and-ambient-geometry.md).
 
 **23 October 2026 · Pinned source readings through PR975**

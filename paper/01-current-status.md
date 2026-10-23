@@ -26,6 +26,18 @@ See the [new source126 specialization](36-source126-dual-specialization.md) and 
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](figures/current-four-pair-frontier.svg)
 
+## Compatible single-line footprints through PR988
+
+[PR988](https://github.com/Akilleez-QA/read-em-and-weep/blob/7ceeaa0bb1942ed628f7a25fa2f5fd3c3a1fe49d/research/hm/source126-compatible-line-ranks/PROOF.md) classifies a **single nonzero Q-compatible radical element**, without assuming compatibility of the entire radical. Its necessary endpoint-rank lists have four rows in Type I, six in Type II and three in Type III. The two rank-difference-five rows, **(9,4) and (14,9)**, force generic original rank 36 and all later original generic Bocksteins to vanish. No row is asserted to occur in the actual geometry.
+
+The other four rows admit surjections between abstract square-zero endpoint modules: endpoint-rank data alone cannot obstruct surjectivity there. The [new classification](50-compatible-line-footprints.md) identifies this exact limitation rather than claiming those abstract surjections are actual multiplication maps. **Four catalogue pairs and three labels remain.**
+
+## Collaborator update: the ninth-neighborhood gate is selected
+
+Mr. slop's [PR986](https://github.com/Akilleez-QA/read-em-and-weep/blob/2f3eb11a6f55582e17f56c8bc9b310db9a37424d/research/hm/ninth-neighborhood-rank/PROOF.md) proves that the actual **30→15 ninth hyperplane-neighborhood gate has rank 12 at every parameter**, not merely generically. Its cokernel is A O(14); its kernel has rank 18 and degree 42, and its image has rank 12 and degree 78. The image is intrinsically dual to the actual square quotient, with the stated twist.
+
+The [scoped source report](49-ninth-neighborhood-rank.md) distinguishes this finite hyperplane neighborhood from full ambient plane neighborhoods and from the global opposite-pencil bundle. Its full proof was read, not independently reproved here. **Four pairs and three labels remain.**
+
 ## Full-radical Type II: cubic gate zero and generic rank 36 through PR985
 
 Under an actual source126 Type II occurrence with **the entire radical Q-compatible**, [PR985](https://github.com/Akilleez-QA/read-em-and-weep/blob/c20dfa80494258122e7ccadf4e7168ee9a37adc3/research/hm/source126-typeII-radical-top/PROOF.md) determines the collective radical images as P+2D and P+D, of dimensions 14 and nine. Their endpoint quotients have dimensions **27<28**, so every map commuting with that radical has rank at most 36. The retained original-second rank-three theorem supplies the matching lower bound: the original pencil has **generic rank exactly 36**, kernel dimension five and cokernel dimension one.
