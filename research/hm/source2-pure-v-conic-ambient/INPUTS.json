@@ -1,0 +1,56 @@
+[
+  {
+    "label": "1036",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "local_path": "inputs/1036.md",
+    "git_blob": "718f987511b5bf6144a85fc14e8ef343612a4491",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "sha256": "f2a8368fc6abd45eb5120078b608af566539e5df70d66381acf939ac62ce81dd"
+  },
+  {
+    "label": "1036-model",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/model.py",
+    "local_path": "model.py",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a"
+  },
+  {
+    "label": "1033",
+    "commit": "7065160df56ffa7de1bea7e02c01dd98a6219781",
+    "path": "research/hm/source2-pure-v-conic-base/PROOF.md",
+    "local_path": "inputs/1033.md",
+    "git_blob": "5625cb9e0a6ee2a53470616b82b3c93d76f0042b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7065160df56ffa7de1bea7e02c01dd98a6219781/research/hm/source2-pure-v-conic-base/PROOF.md",
+    "sha256": "c5c00f73f82e2e47803b7ca71bb1953dcacf9ca015f15ca8c4dc7ccea8c90f5c"
+  },
+  {
+    "label": "1040",
+    "commit": "c8df54084115e242fd39457e95da187cb9952168",
+    "path": "research/hm/source2-pure-v-fifteen-axis/PROOF.md",
+    "local_path": "inputs/1040.md",
+    "git_blob": "f42554d807c0b66a0eea5bc8453e3a2682b94919",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c8df54084115e242fd39457e95da187cb9952168/research/hm/source2-pure-v-fifteen-axis/PROOF.md",
+    "sha256": "df30c1a876f661e5cc439245a0e779ca2644c65aa6a61ea2beef4346a74ad2a7"
+  },
+  {
+    "label": "1035",
+    "commit": "6effcd9b61b1942447a2c3f136a6776dda213c15",
+    "path": "research/hm/source2-pure-v-finite-base-support/PROOF.md",
+    "local_path": "inputs/1035.md",
+    "git_blob": "eb0b5dc78615331526b679eea952e4a46f7d01ea",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6effcd9b61b1942447a2c3f136a6776dda213c15/research/hm/source2-pure-v-finite-base-support/PROOF.md",
+    "sha256": "5bdd5fecb8a680946604394d3ef3f15c953517b920840dd8eeaa4582d9a31fb7"
+  },
+  {
+    "label": "1042",
+    "commit": "848e947ae1575434e93a82a4ec8ba235606e3224",
+    "path": "research/hm/source2-pure-v-thirty-orbit/PROOF.md",
+    "local_path": "inputs/1042.md",
+    "git_blob": "c85eecff0c7bdc8caa7a74423b2bee318b35d700",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/848e947ae1575434e93a82a4ec8ba235606e3224/research/hm/source2-pure-v-thirty-orbit/PROOF.md",
+    "sha256": "605e949f6f543c9603d068a844f34ee13835b13284d2bfaf152126c2a0eb9723"
+  }
+]
