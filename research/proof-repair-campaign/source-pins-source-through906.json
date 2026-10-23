@@ -1,0 +1,37 @@
+{
+  "905_PROOF": {
+    "local_file": "inputs/pr905_proof.md",
+    "path": "research/hm/profile11-source127-acff-exclusion/PROOF.md",
+    "commit": "2db172b32dc014c06521a3fcba20261db5bb00fa",
+    "git_blob_sha1": "3448047b9f67b258955f0fe53c3368b6f7615d9e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2db172b32dc014c06521a3fcba20261db5bb00fa/research/hm/profile11-source127-acff-exclusion/PROOF.md"
+  },
+  "905_REVIEW": {
+    "local_file": "inputs/pr905_review.md",
+    "path": "research/hm/profile11-source127-acff-exclusion/REVIEW.md",
+    "commit": "2db172b32dc014c06521a3fcba20261db5bb00fa",
+    "git_blob_sha1": "0137e96ded5ecdcf38a2463e212b4764b8c08de1",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2db172b32dc014c06521a3fcba20261db5bb00fa/research/hm/profile11-source127-acff-exclusion/REVIEW.md"
+  },
+  "906_PROOF": {
+    "local_file": "inputs/pr906_proof.md",
+    "path": "research/hm/profile11-source125-bb-bc-exclusion/PROOF.md",
+    "commit": "d679aa09811f821505254572a51e65b2904d03c9",
+    "git_blob_sha1": "2d6256b9b3350c0cecfadd022cdd302c216b37cb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d679aa09811f821505254572a51e65b2904d03c9/research/hm/profile11-source125-bb-bc-exclusion/PROOF.md"
+  },
+  "906_REVIEW": {
+    "local_file": "inputs/pr906_review.md",
+    "path": "research/hm/profile11-source125-bb-bc-exclusion/REVIEW.md",
+    "commit": "d679aa09811f821505254572a51e65b2904d03c9",
+    "git_blob_sha1": "31fc9e225dc0c2201ba88520ff7b01d794a76b6b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d679aa09811f821505254572a51e65b2904d03c9/research/hm/profile11-source125-bb-bc-exclusion/REVIEW.md"
+  },
+  "original_strict_top": {
+    "local_file": "inputs/pr905_original_strict_top.md",
+    "path": "research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md"
+  }
+}
