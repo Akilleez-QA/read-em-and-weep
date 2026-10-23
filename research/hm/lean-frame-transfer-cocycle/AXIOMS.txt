@@ -1,0 +1,3 @@
+'OAI.HorrocksMumford.frameTransition_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.frameTransition_inversePair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.frameTransfer_defectCocycle' depends on axioms: [propext, Classical.choice, Quot.sound]
