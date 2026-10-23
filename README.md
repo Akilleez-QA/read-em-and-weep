@@ -1,12 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR998**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1001**
 
 **The original proof repair is open. Four necessary catalogue pairs across three stable labels remain.** Recent work restricts compatible radical actions and obstruction maps; it does not yet establish an actual source or complete the required lifting/algebraicity argument.
 
-[Latest mathematical update](paper/54-secondary-octic-zero-test.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
+[Latest mathematical update](paper/57-cdf-preserved-b-interface.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
 
 ## What is established now
+
+- **c-d-f one-sided preservation:** if Q preserves its B block in the stated direction, the whole actual kernel A+D lies there and its internal first symbol is nonzero multiplication on A, zero on D. The quotient has cohomology D/P and an isomorphic connecting map. Preservation itself is unproved; no complementary preservation or projector is assumed. [Conditional interface](paper/57-cdf-preserved-b-interface.md)
+
+- **Octic target geometry:** its invariant target section has a length-34 zero scheme: six order-five axes of local length four and ten simple order-three axes. It has no zeros on the square conic. This determines the target factor, not additional source-row zeros or the actual octic scalar. [Scheme and resolution](paper/56-octic-target-zero-scheme.md)
 
 - **A proposed octic test is ruled out:** every equivariant quartic covector kills ρκ, so secondary naturality is automatic on the octic line even if ν≠0. It cannot select the remaining scalar. A different actual-complex relation is needed; no new symbol vanishing follows. [Exact zero restriction](paper/54-secondary-octic-zero-test.md)
 
@@ -15,6 +19,7 @@
 - **Single compatible radical line:** its endpoint ranks have four necessary possibilities in Type I, six in Type II and three in Type III. The rows (9,4) and (14,9) force generic original rank 36 and every original generic Bockstein after the second to vanish. Four other abstract endpoint-module rows admit surjections, so rank data alone cannot exclude them. No row is asserted to occur. [Classification and limits](paper/50-compatible-line-footprints.md)
 - **Single-line non-acyclic reduction:** for u=0,k=1, the internal second vanishes and the internal third lies in a canonical two-dimensional cubic space. Its nonvanishing is equivalent to generic original-fourth nonvanishing. **The cubic is unselected here.** No secondary scalar ν or full-radical conclusion transfers automatically. [Exact applicable rows and interfaces](paper/51-single-line-symbol-transfer.md)
 - **Entire radical compatible, Type II only:** collective-image quotients have dimensions 27<28, forcing generic original rank exactly 36, all original generic Bocksteins after the second zero, and internal cubic r=0. This does **not** exclude the hypothesis itself or prove all later internal symbols vanish. The secondary scalar ν remains unselected. PR995 now resolves internal orders four through seven, but not the octic scalar or all later internal orders. [Conditional theorem](paper/48-collective-radical-images.md)
+- **Opposite bundle:** mr. slop reduces its necessary splitting types from 21 to nine to seven and identifies a canonical quotient C→O(2). The actual row and vertex scalar remain open. This seven-type list is not the four-pair source catalogue, and its top-polar σ is not the octic target section σ. [Scoped source report](paper/55-opposite-bundle-seven-types.md)
 - **Collaborator geometry:** mr. slop determines the ninth hyperplane-neighborhood gate's constant rank as twelve and its square-dual image. Its image splitting and conditional secondary D-row geometry are now described. The secondary coefficients remain unselected; finite-neighborhood results are not global opposite-bundle or quadric-survival conclusions. These summaries are complete source readings, not independent reproofs. [Ninth gate](paper/49-ninth-neighborhood-rank.md) · [Image splitting and secondary row](paper/51-single-line-symbol-transfer.md#4-collaborator-source-report-square-quotient-and-ninth-gate-image)
 
 ## Fixed necessary frontier
@@ -50,4 +55,4 @@ The burn ended at PR911 on **23 October 2026, 04:52:27 UTC (00:52:27 EDT)**. Its
 - [Physical construction dependencies](paper/33-burn-physical-construction.md) · [Campaign work gates](research/proof-repair-campaign/README.md)
 - [Upstream OpenAI collection and original attribution](upstream/openai-math/README.md)
 
-The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–54. The complete through-PR993 root snapshot and all historical figures are preserved.
+The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–57. The complete through-PR993 root snapshot and all historical figures are preserved.
