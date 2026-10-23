@@ -1,0 +1,83 @@
+[
+  {
+    "file": "inputs/profile11-proof.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+    "bytes": 8356,
+    "sha256": "8d3f7f9f0492484edc104cf070ed72be4b969545a1e4b184be37a00dc5e7cac0"
+  },
+  {
+    "file": "inputs/profile11-pairs.json",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "git_blob_sha1": "fe0afa410d89340d3082dc814277f89fbb582c19",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "bytes": 58635,
+    "sha256": "6002ad138a41d98c351130a29703722979f31b8da90d7c75a120f28bf89480eb"
+  },
+  {
+    "file": "inputs/pr1123-proof.md",
+    "ref": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+    "path": "research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+  },
+  {
+    "file": "inputs/pr1140-proof.md",
+    "ref": "7a2488bcd36d95f79b5198001111b1a31fe5c3ba",
+    "path": "research/hm/primary-gauss-double-channel/PROOF.md",
+    "git_blob_sha1": "17420835605e9223a4e8db6d38f668c48216e56a",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7a2488bcd36d95f79b5198001111b1a31fe5c3ba/research/hm/primary-gauss-double-channel/PROOF.md",
+    "bytes": 9495,
+    "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c"
+  },
+  {
+    "file": "inputs/pr1142-proof.md",
+    "ref": "df2fd3d35dac577d7f1e1c4d51fe68b1fcc824ad",
+    "path": "research/hm/gauss-cubic-kernel-exclusions/PROOF.md",
+    "git_blob_sha1": "c5351a3a3e630b0725da49d926171ac966d545c3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/df2fd3d35dac577d7f1e1c4d51fe68b1fcc824ad/research/hm/gauss-cubic-kernel-exclusions/PROOF.md",
+    "bytes": 8152,
+    "sha256": "f2c23c8f4188952d807e920affcbc6eaf09a92af1d436885db444133457c5d30"
+  },
+  {
+    "file": "characters.py",
+    "ref": "4b97c71dace666dd5bf39e0128abbe7b01a2f056",
+    "path": "research/hm/p-type-cubic-image/characters.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b97c71dace666dd5bf39e0128abbe7b01a2f056/research/hm/p-type-cubic-image/characters.py",
+    "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9",
+    "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1",
+    "bytes": 1776
+  },
+  {
+    "file": "inputs/pr1135-proof.md",
+    "ref": "24e713fe352f4ff8f70cd2e86940afa70df99c5c",
+    "path": "research/hm/gauss-two-shape-exclusion/PROOF.md",
+    "git_blob_sha1": "ec61e817722ea5363199c1c54be275b80c9779f0",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/24e713fe352f4ff8f70cd2e86940afa70df99c5c/research/hm/gauss-two-shape-exclusion/PROOF.md",
+    "bytes": 9354,
+    "sha256": "a3c6a5ca199edd50e09268a605cee536e43a2233571e14e43e18e7c031aacdb0"
+  },
+  {
+    "file": "inputs/pr1145-proof.md",
+    "ref": "2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b",
+    "path": "research/hm/profile11-apolar-exclusion/PROOF.md",
+    "git_blob_sha1": "357b420e0254de52a3ae5d4510744478159a1a10",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/PROOF.md",
+    "bytes": 16005,
+    "sha256": "47ce243076419081917682b9ab78990e7cf8066598d8eae1f4a175e80ab91b98"
+  },
+  {
+    "file": "inputs/pr1138-proof.md",
+    "ref": "c69f97aaf00e116e3a8abebf19a8e02868c4f7c4",
+    "path": "research/hm/gauss-profile21-closure/PROOF.md",
+    "git_blob_sha1": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c69f97aaf00e116e3a8abebf19a8e02868c4f7c4/research/hm/gauss-profile21-closure/PROOF.md",
+    "bytes": 9741,
+    "sha256": "be3e6ef741268733f9ddc02405a3d8e030742d8ff3f2378570a0f0d1fe4d1328"
+  }
+]

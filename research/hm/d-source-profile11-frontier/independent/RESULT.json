@@ -1,0 +1,2944 @@
+{
+  "authenticated_inputs": [
+    {
+      "actual_blob": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+      "bytes": 8356,
+      "file": "inputs/profile11-proof.md",
+      "git_blob_sha1": "dcacf0bcdef8377c1ed7654e5b82659ea409456e",
+      "local": "originals/0.txt",
+      "path": "research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "sha256": "8d3f7f9f0492484edc104cf070ed72be4b969545a1e4b184be37a00dc5e7cac0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-ONE-ENDPOINT-DEGREE-WINDOWS-AND-159-NECESSARY-PAIRS.md"
+    },
+    {
+      "actual_blob": "fe0afa410d89340d3082dc814277f89fbb582c19",
+      "bytes": 58635,
+      "file": "inputs/profile11-pairs.json",
+      "git_blob_sha1": "fe0afa410d89340d3082dc814277f89fbb582c19",
+      "local": "originals/1.txt",
+      "path": "research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "sha256": "6002ad138a41d98c351130a29703722979f31b8da90d7c75a120f28bf89480eb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json"
+    },
+    {
+      "actual_blob": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "bytes": 9616,
+      "file": "inputs/pr1123-proof.md",
+      "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "local": "originals/2.txt",
+      "path": "research/hm/primary-terminal-slope-obstruction/PROOF.md",
+      "ref": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md"
+    },
+    {
+      "actual_blob": "17420835605e9223a4e8db6d38f668c48216e56a",
+      "bytes": 9495,
+      "file": "inputs/pr1140-proof.md",
+      "git_blob_sha1": "17420835605e9223a4e8db6d38f668c48216e56a",
+      "local": "originals/3.txt",
+      "path": "research/hm/primary-gauss-double-channel/PROOF.md",
+      "ref": "7a2488bcd36d95f79b5198001111b1a31fe5c3ba",
+      "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7a2488bcd36d95f79b5198001111b1a31fe5c3ba/research/hm/primary-gauss-double-channel/PROOF.md"
+    },
+    {
+      "actual_blob": "c5351a3a3e630b0725da49d926171ac966d545c3",
+      "bytes": 8152,
+      "file": "inputs/pr1142-proof.md",
+      "git_blob_sha1": "c5351a3a3e630b0725da49d926171ac966d545c3",
+      "local": "originals/4.txt",
+      "path": "research/hm/gauss-cubic-kernel-exclusions/PROOF.md",
+      "ref": "df2fd3d35dac577d7f1e1c4d51fe68b1fcc824ad",
+      "sha256": "f2c23c8f4188952d807e920affcbc6eaf09a92af1d436885db444133457c5d30",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/df2fd3d35dac577d7f1e1c4d51fe68b1fcc824ad/research/hm/gauss-cubic-kernel-exclusions/PROOF.md"
+    },
+    {
+      "actual_blob": "0660296ed3874b59a14b1afc75da1d031c6d63a9",
+      "bytes": 1776,
+      "file": "characters.py",
+      "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9",
+      "local": "originals/5.txt",
+      "path": "research/hm/p-type-cubic-image/characters.py",
+      "ref": "4b97c71dace666dd5bf39e0128abbe7b01a2f056",
+      "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4b97c71dace666dd5bf39e0128abbe7b01a2f056/research/hm/p-type-cubic-image/characters.py"
+    },
+    {
+      "actual_blob": "ec61e817722ea5363199c1c54be275b80c9779f0",
+      "bytes": 9354,
+      "file": "inputs/pr1135-proof.md",
+      "git_blob_sha1": "ec61e817722ea5363199c1c54be275b80c9779f0",
+      "local": "originals/6.txt",
+      "path": "research/hm/gauss-two-shape-exclusion/PROOF.md",
+      "ref": "24e713fe352f4ff8f70cd2e86940afa70df99c5c",
+      "sha256": "a3c6a5ca199edd50e09268a605cee536e43a2233571e14e43e18e7c031aacdb0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/24e713fe352f4ff8f70cd2e86940afa70df99c5c/research/hm/gauss-two-shape-exclusion/PROOF.md"
+    },
+    {
+      "actual_blob": "357b420e0254de52a3ae5d4510744478159a1a10",
+      "bytes": 16005,
+      "file": "inputs/pr1145-proof.md",
+      "git_blob_sha1": "357b420e0254de52a3ae5d4510744478159a1a10",
+      "local": "originals/7.txt",
+      "path": "research/hm/profile11-apolar-exclusion/PROOF.md",
+      "ref": "2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b",
+      "sha256": "47ce243076419081917682b9ab78990e7cf8066598d8eae1f4a175e80ab91b98",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/PROOF.md"
+    },
+    {
+      "actual_blob": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+      "bytes": 9741,
+      "file": "inputs/pr1138-proof.md",
+      "git_blob_sha1": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+      "local": "originals/8.txt",
+      "path": "research/hm/gauss-profile21-closure/PROOF.md",
+      "ref": "c69f97aaf00e116e3a8abebf19a8e02868c4f7c4",
+      "sha256": "be3e6ef741268733f9ddc02405a3d8e030742d8ff3f2378570a0f0d1fe4d1328",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c69f97aaf00e116e3a8abebf19a8e02868c4f7c4/research/hm/gauss-profile21-closure/PROOF.md"
+    }
+  ],
+  "checks": 6676,
+  "records": [
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -40,
+      "index": 0,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -40,
+        -30,
+        -24,
+        -22,
+        -24,
+        -30
+      ],
+      "cubic": {},
+      "degree_L": -40,
+      "index": 1,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -40,
+      "index": 2,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -75,
+        -58,
+        -45,
+        -36,
+        -31,
+        -30
+      ],
+      "cubic": {},
+      "degree_L": -40,
+      "index": 3,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -52,
+      "index": 4,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -40,
+        -30,
+        -24,
+        -22,
+        -24,
+        -30
+      ],
+      "cubic": {},
+      "degree_L": -52,
+      "index": 5,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -52,
+      "index": 6,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -45,
+        -34,
+        -27,
+        -24,
+        -25,
+        -30
+      ],
+      "cubic": {},
+      "degree_L": -52,
+      "index": 7,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 8,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -26,
+      "index": 9,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -26,
+      "index": 10,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -26,
+      "index": 11,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 12,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 13,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 14,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 15,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 16,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 17,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -26,
+      "index": 18,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 19,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 20,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -90,
+        -74,
+        -62,
+        -54,
+        -50,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -30,
+      "index": 21,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -90,
+        -74,
+        -62,
+        -54,
+        -50,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -30,
+      "index": 22,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -90,
+        -74,
+        -62,
+        -54,
+        -50,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -30,
+      "index": 23,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 24,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 25,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 26,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 27,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 28,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 29,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        0,
+        -2,
+        -8,
+        -18,
+        -32,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -38,
+      "index": 30,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -38,
+      "index": 31,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 32,
+      "stage": "remaining"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 33,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 34,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 35,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 36,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 37,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 38,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 39,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 40,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -38,
+      "index": 41,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "T": -1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 42,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "T": -1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 43,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 44,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 45,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -50,
+      "index": 46,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -40,
+        -30,
+        -24,
+        -22,
+        -24,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -50,
+      "index": 47,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "Wp": 1
+      },
+      "degree_L": -50,
+      "index": 48,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        0,
+        -2,
+        -8,
+        -18,
+        -32,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -50,
+      "index": 49,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -50,
+      "index": 50,
+      "stage": "remaining"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -50,
+      "index": 51,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -55,
+        -46,
+        -41,
+        -40,
+        -43,
+        -50
+      ],
+      "cubic": {},
+      "degree_L": -50,
+      "index": 52,
+      "stage": "remaining"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "T": -1,
+        "Wp": 1
+      },
+      "degree_L": -50,
+      "index": 53,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -55,
+        -46,
+        -41,
+        -40,
+        -43,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1
+      },
+      "degree_L": -50,
+      "index": 54,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -60,
+        -46,
+        -36,
+        -30,
+        -28,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -36,
+      "index": 55,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -36,
+      "index": 56,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 57,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 58,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 59,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -60,
+        -46,
+        -36,
+        -30,
+        -28,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -36,
+      "index": 60,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -115,
+        -114,
+        -117,
+        -124,
+        -135,
+        -150
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -36,
+      "index": 61,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1
+      },
+      "degree_L": -36,
+      "index": 62,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -115,
+        -114,
+        -117,
+        -124,
+        -135,
+        -150
+      ],
+      "cubic": {
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 63,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 64,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 65,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {
+        "Wp": -1
+      },
+      "degree_L": -36,
+      "index": 66,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1
+      },
+      "degree_L": -36,
+      "index": 67,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -48,
+      "index": 68,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -48,
+      "index": 69,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -48,
+      "index": 70,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -48,
+      "index": 71,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -55,
+        -42,
+        -33,
+        -28,
+        -27,
+        -30
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -48,
+      "index": 72,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1
+      },
+      "degree_L": -48,
+      "index": 73,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "Wp": -1
+      },
+      "degree_L": -48,
+      "index": 74,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -55,
+        -42,
+        -33,
+        -28,
+        -27,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -48,
+      "index": 75,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -80,
+        -82,
+        -88,
+        -98,
+        -112,
+        -130
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1
+      },
+      "degree_L": -48,
+      "index": 76,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -26,
+      "index": 77,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -26,
+      "index": 78,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -34,
+      "index": 79,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 80,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 81,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 82,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 83,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 84,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -95,
+        -78,
+        -65,
+        -56,
+        -51,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -34,
+      "index": 85,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {},
+      "degree_L": -34,
+      "index": 86,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {},
+      "degree_L": -34,
+      "index": 87,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {},
+      "degree_L": -34,
+      "index": 88,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {},
+      "degree_L": -34,
+      "index": 89,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -95,
+        -78,
+        -65,
+        -56,
+        -51,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -34,
+      "index": 90,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -34,
+      "index": 91,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -60,
+        -46,
+        -36,
+        -30,
+        -28,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "Wp": -1
+      },
+      "degree_L": -46,
+      "index": 92,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        0,
+        -2,
+        -8,
+        -18,
+        -32,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -46,
+      "index": 93,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -46,
+      "index": 94,
+      "stage": "shape_1135"
+    },
+    {
+      "capacities": [
+        -65,
+        -54,
+        -47,
+        -44,
+        -45,
+        -50
+      ],
+      "cubic": {
+        "S": 1
+      },
+      "degree_L": -46,
+      "index": 95,
+      "stage": "shape_1135"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {},
+      "degree_L": -46,
+      "index": 96,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -65,
+        -54,
+        -47,
+        -44,
+        -45,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -46,
+      "index": 97,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -80,
+        -66,
+        -56,
+        -50,
+        -48,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -32,
+      "index": 98,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -44,
+      "index": 99,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -44,
+      "index": 100,
+      "stage": "shape_1142"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "Wp": -1
+      },
+      "degree_L": -44,
+      "index": 101,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "S": 1,
+        "T": -1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -44,
+      "index": 102,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "S": 1,
+        "Wp": -1
+      },
+      "degree_L": -44,
+      "index": 103,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -90,
+        -74,
+        -62,
+        -54,
+        -50,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -30,
+      "index": 104,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -46,
+        -36,
+        -30,
+        -28,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1
+      },
+      "degree_L": -42,
+      "index": 105,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -42,
+      "index": 106,
+      "stage": "shape_1142"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -42,
+      "index": 107,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -75,
+        -62,
+        -53,
+        -48,
+        -47,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -42,
+      "index": 108,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -30,
+        -32,
+        -38,
+        -48,
+        -62,
+        -80
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -42,
+      "index": 109,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -42,
+      "index": 110,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        -100,
+        -102,
+        -108,
+        -118,
+        -132,
+        -150
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": -1
+      },
+      "degree_L": -42,
+      "index": 111,
+      "stage": "cubic_1140"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 112,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -40,
+        -30,
+        -24,
+        -22,
+        -24,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 113,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 114,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 115,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 116,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -75,
+        -58,
+        -45,
+        -36,
+        -31,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -40,
+      "index": 117,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 118,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 119,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 120,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 121,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 122,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -26,
+      "index": 123,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        10,
+        10,
+        6,
+        -2,
+        -14,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 2
+      },
+      "degree_L": -38,
+      "index": 124,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -38,
+        -30,
+        -26,
+        -26,
+        -30
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 125,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        0,
+        -2,
+        -8,
+        -18,
+        -32,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 126,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 127,
+      "stage": "shape_1145"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 128,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -80,
+        -66,
+        -56,
+        -50,
+        -48,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 2
+      },
+      "degree_L": -38,
+      "index": 129,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 130,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        10,
+        8,
+        2,
+        -8,
+        -22,
+        -40
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 2
+      },
+      "degree_L": -38,
+      "index": 131,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 132,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "W": 2
+      },
+      "degree_L": -38,
+      "index": 133,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -50,
+        -52,
+        -58,
+        -68,
+        -82,
+        -100
+      ],
+      "cubic": {
+        "S": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -38,
+      "index": 134,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -38,
+      "index": 135,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -98,
+        -80,
+        -66,
+        -56,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -24,
+      "index": 136,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -46,
+        -36,
+        -30,
+        -28,
+        -30
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -36,
+      "index": 137,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        0,
+        -2,
+        -8,
+        -18,
+        -32,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 2
+      },
+      "degree_L": -36,
+      "index": 138,
+      "stage": "incompatible_D"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -36,
+      "index": 139,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 140,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -110,
+        -114,
+        -122,
+        -134,
+        -150
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 141,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -112,
+        -118,
+        -128,
+        -142,
+        -160
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 142,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -114,
+        -117,
+        -124,
+        -135,
+        -150
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 143,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 144,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "degree_L": -36,
+      "index": 145,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -34,
+      "index": 146,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -34,
+      "index": 147,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -122,
+        -128,
+        -138,
+        -152,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -34,
+      "index": 148,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "degree_L": -34,
+      "index": 149,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -70,
+        -72,
+        -78,
+        -88,
+        -102,
+        -120
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -34,
+      "index": 150,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -125,
+        -126,
+        -131,
+        -140,
+        -153,
+        -170
+      ],
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -34,
+      "index": 151,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -95,
+        -78,
+        -65,
+        -56,
+        -51,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 1
+      },
+      "degree_L": -34,
+      "index": 152,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -80,
+        -66,
+        -56,
+        -50,
+        -48,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 2
+      },
+      "degree_L": -32,
+      "index": 153,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -90,
+        -74,
+        -62,
+        -54,
+        -50,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 1,
+        "W": 2,
+        "Wp": 1
+      },
+      "degree_L": -30,
+      "index": 154,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 2,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 155,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -110,
+        -90,
+        -74,
+        -62,
+        -54,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 2,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 156,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -115,
+        -94,
+        -77,
+        -64,
+        -55,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 2,
+        "W": 1,
+        "Wp": 1
+      },
+      "degree_L": -26,
+      "index": 157,
+      "stage": "dual_capacity"
+    },
+    {
+      "capacities": [
+        -120,
+        -98,
+        -80,
+        -66,
+        -56,
+        -50
+      ],
+      "cubic": {
+        "S": 2,
+        "T": 2,
+        "W": 2,
+        "Wp": 1
+      },
+      "degree_L": -24,
+      "index": 158,
+      "stage": "dual_capacity"
+    }
+  ],
+  "summary": {
+    "cubic_1140": [
+      19,
+      20,
+      23,
+      42,
+      43,
+      44,
+      45,
+      53,
+      54,
+      57,
+      58,
+      59,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      70,
+      73,
+      74,
+      76,
+      90,
+      91,
+      97,
+      101,
+      102,
+      103,
+      107,
+      108,
+      110,
+      111
+    ],
+    "dual_capacity": [
+      12,
+      13,
+      14,
+      16,
+      17,
+      18,
+      33,
+      34,
+      35,
+      39,
+      40,
+      41,
+      77,
+      78,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      96,
+      98,
+      104,
+      114,
+      116,
+      119,
+      120,
+      121,
+      122,
+      123,
+      128,
+      129,
+      130,
+      132,
+      133,
+      134,
+      135,
+      136,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158
+    ],
+    "incompatible_D": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      36,
+      37,
+      38,
+      46,
+      47,
+      48,
+      49,
+      51,
+      55,
+      56,
+      60,
+      61,
+      68,
+      69,
+      71,
+      72,
+      75,
+      79,
+      92,
+      93,
+      99,
+      105,
+      109,
+      112,
+      113,
+      115,
+      117,
+      118,
+      124,
+      125,
+      126,
+      131,
+      137,
+      138
+    ],
+    "remaining": [
+      32,
+      50,
+      52
+    ],
+    "shape_1135": [
+      94,
+      95
+    ],
+    "shape_1142": [
+      100,
+      106
+    ],
+    "shape_1145": [
+      127
+    ]
+  }
+}
