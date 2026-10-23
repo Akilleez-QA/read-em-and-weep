@@ -1,0 +1,23 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "inputs": [
+    {
+      "name": "cone908",
+      "commit": "e49c18ba7bd8e6b817431b3ca13523f680d36bd1",
+      "path": "research/hm/physical-global-cone-response/PROOF.md",
+      "bytes": 13973,
+      "sha256": "aafd5ee2b8a0a1d0876886b4db361c05d2a34cc41ab59e44ecec54580061cfcc",
+      "git_blob": "6276d2c34d9b1348d4fe7d09b9beb9b9750d0ddb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e49c18ba7bd8e6b817431b3ca13523f680d36bd1/research/hm/physical-global-cone-response/PROOF.md"
+    },
+    {
+      "name": "matching914",
+      "commit": "76a68a1b0c3e4adbcc92a6c501211659d1eb9e22",
+      "path": "research/hm/cone-normalization-matching/PROOF.md",
+      "bytes": 10914,
+      "sha256": "d5805f030eab27138adc250b98700749419e246cc7b1f5652a4c73647861a29e",
+      "git_blob": "59d0cb06c35b87a368d6cdb494b83c27c48def37",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/76a68a1b0c3e4adbcc92a6c501211659d1eb9e22/research/hm/cone-normalization-matching/PROOF.md"
+    }
+  ]
+}
