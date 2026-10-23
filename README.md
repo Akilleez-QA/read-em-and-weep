@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.8 · 23 October 2026**  
+**Craig Ward · Working edition v0.9 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -28,13 +28,25 @@ See the [new source126 specialization](paper/36-source126-dual-specialization.md
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
 
-## Structural reductions through PR954
+## Further reductions through PR961
+
+**Four necessary pairs and three stable labels remain.** [PR959](https://github.com/Akilleez-QA/read-em-and-weep/blob/06919d6651dc9e747128a4c09c515bb3b0f41e09/research/hm/source126-typeI-polar-row/PROOF.md) proves that the Type I source126 joint P row is nonzero, independently of Q compatibility. Combined with PR954, hypothetical compatibility of the entire radical now forces rank exactly one. The **36→32 alternative is excluded**; only **32→28** remains under that hypothesis. This does not exclude Type I or prove full-radical incompatibility.
+
+[PR961](https://github.com/Akilleez-QA/read-em-and-weep/blob/cc3215b97a5c92a9253a9774d0f25ade0648b6e5/research/hm/source126-typeII-joint-annihilator/PROOF.md) separately proves a nonzero Type II P row and reduces hypothetical full-radical compatibility to **four annihilator footprints: 27→28, 32→28, 31→28 and 27→24**. Only the 32→28 row has an acyclic quotient. In two rows an internal first symbol is forced nonzero, without contradicting the original first-symbol vanishing. These are conditional structures, not four new catalogue pairs or actual realizations.
+
+[PR960](https://github.com/Akilleez-QA/read-em-and-weep/blob/ac41f18da1e7870c30c6fe8bd2867667629c780d/research/hm/source2-quadratic-annihilator-reduction/PROOF.md) extends PR957's conditional source2 reduction to **every non-V Q-compatible radical line, including the exceptional mixed direction, if such a line exists**. The embedded endpoint quotient Z=V+D is killed by every negative quadratic, although its first arrows need not vanish. Its Q-restriction rank is either eight or three. Rank eight permits a further **24→20** equivalent reduction. Rank three leaves a permanent five-dimensional kernel plus an active **24→25** pencil and forces original rank at most 36 throughout **Q+Sym²W**. That is nonsurjectivity only on this specified affine family, not on all quadrics and not a source2 exclusion. Pure V remains outside the theorem.
+
+[PR958](https://github.com/Akilleez-QA/read-em-and-weep/blob/97857b1bcda30135507f160812823eb5e74bbf85/research/hm/source2-exceptional-quotient-structure/PROOF.md) separately identifies the exceptional mixed quotient as N0 ⊕ N8 ⊕ L, with L of dimensions (8,6,0) and genuine contraction arrows. Its common first-arrow kernel is zero, although every negative quadratic kills L's initial space. Q may still mix the summands. PR960 extends the two-term reduction by quadratic annihilation, not by falsely treating these first arrows as zero.
+
+The [new addendum](paper/40-conditional-reductions-and-finite-neighborhood.md) also gives a scoped source report on PR955: a unique invariant third-neighborhood section cannot extend to the seventh, failing at ordinary normal order four or six. The failing order is not selected. No completion percentage follows from these restrictions.
+
+## Historical structural checkpoint through PR954
 
 **Four necessary pairs and three stable labels remain.** [PR953](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c12c02a601cc380e2e2cf233e7b37dddd46d563/research/hm/source2-radical-quotient-normal-form/PROOF.md) identifies the full negative-pencil quotient for regular source2 radical directions as N0 ⊕ N8 ⊕ (V+D)[2], independent of endpoint and residual coupling. Pure V and the exceptional mixed direction are excluded from this statement. No compatible line is selected, and an induced Q may still mix the summands.
 
-[PR954](https://github.com/Akilleez-QA/read-em-and-weep/blob/1dfd8f6b2b7d39d41de2619737b6cf4cfb951e75/research/hm/source126-typeI-joint-annihilator/PROOF.md) gives a conditional Type I source126 gate: if the whole radical is Q-compatible, its joint P-row determinant must vanish. Only annihilator footprints **32→28 or 36→32** remain; an acyclic quotient can be removed while preserving the specified formal Bocksteins. It does not prove that whole-radical compatibility is impossible or extend to Types II/III.
+[PR954](https://github.com/Akilleez-QA/read-em-and-weep/blob/1dfd8f6b2b7d39d41de2619737b6cf4cfb951e75/research/hm/source126-typeI-joint-annihilator/PROOF.md) gives a conditional Type I source126 gate: if the whole radical is Q-compatible, its joint P-row determinant must vanish. At that checkpoint, annihilator footprints **32→28 or 36→32** remained; PR959 now excludes the latter. In the surviving case, an acyclic quotient can be removed while preserving the specified formal Bocksteins. It does not prove that whole-radical compatibility is impossible or extend to Types II/III.
 
-The [latest addendum](paper/39-normal-forms-and-joint-row-gate.md) also reports the complete pinned PR948/952 texts: at most one vertex-extension scalar remains after an actual nonzero two-space obstruction. The actual bundle row, obstruction rank and scalar remain unselected. Those collaborator summaries are source readings, not an independent reproof here. No completion percentage is inferred.
+The [PR954 checkpoint addendum](paper/39-normal-forms-and-joint-row-gate.md) also reports the complete pinned PR948/952 texts: at most one vertex-extension scalar remains after an actual nonzero two-space obstruction. The actual bundle row, obstruction rank and scalar remain unselected. Those collaborator summaries are source readings, not an independent reproof here. No completion percentage is inferred.
 
 ## Source2 compatibility and conditional quotients through PR950
 
