@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "count": 36,
+  "checks": [
+    "sha256 1068",
+    "git blob 1068",
+    "sha256 1052",
+    "git blob 1052",
+    "sha256 1054",
+    "git blob 1054",
+    "sha256 1072",
+    "git blob 1072",
+    "sha256 1064",
+    "git blob 1064",
+    "endpoint twist1 acyclic",
+    "residual quotient degree5 dimension",
+    "separated degree5 dimension",
+    "full degree5 dimension",
+    "residual degree4 dimension",
+    "residual-large endpoint dimension",
+    "nonzero terminal image forced by kernel intersection",
+    "Koszul coefficient cancellation",
+    "full Koszul exact-sequence dimensions",
+    "equivariant numerator coefficient 0",
+    "equivariant numerator coefficient 1",
+    "equivariant numerator coefficient 2",
+    "equivariant numerator coefficient 3",
+    "equivariant numerator coefficient 4",
+    "equivariant numerator coefficient 5",
+    "actual Hilbert dimensions",
+    "numerical numerator",
+    "Hilbert numerator identity",
+    "length",
+    "original shifted resolution numerator",
+    "free rank Euler identity",
+    "free degree Euler identity",
+    "length from original numerator",
+    "annihilator low pieces irreducible dimensions",
+    "annihilator quotient length",
+    "socle not level"
+  ],
+  "hilbert_original_degrees": {
+    "2": 9,
+    "3": 14,
+    "4": 16,
+    "5": 6
+  },
+  "socle_original_degrees": {
+    "4": "I4=P",
+    "5": "NR5=T"
+  },
+  "length": 45,
+  "annihilator": "(W)^4",
+  "minimal_relations": {
+    "3": "S",
+    "4": "V",
+    "5": "Wprime+S+T"
+  },
+  "second_syzygies": {
+    "6": "P",
+    "7": "T"
+  },
+  "scope": "actual residual-large branch only; no nonzero-N0 or positive-variable claim"
+}
