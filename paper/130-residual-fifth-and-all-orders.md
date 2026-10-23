@@ -2,9 +2,12 @@
 
 **23 October 2026 · PR1115.** [Full immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/2d109f1aa691742efa1406722ab09791403c0338/research/hm/source2-pure-v-fifth-alternating-criterion/PROOF.md), Git blob `903dcf553a045bb0c2987956ead5e92aa71c606f`.
 
+**Later scope update, 23 October 2026:** [PR1122](131-primary-terminal-conditional-exclusion.md) excludes the complete actual source2 pure-V compatible-radical package assumed here. The three outcomes below remain dated conditional deductions, not three active realizable alternatives in that package. No outcome is selected by that contradiction. The universal calculations and proof are preserved.
+
+
 ## Three exact residual-large outcomes
 
-Retain the actual source2 nonzero pure-V compatible-radical hypotheses and specifically residual-large endpoint sixteen. The original positive37-by41 component has exactly these conditional generic outcomes:
+Retain the actual source2 nonzero pure-V compatible-radical hypotheses and specifically residual-large endpoint sixteen. The original positive 37-by-41 component has exactly these conditional generic outcomes:
 
 | Actual sequential condition | Last Smith exponent | Generic Laurent rank |
 |---|---:|---:|
@@ -12,7 +15,7 @@ Retain the actual source2 nonzero pure-V compatible-radical hypotheses and speci
 | R=0 and original fifth≠0 | 5 | 37 |
 | R=0 and original fifth=0 | Absent | 36 |
 
-No actual condition is selected. Finite exponents6–24 are excluded **in this mechanism**, superseding the earlier residual bounds, not the validity of their dated proofs. The general finite sequential criterion remains valid and relevant to the separate nonzero-N0 mechanism. This is not source exclusion, full-adjoint invertibility or completion of the repair.
+No actual condition is selected. Finite exponents 6–24 are excluded **in this mechanism**, superseding the earlier residual bounds, not the validity of their dated proofs. The general finite sequential criterion remains valid and relevant to the separate nonzero-N0 mechanism. This is not source exclusion, full-adjoint invertibility or completion of the repair.
 
 ![Three conditional residual-large outcomes; no actual outcome selected](figures/pure-v-residual-three-outcomes.svg)
 
@@ -46,6 +49,6 @@ on J2 preserves q and e0 and removes the entire H_A component. It is not a direc
 
 If x_i∈J2 and hT_a x_i=0, the intermediate correction lies in J2. Writing e0x_i=E8 v_i(a), the normalized correction has Γx_(i+1)=−Ξ(a,v_i). On the alternating line its evaluation at the same a vanishes for every P-valued polynomial v_i, proving the induction. All corrections are global homogeneous polynomial maps; the fixed normalization bypasses higher κ gauge, rather than assuming it absent.
 
-Hence every higher original obstruction vanishes. Truncating at x23 also supplies the finite theorem's certificate: maximal minors would have order≥31 but degree≤30, so they vanish identically. The known lower pivots give generic rank exactly36. Polynomial identity then gives rank≤36 at every point of the fixed Q+tT_a slice; special ranks may drop. No assertion covers other quadratic directions or the separated mechanism.
+Hence every higher original obstruction vanishes. Truncating at x23 also supplies the finite theorem's certificate: maximal minors would have order≥31 but degree≤30, so they vanish identically. The known lower pivots give generic rank exactly 36. Polynomial identity then gives rank≤36 at every point of the fixed Q+tT_a slice; special ranks may drop. No assertion covers other quadratic directions or the separated mechanism.
 
 Whole universal coefficient identities and symbolic normalization checks support this argument. No actual scalar, coefficient, direction, source occurrence or positive/opposite-pencil identification has been evaluated.
