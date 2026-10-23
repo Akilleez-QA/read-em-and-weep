@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Supporting algebra only; no geometric realization or original theorem repair",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "dependency_pins_match_repository_manifest": true,
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.lean",
+  "source_sha256": "9fd1bfdae44e2edc2e7f83838d97d150b75d3f5a7fb870b9038866f193ee5c0f",
+  "check_sha256": "80d120533e0859a41f34406d74f4e3029f56efb3e89576bf68efaad074b11520",
+  "published_source_input": {
+    "commit": "eed6010347fcebc21aef30413b0e1da3be68a9b4",
+    "path": "research/hm/nonclosed-frame-transfer/NONCLOSED-FRAME-TRANSFER-EXACT-DEFECT.md",
+    "sha256": "5f2069fe845df87caa3a4bdb1c2bd7434ff6513bddda5bc21f54f042a04a4e84"
+  },
+  "exported_theorem_count": 3,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-frame",
+        "OAI.AlgebraicGeometry.HorrocksMumford.NonclosedFrameTransfer",
+        "module"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 5.825397541999999,
+      "child_cpu_seconds": 1.79678,
+      "sampled_group_peak_rss_bytes": 746258432,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 5023,
+            "path": "${WORKSPACE}/work/swarm/lean-frame/lean/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.lean",
+            "sha256": "9fd1bfdae44e2edc2e7f83838d97d150b75d3f5a7fb870b9038866f193ee5c0f"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "919131793e2a4ed4ae3ee91a11e36f4c216853d19870b96971b0d3afa0eba752",
+      "original_receipt_name": "compile-0002.json",
+      "stdout": "${WORKSPACE}/work/swarm/lean-frame/lean/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.lean:107:4: warning: This simp argument is unused:\n  map_add\n\nHint: Omit it from the simp argument list.\n  [apply] simp only [LinearMap.comp_apply, LinearMap.add_apply, LinearMap.zero_apply, hci, map_zero, hdp, add_zero]\n\nNote: This linter can be disabled with `set_option linter.unusedSimpArgs false`\n'OAI.HorrocksMumford.nonclosedFrameTransfer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.nonclosedFrameTransfer_closed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.nonclosedFrameTransfer_exactProjection' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    },
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-frame",
+        "OAI.AlgebraicGeometry.HorrocksMumford.NonclosedFrameTransfer",
+        "check"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 4.340847333,
+      "child_cpu_seconds": 1.292444,
+      "sampled_group_peak_rss_bytes": 721420288,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 495,
+            "path": "${WORKSPACE}/work/swarm/lean-frame/Check.lean",
+            "sha256": "80d120533e0859a41f34406d74f4e3029f56efb3e89576bf68efaad074b11520"
+          },
+          {
+            "bytes": 100728,
+            "path": "${WORKSPACE}/work/swarm/lean-frame/build/OAI/AlgebraicGeometry/HorrocksMumford/NonclosedFrameTransfer.olean",
+            "sha256": "65429418bd2cef7325120b92eb5f8e3f082e861e6b6aa2c8f7e9da35a8a67da5"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "fd8de4a96b5f757f5b1087154ffb6050eeeb7ecbb7c5eda15df6ad0752eb6b70",
+      "original_receipt_name": "axioms-0002.json",
+      "stdout": "OAI.HorrocksMumford.nonclosedFrameTransfer.{u_1, u_2, u_3, u_4, u_5, u_6, u_7, u_8, u_9, u_10, u_11} {R : Type u_1}\n  [Ring R] {Cminus : Type u_2} {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5} {Dzero : Type u_6}\n  {Dplus : Type u_7} {HCa : Type u_8} {HCb : Type u_9} {HDa : Type u_10} {HDb : Type u_11} [AddCommGroup Cminus]\n  [Module R Cminus] [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus] [AddCommGroup Dminus]\n  [Module R Dminus] [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup Dplus] [Module R Dplus] [AddCommGroup HCa]\n  [Module R HCa] [AddCommGroup HCb] [Module R HCb] [AddCommGroup HDa] [Module R HDa] [AddCommGroup HDb] [Module R HDb]\n  (dCm : Cminus \u2192\u2097[R] Czero) (dC0 : Czero \u2192\u2097[R] Cplus) (dDm : Dminus \u2192\u2097[R] Dzero) (dD0 : Dzero \u2192\u2097[R] Dplus)\n  (hCb0 : Czero \u2192\u2097[R] Cminus) (hCb1 : Cplus \u2192\u2097[R] Czero) (hDa0 : Dzero \u2192\u2097[R] Dminus) (hDa1 : Dplus \u2192\u2097[R] Dzero)\n  (iCa : HCa \u2192\u2097[R] Czero) (iCb : HCb \u2192\u2097[R] Czero) (pCb : Czero \u2192\u2097[R] HCb) (iDa : HDa \u2192\u2097[R] Dzero)\n  (pDa : Dzero \u2192\u2097[R] HDa) (pDb : Dzero \u2192\u2097[R] HDb) (Em : Cminus \u2192\u2097[R] Dminus) (E0 : Czero \u2192\u2097[R] Dzero)\n  (Ep : Cplus \u2192\u2097[R] Dplus) (hC : dCm \u2218\u2097 hCb0 + hCb1 \u2218\u2097 dC0 = LinearMap.id - iCb \u2218\u2097 pCb)\n  (hD : dDm \u2218\u2097 hDa0 + hDa1 \u2218\u2097 dD0 = LinearMap.id - iDa \u2218\u2097 pDa) (hCi : dC0 \u2218\u2097 iCa = 0) (hDp : pDb \u2218\u2097 dDm = 0) :\n  ((pDb \u2218\u2097 E0) \u2218\u2097 iCb) \u2218\u2097 pCb \u2218\u2097 iCa - (pDb \u2218\u2097 iDa) \u2218\u2097 (pDa \u2218\u2097 E0) \u2218\u2097 iCa =\n    (pDb \u2218\u2097 ((dDm \u2218\u2097 Em - E0 \u2218\u2097 dCm) \u2218\u2097 hCb0 + hDa1 \u2218\u2097 (dD0 \u2218\u2097 E0 - Ep \u2218\u2097 dC0))) \u2218\u2097 iCa\nOAI.HorrocksMumford.nonclosedFrameTransfer_closed.{u_1, u_2, u_3, u_4, u_5, u_6, u_7, u_8, u_9, u_10, u_11}\n  {R : Type u_1} [Ring R] {Cminus : Type u_2} {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5}\n  {Dzero : Type u_6} {Dplus : Type u_7} {HCa : Type u_8} {HCb : Type u_9} {HDa : Type u_10} {HDb : Type u_11}\n  [AddCommGroup Cminus] [Module R Cminus] [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus]\n  [AddCommGroup Dminus] [Module R Dminus] [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup Dplus] [Module R Dplus]\n  [AddCommGroup HCa] [Module R HCa] [AddCommGroup HCb] [Module R HCb] [AddCommGroup HDa] [Module R HDa]\n  [AddCommGroup HDb] [Module R HDb] (dCm : Cminus \u2192\u2097[R] Czero) (dC0 : Czero \u2192\u2097[R] Cplus) (dDm : Dminus \u2192\u2097[R] Dzero)\n  (dD0 : Dzero \u2192\u2097[R] Dplus) (hCb0 : Czero \u2192\u2097[R] Cminus) (hCb1 : Cplus \u2192\u2097[R] Czero) (hDa0 : Dzero \u2192\u2097[R] Dminus)\n  (hDa1 : Dplus \u2192\u2097[R] Dzero) (iCa : HCa \u2192\u2097[R] Czero) (iCb : HCb \u2192\u2097[R] Czero) (pCb : Czero \u2192\u2097[R] HCb)\n  (iDa : HDa \u2192\u2097[R] Dzero) (pDa : Dzero \u2192\u2097[R] HDa) (pDb : Dzero \u2192\u2097[R] HDb) (Em : Cminus \u2192\u2097[R] Dminus)\n  (E0 : Czero \u2192\u2097[R] Dzero) (Ep : Cplus \u2192\u2097[R] Dplus) (hC : dCm \u2218\u2097 hCb0 + hCb1 \u2218\u2097 dC0 = LinearMap.id - iCb \u2218\u2097 pCb)\n  (hD : dDm \u2218\u2097 hDa0 + hDa1 \u2218\u2097 dD0 = LinearMap.id - iDa \u2218\u2097 pDa) (hCi : dC0 \u2218\u2097 iCa = 0) (hDp : pDb \u2218\u2097 dDm = 0)\n  (hTm : dDm \u2218\u2097 Em - E0 \u2218\u2097 dCm = 0) (hT0 : dD0 \u2218\u2097 E0 - Ep \u2218\u2097 dC0 = 0) :\n  ((pDb \u2218\u2097 E0) \u2218\u2097 iCb) \u2218\u2097 pCb \u2218\u2097 iCa = (pDb \u2218\u2097 iDa) \u2218\u2097 (pDa \u2218\u2097 E0) \u2218\u2097 iCa\nOAI.HorrocksMumford.nonclosedFrameTransfer_exactProjection.{u_1, u_3, u_4, u_5, u_6, u_8, u_11} {R : Type u_1} [Ring R]\n  {Czero : Type u_3} {Cplus : Type u_4} {Dminus : Type u_5} {Dzero : Type u_6} {HCa : Type u_8} {HDb : Type u_11}\n  [AddCommGroup Czero] [Module R Czero] [AddCommGroup Cplus] [Module R Cplus] [AddCommGroup Dminus] [Module R Dminus]\n  [AddCommGroup Dzero] [Module R Dzero] [AddCommGroup HCa] [Module R HCa] [AddCommGroup HDb] [Module R HDb]\n  (dC0 : Czero \u2192\u2097[R] Cplus) (dDm : Dminus \u2192\u2097[R] Dzero) (iCa : HCa \u2192\u2097[R] Czero) (pDb : Dzero \u2192\u2097[R] HDb)\n  (K0 : Czero \u2192\u2097[R] Dminus) (K1 : Cplus \u2192\u2097[R] Dzero) (hCi : dC0 \u2218\u2097 iCa = 0) (hDp : pDb \u2218\u2097 dDm = 0) :\n  (pDb \u2218\u2097 (dDm \u2218\u2097 K0 + K1 \u2218\u2097 dC0)) \u2218\u2097 iCa = 0\n'OAI.HorrocksMumford.nonclosedFrameTransfer' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.nonclosedFrameTransfer_closed' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.nonclosedFrameTransfer_exactProjection' depends on axioms: [propext, Quot.sound]\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    }
+  ]
+}
