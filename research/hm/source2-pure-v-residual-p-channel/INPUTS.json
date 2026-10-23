@@ -1,0 +1,65 @@
+[
+  {
+    "label": "790",
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "local_path": "inputs/790.md",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4"
+  },
+  {
+    "label": "792",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "local_path": "inputs/792.md",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798"
+  },
+  {
+    "label": "794",
+    "commit": "7fd254100b83bb03f41b776ea3119690aa51f671",
+    "path": "research/hm/source2-radical-rank-locus/PROOF.md",
+    "local_path": "inputs/794.md",
+    "git_blob": "3ad30b9aa1920408cc34778e78405f544b5adc8e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7fd254100b83bb03f41b776ea3119690aa51f671/research/hm/source2-radical-rank-locus/PROOF.md",
+    "sha256": "a256ec6cc92b1151a6551e6692cfa32cac02bceaad34c60746f51f249256cf4c"
+  },
+  {
+    "label": "795",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "local_path": "inputs/795.md",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937"
+  },
+  {
+    "label": "1054",
+    "commit": "8732cb65fe0e72da59e785f3f85ad197a7092e6c",
+    "path": "research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "local_path": "inputs/1054.md",
+    "git_blob": "64e6bf9f1bf46440700ebab7c90a18f9d8155fd8",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8732cb65fe0e72da59e785f3f85ad197a7092e6c/research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "sha256": "f788da29035b564f6f544629f724b90ceae5d975273eb15f0df9ac71fd4c643b"
+  },
+  {
+    "label": "1058",
+    "commit": "1435873de29d39e14ceee3de8d879e90f90b437a",
+    "path": "research/hm/source2-pure-v-separated-p-channel/PROOF.md",
+    "local_path": "inputs/1058.md",
+    "git_blob": "3d42713aaaf4078e3a1b44d8eb3d9f545daa880c",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1435873de29d39e14ceee3de8d879e90f90b437a/research/hm/source2-pure-v-separated-p-channel/PROOF.md",
+    "sha256": "05452a2c52970e36e12914257a6b8666c8fe0faeaa8cd7b0930d434495a192df"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "label": "universal-symbols"
+  }
+]
