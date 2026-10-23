@@ -1,0 +1,47 @@
+[
+  {
+    "key": "STRING",
+    "ref": "ec18a0fd62c4a9495adf6aad9564d379afc42b62",
+    "path": "research/hm/canonical-negative-string/PROOF.md",
+    "bytes": 9452,
+    "sha256": "6c2f23ce2110ee91b05631e1e31932a5fe5ecb36e86731cb5e79518879f7b67d",
+    "blob": "8563bb31385dac0174b3d17bcae7bfa9dcfad716",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ec18a0fd62c4a9495adf6aad9564d379afc42b62/research/hm/canonical-negative-string/PROOF.md"
+  },
+  {
+    "key": "REGULARITY",
+    "ref": "063da90fc4543304e87e701cdefcc08225412f17",
+    "path": "research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md",
+    "bytes": 8132,
+    "sha256": "91334643653347f002f37a4b4346fb96e6e0edad31306a935a732858ef66a067",
+    "blob": "58785a8799c43fd2c7da089d0ddc5e05822132a9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063da90fc4543304e87e701cdefcc08225412f17/research/conductor-normalization/sharper-hm-regularity/SHARPEST-BOUND.md"
+  },
+  {
+    "key": "ENDPOINT",
+    "ref": "54d1eafe617e042edc452cb66edb8e4f7c78d2bf",
+    "path": "research/hm/endpoint-structural-vanishing/PROOF.md",
+    "bytes": 8638,
+    "sha256": "4bdf1d5b0a530b2d3a16f1a69065ad1c9d87cd9ce4d630e73cbe6cc56d7e953d",
+    "blob": "3a7d94ca5880b9b2a44f07a3ae3e63c2bedf65da",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54d1eafe617e042edc452cb66edb8e4f7c78d2bf/research/hm/endpoint-structural-vanishing/PROOF.md"
+  },
+  {
+    "key": "TAIL",
+    "ref": "3aa461bc3581fb72fbf923fbe869ddee023b435a",
+    "path": "research/hm/five-generator-module/PROOF.md",
+    "bytes": 8920,
+    "sha256": "e05d41c601aac6d89b427b4ed036e8b83a400375a53504d96a605d35646143e6",
+    "blob": "3d308f6fbdb5c224a085b41eec26e917a6031692",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3aa461bc3581fb72fbf923fbe869ddee023b435a/research/hm/five-generator-module/PROOF.md"
+  },
+  {
+    "key": "PLANE",
+    "ref": "39c5f4fbc012f4ec57ffc56d5de18cedb3571d60",
+    "path": "research/hm/fourth-normal-obstruction/PROOF.md",
+    "bytes": 10139,
+    "sha256": "ce5bb0fa0b9a6012a8e2e545aa0d4fee2049a9d21d8736f1ad9b47b37cc8884e",
+    "blob": "f511b6cc9cf2b426cb74de010e1532186f7af2cf",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/39c5f4fbc012f4ec57ffc56d5de18cedb3571d60/research/hm/fourth-normal-obstruction/PROOF.md"
+  }
+]
