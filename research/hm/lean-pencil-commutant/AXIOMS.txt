@@ -1,0 +1,4 @@
+'OAI.HorrocksMumford.mem_pencilCommutant_iff' depends on axioms: [propext, Quot.sound]
+'OAI.HorrocksMumford.mem_pencilCommutant_iff_tmul' depends on axioms: [propext, Quot.sound]
+'OAI.HorrocksMumford.pencilIdentity_mem' depends on axioms: [propext, Quot.sound]
+'OAI.HorrocksMumford.pencilCompose_mem' depends on axioms: [propext, Quot.sound]
