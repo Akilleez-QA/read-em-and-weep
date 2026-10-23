@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: conditional generic Gauss rank at least four**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: first rank-four coarse stratum excluded**
 
 **All nine maximal rank-three profiles are excluded under the pinned actual-geometric and necessity hypotheses. Generic SF rank is at least four; generic square rank is at least 28. The original repair remains open.**
 
-[Latest theorem and scope](paper/145-nine-profile-coverage-and-square-rank.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/146-remaining-rank-partition-and-first-rankfour-cut.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## First rank-four coarse stratum excluded: 27 necessary bad bins become 26
+
+[The finite partition and first new exclusion](paper/146-remaining-rank-partition-and-first-rankfour-cut.md) put the remaining generic ranks into ordered necessary containers and eliminate (r,k,l)=(4,3,3). The rank-four group shrinks from nine bins to eight; the other bad-rank groups remain 6,4,2,2,1,1,1,1. The proof forces zero determinant defects and exact endpoint degrees, then reduces twenty abstract rank-four quotients to one whose degree-four section character has a forbidden negative physical three-space multiplicity.
+
+These are necessary containers, not realized examples, equal-work units or a proof-completion percentage. Generic SF≥4 and square rank≥28 remain the bounds: this does not prove SF≥5. Rank13 would give positive-square auxiliary surjectivity only, not full-adjoint invertibility or the original repair. The historical chapters and PDF are unchanged.
 
 ## All nine maximal rank-three profiles excluded under the pinned hypotheses
 
