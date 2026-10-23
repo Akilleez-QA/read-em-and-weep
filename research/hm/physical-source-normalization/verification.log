@@ -1,0 +1,3 @@
+PASS: 115 exact q-adic free-word identities; 16 negative mutation tests
+PASS: paired and mixed source-response normalization, source-only cone counterterm, qW restriction boundary
+SCOPE: universal diagnostics only; written proof not Lean; no actual HM response or source value

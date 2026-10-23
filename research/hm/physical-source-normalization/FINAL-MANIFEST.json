@@ -1,0 +1,69 @@
+{
+  "status": "reviewed_written_mathematics_not_Lean",
+  "date": "2026-10-23",
+  "scope": "mixed-contraction physical source-response normalization, with explicit missing actual authentication",
+  "tests": {
+    "commands": [
+      "python verify_normalization_coupling.py",
+      "python -O verify_normalization_coupling.py"
+    ],
+    "exact_algebraic_identities": 115,
+    "negative_tests": 16,
+    "runtime_guard_counted_as_identity": false,
+    "root_and_independent_reviewer_replayed": true
+  },
+  "no_actual_instance_evaluation": true,
+  "no_publication_by_worker": true,
+  "artifacts": [
+    {
+      "path": "PROOF.md",
+      "bytes": 12197,
+      "sha256": "a7f6afe41fe569cb9a061a047b1d0a140fd198950cda6fe3bace6978f3cf0b14"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2611,
+      "sha256": "a41f702a65eeeef216dd12cbe5524d14210c928a5c724da5872960c602d16fbf"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 9426,
+      "sha256": "c80b9a8fded3630e192ed5586932243a565d95f2a7e6e44332aed60d60f2f3da"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 1861,
+      "sha256": "2da357a4ea74fe89d5f26ffa1f5dad9694022928db0fa17bf1943238079b5936"
+    },
+    {
+      "path": "inputs/ladder.md",
+      "bytes": 5709,
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d"
+    },
+    {
+      "path": "inputs/pr815.md",
+      "bytes": 18996,
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236"
+    },
+    {
+      "path": "inputs/pr816.md",
+      "bytes": 8925,
+      "sha256": "5f2069fe845df87caa3a4bdb1c2bd7434ff6513bddda5bc21f54f042a04a4e84"
+    },
+    {
+      "path": "verification-optimized.log",
+      "bytes": 277,
+      "sha256": "e97aff3b2a0df5646e50947712d999ae3f7edff458bbd25d10c21ba52e65adda"
+    },
+    {
+      "path": "verification.log",
+      "bytes": 277,
+      "sha256": "e97aff3b2a0df5646e50947712d999ae3f7edff458bbd25d10c21ba52e65adda"
+    },
+    {
+      "path": "verify_normalization_coupling.py",
+      "bytes": 8226,
+      "sha256": "8a627c8247fa766fcb2e4a91b99ed6add016523567403f8fc65a0aff367199ca"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "date": "2026-10-23",
+  "inputs": [
+    {
+      "file": "inputs/pr815.md",
+      "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+      "path": "research/hm/affine-square-source-response/PROOF.md",
+      "git_blob": "bef4e26574b3085616c22d5fdaae4e808e3767e4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42/research/hm/affine-square-source-response/PROOF.md",
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236",
+      "bytes": 18996,
+      "git_blob_verified": true
+    },
+    {
+      "file": "inputs/pr816.md",
+      "commit": "eed6010347fcebc21aef30413b0e1da3be68a9b4",
+      "path": "research/hm/nonclosed-frame-transfer/NONCLOSED-FRAME-TRANSFER-EXACT-DEFECT.md",
+      "git_blob": "575004321d185de506573a1baad97bdf046b215f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eed6010347fcebc21aef30413b0e1da3be68a9b4/research/hm/nonclosed-frame-transfer/NONCLOSED-FRAME-TRANSFER-EXACT-DEFECT.md",
+      "sha256": "5f2069fe845df87caa3a4bdb1c2bd7434ff6513bddda5bc21f54f042a04a4e84",
+      "bytes": 8925,
+      "git_blob_verified": true
+    },
+    {
+      "file": "inputs/ladder.md",
+      "commit": "8d8b5be4ce62c3055bb53be9e16d29cc63072f04",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "git_blob": "81e4b7ddf79d2c4e26ac0c99517117fe2ca63133",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d",
+      "bytes": 5709,
+      "git_blob_verified": true
+    }
+  ]
+}
