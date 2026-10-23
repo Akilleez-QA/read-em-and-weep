@@ -1,0 +1,52 @@
+[
+  {
+    "key": "TERMINAL",
+    "ref": "64e4fdd771a14a764c6e119d2eb25b0237d83622",
+    "path": "research/hm/negative-string-terminal-gate/PROOF.md",
+    "local": "TERMINAL.md",
+    "bytes": 10581,
+    "sha256": "affb6a3e89fecfd9457c949a5dcd9082b8b23800845bb271f1a143d76d8163ae",
+    "blob": "b0be6d47a234bbfc3e49f94c8cc295d8b5129a7d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64e4fdd771a14a764c6e119d2eb25b0237d83622/research/hm/negative-string-terminal-gate/PROOF.md"
+  },
+  {
+    "key": "ACTUAL",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "local": "ACTUAL.md",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "blob": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+  },
+  {
+    "key": "PLANE",
+    "ref": "39c5f4fbc012f4ec57ffc56d5de18cedb3571d60",
+    "path": "research/hm/fourth-normal-obstruction/PROOF.md",
+    "local": "PLANE.md",
+    "bytes": 10139,
+    "sha256": "ce5bb0fa0b9a6012a8e2e545aa0d4fee2049a9d21d8736f1ad9b47b37cc8884e",
+    "blob": "f511b6cc9cf2b426cb74de010e1532186f7af2cf",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/39c5f4fbc012f4ec57ffc56d5de18cedb3571d60/research/hm/fourth-normal-obstruction/PROOF.md"
+  },
+  {
+    "key": "CATALOG",
+    "ref": "3cd8a620e7268cf86fb8cc019d35f04d3cb6b448",
+    "path": "research/proof-repair-campaign/four-pair-composition/inputs/catalog.json",
+    "local": "CATALOG.json",
+    "bytes": 241365,
+    "sha256": "7c085250359b5445e8ef8da3f35763d495d5319660ca34c63aaf447078658bd5",
+    "blob": "605094dfdb6968a78f2a57c110a41586a8e79939",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3cd8a620e7268cf86fb8cc019d35f04d3cb6b448/research/proof-repair-campaign/four-pair-composition/inputs/catalog.json"
+  },
+  {
+    "key": "FRONTIER",
+    "ref": "3cd8a620e7268cf86fb8cc019d35f04d3cb6b448",
+    "path": "research/proof-repair-campaign/four-pair-composition/frontier.json",
+    "local": "FRONTIER.json",
+    "bytes": 2234,
+    "sha256": "b31a01ca80f80500f493ae507a308003226c85e9b941976d02466d956bc1078e",
+    "blob": "6734bd00d581ff1d55937aeba12273fcf4043542",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3cd8a620e7268cf86fb8cc019d35f04d3cb6b448/research/proof-repair-campaign/four-pair-composition/frontier.json"
+  }
+]
