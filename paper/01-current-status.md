@@ -1,6 +1,16 @@
-# Current status after the spike burn
+# Current mathematical status
 
 This page supersedes earlier current-status summaries, not their dated proofs.
+
+## Latest checkpoint through PR1025
+
+- [Pure-V secondary homotopy](64-pure-v-secondary-homotopy.md): under nonzero Q-compatible pure-V source2 radical, the unique rank-nine homotopy induces forced nonzero A→D multiplication of rank three in every nonzero direction. Same-direction action does not imply later original vanishing.
+- [Genuine quotient symbols](65-pure-v-quotient-symbols.md): its entire first and P second vanish. The quotient third lands globally in J=I_Z(6), admits a unique quadratic lift in exactly two equivariant channels, and vanishes iff the original fourth on surviving D vanishes. Both actual coefficients remain unselected; extra specialized A-kernels are outside this comparison, and the quotient is not equivalent to the original complex. The length-34 scheme is imported from PR1000.
+- [Full ambient symmetry boundary](66-full-ambient-symmetry-boundary.md): Decker's full ambient stabilizer theorem closes the outside-normalizer loophole. The full same-bundle, same-Q₀ group is the existing SL₂(F₅); this rules out a new ambient octic character, not the unknown scalar. The closure supersedes the initial PR1023 proof's narrower qualification.
+- [Opposite core source report](67-opposite-core-source-report.md): PR1016/1017 force actual rank-three core presentations; PR1020 detects the rank-one top obstruction by one inherited W′→S block. Seven necessary C types and the unknown actual block/vertex scalar remain.
+- [Secondary torsion source report](68-secondary-torsion-source-report.md): PR1021 gives the constant-rank V-only branch and intrinsic kernel discriminant; PR1024 completes all six coefficient strata. Actual secondary torsion is zero or twelve simple factors, without selecting which. This differs from the already zero opposite-pencil torsion.
+
+Four necessary source-dual pairs across three stable labels remain. The collaborator chapters are complete source readings, not independent reproofs. No actual realization, coefficient choice, complete repair or proof-completion percentage follows.
 
 ## Even c-d-f algebra through PR1015
 
@@ -231,13 +241,11 @@ The new chain separates tasks that were previously easy to conflate:
 
 These are independently reviewed written deductions over pinned premises. Their bounded Python diagnostics are supporting checks, not Lean certification.
 
-## Formalization and execution evidence
+## Supporting formalization evidence
 
 The burn published **13 focused draft Lean packages with 66 distinct checked supporting declarations**, using Lean 4.34.1 and pinned mathlib. Publication evidence records successful compilation and separate importing axiom checks; the audited closures list only propext, Classical.choice and Quot.sound. Four dependency rechecks are not counted as new declarations. The source/receipt audit is not a second independent kernel run.
 
 These packages formalize conditional algebra, frame transfer, trace coordinates, tensor/projector compatibility, source-dependent polynomial observation, and cyclic support. They do not formalize the whole geometric exclusion chain, construct the actual HM tensors/physical rows, or prove the original theorem.
-
-The earlier Python runtime track completed bounded initialization and one primitive-CG global unit. It did **not** complete the full 65-map q65 aggregate. Partial legacy logs remain partial. Resource receipts distinguish sampled process-group RSS from a hard address-space bound. No total cost, energy use or aggregate CPU figure is inferred from selected receipts.
 
 
 See the [root status paper](../README.md) and [full closeout](31-spike-burn-closeout.md).
