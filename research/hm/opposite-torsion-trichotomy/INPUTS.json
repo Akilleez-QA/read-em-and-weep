@@ -1,0 +1,15 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "inputs": [
+    {
+      "pr": 934,
+      "commit": "8c9847612b5f575b987cec9c62b72b099d745e44",
+      "path": "research/hm/reduced-opposite-pencil/PROOF.md",
+      "git_blob_sha1": "91dc4bc5c629e7ee3ba2694d2c05a4768b89b7ef",
+      "sha256": "69e72653c1b7fe6925743c877210f0ee5714b284d9e1d370afd8bff279e4c1d8",
+      "bytes": 15657,
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c9847612b5f575b987cec9c62b72b099d745e44/research/hm/reduced-opposite-pencil/PROOF.md"
+    }
+  ],
+  "scope": "The exact original is not republished here. All geometric dependencies and character conventions of PR934 remain in force. Current PR1 coordination read through comment6361210294 (PR935); no catalogue or scalar-commutant lane is duplicated."
+}
