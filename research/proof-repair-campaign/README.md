@@ -12,6 +12,10 @@ Produce checked mathematical reductions or reproducible universal constructions 
 
 The primary objective is a complete checked argument. A negative result that closes an entire precisely defined method or ansatz is also a useful deliverable. PR counts, reviews, elapsed compute, and repeated status reports are not substitutes for either.
 
+## Latest append-only checkpoint
+
+Through [PR806](https://github.com/Akilleez-QA/read-em-and-weep/pull/806), the checked accounting has **9 labels**, profiles **8 / 0 / 1**, and **1,004** witnesses in the restricted historical paired-source relation. See [the append-only ledger](FRONTIER-THROUGH806.md). This is not a new proof audit or a statement that every current geometric restriction is encoded. The initial snapshot below is preserved for reproducibility.
+
 ## Pinned starting point
 
 Snapshot: 23 October 2026, 00:07 UTC.
