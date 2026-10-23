@@ -1,16 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1001**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1008**
 
 **The original proof repair is open. Four necessary catalogue pairs across three stable labels remain.** Recent work restricts compatible radical actions and obstruction maps; it does not yet establish an actual source or complete the required lifting/algebraicity argument.
 
-[Latest mathematical update](paper/57-cdf-preserved-b-interface.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
+[Latest mathematical update](paper/60-cdf-duality-complement-barrier.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
 
 ## What is established now
 
-- **c-d-f one-sided preservation:** if Q preserves its B block in the stated direction, the whole actual kernel A+D lies there and its internal first symbol is nonzero multiplication on A, zero on D. The quotient has cohomology D/P and an isomorphic connecting map. Preservation itself is unproved; no complementary preservation or projector is assumed. [Conditional interface](paper/57-cdf-preserved-b-interface.md)
+- **c-d-f cubic reduction:** assuming only Q(X_B)⊂Y_B, the preserved block's internal second vanishes globally and its internal third lies in a raw three-dimensional space. Its nonvanishing is equivalent to generic original-fourth nonvanishing; neither value nor the preservation hypothesis is selected. No κ restriction or secondary ν is imported. [Actual interface and cubic](paper/59-cdf-preserved-b-cubic.md) Duality, endpoint characters and scalar commutant do not automatically give complementary preservation; an exact formal counterfamily blocks that shortcut, without realizing an actual HM map. [Duality boundary](paper/60-cdf-duality-complement-barrier.md)
 
-- **Octic target geometry:** its invariant target section has a length-34 zero scheme: six order-five axes of local length four and ten simple order-three axes. It has no zeros on the square conic. This determines the target factor, not additional source-row zeros or the actual octic scalar. [Scheme and resolution](paper/56-octic-target-zero-scheme.md)
+- **Whole octic generator geometry:** its zero scheme has length46: six triple fat points and ten simple points, with no square-conic zeros. The target factor alone still has length34. This computes the canonical nonzero generator, not its actual scalar, which remains unknown. [Full generator](paper/58-full-octic-generator-zero-scheme.md) · [Target factor](paper/56-octic-target-zero-scheme.md)
 
 - **A proposed octic test is ruled out:** every equivariant quartic covector kills ρκ, so secondary naturality is automatic on the octic line even if ν≠0. It cannot select the remaining scalar. A different actual-complex relation is needed; no new symbol vanishing follows. [Exact zero restriction](paper/54-secondary-octic-zero-test.md)
 
@@ -39,7 +39,7 @@ The ledger changes have different meanings: source2's 78→1 corrects overdue pr
 ## What remains unresolved
 
 1. Select or exclude actual compatible sources and radical-line footprints. Necessary catalogues and abstract models do not certify realization.
-2. Determine the unselected cubic in the applicable single-line rows and the separate full-J octic scalar. For the latter, find a different actual-complex relation: the secondary ν test is now proved identically ineffective. Neither reduction establishes actual occurrence; the full-J results cannot silently settle single-line rows.
+2. Determine the unselected cubics in the applicable single-line rows and the conditionally preserved c-d-f block, and the separate full-J octic scalar. For the latter, find a different actual-complex relation: the secondary ν test is now proved identically ineffective. Neither reduction establishes actual occurrence; the full-J results cannot silently settle single-line rows.
 3. Match the actual physical construction and its mixed multiplication constraints, then complete the required higher lifting/algebraicity argument. Conditional rank bounds are not a complete repair.
 
 The last established broader section count is [four or five sections on a general smooth inversion-even quadric, with no odd sections](https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md). Specialized extra kernel classes at exceptional directions are not computed by the generic-symbol statements above.
@@ -55,4 +55,4 @@ The burn ended at PR911 on **23 October 2026, 04:52:27 UTC (00:52:27 EDT)**. Its
 - [Physical construction dependencies](paper/33-burn-physical-construction.md) · [Campaign work gates](research/proof-repair-campaign/README.md)
 - [Upstream OpenAI collection and original attribution](upstream/openai-math/README.md)
 
-The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–57. The complete through-PR993 root snapshot and all historical figures are preserved.
+The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–60. The complete through-PR993 root snapshot and all historical figures are preserved.

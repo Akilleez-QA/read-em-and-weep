@@ -2,6 +2,8 @@
 
 **Craig Ward · 23 October 2026 · Update through PR1001**
 
+**Subsequent update.** PR1006 now proves internal-second vanishing and the raw three-dimensional cubic gate in [chapter 59](59-cdf-preserved-b-cubic.md). The first-symbol theorem and its dated scope below remain intact; one-sided preservation itself is still unproved.
+
 [PR1001](https://github.com/Akilleez-QA/read-em-and-weep/blob/a7aa990e7705dd9dbf3d0fd34e437fa735c9e0f1/research/hm/cdf-preserved-b-symbol/PROOF.md) studies the actual source127 c-d-f branch, stable label G3.11.cce6e3ba4eeb and necessary pair E14,Q148. It assumes only **Q(X_B)⊂Y_B** in the authenticated simultaneous negative-pencil block coordinates. Complementary preservation is not assumed. The theorem does not establish this hypothesis or an actual source realization; the source frontier remains four pairs across three labels.
 
 ## 1. Preservation forces the whole kernel into B
