@@ -1,0 +1,14 @@
+{
+  "independent_review": "PASS",
+  "theorem_pr": 941,
+  "theorem_commit": "c14af3d39881197edd781aa06cb1e918ef8fd42a",
+  "theorem_path": "research/hm/source126-dual-specialization/PROOF.md",
+  "theorem_sha256": "4530b934749d8702571df45a30aaa3eb7a8fea3a2e5c07fdefe00bf551fa33fa",
+  "review_path": "research/hm/source126-dual-specialization/REVIEW.md",
+  "review_sha256": "e30b07aebd139af06b6e45133b368b5964702ce5ad9886b2c94a482c7bfb42fe",
+  "restriction_path": "research/hm/source126-dual-specialization/RESULT.json",
+  "restriction_sha256": "72f7eb59a8d16582a151f230198db634389086b2315138437cdc6689871d54a5",
+  "predecessor_pr": 940,
+  "predecessor_commit": "7e3a97c554da608360f6bd96ac4606e970741378",
+  "predecessor_sha256": "9042fa6453037f77b0bff5765e04a92b4f596c85575f4f7d63866db5aa6d8677"
+}
