@@ -1,0 +1,38 @@
+[
+  {
+    "label": "795",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "local_path": "inputs/795.md",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937"
+  },
+  {
+    "label": "1019",
+    "commit": "3fb2475ffb275c5789acbaa8f9f84ed272713785",
+    "path": "research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "local_path": "inputs/1019.md",
+    "git_blob": "bf63c14f76933d59fa7e3ac61aecb3366ac1b442",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb2475ffb275c5789acbaa8f9f84ed272713785/research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "sha256": "42bf6d6a1934410de15829108a397180bb8493fe49798fb1b7945ce0e252f682"
+  },
+  {
+    "label": "1052",
+    "commit": "64e4fdd771a14a764c6e119d2eb25b0237d83622",
+    "path": "research/hm/negative-string-terminal-gate/PROOF.md",
+    "local_path": "inputs/1052.md",
+    "git_blob": "b0be6d47a234bbfc3e49f94c8cc295d8b5129a7d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64e4fdd771a14a764c6e119d2eb25b0237d83622/research/hm/negative-string-terminal-gate/PROOF.md",
+    "sha256": "affb6a3e89fecfd9457c949a5dcd9082b8b23800845bb271f1a143d76d8163ae"
+  },
+  {
+    "label": "792",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "local_path": "inputs/792.md",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798"
+  }
+]
