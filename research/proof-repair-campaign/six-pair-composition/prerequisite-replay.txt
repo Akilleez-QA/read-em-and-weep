@@ -1,0 +1,14 @@
+PASS: source2 78→1, exact72+5 cut; total114→37; three labels remain
+.....................
+----------------------------------------------------------------------
+Ran 21 tests in 0.443s
+
+OK
+PASS 351 symbolic/identity checks; 10 negative controls; cdf32=1+31; no label cut
+PASS: source2 78→1, exact72+5 cut; total114→37; three labels remain
+.....................
+----------------------------------------------------------------------
+Ran 21 tests in 0.414s
+
+OK
+PASS 351 symbolic/identity checks; 10 negative controls; cdf32=1+31; no label cut
