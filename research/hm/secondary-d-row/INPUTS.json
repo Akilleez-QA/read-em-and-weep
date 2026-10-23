@@ -1,0 +1,38 @@
+[
+  {
+    "key": "QUOTIENT",
+    "ref": "148e2eed1fbf50729941365c8fd3ae56a115fe62",
+    "path": "research/hm/secondary-quotient-splitting/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/148e2eed1fbf50729941365c8fd3ae56a115fe62/research/hm/secondary-quotient-splitting/PROOF.md",
+    "bytes": 6141,
+    "sha256": "f0eb53bd49cbbb8da9a030ec253e92304dfc3110b7a3b0ced577c460fcb9641f",
+    "blob": "f311f2c088500e1ddbf8693a50c09f26920643f2"
+  },
+  {
+    "key": "SQUARE",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/HYPERPLANE-SQUARE-SURVIVORS.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/HYPERPLANE-SQUARE-SURVIVORS.md",
+    "bytes": 11420,
+    "sha256": "036a45ff8998e84c9a967808faed91d6ce9283cc686e2fbb8c378b095beb7b2d",
+    "blob": "fb8a25eb2c7ef571f9a570fd5d1ee8a4ea17327a"
+  },
+  {
+    "key": "SECOND",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ODD-SECOND-SCALING-OBSTRUCTION.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ODD-SECOND-SCALING-OBSTRUCTION.md",
+    "bytes": 16401,
+    "sha256": "34ab8575ccb880a7d031a4db46f0b7e144dd72e599dc7139cd601e84f7795f6b",
+    "blob": "d9c3d73acb35c6444421e0be83908d1ce63cec66"
+  },
+  {
+    "key": "BALANCED",
+    "ref": "f23f8b9972d459c7c3ab532937964ef7f543b157",
+    "path": "research/hm/balanced-first-cup-kernel/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f23f8b9972d459c7c3ab532937964ef7f543b157/research/hm/balanced-first-cup-kernel/PROOF.md",
+    "bytes": 11405,
+    "sha256": "8498a0652b1345c89ebf2643a9d96853e0e2c60760e674425f97c68723aebb41",
+    "blob": "209d991666d82babd23ad85e2f6cf82dac29e031"
+  }
+]
