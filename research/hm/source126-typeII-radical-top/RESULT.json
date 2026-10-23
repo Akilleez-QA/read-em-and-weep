@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": 45,
+  "collective_images": {
+    "N2": "P+2D",
+    "N4": "P+D"
+  },
+  "top_dimensions": [
+    27,
+    28
+  ],
+  "conditional_rank_bound": 36,
+  "conditional_generic_rank": 36,
+  "conditional_generic_later_original_symbols": "all zero after second",
+  "conditional_internal_cubic": "zero",
+  "conditional_generic_original_fourth": "zero",
+  "actual_instance_evaluated": false,
+  "source_pair_removed": false
+}
