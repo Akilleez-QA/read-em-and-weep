@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: two actual terminal-doublet quotient shapes excluded**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: two further actual shapes excluded by complete rank-one flags**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/141-terminal-doublet-two-shape-exclusion.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/142-complete-rank-one-flag-exclusions.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Two further actual quotient shapes excluded by complete flags
+
+[The complete rank-one flag theorem](paper/142-complete-rank-one-flag-exclusions.md) excludes A=W′ O(-3)+O(16) and A=W′ O(-5)+O(16) for all four actual sources when the backward plateau length is one. The forced scalar endpoint leads to fourteen line quotients. Invariant ramification permits only five and two degree patterns, respectively; every pattern violates exact representation-valued Euler additivity although its ordinary dimensions agree.
+
+Together with the preceding two exclusions, this removes all four A shapes singled out by the P-source certificate's forced-factorization result. Its historical test counts are not a live frontier. Profile (1,1), other-profile exhaustion and the original repair remain open; preceding chapters and the PDF are preserved.
 
 ## Two actual terminal-doublet quotient shapes excluded
 
