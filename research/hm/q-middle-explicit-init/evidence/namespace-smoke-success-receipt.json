@@ -1,0 +1,89 @@
+{
+  "artifacts": {
+    "executable": {
+      "bytes": 18058560,
+      "path": "runtime/python3.12",
+      "sha256": "d90bce0f5ac3aa40e2ee5900ad243bad0b2205ce17408278f088b34aed737840"
+    },
+    "inputs": [
+      {
+        "bytes": 30486,
+        "path": "package/initializer.py",
+        "sha256": "14d57d45128498daee5c6adc9eeda343c2d909ac41713fb5ed09acde3341085a"
+      },
+      {
+        "bytes": 45277,
+        "path": "payload/HANDOFF-MANIFEST.json",
+        "sha256": "98e2ee53dbf38af7e876cdb1dcd581de7e1eaaf92c6740e09a7b9daca9fef755"
+      },
+      {
+        "bytes": 1750,
+        "path": "namespace-smoke-original/smoke.py",
+        "sha256": "b29fddba3f00e254d0b1cf9484e5bff4d030efa7d06c112bb526b75f3d6c2232"
+      }
+    ],
+    "supervisor": {
+      "bytes": 13296,
+      "path": "guard/burn_guard.py",
+      "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+    }
+  },
+  "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+  "child_cpu_seconds": 0.6029709999999999,
+  "child_peak_rss_bytes": 68681728,
+  "child_returncode": 0,
+  "cleanup_complete": true,
+  "command": [
+    "work/swarm/math-runtime/bin/python",
+    "-B",
+    "work/swarm/namespace-smoke/smoke.py"
+  ],
+  "command_sha256": "0382fbd6451fdf5d022422dcc8f42b6d32ecb2ff1c07a2110b57f78af19cb078",
+  "cpu_limit_applied": true,
+  "cwd": "workspace",
+  "enforcement": {
+    "address_space_limit_enforced": false,
+    "containment": "Children must stay in the created group; this is not a sandbox.",
+    "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+    "kill_grace_seconds": 2.0,
+    "ps_timeout_seconds": 0.5,
+    "rss": "sampled sum of resident bytes in the created process group",
+    "rss_guaranteed_overshoot_bound_bytes": null,
+    "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+    "term_grace_seconds": 0.5,
+    "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+  },
+  "input_hashes_unchanged": true,
+  "limits": {
+    "cpu_hard_seconds": 60,
+    "cpu_soft_seconds": 60,
+    "rss_bytes": 1610612736,
+    "sample_interval_seconds": 0.1,
+    "wall_seconds": 75.0
+  },
+  "observed_rss_overshoot_bytes": 0,
+  "peak_group_members": [
+    {
+      "rss_bytes": 68648960
+    }
+  ],
+  "platform": "darwin",
+  "publication_derivative": {
+    "original_receipt": {
+      "bytes": 3001,
+      "sha256": "c9d6b13dbd08bb4a3bfc4b0084c4038fb2f0513277df106b2aac269f61e2d33d"
+    },
+    "path_policy": "Absolute paths replaced by stable artifact roles; command_sha256 remains the original command digest. All retained resource/status/hash values are unchanged.",
+    "removed_fields": [
+      "pid",
+      "process_group"
+    ]
+  },
+  "runtime_seconds": 0.7842744170047808,
+  "sampled_group_peak_rss_bytes": 68648960,
+  "samples": 8,
+  "schema": 1,
+  "signals_sent": [],
+  "status": "success",
+  "wall_overshoot_seconds": 0
+}

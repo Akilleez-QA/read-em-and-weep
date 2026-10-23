@@ -1,0 +1,162 @@
+{
+  "attempts": [
+    {
+      "elapsed_seconds": 0.063145,
+      "exit_status": 1,
+      "kind": "Host RLIMIT_AS setup failure before SymPy import",
+      "original_execution_code_hashes": {
+        "initializer.py": "165d24fb5de996d5b96e0a057bb99d6d6ea6ed1409fceea0d56c339c35206c87",
+        "test_initializer.py": "d68f15dae0f0e7beb5790d6dacb896cd5e468c736475872663995daf15daafe8"
+      },
+      "original_receipt": {
+        "bytes": 15602,
+        "sha256": "235fdaa6f2501e3a08ca81967e811b73fcf829e472ef93a41695d1abf2cd8eae"
+      },
+      "peak_rss_native": 19087360,
+      "peak_rss_units": "bytes",
+      "remedy": "Later namespace runs used the independently reviewed watchdog with per-process CPU, wall, sampled group RSS, and explicitly no address-space cap.",
+      "requested_address_space_bytes": 1610612736,
+      "requested_cpu_seconds": 60,
+      "run": "producer-original-smoke",
+      "status": "failed",
+      "stderr_sanitized": "Traceback (most recent call last):\n  File \"package/test_initializer.py\", line 144, in <module>\n    smoke()\n  File \"package/test_initializer.py\", line 126, in smoke\n    resource.setrlimit(resource.RLIMIT_AS, (1536 * 1024**2, 1536 * 1024**2))\nValueError: current limit exceeds maximum limit\n"
+    },
+    {
+      "cleanup_complete": true,
+      "cpu_seconds": 1.68742,
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "exit_status": 1,
+      "input_hashes_unchanged": true,
+      "kind": "Reviewer AST-metadata mismatch",
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "original_artifacts": {
+        "receipt.json": {
+          "bytes": 28807,
+          "sha256": "3a5796179bd5aab0cd07ed4f01dabdee8690ac4c5e245bddbb016765687a3086"
+        },
+        "stderr.txt": {
+          "bytes": 285,
+          "sha256": "7284797244ec2878667014d5f3fe70195d257afb11cfdf9ea1a16da288ed0863"
+        },
+        "stdout.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "original_reviewer_snapshot": {
+        "compare.py": {
+          "bytes": 9554,
+          "sha256": "14d8e0a91d91cc8c60d9fb709b1e35060d9e7f71cd18abb5aeb034c18d5d3ed7"
+        },
+        "launch.py": {
+          "bytes": 856,
+          "sha256": "44211a8ea562f19f11daff67a89eb526a09574fd407d7d1cb5f63f42c49ab31f"
+        },
+        "pins.json": {
+          "bytes": 21033,
+          "sha256": "26c5b15699a89b71eb5b4610f3dbf3e3f4a32a5c4a037bb6f40dbe59d94b10b0"
+        },
+        "reference_complete.py": {
+          "bytes": 5581,
+          "sha256": "835e3082a412b569389546d4b2130aa438d049844e2a631db6c0ae5a095e1ed2"
+        },
+        "reference_namespace.py": {
+          "bytes": 9559,
+          "sha256": "cd1d2c945aa7a40dfbe7d1d0351915445c88738c23faaf0f70eadd6dcf5624f4"
+        }
+      },
+      "peak_rss_bytes": 74481664,
+      "remedy": "Metadata was serialized with Python 3.9 while the worker used Python 3.12. Corrected the reviewer metadata only.",
+      "run": "run-0001",
+      "status": "child_failed",
+      "stderr_sanitized": "Traceback (most recent call last):\n  File \"reviewer-original/compare.py\", line 55, in <module>\n    assert adigest(source)==segment['ast_sha256']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+      "wall_seconds": 1.7198819169934723
+    },
+    {
+      "cleanup_complete": true,
+      "cpu_seconds": 1.7883069999999999,
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "exit_status": 1,
+      "input_hashes_unchanged": true,
+      "kind": "Reviewer lexical dependency inspection mismatch",
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "original_artifacts": {
+        "receipt.json": {
+          "bytes": 28818,
+          "sha256": "032276399f0cdd504d7d5e06ee410f35a38044ff42a1df3c1135f5e5f19207ac"
+        },
+        "stderr.txt": {
+          "bytes": 764,
+          "sha256": "06d1f98f2271295ba8fa44d34b5de07ad66308d1b0432a2a58f9de1d51e23f6b"
+        },
+        "stdout.txt": {
+          "bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "original_reviewer_snapshot": {
+        "compare.py": {
+          "bytes": 9554,
+          "sha256": "14d8e0a91d91cc8c60d9fb709b1e35060d9e7f71cd18abb5aeb034c18d5d3ed7"
+        },
+        "launch.py": {
+          "bytes": 856,
+          "sha256": "44211a8ea562f19f11daff67a89eb526a09574fd407d7d1cb5f63f42c49ab31f"
+        },
+        "pins.json": {
+          "bytes": 21115,
+          "sha256": "e7123f9542325db453ec07acff7a3521d9041429c69acc98cb09cd1ec263566a"
+        },
+        "reference_complete.py": {
+          "bytes": 5581,
+          "sha256": "835e3082a412b569389546d4b2130aa438d049844e2a631db6c0ae5a095e1ed2"
+        },
+        "reference_namespace.py": {
+          "bytes": 9559,
+          "sha256": "cd1d2c945aa7a40dfbe7d1d0351915445c88738c23faaf0f70eadd6dcf5624f4"
+        }
+      },
+      "peak_rss_bytes": 75350016,
+      "remedy": "A shallow global inspection omitted tv used inside a nested lambda. Corrected the reviewer dependency collector to recurse through code objects; initializer unchanged.",
+      "run": "run-0002",
+      "status": "child_failed",
+      "stderr_sanitized": "Traceback (most recent call last):\n  File \"reviewer-original/compare.py\", line 134, in <module>\n    compare_namespace(candidate,reference,'outer')\n  File \"reviewer-original/compare.py\", line 122, in compare_namespace\n    compare_namespace(aa[k],bb[k],label+'.ns')\n  File \"reviewer-original/compare.py\", line 129, in compare_namespace\n    assert set(adeps)==set(bdeps),(label,k,'dependency names',sorted(adeps),sorted(bdeps))\n           ^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: ('outer.ns', 'op4', 'dependency names', ['rep', 'tv'], ['rep'])\n",
+      "wall_seconds": 1.9360714579961495
+    }
+  ],
+  "scope": "Failure history; no failed attempt is a PASS. Original full artifacts and reviewer snapshots remain retained locally."
+}

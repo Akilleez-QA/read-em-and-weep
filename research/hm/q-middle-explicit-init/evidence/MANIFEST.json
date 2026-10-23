@@ -1,0 +1,82 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 7143,
+      "sha256": "23806c3c15a18033b5890f3a86148e5d04189d6a4ee136b25096585fcb67723b"
+    },
+    "evidence/BEHAVIORAL-REVIEW.md": {
+      "bytes": 5685,
+      "sha256": "e164f3eccb02efc17afc85b9a038500a5faf38608033574e34f511e2936d3874"
+    },
+    "evidence/FAILED-RUNS.json": {
+      "bytes": 7475,
+      "sha256": "a0aefa4a77bfbb730cf6b5167ec51108a875671ede35e4aea63755a3981c7a43"
+    },
+    "evidence/PACKAGING-CHECK.json": {
+      "bytes": 1000,
+      "sha256": "0e6c6f3476b7af8669f6e01f1e58fa1ca251dd52acc7c21201c2caddb6404f31"
+    },
+    "evidence/PROVENANCE.json": {
+      "bytes": 4515,
+      "sha256": "fd6791724ffd97b5d12e0dee80df8c0f353e4ebccc6b61d9bea8fa7c0a75bc4d"
+    },
+    "evidence/README.md": {
+      "bytes": 3836,
+      "sha256": "4f2a1a08cfaa6ab11568825cbcbd71132ade96edf31191256dd9c3ba018a4b18"
+    },
+    "evidence/STATIC-REVIEW.md": {
+      "bytes": 9093,
+      "sha256": "6069b49c9c21d9dd02c3cf785d81bef642017e736d1f0dbc6b6c857bb379f4e8"
+    },
+    "evidence/equivalence-success-receipt.json": {
+      "bytes": 19710,
+      "sha256": "95a05cccd8ed871a7a8c0d56a5e5e7bbec0758dc8fefc9aa1c3a4c9498b3da67"
+    },
+    "evidence/equivalence-success-stdout.txt": {
+      "bytes": 39917,
+      "sha256": "efcb79ff03eb3929a8060c87c156923005c9873a69ff837d78b55c31d26924f0"
+    },
+    "evidence/namespace-smoke-success-receipt.json": {
+      "bytes": 2932,
+      "sha256": "ab02eab04d481dae64ab2285e8c587b74c1f4aa9422cc3025fbbd3cfb05b3e8d"
+    },
+    "evidence/namespace-smoke-success-stdout.txt": {
+      "bytes": 3850,
+      "sha256": "2160b22828af2924ad17286c152c783e24d48b283e355652bb2df69440fd4154"
+    },
+    "evidence/pins.json": {
+      "bytes": 16877,
+      "sha256": "6e6fb902e28cd760e9ec4f6525560f0d7407d1ef70b5811b8ae1d1c35d12ed34"
+    },
+    "evidence/reference_complete.py": {
+      "bytes": 5581,
+      "sha256": "835e3082a412b569389546d4b2130aa438d049844e2a631db6c0ae5a095e1ed2"
+    },
+    "evidence/reference_namespace.py": {
+      "bytes": 9559,
+      "sha256": "cd1d2c945aa7a40dfbe7d1d0351915445c88738c23faaf0f70eadd6dcf5624f4"
+    },
+    "evidence/replay_guarded.py": {
+      "bytes": 2202,
+      "sha256": "2e0b2c95fceafe7147c31ff8f85a055b240bf9dd84313c002881fd146e24ca81"
+    },
+    "evidence/verify_namespace.py": {
+      "bytes": 11574,
+      "sha256": "899fa482c65901a20a6e268d0182f8255a83addf007f49de3b9db01ff33bde4b"
+    },
+    "initializer.py": {
+      "bytes": 30486,
+      "sha256": "14d57d45128498daee5c6adc9eeda343c2d909ac41713fb5ed09acde3341085a"
+    },
+    "receipt.json": {
+      "bytes": 16601,
+      "sha256": "114ff9c70fc9aa5c893b35ed440db85c014744567a8b3dc4e3f114fe669c4055"
+    },
+    "test_initializer.py": {
+      "bytes": 9276,
+      "sha256": "bc15b2dba963eaf442a5a3a23d06e9f00535e5f587808dba5fb36c95e7dcdb4a"
+    }
+  },
+  "schema": "initializer-publication-manifest-v1",
+  "scope": "SHA256 and byte counts for publication derivatives; MANIFEST.json excludes itself. Original executed hashes remain in PROVENANCE.json."
+}

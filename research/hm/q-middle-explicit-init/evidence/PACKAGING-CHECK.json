@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "84-input check-layout passed with explicit package/payload paths",
+    "all staged Python files parsed without importing them",
+    "all JSON files parsed",
+    "no private absolute user paths remain",
+    "process identifiers removed from published runtime receipts",
+    "original source/test bytes unchanged",
+    "two reference harnesses byte-identical",
+    "static receipt comparison/complete_symbols/constructor sections preserved",
+    "portable comparison body matches executed body after documented payload/display substitutions"
+  ],
+  "limits_of_check": "Relocated behavioral verifier and new replay launcher were not run symbolically; successful receipts identify original executed bytes.",
+  "python": "3.9.6 for packaging metadata; original behavioral run Python3.12.14",
+  "scope": "Path packaging, file pin validation, syntax parsing and unchanged mathematical comparison-body check only.",
+  "status": "packaging_metadata_pass",
+  "symbolic_execution": false
+}
