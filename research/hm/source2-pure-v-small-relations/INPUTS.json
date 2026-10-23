@@ -1,0 +1,47 @@
+[
+  {
+    "label": "792",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "local_path": "inputs/792.md",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798"
+  },
+  {
+    "label": "794",
+    "commit": "7fd254100b83bb03f41b776ea3119690aa51f671",
+    "path": "research/hm/source2-radical-rank-locus/PROOF.md",
+    "local_path": "inputs/794.md",
+    "git_blob": "3ad30b9aa1920408cc34778e78405f544b5adc8e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7fd254100b83bb03f41b776ea3119690aa51f671/research/hm/source2-radical-rank-locus/PROOF.md",
+    "sha256": "a256ec6cc92b1151a6551e6692cfa32cac02bceaad34c60746f51f249256cf4c"
+  },
+  {
+    "label": "1054",
+    "commit": "8732cb65fe0e72da59e785f3f85ad197a7092e6c",
+    "path": "research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "local_path": "inputs/1054.md",
+    "git_blob": "64e6bf9f1bf46440700ebab7c90a18f9d8155fd8",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8732cb65fe0e72da59e785f3f85ad197a7092e6c/research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "sha256": "f788da29035b564f6f544629f724b90ceae5d975273eb15f0df9ac71fd4c643b"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "label": "universal-symbols"
+  },
+  {
+    "label": "1059",
+    "commit": "af2f163e4bcc593b6895ace840c139d2d4668cde",
+    "path": "research/hm/source2-pure-v-residual-p-channel/PROOF.md",
+    "local_path": "inputs/1059.md",
+    "git_blob": "2b00a40de04a7084ff2f08c767fdd2f4f13ae5f4",
+    "sha256": "ebcd4b123652a7526a74459d0d5875858de7ac90480d38ee1928fd293a31cb18",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af2f163e4bcc593b6895ace840c139d2d4668cde/research/hm/source2-pure-v-residual-p-channel/PROOF.md"
+  }
+]
