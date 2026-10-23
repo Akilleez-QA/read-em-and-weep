@@ -1,0 +1,130 @@
+{
+  "profile_rules": {
+    "11": [
+      "profile11.md"
+    ],
+    "12": [
+      "profile12.md"
+    ],
+    "13": [
+      "EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+      "EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-THREE-EXACT-QUOTIENTS.md",
+      "EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-EXCLUSION.md",
+      "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md"
+    ],
+    "21": [
+      "profile21.md"
+    ],
+    "22": [
+      "TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
+      "TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
+      "TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+      "TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+      "TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+      "TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
+    ],
+    "23": [
+      "ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md"
+    ],
+    "31": [
+      "EXTREMAL-31-DUAL-CUBIC-IMAGE-HAS-RANK-AT-MOST-TWO.md",
+      "EXTREMAL-31-RANK-TWO-DUAL-IMAGE-FIVE-QUOTIENTS.md",
+      "EXTREMAL-31-FIVE-QUOTIENT-SECTION-ENVELOPES.md",
+      "EXTREMAL-31-SMALL-QUOTIENT-EXCLUSION.md",
+      "EXTREMAL-31-MIDDLE-QUOTIENT-EXCLUSION.md",
+      "EXTREMAL-31-LAST-LOW-QUOTIENT-EXCLUSION.md",
+      "EXTREMAL-31-FIRST-REMAINING-QUOTIENT-REDUCTION.md",
+      "EXTREMAL-31-FIRST-REMAINING-QUOTIENT-EXCLUSION.md",
+      "EXTREMAL-31-LAST-REMAINING-QUOTIENT-REDUCTION.md",
+      "EXTREMAL-31-DOUBLED-GAUSS-EXCLUSION.md",
+      "EXTREMAL-31-SINGLE-GAUSS-EXCLUSION.md",
+      "EXTREMAL-31-RANK-ONE-TEN-QUOTIENTS.md",
+      "EXTREMAL-31-RANK-ONE-DEGREE-ELEVEN-EXCLUSION.md",
+      "EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md"
+    ],
+    "32": [
+      "four-sources.md",
+      "SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md",
+      "SINGLE-V-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-EVALUATION.md",
+      "ZERO-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md"
+    ],
+    "33": [
+      "EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md"
+    ]
+  },
+  "lower_rules": {
+    "0": "POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "1": "RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+    "2": "RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md"
+  },
+  "plateau_source": "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+  "source_tuples": {
+    "D": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "P": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "V": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Z": [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "branches32": {
+    "D": [
+      "dual_cubic_rank1",
+      "dual_cubic_rank2"
+    ],
+    "P": [
+      "pairing_zero",
+      "pairing_nonzero"
+    ],
+    "V": [
+      "e2",
+      "e4"
+    ],
+    "Z": [
+      "cubic_rank3",
+      "cubic_rank2_6_2",
+      "cubic_rank2_8_2",
+      "cubic_rank2_8_4"
+    ]
+  },
+  "lower_support": [
+    "RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "TWIST-ONE-ACTUAL-SECTION-KERNEL-VANISHING.md",
+    "GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md"
+  ]
+}

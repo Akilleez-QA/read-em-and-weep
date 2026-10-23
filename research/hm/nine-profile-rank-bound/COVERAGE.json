@@ -1,0 +1,272 @@
+{
+  "schema": "actual-nine-profile-v1",
+  "geometry": {
+    "actual": true,
+    "ambient_dimension": 30,
+    "coefficient_dimension": 54,
+    "rank_E": 17,
+    "degree_E": -54,
+    "rank_Qdual": 13,
+    "degree_Qdual": -54,
+    "physical_parameter": "one_fixed_determinant_identification",
+    "independent_rotation": false,
+    "horizontal_birkhoff": false,
+    "actual_images_retained": true,
+    "inherited_necessity_assumed": true,
+    "conditional_on_pinned_inputs": true
+  },
+  "plateau": {
+    "source": "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "maximal": true,
+    "ordered": true,
+    "k_range": [
+      1,
+      2,
+      3
+    ],
+    "l_range": [
+      1,
+      2,
+      3
+    ],
+    "cubic_sections_E": true,
+    "cubic_sections_Qdual": true,
+    "saturated_sheaf_kernels": true,
+    "endpoint_rank_at_most": 2
+  },
+  "lower_exclusions": {
+    "0": "POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "1": "RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+    "2": "RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md"
+  },
+  "profiles": [
+    {
+      "k": 1,
+      "l": 1,
+      "sources": [
+        "profile11.md"
+      ]
+    },
+    {
+      "k": 1,
+      "l": 2,
+      "sources": [
+        "profile12.md"
+      ]
+    },
+    {
+      "k": 1,
+      "l": 3,
+      "sources": [
+        "EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+        "EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-THREE-EXACT-QUOTIENTS.md",
+        "EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-EXCLUSION.md",
+        "NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md"
+      ]
+    },
+    {
+      "k": 2,
+      "l": 1,
+      "sources": [
+        "profile21.md"
+      ]
+    },
+    {
+      "k": 2,
+      "l": 2,
+      "sources": [
+        "TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
+        "TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
+        "TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+        "TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+        "TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+        "TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md"
+      ]
+    },
+    {
+      "k": 2,
+      "l": 3,
+      "sources": [
+        "ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md"
+      ]
+    },
+    {
+      "k": 3,
+      "l": 1,
+      "sources": [
+        "EXTREMAL-31-DUAL-CUBIC-IMAGE-HAS-RANK-AT-MOST-TWO.md",
+        "EXTREMAL-31-RANK-TWO-DUAL-IMAGE-FIVE-QUOTIENTS.md",
+        "EXTREMAL-31-FIVE-QUOTIENT-SECTION-ENVELOPES.md",
+        "EXTREMAL-31-SMALL-QUOTIENT-EXCLUSION.md",
+        "EXTREMAL-31-MIDDLE-QUOTIENT-EXCLUSION.md",
+        "EXTREMAL-31-LAST-LOW-QUOTIENT-EXCLUSION.md",
+        "EXTREMAL-31-FIRST-REMAINING-QUOTIENT-REDUCTION.md",
+        "EXTREMAL-31-FIRST-REMAINING-QUOTIENT-EXCLUSION.md",
+        "EXTREMAL-31-LAST-REMAINING-QUOTIENT-REDUCTION.md",
+        "EXTREMAL-31-DOUBLED-GAUSS-EXCLUSION.md",
+        "EXTREMAL-31-SINGLE-GAUSS-EXCLUSION.md",
+        "EXTREMAL-31-RANK-ONE-TEN-QUOTIENTS.md",
+        "EXTREMAL-31-RANK-ONE-DEGREE-ELEVEN-EXCLUSION.md",
+        "EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md"
+      ]
+    },
+    {
+      "k": 3,
+      "l": 2,
+      "sources": [
+        "four-sources.md",
+        "SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+        "THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md",
+        "P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md",
+        "SINGLE-V-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-EVALUATION.md",
+        "ZERO-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md"
+      ]
+    },
+    {
+      "k": 3,
+      "l": 3,
+      "sources": [
+        "EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md"
+      ]
+    }
+  ],
+  "four_sources": {
+    "D": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "P": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "V": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Z": [
+      1,
+      2,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "branches32": {
+    "D": [
+      "dual_cubic_rank1",
+      "dual_cubic_rank2"
+    ],
+    "P": [
+      "pairing_zero",
+      "pairing_nonzero"
+    ],
+    "V": [
+      "e2",
+      "e4"
+    ],
+    "Z": [
+      "cubic_rank3",
+      "cubic_rank2_6_2",
+      "cubic_rank2_8_2",
+      "cubic_rank2_8_4"
+    ]
+  },
+  "coverage22": {
+    "necessity_chain_retained": true,
+    "original_positive_defect_retained": true,
+    "second_dual_defect12_retained": true,
+    "endpoint_rank3_assumed": false
+  },
+  "coverage31": {
+    "cubic_ranks": [
+      1,
+      2,
+      3
+    ],
+    "rank2_quotients": [
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        8,
+        2
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        8,
+        4
+      ]
+    ],
+    "last_rank2_sectors": [
+      "single11",
+      "doubled9"
+    ],
+    "rank1_degrees": [
+      9,
+      11
+    ],
+    "last_e9_shapes": [
+      "two_O4",
+      "O4_plus_O6",
+      "W_O5"
+    ],
+    "endpoint_rank3_assumed": false
+  },
+  "bridge": {
+    "source": "POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "source_dimension": 41,
+    "middle_dimension": 54,
+    "target_dimension": 37,
+    "first_map_injective": true,
+    "second_map_surjective": true,
+    "map_identity": "actual_Koszul_derivative",
+    "rank_offset": 24
+  },
+  "claim": {
+    "generic_SF_rank_lower": 4,
+    "generic_square_rank_lower": 28,
+    "kernel_upper": 13,
+    "positive_double_hyperplane_sections_upper": 13,
+    "cokernel_upper": 9,
+    "generic_only": true,
+    "proof_assistant_verified": false,
+    "full_adjoint": false,
+    "original_repair": false,
+    "surjective": false,
+    "cone_rank36_improved": false
+  },
+  "lower_support": [
+    "RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "TWIST-ONE-ACTUAL-SECTION-KERNEL-VANISHING.md",
+    "GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md"
+  ]
+}

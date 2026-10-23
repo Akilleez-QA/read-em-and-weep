@@ -1,0 +1,56 @@
+{
+  "allowed_generic_SF_ranks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "authenticated_input_count": 52,
+  "consequences": {
+    "cokernel_upper": 9,
+    "cone_rank36_improved": false,
+    "full_adjoint": false,
+    "generic_SF_rank_lower": 4,
+    "generic_only": true,
+    "generic_square_rank_lower": 28,
+    "kernel_upper": 13,
+    "original_repair": false,
+    "positive_double_hyperplane_sections_upper": 13,
+    "proof_assistant_verified": false,
+    "surjective": false
+  },
+  "positive_order_controls": 2,
+  "profile_count": 9,
+  "rejected_mutations": 626,
+  "required_mathematical_source_count": 42,
+  "scope": "conditional finite implication contract, not geometric or proof-assistant verification",
+  "source_shapes": {
+    "D": {
+      "degree": -54,
+      "quadratic_dimension": 5,
+      "rank": 17
+    },
+    "P": {
+      "degree": -54,
+      "quadratic_dimension": 4,
+      "rank": 17
+    },
+    "V": {
+      "degree": -54,
+      "quadratic_dimension": 3,
+      "rank": 17
+    },
+    "Z": {
+      "degree": -54,
+      "quadratic_dimension": 0,
+      "rank": 17
+    }
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,366 @@
+[
+  {
+    "file": "inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+    "git_blob_sha1": "ba18a3fc8276c5d98b57b96ec13091b713de8752",
+    "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf",
+    "bytes": 15782,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md",
+    "git_blob_sha1": "64d717bdcafdeeae2ba40a04dff327ed968ec15a",
+    "sha256": "27b344fadd752e72614bdeb62a20ce04a7052b7a2e38872e59948e35b4a51e48",
+    "bytes": 19568,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/RANK-THREE-GAUSS-PLATEAUS-HAVE-LENGTH-AT-MOST-FOUR.md",
+    "git_blob_sha1": "e928ffc1bf2a3fcce0e56f865fd2c8b0ccfe2972",
+    "sha256": "724fa831cdb707d3c3919f77eb61d3b9eb34001563882f01ea014cd47c8d0456",
+    "bytes": 3672,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+    "git_blob_sha1": "9082e960ea2b01d1a87cd324d1d56ef47e77105e",
+    "sha256": "5a2b83af4e424c3d6de3a61f0bf9a6063ff15d7d6de379c5032845f8a28c193b",
+    "bytes": 6362,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md",
+    "git_blob_sha1": "e8829a1b7e817f6a080474acf7de5f47b5400a1b",
+    "sha256": "657543b0f373f59954d32d5fe835d7b1b9c2012f996730d78668f79434bd94cf",
+    "bytes": 9857,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md",
+    "git_blob_sha1": "bace130e42d4ca0e97303eaf1d8e3ef6e290df9e",
+    "sha256": "bb35d202dc1829438962a87b7ff3b78d99f0f4acdb22a24515a189cedcaf6ff1",
+    "bytes": 7886,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "bytes": 9672,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2",
+    "bytes": 5414,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md",
+    "git_blob_sha1": "4cdbc7820ea0913c948f6a4700e7cd153500f71a",
+    "sha256": "de80e15bd23977ea7cc51e1cb825a7921a968c36871976e2e65eaa414ae5ab9a",
+    "bytes": 14556,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+    "git_blob_sha1": "4843b6e506495ccc8649d28f11eb18568cb65154",
+    "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22",
+    "bytes": 10635,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+    "git_blob_sha1": "02de278a7af9d7d8fd4aefc1d1f5079521bab34f",
+    "sha256": "822ffc348e9f01554c45f606963d0e593e12fff0660459cf35567d28b87381ff",
+    "bytes": 9698,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/SINGLE-V-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-EVALUATION.md",
+    "git_blob_sha1": "55223e45f31cb3fd654fd3c5bbd920220e027b8a",
+    "sha256": "d5fad03581610edb6161c96b3511f8234e99f150efb28e694c587c1c95c472cd",
+    "bytes": 10520,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md",
+    "git_blob_sha1": "609bbfcc3be27f12f38b715a275a7a3cb4064d76",
+    "sha256": "9089b342527e028910e0d79df94fe108f80cbfdb96b959a8c3c4a5151bb5764e",
+    "bytes": 11181,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md",
+    "git_blob_sha1": "065f5ae85f2777cdd864dd24ec5547d4621174fd",
+    "sha256": "04e60aba6d1336878d03cefd622f56e15a072021f05644d71e1c9d58e2f14f87",
+    "bytes": 9976,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/ZERO-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+    "git_blob_sha1": "59747ae0cec00acc38fe4d57cdb2a0bf151046ef",
+    "sha256": "a271c8618f38a521c621509521356134ec1d9dbfebc36a5973d7d284d6a4f353",
+    "bytes": 7788,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+    "git_blob_sha1": "472cc56ef5d8d52a7f37d01bfee18275ef69ede2",
+    "sha256": "7af096404906a0c613fbdca084369b80782991267b8ddef844fcaca04ee5e520",
+    "bytes": 3447,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+    "git_blob_sha1": "c06e6e8486333b259ff544c8ab47fc35857152d9",
+    "sha256": "806f040eda785e86208f87a155dcebd46a5edc128e2fae7760769ebcf829d887",
+    "bytes": 5627,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+    "git_blob_sha1": "d01224e3b9d84771b5fa2d0fa49759a2e0cda510",
+    "sha256": "3ae8628aae50afeb553db0ee163e26de4f677c5ff89dbb15e263ca2140bd9f5f",
+    "bytes": 5119,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
+    "git_blob_sha1": "961149460d7ca316cc222fbf0a9c0e2ffe5cb3c4",
+    "sha256": "0c2d4421835bcad25e499af32e8697fd6fbbe51050d0be68d10255b7b9c197ad",
+    "bytes": 3889,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
+    "git_blob_sha1": "58dbcb5d08eb762eff1e01847daf679e68ab20c9",
+    "sha256": "6f6494a39ac32a43bcbdb06aa6444bb32b209d8c575334bfb34b2a2815e4c0b8",
+    "bytes": 9003,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08",
+    "bytes": 4983,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/RANK-THREE-CUBIC-PAIRING-EXCLUDED-IN-ADJACENT-GAUSS-PROFILE.md",
+    "git_blob_sha1": "bf3ea1f6bfe3dd58ecfe15a2ccc3c1944f106eca",
+    "sha256": "1af076c5d25e7964324e48131e3a7802e8aacb33d9004a7ab7a797373c42f987",
+    "bytes": 4285,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+    "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+    "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71",
+    "bytes": 12488,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWO-TWO-SEVEN-W-QUOTIENT-IS-EXCLUDED-BY-EXACT-COHOMOLOGY.md",
+    "git_blob_sha1": "509f3023d05a2f05d59c203481e66adb992957fc",
+    "sha256": "4ec904ef46d2ba0c75444f964a434fb8209c4bdde83cdc63ed2afc9939150018",
+    "bytes": 1518,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-DUAL-CUBIC-IMAGE-HAS-RANK-AT-MOST-TWO.md",
+    "git_blob_sha1": "07b8d498acc8a3e75330be8e64d79310f3a88997",
+    "sha256": "75a4b6180f9a9d8148a6b92923e398d8bd8c8269b7e682f2685648ce19b1e86c",
+    "bytes": 7068,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-RANK-TWO-DUAL-IMAGE-FIVE-QUOTIENTS.md",
+    "git_blob_sha1": "0f8b5cf3d9809ff2e315e9eb3d84345b28fd2a76",
+    "sha256": "edb2a1846c94bf5b118ea429d98d680c16249ec0f66ae03783ab25dec9b46960",
+    "bytes": 6603,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-FIVE-QUOTIENT-SECTION-ENVELOPES.md",
+    "git_blob_sha1": "c2733619c67991adee9dc96e488c144ebda2dcfc",
+    "sha256": "dc30706fa927b375499db74664e6cbb69df3b9abc725e1779fb24e0a8dfbb0dd",
+    "bytes": 6538,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-FIRST-REMAINING-QUOTIENT-EXCLUSION.md",
+    "git_blob_sha1": "6d7e1f60b5f8e41a405207297f802e21bafcc1f8",
+    "sha256": "c0414c8a3e0f34efbd55bb28c1702e06a6cfb047dbf3204c1b0785d2ac897625",
+    "bytes": 9874,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-MIDDLE-QUOTIENT-EXCLUSION.md",
+    "git_blob_sha1": "80036d1502b1031189cb154e6f2c08fdd0ff7459",
+    "sha256": "ee9fbffd1954fe78b36cfbeb2a2690ab73d905d063348396340f2674ed58fafc",
+    "bytes": 6894,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-SMALL-QUOTIENT-EXCLUSION.md",
+    "git_blob_sha1": "4a61fd7a44db743795f81763f12d5cd46f66e64a",
+    "sha256": "d0493fcabc4edab5f3675ab47c26d7f4dc65e7e04c52c2109adb7dd2ef7c8275",
+    "bytes": 5525,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-LAST-LOW-QUOTIENT-EXCLUSION.md",
+    "git_blob_sha1": "9f49420e0f1d38093805ad5d310b805b16d4de09",
+    "sha256": "8c7df43f16145518cbb158d43f178b094e588ecfd957453b93707d4dfc4e1f0b",
+    "bytes": 10254,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-LAST-REMAINING-QUOTIENT-REDUCTION.md",
+    "git_blob_sha1": "545f213019885dbddbb80749db3153a3751819c1",
+    "sha256": "16580f90f3f6762e1d78887311f165fffc615d447557e2e6b340c1bf7b18df84",
+    "bytes": 7607,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-DOUBLED-GAUSS-EXCLUSION.md",
+    "git_blob_sha1": "7c4b8cb5e92505664847356be2c7d8c416cbe042",
+    "sha256": "c6e87f68455c452ed7e7060dc4be85b83fffe9a3ec2ca7287bab8360e4521ad1",
+    "bytes": 8055,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-SINGLE-GAUSS-EXCLUSION.md",
+    "git_blob_sha1": "38c33762c1fa6f9127a0ab4d2328e0bc25cf0f3d",
+    "sha256": "471e59d07d8cf82fef361d641669e95b762a9aaed1c5127784f5baa85dce30cf",
+    "bytes": 9967,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-RANK-ONE-TEN-QUOTIENTS.md",
+    "git_blob_sha1": "7e167b8243ed7a82b25cca0a03049eec46663074",
+    "sha256": "259cbdaec289cb5893fca93e32e8b290a5b8471753dfb32729e7bc6ad409b257",
+    "bytes": 5985,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-RANK-ONE-DEGREE-ELEVEN-EXCLUSION.md",
+    "git_blob_sha1": "9bd53a69b34f229d289d81ccfb37cdc649ea9619",
+    "sha256": "67cc7f6b050067a50072cb4a1ca6081b7206802651f47c30a9ee31e90466849c",
+    "bytes": 8776,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-31-FIRST-REMAINING-QUOTIENT-REDUCTION.md",
+    "git_blob_sha1": "9b82c7dbd994ba6bd4d28547dd68a4d76bb2c127",
+    "sha256": "8a9650ea5f01603ad51c1b53010faeef9c7d36712527a8b02961e6d3a315803e",
+    "bytes": 6417,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/profile11.md",
+    "git_blob_sha1": "28053b0f0c59a61526396d51499be6d143bebfec",
+    "sha256": "a53c95281f491f09fffc3a3f8fcd542c2b2038d8306367f9c42c183b9e6e8c03",
+    "bytes": 10069,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/profile12.md",
+    "git_blob_sha1": "5a1832a9d90071d8fb33af180756a0c82c1bea1f",
+    "sha256": "350133fbc70ad5925d7d1369d947b873c7b29118244f2283ba5b1e47eebd349a",
+    "bytes": 9627,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/profile21.md",
+    "git_blob_sha1": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+    "sha256": "be3e6ef741268733f9ddc02405a3d8e030742d8ff3f2378570a0f0d1fe4d1328",
+    "bytes": 9741,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/four-sources.md",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "bytes": 9616,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-THREE-EXACT-QUOTIENTS.md",
+    "git_blob_sha1": "3691b8f29d37b9c1dca6722cc3a591b782efb2cc",
+    "sha256": "0b0b359f584d9ebfc74ae66c829f400ec65e369c1995e492625c79d882574820",
+    "bytes": 5907,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-EXCLUSION.md",
+    "git_blob_sha1": "dbbe17f3ee8fa390aabd4ab1869ad9d4dadedabc",
+    "sha256": "87c85160c8ca8293cbfed101578cc15cc98dec335fc9c5b398de026b82fbaaad",
+    "bytes": 6183,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+    "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c",
+    "bytes": 10451,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWIST-ONE-ACTUAL-SECTION-KERNEL-VANISHING.md",
+    "git_blob_sha1": "26d41b06b3b3f7c1131098dd2c64901530156907",
+    "sha256": "44882df7ae6758d4404b8cdc167e31aa318b54a4047cdc67b347c32b2a69cfab",
+    "bytes": 3977,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/UNIFORM-TWIST-FOUR-FIVE-HYPERPLANE-COHOMOLOGY.md",
+    "git_blob_sha1": "d34434e3bffe4e9de4a6aaa4d5e469336b12d5d0",
+    "sha256": "c7de926d4b63deaa6e36d6ce9b220792cb0a5869ecb557398b381c4cc0dcc3d4",
+    "bytes": 5702,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/UNIFORM-HYPERPLANE-LOWER-VANISHING-AND-JUMP-BOUND.md",
+    "git_blob_sha1": "c7999dc3aa9986638c6b15c11cc65095da12222b",
+    "sha256": "735292edbcf993615cb5459376fbf0174ac4add8d035b4e8a59d375be5e05ee2",
+    "bytes": 6011,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/EXACT-HYPERPLANE-ADJOINT-SYZYGY-BUNDLE.md",
+    "git_blob_sha1": "c9af11e07dd1c4535d9afee94a3c134607d534a3",
+    "sha256": "58c5f822864f63a8ba2ff106692740c8e23c65475dacc7a52fb60d2052d4991d",
+    "bytes": 7140,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TWIST-FIVE-GLOBAL-COHOMOLOGY-AND-BOUNDARY-DEFECT.md",
+    "git_blob_sha1": "1a2d19b62fd4cd1665e236ec04d07653ccd0bf87",
+    "sha256": "b09ca3510f09fdff87ceb2c8b07c64426aab99c8f402dcb06ef49ed984023558",
+    "bytes": 3419,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/POSITIVE-GAMMA-TWO-LINEAR-STEP-CRITERION.md",
+    "git_blob_sha1": "84152581d9378bea29a24a825007464bbbd27b9c",
+    "sha256": "afd9f093ea554e88c0fb045423384b702a4f2faf7ec284307c9dec5f8604c7bc",
+    "bytes": 5031,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/SURJECTIVE-PLANE-BOUNDARY-BY-CONIC-RESIDUALS.md",
+    "git_blob_sha1": "3425a2f62bc5dcc2c937a85ba16c34bf21a98486",
+    "sha256": "cb79dbc004137522cc0e54549bf5bdebf44df3b6ac4fe4c2227ee5dc347a0e81",
+    "bytes": 9699,
+    "immutable_blob_readback_exact": true
+  },
+  {
+    "file": "inputs/TORSION-FREE-HYPERPLANE-AND-QUADRATIC-TARGETS.md",
+    "git_blob_sha1": "3e83197089dbd4796efb5e84451515727a967cf4",
+    "sha256": "16cfbe5b65ecb62137205139d1ab1701b9d6b2354e93469f2e4f02f0639730ec",
+    "bytes": 4524,
+    "immutable_blob_readback_exact": true
+  }
+]

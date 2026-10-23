@@ -1,0 +1,419 @@
+{
+  "allowed_generic_SF_ranks": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "arithmetic": {
+    "Euler_E3": {
+      "T": 2,
+      "Wp": 1
+    },
+    "Euler_Qdual3": {
+      "S": -1,
+      "T": 1,
+      "W": -2
+    },
+    "numerical_plateaux": 20,
+    "ordered_cubic_plateaux": {
+      "11": [
+        14,
+        17,
+        20
+      ],
+      "12": [
+        14,
+        17,
+        20,
+        23
+      ],
+      "13": [
+        14,
+        17,
+        20,
+        23,
+        26
+      ],
+      "21": [
+        11,
+        14,
+        17,
+        20
+      ],
+      "22": [
+        11,
+        14,
+        17,
+        20,
+        23
+      ],
+      "23": [
+        11,
+        14,
+        17,
+        20,
+        23,
+        26
+      ],
+      "31": [
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "32": [
+        8,
+        11,
+        14,
+        17,
+        20,
+        23
+      ],
+      "33": [
+        8,
+        11,
+        14,
+        17,
+        20,
+        23,
+        26
+      ]
+    },
+    "primal_types": 28,
+    "primary_types": [
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "profile21_capacities": {
+      "10": {
+        "maximizers": [
+          [
+            9,
+            1
+          ]
+        ],
+        "maximum": -49
+      },
+      "2": {
+        "maximizers": [
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "maximum": -38
+      },
+      "5": {
+        "maximizers": [
+          [
+            8,
+            2
+          ]
+        ],
+        "maximum": -42
+      },
+      "9": {
+        "maximizers": [
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "maximum": -46
+      }
+    },
+    "second22_defect_caps": {
+      "-2": [
+        0,
+        12
+      ],
+      "0": [
+        4,
+        8
+      ],
+      "2": [
+        8,
+        4
+      ]
+    },
+    "square_rank_table": [
+      {
+        "SF": 0,
+        "cokernel": 13,
+        "kernel": 17,
+        "square": 24
+      },
+      {
+        "SF": 1,
+        "cokernel": 12,
+        "kernel": 16,
+        "square": 25
+      },
+      {
+        "SF": 2,
+        "cokernel": 11,
+        "kernel": 15,
+        "square": 26
+      },
+      {
+        "SF": 3,
+        "cokernel": 10,
+        "kernel": 14,
+        "square": 27
+      },
+      {
+        "SF": 4,
+        "cokernel": 9,
+        "kernel": 13,
+        "square": 28
+      },
+      {
+        "SF": 5,
+        "cokernel": 8,
+        "kernel": 12,
+        "square": 29
+      },
+      {
+        "SF": 6,
+        "cokernel": 7,
+        "kernel": 11,
+        "square": 30
+      },
+      {
+        "SF": 7,
+        "cokernel": 6,
+        "kernel": 10,
+        "square": 31
+      },
+      {
+        "SF": 8,
+        "cokernel": 5,
+        "kernel": 9,
+        "square": 32
+      },
+      {
+        "SF": 9,
+        "cokernel": 4,
+        "kernel": 8,
+        "square": 33
+      },
+      {
+        "SF": 10,
+        "cokernel": 3,
+        "kernel": 7,
+        "square": 34
+      },
+      {
+        "SF": 11,
+        "cokernel": 2,
+        "kernel": 6,
+        "square": 35
+      },
+      {
+        "SF": 12,
+        "cokernel": 1,
+        "kernel": 5,
+        "square": 36
+      },
+      {
+        "SF": 13,
+        "cokernel": 0,
+        "kernel": 4,
+        "square": 37
+      }
+    ]
+  },
+  "direct_inputs_authenticated": 52,
+  "explicit_checks": 26968,
+  "mutations": {
+    "positive_order_controls": 2,
+    "rejected": [
+      "remove profile (1, 1)",
+      "remove chain profile11.md",
+      "remove profile (1, 2)",
+      "remove chain profile12.md",
+      "remove profile (1, 3)",
+      "remove chain EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+      "remove chain EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-THREE-EXACT-QUOTIENTS.md",
+      "remove chain EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-EXCLUSION.md",
+      "remove chain NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+      "remove profile (2, 1)",
+      "remove chain profile21.md",
+      "remove profile (2, 2)",
+      "remove chain TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
+      "remove chain TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
+      "remove chain TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+      "remove chain TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+      "remove chain TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+      "remove chain TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md",
+      "remove profile (2, 3)",
+      "remove chain ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md",
+      "remove profile (3, 1)",
+      "remove chain EXTREMAL-31-DUAL-CUBIC-IMAGE-HAS-RANK-AT-MOST-TWO.md",
+      "remove chain EXTREMAL-31-RANK-TWO-DUAL-IMAGE-FIVE-QUOTIENTS.md",
+      "remove chain EXTREMAL-31-FIVE-QUOTIENT-SECTION-ENVELOPES.md",
+      "remove chain EXTREMAL-31-SMALL-QUOTIENT-EXCLUSION.md",
+      "remove chain EXTREMAL-31-MIDDLE-QUOTIENT-EXCLUSION.md",
+      "remove chain EXTREMAL-31-LAST-LOW-QUOTIENT-EXCLUSION.md",
+      "remove chain EXTREMAL-31-FIRST-REMAINING-QUOTIENT-REDUCTION.md",
+      "remove chain EXTREMAL-31-FIRST-REMAINING-QUOTIENT-EXCLUSION.md",
+      "remove chain EXTREMAL-31-LAST-REMAINING-QUOTIENT-REDUCTION.md",
+      "remove chain EXTREMAL-31-DOUBLED-GAUSS-EXCLUSION.md",
+      "remove chain EXTREMAL-31-SINGLE-GAUSS-EXCLUSION.md",
+      "remove chain EXTREMAL-31-RANK-ONE-TEN-QUOTIENTS.md",
+      "remove chain EXTREMAL-31-RANK-ONE-DEGREE-ELEVEN-EXCLUSION.md",
+      "remove chain EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md",
+      "remove profile (3, 2)",
+      "remove chain four-sources.md",
+      "remove chain SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "remove chain THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "remove chain P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md",
+      "remove chain SINGLE-V-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-EVALUATION.md",
+      "remove chain ZERO-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "remove profile (3, 3)",
+      "remove chain EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "omit lower rank 0",
+      "omit lower rank 1",
+      "omit lower rank 2",
+      "promote generic_only",
+      "promote surjective",
+      "promote full_adjoint",
+      "promote proof_assistant_verified",
+      "promote original_repair",
+      "promote cone_rank36_improved",
+      "change ambient_dimension",
+      "change coefficient_dimension",
+      "change rank_E",
+      "change rank_Qdual",
+      "change degree_E",
+      "change degree_Qdual",
+      "erase maximal",
+      "erase ordered",
+      "erase cubic_sections_E",
+      "erase cubic_sections_Qdual",
+      "erase saturated_sheaf_kernels",
+      "remove32 D0",
+      "remove32 D1",
+      "remove32 P0",
+      "remove32 P1",
+      "remove32 V0",
+      "remove32 V1",
+      "remove32 Z0",
+      "remove32 Z1",
+      "remove32 Z2",
+      "remove32 Z3",
+      "coefficient space substituted as constant ambient",
+      "independent parameter rotation",
+      "horizontal bundle splitting",
+      "rank-three endpoint",
+      "erase second-dual12",
+      "omit single sector",
+      "omit cubic rank1",
+      "omit fifth quotient",
+      "dimension-only bridge",
+      "erase first_map_injective",
+      "erase second_map_surjective",
+      "replace12 by21",
+      "boolean profile index",
+      "missing actual proof ADJACENT-RANK-THREE-GAUSS-EXCLUSION-AND-CONSTRAINTS.md",
+      "missing actual proof EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "missing actual proof EXTREMAL-13-FULL-SATURATION-EXCLUDES-THE-PROFILE.md",
+      "missing actual proof EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-EXCLUSION.md",
+      "missing actual proof EXTREMAL-13-RANK-THREE-CUBIC-IMAGE-THREE-EXACT-QUOTIENTS.md",
+      "missing actual proof EXTREMAL-31-DOUBLED-GAUSS-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-DUAL-CUBIC-IMAGE-HAS-RANK-AT-MOST-TWO.md",
+      "missing actual proof EXTREMAL-31-FIRST-REMAINING-QUOTIENT-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-FIRST-REMAINING-QUOTIENT-REDUCTION.md",
+      "missing actual proof EXTREMAL-31-FIVE-QUOTIENT-SECTION-ENVELOPES.md",
+      "missing actual proof EXTREMAL-31-LAST-LOW-QUOTIENT-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-LAST-RANK-ONE-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-LAST-REMAINING-QUOTIENT-REDUCTION.md",
+      "missing actual proof EXTREMAL-31-MIDDLE-QUOTIENT-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-RANK-ONE-DEGREE-ELEVEN-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-RANK-ONE-TEN-QUOTIENTS.md",
+      "missing actual proof EXTREMAL-31-RANK-TWO-DUAL-IMAGE-FIVE-QUOTIENTS.md",
+      "missing actual proof EXTREMAL-31-SINGLE-GAUSS-EXCLUSION.md",
+      "missing actual proof EXTREMAL-31-SMALL-QUOTIENT-EXCLUSION.md",
+      "missing actual proof GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "missing actual proof NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+      "missing actual proof P4-ZERO-PAIRING-EXCLUDED-BY-BACKWARD-PERSISTENCE.md",
+      "missing actual proof POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "missing actual proof RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+      "missing actual proof RANK-TWO-GAUSS-EXCLUSION-BY-ENDPOINT-FLAGS.md",
+      "missing actual proof RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "missing actual proof SINGLE-D5-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "missing actual proof SINGLE-V-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-EVALUATION.md",
+      "missing actual proof THREE-P4-QUADRATIC-TYPES-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "missing actual proof TWIST-ONE-ACTUAL-SECTION-KERNEL-VANISHING.md",
+      "missing actual proof TWO-TWO-ENDPOINT-RANK-DROP-EXCLUDES-LAST-THREE-PAIRS.md",
+      "missing actual proof TWO-TWO-ENDPOINT-TOP-SLOPE-LEAVES-THREE-PAIRS.md",
+      "missing actual proof TWO-TWO-EXACT-NEGATIVE-KERNEL-SPLITTING-REFINEMENT.md",
+      "missing actual proof TWO-TWO-SECOND-INTERIOR-EULER-EXCLUDES-SEVENTEEN-PAIRS.md",
+      "missing actual proof TWO-TWO-SYMMETRIC-QUOTIENT-DEFECT-IS-ZERO-OR-TWELVE.md",
+      "missing actual proof TWO-TWO-TOP-KERNEL-MULTIPLICITY-EXCLUDES-TEN-PAIRS.md",
+      "missing actual proof ZERO-QUADRATIC-TYPE-EXCLUDED-BY-BACKWARD-GAUSS.md",
+      "missing actual proof four-sources.md",
+      "missing actual proof profile11.md",
+      "missing actual proof profile12.md",
+      "missing actual proof profile21.md"
+    ],
+    "rejected_count": 128
+  },
+  "scope": "conditional integration and abstract arithmetic; not independent reproof of all ancestor geometry",
+  "status": "PASS",
+  "target_proof_sha256": "1f2ec9df105df1d3b3e1b78a1822970c577b6daaa02a15b4d5c56bf076e81532"
+}
