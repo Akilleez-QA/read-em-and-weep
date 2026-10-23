@@ -1,0 +1,569 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Universal varying-multiplier algebra on actual homogeneous binary polynomial subtypes; no actual HM family, calibration, geometric realization, or original theorem repair.",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "toolchain_provenance": {
+    "prior_toolchain_record": {
+      "path": "${WORKSPACE}/work/swarm/lean-publication/equivariant/research/hm/lean-pencil-commutant-equivariant/VERIFICATION.json",
+      "bytes": 9489,
+      "sha256": "99dca6d6d81a28fa9795f451e538c00c644feb52e21ab3df8c8846e194b135ee"
+    },
+    "method": "Compiler commit is retained from the prior verified toolchain record. Packaging independently rehashed the same Lean binary, read lean-toolchain, checked mathlib HEAD and clean tracked state, and compared all eight package HEADs with the pinned mathlib manifest. No compiler or build was rerun.",
+    "compile_receipt_binary_boundary": "The raw supervisor receipts hash the Python executable and recorded inputs; the wrapper execs the fixed Lean path. The Lean binary was rehashed during packaging, not newly added to the historical launch receipts."
+  },
+  "dependency_pins_match_mathlib_manifest": true,
+  "dependency_pin_checks": [
+    {
+      "name": "plausible",
+      "manifest_revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+      "observed_HEAD": "118aa17ee84656b8bd727fef7c458ee8c833385c"
+    },
+    {
+      "name": "LeanSearchClient",
+      "manifest_revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+      "observed_HEAD": "ddf04cf3949fa556442341e87d47f9f6e6074707"
+    },
+    {
+      "name": "importGraph",
+      "manifest_revision": "e928b72544873815af278d38681b31c0293588e3",
+      "observed_HEAD": "e928b72544873815af278d38681b31c0293588e3"
+    },
+    {
+      "name": "proofwidgets",
+      "manifest_revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+      "observed_HEAD": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5"
+    },
+    {
+      "name": "aesop",
+      "manifest_revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+      "observed_HEAD": "355695d523e41d0554926416cba2a2b3544fbbc9"
+    },
+    {
+      "name": "Qq",
+      "manifest_revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+      "observed_HEAD": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259"
+    },
+    {
+      "name": "batteries",
+      "manifest_revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+      "observed_HEAD": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2"
+    },
+    {
+      "name": "Cli",
+      "manifest_revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+      "observed_HEAD": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204"
+    }
+  ],
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean",
+  "source_sha256": "3debef659b6085e55da8701490c05fde148f21a88961c48d5b7ff89a233a3be6",
+  "check_sha256": "861b1010a93714269b95c160629048d924571b8f222b9130232a0e3620119b2e",
+  "direct_imports": [
+    "Mathlib.RingTheory.MvPolynomial.Homogeneous",
+    "Mathlib.LinearAlgebra.QuadraticForm.Basic"
+  ],
+  "OAI_Lean_source_dependencies": [],
+  "published_source_input": {
+    "pull_request": 889,
+    "commit": "72ac7ecc5447415fa8452f12ed6ec16921a600f4",
+    "path": "research/hm/physical-normalization-symmetry/PROOF.md",
+    "sha256": "cf85d577d57f3b08369045b99599738498f0caf1fc0e45009a6d2bf227c95b22",
+    "git_blob": "4c44d68b60ace05607bb08cc4b4b5fee438ea3ad",
+    "url": "https://raw.githubusercontent.com/Akilleez-QA/read-em-and-weep/72ac7ecc5447415fa8452f12ed6ec16921a600f4/research/hm/physical-normalization-symmetry/PROOF.md",
+    "scope": "Section 5, S10 multiplier and nonzero S9 scalar weight only.",
+    "authentication": "Local bytes rehashed and matched to the previously connector-authenticated scout pin; no new remote fetch or geometric re-review."
+  },
+  "exported_theorem_count": 4,
+  "declaration_count_note": "One evaluation formula and three result theorems; BinaryForm and sourceFamilyObservation are supporting definitions, not additional counted theorems.",
+  "dependency_axiom_check_count": 0,
+  "total_axiom_check_count": 4,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "axiom_results": [
+    {
+      "declaration": "OAI.HorrocksMumford.sourceFamilyObservation_apply",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.sourceFamilyObservation_mem_homogeneous16",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.sourceFamilyObservation_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.weighted_sourceFamilyObservation_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "axiom_output_sha256": "a6e23418cc3926fb00cffc430951b71d7732981900e0d1139e7c11aa71b2121a",
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 2694,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean",
+            "sha256": "3debef659b6085e55da8701490c05fde148f21a88961c48d5b7ff89a233a3be6"
+          },
+          {
+            "bytes": 25,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lean-toolchain",
+            "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+          },
+          {
+            "bytes": 2811,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lake-manifest.json",
+            "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 2.275211,
+      "child_peak_rss_bytes": 1168162816,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-source-family-multiplier",
+        "OAI.AlgebraicGeometry.HorrocksMumford.SourceFamilyMultiplier",
+        "module"
+      ],
+      "command_sha256": "6174da206903fcc2060b1f84d70fee75f21e0ed5ced8da11e1e7a8135d2b4902",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 70781,
+          "rss_bytes": 1157267456
+        }
+      ],
+      "pid": 70781,
+      "platform": "darwin",
+      "process_group": 70781,
+      "runtime_seconds": 8.935431,
+      "sampled_group_peak_rss_bytes": 1157267456,
+      "samples": 80,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "compile-0002.json",
+      "receipt_sha256": "58b6f269423beeadab153c76a3a9564545a48d8ea69ee57c33def999614ebf32",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier-review/evidence/compile-0002.json",
+      "stdout": "",
+      "stderr": "",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Only the host workspace prefix is replaced with ${WORKSPACE}; SHA256 values bind original, unnormalized bytes retained locally."
+    },
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 400,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/Check.lean",
+            "sha256": "861b1010a93714269b95c160629048d924571b8f222b9130232a0e3620119b2e"
+          },
+          {
+            "bytes": 2694,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean",
+            "sha256": "3debef659b6085e55da8701490c05fde148f21a88961c48d5b7ff89a233a3be6"
+          },
+          {
+            "bytes": 53048,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/build/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.olean",
+            "sha256": "a6a44aea78ec8cfb3fa54cca34b80b76e076d542e9e8d441ed67af9e0fe4c1c6"
+          },
+          {
+            "bytes": 78576,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/build/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.olean.private",
+            "sha256": "b4afa286fa803c2b9b9d966fce01ac92eb33cae7ac7189913b9fe771f96bafcd"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 1.599275,
+      "child_peak_rss_bytes": 1152434176,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-source-family-multiplier",
+        "OAI.AlgebraicGeometry.HorrocksMumford.SourceFamilyMultiplier",
+        "check"
+      ],
+      "command_sha256": "045a47dbb6ae779b86f00c656ed1e7a33590dbba2aaa6635bf10ec635bb9f049",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 70899,
+          "rss_bytes": 1151565824
+        }
+      ],
+      "pid": 70899,
+      "platform": "darwin",
+      "process_group": 70899,
+      "runtime_seconds": 3.66392625,
+      "sampled_group_peak_rss_bytes": 1151565824,
+      "samples": 34,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "axioms-0001.json",
+      "receipt_sha256": "899a590099ca7b6303fc2bfbc97fa7a95acd664283b1536ea75c083bac423d06",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier-review/evidence/axioms-0001.json",
+      "stdout": "'OAI.HorrocksMumford.sourceFamilyObservation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.sourceFamilyObservation_mem_homogeneous16' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OAI.HorrocksMumford.sourceFamilyObservation_injective' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.weighted_sourceFamilyObservation_injective' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+      "stderr": "",
+      "stdout_sha256": "a6e23418cc3926fb00cffc430951b71d7732981900e0d1139e7c11aa71b2121a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Only the host workspace prefix is replaced with ${WORKSPACE}; SHA256 values bind original, unnormalized bytes retained locally."
+    }
+  ],
+  "failed_attempts": [
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 2680,
+            "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean",
+            "sha256": "9a67ab3e5c95b2abd9d143fada5306a6b13ef969dd166862ce44a5cda894c0f6"
+          },
+          {
+            "bytes": 25,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lean-toolchain",
+            "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+          },
+          {
+            "bytes": 2811,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lake-manifest.json",
+            "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 2.169493,
+      "child_peak_rss_bytes": 1170522112,
+      "child_returncode": 1,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-source-family-multiplier",
+        "OAI.AlgebraicGeometry.HorrocksMumford.SourceFamilyMultiplier",
+        "module"
+      ],
+      "command_sha256": "6174da206903fcc2060b1f84d70fee75f21e0ed5ced8da11e1e7a8135d2b4902",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 70519,
+          "rss_bytes": 1162395648
+        }
+      ],
+      "pid": 70519,
+      "platform": "darwin",
+      "process_group": 70519,
+      "runtime_seconds": 9.958931959000001,
+      "sampled_group_peak_rss_bytes": 1162395648,
+      "samples": 91,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "child_failed",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "compile-0001.json",
+      "receipt_sha256": "e6528a9bb56a49781a98ddc3f1bb988f8a56ad294abf05a27b37881146a10d36",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier-review/evidence/compile-0001.json",
+      "stdout": "${WORKSPACE}/work/swarm/lean-source-family-multiplier/lean/OAI/AlgebraicGeometry/HorrocksMumford/SourceFamilyMultiplier.lean:18:4: error(lean.dependsOnNoncomputable): failed to compile definition, consider marking it as 'noncomputable' because it depends on 'AddMonoidAlgebra.nonUnitalNonAssocSemiring', which is 'noncomputable'\n",
+      "stderr": "",
+      "stdout_sha256": "57834565cd1ef7c41b8ff6da9fc7528ee754d13b98856afb79ee6e1ec71cac0e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Only the host workspace prefix is replaced with ${WORKSPACE}; SHA256 values bind original, unnormalized bytes retained locally.",
+      "failure_classification": "Definition depended on a noncomputable polynomial semiring instance.",
+      "preserved_failed_source": {
+        "path": "${WORKSPACE}/work/swarm/lean-source-family-multiplier-review/evidence/compile-0001-source.lean",
+        "bytes": 2680,
+        "sha256": "9a67ab3e5c95b2abd9d143fada5306a6b13ef969dd166862ce44a5cda894c0f6"
+      },
+      "preserved_failed_source_text": "module\n\npublic import Mathlib.RingTheory.MvPolynomial.Homogeneous\npublic import Mathlib.LinearAlgebra.QuadraticForm.Basic\n\nset_option autoImplicit false\n\n@[expose] public section\n\nnamespace OAI.HorrocksMumford\n\nvariable (k : Type*) [Field k]\n\n/-- Binary forms as actual homogeneous polynomials, including the zero form. -/\nabbrev BinaryForm (n : ℕ) := MvPolynomial.homogeneousSubmodule (Fin 2) k n\n\n/-- The varying-multiplier observation in S10, quadratic in the quartic input. -/\ndef sourceFamilyObservation (L : BinaryForm k 4 →ₗ[k] BinaryForm k 12) :\n    QuadraticMap k (BinaryForm k 4) (MvPolynomial (Fin 2) k) :=\n  QuadraticMap.linMulLin\n    (MvPolynomial.homogeneousSubmodule (Fin 2) k 4).subtype\n    ((MvPolynomial.homogeneousSubmodule (Fin 2) k 12).subtype.comp L)\n\nvariable {k}\n\n@[simp]\ntheorem sourceFamilyObservation_apply (L : BinaryForm k 4 →ₗ[k] BinaryForm k 12) (h : BinaryForm k 4) :\n    sourceFamilyObservation k L h = (h : MvPolynomial (Fin 2) k) * (L h : MvPolynomial (Fin 2) k) :=\n  rfl\n\n/-- S10 has degree-sixteen output; no identification with a symmetric square is used. -/\ntheorem sourceFamilyObservation_mem_homogeneous16\n    (L : BinaryForm k 4 →ₗ[k] BinaryForm k 12) (h : BinaryForm k 4) :\n    sourceFamilyObservation k L h ∈ MvPolynomial.homogeneousSubmodule (Fin 2) k 16 := by\n  change ((h : MvPolynomial (Fin 2) k) * (L h : MvPolynomial (Fin 2) k)).IsHomogeneous 16\n  exact MvPolynomial.IsHomogeneous.mul h.property (L h).property\n\n/-- Universal varying-multiplier cancellation in the actual polynomial domain. -/\ntheorem sourceFamilyObservation_injective : Function.Injective (sourceFamilyObservation k) := by\n  intro L₁ L₂ heq\n  apply LinearMap.ext\n  intro h\n  by_cases hh : h = 0\n  · subst h\n    simp only [map_zero]\n  · apply Subtype.ext\n    have hp : (h : MvPolynomial (Fin 2) k) ≠ 0 := by\n      intro hz\n      apply hh\n      exact Subtype.ext hz\n    have he := congrArg (fun Q : QuadraticMap k (BinaryForm k 4)\n      (MvPolynomial (Fin 2) k) => Q h) heq\n    exact mul_left_cancel₀ hp he\n\n/-- The nonzero scalar weight in S9 preserves the S10 injectivity statement. -/\ntheorem weighted_sourceFamilyObservation_injective (c : k) (hc : c ≠ 0) :\n    Function.Injective (fun L : BinaryForm k 4 →ₗ[k] BinaryForm k 12 =>\n      (-(c ^ 3)) • sourceFamilyObservation k L) := by\n  intro L₁ L₂ heq\n  apply sourceFamilyObservation_injective\n  have hw : -(c ^ 3) ≠ 0 := neg_ne_zero.mpr (pow_ne_zero 3 hc)\n  have he := congrArg (fun Q : QuadraticMap k (BinaryForm k 4)\n    (MvPolynomial (Fin 2) k) => (-(c ^ 3))⁻¹ • Q) heq\n  simpa only [smul_smul, inv_mul_cancel₀ hw, one_smul] using he\n\nend OAI.HorrocksMumford\n"
+    }
+  ],
+  "successful_repair": {
+    "failed_source_sha256": "9a67ab3e5c95b2abd9d143fada5306a6b13ef969dd166862ce44a5cda894c0f6",
+    "final_source_sha256": "3debef659b6085e55da8701490c05fde148f21a88961c48d5b7ff89a233a3be6",
+    "exact_change": "Prefix the sole sourceFamilyObservation definition with noncomputable; all other bytes are unchanged.",
+    "diff": "--- compile-0001-source.lean\n+++ SourceFamilyMultiplier.lean\n@@ -15,7 +15,7 @@\n abbrev BinaryForm (n : ℕ) := MvPolynomial.homogeneousSubmodule (Fin 2) k n\n \n /-- The varying-multiplier observation in S10, quadratic in the quartic input. -/\n-def sourceFamilyObservation (L : BinaryForm k 4 →ₗ[k] BinaryForm k 12) :\n+noncomputable def sourceFamilyObservation (L : BinaryForm k 4 →ₗ[k] BinaryForm k 12) :\n     QuadraticMap k (BinaryForm k 4) (MvPolynomial (Fin 2) k) :=\n   QuadraticMap.linMulLin\n     (MvPolynomial.homogeneousSubmodule (Fin 2) k 4).subtype\n"
+  },
+  "dependency_cache": {
+    "status": "success",
+    "requested_imports": [
+      "Mathlib.RingTheory.MvPolynomial.Homogeneous",
+      "Mathlib.LinearAlgebra.QuadraticForm.Basic"
+    ],
+    "downloaded_and_decompressed_cache_files": 517,
+    "already_decompressed_files_reported": 1824,
+    "count_scope": "Cache log reports files; this is not a count of newly proved declarations or an independent kernel verification of all imports.",
+    "run": {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 583,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/cache-source-family.py",
+            "sha256": "04533af9fa87affb8e5b644f2ae8b8bbd531da2583d576dd06a7041c5ca30026"
+          },
+          {
+            "bytes": 25,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lean-toolchain",
+            "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+          },
+          {
+            "bytes": 2811,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lake-manifest.json",
+            "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 6.931245,
+      "child_peak_rss_bytes": 700203008,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/cache-source-family.py"
+      ],
+      "command_sha256": "f196c24673f724c9d08bb1671a699caa560a6570886ba5ff75840b86fa2aeff2",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 70219,
+          "rss_bytes": 684310528
+        },
+        {
+          "pid": 70284,
+          "rss_bytes": 58163200
+        },
+        {
+          "pid": 70333,
+          "rss_bytes": 9306112
+        },
+        {
+          "pid": 70363,
+          "rss_bytes": 25673728
+        }
+      ],
+      "pid": 70219,
+      "platform": "darwin",
+      "process_group": 70219,
+      "runtime_seconds": 11.319684541,
+      "sampled_group_peak_rss_bytes": 777453568,
+      "samples": 106,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "cache-source-family-receipt.json",
+      "receipt_sha256": "bc68ce0504619d9cf171a20a568876a81e8dc11063e9ed50d56eeae06024b7c3",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-runtime/cache-source-family-receipt.json",
+      "stdout": "Current branch: HEAD\nUsing cache from origin: (some leanprover-community/mathlib4)\nAttempting to download 517 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master\nDecompressed 517 file(s)\nAlready decompressed 1824 file(s)\n",
+      "stderr": "ℹ [41/41] Replayed cache:exe\ninfo: stderr:\nld64.lld: warning: directory not found for option -L/usr/local/lib\n\nDownloaded: 1 file(s) [attempted 1/517 = 0%, 16 KB/s], Decompressed: 0\u001b[K\nDownloaded: 65 file(s) [attempted 65/517 = 12%, 1231 KB/s], Decompressed: 45\u001b[K\nDownloaded: 143 file(s) [attempted 143/517 = 27%, 275 KB/s], Decompressed: 65\u001b[K\nDownloaded: 192 file(s) [attempted 192/517 = 37%, 255 KB/s], Decompressed: 114\u001b[K\nDownloaded: 231 file(s) [attempted 231/517 = 44%, 544 KB/s], Decompressed: 163\u001b[K\nDownloaded: 290 file(s) [attempted 290/517 = 56%, 203 KB/s], Decompressed: 212\u001b[K\nDownloaded: 310 file(s) [attempted 310/517 = 59%, 1573 KB/s], Decompressed: 251\u001b[K\nDownloaded: 359 file(s) [attempted 359/517 = 69%, 113 KB/s], Decompressed: 330\u001b[K\nDownloaded: 423 file(s) [attempted 423/517 = 81%, 47 KB/s], Decompressed: 359\u001b[K\nDownloaded: 477 file(s) [attempted 477/517 = 92%, 1149 KB/s], Decompressed: 408\u001b[K\nDownloaded: 517 file(s) [attempted 517/517 = 100%, 1149 KB/s], Decompressed: 408\u001b[K\n",
+      "stdout_sha256": "3c47104dec829ac9f49f1f2ecbbbd2a034b85493d5ce22035082b3e56a0a58fa",
+      "stderr_sha256": "54e673fec2808fdb2dfa4c0b9998d8f590e82165df940418b12e7e1894660883",
+      "normalization": "Only the host workspace prefix is replaced with ${WORKSPACE}; SHA256 values bind original, unnormalized bytes retained locally."
+    }
+  },
+  "resource_scope": {
+    "Lean_arguments": [
+      "-j1",
+      "-M1200"
+    ],
+    "cpu": "60-second inherited RLIMIT_CPU per process, not aggregate process-group CPU",
+    "wall": "75-second monotonic watchdog",
+    "rss": "1.5 GiB sampled sum for the owned process group, with no finite overshoot guarantee between samples",
+    "hard_address_space_limit_on_Darwin": false,
+    "limits_raised_for_final_runs": false
+  },
+  "verification_boundaries": [
+    "Successful compilation and importing #print axioms are distinct recorded runs of the same Lean installation, not an independent second kernel.",
+    "No characteristic-zero, G-action, dimension10/12/13, orbit separation, source-image membership, physical extraction, globality, or independent-reference certificate is proved here.",
+    "The weighted theorem assumes a nonzero scalar; a single quartic observation or a vanishing multiplier does not imply the required whole-family equality.",
+    "No source-family symbolic Python verifier or actual-instance job was rerun during this evidence packaging."
+  ],
+  "normalization": "All host workspace prefixes in copied receipt paths and output strings are replaced with ${WORKSPACE}. Raw receipts, failed input, and logs remain unchanged locally and are bound by their original SHA256 values."
+}
