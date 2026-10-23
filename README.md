@@ -1,16 +1,22 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: direct Gauss profile cuts through PR1135**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: actual profile-(2,1) closure through PR1138**
 
-**Maximal profile (1,2) is excluded under the pinned profile-specific necessity theorem. Profile (2,1) now requires D-type and retains four necessary original rows: 2, 5, 9, 10. Profile (1,1) and the broader maximal-profile coverage bridge remain open; there is no global rank-three exclusion or complete repair.**
+**Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/135-actual-gauss-profile-cuts.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/136-actual-profile21-closure.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
-## Direct actual Gauss visibility and profile cuts through PR1135
+## Actual maximal profile (2,1) closure through PR1138
 
-[The Gauss-profile chapter](paper/135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. Profile (2,1) forces D-type, and two further quotient-shape exclusions leave original indices **2, 5, 9, 10**. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+[The endpoint-closure chapter](paper/136-actual-profile21-closure.md) excludes all four original profile-(2,1) rows left at PR1135. Six universal endpoint height partitions give strict degree-capacity contradictions for rows 5, 9 and 10. Row 2 forces an equality flag, then the full degree-ten polynomial system; its apolar annihilator contradicts the actual D-type source degrees.
 
-The four residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
+**Both maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain separate obligations. No global rank-three exclusion or complete original repair is claimed.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
+
+## Historical PR1135 checkpoint: direct actual Gauss visibility and profile cuts
+
+[The Gauss-profile chapter](paper/135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+
+Those four historical residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
 
 ## Conditional intrinsic radical filtrations
 

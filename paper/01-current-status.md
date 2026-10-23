@@ -1,6 +1,6 @@
 # Current mathematical status
 
-**Craig Ward · 23 October 2026 · Current checkpoint: direct Gauss profile cuts through PR1135**
+**Craig Ward · 23 October 2026 · Current checkpoint: actual profile-(2,1) closure through PR1138**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
@@ -8,11 +8,17 @@ Both source2 mechanisms and their fourth/fifth alternatives below are now **hist
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
 
-## Direct actual Gauss visibility and profile cuts through PR1135
+## Actual maximal profile (2,1) closure through PR1138
 
-[The Gauss-profile chapter](135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. Profile (2,1) forces D-type, and two further quotient-shape exclusions leave original indices **2, 5, 9, 10**. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+[The endpoint-closure chapter](136-actual-profile21-closure.md) excludes all four original profile-(2,1) rows left at PR1135. Six universal endpoint height partitions give strict degree-capacity contradictions for rows 5, 9 and 10. Row 2 forces an equality flag, then the full degree-ten polynomial system; its apolar annihilator contradicts the actual D-type source degrees.
 
-The four residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
+**Both maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain separate obligations. No global rank-three exclusion or complete original repair is claimed.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
+
+## Historical PR1135 checkpoint: direct actual Gauss visibility and profile cuts
+
+[The Gauss-profile chapter](135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+
+Those four historical residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
 
 ## Conditional intrinsic radical filtrations
 
