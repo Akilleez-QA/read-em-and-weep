@@ -1,0 +1,302 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_originals": 9,
+  "checks": 242,
+  "global_rank3_exclusion": false,
+  "historical_enumeration_rerun": false,
+  "profile12_excluded_old_indices": [
+    0,
+    2,
+    4,
+    6,
+    7,
+    8,
+    12,
+    14,
+    20,
+    21
+  ],
+  "profile21_excluded_original_indices": [
+    0,
+    1,
+    8,
+    11,
+    12
+  ],
+  "profile21_forced_actual_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+  "profile21_retained": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.d610e381ed75",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 2
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.ae29bef8b31e",
+      "original_defect": 12,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 3
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.3bc00aa2165a",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 4
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.ed1df480d8d2",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 5
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.94406336f081",
+      "original_defect": 12,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 6
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          5,
+          "W"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.8de61cbbef4b",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 7
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.1c43993b4f83",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 9
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          9,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "forced_E": "D O(-2)+(Wp+T)O(-3)+V O(-4)+O(-8)",
+      "id": "G3.21.d41783aef00b",
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 10
+    }
+  ],
+  "scope": "Direct profile-specific coverage reduction, not COV or global rank3 exclusion",
+  "unresolved_profiles": [
+    "11",
+    "21"
+  ]
+}
