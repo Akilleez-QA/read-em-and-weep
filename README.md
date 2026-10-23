@@ -1,56 +1,70 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: two further actual shapes excluded by complete rank-one flags**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: conditional maximal profile (1,1) closure**
 
-**Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
+**Maximal profiles (1,1), (1,2) and (2,1) are excluded under their pinned actual-geometric and profile-specific necessity hypotheses. Other-profile exhaustion and global transfer remain separate obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/142-complete-rank-one-flag-exclusions.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/144-maximal-profile11-closure.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Maximal profile (1,1) excluded under the pinned geometric hypotheses
+
+[The integrated closure](paper/144-maximal-profile11-closure.md) combines P/V/Z source exclusions, the exact three-pair D frontier and checked exclusions of all three residual ordered pairs. Thus maximal rank-three profile (1,1) cannot occur under the original actual-geometric and necessity hypotheses. The final arguments use a finite-jet bound, actual constant splittings, equivariant determinant gaps and invariant common-factor contradictions for nested images.
+
+This closes the named profile, not the original repair. Profiles (1,2) and (2,1) were already excluded under their respective hypotheses; proving that these named profiles exhaust every relevant actual possibility remains a separate bridge. Global rank-three exclusion, full-adjoint invertibility and algebraicity are not claimed. Chapter143 preserves the preceding three-pair checkpoint; the PDF is unchanged.
+
+## Historical checkpoints and superseded frontiers
+
+The following summaries preserve the sequence of earlier deductions. Their former open-case lists are historical, not the current frontier. Chapter144 supplies the conditional profile-(1,1) closure; other-profile exhaustion and the original repair remain separate. Frozen chapter files retain their original cutoffs.
+
+### Source-coverage checkpoint through PR1161, PR1162 and PR1164
+
+[Chapter143](paper/143-three-source-closures-and-d-frontier.md) preserves the source-conditioned closure of P/V/Z and the then-necessary three ordered D pairs. That frontier is superseded by chapter144; the three pairs are now excluded, not realized configurations. Historical partition counts remain provenance, not live-cut totals.
 
 ## Two further actual quotient shapes excluded by complete flags
 
 [The complete rank-one flag theorem](paper/142-complete-rank-one-flag-exclusions.md) excludes A=W′ O(-3)+O(16) and A=W′ O(-5)+O(16) for all four actual sources when the backward plateau length is one. The forced scalar endpoint leads to fourteen line quotients. Invariant ramification permits only five and two degree patterns, respectively; every pattern violates exact representation-valued Euler additivity although its ordinary dimensions agree.
 
-Together with the preceding two exclusions, this removes all four A shapes singled out by the P-source certificate's forced-factorization result. Its historical test counts are not a live frontier. Profile (1,1), other-profile exhaustion and the original repair remain open; preceding chapters and the PDF are preserved.
+Together with the preceding two exclusions, this removes all four A shapes singled out by the P-source certificate's forced-factorization result. Its historical test counts are not a live frontier. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; preceding chapters and the PDF are preserved.
 
 ## Two actual terminal-doublet quotient shapes excluded
 
 [The new endpoint theorem](paper/141-terminal-doublet-two-shape-exclusion.md) excludes A=W′ O(-1)+O(4) and A=W′ O(-1)+O(10) for all four actual source types when the backward plateau length is one, hence in maximal profile (1,1), independently of B and determinant defect. A forced exact doublet derivative image and a second strict-top step give twelve degrees at most -5; their required totals -50 and -56 are impossible.
 
-This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. Profile (1,1), other-profile exhaustion and the original repair remain open; the preceding chapter and PDF are preserved.
+This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; the preceding chapter and PDF are preserved.
 
 ## Actual P-type cubic kernel and Euler image
 
 [The new P-type theorem](paper/140-p-type-cubic-euler-image.md) proves that a nonzero actual cubic Gauss kernel is equivalent to factorization of the actual top row through W′ O(-1). It determines the coherent image and restricted top kernel, without identifying either with a canonical complement or assuming saturation of the image. A Hom-vanishing criterion forces cubic-kernel vanishing and a tightened quartic representation envelope.
 
-This is a reusable necessary condition, not a new target exclusion. Profile (1,1), other-profile exhaustion and the original repair remain open. The sextic-channel chapter and delivered PDF are unchanged.
+This is a reusable necessary condition, not a new target exclusion. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate. The sextic-channel chapter and delivered PDF are unchanged.
 
 ## Complete sextic-channel and coefficient-span classification
 
 [The new universal classification](paper/139-complete-sextic-channel-classification.md) covers all three equivariant sextic systems V, P and V+P, with multiplier thresholds 2, 1 and 0 and quotient lengths 27, 24 and 21. In the apolar setting it proves that the coefficient image equals the active-channel multiplier span. A nonzero map on the full system need not activate both constituents; inactive source blocks remain in the kernel and strengthen the codimension bound.
 
-The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; profile (1,1), other-profile exhaustion and the original repair remain open.
+The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; at that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate.
 
 ## Balanced net and sharp apolar codimension criterion
 
 [The universal refinement](paper/138-balanced-net-and-sharp-apolar-bound.md) identifies the marked sextic net's exact kernel W′O(-3), proves quadratic multiplication already surjective, and gives its finite polynomial quotient length 27. The resulting apolar criterion forces codimension at least n−2, or n−1 with a nonzero higher-degree source block, under explicit actual osculating-containment hypotheses. Both bounds have sharp abstract models.
 
-This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. Profile (1,1), other-profile exhaustion and the original repair remain open; the PDF is unchanged.
+This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; the PDF is unchanged.
 
 ## Stronger cubic conditions and actual ambient reduction through PR1145
 
-[The new structural chapter](paper/137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; the whole profile is not closed.
+[The new structural chapter](paper/137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; that result alone did not close the profile, subsequently closed conditionally in chapter144.
 
-Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. Profile (1,1), other-profile exhaustion and the original repair remain open at this checkpoint.
+Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. At that checkpoint profile (1,1) was open; its status is superseded by chapter144. Other-profile exhaustion and the original repair remain separate.
 
 ## Actual maximal profile (2,1) closure through PR1138
 
 [The endpoint-closure chapter](paper/136-actual-profile21-closure.md) excludes all four original profile-(2,1) rows left at PR1135. Six universal endpoint height partitions give strict degree-capacity contradictions for rows 5, 9 and 10. Row 2 forces an equality flag, then the full degree-ten polynomial system; its apolar annihilator contradicts the actual D-type source degrees.
 
-**Both maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain separate obligations. No global rank-three exclusion or complete original repair is claimed.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
+**At the chapter136 checkpoint, maximal profiles (1,2) and (2,1) were excluded while (1,1) remained open. Chapter144 supersedes that last status. Other-profile exhaustion and the original repair remain separate obligations.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
 
 ## Historical PR1135 checkpoint: direct actual Gauss visibility and profile cuts
 
-[The Gauss-profile chapter](paper/135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+[The Gauss-profile chapter](paper/135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) was open at that checkpoint and is now superseded by chapter144; the broader maximal-profile coverage bridge remains separate, with no global rank-three conclusion.
 
 Those four historical residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
 

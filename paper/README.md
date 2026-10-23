@@ -1,6 +1,6 @@
-# Living research paper · v0.64
+# Living research paper · v0.66
 
-**Craig Ward · 23 October 2026 · Current checkpoint: two further actual shapes excluded by complete rank-one flags**
+**Craig Ward · 23 October 2026 · Current checkpoint: conditional maximal profile (1,1) closure**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
@@ -8,51 +8,65 @@ Both source2 mechanisms and their fourth/fifth alternatives below are now **hist
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
 
+## Maximal profile (1,1) excluded under the pinned geometric hypotheses
+
+[The integrated closure](144-maximal-profile11-closure.md) combines P/V/Z source exclusions, the exact three-pair D frontier and checked exclusions of all three residual ordered pairs. Thus maximal rank-three profile (1,1) cannot occur under the original actual-geometric and necessity hypotheses. The final arguments use a finite-jet bound, actual constant splittings, equivariant determinant gaps and invariant common-factor contradictions for nested images.
+
+This closes the named profile, not the original repair. Profiles (1,2) and (2,1) were already excluded under their respective hypotheses; proving that these named profiles exhaust every relevant actual possibility remains a separate bridge. Global rank-three exclusion, full-adjoint invertibility and algebraicity are not claimed. Chapter143 preserves the preceding three-pair checkpoint; the PDF is unchanged.
+
+## Historical checkpoints and superseded frontiers
+
+The following summaries preserve the sequence of earlier deductions. Their former open-case lists are historical, not the current frontier. Chapter144 supplies the conditional profile-(1,1) closure; other-profile exhaustion and the original repair remain separate. Frozen chapter files retain their original cutoffs.
+
+### Source-coverage checkpoint through PR1161, PR1162 and PR1164
+
+[Chapter143](143-three-source-closures-and-d-frontier.md) preserves the source-conditioned closure of P/V/Z and the then-necessary three ordered D pairs. That frontier is superseded by chapter144; the three pairs are now excluded, not realized configurations. Historical partition counts remain provenance, not live-cut totals.
+
 ## Two further actual quotient shapes excluded by complete flags
 
 [The complete rank-one flag theorem](142-complete-rank-one-flag-exclusions.md) excludes A=W′ O(-3)+O(16) and A=W′ O(-5)+O(16) for all four actual sources when the backward plateau length is one. The forced scalar endpoint leads to fourteen line quotients. Invariant ramification permits only five and two degree patterns, respectively; every pattern violates exact representation-valued Euler additivity although its ordinary dimensions agree.
 
-Together with the preceding two exclusions, this removes all four A shapes singled out by the P-source certificate's forced-factorization result. Its historical test counts are not a live frontier. Profile (1,1), other-profile exhaustion and the original repair remain open; preceding chapters and the PDF are preserved.
+Together with the preceding two exclusions, this removes all four A shapes singled out by the P-source certificate's forced-factorization result. Its historical test counts are not a live frontier. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; preceding chapters and the PDF are preserved.
 
 ## Two actual terminal-doublet quotient shapes excluded
 
 [The new endpoint theorem](141-terminal-doublet-two-shape-exclusion.md) excludes A=W′ O(-1)+O(4) and A=W′ O(-1)+O(10) for all four actual source types when the backward plateau length is one, hence in maximal profile (1,1), independently of B and determinant defect. A forced exact doublet derivative image and a second strict-top step give twelve degrees at most -5; their required totals -50 and -56 are impossible.
 
-This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. Profile (1,1), other-profile exhaustion and the original repair remain open; the preceding chapter and PDF are preserved.
+This advances beyond the source-conditioned certificate, whose Hom-filter rejections only overlapped prior cuts but exposed forced actual Euler factorizations. Historical row labels are not live counts. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; the preceding chapter and PDF are preserved.
 
 ## Actual P-type cubic kernel and Euler image
 
 [The new P-type theorem](140-p-type-cubic-euler-image.md) proves that a nonzero actual cubic Gauss kernel is equivalent to factorization of the actual top row through W′ O(-1). It determines the coherent image and restricted top kernel, without identifying either with a canonical complement or assuming saturation of the image. A Hom-vanishing criterion forces cubic-kernel vanishing and a tightened quartic representation envelope.
 
-This is a reusable necessary condition, not a new target exclusion. Profile (1,1), other-profile exhaustion and the original repair remain open. The sextic-channel chapter and delivered PDF are unchanged.
+This is a reusable necessary condition, not a new target exclusion. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate. The sextic-channel chapter and delivered PDF are unchanged.
 
 ## Complete sextic-channel and coefficient-span classification
 
 [The new universal classification](139-complete-sextic-channel-classification.md) covers all three equivariant sextic systems V, P and V+P, with multiplier thresholds 2, 1 and 0 and quotient lengths 27, 24 and 21. In the apolar setting it proves that the coefficient image equals the active-channel multiplier span. A nonzero map on the full system need not activate both constituents; inactive source blocks remain in the kernel and strengthen the codimension bound.
 
-The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; profile (1,1), other-profile exhaustion and the original repair remain open.
+The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; at that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate.
 
 ## Balanced net and sharp apolar codimension criterion
 
 [The universal refinement](138-balanced-net-and-sharp-apolar-bound.md) identifies the marked sextic net's exact kernel W′O(-3), proves quadratic multiplication already surjective, and gives its finite polynomial quotient length 27. The resulting apolar criterion forces codimension at least n−2, or n−1 with a nonzero higher-degree source block, under explicit actual osculating-containment hypotheses. Both bounds have sharp abstract models.
 
-This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. Profile (1,1), other-profile exhaustion and the original repair remain open; the PDF is unchanged.
+This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. At that checkpoint profile (1,1) was open, now superseded by chapter144; other-profile exhaustion and the original repair remain separate; the PDF is unchanged.
 
 ## Stronger cubic conditions and actual ambient reduction through PR1145
 
-[The new structural chapter](137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; the whole profile is not closed.
+[The new structural chapter](137-cubic-visibility-and-ambient-reduction.md) proves two independent cubic T channels in the actual quotient and records two further quotient-shape exclusions. It also explains the checked complete-coefficient splitting lemma: under its explicit actual projection hypotheses, an entire polynomial block splits in a constant ambient decomposition, so Gauss ranks add. PR1145 establishes its actual height-seven application and excludes the exact quotient O(-8)+O(2)+O(16) within maximal profile (1,1). Its partial coefficient system is proved complete by a sextic-net span argument; that result alone did not close the profile, subsequently closed conditionally in chapter144.
 
-Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. Profile (1,1), other-profile exhaustion and the original repair remain open at this checkpoint.
+Marked-doublet rank/saturation thresholds and a conditional twelve-point defect are separate results; the exact endpoint-capacity certificate is reusable arithmetic with geometric prerequisites. Historical row counts are not live totals. At that checkpoint profile (1,1) was open; its status is superseded by chapter144. Other-profile exhaustion and the original repair remain separate.
 
 ## Actual maximal profile (2,1) closure through PR1138
 
 [The endpoint-closure chapter](136-actual-profile21-closure.md) excludes all four original profile-(2,1) rows left at PR1135. Six universal endpoint height partitions give strict degree-capacity contradictions for rows 5, 9 and 10. Row 2 forces an equality flag, then the full degree-ten polynomial system; its apolar annihilator contradicts the actual D-type source degrees.
 
-**Both maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain separate obligations. No global rank-three exclusion or complete original repair is claimed.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
+**At the chapter136 checkpoint, maximal profiles (1,2) and (2,1) were excluded while (1,1) remained open. Chapter144 supersedes that last status. Other-profile exhaustion and the original repair remain separate obligations.** Chapter 135 is the preserved PR1135 snapshot: its four remaining rows are no longer current possibilities.
 
 ## Historical PR1135 checkpoint: direct actual Gauss visibility and profile cuts
 
-[The Gauss-profile chapter](135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) and the broader maximal-profile coverage bridge remain open; no global rank-three conclusion follows.
+[The Gauss-profile chapter](135-actual-gauss-profile-cuts.md) proves the actual coefficient-space inclusion W′+T6↪H0(A_q(3)), **not fiber rank eight**. Under the original profile-specific necessity theorems, maximal profile (1,2) is excluded. At that checkpoint, profile (2,1) forced D-type and two further quotient-shape exclusions left original indices **2, 5, 9, 10**; PR1138 now excludes all four. Profile (1,1) was open at that checkpoint and is now superseded by chapter144; the broader maximal-profile coverage bridge remains separate, with no global rank-three conclusion.
 
 Those four historical residual profile rows differ from both the four general necessary E types and the four historical source pairs. Historical 30/182 and 14-row cuts are not new live totals. The original Gauss embedding is used directly, without declaring the canonical negative-tail projector positive/Q/Gauss-compatible.
 
@@ -84,7 +98,7 @@ All statements below describing a branch as “remaining,” “surviving,” �
 
 Under R=0, the actual inverse separated-image isomorphism Ξ has three nonzero Schur coordinates. Fifth zero is exactly the alternating ratio (D:P:V)=(−1:1:1). A fixed canonical-A normalization propagates polynomial corrected strings to every order. In that zero case all maximal minors vanish identically, giving rank≤36 everywhere on the fixed Q+tT_a slice, not all quadratic directions or the full adjoint.
 
-Earlier residual generic 5–24 and fifth-zero≥6 bounds below are historical and superseded by this theorem. The general finite 21-stage criterion remains valid and relevant to nonzero-N0; its higher outcomes are not removed by the residual proof. Direction-specific exceptional-point bounds when the global fourth is nonzero are not replaced by a claim of uniform exponent 4 or 5. Neither endpoint-sixteen mechanism is selected; four necessary source pairs remain.
+Earlier residual generic 5–24 and fifth-zero≥6 bounds below are historical and superseded by this theorem. The general finite 21-stage criterion remains valid and relevant to nonzero-N0; its higher outcomes are not removed by the residual proof. Direction-specific exceptional-point bounds when the global fourth is nonzero are not replaced by a claim of uniform exponent 4 or 5. Neither endpoint-sixteen mechanism is selected; four necessary source pairs remained. This was the historical checkpoint, not a current count.
 
 ## Forced correction placement and bounded checking through PR1113
 
@@ -92,7 +106,7 @@ Earlier residual generic 5–24 and fifth-zero≥6 bounds below are historical a
 
 [The bounded rational checker](128-bounded-certificate-checker.md) verifies supplied polynomial correction identities and optional supplied-action equivariance. All examples are synthetic; actual-map authentication and actual positive rank remain undetermined. [Mr. slop's source reports](129-positive-contraction-source-reports.md) identify the marked transgression detector and constrain the actual positive contraction to at least two effective channels. Neither detector nor mechanism is selected.
 
-The finite sequential criterion, completed universal component-scheme classification, endpoint-sixteen alternatives and four-pair frontier remain unchanged.
+At that historical checkpoint, the finite sequential criterion, universal component-scheme classification, endpoint-sixteen alternatives and four-pair frontier were unchanged; this is not a current frontier claim.
 
 ## Finite sequential positive criterion and canonical terminal sextet through PR1107
 
@@ -100,7 +114,7 @@ The finite sequential criterion, completed universal component-scheme classifica
 
 [PR1106](125-canonical-q-terminal.md) constructs actual T_Q=Q3(NC3)=WQ2(V_C)≅T with a saturated Euler subpencil. In residual-large it complements C_term via ℓ. If τ=0, its first-block projection specifically identifies the nonzero Q2 channel onto (N0,4)_V and the terminal T it generates. This is not the earlier degree-four U_Q, a positive-module splitting or a computed fifth class.
 
-Endpoint sixteen, two unselected mechanisms and four necessary source pairs remain. Earlier fifth and degree bounds are now parts of the proved finite criterion, not evaluated outcomes.
+Endpoint sixteen, two unselected mechanisms and four necessary source pairs remained. This was the historical checkpoint, not a current count. Earlier fifth and degree bounds are now parts of the proved finite criterion, not evaluated outcomes.
 
 ## Sharper bounds and the actual fifth gate through PR1104
 
@@ -114,13 +128,13 @@ Endpoint sixteen, two unselected mechanisms and four necessary source pairs rema
 
 [The surviving residual-positive theorem](121-residual-positive-smith-criterion.md) proves α≠0 iff maximal-minor ideal (t¹⁰), with exact Smith profile (0×33,2,2,2,4) for the original positive 41→37 map. If α=0, the final pivot is absent or has exponent 5–31: rank loss does not follow. No profile is asserted at the 28 exceptional directions, for the other mechanism or for the full adjoint.
 
-[Mr. slop's PR1098 source report](122-opposite-nonzero-core-source-report.md) gives conditional intrinsic channel criteria for rows 9/10/14/15, complementing the zero-gate rows 17/18/20. No gate or C row is selected. Four necessary pairs and endpoint-sixteen's two mechanisms remain.
+[Mr. slop's PR1098 source report](122-opposite-nonzero-core-source-report.md) gives conditional intrinsic channel criteria for rows 9/10/14/15, complementing the zero-gate rows 17/18/20. No gate or C row is selected. Four necessary pairs and endpoint-sixteen's two mechanisms remained. This was the historical checkpoint, not a current count.
 
 ## Surviving residual-large conic restriction through PR1097
 
 [Actual residual cubic multiplication](118-residual-large-conic-gate.md) forces β=0 in R=αR1+βR2, specifically for residual-large endpoint sixteen. In fixed conventions R=−30ητR1, η≠0 and τ possibly zero. If nonzero, its component scheme is the conic length-46 stratum; zero remains unexcluded. This new surviving-mechanism argument does not use the excluded endpoint-nine nonzero-conic implication.
 
-The nonzero-N0 mechanism still has an unselected two-dimensional coefficient space. Neither terminal incidence nor mechanism is selected; no positive Smith consequence is transferred. Four necessary source pairs remain. The universal coefficient figure now distinguishes these active restrictions from excluded-branch history.
+The nonzero-N0 mechanism still has an unselected two-dimensional coefficient space. At that historical checkpoint neither terminal incidence nor mechanism had been selected; no positive Smith consequence is transferred. Four necessary source pairs remained. This was the historical checkpoint, not a current count. The universal coefficient figure now distinguishes these active restrictions from excluded-branch history.
 
 ## Full odd operator and separate opposite cores
 
@@ -134,25 +148,25 @@ The nonzero-N0 mechanism still has an unselected two-dimensional coefficient spa
 
 Residual-large requires the marked NR5=T to lie in C_term; projectively this is a point-on-line test in P². Nonzero-N0 requires equality of the actual F5≅2T with C_term; projectively this is equality of lines, not replacement of a graph by its projection. Neither test is selected, and zero R remains unexcluded. The [schematic](figures/pure-v-terminal-incidence.svg) distinguishes vector, multiplicity and projective dimensions; it plots no selected positions or probabilities. This C_term is unrelated to the opposite cokernel C.
 
-Endpoint sixteen, both mechanisms and four necessary source pairs remain. No positive/full-adjoint conclusion is supplied.
+Endpoint sixteen, both mechanisms and four necessary source pairs remained. This was the historical checkpoint, not a current count. No positive/full-adjoint conclusion is supplied.
 
 ## Exact middle pairing through PR1091
 
 [PR1091](114-exact-middle-pairing.md) proves A_h:ker j3→W*⊗I2 is onto. On K3/F3 it has exactly S image and actual radical R_pair≅2W′+2S of dimension twelve. The coherent marked S_can provides a canonical four-dimensional complement **on this quotient**, giving K3/F3=R_pair⊕S̄_can. Its uncurried quotient pencil is cubic-to-quartic multiplication with cokernel O(4), up to an unselected nonzero scalar.
 
-These dimensions concern actual spaces and maps, not eliminated search fractions. They are distinct from the two unselected degree-five terminal dimensions six and twelve, corresponding to generated-module lengths 45 and 51. No lift splitting across F3, horizontal/Q/positive module splitting, or identification with the opposite-pencil S is supplied. Zero diagonal R remains unexcluded; endpoint sixteen, two mechanisms and four necessary source pairs remain the active frontier.
+These dimensions concern actual spaces and maps, not eliminated search fractions. They are distinct from the two unselected degree-five terminal dimensions six and twelve, corresponding to generated-module lengths 45 and 51. No lift splitting across F3, horizontal/Q/positive module splitting, or identification with the opposite-pencil S is supplied. Zero diagonal R remains unexcluded; endpoint sixteen, two mechanisms and four necessary source pairs were the frontier at that historical checkpoint. This was the historical checkpoint, not a current count.
 
 ## Odd rank and global alternating vanishing through PR1089
 
 [PR1086](111-actual-odd-quadratic-rank.md) proves actual odd Q3 rank eighteen, image 3T and cokernel W′. [PR1089](112-global-alternating-vanishing.md) resolves its remaining alignment: j3(ker Q3)=I3 and combined T-multiplicity rank four. The [mixed-syzygy obstruction](110-mixed-syzygy-transfer.md) forces κ=0. B is symmetric, determined by diagonal R; zero R and B remain unexcluded. The odd radical is not nullhomotopic. K3/F3 is exactly 2W′+3S, dimension sixteen; its H̄ doublet restriction is not determined here.
 
-Endpoint sixteen remains necessary, with two unselected mechanisms and negative lengths 51/45. Four necessary pairs remain. No surviving positive-component solution or full-adjoint rank is claimed. The universal component-scheme diagram is unchanged.
+At that historical checkpoint endpoint sixteen was necessary, with two unselected mechanisms and negative lengths 51/45. Four necessary pairs remained. This was the historical checkpoint, not a current count. No surviving positive-component solution or full-adjoint rank is claimed. The universal component-scheme diagram is unchanged.
 
 [Full-source reports of mr. slop's PR1083/1087/1088](113-opposite-forced-channels-source-report.md) separately track forced actual opposite-pencil channels through twelve-, nine- and eight-source presentations. The latest retains a one-dimensional source-splitting ambiguity. Presentation-source rank nine is unrelated to the excluded generated endpoint nine; these reports are not independent reproofs or selections of a C row.
 
 ## Actual endpoint-nine exclusion and two surviving modules through PR1082
 
-[Actual quadratic commutation](109-small-branch-exclusion.md) excludes endpoint nine under the full source2 pure-V compatible-radical hypotheses. Hence F4 has dimension sixteen and P_h is not contained in NC2. This is a branch elimination, not a source2 exclusion or an actual realization. Four necessary pairs across three labels remain.
+[Actual quadratic commutation](109-small-branch-exclusion.md) excludes endpoint nine under the full source2 pure-V compatible-radical hypotheses. Hence F4 has dimension sixteen and P_h is not contained in NC2. This is a branch elimination, not a source2 exclusion or an actual realization. Four necessary pairs across three labels remained. This was the historical checkpoint, not a current count.
 
 Two projection mechanisms remain: nonzero N0 projection gives dimensions (9,14,16,12), length 51 and terminal 2T, by [PR1081](108-separated-terminal-module.md); zero N0 projection with nonzero N8 projection gives (9,14,16,6), length 45 and the marked residual T, by [PR1079](107-actual-residual-large-module.md). Both have socle I4 plus their terminal piece, exact minimal equivariant resolutions and annihilator (W)⁴. In the former, the actual terminal graph into NR5 is unspecified. Neither mechanism is selected or asserted realized.
 
@@ -166,7 +180,7 @@ All earlier checkpoint sections below are dated history. Their then-open 9/16 ch
 
 [The actual residual-large negative module](107-actual-residual-large-module.md) has degrees 2–5 of dimensions 9,14,16,6, length 45, socle I4 plus the actual terminal NR5, and annihilator (W)⁴, with exact minimal equivariant resolution. This requires zero N0 projection and nonzero N8 projection, not merely endpoint sixteen. The small module separately has length 32 and annihilator (W)³. Neither is the full Rao module or asserted positive-stable.
 
-Endpoint nine versus sixteen and source occurrence remain unselected; four necessary source-dual pairs remain. The diagram's forced nonzero conic stratum in endpoint nine and the universal five-stratum classification remain unchanged.
+At that historical checkpoint endpoint nine versus sixteen and source occurrence were unselected; four necessary source-dual pairs remained. This was the historical checkpoint, not a current count. The diagram's forced nonzero conic stratum in endpoint nine and the universal five-stratum classification remain unchanged.
 
 ## Historical forced nonzero conic gate and all-large transversality through PR1075
 
@@ -174,7 +188,7 @@ Endpoint nine versus sixteen and source occurrence remain unselected; four neces
 
 The endpoint-nine incidence criterion now forces γ≠0. That branch has exactly the nonzero conic coefficient stratum R=γR₁ and component scheme Z plus twelve reduced ambient conic points, length 46. Its former zero-or-conic alternative is superseded. Neither endpoint branch nor an actual source is selected; the numerical scalar is not evaluated and the converse from conic membership to endpoint nine is not proved.
 
-The argument uses actual Q polynomial multiplication and injective universal prolongation, not full adjoint invertibility or an unproved Smith consequence. The actual negative module, its length-32 resolution and positive/full-Rao distinction remain as recorded below. Four necessary source-dual pairs remain.
+The argument uses actual Q polynomial multiplication and injective universal prolongation, not full adjoint invertibility or an unproved Smith consequence. The actual negative module, its length-32 resolution and positive/full-Rao distinction remain as recorded below. At this historical checkpoint, four necessary source-dual pairs remained; this is not a current count.
 
 ## Historical checkpoint through PR1074: actual module and scalar incidence
 
@@ -194,7 +208,7 @@ The transfer is independent of the equivariant right inverse, its diagonal has t
 
 Two separate full-source reports record mr. slop's [weighted incidence line and source directions](100-weighted-incidence-source-report.md) and [conditional terminal sextet](101-terminal-sextet-source-report.md). The latter identifies NC4 with the actual joint-negative kernel and proves continuation to T6 in degree five, killed by all coordinates in degree six. This is not inferred from the artificial truncation, and it does not extend h. Neither report is an independent reproof here.
 
-Four necessary source-dual pairs remain. The original repair and actual source occurrence remain open.
+At this historical checkpoint, four necessary source-dual pairs remained; this is not a current count. The original repair and actual source occurrence remain open.
 
 ## Residual position and nonzero nine-branch relation through PR1066
 
@@ -203,7 +217,7 @@ Four necessary source-dual pairs remain. The original repair and actual source o
 - [Nonzero nine-branch graph](98-nine-branch-nonzero-relations.md): the P graph cannot vanish, and the negative extension is nonsplit. Its nonzero coefficient ratio to Q remains unknown and cannot be erased by Q-preserving generator normalization. The minimal relations are S in degree one and 2V+P in degree two. The displayed full resolution is expressly for an artificial truncation, not an actual degree-five assertion.
 - [Doubled mixed block source report](95-doubled-mixed-block-source-report.md): mr. slop's full source gives a canonical two-copy block and actual weighted 32-to-34 presentation retaining the original kernel and cokernel, all remaining maps and noncanonical target splitting. This is a source reading, not an independent reproof.
 
-The completed nonic five-stratum theorem remains unchanged. Endpoint nine versus sixteen, source occurrence and actual gate coefficients remain unselected; four necessary pairs across three labels remain.
+The completed nonic five-stratum theorem remains unchanged. Endpoint nine versus sixteen, source occurrence and actual gate coefficients remain unselected; four necessary pairs across three labels remained. This was the historical checkpoint, not a current count.
 
 ## Marked-subspace comparison through PR1061
 
@@ -219,7 +233,7 @@ The completed five-stratum nonic classification, unselected generated endpoint d
 
 Neither branch is selected or excluded. The actual radical points N0→NC⊂NR and kills NR; it is not a nonzero row on N8. No residual horizontal splitting is assumed. PR1054's endpoint-4 antecedent is now excluded, so its particular formal-rank-36 implication cannot be invoked; original rank 36 and formal persistence by other mechanisms are not excluded.
 
-The complete five-stratum component-scheme classification remains separate and unchanged. Four necessary source-dual pairs across three labels remain.
+The complete five-stratum component-scheme classification remains separate and unchanged. Four necessary source-dual pairs across three labels remained. This was the historical checkpoint, not a current count.
 
 ## Mixed original-fourth presentation through PR1055
 
@@ -233,7 +247,7 @@ The completed five-stratum classification remains prominent and unchanged. No ac
 - [Actual generated homotopy module](88-pure-v-generated-homotopy-module.md): under compatible pure-V radical, im h generates exact first characters P+D and W′+2T, of dimensions 9 and 14. The endpoint dimensions {4,7,8,9,11,12,13,16} are necessary alternatives with unresolved relations, not selected instances. The smallest endpoint implies formal lifting of every D class and generic rank 36 on Q+Sym²W; its occurrence and the converse remain unproved.
 - [Canonical negative string, source report](89-canonical-negative-string-source-report.md): mr. slop's actual W→A→S→D string starts in degree one independently of a selected pure-V branch. Full-source reading retains section exhaustion, parity, noncanonical complement choices and the actual weighted presentation. It is not an independent reproof or an identification with the im h-generated module.
 
-Four necessary pairs across three labels and the original repair remain open. No unpublished mixed-extension or target refinement is included.
+At this historical checkpoint, four necessary pairs across three labels remained; this is not a current count. The original repair remains open. No unpublished mixed-extension or target refinement is included.
 
 ## Actual-map extensions through PR1049
 
@@ -242,13 +256,13 @@ The completed five-stratum component-scheme classification and its original-four
 - [Polarized sandwich identities](85-pure-v-polarized-sandwich.md): under actual nonzero Q-compatible pure-V radical, hTₐh=0 and KₐKᵦ=0 for independent negative quadratics. The middle products vanish with all four linear factors restricted to the same negative W. The alternating cross-direction defect is not proved zero; it factors through the stated 29→28 interface. No full-pencil commutation or coefficient equation follows.
 - [Kernel bridge](86-pure-v-kernel-bridge.md): for each nonzero universal member, 0→O(-4)→K_H→K_F(1)→C_L→0 is exact, with C_L of length ten. Both kernels are bundles, but the intermediate sheaf E is locally R²⊕m at every order-three axis, including the jet line. Its double dual is K_F(1), its defect has length ten, and the Koszul extension is nontrivial. The O(-4) injection is not a subbundle there. The Chern correction and fiber-image distinctions retain this singularity.
 
-These statements do not assert new submodule consequences, cross-direction commutation, additional specialized A-kernel classes or actual coefficient selection. The zero gate is outside the finite-base kernel theorem. Four necessary pairs across three labels and the open original repair remain unchanged.
+These statements do not assert new submodule consequences, cross-direction commutation, additional specialized A-kernel classes or actual coefficient selection. The zero gate is outside the finite-base kernel theorem. Four necessary pairs across three labels and the open original repair remained unchanged. This was the historical checkpoint, not a current count.
 
 ## Exact original-fourth transfer through PR1046
 
 [The original-fourth component-ideal bridge](84-pure-v-fourth-ideal-transfer.md) proves (FL)~=(F)~ for the determinant-embedded surviving D row, including the ten order-three rank-drop axes. Hence the complete nonic five-stratum classification transfers unchanged: −2,−1,0,+2 give 54,49,46,46 and every other nonzero ratio gives Z of length 34. Zero remains separate and the actual coefficient unselected.
 
-This supersedes the earlier pending local-comparison boundary. It does not claim raw graded-ideal equality, injectivity after tensoring the singular ideal-sheaf target with a residue field, additional specialized A-kernel conclusions, or equality with the quadratic-lift degeneracy scheme. The original repair and four-pair source frontier remain open.
+This supersedes the earlier pending local-comparison boundary. It does not claim raw graded-ideal equality, injectivity after tensoring the singular ideal-sheaf target with a residue field, additional specialized A-kernel conclusions, or equality with the quadratic-lift degeneracy scheme. The four-pair source frontier was the historical checkpoint, not a current count; the original repair remains open.
 
 ## Latest checkpoint through PR1044: universal nonic classification complete
 
@@ -256,7 +270,7 @@ This supersedes the earlier pending local-comparison boundary. It does not claim
 
 The final ingredients are [fifteen-axis occurrence and ambient reducedness](79-pure-v-fifteen-axis-scheme.md), [exclusion of all thirty-point orbits](80-pure-v-no-thirty-orbit.md), and [ambient reducedness of all twelve conic points](81-pure-v-conic-ambient-scheme.md). The earlier nine-length necessary list and unresolved conic-thickness statements below are historical checkpoints, now superseded for this universal nonic scheme question. No hidden coefficient exception remains in the open stratum.
 
-At the PR1044 checkpoint this did not yet identify local component ideals of the original fourth composition at the ten order-three rank-drop axes of L; the PR1046 bridge above now does. Identical-vanishing equivalence on surviving D remains, but scheme transfer and lift-matrix degeneracy are distinct questions. The original repair and four-pair/three-label source frontier remain open.
+At the PR1044 checkpoint this did not yet identify local component ideals of the original fourth composition at the ten order-three rank-drop axes of L; the PR1046 bridge above now does. Identical-vanishing equivalence on surviving D remains, but scheme transfer and lift-matrix degeneracy are distinct questions. The four-pair/three-label frontier was the historical checkpoint, not a current count; the original repair remains open.
 
 [The global-to-ninth source report](83-global-ninth-bridge-source-report.md) records mr. slop's actual restriction sequences and rank 13, degree 28 Steiner bundle Jg. It differs from the rank 13, degree 20 finite residual; an actual determinant constraint forces nonzero intersection with the selected finite summands. Parity and nonsplitting limits are retained, and the report is not an independent reproof.
 
@@ -268,7 +282,7 @@ At the PR1044 checkpoint this did not yet identify local component ideals of the
 
 [The ninth-neighborhood source report](77-ninth-forced-summands-source-report.md) records mr. slop's actual W/A summands and a rank 13 residual, with all filtered-map and non-global scope retained. This is a complete immutable source reading, not an independent reproof.
 
-Four necessary source-dual pairs across three stable labels remain. Source occurrence, actual obstruction values, off-jet occurrence and the complete repair remain open. No unpublished support or coefficient calculation is included.
+At this historical checkpoint, four necessary source-dual pairs across three stable labels remained; this is not a current count. Source occurrence, actual obstruction values, off-jet occurrence and the complete repair remain open. No unpublished support or coefficient calculation is included.
 
 ## Conic refinement through PR1033
 
@@ -282,7 +296,7 @@ Four necessary source-dual pairs across three stable labels remain. Source occur
 - [Seventh correction source report](72-seventh-correction-source-report.md): the actual finite-neighborhood correction makes Q→U⊕J a subbundle injection and yields H₇ of rank 21, degree 126. Any twelve simple secondary torsion factors are absorbed by nontrivial elementary modifications, not excluded. The ninth quotient remains canonical.
 - [Flat core source report](73-flat-core-source-report.md): a universal saturated flat family preserves the reduced core, positivity and complete-evaluation interface while exhibiting both cohomological alternatives. It is not an HM family; compatibility with the historical HM reduction choices is not established.
 
-Four necessary source-dual pairs across three stable labels remain. Neither actual pure-V compatibility nor its coefficients, source126's octic scalar, the actual opposite row or the complete repair is selected. The collaborator chapters report full immutable sources, not independent reproofs.
+At this historical checkpoint, four necessary source-dual pairs across three stable labels remained; this is not a current count. Neither actual pure-V compatibility nor its coefficients, source126's octic scalar, the actual opposite row or the complete repair is selected. The collaborator chapters report full immutable sources, not independent reproofs.
 
 ## Previous checkpoint through PR1025
 
@@ -292,7 +306,7 @@ Four necessary source-dual pairs across three stable labels remain. Neither actu
 - [Opposite core source report](67-opposite-core-source-report.md): PR1016/1017 force actual rank-three core presentations; PR1020 detects the rank-one top obstruction by one inherited W′→S block. Seven necessary C types and the unknown actual block/vertex scalar remain.
 - [Secondary torsion source report](68-secondary-torsion-source-report.md): PR1021 gives the constant-rank V-only branch and intrinsic kernel discriminant; PR1024 completes all six coefficient strata. Actual secondary torsion is zero or twelve simple factors, without selecting which. This differs from the already zero opposite-pencil torsion.
 
-Four necessary source-dual pairs across three stable labels remain. The collaborator chapters are complete source readings, not independent reproofs. No actual realization, coefficient choice, complete repair or proof-completion percentage follows.
+At this historical checkpoint, four necessary source-dual pairs across three stable labels remained; this is not a current count. The collaborator chapters are complete source readings, not independent reproofs. No actual realization, coefficient choice, complete repair or proof-completion percentage follows.
 
 [New structural update through PR946](37-compatibility-and-torsion.md): source126 compatible algebras have no nontrivial idempotents; the Type III radical bound drops to one; the actual opposite-pencil torsion is now zero. No additional pair or label is removed.
 
