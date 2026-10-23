@@ -4,7 +4,7 @@
 
 PASS. The new argument correctly excludes every compatible idempotent of type (0,1,1,w), including every radical shear, conditional on the stated actual c-d-f occurrence, PR927's represented aggregate interface, and the previously proved universal geometric invariant-product character theorem. The strengthened decision rule and the residual type-F block characters follow. No substantive mathematical gap was found.
 
-Reviewed on 2026-10-23 by an independent review agent. Exact reviewed SHA-256 values:
+Independent mathematical review dated 2026-10-23. Exact reviewed SHA-256 values:
 
 - PROOF.md: 8374367cbad2c44a0937faf83a2d9ef83bc0c07cbb96d30fab724b08456bef5c
 - verify.py: aee81c44ab6e7aa98f3574c5dff94e6fe08e37b91f622d3ec2ad163e5a7d9641
