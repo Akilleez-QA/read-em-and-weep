@@ -1,0 +1,118 @@
+{
+  "artifacts": {
+    "executable": {
+      "bytes": 18058560,
+      "path": "<isolated-python-3.12.14>",
+      "sha256": "d90bce0f5ac3aa40e2ee5900ad243bad0b2205ce17408278f088b34aed737840"
+    },
+    "inputs": [
+      {
+        "bytes": 12366,
+        "path": "safe_context.py",
+        "sha256": "4f94b6268202179babcbf705cdbe221e8c57c12686b5ffffe3c6ba22ea36f5b1"
+      },
+      {
+        "bytes": 19328,
+        "path": "provenance.json",
+        "sha256": "b0d8dfec8abec5290128c2def4eb21bbd35f9ae1f483fa67f8e3de555f54b0ab"
+      },
+      {
+        "bytes": 8446,
+        "path": "test_static.py",
+        "sha256": "d899cc367540c563bd5af634a37504eba58d39dac7d5fbe5476235e4ec8a5935"
+      },
+      {
+        "bytes": 5975,
+        "path": "README.md",
+        "sha256": "55b0cbefbe908014188e9499e679457fc4804f561b16d61a061ee95412b48498"
+      },
+      {
+        "bytes": 5257,
+        "path": "../q-middle-candidate-interface/verify_universal_monad_clifford_homotopy.py",
+        "sha256": "4e71b3c14ad9a85b099a9ee4261e4ebccd61e5aca1760462069bfe939982317b"
+      },
+      {
+        "bytes": 5754,
+        "path": "../q-middle-candidate-interface/universal_source_balance_helpers.py",
+        "sha256": "15069fcc8138d2742bfdebd3db650efb84bd74abf1c2909585d2b6e988b276c3"
+      },
+      {
+        "bytes": 3136,
+        "path": "<original-executed-smoke.py>",
+        "sha256": "2b592af1564ad927fb0b1716129e23e684b08745efa949826656fd4965b15c4c"
+      }
+    ],
+    "supervisor": {
+      "bytes": 13296,
+      "path": "<reviewed-burn_guard.py>",
+      "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+    }
+  },
+  "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+  "child_cpu_seconds": 0.575766,
+  "child_peak_rss_bytes": 66846720,
+  "child_returncode": 0,
+  "cleanup_complete": true,
+  "command": [
+    "<isolated-python-3.12.14>",
+    "-B",
+    "<original-executed-smoke.py>"
+  ],
+  "cpu_limit_applied": true,
+  "enforcement": {
+    "address_space_limit_enforced": false,
+    "containment": "Children must stay in the created group; this is not a sandbox.",
+    "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+    "kill_grace_seconds": 2.0,
+    "ps_timeout_seconds": 0.5,
+    "rss": "sampled sum of resident bytes in the created process group",
+    "rss_guaranteed_overshoot_bound_bytes": null,
+    "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+    "term_grace_seconds": 0.5,
+    "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+  },
+  "input_hashes_unchanged": true,
+  "limits": {
+    "cpu_hard_seconds": 60,
+    "cpu_soft_seconds": 60,
+    "rss_bytes": 1610612736,
+    "sample_interval_seconds": 0.1,
+    "wall_seconds": 75.0
+  },
+  "observed_rss_overshoot_bytes": 0,
+  "original_command_sha256": "edc0cf888e5889085e97f7a5c5f89a4b6d4ce7e30dde1998d436640d4ce2b20a",
+  "peak_group_members": [
+    {
+      "rss_bytes": 66813952
+    }
+  ],
+  "platform": "darwin",
+  "publication_sanitization": {
+    "executed_harness_sha256": "2b592af1564ad927fb0b1716129e23e684b08745efa949826656fd4965b15c4c",
+    "hash_scope": "All original execution hashes are unchanged; original_command_sha256 hashes the original unredacted argv, not the normalized display command.",
+    "normalized": [
+      "command path labels",
+      "artifact path labels"
+    ],
+    "original_receipt_sha256": "9c478acfbd213a4ac3647a4a13880c01c1dc08dfa8eac4aeb67b470ca4aac8e1",
+    "portable_harness_executed": false,
+    "portable_harness_sha256": "cefc93fcd512672369a07137541df181c93638876a858bf1a5086e4c4b676292",
+    "removed": [
+      "private cwd",
+      "process id",
+      "process-group id",
+      "member process ids"
+    ]
+  },
+  "runtime_seconds": 0.7577938329995959,
+  "sampled_group_peak_rss_bytes": 66813952,
+  "samples": 8,
+  "schema": 1,
+  "signals_sent": [],
+  "status": "success",
+  "versions": {
+    "python": "3.12.14",
+    "sympy": "1.14.0"
+  },
+  "wall_overshoot_seconds": 0
+}
