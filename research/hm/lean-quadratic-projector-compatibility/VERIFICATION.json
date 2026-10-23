@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Supporting algebra only; no geometric realization or original theorem repair",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "dependency_pins_match_repository_manifest": true,
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/QuadraticProjectorCompatibility.lean",
+  "source_sha256": "1bc07ce1ca444f822abc5a6c344d099475c9b6e45cc024ae2985878bb5b7ba32",
+  "check_sha256": "6c62e0050b693989860e243cb74d015f7b8c257d165db82091230d3d7eeee2e5",
+  "published_source_input": {
+    "commit": "f4a73af666900ad2cb34a756d24b88e19dd6feaa",
+    "path": "research/hm/negative-truncation-extension/PROOF.md",
+    "sha256": "7525df1e58ac8683a5a0b828209f4f35cc79a09527307ee47b35025d5c2ad636"
+  },
+  "exported_theorem_count": 3,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-projector",
+        "OAI.AlgebraicGeometry.HorrocksMumford.QuadraticProjectorCompatibility",
+        "module"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 1.3328959169999999,
+      "child_cpu_seconds": 1.2364669999999998,
+      "sampled_group_peak_rss_bytes": 804126720,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 4185,
+            "path": "${WORKSPACE}/work/swarm/lean-projector/lean/OAI/AlgebraicGeometry/HorrocksMumford/QuadraticProjectorCompatibility.lean",
+            "sha256": "1bc07ce1ca444f822abc5a6c344d099475c9b6e45cc024ae2985878bb5b7ba32"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "72d06df30b9268f987023053d30501bccbae329d96877037599eb204ac537b65",
+      "original_receipt_name": "compile-0002.json",
+      "stdout": "",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    },
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-projector",
+        "OAI.AlgebraicGeometry.HorrocksMumford.QuadraticProjectorCompatibility",
+        "check"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 1.017032625,
+      "child_cpu_seconds": 0.990632,
+      "sampled_group_peak_rss_bytes": 775700480,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 458,
+            "path": "${WORKSPACE}/work/swarm/lean-projector/Check.lean",
+            "sha256": "6c62e0050b693989860e243cb74d015f7b8c257d165db82091230d3d7eeee2e5"
+          },
+          {
+            "bytes": 40072,
+            "path": "${WORKSPACE}/work/swarm/lean-projector/build/OAI/AlgebraicGeometry/HorrocksMumford/QuadraticProjectorCompatibility.olean",
+            "sha256": "e158122df3c4f2104061e5a322870d0817b549db632c22a4f356d55c8b2b001c"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "2878840cea19452d0b1b9e4997fd50ab641e1d617731f3ea3c6782e2287e4661",
+      "original_receipt_name": "axioms-0002.json",
+      "stdout": "'OAI.HorrocksMumford.quadraticProjectorCompatibility_iff_crossTerms' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OAI.HorrocksMumford.quadraticProjectorCompatibility_iff_range_ker' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OAI.HorrocksMumford.quadraticProjectorCompatibility_family_iff_crossTerms' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    }
+  ]
+}
