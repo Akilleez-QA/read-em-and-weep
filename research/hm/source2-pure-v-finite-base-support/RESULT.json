@@ -1,0 +1,120 @@
+{
+  "status": "pass",
+  "count": 45,
+  "checks": [
+    "immutable pin 1030",
+    "sha256 1030",
+    "git blob 1030",
+    "immutable pin 1033",
+    "sha256 1033",
+    "git blob 1033",
+    "immutable pin 1000",
+    "sha256 1000",
+    "git blob 1000",
+    "A5 order",
+    "fifteen involutions",
+    "ten order-three axes",
+    "six order-five axes",
+    "3 normalizer order",
+    "3 normalizer involutions",
+    "3 axes per involution line",
+    "5 normalizer order",
+    "5 normalizer involutions",
+    "5 axes per involution line",
+    "involution centralizers are Klein four",
+    "five Klein four groups",
+    "two other axis points per mirror",
+    "each order-two axis belongs to two other mirrors",
+    "C2 orbit has thirty points",
+    "C2 orbit has two points per mirror",
+    "two mirror characters independent",
+    "u-character iff odd-even (0, 0)",
+    "u-character iff odd-even (0, 1)",
+    "u-character iff odd-even (1, 0)",
+    "u-character iff odd-even (1, 1)",
+    "fixed general mirror order",
+    "ell5 mirror order",
+    "ell3 mirror order",
+    "competing extra orbits force line divisor",
+    "jet-line extra offconic forces line divisor",
+    "general Bezout residual",
+    "jet Bezout residual",
+    "free orbit impossible",
+    "jet conic orbit reduced",
+    "extra thirty orbit reduced",
+    "extra fifteen ideal has linear part",
+    "fifteen local length at most two",
+    "conic curvilinear length at most three",
+    "necessary total length list",
+    "necessary extra support list"
+  ],
+  "integer_configurations": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ],
+    [
+      1,
+      2,
+      0
+    ],
+    [
+      2,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      3,
+      0,
+      0
+    ]
+  ],
+  "possible_necessary_lengths": [
+    34,
+    46,
+    49,
+    58,
+    61,
+    64,
+    70,
+    73,
+    76
+  ],
+  "scope": "necessary universal constraints only; no occurrence or actual gate selection"
+}
