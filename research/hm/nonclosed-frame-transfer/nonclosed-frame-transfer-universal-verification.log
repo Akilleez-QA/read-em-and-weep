@@ -1,0 +1,4 @@
+PASS: 166 exact free-word identities; 4 negative mutation tests; 0.016s
+PASS: independent source/target frames, endpoint blocks, all 27 triple overlaps, closed limit
+SCALAR COMMUTATIVE SPECIALIZATION: x E21 - z E32 - x z E31
+SCOPE: universal transfer identity only; no actual HM row-factorization or affine-square claim
