@@ -1,0 +1,56 @@
+[
+  {
+    "file": "PROOF.md",
+    "bytes": 8679,
+    "sha256": "4c18ff833e06f88aa4d5985b05b0600c52dd02c8a660931396a64bf4cdf51f68",
+    "git_blob_sha1": "7faee61151402940db6d28e85d28eb3d57232b68"
+  },
+  {
+    "file": "verify.py",
+    "bytes": 2822,
+    "sha256": "1cff50d8cc8998e6c318c461799e12b06ef79b80ca305aba9b3125bd5aa96708",
+    "git_blob_sha1": "d895d03b04cd8b446b173583c1e6289602125aa2"
+  },
+  {
+    "file": "RESULT.json",
+    "bytes": 407,
+    "sha256": "a465e53adea1bdcbe3de743972ff4b6fbb3fb402231531bc7653fbd7414ef286",
+    "git_blob_sha1": "d8a1d533579666647214dfcac9f94833e098ba70"
+  },
+  {
+    "file": "REPRODUCE.md",
+    "bytes": 1221,
+    "sha256": "3141d366c1009bcd9dc1bc10672ec8db41c4a345929dcc518ce7ec645c45d39a",
+    "git_blob_sha1": "04cd83217a5c261ec5593a2040a60511cfe78f70"
+  },
+  {
+    "file": "inputs/pr1138.md",
+    "bytes": 9741,
+    "sha256": "be3e6ef741268733f9ddc02405a3d8e030742d8ff3f2378570a0f0d1fe4d1328",
+    "git_blob_sha1": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+    "commit": "c69f97aaf00e116e3a8abebf19a8e02868c4f7c4",
+    "source_path": "research/hm/gauss-profile21-closure/PROOF.md"
+  },
+  {
+    "file": "inputs/pr1138-remote.md",
+    "bytes": 9741,
+    "sha256": "be3e6ef741268733f9ddc02405a3d8e030742d8ff3f2378570a0f0d1fe4d1328",
+    "git_blob_sha1": "49a0b288cb3adc9c7e6df6f29f96ce46896f51e4",
+    "commit": "c69f97aaf00e116e3a8abebf19a8e02868c4f7c4",
+    "source_path": "research/hm/gauss-profile21-closure/PROOF.md"
+  },
+  {
+    "file": "inputs/pr1142.md",
+    "bytes": 8152,
+    "sha256": "f2c23c8f4188952d807e920affcbc6eaf09a92af1d436885db444133457c5d30",
+    "git_blob_sha1": "c5351a3a3e630b0725da49d926171ac966d545c3",
+    "commit": "df2fd3d35dac577d7f1e1c4d51fe68b1fcc824ad",
+    "source_path": "research/hm/gauss-cubic-kernel-exclusions/PROOF.md"
+  },
+  {
+    "file": "inputs/coordination.json",
+    "bytes": 4893,
+    "sha256": "44c2d8b1f17931b368ffafb082f5cfa352ef6dce7b9a62493f0ec4a9b0374c7d",
+    "git_blob_sha1": "bb21cc6ecf32e8e21c974229dcf5964b4a6584f6"
+  }
+]
