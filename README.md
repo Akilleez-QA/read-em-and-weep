@@ -4,15 +4,23 @@
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
-## Post cutoff structural update
+## Current frontier after PR917
 
-[PR913](https://github.com/Akilleez-QA/read-em-and-weep/pull/913) sharpens the surviving source127 a-b-c-f alternatives: its low D row is nonzero, and the high row gives either a standard osculating flag or two possible exact kernel types. [PR914](https://github.com/Akilleez-QA/read-em-and-weep/pull/914) permits conditional source-trace matching for an independently authenticated cone contraction without assuming ambient extendability. Full physical data and scalar gluing remain required.
+**23 October 2026: three labels, profiles 2 / 0 / 1, and 114 historical necessary pairs remain.** [PR917's pinned proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/PROOF.md) excludes the entire source127 a-b-c-f tuple. The append-only accounting removes its exact 32 pairs from the historical burn frontier of 146; it does not remove the stable label, because source127 c-d-f remains. The residual distribution is **4 + 32 + 78**.
 
-Neither result excludes a whole source or label. **The frontier remains three labels and 146 necessary pairs.** These additions are recorded separately from the closed burn inventory in the [post-burn structural update](paper/34-post-burn-structural-update.md), with immutable proof links and explicit remaining conditions.
+| Stable label | Remaining source types | Necessary pairs |
+|---|---|---:|
+| G3.11.8ae96830fd21 | Source126 E10 | 4 |
+| G3.11.cce6e3ba4eeb | Source127 c-d-f only | 32 |
+| G3.21.d610e381ed75 | Source2 thirteen tuples | 78 |
 
-## Bottom line
+[PR918's fixed-minor construction](https://github.com/Akilleez-QA/read-em-and-weep/blob/dec584a79547733c88c3d3aab813388532f069f2/research/hm/physical-cone-minor-certificate/PROOF.md) gives a reproducible certificate for the previously abstract global-cone source factor, with 144 checks and 17 negative controls on synthetic/universal interfaces. The actual complete differential, physical extraction, marking, full ambient lower data and normalization still have to be supplied and authenticated. No actual obstruction value or complete repair is claimed.
 
-The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. The reconciled written-proof frontier has **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
+See the [post-burn structural update](paper/34-post-burn-structural-update.md) for the arguments and exact boundaries. The closed-burn counts and chart below are historical, not the current 114-pair frontier.
+
+## Historical burn closeout
+
+The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. At the PR911 burn cutoff, the reconciled written-proof frontier had **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
 
 | Fixed quantity | Campaign baseline | Closeout | Change |
 |---|---:|---:|---:|
@@ -24,7 +32,7 @@ The baseline is the immutable 00:07 UTC snapshot in [PR805](https://github.com/A
 
 ![High-contrast fixed-snapshot reduction chart](paper/figures/spike-burn-frontier.svg)
 
-## What remains
+## What remained at the burn cutoff
 
 | Stable label | Original source index | Remaining source types | Necessary pairs |
 |---|---:|---|---:|
@@ -63,8 +71,8 @@ The earlier Python runtime track completed bounded initialization and one primit
 - [Spike-burn report and assessment](paper/31-spike-burn-closeout.md)
 - [Execution, verification, failures and Lean inventory](paper/32-burn-execution-and-verification.md)
 - [Physical construction and normalization dependencies](paper/33-burn-physical-construction.md)
-- [Post-burn structural update through PR914](paper/34-post-burn-structural-update.md)
-- [Final mathematical frontier and exact source lists](research/proof-repair-campaign/FRONTIER-THROUGH911.md)
+- [Post-burn structural update through PR918](paper/34-post-burn-structural-update.md)
+- [Current mathematical frontier and exact source lists](research/proof-repair-campaign/FRONTIER-THROUGH917.md)
 - [Campaign status and next-work gates](research/proof-repair-campaign/README.md)
 - [Updated progress map](paper/progress-map.md)
 
