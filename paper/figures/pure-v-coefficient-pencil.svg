@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
 <title id="title">Complete universal pure-V nonic scheme strata</title>
-<desc id="desc">On the finite coordinate t equals beta divided by alpha, the C3 jet line is minus two, the rank-three lift is minus one, the conic-base line is zero, and the C5 jet line is plus two. The separate projective point at infinity is zero colon one. The special nonic lengths at minus two, minus one, zero and plus two are54,49,46,46. Every other nonzero ratio has exactly Z of length34. The zero pair has whole-plane base scheme. Endpoint nine is excluded under the full actual hypotheses. Endpoint sixteen is necessary, with two projection mechanisms and its coefficient still unselected. The actual coefficient is unknown. Axis intervals do not denote mathematical branches or completion progress.</desc>
+<desc id="desc">On the finite coordinate t equals beta divided by alpha, the C3 jet line is minus two, the rank-three lift is minus one, the conic-base line is zero, and the C5 jet line is plus two. The separate projective point at infinity is zero colon one. The special nonic lengths at minus two, minus one, zero and plus two are54,49,46,46. Every other nonzero ratio has exactly Z of length34. The zero pair has whole-plane base scheme. Endpoint nine is excluded under the full actual hypotheses. Endpoint sixteen is necessary. Residual-large restricts the gate to zero or the conic line. Nonzero-N0 has an unselected two-dimensional coefficient space. The actual coefficient is unknown. Axis intervals do not denote mathematical branches or completion progress.</desc>
 <rect width="1200" height="610" fill="#ffffff"/>
 <g font-family="Arial, Helvetica, sans-serif" fill="#101820">
 <text x="48" y="47" font-size="27" font-weight="700">Nonic and determinant-fourth D component schemes</text>
-<text x="48" y="80" font-size="18">Conditional pure-V gate · endpoint 16 necessary; coefficient unknown · not a completion percentage</text>
+<text x="48" y="80" font-size="18">Conditional pure-V gate · endpoint 16 necessary; restrictions depend on mechanism · not a completion percentage</text>
 <text x="48" y="122" font-size="17" font-weight="700">Finite coordinate t = β/α  (α ≠ 0)</text>
 <path d="M130 204 H970" stroke="#101820" stroke-width="3" fill="none"/>
 <path d="M130 204 l10 -6 M130 204 l10 6 M970 204 l-10 -6 M970 204 l-10 6" stroke="#101820" stroke-width="2" fill="none"/>
@@ -21,10 +21,10 @@
 <text x="48" y="375" font-size="18" font-weight="700">Every other nonzero ratio: exactly Z, length 34. No additional exceptional ratio.</text>
 <text x="48" y="406" font-size="17">Zero coefficient pair: whole-plane base scheme, no finite length; its status in endpoint 16 is unselected.</text>
 <text x="48" y="437" font-size="16">Exact ratio positions only. Intervals do not denote branches or measure a remaining search space.</text>
-<text x="48" y="470" font-size="15">Sources: PR1044, PR1046 and PR1082. Projective component ideal sheaves; not raw graded ideals or lift degeneracy.</text>
+<text x="48" y="470" font-size="15">Sources: PR1044, PR1046, PR1082 and PR1097. Projective component ideal sheaves; not raw graded ideals or lift degeneracy.</text>
 <rect x="40" y="490" width="1120" height="94" rx="8" fill="#eef3f5" stroke="#005a75" stroke-width="2"/>
-<text x="58" y="517" font-size="18" font-weight="700">Endpoint 9 is EXCLUDED under the full actual hypotheses. Endpoint 16 is necessary.</text>
-<text x="58" y="546" font-size="17">Two projection mechanisms remain; the actual coefficient, including zero/nonzero, is unselected.</text>
-<text x="58" y="571" font-size="16">Earlier endpoint-9 conic and Smith implications do not solve the surviving positive component.</text>
+<text x="58" y="517" font-size="18" font-weight="700">Residual-large endpoint 16: R = αR₁, α possibly zero. Nonzero ⇒ conic length 46.</text>
+<text x="58" y="546" font-size="17">Nonzero-N0 endpoint 16: two-dimensional coefficient space still unselected.</text>
+<text x="58" y="571" font-size="16">Endpoint 9 is excluded. Its historical nonzero-conic/Smith results do not solve either surviving case.</text>
 </g>
 </svg>
