@@ -1,6 +1,6 @@
-# Living research paper · v0.15
+# Living research paper · v0.17
 
-**Craig Ward · 23 October 2026 · Structural update through PR985; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR988; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
@@ -28,27 +28,33 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [Collective radical images and generic rank](48-collective-radical-images.md) selects r=0 under full-radical Type II compatibility, proves generic original rank exactly 36, and forces all original generic Bocksteins after the second to vanish. Actual occurrence and secondary ν remain unresolved; four pairs and three labels remain. This supersedes the unselected-r checkpoints above.
 
+[The ninth-neighborhood gate](49-ninth-neighborhood-rank.md) reports PR986's constant rank twelve and canonical square-dual image/cokernel. This selects a previously undetermined finite gate, not the global opposite bundle or a source pair.
+
+[Single compatible-line footprints](50-compatible-line-footprints.md) records four Type I, six Type II and three Type III necessary endpoint-rank rows. Two rows force generic rank36; the other four pass the sharp abstract module-surjection test. No actual row or source is selected.
+
 ## Current reading order
 
 1. [Root status paper](../README.md)
-2. [Collective radical images and generic rank](48-collective-radical-images.md)
-3. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
-4. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
-5. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
-6. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
-7. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
-8. [Compatibility exclusions](42-polar-integrability.md)
-9. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
-10. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
-11. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
-12. [Source2 compatibility](38-source2-compatibility.md)
-13. [Compatibility and torsion update](37-compatibility-and-torsion.md)
-14. [Source126 quotient specialization](36-source126-dual-specialization.md)
-15. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
-16. [Current progress map](progress-map.md)
-17. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
-18. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
-19. [Execution and supporting formalization](32-burn-execution-and-verification.md)
-20. [Physical construction chain](33-burn-physical-construction.md)
+2. [Single compatible-line footprints](50-compatible-line-footprints.md)
+3. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
+4. [Collective radical images and generic rank](48-collective-radical-images.md)
+5. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
+6. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
+7. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
+8. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
+9. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
+10. [Compatibility exclusions](42-polar-integrability.md)
+11. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
+12. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
+13. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
+14. [Source2 compatibility](38-source2-compatibility.md)
+15. [Compatibility and torsion update](37-compatibility-and-torsion.md)
+16. [Source126 quotient specialization](36-source126-dual-specialization.md)
+17. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
+18. [Current progress map](progress-map.md)
+19. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
+20. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
+21. [Execution and supporting formalization](32-burn-execution-and-verification.md)
+22. [Physical construction chain](33-burn-physical-construction.md)
 
 Earlier chapters and figures are dated snapshots, not live counters. The historical burn endpoint remains three labels and 146 pairs; its figure is preserved. Supporting formalization remains 66 declarations in 13 draft packages, not a formal proof of the complete repair. Markdown is the maintained paper source.
