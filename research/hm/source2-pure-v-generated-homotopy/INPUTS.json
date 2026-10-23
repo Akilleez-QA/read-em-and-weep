@@ -1,0 +1,42 @@
+[
+  {
+    "local_path": "inputs/1048.md",
+    "commit": "9eaed2dfadf9c4877327d21db5974b6c94d3863d",
+    "path": "research/hm/source2-pure-v-polarized-sandwich/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9eaed2dfadf9c4877327d21db5974b6c94d3863d/research/hm/source2-pure-v-polarized-sandwich/PROOF.md",
+    "sha256": "8ef5300690ee419123a318c6ede034cfedb2da20bff3b20cec23a07326918f66",
+    "git_blob": "0710577541a79a5d8d56e5aa693a8fc01c559112"
+  },
+  {
+    "local_path": "inputs/963.md",
+    "commit": "410fc6d7dac16afc4af29590fa5d4e8b8a5dc0a4",
+    "path": "research/hm/source2-pure-v-torsion-quotient/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/410fc6d7dac16afc4af29590fa5d4e8b8a5dc0a4/research/hm/source2-pure-v-torsion-quotient/PROOF.md",
+    "sha256": "29ac56c882d8bfcd0ced29692466d89139d2d1c3ac25e9bb00169dab5f428a02",
+    "git_blob": "ac10e7a977f3c564bf16bc9841040be3edb97211"
+  },
+  {
+    "local_path": "inputs/1025.md",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7"
+  },
+  {
+    "local_path": "inputs/790.md",
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md"
+  },
+  {
+    "local_path": "inputs/792.md",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md"
+  }
+]
