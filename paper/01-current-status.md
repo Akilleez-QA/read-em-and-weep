@@ -26,14 +26,26 @@ See the [new source126 specialization](36-source126-dual-specialization.md) and 
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](figures/current-four-pair-frontier.svg)
 
-## New compatibility exclusions through PR970
+## Collaborator update through PR975
+
+The [pinned source report](44-secondary-geometry-source-report.md) records mr. slop's selection of **normal order four** for the invariant B(4) candidate, superseding the former order-four-or-six alternative. It also reports a distinct uniform **order-two** obstruction for B|H_λ(2), a refined nonsplit secondary extension, and two possible first-cup kernel types with the actual type still unselected. Full proof texts were read; this is not an independent reproof. None changes the source-pair count.
+
+## Type II scalar selection and actual obstruction transfer through PR973
+
+Under actual Type II and full-radical Q compatibility, [PR973](https://github.com/Akilleez-QA/read-em-and-weep/blob/f48c517d776b7f82ee1f96787da722223431a565/research/hm/source126-typeII-radical-naturality/PROOF.md) **forces μ=0**. The internal first symbol has constant rank three at every nonzero quadratic; its former nonzero-μ discriminant-conic alternative cannot occur here. The universal conic and kernel calculations remain valid under their stated scalar alternative, not live possibilities under these actual hypotheses.
+
+The theorem factors the **original canonical second Bockstein**, with the sign fixed by δ([x̄])=[Qx]: **ηβ₂ = −b_T δ⁻¹ b_S** on the whole original kernel A+D. It identifies the actual quotient first symbol b_T with multiplication modulo V6. Thus that quotient symbol has rank four outside the ten reduced nonsquare directions and rank three there; every nonzero square has rank four. This is an established map identification, not an inference from equal dimensions.
+
+The full-radical hypothesis remains unproved, and the non-acyclic quotient is not cancelled. **Four pairs and three labels remain; the original repair is open.** See [the naturality update](43-radical-naturality-and-second-symbol.md).
+
+## Compatibility checkpoint through PR970
 
 [PR970](https://github.com/Akilleez-QA/read-em-and-weep/blob/b4267159972c8999ea3cfff53fbb631008d1e482/research/hm/source126-polar-integrability/PROOF.md) proves that the joint P-row map is injective, hence rank two, in source126 Types I and II. This is a universal polar-integrability restriction, not a genericity estimate or selected-instance computation.
 
 - **Type I:** compatibility of the entire two-dimensional radical with Q is impossible. The compatible radical has dimension at most one. The previously live conditional 32→28 full-radical branch is now excluded, although a compatible line and the Type I source itself remain unresolved.
 - **Type II:** under full-radical compatibility only **(r, epsilon, d)=(2,0,0)** remains. Its annihilator is **27→24**. The quotient has kernel D and cokernel P, so it is not acyclic and cannot be discarded. The other three former footprint alternatives are excluded under this hypothesis.
 
-**Four catalogue pairs and three labels remain.** These are compatibility-branch exclusions, not source-pair cuts. See [the checked polar-integrability update](42-polar-integrability.md). The actual internal-symbol scalar μ remains unselected in this edition.
+**Four catalogue pairs and three labels remain.** These are compatibility-branch exclusions, not source-pair cuts. See [the checked polar-integrability update](42-polar-integrability.md). At this checkpoint μ was unselected; PR973 now forces μ=0 under the actual full-radical Type II hypotheses.
 
 ## Geometric checkpoint through PR969
 
@@ -41,7 +53,7 @@ See the [new source126 specialization](36-source126-dual-specialization.md) and 
 
 The degree-six plane curve underlying the ten directions is the **classical Winger rational sextic**, not a newly discovered curve. Its identification uses the matching irreducible representation and multiplicity-one section space, not node counts alone. Earlier elliptic-quintic incidence conditions are not identified with our quadratic obstruction Q.
 
-[PR965](https://github.com/Akilleez-QA/read-em-and-weep/blob/de8e1d1a90d6f41dffa74df7cc7220c4e84bf4e7/research/hm/source126-typeII-internal-discriminant/PROOF.md) classifies the conditional Type II internal symbol: rank three if μ=0; if μ≠0, rank four on square quadratics and five off the discriminant conic. [PR969](https://github.com/Akilleez-QA/read-em-and-weep/blob/3e1d81ec3bd42a55d06321b57ee1f62822a6dcc3/research/hm/source126-typeII-symbol-cokernel/PROOF.md) upgrades that conic to the reduced projective degeneracy scheme and identifies its cokernel and kernel bundles. The actual μ branch remains unselected; internal surjectivity is not surjectivity of the original obstruction map.
+[PR965](https://github.com/Akilleez-QA/read-em-and-weep/blob/de8e1d1a90d6f41dffa74df7cc7220c4e84bf4e7/research/hm/source126-typeII-internal-discriminant/PROOF.md) classifies the conditional Type II internal symbol: rank three if μ=0; if μ≠0, rank four on square quadratics and five off the discriminant conic. [PR969](https://github.com/Akilleez-QA/read-em-and-weep/blob/3e1d81ec3bd42a55d06321b57ee1f62822a6dcc3/research/hm/source126-typeII-symbol-cokernel/PROOF.md) upgrades that conic to the reduced projective degeneracy scheme and identifies its cokernel and kernel bundles. PR973 now forces μ=0 under actual full-radical Type II compatibility; the former nonzero-μ calculations remain valid universal conditional results, not a live branch here. Internal surjectivity would not by itself be original-map surjectivity.
 
 See [the new geometric and scheme-theoretic addendum](41-pure-v-and-internal-symbol-schemes.md). Historical counts and figures are preserved; no proof-completion percentage is inferred.
 
@@ -55,7 +67,7 @@ See [the new geometric and scheme-theoretic addendum](41-pure-v-and-internal-sym
 
 [PR958](https://github.com/Akilleez-QA/read-em-and-weep/blob/97857b1bcda30135507f160812823eb5e74bbf85/research/hm/source2-exceptional-quotient-structure/PROOF.md) separately identifies the exceptional mixed quotient as N0 ⊕ N8 ⊕ L, with L of dimensions (8,6,0) and genuine contraction arrows. Its common first-arrow kernel is zero, although every negative quadratic kills L's initial space. Q may still mix the summands. PR960 extends the two-term reduction by quadratic annihilation, not by falsely treating these first arrows as zero.
 
-The [new addendum](40-conditional-reductions-and-finite-neighborhood.md) also gives a scoped source report on PR955: a unique invariant third-neighborhood section cannot extend to the seventh, failing at ordinary normal order four or six. The failing order is not selected. No completion percentage follows from these restrictions.
+The [new addendum](40-conditional-reductions-and-finite-neighborhood.md) also gives a scoped source report on PR955: a unique invariant third-neighborhood section cannot extend to the seventh, historically reported as failing at ordinary normal order four or six; PR967 now reports selection of order four. No completion percentage follows from these restrictions.
 
 ## Historical structural checkpoint through PR954
 

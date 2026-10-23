@@ -1,6 +1,6 @@
-# Living research paper · v0.10
+# Living research paper · v0.11
 
-**Craig Ward · 23 October 2026 · Structural update through PR970; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR973; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
@@ -16,21 +16,27 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [Polar integrability and compatibility exclusions](42-polar-integrability.md) rules out full-radical Type I compatibility and leaves only the Type II (2,0,0) footprint under full-radical compatibility. The former Type I 32→28 and three Type II alternatives are superseded; the source-dual ledger remains four pairs/three labels.
 
+[Radical naturality and the actual second symbol](43-radical-naturality-and-second-symbol.md) selects μ=0 under actual full-radical Type II compatibility, factors the original second Bockstein, and transfers the ten-direction locus to the actual quotient first symbol. No source pair is removed.
+
+[Collaborator source report through PR975](44-secondary-geometry-source-report.md) updates the actual B(4) failing order to four and distinguishes the B|H(2) order-two result, while reporting two still-unselected first-cup kernel types. These are full-source readings, not independent reproofs.
+
 ## Current reading order
 
 1. [Root status paper](../README.md)
-2. [Latest compatibility exclusions](42-polar-integrability.md)
-3. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
-4. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
-5. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
-6. [Source2 compatibility](38-source2-compatibility.md)
-7. [Compatibility and torsion update](37-compatibility-and-torsion.md)
-8. [Source126 quotient specialization](36-source126-dual-specialization.md)
-9. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
-10. [Current progress map](progress-map.md)
-11. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
-12. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
-13. [Execution and supporting formalization](32-burn-execution-and-verification.md)
-14. [Physical construction chain](33-burn-physical-construction.md)
+2. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
+3. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
+4. [Compatibility exclusions](42-polar-integrability.md)
+5. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
+6. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
+7. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
+8. [Source2 compatibility](38-source2-compatibility.md)
+9. [Compatibility and torsion update](37-compatibility-and-torsion.md)
+10. [Source126 quotient specialization](36-source126-dual-specialization.md)
+11. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
+12. [Current progress map](progress-map.md)
+13. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
+14. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
+15. [Execution and supporting formalization](32-burn-execution-and-verification.md)
+16. [Physical construction chain](33-burn-physical-construction.md)
 
 Earlier chapters and figures are dated snapshots, not live counters. The historical burn endpoint remains three labels and 146 pairs; its figure is preserved. Supporting formalization remains 66 declarations in 13 draft packages, not a formal proof of the complete repair. Markdown is the maintained paper source.

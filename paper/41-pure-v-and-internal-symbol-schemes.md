@@ -1,5 +1,7 @@
 # Pure-V geometry and internal-symbol schemes
 
+**Supersession through PR973:** under actual Type II and full-radical Q compatibility, μ is now proved zero. The nonzero-μ discriminant scheme and kernel calculations below remain valid universal results under their explicit scalar alternative, but that alternative cannot arise under these actual hypotheses. The original second symbol and actual quotient first-symbol transfer are recorded in [chapter43](43-radical-naturality-and-second-symbol.md).
+
 **Craig Ward · 23 October 2026 · Update through PR969**
 
 The necessary relation remains **four pairs across three stable labels**, distributed **2 + 1 + 1**. The results below constrain different maps and parameter spaces; their ranks and exceptional loci must not be combined into a claim of full repair. No Q-compatible pure-V line or actual Type II scalar branch is selected.
@@ -50,7 +52,7 @@ The first transvectant {a,h}₁ is the alternating first-derivative pairing. Mul
 | μ≠0 | Square | 4 | 4 | 1 |
 | μ≠0 | Nonsquare | 5 | 3 | 0 |
 
-The actual vanishing choice of μ remains unresolved. These are internal first-symbol ranks. Its internal D cokernel maps to zero in the original P cokernel, so this does not contradict original first-Bockstein vanishing or prove original-map surjectivity.
+At this historical checkpoint the vanishing choice of μ was unresolved; PR973 now selects zero under the actual full-radical hypotheses. These are internal first-symbol ranks. Its internal D cokernel maps to zero in the original P cokernel, so this does not contradict original first-Bockstein vanishing or prove original-map surjectivity.
 
 ## 4. Reduced projective conic, affine ideal and the Tor correction
 
