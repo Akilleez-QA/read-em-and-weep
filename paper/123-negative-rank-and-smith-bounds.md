@@ -1,5 +1,7 @@
 # Negative quadratic ranks sharpen the remaining Smith bounds
 
+**Later refinement, 23 October 2026 (PR1115):** In residual-large only, the generic remaining exponent is now exactly4,5 or absent. If R and the original fifth both vanish, all higher classes vanish and generic rank is36; finite6–24 are excluded. Actual alignment is unselected. Earlier generic residual ranges here are dated bounds, not the current list. The general criterion and nonzero-N0 bounds remain valid; exceptional-direction claims with globally nonzero R are not strengthened by this generic classification. See [chapter130](130-residual-fifth-and-all-orders.md).
+
 **23 October 2026 · PR1103, full immutable proof read**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/0c2da01cfa9440d25b38360a5742ee8b32f20d0f/research/hm/source2-negative-quadratic-degree-bound/PROOF.md), blob `d19ae749f54ec46eb667ffd70bc54868b595a227`.

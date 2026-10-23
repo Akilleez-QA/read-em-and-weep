@@ -2,6 +2,22 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Residual-large: fourth, fifth or no remaining pivot through PR1115
+
+[The residual all-orders theorem](130-residual-fifth-and-all-orders.md) gives exactly three conditional generic outcomes: R≠0 gives last exponent4/rank37; R=0 with nonzero fifth gives exponent5/rank37; both zero give every higher obstruction zero and rank36. Thus finite exponents6–24 are excluded in residual-large. No actual outcome or source is selected. [Three-outcome diagram](figures/pure-v-residual-three-outcomes.svg)
+
+Under R=0, the actual inverse separated-image isomorphism Ξ has three nonzero Schur coordinates. Fifth zero is exactly the alternating ratio (D:P:V)=(−1:1:1). A fixed canonical-A normalization propagates polynomial corrected strings to every order. In that zero case all maximal minors vanish identically, giving rank≤36 everywhere on the fixed Q+tT_a slice, not all quadratic directions or the full adjoint.
+
+Earlier residual generic5–24 and fifth-zero≥6 bounds below are historical and superseded by this theorem. The general finite21-stage criterion remains valid and relevant to nonzero-N0; its higher outcomes are not removed by the residual proof. Direction-specific exceptional-point bounds when the global fourth is nonzero are not replaced by a claim of uniform exponent4 or5. Neither endpoint-sixteen mechanism is selected; four necessary source pairs remain.
+
+## Forced correction placement and bounded checking through PR1113
+
+[The full common homotopy kernel](127-common-quadratic-homotopy-kernel.md) has residual degree-two dimension17 and full dimension21. Under residual-large R=0, the actual first correction's P channel necessarily projects isomorphically onto separated (N0,2)_P; its V and D channels remain residual. This is forced placement, not an exclusion or a fifth value. The degree-two K_(R,2) must not be confused with older degree-four K_R of dimension16. [The earlier V alignment](127-common-quadratic-homotopy-kernel.md#earlier-canonical-v-alignment) remains canonical under the same hypothesis.
+
+[The bounded rational checker](128-bounded-certificate-checker.md) verifies supplied polynomial correction identities and optional supplied-action equivariance. All examples are synthetic; actual-map authentication and actual positive rank remain undetermined. [Mr. slop's source reports](129-positive-contraction-source-reports.md) identify the marked transgression detector and constrain the actual positive contraction to at least two effective channels. Neither detector nor mechanism is selected.
+
+The finite sequential criterion, completed universal component-scheme classification, endpoint-sixteen alternatives and four-pair frontier remain unchanged.
+
 ## Finite sequential positive criterion and canonical terminal sextet through PR1107
 
 [PR1107](126-finite-sequential-obstruction.md) proves the original positive generic rank is37 iff the sequential gates s3,…,s23 first become nonzero. These are original orders4–24, not independent parameters. Allzero forces rank36: a later pivot would require maximal-minor order≥31, exceeding degree30. The global two-stage gauge update retains κ remainders and continues polynomially at every order. No actual class or rank outcome is selected; no full-adjoint or square-base-change recursion is asserted. [Finite-stage visual](figures/pure-v-finite-obstruction.svg)

@@ -1,5 +1,7 @@
 # A finite sequential criterion for the original positive component
 
+**Later refinement, 23 October 2026 (PR1115):** In residual-large only, the generic remaining exponent is now exactly4,5 or absent. If R and the original fifth both vanish, all higher classes vanish and generic rank is36; finite6–24 are excluded. Actual alignment is unselected. Earlier generic residual ranges here are dated bounds, not the current list. The general criterion and nonzero-N0 bounds remain valid; exceptional-direction claims with globally nonzero R are not strengthened by this generic classification. See [chapter130](130-residual-fifth-and-all-orders.md).
+
 **23 October 2026 · PR1107, full immutable proof read**
 
 [Immutable proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/5b52eedce3420ccc3e407e97201bcdd056501bbf/research/hm/source2-pure-v-finite-obstruction/PROOF.md), blob `a8f57401d93c296d23a5ed55cd09d8893222e7c1`.

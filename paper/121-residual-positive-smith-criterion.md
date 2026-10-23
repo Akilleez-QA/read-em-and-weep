@@ -1,5 +1,7 @@
 # Surviving residual-large: the exact positive Smith threshold
 
+**Later refinement, 23 October 2026 (PR1115):** In residual-large only, the generic remaining exponent is now exactly4,5 or absent. If R and the original fifth both vanish, all higher classes vanish and generic rank is36; finite6–24 are excluded. Actual alignment is unselected. Earlier generic residual ranges here are dated bounds, not the current list. The general criterion and nonzero-N0 bounds remain valid; exceptional-direction claims with globally nonzero R are not strengthened by this generic classification. See [chapter130](130-residual-fifth-and-all-orders.md).
+
 **PR1103/1104 update:** The earlier 5–31 bound below is sharpened to generic 5–24 and square 5–21, or absence, by [negative quadratic ranks](123-negative-rank-and-smith-bounds.md). When R=0, the [two-dimensional fifth gate](124-original-fifth-gate.md) selects exponent five iff nonzero; its actual value remains unselected. The α≠0/order-ten equivalence is unchanged.
 
 **23 October 2026 · PR1102, local and immutable full proofs read**
