@@ -1,8 +1,16 @@
-# Living research paper · v0.49
+# Living research paper · v0.50
 
-**Craig Ward · 23 October 2026 · Structural update through PR1104; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1107; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Finite sequential positive criterion and canonical terminal sextet through PR1107
+
+[PR1107](126-finite-sequential-obstruction.md) proves the original positive generic rank is37 iff the sequential gates s3,…,s23 first become nonzero. These are original orders4–24, not independent parameters. Allzero forces rank36: a later pivot would require maximal-minor order≥31, exceeding degree30. The global two-stage gauge update retains κ remainders and continues polynomially at every order. No actual class or rank outcome is selected; no full-adjoint or square-base-change recursion is asserted. [Finite-stage visual](figures/pure-v-finite-obstruction.svg)
+
+[PR1106](125-canonical-q-terminal.md) constructs actual T_Q=Q3(NC3)=WQ2(V_C)≅T with a saturated Euler subpencil. In residual-large it complements C_term via ℓ. If τ=0, its first-block projection specifically identifies the nonzero Q2 channel onto (N0,4)_V and the terminal T it generates. This is not the earlier degree-four U_Q, a positive-module splitting or a computed fifth class.
+
+Endpoint sixteen, two unselected mechanisms and four necessary source pairs remain. Earlier fifth and degree bounds are now parts of the proved finite criterion, not evaluated outcomes.
 
 ## Sharper bounds and the actual fifth gate through PR1104
 
