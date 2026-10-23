@@ -1,0 +1,28 @@
+[
+  {
+    "local_path": "inputs/1031.md",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "sha256": "7afb4f1c03d2077e158aaa5be9570cfc9d28f1f8b631d610b2fcca07c135e446",
+    "git_blob": "0694e96e2d17a53b68d625ec6065f8bf513cd083",
+    "label": "1031"
+  },
+  {
+    "local_path": "inputs/model.py",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/model.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "label": "model"
+  },
+  {
+    "local_path": "inputs/1127.md",
+    "commit": "60dda5a940d5ba7ee081a86cd1b1a783a5952a39",
+    "path": "research/hm/primary-quotient-composition/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/60dda5a940d5ba7ee081a86cd1b1a783a5952a39/research/hm/primary-quotient-composition/PROOF.md",
+    "sha256": "3101157347802226a3b2638e76375854944d7a41d503b75b1591bc3eb66b1577",
+    "git_blob": "80faeb68639dc5f644397a54d5ca7a12009f616f"
+  }
+]

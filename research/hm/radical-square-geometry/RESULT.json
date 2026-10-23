@@ -1,0 +1,193 @@
+{
+  "scope": "universal full coefficient maps only",
+  "types": {
+    "I": {
+      "matrix": [
+        [
+          "-2*p**2 + 4*sqrt(5)*q**2/5",
+          "10*p*q",
+          "-12*sqrt(5)*p**2 - 6*q**2"
+        ],
+        [
+          "32*sqrt(5)*p*q/5",
+          "20*p**2 - 4*sqrt(5)*q**2",
+          "-48*p*q"
+        ],
+        [
+          "24*sqrt(5)*p**2/5 + 12*q**2",
+          "-12*sqrt(5)*p*q",
+          "-36*p**2"
+        ],
+        [
+          "16*p*q",
+          "-4*sqrt(5)*p**2 + 20*q**2",
+          "0"
+        ],
+        [
+          "2*p**2",
+          "10*p*q",
+          "30*q**2"
+        ]
+      ],
+      "all_maximal_minors": [
+        "7200*p**6 + 7200*sqrt(5)*p**4*q**2 - 7200*p**2*q**4 - 288*sqrt(5)*q**6",
+        "5760*sqrt(5)*p**5*q - 19200*p**3*q**3 - 384*sqrt(5)*p*q**5",
+        "480*sqrt(5)*p**6 - 7200*p**4*q**2 - 1248*sqrt(5)*p**2*q**4 - 480*q**6",
+        "1440*sqrt(5)*p**6 - 21600*p**4*q**2 - 3744*sqrt(5)*p**2*q**4 - 1440*q**6",
+        "-5760*p**5*q - 2304*sqrt(5)*p**3*q**3 - 5760*p*q**5",
+        "-480*p**6 - 1248*sqrt(5)*p**4*q**2 - 7200*p**2*q**4 + 480*sqrt(5)*q**6",
+        "-11520*p**5*q - 4608*sqrt(5)*p**3*q**3 - 11520*p*q**5",
+        "-1440*p**6 - 3744*sqrt(5)*p**4*q**2 - 21600*p**2*q**4 + 1440*sqrt(5)*q**6",
+        "-384*sqrt(5)*p**5*q - 19200*p**3*q**3 + 5760*sqrt(5)*p*q**5",
+        "-288*sqrt(5)*p**6 - 7200*p**4*q**2 + 7200*sqrt(5)*p**2*q**4 + 7200*q**6"
+      ],
+      "minor_coefficient_rank": 7,
+      "homogeneous_gcd": "1 up to unit",
+      "symbolic_chart_ideals": [
+        "1",
+        "1"
+      ],
+      "transpose_syzygy_dimensions_degree_0_through_3": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "all_projective_ranks": 3
+    },
+    "II": {
+      "matrix": [
+        [
+          "16*sqrt(5)*p*q/15",
+          "-40*p**2/3 - 8*sqrt(5)*q**2/3",
+          "-48*p*q"
+        ],
+        [
+          "56*sqrt(5)*p**2/15 - 8*q**2/3",
+          "16*sqrt(5)*p*q/3",
+          "-8*p**2 - 8*sqrt(5)*q**2"
+        ],
+        [
+          "8*sqrt(5)*p**2/15 - 8*q**2",
+          "-16*sqrt(5)*p*q/3",
+          "-24*p**2 + 8*sqrt(5)*q**2"
+        ],
+        [
+          "-16*p*q/3",
+          "8*sqrt(5)*p**2/3 + 40*q**2/3",
+          "-16*sqrt(5)*p*q"
+        ]
+      ],
+      "all_maximal_minors": [
+        "-10240*sqrt(5)*p**6/9 + 51200*p**4*q**2/9 - 10240*sqrt(5)*p**2*q**4/3 - 10240*q**6/9",
+        "-20480*p**5*q/3 - 40960*sqrt(5)*p**3*q**3/9 + 20480*p*q**5/9",
+        "-20480*p**5*q/9 + 40960*sqrt(5)*p**3*q**3/9 + 20480*p*q**5/3",
+        "10240*p**6/9 + 10240*sqrt(5)*p**4*q**2/3 - 51200*p**2*q**4/9 + 10240*sqrt(5)*q**6/9"
+      ],
+      "minor_coefficient_rank": 4,
+      "homogeneous_gcd": "1 up to unit",
+      "symbolic_chart_ideals": [
+        "1",
+        "1"
+      ],
+      "transpose_syzygy_dimensions_degree_0_through_3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "all_projective_ranks": 3
+    }
+  },
+  "quotient_invariants": {
+    "E/S I": {
+      "rank": 14,
+      "degree": -42,
+      "rank_twist_blocks": [
+        [
+          2,
+          1
+        ],
+        [
+          8,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          1,
+          -8
+        ]
+      ]
+    },
+    "E/S II": {
+      "rank": 14,
+      "degree": -42,
+      "rank_twist_blocks": [
+        [
+          1,
+          4
+        ],
+        [
+          8,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          2,
+          -5
+        ]
+      ]
+    },
+    "K/S I": {
+      "rank": 12,
+      "degree": -36,
+      "rank_twist_blocks": [
+        [
+          2,
+          1
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          1,
+          -8
+        ]
+      ]
+    },
+    "K/S II": {
+      "rank": 12,
+      "degree": -36,
+      "rank_twist_blocks": [
+        [
+          1,
+          4
+        ],
+        [
+          6,
+          -3
+        ],
+        [
+          3,
+          -4
+        ],
+        [
+          2,
+          -5
+        ]
+      ]
+    }
+  },
+  "checks": 51
+}
