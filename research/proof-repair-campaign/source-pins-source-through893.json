@@ -1,0 +1,37 @@
+{
+  "892_PROOF": {
+    "local_file": "inputs/pr892_proof.md",
+    "path": "research/hm/profile11-source127-gb-exclusion/PROOF.md",
+    "commit": "88c50be95de2f0c688e7226e6c78c67b751a540d",
+    "git_blob_sha1": "a6c1e98c5b2b7c76273e83ae7d68de7bc2210e49",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/88c50be95de2f0c688e7226e6c78c67b751a540d/research/hm/profile11-source127-gb-exclusion/PROOF.md"
+  },
+  "892_REVIEW": {
+    "local_file": "inputs/pr892_review.md",
+    "path": "research/hm/profile11-source127-gb-exclusion/REVIEW.md",
+    "commit": "88c50be95de2f0c688e7226e6c78c67b751a540d",
+    "git_blob_sha1": "b67e25472d6676698e1128ce785dd0de253488e3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/88c50be95de2f0c688e7226e6c78c67b751a540d/research/hm/profile11-source127-gb-exclusion/REVIEW.md"
+  },
+  "893_PROOF": {
+    "local_file": "inputs/pr893_proof.md",
+    "path": "research/hm/profile11-source125-ce-exclusion/PROOF.md",
+    "commit": "7645e2458c3b85c5d814c22255dae8cabc7226bc",
+    "git_blob_sha1": "fba1eb60737405f3ced37ab2d5542ca17eef20cb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7645e2458c3b85c5d814c22255dae8cabc7226bc/research/hm/profile11-source125-ce-exclusion/PROOF.md"
+  },
+  "893_REVIEW": {
+    "local_file": "inputs/pr893_review.md",
+    "path": "research/hm/profile11-source125-ce-exclusion/REVIEW.md",
+    "commit": "7645e2458c3b85c5d814c22255dae8cabc7226bc",
+    "git_blob_sha1": "93b9278452a4cfb82b7d761d9e960e379f91b899",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7645e2458c3b85c5d814c22255dae8cabc7226bc/research/hm/profile11-source125-ce-exclusion/REVIEW.md"
+  },
+  "original_actual": {
+    "local_file": "inputs/pr892_original_actual.md",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+  }
+}
