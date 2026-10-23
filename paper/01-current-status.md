@@ -26,6 +26,12 @@ See the [new source126 specialization](36-source126-dual-specialization.md) and 
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](figures/current-four-pair-frontier.svg)
 
+## Single-line cubic reduction through PR992
+
+[PR992](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a4947f8525f5e1519149221324deb88477546bc/research/hm/source126-compatible-line-symbols/PROOF.md) extends the internal second vanishing and canonical two-dimensional cubic gate to compatible-line rows **u=0,k=1**, without assuming full-radical compatibility: Type I (5,4), Type II (5,4)/(10,9), and Type III (10,9). The actual first-page interfaces and connecting maps are proved for these rows before transferring the universal arguments.
+
+**The cubic remains unselected in these single-line rows.** The full-J result r=0 does not transfer, and no secondary scalar ν is supplied. A single generator acts nontrivially on cohomology, so it cannot replace PR980's cohomologically null radical line. See [the new update](51-single-line-symbol-transfer.md), also recording scoped source reports on the ninth-gate image splitting and conditional secondary D-row geometry. Four pairs and three labels remain.
+
 ## Compatible single-line footprints through PR988
 
 [PR988](https://github.com/Akilleez-QA/read-em-and-weep/blob/7ceeaa0bb1942ed628f7a25fa2f5fd3c3a1fe49d/research/hm/source126-compatible-line-ranks/PROOF.md) classifies a **single nonzero Q-compatible radical element**, without assuming compatibility of the entire radical. Its necessary endpoint-rank lists have four rows in Type I, six in Type II and three in Type III. The two rank-difference-five rows, **(9,4) and (14,9)**, force generic original rank 36 and all later original generic Bocksteins to vanish. No row is asserted to occur in the actual geometry.
