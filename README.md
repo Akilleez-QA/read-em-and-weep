@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: complete sextic-channel and coefficient-span classification**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: actual P-type cubic kernel and Euler image**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/139-complete-sextic-channel-classification.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/140-p-type-cubic-euler-image.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Actual P-type cubic kernel and Euler image
+
+[The new P-type theorem](paper/140-p-type-cubic-euler-image.md) proves that a nonzero actual cubic Gauss kernel is equivalent to factorization of the actual top row through W′ O(-1). It determines the coherent image and restricted top kernel, without identifying either with a canonical complement or assuming saturation of the image. A Hom-vanishing criterion forces cubic-kernel vanishing and a tightened quartic representation envelope.
+
+This is a reusable necessary condition, not a new target exclusion. Profile (1,1), other-profile exhaustion and the original repair remain open. The sextic-channel chapter and delivered PDF are unchanged.
 
 ## Complete sextic-channel and coefficient-span classification
 
