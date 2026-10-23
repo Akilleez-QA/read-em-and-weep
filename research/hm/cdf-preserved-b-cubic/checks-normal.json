@@ -1,0 +1,9 @@
+{
+  "actual_instance_evaluations": 0,
+  "checks": 53,
+  "conclusion": "Canonical internal cubic is nonzero iff generic original fourth is nonzero; neither value is selected.",
+  "internal_second": "zero under one-sided c-d-f preservation",
+  "naturality_reduction_imported": false,
+  "raw_cubic_hom_dimension": 3,
+  "status": "pass"
+}
