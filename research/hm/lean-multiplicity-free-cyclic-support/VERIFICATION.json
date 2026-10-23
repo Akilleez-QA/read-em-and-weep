@@ -1,0 +1,586 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Abstract cyclic support for a Fin 3 dependent product of pairwise nonisomorphic simple modules over a supplied ring; no actual HM realization, physical calibration, or main theorem repair.",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "toolchain_audit": {
+    "record": {
+      "path": "${WORKSPACE}/work/swarm/lean-cyclic-support-review/verification/TOOLCHAIN.json",
+      "bytes": 3983,
+      "sha256": "fbf1d2263560ce53c25e6f8ef2cd3c420a5ee52c57e1bc0037377e075cb2c54b"
+    },
+    "method": "Read-only independent binary/file rehashes, clean mathlib tracked state and HEAD, all eight dependency HEADs and clean tracked states checked against the pinned manifest; no Lean/Lake/test invocation.",
+    "dependency_checks": [
+      {
+        "name": "plausible",
+        "expected_revision": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+        "observed_HEAD": "118aa17ee84656b8bd727fef7c458ee8c833385c",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "LeanSearchClient",
+        "expected_revision": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+        "observed_HEAD": "ddf04cf3949fa556442341e87d47f9f6e6074707",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "importGraph",
+        "expected_revision": "e928b72544873815af278d38681b31c0293588e3",
+        "observed_HEAD": "e928b72544873815af278d38681b31c0293588e3",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "proofwidgets",
+        "expected_revision": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+        "observed_HEAD": "106ff4fafc74ef4ac99d81dbf3ab399118f497a5",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "aesop",
+        "expected_revision": "355695d523e41d0554926416cba2a2b3544fbbc9",
+        "observed_HEAD": "355695d523e41d0554926416cba2a2b3544fbbc9",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "Qq",
+        "expected_revision": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+        "observed_HEAD": "6a489d9af5d0c47e5b259e2e8bcdfc1811b5a259",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "batteries",
+        "expected_revision": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+        "observed_HEAD": "f2effa3d803fda822b1f97b806c47cf2adfbcbc2",
+        "tracked_worktree_clean": true
+      },
+      {
+        "name": "Cli",
+        "expected_revision": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+        "observed_HEAD": "e92c9f15fdfacc8536f31cfb3b7ad26c3c8cd204",
+        "tracked_worktree_clean": true
+      }
+    ]
+  },
+  "dependency_pins_match_mathlib_manifest": true,
+  "lean_binary_and_dependency_path_recorded_as_launch_inputs": true,
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean",
+  "source_sha256": "0ade8cbc9c112b3f16cfc32a64adb8913ec8ab705264500c9a2d087bc9fa6ae0",
+  "check_sha256": "97053157777ce3d6b467df2b4eae34a95925eb298a40f9b873313994a5a78dcd",
+  "direct_imports": [
+    "Mathlib.RingTheory.SimpleModule.Basic"
+  ],
+  "OAI_Lean_source_dependencies": [],
+  "published_source_input": {
+    "pull_request": 891,
+    "commit": "eb83daa45fe4686a9f55da604fb2cc8c28d47fb0",
+    "path": "research/hm/generic-parameter-calibration/PROOF.md",
+    "git_blob": "ef8b0da2174ee5caeaa167f58f8230679956dbd5",
+    "sha256": "98fa36fff78c35f5dc071bbc52aa5e44e045c5f3a8252672a63e1015d027eed9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eb83daa45fe4686a9f55da604fb2cc8c28d47fb0/research/hm/generic-parameter-calibration/PROOF.md",
+    "scope": "Abstract multiplicity-free cyclic-support step only; physical decomposition and orbit-span identifications remain supplied inputs.",
+    "authentication": "Local bytes rehashed and matched the previously connector-authenticated scout pin; no new GitHub access or full geometric re-review."
+  },
+  "exported_theorem_count": 4,
+  "declaration_count_note": "Two helper theorems and two cyclic-support results.",
+  "dependency_axiom_check_count": 0,
+  "total_axiom_check_count": 4,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "axiom_results": [
+    {
+      "declaration": "OAI.HorrocksMumford.multiplicityFree_hom_eq_zero",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.multiplicityFree_endomorphism_coordinate",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.mem_cyclicSpan_iff_coordinate_support",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "declaration": "OAI.HorrocksMumford.cyclicSpan_eq_top_iff",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "axiom_output_sha256": "5104647528d71d5daa3ca78b0163c677c3d6b43514eaec17133244fe63529bda",
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 4268,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean",
+            "sha256": "0ade8cbc9c112b3f16cfc32a64adb8913ec8ab705264500c9a2d087bc9fa6ae0"
+          },
+          {
+            "bytes": 25,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lean-toolchain",
+            "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+          },
+          {
+            "bytes": 2811,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lake-manifest.json",
+            "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67"
+          },
+          {
+            "bytes": 49968,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-4.34.1-darwin_aarch64/bin/lean",
+            "sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 1.4223029999999999,
+      "child_peak_rss_bytes": 1039745024,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-cyclic-support",
+        "OAI.AlgebraicGeometry.HorrocksMumford.MultiplicityFreeCyclicSupport",
+        "module"
+      ],
+      "command_sha256": "6ec1c06c9df27bd664308010df5f640b0710cae22e539f0e9e1ad2d4f0138d80",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 72968,
+          "rss_bytes": 1024065536
+        }
+      ],
+      "pid": 72968,
+      "platform": "darwin",
+      "process_group": 72968,
+      "runtime_seconds": 1.6253027500000001,
+      "sampled_group_peak_rss_bytes": 1024065536,
+      "samples": 15,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "compile-0002.json",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-cyclic-support-review/evidence/compile-0002.json",
+      "receipt_sha256": "8c3170dc59eb3e6bbc3a82e5562d7a77b546b48dc6c7f31fd950e0b8156adec2",
+      "stdout": "",
+      "stderr": "",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Host workspace prefixes replaced with ${WORKSPACE}; SHA256 values bind the original unnormalized receipts and logs retained locally."
+    },
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 357,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/Check.lean",
+            "sha256": "97053157777ce3d6b467df2b4eae34a95925eb298a40f9b873313994a5a78dcd"
+          },
+          {
+            "bytes": 4268,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean",
+            "sha256": "0ade8cbc9c112b3f16cfc32a64adb8913ec8ab705264500c9a2d087bc9fa6ae0"
+          },
+          {
+            "bytes": 29928,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/build/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.olean",
+            "sha256": "8a91427ad24ff7df34744a5a76d49e45ab2719616acec407716d3e94b0798d7c"
+          },
+          {
+            "bytes": 136264,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/build/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.olean.private",
+            "sha256": "6c3581a4f971134e96ef292fe2505028e14028e37ac82139daf20ceafb52c4b7"
+          },
+          {
+            "bytes": 49968,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-4.34.1-darwin_aarch64/bin/lean",
+            "sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 1.3512659999999999,
+      "child_peak_rss_bytes": 1011122176,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-cyclic-support",
+        "OAI.AlgebraicGeometry.HorrocksMumford.MultiplicityFreeCyclicSupport",
+        "check"
+      ],
+      "command_sha256": "ad453abb7c2613692cb8ca3fbc1f34e37d03320d70727a894584bef3fc0314fa",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 73113,
+          "rss_bytes": 996360192
+        }
+      ],
+      "pid": 73113,
+      "platform": "darwin",
+      "process_group": 73113,
+      "runtime_seconds": 3.540018708,
+      "sampled_group_peak_rss_bytes": 996360192,
+      "samples": 33,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "axioms-0001.json",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-cyclic-support-review/evidence/axioms-0001.json",
+      "receipt_sha256": "9494715464f8126f49cb2249373e8afe1eee67c1ae03064efed4ad272bcb7b10",
+      "stdout": "'OAI.HorrocksMumford.multiplicityFree_hom_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.multiplicityFree_endomorphism_coordinate' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n'OAI.HorrocksMumford.mem_cyclicSpan_iff_coordinate_support' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.cyclicSpan_eq_top_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n",
+      "stderr": "",
+      "stdout_sha256": "5104647528d71d5daa3ca78b0163c677c3d6b43514eaec17133244fe63529bda",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Host workspace prefixes replaced with ${WORKSPACE}; SHA256 values bind the original unnormalized receipts and logs retained locally."
+    }
+  ],
+  "failed_attempts": [
+    {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 4214,
+            "path": "${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean",
+            "sha256": "f33b83d0d2958262f498efe23e015de8efea2da2e77ecc3d9c8719c993ad8940"
+          },
+          {
+            "bytes": 25,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lean-toolchain",
+            "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b"
+          },
+          {
+            "bytes": 2811,
+            "path": "${WORKSPACE}/work/swarm/lean-workspace/mathlib/lake-manifest.json",
+            "sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67"
+          },
+          {
+            "bytes": 49968,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-4.34.1-darwin_aarch64/bin/lean",
+            "sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 1.677594,
+      "child_peak_rss_bytes": 1028915200,
+      "child_returncode": 1,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-cyclic-support",
+        "OAI.AlgebraicGeometry.HorrocksMumford.MultiplicityFreeCyclicSupport",
+        "module"
+      ],
+      "command_sha256": "6ec1c06c9df27bd664308010df5f640b0710cae22e539f0e9e1ad2d4f0138d80",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 72902,
+          "rss_bytes": 1028079616
+        }
+      ],
+      "pid": 72902,
+      "platform": "darwin",
+      "process_group": 72902,
+      "runtime_seconds": 5.175979667,
+      "sampled_group_peak_rss_bytes": 1028079616,
+      "samples": 49,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "child_failed",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "compile-0001.json",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-cyclic-support-review/evidence/compile-0001.json",
+      "receipt_sha256": "4141976ad4c78613a30fca0e0010fa95f74b9837c5bc817cb8c5f98ba7bf096e",
+      "stdout": "${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean:21:4: error: Type mismatch\n  IsEmpty.false (LinearEquiv.ofBijective f hf)\nhas type\n  False\nbut is expected to have type\n  f = 0\n${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean:31:4: error: Application type mismatch: The argument\n  LinearMap.sum_single_apply ?m.60\nhas type\n  ∀ (v : (i : ?m.58) → ?m.60 i), ∑ i, Pi.single i (v i) = v\nbut is expected to have type\n  ?m.54 = ?m.55\nin the application\n  congrArg (fun y => f y i) (LinearMap.sum_single_apply ?m.60)\n${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean:31:32: error: Application type mismatch: The argument\n  x\nhas type\n  (i : Fin 3) → M i\nbut is expected to have type\n  ?m.58 → Type ?u.62\nin the application\n  @LinearMap.sum_single_apply ?m.58 x\n${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean:73:16: error: Function expected at\n  d - LinearMap.id\nbut this term has type\n  ?m.340\n\nNote: Expected a function because this term is being applied to the argument\n  (v i)\n${WORKSPACE}/work/swarm/lean-cyclic-support/lean/OAI/AlgebraicGeometry/HorrocksMumford/MultiplicityFreeCyclicSupport.lean:96:4: warning: Try this: \n  haveI̵\n\nThe goal is a proposition, so `have` is preferred over `haveI`.\nThe difference between `have` and `haveI` is that `haveI` inlines the value.\nBut this is not relevant for proofs because of proof irrelevance.\n\nNote: This linter can be disabled with `set_option linter.style.haveILetI false`\n",
+      "stderr": "",
+      "stdout_sha256": "6d9c75bade4740689b3b0682251e69b39759ce38b662aac6df58256968583287",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "normalization": "Host workspace prefixes replaced with ${WORKSPACE}; SHA256 values bind the original unnormalized receipts and logs retained locally.",
+      "preserved_failed_source": {
+        "path": "${WORKSPACE}/work/swarm/lean-cyclic-support-review/evidence/compile-0001-source.lean",
+        "bytes": 4214,
+        "sha256": "f33b83d0d2958262f498efe23e015de8efea2da2e77ecc3d9c8719c993ad8940"
+      },
+      "preserved_failed_source_text": "module\n\npublic import Mathlib.RingTheory.SimpleModule.Basic\n\nset_option autoImplicit false\n\n@[expose] public section\n\nnamespace OAI.HorrocksMumford\n\nvariable {R : Type*} [Ring R]\nvariable {M : Fin 3 → Type*}\nvariable [∀ i, AddCommGroup (M i)] [∀ i, Module R (M i)]\nvariable [∀ i, IsSimpleModule R (M i)]\n\n/-- Schur's lemma turns inequivalence into vanishing of off-diagonal maps. -/\ntheorem multiplicityFree_hom_eq_zero\n    (hsep : Pairwise (fun i j => IsEmpty (M i ≃ₗ[R] M j)))\n    {i j : Fin 3} (hij : i ≠ j) (f : M i →ₗ[R] M j) : f = 0 := by\n  rcases f.bijective_or_eq_zero with hf | hf\n  · exact (hsep hij).false (LinearEquiv.ofBijective f hf)\n  · exact hf\n\n/-- Every endomorphism of this multiplicity-free product acts coordinatewise. -/\ntheorem multiplicityFree_endomorphism_coordinate\n    (hsep : Pairwise (fun i j => IsEmpty (M i ≃ₗ[R] M j)))\n    (f : (∀ i, M i) →ₗ[R] (∀ i, M i)) (x : ∀ i, M i) (i : Fin 3) :\n    (f x) i = (f (LinearMap.single R M i (x i))) i := by\n  classical\n  have hx := congrArg (fun y : ∀ i, M i => (f y) i)\n    (LinearMap.sum_single_apply x)\n  rw [map_sum, Finset.sum_apply] at hx\n  apply hx.symm.trans\n  apply Finset.sum_eq_single i\n  · intro j _ hji\n    have hz := multiplicityFree_hom_eq_zero hsep hji\n      ((LinearMap.proj i).comp (f.comp (LinearMap.single R M j)))\n    have he := LinearMap.congr_fun hz (x j)\n    change (f (Pi.single j (x j))) i = 0 at he\n    exact he\n  · simp\n\n/-- Exact cyclic support for three pairwise inequivalent simple modules.\nThe coordinate-preservation step is derived from a complementary projection. -/\ntheorem mem_cyclicSpan_iff_coordinate_support\n    (hsep : Pairwise (fun i j => IsEmpty (M i ≃ₗ[R] M j)))\n    (v x : ∀ i, M i) :\n    x ∈ Submodule.span R ({v} : Set (∀ i, M i)) ↔\n      ∀ i, v i = 0 → x i = 0 := by\n  classical\n  let S : Submodule R (∀ i, M i) := Submodule.span R {v}\n  have hv : v ∈ S := Submodule.mem_span_singleton_self v\n  constructor\n  · intro hx i hi\n    have hle : S ≤ LinearMap.ker (LinearMap.proj i) := by\n      apply Submodule.span_le.mpr\n      intro y hy\n      rcases Set.mem_singleton_iff.mp hy with rfl\n      exact hi\n    exact hle hx\n  · intro hx\n    obtain ⟨T, hT⟩ := exists_isCompl S\n    let p : (∀ i, M i) →ₗ[R] (∀ i, M i) := S.projection T hT\n    have hpv : p v = v := S.projection_apply_of_mem_left hT hv\n    have hfix : ∀ i, v i ≠ 0 →\n        (LinearMap.proj i).comp (p.comp (LinearMap.single R M i)) = LinearMap.id := by\n      intro i hi\n      let d : M i →ₗ[R] M i :=\n        (LinearMap.proj i).comp (p.comp (LinearMap.single R M i))\n      have hdv : d (v i) = v i := by\n        change (p (LinearMap.single R M i (v i))) i = v i\n        rw [← multiplicityFree_endomorphism_coordinate hsep p v i, hpv]\n      have hz : (d - LinearMap.id) (v i) = 0 := by\n        simpa using sub_eq_zero.mpr hdv\n      rcases (d - LinearMap.id).injective_or_eq_zero with hinj | hzero\n      · exact False.elim (hi (hinj (hz.trans (map_zero _).symm)))\n      · exact sub_eq_zero.mp hzero\n    have hpx : p x = x := by\n      funext i\n      rw [multiplicityFree_endomorphism_coordinate hsep p x i]\n      by_cases hi : v i = 0\n      · simp [hx i hi]\n      · have he := LinearMap.congr_fun (hfix i hi) (x i)\n        exact he\n    rw [← hpx]\n    exact S.projection_apply_mem hT x\n\n/-- A cyclic vector generates the whole product precisely when no coordinate vanishes. -/\ntheorem cyclicSpan_eq_top_iff\n    (hsep : Pairwise (fun i j => IsEmpty (M i ≃ₗ[R] M j)))\n    (v : ∀ i, M i) :\n    Submodule.span R ({v} : Set (∀ i, M i)) = ⊤ ↔ ∀ i, v i ≠ 0 := by\n  classical\n  constructor\n  · intro htop i hi\n    haveI : Nontrivial (M i) := IsSimpleModule.nontrivial R (M i)\n    obtain ⟨y, hy⟩ := exists_ne (0 : M i)\n    have hm : LinearMap.single R M i y ∈ Submodule.span R ({v} : Set (∀ i, M i)) := by\n      rw [htop]\n      exact Submodule.mem_top\n    have hz := (mem_cyclicSpan_iff_coordinate_support hsep v _).mp hm i hi\n    apply hy\n    simpa using hz\n  · intro hv\n    apply top_unique\n    intro x _\n    exact (mem_cyclicSpan_iff_coordinate_support hsep v x).mpr\n      (fun i hi => False.elim (hv i hi))\n\nend OAI.HorrocksMumford\n",
+      "failure_classification": "Three elaboration issues: False elimination, omitted dependent-module argument, and type annotation for d minus id; one haveI style warning."
+    }
+  ],
+  "successful_repair": {
+    "failed_source_sha256": "f33b83d0d2958262f498efe23e015de8efea2da2e77ecc3d9c8719c993ad8940",
+    "final_source_sha256": "0ade8cbc9c112b3f16cfc32a64adb8913ec8ab705264500c9a2d087bc9fa6ae0",
+    "description": "Explicit False.elim, M argument to sum_single_apply, endomorphism annotations on d minus id, and haveI-to-have style correction.",
+    "diff": "--- compile-0001-source.lean\n+++ MultiplicityFreeCyclicSupport.lean\n@@ -18,7 +18,7 @@\n     (hsep : Pairwise (fun i j => IsEmpty (M i ≃ₗ[R] M j)))\n     {i j : Fin 3} (hij : i ≠ j) (f : M i →ₗ[R] M j) : f = 0 := by\n   rcases f.bijective_or_eq_zero with hf | hf\n-  · exact (hsep hij).false (LinearEquiv.ofBijective f hf)\n+  · exact False.elim ((hsep hij).false (LinearEquiv.ofBijective f hf))\n   · exact hf\n \n /-- Every endomorphism of this multiplicity-free product acts coordinatewise. -/\n@@ -28,7 +28,7 @@\n     (f x) i = (f (LinearMap.single R M i (x i))) i := by\n   classical\n   have hx := congrArg (fun y : ∀ i, M i => (f y) i)\n-    (LinearMap.sum_single_apply x)\n+    (LinearMap.sum_single_apply M x)\n   rw [map_sum, Finset.sum_apply] at hx\n   apply hx.symm.trans\n   apply Finset.sum_eq_single i\n@@ -70,9 +70,9 @@\n       have hdv : d (v i) = v i := by\n         change (p (LinearMap.single R M i (v i))) i = v i\n         rw [← multiplicityFree_endomorphism_coordinate hsep p v i, hpv]\n-      have hz : (d - LinearMap.id) (v i) = 0 := by\n+      have hz : (d - LinearMap.id : M i →ₗ[R] M i) (v i) = 0 := by\n         simpa using sub_eq_zero.mpr hdv\n-      rcases (d - LinearMap.id).injective_or_eq_zero with hinj | hzero\n+      rcases (d - LinearMap.id : M i →ₗ[R] M i).injective_or_eq_zero with hinj | hzero\n       · exact False.elim (hi (hinj (hz.trans (map_zero _).symm)))\n       · exact sub_eq_zero.mp hzero\n     have hpx : p x = x := by\n@@ -93,7 +93,7 @@\n   classical\n   constructor\n   · intro htop i hi\n-    haveI : Nontrivial (M i) := IsSimpleModule.nontrivial R (M i)\n+    have : Nontrivial (M i) := IsSimpleModule.nontrivial R (M i)\n     obtain ⟨y, hy⟩ := exists_ne (0 : M i)\n     have hm : LinearMap.single R M i y ∈ Submodule.span R ({v} : Set (∀ i, M i)) := by\n       rw [htop]\n"
+  },
+  "dependency_cache": {
+    "run": {
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 577,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/cache-cyclic-support.py",
+            "sha256": "649e9000eb4bff79d1006210524b7f0d28426e5859c4b67b4e37063d755a2116"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "child_cpu_scope": "wait4 direct child rusage, including descendants it waited for",
+      "child_cpu_seconds": 3.3945849999999997,
+      "child_peak_rss_bytes": 700694528,
+      "child_returncode": 0,
+      "cleanup_complete": true,
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/cache-cyclic-support.py"
+      ],
+      "command_sha256": "0ec0aabe0f73a001bdc16da1e7e78e6aa5a5c51a9a484cdd68fb38bd81d6526f",
+      "cpu_limit_applied": true,
+      "cwd": "${WORKSPACE}",
+      "enforcement": {
+        "address_space_limit_enforced": false,
+        "containment": "Children must stay in the created group; this is not a sandbox.",
+        "cpu": "RLIMIT_CPU inherited per process; not aggregate group CPU",
+        "kill_grace_seconds": 2.0,
+        "ps_timeout_seconds": 0.5,
+        "rss": "sampled sum of resident bytes in the created process group",
+        "rss_guaranteed_overshoot_bound_bytes": null,
+        "rss_overshoot_note": "No finite byte bound between samples or during scheduler delay.",
+        "term_grace_seconds": 0.5,
+        "wall": "monotonic watchdog; scheduler and ps latency can delay detection"
+      },
+      "input_hashes_unchanged": true,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "observed_rss_overshoot_bytes": 0,
+      "peak_group_members": [
+        {
+          "pid": 72659,
+          "rss_bytes": 700579840
+        },
+        {
+          "pid": 72728,
+          "rss_bytes": 57720832
+        },
+        {
+          "pid": 72780,
+          "rss_bytes": 7651328
+        }
+      ],
+      "pid": 72659,
+      "platform": "darwin",
+      "process_group": 72659,
+      "runtime_seconds": 10.57996625,
+      "sampled_group_peak_rss_bytes": 765952000,
+      "samples": 98,
+      "schema": 1,
+      "signals_sent": [],
+      "status": "success",
+      "wall_overshoot_seconds": 0,
+      "original_receipt_name": "cache-cyclic-support-receipt.json",
+      "original_receipt_path": "${WORKSPACE}/work/swarm/lean-runtime/cache-cyclic-support-receipt.json",
+      "receipt_sha256": "c3f00a29049f6081a764ab157af995c6553a06217ff2f14dc25722bf427badac",
+      "stdout": "Current branch: HEAD\nUsing cache from origin: (some leanprover-community/mathlib4)\nAttempting to download 11 file(s) from leanprover-community/mathlib4 cache at https://cache.mathlib.org/mathlib4-master\nDecompressed 11 file(s)\nAlready decompressed 1429 file(s)\n",
+      "stderr": "ℹ [41/41] Replayed cache:exe\ninfo: stderr:\nld64.lld: warning: directory not found for option -L/usr/local/lib\n\nDownloaded: 1 file(s) [attempted 1/11 = 9%, 56 KB/s], Decompressed: 0\u001b[K\nDownloaded: 11 file(s) [attempted 11/11 = 100%, 56 KB/s], Decompressed: 0\u001b[K\n",
+      "stdout_sha256": "7dec95713ab8b67886d1de381018a7b3146fba06d9519c0f274da41361b2f2a5",
+      "stderr_sha256": "2d9bd3fdc3e976d2027276dd40ab59b41385e59d95c17b7063355216c5f4d1b9",
+      "normalization": "Host workspace prefixes replaced with ${WORKSPACE}; SHA256 values bind the original unnormalized receipts and logs retained locally."
+    },
+    "requested_cache_roots": [
+      "Mathlib.RingTheory.SimpleModule.Basic",
+      "Mathlib.RingTheory.SimpleModule.Isotypic"
+    ],
+    "downloaded_and_decompressed_cache_files": 11,
+    "already_decompressed_files_reported": 1429,
+    "scope": "Successful bounded cache preparation, not proof checking. Isotypic was prefetched; the final source directly imports only SimpleModule.Basic."
+  },
+  "resource_scope": {
+    "Lean_arguments": [
+      "-j1",
+      "-M1200"
+    ],
+    "cpu": "60-second RLIMIT_CPU inherited per process, not aggregate group CPU",
+    "wall": "75-second monotonic watchdog",
+    "rss": "1.5 GiB sampled aggregate process-group RSS threshold, not a hard address-space limit; no finite between-sample overshoot guarantee",
+    "hard_address_space_limit_on_Darwin": false,
+    "limits_raised_for_successful_runs": false
+  },
+  "verification_boundaries": [
+    "Compilation and importing #print axioms used the same pinned Lean installation; no Comparator or independent second kernel was run.",
+    "The module supplies no actual G-action, group algebra orbit bridge, authenticated Sym^3 decomposition, dimensions3/3/4 or8/8/11, generic projective-open existence, selected parameters, or physical family certificate.",
+    "Source-image membership, physical cohomology, globality, trace normalization, and independent reference calibration remain separate obligations.",
+    "Evidence packaging ran no compiler, cache job, repository tests, or HM computation."
+  ],
+  "normalization": "Host workspace prefixes replaced with ${WORKSPACE}; all hashes refer to exact original bytes. Raw receipts, outputs, and failed source remain unchanged locally."
+}
