@@ -1,0 +1,19 @@
+{
+  "active_dimensions_rank3": [
+    24,
+    25
+  ],
+  "active_dimensions_rank8": [
+    24,
+    20
+  ],
+  "actual_source_instances_evaluated": 0,
+  "checks": 168,
+  "covers": [
+    "all regular non-V directions",
+    "unique exceptional mixed direction"
+  ],
+  "rank3_original_affine_family_rank_bound": 36,
+  "requires": "quadratic annihilation, not zero first arrows",
+  "status": "PASS"
+}
