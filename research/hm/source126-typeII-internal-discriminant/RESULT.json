@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checks": 127,
+  "diagnostic_counts": {
+    "rank3": 52,
+    "rank4": 8,
+    "rank5": 44,
+    "zero": 4
+  },
+  "square_minor": "384 mu^4",
+  "nonsquare_minor": "64 lambda mu^4",
+  "scope": "Universal internal symbol; no actual mu selection or source exclusion"
+}
