@@ -1,0 +1,30 @@
+{
+  "pr848_proof": {
+    "local_file": "inputs/pr848_proof.md",
+    "path": "research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md",
+    "commit": "77ef1c43e58ca05937ad878f81840274a3a9c064",
+    "git_blob_sha1": "b9bf6e58a2a6e4f0e80797c33a38573276b68da3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md"
+  },
+  "pr848_review": {
+    "local_file": "inputs/pr848_review.md",
+    "path": "research/hm/profile11-o16-two-d-source/NEXT-FF-REVIEW.md",
+    "commit": "77ef1c43e58ca05937ad878f81840274a3a9c064",
+    "git_blob_sha1": "6989fde1be8ca547a3c118c9c66d81ad05c5c697",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-REVIEW.md"
+  },
+  "pr854_proof": {
+    "local_file": "inputs/pr854_proof.md",
+    "path": "research/hm/profile11-o16-euler-tail-exclusion/PROOF.md",
+    "commit": "d45ae57e54ccd6d8929aecda77176b98507157e1",
+    "git_blob_sha1": "cd57f7d17b45acbcb9e81a2629f54cc70c110dd7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d45ae57e54ccd6d8929aecda77176b98507157e1/research/hm/profile11-o16-euler-tail-exclusion/PROOF.md"
+  },
+  "pr854_review": {
+    "local_file": "inputs/pr854_review.md",
+    "path": "research/hm/profile11-o16-euler-tail-exclusion/REVIEW.md",
+    "commit": "d45ae57e54ccd6d8929aecda77176b98507157e1",
+    "git_blob_sha1": "1fbcbf0e885c7673cc69c378272d06a9eb9a97cc",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d45ae57e54ccd6d8929aecda77176b98507157e1/research/hm/profile11-o16-euler-tail-exclusion/REVIEW.md"
+  }
+}
