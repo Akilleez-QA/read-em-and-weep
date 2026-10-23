@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": 53,
+  "cubic_P_base_scheme": "six reduced C5 axes",
+  "quartic_covector_zero_scheme": "six reduced C5 axes; nonzero at all C3 axes",
+  "C3_parameter_line": "sign",
+  "C3_twisted_rank3_image": "sign + standard2",
+  "full_generator_zero_length": 46,
+  "full_generator_local_ideals": {
+    "six_C5_axes": "m^3, length6 each",
+    "ten_C3_axes": "m, length1 each"
+  },
+  "square_conic_zeros": false,
+  "actual_octic_scalar": "unselected",
+  "actual_instance_evaluated": false,
+  "source_pair_removed": false
+}
