@@ -1,0 +1,56 @@
+[
+  {
+    "label": "1075",
+    "commit": "672852c59ebeb95a0329a34c1081f25476a2ff8f",
+    "path": "research/hm/source2-pure-v-small-transfer-nonzero/PROOF.md",
+    "local_path": "inputs/1075.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/672852c59ebeb95a0329a34c1081f25476a2ff8f/research/hm/source2-pure-v-small-transfer-nonzero/PROOF.md",
+    "sha256": "ce9a0cc3c56c83d46396cccc1c26b4b638a24bf3315d2d4b8ce53f26e78c9ad0",
+    "git_blob": "a9d464fd0d4a696e7dc956e6c7af2f3e80a0480e"
+  },
+  {
+    "label": "1068",
+    "commit": "05e8b33eb87e9f36aa30500145cc42bc0ea00df8",
+    "path": "research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "local_path": "inputs/1068.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/05e8b33eb87e9f36aa30500145cc42bc0ea00df8/research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "sha256": "4b027c735a5f46c1a293aace296d36b25699614997a64567dbc7994e5456d415",
+    "git_blob": "5ae07c02624d70c0ccd33d7ec34202504173ff83"
+  },
+  {
+    "label": "1089",
+    "commit": "f8dfebc8c12cbefd3b17422fa1220629e90af78e",
+    "path": "research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "local_path": "inputs/1089.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f8dfebc8c12cbefd3b17422fa1220629e90af78e/research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "sha256": "8c3591fbe0c79f553a71aa4d7c7edbf0f6cc7a12557921f95cd02c777afd1d97",
+    "git_blob": "7459702e0b6c28aa6605ca34e2cbd98a9d366417"
+  },
+  {
+    "label": "1094",
+    "commit": "79b84d3b21cdbc76bb19d3a973e09981936dda32",
+    "path": "research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md",
+    "local_path": "inputs/1094.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/79b84d3b21cdbc76bb19d3a973e09981936dda32/research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md",
+    "sha256": "32de2ab5c3988c6a571cb1ceb2ec76031c5d3cf311ca51c33b528e9c337e9675",
+    "git_blob": "dd21bc9302ea9ffcd84dddf72ce7a676c326600d"
+  },
+  {
+    "label": "1064",
+    "commit": "bfc239e1c8624a0346394e1454b0bea3c976d40d",
+    "path": "research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "local_path": "inputs/1064.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc239e1c8624a0346394e1454b0bea3c976d40d/research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "sha256": "bf2ad7b5e982b7eeb0b44e1be7ef22656b56d0550a8c6f792a58b17c7bda3f17",
+    "git_blob": "20b3b58b92d4c44d1097d47a9e952c4dfa25b569"
+  },
+  {
+    "label": "1072",
+    "commit": "d03beb727c7e778026dcceb3555c899a0808e093",
+    "path": "research/hm/terminal-pencil-quotient/PROOF.md",
+    "local_path": "inputs/1072.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d03beb727c7e778026dcceb3555c899a0808e093/research/hm/terminal-pencil-quotient/PROOF.md",
+    "sha256": "deed62f4bb764abe7d1e819b780a09dfbbe0a36f8fdb608cba24c0b0187e6735",
+    "git_blob": "65dda3e16ded2b79ad84c583f248b09c425e9881"
+  }
+]
