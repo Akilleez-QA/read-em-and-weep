@@ -1,0 +1,42 @@
+[
+  {
+    "label": "966",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4d0a6713a9c81fe669967e1d23838bdc8f4162b6",
+    "path": "research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "local_path": "inputs/966.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md"
+  },
+  {
+    "label": "1000",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "260cd6a777b23dc7ccd5ed956fcf65e17ff56145",
+    "path": "research/hm/source126-typeII-octic-zero-scheme/PROOF.md",
+    "local_path": "inputs/1000.md",
+    "sha256": "97c734b913f4603a4bb1f34e36d66bc3dfb46929ef48ae5beeb7dce5617ee7a3",
+    "git_blob": "0ca1301de04a630cb184c4429f5b59e09698c6c9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md"
+  },
+  {
+    "label": "1025",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "local_path": "inputs/1025.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "fresh_remote_git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7"
+  },
+  {
+    "label": "old-fourth",
+    "commit": "2f81e3510505ad842fb9bb00ff3a667cd36ea17f",
+    "path": "research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+    "local_path": "inputs/old-fourth.md",
+    "sha256": "fbe769ab1e929005377bf684940f83990156654c8e9a3675eb7e9649ed21a180",
+    "git_blob": "fd33060d7ce479f9c21bc7e1b47c471cfdebec50",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f81e3510505ad842fb9bb00ff3a667cd36ea17f/research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+    "fresh_remote_git_blob": "fd33060d7ce479f9c21bc7e1b47c471cfdebec50"
+  }
+]
