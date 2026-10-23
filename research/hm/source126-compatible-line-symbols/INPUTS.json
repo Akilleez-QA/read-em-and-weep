@@ -1,0 +1,46 @@
+[
+  {
+    "label": "979",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "db4c20c05f18d5e2494d99eb4c359828446919c9",
+    "path": "research/hm/source126-typeII-internal-second/PROOF.md",
+    "local_path": "inputs/979.md",
+    "git_blob": "59e79d627214f092a4a9be9de6efe3448909e66d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db4c20c05f18d5e2494d99eb4c359828446919c9/research/hm/source126-typeII-internal-second/PROOF.md",
+    "sha256": "15c1aaaa1517b06a86f942d9b416f920f87251e95f0ad2ab8e00585199564f24"
+  },
+  {
+    "label": "973",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "f48c517d776b7f82ee1f96787da722223431a565",
+    "path": "research/hm/source126-typeII-radical-naturality/PROOF.md",
+    "local_path": "inputs/973.md",
+    "git_blob": "f5071ad0b051ce9f495a296d865e3a7e12341d58",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f48c517d776b7f82ee1f96787da722223431a565/research/hm/source126-typeII-radical-naturality/PROOF.md",
+    "sha256": "80b75be005ec917057de75b4dabb7e23dbce2af95f8bc22ccfa2fd12e24e6f82"
+  },
+  {
+    "label": "966",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4d0a6713a9c81fe669967e1d23838bdc8f4162b6",
+    "path": "research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "local_path": "inputs/966.md",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4"
+  },
+  {
+    "local_path": "inputs/982.md",
+    "commit": "25df67afcafd5f84c2c0cda7e6baee41fdbf8212",
+    "path": "research/hm/source126-typeII-internal-third/PROOF.md",
+    "git_blob": "9b1e90b99f24263b0e97f4d5721e04495454e9bf",
+    "sha256": "064b115e5b583ecb98c5d6fae5ca84fc54424c775fbad7d7578fa816f25b4acb"
+  },
+  {
+    "local_path": "inputs/988.md",
+    "commit": "7ceeaa0bb1942ed628f7a25fa2f5fd3c3a1fe49d",
+    "path": "research/hm/source126-compatible-line-ranks/PROOF.md",
+    "git_blob": "af4d58910d0b266949a335f66a9bf7c8c4153df8",
+    "sha256": "07cbd30f47cacfbae27b7885cfa3fe728fb1296946d4577911b7882a34488b86"
+  }
+]
