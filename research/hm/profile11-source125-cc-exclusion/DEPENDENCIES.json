@@ -1,0 +1,50 @@
+[
+  {
+    "local_file": "audit-inputs/PR875.md",
+    "commit": "01f835fda6e771351555f0af1fa11647c27eb01e",
+    "path": "research/hm/profile11-source125-bf-exclusion/PROOF.md",
+    "sha256": "57b6b69c9dc1229b937ca3767baaeb5ee5a080b97bca7b81a3dd01529e9d2c4b",
+    "git_blob": "5c0ec54ce5d234780f16c20d41134c18a32e6417",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/01f835fda6e771351555f0af1fa11647c27eb01e/research/hm/profile11-source125-bf-exclusion/PROOF.md"
+  },
+  {
+    "local_file": "audit-inputs/PR882.md",
+    "commit": "ef8ed8d457494608472a2c07de776e9162b2c20f",
+    "path": "research/hm/profile11-source125-cf-exclusion/PROOF.md",
+    "sha256": "4ca484460729d1873eab5e6ff1beb534927abc865b478e9bfa971ac928ded05c",
+    "git_blob": "b4ccaf9d3e5a77f0069664e86ae303a962e39442",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ef8ed8d457494608472a2c07de776e9162b2c20f/research/hm/profile11-source125-cf-exclusion/PROOF.md"
+  },
+  {
+    "local_file": "audit-inputs/ACTUAL-SPLITTING.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "git_blob": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+  },
+  {
+    "local_file": "audit-inputs/STRICT-TOP.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08",
+    "git_blob": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md"
+  },
+  {
+    "local_file": "audit-inputs/PR796.md",
+    "commit": "d2b43060c83328dd5118aee6b9288fcfa0c873ac",
+    "path": "research/hm/profile12-quadratic-block-exclusion/PROOF.md",
+    "sha256": "622763aac375db7e17bc7cab472f1afda0477b0f769371a3b3ef845cd5c9e3b1",
+    "git_blob": "46a0de762000f21182f6d3168f3ecfd63adaf75f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d2b43060c83328dd5118aee6b9288fcfa0c873ac/research/hm/profile12-quadratic-block-exclusion/PROOF.md"
+  },
+  {
+    "local_file": "audit-inputs/PR802.md",
+    "commit": "e484640a6565c278321bf6557860262c1ac1b7df",
+    "path": "research/hm/profile11-o16-constant-span-exclusion/PROOF.md",
+    "sha256": "a18a6990f719592d71853692157161a9ca5fe6b7f2a78edacbfa060bb3513459",
+    "git_blob": "98a1bd6123e148476da0b997d879aecbf885ec97",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e484640a6565c278321bf6557860262c1ac1b7df/research/hm/profile11-o16-constant-span-exclusion/PROOF.md"
+  }
+]
