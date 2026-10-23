@@ -1,0 +1,47 @@
+[
+  {
+    "key": "FIBER",
+    "ref": "0b9a8505e71951cf54950f54458c96cae0520146",
+    "path": "research/hm/secondary-fiber-completion/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0b9a8505e71951cf54950f54458c96cae0520146/research/hm/secondary-fiber-completion/PROOF.md",
+    "bytes": 11620,
+    "sha256": "2ec9f71862bad628ee1663fa91c6bb511db9232355143a3a51e067362ebca575",
+    "blob": "e30df9cc67b9c2a13b8b55e9d23b9523db713e3f"
+  },
+  {
+    "key": "COMPLEMENTARY",
+    "ref": "352d5c466a298209959b0097144577d4e40c8827",
+    "path": "research/hm/secondary-complementary-branch/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/352d5c466a298209959b0097144577d4e40c8827/research/hm/secondary-complementary-branch/PROOF.md",
+    "bytes": 12596,
+    "sha256": "ef31ed280432e7cbb8a73911c30df94d323b10040fd8782cd81fb4ce3151020e",
+    "blob": "6939dfd646547e753e655ae8b9ba4b5febc8cbd2"
+  },
+  {
+    "key": "VONLY",
+    "ref": "cbeaab81e4d6b08f6ffdf9e743b0cfc600119999",
+    "path": "research/hm/secondary-v-only-branch/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cbeaab81e4d6b08f6ffdf9e743b0cfc600119999/research/hm/secondary-v-only-branch/PROOF.md",
+    "bytes": 11589,
+    "sha256": "6c30cf1567e938ef280d823803c461b49bb81ec4bc0972b215860c5d86015330",
+    "blob": "52822bc69329c4d70992c9cb069aec167ca80a92"
+  },
+  {
+    "key": "FORCEDW",
+    "ref": "f96962f2219e096821c3dec50712cc0108abea8f",
+    "path": "research/hm/forced-secondary-w-extension/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f96962f2219e096821c3dec50712cc0108abea8f/research/hm/forced-secondary-w-extension/PROOF.md",
+    "bytes": 9376,
+    "sha256": "ca7b2dade4fca80b5e6fc729f4a95ee56a828558fc4e28b3f08f607b1a524b00",
+    "blob": "c4a42690aa45b980f098120ff623d682d97822ea"
+  },
+  {
+    "key": "BALANCED",
+    "ref": "f23f8b9972d459c7c3ab532937964ef7f543b157",
+    "path": "research/hm/balanced-first-cup-kernel/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f23f8b9972d459c7c3ab532937964ef7f543b157/research/hm/balanced-first-cup-kernel/PROOF.md",
+    "bytes": 11405,
+    "sha256": "8498a0652b1345c89ebf2643a9d96853e0e2c60760e674425f97c68723aebb41",
+    "blob": "209d991666d82babd23ad85e2f6cf82dac29e031"
+  }
+]
