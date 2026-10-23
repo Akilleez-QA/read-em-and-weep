@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4/research/hm/source2-pure-v-complete-base-classification/PROOF.md).
 
+## Later branch restriction through PR1069
+
+The [canonical-transfer theorem](99-canonical-transfer-coefficient-line.md) now forces β=0 for the actual gate in endpoint nine. If nonzero, only the conic stratum below is available there; the zero gate remains possible. This restricts a conditional actual branch, not the universal five-stratum classification. Endpoint sixteen is not selected, and the converse from the conic line to endpoint nine is not proved.
+
 ## The completed question
 
 For F=αF₁+βF₂, define its base scheme by the component **ideal sheaf**, equivalently the saturated homogeneous ideal, not the raw four-generated graded ideal. Let Z have six length-four order-five ideals (u²,v²) and ten reduced order-three axes. Let E₁₅ be the fifteen reduced order-two axes and E₁₂ the twelve reduced conic points.

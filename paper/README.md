@@ -1,8 +1,27 @@
-# Living research paper · v0.37
+# Living research paper · v0.39
 
-**Craig Ward · 23 October 2026 · Structural update through PR1061; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1069; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Branch-to-coefficient restriction through PR1069
+
+[Canonical transfer](99-canonical-transfer-coefficient-line.md) proves that endpoint nine forces R=γR₁ with γ possibly zero. If nonzero, the actual gate is on β=0 and its nonic/original-fourth D component scheme is exactly Z plus twelve reduced ambient conic points, length 46. Thus the full five-stratum universal theorem remains complete, but only its conic nonzero stratum is available within endpoint nine. Neither endpoint branch nor zero/nonzero is selected; conic-line membership does not conversely force nine.
+
+The transfer is independent of the equivariant right inverse, its diagonal has the canonical plus sign, and no mixed commutation or alternating vanishing is assumed. The nonzero P graph from PR1066 maps into I4, which the transfer kills, so it does not imply γ≠0.
+
+Two separate full-source reports record mr. slop's [weighted incidence line and source directions](100-weighted-incidence-source-report.md) and [conditional terminal sextet](101-terminal-sextet-source-report.md). The latter identifies NC4 with the actual joint-negative kernel and proves continuation to T6 in degree five, killed by all coordinates in degree six. This is not inferred from the artificial truncation, and it does not extend h. Neither report is an independent reproof here.
+
+Four necessary source-dual pairs remain. The original repair and actual source occurrence remain open.
+
+## Residual position and nonzero nine-branch relation through PR1066
+
+- [Residual canonical string](96-canonical-residual-string.md): U⊂NR projects injectively at every vertex, with quartic image D8. Only π⁻¹(U8)=NC⊕U splits, not all NR. The residual homotopy kernel has dimension sixteen. Under zero N0 projection, its relationship to F4 and h|NC4 distinguishes the small and residual-large branches; those conclusions are not assigned to nonzero N0 projection.
+- [Actual Q-image transversality](97-actual-q-image-transversality.md): Q(NC2)≅V+P+D has dimension twelve and lies in ker h in every branch. Its I4 intersection is I4 for endpoint nine and zero for endpoint sixteen. Stronger disjointness from NC4 is proved only in residual-large. Equal character does not identify NC4⊕Q(NC2) with NR4 or prove Q preserves NR.
+- [Nonzero nine-branch graph](98-nine-branch-nonzero-relations.md): the P graph cannot vanish, and the negative extension is nonsplit. Its nonzero coefficient ratio to Q remains unknown and cannot be erased by Q-preserving generator normalization. The minimal relations are S in degree one and 2V+P in degree two. The displayed full resolution is expressly for an artificial truncation, not an actual degree-five assertion.
+- [Doubled mixed block source report](95-doubled-mixed-block-source-report.md): mr. slop's full source gives a canonical two-copy block and actual weighted 32-to-34 presentation retaining the original kernel and cokernel, all remaining maps and noncanonical target splitting. This is a source reading, not an independent reproof.
+
+The completed nonic five-stratum theorem remains unchanged. Endpoint nine versus sixteen, source occurrence and actual gate coefficients remain unselected; four necessary pairs across three labels remain.
 
 ## Marked-subspace comparison through PR1061
 
@@ -12,7 +31,7 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 The completed five-stratum nonic classification, unselected generated endpoint dimensions 9/16 and four-pair source frontier remain unchanged.
 
-## Generated endpoint dichotomy through PR1059
+## Historical generated endpoint checkpoint through PR1059
 
 [Separated projection](91-pure-v-separated-projection.md) and [residual quotient transport](92-pure-v-endpoint-dichotomy.md) reduce the former eight necessary endpoint dimensions to **9 or 16**, with 9 exactly when the actual P_h lies in NC2. In the nine-dimensional branch F4=NC4=P+D, the quotient quadratic relation module is V+P, and its possible P graph scalar remains unselected. In the sixteen-dimensional branch F=I⊕Free_≤2(P_h) as negative modules only; Q maps P_h across to I4.
 

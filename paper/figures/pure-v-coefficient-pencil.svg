@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
 <title id="title">Complete universal pure-V nonic scheme strata</title>
-<desc id="desc">On the finite coordinate t equals beta divided by alpha, the C3 jet line is minus two, the rank-three lift is minus one, the conic-base line is zero, and the C5 jet line is plus two. The separate projective point at infinity is zero colon one. The special nonic lengths at minus two, minus one, zero and plus two are54,49,46,46. Every other nonzero ratio has exactly Z of length34. The zero pair has whole-plane base scheme. The actual coefficient is unknown. Axis intervals do not denote mathematical branches or completion progress.</desc>
-<rect width="1200" height="500" fill="#ffffff"/>
+<desc id="desc">On the finite coordinate t equals beta divided by alpha, the C3 jet line is minus two, the rank-three lift is minus one, the conic-base line is zero, and the C5 jet line is plus two. The separate projective point at infinity is zero colon one. The special nonic lengths at minus two, minus one, zero and plus two are54,49,46,46. Every other nonzero ratio has exactly Z of length34. The zero pair has whole-plane base scheme. Endpoint nine forces beta zero, with zero gate still possible. Endpoint sixteen is unselected and conic membership does not imply nine. The actual coefficient is unknown. Axis intervals do not denote mathematical branches or completion progress.</desc>
+<rect width="1200" height="610" fill="#ffffff"/>
 <g font-family="Arial, Helvetica, sans-serif" fill="#101820">
 <text x="48" y="47" font-size="27" font-weight="700">Nonic and determinant-fourth D component schemes</text>
 <text x="48" y="80" font-size="18">Conditional pure-V gate · actual coefficient unknown · not a completion percentage</text>
@@ -21,6 +21,10 @@
 <text x="48" y="375" font-size="18" font-weight="700">Every other nonzero ratio: exactly Z, length 34. No additional exceptional ratio.</text>
 <text x="48" y="406" font-size="17">Zero coefficient pair: whole-plane base scheme, no finite length; actual zero/nonzero status unknown.</text>
 <text x="48" y="437" font-size="16">Exact ratio positions only. Intervals do not denote branches or measure a remaining search space.</text>
-<text x="48" y="470" font-size="15">Sources: PR1044 and PR1046. Projective component ideal sheaves; not raw graded ideals or lift degeneracy.</text>
+<text x="48" y="470" font-size="15">Sources: PR1044, PR1046 and PR1069. Projective component ideal sheaves; not raw graded ideals or lift degeneracy.</text>
+<rect x="40" y="490" width="1120" height="94" rx="8" fill="#eef3f5" stroke="#005a75" stroke-width="2"/>
+<text x="58" y="517" font-size="18" font-weight="700">Actual endpoint 9 ⇒ β = 0: zero gate OR conic stratum [1:0], length 46.</text>
+<text x="58" y="546" font-size="17">Endpoint 16 remains unselected. The converse from β = 0 to endpoint 9 is not proved.</text>
+<text x="58" y="571" font-size="16">The five strata above classify the universal pencil, not five available outcomes within endpoint 9.</text>
 </g>
 </svg>
