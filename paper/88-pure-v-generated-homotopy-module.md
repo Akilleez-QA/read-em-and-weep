@@ -4,6 +4,10 @@
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/8732cb65fe0e72da59e785f3f85ad197a7092e6c/research/hm/source2-pure-v-generated-homotopy/PROOF.md).
 
+## Superseded endpoint boundary through PR1059
+
+The [later exact dichotomy](92-pure-v-endpoint-dichotomy.md) reduces the eight necessary endpoint dimensions below to 9 or 16, with 9 iff P_h⊂NC2. Neither branch is selected. The conditional endpoint-4 antecedent in this historical proof is now excluded under its hypotheses. Its implication remains valid, but cannot be invoked here; this does not rule out original generic rank 36 or D persistence by another mechanism. The exact first two generated spaces below remain unchanged.
+
 ## A generated module, not an abstract character match
 
 Under a nonzero Q-compatible pure-V radical, use the canonical homotopy h and only the fixed negative linear space W. Define
