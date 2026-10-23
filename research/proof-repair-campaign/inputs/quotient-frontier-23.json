@@ -1,0 +1,41 @@
+{
+  "prior_commit": "4c6b0ab0eccb2d2df524f7f529e26f2771a91111",
+  "new_exclusion_commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+  "new_excluded_ids": [
+    "G3.11.942927348917",
+    "G3.12.8e9af2d08af9"
+  ],
+  "remaining_ids": [
+    "G3.11.003c6b04f1cc",
+    "G3.11.0fe2a757439f",
+    "G3.11.16ee1aa30a9c",
+    "G3.11.18ad6075be86",
+    "G3.11.1e318198128e",
+    "G3.11.4b6dad66f329",
+    "G3.11.64d33b6d4139",
+    "G3.11.6795493ae8cd",
+    "G3.11.73682b4c817f",
+    "G3.11.86279023dea2",
+    "G3.11.863639aa192e",
+    "G3.11.8ae96830fd21",
+    "G3.11.a5d4e292b34e",
+    "G3.11.ad509d55173f",
+    "G3.11.cb71f599859d",
+    "G3.11.cce6e3ba4eeb",
+    "G3.11.db4688c30472",
+    "G3.11.dc58cc54f352",
+    "G3.11.ea6bced3bddf",
+    "G3.12.34bc2083d563",
+    "G3.12.37914c53373c",
+    "G3.12.eed6acb13f3e",
+    "G3.21.d610e381ed75"
+  ],
+  "remaining_count": 23,
+  "profiles": {
+    "11": 19,
+    "12": 3,
+    "21": 1
+  },
+  "baseline": 182,
+  "not_proof_completion": true
+}
