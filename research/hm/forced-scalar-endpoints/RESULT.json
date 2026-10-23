@@ -1,0 +1,65 @@
+{
+  "character_module_checks": 81,
+  "checks": 537,
+  "rows": [
+    {
+      "cubic_kernel_degree": -20,
+      "degree_A": 10,
+      "degree_K": -64,
+      "degree_N": -58,
+      "degree_next_kernel": -78,
+      "forced_derivative_rank": 1,
+      "forced_image_degree": 14,
+      "min_degree_K": -14,
+      "negative_image_upper": -12,
+      "next_derivative_target_degree": 12,
+      "r": 3,
+      "rank_next_kernel": 13,
+      "rank_one_envelope": {
+        "A": 2,
+        "D": 3,
+        "P": 2,
+        "one": 1
+      },
+      "rank_two_candidates": [
+        -12
+      ],
+      "rank_two_witnesses": [
+        {
+          "e": -12,
+          "envelope": {
+            "A": 2,
+            "D": 3,
+            "P": 1,
+            "V": -1,
+            "one": 1
+          }
+        }
+      ]
+    },
+    {
+      "cubic_kernel_degree": -20,
+      "degree_A": 6,
+      "degree_K": -60,
+      "degree_N": -54,
+      "degree_next_kernel": -74,
+      "forced_derivative_rank": 1,
+      "forced_image_degree": 14,
+      "min_degree_K": -10,
+      "negative_image_upper": -14,
+      "next_derivative_target_degree": 12,
+      "r": 5,
+      "rank_next_kernel": 13,
+      "rank_one_envelope": {
+        "A": 2,
+        "D": 3,
+        "P": 1,
+        "one": 1
+      },
+      "rank_two_candidates": [],
+      "rank_two_witnesses": []
+    }
+  ],
+  "scope": "P-source; actual k=1; no target exclusion",
+  "status": "PASS"
+}

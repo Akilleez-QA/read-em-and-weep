@@ -1,0 +1,51 @@
+{
+  "checks": 4389,
+  "rank_two_envelope": {
+    "A": 2,
+    "D": 3,
+    "P": 1,
+    "S": 0,
+    "T": 0,
+    "V": -1,
+    "W": 0,
+    "Wp": 0,
+    "one": 1
+  },
+  "rows": [
+    {
+      "degreeK": -64,
+      "forced_rank_one_image_degree": 14,
+      "minimumK": -14,
+      "quotient_e": [
+        -12
+      ],
+      "r": 3,
+      "raw_e": [
+        -30,
+        -28,
+        -24,
+        -22,
+        -18,
+        -12
+      ],
+      "second_kernel_degree": -78,
+      "second_kernel_rank": 13
+    },
+    {
+      "degreeK": -60,
+      "forced_rank_one_image_degree": 14,
+      "minimumK": -10,
+      "quotient_e": [],
+      "r": 5,
+      "raw_e": [
+        -26,
+        -24,
+        -20,
+        -14
+      ],
+      "second_kernel_degree": -74,
+      "second_kernel_rank": 13
+    }
+  ],
+  "status": "PASS"
+}
