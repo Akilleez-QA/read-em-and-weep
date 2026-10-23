@@ -1,0 +1,2259 @@
+{
+  "boundary": {
+    "PR869": "Nonempty abstract degree28 family; no HM realization or exclusion.",
+    "PR876": "Nonempty abstract source127 cdf family; no HM realization or exclusion.",
+    "all_other_results": "Deferred; no inference from abstracts or conditional branches.",
+    "necessary_relation_not_realizability": true,
+    "no_actual_instance_computation": true,
+    "not_Lean_certified": true
+  },
+  "checkpoint": "whole-label-through884",
+  "complete_original_source_coverage": [
+    {
+      "commit": "77ef1c43e58ca05937ad878f81840274a3a9c064",
+      "complete_scope": "PR848 entire index113 ff; not conditional index127 scalar branch",
+      "kind": "whole_source",
+      "name": "ff",
+      "path": "research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md",
+      "pr": 848,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md"
+    },
+    {
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "complete_scope": "PR846 section3 no divisor; both kernels, all0/W7/O8 internal images, both channel-row cases",
+      "kind": "whole_source",
+      "name": "ef",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "pr": 846,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "complete_scope": "strict_top_P_multiplicity3_gt2",
+      "kind": "strict_top",
+      "name": "ee",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "commit": "fb398486839583f8fbd561d6dfaa6ab7b9d3ad67",
+      "complete_scope": "PR861 divisor0 plus PR868 divisor12; actual intersections and proven doubledivisor saturation",
+      "kind": "whole_source",
+      "name": "cf",
+      "path": "research/hm/profile11-source113-cf-exclusion/PROOF.md",
+      "pr": 868,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fb398486839583f8fbd561d6dfaa6ab7b9d3ad67/research/hm/profile11-source113-cf-exclusion/PROOF.md"
+    },
+    {
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "complete_scope": "PR846 section5 no divisor; both kernels internalzero; rank11 quadratic gap",
+      "kind": "whole_source",
+      "name": "ce",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "pr": 846,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "complete_scope": "strict_top_V_multiplicity2_gt1",
+      "kind": "strict_top",
+      "name": "cc",
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "commit": "4234903e84705791da6772ef85085509bd08ef2d",
+      "complete_scope": "PR881 both divisors, five kernels, all internal images, C7/C9/C12/C8, saturation before dual",
+      "kind": "whole_source",
+      "name": "bf",
+      "path": "research/hm/profile11-source113-bf-exclusion/PROOF.md",
+      "pr": 881,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "D"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -8,
+            "one"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4234903e84705791da6772ef85085509bd08ef2d/research/hm/profile11-source113-bf-exclusion/PROOF.md"
+    },
+    {
+      "commit": "1644b5221fe6f8c23f30401fd6f2dc64230c0f5f",
+      "complete_scope": "PR846 section4 no divisor; both kernels internalzero",
+      "kind": "whole_source",
+      "name": "be",
+      "path": "research/hm/profile11-o16-six-source-exclusions/PROOF.md",
+      "pr": 846,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -5,
+            "Wp"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    {
+      "commit": "cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0",
+      "complete_scope": "PR874 both divisors, complete kernels, changed tail, proven saturation",
+      "kind": "whole_source",
+      "name": "bc",
+      "path": "research/hm/profile11-source113-bc-exclusion/PROOF.md",
+      "pr": 874,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "V"
+          ],
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -4,
+            "V"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0/research/hm/profile11-source113-bc-exclusion/PROOF.md"
+    },
+    {
+      "commit": "ea4facd73aa88c321adbbf4d7a4f30511c6e7592",
+      "complete_scope": "PR877 both divisors, five kernels, all images, both extensions, proven saturation",
+      "kind": "whole_source",
+      "name": "bb",
+      "path": "research/hm/profile11-source113-bb-exclusion/PROOF.md",
+      "pr": 877,
+      "source_definition": {
+        "blocks": [
+          [
+            -2,
+            "P"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -3,
+            "T"
+          ],
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "coefficients": [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "tuple": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea4facd73aa88c321adbbf4d7a4f30511c6e7592/research/hm/profile11-source113-bb-exclusion/PROOF.md"
+    }
+  ],
+  "new_full_label_exclusion_ledger": [
+    {
+      "actual_additional_pair_count": 0,
+      "complete_original_source_count": 10,
+      "id": "G3.11.ad509d55173f",
+      "kind": "whole_label",
+      "original_source_index": 113,
+      "proof_commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+      "removed_pairs": []
+    }
+  ],
+  "new_source_edge_exclusions": [],
+  "pair_accounting": {
+    "additional_removed_pairs": 0,
+    "counting_rule": "All index113 pairs were already charged to source-edge stages; close only the original-ten-tuple label gate.",
+    "input_necessary_pairs": 351,
+    "remaining_necessary_pairs": 351
+  },
+  "previous_checkpoint": {
+    "file": "frontier-source-through882.json",
+    "necessary_pairs": 351,
+    "sha256": "c1e76e7f91e0eb5ff8f6b33c25427ad51693802d5aa771735a94627498f02740"
+  },
+  "profile_counts": {
+    "11": 3,
+    "12": 0,
+    "21": 1
+  },
+  "records": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          26,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -28,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.8ae96830fd21",
+      "input_necessary_pair_count": 4,
+      "profile": "11",
+      "relation_empty": false,
+      "remaining_source_pair_count": 4,
+      "remaining_source_pairs": [
+        [
+          10,
+          129
+        ],
+        [
+          10,
+          157
+        ],
+        [
+          10,
+          231
+        ],
+        [
+          10,
+          249
+        ]
+      ],
+      "removed_pair_count": 0,
+      "removed_source_pairs": []
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.cce6e3ba4eeb",
+      "input_necessary_pair_count": 224,
+      "profile": "11",
+      "relation_empty": false,
+      "remaining_source_pair_count": 224,
+      "remaining_source_pairs": [
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          6,
+          35
+        ],
+        [
+          6,
+          36
+        ],
+        [
+          6,
+          38
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          6,
+          41
+        ],
+        [
+          6,
+          42
+        ],
+        [
+          6,
+          82
+        ],
+        [
+          6,
+          83
+        ],
+        [
+          6,
+          105
+        ],
+        [
+          6,
+          107
+        ],
+        [
+          6,
+          108
+        ],
+        [
+          6,
+          109
+        ],
+        [
+          6,
+          117
+        ],
+        [
+          6,
+          123
+        ],
+        [
+          6,
+          142
+        ],
+        [
+          6,
+          143
+        ],
+        [
+          6,
+          145
+        ],
+        [
+          6,
+          146
+        ],
+        [
+          6,
+          148
+        ],
+        [
+          6,
+          150
+        ],
+        [
+          6,
+          153
+        ],
+        [
+          6,
+          154
+        ],
+        [
+          6,
+          158
+        ],
+        [
+          6,
+          159
+        ],
+        [
+          6,
+          160
+        ],
+        [
+          6,
+          161
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          13,
+          35
+        ],
+        [
+          13,
+          36
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          13,
+          82
+        ],
+        [
+          13,
+          83
+        ],
+        [
+          13,
+          105
+        ],
+        [
+          13,
+          107
+        ],
+        [
+          13,
+          108
+        ],
+        [
+          13,
+          109
+        ],
+        [
+          13,
+          117
+        ],
+        [
+          13,
+          123
+        ],
+        [
+          13,
+          142
+        ],
+        [
+          13,
+          143
+        ],
+        [
+          13,
+          145
+        ],
+        [
+          13,
+          146
+        ],
+        [
+          13,
+          148
+        ],
+        [
+          13,
+          150
+        ],
+        [
+          13,
+          153
+        ],
+        [
+          13,
+          154
+        ],
+        [
+          13,
+          158
+        ],
+        [
+          13,
+          159
+        ],
+        [
+          13,
+          160
+        ],
+        [
+          13,
+          161
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          14,
+          35
+        ],
+        [
+          14,
+          36
+        ],
+        [
+          14,
+          38
+        ],
+        [
+          14,
+          40
+        ],
+        [
+          14,
+          41
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          14,
+          82
+        ],
+        [
+          14,
+          83
+        ],
+        [
+          14,
+          105
+        ],
+        [
+          14,
+          107
+        ],
+        [
+          14,
+          108
+        ],
+        [
+          14,
+          109
+        ],
+        [
+          14,
+          117
+        ],
+        [
+          14,
+          123
+        ],
+        [
+          14,
+          142
+        ],
+        [
+          14,
+          143
+        ],
+        [
+          14,
+          145
+        ],
+        [
+          14,
+          146
+        ],
+        [
+          14,
+          148
+        ],
+        [
+          14,
+          150
+        ],
+        [
+          14,
+          153
+        ],
+        [
+          14,
+          154
+        ],
+        [
+          14,
+          158
+        ],
+        [
+          14,
+          159
+        ],
+        [
+          14,
+          160
+        ],
+        [
+          14,
+          161
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          18,
+          35
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          18,
+          82
+        ],
+        [
+          18,
+          83
+        ],
+        [
+          18,
+          105
+        ],
+        [
+          18,
+          107
+        ],
+        [
+          18,
+          108
+        ],
+        [
+          18,
+          109
+        ],
+        [
+          18,
+          117
+        ],
+        [
+          18,
+          123
+        ],
+        [
+          18,
+          142
+        ],
+        [
+          18,
+          143
+        ],
+        [
+          18,
+          145
+        ],
+        [
+          18,
+          146
+        ],
+        [
+          18,
+          148
+        ],
+        [
+          18,
+          150
+        ],
+        [
+          18,
+          153
+        ],
+        [
+          18,
+          154
+        ],
+        [
+          18,
+          158
+        ],
+        [
+          18,
+          159
+        ],
+        [
+          18,
+          160
+        ],
+        [
+          18,
+          161
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          19,
+          35
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          19,
+          41
+        ],
+        [
+          19,
+          42
+        ],
+        [
+          19,
+          82
+        ],
+        [
+          19,
+          83
+        ],
+        [
+          19,
+          105
+        ],
+        [
+          19,
+          107
+        ],
+        [
+          19,
+          108
+        ],
+        [
+          19,
+          109
+        ],
+        [
+          19,
+          117
+        ],
+        [
+          19,
+          123
+        ],
+        [
+          19,
+          142
+        ],
+        [
+          19,
+          143
+        ],
+        [
+          19,
+          145
+        ],
+        [
+          19,
+          146
+        ],
+        [
+          19,
+          148
+        ],
+        [
+          19,
+          150
+        ],
+        [
+          19,
+          153
+        ],
+        [
+          19,
+          154
+        ],
+        [
+          19,
+          158
+        ],
+        [
+          19,
+          159
+        ],
+        [
+          19,
+          160
+        ],
+        [
+          19,
+          161
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          21,
+          35
+        ],
+        [
+          21,
+          36
+        ],
+        [
+          21,
+          38
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          21,
+          82
+        ],
+        [
+          21,
+          83
+        ],
+        [
+          21,
+          105
+        ],
+        [
+          21,
+          107
+        ],
+        [
+          21,
+          108
+        ],
+        [
+          21,
+          109
+        ],
+        [
+          21,
+          117
+        ],
+        [
+          21,
+          123
+        ],
+        [
+          21,
+          142
+        ],
+        [
+          21,
+          143
+        ],
+        [
+          21,
+          145
+        ],
+        [
+          21,
+          146
+        ],
+        [
+          21,
+          148
+        ],
+        [
+          21,
+          150
+        ],
+        [
+          21,
+          153
+        ],
+        [
+          21,
+          154
+        ],
+        [
+          21,
+          158
+        ],
+        [
+          21,
+          159
+        ],
+        [
+          21,
+          160
+        ],
+        [
+          21,
+          161
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          25
+        ],
+        [
+          24,
+          35
+        ],
+        [
+          24,
+          36
+        ],
+        [
+          24,
+          38
+        ],
+        [
+          24,
+          40
+        ],
+        [
+          24,
+          41
+        ],
+        [
+          24,
+          42
+        ],
+        [
+          24,
+          82
+        ],
+        [
+          24,
+          83
+        ],
+        [
+          24,
+          105
+        ],
+        [
+          24,
+          107
+        ],
+        [
+          24,
+          108
+        ],
+        [
+          24,
+          109
+        ],
+        [
+          24,
+          117
+        ],
+        [
+          24,
+          123
+        ],
+        [
+          24,
+          142
+        ],
+        [
+          24,
+          143
+        ],
+        [
+          24,
+          145
+        ],
+        [
+          24,
+          146
+        ],
+        [
+          24,
+          148
+        ],
+        [
+          24,
+          150
+        ],
+        [
+          24,
+          153
+        ],
+        [
+          24,
+          154
+        ],
+        [
+          24,
+          158
+        ],
+        [
+          24,
+          159
+        ],
+        [
+          24,
+          160
+        ],
+        [
+          24,
+          161
+        ]
+      ],
+      "removed_pair_count": 0,
+      "removed_source_pairs": []
+    },
+    {
+      "A": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "id": "G3.11.ea6bced3bddf",
+      "input_necessary_pair_count": 54,
+      "profile": "11",
+      "relation_empty": false,
+      "remaining_source_pair_count": 45,
+      "remaining_source_pairs": [
+        [
+          4,
+          19
+        ],
+        [
+          4,
+          24
+        ],
+        [
+          4,
+          25
+        ],
+        [
+          4,
+          36
+        ],
+        [
+          4,
+          41
+        ],
+        [
+          4,
+          42
+        ],
+        [
+          4,
+          54
+        ],
+        [
+          4,
+          56
+        ],
+        [
+          4,
+          57
+        ],
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          24
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          5,
+          36
+        ],
+        [
+          5,
+          41
+        ],
+        [
+          5,
+          42
+        ],
+        [
+          5,
+          54
+        ],
+        [
+          5,
+          56
+        ],
+        [
+          5,
+          57
+        ],
+        [
+          7,
+          19
+        ],
+        [
+          7,
+          24
+        ],
+        [
+          7,
+          25
+        ],
+        [
+          7,
+          36
+        ],
+        [
+          7,
+          41
+        ],
+        [
+          7,
+          42
+        ],
+        [
+          7,
+          54
+        ],
+        [
+          7,
+          56
+        ],
+        [
+          7,
+          57
+        ],
+        [
+          8,
+          19
+        ],
+        [
+          8,
+          24
+        ],
+        [
+          8,
+          25
+        ],
+        [
+          8,
+          36
+        ],
+        [
+          8,
+          41
+        ],
+        [
+          8,
+          42
+        ],
+        [
+          8,
+          54
+        ],
+        [
+          8,
+          56
+        ],
+        [
+          8,
+          57
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          9,
+          24
+        ],
+        [
+          9,
+          25
+        ],
+        [
+          9,
+          36
+        ],
+        [
+          9,
+          41
+        ],
+        [
+          9,
+          42
+        ],
+        [
+          9,
+          54
+        ],
+        [
+          9,
+          56
+        ],
+        [
+          9,
+          57
+        ]
+      ],
+      "removed_pair_count": 9,
+      "removed_source_pairs": [
+        [
+          3,
+          19
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          3,
+          36
+        ],
+        [
+          3,
+          41
+        ],
+        [
+          3,
+          42
+        ],
+        [
+          3,
+          54
+        ],
+        [
+          3,
+          56
+        ],
+        [
+          3,
+          57
+        ]
+      ]
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.21.d610e381ed75",
+      "input_necessary_pair_count": 78,
+      "profile": "21",
+      "relation_empty": false,
+      "remaining_source_pair_count": 78,
+      "remaining_source_pairs": [
+        [
+          0,
+          18
+        ],
+        [
+          0,
+          19
+        ],
+        [
+          0,
+          21
+        ],
+        [
+          0,
+          23
+        ],
+        [
+          0,
+          24
+        ],
+        [
+          0,
+          25
+        ],
+        [
+          1,
+          18
+        ],
+        [
+          1,
+          19
+        ],
+        [
+          1,
+          21
+        ],
+        [
+          1,
+          23
+        ],
+        [
+          1,
+          24
+        ],
+        [
+          1,
+          25
+        ],
+        [
+          3,
+          18
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          3,
+          21
+        ],
+        [
+          3,
+          23
+        ],
+        [
+          3,
+          24
+        ],
+        [
+          3,
+          25
+        ],
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          6,
+          23
+        ],
+        [
+          6,
+          24
+        ],
+        [
+          6,
+          25
+        ],
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          10,
+          21
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          10,
+          24
+        ],
+        [
+          10,
+          25
+        ],
+        [
+          11,
+          18
+        ],
+        [
+          11,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          11,
+          24
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          19
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          12,
+          24
+        ],
+        [
+          12,
+          25
+        ],
+        [
+          13,
+          18
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          13,
+          21
+        ],
+        [
+          13,
+          23
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          13,
+          25
+        ],
+        [
+          14,
+          18
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          14,
+          24
+        ],
+        [
+          14,
+          25
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          18,
+          19
+        ],
+        [
+          18,
+          21
+        ],
+        [
+          18,
+          23
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          18,
+          25
+        ],
+        [
+          19,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          19,
+          21
+        ],
+        [
+          19,
+          23
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          19,
+          25
+        ],
+        [
+          21,
+          18
+        ],
+        [
+          21,
+          19
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          21,
+          24
+        ],
+        [
+          21,
+          25
+        ],
+        [
+          24,
+          18
+        ],
+        [
+          24,
+          19
+        ],
+        [
+          24,
+          21
+        ],
+        [
+          24,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "removed_pair_count": 0,
+      "removed_source_pairs": []
+    }
+  ],
+  "remaining_ids": [
+    "G3.11.8ae96830fd21",
+    "G3.11.cce6e3ba4eeb",
+    "G3.11.ea6bced3bddf",
+    "G3.21.d610e381ed75"
+  ],
+  "remaining_label_count": 4,
+  "schema_version": 1,
+  "scope": "Only index113 label gate closes. Source2, index125, index127 and8ae are untouched. No Lean or actual-instance claim.",
+  "source_pins": {
+    "PROOF.md": {
+      "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+      "git_blob_sha1": "711f3ab3ab8892a3fec5d078cc1b7e335278332a",
+      "local_file": "inputs/pr884_PROOF.md",
+      "path": "research/hm/profile11-source113-label-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/PROOF.md"
+    },
+    "REVIEW.md": {
+      "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+      "git_blob_sha1": "a90df161bc6be5727316df485d1a3c993a3645bb",
+      "local_file": "inputs/pr884_REVIEW.md",
+      "path": "research/hm/profile11-source113-label-exclusion/REVIEW.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/REVIEW.md"
+    },
+    "coverage.json": {
+      "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+      "git_blob_sha1": "63ddb7579918150364065c6c37c15e81c0f758b6",
+      "local_file": "inputs/pr884_coverage.json",
+      "path": "research/hm/profile11-source113-label-exclusion/coverage.json",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/coverage.json"
+    },
+    "source-proof-pins.json": {
+      "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+      "git_blob_sha1": "dfa636407ac2a2aadcec2ac0f68a5aa4d56b59ad",
+      "local_file": "inputs/pr884_source-proof-pins.json",
+      "path": "research/hm/profile11-source113-label-exclusion/source-proof-pins.json",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/source-proof-pins.json"
+    }
+  },
+  "source_pins_sha256": "df74df2b255751b87e9ff6729093de0a13f52bc4ffd0689c7d43b868fe5e969a",
+  "source_theorem_pins": {
+    "PR846.md": {
+      "git_blob": "c62eb6cc2e5368f9a5364121fd9df4e67198f8d0",
+      "sha256": "e1c5bdad0cfe1f989ba1d325d35cd80d69dafc961da7710691a173c235b0af9a",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1644b5221fe6f8c23f30401fd6f2dc64230c0f5f/research/hm/profile11-o16-six-source-exclusions/PROOF.md"
+    },
+    "PR848-FF.md": {
+      "git_blob": "b9bf6e58a2a6e4f0e80797c33a38573276b68da3",
+      "sha256": "70a85a7fc501598cfd81d8ee91a4c3244cb195a463a05eaf2a3a43ff93f17ca4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/77ef1c43e58ca05937ad878f81840274a3a9c064/research/hm/profile11-o16-two-d-source/NEXT-FF-EXCLUSION.md"
+    },
+    "PR861-CF-REDUCTION.md": {
+      "git_blob": "4fc16219d5646979fac1e408f5b9d5a2f2ec922f",
+      "sha256": "8157ffa4a39882a8bc4a0b2f1c5200d01e1fc8d9d336904fce63464e672d2204",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7b5b3371a82cb92f46ea60895e45617d0891a5b0/research/hm/profile11-source113-cf-reduction/PROOF.md"
+    },
+    "PR868-CF.md": {
+      "git_blob": "21323a3f529022473920aad34a9224c91d7b2848",
+      "sha256": "2c9faa4394d96c158530f90bbccd586d0685b47da63c34ad4c66b7fb65ad5553",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fb398486839583f8fbd561d6dfaa6ab7b9d3ad67/research/hm/profile11-source113-cf-exclusion/PROOF.md"
+    },
+    "PR874-BC.md": {
+      "git_blob": "3a0635e53042a4afe4072186a70830ef56f256d4",
+      "sha256": "6816de6aa8f051b3de04f73f06c5d5583024aebe2b4aec66ec02967525f635ad",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/cdc89fb4034a144d7b69d6d45b5cdb6fc2c2e8a0/research/hm/profile11-source113-bc-exclusion/PROOF.md"
+    },
+    "PR877-BB.md": {
+      "git_blob": "fe5bd227d98063af437107291d85c044226d8915",
+      "sha256": "33e9195434e1c57b8d33fcec2bd6e80f76daf4cf4cd77092c93dfff4f1b42e3e",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ea4facd73aa88c321adbbf4d7a4f30511c6e7592/research/hm/profile11-source113-bb-exclusion/PROOF.md"
+    },
+    "PR881-BF.md": {
+      "git_blob": "207831458536fcb06afd1a58c391fccb43830df6",
+      "sha256": "f900fa54aa5ad18adc94bd7552b94891d77ccf1c5797af05414dbd8b851b4f63",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4234903e84705791da6772ef85085509bd08ef2d/research/hm/profile11-source113-bf-exclusion/PROOF.md"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "PROOF.md": {
+    "local_file": "inputs/pr884_PROOF.md",
+    "path": "research/hm/profile11-source113-label-exclusion/PROOF.md",
+    "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+    "git_blob_sha1": "711f3ab3ab8892a3fec5d078cc1b7e335278332a",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/PROOF.md"
+  },
+  "REVIEW.md": {
+    "local_file": "inputs/pr884_REVIEW.md",
+    "path": "research/hm/profile11-source113-label-exclusion/REVIEW.md",
+    "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+    "git_blob_sha1": "a90df161bc6be5727316df485d1a3c993a3645bb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/REVIEW.md"
+  },
+  "coverage.json": {
+    "local_file": "inputs/pr884_coverage.json",
+    "path": "research/hm/profile11-source113-label-exclusion/coverage.json",
+    "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+    "git_blob_sha1": "63ddb7579918150364065c6c37c15e81c0f758b6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/coverage.json"
+  },
+  "source-proof-pins.json": {
+    "local_file": "inputs/pr884_source-proof-pins.json",
+    "path": "research/hm/profile11-source113-label-exclusion/source-proof-pins.json",
+    "commit": "75d3a9bb5287ddc3dc22bf4651602b257d6507fb",
+    "git_blob_sha1": "dfa636407ac2a2aadcec2ac0f68a5aa4d56b59ad",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/75d3a9bb5287ddc3dc22bf4651602b257d6507fb/research/hm/profile11-source113-label-exclusion/source-proof-pins.json"
+  }
+}
