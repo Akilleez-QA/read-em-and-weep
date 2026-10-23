@@ -1,0 +1,1247 @@
+{
+  "checks": 2509,
+  "summary": {
+    "total_P": 35,
+    "hom_zero": 8,
+    "rejected1153": [
+      43,
+      44,
+      54,
+      68,
+      77,
+      103
+    ],
+    "rejected1153_after1140": [],
+    "prior1140": [
+      43,
+      44,
+      54,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      74,
+      75,
+      77,
+      103,
+      104,
+      111,
+      112
+    ],
+    "forced_nonzero_cubic_zero_based_indices": [
+      86,
+      87,
+      88,
+      89,
+      96,
+      109,
+      116,
+      134
+    ]
+  },
+  "records": [
+    {
+      "row": 43,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 0,
+      "envelope": {
+        "D": -1,
+        "V": -2
+      },
+      "negative": {
+        "V": -2,
+        "D": -1
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 44,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          1,
+          "Wp"
+        ],
+        [
+          -18,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 0,
+      "envelope": {
+        "D": -1,
+        "V": -2
+      },
+      "negative": {
+        "V": -2,
+        "D": -1
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 54,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          1,
+          "Wp"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 0,
+      "envelope": {
+        "D": -1,
+        "V": -2
+      },
+      "negative": {
+        "V": -2,
+        "D": -1
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 63,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "P": -1,
+        "V": -2
+      },
+      "negative": {
+        "P": -1,
+        "V": -2
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 64,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 65,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 66,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -16,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 67,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "A"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 68,
+      "A": [
+        [
+          0,
+          "V"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "A"
+        ]
+      ],
+      "defect": 12,
+      "hom": 0,
+      "envelope": {
+        "A": 1,
+        "P": -1,
+        "V": -2
+      },
+      "negative": {
+        "P": -1,
+        "V": -2
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 74,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          1,
+          "Wp"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "P": -1,
+        "V": -2
+      },
+      "negative": {
+        "P": -1,
+        "V": -2
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 75,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 77,
+      "A": [
+        [
+          0,
+          "V"
+        ]
+      ],
+      "B": [
+        [
+          -2,
+          "V"
+        ]
+      ],
+      "defect": 0,
+      "hom": 0,
+      "envelope": {
+        "A": 1,
+        "P": -1,
+        "V": -2
+      },
+      "negative": {
+        "P": -1,
+        "V": -2
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 87,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 88,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 89,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "Wp"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 90,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -18,
+          "one"
+        ]
+      ],
+      "defect": 12,
+      "hom": 1,
+      "envelope": {
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 97,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 103,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          10,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          1,
+          "Wp"
+        ],
+        [
+          -12,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 0,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "V": -2
+      },
+      "negative": {
+        "V": -2
+      },
+      "prior1140": true,
+      "rejected1153": true
+    },
+    {
+      "row": 104,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 2,
+      "envelope": {
+        "A": 1,
+        "D": 1,
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 110,
+      "A": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          3,
+          "Wp"
+        ],
+        [
+          -18,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 1,
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 111,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 1,
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 112,
+      "A": [
+        [
+          2,
+          "V"
+        ]
+      ],
+      "B": [
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 1,
+        "P": -1,
+        "V": -1
+      },
+      "negative": {
+        "P": -1,
+        "V": -1
+      },
+      "prior1140": true,
+      "rejected1153": false
+    },
+    {
+      "row": 117,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          10,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -12,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 1,
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 131,
+      "A": [
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 0,
+      "envelope": {
+        "D": 1,
+        "P": 2
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 133,
+      "A": [
+        [
+          3,
+          "W"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 0,
+      "envelope": {
+        "D": 1,
+        "P": 2
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 135,
+      "A": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          1,
+          "Wp"
+        ],
+        [
+          -18,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 1,
+        "P": 1,
+        "V": -1
+      },
+      "negative": {
+        "V": -1
+      },
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 142,
+      "A": [
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 143,
+      "A": [
+        [
+          3,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 144,
+      "A": [
+        [
+          5,
+          "W"
+        ],
+        [
+          2,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          -4,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 145,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          14,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -16,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 146,
+      "A": [
+        [
+          4,
+          "A"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "A"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 149,
+      "A": [
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 2
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 150,
+      "A": [
+        [
+          5,
+          "W"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "W"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "A": 1,
+        "D": 2,
+        "P": 2
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 151,
+      "A": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -1,
+          "Wp"
+        ],
+        [
+          -18,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 2,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    },
+    {
+      "row": 152,
+      "A": [
+        [
+          5,
+          "Wp"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -7,
+          "Wp"
+        ],
+        [
+          -6,
+          "one"
+        ]
+      ],
+      "defect": 0,
+      "hom": 1,
+      "envelope": {
+        "one": 1,
+        "A": 2,
+        "D": 2,
+        "P": 1
+      },
+      "negative": {},
+      "prior1140": false,
+      "rejected1153": false
+    }
+  ]
+}
