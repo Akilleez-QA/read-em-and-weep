@@ -1,0 +1,33 @@
+[
+  {
+    "local_path": "inputs/980.md",
+    "commit": "3dd68c99b9dfd85fe10cc327c2fa95c24bc185f5",
+    "path": "research/hm/source126-typeII-secondary-homotopy/PROOF.md",
+    "git_blob": "df60c84591f15043bfb64300e3d3ee16b7221a01",
+    "sha256": "10a70239af9d2af034ed8b66b51d476484d28a243e2eaaa0c2e03095568db5c2",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3dd68c99b9dfd85fe10cc327c2fa95c24bc185f5/research/hm/source126-typeII-secondary-homotopy/PROOF.md"
+  },
+  {
+    "local_path": "inputs/982.md",
+    "commit": "25df67afcafd5f84c2c0cda7e6baee41fdbf8212",
+    "path": "research/hm/source126-typeII-internal-third/PROOF.md",
+    "git_blob": "9b1e90b99f24263b0e97f4d5721e04495454e9bf",
+    "sha256": "064b115e5b583ecb98c5d6fae5ca84fc54424c775fbad7d7578fa816f25b4acb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/25df67afcafd5f84c2c0cda7e6baee41fdbf8212/research/hm/source126-typeII-internal-third/PROOF.md"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py"
+  },
+  {
+    "local_path": "inputs/995.md",
+    "commit": "f9435fa37c78e86391fd1a773a039dd646a05e53",
+    "path": "research/hm/source126-typeII-internal-octic-gate/PROOF.md",
+    "git_blob": "0e63a5cc5a209939c29de8aa2df272cc249814d6",
+    "sha256": "8f75112f5dcc7bb57efb24d9abc0bf7b33fbbcc6b128569eea8576bcf90699cd"
+  }
+]
