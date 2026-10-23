@@ -1,8 +1,22 @@
-# Living research paper · v0.33
+# Living research paper · v0.35
 
-**Craig Ward · 23 October 2026 · Structural update through PR1049; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1055; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Mixed original-fourth presentation through PR1055
+
+On the unselected nonzero ℓ₃ gate line, [the actual mixed presentation](90-pure-v-mixed-presentation.md) is 0→K_H→D O⊕A O(-2)→P O(1)→0 with map [L,−S], linear and cubic blocks, and surjectivity at every point. The full S₃ stabilizer characters and local duality give dim Ext¹_G(E,O(-4))=1, whereas the nonequivariant dimension is ten. The actual locally nonsplit extension is unique only up to nonzero scalar and rescaling its line injection. No splitting of K_H, actual coefficient selection or new source exclusion follows. The complete five-stratum classification remains unchanged.
+
+## Kernel and generated-module extensions through PR1054
+
+The completed five-stratum classification remains prominent and unchanged. No actual coefficient or source is selected.
+
+- [Cubic A syzygies](87-pure-v-cubic-a-syzygies.md): on ℓ₃=span(R₁−2R₂), an explicit complete Hilbert-Burch certificate proves K_F=A O(-3), not V O(-3), with saturated length-54 ideal. The original-fourth kernel inherits the ten-point elementary modification; it is not asserted split.
+- [Actual generated homotopy module](88-pure-v-generated-homotopy-module.md): under compatible pure-V radical, im h generates exact first characters P+D and W′+2T, of dimensions 9 and 14. The endpoint dimensions {4,7,8,9,11,12,13,16} are necessary alternatives with unresolved relations, not selected instances. The smallest endpoint implies formal lifting of every D class and generic rank 36 on Q+Sym²W; its occurrence and the converse remain unproved.
+- [Canonical negative string, source report](89-canonical-negative-string-source-report.md): mr. slop's actual W→A→S→D string starts in degree one independently of a selected pure-V branch. Full-source reading retains section exhaustion, parity, noncanonical complement choices and the actual weighted presentation. It is not an independent reproof or an identification with the im h-generated module.
+
+Four necessary pairs across three labels and the original repair remain open. No unpublished mixed-extension or target refinement is included.
 
 ## Actual-map extensions through PR1049
 
