@@ -1,0 +1,561 @@
+{
+  "artifact": "q65 full-CLI synthetic adversarial regressions",
+  "status": "all_expected_cli_outcomes_observed",
+  "source_commit": "fce4a9139101cd88eb50842174580fcd4fc6e160",
+  "input_sha256": {
+    "q65_shards.py": "1d1abf9ca1b965b5a6467957b6875ae9e30c52d849daf0a3bac5d2b91373c393",
+    "CONTRACT.json": "c4ecc98cdad68bd2a7bef743778487adb6fd5b0a78b311aec2d85b9a330152ef",
+    "execution-lock.json": "81c05e416284a4b4216c9daa164e9760708f01112efc36b4136d1a8038155350"
+  },
+  "python": "3.12.14",
+  "elapsed_seconds": 3.495,
+  "case_count": 76,
+  "accepted_synthetic_controls": 5,
+  "rejected_adversarial_cases": 71,
+  "cases": [
+    {
+      "case": "complete_synthetic_packet",
+      "expected": "accept_synthetic_metadata",
+      "returncode": 0,
+      "matched": true,
+      "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}"
+    },
+    {
+      "case": "order_independent_packet",
+      "expected": "accept_synthetic_metadata",
+      "returncode": 0,
+      "matched": true,
+      "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}"
+    },
+    {
+      "case": "trailing_blank_lines",
+      "expected": "accept_synthetic_metadata",
+      "returncode": 0,
+      "matched": true,
+      "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}"
+    },
+    {
+      "case": "crlf_final_marker",
+      "expected": "accept_synthetic_metadata",
+      "returncode": 0,
+      "matched": true,
+      "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}"
+    },
+    {
+      "case": "no_final_newline",
+      "expected": "accept_synthetic_metadata",
+      "returncode": 0,
+      "matched": true,
+      "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}"
+    },
+    {
+      "case": "altered_stdout_stale_hash",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log bytes mismatch"
+    },
+    {
+      "case": "line_ending_change_stale_hash",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log bytes mismatch"
+    },
+    {
+      "case": "empty_log_with_matching_hash",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "whitespace_only_log",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "partial_log_with_matching_hash",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "truncated_marker",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_then_error",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_then_later_work",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_only_as_substring",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "quoted_marker",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_with_suffix",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_for_other_unit",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_with_leading_space",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_with_trailing_space",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_with_nul",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "marker_with_ansi_escape",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "false_matching_marker_metadata",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log terminal marker is not final"
+    },
+    {
+      "case": "self_consistent_wrong_terminal_marker",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing terminal marker"
+    },
+    {
+      "case": "missing_log",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log bytes mismatch"
+    },
+    {
+      "case": "missing_log_path",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: log bytes mismatch"
+    },
+    {
+      "case": "path_traversal",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unsafe payload path"
+    },
+    {
+      "case": "absolute_log_path",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unsafe payload path"
+    },
+    {
+      "case": "symlink_escapes_receipt_directory",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: payload path escapes root"
+    },
+    {
+      "case": "missing_global_0",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_1",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_2",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_3",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_4",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_5",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_6",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_global_7",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_harmonic_unit",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "missing_trace_unit",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing units: 1"
+    },
+    {
+      "case": "duplicate_global",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: duplicate unit ID"
+    },
+    {
+      "case": "duplicate_harmonic",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: duplicate unit ID"
+    },
+    {
+      "case": "duplicate_trace",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: duplicate unit ID"
+    },
+    {
+      "case": "unexpected_unit_id",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unexpected unit ID"
+    },
+    {
+      "case": "wrong_receipt_schema",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: receipt schema mismatch"
+    },
+    {
+      "case": "fixture_marked_as_production",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: fixture/production receipts cannot be mixed"
+    },
+    {
+      "case": "wrong_receipt_contract",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: receipt contract mismatch"
+    },
+    {
+      "case": "wrong_runtime_binding",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: receipt runtime lock mismatch"
+    },
+    {
+      "case": "mismatch_input_before_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: input changed during shard"
+    },
+    {
+      "case": "mismatch_input_after_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: input changed during shard"
+    },
+    {
+      "case": "failed_status",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: shard did not exit successfully"
+    },
+    {
+      "case": "nonzero_exit",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: shard did not exit successfully"
+    },
+    {
+      "case": "bool_exit_is_not_zero",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: shard did not exit successfully"
+    },
+    {
+      "case": "string_exit",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: shard did not exit successfully"
+    },
+    {
+      "case": "timed_out",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: incomplete shard"
+    },
+    {
+      "case": "terminated",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: incomplete shard"
+    },
+    {
+      "case": "disabled_assertions",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: assertions disabled"
+    },
+    {
+      "case": "missing_check",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing, extra, or failed check"
+    },
+    {
+      "case": "extra_check",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing, extra, or failed check"
+    },
+    {
+      "case": "failed_check",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing, extra, or failed check"
+    },
+    {
+      "case": "negative_elapsed_time",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing elapsed time"
+    },
+    {
+      "case": "unready_execution_lock",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: execution lock is not ready"
+    },
+    {
+      "case": "wrong_lock_contract",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: lock contract mismatch"
+    },
+    {
+      "case": "missing_adapter_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing runtime pin: adapter_sha256"
+    },
+    {
+      "case": "missing_initializer_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing runtime pin: initializer_sha256"
+    },
+    {
+      "case": "missing_initializer_provenance_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing runtime pin: initializer_provenance_sha256"
+    },
+    {
+      "case": "nonhex_runtime_pin",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing runtime pin: adapter_sha256"
+    },
+    {
+      "case": "missing_coverage",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper assertion coverage"
+    },
+    {
+      "case": "missing_helper_scope_0",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper assertion coverage"
+    },
+    {
+      "case": "missing_helper_scope_1",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper assertion coverage"
+    },
+    {
+      "case": "missing_helper_scope_2",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper assertion coverage"
+    },
+    {
+      "case": "extra_helper_scope",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper assertion coverage"
+    },
+    {
+      "case": "invalid_helper_scope_status",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unverified helper assertion scope"
+    },
+    {
+      "case": "missing_coverage_manifest_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper coverage certificate: coverage_manifest_sha256"
+    },
+    {
+      "case": "missing_independent_review_sha256",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: missing helper coverage certificate: independent_review_sha256"
+    },
+    {
+      "case": "missing_python",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unfrozen runtime versions"
+    },
+    {
+      "case": "missing_sympy",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: unfrozen runtime versions"
+    },
+    {
+      "case": "contract_digest_mismatch",
+      "expected": "reject",
+      "returncode": 1,
+      "matched": true,
+      "reason": "ValueError: contract digest mismatch"
+    }
+  ],
+  "producer_trust_boundary": {
+    "name": "fabricated_producer_can_assert_completion",
+    "returncode": 0,
+    "stdout": "{\"global\": 8, \"harmonic\": 55, \"mathematical_claim\": \"receipt accounting only; producer correctness requires independent review\", \"status\": \"execution_receipts_complete\", \"trace\": 10}",
+    "interpretation": "Documented trust boundary: a self-consistent forged producer is not authenticated by receipt accounting."
+  },
+  "failures": [],
+  "production_validator_modified": false,
+  "production_execution_gate": "disabled_and_unchanged",
+  "symbolic_payload_imported": false,
+  "mathematical_shards_executed": 0,
+  "fabricated_receipts_persisted": false
+}
