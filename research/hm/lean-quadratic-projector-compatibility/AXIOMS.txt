@@ -1,0 +1,9 @@
+'OAI.HorrocksMumford.quadraticProjectorCompatibility_iff_crossTerms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.HorrocksMumford.quadraticProjectorCompatibility_iff_range_ker' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'OAI.HorrocksMumford.quadraticProjectorCompatibility_family_iff_crossTerms' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
