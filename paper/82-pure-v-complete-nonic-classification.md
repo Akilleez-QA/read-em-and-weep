@@ -1,5 +1,8 @@
 # Complete scheme stratification of the universal pure-V nonic gate
 
+**23 October 2026, PR1082 update:** [Actual quadratic commutation excludes endpoint nine](109-small-branch-exclusion.md) under the full source2 pure-V compatible-radical hypotheses. Any endpoint-nine conclusions below remain valid conditional deductions with an excluded antecedent, not active results for the surviving endpoint sixteen. In particular the nonzero-conic and positive Smith/maximal-row-rank implications do not solve its positive component. The universal component-scheme classification is unchanged.
+
+
 **Craig Ward · 23 October 2026 · PR1044**
 
 [Immutable full proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4/research/hm/source2-pure-v-complete-base-classification/PROOF.md).

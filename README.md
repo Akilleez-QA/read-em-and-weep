@@ -1,8 +1,8 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1079**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1082**
 
-**Endpoint nine now forces maximal generic row rank 37 for the actual positive 41→37 component. This is not full adjoint invertibility or a complete proof repair.** Four necessary source-dual pairs across three stable labels remain. No actual compatible pure-V source or endpoint branch is selected; endpoint nine now forces the nonzero conic gate.
+**The nine-dimensional generated endpoint is excluded under actual source2 pure-V compatible-radical hypotheses. Endpoint sixteen is now necessary, with two projection mechanisms still unresolved.** This is a genuine conditional branch elimination, not exclusion of source2 or a complete proof repair. Four necessary source-dual pairs across three stable labels remain. The surviving positive component and actual gate coefficients remain unresolved.
 
 [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
@@ -20,27 +20,28 @@ In the pinned quadratic-lift basis R=αR₁+βR₂, every nonzero coefficient pa
 
 This universal ideal-sheaf table is not a list of available outcomes within each endpoint branch. Every other ratio gives exactly Z; the two length-46 schemes are distinct. [Complete theorem](paper/82-pure-v-complete-nonic-classification.md)
 
-![Complete universal nonic coefficient strata; zero gate separate and actual coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
+![Complete universal nonic coefficient strata; endpoint nine excluded and endpoint sixteen coefficient unknown](paper/figures/pure-v-coefficient-pencil.svg)
 
-The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Zero is now excluded in endpoint nine; its status in endpoint sixteen remains unselected. The figure locates exact ratios, not mathematical branches between them, fractions of search space or completion percentages.
+The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Endpoint sixteen's actual coefficient, including zero versus nonzero, remains unselected. Exact ratios are not fractions of search space or completion percentages.
 
-## Endpoint nine now forces a nonzero conic gate
+## Actual branch elimination and remaining work
 
-The generated endpoint is still **9 or 16**, neither selected. Endpoint nine now forces **R=γR₁ with γ≠0**: exactly the conic coefficient stratum β=0. Its component scheme is Z plus twelve reduced ambient conic points, length 46. Zero and the other four universal nonzero strata are excluded in that branch. Conic membership does not conversely force nine. [Nonvanishing theorem](paper/105-nonzero-small-transfer.md)
+[PR1082's commutation argument](paper/109-small-branch-exclusion.md) rules out P_h⊂NC2, equivalently endpoint nine. In that branch Q₃ kills F3; NC3/F3 has type S, while the entire actual negative degree-five target W′+3T has no S. Thus Q₃ would kill NC3. Actual polynomial commutation then forces the injective image Q₂(V_C) into the joint-negative kernel NC4=P+D, which cannot contain V. This uses actual maps and parity, not an extension of h or a character-only identification.
 
-Q(NC2)∩NC4 is I4 in endpoint nine and **zero in every endpoint-sixteen branch**. No Q-preservation or matching-character identification with NR4 follows.
+In the surviving endpoint sixteen, Q(NC2)∩NC4=0 in both projection mechanisms. It remains necessary rather than asserted realized; no actual source, scalar or coefficient is selected. The positive-coordinate action and original higher lifting still require analysis.
 
-## Exact positive Smith profile
+## Two surviving actual negative modules
 
-In endpoint nine, outside the **28 support points** of the length-46 scheme, the actual positive component has Smith form with **33 unit pivots, three t² pivots and one t⁴ pivot**, plus four zero columns. Thus its formal kernel is free of rank four, its cokernel has length ten, and its maximal-minor ideal is (t¹⁰). The profile also holds for the symbolic generic direction. [Exact theorem](paper/106-positive-component-smith-profile.md)
+Both generated modules R·im h start with dimensions **9,14,16** in degrees 2–4 and vanish from degree six onward:
 
-No profile is asserted at those 28 points. Row rank 37 holds generically in t, not at t=0 or every nonzero t. Not every maximal minor must be nonzero or have order ten. The other parity component and full adjoint problem remain outside this theorem.
+- **Nonzero N0 projection:** degree five has dimension **12**, type 2T; total length **51**. Its projection onto N0,5 is the full two-copy T component, but the terminal subspace may be a graph into NR5. [Separated-terminal theorem](paper/108-separated-terminal-module.md)
+- **Zero N0 projection, nonzero N8 projection:** degree five is the marked residual T, dimension **6**; total length **45**. [Residual-large theorem](paper/107-actual-residual-large-module.md)
 
-## Two actual negative modules, with distinct hypotheses
+Their socles are I4 in degree four plus the respective terminal piece in degree five. Each has an exact minimal equivariant resolution and annihilator (W)⁴. Neither is the full Rao module, asserted positive-stable, or an actual source realization. The two mechanisms remain unselected; their terminal dimensions must not be conflated.
 
-Endpoint nine gives the actual negative module R·im h of length **32**, supported in degrees 2–4, with socle NC4 and annihilator (W)³. In **residual-large only** (zero N0 projection, nonzero N8 projection), it instead has length **45**, supported in degrees 2–5, socle I4 in degree four plus the marked residual T in degree five, and annihilator (W)⁴. Both have exact minimal equivariant resolutions. [Small module](paper/103-actual-terminal-negative-module.md) · [Residual-large module](paper/107-actual-residual-large-module.md)
+## Earlier endpoint-nine results are now historical
 
-Neither is the full Rao module or asserted positive-stable. The length-45 conclusion does not cover the endpoint-sixteen branch with nonzero N0 projection. Neither branch is selected. Attributed opposite-pencil and canonical-string results remain separate. [Source reports](paper/README.md)
+The length-32 negative module, forced nonzero conic gate and length-46 component scheme, and positive 41→37 Smith profile with maximal generic row rank 37 remain valid **conditional implications with an excluded antecedent** under the full actual hypotheses. They do not solve the surviving positive component or prove full adjoint invertibility. [Dated Smith theorem and current boundary](paper/106-positive-component-smith-profile.md)
 
 The table describes projective component ideal sheaves for both the nonic and determinant-embedded original-fourth D row, not raw graded ideals, quadratic-lift degeneracy or additional specialized A-kernel classes. [Exact transfer](paper/84-pure-v-fourth-ideal-transfer.md)
 
