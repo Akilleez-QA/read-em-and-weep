@@ -1,0 +1,72 @@
+{
+  "authentication_method": "Independent read-only GitHub fetch_file requests at immutable commit refs; byte equality, SHA256, Git blob SHA1, and lengths checked against the frozen complete originals.",
+  "authenticated_at_utc": "2026-10-23T20:06:21Z",
+  "sources": [
+    {
+      "label": "PR477",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "ff87076794e97238150485b12183c3cd0f4711e4",
+      "path": "research/hm/adjoint-primary-extension/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ff87076794e97238150485b12183c3cd0f4711e4/research/hm/adjoint-primary-extension/PROOF.md",
+      "git_blob": "1cb91b7f5b7da08b6653c7fa48487ff7c3fd7198",
+      "sha256": "0325c7b3cf237e27d4466e17c50cdb7f1a5cd874c310f32c03516acc250a2a38",
+      "bytes": 10321,
+      "encoding": "utf-8"
+    },
+    {
+      "label": "PR486",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "0de9b4b71cbbf3c4492871d9835952a0dcb41e12",
+      "path": "research/hm/level-section-resolution/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0de9b4b71cbbf3c4492871d9835952a0dcb41e12/research/hm/level-section-resolution/PROOF.md",
+      "git_blob": "93a379dc422c45b4fad210d782169abc3583c286",
+      "sha256": "0e7df08243d9cd60c812d29f57a88edd8bd87880670f640f7e6ac4562d740e41",
+      "bytes": 10493,
+      "encoding": "utf-8"
+    },
+    {
+      "label": "PR1120",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "62587a0adde566cac718ee13c28ee13c239389e5",
+      "path": "research/hm/scalar-cyclic-module/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/62587a0adde566cac718ee13c28ee13c239389e5/research/hm/scalar-cyclic-module/PROOF.md",
+      "git_blob": "af00766042cdc7e100731aa69b9ad8d32db0209f",
+      "sha256": "b47031d81c8c138aa5f1b4c4cee992f9ae04ee74adb8c403cedd2e74c51a2d2e",
+      "bytes": 10894,
+      "encoding": "utf-8"
+    },
+    {
+      "label": "PR1056",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "875e86e2eec36a050e9a626735199681762e43ec",
+      "path": "research/hm/restriction-socle-kernel/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md",
+      "git_blob": "29cadd1739c37309b31192beef30007acf14e8ef",
+      "sha256": "1ee98092e1322841d031d65649dee205299b88d9ba726599f0678d8b1e5b2a1e",
+      "bytes": 10582,
+      "encoding": "utf-8"
+    },
+    {
+      "label": "ACTUAL",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "git_blob": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "bytes": 9672,
+      "encoding": "utf-8"
+    },
+    {
+      "label": "PR1122",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "65c13bb9a3748a19eb8466f748bd29a5a849ecb5",
+      "path": "research/hm/primary-terminal-source2-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c13bb9a3748a19eb8466f748bd29a5a849ecb5/research/hm/primary-terminal-source2-exclusion/PROOF.md",
+      "git_blob": "7721fe5915ddfd5638a4e9cf2d5dde39a1910e26",
+      "sha256": "7be070050a035ceec64c5698fd1ae70857225a405e1a43d4cbebc4019f5a342a",
+      "bytes": 8009,
+      "encoding": "utf-8"
+    }
+  ]
+}
