@@ -1,0 +1,76 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "date": "2026-10-23",
+  "inputs": [
+    {
+      "name": "q_exact",
+      "commit": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+      "path": "research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "git_blob": "019c1f31773476f0a4877d88632ce5d46fbd4b9f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276",
+      "bytes": 2352,
+      "git_blob_verified": true
+    },
+    {
+      "name": "secondary",
+      "commit": "09b0018bf1f36bcea641c115558ba637f6d63075",
+      "path": "research/hm/order-four-quadratic-load/POSITIVE-THIRD-SECONDARY-MULTIPLICATION-TENSOR.md",
+      "git_blob": "b42aee8f5706532a3a8928c1f631d54d8204bec2",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09b0018bf1f36bcea641c115558ba637f6d63075/research/hm/order-four-quadratic-load/POSITIVE-THIRD-SECONDARY-MULTIPLICATION-TENSOR.md",
+      "sha256": "d4a63b9775362a9cd1bc7212bc646b6bafb67169e66e8fd03dd41a015d9063bd",
+      "bytes": 5395,
+      "git_blob_verified": true
+    },
+    {
+      "name": "canonical_division",
+      "commit": "2f81e3510505ad842fb9bb00ff3a667cd36ea17f",
+      "path": "research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+      "git_blob": "fd33060d7ce479f9c21bc7e1b47c471cfdebec50",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f81e3510505ad842fb9bb00ff3a667cd36ea17f/research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+      "sha256": "fbe769ab1e929005377bf684940f83990156654c8e9a3675eb7e9649ed21a180",
+      "bytes": 5735,
+      "git_blob_verified": true
+    },
+    {
+      "name": "canonical_correction",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "git_blob": "e2c4ae916ed77ee529ae87224c675a01567abeaa",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab",
+      "bytes": 12572,
+      "git_blob_verified": true
+    },
+    {
+      "name": "global_complex",
+      "commit": "8d8b5be4ce62c3055bb53be9e16d29cc63072f04",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "git_blob": "81e4b7ddf79d2c4e26ac0c99517117fe2ca63133",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d",
+      "bytes": 5709,
+      "git_blob_verified": true
+    },
+    {
+      "name": "calibration889",
+      "commit": "72ac7ecc5447415fa8452f12ed6ec16921a600f4",
+      "path": "research/hm/physical-normalization-symmetry/PROOF.md",
+      "git_blob": "4c44d68b60ace05607bb08cc4b4b5fee438ea3ad",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/72ac7ecc5447415fa8452f12ed6ec16921a600f4/research/hm/physical-normalization-symmetry/PROOF.md",
+      "sha256": "cf85d577d57f3b08369045b99599738498f0caf1fc0e45009a6d2bf227c95b22",
+      "bytes": 14873,
+      "git_blob_verified": true
+    },
+    {
+      "name": "central_parity",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/RESIDUAL-SMOOTHING-NONVANISHING-AND-EVEN-RANK.md",
+      "git_blob": "bfd44df8c8c575684dfa1194a9415767dc7656ff",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/RESIDUAL-SMOOTHING-NONVANISHING-AND-EVEN-RANK.md",
+      "sha256": "7f492fa95a5858962274979b0bf6ca0f90863e44d1f6dd4d36939c977d4f2181",
+      "bytes": 17018,
+      "git_blob_verified": true
+    }
+  ]
+}
