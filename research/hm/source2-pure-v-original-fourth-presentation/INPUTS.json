@@ -1,0 +1,38 @@
+[
+  {
+    "label": "1053",
+    "commit": "9658196f793afda6767565307ebc818ddfe341a5",
+    "path": "research/hm/source2-pure-v-cubic-syzygies/PROOF.md",
+    "local_path": "inputs/1053.md",
+    "git_blob": "7fd12c81e863f0e6b81835e739828f90c9dabbcd",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9658196f793afda6767565307ebc818ddfe341a5/research/hm/source2-pure-v-cubic-syzygies/PROOF.md",
+    "sha256": "144ebd2b790202093b5a9d4989199e545afb3da8433a9b5bddae9e58c4f19258"
+  },
+  {
+    "label": "1053-S",
+    "commit": "9658196f793afda6767565307ebc818ddfe341a5",
+    "path": "research/hm/source2-pure-v-cubic-syzygies/S.json",
+    "local_path": "S.json",
+    "git_blob": "a5c10967b2d2d0f738159e18e09b9758d9112f0f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9658196f793afda6767565307ebc818ddfe341a5/research/hm/source2-pure-v-cubic-syzygies/S.json",
+    "sha256": "4e136d308702a65ee9a35f5c0b44aa5eb4f8fc9786f19467181df7aa19024ea8"
+  },
+  {
+    "label": "1053-model",
+    "commit": "9658196f793afda6767565307ebc818ddfe341a5",
+    "path": "research/hm/source2-pure-v-cubic-syzygies/model.py",
+    "local_path": "model.py",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/9658196f793afda6767565307ebc818ddfe341a5/research/hm/source2-pure-v-cubic-syzygies/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a"
+  },
+  {
+    "label": "1049",
+    "commit": "6210a276622e15c6977b8070bc1fd12744fe2f07",
+    "path": "research/hm/source2-pure-v-kernel-bridge/PROOF.md",
+    "local_path": "inputs/1049.md",
+    "git_blob": "88e8f27f6a783bbb6d77a07bb4db88b820e80149",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6210a276622e15c6977b8070bc1fd12744fe2f07/research/hm/source2-pure-v-kernel-bridge/PROOF.md",
+    "sha256": "cefc1840cc869aaa97f2e2cc3852f1771f8a8fc8ad36a6fd2e087cdd1105e372"
+  }
+]
