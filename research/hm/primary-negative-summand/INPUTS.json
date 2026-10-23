@@ -1,0 +1,22 @@
+[
+  {
+    "label": "PR1056",
+    "commit": "875e86e2eec36a050e9a626735199681762e43ec",
+    "path": "research/hm/restriction-socle-kernel/PROOF.md",
+    "git_blob": "29cadd1739c37309b31192beef30007acf14e8ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md",
+    "local_path": "inputs/PR1056.md",
+    "sha256": "1ee98092e1322841d031d65649dee205299b88d9ba726599f0678d8b1e5b2a1e",
+    "bytes": 10582
+  },
+  {
+    "label": "PR1122",
+    "commit": "65c13bb9a3748a19eb8466f748bd29a5a849ecb5",
+    "path": "research/hm/primary-terminal-source2-exclusion/PROOF.md",
+    "git_blob": "7721fe5915ddfd5638a4e9cf2d5dde39a1910e26",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/65c13bb9a3748a19eb8466f748bd29a5a849ecb5/research/hm/primary-terminal-source2-exclusion/PROOF.md",
+    "local_path": "inputs/PR1122.md",
+    "sha256": "7be070050a035ceec64c5698fd1ae70857225a405e1a43d4cbebc4019f5a342a",
+    "bytes": 8009
+  }
+]
