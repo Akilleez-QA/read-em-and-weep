@@ -1,0 +1,38 @@
+[
+  {
+    "key": "FILTRATION",
+    "ref": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "bytes": 21176,
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md"
+  },
+  {
+    "key": "TERMINAL",
+    "ref": "64e4fdd771a14a764c6e119d2eb25b0237d83622",
+    "path": "research/hm/negative-string-terminal-gate/PROOF.md",
+    "bytes": 10581,
+    "sha256": "affb6a3e89fecfd9457c949a5dcd9082b8b23800845bb271f1a143d76d8163ae",
+    "blob": "b0be6d47a234bbfc3e49f94c8cc295d8b5129a7d",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/64e4fdd771a14a764c6e119d2eb25b0237d83622/research/hm/negative-string-terminal-gate/PROOF.md"
+  },
+  {
+    "key": "SOCLE",
+    "ref": "875e86e2eec36a050e9a626735199681762e43ec",
+    "path": "research/hm/restriction-socle-kernel/PROOF.md",
+    "bytes": 10582,
+    "sha256": "1ee98092e1322841d031d65649dee205299b88d9ba726599f0678d8b1e5b2a1e",
+    "blob": "29cadd1739c37309b31192beef30007acf14e8ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md"
+  },
+  {
+    "key": "RESIDUAL",
+    "ref": "bfc239e1c8624a0346394e1454b0bea3c976d40d",
+    "path": "research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "bytes": 8940,
+    "sha256": "bf2ad7b5e982b7eeb0b44e1be7ef22656b56d0550a8c6f792a58b17c7bda3f17",
+    "blob": "20b3b58b92d4c44d1097d47a9e952c4dfa25b569",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc239e1c8624a0346394e1454b0bea3c976d40d/research/hm/source2-pure-v-canonical-residual-string/PROOF.md"
+  }
+]
