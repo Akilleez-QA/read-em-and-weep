@@ -2,6 +2,10 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Post cutoff note
+
+Written updates PR913 and PR914 sharpen the remaining source127 a-b-c-f alternatives and permit conditional source-trace matching for an independent cone contraction without ambient extendability. Neither is a source or label cut: the frontier remains three labels and 146 necessary pairs. See [the post-burn structural update](34-post-burn-structural-update.md). The burn cutoff and inventory below are preserved.
+
 ## Bottom line
 
 The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. The reconciled written-proof frontier has **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
