@@ -1,8 +1,8 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1107**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1115**
 
-**The original positive 41→37 component now has a proved finite sequential rank criterion through order24. Its actual gate values remain unknown.** The first nonzero class gives generic rank37; allzero gives rank36. This is not full-adjoint invertibility or a complete repair. Endpoint nine is excluded; endpoint sixteen has two unselected mechanisms. Four necessary source-dual pairs across three labels remain.
+**Residual-large now has only three conditional positive outcomes: last exponent4, exponent5 or no remaining pivot. Finite exponents6–24 are excluded in that mechanism.** Actual fourth/fifth values remain unknown. Endpoint nine is excluded; endpoint sixteen has two unselected mechanisms. Four necessary source-dual pairs across three labels remain. This is not full-adjoint invertibility or a complete repair.
 
 [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
 
@@ -24,15 +24,23 @@ Universal strata need not remain available within each mechanism. The length-46 
 
 The zero pair has whole-plane base scheme, with no finite length. Residual-large permits only zero or the conic line; nonzero-N0 still has an unselected two-dimensional coefficient space. No completion percentage follows.
 
-## Finite sequential criterion and remaining actual data
+## Residual all-orders theorem and remaining actual gates
 
-[PR1107](paper/126-finite-sequential-obstruction.md) constructs canonical global gates **s3,…,s23**, reached only when preceding classes vanish. They correspond to original orders **4–24**, not independent parameters. The first nonzero s_n gives last Smith exponent n+1 and generic Laurent rank37. If all vanish, any later pivot would force maximal-minor order≥31, contradicting degree≤30; rank is exactly36, with kernel dimension five.
+[PR1115](paper/130-residual-fifth-and-all-orders.md) proves:
 
-The global recursion updates two consecutive corrections and retains the κ remainder. Its first equivariant κ gauge occurs at original order9. No actual gate is evaluated. The result concerns this rectangular positive component, not the full adjoint, and does not assert a square-conic base-change recursion.
+- R≠0: last exponent4, generic Laurent rank37.
+- R=0, fifth≠0: exponent5, generic Laurent rank37.
+- R=0, fifth=0: all higher obstructions vanish, rank36.
 
-[The canonical terminal sextet T_Q](paper/125-canonical-q-terminal.md) is the actual image Q3(NC3)=WQ2(V_C). In residual-large ℓ|T_Q is an isomorphism, complementing C_term. If τ=0, its first-block projection forces the specific Q2 channel onto (N0,4)_V. This supplies an actual target for further comparison, not a fifth value or source selection.
+![Three conditional residual-large outcomes; none selected](paper/figures/pure-v-residual-three-outcomes.svg)
 
-**Residual-large:** R=αR1. α≠0 iff maximal-minor ideal (t¹⁰), with 33 unit pivots, three t² and one t⁴, outside the known 28-point support. If α=0, the unselected two-dimensional fifth class gives exponent5 iff nonzero. A later finite exponent is ≤24 generically and ≤21 on squares; absence is possible. [Smith and fifth details](paper/121-residual-positive-smith-criterion.md)
+Under R=0, the actual inverse separated-image isomorphism Ξ has three nonzero Schur coordinates. Fifth zero is exactly (D:P:V)=(−1:1:1), the unique alternating bracket line. A fixed canonical-A normalization then constructs polynomial corrections to every order. All maximal minors vanish identically, so rank≤36 everywhere on the fixed Q+tT_a slice, not on all quadratic directions. No actual alignment is selected.
+
+[The common-kernel theorem](paper/127-common-quadratic-homotopy-kernel.md) supplies the forced separated P correction, with residual degree-two kernel17 and full kernel21. These are not the older degree-four kernel16 or horizontal module splittings.
+
+**Residual-large** retains R=αR1. For α≠0 the exact Smith profile is 33 units, three t² and one t⁴ outside the known28-point support. The new generic three-outcome result does not determine every exceptional specialization. Earlier generic5–24 bounds are superseded, not false historical proofs.
+
+**General finite criterion:** [PR1107](paper/126-finite-sequential-obstruction.md) still tests sequential s3,…,s23 at original orders4–24, and remains relevant to nonzero-N0. These are not independent parameters. First nonzero gives rank37; allzero gives rank36 because minor order≥31 exceeds degree30. [The rational checker](paper/128-bounded-certificate-checker.md) verifies supplied identities only; all examples are synthetic, with no actual certificate or geometry authenticated.
 
 **Nonzero-N0:** R=A(R1−4R2)+B(3R1+2R2). For actual row ℓ=(ℓ0,τ) and terminal graph g, zero requires ℓ0+τg=0. Thus τ=0 forces nonzero R; otherwise its zero graph is uniquely −τ⁻¹ℓ0. Neither row nor graph is selected. [Exact channels and corrected factorization](paper/120-corrected-factorization-and-zero-graph.md)
 
@@ -43,15 +51,15 @@ Both generated modules start with dimensions **9,14,16** in degrees 2–4 and va
 - **Nonzero N0 projection:** degree five has dimension **12**, type 2T; total length **51**. Its terminal subspace may be a graph into NR5. [Separated-terminal theorem](paper/108-separated-terminal-module.md)
 - **Zero N0 projection, nonzero N8 projection:** degree five is the marked residual T, dimension **6**; total length **45**. [Residual-large theorem](paper/107-actual-residual-large-module.md)
 
-Both have socle I4 plus their terminal piece, exact resolutions and annihilator (W)⁴. Neither is the full Rao module or asserted positive-stable; neither mechanism is selected.
+Both have exact resolutions and annihilator (W)⁴. Neither is the full Rao module or asserted positive-stable.
 
 ## Excluded-branch history
 
 Earlier endpoint-nine length-32, nonzero-conic and positive Smith/maximal-row-rank implications have an **excluded antecedent**. They do not solve the surviving positive component. [Dated theorem](paper/106-positive-component-smith-profile.md)
 
-The table covers nonic and determinant-fourth D projective ideal sheaves, not raw ideals, lift degeneracy or extra specialized A-kernel classes. [Exact transfer](paper/84-pure-v-fourth-ideal-transfer.md)
+The table classifies projective component ideal sheaves, not raw ideals, lift degeneracy or extra specialized A-kernel classes. [Exact transfer](paper/84-pure-v-fourth-ideal-transfer.md)
 
-[Opposite-pencil source reports](paper/122-opposite-nonzero-core-source-report.md) now give intrinsic criteria for all seven necessary rows across the old zero/nonzero gate. No row or gate is selected; these are not im h endpoint spaces.
+[New collaborator source reports](paper/129-positive-contraction-source-reports.md) give an actual marked-incidence transgression detector and constrain positive contraction to at least two effective channels. No detector, opposite row or residual mechanism is selected; these maps are not identified with im h by character.
 
 ## Fixed source frontier
 
