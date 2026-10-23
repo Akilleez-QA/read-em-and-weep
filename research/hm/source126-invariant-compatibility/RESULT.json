@@ -1,0 +1,203 @@
+{
+  "checks": 173,
+  "nontrivial_vertex_subsets": 14,
+  "bounds": [
+    {
+      "template": "I",
+      "subset": [
+        0,
+        0,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "I",
+      "subset": [
+        0,
+        1,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "I",
+      "subset": [
+        0,
+        1,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "I",
+      "subset": [
+        1,
+        0,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "I",
+      "subset": [
+        1,
+        0,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "I",
+      "subset": [
+        1,
+        1,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "II",
+      "subset": [
+        0,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "II",
+      "subset": [
+        1,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "III",
+      "subset": [
+        0,
+        0,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "III",
+      "subset": [
+        0,
+        1,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "III",
+      "subset": [
+        0,
+        1,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "III",
+      "subset": [
+        1,
+        0,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "P": 2
+      },
+      "upper_dimension": 23
+    },
+    {
+      "template": "III",
+      "subset": [
+        1,
+        0,
+        1
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    },
+    {
+      "template": "III",
+      "subset": [
+        1,
+        1,
+        0
+      ],
+      "upper_character": {
+        "D": 3,
+        "V": 1,
+        "P": 3
+      },
+      "upper_dimension": 30
+    }
+  ],
+  "compatible_algebra": "C*1 plus J_Q, J_Q subset J, J_Q squared=0",
+  "possible_dimensions": [
+    1,
+    2,
+    3
+  ],
+  "source_labels_removed": 0,
+  "source_dual_pairs_removed": 0,
+  "scope": "universal representation and formal algebra checks only; no actual-instance evaluation"
+}
