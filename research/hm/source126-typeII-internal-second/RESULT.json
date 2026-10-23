@@ -1,0 +1,15 @@
+{
+  "actual_conclusion": "The internal second symbol is zero under full-J Type II compatibility, using the imported original third vanishing.",
+  "checks": 58,
+  "limitations": "Character and synthetic algebra checks support the proof; no actual HM instance, later symbol, or pair exclusion is computed.",
+  "naturality_kernel_dimension": 1,
+  "quadratic_equivariant_hom_dimension": 2,
+  "rank_one_source_multiplicities_for_k_minus2_through1": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "restriction_invariant_dimension": 1,
+  "status": "pass"
+}
