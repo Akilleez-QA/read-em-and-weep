@@ -1,5 +1,7 @@
 # Polar integrability and compatibility exclusions
 
+**Supersession through PR973:** under actual Type II and full-radical Q compatibility, μ is now proved zero. The nonzero-μ discriminant scheme and kernel calculations below remain valid universal results under their explicit scalar alternative, but that alternative cannot arise under these actual hypotheses. The original second symbol and actual quotient first-symbol transfer are recorded in [chapter43](43-radical-naturality-and-second-symbol.md).
+
 **Craig Ward · 23 October 2026 · Checked update through PR970**
 
 [PR970](https://github.com/Akilleez-QA/read-em-and-weep/blob/b4267159972c8999ea3cfff53fbb631008d1e482/research/hm/source126-polar-integrability/PROOF.md) strengthens the Type I and Type II joint P-row restrictions to **rank two** for every constant inclusion in the pinned balanced normal forms. This proof does not assume Q compatibility. It eliminates specific compatibility alternatives while leaving the necessary catalogue relation at **four pairs across three stable labels**.
@@ -32,7 +34,7 @@ Its spaces are U=A+2V+2P+2D, dimension 27, and Z=2V+2P+2D, dimension 24. The res
 
 The former triples (1,0,0), (1,0,1) and (1,1,0) are no longer live under full-radical compatibility. In particular, the acyclic 32→28 Type II branch is excluded. These are exclusions within a conditional footprint classification, not three additional catalogue-pair deletions.
 
-The internal first-symbol results of PR965 and PR969 still apply to the surviving P-surplus row under their explicit hypotheses. The A component is nonzero; the actual D-channel scalar μ is not selected here. Full-radical Type II compatibility itself remains unresolved. Type III is unchanged.
+The internal first-symbol results of PR965 and PR969 still apply to the surviving P-surplus row under their explicit hypotheses. The A component is nonzero; the D-channel scalar μ was not selected at this checkpoint and is now zero by PR973 under these hypotheses. Full-radical Type II compatibility itself remains unresolved. Type III is unchanged.
 
 ## 4. Evidence and boundaries
 

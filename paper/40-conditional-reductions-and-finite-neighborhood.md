@@ -1,5 +1,7 @@
 # Conditional reductions and finite-neighborhood obstruction
 
+**Source-report update through PR967:** the historical PR955 order-four/order-six alternative below is now reported resolved at normal order four. This report follows reading the full pinned source, not an independent reproof. See [chapter44](44-secondary-geometry-source-report.md).
+
 **Supersession through PR970:** full-radical Type I compatibility is now impossible; neither its historical 36→32 nor 32→28 branch remains live. Under full-radical Type II compatibility, only (2,0,0), with annihilator 27→24 and non-acyclic quotient, remains. The earlier conditional tables below are retained as dated history. See [chapter42](42-polar-integrability.md).
 
 **Craig Ward · 23 October 2026 · Update through PR961**
