@@ -1,23 +1,32 @@
-# Progress map with post burn updates
+# Current progress map and preserved burn snapshot
 
-Historical chart cutoff: PR911, 23 October 2026 04:52:27 UTC.
+**23 October 2026 · Four necessary pairs across three stable labels**
 
-Current accounting after PR917 is **three labels and 114 pairs (4 + 32 + 78)**. The 32-pair a-b-c-f source cut does not remove a label. The chart below deliberately preserves the historical burn endpoint of 146 pairs; it is not a chart of the current endpoint. From the same fixed 1,790-pair baseline, 1,676 pairs have now been removed. This is accounting within a fixed necessary relation, not a proof-completion percentage.
+The fixed campaign baseline is 17 labels and 1,790 necessary pairs. Current accounting retains three labels and four pairs: two source126, one source127 c-d-f, and one source2. Thus 14 labels and 1,786 entries of this particular relation have been removed. These are not percentages of the original proof or all possible geometric constructions.
 
-![Fixed-universe reductions](figures/spike-burn-frontier.svg)
+![Current full-scale relation and separately scaled four-pair detail](figures/current-four-pair-frontier.svg)
 
-## Three distinct measures
+The upper chart uses the complete 1,790-entry scale; the narrow retained segment has not been inflated. The lower chart is explicitly a separate four-entry zoom, not another full-universe comparison. Labels and pairs are different universes and must not be added.
 
-- **Structural pruning:** historical burn snapshot 17→3 labels and 1,790→146 pairs; current post-PR917 relation 1,790→114 pairs, with the same three labels. These finite universes are not weighted by remaining proof difficulty.
-- **Supporting formalization:** 66 distinct Lean declarations in 13 draft packages. They are not 66 actual-HM conclusions or a fraction of the original theorem.
-- **Actual completion:** physical contraction/marking/source-response construction, the decisive fourth-or-higher boundary and subsequent lifting/algebraicity remain open. No numeric completion rate is established.
+## Exact accounting timeline
 
-## Remaining dependency graph
+| Checkpoint | Labels | Necessary pairs | Interpretation |
+|---|---:|---:|---|
+| PR805 baseline | 17 | 1,790 | Fixed campaign relation |
+| PR911 burn closeout | 3 | 146 | Historical endpoint |
+| PR917 / PR919 | 3 | 114 | Whole a-b-c-f tuple excluded |
+| PR937 integration | 3 | 37 | Older source2 structure propagated into ledger |
+| PR939 plus exact composition | 3 | 6 | New c-d-f quotient corollary applied |
+| PR941 / PR942 source126 specialization | 3 | 4 | Two quotient candidates excluded |
 
-Canonical source and actual cohomology inputs → full-source membership or global-cone construction → authenticated physical rows and full ambient lower projection → compatible normalization → actual obstruction value → higher lifting/source recovery/algebraicity.
+## Historical figure retained unchanged
 
-The alternative cone construction chooses a primitive on the cone and recovers W afterward. It does not certify an unrelated supplied W or remove the ambient lower projection. Compatible W choices cannot tune the response at the proved order. Abstract nonempty families identify places where actual-source compatibility, rather than further abstract pruning alone, is needed.
+![Historical PR911 burn endpoint only](figures/spike-burn-frontier.svg)
 
-See [the status paper](../README.md), [construction detail](33-burn-physical-construction.md), and [current exact frontier](../research/proof-repair-campaign/FRONTIER-THROUGH917.md).
+This second figure ends at 146, not four. It records the burn cutoff of 23 October 2026, 04:52:27 UTC.
 
-PR918 adds a fixed-minor certificate for the global-cone factor, not an evaluated physical packet. See the [post-burn update](34-post-burn-structural-update.md) for that interface and the current source exclusion.
+## What the counts do not resolve
+
+Supporting formalization remains 66 Lean declarations in 13 draft packages, not a formal verification of the complete repair. Actual source compatibility, authenticated physical construction and normalization, the decisive higher boundary, subsequent lifting and algebraicity remain open. The original theorem is not solved.
+
+See the [source126 update](36-source126-dual-specialization.md), [six-pair addendum and certificate hash](35-six-pair-specialization.md), [root paper](../README.md), and [physical construction dependencies](33-burn-physical-construction.md).
