@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "checks": 737,
+  "exact_inputs": 3,
+  "extension_basis_cases": [
+    [
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      2,
+      6
+    ],
+    [
+      4,
+      0,
+      10
+    ],
+    [
+      4,
+      2,
+      30
+    ],
+    [
+      3,
+      4,
+      40
+    ]
+  ],
+  "scalar_coboundary_shape": [
+    30,
+    38
+  ],
+  "scalar_coboundary_rank": 30,
+  "exceptional_quotient_dimensions": [
+    32,
+    42,
+    28
+  ],
+  "every_nonzero_first_arrow_rank": 30,
+  "common_first_kernel_dimension": 0,
+  "actual_source_evaluations": 0,
+  "Q_stable_decomposition_claimed": false
+}
