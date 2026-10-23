@@ -1,0 +1,173 @@
+{
+  "schema": 1,
+  "status": "Lean source and importing axiom check passed",
+  "scope": "Supporting algebra only; no geometric realization or original theorem repair",
+  "toolchain": "leanprover/lean4:v4.34.1",
+  "lean_commit": "5045d0056413266e57c625dcd7c365b10e377c52",
+  "lean_binary_sha256": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+  "mathlib_commit": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+  "mathlib_manifest_sha256": "8f67b2cf24143ac091cdb425e886c2164b2fc2d6fbccd6db9454b697f9541a67",
+  "dependency_pins_match_repository_manifest": true,
+  "source_path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean",
+  "source_sha256": "5d600bdb6b31365e19e9fa4f9731873df33858792eaf0bb7e905af524ba77f56",
+  "check_sha256": "559245925d001216dbba891d59513381302c7976409746c063005385c5e59079",
+  "published_source_input": {
+    "commit": "3c2d80d5bbae109f810b1919fb0adbc2a1d0e392",
+    "path": "research/hm/source2-commutant-gate/PROOF.md",
+    "sha256": "316ef592bc74f29de4698e740b90ad760ef7ad6cc09777ae3d913fc69043a5d2"
+  },
+  "exported_theorem_count": 12,
+  "dependency_axiom_check_count": 4,
+  "total_axiom_check_count": 16,
+  "allowed_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "comparator_run": false,
+  "independent_second_kernel_run": false,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-equivariant",
+        "OAI.AlgebraicGeometry.HorrocksMumford.PencilCommutantEquivariant",
+        "module"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 4.154551,
+      "child_cpu_seconds": 2.506922,
+      "sampled_group_peak_rss_bytes": 895647744,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 9506,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean",
+            "sha256": "5d600bdb6b31365e19e9fa4f9731873df33858792eaf0bb7e905af524ba77f56"
+          },
+          {
+            "bytes": 232208,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/build/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.olean",
+            "sha256": "c99cacbe534c89b7fce52cb41a220210f872c2cf372c3d118498c0bb8c137b8f"
+          },
+          {
+            "bytes": 196320,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/build/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.olean.private",
+            "sha256": "a1b4f9ca66ce578d27d54804f8afd9790ac3db37aa487d3ca94fd31570606183"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "0b7ad9aac7b41821193c2ccfc5589ada42c6a26015165b6b40c9762e9be14185",
+      "original_receipt_name": "compile-0003.json",
+      "stdout": "${WORKSPACE}/work/swarm/lean-equivariant/lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean:78:21: warning: Variable name `X` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _X\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n${WORKSPACE}/work/swarm/lean-equivariant/lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.lean:93:21: warning: Variable name `F` is not explicitly referenced.\n\nHint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:\n  [apply] _F\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    },
+    {
+      "command": [
+        "python3",
+        "work/swarm/lean-runtime/run-module.py",
+        "lean-equivariant",
+        "OAI.AlgebraicGeometry.HorrocksMumford.PencilCommutantEquivariant",
+        "check"
+      ],
+      "cwd": "${WORKSPACE}",
+      "status": "success",
+      "child_returncode": 0,
+      "runtime_seconds": 1.003842958,
+      "child_cpu_seconds": 0.931055,
+      "sampled_group_peak_rss_bytes": 840941568,
+      "limits": {
+        "cpu_hard_seconds": 60,
+        "cpu_soft_seconds": 60,
+        "rss_bytes": 1610612736,
+        "sample_interval_seconds": 0.1,
+        "wall_seconds": 75.0
+      },
+      "input_hashes_unchanged": true,
+      "cleanup_complete": true,
+      "artifacts": {
+        "executable": {
+          "bytes": 118640,
+          "path": "/usr/bin/python3",
+          "sha256": "5b1ddb7e9c11b87a034fc88b212e8ac243cfe2b4db696d767aa44c79595fc09a"
+        },
+        "inputs": [
+          {
+            "bytes": 899,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/run-module.py",
+            "sha256": "ce5051e14a6d7b174195c9c949c91ea1c79e9c2ab49f9237c56da4eb48397a69"
+          },
+          {
+            "bytes": 1200,
+            "path": "${WORKSPACE}/work/swarm/lean-runtime/lean-path.txt",
+            "sha256": "7a93dfc6d5ce598755ad214d49792c947f3a8fdc4609e424266793e46715bdad"
+          },
+          {
+            "bytes": 1253,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/Check.lean",
+            "sha256": "559245925d001216dbba891d59513381302c7976409746c063005385c5e59079"
+          },
+          {
+            "bytes": 500680,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/build/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutantEquivariant.olean",
+            "sha256": "4cdf4e97930a94925c1508bf4e4ca6ad154681d67158cab445b971856c3123e7"
+          },
+          {
+            "bytes": 232208,
+            "path": "${WORKSPACE}/work/swarm/lean-equivariant/build/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.olean",
+            "sha256": "c99cacbe534c89b7fce52cb41a220210f872c2cf372c3d118498c0bb8c137b8f"
+          }
+        ],
+        "supervisor": {
+          "bytes": 13296,
+          "path": "${WORKSPACE}/work/swarm/run-control/burn_guard.py",
+          "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+        }
+      },
+      "receipt_sha256": "92deeec415efa6cbd8395e860ebb47231c63f1b4699e35fb0b05db4c06ab31be",
+      "original_receipt_name": "axioms-0002.json",
+      "stdout": "'OAI.HorrocksMumford.mem_pencilCommutant_iff' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.mem_pencilCommutant_iff_tmul' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.pencilIdentity_mem' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.pencilCompose_mem' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.tensorAction_apply' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.mem_equivariantHom_iff' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.mem_equivariantHom_iff_apply' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.mem_pencilEquivariantDomain_iff' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.mem_pencilEquivariantTarget_iff' depends on axioms: [propext, Quot.sound]\n'OAI.HorrocksMumford.tensorDefect_mem_equivariantHom' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.pencilDelta_mem_equivariantTarget' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.pencilDeltaEquivariant_apply' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.ker_pencilDeltaEquivariant' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.mem_ker_pencilDeltaEquivariant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.mem_map_ker_pencilDeltaEquivariant_iff' depends on axioms: [propext, Classical.choice, Quot.sound]\n'OAI.HorrocksMumford.mem_map_ker_pencilDeltaEquivariant_iff_tmul' depends on axioms: [propext,\n Classical.choice,\n Quot.sound]\n",
+      "stderr": "",
+      "normalization": "Host workspace prefix replaced with ${WORKSPACE}; original receipt retained and hashed."
+    }
+  ],
+  "lean_source_dependency": {
+    "commit": "634ca192ab8f64cf3d779a9194382e1458cdad7a",
+    "path": "lean/OAI/AlgebraicGeometry/HorrocksMumford/PencilCommutant.lean",
+    "sha256": "71ed8339d4ffa55cbc0a6d22e488cd1f0e411a065ede0eb938e365a30443eeda",
+    "pull_request": 879
+  }
+}
