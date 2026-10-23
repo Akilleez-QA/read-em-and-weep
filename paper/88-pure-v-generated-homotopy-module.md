@@ -8,6 +8,10 @@
 
 The [later exact dichotomy](92-pure-v-endpoint-dichotomy.md) reduces the eight necessary endpoint dimensions below to 9 or 16, with 9 iff P_h⊂NC2. Neither branch is selected. The conditional endpoint-4 antecedent in this historical proof is now excluded under its hypotheses. Its implication remains valid, but cannot be invoked here; this does not rule out original generic rank 36 or D persistence by another mechanism. The exact first two generated spaces below remain unchanged.
 
+## Further nine-branch refinement through PR1066
+
+The [later relation theorem](98-nine-branch-nonzero-relations.md) forces the P graph to be nonzero in the nine-dimensional branch, superseding its optional-zero status below. Its scalar remains unknown; neither endpoint branch is selected. The accompanying full resolution concerns only an explicit artificial truncation, not actual degree-five behavior.
+
 ## A generated module, not an abstract character match
 
 Under a nonzero Q-compatible pure-V radical, use the canonical homotopy h and only the fixed negative linear space W. Define
