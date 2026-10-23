@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "count": 30,
+  "checks": [
+    "sha256 1036",
+    "git blob 1036",
+    "sha256 1037",
+    "git blob 1037",
+    "sha256 1043",
+    "git blob 1043",
+    "sha256 1025",
+    "git blob 1025",
+    "sha256 1036-model",
+    "git blob 1036-model",
+    "determinant cokernel map",
+    "nonic degree",
+    "original-fourth determinant degree",
+    "entire reduced ten-axis basis",
+    "entire orbit colength",
+    "ordinary square length",
+    "ordinary cube length",
+    "whole orbit inclusion 0",
+    "whole orbit inclusion 1",
+    "complete first-jet coefficient identity 0",
+    "complete first-jet coefficient identity 1",
+    "complete first-jet coefficient identity 2",
+    "complete first-jet coefficient identity 3",
+    "complete first-jet coefficient identity 4",
+    "nonzero first-jet witness",
+    "whole-pencil first-jet formula",
+    "off-line exact Nakayama certificate",
+    "exceptional row belongs to ordinary square",
+    "exceptional-line exact Nakayama certificate",
+    "twists"
+  ],
+  "orbit_power_lengths": [
+    10,
+    30,
+    60
+  ],
+  "exceptional_coefficient_line": "2alpha+beta=0",
+  "C3_local_ideals": {
+    "off_line": "m",
+    "on_line": "m^2"
+  },
+  "projective_component_ideal_equality": true
+}

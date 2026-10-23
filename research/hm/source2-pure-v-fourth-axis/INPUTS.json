@@ -1,0 +1,47 @@
+[
+  {
+    "label": "1036",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "local_path": "inputs/1036.md",
+    "git_blob": "718f987511b5bf6144a85fc14e8ef343612a4491",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/PROOF.md",
+    "sha256": "f2a8368fc6abd45eb5120078b608af566539e5df70d66381acf939ac62ce81dd"
+  },
+  {
+    "label": "1037",
+    "commit": "6527465d81b7be4176ff57a0135a0a7f1ee756fd",
+    "path": "research/hm/source2-pure-v-exact-jet-lengths/PROOF.md",
+    "local_path": "inputs/1037.md",
+    "git_blob": "7fdcab9202a78e9f371c32903840969e0453c7b5",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6527465d81b7be4176ff57a0135a0a7f1ee756fd/research/hm/source2-pure-v-exact-jet-lengths/PROOF.md",
+    "sha256": "bd474f4a0d1248a07854f22627aef4acc9faaac1fbfc4e14ffd2e25f3542e688"
+  },
+  {
+    "label": "1043",
+    "commit": "97321a949be30eeddf7a2a467aa28df9f798f4ee",
+    "path": "research/hm/source2-pure-v-conic-ambient/PROOF.md",
+    "local_path": "inputs/1043.md",
+    "git_blob": "68bd6866c432983693cd1e66e313d06305187548",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/97321a949be30eeddf7a2a467aa28df9f798f4ee/research/hm/source2-pure-v-conic-ambient/PROOF.md",
+    "sha256": "f4e837a2365306caae9d8872f8fb00e5fe5304819a48e0dbe13bf548d6e1e443"
+  },
+  {
+    "label": "1025",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "local_path": "inputs/1025.md",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0"
+  },
+  {
+    "label": "1036-model",
+    "commit": "bb22e239e9423b54487236dba8c4f70f9e6b738f",
+    "path": "research/hm/source2-pure-v-lift-jet-placement/model.py",
+    "local_path": "model.py",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bb22e239e9423b54487236dba8c4f70f9e6b738f/research/hm/source2-pure-v-lift-jet-placement/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a"
+  }
+]
