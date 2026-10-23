@@ -1,0 +1,35 @@
+{
+  "checks": 30,
+  "independent_results": {
+    "I": {
+      "matrix_shape": [
+        5,
+        3
+      ],
+      "degree_two_syzygy_matrix_shape": [
+        15,
+        15
+      ],
+      "degree_two_syzygy_rank": 15,
+      "both_symbolic_chart_bezout_identities": true
+    },
+    "II": {
+      "matrix_shape": [
+        4,
+        3
+      ],
+      "degree_two_syzygy_matrix_shape": [
+        15,
+        12
+      ],
+      "degree_two_syzygy_rank": 12,
+      "both_symbolic_chart_bezout_identities": true
+    }
+  },
+  "bound_sha256": {
+    "PROOF.md": "959fb186dc1e5975c33cc879a57d08080e00f9b5abd2749e67d78663fc74c995",
+    "verify.py": "a34695c8e7c995b82aa8157abd4d6cbfd60f244b30ede882063f7084a336d72d",
+    "RESULT.json": "ab91988859615ebb813efb7195a95a8d23e509a0b0f09f86d467d7f2c21d27c8",
+    "INPUTS.json": "7c0a7b599ae0b62eac314d3962058bbd8f081c812ca8e0ff2343c76cee96b40f"
+  }
+}
