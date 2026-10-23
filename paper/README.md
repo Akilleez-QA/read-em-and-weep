@@ -1,8 +1,18 @@
-# Living research paper · v0.26
+# Living research paper · v0.27
 
-**Craig Ward · 23 October 2026 · Structural update through PR1015; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1025; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
+
+## Latest checkpoint through PR1025
+
+- [Pure-V secondary homotopy](64-pure-v-secondary-homotopy.md): under nonzero Q-compatible pure-V source2 radical, the unique rank-nine homotopy induces forced nonzero A→D multiplication of rank three in every nonzero direction. Same-direction action does not imply later original vanishing.
+- [Genuine quotient symbols](65-pure-v-quotient-symbols.md): its entire first and P second vanish. The quotient third lands globally in J=I_Z(6), admits a unique quadratic lift in exactly two equivariant channels, and vanishes iff the original fourth on surviving D vanishes. Both actual coefficients remain unselected; extra specialized A-kernels are outside this comparison, and the quotient is not equivalent to the original complex. The length-34 scheme is imported from PR1000.
+- [Full ambient symmetry boundary](66-full-ambient-symmetry-boundary.md): Decker's full ambient stabilizer theorem closes the outside-normalizer loophole. The full same-bundle, same-Q₀ group is the existing SL₂(F₅); this rules out a new ambient octic character, not the unknown scalar. The closure supersedes the initial PR1023 proof's narrower qualification.
+- [Opposite core source report](67-opposite-core-source-report.md): PR1016/1017 force actual rank-three core presentations; PR1020 detects the rank-one top obstruction by one inherited W′→S block. Seven necessary C types and the unknown actual block/vertex scalar remain.
+- [Secondary torsion source report](68-secondary-torsion-source-report.md): PR1021 gives the constant-rank V-only branch and intrinsic kernel discriminant; PR1024 completes all six coefficient strata. Actual secondary torsion is zero or twelve simple factors, without selecting which. This differs from the already zero opposite-pencil torsion.
+
+Four necessary source-dual pairs across three stable labels remain. The collaborator chapters are complete source readings, not independent reproofs. No actual realization, coefficient choice, complete repair or proof-completion percentage follows.
 
 [New structural update through PR946](37-compatibility-and-torsion.md): source126 compatible algebras have no nontrivial idempotents; the Type III radical bound drops to one; the actual opposite-pencil torsion is now zero. No additional pair or label is removed.
 
@@ -34,7 +44,7 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [Single-line symbol transfer](51-single-line-symbol-transfer.md) verifies the actual interfaces that extend the second-zero/cubic-gate construction to u=0,k=1 single-line rows. Their cubic remains unselected, unlike the full-J case; no secondary ν transfer is made. The chapter also reports PR989/991 from complete source readings.
 
-[Archived root status through PR993](52-root-status-archive-through993.md) preserves the complete previous root checkpoint narrative. The root README now gives a concise current account with direct chapter links. This is documentation organization, not mathematical progress.
+[Archived root status through PR993](52-root-status-archive-through993.md) preserves the complete previous root checkpoint narrative. The root README now gives a concise current account with direct chapter links.
 
 [Internal fourth-through-seventh vanishing and octic gate](53-internal-octic-gate.md) establishes global internal orders four through seven as zero under full-J Type II compatibility. The actual eighth symbol lies in a canonical one-dimensional line, with scalar unselected. Single-line cubic uncertainty and original all-orders generic vanishing remain distinct.
 
@@ -57,6 +67,8 @@ The original repair remains open. Exact composed accounting leaves **three label
 [The even c-d-f algebra and split alternative](63-cdf-even-algebra-and-split-alternative.md) classifies the eight-dimensional quadratic-only algebra and its scalar-or-C² invariant-compatible possibilities. The nonscalar footprint implies all-orders D persistence; extra one-sided preservation excludes that footprint. Neither actual algebra alternative is selected.
 
 ## Current reading order
+
+Start with the [root status paper](../README.md), then the new chapters [64](64-pure-v-secondary-homotopy.md), [65](65-pure-v-quotient-symbols.md), [66](66-full-ambient-symmetry-boundary.md), [67](67-opposite-core-source-report.md) and [68](68-secondary-torsion-source-report.md). The earlier dependency reading order follows.
 
 1. [Root status paper](../README.md)
 2. [Even c-d-f algebra](63-cdf-even-algebra-and-split-alternative.md)
