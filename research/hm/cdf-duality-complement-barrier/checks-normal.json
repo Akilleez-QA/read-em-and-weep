@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "checks": 46,
+  "formal_units": [
+    "t",
+    "u"
+  ],
+  "actual_instance_evaluations": 0,
+  "conclusion": "Perfect graded adjunction and scalar commutant do not force complementary preservation.",
+  "limitation": "Not an HM realization or full negative-multiplication/Bockstein model."
+}
