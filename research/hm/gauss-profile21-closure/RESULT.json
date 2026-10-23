@@ -1,0 +1,255 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_originals": 10,
+  "checks": 154,
+  "four_new_rows": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -50,
+        -42,
+        -38,
+        -38,
+        -42,
+        -50
+      ],
+      "conclusion": "equality rigidity contradiction",
+      "degree_L": -38,
+      "id": "G3.21.d610e381ed75",
+      "maximum_capacity": -38,
+      "ordinary_B": [
+        6,
+        -4,
+        -18
+      ],
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 2
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -60,
+        -50,
+        -44,
+        -42,
+        -44,
+        -50
+      ],
+      "conclusion": "strict degree contradiction",
+      "degree_L": -36,
+      "id": "G3.21.ed1df480d8d2",
+      "maximum_capacity": -42,
+      "ordinary_B": [
+        6,
+        -6,
+        -18
+      ],
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 5
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ],
+        [
+          16,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -8,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -70,
+        -58,
+        -50,
+        -46,
+        -46,
+        -50
+      ],
+      "conclusion": "strict degree contradiction",
+      "degree_L": -34,
+      "id": "G3.21.1c43993b4f83",
+      "maximum_capacity": -46,
+      "ordinary_B": [
+        6,
+        -8,
+        -18
+      ],
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 9
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          9,
+          "Wp"
+        ]
+      ],
+      "B": [
+        [
+          -11,
+          "Wp"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "capacities": [
+        -85,
+        -70,
+        -59,
+        -52,
+        -49,
+        -50
+      ],
+      "conclusion": "strict degree contradiction",
+      "degree_L": -38,
+      "id": "G3.21.d41783aef00b",
+      "maximum_capacity": -49,
+      "ordinary_B": [
+        6,
+        -11,
+        -11
+      ],
+      "original_defect": 0,
+      "profile": "21",
+      "source_commit": "f7071d29886c83151028576bf32e001c347cafc9",
+      "source_index": 10
+    }
+  ],
+  "global_rank3_exclusion": false,
+  "historical_enumeration_rerun": false,
+  "profile11_excluded": false,
+  "profile21_excluded": true,
+  "profile21_partition": {
+    "cubic_rigidity": [
+      3,
+      4,
+      6,
+      7
+    ],
+    "primary_profile_reduction": [
+      0,
+      1,
+      8,
+      11,
+      12
+    ],
+    "this_packet": [
+      2,
+      5,
+      9,
+      10
+    ]
+  },
+  "scope": "Actual maximal profile (2,1) exclusion, conditional on pinned geometric necessities and direct reductions; not COV",
+  "universal_height_pairs": [
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      2
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      10,
+      0
+    ]
+  ]
+}

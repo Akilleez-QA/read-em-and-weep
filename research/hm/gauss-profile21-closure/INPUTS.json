@@ -1,0 +1,72 @@
+[
+  {
+    "file": "inputs/profile21-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f7071d29886c83151028576bf32e001c347cafc9/research/hm/order-four-quadratic-load/TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md",
+    "git_blob_sha1": "8facada49928336b52ff084e2ed9dbe6ef96bc9e",
+    "bytes": 10300,
+    "sha256": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843"
+  },
+  {
+    "file": "inputs/frontier182.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-182.json",
+    "git_blob_sha1": "7e733f9543651b00b309cd56804ddd0a2eaef517",
+    "bytes": 38248,
+    "sha256": "d4cdaa4dfd29b185d74f7ab34978df834aa39a60d96b339f7b0043c0fc4a2792"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  {
+    "file": "inputs/ambient-gauss-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "bytes": 5414,
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+  },
+  {
+    "file": "inputs/character-reference.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/verify_negative_vertex_scalar.py",
+    "git_blob_sha1": "9eb58f03edde15dd612087440d8180e9e16d1755",
+    "bytes": 3298,
+    "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  },
+  {
+    "file": "inputs/pr1134-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7cb2e260b2bcbac15df89612b6a2096263a9c89c/research/hm/primary-gauss-profile-reduction/PROOF.md",
+    "git_blob_sha1": "5a1832a9d90071d8fb33af180756a0c82c1bea1f",
+    "bytes": 9627,
+    "sha256": "350133fbc70ad5925d7d1369d947b873c7b29118244f2283ba5b1e47eebd349a"
+  },
+  {
+    "file": "inputs/original-equality-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3349988b5c3fc82dbca0741fc1b5fe70af1c7d0d/research/hm/order-four-quadratic-load/EQUALITY-GAUSS-ENVELOPES-FORCE-RATIONAL-NORMAL-SUBBUNDLES.md",
+    "git_blob_sha1": "628ffcb0141b7eb4895f6c7817f4203f1eb78ddd",
+    "bytes": 6785,
+    "sha256": "cc64326df0b4c5d3b35a195a994f1faf397cac88ec377d608aac56b29f4fb9db"
+  },
+  {
+    "file": "inputs/original-intersection-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2348d4b6fb2afd67d66b15aad6037ab92c94f076/research/hm/order-four-quadratic-load/TWO-ONE-INDEX-TWO-CONSTANT-SPAN-INTERSECTION.md",
+    "git_blob_sha1": "ee2136206dcc8f5b526a179479f625911adac251",
+    "bytes": 5995,
+    "sha256": "f72531663c01cb681e56500f578d595355cab384c9bb96b1ea120012ff4671b7"
+  },
+  {
+    "file": "inputs/pr1135-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/24e713fe352f4ff8f70cd2e86940afa70df99c5c/research/hm/gauss-two-shape-exclusion/PROOF.md",
+    "git_blob_sha1": "ec61e817722ea5363199c1c54be275b80c9779f0",
+    "bytes": 9354,
+    "sha256": "a3c6a5ca199edd50e09268a605cee536e43a2233571e14e43e18e7c031aacdb0"
+  }
+]
