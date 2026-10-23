@@ -1,0 +1,17 @@
+{
+  "actual_source_instance_evaluated": false,
+  "assertions": 17709,
+  "formal_degree_range": [
+    0,
+    12
+  ],
+  "formal_residual_dimension_range": [
+    0,
+    5
+  ],
+  "negative_control": "basepoint-free incomplete (x^2,y^2) cannot absorb xy",
+  "passed": true,
+  "profile11_excluded": false,
+  "scope": "Universal symbolic coefficient/shear and derivative identities only",
+  "symbolic_cases": 78
+}
