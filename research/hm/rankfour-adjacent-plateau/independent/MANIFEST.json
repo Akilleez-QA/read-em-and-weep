@@ -1,0 +1,92 @@
+{
+  "author_proof_sha256": "de3bacb2f5a548637363e5a0f646123457c07dd5cbdaa3976c7a8e6c326db4eb",
+  "files": [
+    {
+      "bytes": 2057,
+      "file": "AUTHOR-RUN-OPTIMIZED.json",
+      "sha256": "8b3430cff346fc12adfad1c17a1955c17111de07fb5d83c42ac7bd01b423e31f"
+    },
+    {
+      "bytes": 2057,
+      "file": "AUTHOR-RUN.json",
+      "sha256": "8b3430cff346fc12adfad1c17a1955c17111de07fb5d83c42ac7bd01b423e31f"
+    },
+    {
+      "bytes": 303,
+      "file": "CONTROLS.json",
+      "sha256": "e0203683f64447b188b194345e5650e6ad963f6523d5d630c4caf4296c1de15d"
+    },
+    {
+      "bytes": 1420,
+      "file": "README.md",
+      "sha256": "7796c51a35589508c4ac26f3068f2794067f76d94586883f6f042678b3e6272b"
+    },
+    {
+      "bytes": 1571,
+      "file": "RESULT-OPTIMIZED.json",
+      "sha256": "02b4f400c9242254329284d222066c1566202df1cd5d083f355bbcd6e1ffbab2"
+    },
+    {
+      "bytes": 1571,
+      "file": "RESULT.json",
+      "sha256": "02b4f400c9242254329284d222066c1566202df1cd5d083f355bbcd6e1ffbab2"
+    },
+    {
+      "bytes": 8464,
+      "file": "REVIEW.md",
+      "sha256": "93bbd87d4cfa7560b18a6952eda72b5c9714fc4342c8bcccf98b71ab602be5ff"
+    },
+    {
+      "bytes": 615,
+      "file": "SOURCE-AUTH.json",
+      "sha256": "dd345efe8812fe0f6c647092f727a2bfe4e45553c3b07a5246f497f308a73829"
+    },
+    {
+      "bytes": 615,
+      "file": "author/INPUTS.json",
+      "sha256": "dd345efe8812fe0f6c647092f727a2bfe4e45553c3b07a5246f497f308a73829"
+    },
+    {
+      "bytes": 10126,
+      "file": "author/PROOF.md",
+      "sha256": "de3bacb2f5a548637363e5a0f646123457c07dd5cbdaa3976c7a8e6c326db4eb"
+    },
+    {
+      "bytes": 2057,
+      "file": "author/RESULT.json",
+      "sha256": "8b3430cff346fc12adfad1c17a1955c17111de07fb5d83c42ac7bd01b423e31f"
+    },
+    {
+      "bytes": 9672,
+      "file": "author/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 10952,
+      "file": "author/verify.py",
+      "sha256": "38f132ea39b348e2fe87d593a27077b6c7faf6f757e4d2b79fdb8763b1e13988"
+    },
+    {
+      "bytes": 1216,
+      "file": "check_package.py",
+      "sha256": "4d23961f9a38cf19575d7b6d386f356cc3fa5ab64a5030d2e74d764e40fbb89a"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 1898,
+      "file": "test_controls.py",
+      "sha256": "39dad87306368b54e198cf1fd12c625e9c2c75e3bdbaa47512fe4821702bd014"
+    },
+    {
+      "bytes": 7640,
+      "file": "verify.py",
+      "sha256": "fe0b49a5605b7aaf54ae4e6a06b00d25c1901a4e563b08af5542aa0f101da706"
+    }
+  ],
+  "scope": "Conditional exclusion of actual generic-rank-four maximal ordered plateau (2,3) only.",
+  "verdict": "PASS"
+}
