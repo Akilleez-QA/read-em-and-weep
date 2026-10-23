@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-23",
+  "status": "independently_reviewed_bounded_written_theorem_not_Lean",
+  "result": "sharp supplied corrected-source membership sector: canonical b gives27 compatibility slots; arbitrary equivariant b gives28; compatible W cohomology fibers have dimension7",
+  "preconditions": [
+    "fixed canonical Atiyah representative Z",
+    "full preceding cohomology division q[v]=a h zeta_a",
+    "coherent full polynomial equivariant closed source families",
+    "authenticated actual cohomology and full global-complex comparison",
+    "canonical correction or independently compared normalization"
+  ],
+  "dimensions": {
+    "R": 50,
+    "W_cohomology_family": 34,
+    "raw_obstruction": 30,
+    "adjustable_W_quotient_obstruction": 3,
+    "canonical_b_prescribed_W_compatibility": 27,
+    "variable_b_prescribed_W_sector": 28,
+    "compatible_W_cohomology_torsor": 7,
+    "trace_family_target": 10,
+    "conditional_linear_detector_kernel_lower_bound": 17
+  },
+  "checks": {
+    "commands": [
+      "python verify_source_membership.py",
+      "python -O verify_source_membership.py"
+    ],
+    "exact_character_multiplicity_checks": 127,
+    "negative_controls": 7,
+    "independently_replayed": true
+  },
+  "actual_HM_evaluations_performed": false,
+  "actual_primitive_constructed": false,
+  "actual_supplied_W_compatibility_certified": false,
+  "publication_by_worker": false,
+  "PR889_unchanged": true,
+  "PR866_unchanged": true,
+  "artifacts": [
+    {
+      "path": "PROOF.md",
+      "bytes": 13529,
+      "sha256": "74d801f850d281658955f7583a838c90ff49fa2f9122dea8a2391e01a71dcc0b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2541,
+      "sha256": "45cbb98f9e68459027af410d0fb7cbba19215d8e0c89f827b4304036037a9f8c"
+    },
+    {
+      "path": "REVIEW.md",
+      "bytes": 6949,
+      "sha256": "a2ff436c36d7c61e832a6acb999190db30fbc35157bfc8d53817df433d8bf72a"
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 4333,
+      "sha256": "442d709dab1e69db3fc8629765d563746f81d50a41a961419831b642db304e5f"
+    },
+    {
+      "path": "inputs/calibration889.md",
+      "bytes": 14873,
+      "sha256": "cf85d577d57f3b08369045b99599738498f0caf1fc0e45009a6d2bf227c95b22"
+    },
+    {
+      "path": "inputs/canonical_correction.md",
+      "bytes": 12572,
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab"
+    },
+    {
+      "path": "inputs/canonical_division.md",
+      "bytes": 5735,
+      "sha256": "fbe769ab1e929005377bf684940f83990156654c8e9a3675eb7e9649ed21a180"
+    },
+    {
+      "path": "inputs/central_parity.md",
+      "bytes": 17018,
+      "sha256": "7f492fa95a5858962274979b0bf6ca0f90863e44d1f6dd4d36939c977d4f2181"
+    },
+    {
+      "path": "inputs/global_complex.md",
+      "bytes": 5709,
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d"
+    },
+    {
+      "path": "inputs/q_exact.md",
+      "bytes": 2352,
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276"
+    },
+    {
+      "path": "inputs/secondary.md",
+      "bytes": 5395,
+      "sha256": "d4a63b9775362a9cd1bc7212bc646b6bafb67169e66e8fd03dd41a015d9063bd"
+    },
+    {
+      "path": "verification-optimized.log",
+      "bytes": 313,
+      "sha256": "f23c1724f02c5ab048bc5307ef19b8b1688f6ace1cb636ef14b3b4299794db54"
+    },
+    {
+      "path": "verification.log",
+      "bytes": 313,
+      "sha256": "f23c1724f02c5ab048bc5307ef19b8b1688f6ace1cb636ef14b3b4299794db54"
+    },
+    {
+      "path": "verify_source_membership.py",
+      "bytes": 7178,
+      "sha256": "c1ea8a33e60d26b0f702311380e280ea9c7dff3c8ffa9eddeb01019ead0f7ce6"
+    }
+  ]
+}

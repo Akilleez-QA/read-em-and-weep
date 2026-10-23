@@ -1,0 +1,4 @@
+PASS: 127 exact character/multiplicity checks; 7 negative controls
+PASS: raw 34 -> 30; kernel7, image27, quotient3; corrected b/W sector28
+PASS: fixed canonical b leaves 27 slots = 6 V + 9 P4 + 12 D5; compatible W fiber7
+SCOPE: universal diagnostics, not actual source evaluation, primitive construction, or Lean
