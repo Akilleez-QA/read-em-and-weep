@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "checks": 77,
+  "even_algebra_dimension": 8,
+  "radical_dimension": 4,
+  "target_bit_table": [
+    {
+      "V_bit": 0,
+      "P_bit": 0,
+      "bound_dimension": 33
+    },
+    {
+      "V_bit": 0,
+      "P_bit": 1,
+      "bound_dimension": 33
+    },
+    {
+      "V_bit": 1,
+      "P_bit": 0,
+      "bound_dimension": 30
+    },
+    {
+      "V_bit": 1,
+      "P_bit": 1,
+      "bound_dimension": 30
+    }
+  ],
+  "surviving_bits": [
+    0,
+    1
+  ],
+  "nonscalar_branch_generic_rank": 36,
+  "actual_instance_evaluations": 0,
+  "scope": "Necessary conditional alternative; occurrence and source exclusion not asserted."
+}
