@@ -1,0 +1,34 @@
+PASS: the prescribed qB completion manifest and every frozen input match [0.0s]
+PASS: all primitive CG apolar left inverses, cross-zero identities, and full tensor reconstructions: {(2, 2, 0): 1, (2, 2, 1): 1, (2, 2, 2): 3, (4, 4, 0): 1, (4, 4, 1): 1/2, (4, 4, 2): 7/12, (4, 4, 3): 5/4, (4, 4, 4): 5, (2, 6, 0): 1, (2, 6, 1): 2/3, (2, 6, 2): 7/5, (2, 4, 0): 1, (2, 4, 1): 3/4, (2, 4, 2): 5/3, (2, 0, 0): 1} [0.3s]
+PASS: all12 Cauchy pair routes are mutually biorthogonal and reconstruct Sym9; constants {'SS00_cg0_1': 9, 'SS04_cg0_D5': 3, 'SS40_cg0_D5': 3, 'SS44_cg0_P4': 451630080000, 'SS44_cg0_D5': 150543360/7, 'SS44_cg1_A': 1/2, 'SS44_cg1_P4': 1/2, 'SS44_cg2_D5': 7/12, 'SS44_cg3_V': 5/4, 'SS44_cg4_1': 5, 'AA22_cg0_P4': 406467072000, 'AA22_cg0_D5': 2167824384/49} [3.9s]
+PASS: all13 outer routes have exact mutually biorthogonal apolar inverses and full typed reconstructions [6.2s]
+PASS: all36 final templates equal the composite maps; full243-entry target biorthogonality and I3 tensor Sym9 reconstruction prove dimension135 [24.4s]
+PASS: the seven harmonic source maps are mutually split and reconstruct I25; independent trace D5 gives I30 [25.6s]
+PASS: both physical frame indices and the exact regular section are checked; all234 free B coefficients obey the complete C-factor projection identity [30.5s]
+CHECKED harmonic a2h_tv0_D5__SS04_cg0_D5_outer1_B4_D5
+CHECKED harmonic a2h_tv0_D5__SS40_cg0_D5_outer1_B4_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg0_P4_outer0_B8_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg0_D5_outer1_B4_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg1_A_outer0_B8_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg1_P4_outer0_B8_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg2_D5_outer1_B4_D5
+CHECKED harmonic a2h_tv0_D5__SS44_cg3_V_outer0_B4_D5
+CHECKED harmonic a2h_tv0_D5__AA22_cg0_P4_outer0_B8_D5
+CHECKED harmonic a2h_tv0_D5__AA22_cg0_D5_outer1_B4_D5
+CHECKED harmonic a2h_tv0_P4__SS04_cg0_D5_outer0_B6_P4
+CHECKED harmonic a2h_tv0_P4__SS40_cg0_D5_outer0_B6_P4
+CHECKED harmonic a2h_tv0_P4__SS44_cg0_P4_outer0_B8_P4
+CHECKED harmonic a2h_tv0_P4__SS44_cg0_D5_outer0_B6_P4
+CHECKED harmonic a2h_tv0_P4__SS44_cg1_A_outer0_B8_P4
+CHECKED harmonic a2h_tv0_P4__SS44_cg1_P4_outer0_B8_P4
+CHECKED harmonic a2h_tv0_P4__SS44_cg2_D5_outer0_B6_P4
+CHECKED harmonic a2h_tv0_P4__AA22_cg0_P4_outer0_B8_P4
+CHECKED harmonic a2h_tv0_P4__AA22_cg0_D5_outer0_B6_P4
+CHECKED harmonic a2h_tv1_A__SS04_cg0_D5_outer0_B6_A
+CHECKED harmonic a2h_tv1_A__SS40_cg0_D5_outer0_B6_A
+CHECKED harmonic a2h_tv1_A__SS44_cg0_P4_outer1_B6_A
+CHECKED harmonic a2h_tv1_A__SS44_cg0_D5_outer0_B6_A
+CHECKED harmonic a2h_tv1_A__SS44_cg1_P4_outer1_B6_A
+CHECKED harmonic a2h_tv1_A__SS44_cg2_D5_outer0_B6_A
+CHECKED harmonic a2h_tv1_A__AA22_cg0_P4_outer1_B6_A
+CHECKED harmonic a2h_tv1_A__AA22_cg0_D5_outer0_B6_A
