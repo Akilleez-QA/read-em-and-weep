@@ -1,0 +1,66 @@
+[
+  {
+    "local_path": "inputs/1019.md",
+    "commit": "3fb2475ffb275c5789acbaa8f9f84ed272713785",
+    "path": "research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb2475ffb275c5789acbaa8f9f84ed272713785/research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "sha256": "42bf6d6a1934410de15829108a397180bb8493fe49798fb1b7945ce0e252f682",
+    "git_blob": "bf63c14f76933d59fa7e3ac61aecb3366ac1b442"
+  },
+  {
+    "local_path": "inputs/first-zero.md",
+    "commit": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "sha256": "1ca888691a900c6eb9de65a082130ae1b106ef6261e241c33ed91668693e34d8",
+    "git_blob": "fe4410bbba05060545b22ac6bc80aac8e7c62ce4"
+  },
+  {
+    "local_path": "inputs/third-zero.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "sha256": "243e242a15ff2bb678b6c1c3cb33f203bbbed5b8bb0c23d8564e14536d9075cd",
+    "git_blob": "7c09fe95015d7c8d932b3a27be302ca09888112d"
+  },
+  {
+    "local_path": "inputs/1025.md",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7"
+  },
+  {
+    "local_path": "inputs/1044.md",
+    "commit": "bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4",
+    "path": "research/hm/source2-pure-v-complete-base-classification/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc0f7e35ed4e38fef3f8ada8234c45423f0abb4/research/hm/source2-pure-v-complete-base-classification/PROOF.md",
+    "sha256": "a68ae2b4ca0b212ab442ad252ed23d0b26c3462d2774eb826ba8d10bbd5be658",
+    "git_blob": "516408c24d036634f0e03e29350815c2442d2880"
+  },
+  {
+    "local_path": "inputs/1046.md",
+    "commit": "56c1ee605ba1886d7e837d6a686b3e8a00af1dc9",
+    "path": "research/hm/source2-pure-v-fourth-axis/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/56c1ee605ba1886d7e837d6a686b3e8a00af1dc9/research/hm/source2-pure-v-fourth-axis/PROOF.md",
+    "sha256": "99ed3b4ca07d37837874cecdca59cca18d6b6ce3387fbb4183dc92b47dcf7b86",
+    "git_blob": "018672738b8f206aef51ae163053ecad3400075a"
+  },
+  {
+    "commit": "3100c7c401e3f68eaeb08ea6088a128d612d5390",
+    "path": "research/hm/source2-pure-v-small-positive-smith/PROOF.md",
+    "git_blob": "12e4cbd71fd9f2d9320c310a533c2f30fd38bd8b",
+    "local_path": "inputs/1077.md",
+    "sha256": "dabf743d9d9b7a40f39e30695fb505d2825895f97b086fdfd8bcb4302f641f57",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3100c7c401e3f68eaeb08ea6088a128d612d5390/research/hm/source2-pure-v-small-positive-smith/PROOF.md"
+  },
+  {
+    "commit": "2ddc4b01fa96e7ce7830b093f4df5a29dafd2187",
+    "path": "research/hm/source2-pure-v-residual-conic-gate/PROOF.md",
+    "git_blob": "990fa9adedade88b951b805aed94e6a395a7d71b",
+    "local_path": "inputs/1097.md",
+    "sha256": "b162f972d89c1631aed511bd4745935306b3c021237d36a61f8ddcd6e78139f9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2ddc4b01fa96e7ce7830b093f4df5a29dafd2187/research/hm/source2-pure-v-residual-conic-gate/PROOF.md"
+  }
+]
