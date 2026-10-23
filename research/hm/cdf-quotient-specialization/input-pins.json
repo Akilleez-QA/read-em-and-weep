@@ -1,0 +1,37 @@
+{
+  "proof": {
+    "file": "inputs/normal-form.md",
+    "git_blob": "718b5245560a84568492874bab8d8c34730e8319",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1528ff8ea56b21e03f7501a962bdaa6728a75904/research/hm/profile11-source127-cdf-normal-form/PROOF.md",
+    "sha256": "5cc83c225a03ba670b7859d1a64aec161611ec9cc35fffe79479fdd5b7dadf62",
+    "bytes": 20293
+  },
+  "dual": {
+    "file": "inputs/dual.json",
+    "git_blob": "e411417c9a61677df55e07f0aff15fbea4c9ec69",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/unrestricted-dual-splittings-and-pairs.json",
+    "sha256": "9aac29c629b7eb7d2e507eb663571221626a435b995809f05ecad627db126fab",
+    "bytes": 121304
+  },
+  "frontier": {
+    "file": "inputs/frontier.json",
+    "git_blob": "2624794cc236aef8a5d9c8d427b60896f65da312",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e1fdea58bed32ec552b003dbfb097e60d410f1f7/research/proof-repair-campaign/frontier-source-through917.json",
+    "sha256": "486c673e7ddb1c0b427f4a819abd1b4854d775d1bbc1a90a3859574cd6995496",
+    "bytes": 25804
+  },
+  "catalog": {
+    "file": "inputs/catalog.json",
+    "git_blob": "605094dfdb6968a78f2a57c110a41586a8e79939",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e1fdea58bed32ec552b003dbfb097e60d410f1f7/research/proof-repair-campaign/inputs/pr796-same-source-witness-intersection.json",
+    "sha256": "7c085250359b5445e8ef8da3f35763d495d5319660ca34c63aaf447078658bd5",
+    "bytes": 241365
+  },
+  "original": {
+    "file": "inputs/original.json",
+    "git_blob": "fe0afa410d89340d3082dc814277f89fbb582c19",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/one-one-endpoint-necessary-pairs.json",
+    "sha256": "6002ad138a41d98c351130a29703722979f31b8da90d7c75a120f28bf89480eb",
+    "bytes": 58635
+  }
+}
