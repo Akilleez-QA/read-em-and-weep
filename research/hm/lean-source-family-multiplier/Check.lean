@@ -1,0 +1,10 @@
+module
+
+public import OAI.AlgebraicGeometry.HorrocksMumford.SourceFamilyMultiplier
+
+set_option autoImplicit false
+
+#print axioms OAI.HorrocksMumford.sourceFamilyObservation_apply
+#print axioms OAI.HorrocksMumford.sourceFamilyObservation_mem_homogeneous16
+#print axioms OAI.HorrocksMumford.sourceFamilyObservation_injective
+#print axioms OAI.HorrocksMumford.weighted_sourceFamilyObservation_injective
