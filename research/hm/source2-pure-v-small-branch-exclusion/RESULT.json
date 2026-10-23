@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "count": 24,
+  "checks": [
+    "sha256 1068",
+    "git blob 1068",
+    "sha256 1054",
+    "git blob 1054",
+    "sha256 1072",
+    "git blob 1072",
+    "sha256 1059",
+    "git blob 1059",
+    "sha256 1065",
+    "git blob 1065",
+    "actual quotient character NC3/F3",
+    "actual middle dimensions",
+    "no S map into full degree5 negative target",
+    "full degree5 negative target dimension",
+    "genuine terminal decomposition",
+    "unique V in actual NC2",
+    "V disjoint from Q kernel in NC2",
+    "V absent from full joint-negative kernel",
+    "actual quadratic image dimension",
+    "endpoint alternatives after contradiction",
+    "actual Q preserves negative source parity",
+    "commuting arrows have same negative target parity",
+    "literal invariant-quadratic polynomial commutation",
+    "joint kernel determinant convention invertible"
+  ],
+  "excluded_generated_endpoint": 9,
+  "necessary_generated_endpoint": 16,
+  "scope": "conditional actual source2 pure-V hypotheses; neither endpoint16 mechanism nor source realization selected"
+}
