@@ -1,0 +1,56 @@
+[
+  {
+    "key": "SUMMANDS",
+    "ref": "45a10097b677e22cf5ec782cecf8f0ce7ed76653",
+    "path": "research/hm/ninth-forced-summands/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/45a10097b677e22cf5ec782cecf8f0ce7ed76653/research/hm/ninth-forced-summands/PROOF.md",
+    "bytes": 9832,
+    "sha256": "b3ced6cbbf52d9f1e059ba9f5358dfd09e66ce09697432340e8fc5f157bd3bdf",
+    "blob": "99485359414b019ddd2b853d2e3d267834cdb3f5"
+  },
+  {
+    "key": "FINITE",
+    "ref": "2f3eb11a6f55582e17f56c8bc9b310db9a37424d",
+    "path": "research/hm/ninth-neighborhood-rank/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f3eb11a6f55582e17f56c8bc9b310db9a37424d/research/hm/ninth-neighborhood-rank/PROOF.md",
+    "bytes": 9126,
+    "sha256": "24ccacc3e8da0c6cb8e9fdc73bc07c92e6f50bdeb36ee7e0cca1af22e8415c2f",
+    "blob": "1bd120e8ff07143d4f65d307f820c252daa18082"
+  },
+  {
+    "key": "OPPOSITE",
+    "ref": "48727e1f5fd5ab079c21b8b39af608f7d91fabab",
+    "path": "research/hm/opposite-ample-exclusion/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/48727e1f5fd5ab079c21b8b39af608f7d91fabab/research/hm/opposite-ample-exclusion/PROOF.md",
+    "bytes": 10865,
+    "sha256": "f48000f35baca29dc049cefb628c58902739b5e5a69d71e858817c33f94425f8",
+    "blob": "3f68598d395b2672462e5529994e4f7788be2f94"
+  },
+  {
+    "key": "TAIL",
+    "ref": "3aa461bc3581fb72fbf923fbe869ddee023b435a",
+    "path": "research/hm/five-generator-module/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3aa461bc3581fb72fbf923fbe869ddee023b435a/research/hm/five-generator-module/PROOF.md",
+    "bytes": 8920,
+    "sha256": "e05d41c601aac6d89b427b4ed036e8b83a400375a53504d96a605d35646143e6",
+    "blob": "3d308f6fbdb5c224a085b41eec26e917a6031692"
+  },
+  {
+    "key": "POLAR",
+    "ref": "13d0e53e0a64ec6935a2ca83af776942e201c4e9",
+    "path": "research/hm/exceptional-polar-obstruction/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/13d0e53e0a64ec6935a2ca83af776942e201c4e9/research/hm/exceptional-polar-obstruction/PROOF.md",
+    "bytes": 13070,
+    "sha256": "03f7909a73ebe2cd2ff7c8639f3bea3384741058297156f51f38b2b6094354e6",
+    "blob": "d8e950886eee0bc7fc3844b85301b55edb449450"
+  },
+  {
+    "key": "TWIST",
+    "ref": "8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4",
+    "path": "research/hm/twist-one-structural-vanishing/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8cbbe482ee50c35d52ffcdf3efb837fa8cf96af4/research/hm/twist-one-structural-vanishing/PROOF.md",
+    "bytes": 8657,
+    "sha256": "baabea589839f5b8ceba93f9e458b794fb66690384540cbd7746f621a723fa19",
+    "blob": "2881e6e4fdd1ff4fd3c1e909b00bd1a8a962a099"
+  }
+]
