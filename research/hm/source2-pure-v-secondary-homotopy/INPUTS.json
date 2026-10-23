@@ -1,0 +1,42 @@
+[
+  {
+    "local_path": "inputs/792.md",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md"
+  },
+  {
+    "local_path": "inputs/950.md",
+    "commit": "54c7e78bd5351b3ecbdcc4b3b558a0012eb79566",
+    "path": "research/hm/source2-radical-image-reduction/PROOF.md",
+    "sha256": "d86b7ebf11aa7684a522f408a641b2a0d74c239d521ef9bf829815ae58551fb4",
+    "git_blob": "da574749b93a49264aa52ec2fd8d5a04c4cce214",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/54c7e78bd5351b3ecbdcc4b3b558a0012eb79566/research/hm/source2-radical-image-reduction/PROOF.md"
+  },
+  {
+    "local_path": "inputs/949.md",
+    "commit": "e8d9943ed8402be90a6f249a1ad3dd51dcc3c628",
+    "path": "research/hm/source2-invariant-compatibility/PROOF.md",
+    "git_blob": "a3649e031f4c4eee180d2b3850091223d6d2dc7a",
+    "sha256": "5cf4b0e0a14d5c072252ec55b5e308693bd5446b630baa96c7ed8fe56c077102",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e8d9943ed8402be90a6f249a1ad3dd51dcc3c628/research/hm/source2-invariant-compatibility/PROOF.md"
+  },
+  {
+    "local_path": "inputs/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "commit": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "sha256": "1ca888691a900c6eb9de65a082130ae1b106ef6261e241c33ed91668693e34d8",
+    "git_blob": "fe4410bbba05060545b22ac6bc80aac8e7c62ce4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md"
+  },
+  {
+    "local_path": "inputs/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md",
+    "sha256": "364648ec61bc5f71f5891353a65a148c3f05093872f85466118dc047d67f693c",
+    "git_blob": "21c7af094d7088f38ab0ee8fc25b01952ea13d11",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md"
+  }
+]
