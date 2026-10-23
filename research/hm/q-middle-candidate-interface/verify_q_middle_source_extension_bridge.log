@@ -1,0 +1,2 @@
+PASS: all234 free qB coefficients pass the actual-q0 C-source extension, including its high/low reconstruction identities and all off-image errors.
+PASS: literal complete residual+q0*Vactual=all source errors, including Pc/y ends, exterior-closure defects and exact high-spin/low-tail coupling.

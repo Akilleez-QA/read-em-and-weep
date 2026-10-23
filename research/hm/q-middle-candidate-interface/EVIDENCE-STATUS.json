@@ -1,0 +1,134 @@
+{
+  "scope": "log text compared to current source terminal reports; not process-exit certification",
+  "missing_receipt": "verify-sparse-q-middle-source-adapter-receipt.json",
+  "logs": [
+    {
+      "path": "audit-q-middle-full-source-independent/verify_q_middle_boundary_and_quotient_independent.log",
+      "bytes": 477,
+      "sha256": "13e5092847af09bc8d9e6a65c03e2f02d80e7855a072e4d9b372e5314791cb26",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "PASS: all frozen manifests still match.",
+      "new_execution": false
+    },
+    {
+      "path": "audit-q-middle-full-source-independent/verify_q_middle_full_source_independent.log",
+      "bytes": 546,
+      "sha256": "eb50e168bd997256828a5e3a1d65c991fef77f445432aa97a7f958eb9c6cc653",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "PASS 339.3s: all frozen files unchanged",
+      "new_execution": false
+    },
+    {
+      "path": "graded-leg-module/conic_kernel_lifting.log",
+      "bytes": 653,
+      "sha256": "0917db5f83d682f8cca0f94595e5bf32d3d825cb7bc6d1e2a30ce42259ef667f",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "ALL CHECKS PASSED: no points, numerical assignments, ranks, or coefficient solve",
+      "new_execution": false
+    },
+    {
+      "path": "graded-leg-module/verify_symmetric_kernel_saturation.log",
+      "bytes": 710,
+      "sha256": "f734f286f85a75210384540f60017fa40e4b2af44bddcecb241fa81d689ffa5f",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "ALL CHECKS PASSED (symbolic identities only; no specialization or rank experiment)",
+      "new_execution": false
+    },
+    {
+      "path": "verify_graded_c_orthogonal_module.log",
+      "bytes": 3101,
+      "sha256": "3309e6b83ddfb41eb74ce2c3e4cadc44f4dae18c9aae5955a5e79cbc208de0d0",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "PASS: formal lower cubic quotient character 2A+2V+2P4+2D5, with 12 harmonic and 2 trace maps. This is not physical completed-middle independence.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_cubic_actual_leg_bridge.log",
+      "bytes": 552,
+      "sha256": "6453f1b8c5de13f81509bc680b6bcb5a018f47583968e6d852b3cd29b314292f",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "This is a lower-middle identity only; existing N, divided arrow, C,C anomaly and actual higher companions are neither deleted nor identified with another completion.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_cubic_kernel_lift.log",
+      "bytes": 834,
+      "sha256": "385edaad60986b105cb7054097161dbd0acc44392762d6508fabe98e43050a29",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "No points, actual coefficient/marking assignments, instance ranks, broad family solve, frozen edits, or external writes.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_C_interface.log",
+      "bytes": 597,
+      "sha256": "cc553988aa85dd8dd15ae4c530664597dc083fc954cc491a9f550686580c1429",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "The source/division interface is available; source extension errors are returned, not solved. No actual coefficients, points, ranks, frozen edits or external writes.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_C_source_factor.log",
+      "bytes": 470,
+      "sha256": "11d039ea549d21665f390d580e7cc8313fc9b3fdaeaca0db8eddb4675b2f6e13",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "The complete qB family may therefore descend from12 to the nine-dimensional mixed quotient by constant C sources, modulo the actual full-source homotopy with its endpoints.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_completion_transport.log",
+      "bytes": 769,
+      "sha256": "1050e5bc61634c44691ec37e4fa6e6b97fa89e46a1c962fdf7239a10efe23c8b",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "PASS: exported qB completion balances both entire U columns with all234 symmetric-linear middle coefficients free.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_quotient_boundary.log",
+      "bytes": 737,
+      "sha256": "174b6d20ff121ead2f6f3848fc191e381127ca222d007419e41787a9c9b0e05d",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "No source columns, actual-instance system, source solve, lower-only quotient, equivariant section, or obstruction conclusion is used.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_quotient_coefficients.log",
+      "bytes": 2754,
+      "sha256": "c6f9186df81b8a9d199987becd0e9e3329d3e72d71d66955ecd45963fe1c6ba1",
+      "status": "partial; expected terminal report absent",
+      "last_line": "CHECKED harmonic a2h_tv1_A__AA22_cg0_D5_outer0_B6_A",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_source_extension_bridge.log",
+      "bytes": 295,
+      "sha256": "cc9e9275f8daa6c5fa9894f230f9818255c8a95e4a5fa67deece5c303df06479",
+      "status": "partial; expected terminal report absent",
+      "last_line": "PASS: literal complete residual+q0*Vactual=all source errors, including Pc/y ends, exterior-closure defects and exact high-spin/low-tail coupling.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_q_middle_source_extension_polar_bridge.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "empty; no completion evidence",
+      "last_line": null,
+      "new_execution": false
+    },
+    {
+      "path": "verify_sparse_q_full_cochain_external_duality.log",
+      "bytes": 384,
+      "sha256": "e837726c51e43f48e16b3403fd2a602febc7751083ab4a98676f027b947d36f5",
+      "status": "terminal expected report present; inherited log only, no exit receipt",
+      "last_line": "PASS: nonzero right-endpoint trace retained before projection; no source constructor, source solve, coefficient values, point or rank test.",
+      "new_execution": false
+    },
+    {
+      "path": "verify_sparse_q_middle_source_adapter.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "empty; no completion evidence",
+      "last_line": null,
+      "new_execution": false
+    }
+  ]
+}

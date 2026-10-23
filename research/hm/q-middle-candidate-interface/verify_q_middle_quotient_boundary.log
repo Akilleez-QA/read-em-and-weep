@@ -1,0 +1,5 @@
+PASS: literal homogeneous partners give exact differential matrices; all12 q-column partners and all C-source annihilations checked [2.8s]
+PASS: all234 free physical B coefficients: entire18x18 prescribed completion difference equals the explicit C-source factor, including both higher weights and every derivative [13.4s]
+PASS: public completed_C_factor_boundary keeps the required half, q0 scaling, full derivative partners, and nonzero1/cm [13.5s]
+PASS: both full source ends P=h alpha and Pd=beta hd=-P^t are exact; both chain residuals are displayed multiples of beta alpha before isotropy [13.7s]
+No source columns, actual-instance system, source solve, lower-only quotient, equivariant section, or obstruction conclusion is used.

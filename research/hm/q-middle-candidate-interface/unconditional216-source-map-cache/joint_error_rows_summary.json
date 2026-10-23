@@ -1,0 +1,397 @@
+{
+  "QQ_row_descent": "not attempted",
+  "affine_column": 0,
+  "assembler_sha256": "55459ce51bd1ee6f57638ebe906febb5ab7f3342b9d40346315ca013f2379c8e",
+  "checks": {
+    "complete216_plus_affine_coverage": true,
+    "exact_inverse_regrouping_every_error_coefficient": true,
+    "marking_field_coefficients_unsplit": true
+  },
+  "coefficient_field": "QQ(FB,FC,FD,theta)",
+  "columns": [
+    "affine_base",
+    "generator_000",
+    "generator_001",
+    "generator_002",
+    "generator_003",
+    "generator_004",
+    "generator_005",
+    "generator_006",
+    "generator_007",
+    "generator_008",
+    "generator_018",
+    "generator_019",
+    "generator_020",
+    "generator_021",
+    "generator_022",
+    "generator_023",
+    "generator_024",
+    "generator_025",
+    "generator_026",
+    "generator_027",
+    "generator_028",
+    "generator_029",
+    "generator_030",
+    "generator_031",
+    "generator_032",
+    "generator_033",
+    "generator_034",
+    "generator_035",
+    "generator_036",
+    "generator_037",
+    "generator_038",
+    "generator_039",
+    "generator_040",
+    "generator_041",
+    "generator_042",
+    "generator_043",
+    "generator_044",
+    "generator_045",
+    "generator_046",
+    "generator_047",
+    "generator_048",
+    "generator_049",
+    "generator_050",
+    "generator_051",
+    "generator_052",
+    "generator_053",
+    "generator_054",
+    "generator_056",
+    "generator_057",
+    "generator_058",
+    "generator_059",
+    "generator_060",
+    "generator_061",
+    "generator_062",
+    "generator_063",
+    "generator_064",
+    "generator_065",
+    "generator_066",
+    "generator_067",
+    "generator_068",
+    "generator_069",
+    "generator_070",
+    "generator_071",
+    "generator_072",
+    "generator_073",
+    "generator_074",
+    "generator_075",
+    "generator_076",
+    "generator_077",
+    "generator_078",
+    "generator_079",
+    "generator_080",
+    "generator_081",
+    "generator_082",
+    "generator_083",
+    "generator_084",
+    "generator_085",
+    "generator_086",
+    "generator_087",
+    "generator_088",
+    "generator_089",
+    "generator_090",
+    "generator_118",
+    "generator_119",
+    "generator_120",
+    "generator_121",
+    "generator_122",
+    "generator_123",
+    "generator_124",
+    "generator_125",
+    "generator_126",
+    "generator_127",
+    "generator_128",
+    "generator_129",
+    "generator_130",
+    "generator_131",
+    "generator_132",
+    "generator_133",
+    "generator_134",
+    "generator_135",
+    "generator_136",
+    "generator_137",
+    "generator_138",
+    "generator_139",
+    "generator_140",
+    "generator_141",
+    "generator_142",
+    "generator_143",
+    "generator_144",
+    "generator_145",
+    "generator_146",
+    "generator_147",
+    "generator_148",
+    "generator_149",
+    "generator_150",
+    "generator_151",
+    "generator_152",
+    "generator_153",
+    "generator_154",
+    "generator_155",
+    "generator_156",
+    "generator_157",
+    "generator_158",
+    "generator_159",
+    "generator_160",
+    "generator_161",
+    "generator_162",
+    "generator_163",
+    "generator_164",
+    "generator_165",
+    "generator_166",
+    "generator_167",
+    "generator_168",
+    "generator_169",
+    "generator_170",
+    "generator_171",
+    "generator_172",
+    "generator_173",
+    "generator_174",
+    "generator_175",
+    "generator_176",
+    "generator_177",
+    "generator_178",
+    "generator_179",
+    "generator_180",
+    "generator_181",
+    "generator_182",
+    "generator_183",
+    "generator_184",
+    "generator_185",
+    "generator_186",
+    "generator_187",
+    "generator_188",
+    "generator_189",
+    "generator_190",
+    "generator_191",
+    "generator_192",
+    "generator_193",
+    "generator_194",
+    "generator_195",
+    "generator_196",
+    "generator_197",
+    "generator_198",
+    "generator_199",
+    "generator_200",
+    "generator_201",
+    "generator_202",
+    "generator_203",
+    "generator_204",
+    "generator_205",
+    "generator_206",
+    "generator_207",
+    "generator_208",
+    "generator_209",
+    "generator_210",
+    "generator_211",
+    "generator_212",
+    "generator_213",
+    "generator_214",
+    "generator_215",
+    "generator_216",
+    "generator_217",
+    "generator_218",
+    "generator_219",
+    "generator_220",
+    "generator_221",
+    "generator_222",
+    "generator_223",
+    "generator_224",
+    "generator_225",
+    "generator_226",
+    "generator_227",
+    "generator_228",
+    "generator_229",
+    "generator_230",
+    "generator_231",
+    "generator_238",
+    "generator_239",
+    "generator_240",
+    "generator_241",
+    "generator_242",
+    "generator_243",
+    "generator_244",
+    "generator_245",
+    "generator_246",
+    "generator_247",
+    "generator_248",
+    "generator_249",
+    "generator_250",
+    "generator_251",
+    "generator_252",
+    "generator_253",
+    "generator_254",
+    "generator_255",
+    "generator_256",
+    "generator_257",
+    "generator_258"
+  ],
+  "coverage_sha256": "aea37ac8ebd2f6f357e0ef4aa3e6c709b3f6be5e774c6c4370d2c2e6517b5229",
+  "elapsed_seconds": 78.67785835266113,
+  "error_schemas": {
+    "Berror_U0": {
+      "kind": "spinor_form"
+    },
+    "Berror_U1": {
+      "kind": "spinor_form"
+    },
+    "K0_Berror_U0": {
+      "kind": "spinor_form"
+    },
+    "K0_Berror_U1": {
+      "kind": "spinor_form"
+    },
+    "LC": {
+      "kind": "matrix",
+      "shape": [
+        4,
+        3
+      ]
+    },
+    "Lharm_C0": {
+      "kind": "matrix",
+      "shape": [
+        6,
+        1
+      ]
+    },
+    "Lharm_C1": {
+      "kind": "matrix",
+      "shape": [
+        6,
+        1
+      ]
+    },
+    "Lharm_C2": {
+      "kind": "matrix",
+      "shape": [
+        6,
+        1
+      ]
+    },
+    "Uerror_U0": {
+      "kind": "spinor_form"
+    },
+    "Uerror_U1": {
+      "kind": "spinor_form"
+    },
+    "Ylow": {
+      "kind": "matrix",
+      "shape": [
+        6,
+        3
+      ]
+    },
+    "cartan_error": {
+      "kind": "matrix",
+      "shape": [
+        2,
+        2
+      ]
+    },
+    "high_full_remainder_C0": {
+      "kind": "spinor_form"
+    },
+    "high_full_remainder_C1": {
+      "kind": "spinor_form"
+    },
+    "high_full_remainder_C2": {
+      "kind": "spinor_form"
+    },
+    "high_spin_C0": {
+      "kind": "matrix",
+      "shape": [
+        2,
+        1
+      ]
+    },
+    "high_spin_C1": {
+      "kind": "matrix",
+      "shape": [
+        2,
+        1
+      ]
+    },
+    "high_spin_C2": {
+      "kind": "matrix",
+      "shape": [
+        2,
+        1
+      ]
+    },
+    "low_literal_C0": {
+      "kind": "spinor_form"
+    },
+    "low_literal_C1": {
+      "kind": "spinor_form"
+    },
+    "low_literal_C2": {
+      "kind": "spinor_form"
+    },
+    "low_polar": {
+      "kind": "matrix",
+      "shape": [
+        4,
+        3
+      ]
+    },
+    "principal_spin": {
+      "kind": "matrix",
+      "shape": [
+        2,
+        2
+      ]
+    },
+    "sigma_harmonic_C0": {
+      "kind": "matrix",
+      "shape": [
+        1,
+        1
+      ]
+    },
+    "sigma_harmonic_C1": {
+      "kind": "matrix",
+      "shape": [
+        1,
+        1
+      ]
+    },
+    "sigma_harmonic_C2": {
+      "kind": "matrix",
+      "shape": [
+        1,
+        1
+      ]
+    }
+  },
+  "marking_monomial_count": 2933346,
+  "marking_variables": [
+    "FB",
+    "FC",
+    "FD",
+    "theta"
+  ],
+  "nonzero_column_entries": 2933346,
+  "polynomial_variables": [
+    "x",
+    "y",
+    "z",
+    "u",
+    "w",
+    "ha",
+    "hb",
+    "hc",
+    "hd",
+    "hf",
+    "h",
+    "k",
+    "l"
+  ],
+  "rank_tests": "not run",
+  "row_count": 21500,
+  "schema": "unconditional216-complete-affine-error-rows-v1",
+  "scope": "Exact sufficient joint error map only; no converse, source solution, division, or fourth value asserted.",
+  "sha256": "205a4cdcf0cc79bbbdbe034e68d147e7ba90504799871f90fd86f095fcf66858",
+  "solve": "not run"
+}

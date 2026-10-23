@@ -1,0 +1,15 @@
+PASS: physical constant pairing split D R=I, D C=0, Zeta C=I, R D+C Zeta=I over Q[FB±1,FC±1,FD±1].
+PASS: all nine independent formal RHS coefficients solved using Laurent-unit pivots; no marking values assigned.
+PASS: Koszul contracting identities on complete monomial spans; exact all-degree proof supplied by the Euler anticommutator.
+PASS: all-degree constructive source decomposition retains C, A and the five D5 coefficients; arbitrary free coefficient checks through cubic degree.
+P determinant = 2*mixed_FB**4*mixed_FC**3*mixed_FD**2/9
+Three exact D5 relation columns = Matrix([[z/mixed_FB, 0, -3*x/mixed_FD], [x/(6*mixed_FB), -mixed_FC*y/(2*mixed_FB*mixed_FD), 0], [0, -z/mixed_FC, 0], [-y/mixed_FB, 0, 3*z/mixed_FD], [0, -3*x/mixed_FC, -9*y/mixed_FD]])
+PASS: exact relation Y Rel = -Acoeff H+C Zeta Acoeff H. Its injectivity follows from M(v)^2=(xy+z^2)I and Koszul exactness.
+PASS: ten formal exterior-cube polynomials have Laurent-unit span equal to every positive cubic. Fitting ideal=(x,y,z)^3, giving the projective subbundle certificate without points or ranks.
+Full-U relation 0 sigma= Matrix([[w*y/mixed_FB + mixed_FD*u*x/(6*mixed_FB*mixed_FC)], [2*mixed_FD*u*z/(9*mixed_FB*mixed_FC)]]) Cshift= Matrix([[-2*mixed_FD*y*z/(9*mixed_FB**2*mixed_FC)], [mixed_FD*x**2/(12*mixed_FB*mixed_FC**2)], [-(9*x*y + 8*z**2)/(24*mixed_FB*mixed_FC)]]) Wcoeff= Matrix([[mixed_FD*u*z/(3*mixed_FB*mixed_FC)], [-mixed_FD*u*y/(3*mixed_FB*mixed_FC)], [-w*z/mixed_FB], [mixed_FD*u*x/(3*mixed_FB*mixed_FC)], [-(-3*mixed_FC*w*y + mixed_FD*u*x)/(3*mixed_FB*mixed_FC)], [0]]) W*C= Matrix([[-2*u*w*z], [w**2*z - mixed_FD*u**2*y/(3*mixed_FB)], [2*mixed_FD*u*w*y/(3*mixed_FB) - 2*mixed_FD**2*u**2*x/(9*mixed_FB*mixed_FC)]])
+Full-U relation 1 sigma= Matrix([[u*y/(2*mixed_FB)], [2*w*x/mixed_FC]]) Cshift= Matrix([[mixed_FD*x**2/(6*mixed_FB*mixed_FC**2)], [5*x*y/(4*mixed_FB*mixed_FC)], [-3*y**2/(8*mixed_FB*mixed_FD)]]) Wcoeff= Matrix([[0], [2*w*z/mixed_FC], [-2*u*z/mixed_FB], [0], [2*u*y/mixed_FB], [-2*w*x/mixed_FC]]) W*C= Matrix([[6*mixed_FB*w**2*x/mixed_FD - 2*u**2*z], [4*u*w*z], [-2*w**2*z + 2*mixed_FD*u**2*y/(3*mixed_FB)]])
+Full-U relation 2 sigma= Matrix([[0], [3*w*y/mixed_FD + u*x/(3*mixed_FC)]]) Cshift= Matrix([[x*y/(6*mixed_FB*mixed_FC)], [3*y**2/(2*mixed_FB*mixed_FD)], [-x*z/(2*mixed_FC*mixed_FD)]]) Wcoeff= Matrix([[-3*w*y/mixed_FD], [u*z/mixed_FC], [3*w*x/mixed_FD], [3*w*z/mixed_FD], [0], [-(3*mixed_FC*w*y + mixed_FD*u*x)/(mixed_FC*mixed_FD)]]) W*C= Matrix([[18*mixed_FB*mixed_FC*w**2*y/mixed_FD**2 + 6*mixed_FB*u*w*x/mixed_FD], [-3*mixed_FB*w**2*x/mixed_FD + u**2*z], [-2*u*w*z]])
+PASS: L Rel=C(zeta)+alpha_U(sigma)/am-(bm/am)W, with W*A=W*B=0 and W*C nonzero, in complete exterior forms. No higher-weight remainder discarded.
+These W remainders are NOT claimed independent beyond the retained completed D5-square family.
+No actual physical/source/marking values, points, instance ranks, broad family solve, frozen edit, or external write used.
+PASS: formal lower cubic quotient character 2A+2V+2P4+2D5, with 12 harmonic and 2 trace maps. This is not physical completed-middle independence.

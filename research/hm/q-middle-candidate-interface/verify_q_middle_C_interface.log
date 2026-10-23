@@ -1,0 +1,4 @@
+PASS: all234 free coefficients have exact zero-WW D3 after subtracting the canonical q full-U quotient; the VWW-to-mixed Koszul conversion is literal.
+PASS: exact complete C residual with all am,bm,cm,kAt factors and all234 coefficients; canonical N and D3+kappa*G5 both annihilate the entire U arrow.
+PASS: C,C skew defect of D3+kappa*G5 is q*(ZN_C-ZN_C^t), canceled exactly by q/kappa*N; no separate cochain closure is asserted.
+The source/division interface is available; source extension errors are returned, not solved. No actual coefficients, points, ranks, frozen edits or external writes.
