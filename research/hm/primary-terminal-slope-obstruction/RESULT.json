@@ -1,0 +1,164 @@
+{
+  "actual_instance_evaluation": false,
+  "canonical_conclusion": "primary terminal Wp+T embeds in canonical R3",
+  "checks": 150,
+  "full_goal_solved": false,
+  "incompatible_specified_types": [
+    {
+      "R3_T": 0,
+      "R3_Wp": 0,
+      "label": "E10"
+    },
+    {
+      "R3_T": 1,
+      "R3_Wp": 0,
+      "label": "E13"
+    },
+    {
+      "R3_T": 0,
+      "R3_Wp": 0,
+      "label": "E14"
+    }
+  ],
+  "input_count": 6,
+  "rank_three_coverage_proved_here": false,
+  "remaining_formal_types": [
+    {
+      "R3_dimension": 14,
+      "blocks": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "coefficients": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "R3_dimension": 8,
+      "blocks": [
+        [
+          -2,
+          "V"
+        ],
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "coefficients": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "R3_dimension": 8,
+      "blocks": [
+        [
+          -2,
+          "P"
+        ],
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -5,
+          "Wp"
+        ]
+      ],
+      "coefficients": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "R3_dimension": 8,
+      "blocks": [
+        [
+          -2,
+          "D"
+        ],
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -8,
+          "1"
+        ]
+      ],
+      "coefficients": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "status": "PASS"
+}
