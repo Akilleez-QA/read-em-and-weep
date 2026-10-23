@@ -1,0 +1,56 @@
+[
+  {
+    "local_path": "inputs/1019.md",
+    "commit": "3fb2475ffb275c5789acbaa8f9f84ed272713785",
+    "path": "research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb2475ffb275c5789acbaa8f9f84ed272713785/research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "sha256": "42bf6d6a1934410de15829108a397180bb8493fe49798fb1b7945ce0e252f682",
+    "git_blob": "bf63c14f76933d59fa7e3ac61aecb3366ac1b442",
+    "label": "1019"
+  },
+  {
+    "local_path": "inputs/third-zero.md",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-THIRD-BOCKSTEIN-VANISHES-IDENTICALLY.md",
+    "sha256": "243e242a15ff2bb678b6c1c3cb33f203bbbed5b8bb0c23d8564e14536d9075cd",
+    "git_blob": "7c09fe95015d7c8d932b3a27be302ca09888112d",
+    "label": "third-zero"
+  },
+  {
+    "local_path": "inputs/1025.md",
+    "commit": "09f1377f83b027ca27eea0b3a9f40a1b92c6c466",
+    "path": "research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/09f1377f83b027ca27eea0b3a9f40a1b92c6c466/research/hm/source2-pure-v-quotient-third/PROOF.md",
+    "sha256": "50ab70de6aa5d7489faf88e61bb30f49e809dee68c0bc9370970b83522c621f0",
+    "git_blob": "d036adcf5bc2bfc53e07cd752ff180c5993251f7",
+    "label": "1025"
+  },
+  {
+    "commit": "2ddc4b01fa96e7ce7830b093f4df5a29dafd2187",
+    "path": "research/hm/source2-pure-v-residual-conic-gate/PROOF.md",
+    "git_blob": "990fa9adedade88b951b805aed94e6a395a7d71b",
+    "local_path": "inputs/1097.md",
+    "sha256": "b162f972d89c1631aed511bd4745935306b3c021237d36a61f8ddcd6e78139f9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2ddc4b01fa96e7ce7830b093f4df5a29dafd2187/research/hm/source2-pure-v-residual-conic-gate/PROOF.md",
+    "label": "1097"
+  },
+  {
+    "local_path": "inputs/1031.md",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/PROOF.md",
+    "sha256": "7afb4f1c03d2077e158aaa5be9570cfc9d28f1f8b631d610b2fcca07c135e446",
+    "git_blob": "0694e96e2d17a53b68d625ec6065f8bf513cd083",
+    "label": "1031"
+  },
+  {
+    "local_path": "inputs/model.py",
+    "commit": "7150cf97eeebe473bcd7c61c1f968c73625d92ef",
+    "path": "research/hm/source2-pure-v-lift-rank/model.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7150cf97eeebe473bcd7c61c1f968c73625d92ef/research/hm/source2-pure-v-lift-rank/model.py",
+    "sha256": "baea97aef2adb60b8e74755c33718e903380503ec03fcc81ddbdcc6c86cb610a",
+    "git_blob": "a7ca4755e50c85fe7fc20a757125127a05de4056",
+    "label": "model"
+  }
+]
