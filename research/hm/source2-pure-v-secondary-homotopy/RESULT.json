@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "checks": [
+    "sha256 inputs/792.md",
+    "git_blob inputs/792.md",
+    "sha256 inputs/950.md",
+    "git_blob inputs/950.md",
+    "sha256 inputs/949.md",
+    "git_blob inputs/949.md",
+    "sha256 inputs/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "git_blob inputs/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "sha256 inputs/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md",
+    "git_blob inputs/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md",
+    "square-zero endpoints",
+    "negative intertwining",
+    "annihilating homotopy",
+    "same-direction chain identities",
+    "formal chain identity",
+    "secondary kernel channels",
+    "secondary cokernel zero",
+    "first correction",
+    "original second factorization sign",
+    "nonzero second scalar product",
+    "universal a times a equals a squared",
+    "leading three-row minor",
+    "trailing three-row minor",
+    "middle three-row minor on u=w=0",
+    "unique multiplication D channel",
+    "rank-two quotient Chern classes"
+  ],
+  "count": 26,
+  "scope": "universal symbolic and synthetic only; conditional pure-V branch; no source cut"
+}

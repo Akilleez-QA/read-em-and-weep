@@ -1,0 +1,32 @@
+[
+  {
+    "local_path": "inputs/792.md",
+    "blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "expected_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "match": true
+  },
+  {
+    "local_path": "inputs/950.md",
+    "blob": "da574749b93a49264aa52ec2fd8d5a04c4cce214",
+    "expected_blob": "da574749b93a49264aa52ec2fd8d5a04c4cce214",
+    "match": true
+  },
+  {
+    "local_path": "inputs/949.md",
+    "blob": "a3649e031f4c4eee180d2b3850091223d6d2dc7a",
+    "expected_blob": "a3649e031f4c4eee180d2b3850091223d6d2dc7a",
+    "match": true
+  },
+  {
+    "local_path": "inputs/POSITIVE-FIRST-BOCKSTEIN-VANISHES-BY-CYCLIC-RAO.md",
+    "blob": "fe4410bbba05060545b22ac6bc80aac8e7c62ce4",
+    "expected_blob": "fe4410bbba05060545b22ac6bc80aac8e7c62ce4",
+    "match": true
+  },
+  {
+    "local_path": "inputs/ACTUAL-SECOND-BOCKSTEIN-NONZERO-BY-ATIYAH-QUINTIC.md",
+    "blob": "21c7af094d7088f38ab0ee8fc25b01952ea13d11",
+    "expected_blob": "21c7af094d7088f38ab0ee8fc25b01952ea13d11",
+    "match": true
+  }
+]
