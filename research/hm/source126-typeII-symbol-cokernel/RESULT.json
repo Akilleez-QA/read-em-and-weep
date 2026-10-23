@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "checks": 146,
+  "maximal_minors": 56,
+  "cubic_spanning_determinant": "1099511627776",
+  "homogeneous_ideal": "Delta*(alpha,beta,gamma)^3",
+  "projective_scheme": "reduced discriminant conic",
+  "cokernel": "i_*O_C(2)",
+  "kernel_rank": 3,
+  "c1": -6,
+  "c2": 12,
+  "restricted_kernel": "Sym^3(W) O_P1(-3)",
+  "ambient_kernel_restriction": "Sym^2(W) O_P1(-4)",
+  "scope": "Universal nonzero-mu alternative; no actual scalar selection or source cut"
+}
