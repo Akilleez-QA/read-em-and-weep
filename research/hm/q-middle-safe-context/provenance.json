@@ -1,0 +1,1353 @@
+{
+  "base": "ad780e4a14cf7ac9c9f33140c05803b4c156fde8",
+  "inputs": {
+    "verify_universal_monad_clifford_homotopy.py": "4e71b3c14ad9a85b099a9ee4261e4ebccd61e5aca1760462069bfe939982317b",
+    "universal_source_balance_helpers.py": "15069fcc8138d2742bfdebd3db650efb84bd74abf1c2909585d2b6e988b276c3"
+  },
+  "blocks": {
+    "verify_universal_monad_clifford_homotopy.py": {
+      "lines": [
+        [
+          2,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          12,
+          12
+        ],
+        [
+          13,
+          20
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          23,
+          30
+        ],
+        [
+          31,
+          31
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          33,
+          33
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          35,
+          35
+        ],
+        [
+          36,
+          36
+        ],
+        [
+          37,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          40
+        ],
+        [
+          41,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          43
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          45,
+          45
+        ],
+        [
+          46,
+          46
+        ],
+        [
+          47,
+          47
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          50,
+          50
+        ],
+        [
+          52,
+          52
+        ],
+        [
+          53,
+          54
+        ],
+        [
+          55,
+          55
+        ],
+        [
+          56,
+          56
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          57,
+          57
+        ],
+        [
+          58,
+          58
+        ],
+        [
+          59,
+          59
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          60,
+          60
+        ],
+        [
+          63,
+          63
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          65,
+          71
+        ],
+        [
+          72,
+          72
+        ],
+        [
+          73,
+          73
+        ],
+        [
+          73,
+          73
+        ],
+        [
+          76,
+          76
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          77,
+          77
+        ],
+        [
+          79,
+          79
+        ],
+        [
+          80,
+          80
+        ],
+        [
+          81,
+          81
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          84,
+          84
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          87,
+          87
+        ],
+        [
+          88,
+          88
+        ],
+        [
+          91,
+          91
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          92,
+          92
+        ],
+        [
+          93,
+          93
+        ],
+        [
+          94,
+          94
+        ],
+        [
+          95,
+          95
+        ],
+        [
+          96,
+          96
+        ],
+        [
+          97,
+          97
+        ],
+        [
+          98,
+          98
+        ],
+        [
+          99,
+          99
+        ],
+        [
+          100,
+          108
+        ],
+        [
+          111,
+          111
+        ],
+        [
+          113,
+          113
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          117,
+          117
+        ],
+        [
+          119,
+          119
+        ],
+        [
+          120,
+          120
+        ]
+      ],
+      "ast_sha256": "87cb38fa383859492b1c86555b0eb70877cbd904d51125fad8a36b695ab8b37a"
+    },
+    "universal_source_balance_helpers.py": {
+      "lines": [
+        [
+          16,
+          16
+        ],
+        [
+          17,
+          17
+        ],
+        [
+          18,
+          18
+        ],
+        [
+          19,
+          19
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          22,
+          22
+        ],
+        [
+          23,
+          23
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          25,
+          25
+        ],
+        [
+          26,
+          26
+        ],
+        [
+          28,
+          30
+        ],
+        [
+          31,
+          33
+        ],
+        [
+          34,
+          35
+        ],
+        [
+          36,
+          37
+        ],
+        [
+          38,
+          38
+        ],
+        [
+          39,
+          39
+        ],
+        [
+          40,
+          41
+        ],
+        [
+          42,
+          42
+        ],
+        [
+          43,
+          45
+        ],
+        [
+          47,
+          51
+        ],
+        [
+          53,
+          57
+        ],
+        [
+          62,
+          62
+        ],
+        [
+          63,
+          63
+        ],
+        [
+          64,
+          67
+        ],
+        [
+          69,
+          72
+        ],
+        [
+          74,
+          78
+        ],
+        [
+          80,
+          80
+        ],
+        [
+          81,
+          81
+        ],
+        [
+          82,
+          82
+        ],
+        [
+          82,
+          82
+        ],
+        [
+          83,
+          83
+        ],
+        [
+          84,
+          84
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          85,
+          85
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          86,
+          86
+        ],
+        [
+          89,
+          93
+        ],
+        [
+          95,
+          99
+        ],
+        [
+          101,
+          107
+        ],
+        [
+          109,
+          109
+        ],
+        [
+          110,
+          110
+        ],
+        [
+          111,
+          111
+        ],
+        [
+          112,
+          113
+        ],
+        [
+          114,
+          114
+        ],
+        [
+          115,
+          115
+        ],
+        [
+          115,
+          115
+        ],
+        [
+          115,
+          115
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          116,
+          116
+        ],
+        [
+          117,
+          117
+        ],
+        [
+          118,
+          118
+        ],
+        [
+          119,
+          119
+        ],
+        [
+          120,
+          120
+        ],
+        [
+          121,
+          121
+        ],
+        [
+          122,
+          122
+        ],
+        [
+          122,
+          122
+        ],
+        [
+          122,
+          122
+        ],
+        [
+          125,
+          125
+        ],
+        [
+          126,
+          126
+        ],
+        [
+          127,
+          127
+        ],
+        [
+          128,
+          130
+        ],
+        [
+          131,
+          131
+        ],
+        [
+          133,
+          133
+        ]
+      ],
+      "ast_sha256": "9cbab10914da0a3279cc5946b36e729ba5b1511c13505d07881dd430527e91db"
+    }
+  },
+  "assertions": [
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 31,
+      "scope": [
+        "eq"
+      ],
+      "expression": "not add(f, scale(-1, g))"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 43,
+      "scope": [],
+      "expression": "M * M == Q * s.eye(2)"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 45,
+      "scope": [],
+      "expression": "M.T * J + J * M == s.zeros(2)"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 48,
+      "scope": [],
+      "expression": "(M_pair_new * M_pair_new - Q / nu ** 2 * s.eye(2)).applyfunc(s.simplify) == s.zeros(2)"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 50,
+      "scope": [],
+      "expression": "nu * M_pair_new == M"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 68,
+      "scope": [],
+      "expression": "sum((Ms[j] * sv[j] for j in range(3)), s.zeros(2, 1)) == s.zeros(2, 1)"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 85,
+      "scope": [],
+      "expression": "s.simplify((s.Matrix(1, 5, coords) * r)[0] - phys) == 0"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 86,
+      "scope": [],
+      "expression": "all((s.simplify(v) == 0 for v in s.Matrix(1, 5, coords) * P))"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 87,
+      "scope": [],
+      "expression": "s.trace(P) == 0"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 88,
+      "scope": [],
+      "expression": "action(P, ixOmega) == {}"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 106,
+      "scope": [],
+      "expression": "set(rc).issubset({(0, 1, 2)})"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 113,
+      "scope": [],
+      "expression": "s.simplify(-2 * b_m / (a_m * chi) * (-a_m * Q) - 2 * b_m * Q / chi) == 0"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 117,
+      "scope": [],
+      "expression": "left_sign * adjoint_skew_sign == right_required_sign"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 119,
+      "scope": [],
+      "expression": "s.simplify(-c_m + a_m * c_m / a_m) == 0"
+    },
+    {
+      "file": "verify_universal_monad_clifford_homotopy.py",
+      "line": 120,
+      "scope": [],
+      "expression": "s.simplify(b_m * c_m / a_m - b_m * c_m / a_m) == 0"
+    },
+    {
+      "file": "universal_source_balance_helpers.py",
+      "line": 20,
+      "scope": [],
+      "expression": "cliff * spin == s.eye(2)"
+    },
+    {
+      "file": "universal_source_balance_helpers.py",
+      "line": 23,
+      "scope": [],
+      "expression": "Kinc * extract == Pi and Pi * Pi == Pi"
+    },
+    {
+      "file": "universal_source_balance_helpers.py",
+      "line": 26,
+      "scope": [],
+      "expression": "J4.T == -J4 and J4.det() != 0"
+    },
+    {
+      "file": "universal_source_balance_helpers.py",
+      "line": 42,
+      "scope": [
+        "zero_matrix"
+      ],
+      "expression": "M.applyfunc(s.expand) == s.zeros(*M.shape)"
+    },
+    {
+      "file": "universal_source_balance_helpers.py",
+      "line": 131,
+      "scope": [],
+      "expression": "s.expand(quartic(OG) - gen4) == 0"
+    }
+  ],
+  "exports": [
+    "A",
+    "B",
+    "Bcoef",
+    "C",
+    "Cx",
+    "D",
+    "E1",
+    "E_R",
+    "F1",
+    "FW",
+    "FWadj",
+    "F_R",
+    "G",
+    "GG",
+    "H1",
+    "H3",
+    "H5",
+    "HH",
+    "Hb",
+    "J",
+    "J1",
+    "J3",
+    "J4",
+    "J6",
+    "Kinc",
+    "Lv",
+    "M",
+    "M0",
+    "M1",
+    "M2",
+    "M_pair_new",
+    "Ms",
+    "OG",
+    "Omega",
+    "P",
+    "Pi",
+    "Q",
+    "S",
+    "T",
+    "TP",
+    "Z",
+    "a_m",
+    "abase",
+    "action",
+    "add",
+    "adds",
+    "adj6",
+    "adjoint_skew_sign",
+    "b_m",
+    "basis",
+    "bcoef",
+    "binary_E",
+    "binary_F",
+    "binary_H",
+    "c0",
+    "c1",
+    "c2",
+    "c3",
+    "c_m",
+    "chi",
+    "cliff",
+    "coeff",
+    "comb",
+    "combinations",
+    "contract",
+    "coords",
+    "cs",
+    "cv",
+    "defect",
+    "ell",
+    "embeddings",
+    "entries",
+    "eq",
+    "eqvec",
+    "extract",
+    "fullE",
+    "fullF",
+    "fullT",
+    "g",
+    "gen4",
+    "getY",
+    "getp",
+    "h",
+    "ha",
+    "hb",
+    "hc",
+    "hd",
+    "hf",
+    "ixOmega",
+    "j",
+    "jvec",
+    "jw",
+    "k",
+    "l",
+    "left_sign",
+    "lhs",
+    "low",
+    "mixed5",
+    "mon",
+    "nu",
+    "omega",
+    "op4",
+    "op6",
+    "p",
+    "p0",
+    "p1",
+    "pair",
+    "phys",
+    "putY",
+    "putp",
+    "q",
+    "q0",
+    "q1",
+    "quartic",
+    "r",
+    "rc",
+    "recovery",
+    "rep",
+    "rform",
+    "rh",
+    "rhs",
+    "right_required_sign",
+    "s",
+    "sD",
+    "sc",
+    "scale",
+    "simp",
+    "spin",
+    "sv",
+    "t",
+    "tau",
+    "theta",
+    "tv",
+    "u",
+    "up",
+    "vecform",
+    "w",
+    "wedge",
+    "x",
+    "y",
+    "z",
+    "zero",
+    "zero_matrix",
+    "zs"
+  ],
+  "function_global_bindings": {
+    "add": [
+      []
+    ],
+    "add/dictcomp": [
+      [
+        "s"
+      ]
+    ],
+    "scale": [
+      [
+        "add"
+      ]
+    ],
+    "scale/dictcomp": [
+      []
+    ],
+    "wedge": [
+      [
+        "add",
+        "set",
+        "sorted",
+        "sum",
+        "tuple"
+      ]
+    ],
+    "wedge/genexpr": [
+      []
+    ],
+    "contract": [
+      [
+        "add"
+      ]
+    ],
+    "contract/listcomp": [
+      [
+        "enumerate"
+      ]
+    ],
+    "action": [
+      [
+        "add",
+        "enumerate",
+        "range",
+        "scale",
+        "wedge"
+      ]
+    ],
+    "eq": [
+      [
+        "add",
+        "scale"
+      ]
+    ],
+    "pair": [
+      [
+        "add",
+        "scale",
+        "wedge"
+      ]
+    ],
+    "vecform": [
+      [
+        "range"
+      ]
+    ],
+    "vecform/listcomp": [
+      [
+        "range"
+      ]
+    ],
+    "vecform/listcomp/dictcomp": [
+      []
+    ],
+    "A": [
+      [
+        "range"
+      ]
+    ],
+    "A/listcomp": [
+      [
+        "contract",
+        "coords",
+        "scale",
+        "tau"
+      ]
+    ],
+    "Bcoef": [
+      [
+        "range"
+      ]
+    ],
+    "Bcoef/listcomp": [
+      [
+        "omega",
+        "range",
+        "wedge"
+      ]
+    ],
+    "Bcoef/listcomp/dictcomp": [
+      [
+        "Ms"
+      ]
+    ],
+    "B": [
+      [
+        "Bcoef"
+      ]
+    ],
+    "B/listcomp": [
+      [
+        "contract",
+        "coords"
+      ]
+    ],
+    "genexpr": [
+      [
+        "Ms",
+        "sv"
+      ],
+      [
+        "s"
+      ],
+      []
+    ],
+    "listcomp": [
+      [
+        "j",
+        "sv"
+      ],
+      [
+        "contract",
+        "coords"
+      ],
+      [
+        "jw"
+      ],
+      [
+        "OG"
+      ]
+    ],
+    "dictcomp": [
+      [
+        "r"
+      ],
+      [
+        "Ms",
+        "j",
+        "p"
+      ]
+    ],
+    "getp": [
+      [
+        "s"
+      ]
+    ],
+    "getp/listcomp": [
+      [
+        "range",
+        "sorted",
+        "tuple"
+      ]
+    ],
+    "putp": [
+      [
+        "range"
+      ]
+    ],
+    "putp/listcomp": [
+      [
+        "enumerate"
+      ]
+    ],
+    "putp/listcomp/dictcomp": [
+      [
+        "sorted",
+        "tuple"
+      ]
+    ],
+    "getY": [
+      [
+        "range",
+        "s"
+      ]
+    ],
+    "getY/listcomp": [
+      [
+        "range"
+      ]
+    ],
+    "putY": [
+      [
+        "range"
+      ]
+    ],
+    "putY/listcomp": [
+      [
+        "range"
+      ]
+    ],
+    "putY/listcomp/dictcomp": [
+      []
+    ],
+    "adds": [
+      [
+        "range"
+      ]
+    ],
+    "adds/listcomp": [
+      [
+        "add"
+      ]
+    ],
+    "adds/listcomp/genexpr": [
+      []
+    ],
+    "sc": [
+      []
+    ],
+    "sc/listcomp": [
+      [
+        "scale"
+      ]
+    ],
+    "eqvec": [
+      [
+        "eq",
+        "zip"
+      ]
+    ],
+    "zero_matrix": [
+      [
+        "s"
+      ]
+    ],
+    "embeddings": [
+      [
+        "J4",
+        "Kinc",
+        "extract",
+        "low",
+        "up"
+      ]
+    ],
+    "E_R": [
+      [
+        "adds",
+        "embeddings",
+        "getY",
+        "getp",
+        "putY",
+        "putp"
+      ]
+    ],
+    "F_R": [
+      [
+        "adds",
+        "embeddings",
+        "getY",
+        "getp",
+        "putY",
+        "putp"
+      ]
+    ],
+    "adj6": [
+      [
+        "J6"
+      ]
+    ],
+    "fullE": [
+      [
+        "adds",
+        "adj6",
+        "getY",
+        "getp",
+        "low",
+        "putY",
+        "putp",
+        "up"
+      ]
+    ],
+    "fullF": [
+      [
+        "adds",
+        "adj6",
+        "getY",
+        "getp",
+        "low",
+        "putY",
+        "putp",
+        "up"
+      ]
+    ],
+    "fullT": [
+      [
+        "adds",
+        "fullE",
+        "u",
+        "w"
+      ]
+    ],
+    "fullT/listcomp": [
+      [
+        "contract",
+        "coords",
+        "wedge"
+      ]
+    ],
+    "FW": [
+      [
+        "D",
+        "adds",
+        "getp",
+        "putp"
+      ]
+    ],
+    "FWadj": [
+      [
+        "D",
+        "adds",
+        "adj6",
+        "getY",
+        "low",
+        "putY",
+        "up"
+      ]
+    ],
+    "TP": [
+      [
+        "FW",
+        "FWadj",
+        "abase",
+        "adds",
+        "range",
+        "rh",
+        "sc"
+      ]
+    ],
+    "TP/listcomp": [
+      [
+        "wedge"
+      ],
+      [
+        "wedge"
+      ],
+      [
+        "contract",
+        "coords"
+      ]
+    ],
+    "lambda": [
+      [
+        "range"
+      ],
+      [
+        "S",
+        "T",
+        "s"
+      ],
+      [
+        "S",
+        "T",
+        "s"
+      ],
+      [
+        "S",
+        "T",
+        "s"
+      ]
+    ],
+    "lambda/listcomp": [
+      [
+        "S",
+        "T"
+      ]
+    ],
+    "coeff": [
+      [
+        "mon",
+        "s"
+      ]
+    ],
+    "coeff/listcomp": [
+      [
+        "S",
+        "T",
+        "s"
+      ]
+    ],
+    "tv": [
+      [
+        "range",
+        "s",
+        "sum"
+      ]
+    ],
+    "tv/genexpr": [
+      [
+        "S",
+        "T",
+        "s"
+      ]
+    ],
+    "rep": [
+      [
+        "mon",
+        "s"
+      ]
+    ],
+    "rep/listcomp": [
+      [
+        "coeff"
+      ]
+    ],
+    "simp": [
+      [
+        "s"
+      ]
+    ],
+    "op4": [
+      [
+        "rep"
+      ]
+    ],
+    "op4/lambda": [
+      [
+        "tv"
+      ]
+    ],
+    "op6": [
+      [
+        "rep"
+      ]
+    ],
+    "op6/lambda": [
+      [
+        "tv"
+      ]
+    ],
+    "quartic": [
+      [
+        "GG",
+        "dict",
+        "entries",
+        "g",
+        "mon",
+        "s",
+        "sum",
+        "zip"
+      ]
+    ],
+    "quartic/listcomp": [
+      []
+    ],
+    "quartic/genexpr": [
+      [
+        "recovery"
+      ]
+    ],
+    "mixed5": [
+      [
+        "mon",
+        "s"
+      ]
+    ],
+    "mixed5/listcomp": [
+      [
+        "coeff",
+        "tv"
+      ]
+    ]
+  },
+  "excluded": {
+    "clifford": "Only module docstring and five print calls; all mathematical statements, tests and temporaries copied.",
+    "helpers": "Module docstring, redirect_stdout/StringIO/Path loader imports, repeated sympy/math imports, whole-checker exec, and __main__ diagnostic block. sympy and comb supplied explicitly."
+  },
+  "binding_policy": "Shared frame in original order, including loop targets and later rebindings. Returned namespace mutation is not a dependency rebinding API. No caller injection or sys.modules replacement.",
+  "symbolic_execution": "UNRUN; independent review and parent supervisor required"
+}
