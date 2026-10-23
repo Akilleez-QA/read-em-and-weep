@@ -1,5 +1,7 @@
 # Negative-pencil normal forms and a joint-row determinant gate
 
+**Historical checkpoint superseded in part by PR959.** The rank-zero Type I 36→32 alternative recorded below is no longer live: the joint P row is now proved nonzero. Under hypothetical full-radical Q compatibility, only rank one and the 32→28 annihilator reduction remain. The original checkpoint is retained for provenance; see [chapter40](40-conditional-reductions-and-finite-neighborhood.md).
+
 **Craig Ward · 23 October 2026 · Update through PR954**
 
 The new deductions refine the remaining multiplication problems without removing another source-dual pair. **Four necessary pairs remain across three stable labels.** No actual source realization or complete repair is claimed.
