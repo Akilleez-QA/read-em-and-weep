@@ -1,0 +1,50 @@
+[
+  {
+    "label": "995",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "f9435fa37c78e86391fd1a773a039dd646a05e53",
+    "path": "research/hm/source126-typeII-internal-octic-gate/PROOF.md",
+    "local_path": "inputs/995.md",
+    "sha256": "8f75112f5dcc7bb57efb24d9abc0bf7b33fbbcc6b128569eea8576bcf90699cd",
+    "git_blob": "0e63a5cc5a209939c29de8aa2df272cc249814d6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f9435fa37c78e86391fd1a773a039dd646a05e53/research/hm/source126-typeII-internal-octic-gate/PROOF.md"
+  },
+  {
+    "label": "1000",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "260cd6a777b23dc7ccd5ed956fcf65e17ff56145",
+    "path": "research/hm/source126-typeII-octic-zero-scheme/PROOF.md",
+    "local_path": "inputs/1000.md",
+    "sha256": "97c734b913f4603a4bb1f34e36d66bc3dfb46929ef48ae5beeb7dce5617ee7a3",
+    "git_blob": "0ca1301de04a630cb184c4429f5b59e09698c6c9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md"
+  },
+  {
+    "label": "966",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4d0a6713a9c81fe669967e1d23838bdc8f4162b6",
+    "path": "research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "local_path": "inputs/966.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md"
+  },
+  {
+    "label": "1005",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4a50853a6b6a4f18f1a7aac06a90e33e78e7787e",
+    "path": "research/hm/source126-typeII-octic-full-zero-scheme/PROOF.md",
+    "local_path": "inputs/1005.md",
+    "sha256": "4e39ef95d7127490044c79f6a69f4e91a21080dd46d29848b92642b08dfcdb49",
+    "git_blob": "ba88e70e50342eef9c92db9053789cb238802dee"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "label": "universal-P6"
+  }
+]
