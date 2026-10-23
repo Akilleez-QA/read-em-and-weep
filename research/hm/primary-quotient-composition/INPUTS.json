@@ -1,0 +1,29 @@
+[
+  {
+    "label": "PR1123",
+    "commit": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+    "path": "research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "local_path": "inputs/PR1123.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "git_blob": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705"
+  },
+  {
+    "label": "PR1124",
+    "commit": "48396766d4e61a9de2455b1d068ba8abe09e05f3",
+    "path": "research/hm/primary-negative-summand/PROOF.md",
+    "local_path": "inputs/PR1124.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/48396766d4e61a9de2455b1d068ba8abe09e05f3/research/hm/primary-negative-summand/PROOF.md",
+    "sha256": "7f45763ca0ec815b12e8934478e4105e4a3f837c68dca39e31f922166fcb1add",
+    "git_blob": "e92d95b31d70fb54cf53200bde3dc5a14e73000c"
+  },
+  {
+    "label": "PR1056",
+    "commit": "875e86e2eec36a050e9a626735199681762e43ec",
+    "path": "research/hm/restriction-socle-kernel/PROOF.md",
+    "local_path": "inputs/PR1056.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md",
+    "sha256": "1ee98092e1322841d031d65649dee205299b88d9ba726599f0678d8b1e5b2a1e",
+    "git_blob": "29cadd1739c37309b31192beef30007acf14e8ef"
+  }
+]
