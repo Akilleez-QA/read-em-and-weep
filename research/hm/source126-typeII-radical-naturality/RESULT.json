@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "checks": 101,
+  "selected_internal_D_scalar": "zero conditional on full-J TypeII",
+  "second_symbol": "eta beta2_M = -b_T delta^-1 b_S",
+  "quotient_first_symbol": "nonzero multiplication Sym2 tensor Sym4 to Sym6/V",
+  "internal_universal_cokernel": {
+    "rank": 2,
+    "c1": 3,
+    "c2": 6
+  },
+  "scope": "No full-J existence assertion and no source-pair cut"
+}
