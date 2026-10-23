@@ -1,0 +1,86 @@
+{
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "date": "2026-10-23",
+  "inputs": [
+    {
+      "name": "torsor904",
+      "commit": "b5999dfd50f8469a5d686f331fdf653cbb3be785",
+      "path": "research/hm/physical-compatible-torsor/PROOF.md",
+      "git_blob": "7e2e4a9866e416c78a096e936a54e15e2a52dc4d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b5999dfd50f8469a5d686f331fdf653cbb3be785/research/hm/physical-compatible-torsor/PROOF.md",
+      "bytes": 13116,
+      "sha256": "ba6c3b70f54275292b3324960f2698f9cab807d87c65bd02048fcb4738152ffd",
+      "git_blob_verified": true
+    },
+    {
+      "name": "ambient_cohomology",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/FULL-ADJOINT-PENCIL-INVOLUTION-BLOCKS.md",
+      "git_blob": "5edf36a61ed71a9272c7ef4d9a1a80166083bdfd",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/FULL-ADJOINT-PENCIL-INVOLUTION-BLOCKS.md",
+      "bytes": 8440,
+      "sha256": "a1aac107838f647cd66b78a1b88a4ab39fea35afbe72d70214d40a9c141189de",
+      "git_blob_verified": true
+    },
+    {
+      "name": "ladder",
+      "commit": "8d8b5be4ce62c3055bb53be9e16d29cc63072f04",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "git_blob": "81e4b7ddf79d2c4e26ac0c99517117fe2ca63133",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8d8b5be4ce62c3055bb53be9e16d29cc63072f04/research/hm/order-four-quadratic-load/ACTUAL-FOURTH-BOCKSTEIN-AS-A-FIFTH-NEIGHBORHOOD-ADJOINT-BOUNDARY.md",
+      "sha256": "1827de5e5358d10c7a7d498b7b8ca767da8510cd632b40818fb5add1356e5c1d",
+      "bytes": 5709,
+      "git_blob_verified": true
+    },
+    {
+      "name": "q_exact",
+      "commit": "eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c",
+      "path": "research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "git_blob": "019c1f31773476f0a4877d88632ce5d46fbd4b9f",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/eeb1a11799ca38a60c37f6ba96f263ef8e20dd1c/research/hm/order-four-quadratic-load/POSITIVE-INVARIANT-VERTEX-RANK-33-PROVED.md",
+      "sha256": "fc43f4c854b95b487b196cacc2c92d1dde74404bd630e8b39a2baca165749276",
+      "bytes": 2352,
+      "git_blob_verified": true
+    },
+    {
+      "name": "canonical_division",
+      "commit": "2f81e3510505ad842fb9bb00ff3a667cd36ea17f",
+      "path": "research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+      "git_blob": "fd33060d7ce479f9c21bc7e1b47c471cfdebec50",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f81e3510505ad842fb9bb00ff3a667cd36ea17f/research/hm/order-four-quadratic-load/FOURTH-BOCKSTEIN-AFTER-ACTUAL-THIRD-VANISHING.md",
+      "sha256": "fbe769ab1e929005377bf684940f83990156654c8e9a3675eb7e9649ed21a180",
+      "bytes": 5735,
+      "git_blob_verified": true
+    },
+    {
+      "name": "canonical_correction",
+      "commit": "4e16e69c776bd85506341b5bb785f0d8a396bd3e",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "git_blob": "e2c4ae916ed77ee529ae87224c675a01567abeaa",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4e16e69c776bd85506341b5bb785f0d8a396bd3e/research/hm/order-four-quadratic-load/ACTUAL-CANONICAL-RAW-CUBIC-HAS-A-NONZERO-LINEAR-LIFTING-CORRECTION.md",
+      "sha256": "dfaff0ebd7045c587343b0e5619f1894c7ce2e06aaab46719171edde1a4a96ab",
+      "bytes": 12572,
+      "git_blob_verified": true
+    },
+    {
+      "name": "pr815",
+      "commit": "0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42",
+      "path": "research/hm/affine-square-source-response/PROOF.md",
+      "git_blob": "bef4e26574b3085616c22d5fdaae4e808e3767e4",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0eaeca734b9e17142da2f1bdfd9a1721d0bb1d42/research/hm/affine-square-source-response/PROOF.md",
+      "sha256": "78a0f462ffd0710d248658aaf95926f926297b0bae43aade85eb4c7fc934d236",
+      "bytes": 18996,
+      "git_blob_verified": true
+    },
+    {
+      "name": "next_weight",
+      "commit": "3d21e93865152ec961ceaf32d48f845399158b69",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "git_blob": "d041cc5cf01440e7d78cf22d194ab044d6f237dc",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d21e93865152ec961ceaf32d48f845399158b69/research/hm/order-four-quadratic-load/ACTUAL-NEXT-WEIGHT-SEPARATES-MIDPOINT-NORMALIZATION-FROM-ENDPOINT-TRANSPORT.md",
+      "sha256": "5fe2492d2286588fc55396523ce9d3477741d3a36669e407aa78bca8ae68a492",
+      "bytes": 19929,
+      "git_blob_verified": true
+    }
+  ]
+}
