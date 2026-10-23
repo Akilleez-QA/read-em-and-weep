@@ -1,0 +1,52 @@
+[
+  {
+    "label": "995",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "f9435fa37c78e86391fd1a773a039dd646a05e53",
+    "path": "research/hm/source126-typeII-internal-octic-gate/PROOF.md",
+    "local_path": "inputs/995.md",
+    "sha256": "8f75112f5dcc7bb57efb24d9abc0bf7b33fbbcc6b128569eea8576bcf90699cd",
+    "git_blob": "0e63a5cc5a209939c29de8aa2df272cc249814d6",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f9435fa37c78e86391fd1a773a039dd646a05e53/research/hm/source126-typeII-internal-octic-gate/PROOF.md"
+  },
+  {
+    "label": "1000",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "260cd6a777b23dc7ccd5ed956fcf65e17ff56145",
+    "path": "research/hm/source126-typeII-octic-zero-scheme/PROOF.md",
+    "local_path": "inputs/1000.md",
+    "sha256": "97c734b913f4603a4bb1f34e36d66bc3dfb46929ef48ae5beeb7dce5617ee7a3",
+    "git_blob": "0ca1301de04a630cb184c4429f5b59e09698c6c9",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/260cd6a777b23dc7ccd5ed956fcf65e17ff56145/research/hm/source126-typeII-octic-zero-scheme/PROOF.md"
+  },
+  {
+    "label": "973",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "f48c517d776b7f82ee1f96787da722223431a565",
+    "path": "research/hm/source126-typeII-radical-naturality/PROOF.md",
+    "local_path": "inputs/973.md",
+    "sha256": "80b75be005ec917057de75b4dabb7e23dbce2af95f8bc22ccfa2fd12e24e6f82",
+    "git_blob": "f5071ad0b051ce9f495a296d865e3a7e12341d58",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f48c517d776b7f82ee1f96787da722223431a565/research/hm/source126-typeII-radical-naturality/PROOF.md"
+  },
+  {
+    "label": "966",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "4d0a6713a9c81fe669967e1d23838bdc8f4162b6",
+    "path": "research/hm/source2-pureV-quadratic-discriminant/PROOF.md",
+    "local_path": "inputs/966.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md"
+  },
+  {
+    "label": "six-axis",
+    "repository": "Akilleez-QA/read-em-and-weep",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/THIRD-GATE-VANISHING-AT-SIX-AXES-KILLS-RESIDUAL-CHANNEL.md",
+    "local_path": "inputs/six-axis.md",
+    "sha256": "f2dbd1b1c0a26700dc453b89cc38af65c56949ffdb857ea76339974bfc4956a6",
+    "git_blob": "4bb62a6e92a4cf36c65d32467336ba572e1e18cc",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/THIRD-GATE-VANISHING-AT-SIX-AXES-KILLS-RESIDUAL-CHANNEL.md"
+  }
+]
