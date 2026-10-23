@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 1866,
+  "character_internal_checks": 81,
+  "excluded_original_pairs": [
+    32,
+    52
+  ],
+  "pair32_surviving_height_before_apolar": 7,
+  "pair52_deficit_patterns": {
+    "6": [
+      [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    ],
+    "7": []
+  },
+  "scope": "two actual D-source pairs under maximal profile11; not pair50 or global closure",
+  "proof_sha256": "fcc0f3479a921935e68738856bf50178bf91d822087f708ee1636f262c02e6ae"
+}

@@ -1,0 +1,119 @@
+{
+  "profile": [
+    1,
+    1
+  ],
+  "maximal": true,
+  "actual": true,
+  "conditional_necessity": true,
+  "sources": [
+    "D",
+    "P",
+    "V",
+    "Z"
+  ],
+  "source_exclusions": {
+    "P": "p-PROOF.md",
+    "V": "vz-PROOF.md",
+    "Z": "vz-PROOF.md"
+  },
+  "D_frontier": [
+    32,
+    50,
+    52
+  ],
+  "pair_exclusions": {
+    "32": "two-PROOF.md",
+    "50": "last-PROOF.md",
+    "52": "two-PROOF.md"
+  },
+  "pairs": {
+    "32": {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 12
+    },
+    "50": {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -6,
+          "one"
+        ],
+        [
+          -4,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0
+    },
+    "52": {
+      "A": [
+        [
+          3,
+          "W"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -5,
+          "W"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "defect": 0
+    }
+  },
+  "conclusion": "no_actual_maximal_profile_11",
+  "proof_assistant_verified": false
+}

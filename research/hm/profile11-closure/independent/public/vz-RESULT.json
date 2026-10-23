@@ -1,0 +1,6472 @@
+{
+  "character_controls": 81,
+  "checks": 1135,
+  "rank_sequences": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  ],
+  "scope": "Exclusion of V and Z actual sources only in maximal profile (1,1), conditional on pinned necessity and actual-geometry inputs; no global repair.",
+  "sources": {
+    "V": {
+      "certificates": [
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -16,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 12,
+          "index": 42,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -16,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 12,
+          "index": 43,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -4,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 53,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 12,
+          "index": 62,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 63,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 64,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -16,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 65,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 66,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              0,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 12,
+          "index": 67,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 0,
+          "index": 73,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 74,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              0,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -2,
+              "V"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 0,
+          "index": 76,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 86,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 87,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 88,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 89,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -8,
+          "cubic_residual": {},
+          "defect": 0,
+          "index": 96,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              10,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -12,
+              "one"
+            ]
+          ],
+          "a": 4,
+          "b": -10,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1,
+            "W": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 102,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "V": -2,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 4,
+          "b": -10,
+          "cubic_residual": {
+            "S": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 103,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "D": 1,
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              8,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "a": 6,
+          "b": -12,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 110,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": -1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -4,
+              "V"
+            ]
+          ],
+          "a": 6,
+          "b": -12,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 111,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": -1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              10,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -12,
+              "one"
+            ]
+          ],
+          "a": 8,
+          "b": -14,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "index": 116,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "actual_degree_L": -38,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -110,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -134,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -16,
+          "cubic_residual": {
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 72,
+          "index": 130,
+          "ordinary_B": [
+            -4,
+            -6,
+            -6
+          ],
+          "quartic_envelope": {
+            "D": 1,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              3,
+              "W"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "actual_degree_L": -38,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -112,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -118,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -142,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -160,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -16,
+          "cubic_residual": {
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 72,
+          "index": 132,
+          "ordinary_B": [
+            -5,
+            -5,
+            -6
+          ],
+          "quartic_envelope": {
+            "D": 1,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              16,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "b": -16,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 134,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": 1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -110,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -134,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 74,
+          "index": 141,
+          "ordinary_B": [
+            -4,
+            -6,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              3,
+              "W"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -112,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -118,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -142,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -160,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 74,
+          "index": 142,
+          "ordinary_B": [
+            -5,
+            -5,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "W"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -115,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -117,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -124,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -135,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -114,
+          "gap": 78,
+          "index": 143,
+          "ordinary_B": [
+            -4,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              14,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -16,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -70,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -72,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -78,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -88,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -102,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -120,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -70,
+          "gap": 34,
+          "index": 144,
+          "ordinary_B": [
+            -1,
+            -1,
+            -16
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              4,
+              "A"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -120,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -138,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -152,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -120,
+          "gap": 84,
+          "index": 145,
+          "ordinary_B": [
+            -6,
+            -6,
+            -6
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              4,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -120,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -138,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -152,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -120,
+          "gap": 86,
+          "index": 148,
+          "ordinary_B": [
+            -6,
+            -6,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "W"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -125,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -126,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -131,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -140,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -153,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -125,
+          "gap": 91,
+          "index": 149,
+          "ordinary_B": [
+            -6,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              16,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -70,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -72,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -78,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -88,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -102,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -120,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "exact_cap": -70,
+          "gap": 36,
+          "index": 150,
+          "ordinary_B": [
+            -1,
+            -1,
+            -18
+          ],
+          "quartic_envelope": {
+            "A": 2,
+            "D": 2,
+            "P": 1,
+            "one": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -125,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -126,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -131,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -140,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -153,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "exact_cap": -125,
+          "gap": 91,
+          "index": 151,
+          "ordinary_B": [
+            -6,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 2,
+            "D": 2,
+            "P": 1,
+            "one": 1
+          },
+          "stage": "capacity"
+        }
+      ],
+      "compatible_indices": [
+        42,
+        43,
+        53,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        73,
+        74,
+        76,
+        86,
+        87,
+        88,
+        89,
+        96,
+        102,
+        103,
+        110,
+        111,
+        116,
+        130,
+        132,
+        134,
+        141,
+        142,
+        143,
+        144,
+        145,
+        148,
+        149,
+        150,
+        151
+      ],
+      "incompatible_records": [
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 0
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 1
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 2
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 3
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 4
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 5
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 6
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 7
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 8
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 9
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 10
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 11
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 12
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 13
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 14
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 15
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 16
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 17
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 18
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 19
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 20
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 21
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 22
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 23
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 24
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 25
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 26
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1,
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 27
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 28
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 29
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 30
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 31
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 32
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 33
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 34
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 35
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 36
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 37
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1,
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 38
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 39
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 40
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 41
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 44
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 45
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 46
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 47
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 48
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 49
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 50
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 51
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 52
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 54
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 55
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 56
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 57
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 58
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 59
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 60
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 61
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 68
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 69
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 70
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 71
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 72
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 75
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 77
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 78
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 79
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 80
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 81
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 82
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 83
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 84
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 85
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 90
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 91
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 92
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 93
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 94
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 95
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 97
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 98
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 99
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 100
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 101
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 104
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 105
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 106
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 107
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 108
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "Wp": -1
+            },
+            "twist": -3
+          },
+          "index": 109
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 112
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 113
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 114
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 115
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 117
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 118
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 119
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 120
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 121
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 122
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 123
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 124
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 125
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 126
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 127
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 128
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 129
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 131
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 133
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 135
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 136
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 137
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 138
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 139
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 140
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 146
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 147
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 152
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 153
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 154
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 155
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 156
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 157
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 158
+        }
+      ],
+      "partition": {
+        "capacity": [
+          130,
+          132,
+          141,
+          142,
+          143,
+          144,
+          145,
+          148,
+          149,
+          150,
+          151
+        ],
+        "cubic": [
+          42,
+          43,
+          53,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          73,
+          74,
+          76,
+          102,
+          103,
+          110,
+          111
+        ],
+        "quartic": [
+          86,
+          87,
+          88,
+          89,
+          96,
+          116,
+          134
+        ]
+      },
+      "source_blocks": [
+        [
+          -2,
+          "V"
+        ],
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "source_tuple": [
+        1,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "survivors": []
+    },
+    "Z": {
+      "certificates": [
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -16,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 12,
+          "index": 42,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -16,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 12,
+          "index": 43,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": -2,
+          "b": -4,
+          "cubic_residual": {
+            "T": -1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 53,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "D": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 12,
+          "index": 62,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 63,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 64,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -16,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 65,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 12,
+          "index": 66,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              0,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 0,
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 12,
+          "index": 67,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 0,
+          "index": 73,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 74,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              0,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -2,
+              "V"
+            ]
+          ],
+          "a": 0,
+          "b": -6,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1
+          },
+          "defect": 0,
+          "index": 76,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "P": -1,
+            "V": -2
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 86,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 87,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 88,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -20,
+          "cubic_residual": {},
+          "defect": 12,
+          "index": 89,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 2,
+          "b": -8,
+          "cubic_residual": {},
+          "defect": 0,
+          "index": 96,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "V": -1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              10,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -12,
+              "one"
+            ]
+          ],
+          "a": 4,
+          "b": -10,
+          "cubic_residual": {
+            "S": 1,
+            "T": -1,
+            "W": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 102,
+          "negative": {
+            "T": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "V": -2,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 4,
+          "b": -10,
+          "cubic_residual": {
+            "S": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 103,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 1,
+            "D": 1,
+            "P": -1,
+            "V": -1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              8,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -10,
+              "one"
+            ]
+          ],
+          "a": 6,
+          "b": -12,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 110,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": -1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "V"
+            ]
+          ],
+          "B": [
+            [
+              -4,
+              "V"
+            ]
+          ],
+          "a": 6,
+          "b": -12,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": -1
+          },
+          "defect": 0,
+          "index": 111,
+          "negative": {
+            "Wp": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": -1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "cubic"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              10,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -12,
+              "one"
+            ]
+          ],
+          "a": 8,
+          "b": -14,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "index": 116,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "actual_degree_L": -38,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -110,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -134,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -16,
+          "cubic_residual": {
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 72,
+          "index": 130,
+          "ordinary_B": [
+            -4,
+            -6,
+            -6
+          ],
+          "quartic_envelope": {
+            "D": 1,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              3,
+              "W"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "actual_degree_L": -38,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -112,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -118,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -142,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -160,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -16,
+          "cubic_residual": {
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 72,
+          "index": 132,
+          "ordinary_B": [
+            -5,
+            -5,
+            -6
+          ],
+          "quartic_envelope": {
+            "D": 1,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -3,
+              "Wp"
+            ],
+            [
+              16,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 10,
+          "b": -16,
+          "cubic_residual": {
+            "S": 1,
+            "W": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "index": 134,
+          "negative": {
+            "V": -1
+          },
+          "quartic_envelope": {
+            "A": 2,
+            "D": 1,
+            "P": 1,
+            "V": -1,
+            "one": 1
+          },
+          "stage": "quartic"
+        },
+        {
+          "A": [
+            [
+              2,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -110,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -134,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 74,
+          "index": 141,
+          "ordinary_B": [
+            -4,
+            -6,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              3,
+              "W"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -5,
+              "W"
+            ],
+            [
+              -8,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -110,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -112,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -118,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -142,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -160,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -110,
+          "gap": 74,
+          "index": 142,
+          "ordinary_B": [
+            -5,
+            -5,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "W"
+            ],
+            [
+              2,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -4,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -115,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -114,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -117,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -124,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -135,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -150,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -114,
+          "gap": 78,
+          "index": 143,
+          "ordinary_B": [
+            -4,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              14,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -16,
+              "one"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -70,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -72,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -78,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -88,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -102,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -120,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -70,
+          "gap": 34,
+          "index": 144,
+          "ordinary_B": [
+            -1,
+            -1,
+            -16
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              4,
+              "A"
+            ]
+          ],
+          "B": [
+            [
+              -6,
+              "A"
+            ]
+          ],
+          "a": 12,
+          "actual_degree_L": -36,
+          "all_height_capacities": [
+            {
+              "cap": -120,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -138,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -152,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -18,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1
+          },
+          "defect": 0,
+          "exact_cap": -120,
+          "gap": 84,
+          "index": 145,
+          "ordinary_B": [
+            -6,
+            -6,
+            -6
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              4,
+              "one"
+            ],
+            [
+              4,
+              "one"
+            ],
+            [
+              6,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -8,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -120,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -122,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -128,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -138,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -152,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -120,
+          "gap": 86,
+          "index": 148,
+          "ordinary_B": [
+            -6,
+            -6,
+            -8
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "W"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "W"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -125,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -126,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -131,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -140,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -153,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "Wp": 1
+          },
+          "defect": 0,
+          "exact_cap": -125,
+          "gap": 91,
+          "index": 149,
+          "ordinary_B": [
+            -6,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 1,
+            "D": 2,
+            "P": 2
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              16,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -1,
+              "Wp"
+            ],
+            [
+              -18,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -70,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -72,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -78,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -88,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -102,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -120,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "exact_cap": -70,
+          "gap": 36,
+          "index": 150,
+          "ordinary_B": [
+            -1,
+            -1,
+            -18
+          ],
+          "quartic_envelope": {
+            "A": 2,
+            "D": 2,
+            "P": 1,
+            "one": 1
+          },
+          "stage": "capacity"
+        },
+        {
+          "A": [
+            [
+              5,
+              "Wp"
+            ],
+            [
+              4,
+              "one"
+            ]
+          ],
+          "B": [
+            [
+              -7,
+              "Wp"
+            ],
+            [
+              -6,
+              "one"
+            ]
+          ],
+          "a": 14,
+          "actual_degree_L": -34,
+          "all_height_capacities": [
+            {
+              "cap": -125,
+              "heights": [
+                5,
+                5
+              ]
+            },
+            {
+              "cap": -126,
+              "heights": [
+                6,
+                4
+              ]
+            },
+            {
+              "cap": -131,
+              "heights": [
+                7,
+                3
+              ]
+            },
+            {
+              "cap": -140,
+              "heights": [
+                8,
+                2
+              ]
+            },
+            {
+              "cap": -153,
+              "heights": [
+                9,
+                1
+              ]
+            },
+            {
+              "cap": -170,
+              "heights": [
+                10,
+                0
+              ]
+            }
+          ],
+          "b": -20,
+          "cubic_residual": {
+            "S": 1,
+            "T": 1,
+            "W": 1
+          },
+          "defect": 0,
+          "exact_cap": -125,
+          "gap": 91,
+          "index": 151,
+          "ordinary_B": [
+            -6,
+            -7,
+            -7
+          ],
+          "quartic_envelope": {
+            "A": 2,
+            "D": 2,
+            "P": 1,
+            "one": 1
+          },
+          "stage": "capacity"
+        }
+      ],
+      "compatible_indices": [
+        42,
+        43,
+        53,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        73,
+        74,
+        76,
+        86,
+        87,
+        88,
+        89,
+        96,
+        102,
+        103,
+        110,
+        111,
+        116,
+        130,
+        132,
+        134,
+        141,
+        142,
+        143,
+        144,
+        145,
+        148,
+        149,
+        150,
+        151
+      ],
+      "incompatible_records": [
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 0
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 1
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 2
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 3
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 4
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 5
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 6
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 7
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 8
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 9
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 10
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 11
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 12
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 13
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 14
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 15
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 16
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 17
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 18
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 19
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 20
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 21
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 22
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 23
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 24
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 25
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 26
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1,
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 27
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 28
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 29
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 30
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 31
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 32
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 33
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 34
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 35
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 36
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 37
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1,
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 38
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 39
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 40
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 41
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 44
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 45
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 46
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 47
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 48
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 49
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 50
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 51
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 52
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 54
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 55
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 56
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 57
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 58
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 59
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 60
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "P": -1
+            },
+            "twist": 2
+          },
+          "index": 61
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 68
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 69
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 70
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 71
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 72
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 75
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 77
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 78
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 79
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 80
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 81
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 82
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 83
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 84
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 85
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 90
+        },
+        {
+          "first_failure": {
+            "condition": "H1(A)<=H1(E)",
+            "negative": {
+              "D": -1
+            },
+            "twist": 2
+          },
+          "index": 91
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 92
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 93
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 94
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 95
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 97
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 98
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 99
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 100
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 101
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 104
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 105
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 106
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 107
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 108
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "Wp": -1
+            },
+            "twist": -3
+          },
+          "index": 109
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 112
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 113
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 114
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 115
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 117
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 118
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 119
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 120
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 121
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 122
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 123
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 124
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 125
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 126
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 127
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 128
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 129
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "W": -1
+            },
+            "twist": -7
+          },
+          "index": 131
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 133
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 135
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 136
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -8
+          },
+          "index": 137
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -2
+            },
+            "twist": -6
+          },
+          "index": 138
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 139
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 140
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 146
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 147
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 152
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 153
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 154
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 155
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 156
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 157
+        },
+        {
+          "first_failure": {
+            "condition": "H0(B)<=H1(E(-u))",
+            "negative": {
+              "one": -1
+            },
+            "twist": -6
+          },
+          "index": 158
+        }
+      ],
+      "partition": {
+        "capacity": [
+          130,
+          132,
+          141,
+          142,
+          143,
+          144,
+          145,
+          148,
+          149,
+          150,
+          151
+        ],
+        "cubic": [
+          42,
+          43,
+          53,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          73,
+          74,
+          76,
+          102,
+          103,
+          110,
+          111
+        ],
+        "quartic": [
+          86,
+          87,
+          88,
+          89,
+          96,
+          116,
+          134
+        ]
+      },
+      "source_blocks": [
+        [
+          -3,
+          "Wp"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -3,
+          "T"
+        ],
+        [
+          -4,
+          "V"
+        ]
+      ],
+      "source_tuple": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "survivors": []
+    }
+  }
+}
