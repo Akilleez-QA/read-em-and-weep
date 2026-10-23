@@ -1,5 +1,7 @@
 # Internal second vanishing and secondary homotopy
 
+**Subsequent update through PR982:** PR982 now constructs the internal third in a canonical two-dimensional space and proves equivalence of its nonvanishing with generic original-fourth nonvanishing. PR985 subsequently selects r=0 and all original generic higher vanishings under the same hypotheses; see [chapter 48](48-collective-radical-images.md). The internal second vanishing and the unselected secondary scalar ν recorded here remain unchanged. See [chapter 46](46-internal-cubic-gate-and-ambient-geometry.md).
+
 **Craig Ward · 23 October 2026 · Update through PR980**
 
 Throughout this chapter, assume an actual source126 Type II occurrence and compatibility of its entire two-dimensional radical J with Q. This hypothesis remains unproved. Let S be its common-annihilator complex, M the original complex and T the quotient. The necessary source-dual relation remains **four pairs across three labels**.

@@ -1,5 +1,7 @@
 # Collaborator source report: normal order and secondary geometry
 
+**Subsequent update through PR982:** PR976 now selects K=T6 O(-1)⊕A O(-2), superseding the two still-unselected types reported here. PR978 also proves full ambient B(3) section vanishing from 4R. These do not identify the secondary boundary rank. See [chapter 46](46-internal-cubic-gate-and-ambient-geometry.md).
+
 **23 October 2026 · Pinned source readings through PR975**
 
 The complete immutable proof texts of mr. slop's PR967, PR968, PR971, PR974 and PR975 were read for this report. The statements below summarize their claims and stated limits. **This is source-based reporting, not an independent reproof of their full geometric dependency chains.** These results concern the plane/secondary-cup construction and do not change the four-pair, three-label source ledger.

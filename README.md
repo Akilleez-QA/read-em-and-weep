@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.12 · 23 October 2026**  
+**Craig Ward · Working edition v0.15 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -28,9 +28,33 @@ See the [new source126 specialization](paper/36-source126-dual-specialization.md
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
 
+## Full-radical Type II: cubic gate zero and generic rank 36 through PR985
+
+Under an actual source126 Type II occurrence with **the entire radical Q-compatible**, [PR985](https://github.com/Akilleez-QA/read-em-and-weep/blob/c20dfa80494258122e7ccadf4e7168ee9a37adc3/research/hm/source126-typeII-radical-top/PROOF.md) determines the collective radical images as P+2D and P+D, of dimensions 14 and nine. Their endpoint quotients have dimensions **27<28**, so every map commuting with that radical has rank at most 36. The retained original-second rank-three theorem supplies the matching lower bound: the original pencil has **generic rank exactly 36**, kernel dimension five and cokernel dimension one.
+
+The original generic formal matrix has 33 unit pivots, three order-two pivots and a zero residual block. Hence **all original generic Bocksteins after the second vanish**. The internal cubic symbol is also **r=0**, selecting the zero alternative in PR982's two-dimensional gate. The secondary scalar ν is still unselected. No claim is made that every later internal symbol vanishes or that exceptional-direction extra kernels have been computed.
+
+This is a conditional nonsurjectivity theorem, **not an exclusion of full-radical compatibility or Type II itself**: no authenticated contradiction with actual occurrence is supplied. **Four pairs and three labels remain; the original repair is open.** See [the collective-image update](paper/48-collective-radical-images.md). Earlier unselected-r statements below are dated checkpoints superseded under these same hypotheses.
+
+## Historical secondary compatibility restriction through PR984
+
+Under actual full-radical Type II compatibility, [PR984](https://github.com/Akilleez-QA/read-em-and-weep/blob/c1e056c0473657725fa94112e8529994114726db/research/hm/source126-typeII-secondary-third/PROOF.md) proves **ν=0 or r=0**: a nonzero secondary scalar forces the internal cubic symbol, hence the generic original fourth Bockstein, to vanish. An exact symbolic restriction certificate proves this implication on the canonical two-dimensional cubic space. PR984 alone selected neither alternative; PR985 now forces r=0 under the same hypotheses. Naturality is applied only to surviving quotient cycles.
+
+The [new addendum](paper/47-secondary-cubic-compatibility.md) also reports mr. slop's [PR983](https://github.com/Akilleez-QA/read-em-and-weep/blob/ebfca1a42571144907264f3172513b9b204a5744/research/hm/secondary-target-exclusion/PROOF.md): the actual secondary obstruction has no A-target channel, leaving six equivariant channels with unselected coefficients. Its two-root target reduces from 30 to 24 with the same kernel and rank, not an assertion of surjectivity. This is distinct from PR976's surjective ambient first-cup map.
+
+**Four pairs and three labels remain.** These are compatibility restrictions, not catalogue exclusions or a completed repair.
+
+## A two-dimensional cubic gate and new ambient geometry through PR982
+
+Under actual Type II and full-radical Q compatibility, [PR982](https://github.com/Akilleez-QA/read-em-and-weep/blob/25df67afcafd5f84c2c0cda7e6baee41fdbf8212/research/hm/source126-typeII-internal-third/PROOF.md) constructs a canonical **two-dimensional space** containing the internal third symbol. That symbol is nonzero exactly when the **generic original fourth Bockstein** on the surviving D kernel is nonzero. At the PR982 checkpoint neither outcome was selected; PR985 now selects r=0 under the same hypotheses. This is a precise reduction of an obstruction question, not two remaining catalogue pairs or a proof-completion estimate.
+
+The [new source report](paper/46-internal-cubic-gate-and-ambient-geometry.md) also records mr. slop's [PR976](https://github.com/Akilleez-QA/read-em-and-weep/blob/f23f8b9972d459c7c3ab532937964ef7f543b157/research/hm/balanced-first-cup-kernel/PROOF.md), which selects **K=T6 O(-1)⊕A O(-2)** and proves surjectivity of the ambient 30→24 first odd-scaling cup. This supersedes PR975's two-type alternative. [PR978](https://github.com/Akilleez-QA/read-em-and-weep/blob/a522b1eda23fc217eee42b84ba5b2b0fdcfc242e/research/hm/ambient-fourth-neighborhood-vanishing/PROOF.md) proves **H⁰(mR,B(3))=0 for every m≥4** for full ambient plane neighborhoods, with a six-dimensional purely odd space still present on 3R. This is distinct from the earlier B(4) order-four and hyperplane B(2) order-two obstruction statements. These collaborator summaries follow complete source readings, not independent reproofs.
+
+**Four necessary pairs and three stable labels remain.** The original repair, actual full-radical occurrence and secondary scalar ν remain open. PR985 now forces all original generic later Bocksteins to vanish under that hypothesis; later internal behavior is not fully selected. No earlier six-axis result is counted again.
+
 ## Internal second vanishing and secondary homotopy through PR980
 
-Under actual Type II and full-radical Q compatibility, [PR979](https://github.com/Akilleez-QA/read-em-and-weep/blob/db4c20c05f18d5e2494d99eb4c359828446919c9/research/hm/source126-typeII-internal-second/PROOF.md) proves **zero internal second Bockstein** on the surviving D. This is a new internal comparison result using the **already known original third vanishing**, not a new proof of that older theorem. The first unresolved internal symbol is now of order at least three; original fourth and later behavior remain unresolved.
+Under actual Type II and full-radical Q compatibility, [PR979](https://github.com/Akilleez-QA/read-em-and-weep/blob/db4c20c05f18d5e2494d99eb4c359828446919c9/research/hm/source126-typeII-internal-second/PROOF.md) proves **zero internal second Bockstein** on the surviving D. This is a new internal comparison result using the **already known original third vanishing**, not a new proof of that older theorem. At that checkpoint the first unresolved internal order was at least three. PR985 now forces its cubic symbol and all original generic Bocksteins after the second to vanish under the same full-radical hypothesis.
 
 [PR980](https://github.com/Akilleez-QA/read-em-and-weep/blob/3dd68c99b9dfd85fe10cc327c2fa95c24bc185f5/research/hm/source126-typeII-secondary-homotopy/PROOF.md) constructs a unique equivariant homotopy for the canonical radical kernel line. Its secondary A channel and entire secondary cokernel channel vanish. Only a D-to-D transvectant channel with scalar **ν** remains, and ν is unselected. Any higher-naturality comparison applies only to cycles surviving the preceding differentials, not indiscriminately to all D.
 
@@ -38,7 +62,7 @@ The full-radical occurrence hypothesis remains unproved. **Four pairs and three 
 
 ## Collaborator checkpoint through PR975
 
-The [pinned source report](paper/44-secondary-geometry-source-report.md) records mr. slop's selection of **normal order four** for the invariant B(4) candidate, superseding the former order-four-or-six alternative. It also reports a distinct uniform **order-two** obstruction for B|H_λ(2), a refined nonsplit secondary extension, and two possible first-cup kernel types with the actual type still unselected. Full proof texts were read; this is not an independent reproof. None changes the source-pair count.
+The [pinned source report](paper/44-secondary-geometry-source-report.md) records mr. slop's selection of **normal order four** for the invariant B(4) candidate, superseding the former order-four-or-six alternative. It also reports a distinct uniform **order-two** obstruction for B|H_λ(2), a refined nonsplit secondary extension, and, at that checkpoint, two possible first-cup kernel types. PR976 now selects the negative two-step type, as recorded above. Full proof texts were read; this is not an independent reproof. None changes the source-pair count.
 
 ## Type II scalar selection and actual obstruction transfer through PR973
 
