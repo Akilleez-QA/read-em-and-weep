@@ -1,0 +1,65 @@
+[
+  {
+    "label": "1106",
+    "commit": "26ab0ded8bbe635d8aa81798e8fe8a6032e81ce2",
+    "path": "research/hm/source2-pure-v-canonical-q-terminal/PROOF.md",
+    "local_path": "inputs/1106.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/26ab0ded8bbe635d8aa81798e8fe8a6032e81ce2/research/hm/source2-pure-v-canonical-q-terminal/PROOF.md",
+    "sha256": "64b8b659df676bbca022d3e3bbfbfd0dba2c2fa2a82a3681d70b737d57d8db7d",
+    "git_blob": "8b9919723955714338edae3b6c354239f8846e8d"
+  },
+  {
+    "label": "1064",
+    "commit": "bfc239e1c8624a0346394e1454b0bea3c976d40d",
+    "path": "research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "local_path": "inputs/1064.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc239e1c8624a0346394e1454b0bea3c976d40d/research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "sha256": "bf2ad7b5e982b7eeb0b44e1be7ef22656b56d0550a8c6f792a58b17c7bda3f17",
+    "git_blob": "20b3b58b92d4c44d1097d47a9e952c4dfa25b569"
+  },
+  {
+    "label": "1069",
+    "commit": "41bc20cade3198306c492c0c46399d71eb0d51c4",
+    "path": "research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "local_path": "inputs/1069.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/41bc20cade3198306c492c0c46399d71eb0d51c4/research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "sha256": "05554bd1bd93401fd77f6430cd93318cc81413665e029d03af173cd8fb3883d9",
+    "git_blob": "827cd956e2eb574fd7d40d408e0450c8581fd7d2"
+  },
+  {
+    "label": "1089",
+    "commit": "f8dfebc8c12cbefd3b17422fa1220629e90af78e",
+    "path": "research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "local_path": "inputs/1089.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f8dfebc8c12cbefd3b17422fa1220629e90af78e/research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "sha256": "8c3591fbe0c79f553a71aa4d7c7edbf0f6cc7a12557921f95cd02c777afd1d97",
+    "git_blob": "7459702e0b6c28aa6605ca34e2cbd98a9d366417"
+  },
+  {
+    "label": "1059",
+    "commit": "af2f163e4bcc593b6895ace840c139d2d4668cde",
+    "path": "research/hm/source2-pure-v-residual-p-channel/PROOF.md",
+    "local_path": "inputs/1059.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af2f163e4bcc593b6895ace840c139d2d4668cde/research/hm/source2-pure-v-residual-p-channel/PROOF.md",
+    "sha256": "ebcd4b123652a7526a74459d0d5875858de7ac90480d38ee1928fd293a31cb18",
+    "git_blob": "2b00a40de04a7084ff2f08c767fdd2f4f13ae5f4"
+  },
+  {
+    "label": "795",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "local_path": "inputs/795.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656"
+  },
+  {
+    "label": "1094",
+    "commit": "79b84d3b21cdbc76bb19d3a973e09981936dda32",
+    "path": "research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md",
+    "local_path": "inputs/1094.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/79b84d3b21cdbc76bb19d3a973e09981936dda32/research/hm/source2-pure-v-terminal-transfer-incidence/PROOF.md",
+    "sha256": "32de2ab5c3988c6a571cb1ceb2ec76031c5d3cf311ca51c33b528e9c337e9675",
+    "git_blob": "dd21bc9302ea9ffcd84dddf72ce7a676c326600d"
+  }
+]
