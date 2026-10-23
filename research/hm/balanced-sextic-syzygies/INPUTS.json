@@ -1,0 +1,23 @@
+[
+  {
+    "file": "inputs/pr1145-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/PROOF.md",
+    "git_blob_sha1": "357b420e0254de52a3ae5d4510744478159a1a10",
+    "bytes": 16005,
+    "sha256": "47ce243076419081917682b9ab78990e7cf8066598d8eae1f4a175e80ab91b98"
+  },
+  {
+    "file": "characters.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2e2da6c1226b7671c79e55b3c9f8bb14a0f8719b/research/hm/profile11-apolar-exclusion/characters.py",
+    "git_blob_sha1": "0660296ed3874b59a14b1afc75da1d031c6d63a9",
+    "bytes": 1776,
+    "sha256": "5b3b1d415f26ca467670afeb73357cbb0e9c125a6b1acd25155b6d85eef4e4f1"
+  },
+  {
+    "file": "inputs/character-reference.py",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/verify_negative_vertex_scalar.py",
+    "git_blob_sha1": "9eb58f03edde15dd612087440d8180e9e16d1755",
+    "bytes": 3298,
+    "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+  }
+]

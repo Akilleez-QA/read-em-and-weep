@@ -1,0 +1,345 @@
+{
+  "actual_instance_evaluated": false,
+  "checks": 508,
+  "equivariant_kernel": "Wprime tensor O(-3)",
+  "hilbert_vector": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    4,
+    2
+  ],
+  "multiplication_controls": [
+    {
+      "cokernel_dimension": 4,
+      "kernel_dimension": 0,
+      "multiplier_degree": 0
+    },
+    {
+      "cokernel_dimension": 2,
+      "kernel_dimension": 0,
+      "multiplier_degree": 1
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 0,
+      "multiplier_degree": 2
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 2,
+      "multiplier_degree": 3
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 4,
+      "multiplier_degree": 4
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 6,
+      "multiplier_degree": 5
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 8,
+      "multiplier_degree": 6
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 10,
+      "multiplier_degree": 7
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 12,
+      "multiplier_degree": 8
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 14,
+      "multiplier_degree": 9
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 16,
+      "multiplier_degree": 10
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 18,
+      "multiplier_degree": 11
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 20,
+      "multiplier_degree": 12
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 22,
+      "multiplier_degree": 13
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 24,
+      "multiplier_degree": 14
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 26,
+      "multiplier_degree": 15
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 28,
+      "multiplier_degree": 16
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 30,
+      "multiplier_degree": 17
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 32,
+      "multiplier_degree": 18
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 34,
+      "multiplier_degree": 19
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 36,
+      "multiplier_degree": 20
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 38,
+      "multiplier_degree": 21
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 40,
+      "multiplier_degree": 22
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 42,
+      "multiplier_degree": 23
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 44,
+      "multiplier_degree": 24
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 46,
+      "multiplier_degree": 25
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 48,
+      "multiplier_degree": 26
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 50,
+      "multiplier_degree": 27
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 52,
+      "multiplier_degree": 28
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 54,
+      "multiplier_degree": 29
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 56,
+      "multiplier_degree": 30
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 58,
+      "multiplier_degree": 31
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 60,
+      "multiplier_degree": 32
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 62,
+      "multiplier_degree": 33
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 64,
+      "multiplier_degree": 34
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 66,
+      "multiplier_degree": 35
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 68,
+      "multiplier_degree": 36
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 70,
+      "multiplier_degree": 37
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 72,
+      "multiplier_degree": 38
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 74,
+      "multiplier_degree": 39
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 76,
+      "multiplier_degree": 40
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 78,
+      "multiplier_degree": 41
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 80,
+      "multiplier_degree": 42
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 82,
+      "multiplier_degree": 43
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 84,
+      "multiplier_degree": 44
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 86,
+      "multiplier_degree": 45
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 88,
+      "multiplier_degree": 46
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 90,
+      "multiplier_degree": 47
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 92,
+      "multiplier_degree": 48
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 94,
+      "multiplier_degree": 49
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 96,
+      "multiplier_degree": 50
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 98,
+      "multiplier_degree": 51
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 100,
+      "multiplier_degree": 52
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 102,
+      "multiplier_degree": 53
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 104,
+      "multiplier_degree": 54
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 106,
+      "multiplier_degree": 55
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 108,
+      "multiplier_degree": 56
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 110,
+      "multiplier_degree": 57
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 112,
+      "multiplier_degree": 58
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 114,
+      "multiplier_degree": 59
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 116,
+      "multiplier_degree": 60
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 118,
+      "multiplier_degree": 61
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 120,
+      "multiplier_degree": 62
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 122,
+      "multiplier_degree": 63
+    },
+    {
+      "cokernel_dimension": 0,
+      "kernel_dimension": 124,
+      "multiplier_degree": 64
+    }
+  ],
+  "new_actual_profile_exclusion": false,
+  "quotient_length": 27,
+  "source_originals": 3
+}
