@@ -1,12 +1,18 @@
-# Living research paper · v0.60
+# Living research paper · v0.61
 
-**Craig Ward · 23 October 2026 · Current checkpoint: balanced sextic net and sharp apolar codimension bound**
+**Craig Ward · 23 October 2026 · Current checkpoint: complete sextic-channel and coefficient-span classification**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Complete sextic-channel and coefficient-span classification
+
+[The new universal classification](139-complete-sextic-channel-classification.md) covers all three equivariant sextic systems V, P and V+P, with multiplier thresholds 2, 1 and 0 and quotient lengths 27, 24 and 21. In the apolar setting it proves that the coefficient image equals the active-channel multiplier span. A nonzero map on the full system need not activate both constituents; inactive source blocks remain in the kernel and strengthen the codimension bound.
+
+The degree-one V-only image is exactly six-dimensional T, and the complete low-degree ambient table has verified abstract models. Center-even ambients exclude that degree-one setting. These are reusable structural results, not new actual-profile exclusions; profile (1,1), other-profile exhaustion and the original repair remain open.
 
 ## Balanced net and sharp apolar codimension criterion
 
