@@ -2,11 +2,27 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Marked-subspace comparison through PR1061
+
+[The canonical quartic complement](93-canonical-quartic-homotopy-complement.md) proves h|D_can:D_can→I2 is an isomorphism and im Q=ker h⊕D_can, an actual 28+5 decomposition. Therefore F4∩D_can=0 in either unselected endpoint branch. The intrinsic projector exists only on im Q; no horizontal full-module splitting, degree-five descendant claim or source exclusion follows.
+
+[The separate PR1060 source report](94-positive-mixed-embedding-source-report.md) records mr. slop's positive joint injections and marked T6, whose negative mixed descendants have both P and D channels nonzero. Their coefficient kernel is exactly V and the bundle quotient is V O(2). The selected P+D is in degree three, not the degree-two im h. This is a full-source reading, not an independent reproof.
+
+The completed five-stratum nonic classification, unselected generated endpoint dimensions 9/16 and four-pair source frontier remain unchanged.
+
+## Generated endpoint dichotomy through PR1059
+
+[Separated projection](91-pure-v-separated-projection.md) and [residual quotient transport](92-pure-v-endpoint-dichotomy.md) reduce the former eight necessary endpoint dimensions to **9 or 16**, with 9 exactly when the actual P_h lies in NC2. In the nine-dimensional branch F4=NC4=P+D, the quotient quadratic relation module is V+P, and its possible P graph scalar remains unselected. In the sixteen-dimensional branch F=I⊕Free_≤2(P_h) as negative modules only; Q maps P_h across to I4.
+
+Neither branch is selected or excluded. The actual radical points N0→NC⊂NR and kills NR; it is not a nonzero row on N8. No residual horizontal splitting is assumed. PR1054's endpoint-4 antecedent is now excluded, so its particular formal-rank-36 implication cannot be invoked; original rank 36 and formal persistence by other mechanisms are not excluded.
+
+The complete five-stratum component-scheme classification remains separate and unchanged. Four necessary source-dual pairs across three labels remain.
+
 ## Mixed original-fourth presentation through PR1055
 
 On the unselected nonzero ℓ₃ gate line, [the actual mixed presentation](90-pure-v-mixed-presentation.md) is 0→K_H→D O⊕A O(-2)→P O(1)→0 with map [L,−S], linear and cubic blocks, and surjectivity at every point. The full S₃ stabilizer characters and local duality give dim Ext¹_G(E,O(-4))=1, whereas the nonequivariant dimension is ten. The actual locally nonsplit extension is unique only up to nonzero scalar and rescaling its line injection. No splitting of K_H, actual coefficient selection or new source exclusion follows. The complete five-stratum classification remains unchanged.
 
-## Kernel and generated-module extensions through PR1054
+## Historical kernel and generated-module checkpoint through PR1054
 
 The completed five-stratum classification remains prominent and unchanged. No actual coefficient or source is selected.
 
