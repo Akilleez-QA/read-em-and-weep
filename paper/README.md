@@ -1,10 +1,36 @@
-# Living research paper · v0.39
+# Living research paper · v0.42
 
-**Craig Ward · 23 October 2026 · Structural update through PR1069; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR1079; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
-## Branch-to-coefficient restriction through PR1069
+## Positive Smith profile and residual-large module through PR1079
+
+[The positive-component Smith theorem](106-positive-component-smith-profile.md) proves, conditionally in endpoint nine, the exact profile (1 repeated 33 times, t²,t²,t²,t⁴) with four zero columns outside the 28-point support of the length-46 component scheme, and for the symbolic generic direction. The positive 41→37 component has maximal generic row rank 37, free formal kernel rank four, cokernel length ten and maximal-minor ideal (t¹⁰). No exceptional-support profile, full adjoint invertibility or other-parity conclusion follows.
+
+[The actual residual-large negative module](107-actual-residual-large-module.md) has degrees 2–5 of dimensions 9,14,16,6, length 45, socle I4 plus the actual terminal NR5, and annihilator (W)⁴, with exact minimal equivariant resolution. This requires zero N0 projection and nonzero N8 projection, not merely endpoint sixteen. The small module separately has length 32 and annihilator (W)³. Neither is the full Rao module or asserted positive-stable.
+
+Endpoint nine versus sixteen and source occurrence remain unselected; four necessary source-dual pairs remain. The diagram's forced nonzero conic stratum in endpoint nine and the universal five-stratum classification remain unchanged.
+
+## Forced nonzero conic gate and all-large transversality through PR1075
+
+[The no-D-incidence theorem](105-nonzero-small-transfer.md) proves D_C is not contained in Q(NC2) in either endpoint branch. Consequently Q(NC2)∩NC4 is I4 in endpoint nine and zero in every endpoint-sixteen branch, including nonzero N0 projection. This supersedes the former residual-large-only transversality boundary.
+
+The endpoint-nine incidence criterion now forces γ≠0. That branch has exactly the nonzero conic coefficient stratum R=γR₁ and component scheme Z plus twelve reduced ambient conic points, length 46. Its former zero-or-conic alternative is superseded. Neither endpoint branch nor an actual source is selected; the numerical scalar is not evaluated and the converse from conic membership to endpoint nine is not proved.
+
+The argument uses actual Q polynomial multiplication and injective universal prolongation, not full adjoint invertibility or an unproved Smith consequence. The actual negative module, its length-32 resolution and positive/full-Rao distinction remain as recorded below. Four necessary source-dual pairs remain.
+
+## Historical checkpoint through PR1074: actual module and scalar incidence
+
+[The alternating normalization](102-alternating-transfer-normalization.md) proves ρ_D(a)L_b*−ρ_D(b)L_a*=−2L_[a,b]*. In endpoint nine, Alt(B)=−γL_[a,b]*; whole-family vanishing of R, B and Alt(B) is equivalent to γ=0. No mixed commutation or endpoint-sixteen determination follows.
+
+[The actual negative module](103-actual-terminal-negative-module.md) promotes PR1066's artificial truncation using actual joint-negative annihilation of NC4. R·im h has degrees 2–4, length 32, exact annihilator (W)³ and the shifted minimal equivariant resolution. It is not the full Rao module, not asserted free over R/(W)³, and no positive-coordinate stability is supplied.
+
+[The scalar-incidence theorem](104-transfer-scalar-incidence.md) proves in endpoint nine that γ=0 iff NC4⊂Q(NC2), and γ≠0 iff their intersection is I4. A choice-independent residual D preimage and its exact nonzero universal descendant establish the equivalence. Neither side is selected at this checkpoint; no Q-preservation or extension to endpoint sixteen is asserted.
+
+The five-stratum universal theorem, endpoint-nine zero-or-conic constraint and four-pair source frontier remain as before.
+
+## Historical branch-to-coefficient checkpoint through PR1069
 
 [Canonical transfer](99-canonical-transfer-coefficient-line.md) proves that endpoint nine forces R=γR₁ with γ possibly zero. If nonzero, the actual gate is on β=0 and its nonic/original-fourth D component scheme is exactly Z plus twelve reduced ambient conic points, length 46. Thus the full five-stratum universal theorem remains complete, but only its conic nonzero stratum is available within endpoint nine. Neither endpoint branch nor zero/nonzero is selected; conic-line membership does not conversely force nine.
 
