@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "count": 28,
+  "checks": [
+    "sha256 1046",
+    "git blob 1046",
+    "sha256 1025",
+    "git blob 1025",
+    "target basis change invertible",
+    "source basis change invertible",
+    "target row normalization",
+    "compatible restored L",
+    "compatible H normalization",
+    "original Koszul kernel",
+    "basis change preserves kernel generator",
+    "kernel bridge Koszul relation",
+    "cokernel residue relation",
+    "surjection onto residue field",
+    "kernel-section zero ideal",
+    "two-generator regular-ideal syzygies",
+    "three-generator square-ideal syzygies",
+    "redundant-source image count off ell3",
+    "redundant-source image count on ell3",
+    "kernel ranks",
+    "K_F Chern data",
+    "K_H Chern data",
+    "rank-three twist Chern data",
+    "elementary modification correction",
+    "extension Chern consistency",
+    "rank and first Chern consistency",
+    "omitted defect would lose ten",
+    "row twists"
+  ],
+  "kernel_ranks": [
+    3,
+    4
+  ],
+  "Chern_data": {
+    "K_F": [
+      "-9",
+      "81-b"
+    ],
+    "K_H": [
+      "-10",
+      "100-b"
+    ],
+    "E": [
+      "-6",
+      "76-b"
+    ]
+  },
+  "local_modification": "R^2 plus m",
+  "defect_length": 10,
+  "scope": "formal local algebra; no actual coefficient evaluation"
+}
