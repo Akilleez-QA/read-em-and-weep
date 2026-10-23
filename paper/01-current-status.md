@@ -1,12 +1,18 @@
 # Current mathematical status
 
-**Craig Ward · 23 October 2026 · Current checkpoint: cubic visibility and ambient reduction through PR1145**
+**Craig Ward · 23 October 2026 · Current checkpoint: balanced sextic net and sharp apolar codimension bound**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
 Both source2 mechanisms and their fourth/fifth alternatives below are now **historical conditional deductions with an excluded full actual antecedent**, not active realized outcomes. No fourth/fifth value is selected. The universal identities and written proofs remain intact. This does not by itself exclude every abstract source2, establish geometric coverage of every actual source, or complete the original repair.
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
+
+## Balanced net and sharp apolar codimension criterion
+
+[The universal refinement](138-balanced-net-and-sharp-apolar-bound.md) identifies the marked sextic net's exact kernel W′O(-3), proves quadratic multiplication already surjective, and gives its finite polynomial quotient length 27. The resulting apolar criterion forces codimension at least n−2, or n−1 with a nonzero higher-degree source block, under explicit actual osculating-containment hypotheses. Both bounds have sharp abstract models.
+
+This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. Profile (1,1), other-profile exhaustion and the original repair remain open; the PDF is unchanged.
 
 ## Stronger cubic conditions and actual ambient reduction through PR1145
 
