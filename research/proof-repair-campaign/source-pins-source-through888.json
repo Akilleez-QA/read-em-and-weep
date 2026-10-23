@@ -1,0 +1,58 @@
+{
+  "887_PROOF": {
+    "local_file": "inputs/pr887_proof.md",
+    "path": "research/hm/profile11-source125-be-exclusion/PROOF.md",
+    "commit": "3ab2f311ed2e87828d42c7c0ce0124bcd6e35771",
+    "git_blob_sha1": "139ed6f19e5ab2ead6c9029e95e751ea132a0a49",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3ab2f311ed2e87828d42c7c0ce0124bcd6e35771/research/hm/profile11-source125-be-exclusion/PROOF.md"
+  },
+  "887_REVIEW": {
+    "local_file": "inputs/pr887_review.md",
+    "path": "research/hm/profile11-source125-be-exclusion/REVIEW.md",
+    "commit": "3ab2f311ed2e87828d42c7c0ce0124bcd6e35771",
+    "git_blob_sha1": "11f0da099faaaa16fc3ec6fcaed9484a7d29eadd",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3ab2f311ed2e87828d42c7c0ce0124bcd6e35771/research/hm/profile11-source125-be-exclusion/REVIEW.md"
+  },
+  "888_PROOF": {
+    "local_file": "inputs/pr888_proof.md",
+    "path": "research/hm/profile11-source127-hbf-exclusion/PROOF.md",
+    "commit": "e9908b1d42d59c844abdb79bc734117a041f3d04",
+    "git_blob_sha1": "335e2a3acc3e67fbeb0d8e3970134146e25afa8b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9908b1d42d59c844abdb79bc734117a041f3d04/research/hm/profile11-source127-hbf-exclusion/PROOF.md"
+  },
+  "888_REVIEW": {
+    "local_file": "inputs/pr888_review.md",
+    "path": "research/hm/profile11-source127-hbf-exclusion/REVIEW.md",
+    "commit": "e9908b1d42d59c844abdb79bc734117a041f3d04",
+    "git_blob_sha1": "db9dee5705e1a78f03c7f2f457b884c2e700ee0c",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e9908b1d42d59c844abdb79bc734117a041f3d04/research/hm/profile11-source127-hbf-exclusion/REVIEW.md"
+  },
+  "885_PROOF": {
+    "local_file": "inputs/pr885_proof.md",
+    "path": "research/hm/profile11-source127-hbf-kernel-reduction/PROOF.md",
+    "commit": "53939364de5459822be1a32be08f2b12dbbb4280",
+    "git_blob_sha1": "3d473e81c158e45c923a1177e71701c40ac477c5",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/53939364de5459822be1a32be08f2b12dbbb4280/research/hm/profile11-source127-hbf-kernel-reduction/PROOF.md"
+  },
+  "885_REVIEW": {
+    "local_file": "inputs/pr885_review.md",
+    "path": "research/hm/profile11-source127-hbf-kernel-reduction/REVIEW.md",
+    "commit": "53939364de5459822be1a32be08f2b12dbbb4280",
+    "git_blob_sha1": "65af053cc65eb86620fc4cbe10aea55ad0060a20",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/53939364de5459822be1a32be08f2b12dbbb4280/research/hm/profile11-source127-hbf-kernel-reduction/REVIEW.md"
+  },
+  "859_PROOF": {
+    "local_file": "inputs/pr859_proof.md",
+    "path": "research/hm/profile11-o16-high-p-divisor/PROOF.md",
+    "commit": "6129e92a26572779003f3295227f688b77ed881c",
+    "git_blob_sha1": "79ec9cd555997cb9e3b8dc76f3b64fa3f836ad2e",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6129e92a26572779003f3295227f688b77ed881c/research/hm/profile11-o16-high-p-divisor/PROOF.md"
+  },
+  "867_PROOF": {
+    "local_file": "inputs/pr867_proof.md",
+    "path": "research/hm/profile11-o16-cdf-kernels/PROOF.md",
+    "commit": "b2a12c98bc162062a938b7a7a6a90ab45786e340",
+    "git_blob_sha1": "76a6bd75b77232af222ccb91555499b4a4437311",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b2a12c98bc162062a938b7a7a6a90ab45786e340/research/hm/profile11-o16-cdf-kernels/PROOF.md"
+  }
+}
