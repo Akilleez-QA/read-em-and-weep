@@ -1,0 +1,171 @@
+{
+  "status": "pass",
+  "count": 31,
+  "checks": [
+    "sha256 1030",
+    "git blob 1030",
+    "sha256 1035",
+    "git blob 1035",
+    "sha256 1036",
+    "git blob 1036",
+    "sha256 1037",
+    "git blob 1037",
+    "sha256 1040",
+    "git blob 1040",
+    "sha256 1042",
+    "git blob 1042",
+    "sha256 1043",
+    "git blob 1043",
+    "distinct projective lines ell5 ell3",
+    "distinct projective lines ell5 rank",
+    "distinct projective lines ell5 conic",
+    "distinct projective lines ell3 rank",
+    "distinct projective lines ell3 conic",
+    "distinct projective lines rank conic",
+    "open stratum product",
+    "infinity in open stratum",
+    "all exceptional lines homogeneous",
+    "exact local sum ell5",
+    "exact local sum ell3",
+    "exact local sum rank",
+    "exact local sum conic",
+    "exact local sum open",
+    "four distinct finite lengths",
+    "length46 schemes distinguished",
+    "five disjoint nonzero strata"
+  ],
+  "strata": [
+    {
+      "stratum": "ell5",
+      "condition": "beta=2alpha",
+      "C5_local_lengths": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "C3_local_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_reduced_points": 0,
+      "length": 46
+    },
+    {
+      "stratum": "ell3",
+      "condition": "beta=-2alpha",
+      "C5_local_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C3_local_lengths": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "extra_reduced_points": 0,
+      "length": 54
+    },
+    {
+      "stratum": "rank",
+      "condition": "beta=-alpha",
+      "C5_local_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C3_local_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_reduced_points": 15,
+      "length": 49
+    },
+    {
+      "stratum": "conic",
+      "condition": "beta=0",
+      "C5_local_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C3_local_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_reduced_points": 12,
+      "length": 46
+    },
+    {
+      "stratum": "open",
+      "condition": "beta(beta+alpha)(beta-2alpha)(beta+2alpha)!=0",
+      "C5_local_lengths": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "C3_local_lengths": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extra_reduced_points": 0,
+      "length": 34
+    }
+  ],
+  "zero_pair": "zero ideal sheaf; entire plane base scheme; no finite length",
+  "scope": "nonic component ideal sheaf only; actual coefficient and source occurrence unselected"
+}
