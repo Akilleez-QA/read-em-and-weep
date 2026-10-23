@@ -1,0 +1,63 @@
+{
+  "751.md": {
+    "commit": "e21d50b6bd7d124dc419beeb8c27fa3b9ef3e169",
+    "git_blob": "09c3ad10f591dd8c314a57c336f8a36177a230ec",
+    "path": "research/hm/order-four-quadratic-load/TWO-ONE-INDEX-TWO-RESIDUAL-FULL-SPAN.md",
+    "sha256": "f7621cc508b76f8c12e52a0c5eddf067e18688a174265d930403fc8a69641026",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e21d50b6bd7d124dc419beeb8c27fa3b9ef3e169/research/hm/order-four-quadratic-load/TWO-ONE-INDEX-TWO-RESIDUAL-FULL-SPAN.md"
+  },
+  "758.md": {
+    "commit": "063216038f3aefd65617651c2426721efafc7f9b",
+    "git_blob": "f36afdf770e87556288a5cf7d87a6fa2fd2a9461",
+    "path": "research/hm/order-four-quadratic-load/TWO-ONE-INDEX-TWO-EXACT-RESIDUAL-GAUSS-FLAG.md",
+    "sha256": "65d1e4132f1be1d2b4323b2160d8562c28c5aa3350153b979a8e740ef40a1722",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063216038f3aefd65617651c2426721efafc7f9b/research/hm/order-four-quadratic-load/TWO-ONE-INDEX-TWO-EXACT-RESIDUAL-GAUSS-FLAG.md"
+  },
+  "790.md": {
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md"
+  },
+  "791.md": {
+    "commit": "2cd033a4a5ba549d07330427cd779364cb83c0fb",
+    "git_blob": "5a0d16a2f22032f1a0583b92ad71661b5abab59d",
+    "path": "research/hm/source2-pencil-endomorphism-algebra/PROOF.md",
+    "sha256": "8b0a5b22fd5221b7532befaee121dcf42edf0bbbc249141b8e029c957c527290",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2cd033a4a5ba549d07330427cd779364cb83c0fb/research/hm/source2-pencil-endomorphism-algebra/PROOF.md"
+  },
+  "795.md": {
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md"
+  },
+  "actual.md": {
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "git_blob": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+  },
+  "catalog796.json": {
+    "git_blob": "605094dfdb6968a78f2a57c110a41586a8e79939",
+    "sha256": "7c085250359b5445e8ef8da3f35763d495d5319660ca34c63aaf447078658bd5"
+  },
+  "gauss.md": {
+    "commit": "063216038f3aefd65617651c2426721efafc7f9b",
+    "git_blob": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+    "path": "research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/063216038f3aefd65617651c2426721efafc7f9b/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md"
+  },
+  "original_frontier.json": {
+    "git_blob": "8b5971092f9ef762584912609fd5e9301c4e271d",
+    "sha256": "a6fc9ec680d1866782e0233c234c5d80d398e9fc77734b59e61040ffc92021ad"
+  },
+  "through917.json": {
+    "git_blob": "2624794cc236aef8a5d9c8d427b60896f65da312",
+    "sha256": "486c673e7ddb1c0b427f4a819abd1b4854d775d1bbc1a90a3859574cd6995496"
+  }
+}
