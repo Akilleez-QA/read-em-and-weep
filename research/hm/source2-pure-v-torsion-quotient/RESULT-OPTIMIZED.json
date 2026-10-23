@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": 192,
+  "exact_inputs": 3,
+  "quotient_dimensions": [
+    36,
+    48,
+    33
+  ],
+  "first_rank_off_D12": 36,
+  "first_rank_on_D12": 35,
+  "common_first_kernel": 0,
+  "every_nonzero_second_rank": 33,
+  "degeneracy_divisor_degree": 12,
+  "degeneracy_multiplicity_each": 1,
+  "torsion_free_cokernel_rank": 12,
+  "torsion_free_cokernel_degree": 24,
+  "actual_source_evaluations": 0
+}
