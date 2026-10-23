@@ -1,0 +1,83 @@
+[
+  {
+    "label": "795",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "local_path": "inputs/795.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656"
+  },
+  {
+    "local_path": "inputs/1019.md",
+    "commit": "3fb2475ffb275c5789acbaa8f9f84ed272713785",
+    "path": "research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fb2475ffb275c5789acbaa8f9f84ed272713785/research/hm/source2-pure-v-secondary-homotopy/PROOF.md",
+    "sha256": "42bf6d6a1934410de15829108a397180bb8493fe49798fb1b7945ce0e252f682",
+    "git_blob": "bf63c14f76933d59fa7e3ac61aecb3366ac1b442",
+    "label": "1019"
+  },
+  {
+    "label": "1058",
+    "commit": "1435873de29d39e14ceee3de8d879e90f90b437a",
+    "path": "research/hm/source2-pure-v-separated-p-channel/PROOF.md",
+    "local_path": "inputs/1058.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/1435873de29d39e14ceee3de8d879e90f90b437a/research/hm/source2-pure-v-separated-p-channel/PROOF.md",
+    "git_blob": "3d42713aaaf4078e3a1b44d8eb3d9f545daa880c",
+    "sha256": "05452a2c52970e36e12914257a6b8666c8fe0faeaa8cd7b0930d434495a192df"
+  },
+  {
+    "label": "1064",
+    "commit": "bfc239e1c8624a0346394e1454b0bea3c976d40d",
+    "path": "research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "local_path": "inputs/1064.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/bfc239e1c8624a0346394e1454b0bea3c976d40d/research/hm/source2-pure-v-canonical-residual-string/PROOF.md",
+    "sha256": "bf2ad7b5e982b7eeb0b44e1be7ef22656b56d0550a8c6f792a58b17c7bda3f17",
+    "git_blob": "20b3b58b92d4c44d1097d47a9e952c4dfa25b569"
+  },
+  {
+    "label": "1069",
+    "commit": "41bc20cade3198306c492c0c46399d71eb0d51c4",
+    "path": "research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "local_path": "inputs/1069.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/41bc20cade3198306c492c0c46399d71eb0d51c4/research/hm/source2-pure-v-canonical-transfer/PROOF.md",
+    "sha256": "05554bd1bd93401fd77f6430cd93318cc81413665e029d03af173cd8fb3883d9",
+    "git_blob": "827cd956e2eb574fd7d40d408e0450c8581fd7d2"
+  },
+  {
+    "label": "1081",
+    "commit": "411b644cdc12938c35b7fedac5bb92664bfc1a47",
+    "path": "research/hm/source2-pure-v-separated-terminal/PROOF.md",
+    "local_path": "inputs/1081.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/411b644cdc12938c35b7fedac5bb92664bfc1a47/research/hm/source2-pure-v-separated-terminal/PROOF.md",
+    "sha256": "8ad27aec10fff6d135b6893806f59ad19a5c5ea15eca06fa2bf055d81a870bd5",
+    "git_blob": "3aa53fa809fa82cef18629cc040cf61fe4eb0a90"
+  },
+  {
+    "label": "1082",
+    "commit": "6f1cf5ad484bd6c3d6608345da576fb1221f8222",
+    "path": "research/hm/source2-pure-v-small-branch-exclusion/PROOF.md",
+    "local_path": "inputs/1082.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6f1cf5ad484bd6c3d6608345da576fb1221f8222/research/hm/source2-pure-v-small-branch-exclusion/PROOF.md",
+    "sha256": "4a97fddf0fd37c5b34839482d0fa25b209cfb63541c038ab0a2bbc8ca3e6f58e",
+    "git_blob": "34cfd846c86f7af4da8db0270e44d70f45e0d3dd"
+  },
+  {
+    "label": "1089",
+    "commit": "f8dfebc8c12cbefd3b17422fa1220629e90af78e",
+    "path": "research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "local_path": "inputs/1089.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f8dfebc8c12cbefd3b17422fa1220629e90af78e/research/hm/source2-pure-v-alternating-vanishing/PROOF.md",
+    "sha256": "8c3591fbe0c79f553a71aa4d7c7edbf0f6cc7a12557921f95cd02c777afd1d97",
+    "git_blob": "7459702e0b6c28aa6605ca34e2cbd98a9d366417"
+  },
+  {
+    "label": "1106",
+    "commit": "26ab0ded8bbe635d8aa81798e8fe8a6032e81ce2",
+    "path": "research/hm/source2-pure-v-canonical-q-terminal/PROOF.md",
+    "local_path": "inputs/1106.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/26ab0ded8bbe635d8aa81798e8fe8a6032e81ce2/research/hm/source2-pure-v-canonical-q-terminal/PROOF.md",
+    "sha256": "64b8b659df676bbca022d3e3bbfbfd0dba2c2fa2a82a3681d70b737d57d8db7d",
+    "git_blob": "8b9919723955714338edae3b6c354239f8846e8d"
+  }
+]
