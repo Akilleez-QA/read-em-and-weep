@@ -1,6 +1,6 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1046**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1049**
 
 **The universal pure-V component-scheme classification is complete, and now transfers to the determinant-embedded original fourth D row. The original proof repair is not.** Four necessary source-dual pairs across three stable labels remain. No actual compatible pure-V source, nonzero gate or coefficient ratio is selected.
 
@@ -24,13 +24,13 @@ This describes the component **ideal sheaf**, equivalently the saturated homogen
 
 The zero pair is separate: its component ideal is zero and its base scheme is the entire plane, with no finite length. Whether the actual conditional gate is zero remains unknown. The figure locates exact ratios, not mathematical branches between them, fractions of search space or completion percentages.
 
-## What closed the remaining scheme questions
+## Actual-map structure beyond classification
 
-- **Fifteen-axis occurrence and reducedness:** that orbit occurs exactly at β=−α. Whole-orbit remainder and Nakayama certificates give ambient maximal ideals, so this full scheme has length 49. The earlier possible fifteen-axis double points never occur. [Occurrence theorem](paper/79-pure-v-fifteen-axis-scheme.md)
-- **No thirty-point orbit:** an exact homogeneous mirror resultant and all exceptional gcds exclude this support for every nonzero coefficient pair, including coefficient infinity. [Whole-pencil exclusion](paper/80-pure-v-no-thirty-orbit.md)
-- **Conic thickness resolved:** at β=0, all twelve conic basepoints are reduced in the ambient plane, not just on the conic. Its complete scheme is Z plus that reduced orbit, length 46. [Ambient local ideals](paper/81-pure-v-conic-ambient-scheme.md)
+Under nonzero Q-compatible pure-V radical, the canonical homotopy satisfies the literal sandwich identity hTₐh=0. Consequently KₐKᵦ=0 for independent negative quadratic directions, and the middle products (XₗhYₘ)(XᵣhYₛ)=0 when **all four linear factors lie in the same negative W**. This is not cross-direction commutation: the alternating defect remains a potentially nonzero 29→28 interface. No coefficient equation is selected. [Polarized identities](paper/85-pure-v-polarized-sandwich.md)
 
-Together with the exact jet cases, these replace the older necessary nine-length list by an exhaustive scheme theorem. This completes the stated universal question, not the actual-source problem.
+For every nonzero gate, its nonic and determinant-fourth kernels are bundles of ranks three and four. Their exact bridge is 0→O(-4)→K_H→K_F(1)→C_L→0, with a length-ten cokernel at the order-three axes. The intermediate sheaf is locally R²⊕m, **not a bundle**; O(-4) is not a subbundle there. The local Koszul extension is nontrivial on every coefficient line. [Kernel bridge and Chern data](paper/86-pure-v-kernel-bridge.md)
+
+The exhaustive scheme theorem supersedes the older necessary nine-length list. These new structural identities extend actual-map understanding, not actual-source selection.
 
 ## Global geometry, source-reported
 
