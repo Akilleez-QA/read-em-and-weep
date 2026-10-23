@@ -1,10 +1,16 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint: cubic visibility and ambient reduction through PR1145**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint: balanced sextic net and sharp apolar codimension bound**
 
 **Maximal profiles (1,2) and (2,1) are excluded under the pinned profile-specific necessity theorems. Profile (1,1) and other-profile exhaustion remain open obligations; no global rank-three exclusion or complete original repair is claimed.**
 
-[Latest theorem and scope](paper/137-cubic-visibility-and-ambient-reduction.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+[Latest theorem and scope](paper/138-balanced-net-and-sharp-apolar-bound.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Historical archive](paper/52-root-status-archive-through993.md)
+
+## Balanced net and sharp apolar codimension criterion
+
+[The universal refinement](paper/138-balanced-net-and-sharp-apolar-bound.md) identifies the marked sextic net's exact kernel W′O(-3), proves quadratic multiplication already surjective, and gives its finite polynomial quotient length 27. The resulting apolar criterion forces codimension at least n−2, or n−1 with a nonzero higher-degree source block, under explicit actual osculating-containment hypotheses. Both bounds have sharp abstract models.
+
+This supplies reusable structure, not another actual-profile exclusion. PR1145 already excluded its rank-16 residual in constant dimension 21. Profile (1,1), other-profile exhaustion and the original repair remain open; the PDF is unchanged.
 
 ## Stronger cubic conditions and actual ambient reduction through PR1145
 
