@@ -1,0 +1,12 @@
+{
+  "checks": 1326,
+  "parity_regressions": 1008,
+  "first_endpoint_on_D_Q": "injective",
+  "typeIII_nonzero_X_arrow_Q_composite_rank": 4,
+  "typeIII_X_target_Q_projection_rank": 7,
+  "typeIII_radical_dimension_upper_bound": 1,
+  "typeI_II_radical_dimension_upper_bound": 2,
+  "source_dual_pairs_removed": 0,
+  "stable_labels_removed": 0,
+  "scope": "Universal symbolic and synthetic checks; actual ranks are proved structurally, not evaluated."
+}
