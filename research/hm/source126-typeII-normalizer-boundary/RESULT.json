@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 33,
+  "projective_normalizer_order": 3000,
+  "chosen_line_stabilizer_order": 120,
+  "chosen_quadric_stabilizer": "existing SL2(F5)",
+  "new_octic_character_from_known_normalizer": false,
+  "order4_block_scaling": "not an actual ambient HM automorphism (imported theorem)",
+  "full_HM_stabilizer_classified": false,
+  "actual_octic_scalar": "unselected",
+  "actual_HM_instance_evaluated": false,
+  "source_or_pair_removed": false
+}
