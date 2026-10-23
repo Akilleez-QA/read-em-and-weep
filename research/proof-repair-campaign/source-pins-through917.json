@@ -1,0 +1,42 @@
+{
+  "913_PROOF": {
+    "commit": "b84ea860de5ebe38cff3c54054e80dd4be5ac77c",
+    "git_blob_sha1": "ac36f048fc0987a1c78fbd9a61bc18077963ce20",
+    "local_file": "inputs/pr913_abcf_reduction.md",
+    "path": "research/hm/profile11-source127-abcf-reduction/PROOF.md",
+    "sha256": "0131265788f518421265bb94ffd8d3f78f2e60753ac3fc515c6810c9b69803de",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/b84ea860de5ebe38cff3c54054e80dd4be5ac77c/research/hm/profile11-source127-abcf-reduction/PROOF.md"
+  },
+  "PROOF.md": {
+    "commit": "c17aac695580fff0ff7dacd1247ce0b8adf01a8f",
+    "git_blob_sha1": "99392980f5c9d3befe6442fef12679fbf1f27319",
+    "local_file": "inputs/pr917_PROOF.md",
+    "path": "research/hm/profile11-source127-abcf-exclusion/PROOF.md",
+    "sha256": "c602fc27d75db4f386d00e8a65ced14888fc5f463f516b76e1c54f9306a909cc",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/PROOF.md"
+  },
+  "REVIEW.md": {
+    "commit": "c17aac695580fff0ff7dacd1247ce0b8adf01a8f",
+    "git_blob_sha1": "a41f5654e4e5b2b1d66715bdc6973f73fb5667bc",
+    "local_file": "inputs/pr917_REVIEW.md",
+    "path": "research/hm/profile11-source127-abcf-exclusion/REVIEW.md",
+    "sha256": "3b0edf85d274f77fdb8151cf47346f5058f85f729f0fc18863176c59ef5753db",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/REVIEW.md"
+  },
+  "audit-inputs/manifest.json": {
+    "commit": "c17aac695580fff0ff7dacd1247ce0b8adf01a8f",
+    "git_blob_sha1": "caabdb13db92344932b0dcb2529169b48fe16fd3",
+    "local_file": "inputs/pr917_audit-inputs_manifest.json",
+    "path": "research/hm/profile11-source127-abcf-exclusion/audit-inputs/manifest.json",
+    "sha256": "9e54013ab05c0e82a374633c9c101109fcf940b439bd9dab7810920515c0e4eb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/audit-inputs/manifest.json"
+  },
+  "verify.py": {
+    "commit": "c17aac695580fff0ff7dacd1247ce0b8adf01a8f",
+    "git_blob_sha1": "f83fe99ba244ac7838ce3a9bff11c7ecae2dd4cd",
+    "local_file": "inputs/pr917_verify.py",
+    "path": "research/hm/profile11-source127-abcf-exclusion/verify.py",
+    "sha256": "416c76ff2422524d26c1b5ca4b6938c0deb8e089a951155e229471add936af79",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/verify.py"
+  }
+}

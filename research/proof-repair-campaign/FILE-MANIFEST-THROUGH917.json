@@ -1,0 +1,46 @@
+{
+  "FRONTIER-THROUGH917.md": {
+    "bytes": 1459,
+    "sha256": "eee48be6297d748dffb1442b23846e89b8aeec0c1f0a9748b55aa5d3e2888500"
+  },
+  "INDEPENDENT-REVIEW-THROUGH917.md": {
+    "bytes": 4671,
+    "sha256": "4eda32441ebbd9056075392c700b6167c5ba559d5ffc0b180281c97a68e0deb8"
+  },
+  "frontier-source-through917.json": {
+    "bytes": 25804,
+    "sha256": "486c673e7ddb1c0b427f4a819abd1b4854d775d1bbc1a90a3859574cd6995496"
+  },
+  "inputs/pr913_abcf_reduction.md": {
+    "bytes": 13074,
+    "sha256": "0131265788f518421265bb94ffd8d3f78f2e60753ac3fc515c6810c9b69803de"
+  },
+  "inputs/pr917_PROOF.md": {
+    "bytes": 12837,
+    "sha256": "c602fc27d75db4f386d00e8a65ced14888fc5f463f516b76e1c54f9306a909cc"
+  },
+  "inputs/pr917_REVIEW.md": {
+    "bytes": 22541,
+    "sha256": "3b0edf85d274f77fdb8151cf47346f5058f85f729f0fc18863176c59ef5753db"
+  },
+  "inputs/pr917_audit-inputs_manifest.json": {
+    "bytes": 2548,
+    "sha256": "9e54013ab05c0e82a374633c9c101109fcf940b439bd9dab7810920515c0e4eb"
+  },
+  "inputs/pr917_verify.py": {
+    "bytes": 6723,
+    "sha256": "416c76ff2422524d26c1b5ca4b6938c0deb8e089a951155e229471add936af79"
+  },
+  "source-pins-through917.json": {
+    "bytes": 2608,
+    "sha256": "274e9491401cd17a26c8a59e499dfe356e8f27eb611b2ddd492a04d4b6939b43"
+  },
+  "test_source_frontier_through917.py": {
+    "bytes": 5100,
+    "sha256": "cacc69d353a130cfdc7f91172d1ce6aef0cab5640acba528c13b1621bde56d7a"
+  },
+  "verify_source_frontier_through917.py": {
+    "bytes": 8111,
+    "sha256": "48a50945284c17c6795a14df2a8ecf5f33555b9c234470d0ba3616565651fcfa"
+  }
+}
