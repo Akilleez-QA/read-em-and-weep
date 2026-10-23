@@ -1,6 +1,6 @@
 # Proof repair: status paper and spike-burn closeout
 
-**Craig Ward · Working edition v0.7 · 23 October 2026**  
+**Craig Ward · Working edition v0.8 · 23 October 2026**  
 **Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
 **Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
 
@@ -27,6 +27,14 @@ The original proof repair remains open. Four is a count in a fixed necessary rel
 See the [new source126 specialization](paper/36-source126-dual-specialization.md) and [six-pair checkpoint addendum](paper/35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
 
 ![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
+
+## Structural reductions through PR954
+
+**Four necessary pairs and three stable labels remain.** [PR953](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c12c02a601cc380e2e2cf233e7b37dddd46d563/research/hm/source2-radical-quotient-normal-form/PROOF.md) identifies the full negative-pencil quotient for regular source2 radical directions as N0 ⊕ N8 ⊕ (V+D)[2], independent of endpoint and residual coupling. Pure V and the exceptional mixed direction are excluded from this statement. No compatible line is selected, and an induced Q may still mix the summands.
+
+[PR954](https://github.com/Akilleez-QA/read-em-and-weep/blob/1dfd8f6b2b7d39d41de2619737b6cf4cfb951e75/research/hm/source126-typeI-joint-annihilator/PROOF.md) gives a conditional Type I source126 gate: if the whole radical is Q-compatible, its joint P-row determinant must vanish. Only annihilator footprints **32→28 or 36→32** remain; an acyclic quotient can be removed while preserving the specified formal Bocksteins. It does not prove that whole-radical compatibility is impossible or extend to Types II/III.
+
+The [latest addendum](paper/39-normal-forms-and-joint-row-gate.md) also reports the complete pinned PR948/952 texts: at most one vertex-extension scalar remains after an actual nonzero two-space obstruction. The actual bundle row, obstruction rank and scalar remain unselected. Those collaborator summaries are source readings, not an independent reproof here. No completion percentage is inferred.
 
 ## Source2 compatibility and conditional quotients through PR950
 
