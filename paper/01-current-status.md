@@ -2,13 +2,23 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
-## Post cutoff note
+## Current frontier after PR917
 
-Written updates PR913 and PR914 sharpen the remaining source127 a-b-c-f alternatives and permit conditional source-trace matching for an independent cone contraction without ambient extendability. Neither is a source or label cut: the frontier remains three labels and 146 necessary pairs. See [the post-burn structural update](34-post-burn-structural-update.md). The burn cutoff and inventory below are preserved.
+**23 October 2026: three labels, profiles 2 / 0 / 1, and 114 historical necessary pairs remain.** [PR917's pinned proof](https://github.com/Akilleez-QA/read-em-and-weep/blob/c17aac695580fff0ff7dacd1247ce0b8adf01a8f/research/hm/profile11-source127-abcf-exclusion/PROOF.md) excludes the entire source127 a-b-c-f tuple. The append-only accounting removes its exact 32 pairs from the historical burn frontier of 146; it does not remove the stable label, because source127 c-d-f remains. The residual distribution is **4 + 32 + 78**.
 
-## Bottom line
+| Stable label | Remaining source types | Necessary pairs |
+|---|---|---:|
+| G3.11.8ae96830fd21 | Source126 E10 | 4 |
+| G3.11.cce6e3ba4eeb | Source127 c-d-f only | 32 |
+| G3.21.d610e381ed75 | Source2 thirteen tuples | 78 |
 
-The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. The reconciled written-proof frontier has **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
+[PR918's fixed-minor construction](https://github.com/Akilleez-QA/read-em-and-weep/blob/dec584a79547733c88c3d3aab813388532f069f2/research/hm/physical-cone-minor-certificate/PROOF.md) gives a reproducible certificate for the previously abstract global-cone source factor, with 144 checks and 17 negative controls on synthetic/universal interfaces. The actual complete differential, physical extraction, marking, full ambient lower data and normalization still have to be supplied and authenticated. No actual obstruction value or complete repair is claimed.
+
+See the [post-burn structural update](34-post-burn-structural-update.md) for the arguments and exact boundaries. The closed-burn counts and chart below are historical, not the current 114-pair frontier.
+
+## Historical burn closeout
+
+The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. At the PR911 burn cutoff, the reconciled written-proof frontier had **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
 
 | Fixed quantity | Campaign baseline | Closeout | Change |
 |---|---:|---:|---:|
@@ -20,7 +30,7 @@ The baseline is the immutable 00:07 UTC snapshot in [PR805](https://github.com/A
 
 ![High-contrast fixed-snapshot reduction chart](figures/spike-burn-frontier.svg)
 
-## What remains
+## What remained at the burn cutoff
 
 | Stable label | Original source index | Remaining source types | Necessary pairs |
 |---|---:|---|---:|
