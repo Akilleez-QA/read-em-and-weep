@@ -1,0 +1,47 @@
+[
+  {
+    "key": "PR934",
+    "commit": "8c9847612b5f575b987cec9c62b72b099d745e44",
+    "path": "research/hm/reduced-opposite-pencil/PROOF.md",
+    "bytes": 15657,
+    "sha256": "69e72653c1b7fe6925743c877210f0ee5714b284d9e1d370afd8bff279e4c1d8",
+    "git_blob_sha1": "91dc4bc5c629e7ee3ba2694d2c05a4768b89b7ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8c9847612b5f575b987cec9c62b72b099d745e44/research/hm/reduced-opposite-pencil/PROOF.md"
+  },
+  {
+    "key": "SQUARE",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/HYPERPLANE-SQUARE-SURVIVORS.md",
+    "bytes": 11420,
+    "sha256": "036a45ff8998e84c9a967808faed91d6ce9283cc686e2fbb8c378b095beb7b2d",
+    "git_blob_sha1": "fb8a25eb2c7ef571f9a570fd5d1ee8a4ea17327a",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/HYPERPLANE-SQUARE-SURVIVORS.md"
+  },
+  {
+    "key": "COVER",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/THREE-LINE-FACTOR-COVER-GEOMETRY.md",
+    "bytes": 17219,
+    "sha256": "fe06da0f08baca41ef25dda6cc181e1e5a92135ef90b6ec0e2a5868de22e928c",
+    "git_blob_sha1": "c169ab73637ac86be9c94462e05ab26be7c01fdb",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/THREE-LINE-FACTOR-COVER-GEOMETRY.md"
+  },
+  {
+    "key": "CLASSIFICATION",
+    "commit": "35fc96bebf9c771a4de481c753bb527e510cd8c1",
+    "path": "research/hm/order-four-quadratic-load/REDUCED-DETERMINANT-THREE-CONIC-PENCIL.md",
+    "bytes": 10441,
+    "sha256": "f73bd8f4fd2ff07930396bc2498f26400e45eb21eac06d84ec9f5de9ecf9da85",
+    "git_blob_sha1": "ab6418a5af008be82a998ce15b186d3481caa61f",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/35fc96bebf9c771a4de481c753bb527e510cd8c1/research/hm/order-four-quadratic-load/REDUCED-DETERMINANT-THREE-CONIC-PENCIL.md"
+  },
+  {
+    "key": "GOOD",
+    "commit": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "path": "research/hm/order-four-quadratic-load/HYPERPLANE-ADJOINT-EXHAUSTION-AND-SIX-TO-TEN.md",
+    "bytes": 10976,
+    "sha256": "032750ba1e251148582d8ac16f72c5df19bb09ba7680e25d6958da02b82b8859",
+    "git_blob_sha1": "2061d33f661df97316e14e61a536275106fab9d5",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/HYPERPLANE-ADJOINT-EXHAUSTION-AND-SIX-TO-TEN.md"
+  }
+]
