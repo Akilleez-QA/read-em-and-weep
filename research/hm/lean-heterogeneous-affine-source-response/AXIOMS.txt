@@ -1,0 +1,5 @@
+'OAI.HorrocksMumford.affineSourceNormResponse_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.affineSourceNormResponse_eq_iff_mem_ker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'OAI.HorrocksMumford.affineSourceNormResponse_eq_iff_of_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
