@@ -1,0 +1,42 @@
+[
+  {
+    "label": "PR1118",
+    "commit": "f794fb1295693e7d2d9067013e5bd019d2a284a9",
+    "path": "research/hm/positive-middle-faithfulness/PROOF.md",
+    "git_blob": "7aecc0dee5926977f4b7ce65e3ecef78c89506a3",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f794fb1295693e7d2d9067013e5bd019d2a284a9/research/hm/positive-middle-faithfulness/PROOF.md",
+    "local_path": "inputs/PR1118.md",
+    "sha256": "3e63ddf20c265068aa83dfd07db008437ca8a928e4699ce7060af281c5e668f5",
+    "bytes": 11576
+  },
+  {
+    "label": "PR477",
+    "commit": "ff87076794e97238150485b12183c3cd0f4711e4",
+    "path": "research/hm/adjoint-primary-extension/PROOF.md",
+    "git_blob": "1cb91b7f5b7da08b6653c7fa48487ff7c3fd7198",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ff87076794e97238150485b12183c3cd0f4711e4/research/hm/adjoint-primary-extension/PROOF.md",
+    "local_path": "inputs/PR477.md",
+    "sha256": "0325c7b3cf237e27d4466e17c50cdb7f1a5cd874c310f32c03516acc250a2a38",
+    "bytes": 10321
+  },
+  {
+    "label": "PR1050",
+    "commit": "ec18a0fd62c4a9495adf6aad9564d379afc42b62",
+    "path": "research/hm/canonical-negative-string/PROOF.md",
+    "git_blob": "8563bb31385dac0174b3d17bcae7bfa9dcfad716",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ec18a0fd62c4a9495adf6aad9564d379afc42b62/research/hm/canonical-negative-string/PROOF.md",
+    "local_path": "inputs/PR1050.md",
+    "sha256": "6c2f23ce2110ee91b05631e1e31932a5fe5ecb36e86731cb5e79518879f7b67d",
+    "bytes": 9452
+  },
+  {
+    "label": "PR486",
+    "commit": "0de9b4b71cbbf3c4492871d9835952a0dcb41e12",
+    "path": "research/hm/level-section-resolution/PROOF.md",
+    "git_blob": "93a379dc422c45b4fad210d782169abc3583c286",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0de9b4b71cbbf3c4492871d9835952a0dcb41e12/research/hm/level-section-resolution/PROOF.md",
+    "local_path": "inputs/PR486.md",
+    "sha256": "0e7df08243d9cd60c812d29f57a88edd8bd87880670f640f7e6ac4562d740e41",
+    "bytes": 10493
+  }
+]
