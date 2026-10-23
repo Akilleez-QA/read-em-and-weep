@@ -1,0 +1,70 @@
+{
+  "actual_instances_evaluated": 0,
+  "by_category": {
+    "P irreducible": 1,
+    "Sym6 decomposition": 9,
+    "Sym8 decomposition": 9,
+    "V irreducible": 1,
+    "V18 multiplicity": 1,
+    "actual split arithmetic": 1,
+    "annihilator dimensions": 300,
+    "capacity": 3,
+    "character rationality": 16,
+    "common factor exponents": 260,
+    "common factor sign": 260,
+    "formal apolar annihilation": 17550,
+    "invariants": 1,
+    "nested allocations": 1,
+    "residual saturated line": 1,
+    "sextic H1": 5
+  },
+  "checks": 18419,
+  "interpretation": "Supporting universal controls; not proof-assistant verification.",
+  "nested_survivors": {
+    "5": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "6": [
+      [
+        2,
+        2,
+        2,
+        2,
+        0,
+        0
+      ]
+    ],
+    "7": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ],
+      [
+        0,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "raw_allocation_counts": {
+    "5": 1,
+    "6": 1,
+    "7": 19
+  },
+  "status": "PASS"
+}

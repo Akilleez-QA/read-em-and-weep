@@ -1,0 +1,14 @@
+{
+  "method": "fresh GitHub connector full-file reads, Git blob identity comparison against locally recomputed blob identity",
+  "authenticated_inputs": [
+    "inputs/apolar.md",
+    "inputs/actual-splitting.md",
+    "inputs/four-sources.md",
+    "inputs/strict-top.md",
+    "inputs/sextic-net.md",
+    "inputs/coefficient-span.md",
+    "inputs/jet-bound.md",
+    "inputs/characters-public.py"
+  ],
+  "status": "PASS"
+}
