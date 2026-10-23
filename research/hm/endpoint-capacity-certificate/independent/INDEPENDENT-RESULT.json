@@ -1,0 +1,18 @@
+{
+  "capacity_sha256": "bfe4be6c274e71529cf6c0aff64d2e3429cd6655bbec656edf2f1749585df383",
+  "checks": {
+    "certificate_acceptance_exhaustive": 12093,
+    "degree_gate": 6,
+    "equality_boundaries": 224175,
+    "flag_gate": 7,
+    "huge_binary_oracle": 99,
+    "invalid_domain": 6,
+    "malformed_heights": 11,
+    "malformed_scalars": 35,
+    "strict_inequality_not_filtered": 74725,
+    "synthetic_exhaustive": 74725
+  },
+  "scope": "Synthetic arithmetic only; no new actual-profile exclusion.",
+  "status": "PASS",
+  "total": 385882
+}
