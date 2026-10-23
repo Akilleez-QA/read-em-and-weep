@@ -2,6 +2,20 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Exact middle pairing through PR1091
+
+[PR1091](114-exact-middle-pairing.md) proves A_h:ker j3→W*⊗I2 is onto. On K3/F3 it has exactly S image and actual radical R_pair≅2W′+2S of dimension twelve. The coherent marked S_can provides a canonical four-dimensional complement **on this quotient**, giving K3/F3=R_pair⊕S̄_can. Its uncurried quotient pencil is cubic-to-quartic multiplication with cokernel O(4), up to an unselected nonzero scalar.
+
+These dimensions concern actual spaces and maps, not eliminated search fractions. They are distinct from the two unselected degree-five terminal dimensions six and twelve, corresponding to generated-module lengths 45 and 51. No lift splitting across F3, horizontal/Q/positive module splitting, or identification with the opposite-pencil S is supplied. Zero diagonal R remains unexcluded; endpoint sixteen, two mechanisms and four necessary source pairs remain the active frontier.
+
+## Odd rank and global alternating vanishing through PR1089
+
+[PR1086](111-actual-odd-quadratic-rank.md) proves actual odd Q3 rank eighteen, image 3T and cokernel W′. [PR1089](112-global-alternating-vanishing.md) resolves its remaining alignment: j3(ker Q3)=I3 and combined T-multiplicity rank four. The [mixed-syzygy obstruction](110-mixed-syzygy-transfer.md) forces κ=0. B is symmetric, determined by diagonal R; zero R and B remain unexcluded. The odd radical is not nullhomotopic. K3/F3 is exactly 2W′+3S, dimension sixteen; its H̄ doublet restriction is not determined here.
+
+Endpoint sixteen remains necessary, with two unselected mechanisms and negative lengths 51/45. Four necessary pairs remain. No surviving positive-component solution or full-adjoint rank is claimed. The universal component-scheme diagram is unchanged.
+
+[Full-source reports of mr. slop's PR1083/1087/1088](113-opposite-forced-channels-source-report.md) separately track forced actual opposite-pencil channels through twelve-, nine- and eight-source presentations. The latest retains a one-dimensional source-splitting ambiguity. Presentation-source rank nine is unrelated to the excluded generated endpoint nine; these reports are not independent reproofs or selections of a C row.
+
 ## Actual endpoint-nine exclusion and two surviving modules through PR1082
 
 [Actual quadratic commutation](109-small-branch-exclusion.md) excludes endpoint nine under the full source2 pure-V compatible-radical hypotheses. Hence F4 has dimension sixteen and P_h is not contained in NC2. This is a branch elimination, not a source2 exclusion or an actual realization. Four necessary pairs across three labels remain.
