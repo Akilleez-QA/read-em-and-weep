@@ -1,0 +1,65 @@
+[
+  {
+    "file": "inputs/pr1123-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+  },
+  {
+    "file": "inputs/profile21-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f7071d29886c83151028576bf32e001c347cafc9/research/hm/order-four-quadratic-load/TWO-ONE-PRIMAL-INTERIOR-AND-ENDPOINT-QUOTIENT-CONSTRAINTS.md",
+    "git_blob_sha1": "8facada49928336b52ff084e2ed9dbe6ef96bc9e",
+    "bytes": 10300,
+    "sha256": "e7b6bd952f51a1cabd589c4715a346c7180c7b91178d5acf33ba26ff81a84843"
+  },
+  {
+    "file": "inputs/profile12-ten-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/857cd414252618a53a79ddce72982c6d91341db9/research/hm/order-four-quadratic-load/ONE-TWO-ENDPOINT-ORBIT-CONSTRAINTS.md",
+    "git_blob_sha1": "44149baed70a6d111fd43d0049736700bcc78bf3",
+    "bytes": 8174,
+    "sha256": "b471ef49b8ae03f1ad85677b50ada969e59eb8b70a75a4e53b9ec368df29fb1c"
+  },
+  {
+    "file": "inputs/profile12-25-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ONE-TWO-FINITE-QUOTIENT-PAIRS-AND-ZERO-DEFECT.md",
+    "git_blob_sha1": "8e136cb9bbca193dea7c97519118156ea89c8455",
+    "bytes": 7150,
+    "sha256": "ecaa23ef3033db36ff96eb172468344d8833f4d157ebb5d6223ac1afb2e487c7"
+  },
+  {
+    "file": "inputs/frontier182.json",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/rank-three-quotient-frontier-182.json",
+    "git_blob_sha1": "7e733f9543651b00b309cd56804ddd0a2eaef517",
+    "bytes": 38248,
+    "sha256": "d4cdaa4dfd29b185d74f7ab34978df834aa39a60d96b339f7b0043c0fc4a2792"
+  },
+  {
+    "file": "inputs/actual-splitting.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  {
+    "file": "inputs/strict-top.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/NEGATIVE-GAUSS-KERNELS-STRICTLY-LOWER-THE-TOP-SLOPE.md",
+    "git_blob_sha1": "d7506dae49b4be43230450c4132bd5db91f137ef",
+    "bytes": 4983,
+    "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+  },
+  {
+    "file": "inputs/pr1124-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/48396766d4e61a9de2455b1d068ba8abe09e05f3/research/hm/primary-negative-summand/PROOF.md",
+    "git_blob_sha1": "e92d95b31d70fb54cf53200bde3dc5a14e73000c",
+    "sha256": "7f45763ca0ec815b12e8934478e4105e4a3f837c68dca39e31f922166fcb1add",
+    "bytes": 8173
+  },
+  {
+    "file": "inputs/pr1129-proof.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d1238732f42df5c70ba4430e230428d2cf699bbe/research/hm/primary-gauss-visibility/PROOF.md",
+    "git_blob_sha1": "c8094f1a85b48094a7538230db1f92acfd7929d0",
+    "sha256": "f7f267098d561de91e216f34588d1ab983947c2363b5a2dd4b0bd59104b39eed",
+    "bytes": 7259
+  }
+]
