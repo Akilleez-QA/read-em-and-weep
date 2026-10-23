@@ -1,0 +1,8 @@
+{
+  "status": "pass",
+  "checks": 36,
+  "negative_quadratic_reverse_hom_dimension": 3,
+  "joint_Q_all_negative_quadratic_reverse_hom_dimension": 0,
+  "actual_instance_evaluations": 0,
+  "scope": "conditional actual c-d-f one-sided preservation; no source or cubic-value claim"
+}
