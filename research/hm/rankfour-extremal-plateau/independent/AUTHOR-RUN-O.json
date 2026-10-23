@@ -1,0 +1,100 @@
+{
+  "F2_twist4_Euler": {
+    "A": -1,
+    "P": 2,
+    "V": 2
+  },
+  "authenticated_originals": 3,
+  "checks": 768,
+  "cubic_survivor": [
+    {
+      "coefficient": "1",
+      "degree": -2
+    },
+    {
+      "coefficient": "W'",
+      "degree": -1
+    },
+    {
+      "coefficient": "1",
+      "degree": 4
+    }
+  ],
+  "cubic_survivor_character": {
+    "T6": 2,
+    "W": 1,
+    "W'": 1
+  },
+  "determinant_defects": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "endpoint_degrees": [
+    -30,
+    -6
+  ],
+  "mutation_controls": [
+    "ranks",
+    "degrees",
+    "weights",
+    "lower",
+    "upper",
+    "source_h1",
+    "source",
+    "parity",
+    "candidate_keys",
+    "survivors",
+    "residual",
+    "h1_corrections"
+  ],
+  "new_abstract_candidate_count": 20,
+  "plateau_degrees": [
+    -30,
+    -46,
+    -54,
+    -54,
+    -46,
+    -30,
+    -6
+  ],
+  "plateau_ranks": [
+    5,
+    9,
+    13,
+    17,
+    21,
+    25,
+    29
+  ],
+  "possible_F2_twist4_H1": [
+    {},
+    {
+      "1": 1
+    }
+  ],
+  "quotient_degrees": [
+    -16,
+    -8,
+    0,
+    8,
+    16,
+    24
+  ],
+  "rank_four_slope_window": [
+    -2,
+    6
+  ],
+  "remaining_genuine_candidates": 0,
+  "scope": "Excludes only actual generic-rank-four maximal plateau (3,3), conditional on pinned actual geometry.",
+  "source_deficit_survivor": {
+    "R14": {
+      "T6": 2,
+      "W'": 1
+    },
+    "R3": "V"
+  },
+  "status": "PASS"
+}
