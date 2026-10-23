@@ -1,14 +1,18 @@
 # Proof repair: current status
 
-**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1008**
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR1015**
 
 **The original proof repair is open. Four necessary catalogue pairs across three stable labels remain.** Recent work restricts compatible radical actions and obstruction maps; it does not yet establish an actual source or complete the required lifting/algebraicity argument.
 
-[Latest mathematical update](paper/60-cdf-duality-complement-barrier.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
+[Latest mathematical update](paper/63-cdf-even-algebra-and-split-alternative.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
 
 ## What is established now
 
-- **c-d-f cubic reduction:** assuming only Q(X_B)⊂Y_B, the preserved block's internal second vanishes globally and its internal third lies in a raw three-dimensional space. Its nonvanishing is equivalent to generic original-fourth nonvanishing; neither value nor the preservation hypothesis is selected. No κ restriction or secondary ν is imported. [Actual interface and cubic](paper/59-cdf-preserved-b-cubic.md) Duality, endpoint characters and scalar commutant do not automatically give complementary preservation; an exact formal counterfamily blocks that shortcut, without realizing an actual HM map. [Duality boundary](paper/60-cdf-duality-complement-barrier.md)
+- **c-d-f even algebra classified:** the full negative-quadratic commutant has dimension eight; adding Q leaves scalars or C². The only nonscalar footprint would lift the original D kernel to all orders and force generic original rank36. Under extra one-sided B preservation the even commutant is scalar. No actual alternative is selected. [Classification and scope](paper/63-cdf-even-algebra-and-split-alternative.md)
+
+- **Octic scalar now has an exact coefficient address:** in the pinned normalization every lift has the unique form L=BU+αR and α is −27 times the pure q⁸ coefficient of L₀₀. The canonical polynomial lift R has sixteen reduced zeros, versus the projected generator's length46. **No actual L or its coefficient is supplied, so α remains unknown.** [Normal lift and extraction](paper/62-octic-normal-lift-and-scalar-address.md)
+
+- **c-d-f cubic reduction:** assuming only Q(X_B)⊂Y_B, the preserved block's internal second vanishes globally and its internal third lies in a raw three-dimensional space. Its nonvanishing is equivalent to generic original-fourth nonvanishing; neither value nor the preservation hypothesis is selected. No κ restriction or secondary ν is imported. The constant reverse-map mechanism is now excluded for Q together with all negative quadratics; parameter-dependent maps are outside that theorem. [Exact Hom calculation](paper/61-cdf-constant-reverse-map.md) [Actual interface and cubic](paper/59-cdf-preserved-b-cubic.md) Duality, endpoint characters and scalar commutant do not automatically give complementary preservation; an exact formal counterfamily blocks that shortcut, without realizing an actual HM map. [Duality boundary](paper/60-cdf-duality-complement-barrier.md)
 
 - **Whole octic generator geometry:** its zero scheme has length46: six triple fat points and ten simple points, with no square-conic zeros. The target factor alone still has length34. This computes the canonical nonzero generator, not its actual scalar, which remains unknown. [Full generator](paper/58-full-octic-generator-zero-scheme.md) · [Target factor](paper/56-octic-target-zero-scheme.md)
 
@@ -39,7 +43,7 @@ The ledger changes have different meanings: source2's 78→1 corrects overdue pr
 ## What remains unresolved
 
 1. Select or exclude actual compatible sources and radical-line footprints. Necessary catalogues and abstract models do not certify realization.
-2. Determine the unselected cubics in the applicable single-line rows and the conditionally preserved c-d-f block, and the separate full-J octic scalar. For the latter, find a different actual-complex relation: the secondary ν test is now proved identically ineffective. Neither reduction establishes actual occurrence; the full-J results cannot silently settle single-line rows.
+2. Determine the unselected cubics in the applicable single-line rows and the conditionally preserved c-d-f block, and the separate full-J octic scalar. For the latter, obtain an actual lift in the pinned coordinates and apply the verified scalar functional, or find a different actual-complex relation: the secondary ν test is now proved identically ineffective. Neither reduction establishes actual occurrence; the full-J results cannot silently settle single-line rows.
 3. Match the actual physical construction and its mixed multiplication constraints, then complete the required higher lifting/algebraicity argument. Conditional rank bounds are not a complete repair.
 
 The last established broader section count is [four or five sections on a general smooth inversion-even quadric, with no odd sections](https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md). Specialized extra kernel classes at exceptional directions are not computed by the generic-symbol statements above.
@@ -55,4 +59,4 @@ The burn ended at PR911 on **23 October 2026, 04:52:27 UTC (00:52:27 EDT)**. Its
 - [Physical construction dependencies](paper/33-burn-physical-construction.md) · [Campaign work gates](research/proof-repair-campaign/README.md)
 - [Upstream OpenAI collection and original attribution](upstream/openai-math/README.md)
 
-The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–60. The complete through-PR993 root snapshot and all historical figures are preserved.
+The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical results are separately pinned in chapters 53–63. The complete through-PR993 root snapshot and all historical figures are preserved.
