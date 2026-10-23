@@ -1,0 +1,113 @@
+{
+  "base_commit": "ad780e4a14cf7ac9c9f33140c05803b4c156fde8",
+  "original_guard": {
+    "bytes": 13296,
+    "sha256": "6915a220408dc3bb5045b6cfaaaef8267a6516319cdb98deca5ba5717614c6fc"
+  },
+  "original_producer_files": {
+    "README.md": {
+      "bytes": 6859,
+      "sha256": "1b0962329c493d38c5cf23e2d8390f7df5893f708ec7086e7f18409177423435"
+    },
+    "initializer.py": {
+      "bytes": 30486,
+      "sha256": "14d57d45128498daee5c6adc9eeda343c2d909ac41713fb5ed09acde3341085a"
+    },
+    "receipt.json": {
+      "bytes": 15602,
+      "sha256": "235fdaa6f2501e3a08ca81967e811b73fcf829e472ef93a41695d1abf2cd8eae"
+    },
+    "test_initializer.py": {
+      "bytes": 9276,
+      "sha256": "bc15b2dba963eaf442a5a3a23d06e9f00535e5f587808dba5fb36c95e7dcdb4a"
+    }
+  },
+  "original_review_reports": {
+    "BEHAVIORAL-REVIEW.md": {
+      "bytes": 5464,
+      "sha256": "b24710e4de30e62bbe138a1500430c72afa878e0bbc4b9391b9b15bae7fb95d5"
+    },
+    "STATIC-REVIEW.md": {
+      "bytes": 8923,
+      "sha256": "86a6aebc34fae4e84a910124f6c5b1a1c6c9628e71c8a63d462662b8ac412aed"
+    }
+  },
+  "original_successfully_executed_reviewer_files": {
+    "compare.py": {
+      "bytes": 10440,
+      "sha256": "b0e52cbc670c3e3b236d3024d54cdb776227c8aad47a56c303df0ce2a2626214"
+    },
+    "launch.py": {
+      "bytes": 856,
+      "sha256": "44211a8ea562f19f11daff67a89eb526a09574fd407d7d1cb5f63f42c49ab31f"
+    },
+    "pins.json": {
+      "bytes": 21115,
+      "sha256": "e7123f9542325db453ec07acff7a3521d9041429c69acc98cb09cd1ec263566a"
+    },
+    "reference_complete.py": {
+      "bytes": 5581,
+      "sha256": "835e3082a412b569389546d4b2130aa438d049844e2a631db6c0ae5a095e1ed2"
+    },
+    "reference_namespace.py": {
+      "bytes": 9559,
+      "sha256": "cd1d2c945aa7a40dfbe7d1d0351915445c88738c23faaf0f70eadd6dcf5624f4"
+    }
+  },
+  "portable_derivative": {
+    "comparison_body_check": "Exact text match from FORBIDDEN onward after three documented replacements: explicit PAYLOAD argument to build_namespace and error_schemas, and executable basename in output. Reference harness bytes are identical.",
+    "input_count": 84,
+    "scope": "No source formulas, comparisons, bindings, safe probes, negative fixtures or forbidden-call list changed. No symbolic rerun performed for relocation.",
+    "setup_changes": [
+      "argparse package/payload selection with sibling defaults",
+      "relative-role pin resolution; omit historical receipt/guard from replay inputs",
+      "metadata-only check-layout exit",
+      "require Python 3.12, SymPy 1.14.0 and mpmath 1.3.0",
+      "reject optimized Python execution explicitly"
+    ],
+    "status": "PACKAGING ONLY; not a new symbolic execution",
+    "unchanged_reference_harnesses": [
+      "reference_namespace.py",
+      "reference_complete.py"
+    ],
+    "verifier": "verify_namespace.py"
+  },
+  "sanitization": "Published receipt/stdout files are derivatives: artifact paths become stable role-relative names, process identifiers removed. Original byte hashes, sizes, versions, limits, resource measurements and statuses remain explicit. A retained command_sha256 identifies the original command, not the sanitized display.",
+  "schema": "initializer-publication-provenance-v1",
+  "success_runs": {
+    "equivalence-success": {
+      "original_receipt": {
+        "bytes": 28803,
+        "sha256": "4a062578c3eb98b4fc9ce3a9b709dc0084dd5b4deb3466663dc80d68bb0d82a4"
+      },
+      "original_runtime_status": "success",
+      "original_stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "original_stdout": {
+        "bytes": 39978,
+        "sha256": "cc423310ddf6ab191c05dfe4233b6a83972f7f3d689fd4e56b7a7780fdca8092"
+      },
+      "published_receipt": "equivalence-success-receipt.json",
+      "published_stdout": "equivalence-success-stdout.txt"
+    },
+    "namespace-smoke-success": {
+      "original_receipt": {
+        "bytes": 3001,
+        "sha256": "c9d6b13dbd08bb4a3bfc4b0084c4038fb2f0513277df106b2aac269f61e2d33d"
+      },
+      "original_runtime_status": "success",
+      "original_stderr": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "original_stdout": {
+        "bytes": 3911,
+        "sha256": "a148844b592c548317e12866abdcdc5c7aa54dd126767980db24ef94e42b4997"
+      },
+      "published_receipt": "namespace-smoke-success-receipt.json",
+      "published_stdout": "namespace-smoke-success-stdout.txt"
+    }
+  }
+}
