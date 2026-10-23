@@ -1,0 +1,29 @@
+{
+  "allowed_first_arrow_dimensions": [
+    12,
+    14,
+    17
+  ],
+  "canonical_scalar_kernel_dimension": 8,
+  "checks": 82,
+  "scope": "Bounded exact universal representation identities; no actual HM/source evaluation.",
+  "status": "PASS",
+  "universal_sharpness": [
+    {
+      "first_arrow_image_dimension": 12,
+      "formal_trace": "-1"
+    },
+    {
+      "first_arrow_image_dimension": 14,
+      "formal_trace": "1/3"
+    },
+    {
+      "first_arrow_image_dimension": 17,
+      "formal_trace": "1"
+    },
+    {
+      "first_arrow_image_dimension": 17,
+      "formal_trace": "0"
+    }
+  ]
+}
