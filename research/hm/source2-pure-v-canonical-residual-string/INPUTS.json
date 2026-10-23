@@ -1,0 +1,34 @@
+[
+  {
+    "local_path": "inputs/795.md",
+    "commit": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md",
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "git_blob": "9358ec81c552913fac20f3a92d7b9f7c58105656"
+  },
+  {
+    "local_path": "inputs/1050.md",
+    "commit": "ec18a0fd62c4a9495adf6aad9564d379afc42b62",
+    "path": "research/hm/canonical-negative-string/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ec18a0fd62c4a9495adf6aad9564d379afc42b62/research/hm/canonical-negative-string/PROOF.md",
+    "sha256": "6c2f23ce2110ee91b05631e1e31932a5fe5ecb36e86731cb5e79518879f7b67d",
+    "git_blob": "8563bb31385dac0174b3d17bcae7bfa9dcfad716"
+  },
+  {
+    "local_path": "inputs/1059.md",
+    "commit": "af2f163e4bcc593b6895ace840c139d2d4668cde",
+    "path": "research/hm/source2-pure-v-residual-p-channel/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af2f163e4bcc593b6895ace840c139d2d4668cde/research/hm/source2-pure-v-residual-p-channel/PROOF.md",
+    "sha256": "ebcd4b123652a7526a74459d0d5875858de7ac90480d38ee1928fd293a31cb18",
+    "git_blob": "2b00a40de04a7084ff2f08c767fdd2f4f13ae5f4"
+  },
+  {
+    "local_path": "inputs/1061.md",
+    "commit": "90f33f808c2962cdd4c41d11ac32a10c30b0d353",
+    "path": "research/hm/source2-pure-v-canonical-d-complement/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/90f33f808c2962cdd4c41d11ac32a10c30b0d353/research/hm/source2-pure-v-canonical-d-complement/PROOF.md",
+    "sha256": "57737d45d69c0873444243b5dacc5cea46c4372f8b0d605f97078a7807c0e18b",
+    "git_blob": "aae98e9c7bfdd084b342d222bbdb2c8b06c53c20"
+  }
+]
