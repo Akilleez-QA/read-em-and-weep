@@ -1,0 +1,47 @@
+[
+  {
+    "label": "979.md",
+    "local_path": "inputs/979.md",
+    "sha256": "15c1aaaa1517b06a86f942d9b416f920f87251e95f0ad2ab8e00585199564f24",
+    "git_blob": "59e79d627214f092a4a9be9de6efe3448909e66d",
+    "provenance": "immutable public input"
+  },
+  {
+    "label": "982.md",
+    "local_path": "inputs/982.md",
+    "sha256": "064b115e5b583ecb98c5d6fae5ca84fc54424c775fbad7d7578fa816f25b4acb",
+    "git_blob": "9b1e90b99f24263b0e97f4d5721e04495454e9bf",
+    "provenance": "immutable public input"
+  },
+  {
+    "label": "966.md",
+    "local_path": "inputs/966.md",
+    "sha256": "a62f8f6266601987fbfb2f67690a912a9eb9ccb41b04e1d8915652e545390ac4",
+    "git_blob": "6197582777ccd6f8899ff16e16d335315fd52a99",
+    "provenance": "immutable public input"
+  },
+  {
+    "label": "third-zero.md",
+    "local_path": "inputs/third-zero.md",
+    "sha256": "243e242a15ff2bb678b6c1c3cb33f203bbbed5b8bb0c23d8564e14536d9075cd",
+    "git_blob": "7c09fe95015d7c8d932b3a27be302ca09888112d",
+    "provenance": "immutable public input"
+  },
+  {
+    "label": "924.md",
+    "local_path": "inputs/924.md",
+    "sha256": "0d740d6f70de924b0442af71cb37e050165efbe9ab984a76f0e1e40b5d27a599",
+    "git_blob": "83f5aee293995257459229e6b323522224ce8f3d",
+    "provenance": "immutable public input"
+  },
+  {
+    "label": "preserved-b.md",
+    "local_path": "inputs/preserved-b.md",
+    "sha256": "e07a59e7b8e8d35b2f9a164515ff65eeddeca4baca4a0964c731b36b7713e38d",
+    "git_blob": "eebebae694f59e786aaebc64c3838d732b2a3832",
+    "provenance": "immutable public input",
+    "commit": "a7aa990e7705dd9dbf3d0fd34e437fa735c9e0f1",
+    "path": "research/hm/cdf-preserved-b-symbol/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a7aa990e7705dd9dbf3d0fd34e437fa735c9e0f1/research/hm/cdf-preserved-b-symbol/PROOF.md"
+  }
+]
