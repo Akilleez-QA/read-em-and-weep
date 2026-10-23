@@ -1,208 +1,51 @@
-# Proof repair: status paper and spike-burn closeout
+# Proof repair: current status
 
-**Craig Ward · Working edition v0.18 · 23 October 2026**  
-**Burn research cutoff:** PR911, 23 October 2026, 04:52:27 UTC (00:52:27 EDT).  
-**Execution status:** this burn is closed. The original proof-repair project remains open. No restart is launched by this report.
+**Craig Ward · 23 October 2026 · Mathematical checkpoint through PR995**
 
-## Current frontier after source126 specialization
+**The original proof repair is open. Four necessary catalogue pairs across three stable labels remain.** Recent work restricts compatible radical actions and obstruction maps; it does not yet establish an actual source or complete the required lifting/algebraicity argument.
 
-**23 October 2026: three stable labels and four necessary catalogue pairs remain, distributed 2 + 1 + 1.** Profiles remain **2 / 0 / 1**. The exact six-pair checkpoint establishes **114 = 77 + 31 + 6**. The subsequent source126 quotient theorem removes two of its four source126 entries, giving **6 = 2 + 4**. No whole label is removed.
+[Latest mathematical update](paper/53-internal-octic-gate.md) · [Paper index](paper/README.md) · [Detailed status](paper/01-current-status.md) · [Archived checkpoint history](paper/52-root-status-archive-through993.md)
 
-| Stable label | Source | Retained catalogue pairs (E, Q*) | Count |
-|---|---|---|---:|
-| G3.11.8ae96830fd21 | Source126 | (10,129), (10,157) | 2 |
-| G3.11.cce6e3ba4eeb | Source127 c-d-f | (14,148) | 1 |
-| G3.21.d610e381ed75 | Source2 | (13,21) | 1 |
+## What is established now
 
-These numerical indices identify entries in the pinned catalogues, not intrinsic bundle names; the certificates match their mathematical identities and test consistent reindexing.
+- **New full-radical Type II restriction:** the internal fourth through seventh symbols vanish globally. The eighth lies in a canonical one-dimensional rank-one line satisfying quotient-kernel naturality; its actual scalar remains unselected. This is internal progress, distinct from the already known all-orders original generic vanishing. It does not extend to the single-line cubic cases. [Octic gate and scope](paper/53-internal-octic-gate.md)
 
-Three different advances must not be conflated:
+- **Single compatible radical line:** its endpoint ranks have four necessary possibilities in Type I, six in Type II and three in Type III. The rows (9,4) and (14,9) force generic original rank 36 and every original generic Bockstein after the second to vanish. Four other abstract endpoint-module rows admit surjections, so rank data alone cannot exclude them. No row is asserted to occur. [Classification and limits](paper/50-compatible-line-footprints.md)
+- **Single-line non-acyclic reduction:** for u=0,k=1, the internal second vanishes and the internal third lies in a canonical two-dimensional cubic space. Its nonvanishing is equivalent to generic original-fourth nonvanishing. **The cubic is unselected here.** No secondary scalar ν or full-radical conclusion transfers automatically. [Exact applicable rows and interfaces](paper/51-single-line-symbol-transfer.md)
+- **Entire radical compatible, Type II only:** collective-image quotients have dimensions 27<28, forcing generic original rank exactly 36, all original generic Bocksteins after the second zero, and internal cubic r=0. This does **not** exclude the hypothesis itself or prove all later internal symbols vanish. The secondary scalar ν remains unselected. PR995 now resolves internal orders four through seven, but not the octic scalar or all later internal orders. [Conditional theorem](paper/48-collective-radical-images.md)
+- **Collaborator geometry:** mr. slop determines the ninth hyperplane-neighborhood gate's constant rank as twelve and its square-dual image. Its image splitting and conditional secondary D-row geometry are now described. The secondary coefficients remain unselected; finite-neighborhood results are not global opposite-bundle or quadric-survival conclusions. These summaries are complete source readings, not independent reproofs. [Ninth gate](paper/49-ninth-neighborhood-rank.md) · [Image splitting and secondary row](paper/51-single-line-symbol-transfer.md#4-collaborator-source-report-square-quotient-and-ninth-gate-image)
 
-- [PR937](https://github.com/Akilleez-QA/read-em-and-weep/blob/359475bea8dced5a6b12cc008f18bd81588fce41/research/hm/source2-bundle-specialization/PROOF.md) corrects overdue propagation of already established source2 structure into an overinclusive ledger: **78 → 1**. Its 77 removed pairs are not 77 new geometric discoveries.
-- [PR939](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c43c9b3bb9cb99c809c37a8fe8f8429f4b3a79e/research/hm/cdf-quotient-specialization/PROOF.md) proves a new quotient-bundle corollary of the c-d-f normal form: **32 → 1**. Its 31 removed pairs come from the forced equivariant quotient, without claiming a horizontal or constant lift splitting.
-- [PR941](https://github.com/Akilleez-QA/read-em-and-weep/blob/c14af3d39881197edd781aa06cb1e918ef8fd42a/research/hm/source126-dual-specialization/PROOF.md) proves a new source126 quotient specialization: **4 → 2**. Residual Types I and II force Q*129; Type III forces Q*157. The abstract template families do not identify an authenticated fixed HM realization.
+## Fixed necessary frontier
 
-The original proof repair remains open. Four is a count in a fixed necessary relation, not four actual realizations, four equally difficult tasks, a proof-completion percentage, or a measure of all possible proofs. Actual source compatibility, physical construction and higher lifting/algebraicity remain unresolved.
+| Source | Stable label | Retained catalogue pairs (E,Q*) |
+|---|---|---|
+| Source126 | G3.11.8ae96830fd21 | (10,129), (10,157) |
+| Source127 c-d-f | G3.11.cce6e3ba4eeb | (14,148) |
+| Source2 | G3.21.d610e381ed75 | (13,21) |
 
-See the [new source126 specialization](paper/36-source126-dual-specialization.md) and [six-pair checkpoint addendum](paper/35-six-pair-specialization.md) for bundle identities, exact evidence and recent collaborator results. The historical 146-pair burn endpoint below remains unchanged.
+These indices identify pinned catalogue entries, not intrinsic bundle names. The count is **2+1+1**, with profiles **2/0/1**. It is neither a count of actual realizations nor a completion percentage, probability of success, difficulty estimate or measure of all possible proofs.
 
-![Current necessary relation at full scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
+![Necessary relation at full baseline scale, with a separately labeled residual zoom](paper/figures/current-four-pair-frontier.svg)
 
-## Single-line cubic reduction through PR992
+The ledger changes have different meanings: source2's 78→1 corrects overdue propagation of older structure; c-d-f's 32→1 and source126's 4→2 are new quotient restrictions. Do not count the 77 corrected source2 entries as 77 new geometric discoveries. [Six-pair checkpoint](paper/35-six-pair-specialization.md) · [Four-pair specialization](paper/36-source126-dual-specialization.md)
 
-[PR992](https://github.com/Akilleez-QA/read-em-and-weep/blob/4a4947f8525f5e1519149221324deb88477546bc/research/hm/source126-compatible-line-symbols/PROOF.md) extends the internal second vanishing and canonical two-dimensional cubic gate to compatible-line rows **u=0,k=1**, without assuming full-radical compatibility: Type I (5,4), Type II (5,4)/(10,9), and Type III (10,9). The actual first-page interfaces and connecting maps are proved for these rows before transferring the universal arguments.
+## What remains unresolved
 
-**The cubic remains unselected in these single-line rows.** The full-J result r=0 does not transfer, and no secondary scalar ν is supplied. A single generator acts nontrivially on cohomology, so it cannot replace PR980's cohomologically null radical line. See [the new update](paper/51-single-line-symbol-transfer.md), also recording scoped source reports on the ninth-gate image splitting and conditional secondary D-row geometry. Four pairs and three labels remain.
+1. Select or exclude actual compatible sources and radical-line footprints. Necessary catalogues and abstract models do not certify realization.
+2. Determine the unselected cubic in the applicable single-line rows and the separate full-J octic scalar, or establish a different sufficient obstruction. Neither reduction establishes actual occurrence; the full-J results cannot silently settle single-line rows.
+3. Match the actual physical construction and its mixed multiplication constraints, then complete the required higher lifting/algebraicity argument. Conditional rank bounds are not a complete repair.
 
-## Compatible single-line footprints through PR988
+The last established broader section count is [four or five sections on a general smooth inversion-even quadric, with no odd sections](https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md). Specialized extra kernel classes at exceptional directions are not computed by the generic-symbol statements above.
 
-[PR988](https://github.com/Akilleez-QA/read-em-and-weep/blob/7ceeaa0bb1942ed628f7a25fa2f5fd3c3a1fe49d/research/hm/source126-compatible-line-ranks/PROOF.md) classifies a **single nonzero Q-compatible radical element**, without assuming compatibility of the entire radical. Its necessary endpoint-rank lists have four rows in Type I, six in Type II and three in Type III. The two rank-difference-five rows, **(9,4) and (14,9)**, force generic original rank 36 and all later original generic Bocksteins to vanish. No row is asserted to occur in the actual geometry.
+## Evidence, history and provenance
 
-The other four rows admit surjections between abstract square-zero endpoint modules: endpoint-rank data alone cannot obstruct surjectivity there. The [new classification](paper/50-compatible-line-footprints.md) identifies this exact limitation rather than claiming those abstract surjections are actual multiplication maps. **Four catalogue pairs and three labels remain.**
+Written results retain their pinned geometric premises. Exact Python tests support the arguments; they are not proof-assistant certification of the entire dependency chain. The burn produced 66 distinct checked supporting Lean declarations in 13 focused draft packages, not a formalization of the original theorem. A published draft PR is not a merge.
 
-## Collaborator update: the ninth-neighborhood gate is selected
+The burn ended at PR911 on **23 October 2026, 04:52:27 UTC (00:52:27 EDT)**. Its historical 146-pair endpoint and figures remain preserved. The proof-repair project remains open; this report does not restart the burn.
 
-Mr. slop's [PR986](https://github.com/Akilleez-QA/read-em-and-weep/blob/2f3eb11a6f55582e17f56c8bc9b310db9a37424d/research/hm/ninth-neighborhood-rank/PROOF.md) proves that the actual **30→15 ninth hyperplane-neighborhood gate has rank 12 at every parameter**, not merely generically. Its cokernel is A O(14); its kernel has rank 18 and degree 42, and its image has rank 12 and degree 78. The image is intrinsically dual to the actual square quotient, with the stated twist.
+- [Full chronological root snapshot through PR993](paper/52-root-status-archive-through993.md), preserving all previous caveats and provenance
+- [Burn assessment](paper/31-spike-burn-closeout.md) · [Execution and Lean evidence](paper/32-burn-execution-and-verification.md)
+- [Physical construction dependencies](paper/33-burn-physical-construction.md) · [Campaign work gates](research/proof-repair-campaign/README.md)
+- [Upstream OpenAI collection and original attribution](upstream/openai-math/README.md)
 
-The [scoped source report](paper/49-ninth-neighborhood-rank.md) distinguishes this finite hyperplane neighborhood from full ambient plane neighborhoods and from the global opposite-pencil bundle. Its full proof was read, not independently reproved here. **Four pairs and three labels remain.**
-
-## Full-radical Type II: cubic gate zero and generic rank 36 through PR985
-
-Under an actual source126 Type II occurrence with **the entire radical Q-compatible**, [PR985](https://github.com/Akilleez-QA/read-em-and-weep/blob/c20dfa80494258122e7ccadf4e7168ee9a37adc3/research/hm/source126-typeII-radical-top/PROOF.md) determines the collective radical images as P+2D and P+D, of dimensions 14 and nine. Their endpoint quotients have dimensions **27<28**, so every map commuting with that radical has rank at most 36. The retained original-second rank-three theorem supplies the matching lower bound: the original pencil has **generic rank exactly 36**, kernel dimension five and cokernel dimension one.
-
-The original generic formal matrix has 33 unit pivots, three order-two pivots and a zero residual block. Hence **all original generic Bocksteins after the second vanish**. The internal cubic symbol is also **r=0**, selecting the zero alternative in PR982's two-dimensional gate. The secondary scalar ν is still unselected. No claim is made that every later internal symbol vanishes or that exceptional-direction extra kernels have been computed.
-
-This is a conditional nonsurjectivity theorem, **not an exclusion of full-radical compatibility or Type II itself**: no authenticated contradiction with actual occurrence is supplied. **Four pairs and three labels remain; the original repair is open.** See [the collective-image update](paper/48-collective-radical-images.md). Earlier unselected-r statements below are dated checkpoints superseded under these same hypotheses.
-
-## Historical secondary compatibility restriction through PR984
-
-Under actual full-radical Type II compatibility, [PR984](https://github.com/Akilleez-QA/read-em-and-weep/blob/c1e056c0473657725fa94112e8529994114726db/research/hm/source126-typeII-secondary-third/PROOF.md) proves **ν=0 or r=0**: a nonzero secondary scalar forces the internal cubic symbol, hence the generic original fourth Bockstein, to vanish. An exact symbolic restriction certificate proves this implication on the canonical two-dimensional cubic space. PR984 alone selected neither alternative; PR985 now forces r=0 under the same hypotheses. Naturality is applied only to surviving quotient cycles.
-
-The [new addendum](paper/47-secondary-cubic-compatibility.md) also reports mr. slop's [PR983](https://github.com/Akilleez-QA/read-em-and-weep/blob/ebfca1a42571144907264f3172513b9b204a5744/research/hm/secondary-target-exclusion/PROOF.md): the actual secondary obstruction has no A-target channel, leaving six equivariant channels with unselected coefficients. Its two-root target reduces from 30 to 24 with the same kernel and rank, not an assertion of surjectivity. This is distinct from PR976's surjective ambient first-cup map.
-
-**Four pairs and three labels remain.** These are compatibility restrictions, not catalogue exclusions or a completed repair.
-
-## A two-dimensional cubic gate and new ambient geometry through PR982
-
-Under actual Type II and full-radical Q compatibility, [PR982](https://github.com/Akilleez-QA/read-em-and-weep/blob/25df67afcafd5f84c2c0cda7e6baee41fdbf8212/research/hm/source126-typeII-internal-third/PROOF.md) constructs a canonical **two-dimensional space** containing the internal third symbol. That symbol is nonzero exactly when the **generic original fourth Bockstein** on the surviving D kernel is nonzero. At the PR982 checkpoint neither outcome was selected; PR985 now selects r=0 under the same hypotheses. This is a precise reduction of an obstruction question, not two remaining catalogue pairs or a proof-completion estimate.
-
-The [new source report](paper/46-internal-cubic-gate-and-ambient-geometry.md) also records mr. slop's [PR976](https://github.com/Akilleez-QA/read-em-and-weep/blob/f23f8b9972d459c7c3ab532937964ef7f543b157/research/hm/balanced-first-cup-kernel/PROOF.md), which selects **K=T6 O(-1)⊕A O(-2)** and proves surjectivity of the ambient 30→24 first odd-scaling cup. This supersedes PR975's two-type alternative. [PR978](https://github.com/Akilleez-QA/read-em-and-weep/blob/a522b1eda23fc217eee42b84ba5b2b0fdcfc242e/research/hm/ambient-fourth-neighborhood-vanishing/PROOF.md) proves **H⁰(mR,B(3))=0 for every m≥4** for full ambient plane neighborhoods, with a six-dimensional purely odd space still present on 3R. This is distinct from the earlier B(4) order-four and hyperplane B(2) order-two obstruction statements. These collaborator summaries follow complete source readings, not independent reproofs.
-
-**Four necessary pairs and three stable labels remain.** The original repair, actual full-radical occurrence and secondary scalar ν remain open. PR985 now forces all original generic later Bocksteins to vanish under that hypothesis; later internal behavior is not fully selected. No earlier six-axis result is counted again.
-
-## Internal second vanishing and secondary homotopy through PR980
-
-Under actual Type II and full-radical Q compatibility, [PR979](https://github.com/Akilleez-QA/read-em-and-weep/blob/db4c20c05f18d5e2494d99eb4c359828446919c9/research/hm/source126-typeII-internal-second/PROOF.md) proves **zero internal second Bockstein** on the surviving D. This is a new internal comparison result using the **already known original third vanishing**, not a new proof of that older theorem. At that checkpoint the first unresolved internal order was at least three. PR985 now forces its cubic symbol and all original generic Bocksteins after the second to vanish under the same full-radical hypothesis.
-
-[PR980](https://github.com/Akilleez-QA/read-em-and-weep/blob/3dd68c99b9dfd85fe10cc327c2fa95c24bc185f5/research/hm/source126-typeII-secondary-homotopy/PROOF.md) constructs a unique equivariant homotopy for the canonical radical kernel line. Its secondary A channel and entire secondary cokernel channel vanish. Only a D-to-D transvectant channel with scalar **ν** remains, and ν is unselected. Any higher-naturality comparison applies only to cycles surviving the preceding differentials, not indiscriminately to all D.
-
-The full-radical occurrence hypothesis remains unproved. **Four pairs and three labels remain; no duplicate six-axis or local-square result is counted as new progress.** See [the internal-symbol update](paper/45-internal-second-and-secondary-homotopy.md).
-
-## Collaborator checkpoint through PR975
-
-The [pinned source report](paper/44-secondary-geometry-source-report.md) records mr. slop's selection of **normal order four** for the invariant B(4) candidate, superseding the former order-four-or-six alternative. It also reports a distinct uniform **order-two** obstruction for B|H_λ(2), a refined nonsplit secondary extension, and, at that checkpoint, two possible first-cup kernel types. PR976 now selects the negative two-step type, as recorded above. Full proof texts were read; this is not an independent reproof. None changes the source-pair count.
-
-## Type II scalar selection and actual obstruction transfer through PR973
-
-Under actual Type II and full-radical Q compatibility, [PR973](https://github.com/Akilleez-QA/read-em-and-weep/blob/f48c517d776b7f82ee1f96787da722223431a565/research/hm/source126-typeII-radical-naturality/PROOF.md) **forces μ=0**. The internal first symbol has constant rank three at every nonzero quadratic; its former nonzero-μ discriminant-conic alternative cannot occur here. The universal conic and kernel calculations remain valid under their stated scalar alternative, not live possibilities under these actual hypotheses.
-
-The theorem factors the **original canonical second Bockstein**, with the sign fixed by δ([x̄])=[Qx]: **ηβ₂ = −b_T δ⁻¹ b_S** on the whole original kernel A+D. It identifies the actual quotient first symbol b_T with multiplication modulo V6. Thus that quotient symbol has rank four outside the ten reduced nonsquare directions and rank three there; every nonzero square has rank four. This is an established map identification, not an inference from equal dimensions.
-
-The full-radical hypothesis remains unproved, and the non-acyclic quotient is not cancelled. **Four pairs and three labels remain; the original repair is open.** See [the naturality update](paper/43-radical-naturality-and-second-symbol.md).
-
-## Compatibility checkpoint through PR970
-
-[PR970](https://github.com/Akilleez-QA/read-em-and-weep/blob/b4267159972c8999ea3cfff53fbb631008d1e482/research/hm/source126-polar-integrability/PROOF.md) proves that the joint P-row map is injective, hence rank two, in source126 Types I and II. This is a universal polar-integrability restriction, not a genericity estimate or selected-instance computation.
-
-- **Type I:** compatibility of the entire two-dimensional radical with Q is impossible. The compatible radical has dimension at most one. The previously live conditional 32→28 full-radical branch is now excluded, although a compatible line and the Type I source itself remain unresolved.
-- **Type II:** under full-radical compatibility only **(r, epsilon, d)=(2,0,0)** remains. Its annihilator is **27→24**. The quotient has kernel D and cokernel P, so it is not acyclic and cannot be discarded. The other three former footprint alternatives are excluded under this hypothesis.
-
-**Four catalogue pairs and three labels remain.** These are compatibility-branch exclusions, not source-pair cuts. See [the checked polar-integrability update](paper/42-polar-integrability.md). At this checkpoint μ was unselected; PR973 now forces μ=0 under the actual full-radical Type II hypotheses.
-
-## Geometric checkpoint through PR969
-
-**Four necessary catalogue pairs and three stable labels remain.** [PR963](https://github.com/Akilleez-QA/read-em-and-weep/blob/410fc6d7dac16afc4af29590fa5d4e8b8a5dc0a4/research/hm/source2-pure-v-torsion-quotient/PROOF.md) identifies the pure-V quotient's first-arrow degeneracy scheme as a reduced twelve-point orbit. [PR966](https://github.com/Akilleez-QA/read-em-and-weep/blob/4d0a6713a9c81fe669967e1d23838bdc8f4162b6/research/hm/source2-pureV-quadratic-discriminant/PROOF.md) separately proves that the pure-V **image** quadratic map has rank four except at ten reduced projective directions, where its rank is three; every nonzero square has rank four. Neither result proves that a Q-compatible pure-V radical exists or permits cancelling its image as acyclic.
-
-The degree-six plane curve underlying the ten directions is the **classical Winger rational sextic**, not a newly discovered curve. Its identification uses the matching irreducible representation and multiplicity-one section space, not node counts alone. Earlier elliptic-quintic incidence conditions are not identified with our quadratic obstruction Q.
-
-[PR965](https://github.com/Akilleez-QA/read-em-and-weep/blob/de8e1d1a90d6f41dffa74df7cc7220c4e84bf4e7/research/hm/source126-typeII-internal-discriminant/PROOF.md) classifies the conditional Type II internal symbol: rank three if μ=0; if μ≠0, rank four on square quadratics and five off the discriminant conic. [PR969](https://github.com/Akilleez-QA/read-em-and-weep/blob/3e1d81ec3bd42a55d06321b57ee1f62822a6dcc3/research/hm/source126-typeII-symbol-cokernel/PROOF.md) upgrades that conic to the reduced projective degeneracy scheme and identifies its cokernel and kernel bundles. PR973 now forces μ=0 under actual full-radical Type II compatibility; the former nonzero-μ calculations remain valid universal conditional results, not a live branch here. Internal surjectivity would not by itself be original-map surjectivity.
-
-See [the new geometric and scheme-theoretic addendum](paper/41-pure-v-and-internal-symbol-schemes.md). Historical counts and figures are preserved; no proof-completion percentage is inferred.
-
-## Structural checkpoint through PR961
-
-**Four necessary pairs and three stable labels remain.** [PR959](https://github.com/Akilleez-QA/read-em-and-weep/blob/06919d6651dc9e747128a4c09c515bb3b0f41e09/research/hm/source126-typeI-polar-row/PROOF.md) proves that the Type I source126 joint P row is nonzero, independently of Q compatibility. At the PR959 checkpoint, combining it with PR954 forced rank exactly one under hypothetical compatibility of the entire radical. At that checkpoint the **36→32 alternative was excluded**, leaving **32→28**; PR970 now excludes full-radical Type I compatibility altogether. PR959 alone did not prove full-radical incompatibility; PR970 now does, without excluding Type I itself.
-
-[PR961](https://github.com/Akilleez-QA/read-em-and-weep/blob/cc3215b97a5c92a9253a9774d0f25ade0648b6e5/research/hm/source126-typeII-joint-annihilator/PROOF.md) separately proves a nonzero Type II P row and reduces hypothetical full-radical compatibility to **four annihilator footprints: 27→28, 32→28, 31→28 and 27→24**. At that checkpoint only the 32→28 row had an acyclic quotient; PR970 now excludes that row and retains only 27→24 under full-radical compatibility. In two rows an internal first symbol is forced nonzero, without contradicting the original first-symbol vanishing. These are conditional structures, not four new catalogue pairs or actual realizations.
-
-[PR960](https://github.com/Akilleez-QA/read-em-and-weep/blob/ac41f18da1e7870c30c6fe8bd2867667629c780d/research/hm/source2-quadratic-annihilator-reduction/PROOF.md) extends PR957's conditional source2 reduction to **every non-V Q-compatible radical line, including the exceptional mixed direction, if such a line exists**. The embedded endpoint quotient Z=V+D is killed by every negative quadratic, although its first arrows need not vanish. Its Q-restriction rank is either eight or three. Rank eight permits a further **24→20** equivalent reduction. Rank three leaves a permanent five-dimensional kernel plus an active **24→25** pencil and forces original rank at most 36 throughout **Q+Sym²W**. That is nonsurjectivity only on this specified affine family, not on all quadrics and not a source2 exclusion. Pure V remains outside the theorem.
-
-[PR958](https://github.com/Akilleez-QA/read-em-and-weep/blob/97857b1bcda30135507f160812823eb5e74bbf85/research/hm/source2-exceptional-quotient-structure/PROOF.md) separately identifies the exceptional mixed quotient as N0 ⊕ N8 ⊕ L, with L of dimensions (8,6,0) and genuine contraction arrows. Its common first-arrow kernel is zero, although every negative quadratic kills L's initial space. Q may still mix the summands. PR960 extends the two-term reduction by quadratic annihilation, not by falsely treating these first arrows as zero.
-
-The [new addendum](paper/40-conditional-reductions-and-finite-neighborhood.md) also gives a scoped source report on PR955: a unique invariant third-neighborhood section cannot extend to the seventh, historically reported as failing at ordinary normal order four or six; PR967 now reports selection of order four. No completion percentage follows from these restrictions.
-
-## Historical structural checkpoint through PR954
-
-**Four necessary pairs and three stable labels remain.** [PR953](https://github.com/Akilleez-QA/read-em-and-weep/blob/9c12c02a601cc380e2e2cf233e7b37dddd46d563/research/hm/source2-radical-quotient-normal-form/PROOF.md) identifies the full negative-pencil quotient for regular source2 radical directions as N0 ⊕ N8 ⊕ (V+D)[2], independent of endpoint and residual coupling. Pure V and the exceptional mixed direction are excluded from this statement. No compatible line is selected, and an induced Q may still mix the summands.
-
-[PR954](https://github.com/Akilleez-QA/read-em-and-weep/blob/1dfd8f6b2b7d39d41de2619737b6cf4cfb951e75/research/hm/source126-typeI-joint-annihilator/PROOF.md) gives a conditional Type I source126 gate: if the whole radical is Q-compatible, its joint P-row determinant must vanish. At that checkpoint, annihilator footprints **32→28 or 36→32** remained; PR959 now excludes the latter. The formerly surviving case permitted removal of an acyclic quotient; PR970 now excludes full-radical Type I compatibility. Historically, that quotient could be removed while preserving the specified formal Bocksteins. PR954 alone did not prove whole-radical incompatibility or extend to Types II/III; the later PR970 consequences are recorded above.
-
-The [PR954 checkpoint addendum](paper/39-normal-forms-and-joint-row-gate.md) also reports the complete pinned PR948/952 texts: at most one vertex-extension scalar remains after an actual nonzero two-space obstruction. The actual bundle row, obstruction rank and scalar remain unselected. Those collaborator summaries are source readings, not an independent reproof here. No completion percentage is inferred.
-
-## Source2 compatibility and conditional quotients through PR950
-
-[PR949](https://github.com/Akilleez-QA/read-em-and-weep/blob/e8d9943ed8402be90a6f249a1ad3dd51dcc3c628/research/hm/source2-invariant-compatibility/PROOF.md) proves that source2's negative-pencil algebra compatible with the invariant positive product is **C·1 ⊕ J_Q, with J_Q² = 0 and dim J_Q ≤ 1**. Every nontrivial compatible idempotent is excluded. Compatibility of the entire two-dimensional radical is also impossible: its actual 32-to-24 annihilator subpencil would be Q-surjective and force the same actual second Bockstein to vanish, contradicting its pinned nonvanishing theorem.
-
-[PR950](https://github.com/Akilleez-QA/read-em-and-weep/blob/54c7e78bd5351b3ecbdcc4b3b558a0012eb79566/research/hm/source2-radical-image-reduction/PROOF.md) additionally gives a conditional **32-to-28** quotient preserving the exact t-adic Bockstein problem when a non-V compatible radical line exists. The pure-V **36-to-33** quotient changes the kernel and is not an equivalent cancellation. Neither line existence nor its type is selected.
-
-A possible compatible nilpotent line remains. This does **not** prove scalarity, extend an endomorphism to the full HM module, or exclude source2. The frontier remains **four pairs across three labels**. See [source2 compatibility](paper/38-source2-compatibility.md) for the argument and verification boundary.
-
-## New structural restrictions through PR946
-
-**The necessary frontier is unchanged: four pairs across three stable labels.** Progress since the four-pair checkpoint concerns additional compatibility and geometry, not another catalogue cut.
-
-- [PR944](https://github.com/Akilleez-QA/read-em-and-weep/blob/84d7c9b3ee57c0a12c9e99816ec690cd8ea7ffbc/research/hm/source126-invariant-compatibility/PROOF.md) eliminates every nontrivial idempotent compatible with the invariant positive product in source126. The compatible algebra is scalars plus a square-zero radical of dimension at most two; scalarity is not established.
-- [PR946](https://github.com/Akilleez-QA/read-em-and-weep/blob/893e14c2aee0391cdc881679c5015a8aac48ac24/research/hm/source126-nilpotent-generation/PROOF.md) makes its action on the first endpoint faithful. In Type III, it excludes the pure X radical arrow, bounds the compatible radical dimension by one, and proves that the X-target projection of the invariant product is onto V+P. A possible mixed radical line remains unresolved.
-- [PR945](https://github.com/Akilleez-QA/read-em-and-weep/blob/089003175d9e31a7cf6288ab7a9e3ac4d66a3e63/research/hm/exceptional-adjoint-exhaustion/PROOF.md) proves exceptional adjoint exhaustion and **zero actual opposite-pencil torsion**. This supersedes the earlier unresolved 0/12/24 torsion alternatives. The reduced 26-to-31 pencil is injective on every fiber; the distinct vertex-restricted 40-to-43 pencil retains exactly its two-dimensional vertex-product kernel.
-
-See [the structural update](paper/37-compatibility-and-torsion.md). These are written results over pinned geometric premises, not a complete repair or proof-assistant verification of the entire chain. The splitting of the rank-five opposite-pencil bundle, remaining mixed multiplication constraints, source realization and lifting/algebraicity remain open.
-
-## Historical burn closeout
-
-The burn produced substantial structural pruning and several new construction interfaces, but **not a complete repair**. At the PR911 burn cutoff, the reconciled written-proof frontier had **three necessary quotient labels**, profiles **2 / 0 / 1**, and **146 historical necessary paired witnesses**. The source-recovery, higher-lifting and algebraicity objectives remain unresolved.
-
-| Fixed quantity | Campaign baseline | Closeout | Change |
-|---|---:|---:|---:|
-| Necessary quotient labels | 17 | 3 | 14 excluded |
-| Restricted historical necessary pairs | 1,790 | 146 | 1,644 removed |
-| Indexed profile counts (11 / 12 / 21) | 16 / 0 / 1 | 2 / 0 / 1 | Separate profiles retained |
-
-The baseline is the immutable 00:07 UTC snapshot in [PR805](https://github.com/Akilleez-QA/read-em-and-weep/pull/805), not the number of live jobs at startup. The final [certificate in PR912](https://github.com/Akilleez-QA/read-em-and-weep/pull/912) separates source cuts from whole-label exhaustion and passes **339 cumulative regression tests**. These are accounting/scope tests, not formal proofs of all geometric dependencies. The reductions are approximately **82.4% of the baseline labels** and **91.8% of its paired relation**. Neither is a proof-completion percentage, probability of success, difficulty estimate, or count of actual realizations.
-
-![High-contrast fixed-snapshot reduction chart](paper/figures/spike-burn-frontier.svg)
-
-## What remained at the burn cutoff
-
-| Stable label | Original source index | Remaining source types | Necessary pairs |
-|---|---:|---|---:|
-| G3.11.8ae96830fd21 | 126 | E10: (0,0,0,0,0,1,1,0) | 4 |
-| G3.11.cce6e3ba4eeb | 127 | c-d-f and a-b-c-f | 64 |
-| G3.21.d610e381ed75 | source2 | Thirteen original tuples | 78 |
-
-Nonempty abstract families exist for the degree-28 branch and source127 c-d-f. They show that the already imposed abstract conditions alone cannot eliminate those cases; they do **not** identify an actual HM realization. See [PR869](https://github.com/Akilleez-QA/read-em-and-weep/pull/869), [PR876](https://github.com/Akilleez-QA/read-em-and-weep/pull/876), and the [exact residual record](research/proof-repair-campaign/FRONTIER-THROUGH911.md).
-
-The [last established section-count conclusion](https://github.com/Akilleez-QA/read-em-and-weep/blob/72aa6fb732a803eb9201f45f1f82e60f54d296b4/research/hm/order-four-quadratic-load/POSITIVE-GENERIC-FOUR-OR-FIVE-SECTIONS.md) remains four or five sections on a general smooth inversion-even quadric, with no odd sections. This burn did not evaluate the decisive fourth/higher boundary or turn the three surviving labels into an actual solution.
-
-## The construction advance
-
-The new chain separates tasks that were previously easy to conflate:
-
-1. [PR816](https://github.com/Akilleez-QA/read-em-and-weep/pull/816): exact typed nonclosed frame-transfer defect, retaining both homotopy terms.
-2. [PR866](https://github.com/Akilleez-QA/read-em-and-weep/pull/866): mixing independently normalized lower projection and source row introduces a precise scalar error. Abstract gluing alone leaves a thirteen-dimensional trace ambiguity.
-3. [PR889](https://github.com/Akilleez-QA/read-em-and-weep/pull/889): with separately authenticated coherent symmetry and polynomial-family hypotheses, the calibration problem has ten family parameters and a two-family separating test. The varying source multiplier is retained.
-4. [PR894](https://github.com/Akilleez-QA/read-em-and-weep/pull/894): a supplied compatible source must pass a sharp 27-slot cohomology condition after canonical correction. Smaller trace tests do not certify membership. [PR903](https://github.com/Akilleez-QA/read-em-and-weep/pull/903) extends that limitation to regular algebraic nonlinear zero-tests.
-5. [PR904](https://github.com/Akilleez-QA/read-em-and-weep/pull/904): all seven compatible W-family directions leave the physical response unchanged on the stated fourth-neighborhood calculation. This does not extend to ambient or fifth-order norm equality.
-6. [PR908](https://github.com/Akilleez-QA/read-em-and-weep/pull/908): solve the canonical source on the global cone, lift, then recover a closed compatible W rather than guessing it first. The actual physical row and full ambient lower projection still have to be constructed and matched.
-7. [PR909](https://github.com/Akilleez-QA/read-em-and-weep/pull/909): for the additionally authenticated full-cover, regular, all-twist-compatible subclass, a realized normalization defect is divisible by the negative quadratic and gluing forces it to vanish. This does not erase the unrestricted abstract thirteen-space or supply the missing physical hypotheses.
-
-These are independently reviewed written deductions over pinned premises. Their bounded Python diagnostics are supporting checks, not Lean certification.
-
-## Formalization and execution evidence
-
-The burn published **13 focused draft Lean packages with 66 distinct checked supporting declarations**, using Lean 4.34.1 and pinned mathlib. Publication evidence records successful compilation and separate importing axiom checks; the audited closures list only propext, Classical.choice and Quot.sound. Four dependency rechecks are not counted as new declarations. The source/receipt audit is not a second independent kernel run.
-
-These packages formalize conditional algebra, frame transfer, trace coordinates, tensor/projector compatibility, source-dependent polynomial observation, and cyclic support. They do not formalize the whole geometric exclusion chain, construct the actual HM tensors/physical rows, or prove the original theorem.
-
-The earlier Python runtime track completed bounded initialization and one primitive-CG global unit. It did **not** complete the full 65-map q65 aggregate. Partial legacy logs remain partial. Resource receipts distinguish sampled process-group RSS from a hard address-space bound. No total cost, energy use or aggregate CPU figure is inferred from selected receipts.
-
-## Read the detailed report
-
-- [Spike-burn report and assessment](paper/31-spike-burn-closeout.md)
-- [Execution, verification, failures and Lean inventory](paper/32-burn-execution-and-verification.md)
-- [Physical construction and normalization dependencies](paper/33-burn-physical-construction.md)
-- [Post-burn structural update through PR918](paper/34-post-burn-structural-update.md)
-- [Six-pair specialization and exact current frontier](paper/35-six-pair-specialization.md)
-- [Campaign status and next-work gates](research/proof-repair-campaign/README.md)
-- [Updated progress map](paper/progress-map.md)
-
-All results remain in research/draft branches. A published PR is not a merge, and an independent written review is not a proof-assistant certificate. The upstream OpenAI collection remains separately attributed; its [original README](upstream/openai-math/README.md) is preserved. This documentation update does not move the original manuscript/Lean directories or merge the separate repository-reorganization proposal.
+The readability reorganization itself is supporting documentation, not mathematical progress. The new mathematical result is separately pinned in chapter 53. The complete through-PR993 root snapshot and all historical figures are preserved.

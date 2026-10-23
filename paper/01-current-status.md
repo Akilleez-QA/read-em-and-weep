@@ -2,6 +2,12 @@
 
 This page supersedes earlier current-status summaries, not their dated proofs.
 
+## Internal octic gate through PR995
+
+Under actual full-radical Type II compatibility, [PR995](https://github.com/Akilleez-QA/read-em-and-weep/blob/f9435fa37c78e86391fd1a773a039dd646a05e53/research/hm/source126-typeII-internal-octic-gate/PROOF.md) proves that the internal fourth through seventh symbols vanish globally. Its actual eighth symbol lies in a canonical one-dimensional rank-one line satisfying quotient-kernel naturality; its scalar is unselected. Rank-one exclusion alone kills orders four and five. Orders six and seven require additional actual-cycle naturality, which excludes their otherwise possible rank-one lines.
+
+This is **internal** progress, not a recount of the already established all-orders **original generic** vanishing. It does not select the single-line cubic from PR992 or transfer the secondary scalar ν. No pair is removed: four pairs and three labels remain. See [chapter 53](53-internal-octic-gate.md). Historical statements that later internal behavior is unresolved now have this bounded refinement; no all-orders internal conclusion is asserted.
+
 ## Current frontier after source126 specialization
 
 **23 October 2026: three stable labels and four necessary catalogue pairs remain, distributed 2 + 1 + 1.** Profiles remain **2 / 0 / 1**. The exact six-pair checkpoint establishes **114 = 77 + 31 + 6**. The subsequent source126 quotient theorem removes two of its four source126 entries, giving **6 = 2 + 4**. No whole label is removed.

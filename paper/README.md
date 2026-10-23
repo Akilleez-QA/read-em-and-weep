@@ -1,6 +1,6 @@
-# Living research paper · v0.18
+# Living research paper · v0.19
 
-**Craig Ward · 23 October 2026 · Structural update through PR992; necessary relation unchanged**
+**Craig Ward · 23 October 2026 · Structural update through PR995; necessary relation unchanged**
 
 The original repair remains open. Exact composed accounting leaves **three labels and four necessary pairs (2 + 1 + 1)**. The source2 change integrates older structure; c-d-f and source126 supply new quotient restrictions. None is an actual realization or a completion percentage.
 
@@ -34,30 +34,35 @@ The original repair remains open. Exact composed accounting leaves **three label
 
 [Single-line symbol transfer](51-single-line-symbol-transfer.md) verifies the actual interfaces that extend the second-zero/cubic-gate construction to u=0,k=1 single-line rows. Their cubic remains unselected, unlike the full-J case; no secondary ν transfer is made. The chapter also reports PR989/991 from complete source readings.
 
+[Archived root status through PR993](52-root-status-archive-through993.md) preserves the complete previous root checkpoint narrative. The root README now gives a concise current account with direct chapter links. This is documentation organization, not mathematical progress.
+
+[Internal fourth-through-seventh vanishing and octic gate](53-internal-octic-gate.md) establishes global internal orders four through seven as zero under full-J Type II compatibility. The actual eighth symbol lies in a canonical one-dimensional line, with scalar unselected. Single-line cubic uncertainty and original all-orders generic vanishing remain distinct.
+
 ## Current reading order
 
 1. [Root status paper](../README.md)
-2. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
-3. [Single compatible-line footprints](50-compatible-line-footprints.md)
-4. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
-5. [Collective radical images and generic rank](48-collective-radical-images.md)
-6. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
-7. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
-8. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
-9. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
-10. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
-11. [Compatibility exclusions](42-polar-integrability.md)
-12. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
-13. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
-14. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
-15. [Source2 compatibility](38-source2-compatibility.md)
-16. [Compatibility and torsion update](37-compatibility-and-torsion.md)
-17. [Source126 quotient specialization](36-source126-dual-specialization.md)
-18. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
-19. [Current progress map](progress-map.md)
-20. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
-21. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
-22. [Execution and supporting formalization](32-burn-execution-and-verification.md)
-23. [Physical construction chain](33-burn-physical-construction.md)
+2. [Internal octic gate](53-internal-octic-gate.md)
+3. [Single-line symbol transfer](51-single-line-symbol-transfer.md)
+4. [Single compatible-line footprints](50-compatible-line-footprints.md)
+5. [Ninth-neighborhood gate](49-ninth-neighborhood-rank.md)
+6. [Collective radical images and generic rank](48-collective-radical-images.md)
+7. [Secondary compatibility restriction](47-secondary-cubic-compatibility.md)
+8. [Internal cubic gate and ambient geometry](46-internal-cubic-gate-and-ambient-geometry.md)
+9. [Latest internal-symbol restrictions](45-internal-second-and-secondary-homotopy.md)
+10. [Collaborator secondary geometry](44-secondary-geometry-source-report.md)
+11. [Latest radical naturality](43-radical-naturality-and-second-symbol.md)
+12. [Compatibility exclusions](42-polar-integrability.md)
+13. [Geometric and scheme restrictions](41-pure-v-and-internal-symbol-schemes.md)
+14. [Conditional reductions](40-conditional-reductions-and-finite-neighborhood.md)
+15. [Normal forms and joint-row gate](39-normal-forms-and-joint-row-gate.md)
+16. [Source2 compatibility](38-source2-compatibility.md)
+17. [Compatibility and torsion update](37-compatibility-and-torsion.md)
+18. [Source126 quotient specialization](36-source126-dual-specialization.md)
+19. [Six-pair specialization and recent structural results](35-six-pair-specialization.md)
+20. [Current progress map](progress-map.md)
+21. [Earlier post-burn structural update through PR918](34-post-burn-structural-update.md)
+22. [Historical burn closeout through PR911](31-spike-burn-closeout.md)
+23. [Execution and supporting formalization](32-burn-execution-and-verification.md)
+24. [Physical construction chain](33-burn-physical-construction.md)
 
 Earlier chapters and figures are dated snapshots, not live counters. The historical burn endpoint remains three labels and 146 pairs; its figure is preserved. Supporting formalization remains 66 declarations in 13 draft packages, not a formal proof of the complete repair. Markdown is the maintained paper source.
