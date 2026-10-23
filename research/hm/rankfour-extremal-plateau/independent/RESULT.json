@@ -1,0 +1,203 @@
+{
+  "actual_HM_coefficients_parameters_jets_matrices_or_ranks_evaluated": false,
+  "authenticated_inputs": 10,
+  "independent_character_control": {
+    "class_sizes": [
+      1,
+      1,
+      30,
+      20,
+      20,
+      12,
+      12,
+      12,
+      12
+    ],
+    "class_trace_phi_coordinates": [
+      [
+        2,
+        0
+      ],
+      [
+        -2,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "orthogonal_irreducibles": 9,
+    "tensor_checks": 90
+  },
+  "integer_control": {
+    "F0_rank_degree_top": [
+      5,
+      -30,
+      -6
+    ],
+    "F1_excess": 1,
+    "F1_rank_degree_top": [
+      9,
+      -46,
+      -5
+    ],
+    "F2_excess": 2,
+    "F2_rank_degree_top": [
+      13,
+      -54,
+      -4
+    ],
+    "a": -30,
+    "b": -6,
+    "determinant_defects": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "graded_degrees": [
+      -16,
+      -8,
+      0,
+      8,
+      16,
+      24
+    ]
+  },
+  "quotient_control": {
+    "H0_B1": {
+      "T6": 1,
+      "W'": 1
+    },
+    "H0_B3": {
+      "T6": 2,
+      "W": 1,
+      "W'": 1
+    },
+    "chi_F2_4": {
+      "A": -1,
+      "P": 2,
+      "V": 2
+    },
+    "eligible_blocks": [
+      {
+        "H0_twist3": {
+          "W": 1
+        },
+        "coefficient": "1",
+        "degree": -2
+      },
+      {
+        "H0_twist3": {
+          "T6": 1,
+          "W'": 1
+        },
+        "coefficient": "P",
+        "degree": -2
+      },
+      {
+        "H0_twist3": {
+          "T6": 1
+        },
+        "coefficient": "V",
+        "degree": -2
+      },
+      {
+        "H0_twist3": {
+          "T6": 1
+        },
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "H0_twist3": {
+          "T6": 1
+        },
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "H0_twist3": {
+          "T6": 2,
+          "W'": 1
+        },
+        "coefficient": "W",
+        "degree": 3
+      },
+      {
+        "H0_twist3": {
+          "T6": 1,
+          "W'": 1
+        },
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "possible_H0_F2_4": [
+      {
+        "A": -1,
+        "P": 2,
+        "V": 2
+      },
+      {
+        "1": 1,
+        "A": -1,
+        "P": 2,
+        "V": 2
+      }
+    ],
+    "unique_survivor": [
+      [
+        -2,
+        "1"
+      ],
+      [
+        -1,
+        "W'"
+      ],
+      [
+        4,
+        "1"
+      ]
+    ],
+    "universal_shapes": 20
+  },
+  "rank_three_exclusion_transplanted": false,
+  "scope": "Only generic rank four with maximal ordered plateau (3,3) is excluded.",
+  "source_Z_without_historical_enumeration": {
+    "deficit": 3,
+    "degree_minus3_coefficient": {
+      "T6": 2,
+      "W'": 1
+    },
+    "degree_minus4_coefficient": "V",
+    "historical_enumeration_used": false
+  },
+  "verdict": "PASS, conditional on stated actual geometric premises"
+}

@@ -1,0 +1,416 @@
+[
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 6,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 3,
+      "S4": 1,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 4,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 2,
+      "S4": 1,
+      "T6": 1,
+      "W'": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 2,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 2,
+      "T6": 2
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -1,
+        "coefficient": "W"
+      },
+      {
+        "degree": 4,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 2,
+      "S4": 1,
+      "T6": 1,
+      "W'": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": -1,
+        "coefficient": "W'"
+      },
+      {
+        "degree": 4,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "T6": 2,
+      "W'": 1
+    },
+    "cubic_condition": true
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 2,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W'"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "A"
+      },
+      {
+        "degree": 6,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -2,
+        "coefficient": "V"
+      },
+      {
+        "degree": 6,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "S4": 1,
+      "T6": 2
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 2,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W'"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W'"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 2,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "S4": 1,
+      "T6": 2
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W'"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W"
+      }
+    ],
+    "h0_B3": {
+      "S4": 1,
+      "T6": 2
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": -1,
+        "coefficient": "W'"
+      },
+      {
+        "degree": 1,
+        "coefficient": "W'"
+      }
+    ],
+    "h0_B3": {
+      "S4": 1,
+      "T6": 2
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "1"
+      }
+    ],
+    "h0_B3": {
+      "S4": 4
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "A"
+      }
+    ],
+    "h0_B3": {
+      "W": 1,
+      "S4": 2,
+      "T6": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": 0,
+        "coefficient": "1"
+      },
+      {
+        "degree": 0,
+        "coefficient": "V"
+      }
+    ],
+    "h0_B3": {
+      "S4": 2,
+      "T6": 1,
+      "W'": 1
+    },
+    "cubic_condition": false
+  },
+  {
+    "blocks": [
+      {
+        "degree": 0,
+        "coefficient": "P"
+      }
+    ],
+    "h0_B3": {
+      "S4": 1,
+      "T6": 2
+    },
+    "cubic_condition": false
+  }
+]

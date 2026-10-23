@@ -1,0 +1,20 @@
+{
+  "actual_instance_data_used": false,
+  "author_declared_controls": 768,
+  "author_normal_optimized_match_supplied_result": true,
+  "blocking_issues": [],
+  "coarse_bad_bin_count_after_if_previous_27": 26,
+  "historical_enumeration_used": false,
+  "normal_optimized_other_cwd_match": true,
+  "rank_three_exclusion_imported": false,
+  "review_files": {
+    "INPUTS.json": "a2a51f9ba38ff8dc313256fbf2154df5dad7bbbb9fefb387bdbf4fef3b6574cb",
+    "RESULT.json": "a75e7ad3e24bb0b660ebd9f8ca3ecb4e02ceba1579df8f46b0b99dd4d9f13a66",
+    "REVIEW.md": "833f49eda36b097bda48790b31c08dd557926d2a73333a1e09a98f72de891b4e",
+    "check.py": "0c977043a983cd0d5d3f5ba6c343d6aee92287e7d051db5ec4fb374be927fd98"
+  },
+  "reviewed_proof_sha256": "7fac6f279bc25dcc0561743dfae189dd70f2cf98e81ad11371745f1c954d4e6a",
+  "reviewed_verifier_sha256": "debf8427b38d9fc7a0d1f71c11b0096edf4f730d6d0189af2eaea7aec7e275cd",
+  "scope": "actual generic-rank-four maximal ordered plateau (3,3) only",
+  "verdict": "PASS_CONDITIONAL"
+}

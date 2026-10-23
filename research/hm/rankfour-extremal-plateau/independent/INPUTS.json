@@ -1,0 +1,52 @@
+[
+  {
+    "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "bytes": 9672
+  },
+  {
+    "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c",
+    "bytes": 10451
+  },
+  {
+    "file": "reviewed/CANDIDATES.json",
+    "sha256": "0a3a59920d50b5f098c439fa84fa7be44fbfda906ec95634369209c390625ef8",
+    "bytes": 6023
+  },
+  {
+    "file": "reviewed/INPUTS.json",
+    "sha256": "8c9546d1d7fa5c4646ff4aaf388271d6bb5a8daa98e3e5442235b8525a158cb5",
+    "bytes": 1769
+  },
+  {
+    "file": "reviewed/PROOF.md",
+    "sha256": "7fac6f279bc25dcc0561743dfae189dd70f2cf98e81ad11371745f1c954d4e6a",
+    "bytes": 12414
+  },
+  {
+    "file": "reviewed/RESULT.json",
+    "sha256": "61f319f9c67382d9d96c9bb5d66b32db6b17bc8cf3c0cb23f29824cf05dbf200",
+    "bytes": 1389
+  },
+  {
+    "file": "reviewed/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "bytes": 9672
+  },
+  {
+    "file": "reviewed/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+    "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf",
+    "bytes": 15782
+  },
+  {
+    "file": "reviewed/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+    "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71",
+    "bytes": 12488
+  },
+  {
+    "file": "reviewed/verify.py",
+    "sha256": "debf8427b38d9fc7a0d1f71c11b0096edf4f730d6d0189af2eaea7aec7e275cd",
+    "bytes": 11508
+  }
+]
