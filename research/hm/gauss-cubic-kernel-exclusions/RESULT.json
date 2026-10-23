@@ -1,0 +1,252 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_originals": 8,
+  "checks": 130,
+  "global_rank3_exclusion": false,
+  "historical_cut_count_by_profile": {
+    "11": 4
+  },
+  "historical_enumeration_rerun": false,
+  "historical_rows_are_not_new_live_frontier_count": true,
+  "historical_rows_excluded": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -10,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.ed64b2cd0102",
+      "original_defect": 12,
+      "profile": "11",
+      "source_commit": "4c147e95217f0900fa13f195662d95e933412c3c",
+      "source_index": 98
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -10,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.1aa4528c491e",
+      "original_defect": 0,
+      "profile": "11",
+      "source_commit": "4c147e95217f0900fa13f195662d95e933412c3c",
+      "source_index": 100
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          10,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -18,
+          "one"
+        ],
+        [
+          -12,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.358793f77d6d",
+      "original_defect": 12,
+      "profile": "11",
+      "source_commit": "4c147e95217f0900fa13f195662d95e933412c3c",
+      "source_index": 104
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          10,
+          "one"
+        ]
+      ],
+      "B": [
+        [
+          -12,
+          "one"
+        ],
+        [
+          -6,
+          "one"
+        ],
+        [
+          6,
+          "one"
+        ]
+      ],
+      "id": "G3.11.8558f6c50687",
+      "original_defect": 0,
+      "profile": "11",
+      "source_commit": "4c147e95217f0900fa13f195662d95e933412c3c",
+      "source_index": 106
+    }
+  ],
+  "scope": "Two exact actual-source quotient exclusions, independent of maximal profile; not COV",
+  "theorems": [
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          8,
+          "one"
+        ]
+      ],
+      "H0_A2": {
+        "A": 1,
+        "D": 1,
+        "P": 1,
+        "V": 2
+      },
+      "Hom_from_O2_dimension": 0,
+      "backward_rank_hypothesis": null,
+      "chi_A4": {
+        "A": 0,
+        "D": 2,
+        "P": 2,
+        "one": 1
+      },
+      "chi_K4": {
+        "A": 0,
+        "D": 0,
+        "P": 1,
+        "V": 3,
+        "one": -1
+      },
+      "determinant_defect_hypothesis": null,
+      "excluded": true,
+      "fourth_twist_envelope": {
+        "A": 1,
+        "D": 1,
+        "P": 0,
+        "V": -1,
+        "one": 1
+      },
+      "name": "A8",
+      "profile_hypothesis": null
+    },
+    {
+      "A": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          10,
+          "one"
+        ]
+      ],
+      "H0_A2": {
+        "A": 1,
+        "D": 1,
+        "P": 2,
+        "V": 1,
+        "one": 1
+      },
+      "Hom_from_O2_dimension": 0,
+      "backward_rank_hypothesis": null,
+      "chi_A4": {
+        "A": 0,
+        "D": 2,
+        "P": 2,
+        "V": 1
+      },
+      "chi_K4": {
+        "A": 0,
+        "D": 0,
+        "P": 1,
+        "V": 2
+      },
+      "determinant_defect_hypothesis": null,
+      "excluded": true,
+      "fourth_twist_envelope": {
+        "A": 1,
+        "D": 1,
+        "P": 1,
+        "V": -1,
+        "one": 1
+      },
+      "name": "A10",
+      "profile_hypothesis": null
+    }
+  ]
+}
