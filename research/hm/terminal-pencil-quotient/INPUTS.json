@@ -1,0 +1,29 @@
+[
+  {
+    "key": "FILTRATION",
+    "ref": "3f811311d76914a555c7e7d0c5b887b41805aa6c",
+    "path": "research/hm/source2-radical-filtration/PROOF.md",
+    "bytes": 21176,
+    "sha256": "27a8802a004cb659e1b33cae9aabaca1e8188b1382d8477cac2bb31264c40937",
+    "blob": "9358ec81c552913fac20f3a92d7b9f7c58105656",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3f811311d76914a555c7e7d0c5b887b41805aa6c/research/hm/source2-radical-filtration/PROOF.md"
+  },
+  {
+    "key": "SOCLE",
+    "ref": "875e86e2eec36a050e9a626735199681762e43ec",
+    "path": "research/hm/restriction-socle-kernel/PROOF.md",
+    "bytes": 10582,
+    "sha256": "1ee98092e1322841d031d65649dee205299b88d9ba726599f0678d8b1e5b2a1e",
+    "blob": "29cadd1739c37309b31192beef30007acf14e8ef",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/875e86e2eec36a050e9a626735199681762e43ec/research/hm/restriction-socle-kernel/PROOF.md"
+  },
+  {
+    "key": "NONZERO",
+    "ref": "05e8b33eb87e9f36aa30500145cc42bc0ea00df8",
+    "path": "research/hm/pure-v-terminal-nonvanishing/PROOF.md",
+    "bytes": 11124,
+    "sha256": "4b027c735a5f46c1a293aace296d36b25699614997a64567dbc7994e5456d415",
+    "blob": "5ae07c02624d70c0ccd33d7ec34202504173ff83",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/05e8b33eb87e9f36aa30500145cc42bc0ea00df8/research/hm/pure-v-terminal-nonvanishing/PROOF.md"
+  }
+]
