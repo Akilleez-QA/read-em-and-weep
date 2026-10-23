@@ -1,0 +1,32 @@
+{
+  "checks": 981,
+  "non_V_two_term_quotient": [
+    32,
+    28
+  ],
+  "pure_V_quotient_rank": 29,
+  "pure_V_two_term_quotient": [
+    36,
+    33
+  ],
+  "quotient_pencil_dimensions": [
+    [
+      36,
+      48,
+      33
+    ],
+    [
+      32,
+      42,
+      28
+    ],
+    [
+      32,
+      36,
+      28
+    ]
+  ],
+  "scope": "Conditional structural reduction; bounded synthetic checks only.",
+  "source_instances_evaluated": 0,
+  "status": "PASS"
+}
