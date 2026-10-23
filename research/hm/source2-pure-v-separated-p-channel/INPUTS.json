@@ -1,0 +1,34 @@
+[
+  {
+    "local_path": "inputs/790.md",
+    "commit": "af0e03d26da5e47d18ae732291aca46f4d448dc5",
+    "path": "research/hm/source2-first-constant-block/PROOF.md",
+    "sha256": "0a05b3c947b159e86e332307ebf7e46bfbfce1f12947a6472842d8c133bb6fa4",
+    "git_blob": "0641ffadf54324d5520aec89767658e938815223",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af0e03d26da5e47d18ae732291aca46f4d448dc5/research/hm/source2-first-constant-block/PROOF.md"
+  },
+  {
+    "local_path": "inputs/792.md",
+    "commit": "2f01f18960ce56b8b2a0c1260c277de3c5f916bf",
+    "path": "research/hm/source2-radical-rank-profile/PROOF.md",
+    "git_blob": "76bee93507d1a2d0840926d4e4e27edadfebb7d7",
+    "sha256": "0d4eb3e4e9e98dd9ea8202399590f9741c06771411d5ce40e69a139c461b3798",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2f01f18960ce56b8b2a0c1260c277de3c5f916bf/research/hm/source2-radical-rank-profile/PROOF.md"
+  },
+  {
+    "local_path": "inputs/universal-symbols.md",
+    "commit": "6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0",
+    "path": "research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py",
+    "git_blob": "0ff4a2fd717842d8df9cf3ce3e3d29fd189bcd6e",
+    "sha256": "54bf8ce3b1e58fb512be71657bf9bfa37ce03bb24d3d993139f7e0e42590463b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/6c724c3b74e2ae4d6992d8c7b99b41c0715d69c0/research/hm/order-four-quadratic-load/verify_positive_second_bockstein_symbols.py"
+  },
+  {
+    "local_path": "inputs/1054.md",
+    "path": "research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "commit": "8732cb65fe0e72da59e785f3f85ad197a7092e6c",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8732cb65fe0e72da59e785f3f85ad197a7092e6c/research/hm/source2-pure-v-generated-homotopy/PROOF.md",
+    "sha256": "f788da29035b564f6f544629f724b90ceae5d975273eb15f0df9ac71fd4c643b",
+    "git_blob": "64e6bf9f1bf46440700ebab7c90a18f9d8155fd8"
+  }
+]
