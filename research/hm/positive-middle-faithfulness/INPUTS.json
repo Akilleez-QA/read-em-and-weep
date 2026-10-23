@@ -1,0 +1,42 @@
+[
+  {
+    "label": "PR485",
+    "commit": "251d9a62e97b36ad61191bfa603cdb384a3839f3",
+    "path": "research/hm/section-tail/PROOF.md",
+    "git_blob": "938dc53a2905d32971d0512dfddbd71d1d647c04",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/251d9a62e97b36ad61191bfa603cdb384a3839f3/research/hm/section-tail/PROOF.md",
+    "local_path": "inputs/PR485.md",
+    "sha256": "9bbfd053d4ef81ab0659e76593a5f793875c1cad9fc091bad9a4a46fda8af886",
+    "bytes": 12419
+  },
+  {
+    "label": "PR931",
+    "commit": "e28d3b74d4288239426ad1e675e806310fadf8be",
+    "path": "research/hm/positive-reachable-middle/PROOF.md",
+    "git_blob": "060ad3bacb45086349e911265d6c0d6157bef4a0",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e28d3b74d4288239426ad1e675e806310fadf8be/research/hm/positive-reachable-middle/PROOF.md",
+    "local_path": "inputs/PR931.md",
+    "sha256": "2f135afb909aa11483274a1eae49cbb3aa311f36b66b478bbeab59ad38072f8b",
+    "bytes": 10551
+  },
+  {
+    "label": "PR1114",
+    "commit": "fc79bc119a251c16d386467333f55cd46dc75367",
+    "path": "research/hm/repeated-v-channel-pencil/PROOF.md",
+    "git_blob": "ef68e9d6ce7583f2f146443f157ba895e2d16925",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/fc79bc119a251c16d386467333f55cd46dc75367/research/hm/repeated-v-channel-pencil/PROOF.md",
+    "local_path": "inputs/PR1114.md",
+    "sha256": "4ecb2dfce5a532932e29063a4ee79c2431ab1c74b00c8a3eee16d6b9ddbf2e87",
+    "bytes": 12440
+  },
+  {
+    "label": "PR1050",
+    "commit": "ec18a0fd62c4a9495adf6aad9564d379afc42b62",
+    "path": "research/hm/canonical-negative-string/PROOF.md",
+    "git_blob": "8563bb31385dac0174b3d17bcae7bfa9dcfad716",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ec18a0fd62c4a9495adf6aad9564d379afc42b62/research/hm/canonical-negative-string/PROOF.md",
+    "local_path": "inputs/PR1050.md",
+    "sha256": "6c2f23ce2110ee91b05631e1e31932a5fe5ecb36e86731cb5e79518879f7b67d",
+    "bytes": 9452
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "checks": 33,
+  "curried_reachable_dimension": 43,
+  "full_middle_dimension": 46,
+  "scalar_second_image_dimension": 3,
+  "scope": "Bounded fixed representation and degree bookkeeping; actual-map proof is written, no selected instance evaluation.",
+  "status": "PASS",
+  "transported_scalar_operator_rank": 1
+}
