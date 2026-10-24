@@ -1,0 +1,13 @@
+{
+  "checks": 61,
+  "not_claimed": [
+    "proof by computation",
+    "selected actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation",
+    "occurrence or exclusion beyond the stated conditional K2 intersection",
+    "original degree-eighteen tenth jets",
+    "horizontal splitting or quotient connection"
+  ],
+  "proof_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+  "scope": "four complete immutable originals; fixed character, degree and exact-sequence arithmetic",
+  "status": "PASS"
+}
