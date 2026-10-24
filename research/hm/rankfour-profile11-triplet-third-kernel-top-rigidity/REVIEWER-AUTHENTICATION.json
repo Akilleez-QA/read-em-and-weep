@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "reviewer": "Independent entire-proof reviewer",
+  "authentication_time_utc": "2026-10-24T09:18:51.011560+00:00",
+  "fresh_read_only_connector_calls": 6,
+  "proof_bytes": 20248,
+  "proof_sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542",
+  "scope": "Each of three complete direct original proofs freshly retrieved independently through immutable repository path and Git blob. Exact complete bytes, length, SHA256 and canonical Git blob SHA1 agree with retained inputs and pins. This authenticates direct source identities, not transitive source theorem truth. No GitHub writes.",
+  "records": [
+    {
+      "file": "inputs/lifted-jets-and-kernel-two.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "c565bd8b5b65829e99bdd96a7c5f076b01050465",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c565bd8b5b65829e99bdd96a7c5f076b01050465/research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "fresh_path_tool": "github_fetch_file, encoding=base64, complete immutable ref/path, no line slice",
+      "fresh_blob_tool": "github_fetch_blob, complete exact Git blob SHA",
+      "all_three_complete_byte_strings_identical": true,
+      "path_reported_blob_verified": true,
+      "path_reported_url_verified": true,
+      "measurements": [
+        {
+          "route": "immutable_path",
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+        },
+        {
+          "route": "git_blob",
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+        },
+        {
+          "route": "retained_local",
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+        }
+      ],
+      "raw_response_file": "REVIEWER-FRESH-lifted-jets-and-kernel-two.json",
+      "raw_response_sha256": "e3f74c65eb58b86fc004eddd3d35d8de22e2c8a7fcd8bb0761f994df28b03df9",
+      "raw_response_excluded_from_publication_and_replay": true
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "7d71f0e2a3963cff64a069198f4415c5cfd0fe9b",
+      "path": "research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7d71f0e2a3963cff64a069198f4415c5cfd0fe9b/research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "fresh_path_tool": "github_fetch_file, encoding=base64, complete immutable ref/path, no line slice",
+      "fresh_blob_tool": "github_fetch_blob, complete exact Git blob SHA",
+      "all_three_complete_byte_strings_identical": true,
+      "path_reported_blob_verified": true,
+      "path_reported_url_verified": true,
+      "measurements": [
+        {
+          "route": "immutable_path",
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec"
+        },
+        {
+          "route": "git_blob",
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec"
+        },
+        {
+          "route": "retained_local",
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec"
+        }
+      ],
+      "raw_response_file": "REVIEWER-FRESH-five-kernels.json",
+      "raw_response_sha256": "4229ad43e3ca54cd599214350e3877928973a33b5ca3d3287d2b6f59f839422e",
+      "raw_response_excluded_from_publication_and_replay": true
+    },
+    {
+      "file": "inputs/quartic-normal-map.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "06385eec63b85efac6cc25441d4b58d4fa5a8adb",
+      "path": "research/hm/rankfour-profile11-triplet-quartic-normal-map/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/06385eec63b85efac6cc25441d4b58d4fa5a8adb/research/hm/rankfour-profile11-triplet-quartic-normal-map/PROOF.md",
+      "fresh_path_tool": "github_fetch_file, encoding=base64, complete immutable ref/path, no line slice",
+      "fresh_blob_tool": "github_fetch_blob, complete exact Git blob SHA",
+      "all_three_complete_byte_strings_identical": true,
+      "path_reported_blob_verified": true,
+      "path_reported_url_verified": true,
+      "measurements": [
+        {
+          "route": "immutable_path",
+          "bytes": 15127,
+          "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+          "git_blob_sha1": "243adcdfe618e0792f330534c5c74931ad2741ac"
+        },
+        {
+          "route": "git_blob",
+          "bytes": 15127,
+          "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+          "git_blob_sha1": "243adcdfe618e0792f330534c5c74931ad2741ac"
+        },
+        {
+          "route": "retained_local",
+          "bytes": 15127,
+          "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+          "git_blob_sha1": "243adcdfe618e0792f330534c5c74931ad2741ac"
+        }
+      ],
+      "raw_response_file": "REVIEWER-FRESH-quartic-normal-map.json",
+      "raw_response_sha256": "b2253a1101faa4c0a1fa8dca6f14c80ed8261d637472b1d487514cea0a391871",
+      "raw_response_excluded_from_publication_and_replay": true
+    }
+  ]
+}

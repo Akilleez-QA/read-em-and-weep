@@ -1,0 +1,309 @@
+{
+  "status": "PASS",
+  "replay_time_utc": "2026-10-24T09:19:36.713062+00:00",
+  "proof_bytes": 20248,
+  "proof_sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542",
+  "isolated_directory": "/tmp/REVIEWER-LOCAL-third-kernel-isolated-r9dj9xqm",
+  "initially_empty": true,
+  "exact_selected_file_count": 8,
+  "only_selected_files_before_and_after": true,
+  "PYTHONPATH": "",
+  "PYTHONDONTWRITEBYTECODE": "1",
+  "no_bytecode_created": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "outputs_identical_bytes": true,
+  "scope": "Fixed universal character, degree, cohomology and formal differentiation checks. Replay is not a proof of actual geometric claims; those receive separate entire-proof review. No source-instance data or selected actual evaluation.",
+  "selected_manifest": [
+    {
+      "file": "PROOF.md",
+      "bytes": 20248,
+      "sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1605,
+      "sha256": "eb1e44ec0dda9d2decd8cb78c44696ad3241cf80a91762cbba78449629c40c3a"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 3216,
+      "sha256": "be173a46cf4ddf080afe0bb3e08db72195678a0a5f4db65b8fe16248fa0bd225"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 7523,
+      "sha256": "d940998771e2ad58920225a6d274d0089a5d6a3fe8a6fbb35ddf672bfdf51432"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc"
+    },
+    {
+      "file": "inputs/lifted-jets-and-kernel-two.md",
+      "bytes": 13703,
+      "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa"
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "bytes": 8501,
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a"
+    },
+    {
+      "file": "inputs/quartic-normal-map.md",
+      "bytes": 15127,
+      "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+    }
+  ],
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout_bytes": 3978,
+      "stdout_sha256": "518b85c3d6885c8dbb0fd8e8f1a4c4bfab4eed4a1d743dda4779847a47a5000c",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 77,
+        "proof_sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542",
+        "proof_bytes": 20248,
+        "universal_character_consistency_checks": 81,
+        "formal_rectangle_steps": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "scope": "Complete immutable input authentication and fixed universal character, degree and formal differentiation identities only. Arithmetic does not certify the structural geometric proof.",
+        "details": [
+          "three complete immutable originals",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "frozen entire-proof bytes",
+          "frozen entire-proof hash",
+          "fixed exact-rational character consistency checks",
+          "fixed identity one tensor Sym0",
+          "fixed identity one tensor Sym1",
+          "fixed identity one tensor Sym2",
+          "fixed identity one tensor Sym3",
+          "fixed identity one tensor Sym4",
+          "fixed identity one tensor Sym5",
+          "fixed identity one tensor Sym15",
+          "fixed identity V tensor Sym1",
+          "fixed identity P tensor Sym1",
+          "fixed identity D tensor Sym1",
+          "fixed identity T tensor Sym1",
+          "fixed identity S tensor Sym1",
+          "fixed identity W tensor Sym1",
+          "fixed identity Wp tensor Sym1",
+          "fixed identity A tensor Sym7",
+          "fixed identity A tensor Sym6",
+          "only S,T,Wp at degree minus five",
+          "Wp upper coherent derivative vanishes",
+          "Wp lower coherent derivative vanishes by degree",
+          "Wp internal derivative vanishes by strict degree",
+          "top minus four line internal derivative vanishes",
+          "S4 map has no V or P component",
+          "unique S4 to D evaluation-kernel inclusion",
+          "octic initial derivative has zero projection modulo D",
+          "octic row 1 universal evaluation Hom has dimension one",
+          "octic row 1 exact kernel degree",
+          "octic rank 2 is negative",
+          "octic row 2 universal evaluation Hom has dimension one",
+          "octic row 2 exact kernel degree",
+          "octic rank 3 is negative",
+          "octic row 3 universal evaluation Hom has dimension one",
+          "octic row 3 exact kernel degree",
+          "octic rank 4 is negative",
+          "octic row 4 universal evaluation Hom has dimension one",
+          "octic row 4 exact kernel degree",
+          "octic rank 5 is negative",
+          "octic bottom forward map is O(-8) to itself",
+          "octic line cannot map to either actual F6 block",
+          "formal derivative identity forces pairing (0,4) to vanish",
+          "formal derivative identity forces pairing (1,4) to vanish",
+          "formal derivative identity forces pairing (2,4) to vanish",
+          "formal derivative identity forces pairing (0,5) to vanish",
+          "formal derivative identity forces pairing (1,5) to vanish",
+          "formal derivative identity forces pairing (0,6) to vanish",
+          "formal order-three rectangle implies annihilation through original order six",
+          "at most one T6 highest block in rank ten",
+          "rank-four tail cannot contain a D coefficient block",
+          "unique actual fourth-jet inclusion in T6",
+          "actual fifth over fourth jet quotient has degree zero",
+          "O cannot map to original K in extension comparison",
+          "chi F(5) equals minus S4",
+          "chi F(4) equals minus P minus two D",
+          "fixed dimension-four budget factorizations",
+          "j8 doublets cannot contribute S4",
+          "the two possible deep atoms contribute exactly S4",
+          "S4(-7) would force nongenuine top",
+          "O(-10) forces P plus D at degree minus six",
+          "final F rank and degree"
+        ]
+      }
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout_bytes": 3978,
+      "stdout_sha256": "518b85c3d6885c8dbb0fd8e8f1a4c4bfab4eed4a1d743dda4779847a47a5000c",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 77,
+        "proof_sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542",
+        "proof_bytes": 20248,
+        "universal_character_consistency_checks": 81,
+        "formal_rectangle_steps": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            6
+          ]
+        ],
+        "scope": "Complete immutable input authentication and fixed universal character, degree and formal differentiation identities only. Arithmetic does not certify the structural geometric proof.",
+        "details": [
+          "three complete immutable originals",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "frozen entire-proof bytes",
+          "frozen entire-proof hash",
+          "fixed exact-rational character consistency checks",
+          "fixed identity one tensor Sym0",
+          "fixed identity one tensor Sym1",
+          "fixed identity one tensor Sym2",
+          "fixed identity one tensor Sym3",
+          "fixed identity one tensor Sym4",
+          "fixed identity one tensor Sym5",
+          "fixed identity one tensor Sym15",
+          "fixed identity V tensor Sym1",
+          "fixed identity P tensor Sym1",
+          "fixed identity D tensor Sym1",
+          "fixed identity T tensor Sym1",
+          "fixed identity S tensor Sym1",
+          "fixed identity W tensor Sym1",
+          "fixed identity Wp tensor Sym1",
+          "fixed identity A tensor Sym7",
+          "fixed identity A tensor Sym6",
+          "only S,T,Wp at degree minus five",
+          "Wp upper coherent derivative vanishes",
+          "Wp lower coherent derivative vanishes by degree",
+          "Wp internal derivative vanishes by strict degree",
+          "top minus four line internal derivative vanishes",
+          "S4 map has no V or P component",
+          "unique S4 to D evaluation-kernel inclusion",
+          "octic initial derivative has zero projection modulo D",
+          "octic row 1 universal evaluation Hom has dimension one",
+          "octic row 1 exact kernel degree",
+          "octic rank 2 is negative",
+          "octic row 2 universal evaluation Hom has dimension one",
+          "octic row 2 exact kernel degree",
+          "octic rank 3 is negative",
+          "octic row 3 universal evaluation Hom has dimension one",
+          "octic row 3 exact kernel degree",
+          "octic rank 4 is negative",
+          "octic row 4 universal evaluation Hom has dimension one",
+          "octic row 4 exact kernel degree",
+          "octic rank 5 is negative",
+          "octic bottom forward map is O(-8) to itself",
+          "octic line cannot map to either actual F6 block",
+          "formal derivative identity forces pairing (0,4) to vanish",
+          "formal derivative identity forces pairing (1,4) to vanish",
+          "formal derivative identity forces pairing (2,4) to vanish",
+          "formal derivative identity forces pairing (0,5) to vanish",
+          "formal derivative identity forces pairing (1,5) to vanish",
+          "formal derivative identity forces pairing (0,6) to vanish",
+          "formal order-three rectangle implies annihilation through original order six",
+          "at most one T6 highest block in rank ten",
+          "rank-four tail cannot contain a D coefficient block",
+          "unique actual fourth-jet inclusion in T6",
+          "actual fifth over fourth jet quotient has degree zero",
+          "O cannot map to original K in extension comparison",
+          "chi F(5) equals minus S4",
+          "chi F(4) equals minus P minus two D",
+          "fixed dimension-four budget factorizations",
+          "j8 doublets cannot contribute S4",
+          "the two possible deep atoms contribute exactly S4",
+          "S4(-7) would force nongenuine top",
+          "O(-10) forces P plus D at degree minus six",
+          "final F rank and degree"
+        ]
+      }
+    }
+  ]
+}
