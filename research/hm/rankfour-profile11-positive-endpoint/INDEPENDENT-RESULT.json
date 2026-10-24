@@ -1,0 +1,280 @@
+{
+  "verdict": "PASS",
+  "checks": 458,
+  "scope": "Independent exact fixed-character, complete source-row, bounded capacity, degree, and retained-source authentication checks. Actual geometry reviewed separately.",
+  "proof_sha256": "106268a3899b137baa0133e4e57c620a97c204ebe01e9b3803f20b5c14edba9b",
+  "scalar_source_rows": {
+    "K_T": [
+      [
+        "S4",
+        3
+      ],
+      [
+        "T6",
+        5
+      ]
+    ],
+    "K_W": [
+      [
+        "S4",
+        3
+      ],
+      [
+        "Wp",
+        7
+      ]
+    ],
+    "K_1": [
+      [
+        "S4",
+        3
+      ],
+      [
+        "D",
+        4
+      ]
+    ]
+  },
+  "negative_source_rows": {
+    "K_T": [],
+    "K_W": [],
+    "K_1": [
+      [
+        "one",
+        -10,
+        1
+      ]
+    ]
+  },
+  "rank_two_capacity": {
+    "maximum": -61,
+    "optimizers": [
+      [
+        6,
+        5
+      ]
+    ],
+    "rows": [
+      {
+        "heights": [
+          6,
+          5
+        ],
+        "value": -61
+      },
+      {
+        "heights": [
+          7,
+          4
+        ],
+        "value": -65
+      },
+      {
+        "heights": [
+          8,
+          3
+        ],
+        "value": -73
+      },
+      {
+        "heights": [
+          9,
+          2
+        ],
+        "value": -85
+      },
+      {
+        "heights": [
+          10,
+          1
+        ],
+        "value": -101
+      },
+      {
+        "heights": [
+          11,
+          0
+        ],
+        "value": -121
+      }
+    ]
+  },
+  "negative_only_capacity": {
+    "maximum": -50,
+    "optimizers": [
+      [
+        5,
+        5,
+        0
+      ]
+    ],
+    "rows": [
+      {
+        "heights": [
+          4,
+          3,
+          3
+        ],
+        "value": -67
+      },
+      {
+        "heights": [
+          4,
+          4,
+          2
+        ],
+        "value": -58
+      },
+      {
+        "heights": [
+          5,
+          3,
+          2
+        ],
+        "value": -60
+      },
+      {
+        "heights": [
+          5,
+          4,
+          1
+        ],
+        "value": -53
+      },
+      {
+        "heights": [
+          5,
+          5,
+          0
+        ],
+        "value": -50
+      },
+      {
+        "heights": [
+          6,
+          2,
+          2
+        ],
+        "value": -66
+      },
+      {
+        "heights": [
+          6,
+          3,
+          1
+        ],
+        "value": -57
+      },
+      {
+        "heights": [
+          6,
+          4,
+          0
+        ],
+        "value": -52
+      },
+      {
+        "heights": [
+          7,
+          2,
+          1
+        ],
+        "value": -65
+      },
+      {
+        "heights": [
+          7,
+          3,
+          0
+        ],
+        "value": -58
+      },
+      {
+        "heights": [
+          8,
+          1,
+          1
+        ],
+        "value": -77
+      },
+      {
+        "heights": [
+          8,
+          2,
+          0
+        ],
+        "value": -68
+      },
+      {
+        "heights": [
+          9,
+          1,
+          0
+        ],
+        "value": -82
+      },
+      {
+        "heights": [
+          10,
+          0,
+          0
+        ],
+        "value": -100
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "file": "inputs/actual.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "inputs/ambient.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "inputs/strict-top.md",
+      "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+    },
+    {
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "inputs/double-channel.md",
+      "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c"
+    },
+    {
+      "file": "inputs/capacity.md",
+      "sha256": "126fc2e7cbf54ae91f8e2eba3c0e809f70cf49c0f0aef28b574c5be3762ca6d2"
+    },
+    {
+      "file": "inputs/rank-strata.md",
+      "sha256": "4e3444e45d39cab9f45d31b8c204fa8749b076e33a5ccc55a6fe2e06d20038ed"
+    },
+    {
+      "file": "inputs/character-reference.py",
+      "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+    },
+    {
+      "file": "inputs/low-top.md",
+      "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af"
+    },
+    {
+      "file": "inputs/top-three.md",
+      "sha256": "55e241f3277bb261d0cbc81f1d957a839e22dd525c0d24d821edf0d6a16014fe"
+    },
+    {
+      "file": "inputs/orbit-ramification.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    }
+  ],
+  "limits": [
+    "No actual-map construction or occurrence claim.",
+    "No certification of inherited source geometry by arithmetic.",
+    "No assumption of a descended flat connection on K/S4(-3).",
+    "No claim that beta_E0 is everywhere full rank.",
+    "No selection of one of the three K forms or original determinant defect.",
+    "No top-three-boundary or full-profile closure."
+  ]
+}
