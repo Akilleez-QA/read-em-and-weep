@@ -1,0 +1,62 @@
+{
+  "reviewer": "independent review_defect_capacity_proof",
+  "authentication_method": "Fresh full immutable GitHub reads, no line ranges; compare UTF-8 exact bytes, SHA256 and Git object SHA1 with supplied local originals.",
+  "inputs": [
+    {
+      "file": "inputs/projected-ranktwo.md",
+      "ref": "b2d020a32a3ac5aaf5f264e33e2f930c16195c34",
+      "path": "research/hm/rankfour-profile11-triplet-projected-ranktwo/PROOF.md",
+      "tool": "github.fetch_file",
+      "complete_response": true,
+      "line_ranges_omitted": true,
+      "retrieved_bytes": 15271,
+      "expected_bytes": 15271,
+      "retrieved_sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+      "expected_sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+      "computed_blob_sha1": "99a5a0257b0d683b04c5d190333d868c5b0d194d",
+      "returned_blob_sha1": "99a5a0257b0d683b04c5d190333d868c5b0d194d",
+      "expected_blob_sha1": "99a5a0257b0d683b04c5d190333d868c5b0d194d",
+      "local_exact_bytes_equal": true,
+      "pass": true
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "ref": "913892c66403ea57ed1681957ae1b9f8db9e5e15",
+      "path": "research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "tool": "github.fetch_file",
+      "complete_response": true,
+      "line_ranges_omitted": true,
+      "retrieved_bytes": 17528,
+      "expected_bytes": 17528,
+      "retrieved_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "expected_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "computed_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "returned_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "expected_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "local_exact_bytes_equal": true,
+      "pass": true
+    },
+    {
+      "file": "inputs/actual.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "tool": "github.fetch_file",
+      "complete_response": true,
+      "line_ranges_omitted": true,
+      "retrieved_bytes": 9672,
+      "expected_bytes": 9672,
+      "retrieved_sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "expected_sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "computed_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "returned_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "expected_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "local_exact_bytes_equal": true,
+      "pass": true
+    }
+  ],
+  "all_authenticated": true,
+  "proof_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+  "proof_bytes": 16069,
+  "raw_response_file": "REVIEWER-LOCAL-SOURCE-FETCHES.json",
+  "raw_response_distribution": "LOCAL ONLY; must not be part of selected artifact or upstream writes"
+}

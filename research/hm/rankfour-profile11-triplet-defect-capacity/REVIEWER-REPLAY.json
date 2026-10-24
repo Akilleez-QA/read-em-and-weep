@@ -1,0 +1,101 @@
+{
+  "reviewer": "independent review_defect_capacity_proof",
+  "isolated_directory": "/tmp/review-triplet-defect-capacity-u4pjp4ux",
+  "selected_input_count": 8,
+  "selected_manifest": [
+    {
+      "file": "PROOF.md",
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1615,
+      "sha256": "7eecec63acfb5ea28f5c79cbf54796f26de73cf0c7372a81014f5c6e5647ce5a"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 1749,
+      "sha256": "63c3f98a1ed2972d8bd596248d823945468f886887a534ea554eb7be24258793"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 6307,
+      "sha256": "fea7214ff701bc1f5dd5f560928edc9ddc343907418b3faeb2e9545a155702b4"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    {
+      "file": "inputs/projected-ranktwo.md",
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd"
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "bytes": 17528,
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf"
+    },
+    {
+      "file": "inputs/actual.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    }
+  ],
+  "execution_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": ""
+  },
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 52,\n  \"proof_sha256\": \"135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f\",\n  \"scope\": \"Fixed symbolic two-column capacity, physical characters, bundle degrees and group-orbit arithmetic only. No actual coefficient, point, tensor, matrix or instance-rank evaluation.\"\n}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.0319,
+      "parsed_result": {
+        "status": "PASS",
+        "checks": 52,
+        "proof_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+        "scope": "Fixed symbolic two-column capacity, physical characters, bundle degrees and group-orbit arithmetic only. No actual coefficient, point, tensor, matrix or instance-rank evaluation."
+      }
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 52,\n  \"proof_sha256\": \"135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f\",\n  \"scope\": \"Fixed symbolic two-column capacity, physical characters, bundle degrees and group-orbit arithmetic only. No actual coefficient, point, tensor, matrix or instance-rank evaluation.\"\n}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.1053,
+      "parsed_result": {
+        "status": "PASS",
+        "checks": 52,
+        "proof_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+        "scope": "Fixed symbolic two-column capacity, physical characters, bundle degrees and group-orbit arithmetic only. No actual coefficient, point, tensor, matrix or instance-rank evaluation."
+      }
+    }
+  ],
+  "files_after_replay": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/actual.md",
+    "inputs/eighteen-jets.md",
+    "inputs/projected-ranktwo.md",
+    "verify.py"
+  ],
+  "exactly_selected_eight_files_after": true,
+  "all_input_bytes_unchanged": true,
+  "pass": true,
+  "audit_scope": "Read all code before execution. Fixed abstract physical-W characters, symbolic capacity identity, source byte authentication and bundle/orbit arithmetic only. No selected actual instance evaluation, historical enumerator, network calls or external writes. Arithmetic replay supplements and does not replace whole-proof review."
+}
