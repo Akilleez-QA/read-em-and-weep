@@ -1,0 +1,105 @@
+{
+  "files": {
+    "CONTROLS.json": {
+      "bytes": 771,
+      "git_blob_sha1": "9dd5d9d25c5162d865874c6d57276f664b25e498",
+      "sha256": "01b4db7c877a6c42688b809b0902ee3e740d64ba888b00a0834b717ed0fea66e"
+    },
+    "ENDPOINTS.json": {
+      "bytes": 12933,
+      "git_blob_sha1": "7a8522c1c97f0d4ce0466d06bbd577f3a261e3ad",
+      "sha256": "b3bb7ddb6d497e63f68a0a0e67453185638bc4bbd95b53934f68279f09877a89"
+    },
+    "INPUTS.json": {
+      "bytes": 2336,
+      "git_blob_sha1": "9ac0e1c4a2d1a9eaafb3bf5b6effd033132cc55a",
+      "sha256": "50e30e8c4d829ecc1cff99dbbc6561883feb69da3e2af55e436cc332e025d47c"
+    },
+    "README.md": {
+      "bytes": 1193,
+      "git_blob_sha1": "2759d2db84d24c7ed01f3c8e4073b81406e7b8f3",
+      "sha256": "67105593e850da422516e81881bbe311477d0499e90e52594d612c56de71ef40"
+    },
+    "RESULT.json": {
+      "bytes": 11812,
+      "git_blob_sha1": "284f1c791a9e32c4c5f022b2f6ae3553679aef16",
+      "sha256": "9216ec78bf62ca170275b39f834108b680c79de665f94b5cafece90aefcccacd"
+    },
+    "REVIEW.md": {
+      "bytes": 11874,
+      "git_blob_sha1": "85e862fd4004445bf35a505648930b216c80ba55",
+      "sha256": "fd358312450ff6a2dedc9becb7b56ebbab9860618304f93d0bd2d952fb253a01"
+    },
+    "author/INPUTS.json": {
+      "bytes": 2336,
+      "git_blob_sha1": "9ac0e1c4a2d1a9eaafb3bf5b6effd033132cc55a",
+      "sha256": "50e30e8c4d829ecc1cff99dbbc6561883feb69da3e2af55e436cc332e025d47c"
+    },
+    "author/PROOF.md": {
+      "bytes": 15343,
+      "git_blob_sha1": "b7e3d02378e14a33ec091a5a23fc2e182cbe9948",
+      "sha256": "6e9a8770e4d418e6ba22a3ebaa2b1523605a178ac0522d7f4ab72507d536106a"
+    },
+    "author/RESULT.json": {
+      "bytes": 28449,
+      "git_blob_sha1": "8b003b2ddde42b321434494a53ea9d047934cd64",
+      "sha256": "7b9a975bfb8213b90b06274721627030002ce9b1bcf39a0b2fa2085e2de0e836"
+    },
+    "author/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "bytes": 9672,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "author/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "bytes": 12488,
+      "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    "author/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "bytes": 5414,
+      "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    "author/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "bytes": 10451,
+      "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    "author/verify.py": {
+      "bytes": 14427,
+      "git_blob_sha1": "101f6abfb7531cc46bebc14f86a5ca65f1daecff",
+      "sha256": "361a7f384ce4be88d95a2d19a6ec653ed2a416ee5b6e7a261058fa3160b64500"
+    },
+    "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "bytes": 9672,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "bytes": 12488,
+      "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "bytes": 5414,
+      "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "bytes": 10451,
+      "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    "test_controls.py": {
+      "bytes": 1122,
+      "git_blob_sha1": "2e6d6d77a509e91209ad223fdb0710a63e3d2a29",
+      "sha256": "2be80aef27e1414ed439ca90ccd5871fc7ca2f4f67376fbca7a04da29686e3be"
+    },
+    "verify.py": {
+      "bytes": 10583,
+      "git_blob_sha1": "9e11ab0f9863acebad2d78efc1cb3aea2d357393",
+      "sha256": "1d489fd134732d670464ff05f49e5233a86d07aff0d9140267b522338b8c7748"
+    }
+  },
+  "scope": "Conditional ordered maximal rank-four (3,2) exclusion only."
+}

@@ -1,0 +1,15 @@
+{
+  "mutations_rejected": {
+    "K-twist": "RuntimeError: exact graded K-class eliminates other four blocks",
+    "defect-weight": "RuntimeError: symbolic rank4 ordered(3,2) endpoint identity",
+    "dimensions-only": "RuntimeError: exact two-Euler necessary survivor count",
+    "dual-twist": "RuntimeError: dual quotient and Serre twist",
+    "endpoint-parity": "RuntimeError: independent complete endpoint counts",
+    "omit-H1": "RuntimeError: ambient quotient and actual dual presentation agree",
+    "physical-marking": "RuntimeError: fixed physical A=Sym2 W, not V",
+    "source-dual-swap": "RuntimeError: exact two-Euler necessary survivor count",
+    "source-hash": "RuntimeError: source SHA256"
+  },
+  "ordinary_and_optimized_replay": true,
+  "status": "PASS"
+}
