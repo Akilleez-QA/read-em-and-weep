@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "reviewer": "independent_review_first_kernel_span",
+  "reviewed_at_utc": "2026-10-24T10:34:34.130873+00:00",
+  "proof_utf8_bytes": 11977,
+  "proof_sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+  "selected_file_count": 7,
+  "selected_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "inputs/eighteen-jets.md",
+    "inputs/first-kernel-structure.md",
+    "inputs/kernel-three-exclusion.md",
+    "inputs/positive-span.md",
+    "verify_packet.py"
+  ],
+  "isolated_directory": "/tmp/first-kernel-span-reviewer-selected-ruhexc6_",
+  "isolation_only_selected_files_before_and_after": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "selected_hashes_before": {
+    "INPUTS.json": "91a1cb62a0ebab0c704a98ad50cf30879f34af0c21c08a4722fc06202d44af88",
+    "PROOF.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "inputs/first-kernel-structure.md": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "verify_packet.py": "55c394f3b2bd5048529f986e4b4bf784a72ca702ad980c104090be8b72c87ace"
+  },
+  "isolated_hashes_before": {
+    "INPUTS.json": "91a1cb62a0ebab0c704a98ad50cf30879f34af0c21c08a4722fc06202d44af88",
+    "PROOF.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "inputs/first-kernel-structure.md": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "verify_packet.py": "55c394f3b2bd5048529f986e4b4bf784a72ca702ad980c104090be8b72c87ace"
+  },
+  "runs": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "verify_packet.py"
+      ],
+      "optimization": false,
+      "exit_code": 0,
+      "stdout": "PASS: 120 bounded checks (20 whole-file authentication; 56 universal character; 44 fixed rank/degree checks).\nEntire frozen proof SHA256: 66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9\nOnly necessary K1 structure: exact R and original span18/missing V_alt; no exclusion or realization.\n",
+      "stderr": "",
+      "stdout_sha256": "bfc7d661055b31a8fb7a56e79bd9334ab651a058a52965b6e85666f006f10bef"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "optimization": true,
+      "exit_code": 0,
+      "stdout": "PASS: 120 bounded checks (20 whole-file authentication; 56 universal character; 44 fixed rank/degree checks).\nEntire frozen proof SHA256: 66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9\nOnly necessary K1 structure: exact R and original span18/missing V_alt; no exclusion or realization.\n",
+      "stderr": "",
+      "stdout_sha256": "bfc7d661055b31a8fb7a56e79bd9334ab651a058a52965b6e85666f006f10bef"
+    }
+  ],
+  "normal_and_optimized_stdout_identical": true,
+  "isolated_hashes_after": {
+    "verify_packet.py": "55c394f3b2bd5048529f986e4b4bf784a72ca702ad980c104090be8b72c87ace",
+    "PROOF.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "INPUTS.json": "91a1cb62a0ebab0c704a98ad50cf30879f34af0c21c08a4722fc06202d44af88",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/first-kernel-structure.md": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf"
+  },
+  "selected_hashes_after": {
+    "INPUTS.json": "91a1cb62a0ebab0c704a98ad50cf30879f34af0c21c08a4722fc06202d44af88",
+    "PROOF.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "inputs/first-kernel-structure.md": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "verify_packet.py": "55c394f3b2bd5048529f986e4b4bf784a72ca702ad980c104090be8b72c87ace"
+  },
+  "all_hashes_unchanged": true,
+  "checker_scope": "Whole-file authentication and bounded fixed universal characters, ranks, degrees, and six rank-twelve column pairs only; not geometric proof certification.",
+  "no_selected_actual_instance_evaluation": true,
+  "no_external_writes": true
+}
