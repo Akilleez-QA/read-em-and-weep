@@ -1,0 +1,66 @@
+{
+  "actual_instance_computations": false,
+  "ambient_character": {
+    "A_std": 2,
+    "D": 2,
+    "P": 2,
+    "V": 2
+  },
+  "broad_candidate_scan": false,
+  "check_count": 382,
+  "conceptual_review": "PASS: actual constant span, full top-D osculation, apolarity factorization, torsion-safe annihilator, and all three exclusions were reviewed as a whole proof.",
+  "f12_invariant_dimension": 1,
+  "fixed_symmetric_powers": {
+    "10": {
+      "A_std": 1,
+      "D": 1,
+      "V": 1
+    },
+    "16": {
+      "D": 2,
+      "P": 1,
+      "V": 1
+    },
+    "6": {
+      "P": 1,
+      "V": 1
+    }
+  },
+  "independent_method": "Exact conjugacy-class characters over Q(sqrt(5)); orthogonality and reconstruction; no author-code imports.",
+  "inputs_manifest_sha256": "fedb86c38f2f59cdaf9f7d61a6f69d94987f64033ad105bb318ad9d7f3d319e7",
+  "limits": "No realization or exclusion of surviving doublet primal; original defect remains 12; triplet branch and broader rank-four repair remain open.",
+  "new_conclusion": "Only S0=A_std(-8)+Wp(-11) survives the four imported forms; scalar primal F=O(2)+2O(4) is impossible under the stated actual hypotheses.",
+  "optimization_safe": true,
+  "proof_sha256": "e5d2c74f516bb5b2ede85287fceb3a774c6870b68b7b2418398e30fd5093d9b2",
+  "public_writes": false,
+  "residual_restriction_hom_dimensions": [
+    0,
+    1
+  ],
+  "sextic_quotient_dimensions": [
+    0,
+    3,
+    4,
+    7
+  ],
+  "small_constant_character": {
+    "A_std": 2,
+    "D": 1,
+    "P": 1,
+    "V": 2
+  },
+  "status": "PASS",
+  "top_D_flag_hom_dimensions": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "top_D_flag_quotient_degrees": [
+    2,
+    0,
+    -2,
+    -4,
+    -6
+  ]
+}

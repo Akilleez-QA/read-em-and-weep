@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T03:27:01Z",
+  "proof_sha256": "e5d2c74f516bb5b2ede85287fceb3a774c6870b68b7b2418398e30fd5093d9b2",
+  "inputs_manifest_sha256": "fedb86c38f2f59cdaf9f7d61a6f69d94987f64033ad105bb318ad9d7f3d319e7",
+  "method": "Independent fresh GitHub fetch_file calls at all four exact immutable commit refs; complete original UTF-8 bytes compared with retained inputs, including SHA256, byte length, canonical URL, and both returned and recomputed Git blob SHA1.",
+  "sources": [
+    {
+      "file": "inputs/second-jet-residual.md",
+      "ref": "56e304a0d6d9c321095f182d94c326645ec704d9",
+      "path": "research/hm/rankfour-profile11-second-jet-residual/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/56e304a0d6d9c321095f182d94c326645ec704d9/research/hm/rankfour-profile11-second-jet-residual/PROOF.md",
+      "bytes": 12885,
+      "sha256": "793c635439cf05c0234b4152aca4e9213780258d096d9036902b808a952f39e4",
+      "git_blob_sha1": "c2fb15a59e279ee8cc058721a9e4e7aadb0d3902",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "793c635439cf05c0234b4152aca4e9213780258d096d9036902b808a952f39e4",
+      "fetched_git_blob_sha1": "c2fb15a59e279ee8cc058721a9e4e7aadb0d3902"
+    },
+    {
+      "file": "inputs/pair-image.md",
+      "ref": "972993db6a0ab4f2a65f4f8da39cd3862923238d",
+      "path": "research/hm/rankfour-profile11-top-four-pair-image/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/972993db6a0ab4f2a65f4f8da39cd3862923238d/research/hm/rankfour-profile11-top-four-pair-image/PROOF.md",
+      "bytes": 13500,
+      "sha256": "db1e23909dbabd423cbeb855f0f376e7e0fac53d557fdd8aef7685b5449edfdb",
+      "git_blob_sha1": "12cbf71fd50a623cc5e7daa4fcc3835bd016d460",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "db1e23909dbabd423cbeb855f0f376e7e0fac53d557fdd8aef7685b5449edfdb",
+      "fetched_git_blob_sha1": "12cbf71fd50a623cc5e7daa4fcc3835bd016d460"
+    },
+    {
+      "file": "inputs/principal-parts.md",
+      "ref": "95af2c0fa1e3cce92496a44ef9023708735e1ec7",
+      "path": "research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/95af2c0fa1e3cce92496a44ef9023708735e1ec7/research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "fetched_git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f"
+    },
+    {
+      "file": "inputs/actual.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "fetched_git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3"
+    }
+  ],
+  "scope": "All four complete source texts and the complete new proof read. Only the universal principal-parts construction is imported from the triplet source. The previously accepted pair-defect and endpoint texts were also read as transitive context.",
+  "public_writes": false
+}
