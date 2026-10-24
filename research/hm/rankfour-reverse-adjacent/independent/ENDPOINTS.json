@@ -1,0 +1,938 @@
+{
+  "-26": [
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "S4"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ]
+  ],
+  "-30": [
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "S4"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "A"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "V"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "P"
+      }
+    ],
+    [
+      {
+        "degree": -6,
+        "irrep": "D"
+      }
+    ]
+  ],
+  "-36": [
+    [
+      {
+        "degree": -16,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "S4"
+      }
+    ],
+    [
+      {
+        "degree": -16,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -16,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -16,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -14,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -14,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "A"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "V"
+      }
+    ],
+    [
+      {
+        "degree": -12,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "P"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "A"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "V"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -10,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "A"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "V"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W'"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W'"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -5,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "A"
+      }
+    ],
+    [
+      {
+        "degree": -9,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "V"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "S4"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "1"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      },
+      {
+        "degree": -7,
+        "irrep": "W'"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "A"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ],
+    [
+      {
+        "degree": -8,
+        "irrep": "V"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      },
+      {
+        "degree": -6,
+        "irrep": "1"
+      }
+    ]
+  ]
+}

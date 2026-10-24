@@ -1,0 +1,49 @@
+{
+  "all14_pairs_and_both_characters_match": true,
+  "all_endpoint_domains_match": true,
+  "author_checks": 10951,
+  "author_contract_mutations": 54,
+  "executed_independent_mutations": 9,
+  "independent_checks": 470,
+  "normal_optimized_portable_replays": [
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "independent/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "independent/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "independent/author/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "independent/author/verify.py",
+      "status": "PASS"
+    }
+  ],
+  "reviewed_author_snapshots_match": true,
+  "scope": "Conditional ordered maximal rank-four (3,2) exclusion only.",
+  "status": "PASS"
+}
