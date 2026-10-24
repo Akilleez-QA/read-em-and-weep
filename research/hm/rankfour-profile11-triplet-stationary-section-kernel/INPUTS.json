@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "seven-space-ramification",
+      "pr": 1238,
+      "ref": "d259230fbf7259e52db267c56203a29f221da5f0",
+      "path": "research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md",
+      "local_path": "inputs/seven-space-ramification.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 20687,
+      "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+      "git_blob_sha1": "0da306ac1dc4c879ced57c28e2ec3a07f027da70",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d259230fbf7259e52db267c56203a29f221da5f0/research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md"
+    },
+    {
+      "id": "shared-d",
+      "pr": 1206,
+      "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+      "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+      "local_path": "inputs/shared-d.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 8801,
+      "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+      "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/252b967ebbfbea6fc0c6451a835ab2daff92d73b/research/hm/rankfour-profile11-triplet-shared-d/PROOF.md"
+    }
+  ]
+}
