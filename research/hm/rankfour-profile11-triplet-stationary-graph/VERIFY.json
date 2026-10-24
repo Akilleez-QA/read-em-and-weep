@@ -1,0 +1,13 @@
+{
+  "checks": 31,
+  "not_claimed": [
+    "selected actual coefficient, graph scalar, point or instance evaluation",
+    "exact coherent image from fiberwise vanishing",
+    "higher vanishing or original tenth jets",
+    "branch occurrence or exclusion",
+    "proof by computation"
+  ],
+  "proof_sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7",
+  "scope": "one complete immutable input; fixed representation, degree and formal Leibniz/conormal identities",
+  "status": "PASS"
+}

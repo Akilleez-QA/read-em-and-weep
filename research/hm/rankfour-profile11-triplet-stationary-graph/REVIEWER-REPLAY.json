@@ -1,0 +1,224 @@
+{
+  "environment": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": ""
+  },
+  "exactly_six_selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/nonsplit-quotient.md"
+  ],
+  "explicit_checks_per_run": 31,
+  "final_file_listing": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/nonsplit-quotient.md",
+    "verify.py"
+  ],
+  "fresh_isolated_directory": "/tmp/stationary-graph-reviewer-six-files-euq24stk",
+  "imported_fixed_character_checks_per_run": 81,
+  "initial_file_listing": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/nonsplit-quotient.md",
+    "verify.py"
+  ],
+  "initially_empty": true,
+  "limitations": "Arithmetic and fixed character replay is supporting evidence only, not the whole-proof review or authentication. The separate reviewer report supplies the mathematical verdict.",
+  "no_broad_scan_or_large_computation": true,
+  "no_cache_files_created": true,
+  "no_installation_or_network_in_replay": true,
+  "no_selected_actual_source_instance_evaluation": true,
+  "normal_and_optimized_result_objects_identical": true,
+  "normal_and_optimized_stdout_identical": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "recorded_at_utc": "2026-10-24T07:51:35.791542+00:00",
+  "runs": [
+    {
+      "character_count_observation_method": "separate same-mode import of the unchanged selected characters.py in the isolated directory",
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python verify.py",
+      "exit_code": 0,
+      "imported_fixed_character_checks_observed": 81,
+      "result": {
+        "checks": 31,
+        "not_claimed": [
+          "selected actual coefficient, graph scalar, point or instance evaluation",
+          "exact coherent image from fiberwise vanishing",
+          "higher vanishing or original tenth jets",
+          "branch occurrence or exclusion",
+          "proof by computation"
+        ],
+        "proof_sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7",
+        "scope": "one complete immutable input; fixed representation, degree and formal Leibniz/conormal identities",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 31,\n  \"not_claimed\": [\n    \"selected actual coefficient, graph scalar, point or instance evaluation\",\n    \"exact coherent image from fiberwise vanishing\",\n    \"higher vanishing or original tenth jets\",\n    \"branch occurrence or exclusion\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7\",\n  \"scope\": \"one complete immutable input; fixed representation, degree and formal Leibniz/conormal identities\",\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "character_count_observation_method": "separate same-mode import of the unchanged selected characters.py in the isolated directory",
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python -O verify.py",
+      "exit_code": 0,
+      "imported_fixed_character_checks_observed": 81,
+      "result": {
+        "checks": 31,
+        "not_claimed": [
+          "selected actual coefficient, graph scalar, point or instance evaluation",
+          "exact coherent image from fiberwise vanishing",
+          "higher vanishing or original tenth jets",
+          "branch occurrence or exclusion",
+          "proof by computation"
+        ],
+        "proof_sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7",
+        "scope": "one complete immutable input; fixed representation, degree and formal Leibniz/conormal identities",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 31,\n  \"not_claimed\": [\n    \"selected actual coefficient, graph scalar, point or instance evaluation\",\n    \"exact coherent image from fiberwise vanishing\",\n    \"higher vanishing or original tenth jets\",\n    \"branch occurrence or exclusion\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7\",\n  \"scope\": \"one complete immutable input; fixed representation, degree and formal Leibniz/conormal identities\",\n  \"status\": \"PASS\"\n}\n"
+    }
+  ],
+  "selected_after": {
+    "INPUTS.json": {
+      "bytes": 531,
+      "git_blob_sha1": "742e5328d4e6cb8577c995a4ad004783c673bc73",
+      "sha256": "d5e3809870bfadcb40dd24ddddb5b8fc6e82e2431010bd2d2b92a6359fe66d50"
+    },
+    "PROOF.md": {
+      "bytes": 12872,
+      "git_blob_sha1": "f27519105e0ff214cd6b7f78b6c24ee1acfe7f7c",
+      "sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2037,
+      "git_blob_sha1": "b2a6e285a0c13209bfe2ac2e635036a61ab5d269",
+      "sha256": "c984fc023aaee4932b7d4b189e0e0051ea56c52a06f3956a08444f55c4ccd1aa"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "verify.py": {
+      "bytes": 3518,
+      "git_blob_sha1": "9eac523e3b933f1ce642ee64048e232db4d7c9c1",
+      "sha256": "3d62c3777947c958a0541041d1587bf80cbdf77f8d0d859aee1b94669846a6d0"
+    }
+  },
+  "selected_before": {
+    "INPUTS.json": {
+      "bytes": 531,
+      "git_blob_sha1": "742e5328d4e6cb8577c995a4ad004783c673bc73",
+      "sha256": "d5e3809870bfadcb40dd24ddddb5b8fc6e82e2431010bd2d2b92a6359fe66d50"
+    },
+    "PROOF.md": {
+      "bytes": 12872,
+      "git_blob_sha1": "f27519105e0ff214cd6b7f78b6c24ee1acfe7f7c",
+      "sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2037,
+      "git_blob_sha1": "b2a6e285a0c13209bfe2ac2e635036a61ab5d269",
+      "sha256": "c984fc023aaee4932b7d4b189e0e0051ea56c52a06f3956a08444f55c4ccd1aa"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "verify.py": {
+      "bytes": 3518,
+      "git_blob_sha1": "9eac523e3b933f1ce642ee64048e232db4d7c9c1",
+      "sha256": "3d62c3777947c958a0541041d1587bf80cbdf77f8d0d859aee1b94669846a6d0"
+    }
+  },
+  "selected_bytes_unchanged": true,
+  "source_selected_after": {
+    "INPUTS.json": {
+      "bytes": 531,
+      "git_blob_sha1": "742e5328d4e6cb8577c995a4ad004783c673bc73",
+      "sha256": "d5e3809870bfadcb40dd24ddddb5b8fc6e82e2431010bd2d2b92a6359fe66d50"
+    },
+    "PROOF.md": {
+      "bytes": 12872,
+      "git_blob_sha1": "f27519105e0ff214cd6b7f78b6c24ee1acfe7f7c",
+      "sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2037,
+      "git_blob_sha1": "b2a6e285a0c13209bfe2ac2e635036a61ab5d269",
+      "sha256": "c984fc023aaee4932b7d4b189e0e0051ea56c52a06f3956a08444f55c4ccd1aa"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "verify.py": {
+      "bytes": 3518,
+      "git_blob_sha1": "9eac523e3b933f1ce642ee64048e232db4d7c9c1",
+      "sha256": "3d62c3777947c958a0541041d1587bf80cbdf77f8d0d859aee1b94669846a6d0"
+    }
+  },
+  "source_selected_before": {
+    "INPUTS.json": {
+      "bytes": 531,
+      "git_blob_sha1": "742e5328d4e6cb8577c995a4ad004783c673bc73",
+      "sha256": "d5e3809870bfadcb40dd24ddddb5b8fc6e82e2431010bd2d2b92a6359fe66d50"
+    },
+    "PROOF.md": {
+      "bytes": 12872,
+      "git_blob_sha1": "f27519105e0ff214cd6b7f78b6c24ee1acfe7f7c",
+      "sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2037,
+      "git_blob_sha1": "b2a6e285a0c13209bfe2ac2e635036a61ab5d269",
+      "sha256": "c984fc023aaee4932b7d4b189e0e0051ea56c52a06f3956a08444f55c4ccd1aa"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "verify.py": {
+      "bytes": 3518,
+      "git_blob_sha1": "9eac523e3b933f1ce642ee64048e232db4d7c9c1",
+      "sha256": "3d62c3777947c958a0541041d1587bf80cbdf77f8d0d859aee1b94669846a6d0"
+    }
+  },
+  "source_selected_bytes_unchanged": true,
+  "status": "PASS",
+  "total_explicit_and_imported_checks_per_run": 112,
+  "whole_proof": {
+    "bytes": 12872,
+    "git_blob_sha1": "f27519105e0ff214cd6b7f78b6c24ee1acfe7f7c",
+    "sha256": "96c3a9dea9260bcc34435220e00ad78a721bb18423d38b3a9aae3b7124eab7b7"
+  }
+}
