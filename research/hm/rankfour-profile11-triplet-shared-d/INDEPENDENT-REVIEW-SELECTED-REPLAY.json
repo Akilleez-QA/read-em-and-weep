@@ -1,0 +1,39 @@
+{
+  "selected_files": [
+    "PROOF.md",
+    "verify.py",
+    "characters.py",
+    "INPUTS.json",
+    "inputs/positive-span.md",
+    "inputs/deep-images.md",
+    "inputs/actual.md"
+  ],
+  "verify_sha256": "771e7ac6c9f9f5ccc3b06b09c4666a7cd45bcc13bef17e3bcf450a4478dcf805",
+  "reproduce_sha256": "e26541d0e6d252646edb312d5d3f6880f9337dfba6f26c68c7890091f9294673",
+  "proof_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+  "runs": [
+    {
+      "mode": "normal",
+      "exit_code": 0,
+      "stdout": {
+        "status": "PASS",
+        "checks": 38,
+        "proof_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "scope": "Immutable inputs and fixed universal representation/degree identities only; not proof-assistant certification."
+      },
+      "stderr": ""
+    },
+    {
+      "mode": "optimized",
+      "exit_code": 0,
+      "stdout": {
+        "status": "PASS",
+        "checks": 38,
+        "proof_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "scope": "Immutable inputs and fixed universal representation/degree identities only; not proof-assistant certification."
+      },
+      "stderr": ""
+    }
+  ],
+  "status": "PASS"
+}
