@@ -1,0 +1,121 @@
+{
+  "schema": "reviewer-isolated-eight-file-replay-v1",
+  "status": "PASS",
+  "proof_sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b",
+  "proof_bytes": 14593,
+  "isolated_directory": "/tmp/review-mixed-pairing-eight-n1ie7hkw",
+  "exact_selected_file_count": 8,
+  "initial_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/nine-jets.md",
+    "inputs/rankseven-equality.md",
+    "verify.py"
+  ],
+  "final_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/nine-jets.md",
+    "inputs/rankseven-equality.md",
+    "verify.py"
+  ],
+  "selected_file_fingerprints": {
+    "PROOF.md": {
+      "bytes": 14593,
+      "sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b"
+    },
+    "INPUTS.json": {
+      "bytes": 1560,
+      "sha256": "4262db98604cf928406e653434e18b2d9ee7551fa0c9e49e5025ac47a64b29a6"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1754,
+      "sha256": "23ecd2676fbed72a7fb42a29eb51a97888db15de234ff395e1aa4e60764d45f8"
+    },
+    "verify.py": {
+      "bytes": 5272,
+      "sha256": "268f83872bbba5647b36456deaa978cf2a924c5e07cf94abcdaa015d5df197f8"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/rankseven-equality.md": {
+      "bytes": 15139,
+      "sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae"
+    },
+    "inputs/nine-jets.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "inputs/defect-capacity.md": {
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f"
+    }
+  },
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": ""
+  },
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "checks": 72,
+        "not_claimed": [
+          "actual coefficient or matrix evaluation",
+          "chosen invariant normalization or eigenvalue",
+          "original tenth jets",
+          "realization or branch exclusion",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b",
+        "scope": "three complete pins; fixed characters; formal rectangle and universal differential-symbol identities",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged_after_run": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "checks": 72,
+        "not_claimed": [
+          "actual coefficient or matrix evaluation",
+          "chosen invariant normalization or eigenvalue",
+          "original tenth jets",
+          "realization or branch exclusion",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b",
+        "scope": "three complete pins; fixed characters; formal rectangle and universal differential-symbol identities",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged_after_run": true
+    }
+  ],
+  "normal_and_optimized_output_equal": true,
+  "original_selected_bytes_unchanged": true,
+  "isolated_selected_bytes_unchanged": true,
+  "checker_source_inspected_in_full": true,
+  "dependency_source_inspected_in_full": true,
+  "character_import_checks": 81,
+  "main_explicit_require_checks": 72,
+  "scope": "Exact authentication and fixed universal small character, formal rectangle, differential-symbol and dimension identities only; no actual selected instance evaluation. Mathematical proof independently reviewed in REVIEWER-REVIEW.md."
+}
