@@ -1,0 +1,5 @@
+# Reproduction and verification boundary
+
+Run `python verify.py` and `python -O verify.py` in this directory. Both commands must complete with the same JSON certificate. All checks are active under optimization.
+
+The verifier authenticates the two complete retained immutable inputs and checks the single universal Clebsch-Gordan identity symbolically, plus the fixed rank, degree, cohomology-twist and multiplicity checks. It executes three narrow mutations: adding a second A_std to M2, dropping the O(2) quotient block, and replacing W by the physical other doublet W'. Each must remove this particular obstruction, without implying any mutated configuration is realizable. It does not run a source-instance matrix, evaluate a group element, select a parameter or point, enumerate bundles, or prove the imported actual geometric hypotheses. The coherent-image section injection, its torsion-tolerant dual argument, and exact scope are proved in PROOF.md and require independent mathematical review.

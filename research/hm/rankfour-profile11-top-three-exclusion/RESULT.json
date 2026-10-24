@@ -1,0 +1,26 @@
+{
+  "authenticated_inputs": 2,
+  "fixed_character_identity": "W tensor Sym3 W = Sym2 W + Sym4 W",
+  "H1_S": {
+    "A_std": 1,
+    "V": 2,
+    "P": 3,
+    "D": 4
+  },
+  "H0_A_q_and_H1_A_q_dual_minus2": {
+    "A_std": 2,
+    "D": 1
+  },
+  "A_std_source_multiplicity": 1,
+  "A_std_required_multiplicity": 2,
+  "contradiction": true,
+  "fixed_rank_degree_twist_checks": true,
+  "executed_mutations": {
+    "add_second_A_std_to_M2": "This multiplicity obstruction disappears.",
+    "drop_O2_from_A_q": "This multiplicity obstruction disappears.",
+    "replace_W_by_Wp": "This multiplicity obstruction disappears: required character is A_std+D+V."
+  },
+  "defect_assumption": "None: coherent sheaf injection and torsion-safe dual argument.",
+  "scope": "Excludes maxdeg(A_q)=3 in the imported actual rank-four maximal ordered profile (1,1), not higher-top branches or a global rank theorem.",
+  "verification_boundary": "This checks immutable input bytes and fixed representation arithmetic. It does not certify the imported geometric premises or the written coherent-image proof."
+}
