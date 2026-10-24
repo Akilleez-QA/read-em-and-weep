@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T03:13:24Z",
+  "proof_sha256": "793c635439cf05c0234b4152aca4e9213780258d096d9036902b808a952f39e4",
+  "inputs_manifest_sha256": "a495ace7776db35a8598b7ffaa9b28867d2954896f1131d2a2b344dfc9c5a6b1",
+  "method": "Independent fresh GitHub fetch_file calls at all three exact immutable commit refs; compare complete UTF-8 original bytes, SHA256, byte length, canonical URL, and returned plus recomputed Git blob SHA1 to retained inputs.",
+  "sources": [
+    {
+      "file": "inputs/endpoint-jet.md",
+      "ref": "99a0ce465e605210b1c64fcfd4e0e0b78de0472b",
+      "path": "research/hm/rankfour-profile11-dual-endpoint-jet/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/99a0ce465e605210b1c64fcfd4e0e0b78de0472b/research/hm/rankfour-profile11-dual-endpoint-jet/PROOF.md",
+      "bytes": 13548,
+      "sha256": "bbe7c05e9055b70ba511c77ebc0514a0fdf89d75844199f971e7e774355c08c6",
+      "git_blob_sha1": "9fed65228f493d0e44543af1b457fae193868f70",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "bbe7c05e9055b70ba511c77ebc0514a0fdf89d75844199f971e7e774355c08c6",
+      "fetched_git_blob_sha1": "9fed65228f493d0e44543af1b457fae193868f70"
+    },
+    {
+      "file": "inputs/pair-defect.md",
+      "ref": "0156405384eefb3efe08d724e682b4a839157bfc",
+      "path": "research/hm/rankfour-profile11-pair-defect/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0156405384eefb3efe08d724e682b4a839157bfc/research/hm/rankfour-profile11-pair-defect/PROOF.md",
+      "bytes": 15519,
+      "sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "fetched_git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d"
+    },
+    {
+      "file": "inputs/principal-parts.md",
+      "ref": "95af2c0fa1e3cce92496a44ef9023708735e1ec7",
+      "path": "research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/95af2c0fa1e3cce92496a44ef9023708735e1ec7/research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "fetched_git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f"
+    }
+  ],
+  "scope": "Complete endpoint and pair-defect sources read. Complete principal-parts source read; only universal identity and actual differential-evaluation construction in Section 4 imported, not its triplet hypotheses.",
+  "public_writes": false
+}

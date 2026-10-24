@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "method": "Independent exact closed conjugacy-class characters in Q(sqrt(5)); no author imports.",
+  "scope": "Only forced two doublets, five scalar partitions, cohomology identities and tiny universal Hom spaces.",
+  "irreducible_dimensions": {
+    "1": 1,
+    "W": 2,
+    "Wprime": 2,
+    "A_std": 3,
+    "V": 3,
+    "S4": 4,
+    "P": 4,
+    "D": 5,
+    "T6": 6
+  },
+  "H1_S0": {
+    "A_std": 1,
+    "V": 2,
+    "P": 3,
+    "D": 4
+  },
+  "H1_M": {
+    "V": 1,
+    "P": 2,
+    "D": 2
+  },
+  "H1_R": {
+    "A_std": 1,
+    "V": 1,
+    "P": 1,
+    "D": 2
+  },
+  "forced_forms": {
+    "W(-11)": {
+      "H1": {
+        "A_std": 1,
+        "V": 1,
+        "P": 1,
+        "D": 2
+      },
+      "matches_residual": true
+    },
+    "Wprime(-11)": {
+      "H1": {
+        "A_std": 1,
+        "V": 1,
+        "P": 1,
+        "D": 2
+      },
+      "matches_residual": true
+    },
+    "O(-2)+O(-20)": {
+      "H1": {
+        "1": 1,
+        "A_std": 1,
+        "V": 1,
+        "P": 2,
+        "D": 1
+      },
+      "matches_residual": false
+    },
+    "O(-4)+O(-18)": {
+      "H1": {
+        "A_std": 1,
+        "V": 1,
+        "P": 1,
+        "D": 2
+      },
+      "matches_residual": true
+    },
+    "O(-6)+O(-16)": {
+      "H1": {
+        "A_std": 1,
+        "V": 1,
+        "P": 1,
+        "D": 2
+      },
+      "matches_residual": true
+    },
+    "O(-8)+O(-14)": {
+      "H1": {
+        "1": 1,
+        "A_std": 1,
+        "V": 1,
+        "P": 2,
+        "D": 1
+      },
+      "matches_residual": false
+    },
+    "O(-10)+O(-12)": {
+      "H1": {
+        "A_std": 1,
+        "V": 1,
+        "P": 1,
+        "D": 2
+      },
+      "matches_residual": true
+    }
+  },
+  "character_survivors": [
+    "W(-11)",
+    "Wprime(-11)",
+    "O(-4)+O(-18)",
+    "O(-6)+O(-16)",
+    "O(-10)+O(-12)"
+  ],
+  "universal_Hom_dimensions": {
+    "scalar_Q": {
+      "W(-11)": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "Wprime(-11)": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "O(-4)+O(-18)": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "O(-6)+O(-16)": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "O(-10)+O(-12)": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "balanced_Q": {
+      "W(-11)": [
+        [
+          0
+        ]
+      ],
+      "Wprime(-11)": [
+        [
+          1
+        ]
+      ],
+      "O(-4)+O(-18)": [
+        [
+          0,
+          1
+        ]
+      ],
+      "O(-6)+O(-16)": [
+        [
+          1,
+          1
+        ]
+      ],
+      "O(-10)+O(-12)": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "necessary_scalar_Q_forms": [
+    "O(-4)+O(-18)",
+    "O(-6)+O(-16)"
+  ],
+  "necessary_balanced_Q_forms": [
+    "Wprime(-11)",
+    "O(-6)+O(-16)"
+  ],
+  "fixed_extension_dimensions": {
+    "Wprime(-11)": 0,
+    "O(-4)": 1,
+    "O(-6)": 0,
+    "O(-16)": 0,
+    "O(-18)": 0
+  },
+  "necessary_S0_forms": [
+    "A_std(-8)+Wprime(-11)",
+    "A_std(-8)+O(-6)+O(-16)",
+    "A_std(-8)+O(-4)+O(-18)",
+    "S4(-7)+O(-18)"
+  ],
+  "warning": "These are necessary possibilities only. Geometry and source authenticity require separate review.",
+  "proof_sha256": "793c635439cf05c0234b4152aca4e9213780258d096d9036902b808a952f39e4",
+  "checker_sha256": "70c38e243e20c789c1a1eabcfab10d4df1a71fbc1cf2655d7da9d9cf4c0761fa",
+  "inputs_manifest_sha256": "a495ace7776db35a8598b7ffaa9b28867d2954896f1131d2a2b344dfc9c5a6b1",
+  "input_local_integrity": [
+    {
+      "file": "inputs/endpoint-jet.md",
+      "sha256": "bbe7c05e9055b70ba511c77ebc0514a0fdf89d75844199f971e7e774355c08c6",
+      "bytes": 13548,
+      "git_blob_sha1": "9fed65228f493d0e44543af1b457fae193868f70"
+    },
+    {
+      "file": "inputs/pair-defect.md",
+      "sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "bytes": 15519,
+      "git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d"
+    },
+    {
+      "file": "inputs/principal-parts.md",
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "bytes": 12085,
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f"
+    }
+  ],
+  "checks_passed": 413
+}
