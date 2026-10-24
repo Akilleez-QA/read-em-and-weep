@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "reviewer": "New independent entire-proof review",
+  "created_at_utc": "2026-10-24T12:25:44.996291+00:00",
+  "retrieval_completed_at_utc": "2026-10-24T12:23:42.191Z",
+  "method": "Reviewer independently issued complete GitHub read-only fetch_file calls at immutable commits and separate fetch_blob calls. No line limits. Raw connector returns were retained; full UTF8 bytes were independently hashed and compared to each other and the frozen inputs. No author report or previous review substitutes for these calls.",
+  "per_call_timing_note": "Individual calls were not separately timed; retrieval completion time is recorded from the fresh connector batch.",
+  "raw_responses_file": "fresh-connector-responses.json",
+  "raw_responses_sha256": "f088ee0196f3d0c1f012b11a9eb5745c96a711ef865b43ace972ccb3f9cd71f4",
+  "proof_sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+  "checker_sha256": "5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2",
+  "frozen_manifest_sha256": "2f613894d092be9f87658f1574c54909c8dc12004aaa8e5abba5076e901123e7",
+  "sources": [
+    {
+      "id": "stationary-section-kernel",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "360b7e8f55b05ca5740a10cb3ed844a594766f70",
+      "path": "research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/360b7e8f55b05ca5740a10cb3ed844a594766f70/research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+      "local_path": "inputs/stationary-section-kernel.md",
+      "utf8_bytes": 24626,
+      "sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+      "computed_git_blob_sha1": "2bc33710e6e3b5867955f6a3171786e10f1c08cb",
+      "returned_path_blob_sha1": "2bc33710e6e3b5867955f6a3171786e10f1c08cb",
+      "path_request": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "ref": "360b7e8f55b05ca5740a10cb3ed844a594766f70",
+          "path": "research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md"
+        }
+      },
+      "blob_request": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "2bc33710e6e3b5867955f6a3171786e10f1c08cb"
+        }
+      },
+      "complete_path_blob_local_bytes_equal": true,
+      "computed_git_blob_matches_requested_and_path_returned_sha": true,
+      "blob_response_has_sha_field": false,
+      "note": "The blob endpoint returned content only. Its request is pinned to the Git blob, and the whole returned bytes independently recompute exactly that blob identifier."
+    },
+    {
+      "id": "shared-d-gluing",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "af136934955f1bcc700ee768e2debb983e75451d",
+      "path": "research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af136934955f1bcc700ee768e2debb983e75451d/research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md",
+      "local_path": "inputs/shared-d-gluing.md",
+      "utf8_bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+      "computed_git_blob_sha1": "3d051410e80a33f1c4d78d3403bb186595bb72c3",
+      "returned_path_blob_sha1": "3d051410e80a33f1c4d78d3403bb186595bb72c3",
+      "path_request": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "ref": "af136934955f1bcc700ee768e2debb983e75451d",
+          "path": "research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md"
+        }
+      },
+      "blob_request": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "3d051410e80a33f1c4d78d3403bb186595bb72c3"
+        }
+      },
+      "complete_path_blob_local_bytes_equal": true,
+      "computed_git_blob_matches_requested_and_path_returned_sha": true,
+      "blob_response_has_sha_field": false,
+      "note": "The blob endpoint returned content only. Its request is pinned to the Git blob, and the whole returned bytes independently recompute exactly that blob identifier."
+    }
+  ]
+}

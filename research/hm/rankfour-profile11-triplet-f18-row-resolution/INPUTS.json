@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "stationary-section-kernel",
+      "pr": 1239,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "360b7e8f55b05ca5740a10cb3ed844a594766f70",
+      "path": "research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+      "local_path": "inputs/stationary-section-kernel.md",
+      "utf8_bytes": 24626,
+      "sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+      "git_blob_sha1": "2bc33710e6e3b5867955f6a3171786e10f1c08cb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/360b7e8f55b05ca5740a10cb3ed844a594766f70/research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+      "authentication": {
+        "retrieval_method": "Fresh complete read-only GitHub connector fetch_file at immutable commit, independently followed by fetch_blob at returned Git blob. No line-range limits.",
+        "path_call": {
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "started_at_utc": "2026-10-24T12:16:06.627Z",
+          "completed_at_utc": "2026-10-24T12:16:06.921Z",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "path": "research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+            "ref": "360b7e8f55b05ca5740a10cb3ed844a594766f70"
+          }
+        },
+        "blob_call": {
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "started_at_utc": "2026-10-24T12:16:37.347Z",
+          "completed_at_utc": "2026-10-24T12:16:37.714Z",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "2bc33710e6e3b5867955f6a3171786e10f1c08cb"
+          },
+          "url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/2bc33710e6e3b5867955f6a3171786e10f1c08cb"
+        },
+        "path_blob_local_complete_bytes_equal": true,
+        "computed_git_blob_equals_returned_sha": true
+      }
+    },
+    {
+      "id": "shared-d-gluing",
+      "pr": 1207,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "af136934955f1bcc700ee768e2debb983e75451d",
+      "path": "research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md",
+      "local_path": "inputs/shared-d-gluing.md",
+      "utf8_bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+      "git_blob_sha1": "3d051410e80a33f1c4d78d3403bb186595bb72c3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/af136934955f1bcc700ee768e2debb983e75451d/research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md",
+      "authentication": {
+        "retrieval_method": "Fresh complete read-only GitHub connector fetch_file at immutable commit, independently followed by fetch_blob at returned Git blob. No line-range limits.",
+        "path_call": {
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "started_at_utc": "2026-10-24T12:16:06.921Z",
+          "completed_at_utc": "2026-10-24T12:16:07.226Z",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "path": "research/hm/rankfour-profile11-triplet-shared-d-gluing/PROOF.md",
+            "ref": "af136934955f1bcc700ee768e2debb983e75451d"
+          }
+        },
+        "blob_call": {
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "started_at_utc": "2026-10-24T12:16:37.714Z",
+          "completed_at_utc": "2026-10-24T12:16:38.110Z",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "3d051410e80a33f1c4d78d3403bb186595bb72c3"
+          },
+          "url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/3d051410e80a33f1c4d78d3403bb186595bb72c3"
+        },
+        "path_blob_local_complete_bytes_equal": true,
+        "computed_git_blob_equals_returned_sha": true
+      }
+    }
+  ]
+}

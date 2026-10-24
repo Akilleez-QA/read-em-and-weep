@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "frozen_at_utc": "2026-10-24T12:21:01.842532+00:00",
+  "files": {
+    "PROOF.md": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+    "README.md": "3560918313863e00fa7ba37cf84595724dfa901bf426f8486276eabb50612762",
+    "INPUTS.md": "ff7ea5366b2f20dd08bb6c81f8a12aeab60bb5e0c43a9abd6e159b5ceda33ac6",
+    "INPUTS.json": "ca147591bf89fe49e3987ad6c096848fa8f718bb2db70ea7af29c9aa0d34dcd2",
+    "PROVENANCE.md": "99d1dce5c34d6a35e253e3ec768f47d17030cd4c0bd194b60051d2a4dd730885",
+    "verify.py": "5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2",
+    "inputs/stationary-section-kernel.md": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+    "inputs/shared-d-gluing.md": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+  },
+  "proof_utf8_bytes": 15616,
+  "proof_sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+  "review_status": "New independent entire-proof publication-packet review pending; the earlier preparatory audit is not that review.",
+  "exclusions": [
+    "LOCAL-SOURCE-FETCHES.json",
+    "AUTHOR-REPLAY.json",
+    "FREEZE-REPORT.md",
+    "verification/",
+    "PUBLICATION-MANIFEST.json",
+    "reviewer files not yet supplied",
+    "caches"
+  ]
+}
