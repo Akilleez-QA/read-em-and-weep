@@ -1,0 +1,535 @@
+{
+  "ambient_character": {
+    "A": 2,
+    "D5": 2,
+    "P4": 2,
+    "V": 2
+  },
+  "authenticated_sources": 4,
+  "checks": 3114,
+  "cubic_candidates": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -2,
+        "P4": 1,
+        "V": 3
+      },
+      "cubic_excess": {
+        "W'": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -1,
+        "A": -1,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -1,
+        "A": -1,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -1,
+        "A": -1,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -1,
+        "A": -1,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "D5": 1,
+        "V": 2
+      },
+      "H1_B_twist2": {},
+      "H1_E_twist0": {
+        "D5": 3,
+        "P4": 4,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W'": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "full_Euler_residuals": {
+        "0": {
+          "A": -1,
+          "V": 1
+        },
+        "1": {
+          "W": -1,
+          "W'": 1
+        },
+        "2": {
+          "1": -1,
+          "P4": 1,
+          "V": -1
+        },
+        "3": {},
+        "4": {
+          "1": 1,
+          "P4": -1,
+          "V": 1
+        }
+      },
+      "quartic_pass": true
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "F0_twist4_Euler": {
+        "D5": 1,
+        "V": 2
+      },
+      "H1_B_twist2": {},
+      "H1_E_twist0": {
+        "D5": 3,
+        "P4": 4,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W'": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "full_Euler_residuals": {
+        "0": {
+          "A": -1,
+          "V": 1
+        },
+        "1": {
+          "W": -1,
+          "W'": 1
+        },
+        "2": {
+          "1": -1,
+          "P4": 1,
+          "V": -1
+        },
+        "3": {},
+        "4": {
+          "1": 1,
+          "P4": -1,
+          "V": 1
+        }
+      },
+      "quartic_pass": true
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "A": -1,
+        "P4": 2,
+        "V": 2
+      },
+      "cubic_excess": {
+        "W": 1
+      },
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -2,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {},
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -2,
+        "D5": 1,
+        "P4": 1,
+        "V": 2
+      },
+      "cubic_excess": {},
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "1": -1,
+        "P4": 2,
+        "V": 2
+      },
+      "cubic_excess": {},
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "quartic_pass": false
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "F0_twist4_Euler": {
+        "D5": 2,
+        "V": 1
+      },
+      "H1_B_twist2": {},
+      "H1_E_twist0": {
+        "D5": 3,
+        "P4": 4,
+        "V": 2
+      },
+      "cubic_excess": {},
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "full_Euler_residuals": {
+        "0": {
+          "1": 1,
+          "A": -1,
+          "D5": 1,
+          "V": -1
+        },
+        "1": {
+          "W": -1,
+          "W'": 1
+        },
+        "2": {
+          "1": -2,
+          "D5": -1,
+          "P4": 1,
+          "V": 1
+        },
+        "3": {
+          "S4": -1,
+          "T6": 1,
+          "W": -1
+        },
+        "4": {
+          "1": 1,
+          "A": -2,
+          "D5": 1
+        }
+      },
+      "quartic_pass": true
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "F0_twist4_Euler": {
+        "P4": 1,
+        "V": 3
+      },
+      "H1_B_twist2": {},
+      "H1_E_twist0": {
+        "D5": 3,
+        "P4": 4,
+        "V": 2
+      },
+      "cubic_excess": {},
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "full_Euler_residuals": {
+        "0": {
+          "1": 1,
+          "A": 1,
+          "P4": -1
+        },
+        "1": {
+          "S4": 1,
+          "T6": -1,
+          "W": 1
+        },
+        "2": {
+          "A": 1,
+          "V": -1
+        },
+        "3": {},
+        "4": {
+          "A": -1,
+          "V": 1
+        }
+      },
+      "quartic_pass": true
+    }
+  ],
+  "endpoint_cases": [
+    {
+      "B_degree": 0,
+      "cubic_count": 8,
+      "domain_count": 50,
+      "endpoint_degrees": [
+        -54,
+        -6
+      ],
+      "full_Euler_survivors": 0,
+      "quartic_count": 2,
+      "slope_window": [
+        -4,
+        12
+      ]
+    },
+    {
+      "B_degree": -2,
+      "cubic_count": 5,
+      "domain_count": 37,
+      "endpoint_degrees": [
+        -52,
+        -12
+      ],
+      "full_Euler_survivors": 0,
+      "quartic_count": 2,
+      "slope_window": [
+        -4,
+        10
+      ]
+    }
+  ],
+  "method": "Independent exact conjugacy-class arithmetic using closed binomial symmetric polynomials; independent ordinary-line and irreducible-block candidate enumerations.",
+  "scope": "Necessary universal data exclude only actual generic-rank-four maximal plateau (1,3).",
+  "status": "PASS"
+}

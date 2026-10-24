@@ -1,0 +1,133 @@
+{
+  "author_checks": 1250,
+  "author_internal_mutation_rejections": 81,
+  "controls": [
+    {
+      "mutation": "one-byte source corruption: ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "changed immutable source ref",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "one-byte source corruption: GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "changed immutable source ref",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong A central parity",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "swap A and V while keeping physical W fixed",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong A central parity",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "swap A and V while keeping physical W fixed",
+      "program": "reviewed_author/verify.py",
+      "rejected": true
+    },
+    {
+      "mutation": "discard all H1 tails",
+      "program": "independent_check.py",
+      "rejected": true
+    },
+    {
+      "mutation": "omit one cubic candidate",
+      "program": "cross-comparison",
+      "rejected": true
+    },
+    {
+      "mutation": "replace nonzero Euler obstruction by zero",
+      "program": "cross-comparison",
+      "rejected": true
+    }
+  ],
+  "independent_checks": 3114,
+  "mutation_rejections": 17,
+  "normal_optimized_and_portability_runs": [
+    {
+      "optimized": false,
+      "other_working_directory": false,
+      "program": "independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "optimized": true,
+      "other_working_directory": false,
+      "program": "independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "optimized": false,
+      "other_working_directory": true,
+      "program": "independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "optimized": false,
+      "other_working_directory": false,
+      "program": "reviewed_author/verify.py",
+      "status": "PASS"
+    },
+    {
+      "optimized": true,
+      "other_working_directory": false,
+      "program": "reviewed_author/verify.py",
+      "status": "PASS"
+    },
+    {
+      "optimized": false,
+      "other_working_directory": true,
+      "program": "reviewed_author/verify.py",
+      "status": "PASS"
+    }
+  ],
+  "status": "PASS",
+  "thirteen_candidate_comparison": "PASS"
+}
