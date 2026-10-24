@@ -1,6 +1,6 @@
-# Living research paper · v0.70
+# Living research paper · v0.72
 
-**Craig Ward · 24 October 2026 UTC · Current checkpoint: ordered rank-four (3,2) excluded**
+**Craig Ward · 24 October 2026 UTC · Current checkpoint: ordered rank-four (2,2) excluded**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
@@ -8,11 +8,23 @@ Both source2 mechanisms and their fourth/fifth alternatives below are now **hist
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
 
-## Ordered reverse-adjacent stratum excluded: 24 necessary bad bins become 23
+## The diagonal (2,2) stratum is excluded: 23 necessary bad bins become 22
+
+[The torsion-retaining diagonal proof](150-rankfour-diagonal-torsion-exclusion.md) keeps all nine degree cases and all five exceptional-orbit torsion characters. Valid cohomology inequalities and intrinsic Hom obstructions leave 172 formal tuples, including forty with a length-twelve lower defect. Every tuple forces a rank-one endpoint flag whose weighted invariant defect would have to equal eighteen, although it is either zero or at least forty-eight.
+
+Four rank-four bins remain: (1,1), (1,2), (2,1), (3,1), alongside eighteen higher-rank bins. The (3,1) cubic-image result remains partial. No four-source classification or Z assumption is used for the diagonal exclusion. Generic SF≥4 and square rank≥28 remain the bounds; SF≥5 and the original repair are not proved. Counts are necessary containers, not realizations or a completion percentage.
+
+## Historical partial-image checkpoint: the coarse count stayed 23
+
+[The backward dual-cubic image bound](149-backward-dual-cubic-image-bound.md) proves that every chosen T₆ copy in the actual dual cubic sections has nonzero derivative image of rank one, two or three, never four. Rank one forces image O(9) and necessary source D. It does not assume a canonical cubic subbundle or injective evaluation, and it does not close (3,1).
+
+The independent endpoint/defect ledger retains 31 necessary rows, including 24 ramified rows. These are not coarse bins or realized configurations. At that checkpoint the frontier remained 23 necessary bad coarse bins, with five at rank four; chapter150 supersedes that count. No SF≥5 or original repair is claimed; the preceding exclusion and PDF are preserved.
+
+## Historical reverse-adjacent exclusion: 24 necessary bad bins became 23
 
 [The rank-four (3,2) theorem](148-rankfour-reverse-adjacent-exclusion.md) eliminates the quotient exactly in equivariant K-theory, then derives a complete 401-pair abstract endpoint domain. Fourteen pairs satisfy the initial Euler necessities; every one fails a genuine cohomology-character requirement. The rank17 E and rank13 Q* remain distinct, and no Z-source assumption or direction swap is used.
 
-Five rank-four bins remain in the necessary list: (1,1), (1,2), (2,1), (2,2), (3,1). The other bad-rank groups remain 6,4,2,2,1,1,1,1. Counts describe necessary containers, not realizations, equal-work units or a completion percentage. Generic SF≥4 and square rank≥28 remain the bounds; SF≥5 and the original repair are not proved. Earlier chapters and the PDF are preserved.
+At that checkpoint five rank-four bins remained: (1,1), (1,2), (2,1), (2,2), (3,1); chapter150 subsequently excludes (2,2). The other bad-rank groups remain 6,4,2,2,1,1,1,1. Counts describe necessary containers, not realizations, equal-work units or a completion percentage. Generic SF≥4 and square rank≥28 remain the bounds; SF≥5 and the original repair are not proved. Earlier chapters and the PDF are preserved.
 
 ## Historical forward-length-three row closure: 26 necessary bad bins became 24
 
