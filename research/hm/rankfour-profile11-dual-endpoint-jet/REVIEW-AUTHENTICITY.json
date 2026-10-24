@@ -1,0 +1,40 @@
+{
+  "scope": "Independent read-only source authentication at the exact repository path and immutable ref in INPUTS.json. Full returned content was byte-compared against each retained input.",
+  "verified_at_utc": "2026-10-24T02:56:13Z",
+  "source_manifest_sha256": "a50a800a3b2aba24a72c27abab06d73a2cae06d40f6657c1adcaa644c0859b94",
+  "verdict": "PASS",
+  "sources": [
+    {
+      "file": "inputs/actual.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "fresh_github_method": "mcp__codex_apps__github_fetch_file",
+      "fresh_github_returned_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "computed_remote_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "computed_remote_sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "computed_remote_bytes": 9672,
+      "remote_equals_local": true,
+      "verdict": "PASS"
+    },
+    {
+      "file": "inputs/pair-defect.md",
+      "ref": "0156405384eefb3efe08d724e682b4a839157bfc",
+      "path": "research/hm/rankfour-profile11-pair-defect/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0156405384eefb3efe08d724e682b4a839157bfc/research/hm/rankfour-profile11-pair-defect/PROOF.md",
+      "bytes": 15519,
+      "sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "fresh_github_method": "mcp__codex_apps__github_fetch_file",
+      "fresh_github_returned_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "computed_remote_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "computed_remote_sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "computed_remote_bytes": 15519,
+      "remote_equals_local": true,
+      "verdict": "PASS"
+    }
+  ]
+}

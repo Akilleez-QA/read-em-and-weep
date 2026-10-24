@@ -1,0 +1,30 @@
+{
+  "checks": 66,
+  "conclusions": {
+    "original_actual_kernel": "O(-10)+T6(-3)",
+    "original_defect": 12,
+    "original_kernel_degree": -28,
+    "original_kernel_rank": 7,
+    "small_actual_kernel": "O(-10)",
+    "small_dual_endpoint": "W(-9)",
+    "small_saturated_image": "O(-8)"
+  },
+  "hom_dimensions": {
+    "O(-10) -> O(-6)": 0,
+    "O(-10) -> O(-8)": 0,
+    "O(-10) -> W(-7)": 0,
+    "O(-8) -> W(-7)": 1,
+    "W(-9) -> O(-6)": 0,
+    "W(-9) -> O(-8)": 1,
+    "W(-9) -> W(-7)": 1
+  },
+  "proof_sha256": "bbe7c05e9055b70ba511c77ebc0514a0fdf89d75844199f971e7e774355c08c6",
+  "scope": "Fixed universal representation, Hom, Euler/jet and rank-degree identities only; no actual instance data.",
+  "semantic_controls": {
+    "a degree minus eleven line would not have an isomorphic internal row": true,
+    "rank one alone does not determine the degree minus eight image": true,
+    "the split and balanced ordinary degrees differ": true,
+    "zero jet coefficient would not give the extension comparison": true
+  },
+  "status": "PASS"
+}
