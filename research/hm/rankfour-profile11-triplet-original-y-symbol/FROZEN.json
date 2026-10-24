@@ -1,0 +1,47 @@
+{
+  "schema": "original-y-symbol-freeze-v1",
+  "status": "frozen author core; independent entire review pending",
+  "created_utc": "2026-10-24T14:36:18.130800+00:00",
+  "files": {
+    "PROOF.md": {
+      "bytes": 17598,
+      "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+    },
+    "README.md": {
+      "bytes": 3300,
+      "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+    },
+    "INPUTS.json": {
+      "bytes": 11259,
+      "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+    },
+    "INPUTS.md": {
+      "bytes": 7965,
+      "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+    },
+    "PROVENANCE.md": {
+      "bytes": 4141,
+      "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+    },
+    "verify.py": {
+      "bytes": 5709,
+      "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+    },
+    "inputs/OD-PROOF.md": {
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    "inputs/FC-PROOF.md": {
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    "inputs/TP-PROOF.md": {
+      "bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+    },
+    "inputs/OT-PROOF.md": {
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    }
+  }
+}

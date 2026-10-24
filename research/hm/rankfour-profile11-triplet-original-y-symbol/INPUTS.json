@@ -1,0 +1,222 @@
+{
+  "schema": "original-y-symbol-inputs-v1",
+  "status": "frozen author inputs; not independent review",
+  "recorded_utc": "2026-10-24T14:33:28.663555+00:00",
+  "direct_original_count": 4,
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "sources": [
+    {
+      "label": "OD",
+      "commit": "4696eb607fd6446511dd9968a056778349bf17b3",
+      "path": "research/hm/rankfour-profile11-triplet-original-second-kernel-derivative/PROOF.md",
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f",
+      "blob": "e561adb180b5040a57464808dbbdfaef29f1c6a8",
+      "pr": 1245,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "retained_path": "inputs/OD-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/4696eb607fd6446511dd9968a056778349bf17b3/research/hm/rankfour-profile11-triplet-original-second-kernel-derivative/PROOF.md",
+      "authentication_routes": [
+        {
+          "kind": "file",
+          "raw_response": "authentication/OD-fetch_file.json",
+          "raw_response_bytes": 12884,
+          "raw_response_sha256": "597dd7d42043cf116101a3631995874d5c623784c75143ffa89e568c4f23f3dd",
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "ref": "4696eb607fd6446511dd9968a056778349bf17b3",
+            "path": "research/hm/rankfour-profile11-triplet-original-second-kernel-derivative/PROOF.md",
+            "encoding": "utf-8"
+          },
+          "started_utc": "2026-10-24T14:29:31.180Z",
+          "completed_utc": "2026-10-24T14:29:31.753Z",
+          "complete_no_line_range": true
+        },
+        {
+          "kind": "blob",
+          "raw_response": "authentication/OD-fetch_blob.json",
+          "raw_response_bytes": 12448,
+          "raw_response_sha256": "3186c74e28a3fb82366b5a2e60a7d976aaf85dd016f844024a9882f8a1737be4",
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "e561adb180b5040a57464808dbbdfaef29f1c6a8"
+          },
+          "started_utc": "2026-10-24T14:29:49.144Z",
+          "completed_utc": "2026-10-24T14:29:49.679Z",
+          "complete_no_line_range": true
+        }
+      ],
+      "exact_utf8_route_and_retained_bytes_equal": true,
+      "complete_original_read": true,
+      "direct_use": "Sections 1-4: actual K/Fhat=A(2), original normal beta_Fhat, saturated Euler-plane image E, exact kernel Chat on Bhat, nonzero scalar quotient row q0 beta_Fhat; Section 6 supplies the fixed W adjacency. q0 is not identified with an original X normal quotient."
+    },
+    {
+      "label": "FC",
+      "commit": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "blob": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "pr": 1236,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "retained_path": "inputs/FC-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "authentication_routes": [
+        {
+          "kind": "file",
+          "raw_response": "authentication/FC-fetch_file.json",
+          "raw_response_bytes": 19225,
+          "raw_response_sha256": "dfa1b92531d9325ff8d29713714cb305de38d958f65ca9ad16b2bd9c3bd20a48",
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+            "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+            "encoding": "utf-8"
+          },
+          "started_utc": "2026-10-24T14:29:49.679Z",
+          "completed_utc": "2026-10-24T14:29:50.456Z",
+          "complete_no_line_range": true
+        },
+        {
+          "kind": "blob",
+          "raw_response": "authentication/FC-fetch_blob.json",
+          "raw_response_bytes": 18799,
+          "raw_response_sha256": "5d25a7f61089e5a0ef7e0b73b0355b584c2d991c4c62648baf3181b7e3cb7ad0",
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+          },
+          "started_utc": "2026-10-24T14:29:50.456Z",
+          "completed_utc": "2026-10-24T14:29:50.842Z",
+          "complete_no_line_range": true
+        }
+      ],
+      "exact_utf8_route_and_retained_bytes_equal": true,
+      "complete_original_read": true,
+      "direct_use": "Sections 1-2: K=E0^-, R11=Bhat^+ subset K, original X0+Y0, E0^+=ann(X0+Y0). These yield original first-Y-jet annihilation of E0."
+    },
+    {
+      "label": "TP",
+      "commit": "2dfb37187cf61c59b1277a4492881c0fd42de44f",
+      "path": "research/hm/rankfour-profile11-triplet-ten-pairing-splitting/PROOF.md",
+      "bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e",
+      "blob": "e41b654ff6edba56d5a071811f19d4db4346681c",
+      "pr": 1237,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "retained_path": "inputs/TP-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2dfb37187cf61c59b1277a4492881c0fd42de44f/research/hm/rankfour-profile11-triplet-ten-pairing-splitting/PROOF.md",
+      "authentication_routes": [
+        {
+          "kind": "file",
+          "raw_response": "authentication/TP-fetch_file.json",
+          "raw_response_bytes": 17411,
+          "raw_response_sha256": "6b5fc9288e8e956ab4df2fd63474f6f65f47025db321a526485fe73313b0a4f5",
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "ref": "2dfb37187cf61c59b1277a4492881c0fd42de44f",
+            "path": "research/hm/rankfour-profile11-triplet-ten-pairing-splitting/PROOF.md",
+            "encoding": "utf-8"
+          },
+          "started_utc": "2026-10-24T14:29:50.843Z",
+          "completed_utc": "2026-10-24T14:29:51.208Z",
+          "complete_no_line_range": true
+        },
+        {
+          "kind": "blob",
+          "raw_response": "authentication/TP-fetch_blob.json",
+          "raw_response_bytes": 16999,
+          "raw_response_sha256": "95222e08dc18e643797bd71c9cd1fcffb54b56b85724951b06e79a46f06a39c4",
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "e41b654ff6edba56d5a071811f19d4db4346681c"
+          },
+          "started_utc": "2026-10-24T14:29:51.208Z",
+          "completed_utc": "2026-10-24T14:29:51.521Z",
+          "complete_no_line_range": true
+        }
+      ],
+      "exact_utf8_route_and_retained_bytes_equal": true,
+      "complete_original_read": true,
+      "direct_use": "Section 1: complete auxiliary flag and Zhat5 subset R11. Sections 3-7: nonzero Delta^10 pairing, perfect original-X/auxiliary-Z constant pairing and actual complete flags. No moving inverse is differentiated."
+    },
+    {
+      "label": "OT",
+      "commit": "3fbaa182b1aceb6915be88088ef158d6d15e34fb",
+      "path": "research/hm/rankfour-profile11-triplet-orthogonal-top-incidence/PROOF.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637",
+      "blob": "f00b059695615d9b8ab6d315798940e3ab0a58d4",
+      "pr": 1240,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "retained_path": "inputs/OT-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3fbaa182b1aceb6915be88088ef158d6d15e34fb/research/hm/rankfour-profile11-triplet-orthogonal-top-incidence/PROOF.md",
+      "authentication_routes": [
+        {
+          "kind": "file",
+          "raw_response": "authentication/OT-fetch_file.json",
+          "raw_response_bytes": 29572,
+          "raw_response_sha256": "43aafd402d394cfb1697ac5361689a1b5700b4a3d7e3bfbc01c8b41ea972a8d6",
+          "tool": "mcp__codex_apps__github_fetch_file",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "ref": "3fbaa182b1aceb6915be88088ef158d6d15e34fb",
+            "path": "research/hm/rankfour-profile11-triplet-orthogonal-top-incidence/PROOF.md",
+            "encoding": "utf-8"
+          },
+          "started_utc": "2026-10-24T14:29:51.522Z",
+          "completed_utc": "2026-10-24T14:29:51.867Z",
+          "complete_no_line_range": true
+        },
+        {
+          "kind": "blob",
+          "raw_response": "authentication/OT-fetch_blob.json",
+          "raw_response_bytes": 29154,
+          "raw_response_sha256": "13f9e37b0134f219e20fb61123ed46718641b026482cc1e21563ff7c4961170d",
+          "tool": "mcp__codex_apps__github_fetch_blob",
+          "arguments": {
+            "repository_full_name": "Akilleez-QA/read-em-and-weep",
+            "blob_sha": "f00b059695615d9b8ab6d315798940e3ab0a58d4"
+          },
+          "started_utc": "2026-10-24T14:29:51.868Z",
+          "completed_utc": "2026-10-24T14:29:52.553Z",
+          "complete_no_line_range": true
+        }
+      ],
+      "exact_utf8_route_and_retained_bytes_equal": true,
+      "complete_original_read": true,
+      "direct_use": "Section 1: actual original Y component y_Z lies in x2 and a_Z:Y0->x2/x1 is nonzero with divisor D12. Section 8 explains intrinsic top symbols. No later P-type third-jet conclusion is imported."
+    }
+  ],
+  "assumption_boundary": "Full-positive triplet, original t=0, original local delta=12, residual simultaneous rank-seven k=2, original K1, and all complete transitive actual-geometric assumptions. Recursive dependency authentication is not claimed.",
+  "preparatory_material_not_direct_originals": {
+    "source_draft": {
+      "preserved_path": "preparation/Y-SYMBOL-DRAFT.md",
+      "original_path": "/workspace/shared/rankfour-profile11-triplet-original-kernel-obstruction/Y-SYMBOL-DRAFT.md",
+      "bytes": 15890,
+      "sha256": "043cecf376c88a1bd2f04903f0aa9e9bd63dd76cda816fd07cb82427fc5551d6"
+    },
+    "earlier_review": {
+      "preserved_path": "preparation/Y-SYMBOL-REVIEW.md",
+      "bytes": 11747,
+      "sha256": "b26aa1b61ae16dc17f9d1e9e103f61459e29064ac2b9d4f6e339657e55719c61",
+      "status": "preparatory audit only; not independent review of frozen packet"
+    },
+    "prior_checker": {
+      "preserved_path": "preparation/check_y_symbol_universal.py",
+      "sha256": "e7ad2637bc36c092d2a1117c1e08ed1e52abce7ea01c99978d90cb22a3271460"
+    },
+    "complete_diff": {
+      "path": "preparation/DRAFT-TO-FROZEN.diff",
+      "bytes": 8691,
+      "sha256": "314b79f5f3c14ca8883d64cc0b032df4226057448dd07491b2c4e47b77764289"
+    }
+  },
+  "verification_boundary": "Exact-file integrity and bounded universal checks only, not actual source-instance evaluation or actual-map verification."
+}
