@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "reviewer_role": "new independent entire-proof mathematical reviewer",
+  "verdict": "ACCEPTED",
+  "authenticated_at_utc": "2026-10-24T11:39:40.421822+00:00",
+  "proof": {
+    "path": "PROOF.md",
+    "utf8_bytes": 24626,
+    "sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+    "git_blob_sha1": "2bc33710e6e3b5867955f6a3171786e10f1c08cb",
+    "entire_proof_read": true
+  },
+  "checker": {
+    "path": "verify_packet.py",
+    "entire_checker_read": true,
+    "utf8_bytes": 10489,
+    "sha256": "7ace5d9ecc767662380aca60d5c7773f45766d038adad2cc0735218930c93963"
+  },
+  "sources": [
+    {
+      "id": "seven-space-ramification",
+      "pr": 1238,
+      "ref": "d259230fbf7259e52db267c56203a29f221da5f0",
+      "path": "research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md",
+      "local_path": "inputs/seven-space-ramification.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 20687,
+      "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+      "git_blob_sha1": "0da306ac1dc4c879ced57c28e2ec3a07f027da70",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d259230fbf7259e52db267c56203a29f221da5f0/research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md",
+      "independent_file_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "ref": "d259230fbf7259e52db267c56203a29f221da5f0",
+          "path": "research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md"
+        },
+        "no_line_ranges": true,
+        "returned_blob_sha1": "0da306ac1dc4c879ced57c28e2ec3a07f027da70"
+      },
+      "independent_blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "0da306ac1dc4c879ced57c28e2ec3a07f027da70"
+        }
+      },
+      "complete_original_read": true,
+      "complete_utf8_bytes_equal": true,
+      "file_blob_local_equal": true,
+      "measured": {
+        "utf8_bytes": 20687,
+        "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+        "git_blob_sha1": "0da306ac1dc4c879ced57c28e2ec3a07f027da70"
+      }
+    },
+    {
+      "id": "shared-d",
+      "pr": 1206,
+      "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+      "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+      "local_path": "inputs/shared-d.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 8801,
+      "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+      "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/252b967ebbfbea6fc0c6451a835ab2daff92d73b/research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+      "independent_file_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+          "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md"
+        },
+        "no_line_ranges": true,
+        "returned_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684"
+      },
+      "independent_blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "82596d9d02147711e0d5f7953912a94fffbae684"
+        }
+      },
+      "complete_original_read": true,
+      "complete_utf8_bytes_equal": true,
+      "file_blob_local_equal": true,
+      "measured": {
+        "utf8_bytes": 8801,
+        "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684"
+      }
+    }
+  ],
+  "raw_connector_responses_excluded_from_selected_publication": true,
+  "authentication_scope": "Complete immutable originals authenticated independently by file-at-exact-commit/path and exact Git-blob reads; authentication is distinct from the mathematical review in REVIEW.md."
+}

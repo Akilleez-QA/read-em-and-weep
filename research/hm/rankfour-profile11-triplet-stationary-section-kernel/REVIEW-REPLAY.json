@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "verdict": "ACCEPTED",
+  "proof_sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+  "proof_utf8_bytes": 24626,
+  "checker_sha256": "7ace5d9ecc767662380aca60d5c7773f45766d038adad2cc0735218930c93963",
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "verify_packet.py",
+    "inputs/seven-space-ramification.md",
+    "inputs/shared-d.md",
+    "README.md",
+    "PROVENANCE.md",
+    "FROZEN.json"
+  ],
+  "selected_file_count": 8,
+  "independent_selected_directories": 2,
+  "checks_per_run": 177,
+  "normal_and_optimized_identical": true,
+  "all_six_stdout_identical": true,
+  "frozen_core_unchanged": true,
+  "raw_connector_evidence_excluded": true,
+  "clean_directories": [
+    {
+      "directory": "/tmp/review-stationary-section-kernel-selected-yik55rpi",
+      "files_before": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/seven-space-ramification.md",
+        "inputs/shared-d.md",
+        "verify_packet.py"
+      ],
+      "files_after": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/seven-space-ramification.md",
+        "inputs/shared-d.md",
+        "verify_packet.py"
+      ],
+      "exactly_eight_selected_files": true,
+      "all_hashes_match_frozen_source": true,
+      "hashes": {
+        "PROOF.md": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+        "INPUTS.json": "3f71e1a5a749b193fd22cef2e4361ffb9d191a2b0c76632f4f44d7515c0f07dc",
+        "verify_packet.py": "7ace5d9ecc767662380aca60d5c7773f45766d038adad2cc0735218930c93963",
+        "inputs/seven-space-ramification.md": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+        "inputs/shared-d.md": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "README.md": "27a89a88ba59ee0588e6a39786c64754fde61f7c0f13de1b6d6f3ad97dd8c31b",
+        "PROVENANCE.md": "2c237d122a60e80e5c2022c7a4216991aa58230d679665422182133247bc86e1",
+        "FROZEN.json": "45379f10ef9d35f9a25b21e90424fb8a756ff3295ec6532da174d751a786a476"
+      },
+      "no_raw_connector_evidence": true
+    },
+    {
+      "directory": "/tmp/review-stationary-section-kernel-selected-knq3il7e",
+      "files_before": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/seven-space-ramification.md",
+        "inputs/shared-d.md",
+        "verify_packet.py"
+      ],
+      "files_after": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/seven-space-ramification.md",
+        "inputs/shared-d.md",
+        "verify_packet.py"
+      ],
+      "exactly_eight_selected_files": true,
+      "all_hashes_match_frozen_source": true,
+      "hashes": {
+        "PROOF.md": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+        "INPUTS.json": "3f71e1a5a749b193fd22cef2e4361ffb9d191a2b0c76632f4f44d7515c0f07dc",
+        "verify_packet.py": "7ace5d9ecc767662380aca60d5c7773f45766d038adad2cc0735218930c93963",
+        "inputs/seven-space-ramification.md": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+        "inputs/shared-d.md": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "README.md": "27a89a88ba59ee0588e6a39786c64754fde61f7c0f13de1b6d6f3ad97dd8c31b",
+        "PROVENANCE.md": "2c237d122a60e80e5c2022c7a4216991aa58230d679665422182133247bc86e1",
+        "FROZEN.json": "45379f10ef9d35f9a25b21e90424fb8a756ff3295ec6532da174d751a786a476"
+      },
+      "no_raw_connector_evidence": true
+    }
+  ],
+  "runs": [
+    {
+      "kind": "original_directory",
+      "directory": "/workspace/shared/rankfour-profile11-triplet-stationary-section-kernel",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "original_directory",
+      "directory": "/workspace/shared/rankfour-profile11-triplet-stationary-section-kernel",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "selected_only",
+      "directory": "/tmp/review-stationary-section-kernel-selected-yik55rpi",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "selected_only",
+      "directory": "/tmp/review-stationary-section-kernel-selected-yik55rpi",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "selected_only",
+      "directory": "/tmp/review-stationary-section-kernel-selected-knq3il7e",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    },
+    {
+      "kind": "selected_only",
+      "directory": "/tmp/review-stationary-section-kernel-selected-knq3il7e",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 177 bounded checks (22 whole-file authentication; 135 fixed universal character; 8 symbolic whole-orbit inertia/cohomology; 12 fixed orbit/degree/kernel checks).\nEntire frozen proof SHA256: 7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2\nUniversal stationary subspace and conditional actual coefficient kernel only; no K1 realization, exclusion, higher-order matching, or algebraicity.\n",
+      "stderr": ""
+    }
+  ]
+}
