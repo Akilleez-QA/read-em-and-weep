@@ -1,0 +1,148 @@
+{
+  "K_type_selected": false,
+  "N_assumed_flat": false,
+  "V_minor_degree": 10,
+  "actual_instance_evaluated": false,
+  "all_three_heights_retained": true,
+  "authenticated_inputs": 11,
+  "checked_mutations": [
+    "allow V scalar row",
+    "allow rank1 V image",
+    "permit degree10 invariant base divisor",
+    "allow O(-10) scalar row",
+    "allow both scalar channels",
+    "permit rank2 capacity",
+    "permit negative rank3 capacity",
+    "wrong next kernel degree"
+  ],
+  "checks": 189,
+  "claim": "Actual beta_K is everywhere onto W O1+O; negative component zero; K^-rank10degree-56 and K^+=E0",
+  "forward_transform": {
+    "blocks": [
+      [
+        -2,
+        "D"
+      ],
+      [
+        -3,
+        "Wp"
+      ],
+      [
+        -3,
+        "T"
+      ],
+      [
+        -4,
+        "V"
+      ]
+    ],
+    "degree": -46,
+    "rank": 16
+  },
+  "max_symmetric_degree": 10,
+  "minimum_invariant_divisor_degree": 12,
+  "negative_rank3_image_capacity": -50,
+  "next_kernel": {
+    "degree": -56,
+    "rank": 10
+  },
+  "profile_closure": false,
+  "proof_sha256": "106268a3899b137baa0133e4e57c620a97c204ebe01e9b3803f20b5c14edba9b",
+  "rank2_image_capacity": -61,
+  "scalar_row_table": {
+    "T": [
+      {
+        "block": [
+          -3,
+          "S"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -4,
+          "V"
+        ],
+        "to_O": 0,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -5,
+          "T"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      }
+    ],
+    "W": [
+      {
+        "block": [
+          -3,
+          "S"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -4,
+          "V"
+        ],
+        "to_O": 0,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -4,
+          "P"
+        ],
+        "to_O": 0,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -7,
+          "Wp"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      }
+    ],
+    "one": [
+      {
+        "block": [
+          -3,
+          "S"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -4,
+          "V"
+        ],
+        "to_O": 0,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -4,
+          "D"
+        ],
+        "to_O": 1,
+        "to_O_minus10": 0
+      },
+      {
+        "block": [
+          -10,
+          "one"
+        ],
+        "to_O": 0,
+        "to_O_minus10": 1
+      }
+    ]
+  }
+}
