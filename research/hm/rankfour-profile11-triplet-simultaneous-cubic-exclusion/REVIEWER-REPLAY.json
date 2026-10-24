@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "replayed_at_utc": "2026-10-24T08:49:09.078312+00:00",
+  "isolated_directory": "/tmp/REVIEWER-LOCAL-cubic-replay-lpi_epuz",
+  "initially_empty": true,
+  "copied_only_REPRODUCE_selected_files": true,
+  "copied_files": {
+    "PROOF.md": {
+      "bytes": 13289,
+      "sha256": "9da994c73b8c5365de31fc8b5552ba364bfc6af624108acdb8567feba9365103"
+    },
+    "INPUTS.json": {
+      "bytes": 1074,
+      "sha256": "8e5aa701cfa0b1aeefcd200508fb1e4c4cb3ade803d1bf8e37f8b49a146a4b9f"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2674,
+      "sha256": "a456f482252d6572d726e41340a8dd4cdf0e5d58d00d278b527dd451c00aa7bf"
+    },
+    "verify.py": {
+      "bytes": 4661,
+      "sha256": "bf80de810e4edd42f948a9941bfd51c9ad47e71ae1ead2035a54937fe631a375"
+    },
+    "characters.py": {
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc"
+    },
+    "inputs/lifted-jets-and-kernel-two.md": {
+      "bytes": 13703,
+      "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa"
+    },
+    "inputs/five-kernels.md": {
+      "bytes": 8501,
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a"
+    }
+  },
+  "environment_overrides": {
+    "PYTHONPATH": "",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "optimized": false,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_sha256": "f9667b6b64ada3335e5423455fcc1fee0db675e7041805f646c54c5e08e204ae",
+      "result": {
+        "status": "PASS",
+        "checks": 47,
+        "proof_sha256": "9da994c73b8c5365de31fc8b5552ba364bfc6af624108acdb8567feba9365103",
+        "universal_character_consistency_checks": 81,
+        "scope": "Immutable local input authentication and fixed universal representation/degree identities only. The structural geometric proof is not certified by this arithmetic checker.",
+        "details": [
+          "two complete immutable originals",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "frozen entire-proof bytes",
+          "frozen entire-proof hash",
+          "fixed character module checks",
+          "Sym1 fixed identity",
+          "Sym3 fixed identity",
+          "Sym4 fixed identity",
+          "Sym5 fixed identity",
+          "Sym6 fixed identity",
+          "Sym7 fixed identity",
+          "Sym8 fixed identity",
+          "Sym12 fixed identity",
+          "Sym13 fixed identity",
+          "Sym14 fixed identity",
+          "W tensor T6 has no scalar",
+          "unique cubic projection",
+          "W(-9) to P(-4) universal Hom dimension one",
+          "P(-4) to O4 universal Hom dimension one",
+          "degree thirteen W multiplicity one",
+          "degree twelve invariant dimension one",
+          "degree fourteen invariant vanishing",
+          "cubic row has zero O4 projection",
+          "R misses D extension obstruction",
+          "rank-one saturation would have degree minus eight",
+          "P(-4) has no O(-8) subline",
+          "j minors below orbit minimum",
+          "q entries below orbit minimum",
+          "kernel q degree",
+          "kernel quotient degree",
+          "extension cohomology twist",
+          "Serre dual degree",
+          "split O(-2) line cannot map into P(-4)",
+          "universal cubic kernel degree",
+          "actual V row kernel degree",
+          "first jets cannot map to V row kernel",
+          "K4 low row invariant factor degree",
+          "K5 low row degrees"
+        ]
+      }
+    },
+    {
+      "optimized": true,
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout_sha256": "f9667b6b64ada3335e5423455fcc1fee0db675e7041805f646c54c5e08e204ae",
+      "result": {
+        "status": "PASS",
+        "checks": 47,
+        "proof_sha256": "9da994c73b8c5365de31fc8b5552ba364bfc6af624108acdb8567feba9365103",
+        "universal_character_consistency_checks": 81,
+        "scope": "Immutable local input authentication and fixed universal representation/degree identities only. The structural geometric proof is not certified by this arithmetic checker.",
+        "details": [
+          "two complete immutable originals",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "exact immutable ref and path",
+          "complete input length",
+          "complete input SHA256",
+          "complete Git blob identity",
+          "exact immutable URL",
+          "frozen entire-proof bytes",
+          "frozen entire-proof hash",
+          "fixed character module checks",
+          "Sym1 fixed identity",
+          "Sym3 fixed identity",
+          "Sym4 fixed identity",
+          "Sym5 fixed identity",
+          "Sym6 fixed identity",
+          "Sym7 fixed identity",
+          "Sym8 fixed identity",
+          "Sym12 fixed identity",
+          "Sym13 fixed identity",
+          "Sym14 fixed identity",
+          "W tensor T6 has no scalar",
+          "unique cubic projection",
+          "W(-9) to P(-4) universal Hom dimension one",
+          "P(-4) to O4 universal Hom dimension one",
+          "degree thirteen W multiplicity one",
+          "degree twelve invariant dimension one",
+          "degree fourteen invariant vanishing",
+          "cubic row has zero O4 projection",
+          "R misses D extension obstruction",
+          "rank-one saturation would have degree minus eight",
+          "P(-4) has no O(-8) subline",
+          "j minors below orbit minimum",
+          "q entries below orbit minimum",
+          "kernel q degree",
+          "kernel quotient degree",
+          "extension cohomology twist",
+          "Serre dual degree",
+          "split O(-2) line cannot map into P(-4)",
+          "universal cubic kernel degree",
+          "actual V row kernel degree",
+          "first jets cannot map to V row kernel",
+          "K4 low row invariant factor degree",
+          "K5 low row degrees"
+        ]
+      }
+    }
+  ],
+  "normal_and_optimized_outputs_identical": true,
+  "post_run_file_list_unchanged": true,
+  "no_bytecode_created": true,
+  "scope": "Only fixed universal representation/degree bookkeeping and exact file authentication; geometric review is separate in REVIEWER-REVIEW.md."
+}
