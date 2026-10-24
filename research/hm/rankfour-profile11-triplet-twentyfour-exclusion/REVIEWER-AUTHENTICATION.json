@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T05:45:00.460011+00:00",
+  "scope": "Independent fresh complete GitHub file reads for all three immutable direct originals; no start_line or end_line restrictions; local complete files compared byte-for-byte. Transitive actual-geometric hypotheses remain assumptions.",
+  "proof": {
+    "file": "PROOF.md",
+    "bytes": 13247,
+    "sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+    "frozen_sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+    "match": true
+  },
+  "method": "Read-only mcp__codex_apps__github_fetch_file at each exact commit and full path. SHA256 and Git blob SHA1 independently recomputed from UTF-8 bytes. Returned GitHub blob IDs cross-checked. Raw connector responses retained LOCAL-only and are not publication or replay dependencies.",
+  "sources": [
+    {
+      "file": "inputs/defect-capacity.md",
+      "ref": "ca235151d5d93bbead2beffa7640fbd0741aec43",
+      "path": "research/hm/rankfour-profile11-triplet-defect-capacity/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/ca235151d5d93bbead2beffa7640fbd0741aec43/research/hm/rankfour-profile11-triplet-defect-capacity/PROOF.md",
+      "expected_bytes": 16069,
+      "fetched_bytes": 16069,
+      "expected_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+      "fetched_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+      "expected_git_blob_sha1": "175af94697c44f3140bb2c1d04978931c255b3fe",
+      "fetched_git_blob_sha1": "175af94697c44f3140bb2c1d04978931c255b3fe",
+      "computed_git_blob_sha1": "175af94697c44f3140bb2c1d04978931c255b3fe",
+      "local_byte_equality": true,
+      "encoding": "utf-8",
+      "response_is_error": false,
+      "pass": true
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "ref": "7d71f0e2a3963cff64a069198f4415c5cfd0fe9b",
+      "path": "research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7d71f0e2a3963cff64a069198f4415c5cfd0fe9b/research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "expected_bytes": 8501,
+      "fetched_bytes": 8501,
+      "expected_sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "fetched_sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "expected_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "fetched_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "computed_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "local_byte_equality": true,
+      "encoding": "utf-8",
+      "response_is_error": false,
+      "pass": true
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "ref": "913892c66403ea57ed1681957ae1b9f8db9e5e15",
+      "path": "research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/913892c66403ea57ed1681957ae1b9f8db9e5e15/research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "expected_bytes": 17528,
+      "fetched_bytes": 17528,
+      "expected_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "fetched_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "expected_git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "fetched_git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "computed_git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "local_byte_equality": true,
+      "encoding": "utf-8",
+      "response_is_error": false,
+      "pass": true
+    }
+  ],
+  "all_sources_pass": true,
+  "full_source_texts_read": true,
+  "source_snippets_used_instead_of_full_files": false,
+  "github_writes": false,
+  "local_codex": false,
+  "actual_instance_evaluations": false,
+  "large_computation": false
+}
