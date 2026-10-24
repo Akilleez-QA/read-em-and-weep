@@ -1,0 +1,135 @@
+{
+  "schema": "original-second-kernel-derivative-inputs-v1",
+  "scope": "Exactly three complete immutable direct originals; all their transitive actual-geometric assumptions retained without fresh recursive authentication.",
+  "sources": [
+    {
+      "id": "pr1228",
+      "pr": 1228,
+      "commit": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "local_path": "inputs/pr1228-PROOF.md",
+      "utf8_bytes": 12921,
+      "git_blob_sha1": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593/research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "path_request": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "requested_at": "2026-10-24T13:36:57.509Z",
+        "completed_at": "2026-10-24T13:36:57.957Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+          "ref": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+          "encoding": "base64"
+        }
+      },
+      "blob_request": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "requested_at": "2026-10-24T13:37:10.793Z",
+        "completed_at": "2026-10-24T13:37:11.286Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848"
+        }
+      },
+      "authentication": {
+        "complete_path_bytes_equal_complete_blob_bytes": true,
+        "strict_utf8": true,
+        "sha256_matches_expected": true,
+        "recomputed_git_blob_matches_path_response": true
+      },
+      "raw_response_paths": [
+        "author-evidence/pr1228-path-response.json",
+        "author-evidence/pr1228-blob-response.json"
+      ]
+    },
+    {
+      "id": "pr1234",
+      "pr": 1234,
+      "commit": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "local_path": "inputs/pr1234-PROOF.md",
+      "utf8_bytes": 16183,
+      "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d55622ece9a4bb9e20197dec560b298f1d03fb1/research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "path_request": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "requested_at": "2026-10-24T13:36:57.509Z",
+        "completed_at": "2026-10-24T13:36:57.853Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+          "ref": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+          "encoding": "base64"
+        }
+      },
+      "blob_request": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "requested_at": "2026-10-24T13:37:10.793Z",
+        "completed_at": "2026-10-24T13:37:11.324Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b"
+        }
+      },
+      "authentication": {
+        "complete_path_bytes_equal_complete_blob_bytes": true,
+        "strict_utf8": true,
+        "sha256_matches_expected": true,
+        "recomputed_git_blob_matches_path_response": true
+      },
+      "raw_response_paths": [
+        "author-evidence/pr1234-path-response.json",
+        "author-evidence/pr1234-blob-response.json"
+      ]
+    },
+    {
+      "id": "pr1236",
+      "pr": 1236,
+      "commit": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "local_path": "inputs/pr1236-PROOF.md",
+      "utf8_bytes": 18052,
+      "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "path_request": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "requested_at": "2026-10-24T13:36:57.509Z",
+        "completed_at": "2026-10-24T13:36:57.898Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+          "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+          "encoding": "base64"
+        }
+      },
+      "blob_request": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "requested_at": "2026-10-24T13:37:10.793Z",
+        "completed_at": "2026-10-24T13:37:11.087Z",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+        }
+      },
+      "authentication": {
+        "complete_path_bytes_equal_complete_blob_bytes": true,
+        "strict_utf8": true,
+        "sha256_matches_expected": true,
+        "recomputed_git_blob_matches_path_response": true
+      },
+      "raw_response_paths": [
+        "author-evidence/pr1236-path-response.json",
+        "author-evidence/pr1236-blob-response.json"
+      ]
+    }
+  ]
+}
