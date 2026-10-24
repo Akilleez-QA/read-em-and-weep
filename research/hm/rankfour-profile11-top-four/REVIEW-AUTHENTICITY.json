@@ -1,0 +1,42 @@
+[
+  {
+    "file": "inputs/low-top.md",
+    "ref": "236e0a3723c3d73ea7fb9e549376540a8e70508b",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/236e0a3723c3d73ea7fb9e549376540a8e70508b/research/hm/rankfour-profile11-low-top/PROOF.md",
+    "sha": "6565110a12173fb6ff27838d294489ec1ad53941",
+    "bytes": 11259,
+    "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+    "local_equals_fresh": true,
+    "all_manifest_fields_match": true
+  },
+  {
+    "file": "inputs/double-channel.md",
+    "ref": "7a2488bcd36d95f79b5198001111b1a31fe5c3ba",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7a2488bcd36d95f79b5198001111b1a31fe5c3ba/research/hm/primary-gauss-double-channel/PROOF.md",
+    "sha": "17420835605e9223a4e8db6d38f668c48216e56a",
+    "bytes": 9495,
+    "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c",
+    "local_equals_fresh": true,
+    "all_manifest_fields_match": true
+  },
+  {
+    "file": "inputs/four-sources.md",
+    "ref": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md",
+    "sha": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+    "bytes": 9616,
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "local_equals_fresh": true,
+    "all_manifest_fields_match": true
+  },
+  {
+    "file": "inputs/actual.md",
+    "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+    "bytes": 9672,
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "local_equals_fresh": true,
+    "all_manifest_fields_match": true
+  }
+]
