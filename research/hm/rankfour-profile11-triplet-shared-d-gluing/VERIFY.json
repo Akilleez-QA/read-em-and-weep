@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 77,
+  "proof_sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+  "scope": "Fixed universal identities and immutable input hashes only; no actual instance evaluation or proof-assistant certification."
+}
