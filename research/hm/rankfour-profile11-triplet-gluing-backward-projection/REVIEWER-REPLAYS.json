@@ -1,0 +1,1104 @@
+{
+  "schema": "independent-two-clean-replay-pairs/v1",
+  "started_at_utc": "2026-10-24T14:26:11.105910+00:00",
+  "completed_at_utc": "2026-10-24T14:26:11.379607+00:00",
+  "reviewer_owned": true,
+  "source_directory": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection",
+  "external_bindings": {
+    "PROOF.md": {
+      "bytes": 24971,
+      "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+    },
+    "FROZEN.json": {
+      "bytes": 2131,
+      "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+    },
+    "verify.py": {
+      "bytes": 11249,
+      "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+    }
+  },
+  "core_bindings": [
+    {
+      "path": "README.md",
+      "bytes": 2849,
+      "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 11571,
+      "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 8069,
+      "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 4803,
+      "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 24971,
+      "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 11249,
+      "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+    },
+    {
+      "path": "inputs/gluing-kernel-derivative.md",
+      "bytes": 18760,
+      "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+    },
+    {
+      "path": "inputs/original-second-kernel-derivative.md",
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    {
+      "path": "inputs/gluing-kernel-incidence.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "inputs/orthogonal-top-incidence.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    }
+  ],
+  "selected_file_count": 11,
+  "directories": [
+    {
+      "directory": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-1-z2oz70o6",
+      "created_at_utc": "2026-10-24T14:26:11.112746+00:00",
+      "initial_empty_inventory": [],
+      "selected_names": [
+        "README.md",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROVENANCE.md",
+        "PROOF.md",
+        "verify.py",
+        "inputs/gluing-kernel-derivative.md",
+        "inputs/original-second-kernel-derivative.md",
+        "inputs/gluing-kernel-incidence.md",
+        "inputs/orthogonal-top-incidence.md",
+        "FROZEN.json"
+      ],
+      "copied_inventory": [
+        {
+          "path": "FROZEN.json",
+          "kind": "file",
+          "bytes": 2131,
+          "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+        },
+        {
+          "path": "INPUTS.json",
+          "kind": "file",
+          "bytes": 11571,
+          "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+        },
+        {
+          "path": "INPUTS.md",
+          "kind": "file",
+          "bytes": 8069,
+          "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+        },
+        {
+          "path": "PROOF.md",
+          "kind": "file",
+          "bytes": 24971,
+          "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "kind": "file",
+          "bytes": 4803,
+          "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+        },
+        {
+          "path": "README.md",
+          "kind": "file",
+          "bytes": 2849,
+          "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "path": "inputs/gluing-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 18760,
+          "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+        },
+        {
+          "path": "inputs/gluing-kernel-incidence.md",
+          "kind": "file",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "inputs/original-second-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "kind": "file",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "verify.py",
+          "kind": "file",
+          "bytes": 11249,
+          "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+        }
+      ],
+      "executions": [
+        {
+          "command_argv": [
+            "python3",
+            "verify.py"
+          ],
+          "command_display": "python3 verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-1-z2oz70o6",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "started_at_utc": "2026-10-24T14:26:11.115558+00:00",
+          "completed_at_utc": "2026-10-24T14:26:11.146593+00:00",
+          "returncode": 0,
+          "stdout": "PASS: exactly ten frozen core identities and four immutable full original identities\nFROZEN.json SHA256: c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c\nPASS: fixed physical characters H0 through H12 and all displayed Hom multiplicities\nPASS: three displayed Q3 degree lists, P1 cohomology, fixed orbit sizes, and complete target flag\nPASS: displayed kernel/projection/normal rows and reduced-defect degree arithmetic\nAUTHOR CHECKS PASS. Actual-map proof and all four complete sources still require NEW independent review.\n",
+          "stderr": "",
+          "stdout_artifact": "replays/replay-1-normal.stdout.txt",
+          "stdout_binding": {
+            "bytes": 540,
+            "sha256": "d2d91a25fb8cb915b057c4b0c94aa139808e0a273126888c58913d4563184ad0"
+          },
+          "stderr_artifact": "replays/replay-1-normal.stderr.txt",
+          "stderr_binding": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "inventory_before": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "inventory_after": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "selected_only_before": true,
+          "selected_only_after": true,
+          "inventory_unchanged": true
+        },
+        {
+          "command_argv": [
+            "python3",
+            "-O",
+            "verify.py"
+          ],
+          "command_display": "python3 -O verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-1-z2oz70o6",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "started_at_utc": "2026-10-24T14:26:11.149052+00:00",
+          "completed_at_utc": "2026-10-24T14:26:11.241386+00:00",
+          "returncode": 0,
+          "stdout": "PASS: exactly ten frozen core identities and four immutable full original identities\nFROZEN.json SHA256: c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c\nPASS: fixed physical characters H0 through H12 and all displayed Hom multiplicities\nPASS: three displayed Q3 degree lists, P1 cohomology, fixed orbit sizes, and complete target flag\nPASS: displayed kernel/projection/normal rows and reduced-defect degree arithmetic\nAUTHOR CHECKS PASS. Actual-map proof and all four complete sources still require NEW independent review.\n",
+          "stderr": "",
+          "stdout_artifact": "replays/replay-1-optimized.stdout.txt",
+          "stdout_binding": {
+            "bytes": 540,
+            "sha256": "d2d91a25fb8cb915b057c4b0c94aa139808e0a273126888c58913d4563184ad0"
+          },
+          "stderr_artifact": "replays/replay-1-optimized.stderr.txt",
+          "stderr_binding": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "inventory_before": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "inventory_after": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "selected_only_before": true,
+          "selected_only_after": true,
+          "inventory_unchanged": true
+        }
+      ],
+      "final_inventory": [
+        {
+          "path": "FROZEN.json",
+          "kind": "file",
+          "bytes": 2131,
+          "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+        },
+        {
+          "path": "INPUTS.json",
+          "kind": "file",
+          "bytes": 11571,
+          "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+        },
+        {
+          "path": "INPUTS.md",
+          "kind": "file",
+          "bytes": 8069,
+          "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+        },
+        {
+          "path": "PROOF.md",
+          "kind": "file",
+          "bytes": 24971,
+          "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "kind": "file",
+          "bytes": 4803,
+          "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+        },
+        {
+          "path": "README.md",
+          "kind": "file",
+          "bytes": 2849,
+          "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "path": "inputs/gluing-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 18760,
+          "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+        },
+        {
+          "path": "inputs/gluing-kernel-incidence.md",
+          "kind": "file",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "inputs/original-second-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "kind": "file",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "verify.py",
+          "kind": "file",
+          "bytes": 11249,
+          "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "directory": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-2-e7nc2u50",
+      "created_at_utc": "2026-10-24T14:26:11.242953+00:00",
+      "initial_empty_inventory": [],
+      "selected_names": [
+        "README.md",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROVENANCE.md",
+        "PROOF.md",
+        "verify.py",
+        "inputs/gluing-kernel-derivative.md",
+        "inputs/original-second-kernel-derivative.md",
+        "inputs/gluing-kernel-incidence.md",
+        "inputs/orthogonal-top-incidence.md",
+        "FROZEN.json"
+      ],
+      "copied_inventory": [
+        {
+          "path": "FROZEN.json",
+          "kind": "file",
+          "bytes": 2131,
+          "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+        },
+        {
+          "path": "INPUTS.json",
+          "kind": "file",
+          "bytes": 11571,
+          "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+        },
+        {
+          "path": "INPUTS.md",
+          "kind": "file",
+          "bytes": 8069,
+          "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+        },
+        {
+          "path": "PROOF.md",
+          "kind": "file",
+          "bytes": 24971,
+          "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "kind": "file",
+          "bytes": 4803,
+          "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+        },
+        {
+          "path": "README.md",
+          "kind": "file",
+          "bytes": 2849,
+          "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "path": "inputs/gluing-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 18760,
+          "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+        },
+        {
+          "path": "inputs/gluing-kernel-incidence.md",
+          "kind": "file",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "inputs/original-second-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "kind": "file",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "verify.py",
+          "kind": "file",
+          "bytes": 11249,
+          "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+        }
+      ],
+      "executions": [
+        {
+          "command_argv": [
+            "python3",
+            "verify.py"
+          ],
+          "command_display": "python3 verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-2-e7nc2u50",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "started_at_utc": "2026-10-24T14:26:11.245016+00:00",
+          "completed_at_utc": "2026-10-24T14:26:11.274740+00:00",
+          "returncode": 0,
+          "stdout": "PASS: exactly ten frozen core identities and four immutable full original identities\nFROZEN.json SHA256: c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c\nPASS: fixed physical characters H0 through H12 and all displayed Hom multiplicities\nPASS: three displayed Q3 degree lists, P1 cohomology, fixed orbit sizes, and complete target flag\nPASS: displayed kernel/projection/normal rows and reduced-defect degree arithmetic\nAUTHOR CHECKS PASS. Actual-map proof and all four complete sources still require NEW independent review.\n",
+          "stderr": "",
+          "stdout_artifact": "replays/replay-2-normal.stdout.txt",
+          "stdout_binding": {
+            "bytes": 540,
+            "sha256": "d2d91a25fb8cb915b057c4b0c94aa139808e0a273126888c58913d4563184ad0"
+          },
+          "stderr_artifact": "replays/replay-2-normal.stderr.txt",
+          "stderr_binding": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "inventory_before": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "inventory_after": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "selected_only_before": true,
+          "selected_only_after": true,
+          "inventory_unchanged": true
+        },
+        {
+          "command_argv": [
+            "python3",
+            "-O",
+            "verify.py"
+          ],
+          "command_display": "python3 -O verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-gluing-backward-projection-review/replays/selected-only-2-e7nc2u50",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "started_at_utc": "2026-10-24T14:26:11.276272+00:00",
+          "completed_at_utc": "2026-10-24T14:26:11.375412+00:00",
+          "returncode": 0,
+          "stdout": "PASS: exactly ten frozen core identities and four immutable full original identities\nFROZEN.json SHA256: c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c\nPASS: fixed physical characters H0 through H12 and all displayed Hom multiplicities\nPASS: three displayed Q3 degree lists, P1 cohomology, fixed orbit sizes, and complete target flag\nPASS: displayed kernel/projection/normal rows and reduced-defect degree arithmetic\nAUTHOR CHECKS PASS. Actual-map proof and all four complete sources still require NEW independent review.\n",
+          "stderr": "",
+          "stdout_artifact": "replays/replay-2-optimized.stdout.txt",
+          "stdout_binding": {
+            "bytes": 540,
+            "sha256": "d2d91a25fb8cb915b057c4b0c94aa139808e0a273126888c58913d4563184ad0"
+          },
+          "stderr_artifact": "replays/replay-2-optimized.stderr.txt",
+          "stderr_binding": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "inventory_before": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "inventory_after": [
+            {
+              "path": "FROZEN.json",
+              "kind": "file",
+              "bytes": 2131,
+              "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+            },
+            {
+              "path": "INPUTS.json",
+              "kind": "file",
+              "bytes": 11571,
+              "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+            },
+            {
+              "path": "INPUTS.md",
+              "kind": "file",
+              "bytes": 8069,
+              "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+            },
+            {
+              "path": "PROOF.md",
+              "kind": "file",
+              "bytes": 24971,
+              "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+            },
+            {
+              "path": "PROVENANCE.md",
+              "kind": "file",
+              "bytes": 4803,
+              "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+            },
+            {
+              "path": "README.md",
+              "kind": "file",
+              "bytes": 2849,
+              "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "path": "inputs/gluing-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 18760,
+              "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+            },
+            {
+              "path": "inputs/gluing-kernel-incidence.md",
+              "kind": "file",
+              "bytes": 21478,
+              "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+            },
+            {
+              "path": "inputs/original-second-kernel-derivative.md",
+              "kind": "file",
+              "bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "path": "inputs/orthogonal-top-incidence.md",
+              "kind": "file",
+              "bytes": 28094,
+              "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+            },
+            {
+              "path": "verify.py",
+              "kind": "file",
+              "bytes": 11249,
+              "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+            }
+          ],
+          "selected_only_before": true,
+          "selected_only_after": true,
+          "inventory_unchanged": true
+        }
+      ],
+      "final_inventory": [
+        {
+          "path": "FROZEN.json",
+          "kind": "file",
+          "bytes": 2131,
+          "sha256": "c9eb96d64aa75534af3eaa0053e308391531b8e0e5b257ac75646f21df97729c"
+        },
+        {
+          "path": "INPUTS.json",
+          "kind": "file",
+          "bytes": 11571,
+          "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+        },
+        {
+          "path": "INPUTS.md",
+          "kind": "file",
+          "bytes": 8069,
+          "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+        },
+        {
+          "path": "PROOF.md",
+          "kind": "file",
+          "bytes": 24971,
+          "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "kind": "file",
+          "bytes": 4803,
+          "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+        },
+        {
+          "path": "README.md",
+          "kind": "file",
+          "bytes": 2849,
+          "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "path": "inputs/gluing-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 18760,
+          "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+        },
+        {
+          "path": "inputs/gluing-kernel-incidence.md",
+          "kind": "file",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "inputs/original-second-kernel-derivative.md",
+          "kind": "file",
+          "bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "kind": "file",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "verify.py",
+          "kind": "file",
+          "bytes": 11249,
+          "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "whole_source_tree_before_artifact": "SOURCE-BEFORE.json",
+  "whole_source_tree_after_artifact": "SOURCE-AFTER.json",
+  "whole_source_tree_unchanged": true,
+  "status": "PASS"
+}
