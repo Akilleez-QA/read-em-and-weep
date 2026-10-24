@@ -1,0 +1,12 @@
+{
+  "checks": 72,
+  "not_claimed": [
+    "evaluation of any actual jet or coefficient",
+    "geometric proof by computation",
+    "global original tenth-jet separation",
+    "endpoint realization or exclusion"
+  ],
+  "proof_sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a",
+  "scope": "three complete source pins; six fixed universal degree stages; endpoint equality arithmetic",
+  "status": "PASS"
+}

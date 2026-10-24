@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "reviewer": "review_nine_jet_proof",
+  "isolation_directory": "/tmp/nine-jets-selected-reviewer-pj5ym9md",
+  "selected_exactly_eight_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/twelve-orientation.md",
+    "inputs/projected-ranktwo.md",
+    "inputs/deep-images.md"
+  ],
+  "before": {
+    "PROOF.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "INPUTS.json": {
+      "bytes": 1572,
+      "sha256": "9c6d3ccd928a3a656f725625ce1463fe5d3c2a71696ce263f6c213d058cc0767"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1774,
+      "sha256": "05e2b15fdd7d323343527d8b7a999b7dea5dff673910a336ee68f99bed8311d1"
+    },
+    "verify.py": {
+      "bytes": 4808,
+      "sha256": "6d79f268a663c98bfd6258e94d0ce6ac10028897192dd24202f81dcb2d169a1c"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/twelve-orientation.md": {
+      "bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2"
+    },
+    "inputs/projected-ranktwo.md": {
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd"
+    },
+    "inputs/deep-images.md": {
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26"
+    }
+  },
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 72,\n  \"not_claimed\": [\n    \"evaluation of any actual jet or coefficient\",\n    \"geometric proof by computation\",\n    \"global original tenth-jet separation\",\n    \"endpoint realization or exclusion\"\n  ],\n  \"proof_sha256\": \"44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a\",\n  \"scope\": \"three complete source pins; six fixed universal degree stages; endpoint equality arithmetic\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "selected_bytes_unchanged": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 72,\n  \"not_claimed\": [\n    \"evaluation of any actual jet or coefficient\",\n    \"geometric proof by computation\",\n    \"global original tenth-jet separation\",\n    \"endpoint realization or exclusion\"\n  ],\n  \"proof_sha256\": \"44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a\",\n  \"scope\": \"three complete source pins; six fixed universal degree stages; endpoint equality arithmetic\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "selected_bytes_unchanged": true
+    }
+  ],
+  "after": {
+    "PROOF.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "INPUTS.json": {
+      "bytes": 1572,
+      "sha256": "9c6d3ccd928a3a656f725625ce1463fe5d3c2a71696ce263f6c213d058cc0767"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1774,
+      "sha256": "05e2b15fdd7d323343527d8b7a999b7dea5dff673910a336ee68f99bed8311d1"
+    },
+    "verify.py": {
+      "bytes": 4808,
+      "sha256": "6d79f268a663c98bfd6258e94d0ce6ac10028897192dd24202f81dcb2d169a1c"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/twelve-orientation.md": {
+      "bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2"
+    },
+    "inputs/projected-ranktwo.md": {
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd"
+    },
+    "inputs/deep-images.md": {
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26"
+    }
+  },
+  "all_selected_bytes_unchanged": true,
+  "source_package_selected_bytes_unchanged": true,
+  "files_after": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/deep-images.md",
+    "inputs/projected-ranktwo.md",
+    "inputs/twelve-orientation.md",
+    "verify.py"
+  ],
+  "excluded": "LOCAL files and directories, unused sources, scratch audits, old outputs, reviewer artifacts and caches",
+  "inspection_scope": "Both Python files read in full before execution. Only standard-library exact arithmetic, complete-source hashes, six fixed stages and bounded character identities; no actual-instance evaluation or broad search."
+}
