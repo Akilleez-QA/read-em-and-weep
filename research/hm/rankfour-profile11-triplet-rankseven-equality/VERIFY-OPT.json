@@ -1,0 +1,12 @@
+{
+  "checks": 67,
+  "not_claimed": [
+    "actual instance evaluation",
+    "exclusion of simultaneous rank7 image or delta12",
+    "original higher jets beyond order9",
+    "geometric proof by computation"
+  ],
+  "proof_sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae",
+  "scope": "three complete pins; fixed physical characters; displayed coherent-flag and corrected forward-climb degrees",
+  "status": "PASS"
+}
