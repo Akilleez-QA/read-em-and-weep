@@ -1,0 +1,124 @@
+{
+  "PYTHONDONTWRITEBYTECODE": "1",
+  "PYTHONPATH": "",
+  "character_module_assertions": 81,
+  "checker_assertions": 61,
+  "initial_directory_empty": true,
+  "isolated_directory": "/tmp/REVIEWER-LOCAL-k2-selected-icxlfab4",
+  "normal_and_optimized_stdout_identical": true,
+  "not_a_geometric_proof_by_computation": true,
+  "only_nine_selected_files_present_before_and_after": true,
+  "proof_bytes": 13703,
+  "proof_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "character_module_checks": 81,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "independent_module_check_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-c",
+        "import characters; print(characters.checks)"
+      ],
+      "independent_module_check_stdout": "81\n",
+      "parsed_result": {
+        "checks": 61,
+        "not_claimed": [
+          "proof by computation",
+          "selected actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation",
+          "occurrence or exclusion beyond the stated conditional K2 intersection",
+          "original degree-eighteen tenth jets",
+          "horizontal splitting or quotient connection"
+        ],
+        "proof_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "scope": "four complete immutable originals; fixed character, degree and exact-sequence arithmetic",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 61,\n  \"not_claimed\": [\n    \"proof by computation\",\n    \"selected actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation\",\n    \"occurrence or exclusion beyond the stated conditional K2 intersection\",\n    \"original degree-eighteen tenth jets\",\n    \"horizontal splitting or quotient connection\"\n  ],\n  \"proof_sha256\": \"0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa\",\n  \"scope\": \"four complete immutable originals; fixed character, degree and exact-sequence arithmetic\",\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "character_module_checks": 81,
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "independent_module_check_command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "-c",
+        "import characters; print(characters.checks)"
+      ],
+      "independent_module_check_stdout": "81\n",
+      "parsed_result": {
+        "checks": 61,
+        "not_claimed": [
+          "proof by computation",
+          "selected actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation",
+          "occurrence or exclusion beyond the stated conditional K2 intersection",
+          "original degree-eighteen tenth jets",
+          "horizontal splitting or quotient connection"
+        ],
+        "proof_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "scope": "four complete immutable originals; fixed character, degree and exact-sequence arithmetic",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 61,\n  \"not_claimed\": [\n    \"proof by computation\",\n    \"selected actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation\",\n    \"occurrence or exclusion beyond the stated conditional K2 intersection\",\n    \"original degree-eighteen tenth jets\",\n    \"horizontal splitting or quotient connection\"\n  ],\n  \"proof_sha256\": \"0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa\",\n  \"scope\": \"four complete immutable originals; fixed character, degree and exact-sequence arithmetic\",\n  \"status\": \"PASS\"\n}\n"
+    }
+  ],
+  "selected_files": [
+    {
+      "bytes": 13703,
+      "file": "PROOF.md",
+      "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa"
+    },
+    {
+      "bytes": 2089,
+      "file": "INPUTS.json",
+      "sha256": "571fd4603a4958925984e3a639dae91e325c30bfbe47803173c78a58a5e35e34"
+    },
+    {
+      "bytes": 2378,
+      "file": "REPRODUCE.md",
+      "sha256": "c5429458c637a0d3aa28e44b73a526f09c73bf975f71609e89db916c96229a53"
+    },
+    {
+      "bytes": 4649,
+      "file": "verify.py",
+      "sha256": "6e667a0a5b728207ab7e84fa693ac5ba897b4e544060a7540f608362a46767eb"
+    },
+    {
+      "bytes": 1623,
+      "file": "characters.py",
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc"
+    },
+    {
+      "bytes": 15127,
+      "file": "inputs/quartic-normal-map.md",
+      "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+    },
+    {
+      "bytes": 13135,
+      "file": "inputs/common-kernel-ladder.md",
+      "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd"
+    },
+    {
+      "bytes": 17528,
+      "file": "inputs/eighteen-jets.md",
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf"
+    },
+    {
+      "bytes": 8501,
+      "file": "inputs/five-kernels.md",
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a"
+    }
+  ],
+  "status": "PASS"
+}
