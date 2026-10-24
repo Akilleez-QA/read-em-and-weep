@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "authenticated_at_utc": "2026-10-24T08:48:53.797480+00:00",
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "proof": {
+    "bytes": 13289,
+    "sha256": "9da994c73b8c5365de31fc8b5552ba364bfc6af624108acdb8567feba9365103"
+  },
+  "independent_fresh_read_only_fetches": 4,
+  "method": "Each complete original was freshly fetched independently by its immutable commit/path and its Git blob; each route was independently reconstructed as UTF8, SHA256-hashed, Git blob-hashed, and compared byte-for-byte with the local complete original. No normalized or excerpted text was authenticated.",
+  "inputs": [
+    {
+      "file": "inputs/lifted-jets-and-kernel-two.md",
+      "ref": "c565bd8b5b65829e99bdd96a7c5f076b01050465",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c565bd8b5b65829e99bdd96a7c5f076b01050465/research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "bytes": 13703,
+      "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+      "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+      "routes": {
+        "path": {
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+          "complete_bytes_equal_local": true,
+          "response_fields": [
+            "content",
+            "display_title",
+            "display_url",
+            "encoding",
+            "sha"
+          ],
+          "returned_sha": "cb46875b07d8d79e82aebe980685c418d975d87b"
+        },
+        "blob": {
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+          "complete_bytes_equal_local": true,
+          "response_fields": [
+            "content"
+          ]
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "ref": "7d71f0e2a3963cff64a069198f4415c5cfd0fe9b",
+      "path": "research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7d71f0e2a3963cff64a069198f4415c5cfd0fe9b/research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "bytes": 8501,
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "routes": {
+        "path": {
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+          "complete_bytes_equal_local": true,
+          "response_fields": [
+            "content",
+            "display_title",
+            "display_url",
+            "encoding",
+            "sha"
+          ],
+          "returned_sha": "163ba2126b6130befcc2351db7f6910d85fac2ec"
+        },
+        "blob": {
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+          "complete_bytes_equal_local": true,
+          "response_fields": [
+            "content"
+          ]
+        }
+      },
+      "status": "PASS"
+    }
+  ],
+  "raw_response_file": "REVIEWER-FRESH-SOURCE-FETCHES.json",
+  "raw_response_file_publication": "EXCLUDED"
+}
