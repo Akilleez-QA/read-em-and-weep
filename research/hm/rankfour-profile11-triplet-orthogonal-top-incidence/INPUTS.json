@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "stationary-section-kernel",
+      "pr": 1239,
+      "ref": "360b7e8f55b05ca5740a10cb3ed844a594766f70",
+      "path": "research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md",
+      "local_path": "inputs/stationary-section-kernel.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 24626,
+      "sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+      "git_blob_sha1": "2bc33710e6e3b5867955f6a3171786e10f1c08cb",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/360b7e8f55b05ca5740a10cb3ed844a594766f70/research/hm/rankfour-profile11-triplet-stationary-section-kernel/PROOF.md"
+    },
+    {
+      "id": "seven-space-ramification",
+      "pr": 1238,
+      "ref": "d259230fbf7259e52db267c56203a29f221da5f0",
+      "path": "research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md",
+      "local_path": "inputs/seven-space-ramification.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 20687,
+      "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+      "git_blob_sha1": "0da306ac1dc4c879ced57c28e2ec3a07f027da70",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d259230fbf7259e52db267c56203a29f221da5f0/research/hm/rankfour-profile11-triplet-seven-space-ramification/PROOF.md"
+    },
+    {
+      "id": "first-kernel-forward-closure",
+      "pr": 1236,
+      "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "local_path": "inputs/first-kernel-forward-closure.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schema": 1,
+  "reviewer": "independent whole-proof reviewer",
+  "completed_at_utc": "2026-10-24T11:59:31.485281+00:00",
+  "verdict": "ACCEPTED",
+  "proof_utf8_bytes": 28094,
+  "proof_sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637",
+  "selected_file_count": 9,
+  "selected_files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 2121,
+      "sha256": "f75a49bd4e9a6e90c8b0d2e896c314f3e3cdcbff3e6e46e8a94354cbb3094c5b"
+    },
+    {
+      "path": "verify_packet.py",
+      "bytes": 11134,
+      "sha256": "cca0f4978d3b3b17ea66e19d1155deb712d2684204aef654397d990d73838032"
+    },
+    {
+      "path": "inputs/stationary-section-kernel.md",
+      "bytes": 24626,
+      "sha256": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2"
+    },
+    {
+      "path": "inputs/seven-space-ramification.md",
+      "bytes": 20687,
+      "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3023,
+      "sha256": "9e638f16073507b7e59db7fff728e5b9f7df887eedd25eda90ab56d9654a4e45"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 6334,
+      "sha256": "414b650a8d31509c28f30a77d06688e5150d2137e32ada0be8f67ad613831aef"
+    },
+    {
+      "path": "FROZEN.json",
+      "bytes": 1072,
+      "sha256": "9eda8d43c20be89411993d2e53eb86a7a4ef2adb59e8c59fb4b8b64fbaef7eb4"
+    }
+  ],
+  "independent_clean_directories": 2,
+  "runs": [
+    {
+      "directory_label": "original",
+      "directory": "/workspace/shared/rankfour-profile11-triplet-orthogonal-top-incidence",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    },
+    {
+      "directory_label": "original",
+      "directory": "/workspace/shared/rankfour-profile11-triplet-orthogonal-top-incidence",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    },
+    {
+      "directory_label": "clean_selected_a",
+      "directory": "/tmp/orthogonal-top-independent-review-clean_selected_a-7cbsqk5l",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    },
+    {
+      "directory_label": "clean_selected_a",
+      "directory": "/tmp/orthogonal-top-independent-review-clean_selected_a-7cbsqk5l",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    },
+    {
+      "directory_label": "clean_selected_b",
+      "directory": "/tmp/orthogonal-top-independent-review-clean_selected_b-isqpkfn4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    },
+    {
+      "directory_label": "clean_selected_b",
+      "directory": "/tmp/orthogonal-top-independent-review-clean_selected_b-isqpkfn4",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify_packet.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 113 bounded checks (27 whole-file authentication; 54 prescribed sequence/duality; 16 fixed representation; 16 formal degree/dimension checks).\nEntire frozen proof SHA256: 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nConditional constant self-duality, actual maximal-isotropic incidence, and Q4=P(-6) only; no K1 realization, exclusion, higher-order branch matching, or algebraicity.\n",
+      "stdout_sha256": "ee61a7deb6e0b7218be3b458dd5c1a8ed6458e842d9d14b395855c540e388d55",
+      "stderr": "",
+      "selected_file_count": 9
+    }
+  ],
+  "all_six_stdout_identical": true,
+  "all_six_exit_codes_zero": true,
+  "normal_and_optimized_identical": true,
+  "frozen_core_unchanged": true,
+  "clean_directory_inventories_exact_before_and_after": true,
+  "raw_connector_evidence_excluded": true,
+  "author_replay_evidence_used": false,
+  "verification_boundary": "These runs certify only bounded fixed arithmetic and complete frozen bytes. The mathematical acceptance is separately justified in REVIEW.md."
+}
