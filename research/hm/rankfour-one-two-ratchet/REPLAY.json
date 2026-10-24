@@ -1,0 +1,61 @@
+{
+  "actual_instances_evaluated": false,
+  "all_eight_sources_authenticated": true,
+  "author_checks": 3477,
+  "author_manifest_members": 16,
+  "author_mutations": 10,
+  "checks": 102,
+  "claim": "Conditional ordered rank-four (1,2): one necessary tuple, not a profile exclusion",
+  "coarse_bins_unchanged": 21,
+  "exact_endpoint_tuples_compared": 18,
+  "exact_kernel_alternatives_compared": 2,
+  "independent_checks": 3347,
+  "independent_manifest_members": 16,
+  "independent_mutations": 8,
+  "necessary_survivors": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "necessary_survivor",
+      "torsion_residue": null
+    }
+  ],
+  "normal_optimized_other_cwd_exact": true,
+  "status_counts": {
+    "necessary_survivor": 1,
+    "rejected_horizontal": 11,
+    "rejected_rank_one": 4,
+    "rejected_two_V_kernel": 2
+  },
+  "whole_profile_excluded": false
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "bytes": 11521,
+    "path": "AUTHOR-BASELINE-PROOF.md",
+    "sha256": "32b882974487750e628236964a0fbaa0da190c6837eba0791b44d174e1160be6"
+  },
+  {
+    "bytes": 4396,
+    "path": "INPUTS.json",
+    "sha256": "4b9c0029fad132afb56f9d87fe869d0a99dee9a8528b904525a800ba28a0d3ab"
+  },
+  {
+    "bytes": 1067,
+    "path": "MUTATIONS.json",
+    "sha256": "ccd758d1cee061b220a78ebeeeb711e6e07f45d8dc9d61420802c448a992abc6"
+  },
+  {
+    "bytes": 5392,
+    "path": "NEW-CUT.md",
+    "sha256": "19969333daf4b8f53a932e22402f94faab410195eb05758547645ebb2e03a6e9"
+  },
+  {
+    "bytes": 14174,
+    "path": "RESULT.json",
+    "sha256": "f8351a5daf6a5a05fb584f1fcbf353848ffe957a3fdf3217104f8891ef419523"
+  },
+  {
+    "bytes": 8744,
+    "path": "REVIEW.md",
+    "sha256": "e600aae0bae4bd5aa45e6b3b3a1db932a25e0b989d070d97bd1528a4ac7b8e3c"
+  },
+  {
+    "bytes": 10098,
+    "path": "independent.py",
+    "sha256": "56c8ca2c3842c0d09fc2c65e7f793518f78f4f4e3af7e6adb663af78c1c31cdf"
+  },
+  {
+    "bytes": 9672,
+    "path": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  {
+    "bytes": 12488,
+    "path": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+    "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+  },
+  {
+    "bytes": 5414,
+    "path": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+  },
+  {
+    "bytes": 10635,
+    "path": "inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+    "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22"
+  },
+  {
+    "bytes": 10451,
+    "path": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+  },
+  {
+    "bytes": 9616,
+    "path": "inputs/four-sources.md",
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+  },
+  {
+    "bytes": 9495,
+    "path": "inputs/pr1140-cubic-visibility.md",
+    "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c"
+  },
+  {
+    "bytes": 13550,
+    "path": "inputs/pr1182-capacity.md",
+    "sha256": "126fc2e7cbf54ae91f8e2eba3c0e809f70cf49c0f0aef28b574c5be3762ca6d2"
+  },
+  {
+    "bytes": 1351,
+    "path": "mutations.py",
+    "sha256": "0c2307f956a2bc1cf74e2fe578cf7d56973c915f0b92cbce42f28c6cffac6349"
+  }
+]
