@@ -1,0 +1,57 @@
+{
+  "all_rejected": true,
+  "executed_mutations": 10,
+  "tests": [
+    {
+      "mutation": "actual Qstar Euler shifted",
+      "reason": "actual Qstar untwisted Euler",
+      "rejected": true
+    },
+    {
+      "mutation": "length-twelve torsion erased",
+      "reason": "genuine orbit torsion all needed twists",
+      "rejected": true
+    },
+    {
+      "mutation": "complete endpoint domain truncated",
+      "reason": "complete independent endpoint domain -34",
+      "rejected": true
+    },
+    {
+      "mutation": "odd coefficient parity removed",
+      "reason": "complete independent endpoint domain -34",
+      "rejected": true
+    },
+    {
+      "mutation": "second actual cubic T channel omitted",
+      "reason": "actual E cubic Euler",
+      "rejected": true
+    },
+    {
+      "mutation": "endpoint capacity rank lowered",
+      "reason": "independent decreasing-rank capacity",
+      "rejected": true
+    },
+    {
+      "mutation": "all equivariant Hom spaces erased",
+      "reason": "all new source-stage counts",
+      "rejected": true
+    },
+    {
+      "mutation": "forbidden rank-one target admitted",
+      "reason": "rank-five -22 span gap 8",
+      "rejected": true
+    },
+    {
+      "mutation": "second lower kernel alternative dropped",
+      "reason": "complete two-V kernel alternatives",
+      "rejected": true
+    },
+    {
+      "mutation": "lower-kernel V marking exchanged",
+      "reason": "complete two-V kernel alternatives",
+      "rejected": true
+    }
+  ],
+  "unmutated_result_retained": true
+}

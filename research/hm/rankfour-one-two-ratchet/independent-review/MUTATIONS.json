@@ -1,0 +1,42 @@
+[
+  {
+    "mutation": "truncate_degree_ledger",
+    "reason": "RuntimeError: complete degree domain",
+    "rejected": true
+  },
+  {
+    "mutation": "delete_positive_defects",
+    "reason": "RuntimeError: complete degree domain",
+    "rejected": true
+  },
+  {
+    "mutation": "lose_upper_two_twist",
+    "reason": "RuntimeError: independent full pipeline",
+    "rejected": true
+  },
+  {
+    "mutation": "wrong_torsion_length",
+    "reason": "RuntimeError: length12 genuine torsion",
+    "rejected": true
+  },
+  {
+    "mutation": "omit_kernel_cubic_alternative",
+    "reason": "RuntimeError: complete kernel splitting domain",
+    "rejected": true
+  },
+  {
+    "mutation": "truncate_kernel_tail_domain",
+    "reason": "RuntimeError: complete kernel splitting domain",
+    "rejected": true
+  },
+  {
+    "mutation": "wrong_capacity_differential",
+    "reason": "RuntimeError: independent full pipeline",
+    "rejected": true
+  },
+  {
+    "mutation": "omit_length12_character",
+    "reason": "RuntimeError: all five even stabilizer characters",
+    "rejected": true
+  }
+]

@@ -1,0 +1,891 @@
+{
+  "actual_instances_evaluated": false,
+  "base_filter_counts": {
+    "D": [
+      809,
+      336,
+      180,
+      123,
+      73,
+      70,
+      70,
+      65,
+      47
+    ],
+    "P": [
+      512,
+      236,
+      130,
+      82,
+      47,
+      43,
+      43,
+      38,
+      28
+    ],
+    "V": [
+      398,
+      190,
+      102,
+      64,
+      36,
+      25,
+      25,
+      22,
+      20
+    ],
+    "Z": [
+      398,
+      190,
+      102,
+      64,
+      36,
+      36,
+      36,
+      33,
+      24
+    ]
+  },
+  "checks": 3347,
+  "claim": "Independent 60 to 18 to 7 to 3 reconstruction, plus new near-top kernel multiplicity cut to one necessary tuple. No profile closure.",
+  "endpoint_tuples": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "necessary_survivor",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "rejected_rank_one",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "rejected_rank_one",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "rejected_rank_one",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "A",
+          "degree": 4
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "rejected_rank_one",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "D",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "D",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "D",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "D",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -54,
+        -30,
+        0,
+        0,
+        0
+      ],
+      "source": "D",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -54,
+        -30,
+        0,
+        0,
+        0
+      ],
+      "source": "D",
+      "status": "necessary_survivor",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "row": [
+        -54,
+        -18,
+        0,
+        12,
+        0
+      ],
+      "source": "D",
+      "status": "necessary_survivor",
+      "torsion_residue": 6
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "P",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "P",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "V",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "V",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "Z",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -56,
+        -26,
+        0,
+        0,
+        2
+      ],
+      "source": "Z",
+      "status": "rejected_horizontal",
+      "torsion_residue": null
+    }
+  ],
+  "forbidden_Qstar1_filter_used": false,
+  "kernel_H1_domains": [
+    {
+      "blocks": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ],
+      "bound": 6,
+      "top": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "blocks": [
+        {
+          "coefficient": "S4",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        }
+      ],
+      "bound": 10,
+      "top": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "kernel_splittings": [
+    [
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "D",
+        "degree": -4
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      },
+      {
+        "coefficient": "S4",
+        "degree": -3
+      }
+    ]
+  ],
+  "one_remaining": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 14
+        }
+      ],
+      "Z": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "row": [
+        -58,
+        -22,
+        0,
+        0,
+        4
+      ],
+      "source": "D",
+      "status": "necessary_survivor",
+      "torsion_residue": null
+    }
+  ],
+  "rejected_kernel_formal_splittings": [
+    {
+      "base": [
+        {
+          "coefficient": "S4",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "degree_minus_four_coefficient": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    }
+  ],
+  "source_stage_counts": {
+    "D": [
+      35,
+      31,
+      12,
+      7,
+      3
+    ],
+    "P": [
+      14,
+      6,
+      2,
+      0,
+      0
+    ],
+    "V": [
+      5,
+      2,
+      2,
+      0,
+      0
+    ],
+    "Z": [
+      6,
+      2,
+      2,
+      0,
+      0
+    ]
+  }
+}
