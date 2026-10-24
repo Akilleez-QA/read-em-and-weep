@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "proof_sha256": "126fc2e7cbf54ae91f8e2eba3c0e809f70cf49c0f0aef28b574c5be3762ca6d2",
+  "manifest_sha256": "d9a88cacfb0752c78f1caf00dd35fbe1c8c6a08b12a0c3b9e0f8939698abab08",
+  "checks": 8670,
+  "inputs_authenticated": 14,
+  "fixed_records": 159,
+  "height_values": 2226,
+  "partition_counts": {
+    "source_degree_or_rank": 56,
+    "cubic_visibility": 32,
+    "dual_capacity": 62,
+    "primal_capacity": 3,
+    "six_shapes": 6
+  },
+  "residual_indices": [
+    94,
+    95,
+    100,
+    106,
+    109,
+    127
+  ],
+  "invariant_deficit": [
+    4,
+    3
+  ],
+  "certificate_sha256": "5f644b133cb56fcf0ef38e0443b8eefee93661e2d8bdf956c1ff08cfde8eb6b5",
+  "comparisons": [
+    {
+      "file": "RESULT.json",
+      "sha256": "eca3f6e448fad6830b63ba7e4f7566a95adbb1a3da6c6f511c7e1b99873e48bb",
+      "all159_complete_row_certificates_equal": true,
+      "all2226_height_values_equal": true,
+      "section5_whole_characters_equal": true
+    }
+  ],
+  "restrictions": "No historical enumeration; no actual-instance data; no production code imported or executed; no public writes."
+}
