@@ -1,0 +1,664 @@
+{
+  "all_four_outputs_identical": true,
+  "common_stdout_integrity": {
+    "bytes": 1767,
+    "sha256": "fec68c26b01afd12ab67b141312dcb48bfd9c674332e7746a27285009cafcf52"
+  },
+  "completed_utc": "2026-10-24T14:44:42.295839+00:00",
+  "directories": [
+    {
+      "copied_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": {
+          "FROZEN.json": {
+            "bytes": 1532,
+            "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+          },
+          "INPUTS.json": {
+            "bytes": 11259,
+            "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+          },
+          "INPUTS.md": {
+            "bytes": 7965,
+            "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+          },
+          "PROOF.md": {
+            "bytes": 17598,
+            "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+          },
+          "PROVENANCE.md": {
+            "bytes": 4141,
+            "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+          },
+          "README.md": {
+            "bytes": 3300,
+            "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+          },
+          "inputs/FC-PROOF.md": {
+            "bytes": 18052,
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          "inputs/OD-PROOF.md": {
+            "bytes": 11709,
+            "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+          },
+          "inputs/OT-PROOF.md": {
+            "bytes": 28094,
+            "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+          },
+          "inputs/TP-PROOF.md": {
+            "bytes": 16304,
+            "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+          },
+          "verify.py": {
+            "bytes": 5709,
+            "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+          }
+        }
+      },
+      "created_empty_utc": "2026-10-24T14:44:42.070892+00:00",
+      "empty_inventory": {
+        "directories": [],
+        "files": {}
+      },
+      "final_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": {
+          "FROZEN.json": {
+            "bytes": 1532,
+            "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+          },
+          "INPUTS.json": {
+            "bytes": 11259,
+            "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+          },
+          "INPUTS.md": {
+            "bytes": 7965,
+            "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+          },
+          "PROOF.md": {
+            "bytes": 17598,
+            "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+          },
+          "PROVENANCE.md": {
+            "bytes": 4141,
+            "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+          },
+          "README.md": {
+            "bytes": 3300,
+            "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+          },
+          "inputs/FC-PROOF.md": {
+            "bytes": 18052,
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          "inputs/OD-PROOF.md": {
+            "bytes": 11709,
+            "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+          },
+          "inputs/OT-PROOF.md": {
+            "bytes": 28094,
+            "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+          },
+          "inputs/TP-PROOF.md": {
+            "bytes": 16304,
+            "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+          },
+          "verify.py": {
+            "bytes": 5709,
+            "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+          }
+        }
+      },
+      "path": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-1-75f3_65a",
+      "runs": [
+        {
+          "after_inventory": {
+            "directories": [
+              "inputs"
+            ],
+            "files": {
+              "FROZEN.json": {
+                "bytes": 1532,
+                "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+              },
+              "INPUTS.json": {
+                "bytes": 11259,
+                "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+              },
+              "INPUTS.md": {
+                "bytes": 7965,
+                "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+              },
+              "PROOF.md": {
+                "bytes": 17598,
+                "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+              },
+              "PROVENANCE.md": {
+                "bytes": 4141,
+                "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+              },
+              "README.md": {
+                "bytes": 3300,
+                "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+              },
+              "inputs/FC-PROOF.md": {
+                "bytes": 18052,
+                "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+              },
+              "inputs/OD-PROOF.md": {
+                "bytes": 11709,
+                "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+              },
+              "inputs/OT-PROOF.md": {
+                "bytes": 28094,
+                "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+              },
+              "inputs/TP-PROOF.md": {
+                "bytes": 16304,
+                "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+              },
+              "verify.py": {
+                "bytes": 5709,
+                "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+              }
+            }
+          },
+          "all_selected_bytes_unchanged": true,
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "verify.py"
+          ],
+          "completed_utc": "2026-10-24T14:44:42.094391+00:00",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-1-75f3_65a",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "mode": "normal",
+          "returncode": 0,
+          "started_utc": "2026-10-24T14:44:42.070898+00:00",
+          "stderr": "",
+          "stderr_file": "replays/run-1-normal.stderr.txt",
+          "stderr_integrity": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stdout": "FILE PROOF.md: 17598 bytes; SHA256 cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b\nFILE README.md: 3300 bytes; SHA256 6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420\nFILE INPUTS.json: 11259 bytes; SHA256 59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3\nFILE INPUTS.md: 7965 bytes; SHA256 ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd\nFILE PROVENANCE.md: 4141 bytes; SHA256 ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3\nFILE verify.py: 5709 bytes; SHA256 5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde\nFILE inputs/OD-PROOF.md: 11709 bytes; SHA256 a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f\nFILE inputs/FC-PROOF.md: 18052 bytes; SHA256 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nFILE inputs/TP-PROOF.md: 16304 bytes; SHA256 b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e\nFILE inputs/OT-PROOF.md: 28094 bytes; SHA256 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nSOURCE OD: exact original bytes and Git blob e561adb180b5040a57464808dbbdfaef29f1c6a8\nSOURCE FC: exact original bytes and Git blob f77cfb52743be86e46e0c40570ec036e69aebaf3\nSOURCE TP: exact original bytes and Git blob e41b654ff6edba56d5a071811f19d4db4346681c\nSOURCE OT: exact original bytes and Git blob f00b059695615d9b8ab6d315798940e3ab0a58d4\nUNIVERSAL H4: {\"D\": 1}\nUNIVERSAL H5: {\"T6\": 1}\nUNIVERSAL H8: {\"D\": 1, \"P\": 1}\nUNIVERSAL H10: {\"A\": 1, \"D\": 1, \"V_alt\": 1}\nUNIVERSAL orbit sizes: 12,20,30,60; scalar divisor degree 20; P-row entry degree 16\nPASS: 86 explicit runtime checks (46 integrity, 40 bounded universal).\nAUTHOR ONLY: no actual source-instance evaluation, actual-map verification, or independent review.\n",
+          "stdout_file": "replays/run-1-normal.stdout.txt",
+          "stdout_integrity": {
+            "bytes": 1767,
+            "sha256": "fec68c26b01afd12ab67b141312dcb48bfd9c674332e7746a27285009cafcf52"
+          }
+        },
+        {
+          "after_inventory": {
+            "directories": [
+              "inputs"
+            ],
+            "files": {
+              "FROZEN.json": {
+                "bytes": 1532,
+                "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+              },
+              "INPUTS.json": {
+                "bytes": 11259,
+                "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+              },
+              "INPUTS.md": {
+                "bytes": 7965,
+                "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+              },
+              "PROOF.md": {
+                "bytes": 17598,
+                "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+              },
+              "PROVENANCE.md": {
+                "bytes": 4141,
+                "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+              },
+              "README.md": {
+                "bytes": 3300,
+                "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+              },
+              "inputs/FC-PROOF.md": {
+                "bytes": 18052,
+                "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+              },
+              "inputs/OD-PROOF.md": {
+                "bytes": 11709,
+                "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+              },
+              "inputs/OT-PROOF.md": {
+                "bytes": 28094,
+                "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+              },
+              "inputs/TP-PROOF.md": {
+                "bytes": 16304,
+                "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+              },
+              "verify.py": {
+                "bytes": 5709,
+                "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+              }
+            }
+          },
+          "all_selected_bytes_unchanged": true,
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "-O",
+            "verify.py"
+          ],
+          "completed_utc": "2026-10-24T14:44:42.180146+00:00",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-1-75f3_65a",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "mode": "optimized",
+          "returncode": 0,
+          "started_utc": "2026-10-24T14:44:42.095260+00:00",
+          "stderr": "",
+          "stderr_file": "replays/run-1-optimized.stderr.txt",
+          "stderr_integrity": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stdout": "FILE PROOF.md: 17598 bytes; SHA256 cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b\nFILE README.md: 3300 bytes; SHA256 6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420\nFILE INPUTS.json: 11259 bytes; SHA256 59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3\nFILE INPUTS.md: 7965 bytes; SHA256 ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd\nFILE PROVENANCE.md: 4141 bytes; SHA256 ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3\nFILE verify.py: 5709 bytes; SHA256 5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde\nFILE inputs/OD-PROOF.md: 11709 bytes; SHA256 a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f\nFILE inputs/FC-PROOF.md: 18052 bytes; SHA256 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nFILE inputs/TP-PROOF.md: 16304 bytes; SHA256 b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e\nFILE inputs/OT-PROOF.md: 28094 bytes; SHA256 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nSOURCE OD: exact original bytes and Git blob e561adb180b5040a57464808dbbdfaef29f1c6a8\nSOURCE FC: exact original bytes and Git blob f77cfb52743be86e46e0c40570ec036e69aebaf3\nSOURCE TP: exact original bytes and Git blob e41b654ff6edba56d5a071811f19d4db4346681c\nSOURCE OT: exact original bytes and Git blob f00b059695615d9b8ab6d315798940e3ab0a58d4\nUNIVERSAL H4: {\"D\": 1}\nUNIVERSAL H5: {\"T6\": 1}\nUNIVERSAL H8: {\"D\": 1, \"P\": 1}\nUNIVERSAL H10: {\"A\": 1, \"D\": 1, \"V_alt\": 1}\nUNIVERSAL orbit sizes: 12,20,30,60; scalar divisor degree 20; P-row entry degree 16\nPASS: 86 explicit runtime checks (46 integrity, 40 bounded universal).\nAUTHOR ONLY: no actual source-instance evaluation, actual-map verification, or independent review.\n",
+          "stdout_file": "replays/run-1-optimized.stdout.txt",
+          "stdout_integrity": {
+            "bytes": 1767,
+            "sha256": "fec68c26b01afd12ab67b141312dcb48bfd9c674332e7746a27285009cafcf52"
+          }
+        }
+      ]
+    },
+    {
+      "copied_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": {
+          "FROZEN.json": {
+            "bytes": 1532,
+            "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+          },
+          "INPUTS.json": {
+            "bytes": 11259,
+            "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+          },
+          "INPUTS.md": {
+            "bytes": 7965,
+            "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+          },
+          "PROOF.md": {
+            "bytes": 17598,
+            "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+          },
+          "PROVENANCE.md": {
+            "bytes": 4141,
+            "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+          },
+          "README.md": {
+            "bytes": 3300,
+            "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+          },
+          "inputs/FC-PROOF.md": {
+            "bytes": 18052,
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          "inputs/OD-PROOF.md": {
+            "bytes": 11709,
+            "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+          },
+          "inputs/OT-PROOF.md": {
+            "bytes": 28094,
+            "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+          },
+          "inputs/TP-PROOF.md": {
+            "bytes": 16304,
+            "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+          },
+          "verify.py": {
+            "bytes": 5709,
+            "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+          }
+        }
+      },
+      "created_empty_utc": "2026-10-24T14:44:42.183679+00:00",
+      "empty_inventory": {
+        "directories": [],
+        "files": {}
+      },
+      "final_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": {
+          "FROZEN.json": {
+            "bytes": 1532,
+            "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+          },
+          "INPUTS.json": {
+            "bytes": 11259,
+            "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+          },
+          "INPUTS.md": {
+            "bytes": 7965,
+            "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+          },
+          "PROOF.md": {
+            "bytes": 17598,
+            "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+          },
+          "PROVENANCE.md": {
+            "bytes": 4141,
+            "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+          },
+          "README.md": {
+            "bytes": 3300,
+            "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+          },
+          "inputs/FC-PROOF.md": {
+            "bytes": 18052,
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          "inputs/OD-PROOF.md": {
+            "bytes": 11709,
+            "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+          },
+          "inputs/OT-PROOF.md": {
+            "bytes": 28094,
+            "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+          },
+          "inputs/TP-PROOF.md": {
+            "bytes": 16304,
+            "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+          },
+          "verify.py": {
+            "bytes": 5709,
+            "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+          }
+        }
+      },
+      "path": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-2-f1chc3ks",
+      "runs": [
+        {
+          "after_inventory": {
+            "directories": [
+              "inputs"
+            ],
+            "files": {
+              "FROZEN.json": {
+                "bytes": 1532,
+                "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+              },
+              "INPUTS.json": {
+                "bytes": 11259,
+                "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+              },
+              "INPUTS.md": {
+                "bytes": 7965,
+                "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+              },
+              "PROOF.md": {
+                "bytes": 17598,
+                "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+              },
+              "PROVENANCE.md": {
+                "bytes": 4141,
+                "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+              },
+              "README.md": {
+                "bytes": 3300,
+                "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+              },
+              "inputs/FC-PROOF.md": {
+                "bytes": 18052,
+                "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+              },
+              "inputs/OD-PROOF.md": {
+                "bytes": 11709,
+                "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+              },
+              "inputs/OT-PROOF.md": {
+                "bytes": 28094,
+                "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+              },
+              "inputs/TP-PROOF.md": {
+                "bytes": 16304,
+                "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+              },
+              "verify.py": {
+                "bytes": 5709,
+                "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+              }
+            }
+          },
+          "all_selected_bytes_unchanged": true,
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "verify.py"
+          ],
+          "completed_utc": "2026-10-24T14:44:42.209739+00:00",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-2-f1chc3ks",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "mode": "normal",
+          "returncode": 0,
+          "started_utc": "2026-10-24T14:44:42.183688+00:00",
+          "stderr": "",
+          "stderr_file": "replays/run-2-normal.stderr.txt",
+          "stderr_integrity": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stdout": "FILE PROOF.md: 17598 bytes; SHA256 cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b\nFILE README.md: 3300 bytes; SHA256 6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420\nFILE INPUTS.json: 11259 bytes; SHA256 59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3\nFILE INPUTS.md: 7965 bytes; SHA256 ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd\nFILE PROVENANCE.md: 4141 bytes; SHA256 ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3\nFILE verify.py: 5709 bytes; SHA256 5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde\nFILE inputs/OD-PROOF.md: 11709 bytes; SHA256 a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f\nFILE inputs/FC-PROOF.md: 18052 bytes; SHA256 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nFILE inputs/TP-PROOF.md: 16304 bytes; SHA256 b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e\nFILE inputs/OT-PROOF.md: 28094 bytes; SHA256 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nSOURCE OD: exact original bytes and Git blob e561adb180b5040a57464808dbbdfaef29f1c6a8\nSOURCE FC: exact original bytes and Git blob f77cfb52743be86e46e0c40570ec036e69aebaf3\nSOURCE TP: exact original bytes and Git blob e41b654ff6edba56d5a071811f19d4db4346681c\nSOURCE OT: exact original bytes and Git blob f00b059695615d9b8ab6d315798940e3ab0a58d4\nUNIVERSAL H4: {\"D\": 1}\nUNIVERSAL H5: {\"T6\": 1}\nUNIVERSAL H8: {\"D\": 1, \"P\": 1}\nUNIVERSAL H10: {\"A\": 1, \"D\": 1, \"V_alt\": 1}\nUNIVERSAL orbit sizes: 12,20,30,60; scalar divisor degree 20; P-row entry degree 16\nPASS: 86 explicit runtime checks (46 integrity, 40 bounded universal).\nAUTHOR ONLY: no actual source-instance evaluation, actual-map verification, or independent review.\n",
+          "stdout_file": "replays/run-2-normal.stdout.txt",
+          "stdout_integrity": {
+            "bytes": 1767,
+            "sha256": "fec68c26b01afd12ab67b141312dcb48bfd9c674332e7746a27285009cafcf52"
+          }
+        },
+        {
+          "after_inventory": {
+            "directories": [
+              "inputs"
+            ],
+            "files": {
+              "FROZEN.json": {
+                "bytes": 1532,
+                "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+              },
+              "INPUTS.json": {
+                "bytes": 11259,
+                "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+              },
+              "INPUTS.md": {
+                "bytes": 7965,
+                "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+              },
+              "PROOF.md": {
+                "bytes": 17598,
+                "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+              },
+              "PROVENANCE.md": {
+                "bytes": 4141,
+                "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+              },
+              "README.md": {
+                "bytes": 3300,
+                "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+              },
+              "inputs/FC-PROOF.md": {
+                "bytes": 18052,
+                "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+              },
+              "inputs/OD-PROOF.md": {
+                "bytes": 11709,
+                "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+              },
+              "inputs/OT-PROOF.md": {
+                "bytes": 28094,
+                "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+              },
+              "inputs/TP-PROOF.md": {
+                "bytes": 16304,
+                "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+              },
+              "verify.py": {
+                "bytes": 5709,
+                "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+              }
+            }
+          },
+          "all_selected_bytes_unchanged": true,
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "-O",
+            "verify.py"
+          ],
+          "completed_utc": "2026-10-24T14:44:42.292980+00:00",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-y-symbol-review/replays/selected-2-f1chc3ks",
+          "environment_overrides": {
+            "PYTHONDONTWRITEBYTECODE": "1"
+          },
+          "mode": "optimized",
+          "returncode": 0,
+          "started_utc": "2026-10-24T14:44:42.210799+00:00",
+          "stderr": "",
+          "stderr_file": "replays/run-2-optimized.stderr.txt",
+          "stderr_integrity": {
+            "bytes": 0,
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          "stdout": "FILE PROOF.md: 17598 bytes; SHA256 cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b\nFILE README.md: 3300 bytes; SHA256 6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420\nFILE INPUTS.json: 11259 bytes; SHA256 59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3\nFILE INPUTS.md: 7965 bytes; SHA256 ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd\nFILE PROVENANCE.md: 4141 bytes; SHA256 ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3\nFILE verify.py: 5709 bytes; SHA256 5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde\nFILE inputs/OD-PROOF.md: 11709 bytes; SHA256 a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f\nFILE inputs/FC-PROOF.md: 18052 bytes; SHA256 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nFILE inputs/TP-PROOF.md: 16304 bytes; SHA256 b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e\nFILE inputs/OT-PROOF.md: 28094 bytes; SHA256 407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637\nSOURCE OD: exact original bytes and Git blob e561adb180b5040a57464808dbbdfaef29f1c6a8\nSOURCE FC: exact original bytes and Git blob f77cfb52743be86e46e0c40570ec036e69aebaf3\nSOURCE TP: exact original bytes and Git blob e41b654ff6edba56d5a071811f19d4db4346681c\nSOURCE OT: exact original bytes and Git blob f00b059695615d9b8ab6d315798940e3ab0a58d4\nUNIVERSAL H4: {\"D\": 1}\nUNIVERSAL H5: {\"T6\": 1}\nUNIVERSAL H8: {\"D\": 1, \"P\": 1}\nUNIVERSAL H10: {\"A\": 1, \"D\": 1, \"V_alt\": 1}\nUNIVERSAL orbit sizes: 12,20,30,60; scalar divisor degree 20; P-row entry degree 16\nPASS: 86 explicit runtime checks (46 integrity, 40 bounded universal).\nAUTHOR ONLY: no actual source-instance evaluation, actual-map verification, or independent review.\n",
+          "stdout_file": "replays/run-2-optimized.stdout.txt",
+          "stdout_integrity": {
+            "bytes": 1767,
+            "sha256": "fec68c26b01afd12ab67b141312dcb48bfd9c674332e7746a27285009cafcf52"
+          }
+        }
+      ]
+    }
+  ],
+  "external_frozen_sha256": {
+    "FROZEN.json": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f",
+    "PROOF.md": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b",
+    "verify.py": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+  },
+  "frozen_source_after": {
+    "FROZEN.json": {
+      "bytes": 1532,
+      "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+    },
+    "INPUTS.json": {
+      "bytes": 11259,
+      "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+    },
+    "INPUTS.md": {
+      "bytes": 7965,
+      "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+    },
+    "PROOF.md": {
+      "bytes": 17598,
+      "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+    },
+    "PROVENANCE.md": {
+      "bytes": 4141,
+      "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+    },
+    "README.md": {
+      "bytes": 3300,
+      "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+    },
+    "inputs/FC-PROOF.md": {
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    "inputs/OD-PROOF.md": {
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    "inputs/OT-PROOF.md": {
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    "inputs/TP-PROOF.md": {
+      "bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+    },
+    "verify.py": {
+      "bytes": 5709,
+      "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+    }
+  },
+  "frozen_source_before": {
+    "FROZEN.json": {
+      "bytes": 1532,
+      "sha256": "2d97a015a0325b79c01fb207823515afa735799b3b17a59609b3b6efd972fa9f"
+    },
+    "INPUTS.json": {
+      "bytes": 11259,
+      "sha256": "59da702aa800ad9b798a97f2875024ebc0b22d5d71ee5629f545d5690ab050d3"
+    },
+    "INPUTS.md": {
+      "bytes": 7965,
+      "sha256": "ebb692f54da73245f56813872e137a87dbd2326efbd561420a8b02ea76524fdd"
+    },
+    "PROOF.md": {
+      "bytes": 17598,
+      "sha256": "cfd7ca9c5416a1647dfb572f9777c3e099a85a770551710b6f101073abbaab0b"
+    },
+    "PROVENANCE.md": {
+      "bytes": 4141,
+      "sha256": "ac921f7533e360ddaf01c064de82c0fa214598571a1ae81ebcc49c403e3885c3"
+    },
+    "README.md": {
+      "bytes": 3300,
+      "sha256": "6a2495ce2960bd971edbea3107a6400c15ffa82a779dcc76a560fe62a8885420"
+    },
+    "inputs/FC-PROOF.md": {
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    "inputs/OD-PROOF.md": {
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    "inputs/OT-PROOF.md": {
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    "inputs/TP-PROOF.md": {
+      "bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+    },
+    "verify.py": {
+      "bytes": 5709,
+      "sha256": "5eb3112f452183f1e996d6348f9ab8a1c1d26ccc1a751b2881cd9d00a6fe3cde"
+    }
+  },
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "schema": "reviewer-original-y-replays-v1",
+  "scope": "Two new empty selected-only directories; normal and optimized Python in each. No actual source-instance evaluation.",
+  "selected_paths": [
+    "FROZEN.json",
+    "PROOF.md",
+    "README.md",
+    "INPUTS.json",
+    "INPUTS.md",
+    "PROVENANCE.md",
+    "verify.py",
+    "inputs/OD-PROOF.md",
+    "inputs/FC-PROOF.md",
+    "inputs/TP-PROOF.md",
+    "inputs/OT-PROOF.md"
+  ],
+  "started_utc": "2026-10-24T14:44:42.068129+00:00"
+}
