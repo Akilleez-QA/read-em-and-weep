@@ -1,0 +1,996 @@
+{
+  "schema": "independent-reviewer-clean-replays-v1",
+  "bindings": {
+    "proof_sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f",
+    "checker_sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7",
+    "core_sha256": "7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33",
+    "freeze_sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+  },
+  "source_directory": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative",
+  "audit_started_at_utc": "2026-10-24T13:47:31.998447+00:00",
+  "source_inventory_before": [
+    {
+      "path": "FROZEN.json",
+      "utf8_bytes": 2301,
+      "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+    },
+    {
+      "path": "INPUTS.json",
+      "utf8_bytes": 6272,
+      "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+    },
+    {
+      "path": "INPUTS.md",
+      "utf8_bytes": 4358,
+      "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+    },
+    {
+      "path": "PROOF.md",
+      "utf8_bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "utf8_bytes": 4019,
+      "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+    },
+    {
+      "path": "README.md",
+      "utf8_bytes": 2504,
+      "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+    },
+    {
+      "path": "inputs/pr1228-PROOF.md",
+      "utf8_bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+    },
+    {
+      "path": "inputs/pr1234-PROOF.md",
+      "utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+    },
+    {
+      "path": "inputs/pr1236-PROOF.md",
+      "utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "verify.py",
+      "utf8_bytes": 10710,
+      "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+    }
+  ],
+  "directories": [
+    {
+      "label": "A",
+      "absolute_path": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-a-xffmxte4",
+      "creation_started_at_utc": "2026-10-24T13:47:31.998453+00:00",
+      "creation_completed_at_utc": "2026-10-24T13:47:31.998563+00:00",
+      "empty_inventory_before_copy": [],
+      "selected_inventory_after_copy": [
+        {
+          "kind": "file",
+          "path": "FROZEN.json",
+          "utf8_bytes": 2301,
+          "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.json",
+          "utf8_bytes": 6272,
+          "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.md",
+          "utf8_bytes": 4358,
+          "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+        },
+        {
+          "kind": "file",
+          "path": "PROOF.md",
+          "utf8_bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "kind": "file",
+          "path": "PROVENANCE.md",
+          "utf8_bytes": 4019,
+          "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+        },
+        {
+          "kind": "file",
+          "path": "README.md",
+          "utf8_bytes": 2504,
+          "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1228-PROOF.md",
+          "utf8_bytes": 12921,
+          "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1234-PROOF.md",
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1236-PROOF.md",
+          "utf8_bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "kind": "file",
+          "path": "verify.py",
+          "utf8_bytes": 10710,
+          "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+        }
+      ],
+      "runs": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "verify.py"
+          ],
+          "command_shell": "python3 -B verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-a-xffmxte4",
+          "started_at_utc": "2026-10-24T13:47:32.000592+00:00",
+          "completed_at_utc": "2026-10-24T13:47:32.034577+00:00",
+          "elapsed_seconds": 0.03397283505182713,
+          "exit_code": 0,
+          "stdout": "PASS exact selected-only inventory: 9 core files + FROZEN.json\nCORE SHA256 7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33\nFROZEN.json SHA256 ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4\nPASS pr1228 complete UTF-8 bytes=12921 Git blob=41ab2148d3ea13d07dcdfe2bf353a18c664bb848\nPASS pr1234 complete UTF-8 bytes=16183 Git blob=c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b\nPASS pr1236 complete UTF-8 bytes=18052 Git blob=f77cfb52743be86e46e0c40570ec036e69aebaf3\nNOTE remote response comparisons are author evidence; replay checks retained source bytes.\nPASS universal H2=A\nPASS universal H9=S4+T6\nPASS universal H12=1+A+D+P\nPASS Hom/Ext twists; ordinary H1(O(4))=H1(O(9))=0\nPASS ranks/degrees: Fhat (10,-64), Chat (7,-52), I (3,-12), K (13,-58), normal (3,0)\nPASS scalar-row degree 12; minimum-orbit arithmetic gives one reduced orbit in the proof\nPASS all 367 explicit runtime checks; optimization=0\nLIMIT: no actual-instance evaluation; no actual-map, branch-closure, or algebraicity verification.\nPASS selected bytes unchanged during replay\n",
+          "stderr": "",
+          "inventory_before": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "inventory_after": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "all_selected_bytes_unchanged": true
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "-O",
+            "verify.py"
+          ],
+          "command_shell": "python3 -B -O verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-a-xffmxte4",
+          "started_at_utc": "2026-10-24T13:47:32.036230+00:00",
+          "completed_at_utc": "2026-10-24T13:47:32.123231+00:00",
+          "elapsed_seconds": 0.0869855280034244,
+          "exit_code": 0,
+          "stdout": "PASS exact selected-only inventory: 9 core files + FROZEN.json\nCORE SHA256 7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33\nFROZEN.json SHA256 ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4\nPASS pr1228 complete UTF-8 bytes=12921 Git blob=41ab2148d3ea13d07dcdfe2bf353a18c664bb848\nPASS pr1234 complete UTF-8 bytes=16183 Git blob=c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b\nPASS pr1236 complete UTF-8 bytes=18052 Git blob=f77cfb52743be86e46e0c40570ec036e69aebaf3\nNOTE remote response comparisons are author evidence; replay checks retained source bytes.\nPASS universal H2=A\nPASS universal H9=S4+T6\nPASS universal H12=1+A+D+P\nPASS Hom/Ext twists; ordinary H1(O(4))=H1(O(9))=0\nPASS ranks/degrees: Fhat (10,-64), Chat (7,-52), I (3,-12), K (13,-58), normal (3,0)\nPASS scalar-row degree 12; minimum-orbit arithmetic gives one reduced orbit in the proof\nPASS all 367 explicit runtime checks; optimization=1\nLIMIT: no actual-instance evaluation; no actual-map, branch-closure, or algebraicity verification.\nPASS selected bytes unchanged during replay\n",
+          "stderr": "",
+          "inventory_before": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "inventory_after": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "all_selected_bytes_unchanged": true
+        }
+      ],
+      "selected_inventory_after_both_runs": [
+        {
+          "kind": "file",
+          "path": "FROZEN.json",
+          "utf8_bytes": 2301,
+          "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.json",
+          "utf8_bytes": 6272,
+          "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.md",
+          "utf8_bytes": 4358,
+          "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+        },
+        {
+          "kind": "file",
+          "path": "PROOF.md",
+          "utf8_bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "kind": "file",
+          "path": "PROVENANCE.md",
+          "utf8_bytes": 4019,
+          "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+        },
+        {
+          "kind": "file",
+          "path": "README.md",
+          "utf8_bytes": 2504,
+          "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1228-PROOF.md",
+          "utf8_bytes": 12921,
+          "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1234-PROOF.md",
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1236-PROOF.md",
+          "utf8_bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "kind": "file",
+          "path": "verify.py",
+          "utf8_bytes": 10710,
+          "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+        }
+      ]
+    },
+    {
+      "label": "B",
+      "absolute_path": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-b-l74xbpgw",
+      "creation_started_at_utc": "2026-10-24T13:47:32.124633+00:00",
+      "creation_completed_at_utc": "2026-10-24T13:47:32.124707+00:00",
+      "empty_inventory_before_copy": [],
+      "selected_inventory_after_copy": [
+        {
+          "kind": "file",
+          "path": "FROZEN.json",
+          "utf8_bytes": 2301,
+          "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.json",
+          "utf8_bytes": 6272,
+          "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.md",
+          "utf8_bytes": 4358,
+          "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+        },
+        {
+          "kind": "file",
+          "path": "PROOF.md",
+          "utf8_bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "kind": "file",
+          "path": "PROVENANCE.md",
+          "utf8_bytes": 4019,
+          "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+        },
+        {
+          "kind": "file",
+          "path": "README.md",
+          "utf8_bytes": 2504,
+          "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1228-PROOF.md",
+          "utf8_bytes": 12921,
+          "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1234-PROOF.md",
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1236-PROOF.md",
+          "utf8_bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "kind": "file",
+          "path": "verify.py",
+          "utf8_bytes": 10710,
+          "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+        }
+      ],
+      "runs": [
+        {
+          "command": [
+            "python3",
+            "-B",
+            "verify.py"
+          ],
+          "command_shell": "python3 -B verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-b-l74xbpgw",
+          "started_at_utc": "2026-10-24T13:47:32.126565+00:00",
+          "completed_at_utc": "2026-10-24T13:47:32.152392+00:00",
+          "elapsed_seconds": 0.025814069958869368,
+          "exit_code": 0,
+          "stdout": "PASS exact selected-only inventory: 9 core files + FROZEN.json\nCORE SHA256 7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33\nFROZEN.json SHA256 ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4\nPASS pr1228 complete UTF-8 bytes=12921 Git blob=41ab2148d3ea13d07dcdfe2bf353a18c664bb848\nPASS pr1234 complete UTF-8 bytes=16183 Git blob=c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b\nPASS pr1236 complete UTF-8 bytes=18052 Git blob=f77cfb52743be86e46e0c40570ec036e69aebaf3\nNOTE remote response comparisons are author evidence; replay checks retained source bytes.\nPASS universal H2=A\nPASS universal H9=S4+T6\nPASS universal H12=1+A+D+P\nPASS Hom/Ext twists; ordinary H1(O(4))=H1(O(9))=0\nPASS ranks/degrees: Fhat (10,-64), Chat (7,-52), I (3,-12), K (13,-58), normal (3,0)\nPASS scalar-row degree 12; minimum-orbit arithmetic gives one reduced orbit in the proof\nPASS all 367 explicit runtime checks; optimization=0\nLIMIT: no actual-instance evaluation; no actual-map, branch-closure, or algebraicity verification.\nPASS selected bytes unchanged during replay\n",
+          "stderr": "",
+          "inventory_before": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "inventory_after": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "all_selected_bytes_unchanged": true
+        },
+        {
+          "command": [
+            "python3",
+            "-B",
+            "-O",
+            "verify.py"
+          ],
+          "command_shell": "python3 -B -O verify.py",
+          "cwd": "/workspace/shared/rankfour-profile11-triplet-original-second-kernel-derivative-review/selected-only-b-l74xbpgw",
+          "started_at_utc": "2026-10-24T13:47:32.153940+00:00",
+          "completed_at_utc": "2026-10-24T13:47:32.240102+00:00",
+          "elapsed_seconds": 0.08614892000332475,
+          "exit_code": 0,
+          "stdout": "PASS exact selected-only inventory: 9 core files + FROZEN.json\nCORE SHA256 7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33\nFROZEN.json SHA256 ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4\nPASS pr1228 complete UTF-8 bytes=12921 Git blob=41ab2148d3ea13d07dcdfe2bf353a18c664bb848\nPASS pr1234 complete UTF-8 bytes=16183 Git blob=c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b\nPASS pr1236 complete UTF-8 bytes=18052 Git blob=f77cfb52743be86e46e0c40570ec036e69aebaf3\nNOTE remote response comparisons are author evidence; replay checks retained source bytes.\nPASS universal H2=A\nPASS universal H9=S4+T6\nPASS universal H12=1+A+D+P\nPASS Hom/Ext twists; ordinary H1(O(4))=H1(O(9))=0\nPASS ranks/degrees: Fhat (10,-64), Chat (7,-52), I (3,-12), K (13,-58), normal (3,0)\nPASS scalar-row degree 12; minimum-orbit arithmetic gives one reduced orbit in the proof\nPASS all 367 explicit runtime checks; optimization=1\nLIMIT: no actual-instance evaluation; no actual-map, branch-closure, or algebraicity verification.\nPASS selected bytes unchanged during replay\n",
+          "stderr": "",
+          "inventory_before": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "inventory_after": [
+            {
+              "kind": "file",
+              "path": "FROZEN.json",
+              "utf8_bytes": 2301,
+              "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.json",
+              "utf8_bytes": 6272,
+              "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+            },
+            {
+              "kind": "file",
+              "path": "INPUTS.md",
+              "utf8_bytes": 4358,
+              "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+            },
+            {
+              "kind": "file",
+              "path": "PROOF.md",
+              "utf8_bytes": 11709,
+              "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+            },
+            {
+              "kind": "file",
+              "path": "PROVENANCE.md",
+              "utf8_bytes": 4019,
+              "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+            },
+            {
+              "kind": "file",
+              "path": "README.md",
+              "utf8_bytes": 2504,
+              "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+            },
+            {
+              "path": "inputs",
+              "kind": "directory"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1228-PROOF.md",
+              "utf8_bytes": 12921,
+              "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1234-PROOF.md",
+              "utf8_bytes": 16183,
+              "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+            },
+            {
+              "kind": "file",
+              "path": "inputs/pr1236-PROOF.md",
+              "utf8_bytes": 18052,
+              "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+            },
+            {
+              "kind": "file",
+              "path": "verify.py",
+              "utf8_bytes": 10710,
+              "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+            }
+          ],
+          "all_selected_bytes_unchanged": true
+        }
+      ],
+      "selected_inventory_after_both_runs": [
+        {
+          "kind": "file",
+          "path": "FROZEN.json",
+          "utf8_bytes": 2301,
+          "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.json",
+          "utf8_bytes": 6272,
+          "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+        },
+        {
+          "kind": "file",
+          "path": "INPUTS.md",
+          "utf8_bytes": 4358,
+          "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+        },
+        {
+          "kind": "file",
+          "path": "PROOF.md",
+          "utf8_bytes": 11709,
+          "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+        },
+        {
+          "kind": "file",
+          "path": "PROVENANCE.md",
+          "utf8_bytes": 4019,
+          "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+        },
+        {
+          "kind": "file",
+          "path": "README.md",
+          "utf8_bytes": 2504,
+          "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+        },
+        {
+          "path": "inputs",
+          "kind": "directory"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1228-PROOF.md",
+          "utf8_bytes": 12921,
+          "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1234-PROOF.md",
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+        },
+        {
+          "kind": "file",
+          "path": "inputs/pr1236-PROOF.md",
+          "utf8_bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "kind": "file",
+          "path": "verify.py",
+          "utf8_bytes": 10710,
+          "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+        }
+      ]
+    }
+  ],
+  "audit_completed_at_utc": "2026-10-24T13:47:32.242756+00:00",
+  "source_inventory_after": [
+    {
+      "path": "FROZEN.json",
+      "utf8_bytes": 2301,
+      "sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+    },
+    {
+      "path": "INPUTS.json",
+      "utf8_bytes": 6272,
+      "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+    },
+    {
+      "path": "INPUTS.md",
+      "utf8_bytes": 4358,
+      "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+    },
+    {
+      "path": "PROOF.md",
+      "utf8_bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "utf8_bytes": 4019,
+      "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+    },
+    {
+      "path": "README.md",
+      "utf8_bytes": 2504,
+      "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+    },
+    {
+      "path": "inputs/pr1228-PROOF.md",
+      "utf8_bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+    },
+    {
+      "path": "inputs/pr1234-PROOF.md",
+      "utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+    },
+    {
+      "path": "inputs/pr1236-PROOF.md",
+      "utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "verify.py",
+      "utf8_bytes": 10710,
+      "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+    }
+  ],
+  "original_frozen_core_and_freeze_unchanged": true,
+  "four_replays_passed": true
+}

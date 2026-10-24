@@ -1,0 +1,75 @@
+{
+  "schema": "original-second-kernel-derivative-freeze-v1",
+  "frozen_at_utc": "2026-10-24T13:42:59.067698+00:00",
+  "status": "Frozen author core; independent entire-proof review and parent review still required; no publication.",
+  "selected_core": [
+    {
+      "path": "INPUTS.json",
+      "utf8_bytes": 6272,
+      "sha256": "b6f44292e1a67529525115e5754a2cf9dbfeaccc4ffc71a9c5362f8a2c3a3ec5"
+    },
+    {
+      "path": "INPUTS.md",
+      "utf8_bytes": 4358,
+      "sha256": "24d56a1288d6ef0cf2dfaac9c0eade47e8ee59b94fc479b9f45112901a49304a"
+    },
+    {
+      "path": "PROOF.md",
+      "utf8_bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "utf8_bytes": 4019,
+      "sha256": "bdd8749130385ad3f8844095bc13db72bf4e6b863eae512bd4d8ea6376f824b6"
+    },
+    {
+      "path": "README.md",
+      "utf8_bytes": 2504,
+      "sha256": "c527642b70db938dbae34e2088a8a18409fcf6536163e6ad026c8928e2188d69"
+    },
+    {
+      "path": "inputs/pr1228-PROOF.md",
+      "utf8_bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e"
+    },
+    {
+      "path": "inputs/pr1234-PROOF.md",
+      "utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2"
+    },
+    {
+      "path": "inputs/pr1236-PROOF.md",
+      "utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "verify.py",
+      "utf8_bytes": 10710,
+      "sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7"
+    }
+  ],
+  "core_digest_algorithm": "SHA256 of sorted UTF-8 lines: <file SHA256>  <relative path>\\n",
+  "core_sha256": "7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33",
+  "selected_only_inventory": [
+    "FROZEN.json",
+    "INPUTS.json",
+    "INPUTS.md",
+    "PROOF.md",
+    "PROVENANCE.md",
+    "README.md",
+    "inputs/pr1228-PROOF.md",
+    "inputs/pr1234-PROOF.md",
+    "inputs/pr1236-PROOF.md",
+    "verify.py"
+  ],
+  "excluded_from_core": [
+    "FROZEN.json",
+    "AUTHOR-VERIFICATION.md",
+    "author-evidence/",
+    "PROOF-DRAFT.md",
+    "SELF-CHECK.md"
+  ],
+  "independent_review_authored": false,
+  "ready_manifest_authored": false
+}

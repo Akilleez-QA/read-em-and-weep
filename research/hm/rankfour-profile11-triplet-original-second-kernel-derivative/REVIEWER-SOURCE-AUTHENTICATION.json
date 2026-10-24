@@ -1,0 +1,182 @@
+{
+  "schema": "independent-reviewer-source-authentication-v1",
+  "reviewer_task": "review_original_derivative_packet",
+  "audit_at_utc": "2026-10-24T13:47:31.997070+00:00",
+  "bindings": {
+    "proof_sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f",
+    "checker_sha256": "da356825cf67bc0828c76327e5abd2373970e5239ac8325bf3ecc210a6d5dcf7",
+    "core_sha256": "7fb3a09266e24f6335e724e7fc439d863f23dea8c985316735ef0ec37d069d33",
+    "freeze_sha256": "ef42cb4768e49e6fcf184f6804d949b7f693335f555d341037619e3c7f0945a4"
+  },
+  "complete_originals": [
+    {
+      "id": "pr1228",
+      "pr": 1228,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "local_path": "inputs/pr1228-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593/research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "full_decoded_utf8_bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+      "recomputed_git_blob_sha1": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "path_response_git_blob_sha1": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "checks": {
+        "complete_exact_commit_path_request": true,
+        "separate_complete_blob_request": true,
+        "strict_utf8_both": true,
+        "path_bytes_equal_blob_bytes": true,
+        "both_equal_retained_complete_original": true,
+        "expected_length_matches": true,
+        "expected_sha256_matches": true,
+        "recomputed_git_blob_matches_path_and_inputs": true
+      },
+      "path_read": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+          "ref": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+          "encoding": "base64"
+        },
+        "started_at_utc": "2026-10-24T13:45:25.417Z",
+        "completed_at_utc": "2026-10-24T13:45:25.750Z"
+      },
+      "blob_read": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848"
+        },
+        "started_at_utc": "2026-10-24T13:45:31.978Z",
+        "completed_at_utc": "2026-10-24T13:45:32.355Z"
+      },
+      "raw_response_artifacts": [
+        {
+          "path": "source-responses/pr1228-path-response.json",
+          "utf8_bytes": 18699,
+          "sha256": "4b9f9490bc322be5d694b8c1ca6d2f808b25d5f28ba70ac49854aa5928d0d0d1"
+        },
+        {
+          "path": "source-responses/pr1228-blob-response.json",
+          "utf8_bytes": 13619,
+          "sha256": "fb1de472a4a253bfe05de5b5e83cc1974b23742328fefaed212d4d6305825ad7"
+        }
+      ]
+    },
+    {
+      "id": "pr1234",
+      "pr": 1234,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "local_path": "inputs/pr1234-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d55622ece9a4bb9e20197dec560b298f1d03fb1/research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "full_decoded_utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+      "recomputed_git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "path_response_git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "checks": {
+        "complete_exact_commit_path_request": true,
+        "separate_complete_blob_request": true,
+        "strict_utf8_both": true,
+        "path_bytes_equal_blob_bytes": true,
+        "both_equal_retained_complete_original": true,
+        "expected_length_matches": true,
+        "expected_sha256_matches": true,
+        "recomputed_git_blob_matches_path_and_inputs": true
+      },
+      "path_read": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+          "ref": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+          "encoding": "base64"
+        },
+        "started_at_utc": "2026-10-24T13:45:25.750Z",
+        "completed_at_utc": "2026-10-24T13:45:26.033Z"
+      },
+      "blob_read": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b"
+        },
+        "started_at_utc": "2026-10-24T13:45:32.355Z",
+        "completed_at_utc": "2026-10-24T13:45:32.675Z"
+      },
+      "raw_response_artifacts": [
+        {
+          "path": "source-responses/pr1234-path-response.json",
+          "utf8_bytes": 23221,
+          "sha256": "0a546dc94ff1813cceb05cb3484105556ec1cb0e5d754b032de7ad3f0c9c0368"
+        },
+        {
+          "path": "source-responses/pr1234-blob-response.json",
+          "utf8_bytes": 16912,
+          "sha256": "e062f4051988541836e99b9039196a770ce2b5c24e8ddb619db3a6ce28783cb2"
+        }
+      ]
+    },
+    {
+      "id": "pr1236",
+      "pr": 1236,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "commit": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "local_path": "inputs/pr1236-PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "git_blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "full_decoded_utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "recomputed_git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "path_response_git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "checks": {
+        "complete_exact_commit_path_request": true,
+        "separate_complete_blob_request": true,
+        "strict_utf8_both": true,
+        "path_bytes_equal_blob_bytes": true,
+        "both_equal_retained_complete_original": true,
+        "expected_length_matches": true,
+        "expected_sha256_matches": true,
+        "recomputed_git_blob_matches_path_and_inputs": true
+      },
+      "path_read": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+          "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+          "encoding": "base64"
+        },
+        "started_at_utc": "2026-10-24T13:45:26.033Z",
+        "completed_at_utc": "2026-10-24T13:45:26.360Z"
+      },
+      "blob_read": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "args": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+        },
+        "started_at_utc": "2026-10-24T13:45:32.676Z",
+        "completed_at_utc": "2026-10-24T13:45:33.137Z"
+      },
+      "raw_response_artifacts": [
+        {
+          "path": "source-responses/pr1236-path-response.json",
+          "utf8_bytes": 25783,
+          "sha256": "787353cd86d1434c396e2aca95ab8cce5af266f4b3b8ad349af910c688b27a2f"
+        },
+        {
+          "path": "source-responses/pr1236-blob-response.json",
+          "utf8_bytes": 18798,
+          "sha256": "561dbdd38331183d2ba6aa17b227b840103016a40684e7a6a8e75e8c002c7b57"
+        }
+      ]
+    }
+  ],
+  "scope": "Fresh independent complete exact-commit path reads and separate blob reads of exactly three direct originals. Transitive actual-geometric hypotheses remain assumptions; no recursive remote authentication claimed."
+}
