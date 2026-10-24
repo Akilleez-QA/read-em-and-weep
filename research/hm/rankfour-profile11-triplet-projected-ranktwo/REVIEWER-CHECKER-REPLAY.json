@@ -1,0 +1,48 @@
+{
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "characters.py",
+    "verify.py",
+    "inputs/eighteen-jets.md",
+    "inputs/deep-images.md",
+    "inputs/actual.md"
+  ],
+  "sha256": {
+    "PROOF.md": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+    "INPUTS.json": "ba4d8bf05de5fd32b0ef61ee55eb9d701971d48bb3f3c75a34cdeca65bce28c5",
+    "REPRODUCE.md": "c3f05644dd74d5b6b19fc34f48d9f347e9814de66e9fde2f3698bb221cec0be2",
+    "characters.py": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7",
+    "verify.py": "02856bf7b47bfb124ef17a2a890beb356d18d8e55b543d9bf949be2007baac76",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "inputs/deep-images.md": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+    "inputs/actual.md": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+  },
+  "excluded": "All raw GitHub fetch response duplicates, reviewer records, caches, and subsequent research were absent from the temporary replay directory.",
+  "proof_bytes": 15271,
+  "runs": [
+    {
+      "command": "python verify.py",
+      "returncode": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 51,
+        "proof_sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+        "scope": "Fixed universal representation and symbolic capacity/degree identities; no actual instance evaluations or defect-fullness assumption."
+      },
+      "stderr": ""
+    },
+    {
+      "command": "python -O verify.py",
+      "returncode": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 51,
+        "proof_sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+        "scope": "Fixed universal representation and symbolic capacity/degree identities; no actual instance evaluations or defect-fullness assumption."
+      },
+      "stderr": ""
+    }
+  ]
+}
