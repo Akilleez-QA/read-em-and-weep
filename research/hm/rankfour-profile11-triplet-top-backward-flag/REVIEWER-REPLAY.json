@@ -1,0 +1,278 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T09:50:14.346479+00:00",
+  "frozen_proof": {
+    "bytes": 16724,
+    "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+    "git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "isolated_directory": "/workspace/shared/rankfour-profile11-triplet-top-backward-flag/REVIEWER-LOCAL-REPLAY-mhe8lrci",
+  "directory_initially_empty": true,
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/top-normal-extension.md"
+  ],
+  "initial_inventory": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/top-normal-extension.md",
+    "verify.py"
+  ],
+  "final_inventory": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/top-normal-extension.md",
+    "verify.py"
+  ],
+  "selected_before": {
+    "PROOF.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    },
+    "INPUTS.json": {
+      "bytes": 540,
+      "sha256": "ea05153a1142d0bf2c69a6b1c0e4d8e5ea37c0f8993db07f9a8f55e7700087fc",
+      "git_blob_sha1": "c74ade5ea4822a168b8ff0ee7bbbdec720c759ce"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3926,
+      "sha256": "871c7f17b9b62ffc7d78dbd2929ed1082d7200b48897fa3947fb57df16cc4002",
+      "git_blob_sha1": "80be589cb42f8a30a091d867fc0d7ebca1fbfc35"
+    },
+    "verify.py": {
+      "bytes": 4863,
+      "sha256": "b97c20cd9333569d7f8572fb782d497e5297e1cb43d79c90c5a2a4139b2ee9b8",
+      "git_blob_sha1": "842ee9500ce0cc1c295522c50f2e123ce5494823"
+    },
+    "characters.py": {
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc",
+      "git_blob_sha1": "9007c19f71533a32267c6c83ae28bd18a9f9bf99"
+    },
+    "inputs/top-normal-extension.md": {
+      "bytes": 16808,
+      "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+      "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+    }
+  },
+  "isolated_after": {
+    "PROOF.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    },
+    "INPUTS.json": {
+      "bytes": 540,
+      "sha256": "ea05153a1142d0bf2c69a6b1c0e4d8e5ea37c0f8993db07f9a8f55e7700087fc",
+      "git_blob_sha1": "c74ade5ea4822a168b8ff0ee7bbbdec720c759ce"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3926,
+      "sha256": "871c7f17b9b62ffc7d78dbd2929ed1082d7200b48897fa3947fb57df16cc4002",
+      "git_blob_sha1": "80be589cb42f8a30a091d867fc0d7ebca1fbfc35"
+    },
+    "verify.py": {
+      "bytes": 4863,
+      "sha256": "b97c20cd9333569d7f8572fb782d497e5297e1cb43d79c90c5a2a4139b2ee9b8",
+      "git_blob_sha1": "842ee9500ce0cc1c295522c50f2e123ce5494823"
+    },
+    "characters.py": {
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc",
+      "git_blob_sha1": "9007c19f71533a32267c6c83ae28bd18a9f9bf99"
+    },
+    "inputs/top-normal-extension.md": {
+      "bytes": 16808,
+      "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+      "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+    }
+  },
+  "source_after": {
+    "PROOF.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    },
+    "INPUTS.json": {
+      "bytes": 540,
+      "sha256": "ea05153a1142d0bf2c69a6b1c0e4d8e5ea37c0f8993db07f9a8f55e7700087fc",
+      "git_blob_sha1": "c74ade5ea4822a168b8ff0ee7bbbdec720c759ce"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3926,
+      "sha256": "871c7f17b9b62ffc7d78dbd2929ed1082d7200b48897fa3947fb57df16cc4002",
+      "git_blob_sha1": "80be589cb42f8a30a091d867fc0d7ebca1fbfc35"
+    },
+    "verify.py": {
+      "bytes": 4863,
+      "sha256": "b97c20cd9333569d7f8572fb782d497e5297e1cb43d79c90c5a2a4139b2ee9b8",
+      "git_blob_sha1": "842ee9500ce0cc1c295522c50f2e123ce5494823"
+    },
+    "characters.py": {
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc",
+      "git_blob_sha1": "9007c19f71533a32267c6c83ae28bd18a9f9bf99"
+    },
+    "inputs/top-normal-extension.md": {
+      "bytes": 16808,
+      "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+      "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+    }
+  },
+  "all_hashes_unchanged": true,
+  "normal_optimized_stdout_byte_identical": true,
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "bytes": 2563,
+        "sha256": "adaa8f748302061ebcad9e5bd3c9b5db5ec438f75d0e7e5913c65825ad5afdde",
+        "git_blob_sha1": "0aeeccbf08feb7cd12b06cbdb36734a33886f5a8"
+      },
+      "stderr_bytes": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 47,
+        "proof_sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+        "universal_character_consistency_checks": 81,
+        "scope": "Complete direct-source and entire-proof authentication, with bounded universal character, rank, degree and Ext arithmetic only. No selected actual instance, broad computation, realization or exclusion is certified. The actual geometric argument requires entire-proof independent review.",
+        "details": [
+          "exactly one complete direct immutable original",
+          "hard-pinned immutable source path and ref",
+          "complete immutable source UTF8 length",
+          "complete immutable source SHA256",
+          "complete immutable source Git blob",
+          "exact immutable source URL",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "81 exact-rational physical-W consistency checks",
+          "fixed Sym1 physical decomposition",
+          "fixed Sym2 physical decomposition",
+          "fixed Sym3 physical decomposition",
+          "fixed Sym4 physical decomposition",
+          "fixed Sym5 physical decomposition",
+          "fixed Sym6 physical decomposition",
+          "fixed Sym7 physical decomposition",
+          "fixed Sym9 physical decomposition",
+          "fixed Sym10 physical decomposition",
+          "fixed Sym12 physical decomposition",
+          "V_alt twist-nine irreducible source",
+          "V_alt twist-ten source",
+          "V_alt twist-eleven source",
+          "terminal intrinsic U0 derivative Hom vanishes",
+          "actual U0 has no graph into Z1",
+          "terminal Euler-line U0 Hom vanishes",
+          "unique degree-twelve invariant line",
+          "complementary scalar rows have no invariant base divisor",
+          "rank-two kernel has no twist-ten source constituent",
+          "twist-eleven kernel has exactly alternate doublet coefficient",
+          "rank-seven rank-one coherent capacity contradiction",
+          "rank-five rank-one coherent capacity contradiction",
+          "C rank and degree",
+          "V_alt scalar-row kernel degree",
+          "R5 rank and degree",
+          "full beta_C quotient degree",
+          "alternate-doublet scalar-row kernel degree",
+          "R3 rank and degree",
+          "full beta_R5 quotient degree",
+          "successive rank-two actual target twists",
+          "terminal coherent image and kernel degrees",
+          "terminal target defect length",
+          "terminal invariant and two Hom degrees",
+          "all stated ordinary extension H1 groups vanish",
+          "all three actual consecutive jet quotient degrees",
+          "all three actual Euler coherent column degrees",
+          "four coherent mixed-sum saturation lengths",
+          "four coherent mixed-sum full ranks"
+        ]
+      }
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": {
+        "bytes": 2563,
+        "sha256": "adaa8f748302061ebcad9e5bd3c9b5db5ec438f75d0e7e5913c65825ad5afdde",
+        "git_blob_sha1": "0aeeccbf08feb7cd12b06cbdb36734a33886f5a8"
+      },
+      "stderr_bytes": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 47,
+        "proof_sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+        "universal_character_consistency_checks": 81,
+        "scope": "Complete direct-source and entire-proof authentication, with bounded universal character, rank, degree and Ext arithmetic only. No selected actual instance, broad computation, realization or exclusion is certified. The actual geometric argument requires entire-proof independent review.",
+        "details": [
+          "exactly one complete direct immutable original",
+          "hard-pinned immutable source path and ref",
+          "complete immutable source UTF8 length",
+          "complete immutable source SHA256",
+          "complete immutable source Git blob",
+          "exact immutable source URL",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "81 exact-rational physical-W consistency checks",
+          "fixed Sym1 physical decomposition",
+          "fixed Sym2 physical decomposition",
+          "fixed Sym3 physical decomposition",
+          "fixed Sym4 physical decomposition",
+          "fixed Sym5 physical decomposition",
+          "fixed Sym6 physical decomposition",
+          "fixed Sym7 physical decomposition",
+          "fixed Sym9 physical decomposition",
+          "fixed Sym10 physical decomposition",
+          "fixed Sym12 physical decomposition",
+          "V_alt twist-nine irreducible source",
+          "V_alt twist-ten source",
+          "V_alt twist-eleven source",
+          "terminal intrinsic U0 derivative Hom vanishes",
+          "actual U0 has no graph into Z1",
+          "terminal Euler-line U0 Hom vanishes",
+          "unique degree-twelve invariant line",
+          "complementary scalar rows have no invariant base divisor",
+          "rank-two kernel has no twist-ten source constituent",
+          "twist-eleven kernel has exactly alternate doublet coefficient",
+          "rank-seven rank-one coherent capacity contradiction",
+          "rank-five rank-one coherent capacity contradiction",
+          "C rank and degree",
+          "V_alt scalar-row kernel degree",
+          "R5 rank and degree",
+          "full beta_C quotient degree",
+          "alternate-doublet scalar-row kernel degree",
+          "R3 rank and degree",
+          "full beta_R5 quotient degree",
+          "successive rank-two actual target twists",
+          "terminal coherent image and kernel degrees",
+          "terminal target defect length",
+          "terminal invariant and two Hom degrees",
+          "all stated ordinary extension H1 groups vanish",
+          "all three actual consecutive jet quotient degrees",
+          "all three actual Euler coherent column degrees",
+          "four coherent mixed-sum saturation lengths",
+          "four coherent mixed-sum full ranks"
+        ]
+      }
+    }
+  ],
+  "scope": "Only the exact six selected files were copied and executed. No network, nonstandard library, actual selected source instance, broad computation or repository write. REVIEWER-LOCAL-* raw replay material is excluded from publication and selected replay."
+}
