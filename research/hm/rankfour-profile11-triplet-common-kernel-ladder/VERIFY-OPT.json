@@ -1,0 +1,12 @@
+{
+  "checks": 51,
+  "not_claimed": [
+    "actual instance or jet evaluation",
+    "exclusion of either rank7 alternative",
+    "identification of different local defects",
+    "geometric proof by computation"
+  ],
+  "proof_sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd",
+  "scope": "two complete immutable input pins; three fixed actual-ladder degree stages and universal characters",
+  "status": "PASS"
+}
