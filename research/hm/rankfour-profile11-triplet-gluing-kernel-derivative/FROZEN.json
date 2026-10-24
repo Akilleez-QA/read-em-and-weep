@@ -1,0 +1,53 @@
+{
+  "schema": "triplet-gluing-kernel-derivative-freeze-v1",
+  "frozen_at_utc": "2026-10-24T13:46:08.708477+00:00",
+  "status": "AUTHOR frozen; new independent entire-proof review required",
+  "scope": "Exact nine-file core, with exactly three complete immutable direct originals. Source responses, author verification, and replay evidence are excluded. No publication-ready manifest is provided.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 18760,
+      "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3181,
+      "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 11226,
+      "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 7309,
+      "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 5766,
+      "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 10110,
+      "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+    },
+    {
+      "path": "inputs/gluing-kernel-incidence.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    }
+  ]
+}

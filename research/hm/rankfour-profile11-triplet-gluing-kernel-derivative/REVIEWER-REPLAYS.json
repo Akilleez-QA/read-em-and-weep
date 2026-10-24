@@ -1,0 +1,1135 @@
+{
+  "all_four_stderr_empty": true,
+  "all_four_stdout_byte_identical": true,
+  "completed_at_utc": "2026-10-24T13:51:36.394018+00:00",
+  "directories": [
+    {
+      "confirmed_new_empty_before_copy": true,
+      "created_at_utc": "2026-10-24T13:51:36.152464+00:00",
+      "directory": "/tmp/g7-derivative-independent-review-1-kghd0o6_",
+      "selected_only_initial_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      }
+    },
+    {
+      "confirmed_new_empty_before_copy": true,
+      "created_at_utc": "2026-10-24T13:51:36.271669+00:00",
+      "directory": "/tmp/g7-derivative-independent-review-2-kgp98gis",
+      "selected_only_initial_inventory": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      }
+    }
+  ],
+  "fresh_directory_count": 2,
+  "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "reviewed_checker_sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e",
+  "reviewed_frozen_sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472",
+  "reviewed_proof_sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a",
+  "reviewer": "/root/advance_triplet_local_defect/review_gluing_derivative_packet",
+  "run_count": 4,
+  "runs": [
+    {
+      "checks_passed": 129,
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "command_display": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python verify.py",
+      "completed_at_utc": "2026-10-24T13:51:36.179600+00:00",
+      "cwd": "/tmp/g7-derivative-independent-review-1-kghd0o6_",
+      "directory_index": 1,
+      "exact_selected_inventory_unchanged": true,
+      "exit_code": 0,
+      "inventory_after": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "inventory_before": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "mode": "normal",
+      "started_at_utc": "2026-10-24T13:51:36.152953+00:00",
+      "stderr": {
+        "bytes": 0,
+        "full_text": "",
+        "path": "evidence/reviewer-dir1-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 5629,
+        "full_text": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e\",\n  \"checks\": [\n    \"freeze schema\",\n    \"exact nine-file core\",\n    \"frozen byte count PROOF.md\",\n    \"frozen SHA256 PROOF.md\",\n    \"frozen byte count README.md\",\n    \"frozen SHA256 README.md\",\n    \"frozen byte count INPUTS.json\",\n    \"frozen SHA256 INPUTS.json\",\n    \"frozen byte count INPUTS.md\",\n    \"frozen SHA256 INPUTS.md\",\n    \"frozen byte count PROVENANCE.md\",\n    \"frozen SHA256 PROVENANCE.md\",\n    \"frozen byte count verify.py\",\n    \"frozen SHA256 verify.py\",\n    \"frozen byte count inputs/gluing-kernel-incidence.md\",\n    \"frozen SHA256 inputs/gluing-kernel-incidence.md\",\n    \"frozen byte count inputs/f18-gluing-surjectivity.md\",\n    \"frozen SHA256 inputs/f18-gluing-surjectivity.md\",\n    \"frozen byte count inputs/first-kernel-forward-closure.md\",\n    \"frozen SHA256 inputs/first-kernel-forward-closure.md\",\n    \"input schema\",\n    \"exactly three complete direct originals\",\n    \"complete UTF-8 round trip PR1244\",\n    \"input identity PR1244\",\n    \"input byte count PR1244\",\n    \"input SHA256 PR1244\",\n    \"input Git blob PR1244\",\n    \"exact source URL PR1244\",\n    \"exact blob URL PR1244\",\n    \"exact path request PR1244\",\n    \"complete path authentication metadata PR1244\",\n    \"ordered path request timestamps PR1244\",\n    \"exact blob request PR1244\",\n    \"complete blob authentication metadata PR1244\",\n    \"ordered blob request timestamps PR1244\",\n    \"full source reading and equality recorded PR1244\",\n    \"assertion provenance recorded PR1244\",\n    \"complete UTF-8 round trip PR1243\",\n    \"input identity PR1243\",\n    \"input byte count PR1243\",\n    \"input SHA256 PR1243\",\n    \"input Git blob PR1243\",\n    \"exact source URL PR1243\",\n    \"exact blob URL PR1243\",\n    \"exact path request PR1243\",\n    \"complete path authentication metadata PR1243\",\n    \"ordered path request timestamps PR1243\",\n    \"exact blob request PR1243\",\n    \"complete blob authentication metadata PR1243\",\n    \"ordered blob request timestamps PR1243\",\n    \"full source reading and equality recorded PR1243\",\n    \"assertion provenance recorded PR1243\",\n    \"complete UTF-8 round trip PR1236\",\n    \"input identity PR1236\",\n    \"input byte count PR1236\",\n    \"input SHA256 PR1236\",\n    \"input Git blob PR1236\",\n    \"exact source URL PR1236\",\n    \"exact blob URL PR1236\",\n    \"exact path request PR1236\",\n    \"complete path authentication metadata PR1236\",\n    \"ordered path request timestamps PR1236\",\n    \"exact blob request PR1236\",\n    \"complete blob authentication metadata PR1236\",\n    \"ordered blob request timestamps PR1236\",\n    \"full source reading and equality recorded PR1236\",\n    \"assertion provenance recorded PR1236\",\n    \"fixed W product dimension 1\",\n    \"fixed W product dimension W\",\n    \"fixed W product dimension A\",\n    \"fixed W product dimension S4\",\n    \"fixed W product dimension D\",\n    \"fixed W product dimension T6\",\n    \"fixed W product dimension V\",\n    \"fixed W product dimension P\",\n    \"fixed W product dimension Wp\",\n    \"complete fixed irreducible dimension budget\",\n    \"H_2 dimension and multiplicities\",\n    \"H_3 dimension and multiplicities\",\n    \"H_4 dimension and multiplicities\",\n    \"H_5 dimension and multiplicities\",\n    \"H_6 dimension and multiplicities\",\n    \"H_7 dimension and multiplicities\",\n    \"H_8 dimension and multiplicities\",\n    \"H_9 dimension and multiplicities\",\n    \"H_10 dimension and multiplicities\",\n    \"exact H_0 through H_10\",\n    \"quadratic evaluation Hom dimension\",\n    \"rank-one degree bounds and parity\",\n    \"rank-one Hom multiplicities\",\n    \"rank-one surviving Euler-line degree\",\n    \"hypothetical decic coefficient-span bound\",\n    \"rank-seven jets cannot fit coefficient-span bound\",\n    \"unbalanced defect-twelve top Hom vanishes\",\n    \"balanced physical W image Hom vanishes\",\n    \"Wp W product is P\",\n    \"actual V top is killed in Wp image type\",\n    \"V W product is T6\",\n    \"M10 dimension\",\n    \"E0 kernel rank and degree\",\n    \"D10 evaluation rank and degree\",\n    \"F10 first-jet evaluation rank and degree\",\n    \"D10 quotient and derivative degrees\",\n    \"E19 quotient rank and degree\",\n    \"G9 kernel rank and degree\",\n    \"G9 G7 quotient rank and degree\",\n    \"Euler kernel rank and degree\",\n    \"derivative target degree\",\n    \"backward equality degree sum\",\n    \"positive defect weights\",\n    \"hypothetical intrinsic jet degree 0\",\n    \"hypothetical intrinsic jet degree 1\",\n    \"hypothetical intrinsic jet degree 2\",\n    \"hypothetical intrinsic jet degree 3\",\n    \"hypothetical intrinsic jet degree 4\",\n    \"hypothetical intrinsic jet degree 5\",\n    \"hypothetical intrinsic jet degree 6\",\n    \"rank-one terminal degree\",\n    \"rank-two H5 kernel rank\",\n    \"rank-two H5 degree formula constant\",\n    \"H5 subbundle degree bound\",\n    \"A5 possible cyclic stabilizer orbit sizes\",\n    \"only length twelve positive divisor at most fourteen\",\n    \"defect-twelve image degree\",\n    \"two displayed defect-twelve degree lists\",\n    \"degree-list alternatives follow bounds\",\n    \"forbidden horizontal block ordinary Hom degree\",\n    \"forbidden horizontal block is negative\",\n    \"G9 annihilator is negative line\"\n  ],\n  \"checks_passed\": 129,\n  \"complete_direct_inputs\": 3,\n  \"frozen_sha256\": \"307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472\",\n  \"maximum_symmetric_degree\": 10,\n  \"proof_sha256\": \"29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a\",\n  \"scope\": \"Exact bytes and fixed small universal character/degree identities; no geometry or actual maps.\",\n  \"selected_core_files\": 9,\n  \"status\": \"PASS\"\n}\n",
+        "path": "evidence/reviewer-dir1-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      "wall_seconds": 0.026659646013285965
+    },
+    {
+      "checks_passed": 129,
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "command_display": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O verify.py",
+      "completed_at_utc": "2026-10-24T13:51:36.269472+00:00",
+      "cwd": "/tmp/g7-derivative-independent-review-1-kghd0o6_",
+      "directory_index": 1,
+      "exact_selected_inventory_unchanged": true,
+      "exit_code": 0,
+      "inventory_after": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "inventory_before": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "mode": "optimized",
+      "started_at_utc": "2026-10-24T13:51:36.180961+00:00",
+      "stderr": {
+        "bytes": 0,
+        "full_text": "",
+        "path": "evidence/reviewer-dir1-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 5629,
+        "full_text": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e\",\n  \"checks\": [\n    \"freeze schema\",\n    \"exact nine-file core\",\n    \"frozen byte count PROOF.md\",\n    \"frozen SHA256 PROOF.md\",\n    \"frozen byte count README.md\",\n    \"frozen SHA256 README.md\",\n    \"frozen byte count INPUTS.json\",\n    \"frozen SHA256 INPUTS.json\",\n    \"frozen byte count INPUTS.md\",\n    \"frozen SHA256 INPUTS.md\",\n    \"frozen byte count PROVENANCE.md\",\n    \"frozen SHA256 PROVENANCE.md\",\n    \"frozen byte count verify.py\",\n    \"frozen SHA256 verify.py\",\n    \"frozen byte count inputs/gluing-kernel-incidence.md\",\n    \"frozen SHA256 inputs/gluing-kernel-incidence.md\",\n    \"frozen byte count inputs/f18-gluing-surjectivity.md\",\n    \"frozen SHA256 inputs/f18-gluing-surjectivity.md\",\n    \"frozen byte count inputs/first-kernel-forward-closure.md\",\n    \"frozen SHA256 inputs/first-kernel-forward-closure.md\",\n    \"input schema\",\n    \"exactly three complete direct originals\",\n    \"complete UTF-8 round trip PR1244\",\n    \"input identity PR1244\",\n    \"input byte count PR1244\",\n    \"input SHA256 PR1244\",\n    \"input Git blob PR1244\",\n    \"exact source URL PR1244\",\n    \"exact blob URL PR1244\",\n    \"exact path request PR1244\",\n    \"complete path authentication metadata PR1244\",\n    \"ordered path request timestamps PR1244\",\n    \"exact blob request PR1244\",\n    \"complete blob authentication metadata PR1244\",\n    \"ordered blob request timestamps PR1244\",\n    \"full source reading and equality recorded PR1244\",\n    \"assertion provenance recorded PR1244\",\n    \"complete UTF-8 round trip PR1243\",\n    \"input identity PR1243\",\n    \"input byte count PR1243\",\n    \"input SHA256 PR1243\",\n    \"input Git blob PR1243\",\n    \"exact source URL PR1243\",\n    \"exact blob URL PR1243\",\n    \"exact path request PR1243\",\n    \"complete path authentication metadata PR1243\",\n    \"ordered path request timestamps PR1243\",\n    \"exact blob request PR1243\",\n    \"complete blob authentication metadata PR1243\",\n    \"ordered blob request timestamps PR1243\",\n    \"full source reading and equality recorded PR1243\",\n    \"assertion provenance recorded PR1243\",\n    \"complete UTF-8 round trip PR1236\",\n    \"input identity PR1236\",\n    \"input byte count PR1236\",\n    \"input SHA256 PR1236\",\n    \"input Git blob PR1236\",\n    \"exact source URL PR1236\",\n    \"exact blob URL PR1236\",\n    \"exact path request PR1236\",\n    \"complete path authentication metadata PR1236\",\n    \"ordered path request timestamps PR1236\",\n    \"exact blob request PR1236\",\n    \"complete blob authentication metadata PR1236\",\n    \"ordered blob request timestamps PR1236\",\n    \"full source reading and equality recorded PR1236\",\n    \"assertion provenance recorded PR1236\",\n    \"fixed W product dimension 1\",\n    \"fixed W product dimension W\",\n    \"fixed W product dimension A\",\n    \"fixed W product dimension S4\",\n    \"fixed W product dimension D\",\n    \"fixed W product dimension T6\",\n    \"fixed W product dimension V\",\n    \"fixed W product dimension P\",\n    \"fixed W product dimension Wp\",\n    \"complete fixed irreducible dimension budget\",\n    \"H_2 dimension and multiplicities\",\n    \"H_3 dimension and multiplicities\",\n    \"H_4 dimension and multiplicities\",\n    \"H_5 dimension and multiplicities\",\n    \"H_6 dimension and multiplicities\",\n    \"H_7 dimension and multiplicities\",\n    \"H_8 dimension and multiplicities\",\n    \"H_9 dimension and multiplicities\",\n    \"H_10 dimension and multiplicities\",\n    \"exact H_0 through H_10\",\n    \"quadratic evaluation Hom dimension\",\n    \"rank-one degree bounds and parity\",\n    \"rank-one Hom multiplicities\",\n    \"rank-one surviving Euler-line degree\",\n    \"hypothetical decic coefficient-span bound\",\n    \"rank-seven jets cannot fit coefficient-span bound\",\n    \"unbalanced defect-twelve top Hom vanishes\",\n    \"balanced physical W image Hom vanishes\",\n    \"Wp W product is P\",\n    \"actual V top is killed in Wp image type\",\n    \"V W product is T6\",\n    \"M10 dimension\",\n    \"E0 kernel rank and degree\",\n    \"D10 evaluation rank and degree\",\n    \"F10 first-jet evaluation rank and degree\",\n    \"D10 quotient and derivative degrees\",\n    \"E19 quotient rank and degree\",\n    \"G9 kernel rank and degree\",\n    \"G9 G7 quotient rank and degree\",\n    \"Euler kernel rank and degree\",\n    \"derivative target degree\",\n    \"backward equality degree sum\",\n    \"positive defect weights\",\n    \"hypothetical intrinsic jet degree 0\",\n    \"hypothetical intrinsic jet degree 1\",\n    \"hypothetical intrinsic jet degree 2\",\n    \"hypothetical intrinsic jet degree 3\",\n    \"hypothetical intrinsic jet degree 4\",\n    \"hypothetical intrinsic jet degree 5\",\n    \"hypothetical intrinsic jet degree 6\",\n    \"rank-one terminal degree\",\n    \"rank-two H5 kernel rank\",\n    \"rank-two H5 degree formula constant\",\n    \"H5 subbundle degree bound\",\n    \"A5 possible cyclic stabilizer orbit sizes\",\n    \"only length twelve positive divisor at most fourteen\",\n    \"defect-twelve image degree\",\n    \"two displayed defect-twelve degree lists\",\n    \"degree-list alternatives follow bounds\",\n    \"forbidden horizontal block ordinary Hom degree\",\n    \"forbidden horizontal block is negative\",\n    \"G9 annihilator is negative line\"\n  ],\n  \"checks_passed\": 129,\n  \"complete_direct_inputs\": 3,\n  \"frozen_sha256\": \"307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472\",\n  \"maximum_symmetric_degree\": 10,\n  \"proof_sha256\": \"29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a\",\n  \"scope\": \"Exact bytes and fixed small universal character/degree identities; no geometry or actual maps.\",\n  \"selected_core_files\": 9,\n  \"status\": \"PASS\"\n}\n",
+        "path": "evidence/reviewer-dir1-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      "wall_seconds": 0.08852856501471251
+    },
+    {
+      "checks_passed": 129,
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "command_display": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python verify.py",
+      "completed_at_utc": "2026-10-24T13:51:36.297071+00:00",
+      "cwd": "/tmp/g7-derivative-independent-review-2-kgp98gis",
+      "directory_index": 2,
+      "exact_selected_inventory_unchanged": true,
+      "exit_code": 0,
+      "inventory_after": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "inventory_before": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "mode": "normal",
+      "started_at_utc": "2026-10-24T13:51:36.272209+00:00",
+      "stderr": {
+        "bytes": 0,
+        "full_text": "",
+        "path": "evidence/reviewer-dir2-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 5629,
+        "full_text": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e\",\n  \"checks\": [\n    \"freeze schema\",\n    \"exact nine-file core\",\n    \"frozen byte count PROOF.md\",\n    \"frozen SHA256 PROOF.md\",\n    \"frozen byte count README.md\",\n    \"frozen SHA256 README.md\",\n    \"frozen byte count INPUTS.json\",\n    \"frozen SHA256 INPUTS.json\",\n    \"frozen byte count INPUTS.md\",\n    \"frozen SHA256 INPUTS.md\",\n    \"frozen byte count PROVENANCE.md\",\n    \"frozen SHA256 PROVENANCE.md\",\n    \"frozen byte count verify.py\",\n    \"frozen SHA256 verify.py\",\n    \"frozen byte count inputs/gluing-kernel-incidence.md\",\n    \"frozen SHA256 inputs/gluing-kernel-incidence.md\",\n    \"frozen byte count inputs/f18-gluing-surjectivity.md\",\n    \"frozen SHA256 inputs/f18-gluing-surjectivity.md\",\n    \"frozen byte count inputs/first-kernel-forward-closure.md\",\n    \"frozen SHA256 inputs/first-kernel-forward-closure.md\",\n    \"input schema\",\n    \"exactly three complete direct originals\",\n    \"complete UTF-8 round trip PR1244\",\n    \"input identity PR1244\",\n    \"input byte count PR1244\",\n    \"input SHA256 PR1244\",\n    \"input Git blob PR1244\",\n    \"exact source URL PR1244\",\n    \"exact blob URL PR1244\",\n    \"exact path request PR1244\",\n    \"complete path authentication metadata PR1244\",\n    \"ordered path request timestamps PR1244\",\n    \"exact blob request PR1244\",\n    \"complete blob authentication metadata PR1244\",\n    \"ordered blob request timestamps PR1244\",\n    \"full source reading and equality recorded PR1244\",\n    \"assertion provenance recorded PR1244\",\n    \"complete UTF-8 round trip PR1243\",\n    \"input identity PR1243\",\n    \"input byte count PR1243\",\n    \"input SHA256 PR1243\",\n    \"input Git blob PR1243\",\n    \"exact source URL PR1243\",\n    \"exact blob URL PR1243\",\n    \"exact path request PR1243\",\n    \"complete path authentication metadata PR1243\",\n    \"ordered path request timestamps PR1243\",\n    \"exact blob request PR1243\",\n    \"complete blob authentication metadata PR1243\",\n    \"ordered blob request timestamps PR1243\",\n    \"full source reading and equality recorded PR1243\",\n    \"assertion provenance recorded PR1243\",\n    \"complete UTF-8 round trip PR1236\",\n    \"input identity PR1236\",\n    \"input byte count PR1236\",\n    \"input SHA256 PR1236\",\n    \"input Git blob PR1236\",\n    \"exact source URL PR1236\",\n    \"exact blob URL PR1236\",\n    \"exact path request PR1236\",\n    \"complete path authentication metadata PR1236\",\n    \"ordered path request timestamps PR1236\",\n    \"exact blob request PR1236\",\n    \"complete blob authentication metadata PR1236\",\n    \"ordered blob request timestamps PR1236\",\n    \"full source reading and equality recorded PR1236\",\n    \"assertion provenance recorded PR1236\",\n    \"fixed W product dimension 1\",\n    \"fixed W product dimension W\",\n    \"fixed W product dimension A\",\n    \"fixed W product dimension S4\",\n    \"fixed W product dimension D\",\n    \"fixed W product dimension T6\",\n    \"fixed W product dimension V\",\n    \"fixed W product dimension P\",\n    \"fixed W product dimension Wp\",\n    \"complete fixed irreducible dimension budget\",\n    \"H_2 dimension and multiplicities\",\n    \"H_3 dimension and multiplicities\",\n    \"H_4 dimension and multiplicities\",\n    \"H_5 dimension and multiplicities\",\n    \"H_6 dimension and multiplicities\",\n    \"H_7 dimension and multiplicities\",\n    \"H_8 dimension and multiplicities\",\n    \"H_9 dimension and multiplicities\",\n    \"H_10 dimension and multiplicities\",\n    \"exact H_0 through H_10\",\n    \"quadratic evaluation Hom dimension\",\n    \"rank-one degree bounds and parity\",\n    \"rank-one Hom multiplicities\",\n    \"rank-one surviving Euler-line degree\",\n    \"hypothetical decic coefficient-span bound\",\n    \"rank-seven jets cannot fit coefficient-span bound\",\n    \"unbalanced defect-twelve top Hom vanishes\",\n    \"balanced physical W image Hom vanishes\",\n    \"Wp W product is P\",\n    \"actual V top is killed in Wp image type\",\n    \"V W product is T6\",\n    \"M10 dimension\",\n    \"E0 kernel rank and degree\",\n    \"D10 evaluation rank and degree\",\n    \"F10 first-jet evaluation rank and degree\",\n    \"D10 quotient and derivative degrees\",\n    \"E19 quotient rank and degree\",\n    \"G9 kernel rank and degree\",\n    \"G9 G7 quotient rank and degree\",\n    \"Euler kernel rank and degree\",\n    \"derivative target degree\",\n    \"backward equality degree sum\",\n    \"positive defect weights\",\n    \"hypothetical intrinsic jet degree 0\",\n    \"hypothetical intrinsic jet degree 1\",\n    \"hypothetical intrinsic jet degree 2\",\n    \"hypothetical intrinsic jet degree 3\",\n    \"hypothetical intrinsic jet degree 4\",\n    \"hypothetical intrinsic jet degree 5\",\n    \"hypothetical intrinsic jet degree 6\",\n    \"rank-one terminal degree\",\n    \"rank-two H5 kernel rank\",\n    \"rank-two H5 degree formula constant\",\n    \"H5 subbundle degree bound\",\n    \"A5 possible cyclic stabilizer orbit sizes\",\n    \"only length twelve positive divisor at most fourteen\",\n    \"defect-twelve image degree\",\n    \"two displayed defect-twelve degree lists\",\n    \"degree-list alternatives follow bounds\",\n    \"forbidden horizontal block ordinary Hom degree\",\n    \"forbidden horizontal block is negative\",\n    \"G9 annihilator is negative line\"\n  ],\n  \"checks_passed\": 129,\n  \"complete_direct_inputs\": 3,\n  \"frozen_sha256\": \"307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472\",\n  \"maximum_symmetric_degree\": 10,\n  \"proof_sha256\": \"29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a\",\n  \"scope\": \"Exact bytes and fixed small universal character/degree identities; no geometry or actual maps.\",\n  \"selected_core_files\": 9,\n  \"status\": \"PASS\"\n}\n",
+        "path": "evidence/reviewer-dir2-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      "wall_seconds": 0.024875200993847102
+    },
+    {
+      "checks_passed": 129,
+      "command_argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "command_display": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python -O verify.py",
+      "completed_at_utc": "2026-10-24T13:51:36.389956+00:00",
+      "cwd": "/tmp/g7-derivative-independent-review-2-kgp98gis",
+      "directory_index": 2,
+      "exact_selected_inventory_unchanged": true,
+      "exit_code": 0,
+      "inventory_after": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "inventory_before": {
+        "directories": [
+          "inputs"
+        ],
+        "files": [
+          {
+            "bytes": 1800,
+            "path": "FROZEN.json",
+            "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+          },
+          {
+            "bytes": 11226,
+            "path": "INPUTS.json",
+            "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+          },
+          {
+            "bytes": 7309,
+            "path": "INPUTS.md",
+            "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+          },
+          {
+            "bytes": 18760,
+            "path": "PROOF.md",
+            "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+          },
+          {
+            "bytes": 5766,
+            "path": "PROVENANCE.md",
+            "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+          },
+          {
+            "bytes": 3181,
+            "path": "README.md",
+            "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+          },
+          {
+            "bytes": 12798,
+            "path": "inputs/f18-gluing-surjectivity.md",
+            "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+          },
+          {
+            "bytes": 18052,
+            "path": "inputs/first-kernel-forward-closure.md",
+            "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+          },
+          {
+            "bytes": 21478,
+            "path": "inputs/gluing-kernel-incidence.md",
+            "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+          },
+          {
+            "bytes": 10110,
+            "path": "verify.py",
+            "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+          }
+        ],
+        "symlinks": []
+      },
+      "mode": "optimized",
+      "started_at_utc": "2026-10-24T13:51:36.298513+00:00",
+      "stderr": {
+        "bytes": 0,
+        "full_text": "",
+        "path": "evidence/reviewer-dir2-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "stdout": {
+        "bytes": 5629,
+        "full_text": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e\",\n  \"checks\": [\n    \"freeze schema\",\n    \"exact nine-file core\",\n    \"frozen byte count PROOF.md\",\n    \"frozen SHA256 PROOF.md\",\n    \"frozen byte count README.md\",\n    \"frozen SHA256 README.md\",\n    \"frozen byte count INPUTS.json\",\n    \"frozen SHA256 INPUTS.json\",\n    \"frozen byte count INPUTS.md\",\n    \"frozen SHA256 INPUTS.md\",\n    \"frozen byte count PROVENANCE.md\",\n    \"frozen SHA256 PROVENANCE.md\",\n    \"frozen byte count verify.py\",\n    \"frozen SHA256 verify.py\",\n    \"frozen byte count inputs/gluing-kernel-incidence.md\",\n    \"frozen SHA256 inputs/gluing-kernel-incidence.md\",\n    \"frozen byte count inputs/f18-gluing-surjectivity.md\",\n    \"frozen SHA256 inputs/f18-gluing-surjectivity.md\",\n    \"frozen byte count inputs/first-kernel-forward-closure.md\",\n    \"frozen SHA256 inputs/first-kernel-forward-closure.md\",\n    \"input schema\",\n    \"exactly three complete direct originals\",\n    \"complete UTF-8 round trip PR1244\",\n    \"input identity PR1244\",\n    \"input byte count PR1244\",\n    \"input SHA256 PR1244\",\n    \"input Git blob PR1244\",\n    \"exact source URL PR1244\",\n    \"exact blob URL PR1244\",\n    \"exact path request PR1244\",\n    \"complete path authentication metadata PR1244\",\n    \"ordered path request timestamps PR1244\",\n    \"exact blob request PR1244\",\n    \"complete blob authentication metadata PR1244\",\n    \"ordered blob request timestamps PR1244\",\n    \"full source reading and equality recorded PR1244\",\n    \"assertion provenance recorded PR1244\",\n    \"complete UTF-8 round trip PR1243\",\n    \"input identity PR1243\",\n    \"input byte count PR1243\",\n    \"input SHA256 PR1243\",\n    \"input Git blob PR1243\",\n    \"exact source URL PR1243\",\n    \"exact blob URL PR1243\",\n    \"exact path request PR1243\",\n    \"complete path authentication metadata PR1243\",\n    \"ordered path request timestamps PR1243\",\n    \"exact blob request PR1243\",\n    \"complete blob authentication metadata PR1243\",\n    \"ordered blob request timestamps PR1243\",\n    \"full source reading and equality recorded PR1243\",\n    \"assertion provenance recorded PR1243\",\n    \"complete UTF-8 round trip PR1236\",\n    \"input identity PR1236\",\n    \"input byte count PR1236\",\n    \"input SHA256 PR1236\",\n    \"input Git blob PR1236\",\n    \"exact source URL PR1236\",\n    \"exact blob URL PR1236\",\n    \"exact path request PR1236\",\n    \"complete path authentication metadata PR1236\",\n    \"ordered path request timestamps PR1236\",\n    \"exact blob request PR1236\",\n    \"complete blob authentication metadata PR1236\",\n    \"ordered blob request timestamps PR1236\",\n    \"full source reading and equality recorded PR1236\",\n    \"assertion provenance recorded PR1236\",\n    \"fixed W product dimension 1\",\n    \"fixed W product dimension W\",\n    \"fixed W product dimension A\",\n    \"fixed W product dimension S4\",\n    \"fixed W product dimension D\",\n    \"fixed W product dimension T6\",\n    \"fixed W product dimension V\",\n    \"fixed W product dimension P\",\n    \"fixed W product dimension Wp\",\n    \"complete fixed irreducible dimension budget\",\n    \"H_2 dimension and multiplicities\",\n    \"H_3 dimension and multiplicities\",\n    \"H_4 dimension and multiplicities\",\n    \"H_5 dimension and multiplicities\",\n    \"H_6 dimension and multiplicities\",\n    \"H_7 dimension and multiplicities\",\n    \"H_8 dimension and multiplicities\",\n    \"H_9 dimension and multiplicities\",\n    \"H_10 dimension and multiplicities\",\n    \"exact H_0 through H_10\",\n    \"quadratic evaluation Hom dimension\",\n    \"rank-one degree bounds and parity\",\n    \"rank-one Hom multiplicities\",\n    \"rank-one surviving Euler-line degree\",\n    \"hypothetical decic coefficient-span bound\",\n    \"rank-seven jets cannot fit coefficient-span bound\",\n    \"unbalanced defect-twelve top Hom vanishes\",\n    \"balanced physical W image Hom vanishes\",\n    \"Wp W product is P\",\n    \"actual V top is killed in Wp image type\",\n    \"V W product is T6\",\n    \"M10 dimension\",\n    \"E0 kernel rank and degree\",\n    \"D10 evaluation rank and degree\",\n    \"F10 first-jet evaluation rank and degree\",\n    \"D10 quotient and derivative degrees\",\n    \"E19 quotient rank and degree\",\n    \"G9 kernel rank and degree\",\n    \"G9 G7 quotient rank and degree\",\n    \"Euler kernel rank and degree\",\n    \"derivative target degree\",\n    \"backward equality degree sum\",\n    \"positive defect weights\",\n    \"hypothetical intrinsic jet degree 0\",\n    \"hypothetical intrinsic jet degree 1\",\n    \"hypothetical intrinsic jet degree 2\",\n    \"hypothetical intrinsic jet degree 3\",\n    \"hypothetical intrinsic jet degree 4\",\n    \"hypothetical intrinsic jet degree 5\",\n    \"hypothetical intrinsic jet degree 6\",\n    \"rank-one terminal degree\",\n    \"rank-two H5 kernel rank\",\n    \"rank-two H5 degree formula constant\",\n    \"H5 subbundle degree bound\",\n    \"A5 possible cyclic stabilizer orbit sizes\",\n    \"only length twelve positive divisor at most fourteen\",\n    \"defect-twelve image degree\",\n    \"two displayed defect-twelve degree lists\",\n    \"degree-list alternatives follow bounds\",\n    \"forbidden horizontal block ordinary Hom degree\",\n    \"forbidden horizontal block is negative\",\n    \"G9 annihilator is negative line\"\n  ],\n  \"checks_passed\": 129,\n  \"complete_direct_inputs\": 3,\n  \"frozen_sha256\": \"307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472\",\n  \"maximum_symmetric_degree\": 10,\n  \"proof_sha256\": \"29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a\",\n  \"scope\": \"Exact bytes and fixed small universal character/degree identities; no geometry or actual maps.\",\n  \"selected_core_files\": 9,\n  \"status\": \"PASS\"\n}\n",
+        "path": "evidence/reviewer-dir2-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      "wall_seconds": 0.09145987097872421
+    }
+  ],
+  "runs_per_directory": [
+    "normal",
+    "optimized"
+  ],
+  "schema": "independent-entire-proof-review-replays-v1",
+  "scope": "Exact frozen nine-file core plus freeze only, without author or reviewer evidence in either replay directory. Fixed arithmetic checker is not a geometry proof.",
+  "selection": [
+    "PROOF.md",
+    "README.md",
+    "INPUTS.json",
+    "INPUTS.md",
+    "PROVENANCE.md",
+    "verify.py",
+    "inputs/gluing-kernel-incidence.md",
+    "inputs/f18-gluing-surjectivity.md",
+    "inputs/first-kernel-forward-closure.md",
+    "FROZEN.json"
+  ],
+  "source_core_and_freeze_after": [
+    {
+      "bytes": 18760,
+      "path": "PROOF.md",
+      "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+    },
+    {
+      "bytes": 3181,
+      "path": "README.md",
+      "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+    },
+    {
+      "bytes": 11226,
+      "path": "INPUTS.json",
+      "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+    },
+    {
+      "bytes": 7309,
+      "path": "INPUTS.md",
+      "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+    },
+    {
+      "bytes": 5766,
+      "path": "PROVENANCE.md",
+      "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+    },
+    {
+      "bytes": 10110,
+      "path": "verify.py",
+      "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+    },
+    {
+      "bytes": 21478,
+      "path": "inputs/gluing-kernel-incidence.md",
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "bytes": 12798,
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "bytes": 18052,
+      "path": "inputs/first-kernel-forward-closure.md",
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "bytes": 1800,
+      "path": "FROZEN.json",
+      "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+    }
+  ],
+  "source_core_and_freeze_before": [
+    {
+      "bytes": 18760,
+      "path": "PROOF.md",
+      "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+    },
+    {
+      "bytes": 3181,
+      "path": "README.md",
+      "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+    },
+    {
+      "bytes": 11226,
+      "path": "INPUTS.json",
+      "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+    },
+    {
+      "bytes": 7309,
+      "path": "INPUTS.md",
+      "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+    },
+    {
+      "bytes": 5766,
+      "path": "PROVENANCE.md",
+      "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+    },
+    {
+      "bytes": 10110,
+      "path": "verify.py",
+      "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+    },
+    {
+      "bytes": 21478,
+      "path": "inputs/gluing-kernel-incidence.md",
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "bytes": 12798,
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "bytes": 18052,
+      "path": "inputs/first-kernel-forward-closure.md",
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "bytes": 1800,
+      "path": "FROZEN.json",
+      "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+    }
+  ],
+  "source_core_and_freeze_unchanged": true,
+  "source_entire_tree_after": {
+    "directories": [
+      "evidence",
+      "inputs"
+    ],
+    "files": [
+      {
+        "bytes": 8099,
+        "path": "AUTHOR-VERIFICATION.md",
+        "sha256": "fa8c41dbd07dc1148d2d6e1e4f943e095040b8b8ee3d9e37ba4ca3ed2037c10f"
+      },
+      {
+        "bytes": 1800,
+        "path": "FROZEN.json",
+        "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+      },
+      {
+        "bytes": 11226,
+        "path": "INPUTS.json",
+        "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+      },
+      {
+        "bytes": 7309,
+        "path": "INPUTS.md",
+        "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+      },
+      {
+        "bytes": 18760,
+        "path": "PROOF.md",
+        "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+      },
+      {
+        "bytes": 5766,
+        "path": "PROVENANCE.md",
+        "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+      },
+      {
+        "bytes": 3181,
+        "path": "README.md",
+        "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+      },
+      {
+        "bytes": 46612,
+        "path": "evidence/AUTHOR-REPLAYS.json",
+        "sha256": "6a80ec671cf41656a3e38aa5031b98dc55c1c718cc175b1b640dc565fb1f5d30"
+      },
+      {
+        "bytes": 1119,
+        "path": "evidence/PREPARATORY-READING.json",
+        "sha256": "a27f0114da7061e949c3a23310331db3a33db656efb60b5853118ca07f257ec5"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir1-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir1-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir1-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir1-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir2-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir2-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir2-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir2-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 18792,
+        "path": "evidence/pr1236-blob-response.json",
+        "sha256": "01f152041ab3070a1e1f6aa213f6140e41619b92a2e117c5cc283101c3ff4477"
+      },
+      {
+        "bytes": 19218,
+        "path": "evidence/pr1236-path-response.json",
+        "sha256": "dbd63a1a685e917f4663381811e567059af6670ced35744e6b769dc4e939d798"
+      },
+      {
+        "bytes": 13562,
+        "path": "evidence/pr1243-blob-response.json",
+        "sha256": "06dfcd137f12a9624a8f96a227dff33db4dbaa7f7ce286e5dac2e71e58024742"
+      },
+      {
+        "bytes": 13978,
+        "path": "evidence/pr1243-path-response.json",
+        "sha256": "e49fd1ea5d1a065a4adcfc70ff1752ffd519de40ce091f7b26d94c999518e838"
+      },
+      {
+        "bytes": 22401,
+        "path": "evidence/pr1244-blob-response.json",
+        "sha256": "84aa96afd6ef486dfef2e4ac4eecf3d9a4bf8ecee98c95abdf2241d0b2b4f1f0"
+      },
+      {
+        "bytes": 22817,
+        "path": "evidence/pr1244-path-response.json",
+        "sha256": "bb8dcfc119e9148410d25a4ada491ff382c7282303663b9b95944a6e67a336ed"
+      },
+      {
+        "bytes": 12798,
+        "path": "inputs/f18-gluing-surjectivity.md",
+        "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+      },
+      {
+        "bytes": 18052,
+        "path": "inputs/first-kernel-forward-closure.md",
+        "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+      },
+      {
+        "bytes": 21478,
+        "path": "inputs/gluing-kernel-incidence.md",
+        "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+      },
+      {
+        "bytes": 10110,
+        "path": "verify.py",
+        "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+      }
+    ],
+    "symlinks": []
+  },
+  "source_entire_tree_before": {
+    "directories": [
+      "evidence",
+      "inputs"
+    ],
+    "files": [
+      {
+        "bytes": 8099,
+        "path": "AUTHOR-VERIFICATION.md",
+        "sha256": "fa8c41dbd07dc1148d2d6e1e4f943e095040b8b8ee3d9e37ba4ca3ed2037c10f"
+      },
+      {
+        "bytes": 1800,
+        "path": "FROZEN.json",
+        "sha256": "307d17c50ee5b1b838f1ca2a5e71f00ee99be66247439b0080c210e0cbb83472"
+      },
+      {
+        "bytes": 11226,
+        "path": "INPUTS.json",
+        "sha256": "4443e7c5a8aea9b5c96e051baed96b457da1dbda71f3b5dafc07802fc037c25b"
+      },
+      {
+        "bytes": 7309,
+        "path": "INPUTS.md",
+        "sha256": "5f9f87b0e4ad7e07a9e458bafe86900c2b03f302c84345a99a18056a822c69fd"
+      },
+      {
+        "bytes": 18760,
+        "path": "PROOF.md",
+        "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+      },
+      {
+        "bytes": 5766,
+        "path": "PROVENANCE.md",
+        "sha256": "795ebd1c26f82233de274729811cd842fede01750bda23d137aa7c88b29b3615"
+      },
+      {
+        "bytes": 3181,
+        "path": "README.md",
+        "sha256": "aa6c23059008fb9b2e40a0b4c1394a2f7cf08bcfc374c06d8e4b91fcbf623850"
+      },
+      {
+        "bytes": 46612,
+        "path": "evidence/AUTHOR-REPLAYS.json",
+        "sha256": "6a80ec671cf41656a3e38aa5031b98dc55c1c718cc175b1b640dc565fb1f5d30"
+      },
+      {
+        "bytes": 1119,
+        "path": "evidence/PREPARATORY-READING.json",
+        "sha256": "a27f0114da7061e949c3a23310331db3a33db656efb60b5853118ca07f257ec5"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir1-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir1-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir1-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir1-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir2-normal.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir2-normal.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 0,
+        "path": "evidence/author-dir2-optimized.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "bytes": 5629,
+        "path": "evidence/author-dir2-optimized.stdout.txt",
+        "sha256": "4e938490bbf8aba64857747cdd85bb281c9fd6f6b5c3f8da7898f0746b953737"
+      },
+      {
+        "bytes": 18792,
+        "path": "evidence/pr1236-blob-response.json",
+        "sha256": "01f152041ab3070a1e1f6aa213f6140e41619b92a2e117c5cc283101c3ff4477"
+      },
+      {
+        "bytes": 19218,
+        "path": "evidence/pr1236-path-response.json",
+        "sha256": "dbd63a1a685e917f4663381811e567059af6670ced35744e6b769dc4e939d798"
+      },
+      {
+        "bytes": 13562,
+        "path": "evidence/pr1243-blob-response.json",
+        "sha256": "06dfcd137f12a9624a8f96a227dff33db4dbaa7f7ce286e5dac2e71e58024742"
+      },
+      {
+        "bytes": 13978,
+        "path": "evidence/pr1243-path-response.json",
+        "sha256": "e49fd1ea5d1a065a4adcfc70ff1752ffd519de40ce091f7b26d94c999518e838"
+      },
+      {
+        "bytes": 22401,
+        "path": "evidence/pr1244-blob-response.json",
+        "sha256": "84aa96afd6ef486dfef2e4ac4eecf3d9a4bf8ecee98c95abdf2241d0b2b4f1f0"
+      },
+      {
+        "bytes": 22817,
+        "path": "evidence/pr1244-path-response.json",
+        "sha256": "bb8dcfc119e9148410d25a4ada491ff382c7282303663b9b95944a6e67a336ed"
+      },
+      {
+        "bytes": 12798,
+        "path": "inputs/f18-gluing-surjectivity.md",
+        "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+      },
+      {
+        "bytes": 18052,
+        "path": "inputs/first-kernel-forward-closure.md",
+        "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+      },
+      {
+        "bytes": 21478,
+        "path": "inputs/gluing-kernel-incidence.md",
+        "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+      },
+      {
+        "bytes": 10110,
+        "path": "verify.py",
+        "sha256": "959c0a8ac72702653f9a76ac7471ec7b91026a79eb2b6e03aca88aaa0203c14e"
+      }
+    ],
+    "symlinks": []
+  },
+  "source_entire_tree_unchanged": true,
+  "started_at_utc": "2026-10-24T13:51:36.146444+00:00",
+  "status": "PASS"
+}
