@@ -1,0 +1,22 @@
+[
+  {
+    "file": "inputs/top-four.md",
+    "ref": "e4de44641a53b0b3424102cd5fbaf3cf5821996d",
+    "path": "research/hm/rankfour-profile11-top-four/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e4de44641a53b0b3424102cd5fbaf3cf5821996d/research/hm/rankfour-profile11-top-four/PROOF.md",
+    "bytes": 22067,
+    "sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+    "git_blob_sha1": "51d43f891d940ff1dd250747ac450db28057ac54",
+    "independent_copy": "inputs/independently-fetched-top-four.md"
+  },
+  {
+    "file": "inputs/low-top.md",
+    "ref": "236e0a3723c3d73ea7fb9e549376540a8e70508b",
+    "path": "research/hm/rankfour-profile11-low-top/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/236e0a3723c3d73ea7fb9e549376540a8e70508b/research/hm/rankfour-profile11-low-top/PROOF.md",
+    "bytes": 11259,
+    "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+    "git_blob_sha1": "6565110a12173fb6ff27838d294489ec1ad53941",
+    "independent_copy": "inputs/independently-fetched-low-top.md"
+  }
+]
