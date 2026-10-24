@@ -1,6 +1,6 @@
-# Living research paper · v0.69
+# Living research paper · v0.70
 
-**Craig Ward · 23 October 2026 · Current checkpoint: rank-four forward-length-three row excluded**
+**Craig Ward · 24 October 2026 UTC · Current checkpoint: ordered rank-four (3,2) excluded**
 
 [The primary terminal incompatibility](131-primary-terminal-conditional-exclusion.md) excludes the **complete actual source2 nonzero pure-V Q-compatible radical package**. The 16→8 actual primary evaluation pencil cannot map nontrivially to the genuine first-block terminal pencil with kernel 2O(-8); the remaining terminal space has dimension 6 and cannot contain its injected dimension 8 target. Neither R=0 nor a choice between large mechanisms is required.
 
@@ -8,11 +8,17 @@ Both source2 mechanisms and their fourth/fifth alternatives below are now **hist
 
 The old four-pair ledger is preserved for provenance pending separate actual-source coverage reconciliation. It is not a claim that all four entries remain compatible or that any is realized. The delivered v0.3 PDF remains the historical 19:16 UTC snapshot through PR1117; the linked new chapter is the dated live addendum.
 
-## Forward-length-three row excluded: 26 necessary bad bins become 24
+## Ordered reverse-adjacent stratum excluded: 24 necessary bad bins become 23
+
+[The rank-four (3,2) theorem](148-rankfour-reverse-adjacent-exclusion.md) eliminates the quotient exactly in equivariant K-theory, then derives a complete 401-pair abstract endpoint domain. Fourteen pairs satisfy the initial Euler necessities; every one fails a genuine cohomology-character requirement. The rank17 E and rank13 Q* remain distinct, and no Z-source assumption or direction swap is used.
+
+Five rank-four bins remain in the necessary list: (1,1), (1,2), (2,1), (2,2), (3,1). The other bad-rank groups remain 6,4,2,2,1,1,1,1. Counts describe necessary containers, not realizations, equal-work units or a completion percentage. Generic SF≥4 and square rank≥28 remain the bounds; SF≥5 and the original repair are not proved. Earlier chapters and the PDF are preserved.
+
+## Historical forward-length-three row closure: 26 necessary bad bins became 24
 
 [Two further rank-four exclusions](147-rankfour-adjacent-euler-exclusion.md) remove (r,k,l)=(4,2,3) and (4,1,3). Together with the earlier (4,3,3) theorem they close the complete l=3 row. Every remaining actual plateau with generic rank at least four must therefore have forward length l≤2; no corresponding backward bound is asserted.
 
-The rank-four group now has six necessary bins not excluded by these theorems, down from nine initially; the other bad-rank groups remain 6,4,2,2,1,1,1,1. These are necessary containers, not realizations or a completion percentage. Generic SF≥4 remains the bound, not SF≥5; positive-square surjectivity and the original repair remain open. The preceding first-cut checkpoint and PDF are preserved.
+At that checkpoint the rank-four group had six necessary bins not excluded by those theorems, down from nine initially; the other bad-rank groups remain 6,4,2,2,1,1,1,1. These are necessary containers, not realizations or a completion percentage. Generic SF≥4 remains the bound, not SF≥5; positive-square surjectivity and the original repair remain open. The preceding first-cut checkpoint and PDF are preserved.
 
 ## Historical first rank-four cut: 27 necessary bad bins became 26
 
