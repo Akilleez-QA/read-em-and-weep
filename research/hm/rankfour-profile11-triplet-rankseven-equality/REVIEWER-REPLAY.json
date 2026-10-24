@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "reviewer": "independent whole-proof reviewer",
+  "replayed_at_utc": "2026-10-24T06:56:26Z",
+  "proof_sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae",
+  "proof_bytes": 15139,
+  "isolated_directory": "/tmp/rankseven-equality-independent-rebound-2bavhqsw",
+  "initially_empty": true,
+  "exact_selected_file_count": 8,
+  "selected_files": {
+    "PROOF.md": {
+      "bytes": 15139,
+      "sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae"
+    },
+    "INPUTS.json": {
+      "bytes": 1554,
+      "sha256": "27a53ebc958d8982a5b70993b321c3ab9323ac80365bdd2627c2f73cda82cf80"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1829,
+      "sha256": "a97776f217d785086bbd808d5cce582500b701d892c37c28abd42ba2ec3aec92"
+    },
+    "verify.py": {
+      "bytes": 5773,
+      "sha256": "69a5c91fcd21a5e68284644818328ed730d9f3bca51bf4ded7608032a6e2deac"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/common-kernel-ladder.md": {
+      "bytes": 13135,
+      "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd"
+    },
+    "inputs/nine-jets.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "inputs/deep-images.md": {
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26"
+    }
+  },
+  "environment_notes": "Standard Python 3; PYTHONPATH removed, PYTHONDONTWRITEBYTECODE=1 prevents unselected cache files. No external inputs, network, instances, or author outputs used.",
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "checks": 67,
+        "not_claimed": [
+          "actual instance evaluation",
+          "exclusion of simultaneous rank7 image or delta12",
+          "original higher jets beyond order9",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae",
+        "scope": "three complete pins; fixed physical characters; displayed coherent-flag and corrected forward-climb degrees",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged": true,
+      "only_selected_eight_files_after": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": {
+        "checks": 67,
+        "not_claimed": [
+          "actual instance evaluation",
+          "exclusion of simultaneous rank7 image or delta12",
+          "original higher jets beyond order9",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae",
+        "scope": "three complete pins; fixed physical characters; displayed coherent-flag and corrected forward-climb degrees",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged": true,
+      "only_selected_eight_files_after": true
+    }
+  ],
+  "both_outputs_equal": true,
+  "original_selected_bytes_unchanged": true,
+  "character_module_fixed_require_checks": 81,
+  "main_fixed_require_checks": 67,
+  "geometric_validity_established_by_separate_whole_proof_review": true,
+  "notation_rebinding": "Exact two-sentence j-indexing clarification independently diffed and entire amended proof reread; verify.py changed only its hash and length pins; REPRODUCE.md changed only its hash pin."
+}
