@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T03:39:25Z",
+  "proof_sha256": "f7952c7e28fe1cb4c31dffb3b4017e891b09b1bfd94012d583760840c7d043c3",
+  "inputs_manifest_sha256": "3754f7a61685c6287f50cf707511675268a7c913602e1dea40c681d84e425f96",
+  "method": "Independent fresh GitHub fetch_file at the exact immutable PR1202 commit; complete original UTF-8 bytes compared byte-for-byte with the retained source. Byte length, SHA256, canonical URL, and returned plus independently recomputed Git blob SHA1 checked.",
+  "sources": [
+    {
+      "file": "inputs/constant-exclusions.md",
+      "ref": "62ec109e8960848ae9081a17141b30228b598a70",
+      "path": "research/hm/rankfour-profile11-apolar-constant-exclusions/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/62ec109e8960848ae9081a17141b30228b598a70/research/hm/rankfour-profile11-apolar-constant-exclusions/PROOF.md",
+      "bytes": 15110,
+      "sha256": "e5d2c74f516bb5b2ede85287fceb3a774c6870b68b7b2418398e30fd5093d9b2",
+      "git_blob_sha1": "de0eacee65c0c738e87ed8ce47ad9582a8e76313",
+      "fresh_github_fetch": true,
+      "fresh_bytes_equal_retained_file": true,
+      "fetched_sha256": "e5d2c74f516bb5b2ede85287fceb3a774c6870b68b7b2418398e30fd5093d9b2",
+      "fetched_git_blob_sha1": "de0eacee65c0c738e87ed8ce47ad9582a8e76313"
+    }
+  ],
+  "scope": "Complete final new proof and complete immutable PR1202 original read. PR1201 Section 6 also checked in the previously retained transitive source to confirm the complement is to the specific actual M. No transitive source is silently promoted to an additional independent theorem.",
+  "public_writes": false
+}

@@ -1,0 +1,36 @@
+{
+  "ambient_character": {
+    "A": 2,
+    "D": 1,
+    "P": 1,
+    "V": 2
+  },
+  "checks": 33,
+  "complement_coefficient_domain": {
+    "A": 1,
+    "D": 2,
+    "P": 2,
+    "V": 1
+  },
+  "complement_dimension_bound": 15,
+  "constant_kernel_character": {
+    "A": 1,
+    "P": 1,
+    "V": 1
+  },
+  "constant_kernel_dimension": 10,
+  "controls_and_boundary": {
+    "a rank-three degree minus twelve summand would not contradict the bound": true,
+    "a rank-three subbundle alone has no asserted degree floor": true,
+    "losing equality of dimensions would not force zero intersection": true
+  },
+  "forced_line_span_dimension": 11,
+  "line_coefficient_domain": {
+    "A": 1,
+    "D": 1,
+    "V": 1
+  },
+  "proof_sha256": "f7952c7e28fe1cb4c31dffb3b4017e891b09b1bfd94012d583760840c7d043c3",
+  "scope": "Only fixed characters and numerical direct-summand identities; geometric splitting is proved in PROOF.md.",
+  "status": "PASS"
+}
