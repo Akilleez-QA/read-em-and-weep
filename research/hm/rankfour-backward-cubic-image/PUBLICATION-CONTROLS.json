@@ -1,0 +1,51 @@
+{
+  "author_checks": 12643,
+  "coarse_profile_eliminations": 0,
+  "complete_domains_match": true,
+  "executed_independent_mutations": 13,
+  "general_ledger_rows": 31,
+  "independent_checks": 603,
+  "normal_optimized_portable_replays": [
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "independent/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "independent/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": false,
+      "optimized": false,
+      "program": "independent/author/verify.py",
+      "status": "PASS"
+    },
+    {
+      "alternate_directory": true,
+      "optimized": true,
+      "program": "independent/author/verify.py",
+      "status": "PASS"
+    }
+  ],
+  "positive_defect_rows": 24,
+  "reported_intertwiner_multiplicity": 1,
+  "reviewed_author_snapshots_match": true,
+  "scope": "Restricted dual-cubic image ranks 1..3 only; whole ordered rank-four (3,1) remains open.",
+  "status": "PASS"
+}

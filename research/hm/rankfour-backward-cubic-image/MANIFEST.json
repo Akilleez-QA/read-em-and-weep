@@ -1,0 +1,250 @@
+{
+  "files": {
+    "ENDPOINTS.json": {
+      "bytes": 17562,
+      "git_blob_sha1": "ea7a0a843749bbe56162e459eaa10b1a07987844",
+      "sha256": "248830a83b7909b45b9c894048584d0679a5496d18cb9dd5f1a32d0e5d5fc272"
+    },
+    "INPUTS.json": {
+      "bytes": 2838,
+      "git_blob_sha1": "150c6d81a238df244b19d8407b94ac95bbc5056a",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    "LEDGER.json": {
+      "bytes": 7532,
+      "git_blob_sha1": "47955f103987ac49fa81e6b93c9b7840f88a9697",
+      "sha256": "c526f30ff7122803deea00e905ec61ccb9d71b4b6f4a33967e246b6cc6848fb6"
+    },
+    "PROOF.md": {
+      "bytes": 13862,
+      "git_blob_sha1": "d99ece4cbaf27457977c687603527716bfc5d5f8",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    "PUBLICATION-CONTROLS.json": {
+      "bytes": 1304,
+      "git_blob_sha1": "24dad3988966a6b47cd28b1977e6286bb5387e5e",
+      "sha256": "a3d2847dc8c3c9bb90fd8fd729ac48442140ae399bb5f1f8a79ffc9b54fd685a"
+    },
+    "PUBLICATION.md": {
+      "bytes": 4376,
+      "git_blob_sha1": "f9c51c7d9cd36a16046fd5849e517ff744074ed4",
+      "sha256": "cd4f09bf183cc9a571783fb4dfddd0137927946dddb884244070bf807074bd54"
+    },
+    "README.md": {
+      "bytes": 885,
+      "git_blob_sha1": "9bd2d99cc6b9afdfecd0a56022973e2666aad81b",
+      "sha256": "e8d179ad423163ecad659f2dc4ceea81684590f2169936f1a71b96d56feca358"
+    },
+    "RESULT-O.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "RESULT-OTHER-CWD.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "RESULT.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/AUTHOR-RUN-O.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/AUTHOR-RUN.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/CONTROLS.json": {
+      "bytes": 1957,
+      "git_blob_sha1": "56fb5042ba43717f543248ce5c8e6d40a03d1cbf",
+      "sha256": "cfebb30ada26df9a858ffffb1435601478522b068b81e512b182cdc1c144cd96"
+    },
+    "independent/INPUTS.json": {
+      "bytes": 2838,
+      "git_blob_sha1": "150c6d81a238df244b19d8407b94ac95bbc5056a",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    "independent/MANIFEST.json": {
+      "bytes": 6755,
+      "git_blob_sha1": "cf0319e0fb8e694217a1e921b074c94dd563dc28",
+      "sha256": "b21efe0e53d48192643c35d0026ff825561b12d068af44c6de4ad01ba5973519"
+    },
+    "independent/PACKAGE-CHECK.json": {
+      "bytes": 768,
+      "git_blob_sha1": "80809bf1eba2f4e97b77425d6bdf5f63d18fde95",
+      "sha256": "67a428b0023f8c6c7c5e19ec3900b2fcf98d00d5beb906d1dad1c93725a7f2b4"
+    },
+    "independent/README.md": {
+      "bytes": 907,
+      "git_blob_sha1": "782de34539bce7d25692614e6d7d517c91c87cf3",
+      "sha256": "4a8de27d8f3250b5acdc923871103ba1c93a08b4351a3bdc9fd8ca8c8d53ea2f"
+    },
+    "independent/RESULT.json": {
+      "bytes": 22694,
+      "git_blob_sha1": "8956ed1bb34361bfac53a5af022985078fc57ba4",
+      "sha256": "9a0e0255c1831c48f7b69e9f444f076c91c2d9774eb53b486c78060ea498e340"
+    },
+    "independent/REVIEW.md": {
+      "bytes": 14801,
+      "git_blob_sha1": "f2f05cac426c0bfc5aa50e90306f8e06f3b68fdb",
+      "sha256": "7f4cc562718242c1808b69ce70a8180f8d5cf67bfb1a17ac4a5d76bf8bfbd173"
+    },
+    "independent/author/ENDPOINTS.json": {
+      "bytes": 17562,
+      "git_blob_sha1": "ea7a0a843749bbe56162e459eaa10b1a07987844",
+      "sha256": "248830a83b7909b45b9c894048584d0679a5496d18cb9dd5f1a32d0e5d5fc272"
+    },
+    "independent/author/INPUTS.json": {
+      "bytes": 2838,
+      "git_blob_sha1": "150c6d81a238df244b19d8407b94ac95bbc5056a",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    "independent/author/LEDGER.json": {
+      "bytes": 7532,
+      "git_blob_sha1": "47955f103987ac49fa81e6b93c9b7840f88a9697",
+      "sha256": "c526f30ff7122803deea00e905ec61ccb9d71b4b6f4a33967e246b6cc6848fb6"
+    },
+    "independent/author/MANIFEST.json": {
+      "bytes": 3265,
+      "git_blob_sha1": "1644a8349e1e12b18e7b127ea92674cbb6e208e6",
+      "sha256": "ac0e291aa2bb5d029388d43b6d2ce0082b437f58e893df9714a91fd2b247d5f4"
+    },
+    "independent/author/PROOF.md": {
+      "bytes": 13862,
+      "git_blob_sha1": "d99ece4cbaf27457977c687603527716bfc5d5f8",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    "independent/author/README.md": {
+      "bytes": 885,
+      "git_blob_sha1": "9bd2d99cc6b9afdfecd0a56022973e2666aad81b",
+      "sha256": "e8d179ad423163ecad659f2dc4ceea81684590f2169936f1a71b96d56feca358"
+    },
+    "independent/author/RESULT-O.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/author/RESULT-OTHER-CWD.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/author/RESULT.json": {
+      "bytes": 33630,
+      "git_blob_sha1": "543cf940ff3a1915b3ba8dfcf362de1abfce2d65",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    "independent/author/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "bytes": 9672,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "independent/author/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "bytes": 12488,
+      "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    "independent/author/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "bytes": 5414,
+      "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    "independent/author/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "bytes": 10451,
+      "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    "independent/author/inputs/four-sources.md": {
+      "bytes": 9616,
+      "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    "independent/author/verify.py": {
+      "bytes": 18144,
+      "git_blob_sha1": "8cb1991f0f093f971ac218c8a0fd302aedde90e5",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    "independent/check_package.py": {
+      "bytes": 2384,
+      "git_blob_sha1": "779e510672738b70767a2af883d56a4eaa4f2185",
+      "sha256": "eb59150076b4efd822e1d4d5decdeb58cd4ea3cf0a0dd0f6f694e5154edda617"
+    },
+    "independent/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "bytes": 9672,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "independent/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "bytes": 12488,
+      "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    "independent/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "bytes": 5414,
+      "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    "independent/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "bytes": 10451,
+      "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    "independent/inputs/four-sources.md": {
+      "bytes": 9616,
+      "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    "independent/test_controls.py": {
+      "bytes": 1053,
+      "git_blob_sha1": "451e6843993013ed758d056148f49f48288336aa",
+      "sha256": "053f6f312e3b847fcd685cdebd23fd75b8297f9f19f7766000353e9608c9918c"
+    },
+    "independent/verify.py": {
+      "bytes": 12305,
+      "git_blob_sha1": "1f2356db9f8de664700c476fe4f450622970a474",
+      "sha256": "8a7a344241c7d2a76a1fafe404b793a0ab07ff99b58f404099370e99bfbf8605"
+    },
+    "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "bytes": 9672,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "bytes": 12488,
+      "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "bytes": 5414,
+      "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "bytes": 10451,
+      "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    "inputs/four-sources.md": {
+      "bytes": 9616,
+      "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    "verify.py": {
+      "bytes": 18144,
+      "git_blob_sha1": "8cb1991f0f093f971ac218c8a0fd302aedde90e5",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    "verify_publication.py": {
+      "bytes": 3953,
+      "git_blob_sha1": "d966cb3999073ee2b4e4435b7c301685f8906f88",
+      "sha256": "be4ecaef9f548b184b98e225b1701330227cb1896afd653198b871ed3e65757d"
+    }
+  },
+  "scope": "Restricted dual-cubic image bound only; no (3,1) profile closure."
+}
