@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "reviewer": "Independent entire-proof reviewer",
+  "completed_at_utc": "2026-10-24T11:04:46.092096+00:00",
+  "proof_utf8_bytes": 16304,
+  "proof_sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e",
+  "status": "PASS",
+  "authentication_method": "Eight fresh read-only GitHub connector calls: immutable path/ref and recorded blob for each entire original; exact decoded-byte comparison, not author evidence.",
+  "author_source_fetches_used_as_evidence": false,
+  "sources": [
+    {
+      "source": {
+        "id": "first-kernel-forward-closure",
+        "pr": 1236,
+        "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+        "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+        "local_path": "inputs/first-kernel-forward-closure.md",
+        "repository": "Akilleez-QA/read-em-and-weep",
+        "utf8_bytes": 18052,
+        "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+        "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md"
+      },
+      "path_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+          "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+          "encoding": "base64"
+        },
+        "line_limits_used": false,
+        "returned_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+        "decoded_utf8_bytes": 18052,
+        "decoded_sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+        "computed_git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+      },
+      "blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+        },
+        "decoded_utf8_bytes": 18052,
+        "decoded_sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+        "computed_git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+      },
+      "local_file": {
+        "path": "inputs/first-kernel-forward-closure.md",
+        "utf8_bytes": 18052,
+        "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+        "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+      },
+      "fresh_path_equals_fresh_blob_equals_local_all_bytes": true,
+      "entire_original_read": true
+    },
+    {
+      "source": {
+        "id": "first-kernel-span",
+        "pr": 1235,
+        "ref": "7152e94cedbab18036b5e032d4e97934c4c061b7",
+        "path": "research/hm/rankfour-profile11-triplet-first-kernel-span/PROOF.md",
+        "local_path": "inputs/first-kernel-span.md",
+        "repository": "Akilleez-QA/read-em-and-weep",
+        "utf8_bytes": 11977,
+        "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+        "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7152e94cedbab18036b5e032d4e97934c4c061b7/research/hm/rankfour-profile11-triplet-first-kernel-span/PROOF.md"
+      },
+      "path_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-first-kernel-span/PROOF.md",
+          "ref": "7152e94cedbab18036b5e032d4e97934c4c061b7",
+          "encoding": "base64"
+        },
+        "line_limits_used": false,
+        "returned_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3",
+        "decoded_utf8_bytes": 11977,
+        "decoded_sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+        "computed_git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3"
+      },
+      "blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "b846834f8451e7202721d9669b43df294f7a96d3"
+        },
+        "decoded_utf8_bytes": 11977,
+        "decoded_sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+        "computed_git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3"
+      },
+      "local_file": {
+        "path": "inputs/first-kernel-span.md",
+        "utf8_bytes": 11977,
+        "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+        "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3"
+      },
+      "fresh_path_equals_fresh_blob_equals_local_all_bytes": true,
+      "entire_original_read": true
+    },
+    {
+      "source": {
+        "id": "kernel-two-exclusion",
+        "pr": 1226,
+        "ref": "c565bd8b5b65829e99bdd96a7c5f076b01050465",
+        "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+        "local_path": "inputs/kernel-two-exclusion.md",
+        "repository": "Akilleez-QA/read-em-and-weep",
+        "utf8_bytes": 13703,
+        "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c565bd8b5b65829e99bdd96a7c5f076b01050465/research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md"
+      },
+      "path_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+          "ref": "c565bd8b5b65829e99bdd96a7c5f076b01050465",
+          "encoding": "base64"
+        },
+        "line_limits_used": false,
+        "returned_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+        "decoded_utf8_bytes": 13703,
+        "decoded_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "computed_git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+      },
+      "blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "cb46875b07d8d79e82aebe980685c418d975d87b"
+        },
+        "decoded_utf8_bytes": 13703,
+        "decoded_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "computed_git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+      },
+      "local_file": {
+        "path": "inputs/kernel-two-exclusion.md",
+        "utf8_bytes": 13703,
+        "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+        "git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b"
+      },
+      "fresh_path_equals_fresh_blob_equals_local_all_bytes": true,
+      "entire_original_read": true
+    },
+    {
+      "source": {
+        "id": "shared-d",
+        "pr": 1206,
+        "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+        "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+        "local_path": "inputs/shared-d.md",
+        "repository": "Akilleez-QA/read-em-and-weep",
+        "utf8_bytes": 8801,
+        "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/252b967ebbfbea6fc0c6451a835ab2daff92d73b/research/hm/rankfour-profile11-triplet-shared-d/PROOF.md"
+      },
+      "path_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_file",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+          "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+          "encoding": "base64"
+        },
+        "line_limits_used": false,
+        "returned_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684",
+        "decoded_utf8_bytes": 8801,
+        "decoded_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "computed_git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684"
+      },
+      "blob_fetch": {
+        "tool": "mcp__codex_apps__github_fetch_blob",
+        "arguments": {
+          "repository_full_name": "Akilleez-QA/read-em-and-weep",
+          "blob_sha": "82596d9d02147711e0d5f7953912a94fffbae684"
+        },
+        "decoded_utf8_bytes": 8801,
+        "decoded_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "computed_git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684"
+      },
+      "local_file": {
+        "path": "inputs/shared-d.md",
+        "utf8_bytes": 8801,
+        "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+        "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684"
+      },
+      "fresh_path_equals_fresh_blob_equals_local_all_bytes": true,
+      "entire_original_read": true
+    }
+  ],
+  "all_selected_frozen_sha256": {
+    "PROOF.md": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e",
+    "INPUTS.json": "321b89cea3a833b46f6e9e9316462152e6d3799e4a28a0f94819bdc36951e86c",
+    "verify_packet.py": "845d777e8c4b2c45412f71bd4ea766d13653d82f1fe92511851a7f726b796139",
+    "inputs/first-kernel-forward-closure.md": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+    "inputs/first-kernel-span.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/kernel-two-exclusion.md": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+    "inputs/shared-d.md": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+    "README.md": "e6db39690b30dd1d46a5c2c801d2f439118000baf2a17cffbda6fc8b6f06a1d6",
+    "PROVENANCE.md": "7c2e0aa9bb14bbac8933e4d446c8461bf7f36769a0f3534536412cba0603e37e"
+  },
+  "freeze_manifest_sha256": "b122d13844cbbb046a5a8d22e02e1a9da910f675d39a96649b7efd8d4d408de3",
+  "fresh_connector_evidence_sha256": "5f3a683e0b3688ead364c7a606a49e6473db7755cb9461bcdd493ed2559ced39",
+  "fresh_connector_evidence_retained_locally_outside_selected_packet": true,
+  "external_writes_performed": false
+}
