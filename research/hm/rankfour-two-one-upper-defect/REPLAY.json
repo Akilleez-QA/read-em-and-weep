@@ -1,0 +1,28 @@
+{
+  "control_harness": {
+    "normal_optimized_byte_identical": true,
+    "sha256": "a9a9db9d374e59d4fa52fdc04a5f7d468ff339d443ffbf98d4550b98e16aaabd",
+    "subprocess_mutations_rejected": 48
+  },
+  "replays": [
+    {
+      "byte_identical": true,
+      "bytes": 44092,
+      "mode": "normal",
+      "sha256": "b8b504dae3e30402db9e5c758f3e146177c5cf00a36c745a0527bf9cf9e0e8df"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 44092,
+      "mode": "optimized",
+      "sha256": "b8b504dae3e30402db9e5c758f3e146177c5cf00a36c745a0527bf9cf9e0e8df"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 44092,
+      "mode": "other_cwd",
+      "sha256": "b8b504dae3e30402db9e5c758f3e146177c5cf00a36c745a0527bf9cf9e0e8df"
+    }
+  ],
+  "status": "PASS"
+}

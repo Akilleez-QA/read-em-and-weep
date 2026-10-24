@@ -1,0 +1,81 @@
+{
+  "files": [
+    {
+      "bytes": 8407,
+      "path": "CONTROL-RESULT.json",
+      "sha256": "a9a9db9d374e59d4fa52fdc04a5f7d468ff339d443ffbf98d4550b98e16aaabd"
+    },
+    {
+      "bytes": 3409,
+      "path": "INPUTS.json",
+      "sha256": "afaf974bbd5a4eb034b5f5d02ec70f3200574ae8a93db7775f3365a80ee8ba12"
+    },
+    {
+      "bytes": 17236,
+      "path": "PROOF.md",
+      "sha256": "7d2733d5672429d6f75633ce2c27503fd20aad8b13d9566acb94244c6d8ec978"
+    },
+    {
+      "bytes": 1559,
+      "path": "README.md",
+      "sha256": "6fb57b981ebcd5c6b79d238f4c8da00538af5e489a9d03e8d599f74d363a93d5"
+    },
+    {
+      "bytes": 759,
+      "path": "REPLAY.json",
+      "sha256": "2debe926e31f34cafefe311cc0b1c9e5c791b532dbcfdd91ea2a664001e1ba5f"
+    },
+    {
+      "bytes": 44092,
+      "path": "RESULT.json",
+      "sha256": "b8b504dae3e30402db9e5c758f3e146177c5cf00a36c745a0527bf9cf9e0e8df"
+    },
+    {
+      "bytes": 9672,
+      "path": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "path": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "path": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10635,
+      "path": "inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+      "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22"
+    },
+    {
+      "bytes": 10451,
+      "path": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "path": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 3649,
+      "path": "test_controls.py",
+      "sha256": "39865a7e2e395299255f084f2d4d2a8acf0d9bb973c9d3055042433af8ffbeef"
+    },
+    {
+      "bytes": 18314,
+      "path": "verify.py",
+      "sha256": "028194870319968e284560a898713007e2c9f0e319fdccfe7c62e9d32852ca32"
+    }
+  ],
+  "packet": "rankfour-two-one-upper-defect",
+  "scope": "A bounded necessary defect restriction, not closure of the (2,1) profile.",
+  "status": "FROZEN",
+  "subprocess_mutations_rejected": 48,
+  "theorem": "Actual ordered maximal rank-four (2,1) implies delta2 in {0,12}.",
+  "verified_checks": 3931,
+  "version": 1
+}

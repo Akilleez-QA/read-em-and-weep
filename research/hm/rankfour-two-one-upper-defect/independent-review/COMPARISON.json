@@ -1,0 +1,15 @@
+{
+  "all_31_exact_tuples_match": true,
+  "all_five_residual_tuples_match": true,
+  "author_checks": 3931,
+  "author_controls_sha256": "a9a9db9d374e59d4fa52fdc04a5f7d468ff339d443ffbf98d4550b98e16aaabd",
+  "author_manifest_sha256": "70d00102e6e5ea920fc77ebd328b84cf7b8162cde7dc26b241577ca15864042d",
+  "author_mutations_rejected": 48,
+  "author_result_sha256": "b8b504dae3e30402db9e5c758f3e146177c5cf00a36c745a0527bf9cf9e0e8df",
+  "independent_checks": 5176,
+  "independent_controls_sha256": "32047f0af60a41bd823ed0f3e8571ed008bddce30530554c5660c7e91e62c6e2",
+  "independent_mutations_rejected": 29,
+  "independent_result_sha256": "b430ad8da62527ec36cf095e6f6a2835f7d6435f27d3d95815b97601ec996169",
+  "normal_optimized_byte_identical": true,
+  "status": "PASS"
+}
