@@ -1,0 +1,47 @@
+{
+  "actual_dual_kernel_character": {
+    "A_std": 1,
+    "P": 1,
+    "V": 1
+  },
+  "actual_dual_kernel_dimension": 10,
+  "actual_instance_evaluation": false,
+  "candidate_scan": false,
+  "check_count": 507,
+  "complement_coefficient_character": {
+    "A_std": 1,
+    "D": 2,
+    "P": 2,
+    "V": 1
+  },
+  "constant_ambient_character": {
+    "A_std": 2,
+    "D": 1,
+    "P": 1,
+    "V": 2
+  },
+  "contradictory_direct_summand": {
+    "degree": -24,
+    "minimum_allowed_degree": -12,
+    "rank": 3
+  },
+  "deficient_span_dimensions": [
+    6,
+    15,
+    21
+  ],
+  "forced_constant_intersection_dimension": 0,
+  "full_degree_ten_character": {
+    "A_std": 1,
+    "D": 1,
+    "V": 1
+  },
+  "inputs_manifest_sha256": "3754f7a61685c6287f50cf707511675268a7c913602e1dea40c681d84e425f96",
+  "method": "Exact closed binomial character polynomials on the nine physical conjugacy classes; Galois-conjugate Wprime; no author-code imports.",
+  "optimization_safe_checks": true,
+  "original_defect_unchanged": 12,
+  "proof_sha256": "f7952c7e28fe1cb4c31dffb3b4017e891b09b1bfd94012d583760840c7d043c3",
+  "public_writes": false,
+  "scope": "Executable checks support, but do not replace, the independently reviewed sheaf-theoretic proof and imported actual geometry.",
+  "status": "PASS"
+}
