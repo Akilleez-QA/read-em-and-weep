@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "reviewed_proof_sha256": "fc42728dd57303770e15c9ff2ffa7d490f4f6aa11dae26cf4cabdcb8792b0fa7",
+  "selected_file_count": 9,
+  "selected_files": [
+    {
+      "file": "PROOF.md",
+      "bytes": 16366,
+      "sha256": "fc42728dd57303770e15c9ff2ffa7d490f4f6aa11dae26cf4cabdcb8792b0fa7",
+      "git_blob_sha1": "b84f7fd1c9447521548afaa605ad0cfbec28c78d"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 2100,
+      "sha256": "79a1c0127655cd33d7a4d24722b27c547951c7ccc4dce31a8f47349a62570083",
+      "git_blob_sha1": "fdd42ac94ec89b3b1aac242f58d6ffabc8a7d4c4"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 1655,
+      "sha256": "5dd6bcf26f474f59c72813e15c9106e36643052e92f01ed4e3688f915de5320e",
+      "git_blob_sha1": "34e704932f72c05c4972bfd03c2656d1d6e86c76"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 6091,
+      "sha256": "08d98d74894345b265709911f425151e058162a6a0b9292bef85d4a8a7da47f2",
+      "git_blob_sha1": "4b58e2fe020de88562ea07670eb7f4da33107e7d"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7",
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c"
+    },
+    {
+      "file": "inputs/twentyfour-exclusion.md",
+      "bytes": 13247,
+      "sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+      "git_blob_sha1": "1fa1477fa73c0eded705f80e360963401af9b7e9"
+    },
+    {
+      "file": "inputs/defect-capacity.md",
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+      "git_blob_sha1": "175af94697c44f3140bb2c1d04978931c255b3fe"
+    },
+    {
+      "file": "inputs/projected-ranktwo.md",
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd",
+      "git_blob_sha1": "99a5a0257b0d683b04c5d190333d868c5b0d194d"
+    },
+    {
+      "file": "inputs/deep-images.md",
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f"
+    }
+  ],
+  "isolated_directory": "/workspace/shared/reviewer-twenty-selected-replay",
+  "initial_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/deep-images.md",
+    "inputs/defect-capacity.md",
+    "inputs/projected-ranktwo.md",
+    "inputs/twentyfour-exclusion.md",
+    "verify.py"
+  ],
+  "excluded": [
+    "LOCAL* files and directories",
+    "raw reviewer fetch records",
+    "unused eighteen-jets source",
+    "prior VERIFY records",
+    "reviewer outputs",
+    "pre-existing Python caches"
+  ],
+  "runs": [
+    {
+      "command": [
+        "python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 53,\n  \"proof_sha256\": \"fc42728dd57303770e15c9ff2ffa7d490f4f6aa11dae26cf4cabdcb8792b0fa7\",\n  \"scope\": \"Fixed symbolic coherent capacity/slack, universal principal-parts ranks/degrees and small physical character identities. No actual coefficients, jets, tensors, matrices or instance ranks evaluated.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 53,\n  \"proof_sha256\": \"fc42728dd57303770e15c9ff2ffa7d490f4f6aa11dae26cf4cabdcb8792b0fa7\",\n  \"scope\": \"Fixed symbolic coherent capacity/slack, universal principal-parts ranks/degrees and small physical character identities. No actual coefficients, jets, tensors, matrices or instance ranks evaluated.\"\n}\n",
+      "stderr": ""
+    }
+  ],
+  "selected_bytes_unchanged_after_replay": true,
+  "limitations": "This replay checks bounded symbolic identities and exact input/proof pins; the mathematical proof and imported hypotheses are not proved by passing these checks."
+}
