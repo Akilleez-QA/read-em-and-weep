@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 52,
+  "proof_sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+  "scope": "Fixed symbolic two-column capacity, physical characters, bundle degrees and group-orbit arithmetic only. No actual coefficient, point, tensor, matrix or instance-rank evaluation."
+}
