@@ -1,0 +1,172 @@
+{
+  "chi_E": {
+    "1": {
+      "1": 0,
+      "A": 0,
+      "D": 0,
+      "P": 0,
+      "S": 0,
+      "T": -3,
+      "V": 0,
+      "W": 0,
+      "Wp": -1
+    },
+    "2": {
+      "1": 0,
+      "A": 0,
+      "D": 0,
+      "P": 0,
+      "S": 0,
+      "T": 0,
+      "V": -1,
+      "W": 0,
+      "Wp": 0
+    },
+    "3": {
+      "1": 0,
+      "A": 0,
+      "D": 0,
+      "P": 0,
+      "S": 0,
+      "T": 2,
+      "V": 0,
+      "W": 0,
+      "Wp": 1
+    },
+    "4": {
+      "1": 0,
+      "A": 0,
+      "D": 2,
+      "P": 3,
+      "S": 0,
+      "T": 0,
+      "V": 3,
+      "W": 0,
+      "Wp": 0
+    }
+  },
+  "chi_Qstar3": {
+    "1": 0,
+    "A": 0,
+    "D": 0,
+    "P": 0,
+    "S": -1,
+    "T": 1,
+    "V": 0,
+    "W": -2,
+    "Wp": 0
+  },
+  "fixed_universal_checks": 223,
+  "inputs_sha256": "f365a59d991e90ebec228657929fc9a4c8d5d9faef4f9da03e6fa01a92a443df",
+  "kernels": [
+    {
+      "chi_K4": {
+        "1": 0,
+        "A": 0,
+        "D": 0,
+        "P": 1,
+        "S": 0,
+        "T": 0,
+        "V": 2,
+        "W": 0,
+        "Wp": 0
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        1
+      ],
+      "maximum_defect_degree": 4,
+      "quotient_degrees": [
+        -3,
+        12
+      ],
+      "saturated_image_degrees": [
+        0,
+        15
+      ]
+    },
+    {
+      "chi_K4": {
+        "1": 0,
+        "A": -1,
+        "D": 1,
+        "P": 0,
+        "S": 0,
+        "T": 0,
+        "V": 2,
+        "W": 0,
+        "Wp": 0
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        1
+      ],
+      "maximum_defect_degree": 6,
+      "quotient_degrees": [
+        -3,
+        14
+      ],
+      "saturated_image_degrees": [
+        0,
+        17
+      ]
+    },
+    {
+      "chi_K4": {
+        "1": -1,
+        "A": -1,
+        "D": 0,
+        "P": 1,
+        "S": 0,
+        "T": 0,
+        "V": 2,
+        "W": 0,
+        "Wp": 0
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        1
+      ],
+      "maximum_defect_degree": 8,
+      "quotient_degrees": [
+        -3,
+        16
+      ],
+      "saturated_image_degrees": [
+        0,
+        19
+      ]
+    },
+    {
+      "chi_K4": {
+        "1": 0,
+        "A": 0,
+        "D": 0,
+        "P": 2,
+        "S": 0,
+        "T": 0,
+        "V": 2,
+        "W": 0,
+        "Wp": 0
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        1
+      ],
+      "maximum_defect_degree": 0,
+      "quotient_degrees": [
+        -1,
+        4
+      ],
+      "saturated_image_degrees": [
+        2,
+        7
+      ]
+    }
+  ],
+  "maximum_symmetric_degree": 25,
+  "method": "integer affine-E8 McKay recursion; stdlib only",
+  "proof_sha256": "d16a3186e5d922fe55206c7f139e152fb9153614be71e2a172f47b801c44c40c",
+  "scope": "Abstract fixed universal checks only; geometry is reviewed separately.",
+  "status": "PASS"
+}
