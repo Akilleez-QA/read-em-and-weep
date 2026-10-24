@@ -1,0 +1,91 @@
+{
+  "fetch_window_utc": [
+    "2026-10-24T03:46:23Z",
+    "2026-10-24T03:47:06Z"
+  ],
+  "github_writes": false,
+  "method": "Reviewer independently invoked GitHub fetch_file at all seven immutable commits; compared complete UTF-8 bytes and returned Git blob SHA to retained files. No author source-fetch attestation was used as authentication.",
+  "proof_sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+  "raw_local_response_sha256": "80b64df2b072093228a9cd950bf907c8fc3456bcc49d3bf786010ccb29aaf21e",
+  "raw_response_required_for_portable_replay": false,
+  "sources": [
+    {
+      "bytes": 5934,
+      "file": "inputs/zero-defect.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "99217242681519a6a3884227d90447a8b96e13cc",
+      "path": "research/hm/rankfour-profile11-triplet-zero-defect/PROOF.md",
+      "ref": "e4708738bb38e39293957982d3af53be265c13ec",
+      "sha256": "0b62e7739d3ff5ef52c5e8c76e50931f99f882015c037132370707f341c425c5",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e4708738bb38e39293957982d3af53be265c13ec/research/hm/rankfour-profile11-triplet-zero-defect/PROOF.md"
+    },
+    {
+      "bytes": 8501,
+      "file": "inputs/five-kernels.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "path": "research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "ref": "7d71f0e2a3963cff64a069198f4415c5cfd0fe9b",
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7d71f0e2a3963cff64a069198f4415c5cfd0fe9b/research/hm/rankfour-profile11-triplet-kernels/PROOF.md"
+    },
+    {
+      "bytes": 12085,
+      "file": "inputs/deep-images.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f",
+      "path": "research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "ref": "95af2c0fa1e3cce92496a44ef9023708735e1ec7",
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/95af2c0fa1e3cce92496a44ef9023708735e1ec7/research/hm/rankfour-profile11-triplet-deep-images/PROOF.md"
+    },
+    {
+      "bytes": 15519,
+      "file": "inputs/pair-defect.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "path": "research/hm/rankfour-profile11-pair-defect/PROOF.md",
+      "ref": "0156405384eefb3efe08d724e682b4a839157bfc",
+      "sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/0156405384eefb3efe08d724e682b4a839157bfc/research/hm/rankfour-profile11-pair-defect/PROOF.md"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/actual.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+    },
+    {
+      "bytes": 11259,
+      "file": "inputs/low-top.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "6565110a12173fb6ff27838d294489ec1ad53941",
+      "path": "research/hm/rankfour-profile11-low-top/PROOF.md",
+      "ref": "236e0a3723c3d73ea7fb9e549376540a8e70508b",
+      "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/236e0a3723c3d73ea7fb9e549376540a8e70508b/research/hm/rankfour-profile11-low-top/PROOF.md"
+    },
+    {
+      "bytes": 22067,
+      "file": "inputs/top-four.md",
+      "fresh_full_body_equals_retained_bytes": true,
+      "fresh_returned_blob_sha_matches": true,
+      "git_blob_sha1": "51d43f891d940ff1dd250747ac450db28057ac54",
+      "path": "research/hm/rankfour-profile11-top-four/PROOF.md",
+      "ref": "e4de44641a53b0b3424102cd5fbaf3cf5821996d",
+      "sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/e4de44641a53b0b3424102cd5fbaf3cf5821996d/research/hm/rankfour-profile11-top-four/PROOF.md"
+    }
+  ],
+  "status": "PASS"
+}
