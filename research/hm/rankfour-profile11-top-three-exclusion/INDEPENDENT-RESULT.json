@@ -1,0 +1,34 @@
+{
+  "authenticated_inputs": [
+    {
+      "file": "inputs/actual.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+    },
+    {
+      "file": "inputs/top-three.md",
+      "sha256": "55e241f3277bb261d0cbc81f1d957a839e22dd525c0d24d821edf0d6a16014fe",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/518b3f2686269f83e4f788fe4ed30d0e36dac37b/research/hm/rankfour-profile11-top-three/PROOF.md"
+    }
+  ],
+  "checks": 348,
+  "computation": "Fixed exact universal characters only; no actual coefficient computation or bundle search.",
+  "deficit": {
+    "A_std": 1
+  },
+  "independent_remote_fetch": true,
+  "limitation": "The written sheaf and connection arguments were reviewed mathematically; this is not proof-assistant certification of the imported geometric premises.",
+  "proof_sha256": "ff1ee385836e7af3f28c3d94892939f6b3b25af5daa6ddf2d6d2ee472c1999a3",
+  "required_target": {
+    "A_std": 2,
+    "D": 1
+  },
+  "scope": "Conditional actual top-degree-three boundary exclusion for every determinant defect.",
+  "source_capacity": {
+    "A_std": 1,
+    "D": 4,
+    "P": 3,
+    "V": 2
+  },
+  "status": "PASS"
+}
