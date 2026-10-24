@@ -1,0 +1,434 @@
+{
+  "schema": "independent-f18-selected-only-replay-v1",
+  "status": "PASS",
+  "started_at_utc": "2026-10-24T12:59:42.720798+00:00",
+  "completed_at_utc": "2026-10-24T12:59:42.845374+00:00",
+  "anchors": {
+    "PROOF.md": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a",
+    "verify.py": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628",
+    "FROZEN.json": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+  },
+  "frozen_packet": "/workspace/shared/rankfour-profile11-triplet-f18-gluing-surjectivity",
+  "original_before_inventory": [
+    {
+      "path": "PROOF.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3353,
+      "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 10351,
+      "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 4573,
+      "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 6334,
+      "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6983,
+      "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+    },
+    {
+      "path": "inputs/shared-d-gluing.md",
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+    },
+    {
+      "path": "inputs/f18-row-resolution.md",
+      "bytes": 15616,
+      "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+    },
+    {
+      "path": "inputs/first-kernel-span.md",
+      "bytes": 11977,
+      "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "FROZEN.json",
+      "bytes": 1804,
+      "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+    }
+  ],
+  "original_after_inventory": [
+    {
+      "path": "PROOF.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3353,
+      "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 10351,
+      "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 4573,
+      "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 6334,
+      "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6983,
+      "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+    },
+    {
+      "path": "inputs/shared-d-gluing.md",
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+    },
+    {
+      "path": "inputs/f18-row-resolution.md",
+      "bytes": 15616,
+      "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+    },
+    {
+      "path": "inputs/first-kernel-span.md",
+      "bytes": 11977,
+      "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "FROZEN.json",
+      "bytes": 1804,
+      "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+    }
+  ],
+  "original_unchanged": true,
+  "replays": [
+    {
+      "mode": "normal",
+      "directory": "/tmp/f18-review-normal-si0rk1q5",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T12:59:42.724817+00:00",
+      "completed_at_utc": "2026-10-24T12:59:42.750960+00:00",
+      "environment_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "exit_code": 0,
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628",
+        "checks_passed": 85,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9",
+        "maximum_symmetric_degree": 8,
+        "proof_sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a",
+        "scope": "Exact hashes and fixed small character/rank/degree identities only.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      },
+      "before_inventory": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1804,
+          "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 10351,
+          "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 4573,
+          "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 6334,
+          "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3353,
+          "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+        },
+        {
+          "path": "inputs/f18-row-resolution.md",
+          "bytes": 15616,
+          "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/first-kernel-span.md",
+          "bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+        },
+        {
+          "path": "inputs/shared-d-gluing.md",
+          "bytes": 20361,
+          "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 6983,
+          "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+        }
+      ],
+      "after_inventory": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1804,
+          "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 10351,
+          "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 4573,
+          "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 6334,
+          "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3353,
+          "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+        },
+        {
+          "path": "inputs/f18-row-resolution.md",
+          "bytes": 15616,
+          "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/first-kernel-span.md",
+          "bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+        },
+        {
+          "path": "inputs/shared-d-gluing.md",
+          "bytes": 20361,
+          "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 6983,
+          "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+        }
+      ],
+      "all_input_hashes_unchanged": true,
+      "stdout": {
+        "path": "normal.stdout.txt",
+        "bytes": 514,
+        "sha256": "d0484455554c64882814b7a607e6acdf9779933060b8829c650d62b220944854"
+      },
+      "stderr": {
+        "path": "normal.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    },
+    {
+      "mode": "optimized",
+      "directory": "/tmp/f18-review-optimized-1rr8_ig_",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T12:59:42.752970+00:00",
+      "completed_at_utc": "2026-10-24T12:59:42.844316+00:00",
+      "environment_override": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "exit_code": 0,
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628",
+        "checks_passed": 85,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9",
+        "maximum_symmetric_degree": 8,
+        "proof_sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a",
+        "scope": "Exact hashes and fixed small character/rank/degree identities only.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      },
+      "before_inventory": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1804,
+          "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 10351,
+          "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 4573,
+          "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 6334,
+          "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3353,
+          "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+        },
+        {
+          "path": "inputs/f18-row-resolution.md",
+          "bytes": 15616,
+          "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/first-kernel-span.md",
+          "bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+        },
+        {
+          "path": "inputs/shared-d-gluing.md",
+          "bytes": 20361,
+          "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 6983,
+          "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+        }
+      ],
+      "after_inventory": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1804,
+          "sha256": "792febdbeaa6c342570b4b8d04fafba2b78ae8e054eebcd2c9a76294693857c9"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 10351,
+          "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 4573,
+          "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 6334,
+          "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3353,
+          "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+        },
+        {
+          "path": "inputs/f18-row-resolution.md",
+          "bytes": 15616,
+          "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/first-kernel-span.md",
+          "bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+        },
+        {
+          "path": "inputs/shared-d-gluing.md",
+          "bytes": 20361,
+          "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 6983,
+          "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+        }
+      ],
+      "all_input_hashes_unchanged": true,
+      "stdout": {
+        "path": "optimized.stdout.txt",
+        "bytes": 514,
+        "sha256": "d0484455554c64882814b7a607e6acdf9779933060b8829c650d62b220944854"
+      },
+      "stderr": {
+        "path": "optimized.stderr.txt",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "checker_is_not_proof": true,
+  "scope": "Only ten frozen core files plus FROZEN.json; no author evidence or review evidence copied. Two distinct fresh directories. Fixed character and rank/degree arithmetic only."
+}
