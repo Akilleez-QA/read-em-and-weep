@@ -1,0 +1,13 @@
+{
+  "checks": 35,
+  "not_claimed": [
+    "actual instance evaluation",
+    "everywhere derivative rank2",
+    "full auxiliary scalar span",
+    "intrinsic auxiliary ramification",
+    "branch exclusion"
+  ],
+  "proof_sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111",
+  "scope": "two complete source pins; fixed physical characters and actual-sequence degree identities",
+  "status": "PASS"
+}

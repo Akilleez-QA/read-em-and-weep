@@ -1,0 +1,91 @@
+{
+  "reviewer": "independent whole-proof reviewer",
+  "replay_directory": "/tmp/independent-ranksix-seven-file-e1okeen5",
+  "isolation": "fresh empty directory, exactly seven selected files, no source-fetch scratch or prior output/caches; inherited PYTHONPATH removed and bytecode writes disabled",
+  "selected_files_before_and_after": {
+    "PROOF.md": {
+      "bytes": 9703,
+      "sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111"
+    },
+    "INPUTS.json": {
+      "bytes": 1038,
+      "sha256": "2d5a747c157c2e6c59b516258ab7590028093cc7b0aa371f025969450addf318"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1459,
+      "sha256": "062bdf0bf024d36c8bcd35c9e1ba948d630f3835d804c0cca51ad97fc5d8949c"
+    },
+    "verify.py": {
+      "bytes": 3792,
+      "sha256": "3e634d9935f240ddb34ac37dc6645e7e042259e73de4a06a55936ae6551d6222"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/rankseven-equality.md": {
+      "bytes": 15139,
+      "sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae"
+    },
+    "inputs/nine-jets.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    }
+  },
+  "exactly_seven_files_before_and_after": true,
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 35,\n  \"not_claimed\": [\n    \"actual instance evaluation\",\n    \"everywhere derivative rank2\",\n    \"full auxiliary scalar span\",\n    \"intrinsic auxiliary ramification\",\n    \"branch exclusion\"\n  ],\n  \"proof_sha256\": \"06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111\",\n  \"scope\": \"two complete source pins; fixed physical characters and actual-sequence degree identities\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "reported": {
+        "checks": 35,
+        "not_claimed": [
+          "actual instance evaluation",
+          "everywhere derivative rank2",
+          "full auxiliary scalar span",
+          "intrinsic auxiliary ramification",
+          "branch exclusion"
+        ],
+        "proof_sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111",
+        "scope": "two complete source pins; fixed physical characters and actual-sequence degree identities",
+        "status": "PASS"
+      },
+      "selected_bytes_unchanged": true
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 35,\n  \"not_claimed\": [\n    \"actual instance evaluation\",\n    \"everywhere derivative rank2\",\n    \"full auxiliary scalar span\",\n    \"intrinsic auxiliary ramification\",\n    \"branch exclusion\"\n  ],\n  \"proof_sha256\": \"06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111\",\n  \"scope\": \"two complete source pins; fixed physical characters and actual-sequence degree identities\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "reported": {
+        "checks": 35,
+        "not_claimed": [
+          "actual instance evaluation",
+          "everywhere derivative rank2",
+          "full auxiliary scalar span",
+          "intrinsic auxiliary ramification",
+          "branch exclusion"
+        ],
+        "proof_sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111",
+        "scope": "two complete source pins; fixed physical characters and actual-sequence degree identities",
+        "status": "PASS"
+      },
+      "selected_bytes_unchanged": true
+    }
+  ],
+  "normal_and_optimized_results_identical": true,
+  "imported_characters_explicit_checks_by_complete_code_inspection": 81,
+  "all_selected_bytes_unchanged": true,
+  "source_authentication": "REVIEWER-AUTHENTICATION.json",
+  "proof_sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111",
+  "verdict": "PASS; verifier has 35 explicit checks in both modes, plus 81 fixed exact-rational McKay identities in imported characters module; geometric proof independently reviewed separately."
+}
