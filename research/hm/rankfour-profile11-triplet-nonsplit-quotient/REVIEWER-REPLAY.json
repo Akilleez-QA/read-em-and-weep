@@ -1,0 +1,157 @@
+{
+  "claim_boundary": "Replay corroborates pins and bounded universal identities. The mathematical verdict comes from the independent entire-proof review, not from the checker.",
+  "code_audit": {
+    "actual_source_instance_evaluation": false,
+    "entire_verify_py_and_characters_py_read": true,
+    "explicit_exception_checks_survive_optimization": true,
+    "large_computation": false,
+    "network_calls": false,
+    "only_fixed_character_recursion_and_integer_degree_arithmetic": true,
+    "remote_writes": false,
+    "selected_invariant_normalization": false,
+    "standard_library_only": true
+  },
+  "copied_selected_bytes_unchanged": true,
+  "fresh_directory": "/tmp/nonsplit-independent-review-79xoney2",
+  "initially_empty": true,
+  "only_selected_files_before_and_after": true,
+  "proof_bytes": 13619,
+  "proof_sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+  "python": {
+    "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+    "version": "3.12.14"
+  },
+  "result_objects_identical": true,
+  "runs": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python verify.py",
+      "exit_code": 0,
+      "explicit_runtime_checks": 53,
+      "imported_check_count_basis": "characters.py reviewed 9 irreducibles by 9 exact-rational trace columns; successful import completes all 81 explicit require calls.",
+      "imported_fixed_character_checks": 81,
+      "result": {
+        "checks": 53,
+        "not_claimed": [
+          "actual coefficients or instance evaluations",
+          "selected invariant normalization or graph scalar",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+        "scope": "two complete immutable inputs; fixed characters, degrees, formal mixed norm and Serre-duality directions",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 53,\n  \"not_claimed\": [\n    \"actual coefficients or instance evaluations\",\n    \"selected invariant normalization or graph scalar\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568\",\n  \"scope\": \"two complete immutable inputs; fixed characters, degrees, formal mixed norm and Serre-duality directions\",\n  \"status\": \"PASS\"\n}\n"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python -O verify.py",
+      "exit_code": 0,
+      "explicit_runtime_checks": 53,
+      "imported_check_count_basis": "characters.py reviewed 9 irreducibles by 9 exact-rational trace columns; successful import completes all 81 explicit require calls.",
+      "imported_fixed_character_checks": 81,
+      "result": {
+        "checks": 53,
+        "not_claimed": [
+          "actual coefficients or instance evaluations",
+          "selected invariant normalization or graph scalar",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+        "scope": "two complete immutable inputs; fixed characters, degrees, formal mixed norm and Serre-duality directions",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 53,\n  \"not_claimed\": [\n    \"actual coefficients or instance evaluations\",\n    \"selected invariant normalization or graph scalar\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568\",\n  \"scope\": \"two complete immutable inputs; fixed characters, degrees, formal mixed norm and Serre-duality directions\",\n  \"status\": \"PASS\"\n}\n"
+    }
+  ],
+  "selected_byte_manifest_after": {
+    "INPUTS.json": {
+      "bytes": 1070,
+      "git_blob_sha1": "047ff988f089c0c71035ef02e2c7c9191a5444eb",
+      "sha256": "82c34f776fd42592c0db47fee7aa250947500d430f1c13630d2651233e2d162d"
+    },
+    "PROOF.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1914,
+      "git_blob_sha1": "8dacb4156c20199d01e2bc5c4003d306acabb656",
+      "sha256": "a13e539db4afa57c10f4d1d40f67bdd13dc185a68442e5fbf6762bfb8d715a93"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/mixed-jet-pairing.md": {
+      "bytes": 14593,
+      "git_blob_sha1": "91e0c23867113c0a7d5b032098c8e365b356859d",
+      "sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b"
+    },
+    "inputs/ranksix-common-kernel.md": {
+      "bytes": 9703,
+      "git_blob_sha1": "5661a972f1eccce29a49ea4b1af305c693a380b2",
+      "sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111"
+    },
+    "verify.py": {
+      "bytes": 4368,
+      "git_blob_sha1": "a0e49bb4046d6ad3d7449f56125fecf3bfd8ce5c",
+      "sha256": "fec7dae3cafac0705dd9fd0c05fa717ddc07972ac95e755eec7b65fa29ad8efe"
+    }
+  },
+  "selected_byte_manifest_before": {
+    "INPUTS.json": {
+      "bytes": 1070,
+      "git_blob_sha1": "047ff988f089c0c71035ef02e2c7c9191a5444eb",
+      "sha256": "82c34f776fd42592c0db47fee7aa250947500d430f1c13630d2651233e2d162d"
+    },
+    "PROOF.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1914,
+      "git_blob_sha1": "8dacb4156c20199d01e2bc5c4003d306acabb656",
+      "sha256": "a13e539db4afa57c10f4d1d40f67bdd13dc185a68442e5fbf6762bfb8d715a93"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/mixed-jet-pairing.md": {
+      "bytes": 14593,
+      "git_blob_sha1": "91e0c23867113c0a7d5b032098c8e365b356859d",
+      "sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b"
+    },
+    "inputs/ranksix-common-kernel.md": {
+      "bytes": 9703,
+      "git_blob_sha1": "5661a972f1eccce29a49ea4b1af305c693a380b2",
+      "sha256": "06e1795f1390e8451dbf4e98e10a8011b3e97ce733ec6b1cbbd5af90b4694111"
+    },
+    "verify.py": {
+      "bytes": 4368,
+      "git_blob_sha1": "a0e49bb4046d6ad3d7449f56125fecf3bfd8ce5c",
+      "sha256": "fec7dae3cafac0705dd9fd0c05fa717ddc07972ac95e755eec7b65fa29ad8efe"
+    }
+  },
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/ranksix-common-kernel.md",
+    "inputs/mixed-jet-pairing.md"
+  ],
+  "source_selected_bytes_unchanged": true,
+  "status": "PASS",
+  "stdout_byte_identical": true
+}
