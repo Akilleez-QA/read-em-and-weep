@@ -1,0 +1,12 @@
+{
+  "checks": 45,
+  "not_claimed": [
+    "actual-instance evaluation",
+    "complete geometric proof by computation",
+    "delta12 exclusion or occurrence",
+    "original degree18 higher-jet separation"
+  ],
+  "proof_sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+  "scope": "three exact complete inputs; fixed universal characters and degree identities only",
+  "status": "PASS"
+}
