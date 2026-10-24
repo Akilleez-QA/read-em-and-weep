@@ -1,0 +1,57 @@
+{
+  "schema": "f18-gluing-surjectivity-freeze-v1",
+  "frozen_at_utc": "2026-10-24T12:56:19.251194+00:00",
+  "scope": "Exact ten-file publication core; independent entire-proof review required. Author source responses and replay evidence are excluded.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3353,
+      "sha256": "9b541c7997ff6ae4c4ba638108ae8c383f578e8791f251beaed706403d933d50"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 10351,
+      "sha256": "9d3412cc1a6808537462c8e0aedadbc975828beb4aff298dbde3ffac59afce71"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 4573,
+      "sha256": "809098aa29439877a0e5d43227967b62660c3e518f3f7dd5d02515a2010dc1fc"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 6334,
+      "sha256": "9bccacd877edd073d6404ab0dbf4761592679a22e5c80584d6911f0d346d5b50"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6983,
+      "sha256": "80e8490a5ecea87229523db94d255595f9e04ad972b452690e6fb20fb4fb6628"
+    },
+    {
+      "path": "inputs/shared-d-gluing.md",
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+    },
+    {
+      "path": "inputs/f18-row-resolution.md",
+      "bytes": 15616,
+      "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc"
+    },
+    {
+      "path": "inputs/first-kernel-span.md",
+      "bytes": 11977,
+      "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    }
+  ]
+}
