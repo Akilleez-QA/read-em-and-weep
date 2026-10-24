@@ -1,0 +1,252 @@
+{
+  "arithmetic_method": "closed binomial symmetric-power class characters in Q(sqrt5); no author recurrence imported",
+  "capacity": {
+    "(-4, -6, -6)": {
+      "capacity": -14,
+      "rank_two_piece": -14,
+      "two_rank_one_pieces": -14
+    },
+    "(-5, -5, -6)": {
+      "capacity": -14,
+      "rank_two_piece": -14,
+      "two_rank_one_pieces": -16
+    }
+  },
+  "check_count": 528,
+  "five_C5_induced_characters": {
+    "0": {
+      "1": 1,
+      "A": 1,
+      "D": 1,
+      "V": 1
+    },
+    "1": {
+      "A": 1,
+      "D": 1,
+      "P": 1
+    },
+    "2": {
+      "D": 1,
+      "P": 1,
+      "V": 1
+    },
+    "3": {
+      "D": 1,
+      "P": 1,
+      "V": 1
+    },
+    "4": {
+      "A": 1,
+      "D": 1,
+      "P": 1
+    }
+  },
+  "fresh_source_authentication": "three complete immutable remote files, full byte equality, SHA256 and Git blob identity",
+  "geometric_review": "Independent whole-text human-style proof audit; not proof-assistant certification. Imported actual geometric premises remain conditional.",
+  "limits": [
+    "No realization or exclusion of either surviving primal or dual form",
+    "No selected actual coefficients, parameters, points, jets, tensors, matrices or instance ranks",
+    "No broad quotient search",
+    "No public writes, merge or upstream submission"
+  ],
+  "necessary_conclusions": {
+    "constant_complement_dimension": 9,
+    "constant_span_dimension": 21,
+    "original_defect": 12,
+    "original_quotient_degrees": {
+      "a": 2,
+      "b": -22
+    },
+    "small_dual_endpoints": [
+      "W(-9)",
+      "O(-8)+O(-10)"
+    ]
+  },
+  "positive_defect_doublets": {
+    "W": {
+      "D": 1,
+      "P": 2,
+      "V": 1
+    },
+    "Wp": {
+      "1": 1,
+      "A": 1,
+      "D": 1,
+      "P": 1,
+      "V": 1
+    }
+  },
+  "positive_defect_scalar_partitions": [
+    {
+      "H1": {
+        "1": 1,
+        "A": 1,
+        "D": 1,
+        "P": 1,
+        "V": 1
+      },
+      "compatible": false,
+      "degrees": [
+        -2,
+        -16
+      ]
+    },
+    {
+      "H1": {
+        "1": 1,
+        "A": 2,
+        "D": 1,
+        "P": 1
+      },
+      "compatible": false,
+      "degrees": [
+        -4,
+        -14
+      ]
+    },
+    {
+      "H1": {
+        "A": 1,
+        "D": 2,
+        "V": 1
+      },
+      "compatible": false,
+      "degrees": [
+        -6,
+        -12
+      ]
+    },
+    {
+      "H1": {
+        "D": 1,
+        "P": 2,
+        "V": 1
+      },
+      "compatible": true,
+      "degrees": [
+        -8,
+        -10
+      ]
+    }
+  ],
+  "reviewed_proof_sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+  "status": "PASS",
+  "surviving_stabilizer_weights": [
+    2,
+    3
+  ],
+  "wholeproof": "PASS",
+  "zero_defect_doublets": {
+    "W": {
+      "1": 1,
+      "A": 2,
+      "D": 2,
+      "P": 2,
+      "V": 1
+    },
+    "Wp": {
+      "1": 1,
+      "A": 1,
+      "D": 2,
+      "P": 2,
+      "V": 2
+    }
+  },
+  "zero_defect_scalar_partitions": [
+    {
+      "H1": {
+        "1": 1,
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "degrees": [
+        -2,
+        -28
+      ],
+      "forbidden_A_multiplicity": 1
+    },
+    {
+      "H1": {
+        "1": 1,
+        "A": 2,
+        "D": 2,
+        "P": 2,
+        "V": 1
+      },
+      "degrees": [
+        -4,
+        -26
+      ],
+      "forbidden_A_multiplicity": 2
+    },
+    {
+      "H1": {
+        "A": 2,
+        "D": 3,
+        "P": 1,
+        "V": 1
+      },
+      "degrees": [
+        -6,
+        -24
+      ],
+      "forbidden_A_multiplicity": 2
+    },
+    {
+      "H1": {
+        "1": 1,
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "degrees": [
+        -8,
+        -22
+      ],
+      "forbidden_A_multiplicity": 1
+    },
+    {
+      "H1": {
+        "A": 1,
+        "D": 2,
+        "P": 3,
+        "V": 1
+      },
+      "degrees": [
+        -10,
+        -20
+      ],
+      "forbidden_A_multiplicity": 1
+    },
+    {
+      "H1": {
+        "A": 1,
+        "D": 3,
+        "P": 1,
+        "V": 2
+      },
+      "degrees": [
+        -12,
+        -18
+      ],
+      "forbidden_A_multiplicity": 1
+    },
+    {
+      "H1": {
+        "1": 1,
+        "A": 2,
+        "D": 2,
+        "P": 2,
+        "V": 1
+      },
+      "degrees": [
+        -14,
+        -16
+      ],
+      "forbidden_A_multiplicity": 2
+    }
+  ]
+}
