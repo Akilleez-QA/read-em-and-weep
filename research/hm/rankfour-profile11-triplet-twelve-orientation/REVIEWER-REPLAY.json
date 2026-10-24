@@ -1,0 +1,106 @@
+{
+  "verdict": "PASS",
+  "proof_sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+  "proof_bytes": 12396,
+  "replay_directory": "/tmp/reviewer-twelve-orientation-selected-pdwrdlsf",
+  "isolation": "New initially empty temporary directory containing exactly the selected eight files. No author output, LOCAL files, exploration, reviewer records, or caches copied. Bytecode writes disabled. Both runs remained eight-file only.",
+  "selected_file_count": 8,
+  "selected_files": {
+    "PROOF.md": {
+      "bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2"
+    },
+    "INPUTS.json": {
+      "bytes": 1578,
+      "sha256": "cca372738002e7445375b42dfd07d9c3a6feb29e0e84565f57a73022cbfa0ca9"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1698,
+      "sha256": "27e481c0d2b25101e40e67d8e94ce1528589afdfce588e965cfca71db56dd496"
+    },
+    "verify.py": {
+      "bytes": 4963,
+      "sha256": "580bafb482ba1147eb9811ec7243b8224a894f096528d3605c19c25da87e440e"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/twenty-exclusion.md": {
+      "bytes": 16366,
+      "sha256": "fc42728dd57303770e15c9ff2ffa7d490f4f6aa11dae26cf4cabdcb8792b0fa7"
+    },
+    "inputs/defect-capacity.md": {
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f"
+    },
+    "inputs/projected-ranktwo.md": {
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd"
+    }
+  },
+  "initial_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/projected-ranktwo.md",
+    "inputs/twenty-exclusion.md",
+    "verify.py"
+  ],
+  "final_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/projected-ranktwo.md",
+    "inputs/twenty-exclusion.md",
+    "verify.py"
+  ],
+  "runs": [
+    {
+      "command": "python verify.py",
+      "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "exit_code": 0,
+      "stdout": {
+        "checks": 45,
+        "not_claimed": [
+          "actual-instance evaluation",
+          "complete geometric proof by computation",
+          "delta12 exclusion or occurrence",
+          "original degree18 higher-jet separation"
+        ],
+        "proof_sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+        "scope": "three exact complete inputs; fixed universal characters and degree identities only",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged": true
+    },
+    {
+      "command": "python -O verify.py",
+      "python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "exit_code": 0,
+      "stdout": {
+        "checks": 45,
+        "not_claimed": [
+          "actual-instance evaluation",
+          "complete geometric proof by computation",
+          "delta12 exclusion or occurrence",
+          "original degree18 higher-jet separation"
+        ],
+        "proof_sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+        "scope": "three exact complete inputs; fixed universal characters and degree identities only",
+        "status": "PASS"
+      },
+      "stderr": "",
+      "selected_bytes_unchanged": true
+    }
+  ],
+  "source_selected_bytes_unchanged": true,
+  "replay_selected_bytes_unchanged": true,
+  "checker_audit": "All verifier and character-module source read before execution. Only standard-library imports, fixed exact rational character identities, fixed integer arithmetic, and pinned-file reads. All checks are explicit require calls and remain active under -O. No actual source-instance evaluation, broad scan, network call, or external write.",
+  "scope_limit": "This replay checks fixed identities, arithmetic, and exact bytes; independent whole-proof mathematical review is separate in REVIEWER-REVIEW.md."
+}
