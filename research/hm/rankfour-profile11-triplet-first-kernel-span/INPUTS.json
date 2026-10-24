@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "kernel-three-exclusion",
+      "pr": 1234,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "local_path": "inputs/kernel-three-exclusion.md",
+      "utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+      "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d55622ece9a4bb9e20197dec560b298f1d03fb1/research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md"
+    },
+    {
+      "id": "first-kernel-structure",
+      "pr": 1228,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "local_path": "inputs/first-kernel-structure.md",
+      "utf8_bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+      "git_blob_sha1": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593/research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md"
+    },
+    {
+      "id": "positive-span",
+      "pr": 1205,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "97dad5c307a04f61d850e8a4211559e97ed4c2fd",
+      "path": "research/hm/rankfour-profile11-triplet-positive-span/PROOF.md",
+      "local_path": "inputs/positive-span.md",
+      "utf8_bytes": 12569,
+      "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+      "git_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/97dad5c307a04f61d850e8a4211559e97ed4c2fd/research/hm/rankfour-profile11-triplet-positive-span/PROOF.md"
+    },
+    {
+      "id": "eighteen-jets",
+      "pr": 1209,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "913892c66403ea57ed1681957ae1b9f8db9e5e15",
+      "path": "research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "local_path": "inputs/eighteen-jets.md",
+      "utf8_bytes": 17528,
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/913892c66403ea57ed1681957ae1b9f8db9e5e15/research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md"
+    }
+  ]
+}

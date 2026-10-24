@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "files": {
+    "PROOF.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "INPUTS.json": "91a1cb62a0ebab0c704a98ad50cf30879f34af0c21c08a4722fc06202d44af88",
+    "verify_packet.py": "55c394f3b2bd5048529f986e4b4bf784a72ca702ad980c104090be8b72c87ace",
+    "inputs/eighteen-jets.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "inputs/first-kernel-structure.md": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b"
+  },
+  "proof_utf8_bytes": 11977,
+  "proof_sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+  "exclusions": [
+    "LOCAL-SOURCE-FETCHES.json",
+    "preliminary audit notes",
+    "NEXT-FORWARD.md"
+  ]
+}
