@@ -1,0 +1,175 @@
+{
+  "verdict": "PASS",
+  "scope": "Independent exact arithmetic and retained-source authentication; actual geometry separately reviewed in REVIEW-INDEPENDENT.md.",
+  "proof_sha256": "8cab9ce788af9929a3c314718ccb1e5f29a49f227889466bfb31d5070c2255f1",
+  "checks": 267,
+  "independence": "No imports from characters.py, verify.py, earlier verifiers, or result files. Characters use a closed symmetric-power trace formula and class inner products.",
+  "continuous_capacity_maximum": "-53/2",
+  "integer_capacity_maximum": -27,
+  "capacity_optimizers": [
+    [
+      6,
+      2,
+      1
+    ],
+    [
+      7,
+      1,
+      1
+    ]
+  ],
+  "height_rows": [
+    {
+      "heights": [
+        3,
+        3,
+        3
+      ],
+      "value": -45
+    },
+    {
+      "heights": [
+        4,
+        3,
+        2
+      ],
+      "value": -36
+    },
+    {
+      "heights": [
+        4,
+        4,
+        1
+      ],
+      "value": -39
+    },
+    {
+      "heights": [
+        5,
+        2,
+        2
+      ],
+      "value": -30
+    },
+    {
+      "heights": [
+        5,
+        3,
+        1
+      ],
+      "value": -31
+    },
+    {
+      "heights": [
+        5,
+        4,
+        0
+      ],
+      "value": -36
+    },
+    {
+      "heights": [
+        6,
+        2,
+        1
+      ],
+      "value": -27
+    },
+    {
+      "heights": [
+        6,
+        3,
+        0
+      ],
+      "value": -30
+    },
+    {
+      "heights": [
+        7,
+        1,
+        1
+      ],
+      "value": -27
+    },
+    {
+      "heights": [
+        7,
+        2,
+        0
+      ],
+      "value": -28
+    },
+    {
+      "heights": [
+        8,
+        1,
+        0
+      ],
+      "value": -30
+    },
+    {
+      "heights": [
+        9,
+        0,
+        0
+      ],
+      "value": -36
+    }
+  ],
+  "original_defects": [
+    0,
+    12
+  ],
+  "inputs": [
+    {
+      "file": "inputs/actual.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "inputs/ambient.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "inputs/strict-top.md",
+      "sha256": "53ff5daf7e656bb1ec2dcf5feebd2813e2dbfbd6489a3a65117960f492b4cc08"
+    },
+    {
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "inputs/double-channel.md",
+      "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c"
+    },
+    {
+      "file": "inputs/capacity.md",
+      "sha256": "126fc2e7cbf54ae91f8e2eba3c0e809f70cf49c0f0aef28b574c5be3762ca6d2"
+    },
+    {
+      "file": "inputs/rank-strata.md",
+      "sha256": "4e3444e45d39cab9f45d31b8c204fa8749b076e33a5ccc55a6fe2e06d20038ed"
+    },
+    {
+      "file": "inputs/character-reference.py",
+      "sha256": "e81f548a7e0ea4069ea293ca3b86b1110c2fd6c2906e8637d1441b35f6f14af2"
+    },
+    {
+      "file": "inputs/low-top.md",
+      "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af"
+    },
+    {
+      "file": "inputs/top-three.md",
+      "sha256": "55e241f3277bb261d0cbc81f1d957a839e22dd525c0d24d821edf0d6a16014fe"
+    },
+    {
+      "file": "inputs/orbit-ramification.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    }
+  ],
+  "limits": [
+    "Not a construction of actual maps.",
+    "Not proof-assistant certification of source premises.",
+    "No full profile or top-three-boundary exclusion.",
+    "No actual coefficients, points, parameter values, jets, tensors, or instance matrices selected."
+  ]
+}

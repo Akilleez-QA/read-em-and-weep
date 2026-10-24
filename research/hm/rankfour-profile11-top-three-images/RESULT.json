@@ -1,0 +1,93 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_inputs": 11,
+  "checks": 174,
+  "claim": "Matched actual Euler graph, residual sheaf map, endpoint rank2-or3, and defect0-or12",
+  "coefficient_pair_selected": false,
+  "defect_bound": 19,
+  "dual_capacity": -27,
+  "gamma_is_assumed_Gauss_derivative": false,
+  "max_symmetric_degree": 5,
+  "necessary_N_shapes": [
+    [
+      [
+        -4,
+        "V"
+      ],
+      [
+        -5,
+        "T"
+      ]
+    ],
+    [
+      [
+        -4,
+        "V"
+      ],
+      [
+        -4,
+        "P"
+      ],
+      [
+        -7,
+        "Wp"
+      ]
+    ],
+    [
+      [
+        -4,
+        "V"
+      ],
+      [
+        -4,
+        "D"
+      ],
+      [
+        -10,
+        "one"
+      ]
+    ]
+  ],
+  "possible_defects": [
+    0,
+    12
+  ],
+  "profile_closure": false,
+  "proof_sha256": "8cab9ce788af9929a3c314718ccb1e5f29a49f227889466bfb31d5070c2255f1",
+  "rank_one_V_image_Hom": [
+    [
+      -4,
+      0
+    ],
+    [
+      -3,
+      0
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "rejected_mutations": [
+    "replace cubic kernel by V",
+    "allow rank1 V image",
+    "supply scalar V derivative",
+    "drop cotangent graph twist",
+    "round capacity upward",
+    "allow defect twenty",
+    "call defect twelve unramified",
+    "use full N rank as residual rank"
+  ]
+}
