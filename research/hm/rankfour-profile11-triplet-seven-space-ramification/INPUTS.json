@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "id": "ten-pairing-splitting",
+      "pr": 1237,
+      "ref": "2dfb37187cf61c59b1277a4492881c0fd42de44f",
+      "path": "research/hm/rankfour-profile11-triplet-ten-pairing-splitting/PROOF.md",
+      "local_path": "inputs/ten-pairing-splitting.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e",
+      "git_blob_sha1": "e41b654ff6edba56d5a071811f19d4db4346681c",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/2dfb37187cf61c59b1277a4492881c0fd42de44f/research/hm/rankfour-profile11-triplet-ten-pairing-splitting/PROOF.md"
+    },
+    {
+      "id": "first-kernel-forward-closure",
+      "pr": 1236,
+      "ref": "092fc5f31dfaa5553ee5ea687f175ecba1878a2a",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md",
+      "local_path": "inputs/first-kernel-forward-closure.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/092fc5f31dfaa5553ee5ea687f175ecba1878a2a/research/hm/rankfour-profile11-triplet-first-kernel-forward-closure/PROOF.md"
+    },
+    {
+      "id": "shared-d",
+      "pr": 1206,
+      "ref": "252b967ebbfbea6fc0c6451a835ab2daff92d73b",
+      "path": "research/hm/rankfour-profile11-triplet-shared-d/PROOF.md",
+      "local_path": "inputs/shared-d.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "utf8_bytes": 8801,
+      "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+      "git_blob_sha1": "82596d9d02147711e0d5f7953912a94fffbae684",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/252b967ebbfbea6fc0c6451a835ab2daff92d73b/research/hm/rankfour-profile11-triplet-shared-d/PROOF.md"
+    }
+  ]
+}
