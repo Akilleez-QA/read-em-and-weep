@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "replayed_at_utc": "2026-10-24T05:45:31.968914+00:00",
+  "scope": "Independent selected-eight-file isolated replay after full source-code and whole-proof review. The local-only apolar draft, LOCAL files, all raw fetch responses and author/reviewer reports are excluded from the replay.",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "selected_files": [
+    {
+      "file": "PROOF.md",
+      "bytes": 13247,
+      "sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+      "matches_packet": true
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1543,
+      "sha256": "9530ea526e72de66888c585d8ee66c1018d7781088e6b4d3bcac8a8a6d8b7e2c",
+      "matches_packet": true
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 1683,
+      "sha256": "5d4a64fed09529d84ca560c5d69212a8fe584f48fed596126c0429d67b2c2a4d",
+      "matches_packet": true
+    },
+    {
+      "file": "verify.py",
+      "bytes": 5429,
+      "sha256": "9cf7897dffb36b52e5df12e9f26ccdcee230600fa60be09bc3e030c11d1614b8",
+      "matches_packet": true
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7",
+      "matches_packet": true
+    },
+    {
+      "file": "inputs/defect-capacity.md",
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+      "matches_packet": true
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "bytes": 8501,
+      "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "matches_packet": true
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "bytes": 17528,
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "matches_packet": true
+    }
+  ],
+  "initial_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/eighteen-jets.md",
+    "inputs/five-kernels.md",
+    "verify.py"
+  ],
+  "final_files": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/defect-capacity.md",
+    "inputs/eighteen-jets.md",
+    "inputs/five-kernels.md",
+    "verify.py"
+  ],
+  "exactly_selected_eight_before_and_after": true,
+  "selected_contents_unchanged_after_runs": true,
+  "normal_optimized_stdout_identical": true,
+  "runs": [
+    {
+      "mode": "normal",
+      "command": "python verify.py",
+      "bytecode_suppression": "-B and PYTHONDONTWRITEBYTECODE=1 preserve the exact eight-file isolated set",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 42,\n  \"proof_sha256\": \"b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5\",\n  \"scope\": \"Fixed physical characters, scalar quotient cohomology degrees, one symbolic two-column identity and orbit arithmetic only. No actual source-instance evaluation or candidate search.\"\n}\n",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 42,
+        "proof_sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+        "scope": "Fixed physical characters, scalar quotient cohomology degrees, one symbolic two-column identity and orbit arithmetic only. No actual source-instance evaluation or candidate search."
+      },
+      "pass": true
+    },
+    {
+      "mode": "optimized",
+      "command": "python -O verify.py",
+      "bytecode_suppression": "-B and PYTHONDONTWRITEBYTECODE=1 preserve the exact eight-file isolated set",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 42,\n  \"proof_sha256\": \"b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5\",\n  \"scope\": \"Fixed physical characters, scalar quotient cohomology degrees, one symbolic two-column identity and orbit arithmetic only. No actual source-instance evaluation or candidate search.\"\n}\n",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 42,
+        "proof_sha256": "b7f22a08e4c2e740bce1ab3340b88ef631b21f5045055c73f35fffad969c1aa5",
+        "scope": "Fixed physical characters, scalar quotient cohomology degrees, one symbolic two-column identity and orbit arithmetic only. No actual source-instance evaluation or candidate search."
+      },
+      "pass": true
+    }
+  ],
+  "limits": "Verifier arithmetic is supplementary, not a substitute for the geometric whole-proof review. No network reads, GitHub writes, actual source-instance evaluations, candidate scan or large computation were performed by replay."
+}
