@@ -1,0 +1,174 @@
+{
+  "results": [
+    {
+      "mutation": "wrong_actual_M4",
+      "optimized": false,
+      "reason": "ValueError: actual source dimensions",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_M4",
+      "optimized": true,
+      "reason": "ValueError: actual source dimensions",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_H",
+      "optimized": false,
+      "reason": "ValueError: actual source dimensions",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_H",
+      "optimized": true,
+      "reason": "ValueError: actual source dimensions",
+      "rejected": true
+    },
+    {
+      "mutation": "physical_Wprime_swap",
+      "optimized": false,
+      "reason": "ValueError: symmetric power dimension",
+      "rejected": true
+    },
+    {
+      "mutation": "physical_Wprime_swap",
+      "optimized": true,
+      "reason": "ValueError: symmetric power dimension",
+      "rejected": true
+    },
+    {
+      "mutation": "permit_length_ten",
+      "optimized": false,
+      "reason": "ValueError: complete nine determinant cases",
+      "rejected": true
+    },
+    {
+      "mutation": "permit_length_ten",
+      "optimized": true,
+      "reason": "ValueError: complete nine determinant cases",
+      "rejected": true
+    },
+    {
+      "mutation": "drop_determinant_parity",
+      "optimized": false,
+      "reason": "ValueError: complete nine determinant cases",
+      "rejected": true
+    },
+    {
+      "mutation": "drop_determinant_parity",
+      "optimized": true,
+      "reason": "ValueError: complete nine determinant cases",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_torsion_length",
+      "optimized": false,
+      "reason": "ValueError: length12 torsion character",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_torsion_length",
+      "optimized": true,
+      "reason": "ValueError: length12 torsion character",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_torsion_sign",
+      "optimized": false,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_torsion_sign",
+      "optimized": true,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_endpoint_shift",
+      "optimized": false,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_endpoint_shift",
+      "optimized": true,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_fourth_positive_test",
+      "optimized": false,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_fourth_positive_test",
+      "optimized": true,
+      "reason": "ValueError: corrected Euler/positivity frontier",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_primal_derivative_twist",
+      "optimized": false,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_primal_derivative_twist",
+      "optimized": true,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_derivative_twist",
+      "optimized": false,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_derivative_twist",
+      "optimized": true,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_internal_cotangent_twist",
+      "optimized": false,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_internal_cotangent_twist",
+      "optimized": true,
+      "reason": "ValueError: corrected complete horizontal partition",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_degree_bound",
+      "optimized": false,
+      "reason": "ValueError: rank-one degree bound and four-step persistence force span nine",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_degree_bound",
+      "optimized": true,
+      "reason": "ValueError: rank-one degree bound and four-step persistence force span nine",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_required_weight",
+      "optimized": false,
+      "reason": "ValueError: rank-one invariant defect gap contradiction",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_required_weight",
+      "optimized": true,
+      "reason": "ValueError: rank-one invariant defect gap contradiction",
+      "rejected": true
+    }
+  ],
+  "status": "PASS",
+  "subprocess_mutations_rejected": 28
+}

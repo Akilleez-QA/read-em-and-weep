@@ -1,0 +1,138 @@
+{
+  "controls": [
+    {
+      "name": "incorrect_defect_budget",
+      "optimized": false,
+      "reason": "ValueError: total degree",
+      "rejected": true
+    },
+    {
+      "name": "incorrect_defect_budget",
+      "optimized": true,
+      "reason": "ValueError: total degree",
+      "rejected": true
+    },
+    {
+      "name": "omit_length12_defects",
+      "optimized": false,
+      "reason": "ValueError: complete nine parity-admissible cases",
+      "rejected": true
+    },
+    {
+      "name": "omit_length12_defects",
+      "optimized": true,
+      "reason": "ValueError: complete nine parity-admissible cases",
+      "rejected": true
+    },
+    {
+      "name": "drop_determinant_parity",
+      "optimized": false,
+      "reason": "ValueError: complete nine parity-admissible cases",
+      "rejected": true
+    },
+    {
+      "name": "drop_determinant_parity",
+      "optimized": true,
+      "reason": "ValueError: complete nine parity-admissible cases",
+      "rejected": true
+    },
+    {
+      "name": "wrong_torsion_length",
+      "optimized": false,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_torsion_length",
+      "optimized": true,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "reverse_torsion_sign",
+      "optimized": false,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "reverse_torsion_sign",
+      "optimized": true,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_dual_positive_twist",
+      "optimized": false,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_dual_positive_twist",
+      "optimized": true,
+      "reason": "ValueError: recorded independent cohomology frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_lower_target_twist",
+      "optimized": false,
+      "reason": "ValueError: recorded independent horizontal frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_lower_target_twist",
+      "optimized": true,
+      "reason": "ValueError: recorded independent horizontal frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_upper_target_twist",
+      "optimized": false,
+      "reason": "ValueError: recorded independent horizontal frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_upper_target_twist",
+      "optimized": true,
+      "reason": "ValueError: recorded independent horizontal frontier",
+      "rejected": true
+    },
+    {
+      "name": "wrong_internal_derivative_twist",
+      "optimized": false,
+      "reason": "ValueError: witness internal Hom",
+      "rejected": true
+    },
+    {
+      "name": "wrong_internal_derivative_twist",
+      "optimized": true,
+      "reason": "ValueError: witness internal Hom",
+      "rejected": true
+    },
+    {
+      "name": "wrong_rankone_degree_bound",
+      "optimized": false,
+      "reason": "ValueError: unique possible constant-span dimension",
+      "rejected": true
+    },
+    {
+      "name": "wrong_rankone_degree_bound",
+      "optimized": true,
+      "reason": "ValueError: unique possible constant-span dimension",
+      "rejected": true
+    },
+    {
+      "name": "wrong_final_required_weight",
+      "optimized": false,
+      "reason": "ValueError: invariant orbit gap contradiction",
+      "rejected": true
+    },
+    {
+      "name": "wrong_final_required_weight",
+      "optimized": true,
+      "reason": "ValueError: invariant orbit gap contradiction",
+      "rejected": true
+    }
+  ],
+  "rejections": 22,
+  "status": "PASS"
+}

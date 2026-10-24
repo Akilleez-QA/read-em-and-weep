@@ -1,0 +1,15 @@
+{
+  "author_checks": 26178,
+  "author_mathematical_manifest_sha256": "d9c70b32bcb4819f07d9b556313b266cf248a35a544ba894542d8200162da378",
+  "author_result_sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76",
+  "cohomology_tuple_count": 359,
+  "cohomology_tuples_equal": true,
+  "horizontal_survivor_tuple_count": 172,
+  "horizontal_survivor_tuples_equal": true,
+  "independent_checks": 11331,
+  "independent_result_sha256": "a25551ec07fdf8de92690909034c555f4009b9d35b672eeacc6188ba7be4fc89",
+  "independent_subprocess_mutations": 22,
+  "normal_optimized_stdout_and_full_result_equal": true,
+  "remaining_after_rankone_bridge": 0,
+  "status": "PASS"
+}
