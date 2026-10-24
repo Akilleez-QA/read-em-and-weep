@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "review_scope": "Both complete direct originals independently freshly retrieved by exact immutable path/ref and exact Git blob.",
+  "proof_sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+  "proof_bytes": 16183,
+  "proof_identity": {
+    "bytes": 16183,
+    "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b"
+  },
+  "timestamp_utc": "2026-10-24T10:19:41.784171+00:00",
+  "source_count": 2,
+  "sources": [
+    {
+      "file": "inputs/top-normal-extension.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "192f771436114029ccbaf0413a5e8f96edb6fce5",
+      "path": "research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/192f771436114029ccbaf0413a5e8f96edb6fce5/research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+      "fetch_file_request": {
+        "repository_full_name": "Akilleez-QA/read-em-and-weep",
+        "path": "research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+        "ref": "192f771436114029ccbaf0413a5e8f96edb6fce5"
+      },
+      "fetch_blob_request": {
+        "repository_full_name": "Akilleez-QA/read-em-and-weep",
+        "blob_sha": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "retrieved_at": "2026-10-24T10:17:07.157Z",
+      "fresh_path": {
+        "bytes": 16808,
+        "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+        "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "fresh_blob": {
+        "bytes": 16808,
+        "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+        "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "retained_local": {
+        "bytes": 16808,
+        "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+        "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "returned_path_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147",
+      "complete_bytes_equal": true,
+      "expected_identity_matches": true,
+      "raw_record": "REVIEWER-FRESH-top-normal-extension.json",
+      "raw_record_sha256": "ab67bd5515987bc7f3a12f9e9f20c451d94ce3b253600ffed032c1c2c6ac9578"
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "913892c66403ea57ed1681957ae1b9f8db9e5e15",
+      "path": "research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/913892c66403ea57ed1681957ae1b9f8db9e5e15/research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+      "fetch_file_request": {
+        "repository_full_name": "Akilleez-QA/read-em-and-weep",
+        "path": "research/hm/rankfour-profile11-triplet-eighteen-jets/PROOF.md",
+        "ref": "913892c66403ea57ed1681957ae1b9f8db9e5e15"
+      },
+      "fetch_blob_request": {
+        "repository_full_name": "Akilleez-QA/read-em-and-weep",
+        "blob_sha": "730021d4e97c4c1307a1d3c6c5303e4e9792202d"
+      },
+      "retrieved_at": "2026-10-24T10:17:07.977Z",
+      "fresh_path": {
+        "bytes": 17528,
+        "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+        "git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d"
+      },
+      "fresh_blob": {
+        "bytes": 17528,
+        "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+        "git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d"
+      },
+      "retained_local": {
+        "bytes": 17528,
+        "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+        "git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d"
+      },
+      "returned_path_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d",
+      "complete_bytes_equal": true,
+      "expected_identity_matches": true,
+      "raw_record": "REVIEWER-FRESH-eighteen-jets.json",
+      "raw_record_sha256": "83804ead9709509fe6deb4bc0100fe6adbfa09cf64a849a4c9a134d854016c50"
+    }
+  ],
+  "source_authentication_method": "Exact UTF-8 full-byte equality, byte length, SHA256, and SHA1 of canonical Git blob header plus complete content.",
+  "raw_records_excluded_from_selected_replay": true
+}
