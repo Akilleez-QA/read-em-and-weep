@@ -1,0 +1,226 @@
+{
+  "status": "PASS",
+  "proof_sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+  "proof_bytes": 16183,
+  "timestamp_utc": "2026-10-24T10:19:41.929638+00:00",
+  "isolated_directory": "/tmp/reviewer-k3-seven-only-r3b922hu",
+  "newly_empty_before_copy": true,
+  "selected_file_count": 7,
+  "files_before_run": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/eighteen-jets.md",
+    "inputs/top-normal-extension.md",
+    "verify.py"
+  ],
+  "files_after_run": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "characters.py",
+    "inputs/eighteen-jets.md",
+    "inputs/top-normal-extension.md",
+    "verify.py"
+  ],
+  "selected_file_identities": {
+    "PROOF.md": {
+      "bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+      "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b"
+    },
+    "INPUTS.json": {
+      "bytes": 1056,
+      "sha256": "ae5a0efb310ca9f95db5f46465b8f55998ebccc8f010b1faadb7a1b81b9d5d3e",
+      "git_blob_sha1": "faedac0f5e738ca9e81a99fc173b25fbc9057c88"
+    },
+    "REPRODUCE.md": {
+      "bytes": 4964,
+      "sha256": "86de1ab420cf96736d1ca8ac33cc484f8a4969cb13984ef22adc25b742d1cdde",
+      "git_blob_sha1": "dddcf1df25e997d7ebc2bdd6ffb3227acc725b08"
+    },
+    "verify.py": {
+      "bytes": 5244,
+      "sha256": "0ba0547f23cff1448047fc603dc973dbe2741b16c65edbaf838a331b7c18a9bf",
+      "git_blob_sha1": "2e9417a2d63be1b87ac0dcb7169bc0207ffb06e2"
+    },
+    "characters.py": {
+      "bytes": 1623,
+      "sha256": "a4ccb5192de0eb1818dc4aaf2b12c6d8d12cc56fbad7ea7e561c77ec38e7a7dc",
+      "git_blob_sha1": "9007c19f71533a32267c6c83ae28bd18a9f9bf99"
+    },
+    "inputs/top-normal-extension.md": {
+      "bytes": 16808,
+      "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+      "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+    },
+    "inputs/eighteen-jets.md": {
+      "bytes": 17528,
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "git_blob_sha1": "730021d4e97c4c1307a1d3c6c5303e4e9792202d"
+    }
+  },
+  "original_and_copied_files_unchanged": true,
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONPATH": ""
+  },
+  "normal_optimized_outputs_byte_identical": true,
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout_identity": {
+        "bytes": 3111,
+        "sha256": "338efc5a782520baf0f77de58a18d7d5a8a4c9fc23e010ffbe92beeabccdcad7",
+        "git_blob_sha1": "ed2623955854a477c4086b33f43b255dc4aaa2ea"
+      },
+      "stderr_bytes": 0,
+      "raw_output_record": "REVIEWER-LOCAL-NORMAL.json",
+      "matches_author_output_file": "VERIFY.json",
+      "result": {
+        "status": "PASS",
+        "checks": 51,
+        "proof_sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+        "universal_character_consistency_checks": 81,
+        "scope": "Complete direct-source and entire-proof authentication with bounded universal characters, ranks, degrees, invariant and ordinary Hom inequalities only. No selected actual instance, broad computation, or realization is evaluated. Arithmetic does not certify the conditional geometric exclusion; the entire actual-map proof requires independent review.",
+        "details": [
+          "exactly two complete direct immutable originals",
+          "hard-pinned immutable path and ref: inputs/top-normal-extension.md",
+          "complete immutable UTF8 length: inputs/top-normal-extension.md",
+          "complete immutable SHA256: inputs/top-normal-extension.md",
+          "complete immutable Git blob: inputs/top-normal-extension.md",
+          "exact immutable source URL: inputs/top-normal-extension.md",
+          "hard-pinned immutable path and ref: inputs/eighteen-jets.md",
+          "complete immutable UTF8 length: inputs/eighteen-jets.md",
+          "complete immutable SHA256: inputs/eighteen-jets.md",
+          "complete immutable Git blob: inputs/eighteen-jets.md",
+          "exact immutable source URL: inputs/eighteen-jets.md",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "81 exact-rational physical-W consistency checks",
+          "fixed Sym0 physical decomposition",
+          "fixed Sym1 physical decomposition",
+          "fixed Sym2 physical decomposition",
+          "fixed Sym3 physical decomposition",
+          "fixed Sym4 physical decomposition",
+          "fixed Sym5 physical decomposition",
+          "fixed Sym6 physical decomposition",
+          "fixed Sym7 physical decomposition",
+          "unique Euler row W(1) into A(2)",
+          "canonical D(-4) has no map to alternate-doublet quotient",
+          "unique D(-4) row into W(1)",
+          "balanced rank-two quotient coefficient is Wp",
+          "all positive even invariant degrees needed in Q classification vanish",
+          "unequal Q top invariant degree bound and positive lower-row degree bound",
+          "two Q middle types have the required degree",
+          "original E0 rank and degree",
+          "original K1 rank and degree",
+          "original K3 rank and degree",
+          "common B rank and degree",
+          "common Csmall rank and degree",
+          "lifted coherent image rank and degree",
+          "actual H-normal leakage vanishes by ordinary degree",
+          "actual forward R rank and degree",
+          "actual Q rank and degree",
+          "universal quadratic Euler sequence rank and degree",
+          "zero Euler row contradicts ranks of R and Kminus",
+          "derivative quotient kernel Kminus over Bhat",
+          "split-case actual N rank and degree",
+          "split-case actual K over N quotient",
+          "split-case N over Bhat matches A(2)",
+          "actual E0 over N rank and degree",
+          "split normal extension cotangent twist",
+          "untwisted forbidden normal quotient degree",
+          "ordinary Hom from E0 to O(-10) vanishes",
+          "universal complete quartic evaluation kernel rank and degree",
+          "universal Euler scalar inclusion degree",
+          "canonical D or quartic kernel cannot enter Bhat"
+        ]
+      }
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout_identity": {
+        "bytes": 3111,
+        "sha256": "338efc5a782520baf0f77de58a18d7d5a8a4c9fc23e010ffbe92beeabccdcad7",
+        "git_blob_sha1": "ed2623955854a477c4086b33f43b255dc4aaa2ea"
+      },
+      "stderr_bytes": 0,
+      "raw_output_record": "REVIEWER-LOCAL-OPTIMIZED.json",
+      "matches_author_output_file": "VERIFY-OPT.json",
+      "result": {
+        "status": "PASS",
+        "checks": 51,
+        "proof_sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+        "universal_character_consistency_checks": 81,
+        "scope": "Complete direct-source and entire-proof authentication with bounded universal characters, ranks, degrees, invariant and ordinary Hom inequalities only. No selected actual instance, broad computation, or realization is evaluated. Arithmetic does not certify the conditional geometric exclusion; the entire actual-map proof requires independent review.",
+        "details": [
+          "exactly two complete direct immutable originals",
+          "hard-pinned immutable path and ref: inputs/top-normal-extension.md",
+          "complete immutable UTF8 length: inputs/top-normal-extension.md",
+          "complete immutable SHA256: inputs/top-normal-extension.md",
+          "complete immutable Git blob: inputs/top-normal-extension.md",
+          "exact immutable source URL: inputs/top-normal-extension.md",
+          "hard-pinned immutable path and ref: inputs/eighteen-jets.md",
+          "complete immutable UTF8 length: inputs/eighteen-jets.md",
+          "complete immutable SHA256: inputs/eighteen-jets.md",
+          "complete immutable Git blob: inputs/eighteen-jets.md",
+          "exact immutable source URL: inputs/eighteen-jets.md",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "81 exact-rational physical-W consistency checks",
+          "fixed Sym0 physical decomposition",
+          "fixed Sym1 physical decomposition",
+          "fixed Sym2 physical decomposition",
+          "fixed Sym3 physical decomposition",
+          "fixed Sym4 physical decomposition",
+          "fixed Sym5 physical decomposition",
+          "fixed Sym6 physical decomposition",
+          "fixed Sym7 physical decomposition",
+          "unique Euler row W(1) into A(2)",
+          "canonical D(-4) has no map to alternate-doublet quotient",
+          "unique D(-4) row into W(1)",
+          "balanced rank-two quotient coefficient is Wp",
+          "all positive even invariant degrees needed in Q classification vanish",
+          "unequal Q top invariant degree bound and positive lower-row degree bound",
+          "two Q middle types have the required degree",
+          "original E0 rank and degree",
+          "original K1 rank and degree",
+          "original K3 rank and degree",
+          "common B rank and degree",
+          "common Csmall rank and degree",
+          "lifted coherent image rank and degree",
+          "actual H-normal leakage vanishes by ordinary degree",
+          "actual forward R rank and degree",
+          "actual Q rank and degree",
+          "universal quadratic Euler sequence rank and degree",
+          "zero Euler row contradicts ranks of R and Kminus",
+          "derivative quotient kernel Kminus over Bhat",
+          "split-case actual N rank and degree",
+          "split-case actual K over N quotient",
+          "split-case N over Bhat matches A(2)",
+          "actual E0 over N rank and degree",
+          "split normal extension cotangent twist",
+          "untwisted forbidden normal quotient degree",
+          "ordinary Hom from E0 to O(-10) vanishes",
+          "universal complete quartic evaluation kernel rank and degree",
+          "universal Euler scalar inclusion degree",
+          "canonical D or quartic kernel cannot enter Bhat"
+        ]
+      }
+    }
+  ],
+  "scope": "Exactly seven selected files; standard-library bounded universal checks only; no selected actual instance and no network during replay."
+}
