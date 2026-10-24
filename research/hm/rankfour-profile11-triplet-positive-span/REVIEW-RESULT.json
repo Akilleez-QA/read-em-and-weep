@@ -1,0 +1,39 @@
+{
+  "actual_instance_evaluation": false,
+  "authenticity_sha256": "2220ca3dbe5a8bf924501f037cc8017b71d1530a485f16f4be44dd53c1c68d2a",
+  "checker_sha256": "0df72788f15ff9147ffbddd7441b31eb8e8eca21929b8a866103ebf98eb73ee3",
+  "checks": 209,
+  "geometry": "reviewed in REVIEW-INDEPENDENT.md; not mechanically certified",
+  "github_writes": false,
+  "implementation": "independent exact conjugacy-class arithmetic plus degree identities; no author-module imports",
+  "mutation_tests": [
+    {
+      "mutation": "PROOF.md",
+      "normal_exit": 1,
+      "optimized_exit": 1,
+      "result": "REJECTED"
+    },
+    {
+      "mutation": "inputs/zero-defect.md",
+      "normal_exit": 1,
+      "optimized_exit": 1,
+      "result": "REJECTED"
+    },
+    {
+      "mutation": "INPUTS.json",
+      "normal_exit": 1,
+      "optimized_exit": 1,
+      "result": "REJECTED"
+    }
+  ],
+  "normal_exit": 0,
+  "normal_optimized_output_identical": true,
+  "optimized_exit": 0,
+  "ordinary_and_optimized_stdout_sha256": "b4f3155af8006e7bd39374338746ecf0df1234f2962c54f8a7511e5970e269f5",
+  "portable_selected_only_replay": "PASS",
+  "proof_sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+  "review_sha256": "8d97e3513840896645f2fca82014e588033a60f833abb4d4d86deb123aa16118",
+  "scope": "full-positive triplet branch only; no existence, whole-branch exclusion, higher-order or algebraicity conclusion",
+  "source_files_checked": 7,
+  "status": "PASS"
+}

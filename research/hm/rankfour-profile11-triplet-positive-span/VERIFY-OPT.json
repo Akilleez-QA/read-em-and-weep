@@ -1,0 +1,6 @@
+{
+  "checks": 79,
+  "proof_sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+  "scope": "Fixed universal characters, exact degree arithmetic and source authentication only. Actual geometric arguments are reviewed mathematically, not machine-certified.",
+  "status": "PASS"
+}
