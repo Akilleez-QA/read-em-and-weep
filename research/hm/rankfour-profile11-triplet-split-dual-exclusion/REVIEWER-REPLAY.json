@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "frozen_proof": {
+    "file": "PROOF.md",
+    "bytes": 6373,
+    "sha256": "57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82"
+  },
+  "isolated_directory": "/workspace/shared/REVIEWER-FRESH-split-dual-replay-dt0tt8hv",
+  "classification": "LOCAL REVIEWER-FRESH replay, excluded from six selected files",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "selected_file_count": 6,
+  "selected_files_before": {
+    "PROOF.md": {
+      "bytes": 6373,
+      "sha256": "57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82"
+    },
+    "INPUTS.json": {
+      "bytes": 1050,
+      "sha256": "3fbe2e03b248f5dfe560cdc7d0b27afafd8750eb3ebf1c6e7d9830e5c4d0b511"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2098,
+      "sha256": "948dfb1feab1b574f10fde3cdb588905f6c99b1a4f7f75c1cb0568d0861426b5"
+    },
+    "verify.py": {
+      "bytes": 4861,
+      "sha256": "b0d7bd4b3e41564545651d73541517d110141f9a75e83aae361434cbf82ddc7f"
+    },
+    "inputs/dual-extension.md": {
+      "bytes": 16075,
+      "sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b"
+    },
+    "inputs/mixed-jet-pairing.md": {
+      "bytes": 14593,
+      "sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b"
+    }
+  },
+  "selected_files_after": {
+    "PROOF.md": {
+      "bytes": 6373,
+      "sha256": "57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82"
+    },
+    "INPUTS.json": {
+      "bytes": 1050,
+      "sha256": "3fbe2e03b248f5dfe560cdc7d0b27afafd8750eb3ebf1c6e7d9830e5c4d0b511"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2098,
+      "sha256": "948dfb1feab1b574f10fde3cdb588905f6c99b1a4f7f75c1cb0568d0861426b5"
+    },
+    "verify.py": {
+      "bytes": 4861,
+      "sha256": "b0d7bd4b3e41564545651d73541517d110141f9a75e83aae361434cbf82ddc7f"
+    },
+    "inputs/dual-extension.md": {
+      "bytes": 16075,
+      "sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b"
+    },
+    "inputs/mixed-jet-pairing.md": {
+      "bytes": 14593,
+      "sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b"
+    }
+  },
+  "isolated_file_list_before": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "inputs/dual-extension.md",
+    "inputs/mixed-jet-pairing.md",
+    "verify.py"
+  ],
+  "isolated_file_list_after": [
+    "INPUTS.json",
+    "PROOF.md",
+    "REPRODUCE.md",
+    "inputs/dual-extension.md",
+    "inputs/mixed-jet-pairing.md",
+    "verify.py"
+  ],
+  "fresh_empty_directory": true,
+  "both_runs_identical_output_bytes": true,
+  "all_selected_source_and_replay_files_unchanged": true,
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 34,\n  \"not_claimed\": [\n    \"actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation\",\n    \"K1/K3 assumptions or new original higher jets\",\n    \"residual branch exclusion, realization or algebraicity\",\n    \"geometric proof by computation\"\n  ],\n  \"proof_bytes\": 6373,\n  \"proof_sha256\": \"57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82\",\n  \"scope\": \"two complete pins; fixed diagonal twists, ranks, degrees and Hom arithmetic\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_sha256": "a14845afc9b0f13e22eb6284f5307bfde9330185718a4fa10c6f9c704eaa4bb8",
+      "stdout_bytes": 507
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 34,\n  \"not_claimed\": [\n    \"actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation\",\n    \"K1/K3 assumptions or new original higher jets\",\n    \"residual branch exclusion, realization or algebraicity\",\n    \"geometric proof by computation\"\n  ],\n  \"proof_bytes\": 6373,\n  \"proof_sha256\": \"57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82\",\n  \"scope\": \"two complete pins; fixed diagonal twists, ranks, degrees and Hom arithmetic\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_sha256": "a14845afc9b0f13e22eb6284f5307bfde9330185718a4fa10c6f9c704eaa4bb8",
+      "stdout_bytes": 507
+    }
+  ],
+  "scope": "Only fixed universal diagonal twists, ranks, degrees, line-bundle Hom arithmetic and complete-byte authentication; no selected actual data or broad computation."
+}

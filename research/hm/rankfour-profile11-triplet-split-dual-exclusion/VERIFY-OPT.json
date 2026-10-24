@@ -1,0 +1,13 @@
+{
+  "checks": 34,
+  "not_claimed": [
+    "actual coefficient, parameter, point, jet, tensor, matrix or instance-rank evaluation",
+    "K1/K3 assumptions or new original higher jets",
+    "residual branch exclusion, realization or algebraicity",
+    "geometric proof by computation"
+  ],
+  "proof_bytes": 6373,
+  "proof_sha256": "57a435c44d7de7f2ef0e97b168530acc32aa37dc25258adfff48ba06f848cc82",
+  "scope": "two complete pins; fixed diagonal twists, ranks, degrees and Hom arithmetic",
+  "status": "PASS"
+}
