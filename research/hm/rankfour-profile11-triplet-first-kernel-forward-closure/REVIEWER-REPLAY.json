@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "role": "independent entire-proof reviewer",
+  "completed_at_utc": "2026-10-24T10:51:31.486497+00:00",
+  "proof_utf8_bytes": 18052,
+  "proof_sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+  "checker_sha256": "361ef739d35fe9482e3b0bf50c4dba650cec0ff23422b3d65716d25c7bcec78e",
+  "checker_inspected_before_execution": true,
+  "checker_review": "Read all 7068 bytes. Only pathlib complete-file reads, hashlib, JSON parsing, fixed physical-W adjacency recurrence to Sym12, and displayed fixed integer arithmetic. No network, subprocess, actual-instance data evaluation, broad search, or external writes in checker. Explicit require functions remain active under -O.",
+  "isolated_directory": "/workspace/shared/first-kernel-forward-review-ihgjkjv1",
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "verify_packet.py",
+    "inputs/first-kernel-span.md",
+    "inputs/kernel-three-exclusion.md",
+    "inputs/positive-span.md"
+  ],
+  "exact_selected_file_count": 6,
+  "selected_hashes": {
+    "PROOF.md": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+    "INPUTS.json": "1e9a3dc4cf2bd6c0d26240d1886fc7356c96d2cdd80c7984bad8f5aae1612e5b",
+    "verify_packet.py": "361ef739d35fe9482e3b0bf50c4dba650cec0ff23422b3d65716d25c7bcec78e",
+    "inputs/first-kernel-span.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b"
+  },
+  "original_frozen_hashes_before": {
+    "PROOF.md": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+    "INPUTS.json": "1e9a3dc4cf2bd6c0d26240d1886fc7356c96d2cdd80c7984bad8f5aae1612e5b",
+    "verify_packet.py": "361ef739d35fe9482e3b0bf50c4dba650cec0ff23422b3d65716d25c7bcec78e",
+    "inputs/first-kernel-span.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "README.md": "c0056212182a8d9f68924e7c72c9f92ea6f54a94945d8e87ccb6e39f38d73e26"
+  },
+  "original_frozen_hashes_after": {
+    "PROOF.md": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+    "INPUTS.json": "1e9a3dc4cf2bd6c0d26240d1886fc7356c96d2cdd80c7984bad8f5aae1612e5b",
+    "verify_packet.py": "361ef739d35fe9482e3b0bf50c4dba650cec0ff23422b3d65716d25c7bcec78e",
+    "inputs/first-kernel-span.md": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+    "inputs/kernel-three-exclusion.md": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+    "inputs/positive-span.md": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+    "README.md": "c0056212182a8d9f68924e7c72c9f92ea6f54a94945d8e87ccb6e39f38d73e26"
+  },
+  "original_and_copy_hashes_unchanged": true,
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "verify_packet.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: 84 bounded checks (12 whole-file authentication; 42 universal character; 30 fixed rank/degree checks).\nEntire frozen proof SHA256: 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nConditional K1 forward closure and rank-one exclusion only; no K1 exclusion or realization.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "returncode": 0,
+      "stdout": "PASS: 84 bounded checks (12 whole-file authentication; 42 universal character; 30 fixed rank/degree checks).\nEntire frozen proof SHA256: 90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137\nConditional K1 forward closure and rank-one exclusion only; no K1 exclusion or realization.\n",
+      "stderr": ""
+    }
+  ],
+  "interpretation": "Both modes pass 84 bounded checks: 12 authentication, 42 universal characters, 30 fixed arithmetic. Replay is not geometric proof certification."
+}
