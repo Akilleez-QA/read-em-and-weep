@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "packet": "rankfour-profile11-triplet-r13-extension-incidence",
+  "status": "frozen for a new independent entire-proof and complete-source review; not published",
+  "freeze_utc": "2026-10-24T12:48:32.887Z",
+  "files": {
+    "INPUTS.json": {
+      "bytes": 8444,
+      "sha256": "573381735a89e412485b7093078af703288371b510655fd90dd94a2a3855654b",
+      "git_blob_sha1": "9ef89438d4a62165b77f9596c57c2f4378042b54"
+    },
+    "INPUTS.md": {
+      "bytes": 6192,
+      "sha256": "f7836316a753998fc658012b25fa67e0eaf0321ea479eb1c903815ec31897114",
+      "git_blob_sha1": "ffc7ae4f09241f2fde35b3d38e98ab2217d81695"
+    },
+    "PROOF.md": {
+      "bytes": 19230,
+      "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21",
+      "git_blob_sha1": "5ac2f53aec71adda224d3578fb6e871ac6a8fecb"
+    },
+    "PROVENANCE.md": {
+      "bytes": 5783,
+      "sha256": "41bbca7ac913c1bf96e9a0189d2aea2a0c4d796484369d2e1231010e783262d9",
+      "git_blob_sha1": "d966cd880e58782c5083a7b2a65b42f87d784920"
+    },
+    "README.md": {
+      "bytes": 3412,
+      "sha256": "00795951b00e536c5e0b6a27b35884ee875837bec7c48530b871ee5e59feb50a",
+      "git_blob_sha1": "61006fa2b880603555e0d83af79d2360b76fa116"
+    },
+    "inputs/f18-row-resolution.md": {
+      "bytes": 15616,
+      "sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+      "git_blob_sha1": "429c462fe6ba5f2b99770b9cabb35440130c807b"
+    },
+    "inputs/first-kernel-forward-closure.md": {
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+      "git_blob_sha1": "f77cfb52743be86e46e0c40570ec036e69aebaf3"
+    },
+    "inputs/first-kernel-span.md": {
+      "bytes": 11977,
+      "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+      "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3"
+    },
+    "inputs/orthogonal-top-incidence.md": {
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637",
+      "git_blob_sha1": "f00b059695615d9b8ab6d315798940e3ab0a58d4"
+    },
+    "inputs/shared-d-gluing.md": {
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+      "git_blob_sha1": "3d051410e80a33f1c4d78d3403bb186595bb72c3"
+    },
+    "verify.py": {
+      "bytes": 9817,
+      "sha256": "96836077699dbffbedafc94062e7cb3ed41bc2cc585e131ed9ca2594d3a39696",
+      "git_blob_sha1": "96faf7b39bca251f7a10294aa8b69e5672db66e8"
+    }
+  },
+  "core_digest_scheme": "SHA256 of UTF8 sorted path + TAB + SHA256 + TAB + decimal bytes + LF",
+  "core_digest_sha256": "b201b8318f4c8af47b3ceace4d552bd5b6018d1ab75520df5d8d41e0297df470",
+  "excluded_local_evidence": [
+    "LOCAL-SOURCE-FETCHES.json",
+    "evidence/"
+  ],
+  "review_boundary": "Author replay is not independent review. Checker is not proof. Parent will prepare final publication manifest after independent review."
+}
