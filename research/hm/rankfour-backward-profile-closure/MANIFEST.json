@@ -1,0 +1,365 @@
+{
+  "scope": "Conditional whole ordered maximal rank-four (3,1) profile exclusion by complete same-copy image-rank partition, no global SF>=5 claim.",
+  "files": [
+    {
+      "file": "CONTROLS.json",
+      "bytes": 2016,
+      "sha256": "34fd8f5ff161fe985a549503b917f2d18e4763d5612f93789f6530d6a0da9344"
+    },
+    {
+      "file": "DEPENDENCIES.json",
+      "bytes": 1489,
+      "sha256": "af9c1d018868ed3eeaecdfacb43501963931a33ec2c02941f7482b9ce56fdcd9"
+    },
+    {
+      "file": "PACKAGING-NOTE.md",
+      "bytes": 928,
+      "sha256": "271196863f03f3a744566d9ec72fdb33f4fd010684acb86fb5bdeeac7bfee30c"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 10849,
+      "sha256": "5a1d34fb57fcda4709e33fd184e762db67f9086238ec38a4a3342b8c2c1ba11b"
+    },
+    {
+      "file": "RANK-PARTITION.json",
+      "bytes": 962,
+      "sha256": "5a591f3377dd7891a0e9c2b19edda4a932b56f7027aedd93cd65bf139cafa533"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1821,
+      "sha256": "c4757a3e07bdd4dd1bd43d18465843dbf9533f70c215d13a3e75a621ec929238"
+    },
+    {
+      "file": "RESULT-O.json",
+      "bytes": 7248,
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "file": "RESULT-OTHER-CWD.json",
+      "bytes": 7248,
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "file": "RESULT.json",
+      "bytes": 7248,
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "file": "SOURCE-IDENTITIES.json",
+      "bytes": 5237,
+      "sha256": "094c755cc0e752c7665a5369b0ccf37be6fc7a23b0db70cec26e8b8cce577cec"
+    },
+    {
+      "file": "dependencies/lower-exclusion/MANIFEST.json",
+      "bytes": 7237,
+      "sha256": "3fc3e1f1d66993ae92c59c3790565ff1bf871192c31961fcdf9776168dcb6e5b"
+    },
+    {
+      "file": "dependencies/lower-exclusion/OBSTRUCTIONS.json",
+      "bytes": 10810,
+      "sha256": "b6517e98555f17f750e4602dd7af68a6e883570a2cfe8f5dd8ba6846946b46ee"
+    },
+    {
+      "file": "dependencies/lower-exclusion/PROOF.md",
+      "bytes": 9671,
+      "sha256": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1"
+    },
+    {
+      "file": "dependencies/lower-exclusion/README.md",
+      "bytes": 1151,
+      "sha256": "52de8ec12f54c04b56cca8e3d1fd85acafbff932cdd0a746e9471342958b8d17"
+    },
+    {
+      "file": "dependencies/lower-exclusion/RESULT-O.json",
+      "bytes": 13879,
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "file": "dependencies/lower-exclusion/RESULT-OTHER-CWD.json",
+      "bytes": 13879,
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "file": "dependencies/lower-exclusion/RESULT.json",
+      "bytes": 13879,
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/ENDPOINTS.json",
+      "bytes": 17562,
+      "sha256": "248830a83b7909b45b9c894048584d0679a5496d18cb9dd5f1a32d0e5d5fc272"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/INPUTS.json",
+      "bytes": 2838,
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/LEDGER.json",
+      "bytes": 7532,
+      "sha256": "c526f30ff7122803deea00e905ec61ccb9d71b4b6f4a33967e246b6cc6848fb6"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/MANIFEST.json",
+      "bytes": 2328,
+      "sha256": "6e4ebc717b2a4e2559a0fa0eda94a26136c6b2cc7082f758317b9f0b3d7b5075"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/PROOF.md",
+      "bytes": 13862,
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/README.md",
+      "bytes": 885,
+      "sha256": "e8d179ad423163ecad659f2dc4ceea81684590f2169936f1a71b96d56feca358"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT-O.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT-OTHER-CWD.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/SHA256SUMS",
+      "bytes": 1348,
+      "sha256": "408b1b028c2b32eac483a1ba9c27c36cd6acc4ec682829c078fcc8e124a45004"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/four-sources.md",
+      "bytes": 9616,
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "dependencies/lower-exclusion/cubic-image/verify.py",
+      "bytes": 18144,
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/CASES.json",
+      "bytes": 42381,
+      "sha256": "a6749b9800e44004df19b069d9c6d9317f808b70dbda28a5ba77acc3ee93eb24"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/ENDPOINT-EXCLUSIONS.json",
+      "bytes": 13968,
+      "sha256": "a7f3562ae26f47985f7c645dbff34a7ff7a2d9adf8c6d5ccc30b2abc6ed9fa04"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/INPUTS.json",
+      "bytes": 3421,
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/MANIFEST.json",
+      "bytes": 2866,
+      "sha256": "5e7690ee89e7569d6c8bfec731f6e8e386ffde87a6cf71863b6bf5141ec62d1c"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/PROOF.md",
+      "bytes": 14779,
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/QUOTIENTS.json",
+      "bytes": 7997,
+      "sha256": "3dd786d4229a15d18ea4ebc17c53c464297c3cd0e91bce58af9e098e5c7b78f1"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/README.md",
+      "bytes": 1137,
+      "sha256": "d6c2cc9d48128c7b1777e54f28110dfbf179b67141776d914ce56fa3a885704e"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/RESULT-O.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/RESULT-OTHER-CWD.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/RESULT.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/SHA256SUMS",
+      "bytes": 1641,
+      "sha256": "286d821dc499f4522c740ef6aa7f8aa46fc874730f248881a161e9982b3a358c"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/TORSION-LEDGER.json",
+      "bytes": 103068,
+      "sha256": "05362a08d969bc90c52021ae8eee8883b70fe6dba4f97a58749f0c28c39851f1"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "bytes": 15782,
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/inputs/four-sources.md",
+      "bytes": 9616,
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "dependencies/lower-exclusion/lower-image/verify.py",
+      "bytes": 22504,
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "file": "dependencies/lower-exclusion/verify.py",
+      "bytes": 9118,
+      "sha256": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39"
+    },
+    {
+      "file": "dependencies/rankone/CONTROLS.json",
+      "bytes": 477,
+      "sha256": "3e69d91b72e350a0c16489d35ea94f41f83a2dae6ade6aec71eb8e3f3f926fdc"
+    },
+    {
+      "file": "dependencies/rankone/MANIFEST.json",
+      "bytes": 2498,
+      "sha256": "7f54078b1620316bfc7f1675533c3a364632280a121868d58ad5f75e126e2701"
+    },
+    {
+      "file": "dependencies/rankone/PROOF.md",
+      "bytes": 7432,
+      "sha256": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8"
+    },
+    {
+      "file": "dependencies/rankone/README.md",
+      "bytes": 1181,
+      "sha256": "e876f3a1609776d1bb59f7b4466afe266d4ca19b8d3d4def0f78c89baf4f65ad"
+    },
+    {
+      "file": "dependencies/rankone/RESULT.json",
+      "bytes": 45458,
+      "sha256": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf"
+    },
+    {
+      "file": "dependencies/rankone/dependency/INPUTS.json",
+      "bytes": 3421,
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "file": "dependencies/rankone/dependency/PROOF.md",
+      "bytes": 14779,
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "file": "dependencies/rankone/dependency/RESULT.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "bytes": 15782,
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "dependencies/rankone/dependency/inputs/four-sources.md",
+      "bytes": 9616,
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "dependencies/rankone/dependency/verify.py",
+      "bytes": 22504,
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "file": "dependencies/rankone/test_controls.py",
+      "bytes": 1152,
+      "sha256": "534907812cab6a1887f135d51b217256283702a53232637cc8750e802510827d"
+    },
+    {
+      "file": "dependencies/rankone/verify.py",
+      "bytes": 4175,
+      "sha256": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+    },
+    {
+      "file": "test_controls.py",
+      "bytes": 1097,
+      "sha256": "0199f972f6a092d371042eaef7b89394f3defe2958cb4a02e78248ad12bca4df"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 10228,
+      "sha256": "05502b6c5fd5cbb5128ea9f52fef0c8e20e16104f821de5110f546ef1e54cb4b"
+    }
+  ]
+}

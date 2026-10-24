@@ -1,0 +1,559 @@
+[
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 4,
+    "case_id": 1,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2,
+      "W": 1,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "c3": 6,
+    "case_id": 2,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3,
+      "W": 1,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 4,
+    "case_id": 3,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 3
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2,
+      "W": 1,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "W",
+        "degree": 3
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      4,
+      5
+    ],
+    "c3": 6,
+    "case_id": 4,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "c3": 8,
+    "case_id": 5,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 4,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 8,
+    "case_id": 6,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 4,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "c3": 2,
+    "case_id": 7,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2,
+      "W": 1,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      4,
+      5
+    ],
+    "c3": 2,
+    "case_id": 8,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "c3": 4,
+    "case_id": 9,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 4,
+    "case_id": 10,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3,
+      "W'": 2
+    },
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 2,
+    "case_id": 11,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "V",
+        "degree": 1
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 2
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 1,
+      "W": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "V",
+        "degree": 0
+      },
+      {
+        "coefficient": "1",
+        "degree": 2
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "c3": 4,
+    "case_id": 12,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "V",
+        "degree": 1
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "V",
+        "degree": 0
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "c3": 6,
+    "case_id": 13,
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "V",
+        "degree": 1
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3,
+      "W'": 1
+    },
+    "quotient": [
+      {
+        "coefficient": "V",
+        "degree": 0
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 3
+  }
+]

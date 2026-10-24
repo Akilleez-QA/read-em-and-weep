@@ -1,0 +1,82 @@
+[
+  {
+    "path": "CONTROLS.json",
+    "sha256": "3e69d91b72e350a0c16489d35ea94f41f83a2dae6ade6aec71eb8e3f3f926fdc",
+    "bytes": 477
+  },
+  {
+    "path": "PROOF.md",
+    "sha256": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8",
+    "bytes": 7432
+  },
+  {
+    "path": "README.md",
+    "sha256": "e876f3a1609776d1bb59f7b4466afe266d4ca19b8d3d4def0f78c89baf4f65ad",
+    "bytes": 1181
+  },
+  {
+    "path": "RESULT.json",
+    "sha256": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf",
+    "bytes": 45458
+  },
+  {
+    "path": "dependency/INPUTS.json",
+    "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9",
+    "bytes": 3421
+  },
+  {
+    "path": "dependency/PROOF.md",
+    "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751",
+    "bytes": 14779
+  },
+  {
+    "path": "dependency/RESULT.json",
+    "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72",
+    "bytes": 230508
+  },
+  {
+    "path": "dependency/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+    "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+    "bytes": 9672
+  },
+  {
+    "path": "dependency/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+    "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf",
+    "bytes": 15782
+  },
+  {
+    "path": "dependency/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+    "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71",
+    "bytes": 12488
+  },
+  {
+    "path": "dependency/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+    "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2",
+    "bytes": 5414
+  },
+  {
+    "path": "dependency/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+    "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c",
+    "bytes": 10451
+  },
+  {
+    "path": "dependency/inputs/four-sources.md",
+    "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+    "bytes": 9616
+  },
+  {
+    "path": "dependency/verify.py",
+    "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6",
+    "bytes": 22504
+  },
+  {
+    "path": "test_controls.py",
+    "sha256": "534907812cab6a1887f135d51b217256283702a53232637cc8750e802510827d",
+    "bytes": 1152
+  },
+  {
+    "path": "verify.py",
+    "sha256": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f",
+    "bytes": 4175
+  }
+]

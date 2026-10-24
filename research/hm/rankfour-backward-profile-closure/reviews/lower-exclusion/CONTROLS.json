@@ -1,0 +1,66 @@
+{
+  "normal_and_optimized_match": true,
+  "rejected_mutations": [
+    {
+      "mutation": "source-hash",
+      "reason": "RuntimeError: frozen theorem dependency bytes",
+      "rejected": true
+    },
+    {
+      "mutation": "physical-marking",
+      "reason": "RuntimeError: fixed physical A differs from V",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-H1",
+      "reason": "RuntimeError: Euler H1 corrections retained",
+      "rejected": true
+    },
+    {
+      "mutation": "source-dual-swap",
+      "reason": "RuntimeError: actual rank-thirteen Qstar quartic Euler",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-case",
+      "reason": "RuntimeError: complete thirteen lower-image cases",
+      "rejected": true
+    },
+    {
+      "mutation": "discard-earlier-defects",
+      "reason": "RuntimeError: all earlier positive defects retained",
+      "rejected": true
+    },
+    {
+      "mutation": "quotient-twist",
+      "reason": "RuntimeError: every case forces one extra V in upper-endpoint quartic sections",
+      "rejected": true
+    },
+    {
+      "mutation": "derivative-twist",
+      "reason": "RuntimeError: every case forces one extra V in upper-endpoint quartic sections",
+      "rejected": true
+    },
+    {
+      "mutation": "top-kernel-twist",
+      "reason": "RuntimeError: every map from a top O(-4) summand to (Z/K)(-2) vanishes",
+      "rejected": true
+    },
+    {
+      "mutation": "weaken-top-slope",
+      "reason": "RuntimeError: every map from a top O(-4) summand to (Z/K)(-2) vanishes",
+      "rejected": true
+    },
+    {
+      "mutation": "source-Z-only",
+      "reason": "RuntimeError: O(9) restricted image can embed only for necessary source D",
+      "rejected": true
+    },
+    {
+      "mutation": "maps-vs-sections",
+      "reason": "RuntimeError: O(9) restricted image can embed only for necessary source D",
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,140 @@
+{
+  "files": [
+    {
+      "bytes": 2408,
+      "file": "CONTROLS.json",
+      "sha256": "41b54a8e3a6489ed0482bb664e059f4d8d08d3520bf498f28705ca9cb64582ef"
+    },
+    {
+      "bytes": 3421,
+      "file": "INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 931,
+      "file": "PACKAGE-CHECK.json",
+      "sha256": "b290bdd5e84fa0d09d91d60bb5f39925bd3dd64cb6fde558054dc24ee9c060e3"
+    },
+    {
+      "bytes": 553,
+      "file": "README.md",
+      "sha256": "c0e01e1d17ff22373a71feea2dd270cdf1e492e08ed6cfd47886aa445f13775a"
+    },
+    {
+      "bytes": 841,
+      "file": "RESULT.json",
+      "sha256": "c90937550d9fd721e975b10618bc1d419268afe83717290b765df56a4e10e242"
+    },
+    {
+      "bytes": 10473,
+      "file": "REVIEW.md",
+      "sha256": "ca050ba4a194367f1a609274864433f4589b820b724c1ab3d17d1aa89f27ab4c"
+    },
+    {
+      "bytes": 3534,
+      "file": "check_package.py",
+      "sha256": "635c695ab461321dc67c8ea791506bf0dd9e50ab9cbfe5ae01474e521c49e3a7"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 13862,
+      "file": "inputs/cubic-image-PROOF.md",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "bytes": 33630,
+      "file": "inputs/cubic-image-RESULT.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 18144,
+      "file": "inputs/cubic-image-verify.py",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "bytes": 9616,
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 14779,
+      "file": "inputs/lower-classification-PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 230508,
+      "file": "inputs/lower-classification-RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 22504,
+      "file": "inputs/lower-classification-verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 9671,
+      "file": "inputs/lower-exclusion-PROOF.md",
+      "sha256": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1"
+    },
+    {
+      "bytes": 13879,
+      "file": "inputs/lower-exclusion-RESULT.json",
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "bytes": 9118,
+      "file": "inputs/lower-exclusion-verify.py",
+      "sha256": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39"
+    },
+    {
+      "bytes": 7432,
+      "file": "inputs/rankone-PROOF.md",
+      "sha256": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8"
+    },
+    {
+      "bytes": 45458,
+      "file": "inputs/rankone-RESULT.json",
+      "sha256": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf"
+    },
+    {
+      "bytes": 4175,
+      "file": "inputs/rankone-verify.py",
+      "sha256": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+    },
+    {
+      "bytes": 1048,
+      "file": "test_controls.py",
+      "sha256": "f11d9ed7a05e220f9e2dce41c344d2304187af67a1085a542b66885dc17f6d53"
+    },
+    {
+      "bytes": 11236,
+      "file": "verify.py",
+      "sha256": "d08bbc810ad12eb894b20accd6207dca1b9fe43456e9061dd6597210698c8617"
+    }
+  ],
+  "scope": "Independent mathematical review and reproducible comparison, retaining original conditional scope"
+}

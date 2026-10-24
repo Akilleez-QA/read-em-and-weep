@@ -1,0 +1,40 @@
+{
+  "acyclic_graph": {
+    "cubic_image": [
+      "originals"
+    ],
+    "integration": [
+      "cubic_image",
+      "lower_exclusion",
+      "rankone"
+    ],
+    "lower_classification": [
+      "originals"
+    ],
+    "lower_exclusion": [
+      "cubic_image",
+      "lower_classification"
+    ],
+    "originals": [],
+    "rankone": [
+      "originals",
+      "lower_classification"
+    ]
+  },
+  "checker_sha256": {
+    "lower-exclusion/cubic-image/verify.py": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242",
+    "lower-exclusion/lower-image/verify.py": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6",
+    "lower-exclusion/verify.py": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39",
+    "rankone/verify.py": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+  },
+  "package_manifest_sha256": {
+    "lower-exclusion": "3fc3e1f1d66993ae92c59c3790565ff1bf871192c31961fcdf9776168dcb6e5b",
+    "rankone": "7f54078b1620316bfc7f1675533c3a364632280a121868d58ad5f75e126e2701"
+  },
+  "proof_sha256": {
+    "lower-exclusion/PROOF.md": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1",
+    "lower-exclusion/cubic-image/PROOF.md": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507",
+    "lower-exclusion/lower-image/PROOF.md": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751",
+    "rankone/PROOF.md": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8"
+  }
+}

@@ -1,0 +1,2781 @@
+{
+  "actual_instances_evaluated": false,
+  "claim": "Rank-one restricted dual cubic image excluded under retained actual premises.",
+  "complete_profile_claim": false,
+  "counts": [
+    53,
+    16,
+    7,
+    9
+  ],
+  "dependency_checks": 3278,
+  "low_exclusions": [
+    {
+      "c3": -2,
+      "defect_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -48
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -36
+          ]
+        }
+      ],
+      "dual_targets": [
+        3,
+        5
+      ],
+      "endpoint_degree": -24,
+      "endpoint_domain": 13,
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W'": 1
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": -2,
+      "defect_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -48
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -36
+          ]
+        }
+      ],
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "endpoint_degree": -24,
+      "endpoint_domain": 13,
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W'": 1
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": -2,
+      "defect_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -48
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -36
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "endpoint_degree": -24,
+      "endpoint_domain": 13,
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": 0,
+      "defect_rows": [
+        {
+          "a": -30,
+          "b": -46,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -16,
+            -8,
+            0,
+            8
+          ],
+          "stage_degrees": [
+            -30,
+            -46,
+            -54,
+            -54,
+            -46
+          ]
+        }
+      ],
+      "dual_targets": [
+        3,
+        5
+      ],
+      "endpoint_degree": -30,
+      "endpoint_domain": 46,
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": 0,
+      "defect_rows": [
+        {
+          "a": -30,
+          "b": -46,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -16,
+            -8,
+            0,
+            8
+          ],
+          "stage_degrees": [
+            -30,
+            -46,
+            -54,
+            -54,
+            -46
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "endpoint_degree": -30,
+      "endpoint_domain": 46,
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": -2,
+      "defect_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -48
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -36
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "endpoint_degree": -24,
+      "endpoint_domain": 13,
+      "kernel": [
+        {
+          "coefficient": "A",
+          "degree": 2
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": true,
+      "survivors": 0
+    },
+    {
+      "c3": -2,
+      "defect_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -48
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "quotient_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ],
+          "stage_degrees": [
+            -24,
+            -42,
+            -52,
+            -54,
+            -36
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "endpoint_degree": -24,
+      "endpoint_domain": 13,
+      "kernel": [
+        {
+          "coefficient": "V",
+          "degree": 2
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 2,
+        "W": 1
+      },
+      "passes": true,
+      "survivors": 0
+    }
+  ],
+  "new_checks": 929,
+  "raw_domain": [
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 4,
+        "W": -1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": -2,
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 4,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 2,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "W'",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 3
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": -2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "W'",
+          "degree": 3
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "W'",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 2,
+        "W": 3
+      },
+      "passes": false
+    },
+    {
+      "c3": 4,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": 0,
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "W'",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 2,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "W'",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 3,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 3,
+        "W'": -1
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 0,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": 0,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W'",
+          "degree": 3
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 2,
+      "dual_targets": [
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 4,
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 4,
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 4,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W'",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 3,
+        "W": 3
+      },
+      "passes": false
+    },
+    {
+      "c3": 6,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 5,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": -2,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "A",
+          "degree": 2
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": -2,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "V",
+          "degree": 2
+        }
+      ],
+      "margin": {
+        "S4": 1,
+        "T6": 2,
+        "W": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 2,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 4,
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 2,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "W'",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 4,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "W'",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 4,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W'": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 6,
+      "dual_targets": [
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 5,
+        "W'": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": 6,
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 5,
+        "W'": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": 6,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "W'",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 4,
+        "W": 2,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 8,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 6,
+        "W'": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 4,
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "A",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true
+    },
+    {
+      "c3": 4,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "V",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 3,
+        "W": 2,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 8,
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 6,
+        "W'": 2
+      },
+      "passes": true
+    },
+    {
+      "c3": 8,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "W'",
+          "degree": 5
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 5,
+        "W": 2,
+        "W'": 1
+      },
+      "passes": false
+    },
+    {
+      "c3": 10,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 7,
+        "W'": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 10,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "A",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 3,
+        "T6": 6,
+        "W": 1,
+        "W'": 2
+      },
+      "passes": false
+    },
+    {
+      "c3": 10,
+      "dual_targets": [],
+      "kernel": [
+        {
+          "coefficient": "V",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 4,
+        "T6": 5,
+        "W": 3,
+        "W'": 1
+      },
+      "passes": false
+    }
+  ],
+  "upper_exclusions": [
+    {
+      "V_margin": 1,
+      "c3": 2,
+      "defect_rows": [
+        {
+          "a": -36,
+          "b": -44,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -14,
+            -6,
+            2,
+            10
+          ],
+          "stage_degrees": [
+            -36,
+            -50,
+            -56,
+            -54,
+            -44
+          ]
+        },
+        {
+          "a": -24,
+          "b": -44,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -26,
+            -6,
+            2,
+            10
+          ],
+          "stage_degrees": [
+            -24,
+            -50,
+            -56,
+            -54,
+            -44
+          ]
+        }
+      ],
+      "dual_targets": [
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "A": -2,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 4,
+      "defect_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -42,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -30,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -22,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        }
+      ],
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 4,
+      "defect_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -42,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -30,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -22,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        }
+      ],
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 2,
+      "defect_rows": [
+        {
+          "a": -36,
+          "b": -44,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -14,
+            -6,
+            2,
+            10
+          ],
+          "stage_degrees": [
+            -36,
+            -50,
+            -56,
+            -54,
+            -44
+          ]
+        },
+        {
+          "a": -24,
+          "b": -44,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -26,
+            -6,
+            2,
+            10
+          ],
+          "stage_degrees": [
+            -24,
+            -50,
+            -56,
+            -54,
+            -44
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "A": -2,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 4,
+      "defect_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -42,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -30,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -22,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        }
+      ],
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 6,
+      "defect_rows": [
+        {
+          "a": -48,
+          "b": -40,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -48,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -36,
+          "b": -40,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -22,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -36,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -28,
+          "b": -40,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -30,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -28,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "quotient_degrees": [
+            -22,
+            -14,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -24,
+            -46,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -34,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -24,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        }
+      ],
+      "dual_targets": [
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 5,
+        "W'": 2
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": 1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 6,
+      "defect_rows": [
+        {
+          "a": -48,
+          "b": -40,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -10,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -48,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -36,
+          "b": -40,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -22,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -36,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -28,
+          "b": -40,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -30,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -28,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "quotient_degrees": [
+            -22,
+            -14,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -24,
+            -46,
+            -60,
+            -54,
+            -40
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -34,
+            -2,
+            6,
+            14
+          ],
+          "stage_degrees": [
+            -24,
+            -58,
+            -60,
+            -54,
+            -40
+          ]
+        }
+      ],
+      "dual_targets": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 5,
+        "W'": 2
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": 1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 4,
+      "defect_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -42,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -30,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ],
+          "stage_degrees": [
+            -22,
+            -54,
+            -58,
+            -54,
+            -42
+          ]
+        }
+      ],
+      "dual_targets": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "A",
+          "degree": 4
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 4,
+        "W": 1,
+        "W'": 1
+      },
+      "passes": true,
+      "upper_euler": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    },
+    {
+      "V_margin": 1,
+      "c3": 8,
+      "defect_rows": [
+        {
+          "a": -54,
+          "b": -38,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -8,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -54,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -42,
+          "b": -38,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -20,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -42,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -34,
+          "b": -38,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -28,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -34,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "quotient_degrees": [
+            -20,
+            -12,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -30,
+            -50,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -32,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -30,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -24,
+          "b": -38,
+          "defects": [
+            30,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -38,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -24,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        },
+        {
+          "a": -22,
+          "b": -38,
+          "defects": [
+            32,
+            0,
+            0
+          ],
+          "quotient_degrees": [
+            -40,
+            0,
+            8,
+            16
+          ],
+          "stage_degrees": [
+            -22,
+            -62,
+            -62,
+            -54,
+            -38
+          ]
+        }
+      ],
+      "dual_targets": [
+        3,
+        5
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "margin": {
+        "S4": 2,
+        "T6": 6,
+        "W'": 2
+      },
+      "passes": true,
+      "upper_euler": {
+        "P": 1,
+        "V": 1
+      },
+      "upper_target": {
+        "D": 1,
+        "P": 1
+      }
+    }
+  ]
+}

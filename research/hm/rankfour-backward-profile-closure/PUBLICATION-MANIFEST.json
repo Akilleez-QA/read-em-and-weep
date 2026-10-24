@@ -1,0 +1,875 @@
+{
+  "files": [
+    {
+      "bytes": 2016,
+      "file": "CONTROLS.json",
+      "sha256": "34fd8f5ff161fe985a549503b917f2d18e4763d5612f93789f6530d6a0da9344"
+    },
+    {
+      "bytes": 1489,
+      "file": "DEPENDENCIES.json",
+      "sha256": "af9c1d018868ed3eeaecdfacb43501963931a33ec2c02941f7482b9ce56fdcd9"
+    },
+    {
+      "bytes": 13521,
+      "file": "MANIFEST.json",
+      "sha256": "4b3a1534a861c94b8901db1a60b98d8e9d3def6e6cfd93bd44d1619ddad88b78"
+    },
+    {
+      "bytes": 928,
+      "file": "PACKAGING-NOTE.md",
+      "sha256": "271196863f03f3a744566d9ec72fdb33f4fd010684acb86fb5bdeeac7bfee30c"
+    },
+    {
+      "bytes": 10849,
+      "file": "PROOF.md",
+      "sha256": "5a1d34fb57fcda4709e33fd184e762db67f9086238ec38a4a3342b8c2c1ba11b"
+    },
+    {
+      "bytes": 3993,
+      "file": "PUBLICATION.md",
+      "sha256": "acce53dc8a91f9e181d5ba282be07bf428030a5b6bc957099673150192510b0d"
+    },
+    {
+      "bytes": 962,
+      "file": "RANK-PARTITION.json",
+      "sha256": "5a591f3377dd7891a0e9c2b19edda4a932b56f7027aedd93cd65bf139cafa533"
+    },
+    {
+      "bytes": 1821,
+      "file": "README.md",
+      "sha256": "c4757a3e07bdd4dd1bd43d18465843dbf9533f70c215d13a3e75a621ec929238"
+    },
+    {
+      "bytes": 7248,
+      "file": "RESULT-O.json",
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "bytes": 7248,
+      "file": "RESULT-OTHER-CWD.json",
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "bytes": 7248,
+      "file": "RESULT.json",
+      "sha256": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524"
+    },
+    {
+      "bytes": 5237,
+      "file": "SOURCE-IDENTITIES.json",
+      "sha256": "094c755cc0e752c7665a5369b0ccf37be6fc7a23b0db70cec26e8b8cce577cec"
+    },
+    {
+      "bytes": 3043,
+      "file": "check_publication.py",
+      "sha256": "5c903fae2359a74058adc8747009c77b22263e9dbc514bdc784e92996e9f2c35"
+    },
+    {
+      "bytes": 7237,
+      "file": "dependencies/lower-exclusion/MANIFEST.json",
+      "sha256": "3fc3e1f1d66993ae92c59c3790565ff1bf871192c31961fcdf9776168dcb6e5b"
+    },
+    {
+      "bytes": 10810,
+      "file": "dependencies/lower-exclusion/OBSTRUCTIONS.json",
+      "sha256": "b6517e98555f17f750e4602dd7af68a6e883570a2cfe8f5dd8ba6846946b46ee"
+    },
+    {
+      "bytes": 9671,
+      "file": "dependencies/lower-exclusion/PROOF.md",
+      "sha256": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1"
+    },
+    {
+      "bytes": 1151,
+      "file": "dependencies/lower-exclusion/README.md",
+      "sha256": "52de8ec12f54c04b56cca8e3d1fd85acafbff932cdd0a746e9471342958b8d17"
+    },
+    {
+      "bytes": 13879,
+      "file": "dependencies/lower-exclusion/RESULT-O.json",
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "bytes": 13879,
+      "file": "dependencies/lower-exclusion/RESULT-OTHER-CWD.json",
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "bytes": 13879,
+      "file": "dependencies/lower-exclusion/RESULT.json",
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "bytes": 17562,
+      "file": "dependencies/lower-exclusion/cubic-image/ENDPOINTS.json",
+      "sha256": "248830a83b7909b45b9c894048584d0679a5496d18cb9dd5f1a32d0e5d5fc272"
+    },
+    {
+      "bytes": 2838,
+      "file": "dependencies/lower-exclusion/cubic-image/INPUTS.json",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    {
+      "bytes": 7532,
+      "file": "dependencies/lower-exclusion/cubic-image/LEDGER.json",
+      "sha256": "c526f30ff7122803deea00e905ec61ccb9d71b4b6f4a33967e246b6cc6848fb6"
+    },
+    {
+      "bytes": 2328,
+      "file": "dependencies/lower-exclusion/cubic-image/MANIFEST.json",
+      "sha256": "6e4ebc717b2a4e2559a0fa0eda94a26136c6b2cc7082f758317b9f0b3d7b5075"
+    },
+    {
+      "bytes": 13862,
+      "file": "dependencies/lower-exclusion/cubic-image/PROOF.md",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "bytes": 885,
+      "file": "dependencies/lower-exclusion/cubic-image/README.md",
+      "sha256": "e8d179ad423163ecad659f2dc4ceea81684590f2169936f1a71b96d56feca358"
+    },
+    {
+      "bytes": 33630,
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT-O.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 33630,
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT-OTHER-CWD.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 33630,
+      "file": "dependencies/lower-exclusion/cubic-image/RESULT.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 1348,
+      "file": "dependencies/lower-exclusion/cubic-image/SHA256SUMS",
+      "sha256": "408b1b028c2b32eac483a1ba9c27c36cd6acc4ec682829c078fcc8e124a45004"
+    },
+    {
+      "bytes": 9672,
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "dependencies/lower-exclusion/cubic-image/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 18144,
+      "file": "dependencies/lower-exclusion/cubic-image/verify.py",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "bytes": 42381,
+      "file": "dependencies/lower-exclusion/lower-image/CASES.json",
+      "sha256": "a6749b9800e44004df19b069d9c6d9317f808b70dbda28a5ba77acc3ee93eb24"
+    },
+    {
+      "bytes": 13968,
+      "file": "dependencies/lower-exclusion/lower-image/ENDPOINT-EXCLUSIONS.json",
+      "sha256": "a7f3562ae26f47985f7c645dbff34a7ff7a2d9adf8c6d5ccc30b2abc6ed9fa04"
+    },
+    {
+      "bytes": 3421,
+      "file": "dependencies/lower-exclusion/lower-image/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 2866,
+      "file": "dependencies/lower-exclusion/lower-image/MANIFEST.json",
+      "sha256": "5e7690ee89e7569d6c8bfec731f6e8e386ffde87a6cf71863b6bf5141ec62d1c"
+    },
+    {
+      "bytes": 14779,
+      "file": "dependencies/lower-exclusion/lower-image/PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 7997,
+      "file": "dependencies/lower-exclusion/lower-image/QUOTIENTS.json",
+      "sha256": "3dd786d4229a15d18ea4ebc17c53c464297c3cd0e91bce58af9e098e5c7b78f1"
+    },
+    {
+      "bytes": 1137,
+      "file": "dependencies/lower-exclusion/lower-image/README.md",
+      "sha256": "d6c2cc9d48128c7b1777e54f28110dfbf179b67141776d914ce56fa3a885704e"
+    },
+    {
+      "bytes": 230508,
+      "file": "dependencies/lower-exclusion/lower-image/RESULT-O.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 230508,
+      "file": "dependencies/lower-exclusion/lower-image/RESULT-OTHER-CWD.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 230508,
+      "file": "dependencies/lower-exclusion/lower-image/RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 1641,
+      "file": "dependencies/lower-exclusion/lower-image/SHA256SUMS",
+      "sha256": "286d821dc499f4522c740ef6aa7f8aa46fc874730f248881a161e9982b3a358c"
+    },
+    {
+      "bytes": 103068,
+      "file": "dependencies/lower-exclusion/lower-image/TORSION-LEDGER.json",
+      "sha256": "05362a08d969bc90c52021ae8eee8883b70fe6dba4f97a58749f0c28c39851f1"
+    },
+    {
+      "bytes": 9672,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "dependencies/lower-exclusion/lower-image/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 22504,
+      "file": "dependencies/lower-exclusion/lower-image/verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 9118,
+      "file": "dependencies/lower-exclusion/verify.py",
+      "sha256": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39"
+    },
+    {
+      "bytes": 477,
+      "file": "dependencies/rankone/CONTROLS.json",
+      "sha256": "3e69d91b72e350a0c16489d35ea94f41f83a2dae6ade6aec71eb8e3f3f926fdc"
+    },
+    {
+      "bytes": 2498,
+      "file": "dependencies/rankone/MANIFEST.json",
+      "sha256": "7f54078b1620316bfc7f1675533c3a364632280a121868d58ad5f75e126e2701"
+    },
+    {
+      "bytes": 7432,
+      "file": "dependencies/rankone/PROOF.md",
+      "sha256": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8"
+    },
+    {
+      "bytes": 1181,
+      "file": "dependencies/rankone/README.md",
+      "sha256": "e876f3a1609776d1bb59f7b4466afe266d4ca19b8d3d4def0f78c89baf4f65ad"
+    },
+    {
+      "bytes": 45458,
+      "file": "dependencies/rankone/RESULT.json",
+      "sha256": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf"
+    },
+    {
+      "bytes": 3421,
+      "file": "dependencies/rankone/dependency/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 14779,
+      "file": "dependencies/rankone/dependency/PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 230508,
+      "file": "dependencies/rankone/dependency/RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 9672,
+      "file": "dependencies/rankone/dependency/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "dependencies/rankone/dependency/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "dependencies/rankone/dependency/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "dependencies/rankone/dependency/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "dependencies/rankone/dependency/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "dependencies/rankone/dependency/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 22504,
+      "file": "dependencies/rankone/dependency/verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 1152,
+      "file": "dependencies/rankone/test_controls.py",
+      "sha256": "534907812cab6a1887f135d51b217256283702a53232637cc8750e802510827d"
+    },
+    {
+      "bytes": 4175,
+      "file": "dependencies/rankone/verify.py",
+      "sha256": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+    },
+    {
+      "bytes": 33630,
+      "file": "reviews/cubic-image/AUTHOR-RUN-O.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 33630,
+      "file": "reviews/cubic-image/AUTHOR-RUN.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 1957,
+      "file": "reviews/cubic-image/CONTROLS.json",
+      "sha256": "cfebb30ada26df9a858ffffb1435601478522b068b81e512b182cdc1c144cd96"
+    },
+    {
+      "bytes": 2838,
+      "file": "reviews/cubic-image/INPUTS.json",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    {
+      "bytes": 2664,
+      "file": "reviews/cubic-image/MANIFEST.json",
+      "sha256": "958e8e7f3ee957889ca0fc42d8c2147d7b6c9794d51b365a9aca5872946d61d9"
+    },
+    {
+      "bytes": 768,
+      "file": "reviews/cubic-image/PACKAGE-CHECK.json",
+      "sha256": "e4098560bb6e95cf2e4542574279f8eb79f9d6821f8032ea59bedc13684c92cc"
+    },
+    {
+      "bytes": 907,
+      "file": "reviews/cubic-image/README.md",
+      "sha256": "4a8de27d8f3250b5acdc923871103ba1c93a08b4351a3bdc9fd8ca8c8d53ea2f"
+    },
+    {
+      "bytes": 22694,
+      "file": "reviews/cubic-image/RESULT.json",
+      "sha256": "9a0e0255c1831c48f7b69e9f444f076c91c2d9774eb53b486c78060ea498e340"
+    },
+    {
+      "bytes": 14801,
+      "file": "reviews/cubic-image/REVIEW.md",
+      "sha256": "7f4cc562718242c1808b69ce70a8180f8d5cf67bfb1a17ac4a5d76bf8bfbd173"
+    },
+    {
+      "bytes": 2429,
+      "file": "reviews/cubic-image/check_package.py",
+      "sha256": "cf0d04060384f1d3eede0fc7dd0fd30011c4354f0d34f78fbd5680b87c3564ad"
+    },
+    {
+      "bytes": 9672,
+      "file": "reviews/cubic-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "file": "reviews/cubic-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "reviews/cubic-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "reviews/cubic-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "reviews/cubic-image/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 1053,
+      "file": "reviews/cubic-image/test_controls.py",
+      "sha256": "053f6f312e3b847fcd685cdebd23fd75b8297f9f19f7766000353e9608c9918c"
+    },
+    {
+      "bytes": 12305,
+      "file": "reviews/cubic-image/verify.py",
+      "sha256": "8a7a344241c7d2a76a1fafe404b793a0ab07ff99b58f404099370e99bfbf8605"
+    },
+    {
+      "bytes": 2408,
+      "file": "reviews/integration/CONTROLS.json",
+      "sha256": "41b54a8e3a6489ed0482bb664e059f4d8d08d3520bf498f28705ca9cb64582ef"
+    },
+    {
+      "bytes": 3421,
+      "file": "reviews/integration/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 4540,
+      "file": "reviews/integration/MANIFEST.json",
+      "sha256": "d63d46735bbf3f8d51d74b0d8f8dabe84229ddc282a95d94a1480c3ce5e3ba02"
+    },
+    {
+      "bytes": 931,
+      "file": "reviews/integration/PACKAGE-CHECK.json",
+      "sha256": "b290bdd5e84fa0d09d91d60bb5f39925bd3dd64cb6fde558054dc24ee9c060e3"
+    },
+    {
+      "bytes": 553,
+      "file": "reviews/integration/README.md",
+      "sha256": "c0e01e1d17ff22373a71feea2dd270cdf1e492e08ed6cfd47886aa445f13775a"
+    },
+    {
+      "bytes": 841,
+      "file": "reviews/integration/RESULT.json",
+      "sha256": "c90937550d9fd721e975b10618bc1d419268afe83717290b765df56a4e10e242"
+    },
+    {
+      "bytes": 10473,
+      "file": "reviews/integration/REVIEW.md",
+      "sha256": "ca050ba4a194367f1a609274864433f4589b820b724c1ab3d17d1aa89f27ab4c"
+    },
+    {
+      "bytes": 3534,
+      "file": "reviews/integration/check_package.py",
+      "sha256": "635c695ab461321dc67c8ea791506bf0dd9e50ab9cbfe5ae01474e521c49e3a7"
+    },
+    {
+      "bytes": 9672,
+      "file": "reviews/integration/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "reviews/integration/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "reviews/integration/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "reviews/integration/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "reviews/integration/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 13862,
+      "file": "reviews/integration/inputs/cubic-image-PROOF.md",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "bytes": 33630,
+      "file": "reviews/integration/inputs/cubic-image-RESULT.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 18144,
+      "file": "reviews/integration/inputs/cubic-image-verify.py",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "bytes": 9616,
+      "file": "reviews/integration/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 14779,
+      "file": "reviews/integration/inputs/lower-classification-PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 230508,
+      "file": "reviews/integration/inputs/lower-classification-RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 22504,
+      "file": "reviews/integration/inputs/lower-classification-verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 9671,
+      "file": "reviews/integration/inputs/lower-exclusion-PROOF.md",
+      "sha256": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1"
+    },
+    {
+      "bytes": 13879,
+      "file": "reviews/integration/inputs/lower-exclusion-RESULT.json",
+      "sha256": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b"
+    },
+    {
+      "bytes": 9118,
+      "file": "reviews/integration/inputs/lower-exclusion-verify.py",
+      "sha256": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39"
+    },
+    {
+      "bytes": 7432,
+      "file": "reviews/integration/inputs/rankone-PROOF.md",
+      "sha256": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8"
+    },
+    {
+      "bytes": 45458,
+      "file": "reviews/integration/inputs/rankone-RESULT.json",
+      "sha256": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf"
+    },
+    {
+      "bytes": 4175,
+      "file": "reviews/integration/inputs/rankone-verify.py",
+      "sha256": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+    },
+    {
+      "bytes": 1048,
+      "file": "reviews/integration/test_controls.py",
+      "sha256": "f11d9ed7a05e220f9e2dce41c344d2304187af67a1085a542b66885dc17f6d53"
+    },
+    {
+      "bytes": 11236,
+      "file": "reviews/integration/verify.py",
+      "sha256": "d08bbc810ad12eb894b20accd6207dca1b9fe43456e9061dd6597210698c8617"
+    },
+    {
+      "bytes": 3070,
+      "file": "reviews/lower-classification/CONTROLS.json",
+      "sha256": "60bc28d78b56f4efc8a80d89cc426bf42f9298d50138ea4fbe0b61cbd06b6a9d"
+    },
+    {
+      "bytes": 3421,
+      "file": "reviews/lower-classification/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 2547,
+      "file": "reviews/lower-classification/MANIFEST.json",
+      "sha256": "410d6b29b07084d6dc2f412668019f1c135f92ed36d2811b11ae273a702c2c4d"
+    },
+    {
+      "bytes": 853,
+      "file": "reviews/lower-classification/PACKAGE-CHECK.json",
+      "sha256": "e2f2a212c43a809bbb20da651c0e450a1b2e6eeb7ff03dc1875356435d34749f"
+    },
+    {
+      "bytes": 897,
+      "file": "reviews/lower-classification/README.md",
+      "sha256": "8c3cb5efc3489f76f03fe7216f39efa975b83d1668c7b9998d93adbcf4128004"
+    },
+    {
+      "bytes": 167570,
+      "file": "reviews/lower-classification/RESULT.json",
+      "sha256": "10bfe58484ea87469a14b0ffff60858b7c97b1c56fb2b0772b924fbd8b5ebd08"
+    },
+    {
+      "bytes": 16809,
+      "file": "reviews/lower-classification/REVIEW.md",
+      "sha256": "b29438488280360ec5760e713b7057c601b2acf0ef1ee335641b98f63be5369f"
+    },
+    {
+      "bytes": 4364,
+      "file": "reviews/lower-classification/check_package.py",
+      "sha256": "a2715dd5a3a76a1dc8e45ebc8464ff411714a4e3143d4a5ad9c1d889c287c67a"
+    },
+    {
+      "bytes": 9672,
+      "file": "reviews/lower-classification/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "reviews/lower-classification/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "reviews/lower-classification/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "reviews/lower-classification/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "reviews/lower-classification/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "reviews/lower-classification/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 1399,
+      "file": "reviews/lower-classification/test_controls.py",
+      "sha256": "9775ab0cc192bee8205c5ac9edf04a100767543a051f1ec21959063861a535e8"
+    },
+    {
+      "bytes": 16258,
+      "file": "reviews/lower-classification/verify.py",
+      "sha256": "7dc8614ec1536ef5cadee79a15ca53ec9acb16e35d336e4fa90a46ae20edfbb7"
+    },
+    {
+      "bytes": 1929,
+      "file": "reviews/lower-exclusion/CONTROLS.json",
+      "sha256": "9e03f43e3f8470d3f4026848fb31b686178a3c21bd4f4323eed0ff85b1539b95"
+    },
+    {
+      "bytes": 3421,
+      "file": "reviews/lower-exclusion/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 3529,
+      "file": "reviews/lower-exclusion/MANIFEST.json",
+      "sha256": "d0b0c9738102c8f6ecccb3a95399adb0ce847772afe26378ad89984111c06c7d"
+    },
+    {
+      "bytes": 831,
+      "file": "reviews/lower-exclusion/PACKAGE-CHECK.json",
+      "sha256": "feb5bd3376be46643838c3f65528e99957cff58938aa725b20214ec2574df7a8"
+    },
+    {
+      "bytes": 450,
+      "file": "reviews/lower-exclusion/README.md",
+      "sha256": "78ff4163bbd7ededcdbe6c9262a3495e2d56a1eaadae1cd15a7fc857e293e959"
+    },
+    {
+      "bytes": 9709,
+      "file": "reviews/lower-exclusion/RESULT.json",
+      "sha256": "7f45f0cafc4a57d58ef55f642c06d613af35319e54d37607e01ab33c7debebb8"
+    },
+    {
+      "bytes": 10316,
+      "file": "reviews/lower-exclusion/REVIEW.md",
+      "sha256": "d4217324aa750f1f443566bf49f7bf62bdbdc85ab6cd160da4be104fb1062147"
+    },
+    {
+      "bytes": 3241,
+      "file": "reviews/lower-exclusion/check_package.py",
+      "sha256": "2e384de29193acf8e62fdc30bf460330bc8c31374862df5c9e3130bfba176941"
+    },
+    {
+      "bytes": 9672,
+      "file": "reviews/lower-exclusion/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "reviews/lower-exclusion/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "reviews/lower-exclusion/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "reviews/lower-exclusion/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "reviews/lower-exclusion/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "reviews/lower-exclusion/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 13862,
+      "file": "reviews/lower-exclusion/inputs/full-image-PROOF.md",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "bytes": 33630,
+      "file": "reviews/lower-exclusion/inputs/full-image-RESULT.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 18144,
+      "file": "reviews/lower-exclusion/inputs/full-image-verify.py",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "bytes": 14779,
+      "file": "reviews/lower-exclusion/inputs/lower-image-PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 230508,
+      "file": "reviews/lower-exclusion/inputs/lower-image-RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 22504,
+      "file": "reviews/lower-exclusion/inputs/lower-image-verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 1010,
+      "file": "reviews/lower-exclusion/test_controls.py",
+      "sha256": "46784058f75fa22982fb368d3d9ea2f6ddd2a0490af8f053ef12f188a0cc60df"
+    },
+    {
+      "bytes": 10671,
+      "file": "reviews/lower-exclusion/verify.py",
+      "sha256": "36ba0154d423f25af377b9c36b74d5854647fddd41f47a8638f066270c3b5836"
+    },
+    {
+      "bytes": 2295,
+      "file": "reviews/rankone/CONTROLS.json",
+      "sha256": "c49f094f837c3176bb1a1505df579c8dc94ea70286db8d3dc8dbdf137b92abe3"
+    },
+    {
+      "bytes": 3421,
+      "file": "reviews/rankone/INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 2547,
+      "file": "reviews/rankone/MANIFEST.json",
+      "sha256": "37bd463961ee32e340d2edb2e4a85a2568ac15cba4c751d358dffbd4d4df7e89"
+    },
+    {
+      "bytes": 784,
+      "file": "reviews/rankone/PACKAGE-CHECK.json",
+      "sha256": "9c3225fdc5de011bd02609d8515ae9db8d3291bd0c2c985bc94977155002b1fc"
+    },
+    {
+      "bytes": 471,
+      "file": "reviews/rankone/README.md",
+      "sha256": "b0252bf2cb31b0541eeb48b154895658611b9d9dbfe85c9ddb40ee4889b7593b"
+    },
+    {
+      "bytes": 104610,
+      "file": "reviews/rankone/RESULT.json",
+      "sha256": "e6ae8f31894a14458ba909a3c9f9c50c2aa5adb60624c6e8fa5181b271e03e96"
+    },
+    {
+      "bytes": 11393,
+      "file": "reviews/rankone/REVIEW.md",
+      "sha256": "b0c67f6a7ffa1e8a937dab174be50f60097a52ab1ef258b4933dc1289bf7070b"
+    },
+    {
+      "bytes": 3235,
+      "file": "reviews/rankone/check_package.py",
+      "sha256": "9812f129582d91ce5d06f4bf1c2bdf9f611bb36ee199e3b490f833681163ea92"
+    },
+    {
+      "bytes": 9672,
+      "file": "reviews/rankone/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "reviews/rankone/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "reviews/rankone/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "reviews/rankone/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "reviews/rankone/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "reviews/rankone/inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 1112,
+      "file": "reviews/rankone/test_controls.py",
+      "sha256": "469fb2ff5e64fb8381ad39fc7aad074fb22079f1ba9ea324fb7779f40770f63f"
+    },
+    {
+      "bytes": 12588,
+      "file": "reviews/rankone/verify.py",
+      "sha256": "62baa4fb5d359a8841d3a58360c4610a535e055a7536c5f6e33ddd3e4c45242c"
+    },
+    {
+      "bytes": 1097,
+      "file": "test_controls.py",
+      "sha256": "0199f972f6a092d371042eaef7b89394f3defe2958cb4a02e78248ad12bca4df"
+    },
+    {
+      "bytes": 10228,
+      "file": "verify.py",
+      "sha256": "05502b6c5fd5cbb5128ea9f52fef0c8e20e16104f821de5110f546ef1e54cb4b"
+    }
+  ],
+  "scope": "Conditional whole ordered maximal rank-four (3,1) exclusion, complete proof and independent-review chain"
+}

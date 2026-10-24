@@ -1,0 +1,72 @@
+{
+  "baseline_passed": true,
+  "controls": [
+    {
+      "error": "RuntimeError: all four and only four image ranks covered",
+      "exit_code": 1,
+      "mutation": "omit-rank-one"
+    },
+    {
+      "error": "RuntimeError: all four and only four image ranks covered",
+      "exit_code": 1,
+      "mutation": "omit-rank-four"
+    },
+    {
+      "error": "RuntimeError: correct branch theorem for each rank",
+      "exit_code": 1,
+      "mutation": "lower-image-full-annihilator"
+    },
+    {
+      "error": "RuntimeError: complete nonzero image rank interval",
+      "exit_code": 1,
+      "mutation": "allow-zero-image"
+    },
+    {
+      "error": "RuntimeError: same existing section copy throughout all branches",
+      "exit_code": 1,
+      "mutation": "change-copy-between-branches"
+    },
+    {
+      "error": "RuntimeError: no extra section-copy assumptions",
+      "exit_code": 1,
+      "mutation": "assume-canonical-copy"
+    },
+    {
+      "error": "RuntimeError: no extra section-copy assumptions",
+      "exit_code": 1,
+      "mutation": "assume-evaluation-injective"
+    },
+    {
+      "error": "RuntimeError: actual unequal ranks contract",
+      "exit_code": 1,
+      "mutation": "swap-unequal-bundles"
+    },
+    {
+      "error": "RuntimeError: fixed physical marking contract",
+      "exit_code": 1,
+      "mutation": "swap-physical-A-V"
+    },
+    {
+      "error": "RuntimeError: no accidental source or defect specialization",
+      "exit_code": 1,
+      "mutation": "force-source-Z"
+    },
+    {
+      "error": "RuntimeError: no accidental source or defect specialization",
+      "exit_code": 1,
+      "mutation": "global-zero-defects"
+    },
+    {
+      "error": "RuntimeError: circular proof dependency",
+      "exit_code": 1,
+      "mutation": "circular-rankone-proof"
+    },
+    {
+      "error": "RuntimeError: scope does not overclaim stronger global conclusions",
+      "exit_code": 1,
+      "mutation": "claim-SF-five"
+    }
+  ],
+  "executed_mutation_rejections": 13,
+  "status": "PASS"
+}

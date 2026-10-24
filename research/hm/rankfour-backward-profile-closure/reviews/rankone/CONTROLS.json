@@ -1,0 +1,77 @@
+{
+  "normal_and_optimized_match": true,
+  "quartic_endpoint_test_claimed_essential": false,
+  "rejected_mutations": [
+    {
+      "mutation": "source-hash",
+      "reason": "RuntimeError: complete frozen original ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "rejected": true
+    },
+    {
+      "mutation": "physical-marking",
+      "reason": "RuntimeError: physical marking",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-H1",
+      "reason": "RuntimeError: negative scalar quotient contributes -S4, not zero",
+      "rejected": true
+    },
+    {
+      "mutation": "source-dual-swap",
+      "reason": "RuntimeError: actual unequal E cubic Euler",
+      "rejected": true
+    },
+    {
+      "mutation": "global-zero-defects",
+      "reason": "RuntimeError: complete thirty-one-row ramified ledger",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-case",
+      "reason": "RuntimeError: complete rank-three domain by independent coefficient families and ordinary partitions",
+      "rejected": true
+    },
+    {
+      "mutation": "scalar-quotient-twist",
+      "reason": "RuntimeError: genuine rank-one quotient is O(-8)",
+      "rejected": true
+    },
+    {
+      "mutation": "target-twist",
+      "reason": "RuntimeError: all seven low cases already fail cubic Euler alone",
+      "rejected": true
+    },
+    {
+      "mutation": "ignore-multiplicity",
+      "reason": "RuntimeError: complete fifty-three to sixteen to seven plus nine reduction",
+      "rejected": true
+    },
+    {
+      "mutation": "upper-source-swap",
+      "reason": "RuntimeError: nine exact physical-V upper excesses",
+      "rejected": true
+    },
+    {
+      "mutation": "upper-quotient-twist",
+      "reason": "RuntimeError: nine exact physical-V upper excesses",
+      "rejected": true
+    },
+    {
+      "mutation": "upper-derivative-twist",
+      "reason": "RuntimeError: nine exact physical-V upper excesses",
+      "rejected": true
+    },
+    {
+      "mutation": "weaken-top-bound",
+      "reason": "RuntimeError: strict slope gap for maps K -> (Z/K)(-2)",
+      "rejected": true
+    },
+    {
+      "mutation": "maps-vs-sections",
+      "reason": "RuntimeError: complete odd line-image degree domain leaves only nine",
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}

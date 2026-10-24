@@ -1,0 +1,101 @@
+{
+  "normal_and_optimized_match": true,
+  "rejected_mutations": [
+    {
+      "mutation": "source-hash",
+      "reason": "RuntimeError: complete immutable source: ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "rejected": true
+    },
+    {
+      "mutation": "physical-marking",
+      "reason": "RuntimeError: physical A/V distinction",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-H1",
+      "reason": "RuntimeError: four source Euler classes",
+      "rejected": true
+    },
+    {
+      "mutation": "source-dual-swap",
+      "reason": "RuntimeError: actual E cubic Euler",
+      "rejected": true
+    },
+    {
+      "mutation": "global-zero-defects",
+      "reason": "RuntimeError: all positive-defect degree rows retained",
+      "rejected": true
+    },
+    {
+      "mutation": "maps-vs-sections",
+      "reason": "RuntimeError: complete source/target image blocks",
+      "rejected": true
+    },
+    {
+      "mutation": "source-Z-only",
+      "reason": "RuntimeError: complete source/target image blocks",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-second-backstep",
+      "reason": "RuntimeError: exact two-backstep envelope retains both section contributions",
+      "rejected": true
+    },
+    {
+      "mutation": "full-annihilator-identification",
+      "reason": "RuntimeError: lower image quotient needs its complementary kernel",
+      "rejected": true
+    },
+    {
+      "mutation": "dimensions-only",
+      "reason": "RuntimeError: complete section-and-target kernel lists",
+      "rejected": true
+    },
+    {
+      "mutation": "dual-target-twist",
+      "reason": "RuntimeError: complete section-and-target kernel lists",
+      "rejected": true
+    },
+    {
+      "mutation": "drop-target-multiplicity",
+      "reason": "RuntimeError: complete section-and-target kernel lists",
+      "rejected": true
+    },
+    {
+      "mutation": "ordinary-Ext-zero",
+      "reason": "RuntimeError: equivariant extension splits only after invariant Ext calculation",
+      "rejected": true
+    },
+    {
+      "mutation": "low-branch-all-zero",
+      "reason": "RuntimeError: low degree forces only lower two derivatives unramified",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-quartic",
+      "reason": "RuntimeError: low-case endpoint derivative Hom vanishes",
+      "rejected": true
+    },
+    {
+      "mutation": "endpoint-derivative-twist",
+      "reason": "RuntimeError: low-case endpoint derivative Hom vanishes",
+      "rejected": true
+    },
+    {
+      "mutation": "force-torsion-into-N",
+      "reason": "RuntimeError: complete ninety-six torsion partitions retain eighty-three positive defects",
+      "rejected": true
+    },
+    {
+      "mutation": "allow-even-torsion",
+      "reason": "RuntimeError: each subquotient torsion length is an invariant effective divisor",
+      "rejected": true
+    },
+    {
+      "mutation": "inverse-image-twist",
+      "reason": "RuntimeError: inverse-image degree additivity reproduces full graded degrees",
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}

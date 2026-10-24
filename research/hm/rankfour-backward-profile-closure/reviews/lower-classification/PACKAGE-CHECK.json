@@ -1,0 +1,25 @@
+{
+  "author_checks": 3278,
+  "author_files_authenticated": 17,
+  "author_hashes": {
+    "MANIFEST.json": "5e7690ee89e7569d6c8bfec731f6e8e386ffde87a6cf71863b6bf5141ec62d1c",
+    "PROOF.md": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751",
+    "RESULT.json": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72",
+    "verify.py": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+  },
+  "author_normal_and_optimized_replay": true,
+  "complete_domains_agree": [
+    "23 preliminary pairs with full margins, Ext and dual target data",
+    "13 final pairs",
+    "10 endpoint exclusions",
+    "50 case-degree rows",
+    "96 torsion partitions and subquotient degree rows"
+  ],
+  "equivariant_Ext_dimensions": [
+    0,
+    0
+  ],
+  "independent_checks": 1386,
+  "ordinary_Ext_P_cases": 2,
+  "status": "PASS"
+}

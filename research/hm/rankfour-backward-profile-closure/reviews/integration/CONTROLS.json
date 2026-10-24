@@ -1,0 +1,81 @@
+{
+  "normal_and_optimized_match": true,
+  "rejected_mutations": [
+    {
+      "mutation": "alter-theorem",
+      "reason": "RuntimeError: previously reviewed immutable theorem cubic-image-PROOF.md",
+      "rejected": true
+    },
+    {
+      "mutation": "physical-marking",
+      "reason": "RuntimeError: common fixed physical marking",
+      "rejected": true
+    },
+    {
+      "mutation": "source-dual-swap",
+      "reason": "RuntimeError: actual source cubic Euler, not dual",
+      "rejected": true
+    },
+    {
+      "mutation": "circular-proof",
+      "reason": "RuntimeError: no dependency cycle or missing premise",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-one",
+      "reason": "RuntimeError: exhaustive nonzero rank partition with correct branch theorems",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-four",
+      "reason": "RuntimeError: exhaustive nonzero rank partition with correct branch theorems",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong-rank-theorem",
+      "reason": "RuntimeError: exhaustive nonzero rank partition with correct branch theorems",
+      "rejected": true
+    },
+    {
+      "mutation": "change-section-copy",
+      "reason": "RuntimeError: same arbitrary chosen T6 copy in every branch",
+      "rejected": true
+    },
+    {
+      "mutation": "allow-zero",
+      "reason": "RuntimeError: nonzero restricted derivative follows from actual kernel persistence",
+      "rejected": true
+    },
+    {
+      "mutation": "canonical-copy",
+      "reason": "RuntimeError: no uniqueness or evaluation subbundle premise",
+      "rejected": true
+    },
+    {
+      "mutation": "injective-evaluation",
+      "reason": "RuntimeError: no uniqueness or evaluation subbundle premise",
+      "rejected": true
+    },
+    {
+      "mutation": "swap-bundles",
+      "reason": "RuntimeError: same unequal actual bundles",
+      "rejected": true
+    },
+    {
+      "mutation": "global-zero",
+      "reason": "RuntimeError: conditional one-profile scope, not a stronger theorem",
+      "rejected": true
+    },
+    {
+      "mutation": "drop-premises",
+      "reason": "RuntimeError: conditional one-profile scope, not a stronger theorem",
+      "rejected": true
+    },
+    {
+      "mutation": "claim-sf5",
+      "reason": "RuntimeError: conditional one-profile scope, not a stronger theorem",
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}

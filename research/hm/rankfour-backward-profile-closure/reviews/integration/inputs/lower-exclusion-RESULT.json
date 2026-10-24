@@ -1,0 +1,682 @@
+{
+  "H1_vanishing_assumed": false,
+  "actual_instance_evaluation_used": false,
+  "additional_checks": 661,
+  "authenticated_complete_originals": 6,
+  "case_rows_excluded": 50,
+  "cubic_image_dependency_checks": 12643,
+  "dependency_manifest_sha256": {
+    "cubic_image": "6e4ebc717b2a4e2559a0fa0eda94a26136c6b2cc7082f758317b9f0b3d7b5075",
+    "lower_image": "5e7690ee89e7569d6c8bfec731f6e8e386ffde87a6cf71863b6bf5141ec62d1c"
+  },
+  "global_zero_plateau_defects_assumed": false,
+  "historical_enumeration_used": false,
+  "image_quotient_pairs_excluded": 13,
+  "inverse_image_extension_splitting_assumed": false,
+  "lower_image_dependency_checks": 3278,
+  "new_negative_controls": [
+    "replace physical V witness by physical A",
+    "exchange unequal actual E and Q-star Euler presentations",
+    "shift upper quotient by one instead of two",
+    "shift upper quotient by three instead of two",
+    "use derivative target H0(B-star(2))",
+    "drop last necessary quotient pair",
+    "identify last quotient B(2) despite positive last defect",
+    "omit the top-slope bound in the section lemma",
+    "allow degree-zero kernel line in the negative-degree contradiction",
+    "set every plateau defect to zero",
+    "force every kernel torsion length to vanish",
+    "force every quotient torsion length to vanish"
+  ],
+  "obstructions": [
+    {
+      "case_id": 1,
+      "covered_case_rows": 3,
+      "covered_torsion_rows": 5,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "obstruction": {
+        "1": -1,
+        "A": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -42,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 2,
+      "covered_case_rows": 5,
+      "covered_torsion_rows": 10,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "obstruction": {
+        "1": -2,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": -2,
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -40,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 3,
+      "covered_case_rows": 3,
+      "covered_torsion_rows": 5,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "obstruction": {
+        "1": -1,
+        "A": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -42,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 4,
+      "covered_case_rows": 5,
+      "covered_torsion_rows": 10,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "obstruction": {
+        "1": 1,
+        "A": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": 1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -40,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 5,
+      "covered_case_rows": 7,
+      "covered_torsion_rows": 16,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "obstruction": {
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -38,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 6,
+      "covered_case_rows": 7,
+      "covered_torsion_rows": 16,
+      "derivative_target_H0": {
+        "P": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "obstruction": {
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "P": 1,
+        "V": 1
+      },
+      "upper_endpoint_degree": -38,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 7,
+      "covered_case_rows": 2,
+      "covered_torsion_rows": 3,
+      "derivative_target_H0": {
+        "D": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "obstruction": {
+        "1": -2,
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": -2,
+        "A": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -44,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 8,
+      "covered_case_rows": 2,
+      "covered_torsion_rows": 3,
+      "derivative_target_H0": {
+        "D": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "obstruction": {
+        "1": 1,
+        "A": -2,
+        "D": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "1": 1,
+        "A": -2,
+        "V": 2
+      },
+      "upper_endpoint_degree": -44,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 9,
+      "covered_case_rows": 3,
+      "covered_torsion_rows": 5,
+      "derivative_target_H0": {
+        "D": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "obstruction": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "A": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -42,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 10,
+      "covered_case_rows": 3,
+      "covered_torsion_rows": 5,
+      "derivative_target_H0": {
+        "D": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "obstruction": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "rank_image": 2,
+      "upper_endpoint_Euler4": {
+        "A": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -42,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 11,
+      "covered_case_rows": 2,
+      "covered_torsion_rows": 3,
+      "derivative_target_H0": {
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "obstruction": {
+        "1": -2,
+        "A": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "rank_image": 3,
+      "upper_endpoint_Euler4": {
+        "1": -2,
+        "A": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -44,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 12,
+      "covered_case_rows": 3,
+      "covered_torsion_rows": 5,
+      "derivative_target_H0": {
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "obstruction": {
+        "A": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "rank_image": 3,
+      "upper_endpoint_Euler4": {
+        "A": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -42,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    },
+    {
+      "case_id": 13,
+      "covered_case_rows": 5,
+      "covered_torsion_rows": 10,
+      "derivative_target_H0": {
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "kernel": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "obstruction": {
+        "1": -1,
+        "V": 1
+      },
+      "physical_V_excess": 1,
+      "quotient": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "rank_image": 3,
+      "upper_endpoint_Euler4": {
+        "1": -1,
+        "V": 2
+      },
+      "upper_endpoint_degree": -40,
+      "upper_endpoint_max_degree": -4,
+      "upper_endpoint_rank": 9
+    }
+  ],
+  "only_residual_image": {
+    "coefficient": "1",
+    "degree": 9,
+    "necessary_source": "D"
+  },
+  "positive_case_rows_excluded": 37,
+  "positive_torsion_partitions_excluded": 83,
+  "rank_one_excluded": false,
+  "scope": "All rank-two and rank-three restricted dual cubic images are excluded in ordered actual rank-four (3,1); rank one and whole profile remain open.",
+  "status": "PASS",
+  "torsion_partitions_excluded": 96,
+  "total_checks": 16582
+}

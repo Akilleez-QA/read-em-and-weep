@@ -1,0 +1,29 @@
+{
+  "author_dependency_stage_checks": [
+    16582,
+    4207
+  ],
+  "author_files_authenticated": 72,
+  "author_hashes": {
+    "MANIFEST.json": "4b3a1534a861c94b8901db1a60b98d8e9d3def6e6cfd93bd44d1619ddad88b78",
+    "PROOF.md": "5a1d34fb57fcda4709e33fd184e762db67f9086238ec38a4a3342b8c2c1ba11b",
+    "RESULT.json": "7e3c2db99250a8a62d36ca8a3d5da3f8f21ab3e3134281b1ed909853117ad524",
+    "verify.py": "05502b6c5fd5cbb5128ea9f52fef0c8e20e16104f821de5110f546ef1e54cb4b"
+  },
+  "author_integration_checks": 221,
+  "author_mutations_executed": 13,
+  "author_normal_and_optimized_replay": true,
+  "complete_originals": 6,
+  "exhaustive_rank_partition": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "four_constituent_theorems_match_independent_acceptance": true,
+  "identical_original_copies": 17,
+  "independent_integration_checks": 157,
+  "same_fixed_T6_copy": true,
+  "shared_checks_not_claimed_disjoint": true,
+  "status": "CONDITIONAL PASS"
+}
