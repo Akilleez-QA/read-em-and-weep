@@ -1,0 +1,255 @@
+{
+  "status": "PASS",
+  "method": "closed class characters and local eight-dimensional H1 budget only",
+  "checks": 770,
+  "actual_instance_computations": false,
+  "global_candidate_search": false,
+  "proof_sha256": "db1e23909dbabd423cbeb855f0f376e7e0fac53d557fdd8aef7685b5449edfdb",
+  "first_reduction_sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+  "sources": [
+    {
+      "file": "inputs/low-top.md",
+      "sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+      "git_blob_sha1": "6565110a12173fb6ff27838d294489ec1ad53941",
+      "pass": true
+    },
+    {
+      "file": "inputs/double-channel.md",
+      "sha256": "1af82c4986389501c01baf0f0932bfbe5cb3a224664b127acc6e22bcdace536c",
+      "git_blob_sha1": "17420835605e9223a4e8db6d38f668c48216e56a",
+      "pass": true
+    },
+    {
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+      "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+      "pass": true
+    },
+    {
+      "file": "inputs/actual.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "pass": true
+    },
+    {
+      "file": "inputs/top-four-reduction.md",
+      "sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+      "git_blob_sha1": "51d43f891d940ff1dd250747ac450db28057ac54",
+      "pass": true
+    }
+  ],
+  "quotients": {
+    "scalar": {
+      "Aq_sections_1": {
+        "S": 1,
+        "T": 2
+      },
+      "Aq_sections_2": {
+        "V": 2,
+        "P": 2,
+        "D": 1
+      },
+      "chi_K3": {
+        "Wp": -1,
+        "S": 1,
+        "T": -1
+      },
+      "chi_K4": {
+        "A": 1,
+        "V": 2
+      }
+    },
+    "standard_doublet": {
+      "Aq_sections_1": {
+        "S": 1,
+        "T": 2
+      },
+      "Aq_sections_2": {
+        "V": 2,
+        "P": 2,
+        "D": 1
+      },
+      "chi_K3": {
+        "Wp": -1,
+        "S": 1,
+        "T": -1
+      },
+      "chi_K4": {
+        "A": 1,
+        "V": 2
+      }
+    }
+  },
+  "local_atoms": [
+    [
+      "Wp",
+      -5
+    ],
+    [
+      "T",
+      -5
+    ],
+    [
+      "V",
+      -6
+    ],
+    [
+      "P",
+      -6
+    ],
+    [
+      "Wp",
+      -7
+    ],
+    [
+      "1",
+      -10
+    ],
+    [
+      "1",
+      -12
+    ]
+  ],
+  "local_tail_partitions": [
+    {
+      "N": [
+        [
+          "Wp",
+          -5
+        ],
+        [
+          "T",
+          -5
+        ]
+      ],
+      "H1_N4": {},
+      "R4": {
+        "V": 2,
+        "D": -1
+      },
+      "genuine": false
+    },
+    {
+      "N": [
+        [
+          "Wp",
+          -5
+        ],
+        [
+          "V",
+          -6
+        ]
+      ],
+      "H1_N4": {
+        "V": 1
+      },
+      "R4": {
+        "V": 3,
+        "D": -1
+      },
+      "genuine": false
+    },
+    {
+      "N": [
+        [
+          "Wp",
+          -5
+        ],
+        [
+          "Wp",
+          -7
+        ]
+      ],
+      "H1_N4": {
+        "P": 1
+      },
+      "R4": {
+        "V": 2,
+        "P": 1,
+        "D": -1
+      },
+      "genuine": false
+    },
+    {
+      "N": [
+        [
+          "Wp",
+          -5
+        ],
+        [
+          "1",
+          -10
+        ]
+      ],
+      "H1_N4": {
+        "D": 1
+      },
+      "R4": {
+        "V": 2
+      },
+      "genuine": true
+    },
+    {
+      "N": [
+        [
+          "P",
+          -6
+        ]
+      ],
+      "H1_N4": {
+        "P": 1
+      },
+      "R4": {
+        "V": 2,
+        "P": 1,
+        "D": -1
+      },
+      "genuine": false
+    },
+    {
+      "N": [
+        [
+          "1",
+          -12
+        ]
+      ],
+      "H1_N4": {
+        "V": 1,
+        "P": 1
+      },
+      "R4": {
+        "V": 3,
+        "P": 1,
+        "D": -1
+      },
+      "genuine": false
+    }
+  ],
+  "K": [
+    [
+      "S",
+      -3
+    ],
+    [
+      "V",
+      -4
+    ],
+    [
+      "V",
+      -4
+    ],
+    [
+      "Wp",
+      -5
+    ],
+    [
+      "1",
+      -10
+    ]
+  ],
+  "rank_K_minus": 10,
+  "degree_K_minus": -60,
+  "rank_E0": 16,
+  "degree_E0": -46,
+  "geometric_scope": "Manual review separately establishes canonical evaluations, basepoint-freeness, actual image and Gauss pair. Arithmetic does not certify imported actual geometric premises."
+}
