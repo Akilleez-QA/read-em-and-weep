@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T05:13:12Z",
+  "proof_sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b",
+  "selected_only_isolated_replay": true,
+  "input_files": [
+    {
+      "file": "PROOF.md",
+      "bytes": 16075,
+      "sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1615,
+      "sha256": "7eecec63acfb5ea28f5c79cbf54796f26de73cf0c7372a81014f5c6e5647ce5a"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 1759,
+      "sha256": "a5eec7072b76dffce49fa5f6954c4e3de7906cd35504bd216fe569b188ffe8ca"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 5540,
+      "sha256": "27f902fecc7ea9eff2e1ad6d3ddd94d2cc793c5c38e5b45e9d6c6dca090f78fa"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    {
+      "file": "inputs/projected-ranktwo.md",
+      "bytes": 15271,
+      "sha256": "7f1567617b78898bcd218107de5bac5a71342a4cb34411862f7342d13699c4bd"
+    },
+    {
+      "file": "inputs/eighteen-jets.md",
+      "bytes": 17528,
+      "sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf"
+    },
+    {
+      "file": "inputs/actual.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    }
+  ],
+  "runs": [
+    {
+      "command": "python verify.py",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 55,\n  \"proof_sha256\": \"c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b\",\n  \"scope\": \"Fixed universal characters, apolar Hilbert identities and bundle degrees only. No actual form, tensor, coefficient or instance rank evaluation.\"\n}\n",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 55,
+        "proof_sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b",
+        "scope": "Fixed universal characters, apolar Hilbert identities and bundle degrees only. No actual form, tensor, coefficient or instance rank evaluation."
+      }
+    },
+    {
+      "command": "python -O verify.py",
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"PASS\",\n  \"checks\": 55,\n  \"proof_sha256\": \"c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b\",\n  \"scope\": \"Fixed universal characters, apolar Hilbert identities and bundle degrees only. No actual form, tensor, coefficient or instance rank evaluation.\"\n}\n",
+      "stderr": "",
+      "result": {
+        "status": "PASS",
+        "checks": 55,
+        "proof_sha256": "c0b961a3a851b21906218865208c304df8390dedb72b73fb9e2b912a33d68d0b",
+        "scope": "Fixed universal characters, apolar Hilbert identities and bundle degrees only. No actual form, tensor, coefficient or instance rank evaluation."
+      }
+    }
+  ],
+  "normal_and_optimized_identical": true,
+  "source_files_unchanged": true,
+  "excluded": [
+    "LOCAL-SOURCE-FETCHES.json",
+    "packet __pycache__",
+    "prior VERIFY*.json",
+    "all other packet or workspace files"
+  ],
+  "scope": "Fixed universal character identities, apolar Hilbert arithmetic, exact input/proof hashes, and displayed bundle rank/degree arithmetic only. No actual HM/source-instance evaluation; no candidate scan; no network during replay. Whole-proof validity is assessed separately in REVIEWER-REVIEW.md."
+}
