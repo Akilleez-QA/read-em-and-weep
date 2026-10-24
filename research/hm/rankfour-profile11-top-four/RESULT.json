@@ -1,0 +1,405 @@
+{
+  "capacity_cuts": [
+    "C1",
+    "C4",
+    "C12"
+  ],
+  "checks": 281,
+  "computation": "Fixed universal characters, fixed source rows, displayed capacity certificates, and individual irreducible atoms of cohomology dimension at most six only.",
+  "dual_sign_cuts": [
+    "C8",
+    "C9"
+  ],
+  "intermediate_seven": [
+    "T",
+    "C2",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10"
+  ],
+  "proof_sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+  "quartic_visibility_cuts": [
+    "C3",
+    "C5",
+    "C11",
+    "C13"
+  ],
+  "records": [
+    {
+      "H0_Aq4": {
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "blocks": [
+        [
+          4,
+          "A"
+        ],
+        [
+          -8,
+          "one"
+        ]
+      ],
+      "capacity": -18,
+      "degree_Aq": 4,
+      "degree_K": -58,
+      "label": "T",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 2
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          -2,
+          "V"
+        ]
+      ],
+      "capacity": -64,
+      "degree_Aq": -2,
+      "degree_K": -52,
+      "label": "C1",
+      "status": "capacity excluded"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 3,
+        "V": 1
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "capacity": -26,
+      "degree_Aq": 2,
+      "degree_K": -56,
+      "label": "C2",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 3,
+        "P": 3
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ]
+      ],
+      "capacity": -18,
+      "degree_Aq": 4,
+      "degree_K": -58,
+      "label": "C3",
+      "status": "quartic V excluded"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 1,
+        "V": 1
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "capacity": -57,
+      "degree_Aq": -6,
+      "degree_K": -48,
+      "label": "C4",
+      "status": "capacity excluded"
+    },
+    {
+      "H0_Aq4": {
+        "A": 1,
+        "D": 2,
+        "P": 2
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          1,
+          "Wp"
+        ]
+      ],
+      "capacity": -42,
+      "degree_Aq": -2,
+      "degree_K": -52,
+      "label": "C5",
+      "status": "quartic V excluded"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 3,
+        "V": 1
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          3,
+          "W"
+        ]
+      ],
+      "capacity": -26,
+      "degree_Aq": 2,
+      "degree_K": -56,
+      "label": "C6",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 1,
+        "one": 1
+      },
+      "blocks": [
+        [
+          -8,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          3,
+          "Wp"
+        ]
+      ],
+      "capacity": -26,
+      "degree_Aq": 2,
+      "degree_K": -56,
+      "label": "C7",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "capacity": -45,
+      "degree_Aq": 4,
+      "degree_K": -58,
+      "label": "C8",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 3,
+        "P": 2,
+        "V": 1
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          -1,
+          "Wp"
+        ]
+      ],
+      "capacity": -35,
+      "degree_Aq": 6,
+      "degree_K": -60,
+      "label": "C9",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 1,
+        "P": 3,
+        "V": 1
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          -3,
+          "Wp"
+        ]
+      ],
+      "capacity": -50,
+      "degree_Aq": 0,
+      "degree_K": -54,
+      "label": "C10",
+      "status": "necessary only"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 3
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          -3,
+          "Wp"
+        ]
+      ],
+      "capacity": -40,
+      "degree_Aq": 2,
+      "degree_K": -56,
+      "label": "C11",
+      "status": "quartic V excluded"
+    },
+    {
+      "H0_Aq4": {
+        "D": 1,
+        "P": 2,
+        "V": 1
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          2,
+          "one"
+        ],
+        [
+          -5,
+          "Wp"
+        ]
+      ],
+      "capacity": -54,
+      "degree_Aq": -4,
+      "degree_K": -50,
+      "label": "C12",
+      "status": "capacity excluded"
+    },
+    {
+      "H0_Aq4": {
+        "D": 2,
+        "P": 2
+      },
+      "blocks": [
+        [
+          4,
+          "one"
+        ],
+        [
+          4,
+          "one"
+        ],
+        [
+          -5,
+          "Wp"
+        ]
+      ],
+      "capacity": -43,
+      "degree_Aq": -2,
+      "degree_K": -52,
+      "label": "C13",
+      "status": "quartic V excluded"
+    }
+  ],
+  "remaining": [
+    "T",
+    "C2",
+    "C6"
+  ],
+  "scope": "Three necessary source-D actual top-degree-four shapes; no realization, profile closure or defect-zero assumption.",
+  "small_kernel_cuts": [
+    "C10",
+    "C7"
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,793 @@
+{
+  "checks": 3591,
+  "dual_sign_cuts": [
+    "C8",
+    "C9"
+  ],
+  "final_remaining": [
+    "T",
+    "C2",
+    "C6"
+  ],
+  "internal_derivative_targets": {
+    "D": [],
+    "P": [],
+    "V": [
+      [
+        "V",
+        -4,
+        1
+      ]
+    ],
+    "Z": []
+  },
+  "kernel_cases": [
+    {
+      "R4": {
+        "D": 1,
+        "V": 2
+      },
+      "case": "R3=0",
+      "genuine": true,
+      "shape": "C10"
+    },
+    {
+      "R4": {
+        "A": -1,
+        "V": 2
+      },
+      "case": "R3=S; N=S(-5)+Wp(-5)",
+      "genuine": false,
+      "shape": "C10"
+    },
+    {
+      "R4": {
+        "V": 2
+      },
+      "case": "R3=S; N=O(-8)+Wp(-5)",
+      "genuine": true,
+      "shape": "C10"
+    },
+    {
+      "R4": {
+        "1": -1,
+        "P": 1,
+        "V": 2
+      },
+      "case": "N=W(-5)+Wp(-5)",
+      "genuine": false,
+      "shape": "C7"
+    },
+    {
+      "R4": {
+        "P": 1,
+        "V": 2
+      },
+      "case": "N=O(-6)+Wp(-5)",
+      "genuine": true,
+      "shape": "C7"
+    }
+  ],
+  "kernel_cuts": [
+    "C7",
+    "C10"
+  ],
+  "method": "closed Q(sqrt(5)) class characters, no McKay recurrence; fixed source facts and fixed symbolic shapes only",
+  "negative_hom": {
+    "1(-2)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "1(-4)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "1(-6)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "1(-8)": {
+      "D": [
+        [
+          "1",
+          -8,
+          1
+        ]
+      ],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "W(-1)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "W(-3)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "W(-5)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "W(-7)": {
+      "D": [
+        [
+          "1",
+          -8,
+          1
+        ]
+      ],
+      "P": [],
+      "V": [],
+      "Z": []
+    },
+    "Wp(-1)": {
+      "D": [
+        [
+          "T",
+          -3,
+          1
+        ],
+        [
+          "V",
+          -4,
+          1
+        ],
+        [
+          "1",
+          -8,
+          1
+        ]
+      ],
+      "P": [
+        [
+          "P",
+          -2,
+          1
+        ],
+        [
+          "T",
+          -3,
+          1
+        ],
+        [
+          "V",
+          -4,
+          1
+        ]
+      ],
+      "V": [
+        [
+          "T",
+          -3,
+          1
+        ],
+        [
+          "V",
+          -4,
+          1
+        ],
+        [
+          "V",
+          -4,
+          1
+        ]
+      ],
+      "Z": [
+        [
+          "T",
+          -3,
+          1
+        ],
+        [
+          "T",
+          -3,
+          1
+        ],
+        [
+          "V",
+          -4,
+          1
+        ]
+      ]
+    },
+    "Wp(-3)": {
+      "D": [
+        [
+          "Wp",
+          -3,
+          1
+        ]
+      ],
+      "P": [
+        [
+          "Wp",
+          -3,
+          1
+        ]
+      ],
+      "V": [
+        [
+          "Wp",
+          -3,
+          1
+        ]
+      ],
+      "Z": [
+        [
+          "Wp",
+          -3,
+          1
+        ]
+      ]
+    },
+    "Wp(-5)": {
+      "D": [],
+      "P": [
+        [
+          "Wp",
+          -5,
+          1
+        ]
+      ],
+      "V": [],
+      "Z": []
+    },
+    "Wp(-7)": {
+      "D": [],
+      "P": [],
+      "V": [],
+      "Z": []
+    }
+  },
+  "proof_sha256": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0",
+  "scope": "Arithmetic verification only; actual ambient/source premises remain imported. No actual coefficients, bundle-domain enumeration, or height scan.",
+  "shapes": [
+    {
+      "V_quartic": 2,
+      "blocks": [
+        [
+          "A",
+          4
+        ],
+        [
+          "1",
+          -8
+        ]
+      ],
+      "capacity": -18,
+      "capacity_pass": true,
+      "continuous_bound": "-52/3",
+      "degree": 4,
+      "degree_K": -58,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "tag": "T",
+      "top_three": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "V_quartic": 0,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "V",
+          -2
+        ]
+      ],
+      "capacity": -64,
+      "capacity_pass": false,
+      "continuous_bound": "-190/3",
+      "degree": -2,
+      "degree_K": -52,
+      "heights": [
+        6,
+        4,
+        3
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 2
+      },
+      "tag": "C1",
+      "top_three": [
+        4,
+        -2,
+        -2
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ]
+      ],
+      "capacity": -26,
+      "capacity_pass": true,
+      "continuous_bound": "-76/3",
+      "degree": 2,
+      "degree_K": -56,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 3,
+        "V": 1
+      },
+      "tag": "C2",
+      "top_three": [
+        4,
+        4,
+        2
+      ]
+    },
+    {
+      "V_quartic": 0,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ]
+      ],
+      "capacity": -18,
+      "capacity_pass": true,
+      "continuous_bound": "-52/3",
+      "degree": 4,
+      "degree_K": -58,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "D": 3,
+        "P": 3
+      },
+      "tag": "C3",
+      "top_three": [
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          -1
+        ]
+      ],
+      "capacity": -57,
+      "capacity_pass": false,
+      "continuous_bound": "-113/2",
+      "degree": -6,
+      "degree_K": -48,
+      "heights": [
+        6,
+        4,
+        3
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 1,
+        "V": 1
+      },
+      "tag": "C4",
+      "top_three": [
+        4,
+        -1,
+        -1
+      ]
+    },
+    {
+      "V_quartic": 0,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          1
+        ]
+      ],
+      "capacity": -42,
+      "capacity_pass": true,
+      "continuous_bound": "-251/6",
+      "degree": -2,
+      "degree_K": -52,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "A": 1,
+        "D": 2,
+        "P": 2
+      },
+      "tag": "C5",
+      "top_three": [
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "W",
+          3
+        ]
+      ],
+      "capacity": -26,
+      "capacity_pass": true,
+      "continuous_bound": "-155/6",
+      "degree": 2,
+      "degree_K": -56,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 3,
+        "V": 1
+      },
+      "tag": "C6",
+      "top_three": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          -8
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          3
+        ]
+      ],
+      "capacity": -26,
+      "capacity_pass": true,
+      "continuous_bound": "-155/6",
+      "degree": 2,
+      "degree_K": -56,
+      "heights": [
+        5,
+        4,
+        4
+      ],
+      "quartic": {
+        "1": 1,
+        "A": 1,
+        "D": 2,
+        "P": 2,
+        "V": 1
+      },
+      "tag": "C7",
+      "top_three": [
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "V_quartic": 2,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "Wp",
+          -1
+        ]
+      ],
+      "capacity": -45,
+      "capacity_pass": true,
+      "continuous_bound": "-89/2",
+      "degree": 4,
+      "degree_K": -58,
+      "heights": [
+        5,
+        5,
+        3
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 2,
+        "V": 2
+      },
+      "tag": "C8",
+      "top_three": [
+        4,
+        2,
+        -1
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          -1
+        ]
+      ],
+      "capacity": -35,
+      "capacity_pass": true,
+      "continuous_bound": "-209/6",
+      "degree": 6,
+      "degree_K": -60,
+      "heights": [
+        5,
+        5,
+        3
+      ],
+      "quartic": {
+        "D": 3,
+        "P": 2,
+        "V": 1
+      },
+      "tag": "C9",
+      "top_three": [
+        4,
+        4,
+        -1
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "Wp",
+          -3
+        ]
+      ],
+      "capacity": -50,
+      "capacity_pass": true,
+      "continuous_bound": "-299/6",
+      "degree": 0,
+      "degree_K": -54,
+      "heights": [
+        6,
+        5,
+        2
+      ],
+      "quartic": {
+        "D": 1,
+        "P": 3,
+        "V": 1
+      },
+      "tag": "C10",
+      "top_three": [
+        4,
+        2,
+        -3
+      ]
+    },
+    {
+      "V_quartic": 0,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          -3
+        ]
+      ],
+      "capacity": -40,
+      "capacity_pass": true,
+      "continuous_bound": "-79/2",
+      "degree": 2,
+      "degree_K": -56,
+      "heights": [
+        6,
+        5,
+        2
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 3
+      },
+      "tag": "C11",
+      "top_three": [
+        4,
+        4,
+        -3
+      ]
+    },
+    {
+      "V_quartic": 1,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          2
+        ],
+        [
+          "Wp",
+          -5
+        ]
+      ],
+      "capacity": -54,
+      "capacity_pass": false,
+      "continuous_bound": "-323/6",
+      "degree": -4,
+      "degree_K": -50,
+      "heights": [
+        6,
+        5,
+        2
+      ],
+      "quartic": {
+        "D": 1,
+        "P": 2,
+        "V": 1
+      },
+      "tag": "C12",
+      "top_three": [
+        4,
+        2,
+        -5
+      ]
+    },
+    {
+      "V_quartic": 0,
+      "blocks": [
+        [
+          "1",
+          4
+        ],
+        [
+          "1",
+          4
+        ],
+        [
+          "Wp",
+          -5
+        ]
+      ],
+      "capacity": -43,
+      "capacity_pass": true,
+      "continuous_bound": "-257/6",
+      "degree": -2,
+      "degree_K": -52,
+      "heights": [
+        6,
+        6,
+        1
+      ],
+      "quartic": {
+        "D": 2,
+        "P": 2
+      },
+      "tag": "C13",
+      "top_three": [
+        4,
+        4,
+        -5
+      ]
+    }
+  ],
+  "source_authentication": "four complete originals freshly fetched and byte-identical",
+  "status": "PASS"
+}
