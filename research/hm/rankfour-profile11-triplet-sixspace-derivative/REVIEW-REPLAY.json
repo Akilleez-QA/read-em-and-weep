@@ -1,0 +1,67 @@
+{
+  "reviewer": "independent-sixspace-review",
+  "replayed_at_utc": "2026-10-24T04:29:46.156075+00:00",
+  "selection": "Fresh temporary directory containing only the seven listed source/checker files; no LOCAL response files, prior output, or scratch data. Python creates only its own bytecode cache during replay.",
+  "selected_files": [
+    {
+      "file": "PROOF.md",
+      "bytes": 16248,
+      "sha256": "16823fcb3c9012c02a23406dcf4656e27441fcb05734551e7d2d4b1756085c67"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 5925,
+      "sha256": "540ee5361001b2a087f43b21efd0a10e56402144eb1432a2e7ea3f4b7d79afd7"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1609,
+      "sha256": "c8fdfecd1789cde6396644c77aca21ad97a1ca6c9babaa6a6fd35085bc663dde"
+    },
+    {
+      "file": "inputs/shared-d-gluing.md",
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+    },
+    {
+      "file": "inputs/positive-span.md",
+      "bytes": 12569,
+      "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b"
+    },
+    {
+      "file": "inputs/actual.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    }
+  ],
+  "runs": [
+    {
+      "command": "python verify.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 56,
+        "proof_sha256": "16823fcb3c9012c02a23406dcf4656e27441fcb05734551e7d2d4b1756085c67",
+        "scope": "Fixed universal representations, symbolic degree bounds and immutable inputs only; no actual instance evaluation."
+      },
+      "stderr": ""
+    },
+    {
+      "command": "python -O verify.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 56,
+        "proof_sha256": "16823fcb3c9012c02a23406dcf4656e27441fcb05734551e7d2d4b1756085c67",
+        "scope": "Fixed universal representations, symbolic degree bounds and immutable inputs only; no actual instance evaluation."
+      },
+      "stderr": ""
+    }
+  ],
+  "scope": "Numerical/character/source-pin replay only. Whole-proof geometric review is recorded separately in REVIEW.md."
+}
