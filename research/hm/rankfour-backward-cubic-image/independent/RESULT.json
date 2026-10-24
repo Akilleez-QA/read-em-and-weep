@@ -1,0 +1,1584 @@
+{
+  "actual_instance_evaluations": 0,
+  "ambient_dimension": 30,
+  "canonical_evaluation_assumed": false,
+  "central_rank": 17,
+  "checks": 603,
+  "coarse_profile_eliminations": 0,
+  "defect_patterns": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      12
+    ],
+    [
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      20,
+      0
+    ],
+    [
+      12,
+      0,
+      0
+    ],
+    [
+      12,
+      12,
+      0
+    ],
+    [
+      20,
+      0,
+      0
+    ],
+    [
+      24,
+      0,
+      0
+    ],
+    [
+      30,
+      0,
+      0
+    ],
+    [
+      32,
+      0,
+      0
+    ],
+    [
+      36,
+      0,
+      0
+    ],
+    [
+      40,
+      0,
+      0
+    ]
+  ],
+  "dual_rank": 13,
+  "endpoint_Hom_dimensions": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "endpoint_shapes": [
+    [
+      {
+        "coefficient": "1",
+        "degree": -14
+      },
+      {
+        "coefficient": "P",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -14
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -14
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "A",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -14
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -12
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -12
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "A",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -12
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "A",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -9
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -9
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -9
+      },
+      {
+        "coefficient": "A",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -9
+      },
+      {
+        "coefficient": "A",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -9
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -9
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -12
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -12
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "W'",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "W",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "V",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "A",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "S4",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W'",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -7
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "W",
+        "degree": -5
+      }
+    ],
+    [
+      {
+        "coefficient": "D",
+        "degree": -6
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "P",
+        "degree": -6
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "V",
+        "degree": -6
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "A",
+        "degree": -6
+      }
+    ],
+    [
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      },
+      {
+        "coefficient": "1",
+        "degree": -6
+      }
+    ]
+  ],
+  "endpoint_survivors": [
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -9
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ]
+  ],
+  "full_rank_image_candidates": [
+    {
+      "B": [
+        {
+          "coefficient": "P",
+          "degree": 0
+        }
+      ],
+      "H0_B_1": {
+        "T6": 1,
+        "W'": 1
+      },
+      "chi_F2_3": {
+        "S4": -1,
+        "W'": 1
+      },
+      "degree": 4,
+      "image": [
+        {
+          "coefficient": "P",
+          "degree": 1
+        }
+      ],
+      "saturation_degree_bound": 14
+    },
+    {
+      "B": [
+        {
+          "coefficient": "S4",
+          "degree": -1
+        }
+      ],
+      "H0_B_1": {
+        "S4": 1
+      },
+      "chi_F2_3": {
+        "S4": -1,
+        "T6": 1,
+        "W": -1,
+        "W'": 1
+      },
+      "degree": 8,
+      "image": [
+        {
+          "coefficient": "S4",
+          "degree": 2
+        }
+      ],
+      "saturation_degree_bound": 10
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        }
+      ],
+      "H0_B_1": {
+        "T6": 1
+      },
+      "chi_F2_3": {
+        "T6": 1
+      },
+      "degree": 12,
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 9
+        }
+      ],
+      "saturation_degree_bound": 12
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "H0_B_1": {
+        "W'": 2
+      },
+      "chi_F2_3": {
+        "W'": 1
+      },
+      "degree": 8,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        },
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "saturation_degree_bound": 10
+    }
+  ],
+  "general_ledger_rows": 31,
+  "historical_enumerations": 0,
+  "individual_image_blocks": [
+    {
+      "block": {
+        "coefficient": "P",
+        "degree": 1
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "V",
+        "degree": 1
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "S4",
+        "degree": 2
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "W'",
+        "degree": 2
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "P",
+        "degree": 3
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "V",
+        "degree": 3
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "W'",
+        "degree": 4
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "P",
+        "degree": 5
+      },
+      "compatible_sources": [
+        "P"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "V",
+        "degree": 5
+      },
+      "compatible_sources": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "S4",
+        "degree": 6
+      },
+      "compatible_sources": [
+        "D"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "W'",
+        "degree": 6
+      },
+      "compatible_sources": [
+        "P"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "A",
+        "degree": 7
+      },
+      "compatible_sources": [
+        "D"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "W",
+        "degree": 8
+      },
+      "compatible_sources": [
+        "D"
+      ]
+    },
+    {
+      "block": {
+        "coefficient": "1",
+        "degree": 9
+      },
+      "compatible_sources": [
+        "D"
+      ]
+    }
+  ],
+  "intertwiner_multiplicity": 1,
+  "ledger": [
+    {
+      "a": -60,
+      "b": -36,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -6,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ]
+    },
+    {
+      "a": -48,
+      "b": -36,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -18,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ]
+    },
+    {
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -40,
+      "b": -36,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ]
+    },
+    {
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ]
+    },
+    {
+      "a": -36,
+      "b": -36,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -18,
+        -10,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -36,
+      "b": -36,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -30,
+      "b": -46,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -16,
+        -8,
+        0,
+        8
+      ]
+    },
+    {
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ]
+    },
+    {
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -30,
+      "b": -36,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -36,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ]
+    },
+    {
+      "a": -28,
+      "b": -36,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -24,
+      "b": -48,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -18,
+        -10,
+        -2,
+        6
+      ]
+    },
+    {
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ]
+    },
+    {
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ]
+    },
+    {
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ]
+    },
+    {
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        0,
+        0,
+        12
+      ],
+      "graded_degrees": [
+        -18,
+        -10,
+        -2,
+        18
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        12,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -10,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        36,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -42,
+        2,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ]
+    },
+    {
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "a": -20,
+      "b": -36,
+      "defects": [
+        0,
+        20,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -18,
+        10,
+        18
+      ]
+    },
+    {
+      "a": -20,
+      "b": -36,
+      "defects": [
+        40,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -46,
+        2,
+        10,
+        18
+      ]
+    }
+  ],
+  "ordered_ranks": [
+    5,
+    9,
+    13,
+    17,
+    21
+  ],
+  "positive_defect_rows": 24,
+  "positive_defects_retained": true,
+  "rank_one_necessary_image": [
+    {
+      "coefficient": "1",
+      "degree": 9
+    }
+  ],
+  "rank_one_necessary_source": "D",
+  "raw_rank_four_multisets": 24,
+  "single_T6_assumed": false,
+  "source_Z_assumed": false,
+  "status": "PASS",
+  "theorem": "Conditional: every T6 copy in H0(Q*(3)) has nonzero derivative image of generic rank at most 3 in actual ordered rank-four (3,1) plateau."
+}
