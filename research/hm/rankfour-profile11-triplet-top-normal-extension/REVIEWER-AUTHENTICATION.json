@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "proof_file": "PROOF.md",
+  "proof_bytes": 16808,
+  "proof_sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "method": "Independent fresh read-only GitHub connector fetches by exact immutable commit/path and separately by Git blob; complete UTF8 bytes checked against the selected local inputs, SHA256 and canonical Git blob SHA1; no reliance on author raw fetches.",
+  "fetch_response_file": "REVIEWER-FRESH-SOURCE-FETCHES.json",
+  "inputs": [
+    {
+      "file": "inputs/first-kernel-structure.md",
+      "ref": "d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/d3c9e9ff8d06977e6c3d3be6cd1c9ed71007a593/research/hm/rankfour-profile11-triplet-first-kernel-structure/PROOF.md",
+      "bytes": 12921,
+      "sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+      "git_blob_sha1": "41ab2148d3ea13d07dcdfe2bf353a18c664bb848",
+      "fresh_path_fetch_equal_local": true,
+      "fresh_blob_fetch_equal_local": true,
+      "fresh_path_and_blob_bytes_equal": true,
+      "path_response_blob_sha_matches": true,
+      "complete_content_authenticated": true
+    },
+    {
+      "file": "inputs/third-kernel-top-rigidity.md",
+      "ref": "a370a91b3fa7fdf92e7d2b24af31602a71837bbc",
+      "path": "research/hm/rankfour-profile11-triplet-third-kernel-top-rigidity/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/a370a91b3fa7fdf92e7d2b24af31602a71837bbc/research/hm/rankfour-profile11-triplet-third-kernel-top-rigidity/PROOF.md",
+      "bytes": 20248,
+      "sha256": "c501c094dfe7cff853f8b0a64552b4a59478581a2d11921ec5f8f70f34bb0542",
+      "git_blob_sha1": "f3d7fc24958c867dd3509b18383d3831be6d56a3",
+      "fresh_path_fetch_equal_local": true,
+      "fresh_blob_fetch_equal_local": true,
+      "fresh_path_and_blob_bytes_equal": true,
+      "path_response_blob_sha_matches": true,
+      "complete_content_authenticated": true
+    },
+    {
+      "file": "inputs/top-jet-complement.md",
+      "ref": "317cf0c533b6ab8ce650d566e08c87610dd11ccd",
+      "path": "research/hm/rankfour-profile11-triplet-top-jet-complement/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/317cf0c533b6ab8ce650d566e08c87610dd11ccd/research/hm/rankfour-profile11-triplet-top-jet-complement/PROOF.md",
+      "bytes": 11240,
+      "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+      "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521",
+      "fresh_path_fetch_equal_local": true,
+      "fresh_blob_fetch_equal_local": true,
+      "fresh_path_and_blob_bytes_equal": true,
+      "path_response_blob_sha_matches": true,
+      "complete_content_authenticated": true
+    },
+    {
+      "file": "inputs/common-kernel-ladder.md",
+      "ref": "5249c844765cfd96ffb51bdfd4aaef8307d49b1f",
+      "path": "research/hm/rankfour-profile11-triplet-common-kernel-ladder/PROOF.md",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/5249c844765cfd96ffb51bdfd4aaef8307d49b1f/research/hm/rankfour-profile11-triplet-common-kernel-ladder/PROOF.md",
+      "bytes": 13135,
+      "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd",
+      "git_blob_sha1": "d64a0db4f2bcbd61651cdefc37a37b672c321176",
+      "fresh_path_fetch_equal_local": true,
+      "fresh_blob_fetch_equal_local": true,
+      "fresh_path_and_blob_bytes_equal": true,
+      "path_response_blob_sha_matches": true,
+      "complete_content_authenticated": true
+    }
+  ]
+}
