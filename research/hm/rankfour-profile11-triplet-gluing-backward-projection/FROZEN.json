@@ -1,0 +1,60 @@
+{
+  "schema": "ten-core-author-freeze/v1",
+  "status": "AUTHOR; new independent entire-proof and complete-source review required before publication.",
+  "frozen_at_utc": "2026-10-24T14:21:25.357638+00:00",
+  "core_file_count": 10,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2849,
+      "sha256": "b0ac7627671601beb644acb4daa77dcfa8ed2db76aa73cff4076c3625acc3b95"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 11571,
+      "sha256": "27eee20058764041c4bc60812e38c0bed3a112fdb3efa8a73a656447fcdaeb71"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 8069,
+      "sha256": "717bab6c199217d7da6296dce1f383211dc5f14342c9d17e69c6aad842ce8a3b"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 4803,
+      "sha256": "ba204efd83254a15f6a77650fca81c0e26989bc6cd5fb65888d7386ba3eca844"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 24971,
+      "sha256": "c8da1a1e5fc657018588ba64a966779adf63860580a1519e5dd45355bc078d1c"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 11249,
+      "sha256": "94e561d2436a5801f823495aca89dc052c8198169ae8f12726ebaacb3c43019b"
+    },
+    {
+      "path": "inputs/gluing-kernel-derivative.md",
+      "bytes": 18760,
+      "sha256": "29e3de59ef651ebec60accba604970f0dfaacdcce0c45e35130fcbd6a816aa6a"
+    },
+    {
+      "path": "inputs/original-second-kernel-derivative.md",
+      "bytes": 11709,
+      "sha256": "a11b3386584390375a6a3249898170a2240d614d4f067e824ddf12aa0c3d6e6f"
+    },
+    {
+      "path": "inputs/gluing-kernel-incidence.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "inputs/orthogonal-top-incidence.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    }
+  ],
+  "scope": "Full-positive triplet; original t=0; original local delta=12; residual simultaneous rank-seven k=2; original K1; all transitive actual-geometric assumptions.",
+  "boundary": "Not independent review, not READY, no publication or GitHub writes; no closure, realization, higher-order matching, or algebraicity."
+}
