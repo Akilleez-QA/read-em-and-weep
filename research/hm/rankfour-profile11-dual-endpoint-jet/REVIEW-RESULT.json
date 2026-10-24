@@ -1,0 +1,120 @@
+{
+  "verdict": "PASS",
+  "check_count": 137,
+  "scope": "Fixed closed character/Hom arithmetic, input hash checks, and universal exact-sequence rank/degree identities only. Geometric jet and saturation arguments are independently reviewed in REVIEW-INDEPENDENT.md, not algorithmically certified here.",
+  "proof_sha256": "bbe7c05e9055b70ba511c77ebc0514a0fdf89d75844199f971e7e774355c08c6",
+  "checker_sha256": "12a1f7ee279e07c8cecfbac9b0e4d0bb44dd4e09bb1f5fb130e81f2c3eff447d",
+  "authentication_sha256": "2cd6057c0addbfce0c07b676b6ea209a85adcc21ff0a4fc39a5f3165c730047d",
+  "input_checks": [
+    {
+      "file": "inputs/actual.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "bytes": 9672,
+      "verdict": "PASS"
+    },
+    {
+      "file": "inputs/pair-defect.md",
+      "sha256": "95cc7824898dd0bffe13f86ab1ede2947451eb3d4632e189baa608ad0de3fdec",
+      "git_blob_sha1": "f409e036c549d15dc0ad03443325922575107b4d",
+      "bytes": 15519,
+      "verdict": "PASS"
+    }
+  ],
+  "hom_checks": [
+    {
+      "map": "O(-10) -> O(-6)",
+      "dimension": 0
+    },
+    {
+      "map": "O(-10) -> O(-8)",
+      "dimension": 0
+    },
+    {
+      "map": "O(-10) -> W(-7)",
+      "dimension": 0
+    },
+    {
+      "map": "W(-9) -> O(-6)",
+      "dimension": 0
+    },
+    {
+      "map": "W(-9) -> O(-8)",
+      "dimension": 1
+    },
+    {
+      "map": "W(-9) -> W(-7)",
+      "dimension": 1
+    },
+    {
+      "map": "O(-8) -> W(-7)",
+      "dimension": 1
+    },
+    {
+      "map": "O(-8) -> O(-6)",
+      "dimension": 0
+    }
+  ],
+  "jet_extension": {
+    "Ext1_dimension": 1,
+    "nonzero_cocycle_coefficient_up_to_sign": 10,
+    "jet_rank": 2,
+    "jet_degree": 18
+  },
+  "bundle_checks": {
+    "S0": {
+      "rank": 5,
+      "degree": -46
+    },
+    "L0": {
+      "rank": 2,
+      "degree": -18
+    },
+    "B0": {
+      "rank": 3,
+      "degree": -28
+    },
+    "small_derivative_kernel": {
+      "rank": 1,
+      "degree": -10
+    },
+    "small_derivative_image": {
+      "rank": 1,
+      "degree": -8
+    },
+    "L0_plus": {
+      "rank": 3,
+      "degree": -24
+    },
+    "S_tail": {
+      "rank": 8,
+      "degree": -8
+    },
+    "L_tail": {
+      "rank": 7,
+      "degree": -14
+    },
+    "tail_derivative_kernel": {
+      "rank": 6,
+      "degree": -18
+    },
+    "tail_derivative_image": {
+      "rank": 1,
+      "degree": 4
+    },
+    "S": {
+      "rank": 13,
+      "degree": -54
+    },
+    "L": {
+      "rank": 9,
+      "degree": -32
+    },
+    "L_minus": {
+      "rank": 7,
+      "degree": -28
+    }
+  },
+  "original_defect": 12,
+  "original_derivative_rank_everywhere_claim_numerical_consistency": 2
+}
