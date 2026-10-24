@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "files": {
+    "PROOF.md": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637",
+    "INPUTS.json": "f75a49bd4e9a6e90c8b0d2e896c314f3e3cdcbff3e6e46e8a94354cbb3094c5b",
+    "verify_packet.py": "cca0f4978d3b3b17ea66e19d1155deb712d2684204aef654397d990d73838032",
+    "inputs/stationary-section-kernel.md": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+    "inputs/seven-space-ramification.md": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+    "inputs/first-kernel-forward-closure.md": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+    "README.md": "9e638f16073507b7e59db7fff728e5b9f7df887eedd25eda90ab56d9654a4e45",
+    "PROVENANCE.md": "414b650a8d31509c28f30a77d06688e5150d2137e32ada0be8f67ad613831aef"
+  },
+  "proof_utf8_bytes": 28094,
+  "proof_sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637",
+  "exclusions": [
+    "LOCAL-SOURCE-FETCHES.json",
+    "AUTHOR-REPLAY.json",
+    "SELF-REVIEW.md",
+    "PUBLICATION-MANIFEST.json",
+    "caches"
+  ]
+}
