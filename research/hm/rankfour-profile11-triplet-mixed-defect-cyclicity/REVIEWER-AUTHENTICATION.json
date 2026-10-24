@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T10:05:20.775288+00:00",
+  "frozen_proof": {
+    "path": "PROOF.md",
+    "bytes": 8768,
+    "sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+    "canonical_git_blob_sha1": "8f85ce87434ba4f933635c61859bb783870dacd1"
+  },
+  "review_scope": "Every paragraph of the entire frozen proof, entire checker, and entire sole direct original was read. Transitive actual-geometric hypotheses remain assumed, not independently reconstructed.",
+  "source_request": {
+    "repository_full_name": "Akilleez-QA/read-em-and-weep",
+    "path": "research/hm/rankfour-profile11-triplet-top-backward-flag/PROOF.md",
+    "ref": "16998561d07a6c69a2529a8a052a7f9c3a510bee",
+    "blob_sha": "2407aeca994376c073fb4ded46e988bab0c7ca70",
+    "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/16998561d07a6c69a2529a8a052a7f9c3a510bee/research/hm/rankfour-profile11-triplet-top-backward-flag/PROOF.md"
+  },
+  "independent_fresh_fetches": {
+    "exact_path_ref": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    },
+    "exact_git_blob": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    }
+  },
+  "local_original": {
+    "bytes": 16724,
+    "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+    "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+  },
+  "all_complete_bytes_equal": true,
+  "connector_returned_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70",
+  "raw_fetch_records_excluded_from_selected_replay": [
+    "REVIEWER-FRESH-SOURCE-FETCHES.json",
+    "REVIEWER-FRESH-PATH-ORIGINAL.md",
+    "REVIEWER-FRESH-BLOB-ORIGINAL.md"
+  ],
+  "github_writes": false
+}

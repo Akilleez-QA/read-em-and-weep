@@ -1,0 +1,229 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T10:05:20.775288+00:00",
+  "frozen_proof_sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+  "fresh_empty_isolated_directory": "/tmp/REVIEWER-LOCAL-MIXED-DEFECT-aa7hcew2",
+  "initially_empty": true,
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "inputs/top-backward-flag.md"
+  ],
+  "exactly_five_files_before_and_after": true,
+  "isolated_before": {
+    "PROOF.md": {
+      "bytes": 8768,
+      "sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+      "canonical_git_blob_sha1": "8f85ce87434ba4f933635c61859bb783870dacd1"
+    },
+    "INPUTS.json": {
+      "bytes": 531,
+      "sha256": "9439472108598cb8eaeb15d95063ccd3d99ec69454c282ba8eeba42f8be3d25f",
+      "canonical_git_blob_sha1": "b277ee9fd388510c0f7cdca25ec336885beb2e93"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3474,
+      "sha256": "4dec59833b963734fc641c38f3b05130507a1d5c179b20977fb8605ddd60f17a",
+      "canonical_git_blob_sha1": "9abd53a44ff1b125b15617fb77e367dc69fa90d7"
+    },
+    "verify.py": {
+      "bytes": 3646,
+      "sha256": "8d354b7f5553ad0cf7430107fe21482b77648278adb25762a17c5fbfbbd3b346",
+      "canonical_git_blob_sha1": "9d88c5603eb9ed86906e89ba60dac230fec81d66"
+    },
+    "inputs/top-backward-flag.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    }
+  },
+  "isolated_after": {
+    "PROOF.md": {
+      "bytes": 8768,
+      "sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+      "canonical_git_blob_sha1": "8f85ce87434ba4f933635c61859bb783870dacd1"
+    },
+    "INPUTS.json": {
+      "bytes": 531,
+      "sha256": "9439472108598cb8eaeb15d95063ccd3d99ec69454c282ba8eeba42f8be3d25f",
+      "canonical_git_blob_sha1": "b277ee9fd388510c0f7cdca25ec336885beb2e93"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3474,
+      "sha256": "4dec59833b963734fc641c38f3b05130507a1d5c179b20977fb8605ddd60f17a",
+      "canonical_git_blob_sha1": "9abd53a44ff1b125b15617fb77e367dc69fa90d7"
+    },
+    "verify.py": {
+      "bytes": 3646,
+      "sha256": "8d354b7f5553ad0cf7430107fe21482b77648278adb25762a17c5fbfbbd3b346",
+      "canonical_git_blob_sha1": "9d88c5603eb9ed86906e89ba60dac230fec81d66"
+    },
+    "inputs/top-backward-flag.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    }
+  },
+  "original_selected_after": {
+    "PROOF.md": {
+      "bytes": 8768,
+      "sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+      "canonical_git_blob_sha1": "8f85ce87434ba4f933635c61859bb783870dacd1"
+    },
+    "INPUTS.json": {
+      "bytes": 531,
+      "sha256": "9439472108598cb8eaeb15d95063ccd3d99ec69454c282ba8eeba42f8be3d25f",
+      "canonical_git_blob_sha1": "b277ee9fd388510c0f7cdca25ec336885beb2e93"
+    },
+    "REPRODUCE.md": {
+      "bytes": 3474,
+      "sha256": "4dec59833b963734fc641c38f3b05130507a1d5c179b20977fb8605ddd60f17a",
+      "canonical_git_blob_sha1": "9abd53a44ff1b125b15617fb77e367dc69fa90d7"
+    },
+    "verify.py": {
+      "bytes": 3646,
+      "sha256": "8d354b7f5553ad0cf7430107fe21482b77648278adb25762a17c5fbfbbd3b346",
+      "canonical_git_blob_sha1": "9d88c5603eb9ed86906e89ba60dac230fec81d66"
+    },
+    "inputs/top-backward-flag.md": {
+      "bytes": 16724,
+      "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+      "canonical_git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+    }
+  },
+  "all_selected_hashes_unchanged": true,
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "environment_overrides": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": ""
+      },
+      "returncode": 0,
+      "stderr": "",
+      "stdout_sha256": "8e6d0055c2125c2a8680791d13ad869703572330f4148ebe6555e9c90c5f43c6",
+      "stdout": {
+        "status": "PASS",
+        "checks": 41,
+        "proof_sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+        "scope": "Entire immutable-source and frozen-proof authentication plus four tiny universal formal Q[t]-module elimination identities, ranks and degree totals. No actual coefficient, point, matrix or source-instance rank is evaluated. This is not a substitute for entire-proof geometric review.",
+        "details": [
+          "exactly one entire immutable direct original",
+          "hard-pinned immutable source file path and ref",
+          "complete source UTF8 length",
+          "complete source SHA256",
+          "complete source Git blob",
+          "immutable source URL",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "j=1: last generator maps to one",
+          "j=1: residual t^1 coefficient is a rational unit",
+          "j=1: source and adapted-basis rank totals",
+          "j=1: one cyclic elementary direction",
+          "j=1: degree-twelve divisor length",
+          "j=2: last generator maps to one",
+          "j=2: quotient map kills universal relation 1",
+          "j=2: exact reversible elimination identity e0",
+          "j=2: residual t^2 coefficient is a rational unit",
+          "j=2: source and adapted-basis rank totals",
+          "j=2: one cyclic elementary direction",
+          "j=2: degree-twelve divisor length",
+          "j=3: last generator maps to one",
+          "j=3: quotient map kills universal relation 1",
+          "j=3: quotient map kills universal relation 2",
+          "j=3: exact reversible elimination identity e0",
+          "j=3: exact reversible elimination identity e1",
+          "j=3: residual t^3 coefficient is a rational unit",
+          "j=3: source and adapted-basis rank totals",
+          "j=3: one cyclic elementary direction",
+          "j=3: degree-twelve divisor length",
+          "j=4: last generator maps to one",
+          "j=4: quotient map kills universal relation 1",
+          "j=4: quotient map kills universal relation 2",
+          "j=4: quotient map kills universal relation 3",
+          "j=4: exact reversible elimination identity e0",
+          "j=4: exact reversible elimination identity e1",
+          "j=4: exact reversible elimination identity e2",
+          "j=4: residual t^4 coefficient is a rational unit",
+          "j=4: source and adapted-basis rank totals",
+          "j=4: one cyclic elementary direction",
+          "j=4: degree-twelve divisor length",
+          "four retained rank-degree deficit totals"
+        ]
+      }
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "environment_overrides": {
+        "PYTHONDONTWRITEBYTECODE": "1",
+        "PYTHONPATH": ""
+      },
+      "returncode": 0,
+      "stderr": "",
+      "stdout_sha256": "8e6d0055c2125c2a8680791d13ad869703572330f4148ebe6555e9c90c5f43c6",
+      "stdout": {
+        "status": "PASS",
+        "checks": 41,
+        "proof_sha256": "55a65f12dc249217cd542f70b9acf9429c8715b810c06044de9b1e3240d358ca",
+        "scope": "Entire immutable-source and frozen-proof authentication plus four tiny universal formal Q[t]-module elimination identities, ranks and degree totals. No actual coefficient, point, matrix or source-instance rank is evaluated. This is not a substitute for entire-proof geometric review.",
+        "details": [
+          "exactly one entire immutable direct original",
+          "hard-pinned immutable source file path and ref",
+          "complete source UTF8 length",
+          "complete source SHA256",
+          "complete source Git blob",
+          "immutable source URL",
+          "entire frozen proof UTF8 length",
+          "entire frozen proof SHA256",
+          "j=1: last generator maps to one",
+          "j=1: residual t^1 coefficient is a rational unit",
+          "j=1: source and adapted-basis rank totals",
+          "j=1: one cyclic elementary direction",
+          "j=1: degree-twelve divisor length",
+          "j=2: last generator maps to one",
+          "j=2: quotient map kills universal relation 1",
+          "j=2: exact reversible elimination identity e0",
+          "j=2: residual t^2 coefficient is a rational unit",
+          "j=2: source and adapted-basis rank totals",
+          "j=2: one cyclic elementary direction",
+          "j=2: degree-twelve divisor length",
+          "j=3: last generator maps to one",
+          "j=3: quotient map kills universal relation 1",
+          "j=3: quotient map kills universal relation 2",
+          "j=3: exact reversible elimination identity e0",
+          "j=3: exact reversible elimination identity e1",
+          "j=3: residual t^3 coefficient is a rational unit",
+          "j=3: source and adapted-basis rank totals",
+          "j=3: one cyclic elementary direction",
+          "j=3: degree-twelve divisor length",
+          "j=4: last generator maps to one",
+          "j=4: quotient map kills universal relation 1",
+          "j=4: quotient map kills universal relation 2",
+          "j=4: quotient map kills universal relation 3",
+          "j=4: exact reversible elimination identity e0",
+          "j=4: exact reversible elimination identity e1",
+          "j=4: exact reversible elimination identity e2",
+          "j=4: residual t^4 coefficient is a rational unit",
+          "j=4: source and adapted-basis rank totals",
+          "j=4: one cyclic elementary direction",
+          "j=4: degree-twelve divisor length",
+          "four retained rank-degree deficit totals"
+        ]
+      }
+    }
+  ],
+  "normal_and_optimized_stdout_identical": true,
+  "replay_uses_only_standard_library": true,
+  "replay_network_or_external_writes": false,
+  "no_selected_actual_instance_evaluation": true,
+  "audit_script_and_replay_directory_excluded_from_selected_replay": true
+}
