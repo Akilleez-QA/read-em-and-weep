@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "review_kind": "new independent entire-proof review",
+  "proof_binding": {
+    "file": "PROOF.md",
+    "bytes": 15127,
+    "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+  },
+  "replayed_at_utc": "2026-10-24T08:13:32.021712+00:00",
+  "newly_empty_isolated_directory": "/tmp/quartic-independent-review-nmeg_5hv",
+  "selected_file_count": 7,
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/top-jet-complement.md",
+    "inputs/nonsplit-quotient.md"
+  ],
+  "manifest_before": [
+    {
+      "file": "PROOF.md",
+      "bytes": 15127,
+      "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1062,
+      "sha256": "c5182b71630943e5b7dbc050ebaf13d6b9d37ac2a02a12cab138b40059100db3"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 2209,
+      "sha256": "4a865541637d7b51f4b95cce77251201d8ffb098120eafb270b571b79cf23cd8"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 3988,
+      "sha256": "bfa69b1e3bc9923d63b3b2fe92ab9051dd54296a73abc2f48e4ce23b5297547b"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    {
+      "file": "inputs/top-jet-complement.md",
+      "bytes": 11240,
+      "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259"
+    },
+    {
+      "file": "inputs/nonsplit-quotient.md",
+      "bytes": 13619,
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    }
+  ],
+  "manifest_after": [
+    {
+      "file": "PROOF.md",
+      "bytes": 15127,
+      "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1062,
+      "sha256": "c5182b71630943e5b7dbc050ebaf13d6b9d37ac2a02a12cab138b40059100db3"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 2209,
+      "sha256": "4a865541637d7b51f4b95cce77251201d8ffb098120eafb270b571b79cf23cd8"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 3988,
+      "sha256": "bfa69b1e3bc9923d63b3b2fe92ab9051dd54296a73abc2f48e4ce23b5297547b"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    {
+      "file": "inputs/top-jet-complement.md",
+      "bytes": 11240,
+      "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259"
+    },
+    {
+      "file": "inputs/nonsplit-quotient.md",
+      "bytes": 13619,
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    }
+  ],
+  "selected_bytes_unchanged": true,
+  "source_selected_bytes_unchanged": true,
+  "exact_file_set_unchanged": true,
+  "normal_optimized_stdout_identical": true,
+  "explicit_checks_per_run": 40,
+  "imported_fixed_character_checks_per_run": 81,
+  "fixed_checks_per_run_total": 121,
+  "runs": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python verify.py",
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 40,\n  \"not_claimed\": [\n    \"actual coefficient, tensor, matrix or instance-rank evaluation\",\n    \"chosen invariant or determinant normalization\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba\",\n  \"scope\": \"two complete immutable originals; fixed characters, degrees, universal elementary orders and exterior weights\",\n  \"status\": \"PASS\"\n}\n",
+      "result": {
+        "checks": 40,
+        "not_claimed": [
+          "actual coefficient, tensor, matrix or instance-rank evaluation",
+          "chosen invariant or determinant normalization",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+        "scope": "two complete immutable originals; fixed characters, degrees, universal elementary orders and exterior weights",
+        "status": "PASS"
+      }
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python -O verify.py",
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 40,\n  \"not_claimed\": [\n    \"actual coefficient, tensor, matrix or instance-rank evaluation\",\n    \"chosen invariant or determinant normalization\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba\",\n  \"scope\": \"two complete immutable originals; fixed characters, degrees, universal elementary orders and exterior weights\",\n  \"status\": \"PASS\"\n}\n",
+      "result": {
+        "checks": 40,
+        "not_claimed": [
+          "actual coefficient, tensor, matrix or instance-rank evaluation",
+          "chosen invariant or determinant normalization",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+        "scope": "two complete immutable originals; fixed characters, degrees, universal elementary orders and exterior weights",
+        "status": "PASS"
+      }
+    }
+  ],
+  "independent_import_count_observations": [
+    {
+      "optimized": false,
+      "imported_fixed_character_checks": 81,
+      "exit_code": 0
+    },
+    {
+      "optimized": true,
+      "imported_fixed_character_checks": 81,
+      "exit_code": 0
+    }
+  ],
+  "scope": "Only immutable-source hashes, fixed universal representation/degree/elementary-order arithmetic, and formal rank-three exterior weights; no selected actual instance evaluation, network requests, remote writes or installations during replay."
+}

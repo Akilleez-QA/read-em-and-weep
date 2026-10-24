@@ -1,0 +1,13 @@
+{
+  "checks": 40,
+  "not_claimed": [
+    "actual coefficient, tensor, matrix or instance-rank evaluation",
+    "chosen invariant or determinant normalization",
+    "branch occurrence or exclusion",
+    "original tenth jets",
+    "proof by computation"
+  ],
+  "proof_sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba",
+  "scope": "two complete immutable originals; fixed characters, degrees, universal elementary orders and exterior weights",
+  "status": "PASS"
+}

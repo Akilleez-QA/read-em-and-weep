@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "review_kind": "new independent entire-proof review",
+  "proof_binding": {
+    "file": "PROOF.md",
+    "bytes": 15127,
+    "sha256": "205256f2772d21d81025e6c511a52de564bfd7e9e0d94cce79fc3f684b6d17ba"
+  },
+  "authenticated_at_utc": "2026-10-24T08:13:31.810780+00:00",
+  "author_fetch_records_reused": false,
+  "remote_writes": false,
+  "raw_fetches": "local and excluded from publication and replay",
+  "inputs": [
+    {
+      "file": "inputs/top-jet-complement.md",
+      "ref": "317cf0c533b6ab8ce650d566e08c87610dd11ccd",
+      "repository_path": "research/hm/rankfour-profile11-triplet-top-jet-complement/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/317cf0c533b6ab8ce650d566e08c87610dd11ccd/research/hm/rankfour-profile11-triplet-top-jet-complement/PROOF.md",
+      "blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/63abea7d4412fced453c728d9f1e3c7dd4870521",
+      "fresh_tools": [
+        "github.fetch_file(base64, exact immutable ref and full path, no line range)",
+        "github.fetch_blob(exact pinned Git blob)"
+      ],
+      "path_reported_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521",
+      "records": [
+        {
+          "route": "immutable_path",
+          "bytes": 11240,
+          "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+          "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521"
+        },
+        {
+          "route": "git_blob",
+          "bytes": 11240,
+          "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+          "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521"
+        },
+        {
+          "route": "selected_local_copy",
+          "bytes": 11240,
+          "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+          "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521"
+        }
+      ],
+      "complete_bytes_equal": true,
+      "pins_match": true
+    },
+    {
+      "file": "inputs/nonsplit-quotient.md",
+      "ref": "f7abba83fedd46a9d91f5abbd9e40d3b02ae65f1",
+      "repository_path": "research/hm/rankfour-profile11-triplet-nonsplit-quotient/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/f7abba83fedd46a9d91f5abbd9e40d3b02ae65f1/research/hm/rankfour-profile11-triplet-nonsplit-quotient/PROOF.md",
+      "blob_url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/1974a5c3b20546dcb414539096511388f495cdab",
+      "fresh_tools": [
+        "github.fetch_file(base64, exact immutable ref and full path, no line range)",
+        "github.fetch_blob(exact pinned Git blob)"
+      ],
+      "path_reported_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "records": [
+        {
+          "route": "immutable_path",
+          "bytes": 13619,
+          "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+          "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab"
+        },
+        {
+          "route": "git_blob",
+          "bytes": 13619,
+          "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+          "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab"
+        },
+        {
+          "route": "selected_local_copy",
+          "bytes": 13619,
+          "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568",
+          "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab"
+        }
+      ],
+      "complete_bytes_equal": true,
+      "pins_match": true
+    }
+  ]
+}
