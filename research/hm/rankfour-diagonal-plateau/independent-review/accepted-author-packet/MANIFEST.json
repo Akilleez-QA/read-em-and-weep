@@ -1,0 +1,76 @@
+{
+  "status": "frozen public mathematical snapshot",
+  "scope": "Actual rank-four ordered maximal (2,2) exclusion conditional on five pinned actual geometric originals. Coordination material omitted; mathematical files unchanged.",
+  "files": [
+    {
+      "file": "CONTROLS.json",
+      "bytes": 4923,
+      "sha256": "e419aec1ac4499e3b53d9c2265c7dc5ca18b33e47d28ec5fbc496208ffada1f9"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 2907,
+      "sha256": "012aa3e924128a875bd673d87de24c7c9cbfb60a4d583a55d4864c4d82de151d"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 17435,
+      "sha256": "0fcfaf0258427ae436572b386587ea1652718ed2ce7d0ffb23482af0f83eae25"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2082,
+      "sha256": "c6cfe5ddcd688ef3baee72a93a81e40f4fdb7c7a052a0300fd7965e8a4ff4201"
+    },
+    {
+      "file": "RESULT-OPTIMIZED.json",
+      "bytes": 368324,
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "file": "RESULT-OTHER-CWD.json",
+      "bytes": 368324,
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "file": "RESULT.json",
+      "bytes": 368324,
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+      "bytes": 10635,
+      "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22"
+    },
+    {
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "test_controls.py",
+      "bytes": 2482,
+      "sha256": "c3f8f5260423c327a7f118d049a7d0e5ff4bab9327c84861600c20d2873848fa"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 19282,
+      "sha256": "6ca8f891d05a9a18074bfdb2645df6e95253fb309cb0783b6fcd7eb211d124b1"
+    }
+  ]
+}

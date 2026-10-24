@@ -1,0 +1,154 @@
+{
+  "author_mathematical_files": 14,
+  "files": [
+    {
+      "bytes": 674,
+      "file": "COMPARISON.json",
+      "sha256": "36fcc48e3b07fb3a7fdfb44195a94524a245c5898435a2f42564880a7831187e"
+    },
+    {
+      "bytes": 3800,
+      "file": "INDEPENDENT-CONTROLS.json",
+      "sha256": "9e164126bba36f7c6fbe5d5d9d0b9bce42b2ce6deba5186c94259a61f61d3bbb"
+    },
+    {
+      "bytes": 493322,
+      "file": "INDEPENDENT-RESULT.json",
+      "sha256": "a25551ec07fdf8de92690909034c555f4009b9d35b672eeacc6188ba7be4fc89"
+    },
+    {
+      "bytes": 10026,
+      "file": "REVIEW.md",
+      "sha256": "15a17253c78c6664aaddea5b798285c52725a5d1b9b05e731481f7a65f26d05b"
+    },
+    {
+      "bytes": 4923,
+      "file": "accepted-author-packet/CONTROLS.json",
+      "sha256": "e419aec1ac4499e3b53d9c2265c7dc5ca18b33e47d28ec5fbc496208ffada1f9"
+    },
+    {
+      "bytes": 2907,
+      "file": "accepted-author-packet/INPUTS.json",
+      "sha256": "012aa3e924128a875bd673d87de24c7c9cbfb60a4d583a55d4864c4d82de151d"
+    },
+    {
+      "bytes": 2517,
+      "file": "accepted-author-packet/MANIFEST.json",
+      "sha256": "d9c70b32bcb4819f07d9b556313b266cf248a35a544ba894542d8200162da378"
+    },
+    {
+      "bytes": 17435,
+      "file": "accepted-author-packet/PROOF.md",
+      "sha256": "0fcfaf0258427ae436572b386587ea1652718ed2ce7d0ffb23482af0f83eae25"
+    },
+    {
+      "bytes": 2082,
+      "file": "accepted-author-packet/README.md",
+      "sha256": "c6cfe5ddcd688ef3baee72a93a81e40f4fdb7c7a052a0300fd7965e8a4ff4201"
+    },
+    {
+      "bytes": 368324,
+      "file": "accepted-author-packet/RESULT-OPTIMIZED.json",
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "bytes": 368324,
+      "file": "accepted-author-packet/RESULT-OTHER-CWD.json",
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "bytes": 368324,
+      "file": "accepted-author-packet/RESULT.json",
+      "sha256": "e14049be30fe1d31e4c166a0c036279533c94b7801fc4c2b5dbcc67f9d860d76"
+    },
+    {
+      "bytes": 9672,
+      "file": "accepted-author-packet/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "file": "accepted-author-packet/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "accepted-author-packet/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10635,
+      "file": "accepted-author-packet/inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+      "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22"
+    },
+    {
+      "bytes": 10451,
+      "file": "accepted-author-packet/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 2482,
+      "file": "accepted-author-packet/test_controls.py",
+      "sha256": "c3f8f5260423c327a7f118d049a7d0e5ff4bab9327c84861600c20d2873848fa"
+    },
+    {
+      "bytes": 19282,
+      "file": "accepted-author-packet/verify.py",
+      "sha256": "6ca8f891d05a9a18074bfdb2645df6e95253fb309cb0783b6fcd7eb211d124b1"
+    },
+    {
+      "bytes": 11829,
+      "file": "independent.py",
+      "sha256": "6f224244f303dde94f070af947a7ebb910ff59aa08e7734e95fd8ff8d0f6dd64"
+    },
+    {
+      "bytes": 847,
+      "file": "normal.log",
+      "sha256": "c3af85764b4c5b596339c533b39b5a6fc5061a9a77ab1eae2e257996ee660fd7"
+    },
+    {
+      "bytes": 847,
+      "file": "optimized.log",
+      "sha256": "c3af85764b4c5b596339c533b39b5a6fc5061a9a77ab1eae2e257996ee660fd7"
+    },
+    {
+      "bytes": 9672,
+      "file": "remote-inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "file": "remote-inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "remote-inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10635,
+      "file": "remote-inputs/RANK-ONE-GAUSS-FLAG-DEGREE-EXCLUSION.md",
+      "sha256": "efc9ca4ea3348429be704d27096ba8ceec00de522ee5159bcfdf33972ecd7d22"
+    },
+    {
+      "bytes": 10451,
+      "file": "remote-inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 2736,
+      "file": "replay.py",
+      "sha256": "fd92928b50b8caa18f861c52dfa86eb67ddc3cb1c6e75d8431daa63be6797151"
+    },
+    {
+      "bytes": 2243,
+      "file": "test_independent_controls.py",
+      "sha256": "35688e2b6a0d7016ccc7437a5d1d29fe8743c0ac1009067ecd3cf7772b324690"
+    }
+  ],
+  "independent_checks": 11331,
+  "independent_mutation_rejections": 22,
+  "scope": "Portable independent review of ordered maximal rank-four (2,2) exclusion only, conditional on retained actual geometric premises.",
+  "verdict": "PASS"
+}
