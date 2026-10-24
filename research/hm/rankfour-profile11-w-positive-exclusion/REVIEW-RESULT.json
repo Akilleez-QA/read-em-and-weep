@@ -1,0 +1,43 @@
+{
+  "actual_first_kernel": {
+    "degree": -24,
+    "rank": 7
+  },
+  "actual_intersection": {
+    "degree": -22,
+    "rank": 8
+  },
+  "authentication_sha256": "aecf7d7ad3848965fe1f627f17040db5373267047be22bcba47afbcc5447ae69",
+  "checks": 620,
+  "complete_jet_kernel": {
+    "character": {
+      "T": 1,
+      "Wp": 1
+    },
+    "degree": -24,
+    "rank": 8
+  },
+  "constant_kernel": {
+    "character": {
+      "A": 1,
+      "P": 1,
+      "V": 1
+    },
+    "rank": 10
+  },
+  "contradiction_gap": 18,
+  "degree_capacity": -42,
+  "inputs_sha256": "be7b276db775e62a3e6559ca1d5bc106eb05aaedc89b67b6e9805131645a4a9b",
+  "proof_sha256": "eacf658ecef85350c36591f25f80cae14408869d56f077d371982a5311e0232f",
+  "scope": "Fixed universal characters, source-byte authentication and structural rank-degree arithmetic only. The sheaf-theoretic argument is independently reviewed, not machine-certified.",
+  "status": "PASS",
+  "successive_line_degree_upper_bounds": [
+    0,
+    -2,
+    -4,
+    -6,
+    -8,
+    -10,
+    -12
+  ]
+}
