@@ -1,0 +1,41 @@
+{
+  "reviewer": "review_eighteen_jet_squares",
+  "reviewed_at_utc": "2026-10-24T04:40:57.404681+00:00",
+  "proof_bytes": 17528,
+  "proof_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+  "selected_files": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "characters.py",
+    "verify.py",
+    "inputs/sixspace-derivative.md",
+    "inputs/shared-d-gluing.md",
+    "inputs/deep-images.md"
+  ],
+  "excluded": "All LOCAL* files and unrelated research.",
+  "selected_only_replays": {
+    "normal": {
+      "status": "PASS",
+      "checks": 49,
+      "proof_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "scope": "Immutable inputs and fixed universal character/degree identities only; no actual instance evaluation or algebraicity test."
+    },
+    "optimized": {
+      "status": "PASS",
+      "checks": 49,
+      "proof_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+      "scope": "Immutable inputs and fixed universal character/degree identities only; no actual instance evaluation or algebraicity test."
+    }
+  },
+  "selected_file_sha256": {
+    "PROOF.md": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+    "INPUTS.json": "f70c272337f9d6d5d7908483a6aca181ca42d8cf6a806e20f9b88d75cf753172",
+    "REPRODUCE.md": "f8705c49fe3a48c1bec47f4ab91e5a314ef85ab57c3b44c8949853054add890d",
+    "characters.py": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7",
+    "verify.py": "9653e5bb4dd60b81dd9f0957f27159980e57b70c20fcc0cd8de18021706e959b",
+    "inputs/sixspace-derivative.md": "16823fcb3c9012c02a23406dcf4656e27441fcb05734551e7d2d4b1756085c67",
+    "inputs/shared-d-gluing.md": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+    "inputs/deep-images.md": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26"
+  }
+}

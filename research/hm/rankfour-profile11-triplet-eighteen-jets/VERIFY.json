@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "checks": 49,
+  "proof_sha256": "33a3c8866f072f4aec607c2d6647222ee0031a3f1bbbaef550e58df5075b3dbf",
+  "scope": "Immutable inputs and fixed universal character/degree identities only; no actual instance evaluation or algebraicity test."
+}
