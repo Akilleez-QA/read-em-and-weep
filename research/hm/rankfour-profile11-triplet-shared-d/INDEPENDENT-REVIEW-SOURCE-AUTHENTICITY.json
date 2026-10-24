@@ -1,0 +1,55 @@
+{
+  "reviewed_proof": "PROOF.md",
+  "reviewed_proof_bytes": 8801,
+  "reviewed_proof_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+  "required_frozen_sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793",
+  "method": "Independent GitHub fetch_file calls for all exact immutable commits and paths, byte-for-byte comparison with retained files and producer response, SHA256 and actual Git blob SHA1 recomputed from fresh UTF-8 content. No GitHub writes.",
+  "sources": [
+    {
+      "file": "positive-span.md",
+      "ref": "97dad5c307a04f61d850e8a4211559e97ed4c2fd",
+      "path": "research/hm/rankfour-profile11-triplet-positive-span/PROOF.md",
+      "fresh_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/97dad5c307a04f61d850e8a4211559e97ed4c2fd/research/hm/rankfour-profile11-triplet-positive-span/PROOF.md",
+      "bytes": 12569,
+      "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+      "git_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+      "github_returned_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+      "fresh_matches_retained_bytes": true,
+      "fresh_matches_manifest": true,
+      "fresh_matches_producer_response": true,
+      "blob_matches_github": true,
+      "read_tool_error": false
+    },
+    {
+      "file": "deep-images.md",
+      "ref": "95af2c0fa1e3cce92496a44ef9023708735e1ec7",
+      "path": "research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "fresh_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/95af2c0fa1e3cce92496a44ef9023708735e1ec7/research/hm/rankfour-profile11-triplet-deep-images/PROOF.md",
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f",
+      "github_returned_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f",
+      "fresh_matches_retained_bytes": true,
+      "fresh_matches_manifest": true,
+      "fresh_matches_producer_response": true,
+      "blob_matches_github": true,
+      "read_tool_error": false
+    },
+    {
+      "file": "actual.md",
+      "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+      "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "fresh_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+      "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "github_returned_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+      "fresh_matches_retained_bytes": true,
+      "fresh_matches_manifest": true,
+      "fresh_matches_producer_response": true,
+      "blob_matches_github": true,
+      "read_tool_error": false
+    }
+  ],
+  "proof_matches_frozen": true
+}
