@@ -1,0 +1,14 @@
+{
+  "checks": 35,
+  "not_claimed": [
+    "selected actual source or graph scalar evaluation",
+    "degree-ten completeness",
+    "stationary graph as a dependency",
+    "branch occurrence or exclusion",
+    "original tenth jets",
+    "proof by computation"
+  ],
+  "proof_sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+  "scope": "two complete immutable inputs; fixed finite-group Hom multiplicities, universal quartic/first-jet and degree identities",
+  "status": "PASS"
+}

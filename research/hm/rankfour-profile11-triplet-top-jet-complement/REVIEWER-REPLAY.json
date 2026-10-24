@@ -1,0 +1,151 @@
+{
+  "actual_instance_evaluation": false,
+  "explicit_checks_per_run": 35,
+  "files_after_exactly_selected": true,
+  "imported_count_basis": "Full characters.py inspection: nine representation names times nine trace classes, each checked once by explicit require on import.",
+  "imported_fixed_character_checks_per_run": 81,
+  "initially_empty": true,
+  "isolated_directory": "/tmp/review-top-jet-seven-h96j4c9s",
+  "large_computation": false,
+  "network_or_installation_during_replay": false,
+  "optimized_guards": "All conditions use explicit exceptions, not assert.",
+  "proof_binding": {
+    "bytes": 11240,
+    "file": "PROOF.md",
+    "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521",
+    "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259"
+  },
+  "recorded_at_utc": "2026-10-24T08:01:24.468342+00:00",
+  "reviewer": "review_top_jet_complement_proof",
+  "runs": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python verify.py",
+      "result": {
+        "checks": 35,
+        "not_claimed": [
+          "selected actual source or graph scalar evaluation",
+          "degree-ten completeness",
+          "stationary graph as a dependency",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+        "scope": "two complete immutable inputs; fixed finite-group Hom multiplicities, universal quartic/first-jet and degree identities",
+        "status": "PASS"
+      },
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 35,\n  \"not_claimed\": [\n    \"selected actual source or graph scalar evaluation\",\n    \"degree-ten completeness\",\n    \"stationary graph as a dependency\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259\",\n  \"scope\": \"two complete immutable inputs; fixed finite-group Hom multiplicities, universal quartic/first-jet and degree identities\",\n  \"status\": \"PASS\"\n}\n",
+      "stdout_sha256": "f7983a6874068a15a691e7436f2bf982d9c67b723f8b31f0193f3ae03d6ba5cf"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 PYTHONPATH= python -O verify.py",
+      "result": {
+        "checks": 35,
+        "not_claimed": [
+          "selected actual source or graph scalar evaluation",
+          "degree-ten completeness",
+          "stationary graph as a dependency",
+          "branch occurrence or exclusion",
+          "original tenth jets",
+          "proof by computation"
+        ],
+        "proof_sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259",
+        "scope": "two complete immutable inputs; fixed finite-group Hom multiplicities, universal quartic/first-jet and degree identities",
+        "status": "PASS"
+      },
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 35,\n  \"not_claimed\": [\n    \"selected actual source or graph scalar evaluation\",\n    \"degree-ten completeness\",\n    \"stationary graph as a dependency\",\n    \"branch occurrence or exclusion\",\n    \"original tenth jets\",\n    \"proof by computation\"\n  ],\n  \"proof_sha256\": \"08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259\",\n  \"scope\": \"two complete immutable inputs; fixed finite-group Hom multiplicities, universal quartic/first-jet and degree identities\",\n  \"status\": \"PASS\"\n}\n",
+      "stdout_sha256": "f7983a6874068a15a691e7436f2bf982d9c67b723f8b31f0193f3ae03d6ba5cf"
+    }
+  ],
+  "selected_after": {
+    "INPUTS.json": {
+      "bytes": 1062,
+      "git_blob_sha1": "8534a66279f004e81309713b165aae644e6542e7",
+      "sha256": "784de0a3dd0fb5b3e613eaa63b8d469b2082b2ac7282eb957e3ed5d2d9da60d5"
+    },
+    "PROOF.md": {
+      "bytes": 11240,
+      "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521",
+      "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2111,
+      "git_blob_sha1": "670e576823c56543749f4ae72ea076a665025a09",
+      "sha256": "3c5f87dd51a946cd19d00db3c34b7f48982530227a927bf7831e776b321622e4"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "inputs/rankseven-equality.md": {
+      "bytes": 15139,
+      "git_blob_sha1": "6a4ef8941ee4cee131992bdf9cd7657635b058c5",
+      "sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae"
+    },
+    "verify.py": {
+      "bytes": 3302,
+      "git_blob_sha1": "4aba9ed57a4fef402a53259c7728b01a24a1982f",
+      "sha256": "eae9a8b31f99eb40bab78312078342644d56388906cbd081491ecbdb3594522c"
+    }
+  },
+  "selected_before": {
+    "INPUTS.json": {
+      "bytes": 1062,
+      "git_blob_sha1": "8534a66279f004e81309713b165aae644e6542e7",
+      "sha256": "784de0a3dd0fb5b3e613eaa63b8d469b2082b2ac7282eb957e3ed5d2d9da60d5"
+    },
+    "PROOF.md": {
+      "bytes": 11240,
+      "git_blob_sha1": "63abea7d4412fced453c728d9f1e3c7dd4870521",
+      "sha256": "08708a646f51fb6b10ef94c1eab1b5e4ee56a775fb8e377d6a92e8d34df54259"
+    },
+    "REPRODUCE.md": {
+      "bytes": 2111,
+      "git_blob_sha1": "670e576823c56543749f4ae72ea076a665025a09",
+      "sha256": "3c5f87dd51a946cd19d00db3c34b7f48982530227a927bf7831e776b321622e4"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "git_blob_sha1": "5b92c3f9d520c949b631ef3844c74f2696366c5c",
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nonsplit-quotient.md": {
+      "bytes": 13619,
+      "git_blob_sha1": "1974a5c3b20546dcb414539096511388f495cdab",
+      "sha256": "d4ff280dc943c2a112ea68ff4d9c4750fe5f93b3892d8a104fa9c08aa5960568"
+    },
+    "inputs/rankseven-equality.md": {
+      "bytes": 15139,
+      "git_blob_sha1": "6a4ef8941ee4cee131992bdf9cd7657635b058c5",
+      "sha256": "a6e56f535af652d3ff437cc5041527636f601751ae24285ba1ec91670f4db7ae"
+    },
+    "verify.py": {
+      "bytes": 3302,
+      "git_blob_sha1": "4aba9ed57a4fef402a53259c7728b01a24a1982f",
+      "sha256": "eae9a8b31f99eb40bab78312078342644d56388906cbd081491ecbdb3594522c"
+    }
+  },
+  "selected_files_exactly": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/rankseven-equality.md",
+    "inputs/nonsplit-quotient.md"
+  ],
+  "source_and_replay_bytes_unchanged": true,
+  "status": "PASS",
+  "stdout_identical": true,
+  "total_explicit_and_imported_checks_per_run": 116
+}
