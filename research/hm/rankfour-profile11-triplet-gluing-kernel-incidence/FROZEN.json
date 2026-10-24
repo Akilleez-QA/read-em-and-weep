@@ -1,0 +1,57 @@
+{
+  "schema": "triplet-gluing-kernel-freeze-v1",
+  "frozen_at_utc": "2026-10-24T13:18:41.662994+00:00",
+  "scope": "Exact ten-file core. New independent entire-proof review required. Author raw source responses and replay evidence are excluded.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3434,
+      "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 14721,
+      "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 7359,
+      "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 7334,
+      "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9109,
+      "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+    },
+    {
+      "path": "inputs/r13-extension-incidence.md",
+      "bytes": 19230,
+      "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+    },
+    {
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "inputs/orthogonal-top-incidence.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    }
+  ]
+}
