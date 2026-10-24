@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T09:50:14.347013+00:00",
+  "frozen_proof": {
+    "bytes": 16724,
+    "sha256": "5a9a86e376cce495818f2ffefd0442b0a45e9b249143cf333d48c7ed9d302959",
+    "git_blob_sha1": "2407aeca994376c073fb4ded46e988bab0c7ca70"
+  },
+  "complete_original": {
+    "file": "inputs/top-normal-extension.md",
+    "ref": "192f771436114029ccbaf0413a5e8f96edb6fce5",
+    "path": "research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+    "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/192f771436114029ccbaf0413a5e8f96edb6fce5/research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+    "bytes": 16808,
+    "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+    "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+  },
+  "local_identity": {
+    "bytes": 16808,
+    "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+    "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+  },
+  "fresh_independent_fetches": {
+    "path": {
+      "request": {
+        "repository_full_name": "Akilleez-QA/read-em-and-weep",
+        "path": "research/hm/rankfour-profile11-triplet-top-normal-extension/PROOF.md",
+        "ref": "192f771436114029ccbaf0413a5e8f96edb6fce5",
+        "encoding": "utf-8"
+      },
+      "response_identity": {
+        "bytes": 16808,
+        "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+        "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "equals_local_complete_bytes": true,
+      "response_reported_sha": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+    },
+    "blob": {
+      "request": {
+        "url": "https://api.github.com/repos/Akilleez-QA/read-em-and-weep/git/blobs/59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "response_identity": {
+        "bytes": 16808,
+        "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+        "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+      },
+      "equals_local_complete_bytes": true,
+      "response_reported_sha": null
+    }
+  },
+  "expected_identity": {
+    "bytes": 16808,
+    "sha256": "074dba0e590290f7b811a848b5fb4910ab6eebe5597f855111b66d5cd5fe71d0",
+    "git_blob_sha1": "59d734b137e2bfc014a6932ad1844d26a27ac147"
+  },
+  "all_complete_bytes_equal": true,
+  "raw_responses": "REVIEWER-FRESH-SOURCE-FETCHES.json",
+  "raw_response_identity": {
+    "bytes": 53063,
+    "sha256": "56dee07904236d088262ea0ab94074f98f2467b8a0df334a9d45323299dcaadb",
+    "git_blob_sha1": "c5f82e3d84c42a883f683e51231f6f2ba541b381"
+  },
+  "complete_fresh_copies": [
+    "REVIEWER-FRESH-PATH.md",
+    "REVIEWER-FRESH-BLOB.md"
+  ],
+  "scope": "Independent read-only path-at-immutable-commit and Git-blob fetches; all UTF8 content compared byte-for-byte with the complete retained original. Full raw responses and fresh copies are excluded from publication and six-file replay."
+}
