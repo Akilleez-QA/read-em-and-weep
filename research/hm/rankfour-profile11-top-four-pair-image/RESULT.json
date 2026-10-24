@@ -1,0 +1,154 @@
+{
+  "K_minus_rank_degree": [
+    10,
+    -60
+  ],
+  "K_plus_E0_rank_degree": [
+    16,
+    -46
+  ],
+  "actual_image": "F(-2), with zero O(-10) component",
+  "beta_E0_generic_rank": 3,
+  "checks": 81,
+  "computation": "Fixed universal characters and individual eight-dimensional cohomology atoms only.",
+  "forced_K": [
+    [
+      -3,
+      "S"
+    ],
+    [
+      -4,
+      "V"
+    ],
+    [
+      -4,
+      "V"
+    ],
+    [
+      -5,
+      "Wp"
+    ],
+    [
+      -10,
+      "one"
+    ]
+  ],
+  "proof_sha256": "db1e23909dbabd423cbeb855f0f376e7e0fac53d557fdd8aef7685b5449edfdb",
+  "scope": "Two decomposable positive parts only; no original determinant-defect assertion, no realization/exclusion, no horizontal splitting or quotient connection.",
+  "status": "PASS",
+  "tail_partitions": [
+    {
+      "H1_twist4": {},
+      "R4": {
+        "D": -1,
+        "V": 2
+      },
+      "genuine": false,
+      "tail": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          -5,
+          "T"
+        ]
+      ]
+    },
+    {
+      "H1_twist4": {
+        "V": 1
+      },
+      "R4": {
+        "D": -1,
+        "V": 3
+      },
+      "genuine": false,
+      "tail": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          -6,
+          "V"
+        ]
+      ]
+    },
+    {
+      "H1_twist4": {
+        "P": 1
+      },
+      "R4": {
+        "D": -1,
+        "P": 1,
+        "V": 2
+      },
+      "genuine": false,
+      "tail": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          -7,
+          "Wp"
+        ]
+      ]
+    },
+    {
+      "H1_twist4": {
+        "D": 1
+      },
+      "R4": {
+        "V": 2
+      },
+      "genuine": true,
+      "tail": [
+        [
+          -5,
+          "Wp"
+        ],
+        [
+          -10,
+          "one"
+        ]
+      ]
+    },
+    {
+      "H1_twist4": {
+        "P": 1
+      },
+      "R4": {
+        "D": -1,
+        "P": 1,
+        "V": 2
+      },
+      "genuine": false,
+      "tail": [
+        [
+          -6,
+          "P"
+        ]
+      ]
+    },
+    {
+      "H1_twist4": {
+        "P": 1,
+        "V": 1
+      },
+      "R4": {
+        "D": -1,
+        "P": 1,
+        "V": 3
+      },
+      "genuine": false,
+      "tail": [
+        [
+          -12,
+          "one"
+        ]
+      ]
+    }
+  ]
+}
