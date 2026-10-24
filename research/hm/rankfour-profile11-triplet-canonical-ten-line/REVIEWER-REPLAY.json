@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-24T07:21:12.868564+00:00",
+  "proof_sha256": "40a89cf37dffe2fc58a4d7dc78953f241efcc1d984131501376966dc91f7926b",
+  "proof_bytes": 16557,
+  "isolation": "Fresh temporary directory populated with exactly the selected eight files; PYTHONPATH removed; bytecode writes disabled; no neighboring packet or copied execution outputs read. Both outputs were captured freshly by reviewer subprocesses.",
+  "selected_files": [
+    {
+      "file": "PROOF.md",
+      "bytes": 16557,
+      "sha256": "40a89cf37dffe2fc58a4d7dc78953f241efcc1d984131501376966dc91f7926b",
+      "git_blob_sha1": "9a2b9c0b5badd5170a169f66904edcbcd0b469d2"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 1539,
+      "sha256": "de944b415929e782488712c088f32fd839d340d81c90984f35f5888e4d80fcae",
+      "git_blob_sha1": "c382a743f5c3e99b94602cba24bf956075e43da5"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 2212,
+      "sha256": "1227775f8652c89097bf0ddd6696053e979fd4047f4a334590ac384e3a0f839a",
+      "git_blob_sha1": "1e6647d1e7f0faad25e5a607277f221c2616ef7b"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 6298,
+      "sha256": "7c1d796e99b3aef2e114942bb130e6d080d0b0e34e2dbe0daf8a66eccdee0521",
+      "git_blob_sha1": "399f5bf1ff79dec565ba2b5e73168d468c1fe630"
+    },
+    {
+      "file": "characters.py",
+      "bytes": 1644,
+      "sha256": "08db790b5fb9b8a63253d57471e574e4a7495dc7d1e2baaed0c1df4ddb02995a",
+      "git_blob_sha1": "f3a9a23517de4258f0f66e9a69c9ee350945fe93"
+    },
+    {
+      "file": "inputs/nine-jets.md",
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a",
+      "git_blob_sha1": "916cc6a3bc1cf8ad07e019f00a1f5ebf867311d6"
+    },
+    {
+      "file": "inputs/defect-capacity.md",
+      "bytes": 16069,
+      "sha256": "135c74cc09d4f1da1fcae16c330e0c9d5a9d05d615e59a2461dd532cbb91a62f",
+      "git_blob_sha1": "175af94697c44f3140bb2c1d04978931c255b3fe"
+    },
+    {
+      "file": "inputs/deep-images.md",
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+      "git_blob_sha1": "9cf95f42505f37900f5a24c25cff07acca1b499f"
+    }
+  ],
+  "input_file_count": 8,
+  "final_file_count": 8,
+  "inputs_unchanged": true,
+  "outputs_identical": true,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 96,\n  \"not_claimed\": [\n    \"evaluation of any actual coefficient, point, jet, tensor or matrix\",\n    \"geometric proof by computation\",\n    \"resolution of delta or e9\",\n    \"original tenth-jet separation\",\n    \"branch realization or exclusion\"\n  ],\n  \"proof_sha256\": \"40a89cf37dffe2fc58a4d7dc78953f241efcc1d984131501376966dc91f7926b\",\n  \"scope\": \"three complete source pins; fixed small characters; universal degree bookkeeping; formal second-transvectant ODE identity\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_sha256": "fc503a4bfef7bff77e31ebb6047c25ff1e5f8d8234f08915424b3de31224e0fb"
+    },
+    {
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"checks\": 96,\n  \"not_claimed\": [\n    \"evaluation of any actual coefficient, point, jet, tensor or matrix\",\n    \"geometric proof by computation\",\n    \"resolution of delta or e9\",\n    \"original tenth-jet separation\",\n    \"branch realization or exclusion\"\n  ],\n  \"proof_sha256\": \"40a89cf37dffe2fc58a4d7dc78953f241efcc1d984131501376966dc91f7926b\",\n  \"scope\": \"three complete source pins; fixed small characters; universal degree bookkeeping; formal second-transvectant ODE identity\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_sha256": "fc503a4bfef7bff77e31ebb6047c25ff1e5f8d8234f08915424b3de31224e0fb"
+    }
+  ],
+  "scope": "Offline bounded verifier replay only; independent geometric whole-proof review and fresh remote authentication recorded separately."
+}

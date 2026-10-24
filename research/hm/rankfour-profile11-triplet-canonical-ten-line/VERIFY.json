@@ -1,0 +1,13 @@
+{
+  "checks": 96,
+  "not_claimed": [
+    "evaluation of any actual coefficient, point, jet, tensor or matrix",
+    "geometric proof by computation",
+    "resolution of delta or e9",
+    "original tenth-jet separation",
+    "branch realization or exclusion"
+  ],
+  "proof_sha256": "40a89cf37dffe2fc58a4d7dc78953f241efcc1d984131501376966dc91f7926b",
+  "scope": "three complete source pins; fixed small characters; universal degree bookkeeping; formal second-transvectant ODE identity",
+  "status": "PASS"
+}
