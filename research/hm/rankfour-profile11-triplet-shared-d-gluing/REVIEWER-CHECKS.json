@@ -1,0 +1,117 @@
+{
+  "proof_sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+  "proof_bytes": 20361,
+  "scope": "Independent complete-proof review plus fixed class-character identities; no actual instance calculation, broad candidate enumeration, or GitHub write. Selected-only replay contains precisely the eight listed files and no raw responses.",
+  "selected_files": {
+    "PROOF.md": {
+      "bytes": 20361,
+      "sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7"
+    },
+    "verify.py": {
+      "bytes": 8264,
+      "sha256": "3ec7ff5fa934a8e2cd4060bbed9bb3b6acc8ad08cacd199ba5f4a578407e8d0e"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "INPUTS.json": {
+      "bytes": 2097,
+      "sha256": "e86d6fc5b1d2d54035737777e3bd5d86ea406fefaafdc545b67d04b166e85372"
+    },
+    "inputs/actual.md": {
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    "inputs/deep-images.md": {
+      "bytes": 12085,
+      "sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26"
+    },
+    "inputs/positive-span.md": {
+      "bytes": 12569,
+      "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b"
+    },
+    "inputs/shared-d.md": {
+      "bytes": 8801,
+      "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793"
+    }
+  },
+  "replay": [
+    {
+      "command": "python verify.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 77,
+        "proof_sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+        "scope": "Fixed universal identities and immutable input hashes only; no actual instance evaluation or proof-assistant certification."
+      }
+    },
+    {
+      "command": "python -O verify.py",
+      "exit_code": 0,
+      "result": {
+        "status": "PASS",
+        "checks": 77,
+        "proof_sha256": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+        "scope": "Fixed universal identities and immutable input hashes only; no actual instance evaluation or proof-assistant certification."
+      }
+    }
+  ],
+  "independent_fixed_character_checks": {
+    "status": "PASS",
+    "checks": 37,
+    "method": "Separate exact Q(sqrt(5)) class-character implementation, not importing characters.py or verify.py.",
+    "labels": [
+      "character norm one",
+      "character norm W",
+      "character norm A",
+      "character norm S4",
+      "character norm D",
+      "character norm T6",
+      "character norm P",
+      "character norm V",
+      "character norm Wp",
+      "Sym2",
+      "Sym3",
+      "Sym4",
+      "Sym5",
+      "Sym8",
+      "Sym10",
+      "Sym16",
+      "Sym18",
+      "A times D",
+      "A times P",
+      "W times D",
+      "W times V",
+      "W times P",
+      "W times Wp",
+      "W times W",
+      "P times S4",
+      "twist three Euler",
+      "R H0 at 2",
+      "R H1 at 2",
+      "F18a H0 at 2",
+      "F18a H1 at 2",
+      "F18b H0 at 2",
+      "F18b H1 at 2",
+      "F H1 at 2",
+      "F18a H0 at 3",
+      "F18a H1 at 3",
+      "F18b H0 at 3",
+      "F18b H1 at 3"
+    ]
+  },
+  "reproduction_note": {
+    "file": "REPRODUCE.md",
+    "bytes": 1278,
+    "sha256": "23af2348db82b8ae8be8c419fa3d9459633f551b3932021c0720d1c2d84807f4"
+  },
+  "review": {
+    "file": "INDEPENDENT-REVIEW.md",
+    "status": "PASS",
+    "bytes": 6694,
+    "sha256": "7b38ca3f085e342ecfd6829ca5ee29fc12e1a6ab47781fa0136206f14e544bcd",
+    "scope": "Entire exact final proof, Sections 1-10 and statement; conditional on retained source hypotheses."
+  }
+}
