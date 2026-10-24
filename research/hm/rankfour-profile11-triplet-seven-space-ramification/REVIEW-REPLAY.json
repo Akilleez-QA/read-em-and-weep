@@ -1,0 +1,195 @@
+{
+  "schema": 1,
+  "reviewer": "independent entire-proof reviewer",
+  "completed_utc": "2026-10-24T11:24:06.432472+00:00",
+  "proof_utf8_bytes": 20687,
+  "proof_sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3",
+  "checker_name_note": "The packet supplies verify_packet.py, not verify.py. The supplied frozen checker was read completely and used unchanged.",
+  "selected_files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 20687,
+      "sha256": "25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 2040,
+      "sha256": "5eb562861814cdec655b55c519b5411910fee537c6c6b858dec5c011a1a6693d"
+    },
+    {
+      "path": "verify_packet.py",
+      "bytes": 8934,
+      "sha256": "c1d00bcd968d5334ddc902829cae5b6107fb37d197d876bf059b3d066f999bc0"
+    },
+    {
+      "path": "inputs/ten-pairing-splitting.md",
+      "bytes": 16304,
+      "sha256": "b233db763f8c7aa78174ae85629f28f00a373f6b78b3674602f96189f6cf3d2e"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "inputs/shared-d.md",
+      "bytes": 8801,
+      "sha256": "f2e5b5d8bdb0f8a156aaf38695042f204b4d3cffd1a40a4a28870bed2ef13793"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2549,
+      "sha256": "6b16385a68531266d8062e82d8d5943222031e497f5ad3bc9cc7774eea3179aa"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 5659,
+      "sha256": "aac770159a447538822fc5e0f956d415291453ec2d91adfb7b8f5cbb91b49a73"
+    },
+    {
+      "path": "FROZEN.json",
+      "bytes": 1052,
+      "sha256": "c77c6074dd13bd52839ef0182eb160983cab18f474f13d5552c76fd1eca2c283"
+    }
+  ],
+  "selected_file_count": 9,
+  "clean_replays": [
+    {
+      "directory": "/tmp/seven-space-independent-replay-mheuionc",
+      "files": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/first-kernel-forward-closure.md",
+        "inputs/shared-d.md",
+        "inputs/ten-pairing-splitting.md",
+        "verify_packet.py"
+      ],
+      "selected_only_before_run": true,
+      "run_indices": [
+        2,
+        3
+      ],
+      "selected_only_after_runs": true
+    },
+    {
+      "directory": "/tmp/seven-space-independent-replay-n6o38y7t",
+      "files": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/first-kernel-forward-closure.md",
+        "inputs/shared-d.md",
+        "inputs/ten-pairing-splitting.md",
+        "verify_packet.py"
+      ],
+      "selected_only_before_run": true,
+      "run_indices": [
+        4,
+        5
+      ],
+      "selected_only_after_runs": true
+    }
+  ],
+  "runs": [
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify_packet.py"
+      ],
+      "cwd": "/workspace/shared/rankfour-profile11-triplet-seven-space-ramification",
+      "optimized": false,
+      "isolated": false,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.028504
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify_packet.py"
+      ],
+      "cwd": "/workspace/shared/rankfour-profile11-triplet-seven-space-ramification",
+      "optimized": true,
+      "isolated": false,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.096418
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "verify_packet.py"
+      ],
+      "cwd": "/tmp/seven-space-independent-replay-mheuionc",
+      "optimized": false,
+      "isolated": true,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.026872
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "cwd": "/tmp/seven-space-independent-replay-mheuionc",
+      "optimized": true,
+      "isolated": true,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.104995
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "verify_packet.py"
+      ],
+      "cwd": "/tmp/seven-space-independent-replay-n6o38y7t",
+      "optimized": false,
+      "isolated": true,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.02677
+    },
+    {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-I",
+        "-B",
+        "-O",
+        "verify_packet.py"
+      ],
+      "cwd": "/tmp/seven-space-independent-replay-n6o38y7t",
+      "optimized": true,
+      "isolated": true,
+      "exit_code": 0,
+      "stdout": "PASS: 93 bounded checks (26 whole-file authentication; 40 universal character; 27 fixed orbit/degree/ramification checks).\nEntire frozen proof SHA256: 25388c411411f7304afc2dc7ad6695af5a931e852ba138c45cfb7a6f708d84e3\nConditional projected seven-space first-jet saturation and ramification only; no occurrence, K1 exclusion, further jet-defect classification, or algebraicity.\n",
+      "stderr": "",
+      "elapsed_seconds": 0.117775
+    }
+  ],
+  "all_six_runs_exit_zero": true,
+  "all_six_stdout_identical": true,
+  "all_stderr_empty": true,
+  "exact_frozen_files_unchanged": true,
+  "status": "PASS",
+  "scope": "Only whole-file hashes, fixed representation recurrence through degree twelve, fixed orbit/degree/ramification arithmetic. No selected actual geometry or large computation."
+}
