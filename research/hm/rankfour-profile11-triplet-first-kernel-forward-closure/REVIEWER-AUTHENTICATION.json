@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "role": "independent entire-proof reviewer",
+  "completed_at_utc": "2026-10-24T10:51:31.486497+00:00",
+  "proof_utf8_bytes": 18052,
+  "proof_sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137",
+  "method": "Six fresh read-only GitHub connector calls: each complete original at immutable commit/path and independently by recorded Git blob; recomputed UTF-8 length, SHA256, and Git blob SHA1; checked complete local byte equality. Author reports were not used as evidence.",
+  "fresh_response_evidence": "/workspace/shared/rankfour-profile11-triplet-first-kernel-forward-closure-reviewer-fresh-fetches.json",
+  "fresh_response_evidence_sha256": "87c806ef9ad2a6d575c88db4be99fce0e9cf47ee0d60dbbc3c220a5fd38d8c0c",
+  "all_routes_verified": true,
+  "sources": [
+    {
+      "id": "first-kernel-span",
+      "pr": 1235,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "7152e94cedbab18036b5e032d4e97934c4c061b7",
+      "path": "research/hm/rankfour-profile11-triplet-first-kernel-span/PROOF.md",
+      "local_path": "inputs/first-kernel-span.md",
+      "utf8_bytes": 11977,
+      "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+      "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7152e94cedbab18036b5e032d4e97934c4c061b7/research/hm/rankfour-profile11-triplet-first-kernel-span/PROOF.md",
+      "routes": {
+        "path": {
+          "utf8_bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+          "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        },
+        "blob": {
+          "utf8_bytes": 11977,
+          "sha256": "66f8040b87f3d193fbd7e6eecb42a1457a59aa6f2cf3f10f29e7ac7b1aa1b6c9",
+          "git_blob_sha1": "b846834f8451e7202721d9669b43df294f7a96d3",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        }
+      },
+      "independent_path_blob_byte_equality": true
+    },
+    {
+      "id": "kernel-three-exclusion",
+      "pr": 1234,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "3d55622ece9a4bb9e20197dec560b298f1d03fb1",
+      "path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "local_path": "inputs/kernel-three-exclusion.md",
+      "utf8_bytes": 16183,
+      "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+      "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/3d55622ece9a4bb9e20197dec560b298f1d03fb1/research/hm/rankfour-profile11-triplet-simultaneous-kernel-three-exclusion/PROOF.md",
+      "routes": {
+        "path": {
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+          "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        },
+        "blob": {
+          "utf8_bytes": 16183,
+          "sha256": "9a164b510ccb9c529d2380c7e9e4880067bde0e86656b82e2c4649e09e5443c2",
+          "git_blob_sha1": "c57074c1fbfaa61ef452a6d5e3a77dd0ff4ea70b",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        }
+      },
+      "independent_path_blob_byte_equality": true
+    },
+    {
+      "id": "positive-span",
+      "pr": 1205,
+      "repository": "Akilleez-QA/read-em-and-weep",
+      "ref": "97dad5c307a04f61d850e8a4211559e97ed4c2fd",
+      "path": "research/hm/rankfour-profile11-triplet-positive-span/PROOF.md",
+      "local_path": "inputs/positive-span.md",
+      "utf8_bytes": 12569,
+      "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+      "git_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+      "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/97dad5c307a04f61d850e8a4211559e97ed4c2fd/research/hm/rankfour-profile11-triplet-positive-span/PROOF.md",
+      "routes": {
+        "path": {
+          "utf8_bytes": 12569,
+          "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+          "git_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        },
+        "blob": {
+          "utf8_bytes": 12569,
+          "sha256": "145a8b2607ac5d888de52aa75ce4271fb8426a63f5123841f356a4025354fc6b",
+          "git_blob_sha1": "b75b1272bbf3a360751cc22a9e04c641cdeeb787",
+          "complete_payload": true,
+          "matches_local_complete_file": true,
+          "matches_recorded_metadata": true
+        }
+      },
+      "independent_path_blob_byte_equality": true
+    }
+  ]
+}
