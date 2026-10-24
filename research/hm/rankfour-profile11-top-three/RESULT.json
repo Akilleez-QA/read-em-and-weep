@@ -1,0 +1,709 @@
+{
+  "actual_instance_evaluated": false,
+  "authenticated_inputs": 9,
+  "checks": 226,
+  "claim": "Top degree3 forces D source, W O3+O2+O-8 quotient, and three necessary K shapes",
+  "cohomology_atoms": [
+    {
+      "H1_3": {
+        "W": 1
+      },
+      "H1_4": {},
+      "block": [
+        -5,
+        "W"
+      ]
+    },
+    {
+      "H1_3": {
+        "Wp": 1
+      },
+      "H1_4": {},
+      "block": [
+        -5,
+        "Wp"
+      ]
+    },
+    {
+      "H1_3": {
+        "S": 1
+      },
+      "H1_4": {},
+      "block": [
+        -5,
+        "S"
+      ]
+    },
+    {
+      "H1_3": {
+        "T": 1
+      },
+      "H1_4": {},
+      "block": [
+        -5,
+        "T"
+      ]
+    },
+    {
+      "H1_3": {
+        "W": 1
+      },
+      "H1_4": {
+        "one": 1
+      },
+      "block": [
+        -6,
+        "one"
+      ]
+    },
+    {
+      "H1_3": {
+        "S": 1,
+        "W": 1
+      },
+      "H1_4": {
+        "A": 1
+      },
+      "block": [
+        -6,
+        "A"
+      ]
+    },
+    {
+      "H1_3": {
+        "T": 1
+      },
+      "H1_4": {
+        "V": 1
+      },
+      "block": [
+        -6,
+        "V"
+      ]
+    },
+    {
+      "H1_3": {
+        "S": 1,
+        "W": 1
+      },
+      "H1_4": {
+        "A": 1,
+        "one": 1
+      },
+      "block": [
+        -7,
+        "W"
+      ]
+    },
+    {
+      "H1_3": {
+        "T": 1
+      },
+      "H1_4": {
+        "P": 1
+      },
+      "block": [
+        -7,
+        "Wp"
+      ]
+    },
+    {
+      "H1_3": {
+        "S": 1
+      },
+      "H1_4": {
+        "A": 1
+      },
+      "block": [
+        -8,
+        "one"
+      ]
+    },
+    {
+      "H1_3": {
+        "T": 1
+      },
+      "H1_4": {
+        "D": 1
+      },
+      "block": [
+        -10,
+        "one"
+      ]
+    }
+  ],
+  "explicit_branch_checks": {
+    "a_S": [
+      {
+        "N": [
+          [
+            -5,
+            "S"
+          ],
+          [
+            -5,
+            "Wp"
+          ]
+        ],
+        "R4": {
+          "A": -1,
+          "V": 2
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -8,
+            "one"
+          ],
+          [
+            -5,
+            "Wp"
+          ]
+        ],
+        "R4": {
+          "V": 2
+        },
+        "genuine": true,
+        "passes_near_top": false
+      }
+    ],
+    "a_zero": [
+      {
+        "N": [
+          [
+            -5,
+            "Wp"
+          ]
+        ],
+        "R4": {
+          "D": 1,
+          "V": 2
+        },
+        "genuine": true,
+        "passes_near_top": false
+      }
+    ],
+    "c_S": [
+      {
+        "N": [
+          [
+            -5,
+            "S"
+          ],
+          [
+            -5,
+            "W"
+          ]
+        ],
+        "R4": {
+          "A": -1,
+          "P": 1,
+          "V": 1,
+          "one": -1
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -5,
+            "S"
+          ],
+          [
+            -6,
+            "one"
+          ]
+        ],
+        "R4": {
+          "A": -1,
+          "P": 1,
+          "V": 1
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -8,
+            "one"
+          ],
+          [
+            -5,
+            "W"
+          ]
+        ],
+        "R4": {
+          "P": 1,
+          "V": 1,
+          "one": -1
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -8,
+            "one"
+          ],
+          [
+            -6,
+            "one"
+          ]
+        ],
+        "R4": {
+          "P": 1,
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -6,
+            "A"
+          ]
+        ],
+        "R4": {
+          "P": 1,
+          "V": 1,
+          "one": -1
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -7,
+            "W"
+          ]
+        ],
+        "R4": {
+          "P": 1,
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": false
+      }
+    ],
+    "c_zero": [
+      {
+        "N": [
+          [
+            -5,
+            "W"
+          ]
+        ],
+        "R4": {
+          "D": 1,
+          "P": 1,
+          "V": 1,
+          "one": -1
+        },
+        "genuine": false,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -6,
+            "one"
+          ]
+        ],
+        "R4": {
+          "D": 1,
+          "P": 1,
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": false
+      }
+    ],
+    "d_S": [
+      {
+        "N": [
+          [
+            -5,
+            "T"
+          ]
+        ],
+        "R4": {
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": true
+      },
+      {
+        "N": [
+          [
+            -6,
+            "V"
+          ]
+        ],
+        "R4": {
+          "V": 2
+        },
+        "genuine": true,
+        "passes_near_top": false
+      },
+      {
+        "N": [
+          [
+            -7,
+            "Wp"
+          ]
+        ],
+        "R4": {
+          "P": 1,
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": true
+      },
+      {
+        "N": [
+          [
+            -10,
+            "one"
+          ]
+        ],
+        "R4": {
+          "D": 1,
+          "V": 1
+        },
+        "genuine": true,
+        "passes_near_top": true
+      }
+    ]
+  },
+  "global_quotient_enumeration": false,
+  "max_symmetric_degree": 8,
+  "necessary_K_shapes": [
+    [
+      [
+        -3,
+        "S"
+      ],
+      [
+        -4,
+        "V"
+      ],
+      [
+        -5,
+        "T"
+      ]
+    ],
+    [
+      [
+        -3,
+        "S"
+      ],
+      [
+        -4,
+        "V"
+      ],
+      [
+        -4,
+        "P"
+      ],
+      [
+        -7,
+        "Wp"
+      ]
+    ],
+    [
+      [
+        -3,
+        "S"
+      ],
+      [
+        -4,
+        "D"
+      ],
+      [
+        -4,
+        "V"
+      ],
+      [
+        -10,
+        "one"
+      ]
+    ]
+  ],
+  "negative_doublet_Hom": [
+    {
+      "dimension": 1,
+      "source": "D",
+      "target": [
+        -7,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "D",
+      "target": [
+        -5,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "D",
+      "target": [
+        -3,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "D",
+      "target": [
+        -7,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "D",
+      "target": [
+        -5,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 1,
+      "source": "D",
+      "target": [
+        -3,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "P",
+      "target": [
+        -7,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "P",
+      "target": [
+        -5,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "P",
+      "target": [
+        -3,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "P",
+      "target": [
+        -7,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 1,
+      "source": "P",
+      "target": [
+        -5,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 1,
+      "source": "P",
+      "target": [
+        -3,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "V",
+      "target": [
+        -7,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "V",
+      "target": [
+        -5,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "V",
+      "target": [
+        -3,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "V",
+      "target": [
+        -7,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "V",
+      "target": [
+        -5,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 1,
+      "source": "V",
+      "target": [
+        -3,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "Z",
+      "target": [
+        -7,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "Z",
+      "target": [
+        -5,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "Z",
+      "target": [
+        -3,
+        "W"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "Z",
+      "target": [
+        -7,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 0,
+      "source": "Z",
+      "target": [
+        -5,
+        "Wp"
+      ]
+    },
+    {
+      "dimension": 1,
+      "source": "Z",
+      "target": [
+        -3,
+        "Wp"
+      ]
+    }
+  ],
+  "profile_closure": false,
+  "quotient_euler": {
+    "a": {
+      "chi3": {
+        "Wp": -1
+      },
+      "chi4": {
+        "D": 1,
+        "V": 2
+      },
+      "derivative_target": {
+        "D": 1,
+        "P": 1,
+        "V": 1
+      }
+    },
+    "b": {
+      "chi3": {
+        "Wp": 1
+      },
+      "chi4": {
+        "D": 1,
+        "P": 1,
+        "V": 2
+      },
+      "derivative_target": {
+        "D": 1,
+        "P": 1,
+        "V": 1
+      }
+    },
+    "c": {
+      "chi3": {
+        "W": -1
+      },
+      "chi4": {
+        "D": 1,
+        "P": 1,
+        "V": 1,
+        "one": -1
+      },
+      "derivative_target": {
+        "A": 1,
+        "D": 2,
+        "P": 1
+      }
+    },
+    "d": {
+      "chi3": {
+        "S": 1,
+        "T": -1
+      },
+      "chi4": {
+        "A": 1,
+        "D": 1,
+        "V": 1
+      },
+      "derivative_target": {
+        "D": 2,
+        "P": 1,
+        "V": 1
+      }
+    }
+  },
+  "realization_claim": false,
+  "rejected_mutations": [
+    "allow negative doublet minus1",
+    "pretend rank1 source onto doublet",
+    "discard second T",
+    "allow P cubic Wp",
+    "make negative coefficient genuine",
+    "double V target",
+    "supply missing V in c target",
+    "keep V minus6 option"
+  ]
+}
