@@ -1,0 +1,13 @@
+{
+  "checks": 72,
+  "not_claimed": [
+    "actual coefficient or matrix evaluation",
+    "chosen invariant normalization or eigenvalue",
+    "original tenth jets",
+    "realization or branch exclusion",
+    "geometric proof by computation"
+  ],
+  "proof_sha256": "3e1ce0d1589d694d578796a90398cbdaf8fdf6fb340158b5098ad3f79cdfa95b",
+  "scope": "three complete pins; fixed characters; formal rectangle and universal differential-symbol identities",
+  "status": "PASS"
+}
