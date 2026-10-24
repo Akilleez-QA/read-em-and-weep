@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "proof_sha256": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+  "authenticated_originals": [
+    "inputs/actual.md",
+    "inputs/ambient.md",
+    "inputs/strict-top.md",
+    "inputs/four-sources.md",
+    "inputs/double-channel.md",
+    "inputs/capacity.md",
+    "inputs/rank-strata.md",
+    "inputs/character-reference.py"
+  ],
+  "wp_mechanisms": [
+    [
+      "Wp",
+      -3
+    ],
+    [
+      "A",
+      2
+    ],
+    [
+      "V",
+      0
+    ]
+  ],
+  "scalar_Hom_dimensions": {
+    "D:-8": 1,
+    "D:-6": 0,
+    "D:-4": 0,
+    "D:-2": 0,
+    "P:-8": 0,
+    "P:-6": 0,
+    "P:-4": 0,
+    "P:-2": 0,
+    "V:-8": 0,
+    "V:-6": 0,
+    "V:-4": 0,
+    "V:-2": 0,
+    "Z:-8": 0,
+    "Z:-6": 0,
+    "Z:-4": 0,
+    "Z:-2": 0
+  },
+  "kernel_character": {
+    "A": 1,
+    "V": 2,
+    "P": 1
+  },
+  "derivative_target": {
+    "A": 1,
+    "V": 1,
+    "D": 1,
+    "P": 1
+  },
+  "boundary": "No author-verifier import, actual coefficient evaluation, quotient enumeration or broad splitting search."
+}

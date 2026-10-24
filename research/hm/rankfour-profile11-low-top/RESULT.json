@@ -1,0 +1,257 @@
+{
+  "Wp_mechanisms": [
+    [
+      "Wp",
+      -3
+    ],
+    [
+      "A",
+      2
+    ],
+    [
+      "V",
+      0
+    ]
+  ],
+  "actual_instance_evaluated": false,
+  "authenticated_inputs": 8,
+  "checks": 167,
+  "global_candidate_enumeration": false,
+  "max_symmetric_degree": 6,
+  "new_global_rank_bound": false,
+  "profile_closure": false,
+  "proper_block_table": [
+    {
+      "R": "one",
+      "cubic": {},
+      "e": -8
+    },
+    {
+      "R": "one",
+      "cubic": {},
+      "e": -6
+    },
+    {
+      "R": "one",
+      "cubic": {},
+      "e": -4
+    },
+    {
+      "R": "one",
+      "cubic": {
+        "W": 1
+      },
+      "e": -2
+    },
+    {
+      "R": "one",
+      "cubic": {
+        "S": 1
+      },
+      "e": 0
+    },
+    {
+      "R": "one",
+      "cubic": {
+        "T": 1
+      },
+      "e": 2
+    },
+    {
+      "R": "W",
+      "cubic": {},
+      "e": -7
+    },
+    {
+      "R": "W",
+      "cubic": {},
+      "e": -5
+    },
+    {
+      "R": "W",
+      "cubic": {
+        "W": 1
+      },
+      "e": -3
+    },
+    {
+      "R": "W",
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "e": -1
+    },
+    {
+      "R": "W",
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "e": 1
+    },
+    {
+      "R": "Wp",
+      "cubic": {},
+      "e": -7
+    },
+    {
+      "R": "Wp",
+      "cubic": {},
+      "e": -5
+    },
+    {
+      "R": "Wp",
+      "cubic": {
+        "Wp": 1
+      },
+      "e": -3
+    },
+    {
+      "R": "Wp",
+      "cubic": {
+        "T": 1
+      },
+      "e": -1
+    },
+    {
+      "R": "Wp",
+      "cubic": {
+        "S": 1,
+        "T": 1
+      },
+      "e": 1
+    },
+    {
+      "R": "A",
+      "cubic": {},
+      "e": -8
+    },
+    {
+      "R": "A",
+      "cubic": {},
+      "e": -6
+    },
+    {
+      "R": "A",
+      "cubic": {},
+      "e": -4
+    },
+    {
+      "R": "A",
+      "cubic": {
+        "S": 1,
+        "W": 1
+      },
+      "e": -2
+    },
+    {
+      "R": "A",
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "W": 1
+      },
+      "e": 0
+    },
+    {
+      "R": "A",
+      "cubic": {
+        "S": 1,
+        "T": 2,
+        "Wp": 1
+      },
+      "e": 2
+    },
+    {
+      "R": "V",
+      "cubic": {},
+      "e": -8
+    },
+    {
+      "R": "V",
+      "cubic": {},
+      "e": -6
+    },
+    {
+      "R": "V",
+      "cubic": {},
+      "e": -4
+    },
+    {
+      "R": "V",
+      "cubic": {
+        "T": 1
+      },
+      "e": -2
+    },
+    {
+      "R": "V",
+      "cubic": {
+        "S": 1,
+        "T": 1,
+        "Wp": 1
+      },
+      "e": 0
+    },
+    {
+      "R": "V",
+      "cubic": {
+        "S": 1,
+        "T": 2,
+        "W": 1
+      },
+      "e": 2
+    }
+  ],
+  "rejected_mutations": [
+    "omit second T",
+    "omit Wp",
+    "permit scalar minus6",
+    "replace physical V by A",
+    "drop one forced V",
+    "change derivative twist",
+    "allow O2 to triplet O2",
+    "allow cap minus52"
+  ],
+  "scope": "All-source actual maximal rank-four profile (1,1): max ordinary primal quotient degree >=3",
+  "shape1_capacity_upper_bound": -61,
+  "shape1_endpoint_degree": -52,
+  "shape2_derivative_target": {
+    "A": 1,
+    "D": 1,
+    "P": 1,
+    "V": 1
+  },
+  "shape2_forced_K": {
+    "A": 1,
+    "P": 1,
+    "V": 2
+  },
+  "source_scalar_Hom": {
+    "D": {
+      "-2": 0,
+      "-4": 0,
+      "-6": 0,
+      "-8": 1
+    },
+    "P": {
+      "-2": 0,
+      "-4": 0,
+      "-6": 0,
+      "-8": 0
+    },
+    "V": {
+      "-2": 0,
+      "-4": 0,
+      "-6": 0,
+      "-8": 0
+    },
+    "Z": {
+      "-2": 0,
+      "-4": 0,
+      "-6": 0,
+      "-8": 0
+    }
+  }
+}
