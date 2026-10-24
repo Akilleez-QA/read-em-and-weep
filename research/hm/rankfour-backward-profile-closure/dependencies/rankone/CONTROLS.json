@@ -1,0 +1,34 @@
+[
+  {
+    "name": "image_twist",
+    "rejected": true
+  },
+  {
+    "name": "domain_count",
+    "rejected": true
+  },
+  {
+    "name": "kernel_rank",
+    "rejected": true
+  },
+  {
+    "name": "extension_twist",
+    "rejected": true
+  },
+  {
+    "name": "endpoint_degree",
+    "rejected": true
+  },
+  {
+    "name": "upper_E_Q_swap",
+    "rejected": true
+  },
+  {
+    "name": "upper_dual_twist",
+    "rejected": true
+  },
+  {
+    "name": "physical_V_A",
+    "rejected": true
+  }
+]

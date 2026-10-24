@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "bytes": 2295,
+      "file": "CONTROLS.json",
+      "sha256": "c49f094f837c3176bb1a1505df579c8dc94ea70286db8d3dc8dbdf137b92abe3"
+    },
+    {
+      "bytes": 3421,
+      "file": "INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 784,
+      "file": "PACKAGE-CHECK.json",
+      "sha256": "9c3225fdc5de011bd02609d8515ae9db8d3291bd0c2c985bc94977155002b1fc"
+    },
+    {
+      "bytes": 471,
+      "file": "README.md",
+      "sha256": "b0252bf2cb31b0541eeb48b154895658611b9d9dbfe85c9ddb40ee4889b7593b"
+    },
+    {
+      "bytes": 104610,
+      "file": "RESULT.json",
+      "sha256": "e6ae8f31894a14458ba909a3c9f9c50c2aa5adb60624c6e8fa5181b271e03e96"
+    },
+    {
+      "bytes": 11393,
+      "file": "REVIEW.md",
+      "sha256": "b0c67f6a7ffa1e8a937dab174be50f60097a52ab1ef258b4933dc1289bf7070b"
+    },
+    {
+      "bytes": 3235,
+      "file": "check_package.py",
+      "sha256": "9812f129582d91ce5d06f4bf1c2bdf9f611bb36ee199e3b490f833681163ea92"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 1112,
+      "file": "test_controls.py",
+      "sha256": "469fb2ff5e64fb8381ad39fc7aad074fb22079f1ba9ea324fb7779f40770f63f"
+    },
+    {
+      "bytes": 12588,
+      "file": "verify.py",
+      "sha256": "62baa4fb5d359a8841d3a58360c4610a535e055a7536c5f6e33ddd3e4c45242c"
+    }
+  ],
+  "scope": "Independent mathematical review and reproducible comparison, retaining original conditional scope"
+}

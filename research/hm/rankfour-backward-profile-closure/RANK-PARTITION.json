@@ -1,0 +1,42 @@
+{
+  "excluded_by": {
+    "1": "rankone",
+    "2": "lower_exclusion",
+    "3": "lower_exclusion",
+    "4": "cubic_image"
+  },
+  "one_fixed_arbitrary_T6_copy": true,
+  "possible_ranks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "proof_contract": {
+    "actual_ranks": [
+      17,
+      13,
+      30
+    ],
+    "canonical_or_unique_copy_assumed": false,
+    "chosen_section_copy_exists": true,
+    "claims_generic_SF_at_least_five": false,
+    "claims_square_surjectivity": false,
+    "evaluation_bundle_injectivity_assumed": false,
+    "full_derivative_generic_rank": 4,
+    "global_zero_defects_assumed": false,
+    "image_nonzero": true,
+    "one_fixed_copy": true,
+    "physical_A": "Sym2 W",
+    "physical_V": "other even three-space",
+    "premises_retained": true,
+    "rank_exclusions": {
+      "1": "rankone",
+      "2": "lower_exclusion",
+      "3": "lower_exclusion",
+      "4": "cubic_image"
+    },
+    "source_Z_forced": false
+  },
+  "remaining_ranks": []
+}

@@ -1,0 +1,21 @@
+{
+  "author_checks": 12643,
+  "author_hashes": {
+    "MANIFEST.json": "6e4ebc717b2a4e2559a0fa0eda94a26136c6b2cc7082f758317b9f0b3d7b5075",
+    "PROOF.md": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507",
+    "RESULT.json": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05",
+    "verify.py": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+  },
+  "author_manifest_files_authenticated": 14,
+  "author_normal_and_optimized_replay": true,
+  "complete_domains_equal": [
+    "31 degree/defect rows",
+    "46 endpoint shapes",
+    "2 endpoint survivors",
+    "4 full-rank image survivors"
+  ],
+  "raw_rank_four_multiset_count": 24,
+  "reported_intertwiner_multiplicity": 1,
+  "reviewer_checks": 603,
+  "status": "PASS"
+}

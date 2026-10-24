@@ -1,0 +1,917 @@
+[
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -24,
+    "c3": -2,
+    "endpoint_Euler3": {
+      "T6": -1,
+      "W": 1
+    },
+    "endpoint_Euler4": {
+      "A": 1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [],
+    "extension_character": {
+      "P": 1
+    },
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 1,
+      "T6": 1,
+      "W'": 1
+    },
+    "plateau_rows": [
+      {
+        "a": -24,
+        "b": -48,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          6
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -48
+        ]
+      },
+      {
+        "a": -24,
+        "b": -36,
+        "defects": [
+          0,
+          0,
+          12
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          18
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -36
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "T6": -2,
+      "W": 1
+    },
+    "endpoint_Euler4": {
+      "D": -1
+    },
+    "endpoint_survivors": [],
+    "extension_character": {
+      "P": 1
+    },
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 1,
+      "T6": 2,
+      "W'": 1
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "1",
+        "degree": -4
+      },
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -2,
+      "W": -2,
+      "W'": 1
+    },
+    "endpoint_Euler4": {
+      "1": -1,
+      "A": -2,
+      "D": -1,
+      "P": 1,
+      "V": 1
+    },
+    "endpoint_survivors": [],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 1
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "W": 2
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -1
+      },
+      {
+        "coefficient": "W",
+        "degree": 1
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -2,
+      "W": -1
+    },
+    "endpoint_Euler4": {
+      "A": -1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 1,
+      "W": 1,
+      "W'": 1
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "1",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -2,
+      "W": -1
+    },
+    "endpoint_Euler4": {
+      "A": -1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 3
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 1,
+      "W": 1,
+      "W'": 1
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -3
+      },
+      {
+        "coefficient": "W",
+        "degree": 3
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      4,
+      5
+    ],
+    "a": -24,
+    "c3": -2,
+    "endpoint_Euler3": {
+      "S4": -1
+    },
+    "endpoint_Euler4": {
+      "D": -1,
+      "V": 2
+    },
+    "endpoint_survivors": [],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 6
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 2
+    },
+    "plateau_rows": [
+      {
+        "a": -24,
+        "b": -48,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          6
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -48
+        ]
+      },
+      {
+        "a": -24,
+        "b": -36,
+        "defects": [
+          0,
+          0,
+          12
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          18
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -36
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 2,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -1,
+      "T6": -1
+    },
+    "endpoint_Euler4": {
+      "A": -1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [
+      [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    ],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 6
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 2,
+    "reason": "every endpoint derivative Hom space is zero"
+  },
+  {
+    "Q_type_targets": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -1,
+      "T6": -1
+    },
+    "endpoint_Euler4": {
+      "A": -1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [
+      [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    ],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "W'",
+        "degree": 6
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "margin": {
+      "S4": 2,
+      "T6": 3
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "W'",
+        "degree": -5
+      },
+      {
+        "coefficient": "W",
+        "degree": 5
+      }
+    ],
+    "rank": 2,
+    "reason": "every endpoint derivative Hom space is zero"
+  },
+  {
+    "Q_type_targets": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "a": -24,
+    "c3": -2,
+    "endpoint_Euler3": {
+      "S4": -1
+    },
+    "endpoint_Euler4": {
+      "D": -1,
+      "V": 2
+    },
+    "endpoint_survivors": [],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "V",
+        "degree": 3
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "margin": {
+      "S4": 1,
+      "T6": 1
+    },
+    "plateau_rows": [
+      {
+        "a": -24,
+        "b": -48,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          6
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -48
+        ]
+      },
+      {
+        "a": -24,
+        "b": -36,
+        "defects": [
+          0,
+          0,
+          12
+        ],
+        "quotient_degrees": [
+          -18,
+          -10,
+          -2,
+          18
+        ],
+        "stage_degrees": [
+          -24,
+          -42,
+          -52,
+          -54,
+          -36
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "V",
+        "degree": -2
+      },
+      {
+        "coefficient": "1",
+        "degree": 4
+      }
+    ],
+    "rank": 3,
+    "reason": "no Euler-compatible endpoint"
+  },
+  {
+    "Q_type_targets": [
+      3,
+      5
+    ],
+    "a": -30,
+    "c3": 0,
+    "endpoint_Euler3": {
+      "S4": -1,
+      "T6": -1
+    },
+    "endpoint_Euler4": {
+      "A": -1,
+      "D": -1,
+      "V": 1
+    },
+    "endpoint_survivors": [
+      [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    ],
+    "extension_character": {},
+    "image": [
+      {
+        "coefficient": "V",
+        "degree": 3
+      }
+    ],
+    "kernel": [
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "margin": {
+      "S4": 1,
+      "T6": 2
+    },
+    "plateau_rows": [
+      {
+        "a": -30,
+        "b": -46,
+        "defects": [
+          0,
+          0,
+          0
+        ],
+        "quotient_degrees": [
+          -16,
+          -8,
+          0,
+          8
+        ],
+        "stage_degrees": [
+          -30,
+          -46,
+          -54,
+          -54,
+          -46
+        ]
+      }
+    ],
+    "quotient": [
+      {
+        "coefficient": "V",
+        "degree": -2
+      },
+      {
+        "coefficient": "1",
+        "degree": 6
+      }
+    ],
+    "rank": 3,
+    "reason": "every endpoint derivative Hom space is zero"
+  }
+]

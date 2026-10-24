@@ -1,0 +1,110 @@
+{
+  "files": [
+    {
+      "bytes": 1929,
+      "file": "CONTROLS.json",
+      "sha256": "9e03f43e3f8470d3f4026848fb31b686178a3c21bd4f4323eed0ff85b1539b95"
+    },
+    {
+      "bytes": 3421,
+      "file": "INPUTS.json",
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "bytes": 831,
+      "file": "PACKAGE-CHECK.json",
+      "sha256": "feb5bd3376be46643838c3f65528e99957cff58938aa725b20214ec2574df7a8"
+    },
+    {
+      "bytes": 450,
+      "file": "README.md",
+      "sha256": "78ff4163bbd7ededcdbe6c9262a3495e2d56a1eaadae1cd15a7fc857e293e959"
+    },
+    {
+      "bytes": 9709,
+      "file": "RESULT.json",
+      "sha256": "7f45f0cafc4a57d58ef55f642c06d613af35319e54d37607e01ab33c7debebb8"
+    },
+    {
+      "bytes": 10316,
+      "file": "REVIEW.md",
+      "sha256": "d4217324aa750f1f443566bf49f7bf62bdbdc85ab6cd160da4be104fb1062147"
+    },
+    {
+      "bytes": 3241,
+      "file": "check_package.py",
+      "sha256": "2e384de29193acf8e62fdc30bf460330bc8c31374862df5c9e3130bfba176941"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 15782,
+      "file": "inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "bytes": 12488,
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 13862,
+      "file": "inputs/full-image-PROOF.md",
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "bytes": 33630,
+      "file": "inputs/full-image-RESULT.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 18144,
+      "file": "inputs/full-image-verify.py",
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    },
+    {
+      "bytes": 14779,
+      "file": "inputs/lower-image-PROOF.md",
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "bytes": 230508,
+      "file": "inputs/lower-image-RESULT.json",
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "bytes": 22504,
+      "file": "inputs/lower-image-verify.py",
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    },
+    {
+      "bytes": 1010,
+      "file": "test_controls.py",
+      "sha256": "46784058f75fa22982fb368d3d9ea2f6ddd2a0490af8f053ef12f188a0cc60df"
+    },
+    {
+      "bytes": 10671,
+      "file": "verify.py",
+      "sha256": "36ba0154d423f25af377b9c36b74d5854647fddd41f47a8638f066270c3b5836"
+    }
+  ],
+  "scope": "Independent mathematical review and reproducible comparison, retaining original conditional scope"
+}

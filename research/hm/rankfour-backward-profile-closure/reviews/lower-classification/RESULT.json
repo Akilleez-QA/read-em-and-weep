@@ -1,0 +1,10616 @@
+{
+  "actual_instance_evaluations": 0,
+  "c3_values": [
+    -2,
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "case_degree_row_count": 50,
+  "case_degree_rows": [
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    }
+  ],
+  "checks": 1386,
+  "eliminated_low_cases": [
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "c3": -2,
+      "chi_endpoint_3": {
+        "T6": -1,
+        "W": 1
+      },
+      "chi_endpoint_4": {
+        "A": 1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 13,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "lower_endpoint_degree": -24
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "T6": -2,
+        "W": 1
+      },
+      "chi_endpoint_4": {
+        "D": -1
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 1
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -2,
+        "W": -2,
+        "W'": 1
+      },
+      "chi_endpoint_4": {
+        "1": -1,
+        "A": -2,
+        "D": -1,
+        "P": 1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi_endpoint_4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi_endpoint_4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "c3": -2,
+      "chi_endpoint_3": {
+        "S4": -1
+      },
+      "chi_endpoint_4": {
+        "D": -1,
+        "V": 2
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 13,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 6
+        }
+      ],
+      "lower_endpoint_degree": -24
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi_endpoint_4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        0
+      ],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [
+        [
+          {
+            "coefficient": "W",
+            "degree": -9
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -10
+          },
+          {
+            "coefficient": "1",
+            "degree": -8
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 6
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi_endpoint_4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        0
+      ],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [
+        [
+          {
+            "coefficient": "W",
+            "degree": -9
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -10
+          },
+          {
+            "coefficient": "1",
+            "degree": -8
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 6
+        }
+      ],
+      "lower_endpoint_degree": -30
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "c3": -2,
+      "chi_endpoint_3": {
+        "S4": -1
+      },
+      "chi_endpoint_4": {
+        "D": -1,
+        "V": 2
+      },
+      "endpoint_Hom_dimensions": [],
+      "endpoint_domain_count": 13,
+      "endpoint_survivors": [],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 3
+        }
+      ],
+      "lower_endpoint_degree": -24
+    },
+    {
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "c3": 0,
+      "chi_endpoint_3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi_endpoint_4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "endpoint_Hom_dimensions": [
+        0,
+        0
+      ],
+      "endpoint_domain_count": 46,
+      "endpoint_survivors": [
+        [
+          {
+            "coefficient": "W",
+            "degree": -9
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -10
+          },
+          {
+            "coefficient": "1",
+            "degree": -8
+          },
+          {
+            "coefficient": "V",
+            "degree": -4
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 3
+        }
+      ],
+      "lower_endpoint_degree": -30
+    }
+  ],
+  "final_case_count": 13,
+  "final_necessary_cases": [
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "Q_types": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 4,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 1,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 6,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -48,
+          "b": -40,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -10,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -36,
+          "b": -40,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -28,
+          "b": -40,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -30,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -14,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -34,
+            -2,
+            6,
+            14
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 3,
+        "W": 1,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "Q_types": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 4,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 1,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "Q_types": [
+        4,
+        5
+      ],
+      "c3": 6,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -48,
+          "b": -40,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -10,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -36,
+          "b": -40,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -28,
+          "b": -40,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -30,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -14,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -34,
+            -2,
+            6,
+            14
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 3,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 8,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -54,
+          "b": -38,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -8,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -42,
+          "b": -38,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -20,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -34,
+          "b": -38,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -28,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "graded_degrees": [
+            -20,
+            -12,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -24,
+          "b": -38,
+          "defects": [
+            30,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -38,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -22,
+          "b": -38,
+          "defects": [
+            32,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -40,
+            0,
+            8,
+            16
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 4,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "Q_types": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 8,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -54,
+          "b": -38,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -8,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -42,
+          "b": -38,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -20,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -34,
+          "b": -38,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -28,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "graded_degrees": [
+            -20,
+            -12,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -30,
+          "b": -38,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -24,
+          "b": -38,
+          "defects": [
+            30,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -38,
+            0,
+            8,
+            16
+          ]
+        },
+        {
+          "a": -22,
+          "b": -38,
+          "defects": [
+            32,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -40,
+            0,
+            8,
+            16
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 4,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 2,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -36,
+          "b": -44,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -14,
+            -6,
+            2,
+            10
+          ]
+        },
+        {
+          "a": -24,
+          "b": -44,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -26,
+            -6,
+            2,
+            10
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 2,
+        "W": 1,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "Q_types": [
+        4,
+        5
+      ],
+      "c3": 2,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -36,
+          "b": -44,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -14,
+            -6,
+            2,
+            10
+          ]
+        },
+        {
+          "a": -24,
+          "b": -44,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -26,
+            -6,
+            2,
+            10
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 2,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 4,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 3,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "Q_types": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 4,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 3,
+        "W'": 2
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "Q_types": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 2,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -36,
+          "b": -44,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -14,
+            -6,
+            2,
+            10
+          ]
+        },
+        {
+          "a": -24,
+          "b": -44,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -26,
+            -6,
+            2,
+            10
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 1,
+        "W": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "Q_types": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": 4,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -42,
+          "b": -42,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -12,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -30,
+          "b": -42,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -24,
+            -4,
+            4,
+            12
+          ]
+        },
+        {
+          "a": -22,
+          "b": -42,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -32,
+            -4,
+            4,
+            12
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 2,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 6,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -48,
+          "b": -40,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -10,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -36,
+          "b": -40,
+          "defects": [
+            12,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -28,
+          "b": -40,
+          "defects": [
+            20,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -30,
+            -2,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            0,
+            12,
+            0
+          ],
+          "graded_degrees": [
+            -22,
+            -14,
+            6,
+            14
+          ]
+        },
+        {
+          "a": -24,
+          "b": -40,
+          "defects": [
+            24,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -34,
+            -2,
+            6,
+            14
+          ]
+        }
+      ],
+      "ordinary_Ext": {},
+      "section_margin": {
+        "S4": 2,
+        "T6": 3,
+        "W'": 1
+      }
+    }
+  ],
+  "full_image_annihilator_equated_to_lower_image": false,
+  "globally_zero_defects_assumed": false,
+  "historical_enumerations": 0,
+  "kernel_domains": [
+    {
+      "N_max_degree": 6,
+      "N_min_degree": -6,
+      "all_N_shapes": [
+        [
+          {
+            "coefficient": "1",
+            "degree": -6
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -4
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -4
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -2
+          },
+          {
+            "coefficient": "1",
+            "degree": 2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -2
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": -2
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 0
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 1
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 1
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 3
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 3
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 6
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "initial_shapes": 22,
+      "survivor_count": 9,
+      "survivors": [
+        {
+          "B": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            },
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": -2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -24,
+              "b": -48,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                6
+              ]
+            },
+            {
+              "a": -24,
+              "b": -36,
+              "defects": [
+                0,
+                0,
+                12
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                18
+              ]
+            }
+          ],
+          "ordinary_Ext": {
+            "P": 1
+          },
+          "section_margin": {
+            "S4": 1,
+            "T6": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            },
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {
+            "P": 1
+          },
+          "section_margin": {
+            "S4": 1,
+            "T6": 2,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "W",
+              "degree": 1
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 1
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "W": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 4,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -42,
+              "b": -42,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -12,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -30,
+              "b": -42,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -24,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -22,
+              "b": -42,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                -4,
+                4,
+                12
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 6,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -48,
+              "b": -40,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -10,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -36,
+              "b": -40,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -28,
+              "b": -40,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -30,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                0,
+                12,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -14,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                24,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -34,
+                -2,
+                6,
+                14
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "W",
+              "degree": 3
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 3
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 4,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -42,
+              "b": -42,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -12,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -30,
+              "b": -42,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -24,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -22,
+              "b": -42,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                -4,
+                4,
+                12
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            4,
+            5
+          ],
+          "c3": 6,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -48,
+              "b": -40,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -10,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -36,
+              "b": -40,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -28,
+              "b": -40,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -30,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                0,
+                12,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -14,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                24,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -34,
+                -2,
+                6,
+                14
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3,
+            "W'": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 8,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -54,
+              "b": -38,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -8,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -42,
+              "b": -38,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -20,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -34,
+              "b": -38,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -28,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -30,
+              "b": -38,
+              "defects": [
+                0,
+                12,
+                0
+              ],
+              "graded_degrees": [
+                -20,
+                -12,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -30,
+              "b": -38,
+              "defects": [
+                24,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -24,
+              "b": -38,
+              "defects": [
+                30,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -38,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -22,
+              "b": -38,
+              "defects": [
+                32,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -40,
+                0,
+                8,
+                16
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 4,
+            "W'": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            },
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -1
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "Q_types": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 8,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 2
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -54,
+              "b": -38,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -8,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -42,
+              "b": -38,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -20,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -34,
+              "b": -38,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -28,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -30,
+              "b": -38,
+              "defects": [
+                0,
+                12,
+                0
+              ],
+              "graded_degrees": [
+                -20,
+                -12,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -30,
+              "b": -38,
+              "defects": [
+                24,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -24,
+              "b": -38,
+              "defects": [
+                30,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -38,
+                0,
+                8,
+                16
+              ]
+            },
+            {
+              "a": -22,
+              "b": -38,
+              "defects": [
+                32,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -40,
+                0,
+                8,
+                16
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 4,
+            "W'": 2
+          }
+        }
+      ]
+    },
+    {
+      "N_max_degree": 6,
+      "N_min_degree": -2,
+      "all_N_shapes": [
+        [
+          {
+            "coefficient": "1",
+            "degree": -2
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 3
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 3
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 6
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "initial_shapes": 13,
+      "survivor_count": 6,
+      "survivors": [
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 1,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 2
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -36,
+              "b": -44,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -14,
+                -6,
+                2,
+                10
+              ]
+            },
+            {
+              "a": -24,
+              "b": -44,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -26,
+                -6,
+                2,
+                10
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "W",
+              "degree": 3
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 3
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 1,
+            "W": 1,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            4,
+            5
+          ],
+          "c3": 2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -36,
+              "b": -44,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -14,
+                -6,
+                2,
+                10
+              ]
+            },
+            {
+              "a": -24,
+              "b": -44,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -26,
+                -6,
+                2,
+                10
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2,
+            "W'": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 4,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -42,
+              "b": -42,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -12,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -30,
+              "b": -42,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -24,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -22,
+              "b": -42,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                -4,
+                4,
+                12
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3,
+            "W'": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            },
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "Q_types": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 4,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 4
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -42,
+              "b": -42,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -12,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -30,
+              "b": -42,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -24,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -22,
+              "b": -42,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                -4,
+                4,
+                12
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3,
+            "W'": 2
+          }
+        }
+      ]
+    },
+    {
+      "N_max_degree": 6,
+      "N_min_degree": 2,
+      "all_N_shapes": [
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ],
+        [
+          {
+            "coefficient": "W",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "W'",
+            "degree": 5
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 6
+          },
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 6
+        }
+      ],
+      "initial_shapes": 6,
+      "survivor_count": 3,
+      "survivors": [
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            4,
+            5
+          ],
+          "c3": -2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 6
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -24,
+              "b": -48,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                6
+              ]
+            },
+            {
+              "a": -24,
+              "b": -36,
+              "defects": [
+                0,
+                0,
+                12
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                18
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 6
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            },
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "W'",
+              "degree": -5
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "W",
+              "degree": 5
+            }
+          ],
+          "Q_types": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "W'",
+              "degree": 6
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3
+          }
+        }
+      ]
+    },
+    {
+      "N_max_degree": 6,
+      "N_min_degree": -2,
+      "all_N_shapes": [
+        [
+          {
+            "coefficient": "1",
+            "degree": -2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 0
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 2
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "initial_shapes": 5,
+      "survivor_count": 3,
+      "survivors": [
+        {
+          "B": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            },
+            {
+              "coefficient": "1",
+              "degree": 2
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 2
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "V",
+              "degree": 1
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -36,
+              "b": -44,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -14,
+                -6,
+                2,
+                10
+              ]
+            },
+            {
+              "a": -24,
+              "b": -44,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -26,
+                -6,
+                2,
+                10
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 1,
+            "W": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": 4,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "V",
+              "degree": 1
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -42,
+              "b": -42,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -12,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -30,
+              "b": -42,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -24,
+                -4,
+                4,
+                12
+              ]
+            },
+            {
+              "a": -22,
+              "b": -42,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -32,
+                -4,
+                4,
+                12
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 2,
+            "W'": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "V",
+              "degree": 0
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 6,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "V",
+              "degree": 1
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -48,
+              "b": -40,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -10,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -36,
+              "b": -40,
+              "defects": [
+                12,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -28,
+              "b": -40,
+              "defects": [
+                20,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -30,
+                -2,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                0,
+                12,
+                0
+              ],
+              "graded_degrees": [
+                -22,
+                -14,
+                6,
+                14
+              ]
+            },
+            {
+              "a": -24,
+              "b": -40,
+              "defects": [
+                24,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -34,
+                -2,
+                6,
+                14
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 2,
+            "T6": 3,
+            "W'": 1
+          }
+        }
+      ]
+    },
+    {
+      "N_max_degree": 6,
+      "N_min_degree": 4,
+      "all_N_shapes": [
+        [
+          {
+            "coefficient": "1",
+            "degree": 4
+          }
+        ],
+        [
+          {
+            "coefficient": "1",
+            "degree": 6
+          }
+        ]
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 3
+        }
+      ],
+      "initial_shapes": 2,
+      "survivor_count": 2,
+      "survivors": [
+        {
+          "B": [
+            {
+              "coefficient": "V",
+              "degree": -2
+            },
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "V",
+              "degree": -2
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 4
+            }
+          ],
+          "Q_types": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "c3": -2,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "V",
+              "degree": 3
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -24,
+              "b": -48,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                6
+              ]
+            },
+            {
+              "a": -24,
+              "b": -36,
+              "defects": [
+                0,
+                0,
+                12
+              ],
+              "graded_degrees": [
+                -18,
+                -10,
+                -2,
+                18
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 1,
+            "T6": 1
+          }
+        },
+        {
+          "B": [
+            {
+              "coefficient": "V",
+              "degree": -2
+            },
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "C": [
+            {
+              "coefficient": "V",
+              "degree": -2
+            }
+          ],
+          "N": [
+            {
+              "coefficient": "1",
+              "degree": 6
+            }
+          ],
+          "Q_types": [
+            3,
+            5
+          ],
+          "c3": 0,
+          "equivariant_Ext_dimension": 0,
+          "image": [
+            {
+              "coefficient": "V",
+              "degree": 3
+            }
+          ],
+          "ledger_rows": [
+            {
+              "a": -30,
+              "b": -46,
+              "defects": [
+                0,
+                0,
+                0
+              ],
+              "graded_degrees": [
+                -16,
+                -8,
+                0,
+                8
+              ]
+            }
+          ],
+          "ordinary_Ext": {},
+          "section_margin": {
+            "S4": 1,
+            "T6": 2
+          }
+        }
+      ]
+    }
+  ],
+  "ledger_rows": 31,
+  "nontrivial_ordinary_Ext_cases": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "Q_types": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "c3": -2,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -24,
+          "b": -48,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -18,
+            -10,
+            -2,
+            6
+          ]
+        },
+        {
+          "a": -24,
+          "b": -36,
+          "defects": [
+            0,
+            0,
+            12
+          ],
+          "graded_degrees": [
+            -18,
+            -10,
+            -2,
+            18
+          ]
+        }
+      ],
+      "ordinary_Ext": {
+        "P": 1
+      },
+      "section_margin": {
+        "S4": 1,
+        "T6": 1,
+        "W'": 1
+      }
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "C": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "Q_types": [
+        3,
+        5
+      ],
+      "c3": 0,
+      "equivariant_Ext_dimension": 0,
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "ledger_rows": [
+        {
+          "a": -30,
+          "b": -46,
+          "defects": [
+            0,
+            0,
+            0
+          ],
+          "graded_degrees": [
+            -16,
+            -8,
+            0,
+            8
+          ]
+        }
+      ],
+      "ordinary_Ext": {
+        "P": 1
+      },
+      "section_margin": {
+        "S4": 1,
+        "T6": 2,
+        "W'": 1
+      }
+    }
+  ],
+  "original_sources": 6,
+  "positive_defect_rows": 24,
+  "preliminary_split_case_count": 23,
+  "rank_three_saturation_degree_bound": 11,
+  "rank_two_saturation_degree_bound": 14,
+  "raw_rank_three_images": [
+    [
+      {
+        "coefficient": "V",
+        "degree": 1
+      }
+    ],
+    [
+      {
+        "coefficient": "V",
+        "degree": 3
+      }
+    ],
+    [
+      {
+        "coefficient": "V",
+        "degree": 5
+      }
+    ],
+    [
+      {
+        "coefficient": "A",
+        "degree": 7
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      },
+      {
+        "coefficient": "1",
+        "degree": 9
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      },
+      {
+        "coefficient": "1",
+        "degree": 9
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": 8
+      },
+      {
+        "coefficient": "1",
+        "degree": 9
+      }
+    ]
+  ],
+  "raw_rank_two_images": [
+    [
+      {
+        "coefficient": "W'",
+        "degree": 2
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": 4
+      }
+    ],
+    [
+      {
+        "coefficient": "W'",
+        "degree": 6
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": 8
+      }
+    ]
+  ],
+  "scope": "Necessary lower-image and split first-quotient classification only; no full (3,1) exclusion.",
+  "status": "PASS",
+  "torsion_partition_row_count": 96,
+  "torsion_partition_rows": [
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -14,
+        2,
+        6
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -22,
+        2,
+        6
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -20,
+        4,
+        8
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -18,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        12
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -12,
+        -8,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        12
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        24,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -24,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        24,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "N_degrees": [
+        -14,
+        2,
+        6
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "N_degrees": [
+        -2,
+        2,
+        6
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "N_degrees": [
+        -22,
+        2,
+        6
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -20,
+        4,
+        8
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -18,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        12
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -12,
+        -8,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        12
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        24,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -24,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        24,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -18,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        12
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        -6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        12
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        24,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -22,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        24,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -40,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        30,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -28,
+        6,
+        10
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        30,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -42,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        32,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -30,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        32,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -18,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        12
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -10,
+        -6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        12
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        24,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -22,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        24,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -40,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        30,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -28,
+        6,
+        10
+      ],
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        30,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -42,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        32,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -30,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -22,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -10,
+        -6,
+        -2
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -30,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ],
+      "nu": [
+        32,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -26,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -26,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -12,
+        4,
+        8
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -26,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -26,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -10,
+        6,
+        10
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -34,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        2,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -14,
+        -10,
+        -6
+      ],
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "N_degrees": [
+        -18,
+        6,
+        10
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "N_degrees": [
+        -2,
+        0,
+        2
+      ],
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -24,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "N_degrees": [
+        -2,
+        0,
+        2
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "N_degrees": [
+        -14,
+        0,
+        2
+      ],
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        2,
+        4
+      ],
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -24,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        2,
+        4
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -12,
+        2,
+        4
+      ],
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -32,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        0,
+        2,
+        4
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "N_degrees": [
+        -20,
+        2,
+        4
+      ],
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        4,
+        6
+      ],
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -24,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        4,
+        6
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        4,
+        6
+      ],
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -32,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        4,
+        6
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        20,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -18,
+        4,
+        6
+      ],
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        20,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -24,
+        -18,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        4,
+        6
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        0,
+        12
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        -8,
+        6
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "graded_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        12
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -36,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        2,
+        4,
+        6
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        0,
+        0
+      ],
+      "tau": [
+        24,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -24,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -10,
+        4,
+        6
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        12,
+        0
+      ],
+      "tau": [
+        12,
+        0
+      ]
+    },
+    {
+      "C_degrees": [
+        -12,
+        -6,
+        0
+      ],
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "N_degrees": [
+        -22,
+        4,
+        6
+      ],
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "graded_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ],
+      "nu": [
+        24,
+        0
+      ],
+      "tau": [
+        0,
+        0
+      ]
+    }
+  ]
+}

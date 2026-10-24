@@ -1,0 +1,33 @@
+{
+  "author_checks": 16582,
+  "author_files_authenticated": 42,
+  "author_hashes": {
+    "MANIFEST.json": "3fc3e1f1d66993ae92c59c3790565ff1bf871192c31961fcdf9776168dcb6e5b",
+    "PROOF.md": "4cbd25f10abfdc864687e71f44cd17de7589d3d031d1035849737487b9f3adb1",
+    "RESULT.json": "7e1cba7928bdbfce0cdd85ab62e23eacb7b4a2e085ae3850731549ff3a55668b",
+    "verify.py": "44d793fa6972371e3870f3e682fb468292189b9d16a9db135b75f7b58c73ea39"
+  },
+  "author_new_checks": 661,
+  "author_normal_and_optimized_replay": true,
+  "case_rows_compared": 50,
+  "complete_obstruction_vectors_compared": 13,
+  "independent_checks": 300,
+  "physical_V_excesses": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "reported_multiplicities_validated": true,
+  "status": "PASS",
+  "torsion_rows_compared": 96
+}

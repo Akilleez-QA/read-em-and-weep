@@ -1,0 +1,164 @@
+{
+  "actual_instance_evaluation_used": false,
+  "authenticated_dependency_files": 58,
+  "claim": "The actual ordered maximal rank-four plateau (3,1) is excluded under the retained original premises.",
+  "coarse_profile_count_updated": false,
+  "contract": {
+    "actual_ranks": [
+      17,
+      13,
+      30
+    ],
+    "canonical_or_unique_copy_assumed": false,
+    "chosen_section_copy_exists": true,
+    "claims_generic_SF_at_least_five": false,
+    "claims_square_surjectivity": false,
+    "evaluation_bundle_injectivity_assumed": false,
+    "full_derivative_generic_rank": 4,
+    "global_zero_defects_assumed": false,
+    "image_nonzero": true,
+    "one_fixed_copy": true,
+    "physical_A": "Sym2 W",
+    "physical_V": "other even three-space",
+    "premises_retained": true,
+    "rank_exclusions": {
+      "1": "rankone",
+      "2": "lower_exclusion",
+      "3": "lower_exclusion",
+      "4": "cubic_image"
+    },
+    "source_Z_forced": false
+  },
+  "excluded_image_ranks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "generic_SF_rank_under_contradiction": 4,
+  "historical_enumeration_used": false,
+  "independent_final_chain_review_required": true,
+  "integration_checks": 221,
+  "lower_exclusion_reported_checks": 16582,
+  "profile": [
+    3,
+    1
+  ],
+  "proof_dependency_graph": {
+    "cubic_image": [
+      "originals"
+    ],
+    "integration": [
+      "cubic_image",
+      "lower_exclusion",
+      "rankone"
+    ],
+    "lower_classification": [
+      "originals"
+    ],
+    "lower_exclusion": [
+      "cubic_image",
+      "lower_classification"
+    ],
+    "originals": [],
+    "rankone": [
+      "originals",
+      "lower_classification"
+    ]
+  },
+  "rankone_reported_checks": 4207,
+  "remaining_image_ranks": [],
+  "shared_dependency_checks_not_deduplicated": true,
+  "source_identities": {
+    "ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md": {
+      "copies": [
+        "dependencies/lower-exclusion/cubic-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+        "dependencies/lower-exclusion/lower-image/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+        "dependencies/rankone/dependency/inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+      ],
+      "identity": {
+        "bytes": 9672,
+        "git_blob_sha1": "b93e0b3589ef71cf2c029fd07a6bdb1da8ba92b3",
+        "path": "research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+        "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+        "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md"
+      }
+    },
+    "EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md": {
+      "copies": [
+        "dependencies/lower-exclusion/lower-image/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+        "dependencies/rankone/dependency/inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md"
+      ],
+      "identity": {
+        "bytes": 15782,
+        "git_blob_sha1": "ba18a3fc8276c5d98b57b96ec13091b713de8752",
+        "path": "research/hm/order-four-quadratic-load/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+        "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+        "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md"
+      }
+    },
+    "GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md": {
+      "copies": [
+        "dependencies/lower-exclusion/cubic-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+        "dependencies/lower-exclusion/lower-image/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+        "dependencies/rankone/dependency/inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md"
+      ],
+      "identity": {
+        "bytes": 12488,
+        "git_blob_sha1": "a79287dc4afe3ba9eb0d3439db4846169bf1c2a3",
+        "path": "research/hm/order-four-quadratic-load/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+        "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+        "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md"
+      }
+    },
+    "POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md": {
+      "copies": [
+        "dependencies/lower-exclusion/cubic-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+        "dependencies/lower-exclusion/lower-image/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+        "dependencies/rankone/dependency/inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md"
+      ],
+      "identity": {
+        "bytes": 5414,
+        "git_blob_sha1": "303c6927265296440470b9dd4015fe6e8d55ca4d",
+        "path": "research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+        "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+        "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md"
+      }
+    },
+    "RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md": {
+      "copies": [
+        "dependencies/lower-exclusion/cubic-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+        "dependencies/lower-exclusion/lower-image/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+        "dependencies/rankone/dependency/inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md"
+      ],
+      "identity": {
+        "bytes": 10451,
+        "git_blob_sha1": "e302f4384da732dc755378a096dca06e182763f6",
+        "path": "research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+        "ref": "db51525015bb7c5e825833d550d08dedf6f6ea96",
+        "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/db51525015bb7c5e825833d550d08dedf6f6ea96/research/hm/order-four-quadratic-load/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md"
+      }
+    },
+    "four-sources.md": {
+      "copies": [
+        "dependencies/lower-exclusion/cubic-image/inputs/four-sources.md",
+        "dependencies/lower-exclusion/lower-image/inputs/four-sources.md",
+        "dependencies/rankone/dependency/inputs/four-sources.md"
+      ],
+      "identity": {
+        "bytes": 9616,
+        "git_blob_sha1": "43cc2fe6ac82d7cb01b8c32dc2ef906212c3b705",
+        "path": "research/hm/primary-terminal-slope-obstruction/PROOF.md",
+        "ref": "504b7eb800407dfc7e6340c98c72cdd553939f54",
+        "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/504b7eb800407dfc7e6340c98c72cdd553939f54/research/hm/primary-terminal-slope-obstruction/PROOF.md"
+      }
+    }
+  },
+  "status": "CONDITIONAL PASS"
+}

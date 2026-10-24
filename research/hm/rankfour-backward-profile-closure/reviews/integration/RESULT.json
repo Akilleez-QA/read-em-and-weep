@@ -1,0 +1,39 @@
+{
+  "actual_instance_evaluations": 0,
+  "actual_ranks": [
+    17,
+    13,
+    30
+  ],
+  "all_four_prior_theorems_authenticated": true,
+  "canonical_copy_assumed": false,
+  "checks": 157,
+  "chosen_copy": "one fixed arbitrary T6 inclusion",
+  "claims_SF_at_least_five": false,
+  "coarse_profile_count_updated": false,
+  "evaluation_bundle_injectivity_assumed": false,
+  "excluded_restricted_image_ranks": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "historical_enumerations": 0,
+  "original_premises_retained": true,
+  "positive_defects_retained": true,
+  "profile_excluded": [
+    3,
+    1
+  ],
+  "rank_under_contradiction": 4,
+  "remaining_restricted_image_ranks": [],
+  "status": "CONDITIONAL PASS",
+  "topological_order": [
+    "originals",
+    "cubic-image",
+    "lower-classification",
+    "lower-exclusion",
+    "rankone",
+    "closure"
+  ]
+}

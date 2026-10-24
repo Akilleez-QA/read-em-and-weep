@@ -1,0 +1,2179 @@
+{
+  "actual_E3_Euler": {
+    "T6": 2,
+    "W'": 1
+  },
+  "actual_Qstar3_Euler": {
+    "S4": -1,
+    "T6": 1,
+    "W": -2
+  },
+  "actual_instance_evaluation_used": false,
+  "authenticated_originals": 5,
+  "canonical_single_T6_assumed": false,
+  "checks": 12643,
+  "endpoint_bounds": [
+    -20,
+    -36
+  ],
+  "endpoint_shapes": [
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 4,
+        "D": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -14
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": 1,
+        "D": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -14
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "A",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 1,
+        "D": -1,
+        "P": -1,
+        "V": 1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -14
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -14
+        },
+        {
+          "coefficient": "P",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": 2,
+        "P": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -12
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -1,
+        "A": 1,
+        "P": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -12
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "A",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -12
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": 2,
+        "P": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -12
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W'": -2
+      },
+      "chi4": {
+        "1": 2,
+        "P": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -12
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 3,
+        "A": -1,
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "A",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "passes": true,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "S4",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W'": -2
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 3,
+        "A": -1,
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "A",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "A": -1,
+        "D": -1,
+        "V": 1
+      },
+      "passes": true,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 3,
+        "D": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -9
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "A": 1,
+        "D": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -9
+        },
+        {
+          "coefficient": "A",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -9
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -2
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -2
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -2,
+        "W'": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -2
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -2
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 2,
+        "A": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -3
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -3
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -2,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -2,
+        "W": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -2
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "A",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "1": 1,
+        "A": -1,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -3
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -3
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -2,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "1": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -4
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "1": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": -7
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "W": -5
+      },
+      "chi4": {
+        "1": -5
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "W": -3
+      },
+      "chi4": {
+        "1": -2,
+        "A": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "A",
+          "degree": -6
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -2
+      },
+      "chi4": {
+        "1": -2,
+        "V": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "V",
+          "degree": -6
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "T6": -1,
+        "W": -1,
+        "W'": -1
+      },
+      "chi4": {
+        "1": -1,
+        "P": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "P",
+          "degree": -6
+        }
+      ]
+    },
+    {
+      "chi3": {
+        "S4": -1,
+        "T6": -1
+      },
+      "chi4": {
+        "D": -1
+      },
+      "passes": false,
+      "shape": [
+        {
+          "coefficient": "D",
+          "degree": -6
+        }
+      ]
+    }
+  ],
+  "forced_endpoints": [
+    [
+      {
+        "coefficient": "1",
+        "degree": -10
+      },
+      {
+        "coefficient": "1",
+        "degree": -8
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ],
+    [
+      {
+        "coefficient": "W",
+        "degree": -9
+      },
+      {
+        "coefficient": "V",
+        "degree": -4
+      }
+    ]
+  ],
+  "globally_zero_defects_assumed": false,
+  "historical_enumeration_used": false,
+  "image_blocks": [
+    {
+      "coefficient": "P",
+      "degree": 1,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "V",
+      "degree": 1,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "S4",
+      "degree": 2,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "W'",
+      "degree": 2,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "P",
+      "degree": 3,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "V",
+      "degree": 3,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "W'",
+      "degree": 4,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "P",
+      "degree": 5,
+      "source_labels": [
+        "P"
+      ]
+    },
+    {
+      "coefficient": "V",
+      "degree": 5,
+      "source_labels": [
+        "D",
+        "P",
+        "V",
+        "Z"
+      ]
+    },
+    {
+      "coefficient": "S4",
+      "degree": 6,
+      "source_labels": [
+        "D"
+      ]
+    },
+    {
+      "coefficient": "W'",
+      "degree": 6,
+      "source_labels": [
+        "P"
+      ]
+    },
+    {
+      "coefficient": "A",
+      "degree": 7,
+      "source_labels": [
+        "D"
+      ]
+    },
+    {
+      "coefficient": "W",
+      "degree": 8,
+      "source_labels": [
+        "D"
+      ]
+    },
+    {
+      "coefficient": "1",
+      "degree": 9,
+      "source_labels": [
+        "D"
+      ]
+    }
+  ],
+  "ledger": [
+    {
+      "a": -60,
+      "b": -36,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -6,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -60,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -54,
+      "b": -38,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -8,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -54,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -48,
+      "b": -40,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -10,
+        -2,
+        6,
+        14
+      ],
+      "stage_degrees": [
+        -48,
+        -58,
+        -60,
+        -54,
+        -40
+      ]
+    },
+    {
+      "a": -48,
+      "b": -36,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -18,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -48,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -42,
+      "b": -42,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -12,
+        -4,
+        4,
+        12
+      ],
+      "stage_degrees": [
+        -42,
+        -54,
+        -58,
+        -54,
+        -42
+      ]
+    },
+    {
+      "a": -42,
+      "b": -38,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -20,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -42,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -40,
+      "b": -36,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -26,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -40,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -36,
+      "b": -44,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -14,
+        -6,
+        2,
+        10
+      ],
+      "stage_degrees": [
+        -36,
+        -50,
+        -56,
+        -54,
+        -44
+      ]
+    },
+    {
+      "a": -36,
+      "b": -40,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -22,
+        -2,
+        6,
+        14
+      ],
+      "stage_degrees": [
+        -36,
+        -58,
+        -60,
+        -54,
+        -40
+      ]
+    },
+    {
+      "a": -36,
+      "b": -36,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "quotient_degrees": [
+        -18,
+        -10,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -36,
+        -54,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -36,
+      "b": -36,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -30,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -36,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -34,
+      "b": -38,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -28,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -34,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -30,
+      "b": -46,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -16,
+        -8,
+        0,
+        8
+      ],
+      "stage_degrees": [
+        -30,
+        -46,
+        -54,
+        -54,
+        -46
+      ]
+    },
+    {
+      "a": -30,
+      "b": -42,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -24,
+        -4,
+        4,
+        12
+      ],
+      "stage_degrees": [
+        -30,
+        -54,
+        -58,
+        -54,
+        -42
+      ]
+    },
+    {
+      "a": -30,
+      "b": -38,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "quotient_degrees": [
+        -20,
+        -12,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -30,
+        -50,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -30,
+      "b": -38,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -32,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -30,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -30,
+      "b": -36,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -36,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -30,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -28,
+      "b": -40,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -30,
+        -2,
+        6,
+        14
+      ],
+      "stage_degrees": [
+        -28,
+        -58,
+        -60,
+        -54,
+        -40
+      ]
+    },
+    {
+      "a": -28,
+      "b": -36,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -38,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -28,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -24,
+      "b": -48,
+      "defects": [
+        0,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -18,
+        -10,
+        -2,
+        6
+      ],
+      "stage_degrees": [
+        -24,
+        -42,
+        -52,
+        -54,
+        -48
+      ]
+    },
+    {
+      "a": -24,
+      "b": -44,
+      "defects": [
+        12,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -26,
+        -6,
+        2,
+        10
+      ],
+      "stage_degrees": [
+        -24,
+        -50,
+        -56,
+        -54,
+        -44
+      ]
+    },
+    {
+      "a": -24,
+      "b": -40,
+      "defects": [
+        0,
+        12,
+        0
+      ],
+      "quotient_degrees": [
+        -22,
+        -14,
+        6,
+        14
+      ],
+      "stage_degrees": [
+        -24,
+        -46,
+        -60,
+        -54,
+        -40
+      ]
+    },
+    {
+      "a": -24,
+      "b": -40,
+      "defects": [
+        24,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -34,
+        -2,
+        6,
+        14
+      ],
+      "stage_degrees": [
+        -24,
+        -58,
+        -60,
+        -54,
+        -40
+      ]
+    },
+    {
+      "a": -24,
+      "b": -38,
+      "defects": [
+        30,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -38,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -24,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        0,
+        0,
+        12
+      ],
+      "quotient_degrees": [
+        -18,
+        -10,
+        -2,
+        18
+      ],
+      "stage_degrees": [
+        -24,
+        -42,
+        -52,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        12,
+        12,
+        0
+      ],
+      "quotient_degrees": [
+        -30,
+        -10,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -24,
+        -54,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -24,
+      "b": -36,
+      "defects": [
+        36,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -42,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -24,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -22,
+      "b": -42,
+      "defects": [
+        20,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -32,
+        -4,
+        4,
+        12
+      ],
+      "stage_degrees": [
+        -22,
+        -54,
+        -58,
+        -54,
+        -42
+      ]
+    },
+    {
+      "a": -22,
+      "b": -38,
+      "defects": [
+        32,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -40,
+        0,
+        8,
+        16
+      ],
+      "stage_degrees": [
+        -22,
+        -62,
+        -62,
+        -54,
+        -38
+      ]
+    },
+    {
+      "a": -20,
+      "b": -36,
+      "defects": [
+        0,
+        20,
+        0
+      ],
+      "quotient_degrees": [
+        -26,
+        -18,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -20,
+        -46,
+        -64,
+        -54,
+        -36
+      ]
+    },
+    {
+      "a": -20,
+      "b": -36,
+      "defects": [
+        40,
+        0,
+        0
+      ],
+      "quotient_degrees": [
+        -46,
+        2,
+        10,
+        18
+      ],
+      "stage_degrees": [
+        -20,
+        -66,
+        -64,
+        -54,
+        -36
+      ]
+    }
+  ],
+  "ledger_rows": 31,
+  "negative_controls": [
+    "discarding positive defects loses 24 necessary numerical rows",
+    "reversing unequal endpoint weights breaks a retained row",
+    "substituting source Z alone changes image-block coverage",
+    "permitting absent cubic image block O1 fails source character",
+    "omitting dimension bound retains invalid rank-four image",
+    "declaring full-rank image defect twelve violates every bound",
+    "identifying physical A with V changes endpoint Euler",
+    "dropping quartic endpoint test retains fifteen false endpoints",
+    "allowing V Ominus4 to differentiate downward contradicts Hom",
+    "adding invariant defect12 to local P branch violates endpoint cap",
+    "replacing physical P target by D destroys endpoint Hom vanishing"
+  ],
+  "plateau_ranks": [
+    5,
+    9,
+    13,
+    17,
+    21
+  ],
+  "positive_defect_rows": 24,
+  "rank_four_image_multisets": 24,
+  "rank_four_images_remaining": 0,
+  "rank_one_image": {
+    "coefficient": "1",
+    "degree": 9,
+    "necessary_source": "D"
+  },
+  "scope": "Only the restricted dual cubic image bound rank 1..3 in actual ordered rank-four plateau (3,1); no profile closure.",
+  "section_bound_survivors": [
+    {
+      "degree": 4,
+      "saturated_degree_upper_bound": 14,
+      "shape": [
+        {
+          "coefficient": "P",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "degree": 12,
+      "saturated_degree_upper_bound": 12,
+      "shape": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        },
+        {
+          "coefficient": "1",
+          "degree": 9
+        }
+      ]
+    },
+    {
+      "degree": 8,
+      "saturated_degree_upper_bound": 10,
+      "shape": [
+        {
+          "coefficient": "S4",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "degree": 8,
+      "saturated_degree_upper_bound": 10,
+      "shape": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        },
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    }
+  ],
+  "source_Z_assumed": false,
+  "status": "PASS"
+}

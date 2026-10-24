@@ -1,0 +1,85 @@
+{
+  "files": [
+    {
+      "bytes": 33630,
+      "file": "AUTHOR-RUN-O.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 33630,
+      "file": "AUTHOR-RUN.json",
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "bytes": 1957,
+      "file": "CONTROLS.json",
+      "sha256": "cfebb30ada26df9a858ffffb1435601478522b068b81e512b182cdc1c144cd96"
+    },
+    {
+      "bytes": 2838,
+      "file": "INPUTS.json",
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    {
+      "bytes": 768,
+      "file": "PACKAGE-CHECK.json",
+      "sha256": "e4098560bb6e95cf2e4542574279f8eb79f9d6821f8032ea59bedc13684c92cc"
+    },
+    {
+      "bytes": 907,
+      "file": "README.md",
+      "sha256": "4a8de27d8f3250b5acdc923871103ba1c93a08b4351a3bdc9fd8ca8c8d53ea2f"
+    },
+    {
+      "bytes": 22694,
+      "file": "RESULT.json",
+      "sha256": "9a0e0255c1831c48f7b69e9f444f076c91c2d9774eb53b486c78060ea498e340"
+    },
+    {
+      "bytes": 14801,
+      "file": "REVIEW.md",
+      "sha256": "7f4cc562718242c1808b69ce70a8180f8d5cf67bfb1a17ac4a5d76bf8bfbd173"
+    },
+    {
+      "bytes": 2429,
+      "file": "check_package.py",
+      "sha256": "cf0d04060384f1d3eede0fc7dd0fd30011c4354f0d34f78fbd5680b87c3564ad"
+    },
+    {
+      "bytes": 9672,
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "bytes": 12488,
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "bytes": 5414,
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "bytes": 10451,
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "bytes": 9616,
+      "file": "inputs/four-sources.md",
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "bytes": 1053,
+      "file": "test_controls.py",
+      "sha256": "053f6f312e3b847fcd685cdebd23fd75b8297f9f19f7766000353e9608c9918c"
+    },
+    {
+      "bytes": 12305,
+      "file": "verify.py",
+      "sha256": "8a7a344241c7d2a76a1fafe404b793a0ab07ff99b58f404099370e99bfbf8605"
+    }
+  ],
+  "scope": "Independent mathematical review and reproducible comparison, retaining original conditional scope"
+}

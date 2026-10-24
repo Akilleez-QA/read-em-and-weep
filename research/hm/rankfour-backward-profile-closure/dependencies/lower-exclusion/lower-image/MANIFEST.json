@@ -1,0 +1,90 @@
+{
+  "scope": "Necessary rank-two and rank-three image/first-quotient classification only, no whole (3,1) closure.",
+  "files": [
+    {
+      "file": "CASES.json",
+      "bytes": 42381,
+      "sha256": "a6749b9800e44004df19b069d9c6d9317f808b70dbda28a5ba77acc3ee93eb24"
+    },
+    {
+      "file": "ENDPOINT-EXCLUSIONS.json",
+      "bytes": 13968,
+      "sha256": "a7f3562ae26f47985f7c645dbff34a7ff7a2d9adf8c6d5ccc30b2abc6ed9fa04"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 3421,
+      "sha256": "2ab40f6aa2002070fc9ae161ac46510a63743ac9ba133126b0fa9ee94bb48de9"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 14779,
+      "sha256": "f6f807996ccca5b05233af8964bbbaa4f3913f79e4955ea2b4906462db3f2751"
+    },
+    {
+      "file": "QUOTIENTS.json",
+      "bytes": 7997,
+      "sha256": "3dd786d4229a15d18ea4ebc17c53c464297c3cd0e91bce58af9e098e5c7b78f1"
+    },
+    {
+      "file": "README.md",
+      "bytes": 1137,
+      "sha256": "d6c2cc9d48128c7b1777e54f28110dfbf179b67141776d914ce56fa3a885704e"
+    },
+    {
+      "file": "RESULT-O.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "RESULT-OTHER-CWD.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "RESULT.json",
+      "bytes": 230508,
+      "sha256": "9b157f897b96ec2e87951f540393fecd31057b34121bdf6b5de2ebaf38223c72"
+    },
+    {
+      "file": "TORSION-LEDGER.json",
+      "bytes": 103068,
+      "sha256": "05362a08d969bc90c52021ae8eee8883b70fe6dba4f97a58749f0c28c39851f1"
+    },
+    {
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "inputs/EXCEPTIONAL-CUBIC-GAUSS-CORNER-EXCLUSION.md",
+      "bytes": 15782,
+      "sha256": "9f01d086401ee7ee850d3c9181c0486734bcc5c5791c552410895ae4ba742fbf"
+    },
+    {
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "inputs/four-sources.md",
+      "bytes": 9616,
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 22504,
+      "sha256": "8bfaf601c8817fb0ab3af19a5aff734efdad09a318491c1bec7d8430818cb0f6"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "all_margins_targets_and_ramified_rows_compared": true,
+  "all_nine_upper_characters_compared": true,
+  "author_dependency_checks": 3278,
+  "author_executed_mutations": 8,
+  "author_hashes": {
+    "MANIFEST.json": "7f54078b1620316bfc7f1675533c3a364632280a121868d58ad5f75e126e2701",
+    "PROOF.md": "0ac173c28a40d6f98df75ae7218fe0fc8a7c03a4e0c3b022f87a97969a403cd8",
+    "RESULT.json": "a3e195acf3155f506c32a3dba2e0f107d6b135b221d6236d1468024c136086cf",
+    "verify.py": "4164413cea33bbae469763460aa83e82c3a21e36e4dca92d3b66869e5456d01f"
+  },
+  "author_new_checks": 929,
+  "author_normal_and_optimized_replay": true,
+  "complete_domain_comparison": [
+    53,
+    16,
+    7,
+    9
+  ],
+  "independent_checks": 1014,
+  "reported_multiplicities_validated": true,
+  "status": "PASS"
+}

@@ -1,0 +1,75 @@
+{
+  "scope": "Restricted dual cubic image bound only, not (3,1) profile closure.",
+  "files": [
+    {
+      "file": "ENDPOINTS.json",
+      "bytes": 17562,
+      "sha256": "248830a83b7909b45b9c894048584d0679a5496d18cb9dd5f1a32d0e5d5fc272"
+    },
+    {
+      "file": "INPUTS.json",
+      "bytes": 2838,
+      "sha256": "18b2b469f94757e80a603c34dca84a3cbc4c8461db2a1276402f3402ff43d36b"
+    },
+    {
+      "file": "LEDGER.json",
+      "bytes": 7532,
+      "sha256": "c526f30ff7122803deea00e905ec61ccb9d71b4b6f4a33967e246b6cc6848fb6"
+    },
+    {
+      "file": "PROOF.md",
+      "bytes": 13862,
+      "sha256": "0e291e31481530df3163ed6abc3d433a4e402c98e9258d3a329b05b51a2ea507"
+    },
+    {
+      "file": "README.md",
+      "bytes": 885,
+      "sha256": "e8d179ad423163ecad659f2dc4ceea81684590f2169936f1a71b96d56feca358"
+    },
+    {
+      "file": "RESULT-O.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "RESULT-OTHER-CWD.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "RESULT.json",
+      "bytes": 33630,
+      "sha256": "6ba21af4feb947a9bd90190478c8a5ff5ddfb43754b101e009eb10fd34a94a05"
+    },
+    {
+      "file": "inputs/ACTUAL-EQUIVARIANT-SPLITTING-AND-GAUSS-PERSISTENCE.md",
+      "bytes": 9672,
+      "sha256": "a52685fc9e7c89abf26171a15989cedeaf3bd101a2edde790a24f9cfe0179256"
+    },
+    {
+      "file": "inputs/GAUSS-DETERMINANT-ORBIT-RAMIFICATION.md",
+      "bytes": 12488,
+      "sha256": "783454715e967929ad81e6f09f8f4a155073fbdab89974bee056416e4f866e71"
+    },
+    {
+      "file": "inputs/POSITIVE-DOUBLE-HYPERPLANE-GAUSS-GATE.md",
+      "bytes": 5414,
+      "sha256": "0928dd8261ac0d2659188af6520b564611b289cd0e271185ef5f4e3bafe3a6a2"
+    },
+    {
+      "file": "inputs/RANK-TWO-GAUSS-PLATEAU-NECESSARY-BOUND.md",
+      "bytes": 10451,
+      "sha256": "868b89283fc98d276b8c9833f16d3dd16fe2b6a98a326769ce43d3a7e46d8b3c"
+    },
+    {
+      "file": "inputs/four-sources.md",
+      "bytes": 9616,
+      "sha256": "d5feb4b4478b5ec8178a049124179d25473b2e2526b20823a40f6dc60095e28e"
+    },
+    {
+      "file": "verify.py",
+      "bytes": 18144,
+      "sha256": "6d4f66ca5ac1be539a09ef791775e782bc4cafba56dbf18131b0bb7586a21242"
+    }
+  ]
+}

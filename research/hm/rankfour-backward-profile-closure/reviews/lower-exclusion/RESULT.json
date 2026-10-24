@@ -1,0 +1,542 @@
+{
+  "actual_Qstar4_Euler": {
+    "1": -1,
+    "A": -1,
+    "D": 1,
+    "P": 1,
+    "V": 2
+  },
+  "actual_instance_evaluations": 0,
+  "case_count": 13,
+  "cases": [
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "H0_B_dual": {
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "1": -2,
+        "A": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "H0_B_dual": {
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "A": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "V",
+          "degree": 0
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H0_B_dual": {
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "1": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "V",
+          "degree": 1
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 3
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "1": -1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "1": -2,
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "1": 1,
+        "A": -1,
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H0_B_dual": {
+        "P": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "V_Euler_multiplicity": 1,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 0,
+      "chi_Z4": {
+        "P": 1,
+        "V": 1
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 2
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "H0_B_dual": {
+        "D": 1,
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "A": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H0_B_dual": {
+        "D": 1,
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "1": -2,
+        "A": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "H0_B_dual": {
+        "D": 1,
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "1": 1,
+        "A": -2,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H0_B_dual": {
+        "D": 1,
+        "V": 1
+      },
+      "N": [
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "V_Euler_multiplicity": 2,
+      "V_kernel_lower_bound": 1,
+      "V_target_multiplicity": 1,
+      "chi_Z4": {
+        "A": -1,
+        "V": 2
+      },
+      "image": [
+        {
+          "coefficient": "W'",
+          "degree": 4
+        }
+      ]
+    }
+  ],
+  "checks": 300,
+  "covered_case_degree_rows": 50,
+  "covered_torsion_rows": 96,
+  "earlier_defects_assumed_zero": false,
+  "historical_enumerations": 0,
+  "necessary_source": "D",
+  "positive_case_degree_rows_retained": 37,
+  "positive_torsion_rows_retained": 83,
+  "remaining_image": "O(9)",
+  "remaining_image_rank": 1,
+  "scope": "Conditional exclusion of every rank-two and rank-three restricted dual-cubic image in actual ordered rank-four (3,1). With retained full-rank exclusion, every restricted image has rank one, is O(9), and requires source D. The whole profile remains open.",
+  "status": "PASS",
+  "top_kernel_bundle": "V O(-4)",
+  "top_kernel_degree": -12,
+  "top_kernel_quotient_Hom_dimension": 0,
+  "uniform_upper_defect": 0,
+  "whole_ordered_profile_excluded": false
+}

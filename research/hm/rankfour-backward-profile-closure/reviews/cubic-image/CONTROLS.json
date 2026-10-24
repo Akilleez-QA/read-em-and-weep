@@ -1,0 +1,71 @@
+{
+  "baseline_normal_and_optimized_match": true,
+  "rejected_mutations": [
+    {
+      "mutation": "source-hash",
+      "reason": "RuntimeError: immutable original SHA256",
+      "rejected": true
+    },
+    {
+      "mutation": "physical-marking",
+      "reason": "RuntimeError: physical A distinct from V",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-H1",
+      "reason": "RuntimeError: all four sources match actual Euler presentation",
+      "rejected": true
+    },
+    {
+      "mutation": "source-dual-swap",
+      "reason": "RuntimeError: actual E Euler cubic",
+      "rejected": true
+    },
+    {
+      "mutation": "global-zero-defects",
+      "reason": "RuntimeError: general positive defects retained",
+      "rejected": true
+    },
+    {
+      "mutation": "maps-vs-sections",
+      "reason": "RuntimeError: complete fourteen image blocks",
+      "rejected": true
+    },
+    {
+      "mutation": "image-parity",
+      "reason": "RuntimeError: complete fourteen image blocks",
+      "rejected": true
+    },
+    {
+      "mutation": "saturation-cap",
+      "reason": "RuntimeError: torsion saturation defect strictly below first invariant orbit",
+      "rejected": true
+    },
+    {
+      "mutation": "intertwiner-multiplicity",
+      "reason": "RuntimeError: one copy of the intertwiner forces common diagonal factor",
+      "rejected": true
+    },
+    {
+      "mutation": "endpoint-derivative-twist",
+      "reason": "RuntimeError: every endpoint derivative component vanishes",
+      "rejected": true
+    },
+    {
+      "mutation": "source-Z-only",
+      "reason": "RuntimeError: complete fourteen image blocks",
+      "rejected": true
+    },
+    {
+      "mutation": "omit-quartic",
+      "reason": "RuntimeError: exactly two forced endpoints",
+      "rejected": true
+    },
+    {
+      "mutation": "dimensions-only",
+      "reason": "RuntimeError: exactly two forced endpoints",
+      "rejected": true
+    }
+  ],
+  "status": "PASS"
+}
