@@ -1,0 +1,67 @@
+{
+  "reviewer": "independent review_common_kernel_proof",
+  "reviewed_at_utc": "2026-10-24T06:44:05.528678+00:00",
+  "frozen_proof": {
+    "file": "PROOF.md",
+    "bytes": 13135,
+    "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd"
+  },
+  "input_manifest_sha256": "562d1af6c9bb983368f350ca790e9aa297abddca5b6757c3c7672b6eccfb21f8",
+  "method": "Independently fresh GitHub connector immutable full path and exact Git blob reads. Compared every UTF-8 byte against each other and the selected copied input. Author LOCAL records and separate working drafts were not read or used.",
+  "sources": [
+    {
+      "source": {
+        "file": "inputs/nine-jets.md",
+        "ref": "66a6bfe8dd424da58f3d775be1818d1f4f71eff1",
+        "path": "research/hm/rankfour-profile11-triplet-nine-jets/PROOF.md",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/66a6bfe8dd424da58f3d775be1818d1f4f71eff1/research/hm/rankfour-profile11-triplet-nine-jets/PROOF.md",
+        "bytes": 12744,
+        "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a",
+        "git_blob_sha1": "916cc6a3bc1cf8ad07e019f00a1f5ebf867311d6"
+      },
+      "fresh_path_tool": "github.fetch_file",
+      "fresh_blob_tool": "github.fetch_blob",
+      "full_bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a",
+      "computed_git_blob_sha1": "916cc6a3bc1cf8ad07e019f00a1f5ebf867311d6",
+      "checks": {
+        "full_path_equals_blob_bytes": true,
+        "full_path_equals_local_input_bytes": true,
+        "bytes_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "computed_git_blob_matches_manifest": true,
+        "reported_path_git_blob_matches_manifest": true,
+        "fresh_path_is_not_error": true,
+        "fresh_blob_is_not_error": true
+      }
+    },
+    {
+      "source": {
+        "file": "inputs/twelve-orientation.md",
+        "ref": "8ca4ccd046248752714a84dfb05aae42a6433f55",
+        "path": "research/hm/rankfour-profile11-triplet-twelve-orientation/PROOF.md",
+        "url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/8ca4ccd046248752714a84dfb05aae42a6433f55/research/hm/rankfour-profile11-triplet-twelve-orientation/PROOF.md",
+        "bytes": 12396,
+        "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+        "git_blob_sha1": "e698ba5aa8caf0ffdc0aa28baec9d0ba8f036eda"
+      },
+      "fresh_path_tool": "github.fetch_file",
+      "fresh_blob_tool": "github.fetch_blob",
+      "full_bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2",
+      "computed_git_blob_sha1": "e698ba5aa8caf0ffdc0aa28baec9d0ba8f036eda",
+      "checks": {
+        "full_path_equals_blob_bytes": true,
+        "full_path_equals_local_input_bytes": true,
+        "bytes_match_manifest": true,
+        "sha256_matches_manifest": true,
+        "computed_git_blob_matches_manifest": true,
+        "reported_path_git_blob_matches_manifest": true,
+        "fresh_path_is_not_error": true,
+        "fresh_blob_is_not_error": true
+      }
+    }
+  ],
+  "all_checks_pass": true,
+  "github_writes": false
+}

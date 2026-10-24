@@ -1,0 +1,129 @@
+{
+  "reviewer": "independent review_common_kernel_proof",
+  "at_utc": "2026-10-24T06:44:52.722837+00:00",
+  "isolated_directory": "/tmp/common-kernel-independent-replay-mbyv0s57",
+  "selected_files_exactly": [
+    "PROOF.md",
+    "INPUTS.json",
+    "REPRODUCE.md",
+    "verify.py",
+    "characters.py",
+    "inputs/nine-jets.md",
+    "inputs/twelve-orientation.md"
+  ],
+  "excluded": "All author LOCAL records, working/follow-on drafts, review records, outputs and caches were omitted.",
+  "environment_override": {
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "before": {
+    "INPUTS.json": {
+      "bytes": 1038,
+      "sha256": "562d1af6c9bb983368f350ca790e9aa297abddca5b6757c3c7672b6eccfb21f8"
+    },
+    "PROOF.md": {
+      "bytes": 13135,
+      "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1681,
+      "sha256": "d46333a67c4fa692975e7173ee9f4e4e9fc7f57f8908e8acdc75ea1716928aaf"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nine-jets.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "inputs/twelve-orientation.md": {
+      "bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2"
+    },
+    "verify.py": {
+      "bytes": 5045,
+      "sha256": "c8135a76bb4bc0d92561bd6240a94c7c8064ea8b31d03de66d849f8c83e1ee24"
+    }
+  },
+  "runs": [
+    {
+      "argv": [
+        "python",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 51,\n  \"not_claimed\": [\n    \"actual instance or jet evaluation\",\n    \"exclusion of either rank7 alternative\",\n    \"identification of different local defects\",\n    \"geometric proof by computation\"\n  ],\n  \"proof_sha256\": \"0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd\",\n  \"scope\": \"two complete immutable input pins; three fixed actual-ladder degree stages and universal characters\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "result": {
+        "checks": 51,
+        "not_claimed": [
+          "actual instance or jet evaluation",
+          "exclusion of either rank7 alternative",
+          "identification of different local defects",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd",
+        "scope": "two complete immutable input pins; three fixed actual-ladder degree stages and universal characters",
+        "status": "PASS"
+      }
+    },
+    {
+      "argv": [
+        "python",
+        "-O",
+        "verify.py"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"checks\": 51,\n  \"not_claimed\": [\n    \"actual instance or jet evaluation\",\n    \"exclusion of either rank7 alternative\",\n    \"identification of different local defects\",\n    \"geometric proof by computation\"\n  ],\n  \"proof_sha256\": \"0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd\",\n  \"scope\": \"two complete immutable input pins; three fixed actual-ladder degree stages and universal characters\",\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "result": {
+        "checks": 51,
+        "not_claimed": [
+          "actual instance or jet evaluation",
+          "exclusion of either rank7 alternative",
+          "identification of different local defects",
+          "geometric proof by computation"
+        ],
+        "proof_sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd",
+        "scope": "two complete immutable input pins; three fixed actual-ladder degree stages and universal characters",
+        "status": "PASS"
+      }
+    }
+  ],
+  "after": {
+    "INPUTS.json": {
+      "bytes": 1038,
+      "sha256": "562d1af6c9bb983368f350ca790e9aa297abddca5b6757c3c7672b6eccfb21f8"
+    },
+    "PROOF.md": {
+      "bytes": 13135,
+      "sha256": "0a24ab99c6f3d6c2f60212532c7f4aed2bd7d5fba17823243dd479a83a7308dd"
+    },
+    "REPRODUCE.md": {
+      "bytes": 1681,
+      "sha256": "d46333a67c4fa692975e7173ee9f4e4e9fc7f57f8908e8acdc75ea1716928aaf"
+    },
+    "characters.py": {
+      "bytes": 1777,
+      "sha256": "c19423adfb673352bc313c027c2e115dbf3c7b0f01802e452da2d2524b6eaef7"
+    },
+    "inputs/nine-jets.md": {
+      "bytes": 12744,
+      "sha256": "44ee429fa26b65b68b2668ce69dff219e4a4daf0a6bdaa9fac0e94aa8a631b3a"
+    },
+    "inputs/twelve-orientation.md": {
+      "bytes": 12396,
+      "sha256": "a9b56b6f84c9a11dedb94639bf16ab5c1065e21a91d067c52f75435d4b014da2"
+    },
+    "verify.py": {
+      "bytes": 5045,
+      "sha256": "c8135a76bb4bc0d92561bd6240a94c7c8064ea8b31d03de66d849f8c83e1ee24"
+    }
+  },
+  "selected_bytes_unchanged_after_each_run": true,
+  "exactly_seven_files_after_each_run": true,
+  "normal_and_optimized_results_identical": true,
+  "source_bytes_unchanged_during_replay": true,
+  "code_inspection": "Read verify.py and characters.py in full before execution. Explicit require checks survive -O. Only fixed degree arithmetic and bounded exact character identities execute; helper visible and h0 are not invoked, and no actual-instance data are present.",
+  "scope": "Arithmetic/checker replay supports but does not replace the independent entire geometric proof review."
+}
