@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "reviewer": "independent entire-proof review",
+  "authenticated_at_utc": "2026-10-24T09:08:11.361615+00:00",
+  "repository": "Akilleez-QA/read-em-and-weep",
+  "proof_bytes": 12921,
+  "proof_sha256": "4869bca9584bfa6876533516b61a6a14d6ca0fde97e80649828588b28e8f617e",
+  "fresh_read_only_fetches": 4,
+  "originals": [
+    {
+      "file": "inputs/lifted-jets-and-kernel-two.md",
+      "immutable_commit": "c565bd8b5b65829e99bdd96a7c5f076b01050465",
+      "immutable_path": "research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/c565bd8b5b65829e99bdd96a7c5f076b01050465/research/hm/rankfour-profile11-triplet-simultaneous-kernel-two-exclusion/PROOF.md",
+      "expected_bytes": 13703,
+      "expected_sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+      "expected_git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+      "routes": [
+        {
+          "route": "github_fetch_file",
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "computed_git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+          "returned_sha": "cb46875b07d8d79e82aebe980685c418d975d87b",
+          "equals_complete_local_original": true,
+          "status": "PASS"
+        },
+        {
+          "route": "github_fetch_blob",
+          "bytes": 13703,
+          "sha256": "0165fa9a854879e5b2c67885f3b0bede6c3f48b34e1c761c0ca846645a3247fa",
+          "computed_git_blob_sha1": "cb46875b07d8d79e82aebe980685c418d975d87b",
+          "returned_sha": null,
+          "equals_complete_local_original": true,
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "file": "inputs/five-kernels.md",
+      "immutable_commit": "7d71f0e2a3963cff64a069198f4415c5cfd0fe9b",
+      "immutable_path": "research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "immutable_url": "https://github.com/Akilleez-QA/read-em-and-weep/blob/7d71f0e2a3963cff64a069198f4415c5cfd0fe9b/research/hm/rankfour-profile11-triplet-kernels/PROOF.md",
+      "expected_bytes": 8501,
+      "expected_sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+      "expected_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+      "routes": [
+        {
+          "route": "github_fetch_file",
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "computed_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+          "returned_sha": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+          "equals_complete_local_original": true,
+          "status": "PASS"
+        },
+        {
+          "route": "github_fetch_blob",
+          "bytes": 8501,
+          "sha256": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+          "computed_git_blob_sha1": "163ba2126b6130befcc2351db7f6910d85fac2ec",
+          "returned_sha": null,
+          "equals_complete_local_original": true,
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "raw_responses": "REVIEWER-FRESH-SOURCE-FETCHES.json",
+  "raw_responses_excluded_from_publication": true
+}
