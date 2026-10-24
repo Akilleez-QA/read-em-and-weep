@@ -1,0 +1,14 @@
+{
+  "checks": 177,
+  "limitations": "Not a proof-assistant verification of geometric premises; no actual coefficients, points, jets, matrices or instance ranks evaluated.",
+  "method": "exact universal character inner products and symbolic degree identities",
+  "optimized": true,
+  "pins": {
+    "PROOF.md": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+    "inputs/five-kernels.md": "4d06da768074a6e813ed295a088d862ce328a4cd33b739e88e20ac1f315de36a",
+    "inputs/low-top.md": "c3d21cb63ffac4c69247e8deba8ef352f673ac3a7b2f91507bc54fbecae943af",
+    "inputs/top-four.md": "56bb8a0aa5ada0f550e0967ef9e535838e9162c2ff2e5ced039a3f6ddb2aacf0"
+  },
+  "proof_sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+  "verdict": "PASS"
+}

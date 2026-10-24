@@ -1,0 +1,57 @@
+{
+  "checks": 40,
+  "flag": [
+    {
+      "coefficient": {
+        "S": 1,
+        "T": 1
+      },
+      "degree": -5,
+      "j": 1,
+      "rank": 10,
+      "total_degree": -50
+    },
+    {
+      "coefficient": {
+        "A": 1,
+        "D": 1
+      },
+      "degree": -6,
+      "j": 2,
+      "rank": 8,
+      "total_degree": -48
+    },
+    {
+      "coefficient": {
+        "S": 1,
+        "W": 1
+      },
+      "degree": -7,
+      "j": 3,
+      "rank": 6,
+      "total_degree": -42
+    },
+    {
+      "coefficient": {
+        "A": 1,
+        "one": 1
+      },
+      "degree": -8,
+      "j": 4,
+      "rank": 4,
+      "total_degree": -32
+    },
+    {
+      "coefficient": {
+        "W": 1
+      },
+      "degree": -9,
+      "j": 5,
+      "rank": 2,
+      "total_degree": -18
+    }
+  ],
+  "proof_sha256": "09424f92b56ce3b907968ccae3c065ececbfbc800fb4db0f79a04a3863f74e26",
+  "scope": "Universal character, all-height polynomial and complete-system principal-parts controls only; no actual coefficient/point/jet evaluation.",
+  "status": "PASS"
+}
