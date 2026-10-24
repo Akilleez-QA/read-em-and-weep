@@ -1,0 +1,13 @@
+# Bounded upper defect in the ordered rank-four (2,1) plateau
+
+Conditional on the six retained actual-geometric and primary-module sources, the upper adjacent derivative defect delta2 belongs to {0,12}. The theorem excludes delta2=20 and delta2=24 only. It does not exclude the whole ordered (2,1) profile or remove a coarse bin. The twenty-one-bin checkpoint after the (3,1) exclusion is unchanged by this bound.
+
+The exact determinant budget leaves seven high-upper-defect cases. All stabilizer characters are retained, including the complete fifteen composition-factor multisets for a length-twenty-four torsion sheaf; no reducedness or local splitting is assumed. Exact identities and justified cohomology tests give 31 tuples. Torsion-safe horizontal tests reject 26, leaving five. The four-source cubic quotient bound excludes four. The fifth forces a complete rank-one flag with a rank-eleven second forward transform of degree minus twelve inside E, contradicting the twist-one degree cap of minus twenty-two.
+
+`PROOF.md` contains the complete bounded proof. The full portable independent review is in `independent-review/`, including its separate character backend, complete tuple comparisons, mutation controls, and six authenticated originals. All author and primary-review bytes are unchanged from the accepted frozen packets.
+
+Run `python3 check_publication.py` from any working directory. Python standard library only; mathematical checks do not depend on assertions. The wrapper authenticates all publication files and the exact author snapshot, replays author normal/optimized verification, then runs the complete independent/author replay and both mutation suites in normal and optimized modes. The author has 3,931 checks and 24 distinct executable mutations, rejected in both modes for 48 runs. The independent verifier has 5,176 checks and 29 semantic mutations, also tested in both modes. All 31 tuple sets and all five residual tuples are compared completely, not only by their counts.
+
+`MANIFEST.json` authenticates the original fourteen-file author packet. `independent-review/MANIFEST.json` authenticates the accepted independent packet. `PUBLICATION-MANIFEST.json` authenticates the entire publication, including this document and the wrapper, without altering either accepted inventory.
+
+The surviving upper defects zero and twelve are not classified or asserted realizable here. This is not a generic SF rank-five bound, square-map surjectivity, full-adjoint invertibility, or repair of the original theorem. Source authentication does not prove the retained geometric premises, and the arithmetic checks are not a proof-assistant certificate.

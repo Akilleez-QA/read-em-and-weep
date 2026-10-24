@@ -1,0 +1,2633 @@
+{
+  "checks": 3931,
+  "exact_positive_count": 31,
+  "five_residual_tuples": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "A",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ]
+    }
+  ],
+  "high_defect_cases": [
+    {
+      "B_domain": 165,
+      "B_positive_domain": 6,
+      "D0_domain": 99,
+      "F0_domain": 32,
+      "case": [
+        -30,
+        -34,
+        0,
+        20,
+        -8
+      ],
+      "exact_positive_survivors": 0,
+      "horizontal_survivors": 0
+    },
+    {
+      "B_domain": 174,
+      "B_positive_domain": 5,
+      "D0_domain": 52,
+      "F0_domain": 99,
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ],
+      "exact_positive_survivors": 3,
+      "horizontal_survivors": 2
+    },
+    {
+      "B_domain": 208,
+      "B_positive_domain": 5,
+      "D0_domain": 32,
+      "F0_domain": 262,
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "exact_positive_survivors": 9,
+      "horizontal_survivors": 0
+    },
+    {
+      "B_domain": 218,
+      "B_positive_domain": 5,
+      "D0_domain": 11,
+      "F0_domain": 608,
+      "case": [
+        -42,
+        -28,
+        0,
+        20,
+        -2
+      ],
+      "exact_positive_survivors": 0,
+      "horizontal_survivors": 0
+    },
+    {
+      "B_domain": 165,
+      "B_positive_domain": 6,
+      "D0_domain": 32,
+      "F0_domain": 32,
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "exact_positive_survivors": 16,
+      "horizontal_survivors": 3
+    },
+    {
+      "B_domain": 174,
+      "B_positive_domain": 5,
+      "D0_domain": 11,
+      "F0_domain": 99,
+      "case": [
+        -34,
+        -28,
+        0,
+        24,
+        -6
+      ],
+      "exact_positive_survivors": 3,
+      "horizontal_survivors": 0
+    },
+    {
+      "B_domain": 218,
+      "B_positive_domain": 5,
+      "D0_domain": 11,
+      "F0_domain": 32,
+      "case": [
+        -30,
+        -28,
+        12,
+        20,
+        -2
+      ],
+      "exact_positive_survivors": 0,
+      "horizontal_survivors": 0
+    }
+  ],
+  "horizontal_rejection_count": 26,
+  "horizontal_rejections": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "P",
+          "degree": -4
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "P",
+          "degree": -4
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -10
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "W'",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "P",
+          "degree": -4
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          20,
+          2
+        ]
+      ],
+      "case": [
+        -38,
+        -30,
+        0,
+        20,
+        -4
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "P",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "A",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "W",
+          "degree": -3
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "A",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "A",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": 0
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "V",
+          "degree": 0
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "W'",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "P",
+          "degree": -2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          4
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "P",
+          "degree": -2
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -6
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          2
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -6
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        },
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "T6",
+              "degree": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -34,
+        -28,
+        0,
+        24,
+        -6
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -34,
+        -28,
+        0,
+        24,
+        -6
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": []
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W'",
+          "degree": -1
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        }
+      ],
+      "D0": [
+        {
+          "coefficient": "1",
+          "degree": -4
+        },
+        {
+          "coefficient": "T6",
+          "degree": -3
+        },
+        {
+          "coefficient": "W'",
+          "degree": -3
+        }
+      ],
+      "F0": [
+        {
+          "coefficient": "W'",
+          "degree": -5
+        },
+        {
+          "coefficient": "V",
+          "degree": -4
+        },
+        {
+          "coefficient": "S4",
+          "degree": -3
+        }
+      ],
+      "T1": [],
+      "T2": [
+        [
+          12,
+          4
+        ],
+        [
+          12,
+          6
+        ]
+      ],
+      "case": [
+        -34,
+        -28,
+        0,
+        24,
+        -6
+      ],
+      "dual": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "1",
+              "degree": -4
+            }
+          ]
+        }
+      ],
+      "primal": [
+        {
+          "internal_Hom_dimension": 0,
+          "outer_Hom_dimension": 0,
+          "subbundle": [
+            {
+              "coefficient": "V",
+              "degree": -4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "input_originals": 6,
+  "numerical_cases_all": 103,
+  "rank_one_final": {
+    "defects": [
+      12,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "degree": -30,
+    "line_degrees": [
+      -22,
+      -8,
+      -6,
+      -4,
+      -2,
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12
+    ],
+    "rank": 9,
+    "required_degree_cap": -22,
+    "required_weight": 36,
+    "second_forward_degree": -12,
+    "second_forward_rank": 11,
+    "span": 12,
+    "span_character": {
+      "A": 1,
+      "D": 1,
+      "P": 1
+    }
+  },
+  "scope": "This does not exclude the (2,1) profile or change the remaining coarse-bin count.",
+  "source_cubic_rejections": [
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 4
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H1_B_twist3": {
+        "S4": 2
+      },
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "W",
+          "degree": 5
+        }
+      ],
+      "H1_B_twist3": {
+        "S4": 2
+      },
+      "case": [
+        -34,
+        -32,
+        0,
+        20,
+        -6
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H1_B_twist3": {
+        "S4": 2
+      },
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ]
+    },
+    {
+      "B": [
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": -8
+        },
+        {
+          "coefficient": "1",
+          "degree": 2
+        },
+        {
+          "coefficient": "1",
+          "degree": 6
+        }
+      ],
+      "H1_B_twist3": {
+        "S4": 2
+      },
+      "case": [
+        -30,
+        -30,
+        0,
+        24,
+        -8
+      ]
+    }
+  ],
+  "status": "PASS",
+  "theorem": "In an actual ordered maximal rank-four (2,1) plateau, the upper derivative defect delta2 is 0 or 12.",
+  "torsion_composition_factor_counts": {
+    "0": 1,
+    "12": 5,
+    "20": 3,
+    "24": 15
+  }
+}

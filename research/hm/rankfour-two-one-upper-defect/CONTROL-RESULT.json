@@ -1,0 +1,294 @@
+{
+  "results": [
+    {
+      "mutation": "wrong_actual_M2",
+      "optimized": false,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_M2",
+      "optimized": true,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_M4",
+      "optimized": false,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_M4",
+      "optimized": true,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_H",
+      "optimized": false,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_H",
+      "optimized": true,
+      "reason": "ValueError: actual unequal presentations",
+      "rejected": true
+    },
+    {
+      "mutation": "physical_Wprime_swap",
+      "optimized": false,
+      "reason": "ValueError: symmetric power dimension",
+      "rejected": true
+    },
+    {
+      "mutation": "physical_Wprime_swap",
+      "optimized": true,
+      "reason": "ValueError: symmetric power dimension",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_center_parity",
+      "optimized": false,
+      "reason": "ValueError: symmetric power parity",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_center_parity",
+      "optimized": true,
+      "reason": "ValueError: symmetric power parity",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_determinant_parity",
+      "optimized": false,
+      "reason": "ValueError: all possible upper defects",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_determinant_parity",
+      "optimized": true,
+      "reason": "ValueError: all possible upper defects",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_degree_slack",
+      "optimized": false,
+      "reason": "ValueError: all possible upper defects",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_degree_slack",
+      "optimized": true,
+      "reason": "ValueError: all possible upper defects",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_torsion_length",
+      "optimized": false,
+      "reason": "ValueError: torsion positivity and length",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_torsion_length",
+      "optimized": true,
+      "reason": "ValueError: torsion positivity and length",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_length20_character",
+      "optimized": false,
+      "reason": "ValueError: all stabilizer-character composition multisets",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_length20_character",
+      "optimized": true,
+      "reason": "ValueError: all stabilizer-character composition multisets",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_repeated_length24_layers",
+      "optimized": false,
+      "reason": "ValueError: all stabilizer-character composition multisets",
+      "rejected": true
+    },
+    {
+      "mutation": "omit_repeated_length24_layers",
+      "optimized": true,
+      "reason": "ValueError: all stabilizer-character composition multisets",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_upper_elimination_shift",
+      "optimized": false,
+      "reason": "ValueError: upper-shift elimination cancels both lower B terms",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_upper_elimination_shift",
+      "optimized": true,
+      "reason": "ValueError: upper-shift elimination cancels both lower B terms",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_Euler_argument",
+      "optimized": false,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_Euler_argument",
+      "optimized": true,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_upper_torsion_sign",
+      "optimized": false,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "reverse_upper_torsion_sign",
+      "optimized": true,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_primal_derivative_twist",
+      "optimized": false,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_primal_derivative_twist",
+      "optimized": true,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_derivative_twist",
+      "optimized": false,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_dual_derivative_twist",
+      "optimized": true,
+      "reason": "ValueError: five high-defect residual tuples",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_internal_cotangent_twist",
+      "optimized": false,
+      "reason": "ValueError: complete literal five-row boundary",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_internal_cotangent_twist",
+      "optimized": true,
+      "reason": "ValueError: complete literal five-row boundary",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_endpoint_degree_cap",
+      "optimized": false,
+      "reason": "ValueError: independent endpoint splitting domain",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_endpoint_degree_cap",
+      "optimized": true,
+      "reason": "ValueError: independent endpoint splitting domain",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_B_domain_floor",
+      "optimized": false,
+      "reason": "ValueError: independent quotient splitting domain",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_B_domain_floor",
+      "optimized": true,
+      "reason": "ValueError: independent quotient splitting domain",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_source_cubic_degree",
+      "optimized": false,
+      "reason": "ValueError: actual four-source cubic H1 consequence",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_source_cubic_degree",
+      "optimized": true,
+      "reason": "ValueError: actual four-source cubic H1 consequence",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_persistence",
+      "optimized": false,
+      "reason": "ValueError: rank-one degree bound and three-step persistence force span12",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_persistence",
+      "optimized": true,
+      "reason": "ValueError: rank-one degree bound and three-step persistence force span12",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_weight",
+      "optimized": false,
+      "reason": "ValueError: complete rank-one required weights",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_weight",
+      "optimized": true,
+      "reason": "ValueError: complete rank-one required weights",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_step",
+      "optimized": false,
+      "reason": "ValueError: forced complete-flag line degrees",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_rankone_step",
+      "optimized": true,
+      "reason": "ValueError: forced complete-flag line degrees",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_E_degree_cap",
+      "optimized": false,
+      "reason": "ValueError: rank11 second forward transform violates actual E twist-one vanishing",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_actual_E_degree_cap",
+      "optimized": true,
+      "reason": "ValueError: rank11 second forward transform violates actual E twist-one vanishing",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_pinned_four_source_hash",
+      "optimized": false,
+      "reason": "ValueError: source SHA256",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong_pinned_four_source_hash",
+      "optimized": true,
+      "reason": "ValueError: source SHA256",
+      "rejected": true
+    }
+  ],
+  "status": "PASS",
+  "subprocess_mutations_rejected": 48
+}

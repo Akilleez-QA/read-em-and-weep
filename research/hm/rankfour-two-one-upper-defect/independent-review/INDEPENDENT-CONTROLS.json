@@ -1,0 +1,210 @@
+{
+  "all_rejected": true,
+  "genuine_subprocess_mutations": 29,
+  "mutations": [
+    {
+      "last_error_line": "ValueError: integral character",
+      "mutation": "class trace",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: integral character",
+      "mutation": "class weight",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "representation dimension",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "central parity",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "torsion sign",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: all reduced and nonreduced torsion signatures retained",
+      "mutation": "torsion length",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: all reduced and nonreduced torsion signatures retained",
+      "mutation": "omit stabilizer characters",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: all required torsion lengths retained",
+      "mutation": "omit length24 layers",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: complete high-defect cases",
+      "mutation": "degree identity",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: complete high-defect cases",
+      "mutation": "upper defect weight",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "primal quotient twist",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: witness internal Hom",
+      "mutation": "internal cotangent twist",
+      "rejected": true,
+      "returncode": 1,
+      "target": "independent.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "endpoint cutoff",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "dual Euler torsion sign",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "primal outer target",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "dual outer target",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: exact bounded frontier",
+      "mutation": "require both horizontal obstructions",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: source cubic cohomology",
+      "mutation": "source cubic budget",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: source cubic quotient cuts",
+      "mutation": "source existential condition",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: unique constant span",
+      "mutation": "persistence lower bound",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: unique constant span",
+      "mutation": "rankone degree bound",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: weighted flag budget",
+      "mutation": "weighted defect sign",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: weighted flag budget",
+      "mutation": "left flag weights",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: only first position can have a defect",
+      "mutation": "right flag weights",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: all complete-flag line degrees",
+      "mutation": "line recurrence",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: all complete-flag line degrees",
+      "mutation": "line initial degree",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: all complete-flag line degrees",
+      "mutation": "flag divisor orbit floor",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: second transform violates E twist-one cap",
+      "mutation": "second transform degree",
+      "rejected": true,
+      "returncode": 1,
+      "target": "verify_bounded.py"
+    },
+    {
+      "last_error_line": "ValueError: accepted author file inputs/four-sources.md",
+      "mutation": "source pin",
+      "rejected": true,
+      "returncode": 1,
+      "target": "accepted-author-packet/inputs/four-sources.md"
+    }
+  ],
+  "status": "PASS"
+}
