@@ -1,0 +1,949 @@
+{
+  "schema": "independent-gluing-kernel-replays-v1",
+  "status": "PASS",
+  "completed_at_utc": "2026-10-24T13:24:12.584939+00:00",
+  "checker_is_not_mathematical_proof": true,
+  "scope": "Only full-byte identity and fixed universal character/degree checks; no actual-source evaluation.",
+  "frozen_sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89",
+  "proof_sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807",
+  "checker_sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea",
+  "source_packet_inventory_before": [
+    {
+      "path": "FROZEN.json",
+      "bytes": 1818,
+      "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 14721,
+      "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 7359,
+      "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 7334,
+      "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3434,
+      "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+    },
+    {
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "inputs/orthogonal-top-incidence.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    {
+      "path": "inputs/r13-extension-incidence.md",
+      "bytes": 19230,
+      "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9109,
+      "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+    }
+  ],
+  "source_packet_inventory_after": [
+    {
+      "path": "FROZEN.json",
+      "bytes": 1818,
+      "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+    },
+    {
+      "path": "INPUTS.json",
+      "bytes": 14721,
+      "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+    },
+    {
+      "path": "INPUTS.md",
+      "bytes": 7359,
+      "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 21478,
+      "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 7334,
+      "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3434,
+      "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+    },
+    {
+      "path": "inputs/f18-gluing-surjectivity.md",
+      "bytes": 12798,
+      "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+    },
+    {
+      "path": "inputs/first-kernel-forward-closure.md",
+      "bytes": 18052,
+      "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+    },
+    {
+      "path": "inputs/orthogonal-top-incidence.md",
+      "bytes": 28094,
+      "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+    },
+    {
+      "path": "inputs/r13-extension-incidence.md",
+      "bytes": 19230,
+      "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9109,
+      "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+    }
+  ],
+  "original_frozen_core_and_freeze_unchanged": true,
+  "two_new_independent_clean_selected_only_directories": true,
+  "normal_and_optimized_in_each_directory": true,
+  "complete_outputs_identical": true,
+  "author_evidence_crosschecked_but_not_reused": true,
+  "directories": [
+    {
+      "directory_index": 1,
+      "path": "/tmp/reviewer-gluing-kernel-selected-1-xcndmnzy",
+      "created_empty_at_utc": "2026-10-24T13:24:12.337276+00:00",
+      "inventory_before_runs": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after_runs": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ]
+    },
+    {
+      "directory_index": 2,
+      "path": "/tmp/reviewer-gluing-kernel-selected-2-thg11ybi",
+      "created_empty_at_utc": "2026-10-24T13:24:12.461884+00:00",
+      "inventory_before_runs": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after_runs": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ]
+    }
+  ],
+  "runs": [
+    {
+      "directory_index": 1,
+      "clean_directory": "/tmp/reviewer-gluing-kernel-selected-1-xcndmnzy",
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T13:24:12.339621+00:00",
+      "completed_at_utc": "2026-10-24T13:24:12.365895+00:00",
+      "exit_code": 0,
+      "inventory_before": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "stdout": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea\",\n  \"checks_passed\": 116,\n  \"complete_direct_inputs\": 4,\n  \"frozen_sha256\": \"78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89\",\n  \"maximum_symmetric_degree\": 7,\n  \"proof_sha256\": \"b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807\",\n  \"scope\": \"Exact bytes and fixed small character/degree identities only; no geometry or actual maps.\",\n  \"selected_core_files\": 10,\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_file": "evidence/reviewer-replay-1-normal.stdout",
+      "stderr_file": "evidence/reviewer-replay-1-normal.stderr",
+      "stdout_sha256": "5d0eced28c3b4258868f7fa14ff51265fcfb22ed33be8004b0303f11ea145d1c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea",
+        "checks_passed": 116,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89",
+        "maximum_symmetric_degree": 7,
+        "proof_sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807",
+        "scope": "Exact bytes and fixed small character/degree identities only; no geometry or actual maps.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      }
+    },
+    {
+      "directory_index": 1,
+      "clean_directory": "/tmp/reviewer-gluing-kernel-selected-1-xcndmnzy",
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T13:24:12.367487+00:00",
+      "completed_at_utc": "2026-10-24T13:24:12.459541+00:00",
+      "exit_code": 0,
+      "inventory_before": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "stdout": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea\",\n  \"checks_passed\": 116,\n  \"complete_direct_inputs\": 4,\n  \"frozen_sha256\": \"78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89\",\n  \"maximum_symmetric_degree\": 7,\n  \"proof_sha256\": \"b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807\",\n  \"scope\": \"Exact bytes and fixed small character/degree identities only; no geometry or actual maps.\",\n  \"selected_core_files\": 10,\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_file": "evidence/reviewer-replay-1-optimized.stdout",
+      "stderr_file": "evidence/reviewer-replay-1-optimized.stderr",
+      "stdout_sha256": "5d0eced28c3b4258868f7fa14ff51265fcfb22ed33be8004b0303f11ea145d1c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea",
+        "checks_passed": 116,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89",
+        "maximum_symmetric_degree": 7,
+        "proof_sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807",
+        "scope": "Exact bytes and fixed small character/degree identities only; no geometry or actual maps.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      }
+    },
+    {
+      "directory_index": 2,
+      "clean_directory": "/tmp/reviewer-gluing-kernel-selected-2-thg11ybi",
+      "mode": "normal",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T13:24:12.463989+00:00",
+      "completed_at_utc": "2026-10-24T13:24:12.492465+00:00",
+      "exit_code": 0,
+      "inventory_before": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "stdout": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea\",\n  \"checks_passed\": 116,\n  \"complete_direct_inputs\": 4,\n  \"frozen_sha256\": \"78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89\",\n  \"maximum_symmetric_degree\": 7,\n  \"proof_sha256\": \"b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807\",\n  \"scope\": \"Exact bytes and fixed small character/degree identities only; no geometry or actual maps.\",\n  \"selected_core_files\": 10,\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_file": "evidence/reviewer-replay-2-normal.stdout",
+      "stderr_file": "evidence/reviewer-replay-2-normal.stderr",
+      "stdout_sha256": "5d0eced28c3b4258868f7fa14ff51265fcfb22ed33be8004b0303f11ea145d1c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea",
+        "checks_passed": 116,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89",
+        "maximum_symmetric_degree": 7,
+        "proof_sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807",
+        "scope": "Exact bytes and fixed small character/degree identities only; no geometry or actual maps.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      }
+    },
+    {
+      "directory_index": 2,
+      "clean_directory": "/tmp/reviewer-gluing-kernel-selected-2-thg11ybi",
+      "mode": "optimized",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-O",
+        "verify.py"
+      ],
+      "started_at_utc": "2026-10-24T13:24:12.493901+00:00",
+      "completed_at_utc": "2026-10-24T13:24:12.583324+00:00",
+      "exit_code": 0,
+      "inventory_before": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "inventory_after": [
+        {
+          "path": "FROZEN.json",
+          "bytes": 1818,
+          "sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89"
+        },
+        {
+          "path": "INPUTS.json",
+          "bytes": 14721,
+          "sha256": "2684a4c05582e59b6a6d783b12b8ad893298fa279a2798fe9c2b7467e7e2a654"
+        },
+        {
+          "path": "INPUTS.md",
+          "bytes": 7359,
+          "sha256": "9a695c78ef3d6589f0f8f022857c53ae37adf3f1d39d502fc9a5f7b79eb7b48f"
+        },
+        {
+          "path": "PROOF.md",
+          "bytes": 21478,
+          "sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "bytes": 7334,
+          "sha256": "ee0fb75051f3a442498179b58010146311cd445c04358836ca4444189e3b5bdb"
+        },
+        {
+          "path": "README.md",
+          "bytes": 3434,
+          "sha256": "a775bddc3f68c7f1677f40149bc2e4fd5f688eb278c06e23ce05e4f5746b8a59"
+        },
+        {
+          "path": "inputs/f18-gluing-surjectivity.md",
+          "bytes": 12798,
+          "sha256": "3919909cd67055e266299a0841e4642c465185eba28500a3b00b4a284f93693a"
+        },
+        {
+          "path": "inputs/first-kernel-forward-closure.md",
+          "bytes": 18052,
+          "sha256": "90081703a5e2a988a29e4d5bb918a93df4d4a954221a9bcba4cd858b0fa28137"
+        },
+        {
+          "path": "inputs/orthogonal-top-incidence.md",
+          "bytes": 28094,
+          "sha256": "407d35049bb17ab4b8f4e270627adb416fc5601eab1445a21685f2cc27bcb637"
+        },
+        {
+          "path": "inputs/r13-extension-incidence.md",
+          "bytes": 19230,
+          "sha256": "4819cebda47b3ef7a48ecbcb1fe01295a3a3a7ea7986df540421e1433d547b21"
+        },
+        {
+          "path": "verify.py",
+          "bytes": 9109,
+          "sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea"
+        }
+      ],
+      "stdout": "{\n  \"checker_is_not_proof\": true,\n  \"checker_sha256\": \"98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea\",\n  \"checks_passed\": 116,\n  \"complete_direct_inputs\": 4,\n  \"frozen_sha256\": \"78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89\",\n  \"maximum_symmetric_degree\": 7,\n  \"proof_sha256\": \"b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807\",\n  \"scope\": \"Exact bytes and fixed small character/degree identities only; no geometry or actual maps.\",\n  \"selected_core_files\": 10,\n  \"status\": \"PASS\"\n}\n",
+      "stderr": "",
+      "stdout_file": "evidence/reviewer-replay-2-optimized.stdout",
+      "stderr_file": "evidence/reviewer-replay-2-optimized.stderr",
+      "stdout_sha256": "5d0eced28c3b4258868f7fa14ff51265fcfb22ed33be8004b0303f11ea145d1c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "result": {
+        "checker_is_not_proof": true,
+        "checker_sha256": "98b72a8bbec9b7ee7da7636de5f191c9042b38f7d4cc4b5b9b7a2c451f6cc3ea",
+        "checks_passed": 116,
+        "complete_direct_inputs": 4,
+        "frozen_sha256": "78235458ecdba60eae419d90874fb080542d89c84185f285c65f05708fab6e89",
+        "maximum_symmetric_degree": 7,
+        "proof_sha256": "b20161802eb43ae4a69de779146be620126fe2a0332afd0f19929517b7806807",
+        "scope": "Exact bytes and fixed small character/degree identities only; no geometry or actual maps.",
+        "selected_core_files": 10,
+        "status": "PASS"
+      }
+    }
+  ]
+}
