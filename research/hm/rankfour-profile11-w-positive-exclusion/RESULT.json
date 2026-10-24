@@ -1,0 +1,50 @@
+{
+  "E0_rank_degree": [
+    16,
+    -46
+  ],
+  "G0_rank_degree": [
+    8,
+    -22
+  ],
+  "J_rank_degree": [
+    8,
+    -24
+  ],
+  "Jminus_rank_degree": [
+    7,
+    -28
+  ],
+  "K_rank_degree": [
+    13,
+    -56
+  ],
+  "capacity_upper_bound": -42,
+  "checks": 62,
+  "contradiction_gap": 18,
+  "excluded_primal": "W(3)+O(4)+O(-8)",
+  "proof_sha256": "eacf658ecef85350c36591f25f80cae14408869d56f077d371982a5311e0232f",
+  "qK_source_block_rank_upper_bounds": [
+    0,
+    3,
+    2,
+    1
+  ],
+  "rank_seven_kernel_degree": -24,
+  "scope": "Fixed representation/Hom, source-block rank upper bounds, and one stated seven-line capacity sum. No actual coefficients, matrices or instance ranks.",
+  "semantic_controls": {
+    "a degree twelve row would not exclude the smallest invariant divisor": true,
+    "an upper rank seven would not force the same rank-one conclusion": true,
+    "four kernel lines would not yield this degree contradiction": true
+  },
+  "seven_line_degree_upper_bounds": [
+    0,
+    -2,
+    -4,
+    -6,
+    -8,
+    -10,
+    -12
+  ],
+  "status": "PASS"
+}
