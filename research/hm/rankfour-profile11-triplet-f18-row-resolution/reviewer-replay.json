@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "reviewer": "New independent entire-proof review",
+  "started_at_utc": "2026-10-24T12:25:44.996734+00:00",
+  "selection": [
+    "FROZEN.json",
+    "INPUTS.json",
+    "INPUTS.md",
+    "PROOF.md",
+    "PROVENANCE.md",
+    "README.md",
+    "inputs/shared-d-gluing.md",
+    "inputs/stationary-section-kernel.md",
+    "verify.py"
+  ],
+  "selection_count": 9,
+  "selected_file_sha256": {
+    "PROOF.md": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+    "README.md": "3560918313863e00fa7ba37cf84595724dfa901bf426f8486276eabb50612762",
+    "INPUTS.md": "ff7ea5366b2f20dd08bb6c81f8a12aeab60bb5e0c43a9abd6e159b5ceda33ac6",
+    "INPUTS.json": "ca147591bf89fe49e3987ad6c096848fa8f718bb2db70ea7af29c9aa0d34dcd2",
+    "PROVENANCE.md": "99d1dce5c34d6a35e253e3ec768f47d17030cd4c0bd194b60051d2a4dd730885",
+    "verify.py": "5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2",
+    "inputs/stationary-section-kernel.md": "7835e0a0e6769163dca0ad2ed0a62e3c79a491dc6ebc39e5f8c988d9a9ec6de2",
+    "inputs/shared-d-gluing.md": "7043302b3fb672f02777d44aac67e4579ac3421bc9cad66af3655a503d2b6bb7",
+    "FROZEN.json": "2f613894d092be9f87658f1574c54909c8dc12004aaa8e5abba5076e901123e7"
+  },
+  "proof_utf8_bytes": 15616,
+  "proof_sha256": "cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc",
+  "checker_sha256": "5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2",
+  "frozen_manifest_sha256": "2f613894d092be9f87658f1574c54909c8dc12004aaa8e5abba5076e901123e7",
+  "authentication_report_sha256": "002b75371564e4d804f9e9f6b8058bfea1157d19ec451623e0ac84bb13a9b1db",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "clean_replays": [
+    {
+      "directory": "/tmp/independent-f18-row-review-1-9f_6q3h9",
+      "inventory_before": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/shared-d-gluing.md",
+        "inputs/stationary-section-kernel.md",
+        "verify.py"
+      ],
+      "runs": [
+        {
+          "mode": "normal",
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "verify.py"
+          ],
+          "started_at_utc": "2026-10-24T12:25:44.997675+00:00",
+          "completed_at_utc": "2026-10-24T12:25:45.024267+00:00",
+          "exit_code": 0,
+          "stdout": "PASS: 104 bounded checks {\"authentication\": 31, \"characters\": 46, \"degrees\": 27}\nEntire frozen proof SHA256: cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc\nEntire frozen checker SHA256: 5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2\nExactly two complete direct originals authenticated; all eight frozen core files match.\nChecks are hashes and fixed universal arithmetic, not proof or actual-source evaluation.\nConditional first F18 alternative and equivariantly split E0 extension only; no K1 exclusion or realization, horizontal splitting, higher-order matching, or algebraicity.\n",
+          "stdout_sha256": "cacf4ec322f7887ba4d02e4941d5e5fc067be0a4294b492343315ca6e9590721",
+          "stderr": "",
+          "check_count": 104,
+          "check_counts": {
+            "authentication": 31,
+            "characters": 46,
+            "degrees": 27
+          }
+        },
+        {
+          "mode": "optimized",
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "-O",
+            "verify.py"
+          ],
+          "started_at_utc": "2026-10-24T12:25:45.024296+00:00",
+          "completed_at_utc": "2026-10-24T12:25:45.116088+00:00",
+          "exit_code": 0,
+          "stdout": "PASS: 104 bounded checks {\"authentication\": 31, \"characters\": 46, \"degrees\": 27}\nEntire frozen proof SHA256: cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc\nEntire frozen checker SHA256: 5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2\nExactly two complete direct originals authenticated; all eight frozen core files match.\nChecks are hashes and fixed universal arithmetic, not proof or actual-source evaluation.\nConditional first F18 alternative and equivariantly split E0 extension only; no K1 exclusion or realization, horizontal splitting, higher-order matching, or algebraicity.\n",
+          "stdout_sha256": "cacf4ec322f7887ba4d02e4941d5e5fc067be0a4294b492343315ca6e9590721",
+          "stderr": "",
+          "check_count": 104,
+          "check_counts": {
+            "authentication": 31,
+            "characters": 46,
+            "degrees": 27
+          }
+        }
+      ],
+      "inventory_after": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/shared-d-gluing.md",
+        "inputs/stationary-section-kernel.md",
+        "verify.py"
+      ],
+      "all_selected_files_unchanged": true
+    },
+    {
+      "directory": "/tmp/independent-f18-row-review-2-5sq91t0y",
+      "inventory_before": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/shared-d-gluing.md",
+        "inputs/stationary-section-kernel.md",
+        "verify.py"
+      ],
+      "runs": [
+        {
+          "mode": "normal",
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "verify.py"
+          ],
+          "started_at_utc": "2026-10-24T12:25:45.117455+00:00",
+          "completed_at_utc": "2026-10-24T12:25:45.144416+00:00",
+          "exit_code": 0,
+          "stdout": "PASS: 104 bounded checks {\"authentication\": 31, \"characters\": 46, \"degrees\": 27}\nEntire frozen proof SHA256: cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc\nEntire frozen checker SHA256: 5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2\nExactly two complete direct originals authenticated; all eight frozen core files match.\nChecks are hashes and fixed universal arithmetic, not proof or actual-source evaluation.\nConditional first F18 alternative and equivariantly split E0 extension only; no K1 exclusion or realization, horizontal splitting, higher-order matching, or algebraicity.\n",
+          "stdout_sha256": "cacf4ec322f7887ba4d02e4941d5e5fc067be0a4294b492343315ca6e9590721",
+          "stderr": "",
+          "check_count": 104,
+          "check_counts": {
+            "authentication": 31,
+            "characters": 46,
+            "degrees": 27
+          }
+        },
+        {
+          "mode": "optimized",
+          "command": [
+            "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+            "-O",
+            "verify.py"
+          ],
+          "started_at_utc": "2026-10-24T12:25:45.144450+00:00",
+          "completed_at_utc": "2026-10-24T12:25:45.250751+00:00",
+          "exit_code": 0,
+          "stdout": "PASS: 104 bounded checks {\"authentication\": 31, \"characters\": 46, \"degrees\": 27}\nEntire frozen proof SHA256: cd28b6dba69d23ef905f4816dcd1a7a3165bd8b337169ab0a6acb10a15ac06dc\nEntire frozen checker SHA256: 5756bf75854bd8f9f0a7f2435a79e43c61ed23a8dcfe75c53aa2a32bdf6617e2\nExactly two complete direct originals authenticated; all eight frozen core files match.\nChecks are hashes and fixed universal arithmetic, not proof or actual-source evaluation.\nConditional first F18 alternative and equivariantly split E0 extension only; no K1 exclusion or realization, horizontal splitting, higher-order matching, or algebraicity.\n",
+          "stdout_sha256": "cacf4ec322f7887ba4d02e4941d5e5fc067be0a4294b492343315ca6e9590721",
+          "stderr": "",
+          "check_count": 104,
+          "check_counts": {
+            "authentication": 31,
+            "characters": 46,
+            "degrees": 27
+          }
+        }
+      ],
+      "inventory_after": [
+        "FROZEN.json",
+        "INPUTS.json",
+        "INPUTS.md",
+        "PROOF.md",
+        "PROVENANCE.md",
+        "README.md",
+        "inputs/shared-d-gluing.md",
+        "inputs/stationary-section-kernel.md",
+        "verify.py"
+      ],
+      "all_selected_files_unchanged": true
+    }
+  ],
+  "boundary": "Read-only file authentication and the frozen checker only. No actual HM/source data, coefficients, points, parameters, jets, tensors, matrices, scalars, eigenlines, or instance ranks evaluated; no broad scan or large computation.",
+  "completed_at_utc": "2026-10-24T12:25:45.251719+00:00",
+  "all_four_outputs_identical": true,
+  "all_four_exit_codes_zero": true,
+  "all_runs_have_identical_104_checks": true,
+  "original_frozen_files_unchanged": true
+}
